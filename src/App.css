@@ -392,6 +392,37 @@
   font-weight: 600;
 }
 
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar__logo-icon {
+  width: 20px;
+  height: 20px;
+  background: var(--accent);
+  border-radius: 4px;
+}
+
+.sidebar__logo-text {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.sidebar__actions {
+  display: flex;
+  gap: 6px;
+}
+
 /* Mobile layout */
 @media (max-width: 1023px) {
   .app {
