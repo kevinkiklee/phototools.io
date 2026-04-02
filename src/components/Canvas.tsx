@@ -359,14 +359,16 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
     }
   }, [canvasRef])
 
-  // Touch handlers
+  // Touch handlers — allow page scroll unless dragging an overlay
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
     if (e.touches.length !== 1) return
     const t = e.touches[0]
     if (startDrag(t.clientX, t.clientY)) {
+      // Lock touch to drag (prevent scroll) while dragging
+      if (canvasRef.current) canvasRef.current.style.touchAction = 'none'
       e.preventDefault()
     }
-  }, [startDrag])
+  }, [startDrag, canvasRef])
 
   const handleTouchMove = useCallback((e: React.TouchEvent) => {
     if (!dragRef.current || e.touches.length !== 1) return
@@ -377,7 +379,9 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
 
   const handleTouchEnd = useCallback(() => {
     dragRef.current = null
-  }, [])
+    // Restore scroll ability
+    if (canvasRef.current) canvasRef.current.style.touchAction = ''
+  }, [canvasRef])
 
   return (
     <canvas

@@ -6,6 +6,7 @@ export const FOCAL_LENGTHS: FocalLengthPreset[] = [
   { value: 20, label: null },
   { value: 24, label: 'Wide' },
   { value: 35, label: null },
+  { value: 40, label: null },
   { value: 50, label: 'Normal' },
   { value: 85, label: 'Portrait' },
   { value: 135, label: null },
