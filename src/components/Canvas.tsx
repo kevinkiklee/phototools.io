@@ -95,21 +95,43 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
       ctx.strokeRect(r.x, r.y, r.w, r.h)
     }
 
-    // Labels
+    // Labels with background pill for readability
     const fontSize = 12 * dpr
+    const padX = 6 * dpr
+    const padY = 3 * dpr
     ctx.font = `600 ${fontSize}px -apple-system, BlinkMacSystemFont, sans-serif`
 
     for (const r of rects) {
       const text = `${r.label} — ${r.focalLength}mm`
-      ctx.fillStyle = r.color
-      // Label above top-left of rect
+      const metrics = ctx.measureText(text)
+      const textW = metrics.width
+      const textH = fontSize
+
+      // Position: above top-left, or inside if too close to top
       const labelY = r.y - 6 * dpr
-      if (labelY > 10 * dpr) {
-        ctx.fillText(text, r.x + 8 * dpr, labelY)
+      let tx: number, ty: number
+      if (labelY > textH + padY * 2) {
+        tx = r.x + 4 * dpr
+        ty = labelY
       } else {
-        // If too close to top, put inside
-        ctx.fillText(text, r.x + 8 * dpr, r.y + 18 * dpr)
+        tx = r.x + 8 * dpr
+        ty = r.y + 18 * dpr
       }
+
+      // Draw background pill
+      const pillX = tx - padX
+      const pillY = ty - textH - padY + 2 * dpr
+      const pillW = textW + padX * 2
+      const pillH = textH + padY * 2
+      const pillR = 4 * dpr
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.6)'
+      ctx.beginPath()
+      ctx.roundRect(pillX, pillY, pillW, pillH, pillR)
+      ctx.fill()
+
+      // Draw text
+      ctx.fillStyle = r.color
+      ctx.fillText(text, tx, ty)
     }
   }, [canvasRef, computeRects])
 
