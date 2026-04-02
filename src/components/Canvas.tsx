@@ -97,32 +97,43 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
     const rects = computeRects(canvas)
     if (rects.length === 0) return
 
-    // Draw rect borders with dashed pattern alternating colors when overlapping
+    // Group rects by same size for overlapping border handling
     const lineW = 3 * dpr
     const half = lineW / 2
     const dashLen = 10 * dpr
+    const drawn = new Set<number>()
 
-    for (const r of rects) {
+    for (let i = 0; i < rects.length; i++) {
+      if (drawn.has(i)) continue
+      const r = rects[i]
       const rx = Math.max(half, r.x)
       const ry = Math.max(half, r.y)
       const rr = Math.min(w - half, r.x + r.w)
       const rb = Math.min(h - half, r.y + r.h)
 
-      // Check if any other rect overlaps this one (same size = overlapping)
-      const overlapping = rects.filter((o) => o !== r && Math.abs(o.w - r.w) < 2 && Math.abs(o.h - r.h) < 2)
+      // Find all rects overlapping this one (same size)
+      const group = [r]
+      for (let j = i + 1; j < rects.length; j++) {
+        if (drawn.has(j)) continue
+        const o = rects[j]
+        if (Math.abs(o.w - r.w) < 2 && Math.abs(o.h - r.h) < 2) {
+          group.push(o)
+          drawn.add(j)
+        }
+      }
+      drawn.add(i)
 
-      if (overlapping.length > 0) {
-        // Draw alternating dashed border
+      if (group.length > 1) {
+        // Alternating dashed border with all colors in the group
         ctx.lineWidth = lineW
-        ctx.setLineDash([dashLen, dashLen])
-        // First color: this rect
-        ctx.lineDashOffset = 0
-        ctx.strokeStyle = r.color
-        ctx.strokeRect(rx, ry, rr - rx, rb - ry)
-        // Second color: first overlapping rect
-        ctx.lineDashOffset = dashLen
-        ctx.strokeStyle = overlapping[0].color
-        ctx.strokeRect(rx, ry, rr - rx, rb - ry)
+        const segLen = dashLen
+        const totalColors = group.length
+        ctx.setLineDash([segLen, segLen * (totalColors - 1)])
+        for (let c = 0; c < totalColors; c++) {
+          ctx.lineDashOffset = -c * segLen
+          ctx.strokeStyle = group[c].color
+          ctx.strokeRect(rx, ry, rr - rx, rb - ry)
+        }
         ctx.setLineDash([])
       } else {
         ctx.strokeStyle = r.color
@@ -132,44 +143,49 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
       }
     }
 
-    // Labels — always show all, stacked vertically when at same position
+    // Labels — always show all, A above B above C (A closest to rect edge)
     const fontSize = 12 * dpr
     const padX = 6 * dpr
     const padY = 3 * dpr
     ctx.font = `600 ${fontSize}px -apple-system, BlinkMacSystemFont, sans-serif`
 
-    // Group rects that have the same position (overlapping)
-    const labelOffsets: Record<string, number> = {}
-
+    // Group rects by position for label stacking
+    const labelGroups: Record<string, Rect[]> = {}
     for (const r of rects) {
-      const text = `${r.label} — ${r.focalLength}mm`
-      const metrics = ctx.measureText(text)
-      const textW = metrics.width
-      const textH = fontSize
-      const pillH = textH + padY * 2
-
-      // Track stacking for overlapping rects
       const posKey = `${Math.round(r.x)},${Math.round(r.y)}`
-      const stackIndex = labelOffsets[posKey] ?? 0
-      labelOffsets[posKey] = stackIndex + 1
+      if (!labelGroups[posKey]) labelGroups[posKey] = []
+      labelGroups[posKey].push(r)
+    }
 
-      // Position: above top-left, stacked down for overlapping labels
-      const baseY = r.y - 6 * dpr
-      let tx: number, ty: number
-      if (baseY > (pillH * (stackIndex + 1)) + 4 * dpr) {
-        tx = r.x + 4 * dpr
-        ty = baseY - stackIndex * (pillH + 2 * dpr)
-      } else {
-        tx = r.x + 8 * dpr
-        ty = r.y + 18 * dpr + stackIndex * (pillH + 2 * dpr)
-      }
+    for (const group of Object.values(labelGroups)) {
+      // Sort by index so A is first (closest to rect), then B, then C
+      group.sort((a, b) => a.index - b.index)
 
-      // Draw background pill
-      const pillX = tx - padX
-      const pillY = ty - textH - padY + 2 * dpr
-      const pillW = textW + padX * 2
-      const pillR = 4 * dpr
-      r.pill = { x: pillX, y: pillY, w: pillW, h: pillH }
+      for (let si = 0; si < group.length; si++) {
+        const r = group[si]
+        const text = `${r.label} — ${r.focalLength}mm`
+        const metrics = ctx.measureText(text)
+        const textW = metrics.width
+        const textH = fontSize
+        const pillH = textH + padY * 2
+
+        // Stack upward: A closest to rect, B above A, C above B
+        const baseY = r.y - 6 * dpr
+        let tx: number, ty: number
+        if (baseY > (pillH * group.length) + 4 * dpr) {
+          tx = r.x + 4 * dpr
+          ty = baseY - si * (pillH + 2 * dpr)
+        } else {
+          tx = r.x + 8 * dpr
+          ty = r.y + 18 * dpr + si * (pillH + 2 * dpr)
+        }
+
+        // Draw background pill
+        const pillX = tx - padX
+        const pillY = ty - textH - padY + 2 * dpr
+        const pillW = textW + padX * 2
+        const pillR = 4 * dpr
+        r.pill = { x: pillX, y: pillY, w: pillW, h: pillH }
 
       ctx.fillStyle = 'rgba(0, 0, 0, 0.6)'
       ctx.beginPath()
@@ -179,6 +195,7 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
       // Draw text
       ctx.fillStyle = r.color
       ctx.fillText(text, tx, ty)
+      }
     }
 
     // Store rects with pill bounds for hit testing
