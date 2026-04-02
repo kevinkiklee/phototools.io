@@ -15,6 +15,13 @@ interface CanvasProps {
 // 14mm full frame = edge of the photo. Wider lenses render outside.
 const REF_FOV = calcFOV(14, 1.0)
 
+interface PillBounds {
+  x: number
+  y: number
+  w: number
+  h: number
+}
+
 interface Rect {
   x: number
   y: number
@@ -25,6 +32,7 @@ interface Rect {
   index: number
   focalLength: number
   fov: { horizontal: number; vertical: number }
+  pill?: PillBounds
 }
 
 export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasProps) {
@@ -130,6 +138,9 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
       const pillW = textW + padX * 2
       const pillH = textH + padY * 2
       const pillR = 4 * dpr
+      // Store pill bounds for hit testing
+      r.pill = { x: pillX, y: pillY, w: pillW, h: pillH }
+
       ctx.fillStyle = 'rgba(0, 0, 0, 0.6)'
       ctx.beginPath()
       ctx.roundRect(pillX, pillY, pillW, pillH, pillR)
@@ -348,29 +359,11 @@ function hitTestRect(r: Rect, cx: number, cy: number): boolean {
   const hitY = r.y + r.h / 2 - hitH / 2
   if (cx >= hitX && cx <= hitX + hitW && cy >= hitY && cy <= hitY + hitH) return true
 
-  // Test the label pill area
-  const fontSize = 12 * dpr
-  const padX = 6 * dpr
-  const padY = 3 * dpr
-  // Approximate label width (can't measure without ctx, use estimate)
-  const labelW = (r.label.length + r.focalLength.toString().length + 5) * fontSize * 0.6
-  const textH = fontSize
-
-  const labelY = r.y - 6 * dpr
-  let tx: number, ty: number
-  if (labelY > textH + padY * 2) {
-    tx = r.x + 4 * dpr
-    ty = labelY
-  } else {
-    tx = r.x + 8 * dpr
-    ty = r.y + 18 * dpr
+  // Test the label pill (stored during draw)
+  if (r.pill) {
+    const p = r.pill
+    if (cx >= p.x && cx <= p.x + p.w && cy >= p.y && cy <= p.y + p.h) return true
   }
-
-  const pillX = tx - padX
-  const pillY = ty - textH - padY + 2 * dpr
-  const pillW = labelW + padX * 2
-  const pillH = textH + padY * 2
-  if (cx >= pillX && cx <= pillX + pillW && cy >= pillY && cy <= pillY + pillH) return true
 
   return false
 }
