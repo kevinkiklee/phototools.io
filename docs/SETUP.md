@@ -20,7 +20,7 @@ git clone <repo-url> && cd fov-viewer
 
 # Start dev server:
 npm run dev
-# Open http://localhost:5173/fov-viewer/
+# Open http://localhost:5173/
 ```
 
 ## Manual Setup
@@ -30,7 +30,7 @@ npm ci                # Install dependencies (lockfile-exact)
 npm run dev           # Start Vite dev server with HMR
 ```
 
-> **Note:** The app is served under `/fov-viewer/` base path, matching GitHub Pages deployment. Navigate to `http://localhost:5173/fov-viewer/` — not just `localhost:5173`.
+> The dev server runs at `http://localhost:5173/`.
 
 ## Available Scripts
 
@@ -195,7 +195,7 @@ sips --resampleWidth 1600 -s formatOptions 80 src/assets/new-image.jpg --out src
 
 | Issue | Fix |
 |-------|-----|
-| Blank page at `localhost:5173` | Navigate to `localhost:5173/fov-viewer/` (note the base path) |
+| Blank page at `localhost:5173` | Check the dev server is running (`npm run dev`) |
 | `npm ci` fails | Delete `node_modules` and retry, or ensure Node 20+ |
 | Tests fail to run | Run `npm ci` to ensure vitest is installed |
 | Build fails on types | Run `npx tsc --noEmit` to see TypeScript errors |

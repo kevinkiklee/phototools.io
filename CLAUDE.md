@@ -15,7 +15,7 @@ FOV Viewer is a static React app for comparing camera focal lengths and visualiz
 
 ## Commands
 
-- `npm run dev` — start dev server at `http://localhost:5173/fov-viewer/`
+- `npm run dev` — start dev server at `http://localhost:5173/`
 - `npm run build` — type-check + production build to `dist/`
 - `npm test` — run Vitest tests
 - `npm run test:watch` — run tests in watch mode
@@ -71,7 +71,7 @@ FOV Viewer is a static React app for comparing camera focal lengths and visualiz
 - Named exports for all components
 - Types in `src/types.ts`
 - No external UI libraries — keep it dependency-free
-- GitHub Pages base path: `/fov-viewer/` (set in `vite.config.ts`)
+- Custom domain: `fov-viewer.iser.io` (CNAME in `public/CNAME`, base `/` in `vite.config.ts`)
 - Vitest configured with jsdom environment in `vite.config.ts`
 - Test files live next to source files (`*.test.ts`) except cross-cutting tests at `src/` root
 - CI pipeline: `npm ci` → `npm audit` → `npm run lint` → `npm test` → `npm run build` → deploy

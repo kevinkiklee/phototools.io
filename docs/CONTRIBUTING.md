@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Dev server runs at `http://localhost:5173/fov-viewer/`.
+Dev server runs at `http://localhost:5173/`.
 
 ## Development Workflow
 

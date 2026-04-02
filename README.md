@@ -2,7 +2,7 @@
 
 A browser-based tool that helps photographers visualize and compare field of view across different focal lengths and sensor sizes. Built for learning — understand how focal length and crop factor affect framing.
 
-**[Live Demo](https://kevinkiklee.github.io/fov-viewer/)**
+**[Live Demo](https://fov-viewer.iser.io/)**
 
 ![FOV Viewer Screenshot](docs/screenshot.png)
 
@@ -37,7 +37,7 @@ npm install
 npm run dev
 ```
 
-Dev server runs at `http://localhost:5173/fov-viewer/`.
+Dev server runs at `http://localhost:5173/`.
 
 ## Testing
 
