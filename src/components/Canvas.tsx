@@ -38,6 +38,7 @@ interface Rect {
 export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasProps) {
   const imageRef = useRef<HTMLImageElement | null>(null)
   const animFrameRef = useRef<number>(0)
+  const drawnRectsRef = useRef<Rect[]>([])
   // Custom offsets from center (in canvas pixels) for each lens, keyed by index
   const [offsets, setOffsets] = useState<Record<number, { dx: number; dy: number }>>({})
   const dragRef = useRef<{ index: number; startX: number; startY: number; origDx: number; origDy: number } | null>(null)
@@ -150,6 +151,9 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
       ctx.fillStyle = r.color
       ctx.fillText(text, tx, ty)
     }
+
+    // Store rects with pill bounds for hit testing
+    drawnRectsRef.current = rects
   }, [canvasRef, computeRects])
 
   // Load image
@@ -228,12 +232,10 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
   }, [canvasRef])
 
   const startDrag = useCallback((clientX: number, clientY: number): boolean => {
-    const canvas = canvasRef.current
-    if (!canvas) return false
+    if (!canvasRef.current) return false
     const { cx, cy } = getCanvasCoords(clientX, clientY)
-    const rects = computeRects(canvas)
 
-    const hit = [...rects]
+    const hit = [...drawnRectsRef.current]
       .sort((a, b) => (a.w * a.h) - (b.w * b.h))
       .find((r) => hitTestRect(r, cx, cy))
 
@@ -243,7 +245,7 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
       return true
     }
     return false
-  }, [canvasRef, computeRects, getCanvasCoords, offsets])
+  }, [canvasRef, getCanvasCoords, offsets])
 
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
     if (startDrag(e.clientX, e.clientY)) e.preventDefault()
@@ -290,11 +292,10 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
       moveDrag(e.clientX, e.clientY)
     } else {
       const { cx, cy } = getCanvasCoords(e.clientX, e.clientY)
-      const rects = computeRects(canvas)
-      const hover = rects.some((r) => hitTestRect(r, cx, cy))
+      const hover = drawnRectsRef.current.some((r) => hitTestRect(r, cx, cy))
       canvas.style.cursor = hover ? 'grab' : 'default'
     }
-  }, [canvasRef, computeRects, getCanvasCoords, moveDrag])
+  }, [canvasRef, getCanvasCoords, moveDrag])
 
   const handleMouseUp = useCallback(() => {
     dragRef.current = null
