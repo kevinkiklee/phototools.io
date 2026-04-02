@@ -205,10 +205,11 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
     return () => observer.disconnect()
   }, [canvasRef, draw, orientation])
 
-  // Reset offsets when lenses change
+  // Reset offsets when lenses change (count, focal length, or sensor)
+  const lensKey = lenses.map((l) => `${l.focalLength}-${l.sensorId}`).join('|')
   useEffect(() => {
     setOffsets({})
-  }, [lenses.length])
+  }, [lensKey])
 
   // Listen for center-overlays event
   useEffect(() => {
