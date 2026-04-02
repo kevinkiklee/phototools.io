@@ -154,4 +154,38 @@ describe('App reducer', () => {
     expect(state.lenses[1].sensorId).toBe('apsc_n')
     expect(state.activeLens).toBe(1)
   })
+
+  it('SET_LENS with out-of-bounds index leaves all lenses unchanged', () => {
+    const state = reducer(DEFAULT_STATE, { type: 'SET_LENS', payload: { index: 99, updates: { focalLength: 500 } } })
+    expect(state.lenses).toEqual(DEFAULT_STATE.lenses)
+  })
+
+  it('REMOVE_LENS preserves remaining lens data', () => {
+    // Start with 3 lenses, remove the middle one
+    let state = reducer(DEFAULT_STATE, { type: 'ADD_LENS' })
+    state = reducer(state, { type: 'SET_LENS', payload: { index: 0, updates: { focalLength: 24, sensorId: 'mf' } } })
+    state = reducer(state, { type: 'SET_LENS', payload: { index: 1, updates: { focalLength: 50, sensorId: 'apsc_n' } } })
+    state = reducer(state, { type: 'SET_LENS', payload: { index: 2, updates: { focalLength: 200, sensorId: 'm43' } } })
+    state = reducer(state, { type: 'REMOVE_LENS', payload: 1 })
+    expect(state.lenses.length).toBe(2)
+    expect(state.lenses[0].focalLength).toBe(24)
+    expect(state.lenses[0].sensorId).toBe('mf')
+    expect(state.lenses[1].focalLength).toBe(200)
+    expect(state.lenses[1].sensorId).toBe('m43')
+  })
+
+  it('ADD_LENS then REMOVE_LENS returns to original lens count', () => {
+    const initial = DEFAULT_STATE.lenses.length
+    let state = reducer(DEFAULT_STATE, { type: 'ADD_LENS' })
+    expect(state.lenses.length).toBe(initial + 1)
+    state = reducer(state, { type: 'REMOVE_LENS', payload: state.lenses.length - 1 })
+    expect(state.lenses.length).toBe(initial)
+  })
+
+  it('RESET after ADD_LENS restores original lens count', () => {
+    let state = reducer(DEFAULT_STATE, { type: 'ADD_LENS' })
+    state = reducer(state, { type: 'RESET' })
+    expect(state.lenses.length).toBe(DEFAULT_STATE.lenses.length)
+    expect(state.lenses).toEqual(DEFAULT_STATE.lenses)
+  })
 })

@@ -100,6 +100,30 @@ describe('parseQueryParams', () => {
     expect(result.lenses!.length).toBe(3)
     expect(result.lenses![2].focalLength).toBe(135)
   })
+
+  it('parses third lens sensor (sc)', () => {
+    window.history.replaceState(null, '', '/?a=24&b=50&c=135&sc=m43')
+    const result = parseQueryParams()
+    expect(result.lenses!.length).toBe(3)
+    expect(result.lenses![2].sensorId).toBe('m43')
+  })
+
+  it('collects only c lens if a and b are missing', () => {
+    // parser skips invalid/missing entries and collects valid ones
+    window.history.replaceState(null, '', '/?c=135')
+    const result = parseQueryParams()
+    expect(result.lenses!.length).toBe(1)
+    expect(result.lenses![0].focalLength).toBe(135)
+  })
+
+  it('skips invalid b and still collects a and c', () => {
+    // b is out of range, but a and c are valid — both get collected
+    window.history.replaceState(null, '', '/?a=50&b=9999&c=135')
+    const result = parseQueryParams()
+    expect(result.lenses!.length).toBe(2)
+    expect(result.lenses![0].focalLength).toBe(50)
+    expect(result.lenses![1].focalLength).toBe(135)
+  })
 })
 
 describe('stateToQueryString', () => {
@@ -154,5 +178,50 @@ describe('stateToQueryString', () => {
     expect(parsed.lenses![1].sensorId).toBe('apsc_c')
     expect(parsed.imageIndex).toBe(2)
     expect(parsed.theme).toBe('light')
+  })
+
+  it('serializes three lenses', () => {
+    const state: AppState = {
+      ...DEFAULT_STATE,
+      lenses: [
+        { focalLength: 24, sensorId: 'ff' },
+        { focalLength: 85, sensorId: 'apsc_n' },
+        { focalLength: 200, sensorId: 'm43' },
+      ],
+    }
+    const qs = stateToQueryString(state)
+    const params = new URLSearchParams(qs)
+    expect(params.get('a')).toBe('24')
+    expect(params.get('sa')).toBe('ff')
+    expect(params.get('b')).toBe('85')
+    expect(params.get('sb')).toBe('apsc_n')
+    expect(params.get('c')).toBe('200')
+    expect(params.get('sc')).toBe('m43')
+  })
+
+  it('three-lens state round-trips with parseQueryParams', () => {
+    const state: AppState = {
+      ...DEFAULT_STATE,
+      lenses: [
+        { focalLength: 14, sensorId: 'mf' },
+        { focalLength: 50, sensorId: 'ff' },
+        { focalLength: 400, sensorId: '1in' },
+      ],
+      theme: 'dark',
+      imageIndex: 1,
+    }
+    const qs = stateToQueryString(state)
+    window.history.replaceState(null, '', `/?${qs}`)
+    const parsed = parseQueryParams()
+
+    expect(parsed.lenses!.length).toBe(3)
+    expect(parsed.lenses![0].focalLength).toBe(14)
+    expect(parsed.lenses![0].sensorId).toBe('mf')
+    expect(parsed.lenses![1].focalLength).toBe(50)
+    expect(parsed.lenses![1].sensorId).toBe('ff')
+    expect(parsed.lenses![2].focalLength).toBe(400)
+    expect(parsed.lenses![2].sensorId).toBe('1in')
+    expect(parsed.imageIndex).toBe(1)
+    expect(parsed.theme).toBe('dark')
   })
 })

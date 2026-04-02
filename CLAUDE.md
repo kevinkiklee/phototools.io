@@ -47,7 +47,7 @@ FOV Viewer is a static React app for comparing camera focal lengths and visualiz
 - `src/hooks/useQuerySync.ts` — URL query param sync (tests in `useQuerySync.test.ts`)
 - `src/data/sensors.ts` — 6 sensor presets: MF, FF, APS-C (Nikon/Sony), APS-C (Canon), M4/3, 1" (tests in `sensors.test.ts`)
 - `src/data/focalLengths.ts` — 12 focal length presets, 8mm–800mm (tests in `focalLengths.test.ts`)
-- `src/data/scenes.ts` — 5 sample scenes (person, portrait, bird, city, milky way)
+- `src/data/scenes.ts` — 5 sample scenes (landscape/boat+lake, portrait, bird, city street, milky way)
 - `src/reducer.test.ts` — App reducer state transition tests
 - `src/integration.test.ts` — cross-module integration tests
 - `src/test-setup.ts` — Vitest setup (jest-dom matchers)
