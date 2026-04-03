@@ -29,30 +29,30 @@ export function LearnPanel({ slug }: LearnPanelProps) {
   const challenge = edu.challenges[challengeIndex]
 
   return (
-    <div className={styles.panel}>
-      <div className={styles.header}>
-        <span className={styles.headerTitle}>Learn</span>
+    <aside className={styles.panel}>
+      <header className={styles.header}>
+        <h2 className={styles.headerTitle}>Learn</h2>
         <span className={styles.spacer} />
         <button className={styles.closeBtn} onClick={() => setCollapsed(true)} aria-label="Collapse learn panel">
           &times;
         </button>
-      </div>
+      </header>
 
       {/* Beginner explanation */}
-      <div className={styles.section}>
+      <section className={styles.section}>
         <h3 className={styles.sectionTitle}>What is this?</h3>
         <p className={styles.sectionText}>{edu.beginner}</p>
-      </div>
+      </section>
 
       {/* Deeper explanation */}
-      <div className={styles.section}>
+      <section className={styles.section}>
         <h3 className={styles.sectionTitle}>How it works</h3>
         <p className={styles.sectionText}>{edu.deeper}</p>
-      </div>
+      </section>
 
       {/* Key factors */}
       {edu.keyFactors && edu.keyFactors.length > 0 && (
-        <div className={styles.section}>
+        <section className={styles.section}>
           <h3 className={styles.sectionTitle}>Key factors</h3>
           <div className={styles.factors}>
             {edu.keyFactors.map((f, i) => (
@@ -61,15 +61,15 @@ export function LearnPanel({ slug }: LearnPanelProps) {
               </div>
             ))}
           </div>
-        </div>
+        </section>
       )}
 
       {/* Pro tips */}
       {edu.tips.map((tip, i) => (
-        <div key={i} className={styles.tip}>
-          <div className={styles.tipLabel}>Pro Tip</div>
+        <section key={i} className={styles.tip}>
+          <h3 className={styles.tipLabel}>Pro Tip</h3>
           <div className={styles.tipText}>{tip.text}</div>
-        </div>
+        </section>
       ))}
 
       {/* Challenge section */}
@@ -94,7 +94,7 @@ export function LearnPanel({ slug }: LearnPanelProps) {
           />
         </>
       )}
-    </div>
+    </aside>
   )
 }
 
