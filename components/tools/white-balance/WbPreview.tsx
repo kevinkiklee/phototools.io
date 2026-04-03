@@ -5,11 +5,10 @@ import { useWbRenderer } from './useWbRenderer'
 import styles from './WbPreview.module.css'
 
 const SCENES = [
-  { id: 'landscape', label: 'Landscape', src: '/images/scenes/landscape-boat-lake.jpg' },
-  { id: 'portrait', label: 'Portrait', src: '/images/scenes/portrait-woman.jpg' },
-  { id: 'city', label: 'City Street', src: '/images/scenes/city-street.jpg' },
-  { id: 'wildlife', label: 'Wildlife', src: '/images/scenes/wildlife-condor.jpg' },
-  { id: 'milkyway', label: 'Milky Way', src: '/images/scenes/milky-way-night-sky.jpg' },
+  { id: 'landscape', label: 'Landscape', src: '/images/scenes/landscape.jpg' },
+  { id: 'cityscape', label: 'Cityscape', src: '/images/scenes/cityscape.jpg' },
+  { id: 'street', label: 'Street', src: '/images/scenes/street.jpg' },
+  { id: 'wildlife', label: 'Wildlife', src: '/images/scenes/wildlife.jpg' },
 ]
 
 interface WbPreviewProps {

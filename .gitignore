@@ -18,3 +18,9 @@ docs/superpowers
 
 # Build artifacts
 *.tsbuildinfo
+
+# AI context files
+GEMINI.md
+
+# Source examples (not published)
+examples/

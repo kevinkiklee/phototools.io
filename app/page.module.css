@@ -64,6 +64,22 @@
   background: var(--bg-secondary);
 }
 
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cardIcon {
+  flex-shrink: 0;
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+.card:hover .cardIcon {
+  opacity: 1;
+}
+
 .cardName {
   font-size: 14px;
   font-weight: 600;

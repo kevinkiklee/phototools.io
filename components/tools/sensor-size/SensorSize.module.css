@@ -64,6 +64,7 @@
 }
 
 .checkLabel {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -103,6 +104,14 @@
 .checkLabel input:checked ~ .checkName {
   color: var(--text-primary);
   font-weight: 600;
+}
+
+.checkLabel input:checked ~ .checkOutline {
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  border: 1.5px solid var(--text-secondary);
+  pointer-events: none;
 }
 
 /* ── Mode toggle ── */

@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { SCENES } from './scenes'
 
 describe('SCENES', () => {
-  it('has 5 scenes', () => { expect(SCENES).toHaveLength(5) })
+  it('has 4 scenes', () => { expect(SCENES).toHaveLength(4) })
   it('all have id, name, and src', () => {
     for (const s of SCENES) {
       expect(s.id).toBeTruthy()

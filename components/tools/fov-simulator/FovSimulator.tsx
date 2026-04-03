@@ -82,6 +82,7 @@ export function FovSimulator() {
   const [showShare, setShowShare] = useState(false)
   const [overlayOffsets, setOverlayOffsets] = useState<OverlayOffsets>({})
   const [cropExpanded, setCropExpanded] = useState(false)
+  const [drawVersion, setDrawVersion] = useState(0)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const cleanCanvasRef = useRef<HTMLCanvasElement>(null)
   const { theme, setTheme } = useTheme()
@@ -189,6 +190,7 @@ export function FovSimulator() {
               activeLens={state.activeLens}
               offsets={overlayOffsets}
               onOffsetsChange={setOverlayOffsets}
+              onDraw={() => setDrawVersion((v) => v + 1)}
             />
           </section>
 
@@ -202,6 +204,7 @@ export function FovSimulator() {
             expanded={cropExpanded}
             onToggleExpand={() => setCropExpanded((v) => !v)}
             cleanCanvasRef={cleanCanvasRef}
+            drawVersion={drawVersion}
           />
         </main>
         <LearnPanel slug="fov-simulator" />

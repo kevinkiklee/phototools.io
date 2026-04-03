@@ -8,6 +8,7 @@ import { useQueryInit, useToolQuerySync, intParam, strParam } from '@/lib/utils/
 import styles from './ColorHarmony.module.css'
 import { ColorWheel } from './ColorWheel'
 import { PhotoPicker } from './PhotoPicker'
+import { PhotoUploadPanel } from '@/components/shared/PhotoUploadPanel'
 
 type HarmonyType = 'complementary' | 'analogous' | 'triadic' | 'split-complementary' | 'tetradic'
 
@@ -95,6 +96,7 @@ export function ColorHarmony() {
     PARAM_SCHEMA,
   )
   const [showPhotoPicker, setShowPhotoPicker] = useState(false)
+  const [photoFile, setPhotoFile] = useState<File | undefined>(undefined)
   const [copiedHex, setCopiedHex] = useState<string | null>(null)
   const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
   const [hexDraft, setHexDraft] = useState<string | null>(null)
@@ -244,16 +246,14 @@ export function ColorHarmony() {
                 maxLength={7}
               />
             </div>
-            <button
-              className={styles.photoPickerBtn}
-              onClick={() => setShowPhotoPicker(true)}
-              title="Pick key color from a photo"
-            >
-              <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-                <path d="M14 1H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3.586l1.707 1.707a1 1 0 0 0 1.414 0L10.414 13H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm-6 9.5a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-              </svg>
-              Pick from photo
-            </button>
+            <PhotoUploadPanel
+              label="Pick from Photo"
+              prompt="Drop a photo here or click to browse"
+              onFile={(file) => {
+                setPhotoFile(file)
+                setShowPhotoPicker(true)
+              }}
+            />
           </div>
 
           <div className={styles.field}>
@@ -375,11 +375,16 @@ export function ColorHarmony() {
 
       {showPhotoPicker && (
         <PhotoPicker
+          initialFile={photoFile}
           onColorPick={(hex) => {
             applyHex(hex)
             setShowPhotoPicker(false)
+            setPhotoFile(undefined)
           }}
-          onClose={() => setShowPhotoPicker(false)}
+          onClose={() => {
+            setShowPhotoPicker(false)
+            setPhotoFile(undefined)
+          }}
         />
       )}
     </div>

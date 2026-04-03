@@ -19,10 +19,11 @@ interface CropThumbProps {
   isActive: boolean
   onSelect: () => void
   offset: { dx: number; dy: number }
+  drawVersion: number
   cleanCanvasRef: React.RefObject<HTMLCanvasElement | null>
 }
 
-function CropThumb({ lens, orientation, color, lensIndex, isActive, onSelect, offset, cleanCanvasRef }: CropThumbProps) {
+function CropThumb({ lens, orientation, color, lensIndex, isActive, onSelect, offset, drawVersion, cleanCanvasRef }: CropThumbProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   useEffect(() => {
@@ -32,6 +33,8 @@ function CropThumb({ lens, orientation, color, lensIndex, isActive, onSelect, of
 
     const parent = canvas.parentElement
     if (!parent) return
+    if (mainCanvas.width === 0 || mainCanvas.height === 0) return
+
     const dpr = window.devicePixelRatio || 1
     const displayW = parent.offsetWidth
     const displayH = parent.offsetHeight
@@ -63,10 +66,10 @@ function CropThumb({ lens, orientation, color, lensIndex, isActive, onSelect, of
     const rectX = (mainW - rectW) / 2 + offset.dx
     const rectY = (mainH - rectH) / 2 + offset.dy
 
-    // Copy that exact region from the main canvas
+    // Copy that exact region from the clean canvas (no overlays)
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     ctx.drawImage(mainCanvas, rectX, rectY, rectW, rectH, 0, 0, canvas.width, canvas.height)
-  }, [lens, orientation, offset, cleanCanvasRef])
+  }, [lens, orientation, offset, drawVersion, cleanCanvasRef])
 
   return (
     <button
@@ -91,9 +94,10 @@ interface CropStripProps {
   expanded: boolean
   onToggleExpand: () => void
   cleanCanvasRef: React.RefObject<HTMLCanvasElement | null>
+  drawVersion: number
 }
 
-export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelectLens, offsets, expanded, onToggleExpand, cleanCanvasRef }: CropStripProps) {
+export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelectLens, offsets, expanded, onToggleExpand, cleanCanvasRef, drawVersion }: CropStripProps) {
   return (
     <div className={`${styles.strip} ${expanded ? styles.stripExpanded : ''}`}>
       <div className={styles.stripHeader}>
@@ -105,7 +109,7 @@ export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelec
       <div className={styles.thumbs}>
         {lenses.map((lens, i) => (
           <CropThumb
-            key={`${i}-${imageIndex}`}
+            key={i}
             lens={lens}
             orientation={orientation}
             color={LENS_COLORS[i]}
@@ -113,6 +117,7 @@ export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelec
             isActive={activeLens === i}
             onSelect={() => onSelectLens(i)}
             offset={offsets[i] ?? { dx: 0, dy: 0 }}
+            drawVersion={drawVersion}
             cleanCanvasRef={cleanCanvasRef}
           />
         ))}

@@ -5,9 +5,8 @@ export interface Scene {
 }
 
 export const SCENES: Scene[] = [
-  { id: 'landscape', name: 'Landscape', src: '/images/scenes/landscape-boat-lake.jpg' },
-  { id: 'portrait', name: 'Portrait', src: '/images/scenes/portrait-woman.jpg' },
-  { id: 'wildlife', name: 'Wildlife', src: '/images/scenes/wildlife-condor.jpg' },
-  { id: 'city', name: 'City Street', src: '/images/scenes/city-street.jpg' },
-  { id: 'milkyway', name: 'Milky Way', src: '/images/scenes/milky-way-night-sky.jpg' },
+  { id: 'landscape', name: 'Landscape', src: '/images/scenes/landscape.jpg' },
+  { id: 'cityscape', name: 'Cityscape', src: '/images/scenes/cityscape.jpg' },
+  { id: 'street', name: 'Street', src: '/images/scenes/street.jpg' },
+  { id: 'wildlife', name: 'Wildlife', src: '/images/scenes/wildlife.jpg' },
 ]

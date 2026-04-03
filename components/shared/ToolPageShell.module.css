@@ -17,9 +17,17 @@
 }
 
 .title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 14px;
   font-weight: 600;
   margin: 0;
+}
+
+.titleIcon {
+  flex-shrink: 0;
+  color: var(--accent);
 }
 
 .description {

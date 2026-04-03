@@ -87,6 +87,7 @@ function ControlsPanel({
             />
             <span className={ss.checkDot} style={{ backgroundColor: s.color }} />
             <span className={ss.checkName}>{s.name}</span>
+            <span className={ss.checkOutline} />
           </label>
         ))}
       </div>

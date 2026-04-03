@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { getLiveTools } from '@/lib/data/tools'
+import { ToolIcon } from '@/components/shared/ToolIcon'
 import type { ToolCategory } from '@/lib/types'
 import styles from './page.module.css'
 
@@ -21,16 +22,17 @@ export default function HomePage() {
     .filter((g) => g.tools.length > 0)
 
   return (
-    <div className={styles.page}>
+    <main className={styles.page}>
       <div className={styles.hero}>
+        <h1 className="sr-only">PhotoTools — Free Photography Tools</h1>
         <p className={styles.heroDesc}>
           Free photography calculators, simulators, and references. No sign-up, no tracking, runs entirely in your browser.
         </p>
       </div>
 
       {grouped.map((group) => (
-        <div key={group.key} className={styles.category}>
-          <div className={styles.categoryLabel}>{group.label}</div>
+        <section key={group.key} className={styles.category}>
+          <h2 className={styles.categoryLabel}>{group.label}</h2>
           <div className={styles.grid}>
             {group.tools.map((tool) => (
               <Link
@@ -38,13 +40,16 @@ export default function HomePage() {
                 href={`/tools/${tool.slug}`}
                 className={styles.card}
               >
-                <span className={styles.cardName}>{tool.name}</span>
+                <div className={styles.cardHeader}>
+                  <ToolIcon slug={tool.slug} className={styles.cardIcon} />
+                  <h3 className={styles.cardName}>{tool.name}</h3>
+                </div>
                 <span className={styles.cardDesc}>{tool.description}</span>
               </Link>
             ))}
           </div>
-        </div>
+        </section>
       ))}
-    </div>
+    </main>
   )
 }

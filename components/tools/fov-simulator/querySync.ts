@@ -35,7 +35,7 @@ export function parseQueryParams(): Partial<FovSimulatorState> {
   if (lenses.length > 0) state.lenses = lenses
 
   const img = Number(params.get('img'))
-  if (!isNaN(img) && img >= 0 && img <= 4) state.imageIndex = img
+  if (!isNaN(img) && img >= 0 && img <= 3) state.imageIndex = img
 
   const dist = Number(params.get('dist'))
   if (Number.isInteger(dist) && dist >= 3 && dist <= 100) state.distance = dist

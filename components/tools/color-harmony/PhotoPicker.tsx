@@ -6,6 +6,8 @@ import styles from './PhotoPicker.module.css'
 interface PhotoPickerProps {
   onColorPick: (hex: string) => void
   onClose: () => void
+  /** Pre-selected file to load immediately */
+  initialFile?: File
 }
 
 function getPixelColor(ctx: CanvasRenderingContext2D, x: number, y: number): string {
@@ -23,7 +25,7 @@ interface MagnifierState {
   canvasY: number
 }
 
-export function PhotoPicker({ onColorPick, onClose }: PhotoPickerProps) {
+export function PhotoPicker({ onColorPick, onClose, initialFile }: PhotoPickerProps) {
   const [dragOver, setDragOver] = useState(false)
   const [imageLoaded, setImageLoaded] = useState(false)
   const [magnifier, setMagnifier] = useState<MagnifierState | null>(null)
@@ -66,6 +68,11 @@ export function PhotoPicker({ onColorPick, onClose }: PhotoPickerProps) {
     },
     [drawImage],
   )
+
+  // Load initial file if provided
+  useEffect(() => {
+    if (initialFile) loadFile(initialFile)
+  }, [initialFile, loadFile])
 
   // Redraw on window resize when image is loaded
   useEffect(() => {

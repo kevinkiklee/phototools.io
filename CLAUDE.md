@@ -29,7 +29,7 @@ PhotoTools is an educational photography application — free calculators, simul
 ## Architecture
 
 - **App Router**: all routes under `app/`. Homepage (`app/page.tsx`) is the tool hub. Each tool lives at `app/tools/[slug]/page.tsx`. Glossary at `app/learn/glossary/page.tsx`.
-- **Tool Registry**: `lib/data/tools.ts` defines all tools with slug, name, description, status (`live`/`draft`), and category. `getLiveTools()` returns all tools in development, only `live` tools in production. `getToolBySlug()` looks up by slug.
+- **Tool Registry**: `lib/data/tools.ts` defines all tools with slug, name, description, `dev`/`prod` status fields (`'live'`/`'draft'`), and category. `getLiveTools()` filters by the appropriate status per environment. `getToolBySlug()` looks up by slug.
 - **Education System**: `lib/data/education/` contains per-tool educational content (beginner/deeper explanations, key factors, pro tips, tooltips, challenges). `LearnPanel` renders as a right sidebar on every tool page.
 - **Pure Math Modules**: `lib/math/` contains pure functions for FOV, DOF, exposure (including shader math for CoC, motion blur, noise), diffraction, star trails, color, and histogram calculations. Each has co-located `.test.ts` files. TDD approach — math is tested independently from UI.
 - **Components**: organized into `components/layout/` (Nav, Footer, ThemeProvider, ThemeToggle), `components/shared/` (ToolPageShell, LearnPanel, InfoTooltip, ShareModal, ToolActions, FileDropZone, DraftBanner, Toast), and `components/tools/` (one directory per tool + `shared/` for cross-tool components).
@@ -41,7 +41,7 @@ PhotoTools is an educational photography application — free calculators, simul
 app/                    Routes (homepage, tools, learn/glossary)
 components/
   layout/               Nav (mega-menu), Footer, ThemeProvider, ThemeToggle
-  shared/               ToolPageShell, LearnPanel, InfoTooltip, ShareModal, ToolActions, FileDropZone, DraftBanner, Toast
+  shared/               ToolPageShell, LearnPanel, ToolIcon, InfoTooltip, ShareModal, ToolActions, FileDropZone, PhotoUploadPanel, DraftBanner, Toast, Breadcrumbs, JsonLd
   tools/                One directory per tool + shared/
 lib/
   math/                 Pure calculation modules (fov, dof, exposure, etc.)
@@ -54,11 +54,12 @@ public/                 Images, icons, manifest, sitemap, robots.txt
 
 ## Tool Visibility
 
-Tools have a `status` field in `lib/data/tools.ts`: `'live'` (visible in production) or `'draft'` (hidden in production, accessible only by direct URL with a draft banner).
+Each tool in `lib/data/tools.ts` has separate `dev` and `prod` status fields (`'live'` or `'draft'`). This allows independent control of visibility per environment.
 
-- **Development** (`npm run dev`): all tools are visible regardless of status.
-- **Production** (`npm run build`): only `'live'` tools appear in the homepage, nav mega-menu, and footer.
-- To publish a tool, change its status to `'live'` in `lib/data/tools.ts`.
+- **Development** (`npm run dev`): tools with `dev: 'live'` appear in the homepage, nav mega-menu, and footer.
+- **Production** (`npm run build`): tools with `prod: 'live'` appear.
+- Draft tools are still accessible by direct URL (shown with a draft banner).
+- To publish a tool, set its `prod` status to `'live'` in `lib/data/tools.ts`.
 
 ## Educational Layer
 
@@ -77,7 +78,8 @@ Content is defined as structured data in `lib/data/education/content.ts` and `co
 - **No page scroll.** The application must fit within the viewport (100vh). The page never scrolls — only individual panels (controls, canvas, LearnPanel) scroll internally via `overflow-y: auto`. This is a hard constraint for all tool pages and the homepage.
 - **FOV Simulator is the reference implementation.** All tools should match its look and feel: dark surface panels, compact controls, same spacing/typography tokens, and consistent use of `var(--accent)` for interactive elements.
 - **Three-column layout**: ToolPageShell renders tool content (left/center) + LearnPanel (right sidebar, collapsible). Full-height tools (FOV Simulator, Color Harmony) manage their own layout but include LearnPanel directly.
-- **Nav mega-menu**: Tools dropdown groups tools by category (Visualizers, Calculators, Reference, File Tools) with name + description per item.
+- **Tool icons**: Each tool has an inline SVG icon (`components/shared/ToolIcon.tsx`) displayed on homepage cards, nav mega-menu items, and tool page headers. Icons are mapped by slug.
+- **Nav mega-menu**: Tools dropdown groups tools by category (Visualizers, Calculators, Reference, File Tools) with icon + name + description per item.
 
 ## Conventions
 
@@ -87,7 +89,7 @@ Content is defined as structured data in `lib/data/education/content.ts` and `co
 - **Named exports** for all components
 - **No external UI libraries** — custom CSS only
 - **Test files** co-located next to source files (`*.test.ts`)
-- **14 test files, 170 tests** covering math, data, and integration
+- **14 test files, 171 tests** covering math, data, and integration
 
 ## Deployment
 

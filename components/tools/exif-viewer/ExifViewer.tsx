@@ -12,7 +12,7 @@ import type { HistogramData } from '@/lib/math/histogram'
 import styles from './ExifViewer.module.css'
 
 const DASH = '\u2014'
-const SAMPLE_PHOTO = '/images/exposure-simulator/landscape.jpg'
+const SAMPLE_PHOTO = '/images/samples/exif-example.jpg'
 
 const EXPOSURE_PROGRAMS: Record<string, string> = {
   '0': 'Not defined', '1': 'Manual', '2': 'Program AE', '3': 'Aperture Priority',
@@ -266,7 +266,7 @@ function AnalysisCards({ analysis }: { analysis: ExifResult['analysis'] }) {
 function drawSingleHistogram(
   canvas: HTMLCanvasElement,
   hist: HistogramData,
-  mode: 'luminance' | 'rgb' | 'channels',
+  mode: 'luminance' | 'red' | 'green' | 'blue',
 ) {
   const dpr = window.devicePixelRatio || 1
   const w = canvas.clientWidth
@@ -288,52 +288,38 @@ function drawSingleHistogram(
       const bh = (hist.luma[i] / max) * h
       ctx.fillRect((i / 255) * w, h - bh, barW, bh)
     }
-  } else if (mode === 'rgb') {
-    const max = Math.max(
-      ...hist.r.slice(1, 255),
-      ...hist.g.slice(1, 255),
-      ...hist.b.slice(1, 255),
-    )
+  } else if (mode === 'red') {
+    const max = Math.max(...hist.r.slice(1, 255))
     if (max === 0) return
-    const chs: [number[], string][] = [
-      [hist.r, 'rgba(239, 68, 68, 0.35)'],
-      [hist.g, 'rgba(34, 197, 94, 0.35)'],
-      [hist.b, 'rgba(59, 130, 246, 0.35)'],
-    ]
-    for (const [ch, color] of chs) {
-      ctx.fillStyle = color
-      for (let i = 0; i < 256; i++) {
-        const bh = (ch[i] / max) * h
-        ctx.fillRect((i / 255) * w, h - bh, barW, bh)
-      }
+    ctx.fillStyle = 'rgba(239, 68, 68, 0.5)'
+    for (let i = 0; i < 256; i++) {
+      const bh = (hist.r[i] / max) * h
+      ctx.fillRect((i / 255) * w, h - bh, barW, bh)
+    }
+  } else if (mode === 'green') {
+    const max = Math.max(...hist.g.slice(1, 255))
+    if (max === 0) return
+    ctx.fillStyle = 'rgba(34, 197, 94, 0.5)'
+    for (let i = 0; i < 256; i++) {
+      const bh = (hist.g[i] / max) * h
+      ctx.fillRect((i / 255) * w, h - bh, barW, bh)
     }
   } else {
-    // Individual channels stacked
-    const max = Math.max(
-      ...hist.r.slice(1, 255),
-      ...hist.g.slice(1, 255),
-      ...hist.b.slice(1, 255),
-    )
+    const max = Math.max(...hist.b.slice(1, 255))
     if (max === 0) return
-    const chs: [number[], string][] = [
-      [hist.b, 'rgba(59, 130, 246, 0.5)'],
-      [hist.g, 'rgba(34, 197, 94, 0.5)'],
-      [hist.r, 'rgba(239, 68, 68, 0.5)'],
-    ]
-    for (const [ch, color] of chs) {
-      ctx.fillStyle = color
-      for (let i = 0; i < 256; i++) {
-        const bh = (ch[i] / max) * h
-        ctx.fillRect((i / 255) * w, h - bh, barW, bh)
-      }
+    ctx.fillStyle = 'rgba(59, 130, 246, 0.5)'
+    for (let i = 0; i < 256; i++) {
+      const bh = (hist.b[i] / max) * h
+      ctx.fillRect((i / 255) * w, h - bh, barW, bh)
     }
   }
 }
 
 function HistogramTriple({ imageUrl }: { imageUrl: string }) {
   const lumaRef = useRef<HTMLCanvasElement>(null)
-  const rgbRef = useRef<HTMLCanvasElement>(null)
-  const chRef = useRef<HTMLCanvasElement>(null)
+  const redRef = useRef<HTMLCanvasElement>(null)
+  const greenRef = useRef<HTMLCanvasElement>(null)
+  const blueRef = useRef<HTMLCanvasElement>(null)
 
   useEffect(() => {
     const img = new Image()
@@ -350,8 +336,9 @@ function HistogramTriple({ imageUrl }: { imageUrl: string }) {
       const hist = computeHistogram(imageData.data, offscreen.width, offscreen.height)
 
       if (lumaRef.current) drawSingleHistogram(lumaRef.current, hist, 'luminance')
-      if (rgbRef.current) drawSingleHistogram(rgbRef.current, hist, 'rgb')
-      if (chRef.current) drawSingleHistogram(chRef.current, hist, 'channels')
+      if (redRef.current) drawSingleHistogram(redRef.current, hist, 'red')
+      if (greenRef.current) drawSingleHistogram(greenRef.current, hist, 'green')
+      if (blueRef.current) drawSingleHistogram(blueRef.current, hist, 'blue')
     }
     img.src = imageUrl
   }, [imageUrl])
@@ -364,13 +351,18 @@ function HistogramTriple({ imageUrl }: { imageUrl: string }) {
         <div className={styles.histogramLabels}><span>Shadows</span><span>Highlights</span></div>
       </div>
       <div className={styles.histogramPanel}>
-        <div className={styles.histogramTitle}>RGB Overlay</div>
-        <canvas ref={rgbRef} className={styles.histogramCanvas} />
+        <div className={styles.histogramTitle}>Red</div>
+        <canvas ref={redRef} className={styles.histogramCanvas} />
         <div className={styles.histogramLabels}><span>Shadows</span><span>Highlights</span></div>
       </div>
       <div className={styles.histogramPanel}>
-        <div className={styles.histogramTitle}>Channels</div>
-        <canvas ref={chRef} className={styles.histogramCanvas} />
+        <div className={styles.histogramTitle}>Green</div>
+        <canvas ref={greenRef} className={styles.histogramCanvas} />
+        <div className={styles.histogramLabels}><span>Shadows</span><span>Highlights</span></div>
+      </div>
+      <div className={styles.histogramPanel}>
+        <div className={styles.histogramTitle}>Blue</div>
+        <canvas ref={blueRef} className={styles.histogramCanvas} />
         <div className={styles.histogramLabels}><span>Shadows</span><span>Highlights</span></div>
       </div>
     </div>
@@ -390,7 +382,7 @@ function ControlsPanel({ onFile, onSample }: { onFile: (file: File) => void; onS
       </div>
       <PhotoUploadPanel onFile={onFile} />
       <button className={styles.sampleBtn} onClick={onSample}>
-        Try sample photo
+        Load example photo
       </button>
     </>
   )
@@ -435,19 +427,26 @@ export function ExifViewer() {
     reader.readAsArrayBuffer(file)
   }, [imageUrl])
 
-  const handleSample = useCallback(() => {
+  // Auto-load sample photo on mount
+  useEffect(() => {
     loadFromUrl(SAMPLE_PHOTO)
-  }, [loadFromUrl])
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className={styles.app}>
       <div className={styles.appBody}>
         <div className={styles.sidebar}>
-          <ControlsPanel onFile={handleFile} onSample={handleSample} />
+          <ControlsPanel onFile={handleFile} onSample={() => loadFromUrl(SAMPLE_PHOTO)} />
         </div>
 
         <div className={styles.main}>
           {error && <div className={styles.error}>{error}</div>}
+
+          {imageUrl && (
+            <div className={styles.imagePreview}>
+              <img src={imageUrl} alt="Uploaded photo" className={styles.previewImg} />
+            </div>
+          )}
 
           {data ? (
             <>
@@ -492,13 +491,6 @@ export function ExifViewer() {
                 <Section title="Software" rows={[['Software', data.software]]} />
               </div>
             </>
-          ) : !error ? (
-            <div className={styles.emptyMain}>
-              <span>Upload an image to view its EXIF data</span>
-              <button className={styles.sampleBtn} onClick={handleSample}>
-                Or try a sample photo
-              </button>
-            </div>
           ) : null}
         </div>
 
@@ -506,7 +498,7 @@ export function ExifViewer() {
       </div>
 
       <div className={styles.mobileControls}>
-        <ControlsPanel onFile={handleFile} onSample={handleSample} />
+        <ControlsPanel onFile={handleFile} onSample={() => loadFromUrl(SAMPLE_PHOTO)} />
       </div>
     </div>
   )

@@ -5,9 +5,11 @@ import styles from './FileDropZone.module.css'
 
 interface FileDropZoneProps {
   onFile: (file: File) => void
+  /** Custom prompt text (default: "Drop an image here or click to browse") */
+  prompt?: string
 }
 
-export function FileDropZone({ onFile }: FileDropZoneProps) {
+export function FileDropZone({ onFile, prompt: promptText }: FileDropZoneProps) {
   const [fileName, setFileName] = useState<string | null>(null)
   const [dragOver, setDragOver] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -77,7 +79,7 @@ export function FileDropZone({ onFile }: FileDropZoneProps) {
       {fileName ? (
         <span className={styles.fileName}>{fileName}</span>
       ) : (
-        <span className={styles.prompt}>Drop an image here or click to browse</span>
+        <span className={styles.prompt}>{promptText ?? 'Drop an image here or click to browse'}</span>
       )}
       <span className={styles.privacy}>Your photos never leave your device</span>
     </div>
