@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { TOOLS, getToolBySlug, getLiveTools } from './tools'
+import { TOOLS, getToolBySlug, getLiveTools, getToolStatus } from './tools'
 
 describe('TOOLS registry', () => {
   it('contains at least one tool', () => {
@@ -11,7 +11,8 @@ describe('TOOLS registry', () => {
       expect(tool.slug).toBeTruthy()
       expect(tool.name).toBeTruthy()
       expect(tool.description).toBeTruthy()
-      expect(['live', 'draft']).toContain(tool.status)
+      expect(['live', 'draft']).toContain(tool.dev)
+      expect(['live', 'draft']).toContain(tool.prod)
       expect(['calculator', 'visualizer', 'reference', 'file-tool']).toContain(tool.category)
     }
   })
@@ -30,10 +31,10 @@ describe('TOOLS registry', () => {
     expect(getToolBySlug('nonexistent')).toBeUndefined()
   })
 
-  it('getLiveTools filters to live only', () => {
+  it('getLiveTools returns only tools with live status for current env', () => {
     const live = getLiveTools()
     for (const tool of live) {
-      expect(tool.status).toBe('live')
+      expect(getToolStatus(tool)).toBe('live')
     }
   })
 })

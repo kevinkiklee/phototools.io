@@ -1,6 +1,6 @@
 'use client'
 
-import { getToolBySlug } from '@/lib/data/tools'
+import { getToolBySlug, getToolStatus } from '@/lib/data/tools'
 import { DraftBanner } from './DraftBanner'
 import { ToolActions } from './ToolActions'
 import { LearnPanel } from './LearnPanel'
@@ -16,7 +16,7 @@ export function ToolPageShell({ slug, children }: ToolPageShellProps) {
   const tool = getToolBySlug(slug)
   return (
     <>
-      {tool?.status === 'draft' && <DraftBanner />}
+      {tool && getToolStatus(tool) === 'draft' && <DraftBanner />}
       <div className={styles.outer}>
         <div className={styles.main}>
           {tool && (

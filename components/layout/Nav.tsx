@@ -45,7 +45,12 @@ export function Nav({ theme, onThemeChange }: NavProps) {
   return (
     <nav className={styles.nav}>
       <Link href="/" className={styles.logo}>PhotoTools</Link>
-      <div className={styles.dropdownWrapper} ref={toolsRef}>
+      <div
+        className={styles.dropdownWrapper}
+        ref={toolsRef}
+        onMouseEnter={() => setToolsOpen(true)}
+        onMouseLeave={() => setToolsOpen(false)}
+      >
         <button
           className={`${styles.dropdownButton} ${toolsOpen ? styles.dropdownButtonActive : ''}`}
           onClick={() => setToolsOpen((v) => !v)}

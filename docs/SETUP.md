@@ -1,6 +1,6 @@
 # PhotoTools — Local Development Guide
 
-A Next.js 16 App Router hub with 15 free photography calculators, simulators, and references.
+A Next.js 16 App Router hub with free photography calculators, simulators, and references.
 
 ## Prerequisites
 
@@ -47,8 +47,8 @@ phototools.io/
 │   └── learn/
 │       └── glossary/page.tsx       # Photography glossary
 ├── components/
-│   ├── layout/                     # Nav, Footer, ThemeProvider, ThemeToggle
-│   ├── shared/                     # ToolPageShell, FileDropZone, DraftBanner, Toast
+│   ├── layout/                     # Nav (mega-menu), Footer, ThemeProvider, ThemeToggle
+│   ├── shared/                     # ToolPageShell, LearnPanel, InfoTooltip, ShareModal, ToolActions, FileDropZone, DraftBanner, Toast
 │   └── tools/                      # One directory per tool + shared/
 │       ├── fov-simulator/
 │       ├── dof-calculator/
@@ -65,6 +65,7 @@ phototools.io/
 │   │   └── histogram.ts / histogram.test.ts
 │   ├── data/                       # Static data + registry (with tests)
 │   │   ├── tools.ts                # Tool registry (slug, name, status, category)
+│   │   ├── education/              # Per-tool educational content + challenge definitions
 │   │   ├── sensors.ts              # Sensor presets
 │   │   ├── focalLengths.ts         # Focal length presets
 │   │   ├── scenes.ts               # Sample scene definitions
@@ -83,7 +84,7 @@ phototools.io/
 
 ### Tool Registry
 
-All tools are defined in `lib/data/tools.ts`. Each tool has a `slug`, `name`, `description`, `status` (`live` or `draft`), and `category`. The homepage reads this registry to display available tools. Draft tools are hidden from the homepage but accessible by direct URL (with a draft banner).
+All tools are defined in `lib/data/tools.ts`. Each tool has a `slug`, `name`, `description`, `status` (`live` or `draft`), and `category`. In development, all tools are visible. In production, only `live` tools appear in the homepage, nav mega-menu, and footer. Draft tools are still accessible by direct URL in production (with a draft banner).
 
 ### Pure Math Modules
 
@@ -114,7 +115,7 @@ On push to `main`, `.github/workflows/deploy.yml` runs:
 1. `npm ci` — install exact dependencies
 2. `npm audit --omit=dev` — check for vulnerabilities
 3. `npm run lint` — ESLint
-4. `npm test` — Vitest (149 tests)
+4. `npm test` — Vitest (170 tests)
 5. `npm run build` — Next.js production build
 
 Vercel auto-deploys from `main` to production at `phototools.io`.
@@ -126,7 +127,7 @@ npm test               # Run once
 npm run test:watch     # Watch mode
 ```
 
-**13 test files, 149 tests** covering:
+**14 test files, 170 tests** covering:
 
 | Area | Files |
 |------|-------|

@@ -3,6 +3,7 @@
 import { useState, useMemo, useCallback } from 'react'
 import { hslToRgb, rgbToHsl, complementary, analogous, triadic, splitComplementary, tetradic } from '@/lib/math/color'
 import { ToolActions } from '@/components/shared/ToolActions'
+import { LearnPanel } from '@/components/shared/LearnPanel'
 import styles from './ColorHarmony.module.css'
 import { ColorWheel } from './ColorWheel'
 
@@ -332,6 +333,7 @@ export function ColorHarmony() {
           />
         </div>
       </div>
+      <LearnPanel slug="color-harmony" />
     </div>
   )
 }

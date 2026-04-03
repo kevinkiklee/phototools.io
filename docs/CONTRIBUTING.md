@@ -25,14 +25,15 @@ Dev server runs at `http://localhost:3000`.
 ## Project Structure
 
 ```
-app/                    Routes (homepage, tool pages, glossary)
+app/                    Routes (homepage, tool pages, learn/glossary)
 components/
-  layout/               Nav, Footer, ThemeProvider, ThemeToggle
-  shared/               ToolPageShell, FileDropZone, DraftBanner, Toast
+  layout/               Nav (mega-menu), Footer, ThemeProvider, ThemeToggle
+  shared/               ToolPageShell, LearnPanel, InfoTooltip, ShareModal, ToolActions, FileDropZone, DraftBanner, Toast
   tools/                One directory per tool + shared/
 lib/
   math/                 Pure calculation modules with co-located tests
-  data/                 Tool registry, sensors, focal lengths, scenes, glossary
+  data/                 Tool registry, education content, sensors, focal lengths, scenes, glossary
+  data/education/       Per-tool educational content, challenge definitions
   utils/                Export helpers
   types.ts              Shared TypeScript types
 public/                 Static assets (images, icons, manifest)
@@ -47,8 +48,9 @@ public/                 Static assets (images, icons, manifest)
    ```ts
    { slug: 'your-tool', name: 'Your Tool', description: '...', status: 'draft', category: 'calculator' }
    ```
-   Set `status: 'live'` when the tool is ready for production.
-5. **Verify**: run `npm test && npm run build`.
+   Set `status: 'live'` when the tool is ready for production. In development, all tools are visible regardless of status.
+5. **Education content**: add a `ToolEducation` entry in `lib/data/education/` with beginner/deeper explanations, tips, tooltips, and challenges. The `LearnPanel` renders automatically via `ToolPageShell`.
+6. **Verify**: run `npm test && npm run build`.
 
 ## Adding a Glossary Term
 

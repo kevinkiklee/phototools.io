@@ -21,6 +21,7 @@ export interface ToolDef {
   slug: string
   name: string
   description: string
-  status: ToolStatus
+  dev: ToolStatus
+  prod: ToolStatus
   category: ToolCategory
 }
