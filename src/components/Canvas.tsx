@@ -383,10 +383,17 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
     if (canvasRef.current) canvasRef.current.style.touchAction = ''
   }, [canvasRef])
 
+  const ariaLabel = lenses.map((lens) => {
+    const sensor = getSensor(lens.sensorId)
+    return `${lens.focalLength}mm ${sensor.name}`
+  }).join(' vs ')
+
   return (
     <canvas
       ref={canvasRef}
       className="fov-canvas"
+      aria-label={`Field of view comparison: ${ariaLabel}`}
+      role="img"
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}

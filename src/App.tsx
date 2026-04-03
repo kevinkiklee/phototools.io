@@ -98,7 +98,7 @@ function App() {
   return (
     <div className="app">
       <Sidebar>
-        <div className="sidebar__header">
+        <header className="sidebar__header">
           <div className="sidebar__logo">
             <div className="sidebar__logo-icon" />
             <span className="sidebar__logo-text">FOV Viewer</span>
@@ -122,7 +122,7 @@ function App() {
               onChange={(t) => dispatch({ type: 'SET_THEME', payload: t })}
             />
           </div>
-        </div>
+        </header>
 
         {state.lenses.map((lens, i) => (
           <LensPanel
@@ -155,8 +155,8 @@ function App() {
         />
       </Sidebar>
 
-      <div className="canvas-area">
-        <div className="canvas-topbar">
+      <main className="canvas-area">
+        <nav className="canvas-topbar">
           <SceneStrip
             selectedIndex={state.imageIndex}
             onChange={(i) => dispatch({ type: 'SET_IMAGE', payload: i })}
@@ -180,17 +180,17 @@ function App() {
               onChange={(t) => dispatch({ type: 'SET_THEME', payload: t })}
             />
           </div>
-        </div>
+        </nav>
 
-        <div className="canvas-main">
+        <section className="canvas-main">
           <Canvas
             lenses={state.lenses}
             imageIndex={state.imageIndex}
             orientation={state.orientation}
             canvasRef={canvasRef}
           />
-        </div>
-      </div>
+        </section>
+      </main>
 
 
       <Toast message={toast} onDone={() => setToast(null)} />
