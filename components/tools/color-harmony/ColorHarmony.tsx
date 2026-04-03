@@ -7,6 +7,7 @@ import { LearnPanel } from '@/components/shared/LearnPanel'
 import { parseQueryState, useToolQuerySync, intParam, strParam } from '@/lib/utils/querySync'
 import styles from './ColorHarmony.module.css'
 import { ColorWheel } from './ColorWheel'
+import { PhotoPicker } from './PhotoPicker'
 
 type HarmonyType = 'monochromatic' | 'complementary' | 'analogous' | 'triadic' | 'split-complementary' | 'tetradic'
 
@@ -92,6 +93,7 @@ export function ColorHarmony() {
   )
   const [monoInnerSat, setMonoInnerSat] = useState(40)
   const [monoOuterSat, setMonoOuterSat] = useState(90)
+  const [showPhotoPicker, setShowPhotoPicker] = useState(false)
   const [copiedHex, setCopiedHex] = useState<string | null>(null)
   const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
   const [hexDraft, setHexDraft] = useState<string | null>(null)
@@ -260,6 +262,16 @@ export function ColorHarmony() {
                 maxLength={7}
               />
             </div>
+            <button
+              className={styles.photoPickerBtn}
+              onClick={() => setShowPhotoPicker(true)}
+              title="Pick key color from a photo"
+            >
+              <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                <path d="M14 1H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3.586l1.707 1.707a1 1 0 0 0 1.414 0L10.414 13H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm-6 9.5a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+              Pick from photo
+            </button>
           </div>
 
           <div className={styles.field}>
@@ -380,6 +392,16 @@ export function ColorHarmony() {
         </div>
       </div>
       <LearnPanel slug="color-harmony" />
+
+      {showPhotoPicker && (
+        <PhotoPicker
+          onColorPick={(hex) => {
+            applyHex(hex)
+            setShowPhotoPicker(false)
+          }}
+          onClose={() => setShowPhotoPicker(false)}
+        />
+      )}
     </div>
   )
 }
