@@ -28,28 +28,34 @@ PhotoTools is an educational photography application — free calculators, simul
 
 ## Architecture
 
-- **App Router**: all routes under `app/`. Homepage (`app/page.tsx`) is the tool hub. Each tool lives at `app/tools/[slug]/page.tsx`. Glossary at `app/learn/glossary/page.tsx`.
-- **Tool Registry**: `lib/data/tools.ts` defines all tools with slug, name, description, `dev`/`prod` status fields (`'live'`/`'draft'`), and category. `getLiveTools()` filters by the appropriate status per environment. `getToolBySlug()` looks up by slug.
-- **Education System**: `lib/data/education/` contains per-tool educational content (beginner/deeper explanations, key factors, pro tips, tooltips, challenges). `LearnPanel` renders as a right sidebar on every tool page.
-- **Pure Math Modules**: `lib/math/` contains pure functions for FOV, DOF, exposure (including shader math for CoC, motion blur, noise), diffraction, star trails, color, and histogram calculations. Each has co-located `.test.ts` files. TDD approach — math is tested independently from UI.
-- **Components**: organized into `components/layout/` (Nav, Footer, ThemeProvider, ThemeToggle), `components/shared/` (ToolPageShell, LearnPanel, ToolIcon, InfoTooltip, ShareModal, ToolActions, FileDropZone, PhotoUploadPanel, ScenePicker, CopyImageButton, DraftBanner, Toast, Breadcrumbs, JsonLd), and `components/tools/` (one directory per tool + `shared/` for cross-tool components).
-- **Data**: `lib/data/` contains tool registry, education content, sensors (with dimensions/colors), focal lengths, scenes, glossary, camera settings (apertures/shutter speeds/ISOs), ND filters, and white balance presets — each with tests.
+All source code lives under `src/`, with `@/` aliased to `src/` in tsconfig.json and vitest.config.ts.
+
+- **App Router**: all routes under `src/app/`. Homepage (`src/app/page.tsx`) is the tool hub. Each tool lives at `src/app/tools/[slug]/page.tsx` with co-located `_components/` for tool-specific UI. Glossary at `src/app/learn/glossary/page.tsx`.
+- **Tool Co-location**: Each tool's components live in `src/app/tools/[slug]/_components/` alongside its `page.tsx`. The `_` prefix makes it a private folder (not a route segment). Page files import from `./_components/...` using relative paths.
+- **Shared Components**: `src/components/` contains only shared/reusable code: `layout/` (Nav, Footer, ThemeProvider, ThemeToggle) and `shared/` (ToolPageShell, LearnPanel, ToolIcon, InfoTooltip, ShareModal, ToolActions, FileDropZone, PhotoUploadPanel, ScenePicker, CopyImageButton, DraftBanner, Toast, Breadcrumbs, JsonLd, DoFDiagram, DoFCanvas, Calculator.module.css).
+- **Tool Registry**: `src/lib/data/tools.ts` defines all tools with slug, name, description, `dev`/`prod` status fields (`'live'`/`'draft'`), and category. `getLiveTools()` filters by the appropriate status per environment. `getToolBySlug()` looks up by slug.
+- **Education System**: `src/lib/data/education/` contains per-tool educational content (beginner/deeper explanations, key factors, pro tips, tooltips, challenges). `LearnPanel` renders as a right sidebar on every tool page.
+- **Pure Math Modules**: `src/lib/math/` contains pure functions for FOV, DOF, exposure (including shader math for CoC, motion blur, noise), diffraction, star trails, color, and histogram calculations. Each has co-located `.test.ts` files. TDD approach — math is tested independently from UI.
+- **Data**: `src/lib/data/` contains tool registry, education content, sensors (with dimensions/colors), focal lengths, scenes, glossary, camera settings (apertures/shutter speeds/ISOs), ND filters, and white balance presets — each with tests.
 
 ## Key Directories
 
 ```
-app/                    Routes (homepage, tools, learn/glossary)
-components/
-  layout/               Nav (mega-menu), Footer, ThemeProvider, ThemeToggle
-  shared/               ToolPageShell, LearnPanel, ToolIcon, InfoTooltip, ShareModal, ToolActions, FileDropZone, PhotoUploadPanel, DraftBanner, Toast, Breadcrumbs, JsonLd
-  tools/                One directory per tool + shared/
-lib/
-  math/                 Pure calculation modules (fov, dof, exposure, etc.)
-  data/                 Tool registry, education content, sensors, focal lengths, scenes, glossary, camera, ndFilters, whiteBalance
-  data/education/       Per-tool educational content, challenge definitions, types
-  utils/                Export helpers
-  types.ts              Shared TypeScript types
-public/                 Images, icons, manifest, sitemap, robots.txt
+src/
+  app/                    Routes (homepage, tools, learn/glossary)
+    tools/[slug]/
+      page.tsx            Route entry point
+      _components/        Tool-specific UI components (co-located)
+  components/
+    layout/               Nav (mega-menu), Footer, ThemeProvider, ThemeToggle
+    shared/               ToolPageShell, LearnPanel, ToolIcon, InfoTooltip, ShareModal, ToolActions, etc.
+  lib/
+    math/                 Pure calculation modules (fov, dof, exposure, etc.)
+    data/                 Tool registry, education content, sensors, focal lengths, scenes, glossary, camera, ndFilters, whiteBalance
+    data/education/       Per-tool educational content, challenge definitions, types
+    utils/                Export helpers
+    types.ts              Shared TypeScript types
+public/                   Images, icons, manifest, sitemap, robots.txt
 ```
 
 ## Tool Visibility
@@ -71,7 +77,7 @@ Each tool has a **LearnPanel** (right sidebar) with:
 - **Challenges** — 3-5 progressive multiple-choice questions with pass/fail feedback, persisted to localStorage
 - **Tooltips** — hover info icons on control labels (via `InfoTooltip` component)
 
-Content is defined as structured data in `lib/data/education/content.ts` and `content2.ts`. To add education content for a new tool, add a `ToolEducation` entry matching the tool's slug.
+Content is defined as structured data in `src/lib/data/education/content.ts` and `content2.ts`. To add education content for a new tool, add a `ToolEducation` entry matching the tool's slug.
 
 ## Design
 
