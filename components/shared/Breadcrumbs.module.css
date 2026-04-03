@@ -20,6 +20,10 @@
   color: var(--text-muted);
 }
 
+.categoryLabel {
+  color: var(--text-muted);
+}
+
 .current {
   color: var(--text-muted);
   font-weight: 500;

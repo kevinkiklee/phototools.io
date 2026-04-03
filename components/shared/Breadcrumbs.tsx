@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link'
 import type { ToolCategory } from '@/lib/types'
 import styles from './Breadcrumbs.module.css'
@@ -23,9 +21,9 @@ export function Breadcrumbs({ category, toolName }: BreadcrumbsProps) {
     <nav className={styles.nav} aria-label="Breadcrumb">
       <Link href="/" className={styles.link}>Home</Link>
       <span className={styles.separator}>/</span>
-      <span className={styles.current}>{categoryLabel}</span>
+      <span className={styles.categoryLabel}>{categoryLabel}</span>
       <span className={styles.separator}>/</span>
-      <span className={styles.current}>{toolName}</span>
+      <span className={styles.current} aria-current="page">{toolName}</span>
     </nav>
   )
 }
