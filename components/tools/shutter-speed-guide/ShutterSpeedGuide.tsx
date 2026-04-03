@@ -9,20 +9,20 @@ import ss from './ShutterSpeedGuide.module.css'
 
 /* ─── Shutter speed presets (seconds) ─── */
 const SHUTTER_PRESETS = [
-  { value: 1 / 4000, label: '1/4000' },
-  { value: 1 / 2000, label: '1/2000' },
-  { value: 1 / 1000, label: '1/1000' },
-  { value: 1 / 500, label: '1/500' },
-  { value: 1 / 250, label: '1/250' },
-  { value: 1 / 125, label: '1/125' },
-  { value: 1 / 60, label: '1/60' },
-  { value: 1 / 30, label: '1/30' },
-  { value: 1 / 15, label: '1/15' },
-  { value: 1 / 8, label: '1/8' },
-  { value: 0.25, label: '1/4' },
-  { value: 0.5, label: '1/2' },
-  { value: 1, label: '1s' },
   { value: 2, label: '2s' },
+  { value: 1, label: '1s' },
+  { value: 0.5, label: '1/2' },
+  { value: 0.25, label: '1/4' },
+  { value: 1 / 8, label: '1/8' },
+  { value: 1 / 15, label: '1/15' },
+  { value: 1 / 30, label: '1/30' },
+  { value: 1 / 60, label: '1/60' },
+  { value: 1 / 125, label: '1/125' },
+  { value: 1 / 250, label: '1/250' },
+  { value: 1 / 500, label: '1/500' },
+  { value: 1 / 1000, label: '1/1000' },
+  { value: 1 / 2000, label: '1/2000' },
+  { value: 1 / 4000, label: '1/4000' },
 ]
 
 /* ─── Subject definitions ─── */
@@ -211,8 +211,8 @@ function ControlsPanel({ shutterIdx, onShutterChange }: {
           aria-valuetext={preset.label}
         />
         <div className={ss.sliderLabels}>
-          <span>Fast (1/4000)</span>
           <span>Slow (2s)</span>
+          <span>Fast (1/4000)</span>
         </div>
       </div>
 
@@ -238,7 +238,7 @@ function ControlsPanel({ shutterIdx, onShutterChange }: {
 
 /* ─── Main component ─── */
 export function ShutterSpeedGuide() {
-  const [shutterIdx, setShutterIdx] = useState(5) // default 1/125
+  const [shutterIdx, setShutterIdx] = useState(8) // default 1/125
 
   return (
     <div className={ss.app}>
