@@ -35,18 +35,18 @@ Add semantic HTML inside `<div id="root">` in `index.html`. React's `createRoot(
 ```
 User-agent: *
 Allow: /
-Sitemap: https://photo-tools.iser.io/sitemap.xml
+Sitemap: https://phototools.io/sitemap.xml
 ```
 
 **`public/sitemap.xml`:**
 Static sitemap listing:
-- Main tool page: `https://photo-tools.iser.io/`
+- Main tool page: `https://phototools.io/`
 - All comparison pages (10 pages)
 - All learn articles (13 pages)
 - Updated `<lastmod>` on each deploy (manual, update when content changes)
 
 **Canonical URL:**
-Add `<link rel="canonical" href="https://photo-tools.iser.io/">` to `index.html` `<head>`.
+Add `<link rel="canonical" href="https://phototools.io/">` to `index.html` `<head>`.
 
 ### 1.3 Enhanced Meta Tags
 
@@ -210,9 +210,9 @@ Note: Many social platforms don't execute JS for OG tags, so this mainly helps G
 
 Add a "Share / Embed" option in the ActionBar that generates:
 - **Direct link** — current URL with params (already exists as "Copy Link")
-- **Markdown snippet** — `[50mm vs 85mm FOV Comparison](https://photo-tools.iser.io/?a=50&b=85)` for Reddit/forums
+- **Markdown snippet** — `[50mm vs 85mm FOV Comparison](https://phototools.io/?a=50&b=85)` for Reddit/forums
 - **BBCode snippet** — `[url=...]50mm vs 85mm FOV Comparison[/url]` for photography forums
-- **HTML embed** — `<iframe src="https://photo-tools.iser.io/?a=50&b=85&embed=1" width="800" height="600"></iframe>`
+- **HTML embed** — `<iframe src="https://phototools.io/?a=50&b=85&embed=1" width="800" height="600"></iframe>`
 
 When `?embed=1` is in the URL, hide the sidebar and show only the canvas with a small "Powered by FOV Viewer" attribution link. This enables blog embeds that link back.
 
@@ -241,8 +241,8 @@ Generate icon PNGs from the existing camera emoji favicon (192x192 and 512x512).
 
 Add to `<head>`:
 ```html
-<link rel="alternate" hreflang="en" href="https://photo-tools.iser.io/" />
-<link rel="alternate" hreflang="x-default" href="https://photo-tools.iser.io/" />
+<link rel="alternate" hreflang="en" href="https://phototools.io/" />
+<link rel="alternate" hreflang="x-default" href="https://phototools.io/" />
 ```
 
 ### 3.6 Improved 404 Page

@@ -1,4 +1,4 @@
-# Photo Tools — Local Development Guide
+# PhotoTools — Local Development Guide
 
 A Next.js 16 App Router hub with 15 free photography calculators, simulators, and references.
 
@@ -13,8 +13,8 @@ A Next.js 16 App Router hub with 15 free photography calculators, simulators, an
 ## Quick Start
 
 ```bash
-git clone https://github.com/kevinkiklee/photo-tools.git
-cd photo-tools
+git clone https://github.com/kevinkiklee/phototools.io.git
+cd phototools.io
 npm install
 npm run dev
 # Open http://localhost:3000
@@ -34,13 +34,13 @@ npm run dev
 ## Project Structure
 
 ```
-photo-tools/
+phototools.io/
 ├── app/
 │   ├── layout.tsx                  # Root layout (Nav, Footer, ThemeProvider)
 │   ├── page.tsx                    # Homepage — tool hub grid
 │   ├── globals.css                 # Global styles + design tokens
 │   ├── tools/
-│   │   ├── fov-viewer/page.tsx     # Each tool has its own route
+│   │   ├── fov-simulator/page.tsx     # Each tool has its own route
 │   │   ├── dof-calculator/page.tsx
 │   │   ├── exposure-simulator/page.tsx
 │   │   └── ...                     # 14 tool routes total
@@ -50,7 +50,7 @@ photo-tools/
 │   ├── layout/                     # Nav, Footer, ThemeProvider, ThemeToggle
 │   ├── shared/                     # ToolPageShell, FileDropZone, DraftBanner, Toast
 │   └── tools/                      # One directory per tool + shared/
-│       ├── fov-viewer/
+│       ├── fov-simulator/
 │       ├── dof-calculator/
 │       ├── shared/                 # Components shared across tools
 │       └── ...
@@ -117,7 +117,7 @@ On push to `main`, `.github/workflows/deploy.yml` runs:
 4. `npm test` — Vitest (149 tests)
 5. `npm run build` — Next.js production build
 
-Vercel auto-deploys from `main` to production at `photo-tools.iser.io`.
+Vercel auto-deploys from `main` to production at `phototools.io`.
 
 ## Testing
 

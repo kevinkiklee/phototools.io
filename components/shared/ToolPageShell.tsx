@@ -2,6 +2,7 @@
 
 import { getToolBySlug } from '@/lib/data/tools'
 import { DraftBanner } from './DraftBanner'
+import { ToolActions } from './ToolActions'
 import type { ReactNode } from 'react'
 
 interface ToolPageShellProps {
@@ -19,6 +20,7 @@ export function ToolPageShell({ slug, children }: ToolPageShellProps) {
           <div style={{ marginBottom: '16px' }}>
             <h1 style={{ fontSize: '14px', fontWeight: 600 }}>{tool.name}</h1>
             <p style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{tool.description}</p>
+            <ToolActions toolName={tool.name} toolSlug={tool.slug} />
           </div>
         )}
         {children}

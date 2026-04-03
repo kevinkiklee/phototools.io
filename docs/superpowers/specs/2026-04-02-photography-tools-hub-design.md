@@ -105,7 +105,7 @@ The landing page and nav filter to `status === 'live'`. Flipping a tool to live 
 ## 6. Project Structure
 
 ```
-photo-tools/
+phototools.io/
 ├── app/
 │   ├── layout.tsx              # Root layout (nav, footer, theme, ad slots)
 │   ├── page.tsx                # Landing page — tool grid

@@ -23,7 +23,7 @@ export const GLOSSARY: GlossaryEntry[] = [
   { term: 'Exposure Compensation', definition: 'A camera control that overrides the metered exposure, typically in 1/3-stop increments. Positive values brighten the image; negative values darken it.' },
   { term: 'Exposure Triangle', definition: 'The relationship between aperture, shutter speed, and ISO. Changing one requires adjusting the others to maintain the same exposure.' },
   { term: 'F-Stop', definition: 'A unit of measurement for lens aperture. Each full stop (f/1.4, f/2, f/2.8, f/4...) halves the amount of light passing through the lens.' },
-  { term: 'Focal Length', definition: 'The distance in millimeters from the optical center of a lens to the sensor when focused at infinity. It determines the angle of view and magnification.', relatedTool: 'fov-viewer' },
+  { term: 'Focal Length', definition: 'The distance in millimeters from the optical center of a lens to the sensor when focused at infinity. It determines the angle of view and magnification.', relatedTool: 'fov-simulator' },
   { term: 'Focus Stacking', definition: 'A technique where multiple images focused at different distances are combined in post-processing to achieve greater depth of field than a single exposure allows.' },
   { term: 'Full Frame', definition: 'A sensor size equivalent to 35mm film (36 x 24mm). It is the reference standard for focal length and crop factor calculations.' },
   { term: 'Golden Hour', definition: 'The period shortly after sunrise or before sunset when sunlight is warm, soft, and directional. Highly prized for landscape and portrait photography.' },

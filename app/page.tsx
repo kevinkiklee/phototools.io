@@ -5,7 +5,7 @@ export default function HomePage() {
   const tools = getLiveTools()
   return (
     <div style={{ padding: '16px', width: '100%' }}>
-      <h1 style={{ fontSize: 14, fontWeight: 600, marginBottom: 4 }}>Photo Tools</h1>
+      <h1 style={{ fontSize: 14, fontWeight: 600, marginBottom: 4 }}>PhotoTools</h1>
       <p style={{ color: 'var(--text-secondary)', fontSize: 12, marginBottom: 24 }}>
         Free photography calculators, simulators, and references.
       </p>

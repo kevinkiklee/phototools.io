@@ -1,14 +1,14 @@
-# Photo Tools
+# PhotoTools
 
 15 free photography calculators, simulators, and references — no ads, no sign-up, runs entirely in the browser.
 
-**[Live Demo](https://photo-tools.iser.io/)**
+**[Live Demo](https://phototools.io/)**
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| **FOV Viewer** | Compare field of view across focal lengths and sensor sizes |
+| **FOV Simulator** | Compare field of view across focal lengths and sensor sizes |
 | **Exposure Triangle Simulator** | See how aperture, shutter speed, and ISO interact |
 | **Depth of Field Calculator** | Calculate near focus, far focus, and total depth of field |
 | **Hyperfocal Distance Table** | Quick-reference hyperfocal distances for any lens and aperture |
@@ -67,7 +67,7 @@ Push to `main` triggers:
 1. GitHub Actions CI (audit, lint, test, build)
 2. Vercel auto-deploy to production
 
-Live at [photo-tools.iser.io](https://photo-tools.iser.io/).
+Live at [phototools.io](https://phototools.io/).
 
 ## License
 

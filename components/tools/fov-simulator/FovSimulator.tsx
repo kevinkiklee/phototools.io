@@ -2,7 +2,7 @@
 
 import { useReducer, useRef, useCallback, useState, useEffect } from 'react'
 import type { LensConfig } from '@/lib/types'
-import type { FovViewerState, Orientation } from './types'
+import type { FovSimulatorState, Orientation } from './types'
 import { DEFAULT_FOV_STATE, LENS_COLORS, LENS_LABELS, MAX_LENSES } from './types'
 import { parseQueryParams, useQuerySync } from './querySync'
 import { copyCanvasToClipboard, copyLinkToClipboard } from '@/lib/utils/export'
@@ -16,7 +16,7 @@ import { SceneStrip } from './SceneStrip'
 import { ActionBar } from './ActionBar'
 import { Canvas } from './Canvas'
 import { ShareModal } from './ShareModal'
-import styles from './FovViewer.module.css'
+import styles from './FovSimulator.module.css'
 
 type Action =
   | { type: 'SET_LENS'; payload: { index: number; updates: Partial<LensConfig> } }
@@ -26,14 +26,14 @@ type Action =
   | { type: 'SET_ACTIVE_LENS'; payload: number }
   | { type: 'SET_ORIENTATION'; payload: Orientation }
   | { type: 'RESET' }
-  | { type: 'HYDRATE'; payload: Partial<FovViewerState> }
+  | { type: 'HYDRATE'; payload: Partial<FovSimulatorState> }
 
 const NEW_LENS_DEFAULTS: LensConfig[] = [
   { focalLength: 85, sensorId: 'ff' },
   { focalLength: 200, sensorId: 'ff' },
 ]
 
-function reducer(state: FovViewerState, action: Action): FovViewerState {
+function reducer(state: FovSimulatorState, action: Action): FovSimulatorState {
   switch (action.type) {
     case 'SET_LENS': {
       const { index, updates } = action.payload
@@ -66,7 +66,7 @@ function reducer(state: FovViewerState, action: Action): FovViewerState {
   }
 }
 
-export function FovViewer() {
+export function FovSimulator() {
   const [state, dispatch] = useReducer(reducer, DEFAULT_FOV_STATE)
   const [hydrated, setHydrated] = useState(false)
   const [toast, setToast] = useState<string | null>(null)
@@ -181,7 +181,7 @@ export function FovViewer() {
       <div className={styles.mobileToolbar}>
         <div className={styles.mobileToolbarLeft}>
           <span className={styles.mobileLogoIcon} />
-          <span className={styles.mobileLogoText}>FOV Viewer</span>
+          <span className={styles.mobileLogoText}>FOV Simulator</span>
         </div>
         <div className={styles.mobileToolbarRight}>
           {rotateBtn}

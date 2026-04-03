@@ -1,6 +1,6 @@
 'use client'
 
-import styles from './FovViewer.module.css'
+import styles from './FovSimulator.module.css'
 
 interface ActionBarProps {
   onCopyImage: () => void

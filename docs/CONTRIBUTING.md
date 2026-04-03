@@ -1,12 +1,12 @@
-# Contributing to Photo Tools
+# Contributing to PhotoTools
 
 Thanks for your interest in contributing! This is an open-source project and we welcome pull requests.
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/kevinkiklee/photo-tools.git
-cd photo-tools
+git clone https://github.com/kevinkiklee/phototools.io.git
+cd phototools.io
 npm install
 npm run dev
 ```
@@ -67,7 +67,7 @@ Add the term to the `GLOSSARY` array in `lib/data/glossary.ts`. Terms are sorted
 
 ## Reporting Issues
 
-Open an issue at https://github.com/kevinkiklee/photo-tools/issues with:
+Open an issue at https://github.com/kevinkiklee/phototools.io/issues with:
 - What you expected to happen
 - What actually happened
 - Browser and device info

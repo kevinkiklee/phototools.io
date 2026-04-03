@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useMemo, useCallback } from 'react'
-import { hslToRgb, complementary, analogous, triadic, splitComplementary, tetradic } from '@/lib/math/color'
+import { hslToRgb, rgbToHsl, complementary, analogous, triadic, splitComplementary, tetradic } from '@/lib/math/color'
+import { ToolActions } from '@/components/shared/ToolActions'
 import styles from './ColorHarmony.module.css'
 import { ColorWheel } from './ColorWheel'
 
@@ -61,6 +62,20 @@ export function ColorHarmony() {
   const [analogousSpread, setAnalogousSpread] = useState(30)
   const [copiedHex, setCopiedHex] = useState<string | null>(null)
   const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
+
+  const baseRgb = useMemo(() => hslToRgb(hue, saturation, lightness), [hue, saturation, lightness])
+  const baseHex = rgbToHex(baseRgb.r, baseRgb.g, baseRgb.b)
+
+  const handleColorInput = useCallback((hex: string) => {
+    if (!/^#[0-9a-fA-F]{6}$/.test(hex)) return
+    const r = parseInt(hex.slice(1, 3), 16)
+    const g = parseInt(hex.slice(3, 5), 16)
+    const b = parseInt(hex.slice(5, 7), 16)
+    const hsl = rgbToHsl(r, g, b)
+    setHue(Math.round(hsl.h))
+    setSaturation(Math.round(hsl.s))
+    setLightness(Math.round(hsl.l))
+  }, [])
 
   const harmonyHues = useMemo(
     () => getHarmonyHues(hue, harmony, splitAngle, analogousSpread),
@@ -130,6 +145,28 @@ export function ColorHarmony() {
     <div className={styles.wrapper}>
       {/* Sidebar: full height, touches nav */}
       <aside className={styles.sidebar}>
+          <ToolActions toolName="Color Harmony Picker" toolSlug="color-harmony" />
+
+          <div className={styles.field}>
+            <span className={styles.label}>Key Color</span>
+            <div className={styles.keyColorRow}>
+              <input
+                type="color"
+                value={baseHex}
+                onChange={(e) => handleColorInput(e.target.value)}
+                className={styles.colorPicker}
+              />
+              <input
+                type="text"
+                value={baseHex}
+                onChange={(e) => handleColorInput(e.target.value)}
+                className={styles.hexInput}
+                spellCheck={false}
+                maxLength={7}
+              />
+            </div>
+          </div>
+
           <div className={styles.field}>
             <span className={styles.label}>Hue: <span className={styles.value}>{hue}°</span></span>
             <input

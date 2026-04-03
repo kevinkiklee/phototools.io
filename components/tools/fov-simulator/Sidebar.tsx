@@ -1,7 +1,7 @@
 'use client'
 
 import type { ReactNode } from 'react'
-import styles from './FovViewer.module.css'
+import styles from './FovSimulator.module.css'
 
 interface SidebarProps {
   children: ReactNode

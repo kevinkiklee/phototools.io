@@ -4,8 +4,8 @@ import { ThemeProvider } from '@/components/layout/ThemeProvider'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Photo Tools — Free Photography Calculators & References',
-    template: '%s | Photo Tools',
+    default: 'PhotoTools — Free Photography Calculators & References',
+    template: '%s | PhotoTools',
   },
   description: 'Free browser-based photography tools: FOV viewer, DoF calculator, exposure simulator, and more.',
 }

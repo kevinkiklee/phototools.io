@@ -178,6 +178,13 @@
   border-color: var(--accent);
 }
 
+.presetDivider {
+  width: 1px;
+  height: 20px;
+  background: var(--border);
+  margin: 0 4px;
+}
+
 .canvasMain {
   flex: 1;
   display: flex;

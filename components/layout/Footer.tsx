@@ -14,7 +14,7 @@ export function Footer() {
         ))}
         <Link href="/learn/glossary" className={styles.link}>Glossary</Link>
       </div>
-      <p>&copy; {new Date().getFullYear()} Photo Tools</p>
+      <p>&copy; {new Date().getFullYear()} PhotoTools</p>
     </footer>
   )
 }

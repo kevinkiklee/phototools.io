@@ -1,7 +1,7 @@
 'use client'
 
 import { SCENES } from '@/lib/data/scenes'
-import styles from './FovViewer.module.css'
+import styles from './FovSimulator.module.css'
 
 interface SceneStripProps {
   selectedIndex: number

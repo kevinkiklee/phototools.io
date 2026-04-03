@@ -157,7 +157,7 @@ export function SensorSize() {
         ctx.textAlign = 'center'
         const labelX = x + gridSize / 2
         ctx.fillText(p.name, labelX, gridTop + gridSize + 14)
-        ctx.fillStyle = 'var(--text-secondary)'
+        ctx.fillStyle = '#888888'
         ctx.font = '10px monospace'
         ctx.fillText(`${p.pitch.toFixed(2)} µm`, labelX, gridTop + gridSize + 26)
 

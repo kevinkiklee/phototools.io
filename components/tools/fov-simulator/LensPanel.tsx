@@ -5,7 +5,7 @@ import type { LensConfig } from '@/lib/types'
 import { FOCAL_LENGTHS, FOCAL_MIN, FOCAL_MAX } from '@/lib/data/focalLengths'
 import { SENSORS, getSensor } from '@/lib/data/sensors'
 import { calcEquivFocalLength } from '@/lib/math/fov'
-import styles from './FovViewer.module.css'
+import styles from './FovSimulator.module.css'
 
 // Logarithmic scale: maps focal length to 0-1000 slider position
 const LOG_MIN = Math.log(FOCAL_MIN)

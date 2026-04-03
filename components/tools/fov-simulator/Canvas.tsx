@@ -7,7 +7,7 @@ import { LENS_COLORS, LENS_LABELS } from './types'
 import { calcFOV, calcCropRatio } from '@/lib/math/fov'
 import { getSensor } from '@/lib/data/sensors'
 import { SCENES } from '@/lib/data/scenes'
-import styles from './FovViewer.module.css'
+import styles from './FovSimulator.module.css'
 
 interface CanvasProps {
   lenses: LensConfig[]

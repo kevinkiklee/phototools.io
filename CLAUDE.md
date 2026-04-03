@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Photo Tools is a suite of 15 free photography calculators, simulators, and references (14 tools + FOV Viewer) plus a glossary. Built as a Next.js 16 App Router hub with a tool registry system. Deployed to Vercel at `photo-tools.iser.io`.
+PhotoTools is a suite of 15 free photography calculators, simulators, and references (14 tools + FOV Simulator) plus a glossary. Built as a Next.js 16 App Router hub with a tool registry system. Deployed to Vercel at `phototools.io`.
 
 ## Tech Stack
 
@@ -11,7 +11,7 @@ Photo Tools is a suite of 15 free photography calculators, simulators, and refer
 - Vitest + jsdom + @testing-library/react + @testing-library/jest-dom
 - ESLint with typescript-eslint
 - CSS Modules + CSS custom properties (design tokens)
-- Canvas API for image rendering (FOV Viewer overlays)
+- Canvas API for image rendering (FOV Simulator overlays)
 - WebGL2 + GLSL shaders (Exposure Simulator image preview)
 - Vercel (deployment)
 
@@ -54,8 +54,8 @@ Tools have a `status` field in `lib/data/tools.ts`: `'live'` (visible on homepag
 
 ## Design
 
-- **FOV Viewer is the reference implementation.** All tools should match its look and feel: dark surface panels, compact controls, same spacing/typography tokens, and consistent use of `var(--accent)` for interactive elements.
-- **Full-height tools** (FOV Viewer, Exposure Simulator) bypass `ToolPageShell` and render directly at `app/tools/[slug]/page.tsx`. They use a sidebar (280px) + canvas/preview layout with mobile breakpoint at 1024px.
+- **FOV Simulator is the reference implementation.** All tools should match its look and feel: dark surface panels, compact controls, same spacing/typography tokens, and consistent use of `var(--accent)` for interactive elements.
+- **Full-height tools** (FOV Simulator, Exposure Simulator) bypass `ToolPageShell` and render directly at `app/tools/[slug]/page.tsx`. They use a sidebar (280px) + canvas/preview layout with mobile breakpoint at 1024px.
 
 ## Conventions
 
@@ -71,5 +71,5 @@ Tools have a `status` field in `lib/data/tools.ts`: `'live'` (visible on homepag
 
 - Vercel auto-deploys from `main` branch
 - GitHub Actions CI: `npm ci` → `npm audit` → `npm run lint` → `npm test` → `npm run build`
-- Custom domain: `photo-tools.iser.io`
+- Custom domain: `phototools.io`
 - NEVER push to remote or deploy without explicit user instruction

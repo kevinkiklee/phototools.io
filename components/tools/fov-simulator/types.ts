@@ -6,14 +6,14 @@ export const LENS_COLORS = ['#3b82f6', '#f59e0b', '#10b981']
 export const LENS_LABELS = ['A', 'B', 'C']
 export const MAX_LENSES = 3
 
-export interface FovViewerState {
+export interface FovSimulatorState {
   lenses: LensConfig[]
   imageIndex: number
   orientation: Orientation
   activeLens: number
 }
 
-export const DEFAULT_FOV_STATE: FovViewerState = {
+export const DEFAULT_FOV_STATE: FovSimulatorState = {
   lenses: [
     { focalLength: 20, sensorId: 'ff' },
     { focalLength: 35, sensorId: 'ff' },

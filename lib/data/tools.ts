@@ -1,7 +1,7 @@
 import type { ToolDef } from '@/lib/types'
 
 export const TOOLS: ToolDef[] = [
-  { slug: 'fov-viewer', name: 'FOV Viewer', description: 'Compare field of view across focal lengths and sensor sizes', status: 'live', category: 'visualizer' },
+  { slug: 'fov-simulator', name: 'FOV Simulator', description: 'Compare field of view across focal lengths and sensor sizes', status: 'live', category: 'visualizer' },
   { slug: 'exposure-simulator', name: 'Exposure Triangle Simulator', description: 'See how aperture, shutter speed, and ISO interact', status: 'live', category: 'visualizer' },
   { slug: 'dof-calculator', name: 'Depth of Field Calculator', description: 'Calculate near focus, far focus, and total depth of field', status: 'live', category: 'calculator' },
   { slug: 'hyperfocal-table', name: 'Hyperfocal Distance Table', description: 'Quick-reference hyperfocal distances for any lens and aperture', status: 'live', category: 'reference' },

@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react'
 import type { LensConfig } from '@/lib/types'
 import { SENSORS } from '@/lib/data/sensors'
-import type { FovViewerState } from './types'
+import type { FovSimulatorState } from './types'
 
 const SENSOR_IDS = new Set(SENSORS.map((s) => s.id))
 const LENS_KEYS = ['a', 'b', 'c'] as const
@@ -22,10 +22,10 @@ function parseLens(params: URLSearchParams, fKey: string, sKey: string): LensCon
   return lens
 }
 
-export function parseQueryParams(): Partial<FovViewerState> {
+export function parseQueryParams(): Partial<FovSimulatorState> {
   if (typeof window === 'undefined') return {}
   const params = new URLSearchParams(window.location.search)
-  const state: Partial<FovViewerState> = {}
+  const state: Partial<FovSimulatorState> = {}
 
   const lenses: LensConfig[] = []
   for (let i = 0; i < 3; i++) {
@@ -40,7 +40,7 @@ export function parseQueryParams(): Partial<FovViewerState> {
   return state
 }
 
-export function stateToQueryString(state: FovViewerState): string {
+export function stateToQueryString(state: FovSimulatorState): string {
   const params = new URLSearchParams()
   state.lenses.forEach((lens, i) => {
     params.set(LENS_KEYS[i], String(lens.focalLength))
@@ -50,7 +50,7 @@ export function stateToQueryString(state: FovViewerState): string {
   return params.toString()
 }
 
-export function useQuerySync(state: FovViewerState): void {
+export function useQuerySync(state: FovSimulatorState): void {
   const isFirstRender = useRef(true)
 
   useEffect(() => {

@@ -46,7 +46,7 @@ Each tool task follows the same pattern: math module with tests → client compo
 Run from a new directory (sibling to current fov-viewer):
 
 ```bash
-npx create-next-app@latest photo-tools --typescript --eslint --app --no-tailwind --no-src-dir --turbopack
+npx create-next-app@latest phototools.io --typescript --eslint --app --no-tailwind --no-src-dir --turbopack
 ```
 
 Select: No to Tailwind, Yes to App Router, Yes to TypeScript, Yes to ESLint, Yes to Turbopack, default import alias `@/*`.
@@ -54,7 +54,7 @@ Select: No to Tailwind, Yes to App Router, Yes to TypeScript, Yes to ESLint, Yes
 - [ ] **Step 2: Install dev dependencies**
 
 ```bash
-cd photo-tools
+cd phototools.io
 npm install -D vitest @testing-library/react @testing-library/jest-dom jsdom
 ```
 
@@ -518,7 +518,7 @@ export function Nav({ theme, onThemeChange }: NavProps) {
   return (
     <nav className={styles.nav}>
       <div className={styles.left}>
-        <Link href="/" className={styles.logo}>Photo Tools</Link>
+        <Link href="/" className={styles.logo}>PhotoTools</Link>
         <div className={styles.dropdown} ref={ref}>
           <button className={styles.trigger} onClick={() => setOpen(!open)}>
             Tools <span className={styles.caret}>▼</span>
@@ -655,7 +655,7 @@ export function Footer() {
         ))}
         <Link href="/learn/glossary" className={styles.link}>Glossary</Link>
       </div>
-      <p className={styles.copy}>Photo Tools — Free photography calculators and references</p>
+      <p className={styles.copy}>PhotoTools — Free photography calculators and references</p>
     </footer>
   )
 }
@@ -831,8 +831,8 @@ import { ThemeProvider } from '@/components/layout/ThemeProvider'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Photo Tools — Free Photography Calculators & References',
-    template: '%s | Photo Tools',
+    default: 'PhotoTools — Free Photography Calculators & References',
+    template: '%s | PhotoTools',
   },
   description: 'Free browser-based photography tools: FOV viewer, DoF calculator, exposure simulator, and more.',
 }
@@ -875,13 +875,13 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<'dark' | 'light'>('dark')
 
   useEffect(() => {
-    const saved = localStorage.getItem('photo-tools-theme') as 'dark' | 'light' | null
+    const saved = localStorage.getItem('phototools.io-theme') as 'dark' | 'light' | null
     if (saved) setTheme(saved)
   }, [])
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
-    localStorage.setItem('photo-tools-theme', theme)
+    localStorage.setItem('phototools.io-theme', theme)
   }, [theme])
 
   return (
@@ -906,7 +906,7 @@ export default function HomePage() {
 
   return (
     <div style={{ padding: 'var(--space-xl) var(--space-md)', maxWidth: 1200, margin: '0 auto' }}>
-      <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 'var(--space-sm)' }}>Photo Tools</h1>
+      <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 'var(--space-sm)' }}>PhotoTools</h1>
       <p style={{ color: 'var(--text-secondary)', marginBottom: 'var(--space-xl)' }}>
         Free photography calculators, simulators, and references.
       </p>

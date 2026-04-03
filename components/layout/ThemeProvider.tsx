@@ -16,13 +16,13 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<'dark' | 'light'>('dark')
 
   useEffect(() => {
-    const saved = localStorage.getItem('photo-tools-theme') as 'dark' | 'light' | null
+    const saved = localStorage.getItem('phototools-theme') as 'dark' | 'light' | null
     if (saved) setTheme(saved)
   }, [])
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
-    localStorage.setItem('photo-tools-theme', theme)
+    localStorage.setItem('phototools-theme', theme)
   }, [theme])
 
   return (

@@ -1,33 +1,22 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import type { LensConfig } from '@/lib/types'
-import { getSensor } from '@/lib/data/sensors'
-import { stateToQueryString } from './querySync'
-import type { FovViewerState } from './types'
-import styles from './FovViewer.module.css'
+import styles from './ShareModal.module.css'
 
 interface ShareModalProps {
-  state: FovViewerState
+  toolName: string
+  toolSlug: string
   onClose: () => void
   onToast: (msg: string) => void
 }
 
-function buildLabel(lenses: LensConfig[]): string {
-  const parts = lenses.map((l) => {
-    const sensor = getSensor(l.sensorId)
-    return `${l.focalLength}mm ${sensor.name}`
-  })
-  return parts.join(' vs ') + ' FOV Comparison'
-}
-
-export function ShareModal({ state, onClose, onToast }: ShareModalProps) {
+export function ShareModal({ toolName, toolSlug, onClose, onToast }: ShareModalProps) {
   const [copied, setCopied] = useState<string | null>(null)
-  const qs = stateToQueryString(state)
-  const baseUrl = 'https://photo-tools.iser.io/'
-  const toolUrl = `${baseUrl}?${qs}`
-  const embedUrl = `${baseUrl}?${qs}&embed=1`
-  const label = buildLabel(state.lenses)
+
+  const baseUrl = 'https://phototools.io'
+  const toolUrl = `${baseUrl}/tools/${toolSlug}`
+  const embedUrl = `${toolUrl}?embed=1`
+  const label = toolName
 
   const snippets = {
     link: toolUrl,
@@ -45,16 +34,16 @@ export function ShareModal({ state, onClose, onToast }: ShareModalProps) {
   }, [onToast])
 
   return (
-    <div className={styles.shareModalOverlay} onClick={onClose} role="dialog" aria-label="Share and Embed">
-      <div className={styles.shareModal} onClick={(e) => e.stopPropagation()}>
-        <div className={styles.shareModalHeader}>
+    <div className={styles.overlay} onClick={onClose} role="dialog" aria-label="Share and Embed">
+      <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
+        <div className={styles.header}>
           <h3>Share &amp; Embed</h3>
-          <button className={styles.shareModalClose} onClick={onClose} aria-label="Close share modal">&times;</button>
+          <button className={styles.closeBtn} onClick={onClose} aria-label="Close share modal">&times;</button>
         </div>
 
-        <div className={styles.shareModalSection}>
+        <div className={styles.section}>
           <label>Direct Link</label>
-          <div className={styles.shareModalRow}>
+          <div className={styles.row}>
             <input type="text" readOnly value={snippets.link} />
             <button onClick={() => copy('link', snippets.link)}>
               {copied === 'link' ? 'Copied' : 'Copy'}
@@ -62,9 +51,9 @@ export function ShareModal({ state, onClose, onToast }: ShareModalProps) {
           </div>
         </div>
 
-        <div className={styles.shareModalSection}>
+        <div className={styles.section}>
           <label>Markdown (Reddit, GitHub)</label>
-          <div className={styles.shareModalRow}>
+          <div className={styles.row}>
             <input type="text" readOnly value={snippets.markdown} />
             <button onClick={() => copy('markdown', snippets.markdown)}>
               {copied === 'markdown' ? 'Copied' : 'Copy'}
@@ -72,9 +61,9 @@ export function ShareModal({ state, onClose, onToast }: ShareModalProps) {
           </div>
         </div>
 
-        <div className={styles.shareModalSection}>
+        <div className={styles.section}>
           <label>BBCode (Forums)</label>
-          <div className={styles.shareModalRow}>
+          <div className={styles.row}>
             <input type="text" readOnly value={snippets.bbcode} />
             <button onClick={() => copy('bbcode', snippets.bbcode)}>
               {copied === 'bbcode' ? 'Copied' : 'Copy'}
@@ -82,9 +71,9 @@ export function ShareModal({ state, onClose, onToast }: ShareModalProps) {
           </div>
         </div>
 
-        <div className={styles.shareModalSection}>
+        <div className={styles.section}>
           <label>HTML Embed</label>
-          <div className={styles.shareModalRow}>
+          <div className={styles.row}>
             <input type="text" readOnly value={snippets.iframe} />
             <button onClick={() => copy('iframe', snippets.iframe)}>
               {copied === 'iframe' ? 'Copied' : 'Copy'}
