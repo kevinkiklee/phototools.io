@@ -20,6 +20,7 @@ import { DistortionCanvas } from './DistortionCanvas'
 import { ShareModal } from './ShareModal'
 import { FrameInfoPanel } from './FrameInfoPanel'
 import { ViewModeToggle } from './ViewModeToggle'
+import { CropStrip } from './CropStrip'
 import styles from './FovSimulator.module.css'
 
 type Action =
@@ -231,6 +232,16 @@ export function FovSimulator() {
               <div style={{ color: 'var(--text-secondary)', fontSize: 14 }}>Compression view coming soon</div>
             )}
           </section>
+
+          {state.viewMode === 'fov' && (
+            <CropStrip
+              lenses={state.lenses}
+              imageIndex={state.imageIndex}
+              orientation={state.orientation}
+              activeLens={state.activeLens}
+              onSelectLens={(i) => dispatch({ type: 'SET_ACTIVE_LENS', payload: i })}
+            />
+          )}
         </main>
         <LearnPanel slug="fov-simulator" />
       </div>
