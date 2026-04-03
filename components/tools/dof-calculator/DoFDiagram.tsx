@@ -10,12 +10,13 @@ interface DoFDiagramProps {
 }
 
 const W = 700
-const H = 160
+const H = 140
 const PAD_L = 40
 const PAD_R = 30
-const STRIP_Y = 48
+const STRIP_Y = 14
 const STRIP_H = 52
-const AXIS_Y = STRIP_Y + STRIP_H + 16
+const LABEL_Y = STRIP_Y + STRIP_H + 16
+const AXIS_Y = LABEL_Y + 18
 
 function distToX(dist: number): number {
   const minLog = Math.log(0.2)
@@ -53,30 +54,26 @@ export function DoFDiagram({ result, distance }: DoFDiagramProps) {
   const focusWidth = Math.max(2, farX - nearX)
   const midX = nearX + focusWidth / 2
 
-  // Smart label positioning: avoid overlap
-  const labelSpacing = 42
-  const labelsOverlap = (farX - nearX) < labelSpacing
-  const nearLabelX = labelsOverlap ? midX - labelSpacing / 2 : nearX
-  const farLabelX = labelsOverlap ? midX + labelSpacing / 2 : farX
+  // When boundaries are close, merge into one combined label to prevent overlap.
+  // "Near: 5.5m" is ~70px wide at font-size 10, so two side-by-side need ~150px gap.
+  const labelsCollide = (farX - nearX) < 130
 
   const ticks = [0.3, 0.5, 1, 2, 3, 5, 10, 20, 50, 100]
 
-  // Bokeh circles for out-of-focus zones
+  // Bokeh circles for blur zones
   const bokehNear = useMemo(() => {
     const circles: { cx: number; cy: number; r: number; o: number }[] = []
-    const startX = PAD_L
-    const endX = nearX
-    const span = endX - startX
+    const span = nearX - PAD_L
     if (span < 10) return circles
     for (let i = 0; i < 8; i++) {
       const t = (i + 0.5) / 8
-      const x = startX + t * span
-      const distFromEdge = Math.min(t, 1 - t) * 2
+      const x = PAD_L + t * span
+      const edge = Math.min(t, 1 - t) * 2
       circles.push({
         cx: x,
         cy: STRIP_Y + 10 + (i % 3) * 16,
-        r: 3 + (1 - distFromEdge) * 4,
-        o: 0.06 + (1 - distFromEdge) * 0.08,
+        r: 3 + (1 - edge) * 4,
+        o: 0.06 + (1 - edge) * 0.08,
       })
     }
     return circles
@@ -84,19 +81,17 @@ export function DoFDiagram({ result, distance }: DoFDiagramProps) {
 
   const bokehFar = useMemo(() => {
     const circles: { cx: number; cy: number; r: number; o: number }[] = []
-    const startX = farX
-    const endX = W - PAD_R
-    const span = endX - startX
+    const span = W - PAD_R - farX
     if (span < 10 || farIsInfinity) return circles
     for (let i = 0; i < 8; i++) {
       const t = (i + 0.5) / 8
-      const x = startX + t * span
-      const distFromEdge = Math.min(t, 1 - t) * 2
+      const x = farX + t * span
+      const edge = Math.min(t, 1 - t) * 2
       circles.push({
         cx: x,
         cy: STRIP_Y + 8 + (i % 3) * 18,
-        r: 3 + distFromEdge * 5,
-        o: 0.06 + distFromEdge * 0.1,
+        r: 3 + edge * 5,
+        o: 0.06 + edge * 0.1,
       })
     }
     return circles
@@ -167,25 +162,9 @@ export function DoFDiagram({ result, distance }: DoFDiagramProps) {
           fill="url(#dof-sharp)"
           rx="3"
         />
-        {/* Sharp edge accents */}
-        <line
-          x1={nearX}
-          y1={STRIP_Y + 1}
-          x2={nearX}
-          y2={STRIP_Y + STRIP_H - 1}
-          stroke="var(--accent)"
-          strokeWidth="2"
-          opacity="0.5"
-        />
-        <line
-          x1={farX}
-          y1={STRIP_Y + 1}
-          x2={farX}
-          y2={STRIP_Y + STRIP_H - 1}
-          stroke="var(--accent)"
-          strokeWidth="2"
-          opacity="0.5"
-        />
+        {/* Edge accents */}
+        <line x1={nearX} y1={STRIP_Y + 1} x2={nearX} y2={STRIP_Y + STRIP_H - 1} stroke="var(--accent)" strokeWidth="2" opacity="0.5" />
+        <line x1={farX} y1={STRIP_Y + 1} x2={farX} y2={STRIP_Y + STRIP_H - 1} stroke="var(--accent)" strokeWidth="2" opacity="0.5" />
 
         {/* ── Blur zone: far ── */}
         {!farIsInfinity && (
@@ -219,30 +198,6 @@ export function DoFDiagram({ result, distance }: DoFDiagramProps) {
           <circle cx="-5" cy="0" r="2.5" fill="var(--text-secondary)" opacity="0.4" />
         </g>
 
-        {/* ── Near / Far labels ── */}
-        <text
-          x={nearLabelX}
-          y={STRIP_Y - 8}
-          textAnchor="middle"
-          className={styles.boundaryLabel}
-        >
-          {formatDistShort(result.nearFocus)}
-        </text>
-        {labelsOverlap && (
-          <>
-            <line x1={nearLabelX} y1={STRIP_Y - 5} x2={nearX} y2={STRIP_Y} stroke="var(--accent)" strokeWidth="0.8" opacity="0.4" />
-            <line x1={farLabelX} y1={STRIP_Y - 5} x2={farX} y2={STRIP_Y} stroke="var(--accent)" strokeWidth="0.8" opacity="0.4" />
-          </>
-        )}
-        <text
-          x={farLabelX}
-          y={STRIP_Y - 8}
-          textAnchor="middle"
-          className={styles.boundaryLabel}
-        >
-          {farIsInfinity ? '∞' : formatDistShort(result.farFocus)}
-        </text>
-
         {/* ── Subject marker ── */}
         <line
           x1={subjectX}
@@ -256,79 +211,40 @@ export function DoFDiagram({ result, distance }: DoFDiagramProps) {
         <circle cx={subjectX} cy={STRIP_Y + STRIP_H / 2} r="4" fill="var(--accent)" />
         <circle cx={subjectX} cy={STRIP_Y + STRIP_H / 2} r="2" fill="var(--bg-surface)" />
 
+        {/* ── Labels below strip ── */}
+        {labelsCollide ? (
+          <>
+            <line x1={midX} y1={LABEL_Y - 6} x2={midX} y2={STRIP_Y + STRIP_H} stroke="var(--accent)" strokeWidth="0.8" opacity="0.35" />
+            <text x={midX} y={LABEL_Y} textAnchor="middle" className={styles.boundaryLabel}>
+              {formatDistShort(result.nearFocus)} – {farIsInfinity ? '∞' : formatDistShort(result.farFocus)}
+            </text>
+          </>
+        ) : (
+          <>
+            <line x1={nearX} y1={LABEL_Y - 6} x2={nearX} y2={STRIP_Y + STRIP_H} stroke="var(--accent)" strokeWidth="0.8" opacity="0.35" />
+            <text x={nearX} y={LABEL_Y} textAnchor="middle" className={styles.boundaryLabel}>
+              {formatDistShort(result.nearFocus)}
+            </text>
+            <line x1={farX} y1={LABEL_Y - 6} x2={farX} y2={STRIP_Y + STRIP_H} stroke="var(--accent)" strokeWidth="0.8" opacity="0.35" />
+            <text x={farX} y={LABEL_Y} textAnchor="middle" className={styles.boundaryLabel}>
+              {farIsInfinity ? '∞' : formatDistShort(result.farFocus)}
+            </text>
+          </>
+        )}
+
         {/* ── Distance axis ── */}
-        <line
-          x1={PAD_L}
-          y1={AXIS_Y}
-          x2={W - PAD_R}
-          y2={AXIS_Y}
-          stroke="var(--border)"
-          strokeWidth="1"
-        />
+        <line x1={PAD_L} y1={AXIS_Y} x2={W - PAD_R} y2={AXIS_Y} stroke="var(--border)" strokeWidth="1" />
         {ticks.map((t) => {
           const x = distToX(t)
           return (
             <g key={t}>
-              <line
-                x1={x}
-                y1={AXIS_Y - 3}
-                x2={x}
-                y2={AXIS_Y + 3}
-                stroke="var(--text-secondary)"
-                strokeWidth="1"
-                opacity="0.4"
-              />
-              <text
-                x={x}
-                y={AXIS_Y + 14}
-                textAnchor="middle"
-                className={styles.tickLabel}
-              >
+              <line x1={x} y1={AXIS_Y - 3} x2={x} y2={AXIS_Y + 3} stroke="var(--text-secondary)" strokeWidth="1" opacity="0.4" />
+              <text x={x} y={AXIS_Y + 14} textAnchor="middle" className={styles.tickLabel}>
                 {t >= 1 ? `${t}m` : `${t * 100}cm`}
               </text>
             </g>
           )
         })}
-
-        {/* ── "Sharp" / "Blurred" zone labels ── */}
-        <text
-          x={midX}
-          y={STRIP_Y + STRIP_H / 2 + 4}
-          textAnchor="middle"
-          className={styles.zoneLabel}
-        >
-          Sharp
-        </text>
-        {nearX - PAD_L > 50 && (
-          <text
-            x={PAD_L + (nearX - PAD_L) / 2}
-            y={STRIP_Y + STRIP_H / 2 + 4}
-            textAnchor="middle"
-            className={styles.zoneLabelBlur}
-          >
-            Blurred
-          </text>
-        )}
-        {!farIsInfinity && (W - PAD_R - farX) > 50 && (
-          <text
-            x={farX + (W - PAD_R - farX) / 2}
-            y={STRIP_Y + STRIP_H / 2 + 4}
-            textAnchor="middle"
-            className={styles.zoneLabelBlur}
-          >
-            Blurred
-          </text>
-        )}
-
-        {/* ── DoF summary ── */}
-        <text
-          x={W / 2}
-          y={H - 2}
-          textAnchor="middle"
-          className={styles.dofSummary}
-        >
-          Depth of Field: {formatDist(result.totalDoF)}  ·  Subject at {formatDist(distance)}
-        </text>
       </svg>
     </div>
   )

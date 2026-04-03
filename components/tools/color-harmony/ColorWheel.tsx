@@ -17,8 +17,8 @@ interface ColorWheelProps {
   onSecondaryDrag: (nodeIndex: number, hue: number) => void
 }
 
-const DESKTOP_SIZE = 280
-const MOBILE_SIZE = 240
+const DESKTOP_SIZE = 380
+const MOBILE_SIZE = 260
 const BREAKPOINT = 1024
 
 // Hit-test radius around a node dot (in CSS pixels)
