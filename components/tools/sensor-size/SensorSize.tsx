@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import styles from '../shared/Calculator.module.css'
 import ss from './SensorSize.module.css'
+import { pixelPitch } from '@/lib/math/diffraction'
 
 const SENSOR_DIMS = [
   { id: 'mf', name: 'Medium Format', w: 43.8, h: 32.9, color: '#8b5cf6' },
@@ -14,7 +15,7 @@ const SENSOR_DIMS = [
   { id: 'phone', name: 'Smartphone (1/1.7")', w: 7.6, h: 5.7, color: '#6366f1' },
 ] as const
 
-type DisplayMode = 'overlay' | 'side-by-side'
+type DisplayMode = 'overlay' | 'side-by-side' | 'pixel-density'
 
 /** Full-frame diagonal (mm), used to compute crop factors for the comparison table. */
 const FF_DIAG = Math.sqrt(36 * 36 + 24 * 24)
@@ -23,6 +24,7 @@ export function SensorSize() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [visible, setVisible] = useState<Set<string>>(() => new Set(SENSOR_DIMS.map((s) => s.id)))
   const [mode, setMode] = useState<DisplayMode>('overlay')
+  const [resolution, setResolution] = useState(24)
 
   const toggleSensor = useCallback((id: string) => {
     setVisible((prev) => {
@@ -79,7 +81,7 @@ export function SensorSize() {
         ctx.textAlign = 'left'
         ctx.fillText(s.name, cx - rw / 2 + 4, cy - rh / 2 + 14)
       }
-    } else {
+    } else if (mode === 'side-by-side') {
       // Side-by-side mode: sensors arranged horizontally, aligned at the bottom
       // edge, with uniform scale so relative sizes are visually accurate.
       const totalW = visibleSensors.reduce((sum, s) => sum + s.w, 0)
@@ -110,8 +112,59 @@ export function SensorSize() {
 
         x += rw + gap
       }
+    } else {
+      // Pixel density mode: draw grids where cell size is proportional to pixel pitch
+      const pitches = visibleSensors.map((s) => ({
+        ...s,
+        pitch: pixelPitch(s.w, resolution),
+      }))
+      const maxPitch = Math.max(...pitches.map((p) => p.pitch))
+      const baseCellSize = 6 // px for the largest pitch
+      const labelHeight = 32
+      const gridSize = 60 // px for the grid box (square)
+      const gap = 16
+      const totalGridW = pitches.length * gridSize + (pitches.length - 1) * gap
+      let x = (cssWidth - totalGridW) / 2
+      const gridTop = (cssHeight - gridSize - labelHeight) / 2
+
+      for (const p of pitches) {
+        const cellSize = (p.pitch / maxPitch) * baseCellSize
+        const cols = Math.floor(gridSize / cellSize)
+        const rows = Math.floor(gridSize / cellSize)
+
+        // Draw grid cells
+        ctx.fillStyle = p.color + '33' // 20% opacity
+        ctx.strokeStyle = p.color
+        ctx.lineWidth = 0.5
+
+        for (let row = 0; row < rows; row++) {
+          for (let col = 0; col < cols; col++) {
+            const cx = x + col * cellSize
+            const cy = gridTop + row * cellSize
+            ctx.fillRect(cx, cy, cellSize, cellSize)
+            ctx.strokeRect(cx, cy, cellSize, cellSize)
+          }
+        }
+
+        // Border around the grid area
+        ctx.strokeStyle = p.color
+        ctx.lineWidth = 1.5
+        ctx.strokeRect(x, gridTop, cols * cellSize, rows * cellSize)
+
+        // Label below
+        ctx.fillStyle = p.color
+        ctx.font = '11px monospace'
+        ctx.textAlign = 'center'
+        const labelX = x + gridSize / 2
+        ctx.fillText(p.name, labelX, gridTop + gridSize + 14)
+        ctx.fillStyle = 'var(--text-secondary)'
+        ctx.font = '10px monospace'
+        ctx.fillText(`${p.pitch.toFixed(2)} µm`, labelX, gridTop + gridSize + 26)
+
+        x += gridSize + gap
+      }
     }
-  }, [visibleSensors, mode])
+  }, [visibleSensors, mode, resolution])
 
   // Redraw when data or mode changes
   useEffect(() => {
@@ -161,7 +214,28 @@ export function SensorSize() {
           >
             Side by Side
           </button>
+          <button
+            className={`${ss.modeBtn} ${mode === 'pixel-density' ? ss.modeBtnActive : ''}`}
+            onClick={() => setMode('pixel-density')}
+            aria-pressed={mode === 'pixel-density'}
+          >
+            Pixel Density
+          </button>
         </div>
+
+        {mode === 'pixel-density' && (
+          <label className={ss.resolutionField}>
+            Resolution
+            <input
+              type="number"
+              min={1}
+              max={200}
+              value={resolution}
+              onChange={(e) => setResolution(Math.max(1, Number(e.target.value)))}
+            />
+            MP
+          </label>
+        )}
       </div>
 
       <canvas
