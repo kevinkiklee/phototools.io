@@ -1,7 +1,7 @@
 {
-  "name": "fov-viewer",
+  "name": "photo-tools",
   "version": "1.0.0",
-  "description": "Browser-based camera FOV comparison tool for photographers",
+  "description": "Free photography calculators, simulators, and references",
   "license": "MIT",
   "type": "module",
   "scripts": {

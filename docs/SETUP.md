@@ -13,7 +13,7 @@ A client-side React app that helps photographers visualize and compare field of 
 ## Quick Start
 
 ```bash
-git clone <repo-url> && cd fov-viewer
+git clone <repo-url> && cd photo-tools
 
 # Automated setup (installs deps, runs lint, tests, type-check):
 ./scripts/setup.sh

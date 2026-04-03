@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://fov-viewer.iser.io/</loc><lastmod>2026-04-02</lastmod><priority>1.0</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/</loc><lastmod>2026-04-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/24mm-vs-35mm.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/35mm-vs-50mm.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/35mm-vs-40mm.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/40mm-vs-50mm.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/50mm-vs-85mm.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/24mm-vs-50mm.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/85mm-vs-135mm.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/85mm-vs-200mm.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/full-frame-vs-apsc.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://fov-viewer.iser.io/compare/full-frame-vs-m43.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
   <url><loc>https://fov-viewer.iser.io/learn/</loc><lastmod>2026-04-02</lastmod><priority>0.8</priority></url>
   <url><loc>https://fov-viewer.iser.io/learn/crop-factor-explained.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>
   <url><loc>https://fov-viewer.iser.io/learn/focal-length-guide.html</loc><lastmod>2026-04-02</lastmod><priority>0.7</priority></url>

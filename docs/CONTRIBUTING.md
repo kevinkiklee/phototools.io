@@ -1,12 +1,12 @@
-# Contributing to FOV Viewer
+# Contributing to Photo Tools
 
 Thanks for your interest in contributing! This is an open-source project and we welcome pull requests.
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/kevinkiklee/fov-viewer.git
-cd fov-viewer
+git clone https://github.com/kevinkiklee/photo-tools.git
+cd photo-tools
 npm install
 npm run dev
 ```
@@ -79,7 +79,7 @@ src/
 
 ## Reporting Issues
 
-Open an issue at https://github.com/kevinkiklee/fov-viewer/issues with:
+Open an issue at https://github.com/kevinkiklee/photo-tools/issues with:
 - What you expected to happen
 - What actually happened
 - Browser and device info

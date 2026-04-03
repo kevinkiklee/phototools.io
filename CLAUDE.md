@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-FOV Viewer is a static React app for comparing camera focal lengths and visualizing field of view. Deployed to GitHub Pages. Educational focus for photography learners.
+Photo Tools is a suite of free photography calculators, simulators, and references. Currently features the FOV Viewer for comparing focal lengths and field of view. Migrating to Next.js 16 as a multi-tool hub. Deployed to Vercel.
 
 ## Tech Stack
 
@@ -65,13 +65,17 @@ FOV Viewer is a static React app for comparing camera focal lengths and visualiz
 - `npm audit --omit=dev` runs in CI before deploy
 - No `eval`, `innerHTML`, or `dangerouslySetInnerHTML` anywhere
 
+## Deployment
+
+- NEVER push to remote or deploy without explicit user instruction. Always wait for the user to say "push", "deploy", "commit and push", etc.
+
 ## Conventions
 
 - BEM-style CSS class names (e.g. `.lens-panel__header`)
 - Named exports for all components
 - Types in `src/types.ts`
 - No external UI libraries — keep it dependency-free
-- Custom domain: `fov-viewer.iser.io` (CNAME in `public/CNAME`, base `/` in `vite.config.ts`)
+- Custom domain: `photo-tools.iser.io` (CNAME in `public/CNAME`, base `/` in `vite.config.ts`)
 - Vitest configured with jsdom environment in `vite.config.ts`
 - Test files live next to source files (`*.test.ts`) except cross-cutting tests at `src/` root
 - CI pipeline: `npm ci` → `npm audit` → `npm run lint` → `npm test` → `npm run build` → deploy

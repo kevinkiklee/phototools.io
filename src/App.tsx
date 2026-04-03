@@ -9,12 +9,13 @@ import { useDynamicMeta } from './hooks/useDynamicMeta'
 import { copyCanvasToClipboard, copyLinkToClipboard } from './utils/export'
 import { Sidebar } from './components/Sidebar'
 import { LensPanel } from './components/LensPanel'
-import { ThemeToggle } from './components/ThemeToggle'
+import { TopNav } from './components/TopNav'
 import { SceneStrip } from './components/SceneStrip'
 import { ActionBar } from './components/ActionBar'
 import { Canvas } from './components/Canvas'
 
 import { Toast } from './components/Toast'
+import { ShareModal } from './components/ShareModal'
 
 type Action =
   | { type: 'SET_LENS'; payload: { index: number; updates: Partial<LensConfig> } }
@@ -78,6 +79,7 @@ function App() {
   const [state, dispatch] = useReducer(reducer, undefined, getInitialState)
   const [toast, setToast] = useState<string | null>(null)
   const [collapsed, setCollapsed] = useState<Record<number, boolean>>({})
+  const [showShare, setShowShare] = useState(false)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
 
   useQuerySync(state)
@@ -99,33 +101,12 @@ function App() {
 
   return (
     <div className="app">
+      <TopNav
+        theme={state.theme}
+        onToggleTheme={(t) => dispatch({ type: 'SET_THEME', payload: t })}
+      />
+      <div className="app__body">
       <Sidebar>
-        <header className="sidebar__header">
-          <div className="sidebar__logo">
-            <div className="sidebar__logo-icon" />
-            <span className="sidebar__logo-text">FOV Viewer</span>
-          </div>
-          <div className="sidebar__actions mobile-only">
-            <button
-              className="icon-btn icon-btn--labeled"
-              onClick={() => dispatch({
-                type: 'SET_ORIENTATION',
-                payload: state.orientation === 'landscape' ? 'portrait' : 'landscape',
-              })}
-              title={state.orientation === 'landscape' ? 'Switch to portrait' : 'Switch to landscape'}
-            >
-              {state.orientation === 'landscape' ? '▯' : '▭'} Rotate
-            </button>
-            <button className="icon-btn icon-btn--labeled" onClick={() => canvasRef.current?.dispatchEvent(new CustomEvent('center-overlays'))} title="Center overlays">
-              ⊞ Center
-            </button>
-            <ThemeToggle
-              theme={state.theme}
-              onChange={(t) => dispatch({ type: 'SET_THEME', payload: t })}
-            />
-          </div>
-        </header>
-
         {state.lenses.map((lens, i) => (
           <LensPanel
             key={i}
@@ -154,6 +135,7 @@ function App() {
           onCopyImage={handleCopyImage}
           onCopyLink={handleCopyLink}
           onReset={() => dispatch({ type: 'RESET' })}
+          onShare={() => setShowShare(true)}
         />
       </Sidebar>
 
@@ -163,25 +145,19 @@ function App() {
             selectedIndex={state.imageIndex}
             onChange={(i) => dispatch({ type: 'SET_IMAGE', payload: i })}
           />
-          <div className="desktop-only" style={{ display: 'contents' }}>
-            <button
-              className="icon-btn icon-btn--labeled"
-              onClick={() => dispatch({
-                type: 'SET_ORIENTATION',
-                payload: state.orientation === 'landscape' ? 'portrait' : 'landscape',
-              })}
-              title={state.orientation === 'landscape' ? 'Switch to portrait' : 'Switch to landscape'}
-            >
-              {state.orientation === 'landscape' ? '▯' : '▭'} Rotate
-            </button>
-            <button className="icon-btn icon-btn--labeled" onClick={() => canvasRef.current?.dispatchEvent(new CustomEvent('center-overlays'))} title="Center overlays">
-              ⊞ Center
-            </button>
-            <ThemeToggle
-              theme={state.theme}
-              onChange={(t) => dispatch({ type: 'SET_THEME', payload: t })}
-            />
-          </div>
+          <button
+            className="icon-btn icon-btn--labeled"
+            onClick={() => dispatch({
+              type: 'SET_ORIENTATION',
+              payload: state.orientation === 'landscape' ? 'portrait' : 'landscape',
+            })}
+            title={state.orientation === 'landscape' ? 'Switch to portrait' : 'Switch to landscape'}
+          >
+            {state.orientation === 'landscape' ? '▯' : '▭'} Rotate
+          </button>
+          <button className="icon-btn icon-btn--labeled" onClick={() => canvasRef.current?.dispatchEvent(new CustomEvent('center-overlays'))} title="Center overlays">
+            ⊞ Center
+          </button>
         </nav>
 
         <section className="canvas-main">
@@ -193,8 +169,15 @@ function App() {
           />
         </section>
       </main>
+      </div>
 
-
+      {showShare && (
+        <ShareModal
+          state={state}
+          onClose={() => setShowShare(false)}
+          onToast={(msg) => { setToast(msg); setShowShare(false) }}
+        />
+      )}
       <Toast message={toast} onDone={() => setToast(null)} />
     </div>
   )

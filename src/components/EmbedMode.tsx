@@ -44,7 +44,7 @@ export function EmbedMode() {
       </div>
       <a
         className="embed-mode__attribution"
-        href="https://fov-viewer.iser.io/"
+        href="https://photo-tools.iser.io/"
         target="_blank"
         rel="noopener noreferrer"
       >

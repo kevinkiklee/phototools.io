@@ -1,8 +1,8 @@
-# FOV Viewer
+# Photo Tools
 
-A browser-based tool that helps photographers visualize and compare field of view across different focal lengths and sensor sizes. Built for learning — understand how focal length and crop factor affect framing.
+Free photography calculators, simulators, and references. The FOV Viewer helps photographers visualize and compare field of view across different focal lengths and sensor sizes.
 
-**[Live Demo](https://fov-viewer.iser.io/)**
+**[Live Demo](https://photo-tools.iser.io/)**
 
 ![FOV Viewer Screenshot](docs/screenshot.png)
 
