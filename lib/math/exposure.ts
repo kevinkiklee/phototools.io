@@ -135,6 +135,18 @@ export function solveForISO(ev: number, aperture: number, shutterSpeed: number):
   return (100 * aperture * aperture) / (shutterSpeed * Math.pow(2, ev))
 }
 
+/**
+ * Calculate the circle of confusion (blur radius) for a point at a given depth.
+ *
+ * Models how out-of-focus a point is based on its distance from the focus plane
+ * and the aperture. Used by the DOF shader to determine per-pixel blur amount.
+ *
+ * @param depth - Normalized depth of the point (0=near, 1=far)
+ * @param focusDistance - Normalized focus distance (0=near, 1=far)
+ * @param aperture - F-number (1.4 to 22)
+ * @param maxRadius - Maximum blur radius in pixels (default 20)
+ * @returns Blur radius in pixels, clamped to [0, maxRadius]
+ */
 export function calcCircleOfConfusion(
   depth: number,
   focusDistance: number,
@@ -148,6 +160,16 @@ export function calcCircleOfConfusion(
   return Math.min(Math.max(coc, 0), maxRadius)
 }
 
+/**
+ * Calculate motion blur kernel size based on shutter speed.
+ *
+ * Maps shutter speed to a blur amount in pixels. Longer exposures produce
+ * more motion blur on masked regions.
+ *
+ * @param shutterSpeed - Shutter speed in seconds
+ * @param maxBlur - Maximum blur in pixels (default 40)
+ * @returns Blur amount in pixels, clamped to [0, maxBlur]
+ */
 export function calcMotionBlurAmount(shutterSpeed: number, maxBlur: number = 40): number {
   const minShutter = 1 / 8000
   const maxShutter = 30
@@ -158,6 +180,15 @@ export function calcMotionBlurAmount(shutterSpeed: number, maxBlur: number = 40)
   return Math.min(Math.max(t * maxBlur, 0), maxBlur)
 }
 
+/**
+ * Calculate noise amplitude based on ISO value.
+ *
+ * Models sensor noise that increases logarithmically with ISO.
+ * At ISO 100, noise is zero. At ISO 25600, noise is at maximum (~0.5).
+ *
+ * @param iso - ISO sensitivity (100 to 25600)
+ * @returns Noise amplitude (0 to ~0.5)
+ */
 export function calcNoiseAmplitude(iso: number): number {
   if (iso <= 100) return 0
   return Math.log2(iso / 100) / 16

@@ -149,16 +149,6 @@ export function useExposureRenderer(
     const noiseProgram = createProgram(gl, passthroughVertexShader, noiseFragmentShader)
     const vao = setupFullScreenQuad(gl, dofProgram)
 
-    // Bind same VAO for all programs (they share the same vertex layout)
-    gl.bindVertexArray(vao)
-    for (const prog of [motionProgram, noiseProgram]) {
-      const posLoc = gl.getAttribLocation(prog, 'a_position')
-      const texLoc = gl.getAttribLocation(prog, 'a_texCoord')
-      if (posLoc >= 0) gl.enableVertexAttribArray(posLoc)
-      if (texLoc >= 0) gl.enableVertexAttribArray(texLoc)
-    }
-    gl.bindVertexArray(null)
-
     return {
       gl, dofProgram, motionProgram, noiseProgram, vao,
       framebufferA: null!, framebufferB: null!,
