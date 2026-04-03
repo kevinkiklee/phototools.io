@@ -2,7 +2,7 @@
 
 import { useReducer, useRef, useCallback, useState, useEffect } from 'react'
 import type { LensConfig } from '@/lib/types'
-import type { FovSimulatorState, Orientation } from './types'
+import type { FovSimulatorState, Orientation, ViewMode } from './types'
 import { DEFAULT_FOV_STATE, LENS_COLORS, LENS_LABELS, MAX_LENSES } from './types'
 import { parseQueryParams, useQuerySync } from './querySync'
 import { copyCanvasToClipboard, copyLinkToClipboard } from '@/lib/utils/export'
@@ -16,6 +16,7 @@ import { SceneStrip } from './SceneStrip'
 import { ActionBar } from './ActionBar'
 import { Canvas } from './Canvas'
 import { ShareModal } from './ShareModal'
+import { FrameInfoPanel } from './FrameInfoPanel'
 import styles from './FovSimulator.module.css'
 
 type Action =
@@ -25,6 +26,10 @@ type Action =
   | { type: 'SET_IMAGE'; payload: number }
   | { type: 'SET_ACTIVE_LENS'; payload: number }
   | { type: 'SET_ORIENTATION'; payload: Orientation }
+  | { type: 'SET_DISTANCE'; payload: number }
+  | { type: 'SET_VIEW_MODE'; payload: ViewMode }
+  | { type: 'SET_SHOW_GRID'; payload: boolean }
+  | { type: 'SET_SHOW_GUIDES'; payload: boolean }
   | { type: 'RESET' }
   | { type: 'HYDRATE'; payload: Partial<FovSimulatorState> }
 
@@ -57,6 +62,14 @@ function reducer(state: FovSimulatorState, action: Action): FovSimulatorState {
       return { ...state, activeLens: action.payload }
     case 'SET_ORIENTATION':
       return { ...state, orientation: action.payload }
+    case 'SET_DISTANCE':
+      return { ...state, distance: action.payload }
+    case 'SET_VIEW_MODE':
+      return { ...state, viewMode: action.payload }
+    case 'SET_SHOW_GRID':
+      return { ...state, showGrid: action.payload }
+    case 'SET_SHOW_GUIDES':
+      return { ...state, showGuides: action.payload }
     case 'RESET':
       return { ...DEFAULT_FOV_STATE }
     case 'HYDRATE':
@@ -146,6 +159,14 @@ export function FovSimulator() {
             </button>
           )}
 
+          <FrameInfoPanel
+            lenses={state.lenses}
+            distance={state.distance}
+            showGuides={state.showGuides}
+            onDistanceChange={(d) => dispatch({ type: 'SET_DISTANCE', payload: d })}
+            onShowGuidesChange={(v) => dispatch({ type: 'SET_SHOW_GUIDES', payload: v })}
+          />
+
           <ActionBar
             onCopyImage={handleCopyImage}
             onCopyLink={handleCopyLink}
@@ -214,6 +235,14 @@ export function FovSimulator() {
             + Add lens
           </button>
         )}
+
+        <FrameInfoPanel
+          lenses={state.lenses}
+          distance={state.distance}
+          showGuides={state.showGuides}
+          onDistanceChange={(d) => dispatch({ type: 'SET_DISTANCE', payload: d })}
+          onShowGuidesChange={(v) => dispatch({ type: 'SET_SHOW_GUIDES', payload: v })}
+        />
 
         <ActionBar
           onCopyImage={handleCopyImage}
