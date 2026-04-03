@@ -4,6 +4,7 @@ import { getToolBySlug, getToolStatus } from '@/lib/data/tools'
 import { DraftBanner } from './DraftBanner'
 import { ToolActions } from './ToolActions'
 import { LearnPanel } from './LearnPanel'
+import { Breadcrumbs } from './Breadcrumbs'
 import type { ReactNode } from 'react'
 import styles from './ToolPageShell.module.css'
 
@@ -14,22 +15,24 @@ interface ToolPageShellProps {
 
 export function ToolPageShell({ slug, children }: ToolPageShellProps) {
   const tool = getToolBySlug(slug)
+
   return (
     <>
       {tool && getToolStatus(tool) === 'draft' && <DraftBanner />}
-      <div className={styles.outer}>
+      <article className={styles.outer}>
         <div className={styles.main}>
           {tool && (
-            <div className={styles.header}>
+            <header className={styles.header}>
+              <Breadcrumbs category={tool.category} toolName={tool.name} />
               <h1 className={styles.title}>{tool.name}</h1>
               <p className={styles.description}>{tool.description}</p>
               <ToolActions toolName={tool.name} toolSlug={tool.slug} />
-            </div>
+            </header>
           )}
           {children}
         </div>
         <LearnPanel slug={slug} />
-      </div>
+      </article>
     </>
   )
 }
