@@ -172,9 +172,9 @@ describe('color harmonies', () => {
     expect(hues[3]).toBe(270)
   })
 
-  it('monochromatic returns 5 HSL triplets with same hue', () => {
+  it('monochromatic returns 3 HSL triplets with same hue', () => {
     const result = monochromatic(200, 70, 50)
-    expect(result).toHaveLength(5)
+    expect(result).toHaveLength(3)
     for (const hsl of result) {
       expect(hsl.h).toBe(200)
       expect(hsl.s).toBeGreaterThanOrEqual(0)
@@ -182,9 +182,9 @@ describe('color harmonies', () => {
       expect(hsl.l).toBeGreaterThanOrEqual(0)
       expect(hsl.l).toBeLessThanOrEqual(100)
     }
-    // Should have variation in lightness
-    const lightnesses = result.map((r) => r.l)
-    expect(Math.max(...lightnesses)).toBeGreaterThan(Math.min(...lightnesses))
+    // Should have variation in saturation
+    const sats = result.map((r) => r.s)
+    expect(Math.max(...sats)).toBeGreaterThan(Math.min(...sats))
   })
 
   it('all harmony functions normalize hues to 0-360', () => {

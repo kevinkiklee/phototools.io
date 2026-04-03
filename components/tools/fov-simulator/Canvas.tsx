@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useEffect, useCallback, useState } from 'react'
+import { useRef, useEffect, useCallback } from 'react'
 import type { LensConfig } from '@/lib/types'
 import type { Orientation } from './types'
 import { LENS_COLORS, LENS_LABELS } from './types'
@@ -8,6 +8,8 @@ import { calcFOV, calcCropRatio, calcFrameWidth, calcEquivFocalLength } from '@/
 import { getSensor } from '@/lib/data/sensors'
 import { SCENES } from '@/lib/data/scenes'
 import styles from './FovSimulator.module.css'
+
+export type OverlayOffsets = Record<number, { dx: number; dy: number }>
 
 interface CanvasProps {
   lenses: LensConfig[]
@@ -17,6 +19,8 @@ interface CanvasProps {
   distance: number
   showGuides: boolean
   activeLens: number
+  offsets: OverlayOffsets
+  onOffsetsChange: React.Dispatch<React.SetStateAction<OverlayOffsets>>
 }
 
 // Reference FOV: 14mm on full frame defines the widest view the canvas shows.
@@ -125,12 +129,10 @@ function drawFramingGuides(
   ctx.setLineDash([])
 }
 
-export function Canvas({ lenses, imageIndex, orientation, canvasRef, distance, showGuides, activeLens }: CanvasProps) {
+export function Canvas({ lenses, imageIndex, orientation, canvasRef, distance, showGuides, activeLens, offsets, onOffsetsChange }: CanvasProps) {
   const imageRef = useRef<HTMLImageElement | null>(null)
   const animFrameRef = useRef<number>(0)
   const drawnRectsRef = useRef<Rect[]>([])
-  // Custom offsets from center (in canvas pixels) for each lens, keyed by index
-  const [offsets, setOffsets] = useState<Record<number, { dx: number; dy: number }>>({})
   const dragRef = useRef<{ index: number; startX: number; startY: number; origDx: number; origDy: number } | null>(null)
 
   const fovs = lenses.map((lens) => {
@@ -364,14 +366,14 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef, distance, s
   // Reset offsets when lenses change (count, focal length, or sensor)
   const lensKey = lenses.map((l) => `${l.focalLength}-${l.sensorId}`).join('|')
   useEffect(() => {
-    setOffsets({})
+    onOffsetsChange({})
   }, [lensKey])
 
   // Listen for center-overlays event
   useEffect(() => {
     const canvas = canvasRef.current
     if (!canvas) return
-    const handler = () => setOffsets({})
+    const handler = () => onOffsetsChange({})
     canvas.addEventListener('center-overlays', handler)
     return () => canvas.removeEventListener('center-overlays', handler)
   }, [canvasRef])
@@ -443,7 +445,7 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef, distance, s
     const rawDy = drag.origDy + (cy - drag.startY)
     const newDx = Math.max(-maxDx, Math.min(maxDx, rawDx))
     const newDy = Math.max(-maxDy, Math.min(maxDy, rawDy))
-    setOffsets((prev) => ({ ...prev, [drag.index]: { dx: newDx, dy: newDy } }))
+    onOffsetsChange((prev) => ({ ...prev, [drag.index]: { dx: newDx, dy: newDy } }))
   }, [canvasRef, getCanvasCoords, fovs, orientation])
 
   const handleMouseMove = useCallback((e: React.MouseEvent) => {

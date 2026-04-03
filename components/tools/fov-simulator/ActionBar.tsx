@@ -19,7 +19,7 @@ export function ActionBar({ onCopyImage, onCopyLink, onReset, onShare }: ActionB
         Copy link
       </button>
       <button className={styles.actionBarBtn} onClick={onShare}>
-        Share / Embed
+        Embed
       </button>
       <button className={styles.actionBarBtn} onClick={onReset}>
         Reset

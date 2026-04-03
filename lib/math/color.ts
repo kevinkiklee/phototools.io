@@ -210,10 +210,8 @@ export function monochromatic(
   outerSat: number = Math.min(100, saturation + 20),
 ): { h: number; s: number; l: number }[] {
   return [
-    { h: hue, s: outerSat, l: Math.min(100, lightness + 30) },
-    { h: hue, s: saturation, l: Math.min(100, lightness + 15) },
+    { h: hue, s: outerSat, l: lightness },
     { h: hue, s: saturation, l: lightness },
-    { h: hue, s: innerSat, l: Math.max(0, lightness - 15) },
-    { h: hue, s: innerSat, l: Math.max(0, lightness - 30) },
+    { h: hue, s: innerSat, l: lightness },
   ]
 }

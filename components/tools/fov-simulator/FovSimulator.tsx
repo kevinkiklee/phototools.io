@@ -15,7 +15,7 @@ import { Sidebar } from './Sidebar'
 import { LensPanel } from './LensPanel'
 import { SceneStrip } from './SceneStrip'
 import { ActionBar } from './ActionBar'
-import { Canvas } from './Canvas'
+import { Canvas, type OverlayOffsets } from './Canvas'
 import { ShareModal } from './ShareModal'
 import { CropStrip } from './CropStrip'
 import styles from './FovSimulator.module.css'
@@ -80,6 +80,8 @@ export function FovSimulator() {
   const [toast, setToast] = useState<string | null>(null)
   const [collapsed, setCollapsed] = useState<Record<number, boolean>>({})
   const [showShare, setShowShare] = useState(false)
+  const [overlayOffsets, setOverlayOffsets] = useState<OverlayOffsets>({})
+  const [cropExpanded, setCropExpanded] = useState(false)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const { theme, setTheme } = useTheme()
 
@@ -183,6 +185,8 @@ export function FovSimulator() {
               distance={state.distance}
               showGuides={state.showGuides}
               activeLens={state.activeLens}
+              offsets={overlayOffsets}
+              onOffsetsChange={setOverlayOffsets}
             />
           </section>
 
@@ -192,6 +196,9 @@ export function FovSimulator() {
             orientation={state.orientation}
             activeLens={state.activeLens}
             onSelectLens={(i) => dispatch({ type: 'SET_ACTIVE_LENS', payload: i })}
+            offsets={overlayOffsets}
+            expanded={cropExpanded}
+            onToggleExpand={() => setCropExpanded((v) => !v)}
           />
         </main>
         <LearnPanel slug="fov-simulator" />

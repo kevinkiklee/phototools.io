@@ -45,21 +45,11 @@ export function ShareModal({ state, onClose, onToast }: ShareModalProps) {
   }, [onToast])
 
   return (
-    <div className={styles.shareModalOverlay} onClick={onClose} role="dialog" aria-label="Share and Embed">
+    <div className={styles.shareModalOverlay} onClick={onClose} role="dialog" aria-label="Embed">
       <div className={styles.shareModal} onClick={(e) => e.stopPropagation()}>
         <div className={styles.shareModalHeader}>
-          <h3>Share &amp; Embed</h3>
-          <button className={styles.shareModalClose} onClick={onClose} aria-label="Close share modal">&times;</button>
-        </div>
-
-        <div className={styles.shareModalSection}>
-          <label>Direct Link</label>
-          <div className={styles.shareModalRow}>
-            <input type="text" readOnly value={snippets.link} />
-            <button onClick={() => copy('link', snippets.link)}>
-              {copied === 'link' ? 'Copied' : 'Copy'}
-            </button>
-          </div>
+          <h3>Embed</h3>
+          <button className={styles.shareModalClose} onClick={onClose} aria-label="Close embed modal">&times;</button>
         </div>
 
         <div className={styles.shareModalSection}>

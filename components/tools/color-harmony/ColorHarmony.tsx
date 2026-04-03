@@ -38,7 +38,7 @@ function getHarmonyHues(hue: number, type: HarmonyType, splitAngle: number, anal
 /** Index of the base (key) hue in the harmonyHues array */
 function getBaseIndex(type: HarmonyType): number {
   if (type === 'analogous') return 1
-  if (type === 'monochromatic') return 2 // middle swatch is the base
+  if (type === 'monochromatic') return 1 // middle swatch is the base
   return 0
 }
 
