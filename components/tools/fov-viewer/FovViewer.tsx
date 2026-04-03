@@ -6,6 +6,8 @@ import type { FovViewerState, Orientation } from './types'
 import { DEFAULT_FOV_STATE, LENS_COLORS, LENS_LABELS, MAX_LENSES } from './types'
 import { parseQueryParams, useQuerySync } from './querySync'
 import { copyCanvasToClipboard, copyLinkToClipboard } from '@/lib/utils/export'
+import { useTheme } from '@/components/layout/ThemeProvider'
+import { ThemeToggle } from '@/components/layout/ThemeToggle'
 import { Toast } from '@/components/shared/Toast'
 
 import { Sidebar } from './Sidebar'
@@ -79,6 +81,7 @@ export function FovViewer() {
   const [collapsed, setCollapsed] = useState<Record<number, boolean>>({})
   const [showShare, setShowShare] = useState(false)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
+  const { theme, setTheme } = useTheme()
 
   useQuerySync(state)
 
@@ -93,10 +96,103 @@ export function FovViewer() {
     setToast(success ? 'Link copied!' : 'Failed to copy')
   }, [])
 
+  const rotateBtn = (
+    <button
+      className={`${styles.iconBtn} ${styles.iconBtnLabeled}`}
+      onClick={() => dispatch({
+        type: 'SET_ORIENTATION',
+        payload: state.orientation === 'landscape' ? 'portrait' : 'landscape',
+      })}
+      title={state.orientation === 'landscape' ? 'Switch to portrait' : 'Switch to landscape'}
+    >
+      {state.orientation === 'landscape' ? '▯' : '▭'} Rotate
+    </button>
+  )
+
+  const centerBtn = (
+    <button
+      className={`${styles.iconBtn} ${styles.iconBtnLabeled}`}
+      onClick={() => canvasRef.current?.dispatchEvent(new CustomEvent('center-overlays'))}
+      title="Center overlays"
+    >
+      ⊞ Center
+    </button>
+  )
+
   return (
     <div className={styles.app}>
       <div className={styles.appBody}>
-      <Sidebar>
+        {/* Desktop sidebar */}
+        <Sidebar>
+          {state.lenses.map((lens, i) => (
+            <LensPanel
+              key={i}
+              label={`Lens ${LENS_LABELS[i]}`}
+              color={LENS_COLORS[i]}
+              config={lens}
+              isActive={state.activeLens === i}
+              collapsed={collapsed[i] ?? false}
+              onChange={(u) => dispatch({ type: 'SET_LENS', payload: { index: i, updates: u } })}
+              onFocus={() => dispatch({ type: 'SET_ACTIVE_LENS', payload: i })}
+              onToggleCollapse={() => setCollapsed((c) => ({ ...c, [i]: !c[i] }))}
+              onRemove={state.lenses.length > 1 ? () => dispatch({ type: 'REMOVE_LENS', payload: i }) : undefined}
+            />
+          ))}
+
+          {state.lenses.length < MAX_LENSES && (
+            <button className={styles.addLensBtn} onClick={() => dispatch({ type: 'ADD_LENS' })}>
+              + Add lens
+            </button>
+          )}
+
+          <ActionBar
+            onCopyImage={handleCopyImage}
+            onCopyLink={handleCopyLink}
+            onReset={() => dispatch({ type: 'RESET' })}
+            onShare={() => setShowShare(true)}
+          />
+        </Sidebar>
+
+        {/* Canvas area */}
+        <main className={styles.canvasArea}>
+          {/* Top bar: scene strip + rotate/center (desktop only) */}
+          <nav className={styles.canvasTopbar}>
+            <SceneStrip
+              selectedIndex={state.imageIndex}
+              onChange={(i) => dispatch({ type: 'SET_IMAGE', payload: i })}
+            />
+            <span className={styles.desktopOnly}>{rotateBtn}</span>
+            <span className={styles.desktopOnly}>{centerBtn}</span>
+          </nav>
+
+          <section className={styles.canvasMain}>
+            <Canvas
+              lenses={state.lenses}
+              imageIndex={state.imageIndex}
+              orientation={state.orientation}
+              canvasRef={canvasRef}
+            />
+          </section>
+        </main>
+      </div>
+
+      {/* Mobile toolbar below canvas: logo + rotate + center + theme */}
+      <div className={styles.mobileToolbar}>
+        <div className={styles.mobileToolbarLeft}>
+          <span className={styles.mobileLogoIcon} />
+          <span className={styles.mobileLogoText}>FOV Viewer</span>
+        </div>
+        <div className={styles.mobileToolbarRight}>
+          {rotateBtn}
+          {centerBtn}
+          <ThemeToggle theme={theme} onChange={setTheme} />
+        </div>
+      </div>
+
+      {/* Mobile controls below toolbar */}
+      <div className={styles.mobileControls}>
+        <div className={styles.mobileDivider} />
+
         {state.lenses.map((lens, i) => (
           <LensPanel
             key={i}
@@ -113,10 +209,7 @@ export function FovViewer() {
         ))}
 
         {state.lenses.length < MAX_LENSES && (
-          <button
-            className={styles.addLensBtn}
-            onClick={() => dispatch({ type: 'ADD_LENS' })}
-          >
+          <button className={styles.addLensBtn} onClick={() => dispatch({ type: 'ADD_LENS' })}>
             + Add lens
           </button>
         )}
@@ -127,38 +220,6 @@ export function FovViewer() {
           onReset={() => dispatch({ type: 'RESET' })}
           onShare={() => setShowShare(true)}
         />
-      </Sidebar>
-
-      <main className={styles.canvasArea}>
-        <nav className={styles.canvasTopbar}>
-          <SceneStrip
-            selectedIndex={state.imageIndex}
-            onChange={(i) => dispatch({ type: 'SET_IMAGE', payload: i })}
-          />
-          <button
-            className={`${styles.iconBtn} ${styles.iconBtnLabeled}`}
-            onClick={() => dispatch({
-              type: 'SET_ORIENTATION',
-              payload: state.orientation === 'landscape' ? 'portrait' : 'landscape',
-            })}
-            title={state.orientation === 'landscape' ? 'Switch to portrait' : 'Switch to landscape'}
-          >
-            {state.orientation === 'landscape' ? '▯' : '▭'} Rotate
-          </button>
-          <button className={`${styles.iconBtn} ${styles.iconBtnLabeled}`} onClick={() => canvasRef.current?.dispatchEvent(new CustomEvent('center-overlays'))} title="Center overlays">
-            ⊞ Center
-          </button>
-        </nav>
-
-        <section className={styles.canvasMain}>
-          <Canvas
-            lenses={state.lenses}
-            imageIndex={state.imageIndex}
-            orientation={state.orientation}
-            canvasRef={canvasRef}
-          />
-        </section>
-      </main>
       </div>
 
       {showShare && (

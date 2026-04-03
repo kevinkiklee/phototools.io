@@ -403,31 +403,76 @@
   white-space: nowrap;
 }
 
+/* Desktop-only helper (hidden on mobile via media query below) */
+.desktopOnly {}
+
+/* Mobile toolbar + controls: hidden on desktop */
+.mobileToolbar {
+  display: none;
+}
+
+.mobileControls {
+  display: none;
+}
+
+.mobileDivider {
+  height: 1px;
+  background: var(--border);
+}
+
+.mobileToolbarLeft {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mobileLogoIcon {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: var(--accent);
+}
+
+.mobileLogoText {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.mobileToolbarRight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 /* Mobile layout */
 @media (max-width: 1023px) {
-  .appBody {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    min-width: 0;
-    border-right: none;
-    border-top: 1px solid var(--border);
-    order: 2;
-  }
-
-  .canvasArea {
-    order: 1;
-  }
-
   .app {
     height: auto;
     overflow: visible;
   }
 
   .appBody {
+    flex-direction: column;
     overflow: visible;
+  }
+
+  /* Hide desktop sidebar — use mobileControls instead */
+  .sidebar {
+    display: none;
+  }
+
+  /* Canvas area: scene strip + canvas only */
+  .canvasArea {
+    order: 1;
+  }
+
+  .canvasTopbar {
+    justify-content: center;
+  }
+
+  /* Hide rotate/center buttons from desktop topbar on mobile */
+  .desktopOnly {
+    display: none;
   }
 
   .canvasMain {
@@ -435,45 +480,37 @@
     flex: none;
   }
 
-  .actionBar {
+  .fovCanvas {
+    border-radius: 0;
+  }
+
+  /* Show mobile toolbar */
+  .mobileToolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+  }
+
+  /* Show mobile controls */
+  .mobileControls {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  /* Action bar horizontal on mobile */
+  .mobileControls .actionBar {
     flex-direction: row;
   }
 
-  .actionBarBtn {
+  .mobileControls .actionBarBtn {
     flex: 1;
-    min-height: 44px;
-  }
-
-  .lensPanelPreset {
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
-  }
-
-  .lensPanelRemove {
-    min-width: 44px;
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .iconBtn {
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
-  }
-
-  .lensPanelSlider {
-    height: 44px;
   }
 
   .sceneStrip {
     justify-content: flex-start;
     padding-bottom: 4px;
-  }
-
-  .fovCanvas {
-    border-radius: 0;
   }
 }
