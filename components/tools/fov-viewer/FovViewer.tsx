@@ -143,10 +143,10 @@ export function FovViewer() {
             })}
             title={state.orientation === 'landscape' ? 'Switch to portrait' : 'Switch to landscape'}
           >
-            {state.orientation === 'landscape' ? '\u25af' : '\u25ad'} Rotate
+            {state.orientation === 'landscape' ? '▯' : '▭'} Rotate
           </button>
           <button className={`${styles.iconBtn} ${styles.iconBtnLabeled}`} onClick={() => canvasRef.current?.dispatchEvent(new CustomEvent('center-overlays'))} title="Center overlays">
-            \u229e Center
+            ⊞ Center
           </button>
         </nav>
 

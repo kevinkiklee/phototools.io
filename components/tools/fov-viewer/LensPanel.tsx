@@ -81,7 +81,7 @@ export function LensPanel({
       <div className={styles.lensPanelHeader} onClick={onToggleCollapse}>
         <span className={styles.lensPanelLabel} style={{ color }}>{label}</span>
         <span className={styles.lensPanelEquiv}>
-          {sensor.cropFactor !== 1 ? `\u2261 ${equiv}mm equiv` : ''}
+          {sensor.cropFactor !== 1 ? `≡ ${equiv}mm equiv` : ''}
         </span>
         {onRemove && (
           <button
@@ -90,7 +90,7 @@ export function LensPanel({
             title="Remove lens"
             aria-label={`Remove ${label}`}
           >
-            \u2715
+            ✕
           </button>
         )}
       </div>
@@ -156,7 +156,7 @@ export function LensPanel({
             >
               {SENSORS.map((s) => (
                 <option key={s.id} value={s.id}>
-                  {s.name} ({s.cropFactor}\u00d7)
+                  {s.name} ({s.cropFactor}×)
                 </option>
               ))}
             </select>

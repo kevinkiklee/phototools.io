@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { ToolPageShell } from '@/components/shared/ToolPageShell'
 import { FovViewer } from '@/components/tools/fov-viewer/FovViewer'
 
 export const metadata: Metadata = {
@@ -8,9 +7,5 @@ export const metadata: Metadata = {
 }
 
 export default function FovViewerPage() {
-  return (
-    <ToolPageShell slug="fov-viewer">
-      <FovViewer />
-    </ToolPageShell>
-  )
+  return <FovViewer />
 }
