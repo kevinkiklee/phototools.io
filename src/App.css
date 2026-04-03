@@ -561,3 +561,34 @@
     border-radius: 0;
   }
 }
+
+/* Embed mode */
+.embed-mode {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+}
+
+.embed-mode__canvas {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.embed-mode__attribution {
+  padding: 4px 8px;
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.embed-mode__attribution:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
