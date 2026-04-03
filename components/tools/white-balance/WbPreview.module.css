@@ -94,6 +94,14 @@
   padding: 24px;
   min-height: 0;
   overflow: hidden;
+  transition: background 0.15s;
+}
+
+.canvasMainDragOver {
+  background: var(--bg-surface);
+  outline: 2px dashed var(--accent);
+  outline-offset: -8px;
+  border-radius: 8px;
 }
 
 .canvas {

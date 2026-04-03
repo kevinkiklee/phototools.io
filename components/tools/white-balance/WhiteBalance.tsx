@@ -1,10 +1,11 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useCallback } from 'react'
 import { kelvinToRgb } from '@/lib/math/color'
 import { getToolBySlug } from '@/lib/data/tools'
 import { parseQueryState, useToolQuerySync, intParam } from '@/lib/utils/querySync'
 import { LearnPanel } from '@/components/shared/LearnPanel'
+import { FileDropZone } from '@/components/shared/FileDropZone'
 import { WbPreview } from './WbPreview'
 import calc from '../shared/Calculator.module.css'
 import wb from './WhiteBalance.module.css'
@@ -26,11 +27,12 @@ const PARAM_SCHEMA = {
 
 const tool = getToolBySlug('white-balance')!
 
-function ControlsPanel({ kelvin, rgb, activePreset, onKelvinChange }: {
+function ControlsPanel({ kelvin, rgb, activePreset, onKelvinChange, onFile }: {
   kelvin: number
   rgb: { r: number; g: number; b: number }
   activePreset: (typeof PRESETS)[number] | undefined
   onKelvinChange: (k: number) => void
+  onFile: (file: File) => void
 }) {
   return (
     <>
@@ -107,6 +109,8 @@ function ControlsPanel({ kelvin, rgb, activePreset, onKelvinChange }: {
           </span>
         </div>
       </div>
+
+      <FileDropZone onFile={onFile} />
     </>
   )
 }
@@ -114,6 +118,7 @@ function ControlsPanel({ kelvin, rgb, activePreset, onKelvinChange }: {
 export function WhiteBalance() {
   const params = parseQueryState(PARAM_SCHEMA)
   const [kelvin, setKelvin] = useState(params.k ?? 5500)
+  const [customSrc, setCustomSrc] = useState<string | null>(null)
 
   useToolQuerySync({ k: kelvin }, PARAM_SCHEMA)
 
@@ -121,7 +126,13 @@ export function WhiteBalance() {
 
   const activePreset = PRESETS.find((p) => p.kelvin === kelvin)
 
-  const controlsProps = { kelvin, rgb, activePreset, onKelvinChange: setKelvin }
+  const handleFile = useCallback((file: File) => {
+    if (!file.type.startsWith('image/')) return
+    if (customSrc) URL.revokeObjectURL(customSrc)
+    setCustomSrc(URL.createObjectURL(file))
+  }, [customSrc])
+
+  const controlsProps = { kelvin, rgb, activePreset, onKelvinChange: setKelvin, onFile: handleFile }
 
   return (
     <div className={wb.app}>
@@ -130,7 +141,7 @@ export function WhiteBalance() {
           <ControlsPanel {...controlsProps} />
         </div>
 
-        <WbPreview rgb={rgb} kelvin={kelvin} />
+        <WbPreview rgb={rgb} kelvin={kelvin} customSrc={customSrc} onFile={handleFile} />
 
         <LearnPanel slug="white-balance" />
       </div>
