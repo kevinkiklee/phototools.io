@@ -1,6 +1,6 @@
 'use client'
 
-import { useReducer, useRef, useCallback, useState } from 'react'
+import { useReducer, useRef, useCallback, useState, useEffect } from 'react'
 import type { LensConfig } from '@/lib/types'
 import type { FovViewerState, Orientation } from './types'
 import { DEFAULT_FOV_STATE, LENS_COLORS, LENS_LABELS, MAX_LENSES } from './types'
@@ -26,6 +26,7 @@ type Action =
   | { type: 'SET_ACTIVE_LENS'; payload: number }
   | { type: 'SET_ORIENTATION'; payload: Orientation }
   | { type: 'RESET' }
+  | { type: 'HYDRATE'; payload: Partial<FovViewerState> }
 
 const NEW_LENS_DEFAULTS: LensConfig[] = [
   { focalLength: 85, sensorId: 'ff' },
@@ -58,25 +59,16 @@ function reducer(state: FovViewerState, action: Action): FovViewerState {
       return { ...state, orientation: action.payload }
     case 'RESET':
       return { ...DEFAULT_FOV_STATE }
+    case 'HYDRATE':
+      return { ...state, ...action.payload }
     default:
       return state
   }
 }
 
-function getInitialState(): FovViewerState {
-  if (typeof window === 'undefined') return DEFAULT_FOV_STATE
-  const queryOverrides = parseQueryParams()
-  const orientation = queryOverrides.orientation
-    ?? (window.innerWidth < 1024 ? 'portrait' : 'landscape')
-  return {
-    ...DEFAULT_FOV_STATE,
-    ...queryOverrides,
-    orientation,
-  }
-}
-
 export function FovViewer() {
-  const [state, dispatch] = useReducer(reducer, undefined, getInitialState)
+  const [state, dispatch] = useReducer(reducer, DEFAULT_FOV_STATE)
+  const [hydrated, setHydrated] = useState(false)
   const [toast, setToast] = useState<string | null>(null)
   const [collapsed, setCollapsed] = useState<Record<number, boolean>>({})
   const [showShare, setShowShare] = useState(false)
@@ -84,6 +76,15 @@ export function FovViewer() {
   const { theme, setTheme } = useTheme()
 
   useQuerySync(state)
+
+  useEffect(() => {
+    if (hydrated) return
+    setHydrated(true)
+    const queryOverrides = parseQueryParams()
+    const orientation = queryOverrides.orientation
+      ?? (window.innerWidth < 1024 ? 'portrait' : 'landscape')
+    dispatch({ type: 'HYDRATE', payload: { ...queryOverrides, orientation } })
+  }, [hydrated])
 
   const handleCopyImage = useCallback(async () => {
     if (!canvasRef.current) return

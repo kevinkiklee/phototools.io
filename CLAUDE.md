@@ -28,7 +28,7 @@ Photo Tools is a suite of 15 free photography calculators, simulators, and refer
 - **App Router**: all routes under `app/`. Homepage (`app/page.tsx`) is the tool hub. Each tool lives at `app/tools/[slug]/page.tsx`. Glossary at `app/learn/glossary/page.tsx`.
 - **Tool Registry**: `lib/data/tools.ts` defines all 15 tools with slug, name, description, status (`live`/`draft`), and category. `getLiveTools()` returns only published tools; `getToolBySlug()` looks up by slug.
 - **Pure Math Modules**: `lib/math/` contains pure functions for FOV, DOF, exposure, diffraction, star trails, color, and histogram calculations. Each has co-located `.test.ts` files. TDD approach — math is tested independently from UI.
-- **Components**: organized into `components/layout/` (Nav, Footer, ThemeProvider, ThemeToggle), `components/shared/` (ToolPageShell, FileDropZone, DraftBanner, Toast, AdSlot), and `components/tools/` (one directory per tool + `shared/` for cross-tool components).
+- **Components**: organized into `components/layout/` (Nav, Footer, ThemeProvider, ThemeToggle), `components/shared/` (ToolPageShell, FileDropZone, DraftBanner, Toast), and `components/tools/` (one directory per tool + `shared/` for cross-tool components).
 - **Data**: `lib/data/` contains tool registry, sensors, focal lengths, scenes, and glossary terms — each with tests.
 
 ## Key Directories

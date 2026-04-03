@@ -1,5 +1,6 @@
 node_modules
-dist
+.next
+out
 .superpowers
 
 # Editor / OS
@@ -16,4 +17,3 @@ dist
 
 # Build artifacts
 *.tsbuildinfo
-.next

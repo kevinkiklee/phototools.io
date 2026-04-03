@@ -48,7 +48,7 @@ photo-tools/
 │       └── glossary/page.tsx       # Photography glossary
 ├── components/
 │   ├── layout/                     # Nav, Footer, ThemeProvider, ThemeToggle
-│   ├── shared/                     # ToolPageShell, FileDropZone, DraftBanner, Toast, AdSlot
+│   ├── shared/                     # ToolPageShell, FileDropZone, DraftBanner, Toast
 │   └── tools/                      # One directory per tool + shared/
 │       ├── fov-viewer/
 │       ├── dof-calculator/
