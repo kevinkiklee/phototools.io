@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useMemo, useCallback } from 'react'
-import { hslToRgb, complementary, analogous, triadic, splitComplementary } from '@/lib/math/color'
+import { hslToRgb, rgbToHsl, complementary, analogous, triadic, splitComplementary } from '@/lib/math/color'
 import styles from '../shared/Calculator.module.css'
 import ch from './ColorHarmony.module.css'
 
@@ -95,24 +95,10 @@ export function ColorHarmony() {
               const r = parseInt(hex.slice(1, 3), 16)
               const g = parseInt(hex.slice(3, 5), 16)
               const b = parseInt(hex.slice(5, 7), 16)
-              // Simple RGB to HSL
-              const max = Math.max(r, g, b) / 255
-              const min = Math.min(r, g, b) / 255
-              const l = (max + min) / 2
-              const d = max - min
-              let s = 0
-              if (d !== 0) s = d / (1 - Math.abs(2 * l - 1))
-              let h = 0
-              if (d !== 0) {
-                const rn = r / 255, gn = g / 255, bn = b / 255
-                if (max === rn) h = 60 * (((gn - bn) / d) % 6)
-                else if (max === gn) h = 60 * ((bn - rn) / d + 2)
-                else h = 60 * ((rn - gn) / d + 4)
-              }
-              if (h < 0) h += 360
-              setHue(Math.round(h))
-              setSaturation(Math.round(s * 100))
-              setLightness(Math.round(l * 100))
+              const hsl = rgbToHsl(r, g, b)
+              setHue(hsl.h)
+              setSaturation(hsl.s)
+              setLightness(hsl.l)
             }}
             className={ch.colorInput}
           />

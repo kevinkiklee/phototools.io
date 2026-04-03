@@ -16,7 +16,9 @@ interface CanvasProps {
   canvasRef: React.RefObject<HTMLCanvasElement | null>
 }
 
-// 14mm full frame = edge of the photo. Wider lenses render outside.
+// Reference FOV: 14mm on full frame defines the widest view the canvas shows.
+// All overlay rectangles are scaled relative to this FOV. Lenses wider than
+// 14mm would extend beyond the canvas edges.
 const REF_FOV = calcFOV(14, 1.0)
 
 interface PillBounds {
@@ -52,13 +54,16 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
     return calcFOV(lens.focalLength, sensor.cropFactor)
   })
 
-
+  // Compute the overlay rectangle for each lens on the canvas.
+  // Each rect is sized as a proportion of the canvas based on the ratio of
+  // the lens's FOV to the reference FOV (14mm full frame).
   const computeRects = useCallback((canvas: HTMLCanvasElement): Rect[] => {
     const w = canvas.width
     const h = canvas.height
     const isPortrait = orientation === 'portrait'
     return fovs.map((fov, i) => {
-      // In portrait, the canvas width maps to vertical FOV and height to horizontal
+      // In portrait mode, the canvas width corresponds to the vertical FOV
+      // and height to horizontal, since the image is rotated.
       const ratioW = calcCropRatio(
         isPortrait ? fov.vertical : fov.horizontal,
         isPortrait ? REF_FOV.vertical : REF_FOV.horizontal,
@@ -96,12 +101,14 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
     const h = canvas.height
     const dpr = window.devicePixelRatio || 1
 
+    // Draw the scene image, scaled to cover the full canvas (like CSS object-fit: cover)
     drawImageCover(ctx, img, 0, 0, w, h)
 
     const rects = computeRects(canvas)
     if (rects.length === 0) return
 
-    // Group rects by same size for overlapping border handling
+    // Draw FOV overlay borders. When multiple lenses have the same FOV (same-sized
+    // rects), draw alternating colored dashes instead of overlapping solid borders.
     const lineW = 3 * dpr
     const half = lineW / 2
     const dashLen = 10 * dpr
@@ -147,7 +154,8 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
       }
     }
 
-    // Labels — always show all, A above B above C (A closest to rect edge)
+    // Draw lens labels (e.g. "A -- 50mm") as colored pills above each rect.
+    // When multiple rects share the same position, labels stack vertically.
     const fontSize = 12 * dpr
     const padX = 6 * dpr
     const padY = 3 * dpr
@@ -283,10 +291,13 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
     }
   }, [canvasRef])
 
+  // Begin dragging a FOV overlay. Hit-tests all rects, preferring the smallest
+  // (most specific) one when overlapping, so telephoto rects are easier to grab.
   const startDrag = useCallback((clientX: number, clientY: number): boolean => {
     if (!canvasRef.current) return false
     const { cx, cy } = getCanvasCoords(clientX, clientY)
 
+    // Sort by area ascending so we pick the smallest (innermost) overlapping rect
     const hit = [...drawnRectsRef.current]
       .sort((a, b) => (a.w * a.h) - (b.w * b.h))
       .find((r) => hitTestRect(r, cx, cy))
@@ -303,6 +314,9 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
     if (startDrag(e.clientX, e.clientY)) e.preventDefault()
   }, [startDrag])
 
+  // Update overlay position during drag, clamping so the rect stays within
+  // the canvas bounds. The offset is stored relative to the rect's default
+  // centered position.
   const moveDrag = useCallback((clientX: number, clientY: number) => {
     const canvas = canvasRef.current
     if (!canvas || !dragRef.current) return
@@ -410,13 +424,18 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef }: CanvasPro
   )
 }
 
-// Minimum clickable size for small rects (in canvas pixels)
+/** Minimum touch/click target size in CSS pixels for small overlay rects. */
 const MIN_HIT_SIZE = 30
 
+/**
+ * Test whether a canvas coordinate falls within a rect's interactive area.
+ * Enforces a minimum hit area so that very small (telephoto) rects are still
+ * clickable. Also tests the label pill if present.
+ */
 function hitTestRect(r: Rect, cx: number, cy: number): boolean {
   const dpr = window.devicePixelRatio || 1
 
-  // Test the rect itself, with a minimum hit area centered on the rect
+  // Expand tiny rects to a minimum clickable area, centered on the rect
   const hitW = Math.max(r.w, MIN_HIT_SIZE * dpr)
   const hitH = Math.max(r.h, MIN_HIT_SIZE * dpr)
   const hitX = r.x + r.w / 2 - hitW / 2
@@ -432,6 +451,10 @@ function hitTestRect(r: Rect, cx: number, cy: number): boolean {
   return false
 }
 
+/**
+ * Draw an image onto a canvas region using "cover" scaling (like CSS object-fit: cover).
+ * Crops the image to fill the destination without distorting aspect ratio.
+ */
 function drawImageCover(
   ctx: CanvasRenderingContext2D,
   img: HTMLImageElement,

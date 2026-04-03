@@ -16,7 +16,7 @@ function formatShutter(s: number): string {
   return `1/${Math.round(1 / s)}`
 }
 
-
+/** Find the array element closest to the target value using logarithmic distance. */
 function findNearest(arr: number[], target: number): number {
   let best = arr[0]
   let bestDist = Math.abs(Math.log2(target) - Math.log2(best))
@@ -84,11 +84,14 @@ export function ExposureSimulator() {
   const shutter = SHUTTER_SPEEDS[shutterIdx]
   const iso = ISOS[isoIdx]
 
+  // EV100 is the exposure value at ISO 100 (depends only on aperture and shutter).
+  // totalEV incorporates ISO: totalEV = EV100 + log2(ISO/100)
   const ev100 = useMemo(() => calcEV(aperture, shutter), [aperture, shutter])
-  // Total EV including ISO adjustment
   const totalEV = ev100 + Math.log2(iso / 100)
 
-  // When user moves a slider, compensate the unlocked parameters
+  // Exposure compensation: when one parameter changes, the "locked" parameter
+  // stays fixed and the third is adjusted to maintain the same totalEV.
+  // This simulates how a camera compensates in priority modes (Av, Tv, etc.).
   const handleApertureChange = useCallback((newIdx: number) => {
     const newAperture = APERTURES[newIdx]
     if (lock === 'aperture') return

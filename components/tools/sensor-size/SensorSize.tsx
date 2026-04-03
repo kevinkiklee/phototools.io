@@ -16,7 +16,8 @@ const SENSOR_DIMS = [
 
 type DisplayMode = 'overlay' | 'side-by-side'
 
-const FF_DIAG = Math.sqrt(36 * 36 + 24 * 24) // reference for crop factor
+/** Full-frame diagonal (mm), used to compute crop factors for the comparison table. */
+const FF_DIAG = Math.sqrt(36 * 36 + 24 * 24)
 
 export function SensorSize() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -55,14 +56,15 @@ export function SensorSize() {
     const padding = 20
 
     if (mode === 'overlay') {
-      // Find the largest sensor to determine scale
+      // Overlay mode: all sensors drawn centered on the same point.
+      // Scale is determined by the largest sensor so all fit within the canvas.
+      // Drawing order is largest-first so smaller sensors appear on top.
       const maxW = Math.max(...visibleSensors.map((s) => s.w))
       const maxH = Math.max(...visibleSensors.map((s) => s.h))
       const scale = Math.min((cssWidth - padding * 2) / maxW, (cssHeight - padding * 2) / maxH)
       const cx = cssWidth / 2
       const cy = cssHeight / 2
 
-      // Draw largest first (back) to smallest (front)
       const sorted = [...visibleSensors].sort((a, b) => b.w * b.h - a.w * a.h)
       for (const s of sorted) {
         const rw = s.w * scale
@@ -78,7 +80,8 @@ export function SensorSize() {
         ctx.fillText(s.name, cx - rw / 2 + 4, cy - rh / 2 + 14)
       }
     } else {
-      // Side by side
+      // Side-by-side mode: sensors arranged horizontally, aligned at the bottom
+      // edge, with uniform scale so relative sizes are visually accurate.
       const totalW = visibleSensors.reduce((sum, s) => sum + s.w, 0)
       const gap = 8
       const totalGap = (visibleSensors.length - 1) * gap

@@ -1,6 +1,14 @@
 /**
- * Convert color temperature (Kelvin) to approximate RGB values (0-255).
- * Based on Tanner Helland's algorithm.
+ * Convert a color temperature in Kelvin to approximate RGB values.
+ *
+ * Based on Tanner Helland's algorithm, which curve-fits the CIE 1964
+ * standard observer data. Used for white balance visualization.
+ *
+ * Clamps input to 1000K-40000K range. Lower values produce warm (orange/red)
+ * tones, higher values produce cool (blue) tones.
+ *
+ * @param kelvin - Color temperature in Kelvin (e.g. 5500 for daylight)
+ * @returns RGB values, each 0-255
  */
 export function kelvinToRgb(kelvin: number): { r: number; g: number; b: number } {
   const temp = Math.max(1000, Math.min(40000, kelvin)) / 100
@@ -48,9 +56,14 @@ export function kelvinToRgb(kelvin: number): { r: number; g: number; b: number }
 }
 
 /**
- * Convert HSL to RGB.
- * h: 0-360, s: 0-100, l: 0-100
- * Returns r, g, b: 0-255
+ * Convert HSL (Hue, Saturation, Lightness) to RGB.
+ *
+ * Uses the standard HSL-to-RGB conversion with chroma/hue sector mapping.
+ *
+ * @param h - Hue in degrees (0-360)
+ * @param s - Saturation as percentage (0-100)
+ * @param l - Lightness as percentage (0-100)
+ * @returns RGB values, each 0-255
  */
 export function hslToRgb(h: number, s: number, l: number): { r: number; g: number; b: number } {
   const sn = s / 100
@@ -86,9 +99,16 @@ export function hslToRgb(h: number, s: number, l: number): { r: number; g: numbe
 }
 
 /**
- * Convert RGB to HSL.
- * r, g, b: 0-255
- * Returns h: 0-360, s: 0-100, l: 0-100
+ * Convert RGB to HSL (Hue, Saturation, Lightness).
+ *
+ * Uses the standard algorithm: find min/max of normalized RGB channels,
+ * compute lightness as their average, saturation from the delta, and
+ * hue from which channel is dominant.
+ *
+ * @param r - Red channel (0-255)
+ * @param g - Green channel (0-255)
+ * @param b - Blue channel (0-255)
+ * @returns HSL values: h (0-360), s (0-100), l (0-100)
  */
 export function rgbToHsl(r: number, g: number, b: number): { h: number; s: number; l: number } {
   const rn = r / 255
@@ -131,22 +151,38 @@ function normalizeHue(hue: number): number {
   return ((hue % 360) + 360) % 360
 }
 
-/** Complementary harmony: [hue, hue+180] */
+/**
+ * Complementary color harmony: two colors opposite on the color wheel.
+ * Creates high contrast and visual tension. Common in sunset/blue-hour photography.
+ * @returns [baseHue, baseHue + 180]
+ */
 export function complementary(hue: number): number[] {
   return [normalizeHue(hue), normalizeHue(hue + 180)]
 }
 
-/** Analogous harmony: [hue-30, hue, hue+30] */
+/**
+ * Analogous color harmony: three adjacent colors on the color wheel.
+ * Creates a smooth, unified feel. Common in nature and golden-hour landscapes.
+ * @returns [baseHue - 30, baseHue, baseHue + 30]
+ */
 export function analogous(hue: number): number[] {
   return [normalizeHue(hue - 30), normalizeHue(hue), normalizeHue(hue + 30)]
 }
 
-/** Triadic harmony: [hue, hue+120, hue+240] */
+/**
+ * Triadic color harmony: three colors evenly spaced (120 degrees apart).
+ * Creates vibrant, balanced compositions. Used in editorial and creative work.
+ * @returns [baseHue, baseHue + 120, baseHue + 240]
+ */
 export function triadic(hue: number): number[] {
   return [normalizeHue(hue), normalizeHue(hue + 120), normalizeHue(hue + 240)]
 }
 
-/** Split-complementary harmony: [hue, hue+150, hue+210] */
+/**
+ * Split-complementary color harmony: base color plus two colors adjacent
+ * to its complement. Less tension than complementary, more variety than analogous.
+ * @returns [baseHue, baseHue + 150, baseHue + 210]
+ */
 export function splitComplementary(hue: number): number[] {
   return [normalizeHue(hue), normalizeHue(hue + 150), normalizeHue(hue + 210)]
 }

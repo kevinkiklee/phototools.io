@@ -13,8 +13,21 @@ export interface DoFResult {
 }
 
 /**
- * Calculate hyperfocal distance in meters.
- * H = f^2 / (N * c) + f  (all in mm), then convert to meters
+ * Calculate hyperfocal distance -- the focus distance beyond which everything
+ * from half that distance to infinity appears acceptably sharp.
+ *
+ * Formula (all in mm):
+ *   H = f^2 / (N * c) + f
+ *
+ * Where:
+ *   f = focal length in mm
+ *   N = aperture f-number
+ *   c = circle of confusion in mm (sensor-dependent)
+ *
+ * @param focalLength - Focal length in mm
+ * @param aperture    - Aperture f-number (e.g. 8 for f/8)
+ * @param coc         - Circle of confusion diameter in mm
+ * @returns Hyperfocal distance in meters
  */
 export function calcHyperfocal(focalLength: number, aperture: number, coc: number): number {
   const H_mm = (focalLength * focalLength) / (aperture * coc) + focalLength
@@ -22,8 +35,17 @@ export function calcHyperfocal(focalLength: number, aperture: number, coc: numbe
 }
 
 /**
- * Calculate depth of field.
- * Uses formulas with distances in mm internally, returns meters.
+ * Calculate depth of field (DoF) -- the range of distances that appear
+ * acceptably sharp for given lens parameters.
+ *
+ * Near limit:  Dn = s * (H - f) / (H + s - 2f)
+ * Far limit:   Df = s * (H - f) / (H - s)   (Infinity when s >= H)
+ *
+ * Where s = subject distance, H = hyperfocal distance, f = focal length.
+ * All internal math uses mm; inputs/outputs are in meters.
+ *
+ * @param input - Focal length (mm), aperture, distance (m), CoC (mm)
+ * @returns Near focus, far focus, total DoF, and hyperfocal distance (all in meters)
  */
 export function calcDoF(input: DoFInput): DoFResult {
   const { focalLength, aperture, distance, coc } = input
