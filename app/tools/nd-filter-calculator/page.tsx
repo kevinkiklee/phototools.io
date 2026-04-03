@@ -1,0 +1,16 @@
+import type { Metadata } from 'next'
+import { ToolPageShell } from '@/components/shared/ToolPageShell'
+import { NdFilterCalculator } from '@/components/tools/nd-filter-calculator/NdFilterCalculator'
+
+export const metadata: Metadata = {
+  title: 'ND Filter Calculator',
+  description: 'Calculate exposure time with any ND filter. Quick-reference table included.',
+}
+
+export default function NdFilterCalculatorPage() {
+  return (
+    <ToolPageShell slug="nd-filter-calculator">
+      <NdFilterCalculator />
+    </ToolPageShell>
+  )
+}
