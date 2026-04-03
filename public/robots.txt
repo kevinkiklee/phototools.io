@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fov-viewer.iser.io/sitemap.xml
