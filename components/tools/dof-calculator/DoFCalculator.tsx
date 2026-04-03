@@ -7,6 +7,8 @@ import { FOCAL_LENGTHS } from '@/lib/data/focalLengths'
 import { DoFDiagram } from './DoFDiagram'
 import { DoFCanvas } from './DoFCanvas'
 import type { SceneKey } from './DoFCanvas'
+import { DoFPhotoBands } from './DoFPhotoBands'
+import { DoFPhotoDepth } from './DoFPhotoDepth'
 import s from './DoFCalculator.module.css'
 
 const APERTURES = [1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22]
@@ -16,6 +18,14 @@ const SCENE_PRESETS: { key: SceneKey; label: string }[] = [
   { key: 'landscape', label: 'Landscape' },
   { key: 'street', label: 'Street' },
   { key: 'macro', label: 'Macro' },
+]
+
+type RenderMode = 'illustration' | 'bands' | 'depthmap'
+
+const RENDER_MODES: { key: RenderMode; label: string }[] = [
+  { key: 'illustration', label: 'Illustration' },
+  { key: 'bands', label: 'Bands' },
+  { key: 'depthmap', label: 'Depth Map' },
 ]
 
 function formatDistance(meters: number): string {
@@ -163,6 +173,7 @@ export function DoFCalculator() {
   const [sliderVal, setSliderVal] = useState(distanceToSlider(3))
   const [sensorId, setSensorId] = useState('ff')
   const [scene, setScene] = useState<SceneKey>('portrait')
+  const [renderMode, setRenderMode] = useState<RenderMode>('illustration')
 
   const distance = sliderToDistance(sliderVal)
   const sensor = SENSORS.find((sen) => sen.id === sensorId) ?? SENSORS[1]
@@ -225,15 +236,45 @@ export function DoFCalculator() {
                 {preset.label}
               </button>
             ))}
+            <span className={s.presetDivider} />
+            <span className={s.presetLabel}>Render:</span>
+            {RENDER_MODES.map((mode) => (
+              <button
+                key={mode.key}
+                className={`${s.presetBtn} ${renderMode === mode.key ? s.presetBtnActive : ''}`}
+                onClick={() => setRenderMode(mode.key)}
+                aria-pressed={renderMode === mode.key}
+              >
+                {mode.label}
+              </button>
+            ))}
           </div>
 
           <div className={s.canvasMain}>
-            <DoFCanvas
-              focusDistance={focusNormalized}
-              aperture={aperture}
-              scene={scene}
-              className={s.canvas}
-            />
+            {renderMode === 'illustration' && (
+              <DoFCanvas
+                focusDistance={focusNormalized}
+                aperture={aperture}
+                scene={scene}
+                className={s.canvas}
+              />
+            )}
+            {renderMode === 'bands' && (
+              <DoFPhotoBands
+                focusDistance={focusNormalized}
+                aperture={aperture}
+                scene={scene}
+                className={s.canvas}
+              />
+            )}
+            {renderMode === 'depthmap' && (
+              <DoFPhotoDepth
+                focusDistance={focusNormalized}
+                aperture={aperture}
+                scene={scene}
+                className={s.canvas}
+              />
+            )}
           </div>
 
           <div className={s.depthBar}>

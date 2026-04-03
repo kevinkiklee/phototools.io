@@ -114,6 +114,40 @@
   accent-color: var(--accent);
 }
 
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.radioBtn {
+  padding: 5px 10px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-size: 11px;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.radioBtn:hover {
+  background: var(--border);
+  color: var(--text-primary);
+}
+
+.radioBtnActive {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.radioBtnActive:hover {
+  background: var(--accent-hover);
+}
+
 .keyColorRow {
   display: flex;
   gap: 8px;

@@ -148,6 +148,21 @@ export function ColorHarmony() {
           <ToolActions toolName="Color Harmony Picker" toolSlug="color-harmony" />
 
           <div className={styles.field}>
+            <span className={styles.label}>Harmony Type</span>
+            <div className={styles.radioGroup}>
+              {HARMONY_OPTIONS.map((o) => (
+                <button
+                  key={o.value}
+                  className={`${styles.radioBtn} ${harmony === o.value ? styles.radioBtnActive : ''}`}
+                  onClick={() => setHarmony(o.value)}
+                >
+                  {o.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className={styles.field}>
             <span className={styles.label}>Key Color</span>
             <div className={styles.keyColorRow}>
               <input
@@ -192,19 +207,6 @@ export function ColorHarmony() {
               min={0} max={100} step={1} value={lightness}
               onChange={(e) => setLightness(Number(e.target.value))}
             />
-          </div>
-
-          <div className={styles.field}>
-            <span className={styles.label}>Harmony Type</span>
-            <select
-              className={styles.select}
-              value={harmony}
-              onChange={(e) => setHarmony(e.target.value as HarmonyType)}
-            >
-              {HARMONY_OPTIONS.map((o) => (
-                <option key={o.value} value={o.value}>{o.label}</option>
-              ))}
-            </select>
           </div>
 
           {harmony === 'split-complementary' && (
