@@ -17,6 +17,7 @@ import { ActionBar } from './ActionBar'
 import { Canvas } from './Canvas'
 import { ShareModal } from './ShareModal'
 import { FrameInfoPanel } from './FrameInfoPanel'
+import { ViewModeToggle } from './ViewModeToggle'
 import styles from './FovSimulator.module.css'
 
 type Action =
@@ -159,6 +160,11 @@ export function FovSimulator() {
             </button>
           )}
 
+          <ViewModeToggle
+            value={state.viewMode}
+            onChange={(m) => dispatch({ type: 'SET_VIEW_MODE', payload: m })}
+          />
+
           <FrameInfoPanel
             lenses={state.lenses}
             distance={state.distance}
@@ -188,12 +194,20 @@ export function FovSimulator() {
           </nav>
 
           <section className={styles.canvasMain}>
-            <Canvas
-              lenses={state.lenses}
-              imageIndex={state.imageIndex}
-              orientation={state.orientation}
-              canvasRef={canvasRef}
-            />
+            {state.viewMode === 'fov' && (
+              <Canvas
+                lenses={state.lenses}
+                imageIndex={state.imageIndex}
+                orientation={state.orientation}
+                canvasRef={canvasRef}
+              />
+            )}
+            {state.viewMode === 'distortion' && (
+              <div style={{ color: 'var(--text-secondary)', fontSize: 14 }}>Distortion view coming soon</div>
+            )}
+            {state.viewMode === 'compression' && (
+              <div style={{ color: 'var(--text-secondary)', fontSize: 14 }}>Compression view coming soon</div>
+            )}
           </section>
         </main>
       </div>
@@ -235,6 +249,11 @@ export function FovSimulator() {
             + Add lens
           </button>
         )}
+
+        <ViewModeToggle
+          value={state.viewMode}
+          onChange={(m) => dispatch({ type: 'SET_VIEW_MODE', payload: m })}
+        />
 
         <FrameInfoPanel
           lenses={state.lenses}
