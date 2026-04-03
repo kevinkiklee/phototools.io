@@ -37,46 +37,93 @@
 }
 .main {
   flex: 1;
-  overflow: auto;
-  padding: 16px;
+  overflow: hidden;
   min-width: 0;
+  min-height: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: stretch;
+}
+.motionCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 .mobileControls {
   display: none;
 }
 
-/* Main display */
-.resultDisplay {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  text-align: center;
-  max-width: 400px;
-}
-.resultBig {
+/* Shutter speed value */
+.shutterValue {
   font-family: var(--font-mono);
-  font-size: 48px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+/* Slider */
+.slider {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  accent-color: var(--accent);
+}
+.sliderLabels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--text-muted, var(--text-secondary));
+  margin-top: 2px;
+}
+
+/* Presets */
+.presets {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.preset {
+  padding: 3px 6px;
+  background: var(--bg-primary);
+  border: none;
+  border-radius: 4px;
+  font-size: 10px;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background 0.15s;
+  font-family: var(--font-mono);
+}
+.preset:hover {
+  background: var(--border);
+}
+.presetActive {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Result card */
+.resultCard {
+  background: var(--bg-surface);
+  border-radius: 10px;
+  padding: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 .resultCaption {
-  font-size: 13px;
+  font-size: 11px;
   color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-.resultExplanation {
-  font-size: 12px;
-  color: var(--text-secondary);
-  line-height: 1.6;
-  padding: 14px;
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
+.resultBig {
+  font-family: var(--font-mono);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-primary);
 }
 
 @media (max-width: 1023px) {
@@ -92,8 +139,7 @@
     display: none;
   }
   .main {
-    padding: 16px 8px;
-    min-height: 200px;
+    min-height: 300px;
   }
   .mobileControls {
     display: flex;
@@ -102,6 +148,6 @@
     padding: 16px;
   }
   .resultBig {
-    font-size: 36px;
+    font-size: 28px;
   }
 }

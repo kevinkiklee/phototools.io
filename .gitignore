@@ -2,6 +2,7 @@ node_modules
 .next
 out
 .superpowers
+docs/superpowers
 
 # Editor / OS
 .DS_Store

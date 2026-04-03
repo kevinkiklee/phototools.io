@@ -94,11 +94,15 @@ export function ColorHarmony() {
   const [monoOuterSat, setMonoOuterSat] = useState(90)
   const [copiedHex, setCopiedHex] = useState<string | null>(null)
   const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
+  const [hexDraft, setHexDraft] = useState<string | null>(null)
 
   const baseRgb = useMemo(() => hslToRgb(hue, saturation, lightness), [hue, saturation, lightness])
   const baseHex = rgbToHex(baseRgb.r, baseRgb.g, baseRgb.b)
 
-  const handleColorInput = useCallback((hex: string) => {
+  // Displayed hex: show draft while editing, otherwise computed
+  const displayedHex = hexDraft ?? baseHex
+
+  const applyHex = useCallback((hex: string) => {
     if (!/^#[0-9a-fA-F]{6}$/.test(hex)) return
     const r = parseInt(hex.slice(1, 3), 16)
     const g = parseInt(hex.slice(3, 5), 16)
@@ -239,13 +243,18 @@ export function ColorHarmony() {
               <input
                 type="color"
                 value={baseHex}
-                onChange={(e) => handleColorInput(e.target.value)}
+                onChange={(e) => applyHex(e.target.value)}
                 className={styles.colorPicker}
               />
               <input
                 type="text"
-                value={baseHex}
-                onChange={(e) => handleColorInput(e.target.value)}
+                value={displayedHex}
+                onChange={(e) => {
+                  setHexDraft(e.target.value)
+                  applyHex(e.target.value)
+                }}
+                onFocus={() => setHexDraft(baseHex)}
+                onBlur={() => setHexDraft(null)}
                 className={styles.hexInput}
                 spellCheck={false}
                 maxLength={7}
@@ -317,30 +326,6 @@ export function ColorHarmony() {
             {suggestion}
           </div>
 
-          <div className={styles.sectionTitle}>Copy Palette</div>
-          <div className={styles.copyGroup}>
-            <button
-              className={styles.copyBtn}
-              onClick={() => copyPalette('hex')}
-              title="Copy hex codes"
-            >
-              {copiedFormat === 'hex' ? 'Copied!' : 'Hex codes'}
-            </button>
-            <button
-              className={styles.copyBtn}
-              onClick={() => copyPalette('css')}
-              title="Copy as CSS variables"
-            >
-              {copiedFormat === 'css' ? 'Copied!' : 'CSS vars'}
-            </button>
-            <button
-              className={styles.copyBtn}
-              onClick={() => copyPalette('rgb')}
-              title="Copy RGB values"
-            >
-              {copiedFormat === 'rgb' ? 'Copied!' : 'RGB'}
-            </button>
-          </div>
       </aside>
 
       {/* Right side: palette bar + wheel */}
@@ -365,6 +350,17 @@ export function ColorHarmony() {
               </div>
             </button>
           ))}
+          <div className={styles.copyGroup}>
+            <button className={styles.copyBtn} onClick={() => copyPalette('hex')} title="Copy hex codes">
+              {copiedFormat === 'hex' ? 'Copied!' : 'Hex'}
+            </button>
+            <button className={styles.copyBtn} onClick={() => copyPalette('css')} title="Copy CSS variables">
+              {copiedFormat === 'css' ? 'Copied!' : 'CSS'}
+            </button>
+            <button className={styles.copyBtn} onClick={() => copyPalette('rgb')} title="Copy RGB values">
+              {copiedFormat === 'rgb' ? 'Copied!' : 'RGB'}
+            </button>
+          </div>
         </div>
 
         <div className={styles.mainArea}>

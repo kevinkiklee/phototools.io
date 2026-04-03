@@ -1,7 +1,8 @@
 'use client'
 
-import { useState, useRef, useEffect, useCallback } from 'react'
+import { useState, useRef, useEffect, useCallback, type ReactNode } from 'react'
 import { LearnPanel } from '@/components/shared/LearnPanel'
+import { getToolBySlug } from '@/lib/data/tools'
 import ss from './SensorSize.module.css'
 import { pixelPitch } from '@/lib/math/diffraction'
 import { parseQueryState, useToolQuerySync, strParam, intParam } from '@/lib/utils/querySync'
@@ -37,13 +38,11 @@ const PARAM_SCHEMA = {
   mp: intParam(24, 1, 200),
 }
 
-/** Hex color to rgba with alpha */
 function rgba(hex: string, a: number): string {
   const n = parseInt(hex.replace('#', ''), 16)
   return `rgba(${(n >> 16) & 0xff},${(n >> 8) & 0xff},${n & 0xff},${a})`
 }
 
-/** Draw a rounded rectangle */
 function roundRect(
   ctx: CanvasRenderingContext2D,
   x: number, y: number, w: number, h: number, r: number,
@@ -60,6 +59,66 @@ function roundRect(
   ctx.lineTo(x, y + r)
   ctx.arcTo(x, y, x + r, y, r)
   ctx.closePath()
+}
+
+const tool = getToolBySlug('sensor-size')
+
+function ControlsPanel({
+  visible, mode, resolution, onToggleSensor, onModeChange, onResolutionChange,
+}: {
+  visible: Set<string>
+  mode: DisplayMode
+  resolution: number
+  onToggleSensor: (id: string) => void
+  onModeChange: (m: DisplayMode) => void
+  onResolutionChange: (v: number) => void
+}) {
+  return (
+    <>
+      <div className={ss.sectionLabel}>Sensors</div>
+      <div className={ss.checkboxes}>
+        {SENSOR_DIMS.map((s) => (
+          <label key={s.id} className={ss.checkLabel}>
+            <input
+              type="checkbox"
+              checked={visible.has(s.id)}
+              onChange={() => onToggleSensor(s.id)}
+            />
+            <span className={ss.checkDot} style={{ backgroundColor: s.color }} />
+            <span className={ss.checkName}>{s.name}</span>
+          </label>
+        ))}
+      </div>
+
+      <div className={ss.sectionLabel}>Display Mode</div>
+      <div className={ss.modeToggle}>
+        {(['overlay', 'side-by-side', 'pixel-density'] as const).map((m) => (
+          <button
+            key={m}
+            className={`${ss.modeBtn} ${mode === m ? ss.modeBtnActive : ''}`}
+            onClick={() => onModeChange(m)}
+            aria-pressed={mode === m}
+          >
+            {m === 'overlay' ? 'Overlay' : m === 'side-by-side' ? 'Side by Side' : 'Pixel Density'}
+          </button>
+        ))}
+      </div>
+
+      {mode === 'pixel-density' && (
+        <label className={ss.resolutionField}>
+          Resolution
+          <input
+            type="number"
+            min={1}
+            max={200}
+            value={resolution}
+            onChange={(e) => onResolutionChange(Math.max(1, Number(e.target.value)))}
+          />
+          MP
+        </label>
+      )}
+    </>
+  )
 }
 
 export function SensorSize() {
@@ -93,10 +152,9 @@ export function SensorSize() {
 
     const dpr = window.devicePixelRatio || 1
     const cssWidth = canvas.clientWidth
-    const cssHeight = 420
+    const cssHeight = canvas.clientHeight || 420
     canvas.width = cssWidth * dpr
     canvas.height = cssHeight * dpr
-    canvas.style.height = `${cssHeight}px`
     ctx.scale(dpr, dpr)
     ctx.clearRect(0, 0, cssWidth, cssHeight)
 
@@ -123,95 +181,75 @@ export function SensorSize() {
     return () => observer.disconnect()
   }, [drawCanvas])
 
+  const controlsProps = {
+    visible, mode, resolution,
+    onToggleSensor: toggleSensor,
+    onModeChange: setMode,
+    onResolutionChange: setResolution,
+  }
+
   return (
-    <div className={ss.wrapper}>
-      <div className={ss.toolbar}>
-        <div className={ss.checkboxes}>
-          {SENSOR_DIMS.map((s) => (
-            <label key={s.id} className={ss.checkLabel}>
-              <input
-                type="checkbox"
-                checked={visible.has(s.id)}
-                onChange={() => toggleSensor(s.id)}
-              />
-              <span className={ss.checkDot} style={{ backgroundColor: s.color }} />
-              <span className={ss.checkName}>{s.name}</span>
-            </label>
-          ))}
-        </div>
-
-        <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
-          <div className={ss.modeToggle}>
-            {(['overlay', 'side-by-side', 'pixel-density'] as const).map((m) => (
-              <button
-                key={m}
-                className={`${ss.modeBtn} ${mode === m ? ss.modeBtnActive : ''}`}
-                onClick={() => setMode(m)}
-                aria-pressed={mode === m}
-              >
-                {m === 'overlay' ? 'Overlay' : m === 'side-by-side' ? 'Side by Side' : 'Pixel Density'}
-              </button>
-            ))}
+    <div className={ss.app}>
+      <div className={ss.appBody}>
+        <div className={ss.sidebar}>
+          <div className={ss.header}>
+            <h1 className={ss.title}>{tool?.name}</h1>
+            <p className={ss.description}>{tool?.description}</p>
           </div>
-
-          {mode === 'pixel-density' && (
-            <label className={ss.resolutionField}>
-              <input
-                type="number"
-                min={1}
-                max={200}
-                value={resolution}
-                onChange={(e) => setResolution(Math.max(1, Number(e.target.value)))}
-              />
-              MP
-            </label>
-          )}
+          <ControlsPanel {...controlsProps} />
         </div>
-      </div>
 
-      <canvas
-        ref={canvasRef}
-        className={ss.canvas}
-        style={{ width: '100%', height: 420 }}
-        aria-label={`Sensor size comparison in ${mode} mode`}
-        role="img"
-      />
+        <div className={ss.main}>
+          <canvas
+            ref={canvasRef}
+            className={ss.canvas}
+            style={{ width: '100%', flex: 1, minHeight: 300 }}
+            aria-label={`Sensor size comparison in ${mode} mode`}
+            role="img"
+          />
 
-      <div className={ss.tableWrap}>
-        <table className={ss.table}>
-          <thead>
-            <tr>
-              <th style={{ textAlign: 'left' }}>Sensor</th>
-              <th>Width (mm)</th>
-              <th>Height (mm)</th>
-              <th>Area (mm²)</th>
-              <th>Crop Factor</th>
-            </tr>
-          </thead>
-          <tbody>
-            {visibleSensors.map((s) => {
-              const area = s.w * s.h
-              const diag = Math.sqrt(s.w * s.w + s.h * s.h)
-              const crop = FF_DIAG / diag
-              return (
-                <tr key={s.id}>
-                  <td style={{ textAlign: 'left' }}>
-                    <div className={ss.sensorCell}>
-                      <span className={ss.tableDot} style={{ backgroundColor: s.color }} />
-                      {s.name}
-                    </div>
-                  </td>
-                  <td>{s.w}</td>
-                  <td>{s.h}</td>
-                  <td>{area.toFixed(1)}</td>
-                  <td>{crop.toFixed(2)}x</td>
+          <div className={ss.tableWrap}>
+            <table className={ss.table}>
+              <thead>
+                <tr>
+                  <th style={{ textAlign: 'left' }}>Sensor</th>
+                  <th>Width (mm)</th>
+                  <th>Height (mm)</th>
+                  <th>Area (mm²)</th>
+                  <th>Crop Factor</th>
                 </tr>
-              )
-            })}
-          </tbody>
-        </table>
+              </thead>
+              <tbody>
+                {visibleSensors.map((s) => {
+                  const area = s.w * s.h
+                  const diag = Math.sqrt(s.w * s.w + s.h * s.h)
+                  const crop = FF_DIAG / diag
+                  return (
+                    <tr key={s.id}>
+                      <td style={{ textAlign: 'left' }}>
+                        <div className={ss.sensorCell}>
+                          <span className={ss.tableDot} style={{ backgroundColor: s.color }} />
+                          {s.name}
+                        </div>
+                      </td>
+                      <td>{s.w}</td>
+                      <td>{s.h}</td>
+                      <td>{area.toFixed(1)}</td>
+                      <td>{crop.toFixed(2)}x</td>
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <LearnPanel slug="sensor-size" />
       </div>
-      <LearnPanel slug="sensor-size" />
+
+      <div className={ss.mobileControls}>
+        <ControlsPanel {...controlsProps} />
+      </div>
     </div>
   )
 }
@@ -231,7 +269,6 @@ function drawOverlay(
   const cx = W / 2
   const cy = H / 2
 
-  // Draw largest first so smaller sensors appear on top
   const sorted = [...sensors].sort((a, b) => b.w * b.h - a.w * a.h)
 
   for (const s of sorted) {
@@ -241,18 +278,15 @@ function drawOverlay(
     const y = cy - rh / 2
     const r = Math.min(4, rw * 0.02)
 
-    // Fill
     roundRect(ctx, x, y, rw, rh, r)
     ctx.fillStyle = rgba(s.color, 0.08)
     ctx.fill()
 
-    // Border
     roundRect(ctx, x, y, rw, rh, r)
     ctx.strokeStyle = rgba(s.color, 0.7)
     ctx.lineWidth = 1.5
     ctx.stroke()
 
-    // Label — positioned at top-left corner, with a background pill
     const label = s.name
     ctx.font = '11px system-ui, sans-serif'
     const textW = ctx.measureText(label).width
@@ -271,7 +305,6 @@ function drawOverlay(
     ctx.fillText(label, pillX + 5, pillY + pillH / 2)
   }
 
-  // Dimension annotation for the largest visible sensor
   const largest = sorted[0]
   const lw = largest.w * scale
   const lh = largest.h * scale
@@ -282,13 +315,11 @@ function drawOverlay(
   ctx.lineWidth = 1
   ctx.setLineDash([3, 3])
 
-  // Width dimension line (below)
   const dimY = ly + lh + 16
   ctx.beginPath()
   ctx.moveTo(lx, dimY)
   ctx.lineTo(lx + lw, dimY)
   ctx.stroke()
-  // End ticks
   ctx.beginPath()
   ctx.moveTo(lx, dimY - 4)
   ctx.lineTo(lx, dimY + 4)
@@ -305,7 +336,6 @@ function drawOverlay(
   ctx.textBaseline = 'top'
   ctx.fillText(`${largest.w} mm`, cx, dimY + 4)
 
-  // Height dimension line (right)
   const dimX = lx + lw + 16
   ctx.setLineDash([3, 3])
   ctx.beginPath()
@@ -356,18 +386,15 @@ function drawSideBySide(
     const rx = x
     const ry = baseY - rh
 
-    // Fill
     roundRect(ctx, rx, ry, rw, rh, r)
     ctx.fillStyle = rgba(s.color, 0.12)
     ctx.fill()
 
-    // Border
     roundRect(ctx, rx, ry, rw, rh, r)
     ctx.strokeStyle = rgba(s.color, 0.7)
     ctx.lineWidth = 1.5
     ctx.stroke()
 
-    // Dimension inside
     ctx.fillStyle = rgba(s.color, 0.5)
     ctx.font = '9px system-ui, sans-serif'
     ctx.textAlign = 'center'
@@ -376,7 +403,6 @@ function drawSideBySide(
       ctx.fillText(`${s.w}×${s.h}`, rx + rw / 2, ry + rh - 4)
     }
 
-    // Name below
     ctx.fillStyle = s.color
     ctx.font = '10px system-ui, sans-serif'
     ctx.textAlign = 'center'
@@ -421,7 +447,6 @@ function drawPixelDensity(
     const offsetX = x + (gridSize - actualW) / 2
     const offsetY = gridTop + (gridSize - actualH) / 2
 
-    // Grid cells
     for (let row = 0; row < rows; row++) {
       for (let col = 0; col < cols; col++) {
         const cx = offsetX + col * cellSize
@@ -434,13 +459,11 @@ function drawPixelDensity(
       }
     }
 
-    // Border
     roundRect(ctx, offsetX, offsetY, actualW, actualH, 2)
     ctx.strokeStyle = rgba(p.color, 0.6)
     ctx.lineWidth = 1.5
     ctx.stroke()
 
-    // Label
     ctx.fillStyle = p.color
     ctx.font = '10px system-ui, sans-serif'
     ctx.textAlign = 'center'

@@ -1,185 +1,261 @@
 'use client'
 
-import { useState, useMemo } from 'react'
-import { reciprocalRule, formatShutterSpeed } from '@/lib/math/exposure'
-import { SENSORS } from '@/lib/data/sensors'
-import { FOCAL_LENGTHS } from '@/lib/data/focalLengths'
+import { useState, useRef, useEffect, useCallback } from 'react'
+import { formatShutterSpeed } from '@/lib/math/exposure'
 import { getToolBySlug } from '@/lib/data/tools'
-import { parseQueryState, useToolQuerySync, intParam, sensorParam } from '@/lib/utils/querySync'
 import { LearnPanel } from '@/components/shared/LearnPanel'
 import calc from '../shared/Calculator.module.css'
 import ss from './ShutterSpeedGuide.module.css'
 
-const STABILIZATION = [
-  { label: 'None', stops: 0 },
-  { label: 'OIS (2 stops)', stops: 2 },
-  { label: 'IBIS (3 stops)', stops: 3 },
-  { label: 'OIS + IBIS (5 stops)', stops: 5 },
+/* ─── Shutter speed presets (seconds) ─── */
+const SHUTTER_PRESETS = [
+  { value: 1 / 4000, label: '1/4000' },
+  { value: 1 / 2000, label: '1/2000' },
+  { value: 1 / 1000, label: '1/1000' },
+  { value: 1 / 500, label: '1/500' },
+  { value: 1 / 250, label: '1/250' },
+  { value: 1 / 125, label: '1/125' },
+  { value: 1 / 60, label: '1/60' },
+  { value: 1 / 30, label: '1/30' },
+  { value: 1 / 15, label: '1/15' },
+  { value: 1 / 8, label: '1/8' },
+  { value: 0.25, label: '1/4' },
+  { value: 0.5, label: '1/2' },
+  { value: 1, label: '1s' },
+  { value: 2, label: '2s' },
 ]
 
-const SUBJECT_MOTION = [
-  { label: 'Still', stops: 0 },
-  { label: 'Slow walk', stops: 1 },
-  { label: 'Walking', stops: 2 },
-  { label: 'Running', stops: 3 },
-  { label: 'Vehicle', stops: 4 },
-]
-
-const PARAM_SCHEMA = {
-  fl: intParam(50, 8, 800),
-  s: sensorParam('ff'),
-  stab: intParam(0, 0, 3),
-  motion: intParam(0, 0, 4),
+/* ─── Subject definitions ─── */
+interface Subject {
+  label: string
+  speed: number // feet per second
+  color: string
 }
+
+const SUBJECTS: Subject[] = [
+  { label: 'Standing person', speed: 0, color: '#10b981' },
+  { label: 'Slow walk', speed: 4, color: '#3b82f6' },
+  { label: 'Jogging', speed: 10, color: '#8b5cf6' },
+  { label: 'Running', speed: 20, color: '#f59e0b' },
+  { label: 'Cyclist', speed: 35, color: '#ef4444' },
+  { label: 'Car (city)', speed: 60, color: '#a855f7' },
+]
 
 const tool = getToolBySlug('shutter-speed-guide')!
 
-function ControlsPanel({ focalLength, sensorId, stabIdx, motionIdx, onFocalLengthChange, onSensorChange, onStabChange, onMotionChange }: {
-  focalLength: number
-  sensorId: string
-  stabIdx: number
-  motionIdx: number
-  onFocalLengthChange: (fl: number) => void
-  onSensorChange: (id: string) => void
-  onStabChange: (idx: number) => void
-  onMotionChange: (idx: number) => void
+/* ─── Verdict logic ─── */
+function getVerdict(speed: number, shutterSpeed: number): { label: string; color: string } {
+  if (speed === 0) return { label: 'Frozen', color: '#10b981' }
+  const motionFt = speed * shutterSpeed
+  if (motionFt < 0.02) return { label: 'Frozen', color: '#10b981' }
+  if (motionFt < 0.1) return { label: 'Mostly sharp', color: '#3b82f6' }
+  if (motionFt < 0.5) return { label: 'Slight blur', color: '#f59e0b' }
+  return { label: 'Motion blur', color: '#ef4444' }
+}
+
+/* ─── Motion blur canvas ─── */
+function MotionCanvas({ shutterSpeed }: { shutterSpeed: number }) {
+  const canvasRef = useRef<HTMLCanvasElement>(null)
+
+  const draw = useCallback(() => {
+    const canvas = canvasRef.current
+    if (!canvas) return
+    const ctx = canvas.getContext('2d')
+    if (!ctx) return
+
+    const w = canvas.width
+    const h = canvas.height
+    const dpr = window.devicePixelRatio || 1
+    const rowH = h / (SUBJECTS.length + 0.5)
+    const topPad = rowH * 0.25
+
+    ctx.clearRect(0, 0, w, h)
+
+    const blurScale = w * 0.12
+
+    for (let si = 0; si < SUBJECTS.length; si++) {
+      const subject = SUBJECTS[si]
+      const cy = topPad + (si + 0.5) * rowH
+      const subjectX = w * 0.42
+
+      const motionFt = subject.speed * shutterSpeed
+      const blurPx = Math.min(motionFt * blurScale, w * 0.5)
+
+      // Row separator
+      if (si > 0) {
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.06)'
+        ctx.lineWidth = 1 * dpr
+        ctx.beginPath()
+        ctx.moveTo(0, topPad + si * rowH)
+        ctx.lineTo(w, topPad + si * rowH)
+        ctx.stroke()
+      }
+
+      // Label (left)
+      ctx.font = `500 ${12 * dpr}px system-ui, sans-serif`
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.5)'
+      ctx.textAlign = 'left'
+      ctx.textBaseline = 'middle'
+      ctx.fillText(subject.label, 12 * dpr, cy - 6 * dpr)
+
+      // Speed sublabel
+      ctx.font = `400 ${10 * dpr}px system-ui, sans-serif`
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.25)'
+      ctx.fillText(
+        subject.speed === 0 ? 'stationary' : `~${subject.speed} ft/s`,
+        12 * dpr,
+        cy + 8 * dpr,
+      )
+
+      const bodyRadius = Math.min(rowH * 0.22, 14 * dpr)
+
+      if (blurPx < 2 * dpr) {
+        // Sharp circle
+        ctx.fillStyle = subject.color
+        ctx.beginPath()
+        ctx.arc(subjectX, cy, bodyRadius, 0, Math.PI * 2)
+        ctx.fill()
+      } else {
+        // Motion blur trail
+        const halfBlur = blurPx / 2
+        const grad = ctx.createLinearGradient(
+          subjectX - halfBlur, cy,
+          subjectX + halfBlur, cy,
+        )
+        grad.addColorStop(0, 'transparent')
+        grad.addColorStop(0.15, subject.color + '30')
+        grad.addColorStop(0.5, subject.color + 'bb')
+        grad.addColorStop(0.85, subject.color + '30')
+        grad.addColorStop(1, 'transparent')
+
+        ctx.fillStyle = grad
+        ctx.beginPath()
+        ctx.ellipse(subjectX, cy, halfBlur, bodyRadius * 1.1, 0, 0, Math.PI * 2)
+        ctx.fill()
+
+        // Brighter core
+        ctx.fillStyle = subject.color
+        ctx.globalAlpha = 0.5
+        ctx.beginPath()
+        ctx.arc(subjectX, cy, bodyRadius * 0.4, 0, Math.PI * 2)
+        ctx.fill()
+        ctx.globalAlpha = 1
+      }
+
+      // Verdict (right)
+      const verdict = getVerdict(subject.speed, shutterSpeed)
+      ctx.font = `600 ${11 * dpr}px system-ui, sans-serif`
+      ctx.fillStyle = verdict.color
+      ctx.textAlign = 'right'
+      ctx.fillText(verdict.label, w - 12 * dpr, cy)
+    }
+  }, [shutterSpeed])
+
+  useEffect(() => {
+    const canvas = canvasRef.current
+    if (!canvas) return
+
+    const observer = new ResizeObserver(() => {
+      const parent = canvas.parentElement
+      if (!parent) return
+      const rect = parent.getBoundingClientRect()
+      const dpr = window.devicePixelRatio || 1
+
+      canvas.style.width = `${rect.width}px`
+      canvas.style.height = `${rect.height}px`
+      canvas.width = rect.width * dpr
+      canvas.height = rect.height * dpr
+      draw()
+    })
+
+    observer.observe(canvas.parentElement!)
+    return () => observer.disconnect()
+  }, [draw])
+
+  useEffect(() => { draw() }, [draw])
+
+  return (
+    <canvas
+      ref={canvasRef}
+      className={ss.motionCanvas}
+      aria-label="Motion blur visualization for different subjects"
+      role="img"
+    />
+  )
+}
+
+/* ─── Controls Panel ─── */
+function ControlsPanel({ shutterIdx, onShutterChange }: {
+  shutterIdx: number
+  onShutterChange: (idx: number) => void
 }) {
+  const preset = SHUTTER_PRESETS[shutterIdx]
   return (
     <>
       <div className={ss.header}>
         <h1 className={ss.title}>{tool.name}</h1>
-        <p className={ss.description}>{tool.description}</p>
+        <p className={ss.description}>See how shutter speed affects motion blur for different subjects.</p>
       </div>
 
       <div className={calc.field}>
-        <label className={calc.label}>Focal Length</label>
-        <select
-          className={calc.select}
-          value={focalLength}
-          onChange={(e) => onFocalLengthChange(Number(e.target.value))}
-        >
-          {FOCAL_LENGTHS.map((fl) => (
-            <option key={fl.value} value={fl.value}>
-              {fl.value}mm{fl.label ? ` — ${fl.label}` : ''}
-            </option>
-          ))}
-        </select>
+        <label className={calc.label}>Shutter Speed</label>
+        <div className={ss.shutterValue}>{preset.label}</div>
+        <input
+          type="range"
+          className={ss.slider}
+          min={0}
+          max={SHUTTER_PRESETS.length - 1}
+          value={shutterIdx}
+          onChange={(e) => onShutterChange(Number(e.target.value))}
+          aria-label="Shutter speed"
+          aria-valuetext={preset.label}
+        />
+        <div className={ss.sliderLabels}>
+          <span>Fast (1/4000)</span>
+          <span>Slow (2s)</span>
+        </div>
       </div>
 
-      <div className={calc.field}>
-        <label className={calc.label}>Sensor</label>
-        <select
-          className={calc.select}
-          value={sensorId}
-          onChange={(e) => onSensorChange(e.target.value)}
-        >
-          {SENSORS.map((s) => (
-            <option key={s.id} value={s.id}>
-              {s.name}
-            </option>
-          ))}
-        </select>
+      <div className={ss.presets}>
+        {SHUTTER_PRESETS.map((p, i) => (
+          <button
+            key={p.label}
+            className={`${ss.preset} ${shutterIdx === i ? ss.presetActive : ''}`}
+            onClick={() => onShutterChange(i)}
+          >
+            {p.label}
+          </button>
+        ))}
       </div>
 
-      <div className={calc.field}>
-        <label className={calc.label}>Stabilization</label>
-        <select
-          className={calc.select}
-          value={stabIdx}
-          onChange={(e) => onStabChange(Number(e.target.value))}
-        >
-          {STABILIZATION.map((s, i) => (
-            <option key={s.label} value={i}>
-              {s.label}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      <div className={calc.field}>
-        <label className={calc.label}>Subject Motion</label>
-        <select
-          className={calc.select}
-          value={motionIdx}
-          onChange={(e) => onMotionChange(Number(e.target.value))}
-        >
-          {SUBJECT_MOTION.map((m, i) => (
-            <option key={m.label} value={i}>
-              {m.label}
-            </option>
-          ))}
-        </select>
+      <div className={ss.resultCard}>
+        <span className={ss.resultCaption}>Selected Speed</span>
+        <span className={ss.resultBig}>{formatShutterSpeed(preset.value)}</span>
       </div>
     </>
   )
 }
 
+/* ─── Main component ─── */
 export function ShutterSpeedGuide() {
-  const params = parseQueryState(PARAM_SCHEMA)
-  const [focalLength, setFocalLength] = useState(params.fl ?? 50)
-  const [sensorId, setSensorId] = useState(params.s ?? 'ff')
-  const [stabIdx, setStabIdx] = useState(params.stab ?? 0)
-  const [motionIdx, setMotionIdx] = useState(params.motion ?? 0)
-
-  useToolQuerySync({ fl: focalLength, s: sensorId, stab: stabIdx, motion: motionIdx }, PARAM_SCHEMA)
-
-  const sensor = SENSORS.find((s) => s.id === sensorId) ?? SENSORS[1]
-  const stab = STABILIZATION[stabIdx]
-  const motion = SUBJECT_MOTION[motionIdx]
-
-  const { recommended, explanation } = useMemo(() => {
-    const reciprocal = reciprocalRule(focalLength, sensor.cropFactor, stab.stops)
-    const baseReciprocal = 1 / (focalLength * sensor.cropFactor)
-    const motionNeed = baseReciprocal / Math.pow(2, motion.stops)
-    const rec = Math.min(reciprocal, motionNeed)
-
-    let expl: string
-    if (motion.stops === 0) {
-      if (stab.stops > 0) {
-        expl = `Reciprocal rule: 1/${Math.round(focalLength * sensor.cropFactor)} adjusted by ${stab.stops} stops of stabilization.`
-      } else {
-        expl = `Reciprocal rule: 1/${Math.round(focalLength * sensor.cropFactor)} for sharp handheld shots.`
-      }
-    } else if (motionNeed <= reciprocal) {
-      expl = `Subject motion requires a faster shutter (${motion.label}: +${motion.stops} stops) which overrides the stabilized reciprocal rule.`
-    } else {
-      expl = `Reciprocal rule (with ${stab.stops > 0 ? stab.stops + ' stops stabilization' : 'no stabilization'}) is the limiting factor despite subject motion.`
-    }
-
-    return { recommended: rec, explanation: expl }
-  }, [focalLength, sensor.cropFactor, stab.stops, motion.stops, motion.label])
-
-  const controlsProps = {
-    focalLength,
-    sensorId,
-    stabIdx,
-    motionIdx,
-    onFocalLengthChange: setFocalLength,
-    onSensorChange: setSensorId,
-    onStabChange: setStabIdx,
-    onMotionChange: setMotionIdx,
-  }
+  const [shutterIdx, setShutterIdx] = useState(5) // default 1/125
 
   return (
     <div className={ss.app}>
       <div className={ss.appBody}>
         <div className={ss.sidebar}>
-          <ControlsPanel {...controlsProps} />
+          <ControlsPanel shutterIdx={shutterIdx} onShutterChange={setShutterIdx} />
         </div>
 
         <div className={ss.main}>
-          <div className={ss.resultDisplay}>
-            <span className={ss.resultCaption}>Recommended Minimum Shutter Speed</span>
-            <span className={ss.resultBig}>{formatShutterSpeed(recommended)}</span>
-            <div className={ss.resultExplanation}>{explanation}</div>
-          </div>
+          <MotionCanvas shutterSpeed={SHUTTER_PRESETS[shutterIdx].value} />
         </div>
 
         <LearnPanel slug="shutter-speed-guide" />
       </div>
 
       <div className={ss.mobileControls}>
-        <ControlsPanel {...controlsProps} />
+        <ControlsPanel shutterIdx={shutterIdx} onShutterChange={setShutterIdx} />
       </div>
     </div>
   )

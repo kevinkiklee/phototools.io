@@ -1,6 +1,7 @@
 .panel {
   width: 260px;
   min-width: 260px;
+  height: 100%;
   background: var(--bg-primary);
   border-left: 1px solid var(--border);
   padding: 12px;

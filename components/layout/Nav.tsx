@@ -108,7 +108,7 @@ export function Nav({ theme, onThemeChange }: NavProps) {
                     key={tool.slug}
                     href={`/tools/${tool.slug}`}
                     className={styles.megaItem}
-                    onClick={() => setToolsOpen(false)}
+                    onClick={(e) => { if (!e.metaKey && !e.ctrlKey) setToolsOpen(false) }}
                   >
                     <span className={styles.megaItemName}>{tool.name}</span>
                     <span className={styles.megaItemDesc}>{tool.description}</span>

@@ -1,28 +1,110 @@
-.toolbar {
+/* ── Sidebar+Canvas Layout ── */
+.app {
   display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  align-items: flex-start;
-  margin-bottom: 14px;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
 }
+
+.appBody {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 280px;
+  min-width: 280px;
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.description {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+  padding: 16px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mobileControls {
+  display: none;
+}
+
+/* ── Sensor checkboxes ── */
 .checkboxes {
   display: flex;
-  flex-wrap: wrap;
-  gap: 4px 8px;
+  flex-direction: column;
+  gap: 2px;
 }
+
 .checkLabel {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   font-size: 12px;
   cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 6px;
+  transition: background 0.15s;
 }
+
+.checkLabel:hover {
+  background: var(--bg-surface);
+}
+
+.checkLabel input {
+  display: none;
+}
+
 .checkDot {
   display: inline-block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  opacity: 0.35;
+  transition: opacity 0.15s;
 }
+
+.checkLabel input:checked + .checkDot {
+  opacity: 1;
+}
+
+.checkName {
+  color: var(--text-secondary);
+  transition: color 0.15s;
+}
+
+.checkLabel input:checked ~ .checkName {
+  color: var(--text-primary);
+}
+
+/* ── Mode toggle ── */
 .modeToggle {
   display: flex;
   gap: 0;
@@ -30,29 +112,33 @@
   border-radius: 6px;
   overflow: hidden;
 }
+
 .modeBtn {
-  padding: 4px 8px;
-  min-height: 44px;
+  flex: 1;
+  padding: 6px 10px;
   background: var(--bg-surface);
   color: var(--text-secondary);
   border: none;
-  font-size: 12px;
+  font-size: 11px;
   cursor: pointer;
   font-family: inherit;
+  transition: background 0.15s, color 0.15s;
 }
+
 .modeBtn:not(:last-child) {
   border-right: 1px solid var(--border);
 }
+
+.modeBtn:hover {
+  color: var(--text-primary);
+}
+
 .modeBtnActive {
   background: var(--accent);
   color: #fff;
 }
-.canvas {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  display: block;
-}
+
+/* ── Resolution field ── */
 .resolutionField {
   display: flex;
   align-items: center;
@@ -60,41 +146,129 @@
   font-size: 12px;
   color: var(--text-secondary);
 }
+
 .resolutionField input {
-  width: 64px;
-  padding: 4px 6px;
-  min-height: 44px;
+  width: 56px;
+  padding: 6px;
   border: 1px solid var(--border);
   border-radius: 6px;
-  background: var(--bg-surface);
+  background: var(--bg-primary);
   color: var(--text-primary);
   font-size: 12px;
   font-family: inherit;
-}
-.densityContainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-  align-items: flex-end;
-}
-.densityBox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-}
-.densityLabel {
-  font-size: 11px;
-  font-family: var(--font-mono, 'SF Mono', 'Fira Code', monospace);
-  color: var(--text-secondary);
   text-align: center;
 }
+
+/* ── Canvas ── */
+.canvas {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  display: block;
+}
+
+/* ── Table ── */
+.tableWrap {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.table th,
+.table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+}
+
+.table th {
+  background: var(--bg-surface);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table td {
+  font-family: var(--font-mono);
+}
+
+.table tr:hover td {
+  background: var(--bg-surface);
+}
+
+.sensorCell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  font-family: inherit;
+}
+
 .tableDot {
   display: inline-block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  margin-right: 6px;
-  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* ── Section label ── */
+.sectionLabel {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+}
+
+/* ── Mobile ── */
+@media (max-width: 1023px) {
+  .app {
+    height: auto;
+    overflow: visible;
+  }
+
+  .appBody {
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main {
+    padding: 8px;
+  }
+
+  .mobileControls {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .modeBtn {
+    min-height: 44px;
+  }
+
+  .checkLabel {
+    padding: 6px 8px;
+  }
+
+  .resolutionField input {
+    min-height: 44px;
+  }
 }
