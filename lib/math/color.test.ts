@@ -8,6 +8,7 @@ import {
   triadic,
   splitComplementary,
   tetradic,
+  monochromatic,
 } from './color'
 
 describe('kelvinToRgb', () => {
@@ -169,6 +170,21 @@ describe('color harmonies', () => {
     expect(hues[1]).toBe(90)
     expect(hues[2]).toBe(180)
     expect(hues[3]).toBe(270)
+  })
+
+  it('monochromatic returns 5 HSL triplets with same hue', () => {
+    const result = monochromatic(200, 70, 50)
+    expect(result).toHaveLength(5)
+    for (const hsl of result) {
+      expect(hsl.h).toBe(200)
+      expect(hsl.s).toBeGreaterThanOrEqual(0)
+      expect(hsl.s).toBeLessThanOrEqual(100)
+      expect(hsl.l).toBeGreaterThanOrEqual(0)
+      expect(hsl.l).toBeLessThanOrEqual(100)
+    }
+    // Should have variation in lightness
+    const lightnesses = result.map((r) => r.l)
+    expect(Math.max(...lightnesses)).toBeGreaterThan(Math.min(...lightnesses))
   })
 
   it('all harmony functions normalize hues to 0-360', () => {

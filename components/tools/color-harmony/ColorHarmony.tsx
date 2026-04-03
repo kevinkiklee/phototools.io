@@ -1,15 +1,16 @@
 'use client'
 
 import { useState, useMemo, useCallback } from 'react'
-import { hslToRgb, rgbToHsl, complementary, analogous, triadic, splitComplementary, tetradic } from '@/lib/math/color'
+import { hslToRgb, rgbToHsl, complementary, analogous, triadic, splitComplementary, tetradic, monochromatic } from '@/lib/math/color'
 import { ToolActions } from '@/components/shared/ToolActions'
 import { LearnPanel } from '@/components/shared/LearnPanel'
 import styles from './ColorHarmony.module.css'
 import { ColorWheel } from './ColorWheel'
 
-type HarmonyType = 'complementary' | 'analogous' | 'triadic' | 'split-complementary' | 'tetradic'
+type HarmonyType = 'monochromatic' | 'complementary' | 'analogous' | 'triadic' | 'split-complementary' | 'tetradic'
 
 const HARMONY_OPTIONS: { value: HarmonyType; label: string }[] = [
+  { value: 'monochromatic', label: 'Monochromatic' },
   { value: 'complementary', label: 'Complementary' },
   { value: 'analogous', label: 'Analogous' },
   { value: 'triadic', label: 'Triadic' },
@@ -23,6 +24,7 @@ function rgbToHex(r: number, g: number, b: number): string {
 
 function getHarmonyHues(hue: number, type: HarmonyType, splitAngle: number, analogousSpread: number, tetradicOffset: number): number[] {
   switch (type) {
+    case 'monochromatic': return [hue]
     case 'complementary': return complementary(hue)
     case 'analogous': return analogous(hue, analogousSpread)
     case 'triadic': return triadic(hue)
@@ -33,7 +35,9 @@ function getHarmonyHues(hue: number, type: HarmonyType, splitAngle: number, anal
 
 /** Index of the base (key) hue in the harmonyHues array */
 function getBaseIndex(type: HarmonyType): number {
-  return type === 'analogous' ? 1 : 0
+  if (type === 'analogous') return 1
+  if (type === 'monochromatic') return 2 // middle swatch is the base
+  return 0
 }
 
 function getSuggestion(hue: number, type: HarmonyType): string {
@@ -41,6 +45,8 @@ function getSuggestion(hue: number, type: HarmonyType): string {
   const isCool = hue >= 170 && hue < 270
 
   switch (type) {
+    case 'monochromatic':
+      return 'Great for: minimalist photography, fog/mist scenes, and elegant product shots'
     case 'complementary':
       if (isWarm) return 'Great for: warm sunset portraits with cool shadow contrast'
       if (isCool) return 'Great for: moody blue-hour shots with warm accent lighting'
@@ -92,12 +98,19 @@ export function ColorHarmony() {
   )
 
   const swatches = useMemo(() => {
+    if (harmony === 'monochromatic') {
+      return monochromatic(hue, saturation, lightness).map((hsl) => {
+        const rgb = hslToRgb(hsl.h, hsl.s, hsl.l)
+        const hex = rgbToHex(rgb.r, rgb.g, rgb.b)
+        return { hue: hsl.h, rgb, hex }
+      })
+    }
     return harmonyHues.map((h) => {
       const rgb = hslToRgb(h, saturation, lightness)
       const hex = rgbToHex(rgb.r, rgb.g, rgb.b)
       return { hue: h, rgb, hex }
     })
-  }, [harmonyHues, saturation, lightness])
+  }, [harmony, harmonyHues, hue, saturation, lightness])
 
   const suggestion = useMemo(() => getSuggestion(hue, harmony), [hue, harmony])
 

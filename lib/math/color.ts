@@ -195,3 +195,19 @@ export function splitComplementary(hue: number, splitAngle: number = 30): number
 export function tetradic(hue: number, offset: number = 60): number[] {
   return [normalizeHue(hue), normalizeHue(hue + offset), normalizeHue(hue + 180), normalizeHue(hue + 180 + offset)]
 }
+
+/**
+ * Monochromatic harmony — same hue, varying saturation and lightness.
+ * Returns 5 HSL triplets: the base plus lighter/darker and desaturated variants.
+ * Unlike other harmony functions that return hue arrays, this returns
+ * full HSL values since the hue stays constant.
+ */
+export function monochromatic(hue: number, saturation: number, lightness: number): { h: number; s: number; l: number }[] {
+  return [
+    { h: hue, s: Math.min(100, saturation + 15), l: Math.max(0, lightness - 20) },
+    { h: hue, s: saturation, l: Math.max(0, lightness - 10) },
+    { h: hue, s: saturation, l: lightness },
+    { h: hue, s: Math.max(0, saturation - 15), l: Math.min(100, lightness + 10) },
+    { h: hue, s: Math.max(0, saturation - 25), l: Math.min(100, lightness + 20) },
+  ]
+}
