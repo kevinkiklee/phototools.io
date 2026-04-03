@@ -1,12 +1,13 @@
 'use client'
 
-import { useMemo } from 'react'
+import { useMemo, useRef, useCallback } from 'react'
 import type { DoFResult } from '@/lib/math/dof'
 import styles from './DoFDiagram.module.css'
 
 interface DoFDiagramProps {
   result: DoFResult
   distance: number
+  onDistanceChange?: (meters: number) => void
 }
 
 const W = 700
@@ -18,12 +19,22 @@ const STRIP_H = 52
 const LABEL_Y = STRIP_Y + STRIP_H + 16
 const AXIS_Y = LABEL_Y + 18
 
+const MIN_DIST = 0.3
+const MAX_DIST = 100
+const MIN_LOG = Math.log(0.2)
+const MAX_LOG = Math.log(150)
+
 function distToX(dist: number): number {
-  const minLog = Math.log(0.2)
-  const maxLog = Math.log(150)
   const usable = W - PAD_L - PAD_R
-  const t = (Math.log(Math.max(dist, 0.2)) - minLog) / (maxLog - minLog)
+  const t = (Math.log(Math.max(dist, 0.2)) - MIN_LOG) / (MAX_LOG - MIN_LOG)
   return PAD_L + t * usable
+}
+
+function xToDist(x: number): number {
+  const usable = W - PAD_L - PAD_R
+  const t = (x - PAD_L) / usable
+  const dist = Math.exp(MIN_LOG + t * (MAX_LOG - MIN_LOG))
+  return Math.max(MIN_DIST, Math.min(MAX_DIST, dist))
 }
 
 function formatDist(m: number): string {
@@ -39,7 +50,37 @@ function formatDistShort(m: number): string {
   return `${m.toFixed(0)}m`
 }
 
-export function DoFDiagram({ result, distance }: DoFDiagramProps) {
+export function DoFDiagram({ result, distance, onDistanceChange }: DoFDiagramProps) {
+  const svgRef = useRef<SVGSVGElement>(null)
+  const draggingRef = useRef(false)
+
+  const clientXToDistance = useCallback((clientX: number): number | null => {
+    const svg = svgRef.current
+    if (!svg) return null
+    const rect = svg.getBoundingClientRect()
+    // Convert client x to SVG viewBox x
+    const svgX = ((clientX - rect.left) / rect.width) * W
+    return xToDist(svgX)
+  }, [])
+
+  const handlePointerDown = useCallback((e: React.PointerEvent) => {
+    if (!onDistanceChange) return
+    draggingRef.current = true
+    ;(e.target as Element).setPointerCapture(e.pointerId)
+    const dist = clientXToDistance(e.clientX)
+    if (dist !== null) onDistanceChange(dist)
+  }, [onDistanceChange, clientXToDistance])
+
+  const handlePointerMove = useCallback((e: React.PointerEvent) => {
+    if (!draggingRef.current || !onDistanceChange) return
+    const dist = clientXToDistance(e.clientX)
+    if (dist !== null) onDistanceChange(dist)
+  }, [onDistanceChange, clientXToDistance])
+
+  const handlePointerUp = useCallback(() => {
+    draggingRef.current = false
+  }, [])
+
   const positions = useMemo(() => {
     const subjectX = distToX(distance)
     const nearX = distToX(result.nearFocus)
@@ -54,13 +95,10 @@ export function DoFDiagram({ result, distance }: DoFDiagramProps) {
   const focusWidth = Math.max(2, farX - nearX)
   const midX = nearX + focusWidth / 2
 
-  // When boundaries are close, merge into one combined label to prevent overlap.
-  // "Near: 5.5m" is ~70px wide at font-size 10, so two side-by-side need ~150px gap.
   const labelsCollide = (farX - nearX) < 130
 
   const ticks = [0.3, 0.5, 1, 2, 3, 5, 10, 20, 50, 100]
 
-  // Bokeh circles for blur zones
   const bokehNear = useMemo(() => {
     const circles: { cx: number; cy: number; r: number; o: number }[] = []
     const span = nearX - PAD_L
@@ -100,6 +138,7 @@ export function DoFDiagram({ result, distance }: DoFDiagramProps) {
   return (
     <div className={styles.container}>
       <svg
+        ref={svgRef}
         viewBox={`0 0 ${W} ${H}`}
         className={styles.svg}
         role="img"
@@ -162,7 +201,6 @@ export function DoFDiagram({ result, distance }: DoFDiagramProps) {
           fill="url(#dof-sharp)"
           rx="3"
         />
-        {/* Edge accents */}
         <line x1={nearX} y1={STRIP_Y + 1} x2={nearX} y2={STRIP_Y + STRIP_H - 1} stroke="var(--accent)" strokeWidth="2" opacity="0.5" />
         <line x1={farX} y1={STRIP_Y + 1} x2={farX} y2={STRIP_Y + STRIP_H - 1} stroke="var(--accent)" strokeWidth="2" opacity="0.5" />
 
@@ -198,18 +236,33 @@ export function DoFDiagram({ result, distance }: DoFDiagramProps) {
           <circle cx="-5" cy="0" r="2.5" fill="var(--text-secondary)" opacity="0.4" />
         </g>
 
-        {/* ── Subject marker ── */}
-        <line
-          x1={subjectX}
-          y1={STRIP_Y + 4}
-          x2={subjectX}
-          y2={STRIP_Y + STRIP_H - 4}
-          stroke="var(--accent)"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-        <circle cx={subjectX} cy={STRIP_Y + STRIP_H / 2} r="4" fill="var(--accent)" />
-        <circle cx={subjectX} cy={STRIP_Y + STRIP_H / 2} r="2" fill="var(--bg-surface)" />
+        {/* ── Subject marker (draggable) ── */}
+        <g
+          className={styles.subjectHandle}
+          onPointerDown={handlePointerDown}
+          onPointerMove={handlePointerMove}
+          onPointerUp={handlePointerUp}
+        >
+          {/* Invisible hit area for easier grabbing */}
+          <rect
+            x={subjectX - 14}
+            y={STRIP_Y}
+            width={28}
+            height={STRIP_H}
+            fill="transparent"
+          />
+          <line
+            x1={subjectX}
+            y1={STRIP_Y + 4}
+            x2={subjectX}
+            y2={STRIP_Y + STRIP_H - 4}
+            stroke="var(--accent)"
+            strokeWidth="2"
+            strokeLinecap="round"
+          />
+          <circle cx={subjectX} cy={STRIP_Y + STRIP_H / 2} r="5" fill="var(--accent)" />
+          <circle cx={subjectX} cy={STRIP_Y + STRIP_H / 2} r="2.5" fill="var(--bg-surface)" />
+        </g>
 
         {/* ── Labels below strip ── */}
         {labelsCollide ? (

@@ -108,114 +108,111 @@ export function ColorHarmony() {
   }, [harmony])
 
   return (
-    <div className={styles.layout}>
-      {/* Sidebar controls */}
-      <aside className={styles.sidebar}>
-        <div className={styles.field}>
-          <span className={styles.label}>Hue: <span className={styles.value}>{hue}°</span></span>
-          <input
-            type="range"
-            className={styles.slider}
-            min={0} max={359} step={1}
-            value={hue}
-            onChange={(e) => setHue(Number(e.target.value))}
-          />
-        </div>
-
-        <div className={styles.field}>
-          <span className={styles.label}>Saturation: <span className={styles.value}>{saturation}%</span></span>
-          <input
-            type="range"
-            className={styles.slider}
-            min={0} max={100} step={1}
-            value={saturation}
-            onChange={(e) => setSaturation(Number(e.target.value))}
-          />
-        </div>
-
-        <div className={styles.field}>
-          <span className={styles.label}>Lightness: <span className={styles.value}>{lightness}%</span></span>
-          <input
-            type="range"
-            className={styles.slider}
-            min={0} max={100} step={1}
-            value={lightness}
-            onChange={(e) => setLightness(Number(e.target.value))}
-          />
-        </div>
-
-        <div className={styles.field}>
-          <span className={styles.label}>Harmony Type</span>
-          <select
-            className={styles.select}
-            value={harmony}
-            onChange={(e) => setHarmony(e.target.value as HarmonyType)}
-          >
-            {HARMONY_OPTIONS.map((o) => (
-              <option key={o.value} value={o.value}>{o.label}</option>
-            ))}
-          </select>
-        </div>
-
-        {harmony === 'split-complementary' && (
-          <div className={styles.field}>
-            <span className={styles.label}>Split angle: <span className={styles.value}>{splitAngle}°</span></span>
-            <input
-              type="range"
-              className={styles.slider}
-              min={10} max={80} step={1}
-              value={splitAngle}
-              onChange={(e) => setSplitAngle(Number(e.target.value))}
-            />
-          </div>
-        )}
-
-        {harmony === 'analogous' && (
-          <div className={styles.field}>
-            <span className={styles.label}>Spread: <span className={styles.value}>{analogousSpread}°</span></span>
-            <input
-              type="range"
-              className={styles.slider}
-              min={5} max={60} step={1}
-              value={analogousSpread}
-              onChange={(e) => setAnalogousSpread(Number(e.target.value))}
-            />
-          </div>
-        )}
-
-        <div className={styles.sectionTitle}>Palette</div>
+    <div className={styles.wrapper}>
+      {/* Palette bar — full-width horizontal strip at top */}
+      <div className={styles.paletteBar}>
         {swatches.map((s, i) => (
           <button
             key={i}
-            className={styles.swatch}
-            style={{ backgroundColor: s.hex, minHeight: 48 }}
+            className={styles.paletteBarSwatch}
+            style={{ backgroundColor: s.hex }}
             onClick={() => copyHex(s.hex)}
             title="Click to copy hex"
           >
-            <div className={styles.swatchInfo}>
-              <span className={styles.swatchHex}>{copiedHex === s.hex ? 'Copied!' : s.hex}</span>
-              <span className={styles.swatchRgb}>rgb({s.rgb.r}, {s.rgb.g}, {s.rgb.b})</span>
+            <div className={styles.paletteBarInfo}>
+              <span className={styles.paletteBarHex}>
+                {copiedHex === s.hex ? 'Copied!' : s.hex}
+              </span>
+              <span className={styles.paletteBarRgb}>
+                rgb({s.rgb.r}, {s.rgb.g}, {s.rgb.b})
+              </span>
             </div>
           </button>
         ))}
+      </div>
 
-        <div className={styles.suggestion}>
-          <p>{suggestion}</p>
+      {/* Sidebar + wheel */}
+      <div className={styles.body}>
+        <aside className={styles.sidebar}>
+          <div className={styles.field}>
+            <span className={styles.label}>Hue: <span className={styles.value}>{hue}°</span></span>
+            <input
+              type="range" className={styles.slider}
+              min={0} max={359} step={1} value={hue}
+              onChange={(e) => setHue(Number(e.target.value))}
+            />
+          </div>
+
+          <div className={styles.field}>
+            <span className={styles.label}>Saturation: <span className={styles.value}>{saturation}%</span></span>
+            <input
+              type="range" className={styles.slider}
+              min={0} max={100} step={1} value={saturation}
+              onChange={(e) => setSaturation(Number(e.target.value))}
+            />
+          </div>
+
+          <div className={styles.field}>
+            <span className={styles.label}>Lightness: <span className={styles.value}>{lightness}%</span></span>
+            <input
+              type="range" className={styles.slider}
+              min={0} max={100} step={1} value={lightness}
+              onChange={(e) => setLightness(Number(e.target.value))}
+            />
+          </div>
+
+          <div className={styles.field}>
+            <span className={styles.label}>Harmony Type</span>
+            <select
+              className={styles.select}
+              value={harmony}
+              onChange={(e) => setHarmony(e.target.value as HarmonyType)}
+            >
+              {HARMONY_OPTIONS.map((o) => (
+                <option key={o.value} value={o.value}>{o.label}</option>
+              ))}
+            </select>
+          </div>
+
+          {harmony === 'split-complementary' && (
+            <div className={styles.field}>
+              <span className={styles.label}>Split angle: <span className={styles.value}>{splitAngle}°</span></span>
+              <input
+                type="range" className={styles.slider}
+                min={10} max={80} step={1} value={splitAngle}
+                onChange={(e) => setSplitAngle(Number(e.target.value))}
+              />
+            </div>
+          )}
+
+          {harmony === 'analogous' && (
+            <div className={styles.field}>
+              <span className={styles.label}>Spread: <span className={styles.value}>{analogousSpread}°</span></span>
+              <input
+                type="range" className={styles.slider}
+                min={5} max={60} step={1} value={analogousSpread}
+                onChange={(e) => setAnalogousSpread(Number(e.target.value))}
+              />
+            </div>
+          )}
+
+          <div className={styles.suggestion}>
+            {suggestion}
+          </div>
+        </aside>
+
+        <div className={styles.mainArea}>
+          <ColorWheel
+            hue={hue}
+            saturation={saturation}
+            lightness={lightness}
+            harmonyHues={harmonyHues}
+            draggableNodes={draggableNodes}
+            onHueChange={setHue}
+            onSaturationChange={setSaturation}
+            onSecondaryDrag={handleSecondaryDrag}
+          />
         </div>
-      </aside>
-
-      {/* Main area: color wheel */}
-      <div className={styles.mainArea}>
-        <ColorWheel
-          hue={hue}
-          saturation={saturation}
-          lightness={lightness}
-          harmonyHues={harmonyHues}
-          draggableNodes={draggableNodes}
-          onHueChange={setHue}
-          onSaturationChange={setSaturation}
-          onSecondaryDrag={handleSecondaryDrag}
-        />
       </div>
     </div>
   )

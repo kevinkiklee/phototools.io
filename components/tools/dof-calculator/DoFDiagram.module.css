@@ -26,8 +26,11 @@
   font-weight: 600;
 }
 
-.dofSummary {
-  font-size: 10px;
-  fill: var(--text-secondary);
-  font-family: var(--font-mono);
+.subjectHandle {
+  cursor: grab;
+  touch-action: none;
+}
+
+.subjectHandle:active {
+  cursor: grabbing;
 }

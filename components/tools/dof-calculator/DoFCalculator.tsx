@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useCallback } from 'react'
 import { calcDoF } from '@/lib/math/dof'
 import { SENSORS } from '@/lib/data/sensors'
 import { FOCAL_LENGTHS } from '@/lib/data/focalLengths'
@@ -43,6 +43,10 @@ export function DoFCalculator() {
     () => calcDoF({ focalLength, aperture, distance, coc }),
     [focalLength, aperture, distance, coc],
   )
+
+  const handleDiagramDistanceChange = useCallback((meters: number) => {
+    setSliderVal(distanceToSlider(meters))
+  }, [])
 
   return (
     <div>
@@ -130,7 +134,7 @@ export function DoFCalculator() {
       </div>
 
       <div style={{ marginTop: 16 }}>
-        <DoFDiagram result={result} distance={distance} />
+        <DoFDiagram result={result} distance={distance} onDistanceChange={handleDiagramDistanceChange} />
       </div>
     </div>
   )

@@ -1,7 +1,63 @@
-/* Layout: sidebar + main area, matching FOV Viewer pattern */
-.layout {
+/* Layout: palette bar on top, then sidebar + main area below */
+.wrapper {
   display: flex;
+  flex-direction: column;
   height: calc(100vh - 44px);
+  overflow: hidden;
+}
+
+.paletteBar {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.paletteBarSwatch {
+  flex: 1;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  transition: opacity 0.15s;
+  position: relative;
+}
+
+.paletteBarSwatch:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.paletteBarSwatch:hover {
+  opacity: 0.9;
+}
+
+.paletteBarInfo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.paletteBarHex {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.paletteBarRgb {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.body {
+  display: flex;
+  flex: 1;
   overflow: hidden;
 }
 
@@ -75,6 +131,17 @@
   margin-top: 2px;
 }
 
+/* Suggestion in sidebar */
+.suggestion {
+  padding: 10px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
 /* Color wheel */
 .wheelContainer {
   display: flex;
@@ -88,74 +155,19 @@
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 4px 24px rgba(0, 0, 0, 0.4);
 }
 
-/* Palette swatches */
-.palette {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 600px;
-}
-
-.swatch {
-  flex: 1;
-  min-width: 80px;
-  min-height: 100px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 8px;
-  cursor: pointer;
-  transition: transform 0.15s ease;
-  font-family: inherit;
-}
-
-.swatch:hover {
-  transform: scale(1.03);
-}
-
-.swatchInfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 4px 8px;
-  border-radius: 4px;
-}
-
-.swatchHex {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: #fff;
-  font-weight: 600;
-}
-
-.swatchRgb {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.suggestion {
-  padding: 12px;
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  font-size: 12px;
-  color: var(--text-secondary);
-  font-style: italic;
-  width: 100%;
-  max-width: 600px;
-}
-
 /* Mobile */
 @media (max-width: 1023px) {
-  .layout {
-    flex-direction: column;
+  .wrapper {
     height: auto;
+    overflow: visible;
+  }
+
+  .paletteBarSwatch {
+    min-height: 40px;
+  }
+
+  .body {
+    flex-direction: column;
     overflow: visible;
   }
 
