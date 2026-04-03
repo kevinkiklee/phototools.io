@@ -1,0 +1,261 @@
+'use client'
+
+import { useState, useMemo, useCallback } from 'react'
+import { calcEV } from '@/lib/math/exposure'
+import styles from '../shared/Calculator.module.css'
+import sim from './ExposureSimulator.module.css'
+
+const APERTURES = [1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22]
+const SHUTTER_SPEEDS = [30, 15, 8, 4, 2, 1, 1/2, 1/4, 1/8, 1/15, 1/30, 1/60, 1/125, 1/250, 1/500, 1/1000, 1/2000, 1/4000, 1/8000]
+const ISOS = [100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600]
+
+type LockTarget = 'aperture' | 'shutter' | 'iso'
+
+function formatShutter(s: number): string {
+  if (s >= 1) return `${s}s`
+  return `1/${Math.round(1 / s)}`
+}
+
+function clamp(val: number, min: number, max: number) {
+  return Math.max(min, Math.min(max, val))
+}
+
+function findNearest(arr: number[], target: number): number {
+  let best = arr[0]
+  let bestDist = Math.abs(Math.log2(target) - Math.log2(best))
+  for (const v of arr) {
+    const dist = Math.abs(Math.log2(target) - Math.log2(v))
+    if (dist < bestDist) {
+      bestDist = dist
+      best = v
+    }
+  }
+  return best
+}
+
+function dofLabel(aperture: number): string {
+  if (aperture <= 2) return 'Very Shallow'
+  if (aperture <= 4) return 'Shallow'
+  if (aperture <= 8) return 'Moderate'
+  if (aperture <= 16) return 'Deep'
+  return 'Very Deep'
+}
+
+function motionLabel(shutter: number): string {
+  if (shutter <= 1/1000) return 'Frozen'
+  if (shutter <= 1/250) return 'Sharp'
+  if (shutter <= 1/60) return 'Moderate'
+  if (shutter <= 1/8) return 'Slight Blur'
+  return 'Blurred'
+}
+
+function noiseLabel(iso: number): string {
+  if (iso <= 200) return 'Clean'
+  if (iso <= 800) return 'Low Noise'
+  if (iso <= 3200) return 'Moderate Noise'
+  if (iso <= 12800) return 'Noisy'
+  return 'Very Noisy'
+}
+
+function effectBar(level: number): string {
+  // level 0-1, maps to bar width
+  return `${Math.round(level * 100)}%`
+}
+
+function dofLevel(aperture: number): number {
+  const idx = APERTURES.indexOf(aperture)
+  return idx >= 0 ? idx / (APERTURES.length - 1) : 0.5
+}
+
+function motionLevel(shutter: number): number {
+  const idx = SHUTTER_SPEEDS.indexOf(shutter)
+  return idx >= 0 ? idx / (SHUTTER_SPEEDS.length - 1) : 0.5
+}
+
+function noiseLevel(iso: number): number {
+  const idx = ISOS.indexOf(iso)
+  return idx >= 0 ? idx / (ISOS.length - 1) : 0.5
+}
+
+export function ExposureSimulator() {
+  const [apertureIdx, setApertureIdx] = useState(APERTURES.indexOf(5.6))
+  const [shutterIdx, setShutterIdx] = useState(SHUTTER_SPEEDS.indexOf(1/125))
+  const [isoIdx, setIsoIdx] = useState(0) // ISO 100
+  const [lock, setLock] = useState<LockTarget>('iso')
+
+  const aperture = APERTURES[apertureIdx]
+  const shutter = SHUTTER_SPEEDS[shutterIdx]
+  const iso = ISOS[isoIdx]
+
+  const ev = useMemo(() => calcEV(aperture, shutter), [aperture, shutter])
+
+  // When user moves a slider, compensate the unlocked parameters
+  const handleApertureChange = useCallback((newIdx: number) => {
+    const newAperture = APERTURES[newIdx]
+    if (lock === 'aperture') return
+    setApertureIdx(newIdx)
+
+    if (lock === 'shutter') {
+      // Adjust ISO to maintain EV
+      // EV_new_at_iso100 = log2(newAperture^2 / shutter)
+      // We need ISO such that EV_with_iso = ev
+      // EV_with_iso = EV100 + log2(ISO/100)
+      const ev100New = calcEV(newAperture, shutter)
+      const neededIsoLog = ev - ev100New // log2(ISO/100)
+      const neededIso = 100 * Math.pow(2, neededIsoLog)
+      const nearestIso = findNearest(ISOS, neededIso)
+      setIsoIdx(ISOS.indexOf(nearestIso))
+    } else if (lock === 'iso') {
+      // Adjust shutter to maintain EV
+      // EV = log2(N^2/t) + log2(ISO/100)
+      // t = N^2 / 2^(EV - log2(ISO/100))
+      const evAtIso100 = ev - Math.log2(iso / 100)
+      const neededShutter = (newAperture * newAperture) / Math.pow(2, evAtIso100)
+      const nearestShutter = findNearest(SHUTTER_SPEEDS, neededShutter)
+      setShutterIdx(SHUTTER_SPEEDS.indexOf(nearestShutter))
+    }
+  }, [lock, shutter, iso, ev])
+
+  const handleShutterChange = useCallback((newIdx: number) => {
+    const newShutter = SHUTTER_SPEEDS[newIdx]
+    if (lock === 'shutter') return
+    setShutterIdx(newIdx)
+
+    if (lock === 'aperture') {
+      const ev100New = calcEV(aperture, newShutter)
+      const neededIsoLog = ev - ev100New
+      const neededIso = 100 * Math.pow(2, neededIsoLog)
+      const nearestIso = findNearest(ISOS, neededIso)
+      setIsoIdx(ISOS.indexOf(nearestIso))
+    } else if (lock === 'iso') {
+      const evAtIso100 = ev - Math.log2(iso / 100)
+      const neededAperture = Math.sqrt(newShutter * Math.pow(2, evAtIso100))
+      const nearestAperture = findNearest(APERTURES, neededAperture)
+      setApertureIdx(APERTURES.indexOf(nearestAperture))
+    }
+  }, [lock, aperture, iso, ev])
+
+  const handleIsoChange = useCallback((newIdx: number) => {
+    const newIso = ISOS[newIdx]
+    if (lock === 'iso') return
+    setIsoIdx(newIdx)
+
+    if (lock === 'aperture') {
+      // Adjust shutter: t = N^2 * 100 / (2^ev * newIso)...
+      // Actually maintain overall EV: ev = log2(N^2/t) + log2(ISO/100)
+      // With fixed aperture and new ISO: t = N^2 / 2^(ev - log2(newIso/100))
+      const evAtIso100 = ev - Math.log2(newIso / 100)
+      const neededShutter = (aperture * aperture) / Math.pow(2, evAtIso100)
+      const nearestShutter = findNearest(SHUTTER_SPEEDS, neededShutter)
+      setShutterIdx(SHUTTER_SPEEDS.indexOf(nearestShutter))
+    } else if (lock === 'shutter') {
+      const evAtIso100 = ev - Math.log2(newIso / 100)
+      const neededAperture = Math.sqrt(shutter * Math.pow(2, evAtIso100))
+      const nearestAperture = findNearest(APERTURES, neededAperture)
+      setApertureIdx(APERTURES.indexOf(nearestAperture))
+    }
+  }, [lock, aperture, shutter, ev])
+
+  return (
+    <div className={styles.layout}>
+      <div className={styles.controls}>
+        <div className={sim.lockRow}>
+          <span className={styles.label}>Lock:</span>
+          {(['aperture', 'shutter', 'iso'] as LockTarget[]).map((t) => (
+            <button
+              key={t}
+              className={`${sim.lockBtn} ${lock === t ? sim.lockBtnActive : ''}`}
+              onClick={() => setLock(t)}
+            >
+              {t === 'aperture' ? 'Aperture' : t === 'shutter' ? 'Shutter' : 'ISO'}
+            </button>
+          ))}
+        </div>
+
+        <div className={styles.field}>
+          <label className={styles.label}>
+            Aperture: <span className={styles.value}>f/{aperture}</span>
+            {lock === 'aperture' && <span className={sim.lockIcon}> 🔒</span>}
+          </label>
+          <input
+            type="range"
+            className={styles.slider}
+            min={0}
+            max={APERTURES.length - 1}
+            step={1}
+            value={apertureIdx}
+            onChange={(e) => handleApertureChange(Number(e.target.value))}
+            disabled={lock === 'aperture'}
+          />
+        </div>
+
+        <div className={styles.field}>
+          <label className={styles.label}>
+            Shutter Speed: <span className={styles.value}>{formatShutter(shutter)}</span>
+            {lock === 'shutter' && <span className={sim.lockIcon}> 🔒</span>}
+          </label>
+          <input
+            type="range"
+            className={styles.slider}
+            min={0}
+            max={SHUTTER_SPEEDS.length - 1}
+            step={1}
+            value={shutterIdx}
+            onChange={(e) => handleShutterChange(Number(e.target.value))}
+            disabled={lock === 'shutter'}
+          />
+        </div>
+
+        <div className={styles.field}>
+          <label className={styles.label}>
+            ISO: <span className={styles.value}>{iso}</span>
+            {lock === 'iso' && <span className={sim.lockIcon}> 🔒</span>}
+          </label>
+          <input
+            type="range"
+            className={styles.slider}
+            min={0}
+            max={ISOS.length - 1}
+            step={1}
+            value={isoIdx}
+            onChange={(e) => handleIsoChange(Number(e.target.value))}
+            disabled={lock === 'iso'}
+          />
+        </div>
+      </div>
+
+      <div>
+        <div className={styles.resultCard} style={{ marginBottom: 'var(--space-md)' }}>
+          <span className={styles.resultLabel}>Exposure Value (EV)</span>
+          <span className={styles.resultValue}>{(ev + Math.log2(iso / 100)).toFixed(1)}</span>
+        </div>
+
+        <div className={sim.effects}>
+          <div className={sim.effectRow}>
+            <span className={sim.effectLabel}>Depth of Field</span>
+            <div className={sim.effectBarBg}>
+              <div className={sim.effectBar} style={{ width: effectBar(dofLevel(aperture)), backgroundColor: 'var(--accent)' }} />
+            </div>
+            <span className={sim.effectText}>{dofLabel(aperture)}</span>
+          </div>
+
+          <div className={sim.effectRow}>
+            <span className={sim.effectLabel}>Motion</span>
+            <div className={sim.effectBarBg}>
+              <div className={sim.effectBar} style={{ width: effectBar(motionLevel(shutter)), backgroundColor: '#f59e0b' }} />
+            </div>
+            <span className={sim.effectText}>{motionLabel(shutter)}</span>
+          </div>
+
+          <div className={sim.effectRow}>
+            <span className={sim.effectLabel}>Noise</span>
+            <div className={sim.effectBarBg}>
+              <div className={sim.effectBar} style={{ width: effectBar(noiseLevel(iso)), backgroundColor: '#ef4444' }} />
+            </div>
+            <span className={sim.effectText}>{noiseLabel(iso)}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
