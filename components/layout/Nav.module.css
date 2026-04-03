@@ -24,6 +24,10 @@
   text-decoration: none;
 }
 
+.logoAccent {
+  color: var(--accent);
+}
+
 .logo:hover {
   color: var(--accent);
 }

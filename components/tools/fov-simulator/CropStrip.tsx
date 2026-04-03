@@ -7,31 +7,31 @@ import type { OverlayOffsets } from './Canvas'
 import { LENS_COLORS, LENS_LABELS } from './types'
 import { calcFOV, calcCropRatio } from '@/lib/math/fov'
 import { getSensor } from '@/lib/data/sensors'
-import { SCENES } from '@/lib/data/scenes'
 import styles from './CropStrip.module.css'
 
 const REF_FOV = calcFOV(14, 1.0)
 
 interface CropThumbProps {
   lens: LensConfig
-  imageIndex: number
   orientation: Orientation
   color: string
   lensIndex: number
   isActive: boolean
   onSelect: () => void
   offset: { dx: number; dy: number }
+  cleanCanvasRef: React.RefObject<HTMLCanvasElement | null>
 }
 
-function CropThumb({ lens, imageIndex, orientation, color, lensIndex, isActive, onSelect, offset }: CropThumbProps) {
+function CropThumb({ lens, orientation, color, lensIndex, isActive, onSelect, offset, cleanCanvasRef }: CropThumbProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   useEffect(() => {
     const canvas = canvasRef.current
-    if (!canvas) return
+    const mainCanvas = cleanCanvasRef.current
+    if (!canvas || !mainCanvas) return
+
     const parent = canvas.parentElement
     if (!parent) return
-
     const dpr = window.devicePixelRatio || 1
     const displayW = parent.offsetWidth
     const displayH = parent.offsetHeight
@@ -41,42 +41,32 @@ function CropThumb({ lens, imageIndex, orientation, color, lensIndex, isActive, 
     const ctx = canvas.getContext('2d')
     if (!ctx) return
 
-    const img = new Image()
-    img.src = SCENES[imageIndex]?.src ?? SCENES[0].src
-    img.onload = () => {
-      const sensor = getSensor(lens.sensorId)
-      const fov = calcFOV(lens.focalLength, sensor.cropFactor)
-      const isPortrait = orientation === 'portrait'
+    const sensor = getSensor(lens.sensorId)
+    const fov = calcFOV(lens.focalLength, sensor.cropFactor)
+    const isPortrait = orientation === 'portrait'
 
-      const ratioW = calcCropRatio(
-        isPortrait ? fov.vertical : fov.horizontal,
-        isPortrait ? REF_FOV.vertical : REF_FOV.horizontal,
-      )
-      const ratioH = calcCropRatio(
-        isPortrait ? fov.horizontal : fov.vertical,
-        isPortrait ? REF_FOV.horizontal : REF_FOV.vertical,
-      )
+    const mainW = mainCanvas.width
+    const mainH = mainCanvas.height
 
-      const cropW = img.width * ratioW
-      const cropH = img.height * ratioH
+    // Compute the overlay rect position on the main canvas (same logic as Canvas.tsx)
+    const ratioW = calcCropRatio(
+      isPortrait ? fov.vertical : fov.horizontal,
+      isPortrait ? REF_FOV.vertical : REF_FOV.horizontal,
+    )
+    const ratioH = calcCropRatio(
+      isPortrait ? fov.horizontal : fov.vertical,
+      isPortrait ? REF_FOV.horizontal : REF_FOV.vertical,
+    )
 
-      // Convert canvas-pixel offset to image-space offset by reading the main canvas size
-      const mainCanvas = document.querySelector('canvas[aria-label="Field of view comparison"]') as HTMLCanvasElement | null
-      const mainW = mainCanvas?.width ?? canvas.width
-      const mainH = mainCanvas?.height ?? canvas.height
+    const rectW = mainW * ratioW
+    const rectH = mainH * ratioH
+    const rectX = (mainW - rectW) / 2 + offset.dx
+    const rectY = (mainH - rectH) / 2 + offset.dy
 
-      const imgDx = (offset.dx / mainW) * img.width
-      const imgDy = (offset.dy / mainH) * img.height
-
-      const centerX = (img.width - cropW) / 2
-      const centerY = (img.height - cropH) / 2
-      const srcX = Math.max(0, Math.min(img.width - cropW, centerX + imgDx))
-      const srcY = Math.max(0, Math.min(img.height - cropH, centerY + imgDy))
-
-      ctx.clearRect(0, 0, canvas.width, canvas.height)
-      ctx.drawImage(img, srcX, srcY, cropW, cropH, 0, 0, canvas.width, canvas.height)
-    }
-  }, [lens, imageIndex, orientation, offset])
+    // Copy that exact region from the main canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    ctx.drawImage(mainCanvas, rectX, rectY, rectW, rectH, 0, 0, canvas.width, canvas.height)
+  }, [lens, orientation, offset, cleanCanvasRef])
 
   return (
     <button
@@ -100,9 +90,10 @@ interface CropStripProps {
   offsets: OverlayOffsets
   expanded: boolean
   onToggleExpand: () => void
+  cleanCanvasRef: React.RefObject<HTMLCanvasElement | null>
 }
 
-export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelectLens, offsets, expanded, onToggleExpand }: CropStripProps) {
+export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelectLens, offsets, expanded, onToggleExpand, cleanCanvasRef }: CropStripProps) {
   return (
     <div className={`${styles.strip} ${expanded ? styles.stripExpanded : ''}`}>
       <div className={styles.stripHeader}>
@@ -114,15 +105,15 @@ export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelec
       <div className={styles.thumbs}>
         {lenses.map((lens, i) => (
           <CropThumb
-            key={i}
+            key={`${i}-${imageIndex}`}
             lens={lens}
-            imageIndex={imageIndex}
             orientation={orientation}
             color={LENS_COLORS[i]}
             lensIndex={i}
             isActive={activeLens === i}
             onSelect={() => onSelectLens(i)}
             offset={offsets[i] ?? { dx: 0, dy: 0 }}
+            cleanCanvasRef={cleanCanvasRef}
           />
         ))}
       </div>

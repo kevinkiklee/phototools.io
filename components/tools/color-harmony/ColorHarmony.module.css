@@ -214,16 +214,21 @@
 
 .copyGroup {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 4px;
   margin-left: auto;
-  align-items: center;
 }
 
 .copyLabel {
   font-size: 10px;
   color: var(--text-muted);
-  margin-right: 2px;
   white-space: nowrap;
+}
+
+.copyButtons {
+  display: flex;
+  gap: 4px;
 }
 
 .copyBtn {

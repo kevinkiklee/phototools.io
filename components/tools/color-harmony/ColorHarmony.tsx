@@ -364,15 +364,17 @@ export function ColorHarmony() {
           ))}
           <div className={styles.copyGroup}>
             <span className={styles.copyLabel}>Copy colors</span>
-            <button className={styles.copyBtn} onClick={() => copyPalette('hex')} title="Copy hex codes">
-              {copiedFormat === 'hex' ? 'Copied!' : 'Hex'}
-            </button>
-            <button className={styles.copyBtn} onClick={() => copyPalette('css')} title="Copy CSS variables">
-              {copiedFormat === 'css' ? 'Copied!' : 'CSS'}
-            </button>
-            <button className={styles.copyBtn} onClick={() => copyPalette('rgb')} title="Copy RGB values">
-              {copiedFormat === 'rgb' ? 'Copied!' : 'RGB'}
-            </button>
+            <div className={styles.copyButtons}>
+              <button className={styles.copyBtn} onClick={() => copyPalette('hex')} title="Copy hex codes">
+                {copiedFormat === 'hex' ? 'Copied!' : 'Hex'}
+              </button>
+              <button className={styles.copyBtn} onClick={() => copyPalette('css')} title="Copy CSS variables">
+                {copiedFormat === 'css' ? 'Copied!' : 'CSS'}
+              </button>
+              <button className={styles.copyBtn} onClick={() => copyPalette('rgb')} title="Copy RGB values">
+                {copiedFormat === 'rgb' ? 'Copied!' : 'RGB'}
+              </button>
+            </div>
           </div>
         </div>
 

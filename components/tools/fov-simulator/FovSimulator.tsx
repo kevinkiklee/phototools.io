@@ -83,6 +83,7 @@ export function FovSimulator() {
   const [overlayOffsets, setOverlayOffsets] = useState<OverlayOffsets>({})
   const [cropExpanded, setCropExpanded] = useState(false)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
+  const cleanCanvasRef = useRef<HTMLCanvasElement>(null)
   const { theme, setTheme } = useTheme()
 
   useQuerySync(state)
@@ -182,6 +183,7 @@ export function FovSimulator() {
               imageIndex={state.imageIndex}
               orientation={state.orientation}
               canvasRef={canvasRef}
+              cleanCanvasRef={cleanCanvasRef}
               distance={state.distance}
               showGuides={state.showGuides}
               activeLens={state.activeLens}
@@ -199,6 +201,7 @@ export function FovSimulator() {
             offsets={overlayOffsets}
             expanded={cropExpanded}
             onToggleExpand={() => setCropExpanded((v) => !v)}
+            cleanCanvasRef={cleanCanvasRef}
           />
         </main>
         <LearnPanel slug="fov-simulator" />
@@ -258,6 +261,7 @@ export function FovSimulator() {
         />
       )}
       <Toast message={toast} onDone={() => setToast(null)} />
+      <canvas ref={cleanCanvasRef} style={{ display: 'none' }} />
     </div>
   )
 }

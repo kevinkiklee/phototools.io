@@ -23,9 +23,6 @@ export default function HomePage() {
   return (
     <div className={styles.page}>
       <div className={styles.hero}>
-        <h1 className={styles.heroTitle}>
-          Photo<span className={styles.heroAccent}>Tools</span>
-        </h1>
         <p className={styles.heroDesc}>
           Free photography calculators, simulators, and references. No sign-up, no tracking, runs entirely in your browser.
         </p>

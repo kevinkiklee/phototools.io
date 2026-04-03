@@ -38,7 +38,10 @@ const SUBJECTS: Subject[] = [
   { label: 'Jogging', speed: 10, color: '#8b5cf6' },
   { label: 'Running', speed: 20, color: '#f59e0b' },
   { label: 'Cyclist', speed: 35, color: '#ef4444' },
+  { label: 'Birds in flight', speed: 50, color: '#ec4899' },
   { label: 'Car (city)', speed: 60, color: '#a855f7' },
+  { label: 'F1 car', speed: 330, color: '#f43f5e' },
+  { label: 'Airplane (landing)', speed: 370, color: '#06b6d4' },
 ]
 
 const tool = getToolBySlug('shutter-speed-guide')!

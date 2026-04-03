@@ -299,6 +299,8 @@ function ExifPanel({ data }: { data: ExifResult }) {
 
 // ── Main component ──
 
+const SAMPLE_IMAGE = '/images/samples/example.jpg'
+
 export function HistogramExplainer() {
   const [hist, setHist] = useState<HistogramData | null>(null)
   const [clip, setClip] = useState<ClipInfo | null>(null)
@@ -306,8 +308,9 @@ export function HistogramExplainer() {
   const [exif, setExif] = useState<ExifResult | null>(null)
   const [exifError, setExifError] = useState<string | null>(null)
   const fileRef = useRef<File | null>(null)
+  const loadedRef = useRef(false)
 
-  const handleFile = useCallback((file: File) => {
+  const processFile = useCallback((file: File, previewUrl?: string) => {
     fileRef.current = file
 
     // 1. Read EXIF from ArrayBuffer
@@ -327,7 +330,7 @@ export function HistogramExplainer() {
 
     // 2. Read image for histogram + preview
     const img = new Image()
-    const url = URL.createObjectURL(file)
+    const url = previewUrl ?? URL.createObjectURL(file)
     img.onload = () => {
       const canvas = document.createElement('canvas')
       canvas.width = img.naturalWidth
@@ -341,12 +344,29 @@ export function HistogramExplainer() {
       setHist(histogram)
       setClip(clipping)
       setImageUrl((prev) => {
-        if (prev) URL.revokeObjectURL(prev)
+        if (prev && prev.startsWith('blob:')) URL.revokeObjectURL(prev)
         return url
       })
     }
     img.src = url
   }, [])
+
+  const handleFile = useCallback((file: File) => {
+    processFile(file)
+  }, [processFile])
+
+  // Load sample image on mount
+  useEffect(() => {
+    if (loadedRef.current) return
+    loadedRef.current = true
+    fetch(SAMPLE_IMAGE)
+      .then((res) => res.blob())
+      .then((blob) => {
+        const file = new File([blob], 'example.jpg', { type: 'image/jpeg' })
+        processFile(file, SAMPLE_IMAGE)
+      })
+      .catch(() => { /* ignore — user can upload manually */ })
+  }, [processFile])
 
   const controlsProps = { hist, clip, onFile: handleFile }
   const hasData = hist || exif

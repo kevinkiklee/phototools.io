@@ -16,6 +16,7 @@ interface CanvasProps {
   imageIndex: number
   orientation: Orientation
   canvasRef: React.RefObject<HTMLCanvasElement | null>
+  cleanCanvasRef: React.RefObject<HTMLCanvasElement | null>
   distance: number
   showGuides: boolean
   activeLens: number
@@ -129,7 +130,7 @@ function drawFramingGuides(
   ctx.setLineDash([])
 }
 
-export function Canvas({ lenses, imageIndex, orientation, canvasRef, distance, showGuides, activeLens, offsets, onOffsetsChange }: CanvasProps) {
+export function Canvas({ lenses, imageIndex, orientation, canvasRef, cleanCanvasRef, distance, showGuides, activeLens, offsets, onOffsetsChange }: CanvasProps) {
   const imageRef = useRef<HTMLImageElement | null>(null)
   const animFrameRef = useRef<number>(0)
   const drawnRectsRef = useRef<Rect[]>([])
@@ -189,6 +190,15 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef, distance, s
 
     // Draw the scene image, scaled to cover the full canvas (like CSS object-fit: cover)
     drawImageCover(ctx, img, 0, 0, w, h)
+
+    // Copy clean image (no overlays) to the offscreen canvas for CropStrip
+    const cleanCanvas = cleanCanvasRef.current
+    if (cleanCanvas) {
+      cleanCanvas.width = w
+      cleanCanvas.height = h
+      const cleanCtx = cleanCanvas.getContext('2d')
+      if (cleanCtx) cleanCtx.drawImage(canvas, 0, 0)
+    }
 
     const rects = computeRects(canvas)
     if (rects.length === 0) return

@@ -45,7 +45,7 @@ export function Nav({ theme, onThemeChange }: NavProps) {
   return (
     <nav className={styles.nav}>
       <div className={styles.navInner}>
-        <Link href="/" className={styles.logo}>PhotoTools</Link>
+        <Link href="/" className={styles.logo}>Photo<span className={styles.logoAccent}>Tools</span></Link>
         <div
           className={styles.dropdownWrapper}
           ref={toolsRef}
