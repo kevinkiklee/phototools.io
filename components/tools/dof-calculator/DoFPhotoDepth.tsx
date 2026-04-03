@@ -3,7 +3,6 @@
 import { useRef, useEffect, useCallback } from 'react'
 import { calcCircleOfConfusion } from '@/lib/math/exposure'
 import type { SceneKey } from './DoFCanvas'
-import { drawSceneSharp, drawDepthMap } from './sceneRenderer'
 
 interface DoFPhotoDepthProps {
   focusDistance: number
@@ -12,53 +11,84 @@ interface DoFPhotoDepthProps {
   className?: string
 }
 
+const PHOTO_URLS: Record<SceneKey, string> = {
+  portrait: '/images/dof/portrait.jpg',
+  landscape: '/images/dof/landscape.jpg',
+  street: '/images/dof/street.jpg',
+  macro: '/images/dof/macro.jpg',
+}
+
 const BLUR_LEVELS = 8
 const MAX_BLUR = 24
 
 /**
- * Option C: Per-pixel depth-map blur.
- * Renders the scene sharp + grayscale depth map, pre-renders multiple
- * blur levels, then composites using the depth map to select the
- * correct blur amount at each pixel. Interpolates between adjacent
- * blur levels for smooth transitions.
+ * Option C: Real photo with per-pixel depth-map blur.
+ * Loads a photograph, generates a synthetic depth map (vertical gradient
+ * with depth estimated from image position), pre-renders multiple blur
+ * levels, then composites per-pixel using the depth map.
  */
 export function DoFPhotoDepth({ focusDistance, aperture, scene, className }: DoFPhotoDepthProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
+  const imgRef = useRef<HTMLImageElement | null>(null)
+  const currentSceneRef = useRef<SceneKey>(scene)
 
   const render = useCallback(() => {
     const canvas = canvasRef.current
-    if (!canvas) return
+    const img = imgRef.current
+    if (!canvas || !img || !img.complete || img.naturalWidth === 0) return
+
     const rect = canvas.getBoundingClientRect()
     const w = rect.width
     const h = rect.height
     if (w === 0 || h === 0) return
 
-    // Use capped resolution for performance (per-pixel loop is expensive)
+    // Capped resolution for per-pixel work
     const maxDim = 600
     const aspect = w / h
-    const pw = w > h ? Math.min(Math.round(w), maxDim) : Math.round(Math.min(h, maxDim) * aspect)
-    const ph = w > h ? Math.round(Math.min(w, maxDim) / aspect) : Math.min(Math.round(h), maxDim)
+    let pw: number, ph: number
+    if (w > h) {
+      pw = Math.min(Math.round(w), maxDim)
+      ph = Math.round(pw / aspect)
+    } else {
+      ph = Math.min(Math.round(h), maxDim)
+      pw = Math.round(ph * aspect)
+    }
 
     canvas.width = pw
     canvas.height = ph
     const ctx = canvas.getContext('2d')
     if (!ctx) return
 
-    // 1. Render sharp scene
+    // Draw image to cover canvas
+    const imgAspect = img.naturalWidth / img.naturalHeight
+    const canvasAspect = pw / ph
+    let sx = 0, sy = 0, sw = img.naturalWidth, sh = img.naturalHeight
+    if (imgAspect > canvasAspect) {
+      sw = img.naturalHeight * canvasAspect
+      sx = (img.naturalWidth - sw) / 2
+    } else {
+      sh = img.naturalWidth / canvasAspect
+      sy = (img.naturalHeight - sh) / 2
+    }
+
+    // 1. Render sharp photo
     const sharpCanvas = new OffscreenCanvas(pw, ph)
     const sharpCtx = sharpCanvas.getContext('2d')
     if (!sharpCtx) return
-    sharpCtx.scale(pw / w, ph / h)
-    drawSceneSharp(sharpCtx, w, h, scene)
+    sharpCtx.drawImage(img, sx, sy, sw, sh, 0, 0, pw, ph)
 
-    // 2. Render depth map
+    // 2. Generate synthetic depth map (vertical gradient: top=far, bottom=near)
     const depthCanvas = new OffscreenCanvas(pw, ph)
     const depthCtx = depthCanvas.getContext('2d')
     if (!depthCtx) return
-    depthCtx.scale(pw / w, ph / h)
-    drawDepthMap(depthCtx, w, h, scene)
-
+    const grad = depthCtx.createLinearGradient(0, 0, 0, ph)
+    grad.addColorStop(0, '#ffffff')   // far
+    grad.addColorStop(0.4, '#aaaaaa') // mid-far
+    grad.addColorStop(0.6, '#666666') // mid-near
+    grad.addColorStop(1, '#000000')   // near
+    depthCtx.fillStyle = grad
+    depthCtx.fillRect(0, 0, pw, ph)
     const depthData = depthCtx.getImageData(0, 0, pw, ph)
 
     // 3. Pre-render blur levels
@@ -68,7 +98,6 @@ export function DoFPhotoDepth({ focusDistance, aperture, scene, className }: DoF
       const bc = new OffscreenCanvas(pw, ph)
       const bctx = bc.getContext('2d')
       if (!bctx) return
-
       if (blurAmount > 0.5) {
         bctx.filter = `blur(${blurAmount}px)`
       }
@@ -77,7 +106,7 @@ export function DoFPhotoDepth({ focusDistance, aperture, scene, className }: DoF
       blurDatas.push(bctx.getImageData(0, 0, pw, ph))
     }
 
-    // 4. Composite: per-pixel blur selection based on depth
+    // 4. Per-pixel compositing
     const output = ctx.createImageData(pw, ph)
     const out = output.data
     const totalPixels = pw * ph
@@ -104,13 +133,29 @@ export function DoFPhotoDepth({ focusDistance, aperture, scene, className }: DoF
   }, [focusDistance, aperture, scene])
 
   useEffect(() => {
-    render()
+    const loadAndRender = () => {
+      if (!imgRef.current || currentSceneRef.current !== scene) {
+        currentSceneRef.current = scene
+        const img = new Image()
+        img.crossOrigin = 'anonymous'
+        img.onload = () => {
+          imgRef.current = img
+          render()
+        }
+        img.src = PHOTO_URLS[scene]
+      } else {
+        render()
+      }
+    }
+
+    loadAndRender()
+
     const container = containerRef.current
     if (!container) return
     const ro = new ResizeObserver(() => render())
     ro.observe(container)
     return () => ro.disconnect()
-  }, [render])
+  }, [render, scene])
 
   return (
     <div ref={containerRef} style={{ width: '100%', height: '100%' }}>

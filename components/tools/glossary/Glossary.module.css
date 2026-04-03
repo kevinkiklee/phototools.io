@@ -32,13 +32,24 @@
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
+  .search {
+    min-height: 44px;
+    font-size: 16px;
+  }
+
   .letterBtn {
     min-width: 44px;
     min-height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .toolLink {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
   }
 }
 .letterBtn:hover {

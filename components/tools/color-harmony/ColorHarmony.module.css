@@ -30,27 +30,27 @@
 .paletteBar {
   display: flex;
   padding: 10px 16px;
-  gap: 8px;
+  gap: 10px;
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
+  justify-content: center;
 }
 
 .paletteBarSwatch {
-  flex: 1;
   height: 40px;
+  padding: 0 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 8px;
   font-family: inherit;
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
 .paletteBarSwatchKey {
-  outline: 2px solid #fff;
-  outline-offset: -2px;
+  border-color: #fff;
 }
 
 .keyLabel {
@@ -286,5 +286,31 @@
   .mainArea {
     order: 2;
     padding: 16px;
+  }
+
+  .slider {
+    height: 44px;
+  }
+
+  .select {
+    min-height: 44px;
+  }
+
+  .radioBtn {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .colorPicker {
+    width: 44px;
+    height: 44px;
+  }
+
+  .copyBtn {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
