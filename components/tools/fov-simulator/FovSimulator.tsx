@@ -200,12 +200,18 @@ export function FovSimulator() {
         <main className={styles.canvasArea}>
           {/* Top bar: scene strip + rotate/center (desktop only) */}
           <nav className={styles.canvasTopbar}>
-            <SceneStrip
-              selectedIndex={state.imageIndex}
-              onChange={(i) => dispatch({ type: 'SET_IMAGE', payload: i })}
-            />
-            <span className={styles.desktopOnly}>{rotateBtn}</span>
-            <span className={styles.desktopOnly}>{centerBtn}</span>
+            {state.viewMode !== 'compression' ? (
+              <SceneStrip
+                selectedIndex={state.imageIndex}
+                onChange={(i) => dispatch({ type: 'SET_IMAGE', payload: i })}
+              />
+            ) : (
+              <span style={{ fontSize: 12, color: 'var(--text-secondary)' }}>
+                Perspective Compression Demo
+              </span>
+            )}
+            {state.viewMode === 'fov' && <span className={styles.desktopOnly}>{rotateBtn}</span>}
+            {state.viewMode === 'fov' && <span className={styles.desktopOnly}>{centerBtn}</span>}
           </nav>
 
           <section className={styles.canvasMain}>
@@ -258,8 +264,8 @@ export function FovSimulator() {
           <span className={styles.mobileLogoText}>FOV Simulator</span>
         </div>
         <div className={styles.mobileToolbarRight}>
-          {rotateBtn}
-          {centerBtn}
+          {state.viewMode === 'fov' && rotateBtn}
+          {state.viewMode === 'fov' && centerBtn}
           <ThemeToggle theme={theme} onChange={setTheme} />
         </div>
       </div>
