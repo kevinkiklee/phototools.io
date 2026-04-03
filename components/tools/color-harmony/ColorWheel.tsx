@@ -9,6 +9,8 @@ interface ColorWheelProps {
   saturation: number
   lightness: number
   harmonyHues: number[]
+  /** Index of the base (key) hue in harmonyHues */
+  baseIndex: number
   /** Node indices that can be individually dragged to adjust angles (e.g. [1,2] for split comp) */
   draggableNodes: number[]
   onHueChange: (hue: number) => void
@@ -17,8 +19,8 @@ interface ColorWheelProps {
   onSecondaryDrag: (nodeIndex: number, hue: number) => void
 }
 
-const DESKTOP_SIZE = 380
-const MOBILE_SIZE = 260
+const DESKTOP_SIZE = 440
+const MOBILE_SIZE = 280
 const BREAKPOINT = 1024
 
 // Hit-test radius around a node dot (in CSS pixels)
@@ -45,6 +47,7 @@ export function ColorWheel({
   saturation,
   lightness,
   harmonyHues,
+  baseIndex,
   draggableNodes,
   onHueChange,
   onSaturationChange,
@@ -123,16 +126,15 @@ export function ColorWheel({
       ctx.stroke()
     }
 
-    // Dots — base dot (index matching the base hue) is larger
-    // Find which index is the base hue
-    const baseIndex = harmonyHues.findIndex((h) => h === (hue % 360))
+    // Dots — key color dot is larger with a double ring
     points.forEach((p, i) => {
-      const isBase = i === baseIndex || (baseIndex === -1 && i === 0)
+      const isBase = i === baseIndex
       const isDraggable = draggableNodes.includes(i)
-      const dotRadius = (isBase ? 8 : 6) * dpr
+      const dotRadius = (isBase ? 10 : 6) * dpr
       const rgb = hslToRgb(p.hue, saturation, lightness)
       const hex = rgbToHex(rgb.r, rgb.g, rgb.b)
 
+      // Filled dot
       ctx.beginPath()
       ctx.arc(p.x, p.y, dotRadius, 0, Math.PI * 2)
       ctx.fillStyle = hex
@@ -141,8 +143,17 @@ export function ColorWheel({
       ctx.lineWidth = 2 * dpr
       ctx.stroke()
 
-      // Draw a slightly larger ring around draggable nodes to hint they're interactive
-      if (isDraggable) {
+      // Key color: extra outer ring
+      if (isBase) {
+        ctx.beginPath()
+        ctx.arc(p.x, p.y, dotRadius + 4 * dpr, 0, Math.PI * 2)
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.6)'
+        ctx.lineWidth = 2 * dpr
+        ctx.stroke()
+      }
+
+      // Draggable node hint ring
+      if (isDraggable && !isBase) {
         ctx.beginPath()
         ctx.arc(p.x, p.y, dotRadius + 3 * dpr, 0, Math.PI * 2)
         ctx.strokeStyle = 'rgba(255, 255, 255, 0.25)'
@@ -150,7 +161,7 @@ export function ColorWheel({
         ctx.stroke()
       }
     })
-  }, [canvasPixels, harmonyHues, saturation, lightness, hue, dpr, draggableNodes])
+  }, [canvasPixels, harmonyHues, saturation, lightness, hue, dpr, draggableNodes, baseIndex])
 
   // Redraw on any change
   useEffect(() => {

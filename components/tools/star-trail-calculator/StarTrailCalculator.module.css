@@ -252,6 +252,7 @@
   .canvasMain {
     padding: 4px;
     flex: none;
+    min-height: 300px;
   }
 
   .starCanvas {
@@ -260,5 +261,13 @@
 
   .slider {
     height: 44px;
+  }
+
+  .select, .input {
+    min-height: 44px;
+  }
+
+  .presetBtn {
+    min-height: 44px;
   }
 }

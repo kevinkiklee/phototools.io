@@ -30,6 +30,11 @@ function getHarmonyHues(hue: number, type: HarmonyType, splitAngle: number, anal
   }
 }
 
+/** Index of the base (key) hue in the harmonyHues array */
+function getBaseIndex(type: HarmonyType): number {
+  return type === 'analogous' ? 1 : 0
+}
+
 function getSuggestion(hue: number, type: HarmonyType): string {
   const isWarm = (hue >= 0 && hue < 70) || hue >= 330
   const isCool = hue >= 170 && hue < 270
@@ -76,6 +81,8 @@ export function ColorHarmony() {
     setSaturation(Math.round(hsl.s))
     setLightness(Math.round(hsl.l))
   }, [])
+
+  const baseIndex = getBaseIndex(harmony)
 
   const harmonyHues = useMemo(
     () => getHarmonyHues(hue, harmony, splitAngle, analogousSpread),
@@ -267,12 +274,13 @@ export function ColorHarmony() {
           {swatches.map((s, i) => (
             <button
               key={i}
-              className={styles.paletteBarSwatch}
+              className={`${styles.paletteBarSwatch} ${i === baseIndex ? styles.paletteBarSwatchKey : ''}`}
               style={{ backgroundColor: s.hex }}
               onClick={() => copyHex(s.hex)}
-              title="Click to copy hex"
+              title={i === baseIndex ? 'Key color — click to copy hex' : 'Click to copy hex'}
             >
               <div className={styles.paletteBarInfo}>
+                {i === baseIndex && <span className={styles.keyLabel}>KEY</span>}
                 <span className={styles.paletteBarHex}>
                   {copiedHex === s.hex ? 'Copied!' : s.hex}
                 </span>
@@ -290,6 +298,7 @@ export function ColorHarmony() {
             saturation={saturation}
             lightness={lightness}
             harmonyHues={harmonyHues}
+            baseIndex={baseIndex}
             draggableNodes={draggableNodes}
             onHueChange={setHue}
             onSaturationChange={setSaturation}

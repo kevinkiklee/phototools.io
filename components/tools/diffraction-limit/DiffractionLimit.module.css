@@ -303,6 +303,14 @@
     height: 44px;
   }
 
+  .select, .input {
+    min-height: 44px;
+  }
+
+  .presetBtn {
+    min-height: 44px;
+  }
+
   .canvasMain {
     min-height: 300px;
   }

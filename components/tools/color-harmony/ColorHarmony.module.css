@@ -48,6 +48,22 @@
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
+.paletteBarSwatchKey {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+}
+
+.keyLabel {
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1px 4px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
 .paletteBarSwatch:hover {
   transform: scale(1.04);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);

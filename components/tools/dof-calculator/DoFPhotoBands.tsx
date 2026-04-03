@@ -3,7 +3,6 @@
 import { useRef, useEffect, useCallback } from 'react'
 import { calcCircleOfConfusion } from '@/lib/math/exposure'
 import type { SceneKey } from './DoFCanvas'
-import { drawSceneSharp, getSceneDef, lighten } from './sceneRenderer'
 
 interface DoFPhotoBandsProps {
   focusDistance: number
@@ -12,20 +11,31 @@ interface DoFPhotoBandsProps {
   className?: string
 }
 
-const NUM_BANDS = 12
+const PHOTO_URLS: Record<SceneKey, string> = {
+  portrait: '/images/dof/portrait.jpg',
+  landscape: '/images/dof/landscape.jpg',
+  street: '/images/dof/street.jpg',
+  macro: '/images/dof/macro.jpg',
+}
+
+const NUM_BANDS = 16
 
 /**
- * Option A: Depth-band blur.
- * Renders the scene sharp, slices into horizontal bands,
- * and blurs each band based on its estimated depth.
+ * Option A: Real photo with depth-band blur.
+ * Loads a photograph, slices it into horizontal bands, and applies
+ * varying blur to each band based on estimated depth.
  */
 export function DoFPhotoBands({ focusDistance, aperture, scene, className }: DoFPhotoBandsProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
+  const imgRef = useRef<HTMLImageElement | null>(null)
+  const currentSceneRef = useRef<SceneKey>(scene)
 
   const render = useCallback(() => {
     const canvas = canvasRef.current
-    if (!canvas) return
+    const img = imgRef.current
+    if (!canvas || !img || !img.complete || img.naturalWidth === 0) return
+
     const dpr = window.devicePixelRatio || 1
     const rect = canvas.getBoundingClientRect()
     const w = rect.width
@@ -38,30 +48,32 @@ export function DoFPhotoBands({ focusDistance, aperture, scene, className }: DoF
     if (!ctx) return
     ctx.scale(dpr, dpr)
 
-    // 1. Render the entire scene sharp to an offscreen canvas
+    // Draw image to cover the canvas (object-fit: cover)
+    const imgAspect = img.naturalWidth / img.naturalHeight
+    const canvasAspect = w / h
+    let sx = 0, sy = 0, sw = img.naturalWidth, sh = img.naturalHeight
+    if (imgAspect > canvasAspect) {
+      sw = img.naturalHeight * canvasAspect
+      sx = (img.naturalWidth - sw) / 2
+    } else {
+      sh = img.naturalWidth / canvasAspect
+      sy = (img.naturalHeight - sh) / 2
+    }
+
+    // Draw sharp image to offscreen canvas
     const offscreen = new OffscreenCanvas(Math.round(w * dpr), Math.round(h * dpr))
     const offCtx = offscreen.getContext('2d')
     if (!offCtx) return
-    offCtx.scale(dpr, dpr)
-    drawSceneSharp(offCtx, w, h, scene)
+    offCtx.drawImage(img, sx, sy, sw, sh, 0, 0, Math.round(w * dpr), Math.round(h * dpr))
 
-    // 2. Slice into depth bands and blur each
-    const sceneDef = getSceneDef(scene)
-    const groundLine = h * 0.55
-
+    // Slice into bands and blur each
     for (let i = 0; i < NUM_BANDS; i++) {
       const bandTop = (i / NUM_BANDS) * h
-      const bandBottom = ((i + 1) / NUM_BANDS) * h
-      const bandH = bandBottom - bandTop
+      const bandH = h / NUM_BANDS
       const bandMid = bandTop + bandH / 2
 
-      // Map band position to depth: top = far (1), bottom = near (0)
-      let depth: number
-      if (bandMid < groundLine) {
-        depth = 1.0 - (bandMid / groundLine) * 0.5
-      } else {
-        depth = 0.5 * (1 - (bandMid - groundLine) / (h - groundLine))
-      }
+      // Depth estimate: top of image = far (1.0), bottom = near (0.0)
+      const depth = 1.0 - bandMid / h
 
       const blur = calcCircleOfConfusion(depth, focusDistance, aperture, 20)
 
@@ -75,36 +87,34 @@ export function DoFPhotoBands({ focusDistance, aperture, scene, className }: DoF
       }
       ctx.drawImage(offscreen, 0, 0, Math.round(w * dpr), Math.round(h * dpr), 0, 0, w, h)
       ctx.filter = 'none'
-
-      // Bokeh overlay for heavily blurred bands
-      if (blur > 8) {
-        const opacity = Math.min((blur - 8) / 20, 0.15)
-        ctx.globalAlpha = opacity
-        for (let b = 0; b < 3; b++) {
-          const bx = ((i * 7 + b * 137) % 100) / 100 * w
-          const by = bandTop + ((b * 47 + i * 23) % 100) / 100 * bandH
-          const r = blur * 0.4 + b * 2
-          ctx.strokeStyle = lighten(sceneDef.skyColor, 40)
-          ctx.lineWidth = 1.5
-          ctx.beginPath()
-          ctx.arc(bx, by, r, 0, Math.PI * 2)
-          ctx.stroke()
-        }
-        ctx.globalAlpha = 1
-      }
-
       ctx.restore()
     }
   }, [focusDistance, aperture, scene])
 
   useEffect(() => {
-    render()
+    const loadAndRender = () => {
+      if (!imgRef.current || currentSceneRef.current !== scene) {
+        currentSceneRef.current = scene
+        const img = new Image()
+        img.crossOrigin = 'anonymous'
+        img.onload = () => {
+          imgRef.current = img
+          render()
+        }
+        img.src = PHOTO_URLS[scene]
+      } else {
+        render()
+      }
+    }
+
+    loadAndRender()
+
     const container = containerRef.current
     if (!container) return
     const ro = new ResizeObserver(() => render())
     ro.observe(container)
     return () => ro.disconnect()
-  }, [render])
+  }, [render, scene])
 
   return (
     <div ref={containerRef} style={{ width: '100%', height: '100%' }}>
