@@ -5,7 +5,7 @@ import { kelvinToRgb } from '@/lib/math/color'
 import { getToolBySlug } from '@/lib/data/tools'
 import { useQueryInit, useToolQuerySync, intParam } from '@/lib/utils/querySync'
 import { LearnPanel } from '@/components/shared/LearnPanel'
-import { FileDropZone } from '@/components/shared/FileDropZone'
+import { PhotoUploadPanel } from '@/components/shared/PhotoUploadPanel'
 import { WbPreview } from './WbPreview'
 import calc from '../shared/Calculator.module.css'
 import wb from './WhiteBalance.module.css'
@@ -110,7 +110,7 @@ function ControlsPanel({ kelvin, rgb, activePreset, onKelvinChange, onFile }: {
         </div>
       </div>
 
-      <FileDropZone onFile={onFile} />
+      <PhotoUploadPanel onFile={onFile} />
     </>
   )
 }

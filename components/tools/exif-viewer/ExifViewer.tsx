@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useRef, useEffect } from 'react'
 import ExifReader from 'exifreader'
-import { FileDropZone } from '@/components/shared/FileDropZone'
+import { PhotoUploadPanel } from '@/components/shared/PhotoUploadPanel'
 import { LearnPanel } from '@/components/shared/LearnPanel'
 import { getToolBySlug } from '@/lib/data/tools'
 import { calcEV } from '@/lib/math/exposure'
@@ -388,7 +388,7 @@ function ControlsPanel({ onFile, onSample }: { onFile: (file: File) => void; onS
         <h1 className={styles.title}>{tool.name}</h1>
         <p className={styles.description}>{tool.description}</p>
       </div>
-      <FileDropZone onFile={onFile} />
+      <PhotoUploadPanel onFile={onFile} />
       <button className={styles.sampleBtn} onClick={onSample}>
         Try sample photo
       </button>
