@@ -60,6 +60,7 @@ export function ColorHarmony() {
   const [splitAngle, setSplitAngle] = useState(30)
   const [analogousSpread, setAnalogousSpread] = useState(30)
   const [copiedHex, setCopiedHex] = useState<string | null>(null)
+  const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
 
   const harmonyHues = useMemo(
     () => getHarmonyHues(hue, harmony, splitAngle, analogousSpread),
@@ -85,6 +86,24 @@ export function ColorHarmony() {
       // ignore
     }
   }, [])
+
+  const copyPalette = useCallback(async (format: string) => {
+    let text = ''
+    if (format === 'hex') {
+      text = swatches.map((s) => s.hex).join(', ')
+    } else if (format === 'css') {
+      text = swatches.map((s, i) => `--color-${i + 1}: ${s.hex};`).join('\n')
+    } else if (format === 'rgb') {
+      text = swatches.map((s) => `rgb(${s.rgb.r}, ${s.rgb.g}, ${s.rgb.b})`).join(', ')
+    }
+    try {
+      await navigator.clipboard.writeText(text)
+      setCopiedFormat(format)
+      setTimeout(() => setCopiedFormat(null), 1500)
+    } catch {
+      // ignore
+    }
+  }, [swatches])
 
   const handleSecondaryDrag = useCallback((nodeIndex: number, draggedHue: number) => {
     if (harmony === 'split-complementary') {
@@ -175,6 +194,31 @@ export function ColorHarmony() {
 
           <div className={styles.suggestion}>
             {suggestion}
+          </div>
+
+          <div className={styles.sectionTitle}>Copy Palette</div>
+          <div className={styles.copyGroup}>
+            <button
+              className={styles.copyBtn}
+              onClick={() => copyPalette('hex')}
+              title="Copy hex codes"
+            >
+              {copiedFormat === 'hex' ? 'Copied!' : 'Hex codes'}
+            </button>
+            <button
+              className={styles.copyBtn}
+              onClick={() => copyPalette('css')}
+              title="Copy as CSS variables"
+            >
+              {copiedFormat === 'css' ? 'Copied!' : 'CSS vars'}
+            </button>
+            <button
+              className={styles.copyBtn}
+              onClick={() => copyPalette('rgb')}
+              title="Copy RGB values"
+            >
+              {copiedFormat === 'rgb' ? 'Copied!' : 'RGB'}
+            </button>
           </div>
       </aside>
 

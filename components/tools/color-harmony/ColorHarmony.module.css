@@ -123,6 +123,39 @@
   font-family: inherit;
 }
 
+.sectionTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
+  margin-top: 2px;
+}
+
+.copyGroup {
+  display: flex;
+  gap: 4px;
+}
+
+.copyBtn {
+  flex: 1;
+  padding: 6px 4px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-family: inherit;
+  transition: background 0.15s;
+}
+
+.copyBtn:hover {
+  background: var(--border);
+  color: var(--text-primary);
+}
+
 .suggestion {
   padding: 10px;
   background: var(--bg-primary);
