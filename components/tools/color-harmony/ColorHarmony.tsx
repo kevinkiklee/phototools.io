@@ -109,31 +109,8 @@ export function ColorHarmony() {
 
   return (
     <div className={styles.wrapper}>
-      {/* Palette bar — full-width horizontal strip at top */}
-      <div className={styles.paletteBar}>
-        {swatches.map((s, i) => (
-          <button
-            key={i}
-            className={styles.paletteBarSwatch}
-            style={{ backgroundColor: s.hex }}
-            onClick={() => copyHex(s.hex)}
-            title="Click to copy hex"
-          >
-            <div className={styles.paletteBarInfo}>
-              <span className={styles.paletteBarHex}>
-                {copiedHex === s.hex ? 'Copied!' : s.hex}
-              </span>
-              <span className={styles.paletteBarRgb}>
-                rgb({s.rgb.r}, {s.rgb.g}, {s.rgb.b})
-              </span>
-            </div>
-          </button>
-        ))}
-      </div>
-
-      {/* Sidebar + wheel */}
-      <div className={styles.body}>
-        <aside className={styles.sidebar}>
+      {/* Sidebar: full height, touches nav */}
+      <aside className={styles.sidebar}>
           <div className={styles.field}>
             <span className={styles.label}>Hue: <span className={styles.value}>{hue}°</span></span>
             <input
@@ -199,7 +176,30 @@ export function ColorHarmony() {
           <div className={styles.suggestion}>
             {suggestion}
           </div>
-        </aside>
+      </aside>
+
+      {/* Right side: palette bar + wheel */}
+      <div className={styles.rightSide}>
+        <div className={styles.paletteBar}>
+          {swatches.map((s, i) => (
+            <button
+              key={i}
+              className={styles.paletteBarSwatch}
+              style={{ backgroundColor: s.hex }}
+              onClick={() => copyHex(s.hex)}
+              title="Click to copy hex"
+            >
+              <div className={styles.paletteBarInfo}>
+                <span className={styles.paletteBarHex}>
+                  {copiedHex === s.hex ? 'Copied!' : s.hex}
+                </span>
+                <span className={styles.paletteBarRgb}>
+                  rgb({s.rgb.r}, {s.rgb.g}, {s.rgb.b})
+                </span>
+              </div>
+            </button>
+          ))}
+        </div>
 
         <div className={styles.mainArea}>
           <ColorWheel
