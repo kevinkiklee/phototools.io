@@ -17,14 +17,15 @@ const FF_DIAG = Math.sqrt(36 * 36 + 24 * 24)
 const ALL_SENSOR_IDS = SENSORS.map((s) => s.id) as unknown as string[]
 const ALL_SENSOR_ID_SET = new Set(ALL_SENSOR_IDS)
 const DEFAULT_VISIBLE_IDS = ['mf', 'ff', 'apsc_n', 'm43', 'phone']
-const DEFAULT_VISIBLE = DEFAULT_VISIBLE_IDS.join(',')
+const DEFAULT_VISIBLE = DEFAULT_VISIBLE_IDS.join('+')
 
 const PARAM_SCHEMA = {
   show: {
     default: DEFAULT_VISIBLE,
     parse: (raw: string) => {
-      const ids = raw.split(',').filter((id) => ALL_SENSOR_ID_SET.has(id))
-      return ids.length > 0 ? ids.join(',') : undefined
+      // Support both + and , as separators for backwards compat
+      const ids = raw.split(/[+,]/).filter((id) => ALL_SENSOR_ID_SET.has(id))
+      return ids.length > 0 ? ids.join('+') : undefined
     },
     serialize: (v: string) => v,
   },
@@ -128,12 +129,12 @@ export function SensorSize() {
   const prevVisibleRef = useRef<Set<string>>(new Set(DEFAULT_VISIBLE_IDS))
 
   useQueryInit(PARAM_SCHEMA, {
-    show: (v: string) => setVisible(new Set(v.split(','))),
+    show: (v: string) => setVisible(new Set(v.split(/[+,]/))),
     mode: setMode,
     mp: setResolution,
   })
   useToolQuerySync(
-    { show: Array.from(visible).join(','), mode, mp: resolution },
+    { show: Array.from(visible).join('+'), mode, mp: resolution },
     PARAM_SCHEMA,
   )
 

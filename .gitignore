@@ -4,7 +4,6 @@ out
 .superpowers
 docs/superpowers
 .claude
-__tests__/
 coverage
 dist
 build
