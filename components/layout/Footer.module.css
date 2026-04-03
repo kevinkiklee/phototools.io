@@ -1,0 +1,24 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-sm);
+}
+
+.link {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--accent);
+}
