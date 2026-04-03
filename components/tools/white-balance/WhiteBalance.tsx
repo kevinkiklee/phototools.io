@@ -79,7 +79,7 @@ export function WhiteBalance() {
           <span className={wb.previewLabel}>{kelvin}K</span>
         </div>
 
-        <div className={styles.results} style={{ marginTop: 'var(--space-md)' }}>
+        <div className={styles.results} style={{ marginTop: 16 }}>
           <div className={styles.resultCard}>
             <span className={styles.resultLabel}>Red</span>
             <span className={styles.resultValue}>{rgb.r}</span>

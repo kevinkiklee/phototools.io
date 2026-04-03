@@ -246,7 +246,7 @@ export function SensorSize() {
         role="img"
       />
 
-      <div className={styles.tableWrap} style={{ marginTop: 'var(--space-md)' }}>
+      <div className={styles.tableWrap} style={{ marginTop: 16 }}>
         <table className={styles.table}>
           <thead>
             <tr>

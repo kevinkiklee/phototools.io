@@ -130,7 +130,7 @@ export function ShutterSpeedGuide() {
         </div>
         <div className={styles.resultCard} style={{ gridColumn: '1 / -1' }}>
           <span className={styles.resultLabel}>Explanation</span>
-          <span style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)' }}>
+          <span style={{ fontSize: 12, color: 'var(--text-secondary)' }}>
             {explanation}
           </span>
         </div>

@@ -25,7 +25,7 @@ export function HyperfocalTable() {
 
   return (
     <div>
-      <div className={styles.controls} style={{ marginBottom: 'var(--space-lg)', maxWidth: 300 }}>
+      <div className={styles.controls} style={{ marginBottom: 16, maxWidth: 300 }}>
         <div className={styles.field}>
           <label className={styles.label}>Sensor</label>
           <select

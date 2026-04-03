@@ -3,27 +3,29 @@
   padding: 6px var(--space-md);
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: var(--space-md);
   font-size: var(--text-xs, 11px);
   color: var(--text-secondary);
   flex-shrink: 0;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .footer p {
   margin: 0;
+  flex-shrink: 0;
 }
 
 .links {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: var(--space-xs, 4px) var(--space-sm);
+  gap: var(--space-sm);
+  flex-shrink: 0;
 }
 
 .link {
   color: var(--text-secondary);
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .link:hover {

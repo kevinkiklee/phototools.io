@@ -1,6 +1,7 @@
 import type { LensConfig } from '@/lib/types'
 
 export type Orientation = 'landscape' | 'portrait'
+export type ViewMode = 'fov' | 'distortion' | 'compression'
 
 export const LENS_COLORS = ['#3b82f6', '#f59e0b', '#10b981']
 export const LENS_LABELS = ['A', 'B', 'C']
@@ -11,6 +12,10 @@ export interface FovSimulatorState {
   imageIndex: number
   orientation: Orientation
   activeLens: number
+  distance: number
+  viewMode: ViewMode
+  showGrid: boolean
+  showGuides: boolean
 }
 
 export const DEFAULT_FOV_STATE: FovSimulatorState = {
@@ -21,4 +26,8 @@ export const DEFAULT_FOV_STATE: FovSimulatorState = {
   imageIndex: 0,
   orientation: 'landscape',
   activeLens: 0,
+  distance: 10,
+  viewMode: 'fov',
+  showGrid: false,
+  showGuides: false,
 }

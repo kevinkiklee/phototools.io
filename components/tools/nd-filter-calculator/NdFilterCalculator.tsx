@@ -94,8 +94,8 @@ export function NdFilterCalculator() {
         </div>
       </div>
 
-      <div style={{ marginTop: 'var(--space-lg)' }}>
-        <h3 style={{ fontSize: 'var(--text-sm)', fontWeight: 600, marginBottom: 'var(--space-sm)' }}>
+      <div style={{ marginTop: 16 }}>
+        <h3 style={{ fontSize: 12, fontWeight: 600, marginBottom: 8 }}>
           Quick Reference
         </h3>
         <div className={styles.tableWrap}>
