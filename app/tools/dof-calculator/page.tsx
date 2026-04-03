@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { ToolPageShell } from '@/components/shared/ToolPageShell'
 import { DoFCalculator } from '@/components/tools/dof-calculator/DoFCalculator'
 
 export const metadata: Metadata = {
@@ -8,9 +7,5 @@ export const metadata: Metadata = {
 }
 
 export default function DoFCalculatorPage() {
-  return (
-    <ToolPageShell slug="dof-calculator">
-      <DoFCalculator />
-    </ToolPageShell>
-  )
+  return <DoFCalculator />
 }
