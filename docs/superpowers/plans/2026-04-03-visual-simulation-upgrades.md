@@ -2,11 +2,13 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Add Canvas-powered visual simulations to 5 tools (DoF, Exposure, Diffraction, Star Trails, Sensor Size), each using the FOV Viewer's sidebar+canvas layout.
+**Goal:** Add Canvas-powered visual simulations to 4 remaining tools (DoF, Diffraction, Star Trails, Sensor Size), each using the FOV Viewer's sidebar+canvas layout. The Exposure Simulator is already complete with a full WebGL2 pipeline.
 
-**Architecture:** Each tool becomes a full-page component (no ToolPageShell wrapper) with a 280px sidebar (controls + results) and a flex-1 canvas area. Procedural scenes generated via Canvas 2D. Existing math modules are reused unchanged.
+**Architecture:** Each tool becomes a full-page component (no ToolPageShell wrapper) with a 280px sidebar (controls + results) and a flex-1 canvas area. Procedural scenes generated via Canvas 2D. Existing math modules are reused unchanged. The Exposure Simulator (already done) uses a more advanced WebGL2 multi-pass approach with real photo assets — it serves as the reference implementation.
 
 **Tech Stack:** React 19, Canvas 2D API, CSS Modules, existing `lib/math/` functions.
+
+**NOTE:** Task 2 (Exposure Simulator) has been removed — it was already fully implemented with WebGL2 shaders, real photo assets (with depth maps and motion masks), scene selection, and the sidebar+canvas layout. See `components/tools/exposure-simulator/` for the reference implementation.
 
 ---
 
@@ -32,11 +34,7 @@ Specific files:
 - Keep: `components/tools/dof-calculator/DoFDiagram.tsx` (used inside canvas area)
 - Modify: `app/tools/dof-calculator/page.tsx`
 
-**Exposure Simulator:**
-- Rewrite: `components/tools/exposure-simulator/ExposureSimulator.tsx`
-- Rewrite: `components/tools/exposure-simulator/ExposureSimulator.module.css`
-- Create: `components/tools/exposure-simulator/ExposureCanvas.tsx`
-- Modify: `app/tools/exposure-simulator/page.tsx`
+**Exposure Simulator:** ALREADY COMPLETE — WebGL2 pipeline with shaders, photo assets, depth maps, motion masks. No changes needed.
 
 **Diffraction Limit:**
 - Rewrite: `components/tools/diffraction-limit/DiffractionLimit.tsx`
@@ -739,314 +737,22 @@ git commit -m "feat: add bokeh simulation canvas to DoF Calculator"
 
 ---
 
-## Task 2: Exposure Simulator — Real-Time Image Preview
+## Task 2 (SKIPPED): Exposure Simulator — Already Complete
 
-**Files:**
-- Create: `components/tools/exposure-simulator/ExposureCanvas.tsx`
-- Rewrite: `components/tools/exposure-simulator/ExposureSimulator.tsx`
-- Rewrite: `components/tools/exposure-simulator/ExposureSimulator.module.css`
-- Modify: `app/tools/exposure-simulator/page.tsx`
+The Exposure Simulator has already been fully rebuilt with:
+- FOV Viewer sidebar+canvas layout (`sim.app` / `sim.appBody` / `sim.sidebar`)
+- `ExposurePreview` component with scene thumbnail strip (Street, Landscape, Portrait, Low Light)
+- WebGL2 multi-pass rendering pipeline (`useExposureRenderer.ts`):
+  - Pass 1-2: DoF blur (horizontal + vertical) driven by depth map
+  - Pass 3: Motion blur driven by motion mask
+  - Pass 4: Procedural noise grain
+- GLSL shaders in `components/tools/exposure-simulator/shaders/`
+- Real photo assets with depth maps and motion masks in `public/images/exposure-simulator/`
+- `ControlsPanel` sub-component rendered in both sidebar (desktop) and mobileControls
+- Page already renders directly (no ToolPageShell)
+- Math helpers already in `lib/math/exposure.ts`: `calcCircleOfConfusion`, `calcMotionBlurAmount`, `calcNoiseAmplitude`
 
-### Step 1: Create CSS module
-
-- [ ] Rewrite `components/tools/exposure-simulator/ExposureSimulator.module.css` with the shared layout pattern, plus:
-
-```css
-/* Add after the shared base pattern */
-
-.lockRow {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.lockBtn {
-  padding: 4px 8px;
-  background: var(--bg-primary);
-  color: var(--text-secondary);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  font-size: 11px;
-  cursor: pointer;
-  font-family: inherit;
-  transition: background 0.15s, border-color 0.15s;
-}
-
-.lockBtn:hover {
-  border-color: var(--accent);
-}
-
-.lockBtnActive {
-  background: var(--accent);
-  color: #fff;
-  border-color: var(--accent);
-}
-
-.effectRow {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.effectLabel {
-  font-size: 11px;
-  color: var(--text-secondary);
-  width: 50px;
-}
-
-.effectBarBg {
-  flex: 1;
-  height: 4px;
-  background: var(--bg-primary);
-  border-radius: 2px;
-  overflow: hidden;
-}
-
-.effectBar {
-  height: 100%;
-  border-radius: 2px;
-  transition: width 0.2s ease;
-}
-
-.effectText {
-  font-size: 11px;
-  font-family: var(--font-mono);
-  text-align: right;
-  width: 60px;
-}
-
-.settingsBadge {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 4px 8px;
-  border-radius: 6px;
-  font-size: 11px;
-  font-family: var(--font-mono);
-  color: #e0e0e0;
-  pointer-events: none;
-}
-
-.exposureMeter {
-  position: absolute;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.6);
-  padding: 6px 12px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  pointer-events: none;
-}
-
-.canvasContainer {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-```
-
-### Step 2: Create ExposureCanvas component
-
-- [ ] Create `components/tools/exposure-simulator/ExposureCanvas.tsx`:
-
-This component renders a procedural scene and applies brightness, noise, and motion blur effects based on exposure parameters.
-
-```tsx
-'use client'
-
-import { useRef, useEffect, useCallback } from 'react'
-import { calcNoiseAmplitude, calcMotionBlurAmount } from '@/lib/math/exposure'
-import styles from './ExposureSimulator.module.css'
-
-interface ExposureCanvasProps {
-  evDelta: number       // stops over/under from scene reference EV
-  iso: number
-  shutterSpeed: number
-  aperture: number
-  scene: string
-}
-
-const SCENE_COLORS: Record<string, { sky: string[]; ground: string[]; sun: string; objects: string[] }> = {
-  daylight: {
-    sky: ['#87CEEB', '#6BB3D9'],
-    ground: ['#8B9A6B', '#6B7A4B'],
-    sun: '#fff8e0',
-    objects: ['#6B7B8B', '#5B6B7B', '#c44', '#d4a574'],
-  },
-  golden: {
-    sky: ['#ff9a56', '#ff6b35'],
-    ground: ['#8a7a4a', '#6a5a3a'],
-    sun: '#ffcc44',
-    objects: ['#8a6a4a', '#7a5a3a', '#b33', '#c49a64'],
-  },
-  indoor: {
-    sky: ['#3a3a4a', '#2a2a3a'],
-    ground: ['#5a4a3a', '#4a3a2a'],
-    sun: '#ffaa44',
-    objects: ['#6a5a4a', '#5a4a3a', '#a33', '#c49a74'],
-  },
-  night: {
-    sky: ['#0a0a1a', '#050510'],
-    ground: ['#1a1a2a', '#0a0a1a'],
-    sun: '#aaccff',
-    objects: ['#2a2a3a', '#1a1a2a', '#633', '#7a6a5a'],
-  },
-}
-
-export function ExposureCanvas({ evDelta, iso, shutterSpeed, aperture, scene }: ExposureCanvasProps) {
-  const canvasRef = useRef<HTMLCanvasElement>(null)
-
-  const draw = useCallback(() => {
-    const canvas = canvasRef.current
-    if (!canvas) return
-    const ctx = canvas.getContext('2d')
-    if (!ctx) return
-
-    const dpr = window.devicePixelRatio || 1
-    const rect = canvas.getBoundingClientRect()
-    canvas.width = rect.width * dpr
-    canvas.height = rect.height * dpr
-    ctx.scale(dpr, dpr)
-
-    const w = rect.width
-    const h = rect.height
-    const colors = SCENE_COLORS[scene] || SCENE_COLORS.daylight
-
-    // Draw base scene
-    const skyGrad = ctx.createLinearGradient(0, 0, 0, h * 0.55)
-    skyGrad.addColorStop(0, colors.sky[0])
-    skyGrad.addColorStop(1, colors.sky[1])
-    ctx.fillStyle = skyGrad
-    ctx.fillRect(0, 0, w, h * 0.55)
-
-    const groundGrad = ctx.createLinearGradient(0, h * 0.55, 0, h)
-    groundGrad.addColorStop(0, colors.ground[0])
-    groundGrad.addColorStop(1, colors.ground[1])
-    ctx.fillStyle = groundGrad
-    ctx.fillRect(0, h * 0.55, w, h * 0.45)
-
-    // Sun/light source
-    ctx.fillStyle = colors.sun
-    ctx.beginPath()
-    ctx.arc(w * 0.75, h * 0.15, 18, 0, Math.PI * 2)
-    ctx.fill()
-
-    // Buildings
-    ctx.fillStyle = colors.objects[0]
-    ctx.fillRect(w * 0.1, h * 0.2, w * 0.1, h * 0.35)
-    ctx.fillStyle = colors.objects[1]
-    ctx.fillRect(w * 0.22, h * 0.12, w * 0.12, h * 0.43)
-    ctx.fillStyle = colors.objects[0]
-    ctx.fillRect(w * 0.6, h * 0.25, w * 0.1, h * 0.3)
-
-    // Person
-    ctx.fillStyle = colors.objects[3]
-    ctx.beginPath()
-    ctx.arc(w * 0.48, h * 0.42, 8, 0, Math.PI * 2)
-    ctx.fill()
-    ctx.fillStyle = colors.objects[2]
-    ctx.fillRect(w * 0.48 - 7, h * 0.44, 14, 25)
-
-    // Apply exposure brightness
-    const brightnessMultiplier = Math.pow(2, evDelta)
-    if (evDelta !== 0) {
-      const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height)
-      const data = imageData.data
-      for (let i = 0; i < data.length; i += 4) {
-        data[i] = Math.min(255, Math.max(0, data[i] * brightnessMultiplier))
-        data[i + 1] = Math.min(255, Math.max(0, data[i + 1] * brightnessMultiplier))
-        data[i + 2] = Math.min(255, Math.max(0, data[i + 2] * brightnessMultiplier))
-      }
-
-      // Add noise based on ISO
-      const noiseAmp = calcNoiseAmplitude(iso)
-      if (noiseAmp > 0) {
-        for (let i = 0; i < data.length; i += 4) {
-          const noise = (Math.random() - 0.5) * noiseAmp * 255
-          data[i] = Math.min(255, Math.max(0, data[i] + noise))
-          data[i + 1] = Math.min(255, Math.max(0, data[i + 1] + noise))
-          data[i + 2] = Math.min(255, Math.max(0, data[i + 2] + noise))
-        }
-      }
-
-      ctx.putImageData(imageData, 0, 0)
-    } else {
-      // Still apply noise even at 0 delta
-      const noiseAmp = calcNoiseAmplitude(iso)
-      if (noiseAmp > 0) {
-        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height)
-        const data = imageData.data
-        for (let i = 0; i < data.length; i += 4) {
-          const noise = (Math.random() - 0.5) * noiseAmp * 255
-          data[i] = Math.min(255, Math.max(0, data[i] + noise))
-          data[i + 1] = Math.min(255, Math.max(0, data[i + 1] + noise))
-          data[i + 2] = Math.min(255, Math.max(0, data[i + 2] + noise))
-        }
-        ctx.putImageData(imageData, 0, 0)
-      }
-    }
-
-    // Motion blur overlay (horizontal streaks at slow shutter speeds)
-    const motionBlur = calcMotionBlurAmount(shutterSpeed)
-    if (motionBlur > 2) {
-      ctx.save()
-      ctx.globalAlpha = Math.min(motionBlur / 40, 0.6)
-      ctx.filter = `blur(${motionBlur}px)`
-      ctx.drawImage(canvas, 0, 0, rect.width, rect.height)
-      ctx.restore()
-    }
-  }, [evDelta, iso, shutterSpeed, aperture, scene])
-
-  useEffect(() => { draw() }, [draw])
-
-  useEffect(() => {
-    const canvas = canvasRef.current
-    if (!canvas) return
-    const observer = new ResizeObserver(() => draw())
-    observer.observe(canvas)
-    return () => observer.disconnect()
-  }, [draw])
-
-  return (
-    <canvas
-      ref={canvasRef}
-      style={{ width: '100%', height: '100%', borderRadius: 8 }}
-      aria-label="Exposure simulation preview"
-      role="img"
-    />
-  )
-}
-```
-
-### Step 3: Rewrite ExposureSimulator component
-
-- [ ] Rewrite `components/tools/exposure-simulator/ExposureSimulator.tsx` with the sidebar+canvas layout. Same state logic as current implementation (lock system, exposure compensation), but reorganized into sidebar (controls + EV result + effect bars) and canvas area (ExposureCanvas + settings badge + exposure meter).
-
-The component keeps all existing state management (`handleApertureChange`, `handleShutterChange`, `handleIsoChange`, lock system) and adds:
-- `scene` state for preset selection (daylight/golden/indoor/night)
-- Scene reference EVs: `{ daylight: 15, golden: 12, indoor: 7, night: 3 }`
-- `evDelta = totalEV - sceneRefEV` passed to ExposureCanvas
-- Settings badge overlay showing `f/{aperture} · {shutter} · ISO {iso}`
-- Exposure meter overlay showing ±3 stops
-
-### Step 4: Update page.tsx
-
-- [ ] Modify `app/tools/exposure-simulator/page.tsx` — remove ToolPageShell, render `<ExposureSimulator />` directly.
-
-### Step 5: Build and verify
-
-- [ ] Run `npm run build` and `npm test`
-
-### Step 6: Commit
-
-```bash
-git add components/tools/exposure-simulator/ app/tools/exposure-simulator/page.tsx
-git commit -m "feat: add real-time exposure preview canvas to Exposure Simulator"
-```
+**No work needed. Skip to Task 3.**
 
 ---
 
@@ -1335,7 +1041,7 @@ git commit -m "feat: add pixel density visualization mode to Sensor Size"
 
 ---
 
-## Task 6: Final Integration Check
+## Task 5.5: Final Integration Check
 
 ### Step 1: Full build and test
 
@@ -1348,7 +1054,7 @@ git commit -m "feat: add pixel density visualization mode to Sensor Size"
 - [ ] Start dev server: `npm run dev`
 - [ ] Visit each upgraded tool and verify:
   - DoF Calculator: sidebar+canvas layout, bokeh simulation responds to aperture/distance
-  - Exposure Simulator: brightness/noise/motion effects respond to sliders
+  - Exposure Simulator: already complete — verify still works after other changes
   - Diffraction Limit: split-view shows blur difference, divider drags
   - Star Trail Calculator: stars animate, mode toggle works
   - Sensor Size: pixel density mode shows grid comparison
