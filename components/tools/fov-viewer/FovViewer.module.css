@@ -1,0 +1,453 @@
+/* FOV Viewer layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 44px); /* subtract nav height */
+  overflow: hidden;
+}
+
+.appBody {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 280px;
+  min-width: 280px;
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.canvasArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.canvasTopbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  gap: 8px;
+}
+
+.canvasTopbar .sceneStrip {
+  flex: 1;
+  justify-content: center;
+}
+
+.canvasMain {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Lens panel */
+.lensPanel {
+  background: var(--bg-surface);
+  border-radius: 10px;
+  padding: 14px;
+  border-left: 3px solid;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.lensPanelActive {
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.lensPanelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.lensPanelLabel {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.lensPanelEquiv {
+  font-size: 11px;
+  color: var(--text-secondary);
+  flex: 1;
+}
+
+.lensPanelRemove {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  line-height: 1;
+}
+
+.lensPanelRemove:hover {
+  background: var(--border);
+  color: var(--text-primary);
+}
+
+.lensPanelFocal {
+  margin-bottom: 8px;
+}
+
+.lensPanelFocalRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.lensPanelSublabel {
+  color: var(--text-secondary);
+}
+
+.lensPanelValue {
+  font-weight: 600;
+}
+
+.lensPanelSliderWrap {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.lensPanelSlider {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+}
+
+.lensPanelTicks {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  pointer-events: none;
+}
+
+.lensPanelTick {
+  position: absolute;
+  width: 1px;
+  height: 6px;
+  background: var(--text-secondary);
+  opacity: 0.4;
+  transform: translateX(-0.5px);
+}
+
+.lensPanelPresets {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.lensPanelPreset {
+  padding: 3px 7px;
+  background: var(--bg-primary);
+  border: none;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.lensPanelPreset:hover {
+  background: var(--border);
+}
+
+.lensPanelPresetActive {
+  color: #fff;
+}
+
+.lensPanelSensorRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.lensPanelSelect {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+/* Add lens button */
+.addLensBtn {
+  width: 100%;
+  padding: 10px;
+  background: var(--bg-surface);
+  border: 2px dashed var(--border);
+  border-radius: 10px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.addLensBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Icon button */
+.iconBtn {
+  padding: 4px 8px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.iconBtnLabeled {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* Scene strip */
+.sceneStrip {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.sceneStripLabel {
+  font-size: 12px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.sceneStripThumb {
+  width: 48px;
+  height: 32px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+  flex-shrink: 0;
+  opacity: 0.6;
+  transition: opacity 0.15s, border-color 0.15s;
+}
+
+.sceneStripThumbActive {
+  border-color: var(--accent);
+  opacity: 1;
+}
+
+.sceneStripThumb:hover {
+  opacity: 1;
+}
+
+.sceneStripThumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Action bar */
+.actionBar {
+  background: var(--bg-surface);
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.actionBarBtn {
+  padding: 8px 12px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.15s;
+}
+
+.actionBarBtn:hover {
+  background: var(--border);
+}
+
+.actionBarBtnPrimary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.actionBarBtnPrimary:hover {
+  opacity: 0.9;
+}
+
+/* FOV canvas */
+.fovCanvas {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  touch-action: pan-y;
+}
+
+/* Share modal */
+.shareModalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.shareModal {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 520px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.shareModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.shareModalHeader h3 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.shareModalClose {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.shareModalSection {
+  margin-bottom: 12px;
+}
+
+.shareModalSection label {
+  display: block;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.shareModalRow {
+  display: flex;
+  gap: 6px;
+}
+
+.shareModalRow input {
+  flex: 1;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 8px;
+  color: var(--text-primary);
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.shareModalRow button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+/* Mobile layout */
+@media (max-width: 1023px) {
+  .appBody {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-width: 0;
+    border-right: none;
+    border-top: 1px solid var(--border);
+    order: 2;
+  }
+
+  .canvasArea {
+    order: 1;
+  }
+
+  .app {
+    height: auto;
+    overflow: visible;
+  }
+
+  .appBody {
+    overflow: visible;
+  }
+
+  .canvasMain {
+    padding: 4px;
+    flex: none;
+  }
+
+  .actionBar {
+    flex-direction: row;
+  }
+
+  .actionBarBtn {
+    flex: 1;
+  }
+
+  .sceneStrip {
+    justify-content: flex-start;
+    padding-bottom: 4px;
+  }
+
+  .fovCanvas {
+    border-radius: 0;
+  }
+}

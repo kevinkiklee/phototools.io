@@ -1,0 +1,97 @@
+'use client'
+
+import { useState, useCallback } from 'react'
+import type { LensConfig } from '@/lib/types'
+import { getSensor } from '@/lib/data/sensors'
+import { stateToQueryString } from './querySync'
+import type { FovViewerState } from './types'
+import styles from './FovViewer.module.css'
+
+interface ShareModalProps {
+  state: FovViewerState
+  onClose: () => void
+  onToast: (msg: string) => void
+}
+
+function buildLabel(lenses: LensConfig[]): string {
+  const parts = lenses.map((l) => {
+    const sensor = getSensor(l.sensorId)
+    return `${l.focalLength}mm ${sensor.name}`
+  })
+  return parts.join(' vs ') + ' FOV Comparison'
+}
+
+export function ShareModal({ state, onClose, onToast }: ShareModalProps) {
+  const [copied, setCopied] = useState<string | null>(null)
+  const qs = stateToQueryString(state)
+  const baseUrl = 'https://photo-tools.iser.io/'
+  const toolUrl = `${baseUrl}?${qs}`
+  const embedUrl = `${baseUrl}?${qs}&embed=1`
+  const label = buildLabel(state.lenses)
+
+  const snippets = {
+    link: toolUrl,
+    markdown: `[${label}](${toolUrl})`,
+    bbcode: `[url=${toolUrl}]${label}[/url]`,
+    iframe: `<iframe src="${embedUrl}" width="800" height="600" style="border:none;" title="${label}"></iframe>`,
+  }
+
+  const copy = useCallback((key: string, text: string) => {
+    navigator.clipboard.writeText(text).then(() => {
+      setCopied(key)
+      onToast('Copied!')
+      setTimeout(() => setCopied(null), 2000)
+    })
+  }, [onToast])
+
+  return (
+    <div className={styles.shareModalOverlay} onClick={onClose}>
+      <div className={styles.shareModal} onClick={(e) => e.stopPropagation()}>
+        <div className={styles.shareModalHeader}>
+          <h3>Share &amp; Embed</h3>
+          <button className={styles.shareModalClose} onClick={onClose}>&times;</button>
+        </div>
+
+        <div className={styles.shareModalSection}>
+          <label>Direct Link</label>
+          <div className={styles.shareModalRow}>
+            <input type="text" readOnly value={snippets.link} />
+            <button onClick={() => copy('link', snippets.link)}>
+              {copied === 'link' ? 'Copied' : 'Copy'}
+            </button>
+          </div>
+        </div>
+
+        <div className={styles.shareModalSection}>
+          <label>Markdown (Reddit, GitHub)</label>
+          <div className={styles.shareModalRow}>
+            <input type="text" readOnly value={snippets.markdown} />
+            <button onClick={() => copy('markdown', snippets.markdown)}>
+              {copied === 'markdown' ? 'Copied' : 'Copy'}
+            </button>
+          </div>
+        </div>
+
+        <div className={styles.shareModalSection}>
+          <label>BBCode (Forums)</label>
+          <div className={styles.shareModalRow}>
+            <input type="text" readOnly value={snippets.bbcode} />
+            <button onClick={() => copy('bbcode', snippets.bbcode)}>
+              {copied === 'bbcode' ? 'Copied' : 'Copy'}
+            </button>
+          </div>
+        </div>
+
+        <div className={styles.shareModalSection}>
+          <label>HTML Embed</label>
+          <div className={styles.shareModalRow}>
+            <input type="text" readOnly value={snippets.iframe} />
+            <button onClick={() => copy('iframe', snippets.iframe)}>
+              {copied === 'iframe' ? 'Copied' : 'Copy'}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
