@@ -3,43 +3,90 @@
 import { useState, useMemo } from 'react'
 import { pixelPitch, diffractionLimitedAperture } from '@/lib/math/diffraction'
 import { SENSORS } from '@/lib/data/sensors'
-import styles from '../shared/Calculator.module.css'
+import { DiffractionCanvas, type DetailType } from './DiffractionCanvas'
+import css from './DiffractionLimit.module.css'
 
 /** Derive sensor width from crop factor (FF = 36mm) */
 function sensorWidth(cropFactor: number): number {
   return 36 / cropFactor
 }
 
-const FSTOPS = [2.8, 4, 5.6, 8, 11, 16, 22]
+const DETAIL_PRESETS: { id: DetailType; label: string }[] = [
+  { id: 'text', label: 'Text' },
+  { id: 'foliage', label: 'Foliage' },
+  { id: 'architecture', label: 'Architecture' },
+  { id: 'fabric', label: 'Fabric' },
+]
 
-export function DiffractionLimit() {
-  const [sensorId, setSensorId] = useState('ff')
-  const [resolution, setResolution] = useState(24)
+// Aperture slider range: f/2.8 to f/22 (continuous, log-mapped)
+const MIN_F = 2.8
+const MAX_F = 22
+const MIN_LOG = Math.log(MIN_F)
+const MAX_LOG = Math.log(MAX_F)
 
-  const sensor = SENSORS.find((s) => s.id === sensorId) ?? SENSORS[1]
-  const width = sensorWidth(sensor.cropFactor)
+function sliderToAperture(value: number): number {
+  // value 0..100 -> log-mapped aperture
+  const logF = MIN_LOG + (value / 100) * (MAX_LOG - MIN_LOG)
+  return Math.exp(logF)
+}
 
-  const { pitch, limitAperture } = useMemo(() => {
-    const p = pixelPitch(width, resolution)
-    const a = diffractionLimitedAperture(p)
-    return { pitch: p, limitAperture: a }
-  }, [width, resolution])
+function apertureToSlider(aperture: number): number {
+  const logF = Math.log(Math.max(MIN_F, Math.min(MAX_F, aperture)))
+  return ((logF - MIN_LOG) / (MAX_LOG - MIN_LOG)) * 100
+}
 
-  // Position of limit on the scale (2.8 to 22)
-  const minF = Math.log(2.8)
-  const maxF = Math.log(22)
-  const limitLog = Math.log(Math.min(Math.max(limitAperture, 2.8), 22))
-  const limitPercent = ((limitLog - minF) / (maxF - minF)) * 100
+function sharpnessAssessment(currentAperture: number, limitAperture: number) {
+  if (currentAperture <= limitAperture) {
+    return { label: 'Sharp — below diffraction limit', className: css.assessmentSharp }
+  }
+  const stopsOver = Math.log2(currentAperture / limitAperture)
+  if (stopsOver < 1.5) {
+    return { label: 'Slightly softened by diffraction', className: css.assessmentSoft }
+  }
+  return { label: 'Significantly softened by diffraction', className: css.assessmentVSoft }
+}
+
+function ControlsPanel({
+  sensorId,
+  resolution,
+  apertureSlider,
+  currentAperture,
+  pitch,
+  limitAperture,
+  airyDisk,
+  onSensorChange,
+  onResolutionChange,
+  onApertureChange,
+}: {
+  sensorId: string
+  resolution: number
+  apertureSlider: number
+  currentAperture: number
+  pitch: number
+  limitAperture: number
+  airyDisk: number
+  onSensorChange: (id: string) => void
+  onResolutionChange: (mp: number) => void
+  onApertureChange: (slider: number) => void
+}) {
+  const assessment = sharpnessAssessment(currentAperture, limitAperture)
 
   return (
-    <div className={styles.layout}>
-      <div className={styles.controls}>
-        <div className={styles.field}>
-          <label className={styles.label}>Sensor</label>
+    <>
+      <div className={css.sidebarHeader}>
+        <h2 className={css.sidebarTitle}>Diffraction Limit</h2>
+        <p className={css.sidebarDesc}>
+          Find the sharpest aperture before diffraction softening.
+        </p>
+      </div>
+
+      <div className={css.settingsPanel}>
+        <div className={css.field}>
+          <label className={css.fieldLabel}>Sensor</label>
           <select
-            className={styles.select}
+            className={css.select}
             value={sensorId}
-            onChange={(e) => setSensorId(e.target.value)}
+            onChange={(e) => onSensorChange(e.target.value)}
           >
             {SENSORS.map((s) => (
               <option key={s.id} value={s.id}>
@@ -49,93 +96,127 @@ export function DiffractionLimit() {
           </select>
         </div>
 
-        <div className={styles.field}>
-          <label className={styles.label}>Resolution (MP)</label>
+        <div className={css.field}>
+          <label className={css.fieldLabel}>Resolution (MP)</label>
           <input
             type="number"
-            className={styles.input}
+            className={css.input}
             value={resolution}
             min={1}
             max={200}
-            onChange={(e) => setResolution(Number(e.target.value) || 1)}
+            onChange={(e) => onResolutionChange(Number(e.target.value) || 1)}
+          />
+        </div>
+
+        <div className={css.field}>
+          <label className={css.fieldLabel}>
+            Aperture: <span className={css.fieldValue}>f/{currentAperture.toFixed(1)}</span>
+          </label>
+          <input
+            type="range"
+            className={css.slider}
+            min={0}
+            max={100}
+            step={0.5}
+            value={apertureSlider}
+            onChange={(e) => onApertureChange(Number(e.target.value))}
           />
         </div>
       </div>
 
-      <div>
-        <div className={styles.results}>
-          <div className={styles.resultCard}>
-            <span className={styles.resultLabel}>Pixel Pitch</span>
-            <span className={styles.resultValue}>{pitch.toFixed(2)} um</span>
-          </div>
-          <div className={styles.resultCard}>
-            <span className={styles.resultLabel}>Diffraction Limit</span>
-            <span className={styles.resultValue}>f/{limitAperture.toFixed(1)}</span>
-          </div>
+      <div className={css.resultsPanel}>
+        <div className={css.resultCard}>
+          <span className={css.resultLabel}>Pixel Pitch</span>
+          <span className={css.resultSmall}>{pitch.toFixed(2)} um</span>
+        </div>
+        <div className={css.resultCard}>
+          <span className={css.resultLabel}>Diffraction Limit</span>
+          <span className={css.resultValue}>f/{limitAperture.toFixed(1)}</span>
+        </div>
+        <div className={css.resultCard}>
+          <span className={css.resultLabel}>Airy Disk Diameter</span>
+          <span className={css.resultSmall}>{airyDisk.toFixed(2)} um</span>
+        </div>
+        <div className={css.resultCard}>
+          <span className={css.resultLabel}>Sharpness</span>
+          <span className={`${css.assessment} ${assessment.className}`}>
+            {assessment.label}
+          </span>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export function DiffractionLimit() {
+  const [sensorId, setSensorId] = useState('ff')
+  const [resolution, setResolution] = useState(24)
+  const [apertureSlider, setApertureSlider] = useState(apertureToSlider(8))
+  const [detailType, setDetailType] = useState<DetailType>('text')
+
+  const sensor = SENSORS.find((s) => s.id === sensorId) ?? SENSORS[1]
+  const width = sensorWidth(sensor.cropFactor)
+  const currentAperture = sliderToAperture(apertureSlider)
+
+  const { pitch, limitAperture } = useMemo(() => {
+    const p = pixelPitch(width, resolution)
+    const a = diffractionLimitedAperture(p)
+    return { pitch: p, limitAperture: a }
+  }, [width, resolution])
+
+  const airyDisk = 2.44 * 0.55 * currentAperture // µm, green light 550nm
+
+  const controlsProps = {
+    sensorId,
+    resolution,
+    apertureSlider,
+    currentAperture,
+    pitch,
+    limitAperture,
+    airyDisk,
+    onSensorChange: setSensorId,
+    onResolutionChange: setResolution,
+    onApertureChange: setApertureSlider,
+  }
+
+  return (
+    <div className={css.app}>
+      <div className={css.appBody}>
+        <div className={css.sidebar}>
+          <ControlsPanel {...controlsProps} />
         </div>
 
-        {/* Visual aperture scale */}
-        <div style={{ marginTop: 'var(--space-lg)' }}>
-          <div
-            style={{
-              position: 'relative',
-              height: 40,
-              borderRadius: 'var(--radius-sm)',
-              overflow: 'hidden',
-              display: 'flex',
-            }}
-          >
-            <div
-              style={{
-                width: `${limitPercent}%`,
-                background: 'color-mix(in srgb, green 30%, transparent)',
-                borderRight: '2px solid var(--text-primary)',
-              }}
-            />
-            <div
-              style={{
-                flex: 1,
-                background: 'color-mix(in srgb, red 30%, transparent)',
-              }}
-            />
-          </div>
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              marginTop: 'var(--space-xs)',
-            }}
-          >
-            {FSTOPS.map((f) => {
-              const pos = ((Math.log(f) - minF) / (maxF - minF)) * 100
-              return (
-                <span
-                  key={f}
-                  className={styles.value}
-                  style={{
-                    position: 'relative',
-                    left: `${pos - 50}%`,
-                    fontSize: 'var(--text-xs)',
-                    color: 'var(--text-secondary)',
-                  }}
+        <div className={css.canvasArea}>
+          <div className={css.topbar}>
+            <span className={css.presetStripLabel}>Detail:</span>
+            <div className={css.presetStrip}>
+              {DETAIL_PRESETS.map((p) => (
+                <button
+                  key={p.id}
+                  className={`${css.presetBtn} ${detailType === p.id ? css.presetBtnActive : ''}`}
+                  onClick={() => setDetailType(p.id)}
+                  aria-pressed={detailType === p.id}
                 >
-                  f/{f}
-                </span>
-              )
-            })}
+                  {p.label}
+                </button>
+              ))}
+            </div>
           </div>
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              marginTop: 'var(--space-xs)',
-              fontSize: 'var(--text-xs)',
-            }}
-          >
-            <span style={{ color: 'green' }}>Sharp (below f/{limitAperture.toFixed(1)})</span>
-            <span style={{ color: 'red' }}>Diffraction-softened (above f/{limitAperture.toFixed(1)})</span>
+
+          <div className={css.canvasMain}>
+            <DiffractionCanvas
+              pixelPitchUm={pitch}
+              limitAperture={limitAperture}
+              currentAperture={currentAperture}
+              detailType={detailType}
+            />
           </div>
         </div>
+      </div>
+
+      {/* Mobile: controls below canvas */}
+      <div className={css.mobileControls}>
+        <ControlsPanel {...controlsProps} />
       </div>
     </div>
   )

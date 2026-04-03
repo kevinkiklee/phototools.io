@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { ToolPageShell } from '@/components/shared/ToolPageShell'
 import { DiffractionLimit } from '@/components/tools/diffraction-limit/DiffractionLimit'
 
 export const metadata: Metadata = {
@@ -8,9 +7,5 @@ export const metadata: Metadata = {
 }
 
 export default function DiffractionLimitPage() {
-  return (
-    <ToolPageShell slug="diffraction-limit">
-      <DiffractionLimit />
-    </ToolPageShell>
-  )
+  return <DiffractionLimit />
 }
