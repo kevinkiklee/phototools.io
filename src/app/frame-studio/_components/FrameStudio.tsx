@@ -4,11 +4,9 @@ import { useState, useCallback } from 'react'
 import { PhotoUploadPanel } from '@/components/shared/PhotoUploadPanel'
 import { LearnPanel } from '@/components/shared/LearnPanel'
 import { DraftBanner } from '@/components/shared/DraftBanner'
-import { Breadcrumbs } from '@/components/shared/Breadcrumbs'
-import { ToolIcon } from '@/components/shared/ToolIcon'
 import { ToolActions } from '@/components/shared/ToolActions'
+import { ModeToggle } from '@/components/shared/ModeToggle'
 import { getToolBySlug, getToolStatus } from '@/lib/data/tools'
-import { Toolbar } from './Toolbar'
 import { ImageCanvas } from './ImageCanvas'
 import { GridCanvas } from './GridCanvas'
 import { CropView } from './CropView'
@@ -16,7 +14,6 @@ import { CropPanel } from './CropPanel'
 import { FramePanel } from './FramePanel'
 import { GridControls } from './GridControls'
 import { ExportDialog } from './ExportDialog'
-import { BottomSheet } from './BottomSheet'
 import type {
   EditorMode, GridType, GridOptions, FrameConfig, CropState,
 } from './types'
@@ -24,6 +21,12 @@ import { DEFAULT_GRID_OPTIONS, DEFAULT_FRAME_CONFIG } from './types'
 import styles from './FrameStudio.module.css'
 
 const SLUG = 'frame-studio'
+
+const MODE_OPTIONS: { value: EditorMode; label: string }[] = [
+  { value: 'view', label: 'View' },
+  { value: 'crop', label: 'Crop' },
+  { value: 'frame', label: 'Frame' },
+]
 
 export function FrameStudio() {
   const tool = getToolBySlug(SLUG)
@@ -67,35 +70,70 @@ export function FrameStudio() {
     setMode('view')
   }, [])
 
+  const sidebarControls = (
+    <>
+      <ModeToggle options={MODE_OPTIONS} value={mode} onChange={setMode} title="Mode" />
+
+      {mode === 'crop' && (
+        <CropPanel
+          selectedRatio={aspectRatio}
+          onRatioChange={setAspectRatio}
+          onApply={handleApplyCrop}
+        />
+      )}
+      {mode === 'frame' && (
+        <FramePanel config={frameConfig} onChange={setFrameConfig} />
+      )}
+
+      <button
+        className={`${styles.gridToggle} ${gridOpen ? styles.gridToggleActive : ''}`}
+        onClick={() => setGridOpen((v) => !v)}
+      >
+        <svg viewBox="0 0 20 20" width={16} height={16} fill="none" stroke="currentColor" strokeWidth={1.5}>
+          <rect x="2" y="2" width="16" height="16" rx="1" />
+          <line x1="8" y1="2" x2="8" y2="18" />
+          <line x1="13" y1="2" x2="13" y2="18" />
+          <line x1="2" y1="8" x2="18" y2="8" />
+          <line x1="2" y1="13" x2="18" y2="13" />
+        </svg>
+        Grid Overlay
+      </button>
+
+      {gridOpen && (
+        <GridControls
+          activeGrids={activeGrids}
+          onActiveGridsChange={setActiveGrids}
+          options={gridOptions}
+          onOptionsChange={setGridOptions}
+        />
+      )}
+
+      {originalImage && (
+        <button className={styles.exportBtn} onClick={() => setShowExport(true)}>
+          Export
+        </button>
+      )}
+    </>
+  )
+
   return (
     <>
       {isDraft && <DraftBanner />}
-      <div className={styles.outer}>
-        <div className={styles.main}>
-          {tool && (
-            <header className={styles.header}>
-              <Breadcrumbs category={tool.category} toolName={tool.name} />
-              <h1 className={styles.title}>
-                <ToolIcon slug={SLUG} className={styles.titleIcon} />
-                {tool.name}
-              </h1>
-              <p className={styles.description}>{tool.description}</p>
-              <ToolActions toolName={tool.name} toolSlug={SLUG} onReset={handleReset} />
-            </header>
-          )}
-
-          <div className={styles.editor}>
-            <Toolbar
-              mode={mode}
-              onModeChange={setMode}
-              hasImage={!!originalImage}
-              gridOpen={gridOpen}
-              onGridToggle={() => setGridOpen((v) => !v)}
-              onExport={() => setShowExport(true)}
+      <div className={styles.app}>
+        <div className={styles.appBody}>
+          {/* Desktop sidebar */}
+          <aside className={styles.sidebar}>
+            <ToolActions
+              toolName={tool?.name ?? 'Frame Studio'}
+              toolSlug={SLUG}
               onReset={handleReset}
             />
+            {sidebarControls}
+          </aside>
 
-            <div className={styles.workspace}>
+          {/* Canvas area */}
+          <main className={styles.canvasArea}>
+            <section className={styles.canvasMain}>
               {!originalImage ? (
                 <PhotoUploadPanel
                   onFile={handleFile}
@@ -103,7 +141,7 @@ export function FrameStudio() {
                   prompt="Drop a photo here or click to browse"
                 />
               ) : (
-                <div className={styles.canvasArea}>
+                <div className={styles.canvasWrap}>
                   {mode === 'crop' ? (
                     <CropView
                       image={originalImage}
@@ -137,58 +175,33 @@ export function FrameStudio() {
                   )}
                 </div>
               )}
-            </div>
+            </section>
+          </main>
 
-            {originalImage && (mode === 'crop' || mode === 'frame' || gridOpen) && (
-              <div className={styles.sidePanel}>
-                {mode === 'crop' && (
-                  <CropPanel
-                    selectedRatio={aspectRatio}
-                    onRatioChange={setAspectRatio}
-                    onApply={handleApplyCrop}
-                  />
-                )}
-                {mode === 'frame' && (
-                  <FramePanel config={frameConfig} onChange={setFrameConfig} />
-                )}
-                {gridOpen && (
-                  <GridControls
-                    activeGrids={activeGrids}
-                    onActiveGridsChange={setActiveGrids}
-                    options={gridOptions}
-                    onOptionsChange={setGridOptions}
-                  />
-                )}
-              </div>
-            )}
-
-            <BottomSheet open={!!originalImage && (mode === 'crop' || mode === 'frame' || gridOpen)}>
-              {mode === 'crop' && (
-                <CropPanel
-                  selectedRatio={aspectRatio}
-                  onRatioChange={setAspectRatio}
-                  onApply={handleApplyCrop}
-                />
-              )}
-              {mode === 'frame' && (
-                <FramePanel
-                  config={frameConfig}
-                  onChange={setFrameConfig}
-                />
-              )}
-              {gridOpen && (
-                <GridControls
-                  activeGrids={activeGrids}
-                  onActiveGridsChange={setActiveGrids}
-                  options={gridOptions}
-                  onOptionsChange={setGridOptions}
-                />
-              )}
-            </BottomSheet>
+          {/* Desktop: LearnPanel as right sidebar */}
+          <div className={styles.desktopOnly}>
+            <LearnPanel slug={SLUG} />
           </div>
         </div>
-        <LearnPanel slug={SLUG} />
+
+        {/* Mobile controls below canvas */}
+        <div className={styles.mobileControls}>
+          <ToolActions
+            toolName={tool?.name ?? 'Frame Studio'}
+            toolSlug={SLUG}
+            onReset={handleReset}
+            hideTitle
+          />
+          <div className={styles.mobileDivider} />
+          {sidebarControls}
+        </div>
+
+        {/* Mobile: LearnPanel below controls */}
+        <div className={styles.mobileOnly}>
+          <LearnPanel slug={SLUG} />
+        </div>
       </div>
+
       {showExport && originalImage && originalFile && (
         <ExportDialog
           image={originalImage}
