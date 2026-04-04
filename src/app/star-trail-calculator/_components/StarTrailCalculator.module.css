@@ -29,77 +29,23 @@
   to { opacity: 1; transform: translateX(0); }
 }
 
-/* Mode toggle buttons */
-/* Slider fields */
-.field {
+/* Result cards */
+.resultRow {
+  display: flex;
+  gap: 8px;
+}
+
+.resultCardAccent {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 4px;
+  padding: 12px;
+  background: color-mix(in srgb, var(--accent-secondary) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-secondary) 25%, transparent);
+  border-radius: 10px;
 }
 
-.fieldLabel {
-  font-size: 12px;
-  color: var(--text-secondary);
-  font-weight: 500;
-}
-
-.fieldValue {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.select {
-  width: 100%;
-  padding: 6px 8px;
-  min-height: 44px;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-size: 13px;
-  font-family: inherit;
-  cursor: pointer;
-}
-
-.input {
-  width: 100%;
-  padding: 6px 8px;
-  min-height: 44px;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-size: 13px;
-  font-family: inherit;
-}
-
-.slider {
-  width: 100%;
-  accent-color: var(--accent);
-  height: 6px;
-  cursor: pointer;
-}
-
-.geoBtn {
-  background: none;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  color: var(--text-secondary);
-  font-size: var(--text-xs);
-  padding: 4px 10px;
-  cursor: pointer;
-  margin-top: var(--space-xs);
-  align-self: flex-start;
-  transition: color var(--duration-fast) var(--ease-out), border-color var(--duration-fast) var(--ease-out);
-}
-
-.geoBtn:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-}
-
-/* Result cards */
 .resultCard {
   display: flex;
   flex-direction: column;
@@ -108,11 +54,6 @@
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: 10px;
-  transition: border-color var(--duration-fast) var(--ease-out);
-}
-
-.resultCard:first-of-type {
-  border-left: 2px solid var(--accent);
 }
 
 .resultLabel {
@@ -267,6 +208,7 @@
 
   .select, .input {
     min-height: 44px;
+    font-size: 13px;
   }
 
   .presetBtn {

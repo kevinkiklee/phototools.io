@@ -11,6 +11,8 @@
   --text-muted: #666666;
   --accent: #f59e0b;
   --accent-hover: #fbbf24;
+  --accent-secondary: #38bdf8;
+  --accent-secondary-hover: #7dd3fc;
   --border: #262626;
   --border-subtle: #1f1f1f;
 
@@ -59,6 +61,8 @@
   --text-muted: #737373;
   --accent: #d97706;
   --accent-hover: #b45309;
+  --accent-secondary: #0284c7;
+  --accent-secondary-hover: #0369a1;
   --border: #e5e5e5;
   --border-subtle: #f0f0f0;
 

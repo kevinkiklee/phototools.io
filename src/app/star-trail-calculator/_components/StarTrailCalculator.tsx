@@ -4,8 +4,8 @@ import { useState, useMemo } from 'react'
 import { rule500, ruleNPF, stackingTime, formatDuration } from '@/lib/math/startrail'
 import { pixelPitch } from '@/lib/math/diffraction'
 import { SENSORS } from '@/lib/data/sensors'
-import { FOCAL_LENGTHS } from '@/lib/data/focalLengths'
 import { useQueryInit, useToolQuerySync, intParam, numParam, strParam, sensorParam } from '@/lib/utils/querySync'
+import { ControlPanel, FocalLengthField, FieldRow, SliderField, controlPanelStyles as cp } from '@/components/shared/ControlPanel'
 import { LearnPanel } from '@/components/shared/LearnPanel'
 import { ModeToggle } from '@/components/shared/ModeToggle'
 import { ToolActions } from '@/components/shared/ToolActions'
@@ -83,152 +83,18 @@ function ControlsPanel({
 }) {
   return (
     <>
-      <ModeToggle
-        title="Display Mode"
-        options={[
-          { value: 'sharp', label: 'Sharp Stars' },
-          { value: 'trails', label: 'Star Trails' },
-        ]}
-        value={mode}
-        onChange={onModeChange}
-        sticky
-      />
-
-      {/* Camera controls */}
-      <div className={css.field}>
-        <label className={css.fieldLabel}>Focal Length</label>
-        <select
-          className={css.select}
-          value={focalLength}
-          onChange={(e) => onFocalLengthChange(Number(e.target.value))}
-        >
-          {FOCAL_LENGTHS.map((fl) => (
-            <option key={fl.value} value={fl.value}>
-              {fl.value}mm{fl.label ? ` \u2014 ${fl.label}` : ''}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      <div className={css.field}>
-        <label className={css.fieldLabel}>Sensor</label>
-        <select
-          className={css.select}
-          value={sensorId}
-          onChange={(e) => onSensorIdChange(e.target.value)}
-        >
-          {SENSORS.map((s) => (
-            <option key={s.id} value={s.id}>
-              {s.name}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      <div className={css.field}>
-        <label className={css.fieldLabel}>Resolution (MP)</label>
-        <input
-          type="number"
-          className={css.input}
-          value={resolution}
-          min={1}
-          max={200}
-          onChange={(e) => onResolutionChange(Number(e.target.value) || 1)}
-        />
-      </div>
-
-      <div className={css.field}>
-        <label className={css.fieldLabel}>Aperture</label>
-        <select
-          className={css.select}
-          value={aperture}
-          onChange={(e) => onApertureChange(Number(e.target.value))}
-        >
-          {APERTURES.map((a) => (
-            <option key={a} value={a}>
-              f/{a}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      {/* Latitude slider */}
-      <div className={css.field}>
-        <label className={css.fieldLabel}>
-          Latitude: <span className={css.fieldValue}>{latitude}°</span>
-        </label>
-        <input
-          type="range"
-          className={css.slider}
-          min={0}
-          max={90}
-          step={1}
-          value={latitude}
-          onChange={(e) => onLatitudeChange(Number(e.target.value))}
-        />
-        <button
-          className={css.geoBtn}
-          onClick={() => {
-            navigator.geolocation.getCurrentPosition(
-              (pos) => onLatitudeChange(Math.round(Math.abs(pos.coords.latitude))),
-              () => {},
-            )
-          }}
-        >
-          📍 Use My Location
-        </button>
-      </div>
-
-      {/* Trail mode controls */}
-      {mode === 'trails' && (
-        <>
-          <div className={css.field}>
-            <label className={css.fieldLabel}>Exposure per Frame</label>
-            <select
-              className={css.select}
-              value={exposurePerFrame}
-              onChange={(e) => onExposurePerFrameChange(Number(e.target.value))}
-            >
-              {EXPOSURE_OPTIONS.map((s) => (
-                <option key={s} value={s}>
-                  {s}s
-                </option>
-              ))}
-            </select>
-          </div>
-          <div className={css.field}>
-            <label className={css.fieldLabel}>Number of Frames</label>
-            <input
-              type="number"
-              className={css.input}
-              value={numFrames}
-              min={1}
-              onChange={(e) => onNumFramesChange(Number(e.target.value) || 1)}
-            />
-          </div>
-          <div className={css.field}>
-            <label className={css.fieldLabel}>Gap Between Frames (s)</label>
-            <input
-              type="number"
-              className={css.input}
-              value={gap}
-              min={0}
-              onChange={(e) => onGapChange(Number(e.target.value) || 0)}
-            />
-          </div>
-        </>
-      )}
-
-      {/* Results */}
+      {/* Results — above mode toggle for visibility */}
       {mode === 'sharp' ? (
         <>
-          <div className={css.resultCard}>
-            <span className={css.resultLabel}>500 Rule</span>
-            <span className={css.resultValue}>{sharpResults.max500.toFixed(1)}s</span>
-          </div>
-          <div className={css.resultCard}>
-            <span className={css.resultLabel}>NPF Rule (more accurate)</span>
-            <span className={css.resultValue}>{sharpResults.maxNPF.toFixed(1)}s</span>
+          <div className={css.resultRow}>
+            <div className={css.resultCardAccent}>
+              <span className={css.resultLabel}>500 Rule</span>
+              <span className={css.resultValue}>{sharpResults.max500.toFixed(1)}s</span>
+            </div>
+            <div className={css.resultCardAccent}>
+              <span className={css.resultLabel}>NPF Rule</span>
+              <span className={css.resultValue}>{sharpResults.maxNPF.toFixed(1)}s</span>
+            </div>
           </div>
           <div className={css.resultCard}>
             <span className={css.resultLabel}>Recommendation</span>
@@ -241,22 +107,131 @@ function ControlsPanel({
         </>
       ) : (
         <>
-          <div className={css.resultCard}>
-            <span className={css.resultLabel}>Total Shooting Time</span>
-            <span className={css.resultValue}>{formatDuration(trailResult)}</span>
-          </div>
-          <div className={css.resultCard}>
-            <span className={css.resultLabel}>Total Frames</span>
-            <span className={css.resultValue}>{numFrames}</span>
-          </div>
-          <div className={css.resultCard}>
-            <span className={css.resultLabel}>Total Exposure</span>
-            <span className={css.resultValue}>
-              {formatDuration(exposurePerFrame * numFrames)}
-            </span>
+          <div className={css.resultRow}>
+            <div className={css.resultCardAccent}>
+              <span className={css.resultLabel}>Shooting Time</span>
+              <span className={css.resultValue}>{formatDuration(trailResult)}</span>
+            </div>
+            <div className={css.resultCardAccent}>
+              <span className={css.resultLabel}>Exposure</span>
+              <span className={css.resultValue}>
+                {formatDuration(exposurePerFrame * numFrames)}
+              </span>
+            </div>
           </div>
         </>
       )}
+
+      <ModeToggle
+        title="Display Mode"
+        options={[
+          { value: 'sharp', label: 'Sharp Stars' },
+          { value: 'trails', label: 'Star Trails' },
+        ]}
+        value={mode}
+        onChange={onModeChange}
+        sticky
+      />
+
+      {/* Camera controls card */}
+      <ControlPanel title="Camera">
+        <FocalLengthField value={focalLength} onChange={onFocalLengthChange} />
+
+        <FieldRow label="Sensor">
+          <select
+            className={cp.select}
+            value={sensorId}
+            onChange={(e) => onSensorIdChange(e.target.value)}
+          >
+            {SENSORS.map((s) => (
+              <option key={s.id} value={s.id}>
+                {s.name}
+              </option>
+            ))}
+          </select>
+        </FieldRow>
+
+        <FieldRow label="Resolution">
+          <input
+            type="number"
+            className={cp.input}
+            value={resolution}
+            min={1}
+            max={200}
+            onChange={(e) => onResolutionChange(Number(e.target.value) || 1)}
+          />
+        </FieldRow>
+
+        <FieldRow label="Aperture">
+          <select
+            className={cp.select}
+            value={aperture}
+            onChange={(e) => onApertureChange(Number(e.target.value))}
+          >
+            {APERTURES.map((a) => (
+              <option key={a} value={a}>
+                f/{a}
+              </option>
+            ))}
+          </select>
+        </FieldRow>
+      </ControlPanel>
+
+      {/* Latitude card */}
+      <ControlPanel title="Latitude">
+        <SliderField label="Position" value={latitude} min={0} max={90} unit="°" onChange={onLatitudeChange} />
+        <button
+          className={cp.actionBtn}
+          onClick={() => {
+            navigator.geolocation.getCurrentPosition(
+              (pos) => onLatitudeChange(Math.round(Math.abs(pos.coords.latitude))),
+              () => {},
+            )
+          }}
+        >
+          📍 Use My Location
+        </button>
+      </ControlPanel>
+
+      {/* Trail mode controls card */}
+      {mode === 'trails' && (
+        <ControlPanel title="Stacking">
+          <FieldRow label="Exposure / frame">
+            <select
+              className={cp.select}
+              value={exposurePerFrame}
+              onChange={(e) => onExposurePerFrameChange(Number(e.target.value))}
+            >
+              {EXPOSURE_OPTIONS.map((s) => (
+                <option key={s} value={s}>
+                  {s}s
+                </option>
+              ))}
+            </select>
+          </FieldRow>
+
+          <FieldRow label="Frames">
+            <input
+              type="number"
+              className={cp.input}
+              value={numFrames}
+              min={1}
+              onChange={(e) => onNumFramesChange(Number(e.target.value) || 1)}
+            />
+          </FieldRow>
+
+          <FieldRow label="Gap (seconds)">
+            <input
+              type="number"
+              className={cp.input}
+              value={gap}
+              min={0}
+              onChange={(e) => onGapChange(Number(e.target.value) || 0)}
+            />
+          </FieldRow>
+        </ControlPanel>
+      )}
+
     </>
   )
 }

@@ -537,8 +537,9 @@ export function SensorSize() {
     const dpr = window.devicePixelRatio || 1
     const cssWidth = canvas.clientWidth
     const isMobile = cssWidth < 600
-    // On mobile, use a large initial canvas then crop after drawing
-    const maxHeight = isMobile ? 5000 : (canvas.clientHeight || 420)
+    // Mobile: large canvas then crop. Desktop: use natural height.
+    const naturalHeight = canvas.clientHeight || 420
+    const maxHeight = isMobile ? 5000 : naturalHeight
     let cssHeight = maxHeight
     canvas.style.height = `${cssHeight}px`
     canvas.width = cssWidth * dpr
@@ -592,7 +593,7 @@ export function SensorSize() {
       contentH = drawPixelDensity(ctx, cssWidth, cssHeight, padding, sensors, resolution, alphaMap)
     }
 
-    // Crop canvas to actual content on mobile
+    // Crop canvas to actual content (mobile only)
     if (isMobile && contentH < cssHeight) {
       const finalH = Math.max(contentH + padding, 200)
       canvas.style.height = `${finalH}px`
@@ -1197,10 +1198,9 @@ function drawPixelDensity(
   }
 
   const isMobileScreen = W < 600
-  // Use 2-column grid layout when screen is narrow OR too many columns to fit
-  const minColW = 140
-  const maxDesktopCols = Math.floor((W - pad * 2) / (minColW + 24))
-  const useGridLayout = isMobileScreen || columns.length > maxDesktopCols
+  const DESKTOP_COLS_PER_ROW = 5
+  // Only use the flat 2-column grid on mobile; desktop uses multi-row column layout
+  const useGridLayout = isMobileScreen
   const colGap = useGridLayout ? 12 : 24
   const rowGap = 12
   const labelH = 46
@@ -1228,7 +1228,7 @@ function drawPixelDensity(
       }
     }
 
-    const numCols = isMobileScreen ? 2 : Math.min(maxDesktopCols, Math.max(2, columns.length))
+    const numCols = 2
     const availW = W - pad * 2
     const colW = (availW - colGap * (numCols - 1)) / numCols
     const sensorScale = (colW - 8) / maxSensorW
@@ -1357,13 +1357,10 @@ function drawPixelDensity(
     }
     return curY
   } else {
-    // ── Desktop: one column per sensor type ──
+    // ── Desktop: all columns in a single row ──
     const colsPerRow = columns.length
     const availW = W - pad * 2
-    const colW = Math.min(
-      (availW - (colsPerRow - 1) * colGap) / colsPerRow,
-      200,
-    )
+    const colW = (availW - (colsPerRow - 1) * colGap) / colsPerRow
     const sensorScale = (colW - 8) / maxSensorW
     const totalRowW = colsPerRow * colW + (colsPerRow - 1) * colGap
     let colX = (W - totalRowW) / 2

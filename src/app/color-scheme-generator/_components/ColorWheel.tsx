@@ -90,35 +90,68 @@ export const ColorWheel = forwardRef<ColorWheelHandle, ColorWheelProps>(function
   const dpr = typeof window !== 'undefined' ? window.devicePixelRatio || 1 : 1
   const canvasPixels = size * dpr
 
-  // Draw the HSL color wheel using ImageData for performance
+  // Cache the wheel ImageData so overlay-only redraws skip the expensive pixel loop
+  const wheelCacheRef = useRef<{ imageData: ImageData; lightness: number; size: number } | null>(null)
+
+  // Draw the HSL color wheel — inlined math, cached across overlay redraws
   const drawWheel = useCallback((ctx: CanvasRenderingContext2D) => {
+    const cache = wheelCacheRef.current
+    if (cache && cache.lightness === lightness && cache.size === canvasPixels) {
+      ctx.putImageData(cache.imageData, 0, 0)
+      return
+    }
+
     const imageData = ctx.createImageData(canvasPixels, canvasPixels)
     const data = imageData.data
     const cx = canvasPixels / 2
     const cy = canvasPixels / 2
     const r = cx
+    const r2 = r * r
+    const invR = 1 / r
+    const RAD_TO_DEG = 180 / Math.PI
+
+    // Precompute lightness-dependent constant
+    const ln = lightness / 100
+    const k = 1 - Math.abs(2 * ln - 1)
 
     for (let y = 0; y < canvasPixels; y++) {
+      const dy = y - cy
+      const dy2 = dy * dy
+      const rowOffset = y * canvasPixels
+
       for (let x = 0; x < canvasPixels; x++) {
         const dx = x - cx
-        const dy = y - cy
-        const dist = Math.sqrt(dx * dx + dy * dy)
-        if (dist > r) continue
+        const dist2 = dx * dx + dy2
+        if (dist2 > r2) continue
 
-        let angle = Math.atan2(dx, -dy) * (180 / Math.PI)
+        const dist = Math.sqrt(dist2)
+        let angle = Math.atan2(dx, -dy) * RAD_TO_DEG
         if (angle < 0) angle += 360
 
-        const sat = (dist / r) * 100
-        const rgb = hslToRgb(angle, sat, lightness)
+        // Inlined HSL→RGB (avoids function call + object alloc per pixel)
+        const sn = dist * invR
+        const c = k * sn
+        const hSector = angle / 60
+        const xc = c * (1 - Math.abs((hSector % 2) - 1))
+        const m = ln - c / 2
 
-        const idx = (y * canvasPixels + x) * 4
-        data[idx] = rgb.r
-        data[idx + 1] = rgb.g
-        data[idx + 2] = rgb.b
+        let r1: number, g1: number, b1: number
+        if (hSector < 1) { r1 = c; g1 = xc; b1 = 0 }
+        else if (hSector < 2) { r1 = xc; g1 = c; b1 = 0 }
+        else if (hSector < 3) { r1 = 0; g1 = c; b1 = xc }
+        else if (hSector < 4) { r1 = 0; g1 = xc; b1 = c }
+        else if (hSector < 5) { r1 = xc; g1 = 0; b1 = c }
+        else { r1 = c; g1 = 0; b1 = xc }
+
+        const idx = (rowOffset + x) * 4
+        data[idx]     = ((r1 + m) * 255 + 0.5) | 0
+        data[idx + 1] = ((g1 + m) * 255 + 0.5) | 0
+        data[idx + 2] = ((b1 + m) * 255 + 0.5) | 0
         data[idx + 3] = 255
       }
     }
     ctx.putImageData(imageData, 0, 0)
+    wheelCacheRef.current = { imageData, lightness, size: canvasPixels }
   }, [canvasPixels, lightness])
 
   // Helper: draw a dot with optional key-color double ring
@@ -199,7 +232,7 @@ export const ColorWheel = forwardRef<ColorWheelHandle, ColorWheelProps>(function
       const hex = rgbToHex(rgb.r, rgb.g, rgb.b)
       drawDot(ctx, p.x, p.y, hex, i === baseIndex)
     })
-  }, [canvasPixels, harmonyHues, saturation, lightness, dpr, draggableNodes, baseIndex, monochromaticPoints, drawDot])
+  }, [canvasPixels, harmonyHues, saturation, lightness, dpr, baseIndex, monochromaticPoints, drawDot])
 
   // Redraw on any change
   useEffect(() => {
