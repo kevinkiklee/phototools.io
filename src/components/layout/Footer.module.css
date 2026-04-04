@@ -44,3 +44,8 @@
 .link:hover {
   color: var(--accent);
 }
+
+.linkDisabled {
+  opacity: 0.35;
+  cursor: default;
+}

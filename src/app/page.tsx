@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getLiveTools } from '@/lib/data/tools'
+import { getAllTools, getToolStatus } from '@/lib/data/tools'
 import { ToolIcon } from '@/components/shared/ToolIcon'
 import type { ToolCategory } from '@/lib/types'
 import styles from './page.module.css'
@@ -12,7 +12,7 @@ const CATEGORIES: { key: ToolCategory; label: string }[] = [
 ]
 
 export default function HomePage() {
-  const tools = getLiveTools()
+  const tools = getAllTools()
 
   const grouped = CATEGORIES
     .map((cat) => ({
@@ -34,19 +34,34 @@ export default function HomePage() {
         <section key={group.key} className={styles.category}>
           <h2 className={styles.categoryLabel}>{group.label}</h2>
           <div className={styles.grid}>
-            {group.tools.map((tool) => (
-              <Link
-                key={tool.slug}
-                href={`/tools/${tool.slug}`}
-                className={styles.card}
-              >
-                <div className={styles.cardHeader}>
-                  <ToolIcon slug={tool.slug} className={styles.cardIcon} />
-                  <h3 className={styles.cardName}>{tool.name}</h3>
+            {group.tools.map((tool) => {
+              const isLive = getToolStatus(tool) === 'live'
+              if (isLive) {
+                return (
+                  <Link
+                    key={tool.slug}
+                    href={`/tools/${tool.slug}`}
+                    className={styles.card}
+                  >
+                    <div className={styles.cardHeader}>
+                      <ToolIcon slug={tool.slug} className={styles.cardIcon} />
+                      <h3 className={styles.cardName}>{tool.name}</h3>
+                    </div>
+                    <span className={styles.cardDesc}>{tool.description}</span>
+                  </Link>
+                )
+              }
+              return (
+                <div key={tool.slug} className={`${styles.card} ${styles.cardDisabled}`}>
+                  <div className={styles.cardHeader}>
+                    <ToolIcon slug={tool.slug} className={styles.cardIcon} />
+                    <h3 className={styles.cardName}>{tool.name}</h3>
+                    <span className={styles.cardBadge}>Coming Soon</span>
+                  </div>
+                  <span className={styles.cardDesc}>{tool.description}</span>
                 </div>
-                <span className={styles.cardDesc}>{tool.description}</span>
-              </Link>
-            ))}
+              )
+            })}
           </div>
         </section>
       ))}

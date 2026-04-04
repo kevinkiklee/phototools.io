@@ -191,6 +191,35 @@
   color: var(--accent);
 }
 
+.megaItemDisabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.megaItemDisabled:hover {
+  background: transparent;
+}
+
+.megaItemDisabled:hover .megaItemName {
+  color: var(--text-primary);
+}
+
+.megaItemDisabled:hover .megaItemIcon {
+  opacity: 0.7;
+}
+
+.megaItemBadge {
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--text-muted) 20%, transparent);
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
 /* Mobile: stack mega menu columns */
 @media (max-width: 767px) {
   .megaMenu {

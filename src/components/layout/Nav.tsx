@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
-import { getLiveTools } from '@/lib/data/tools'
+import { getAllTools, getToolStatus } from '@/lib/data/tools'
 import type { ToolCategory } from '@/lib/types'
 import { ToolIcon } from '@/components/shared/ToolIcon'
 import { ThemeToggle } from './ThemeToggle'
@@ -25,7 +25,7 @@ const CATEGORY_ORDER: ToolCategory[] = ['visualizer', 'calculator', 'reference',
 export function Nav({ theme, onThemeChange }: NavProps) {
   const [toolsOpen, setToolsOpen] = useState(false)
   const toolsRef = useRef<HTMLDivElement>(null)
-  const tools = getLiveTools()
+  const tools = getAllTools()
 
   const grouped = CATEGORY_ORDER.map((cat) => ({
     category: cat,
@@ -68,20 +68,35 @@ export function Nav({ theme, onThemeChange }: NavProps) {
             {grouped.map((group) => (
               <div key={group.category} className={styles.megaColumn}>
                 <div className={styles.megaCategoryLabel}>{group.label}</div>
-                {group.tools.map((tool) => (
-                  <Link
-                    key={tool.slug}
-                    href={`/tools/${tool.slug}`}
-                    className={styles.megaItem}
-                    onClick={(e) => { if (!e.metaKey && !e.ctrlKey) setToolsOpen(false) }}
-                  >
-                    <span className={styles.megaItemHeader}>
-                      <ToolIcon slug={tool.slug} width={16} height={16} className={styles.megaItemIcon} />
-                      <span className={styles.megaItemName}>{tool.name}</span>
-                    </span>
-                    <span className={styles.megaItemDesc}>{tool.description}</span>
-                  </Link>
-                ))}
+                {group.tools.map((tool) => {
+                  const isLive = getToolStatus(tool) === 'live'
+                  if (isLive) {
+                    return (
+                      <Link
+                        key={tool.slug}
+                        href={`/tools/${tool.slug}`}
+                        className={styles.megaItem}
+                        onClick={(e) => { if (!e.metaKey && !e.ctrlKey) setToolsOpen(false) }}
+                      >
+                        <span className={styles.megaItemHeader}>
+                          <ToolIcon slug={tool.slug} width={16} height={16} className={styles.megaItemIcon} />
+                          <span className={styles.megaItemName}>{tool.name}</span>
+                        </span>
+                        <span className={styles.megaItemDesc}>{tool.description}</span>
+                      </Link>
+                    )
+                  }
+                  return (
+                    <div key={tool.slug} className={`${styles.megaItem} ${styles.megaItemDisabled}`}>
+                      <span className={styles.megaItemHeader}>
+                        <ToolIcon slug={tool.slug} width={16} height={16} className={styles.megaItemIcon} />
+                        <span className={styles.megaItemName}>{tool.name}</span>
+                        <span className={styles.megaItemBadge}>Soon</span>
+                      </span>
+                      <span className={styles.megaItemDesc}>{tool.description}</span>
+                    </div>
+                  )
+                })}
               </div>
             ))}
           </div>

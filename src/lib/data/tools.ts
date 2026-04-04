@@ -31,3 +31,7 @@ export function getToolStatus(tool: ToolDef): ToolStatus {
 export function getLiveTools(): ToolDef[] {
   return TOOLS.filter((t) => getStatus(t) === 'live')
 }
+
+export function getAllTools(): ToolDef[] {
+  return TOOLS
+}
