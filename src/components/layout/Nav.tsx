@@ -86,6 +86,7 @@ export function Nav({ theme, onThemeChange }: NavProps) {
     <nav className={styles.nav}>
       <div className={styles.navInner}>
         <Link href="/" className={styles.logo}>Photo<span className={styles.logoAccent}>Tools</span></Link>
+        <span className={styles.desktopThemeToggle}><ThemeToggle theme={theme} onChange={onThemeChange} /></span>
         <div
           className={styles.dropdownWrapper}
           ref={toolsRef}
@@ -156,8 +157,8 @@ export function Nav({ theme, onThemeChange }: NavProps) {
           </AnimatePresence>
         </div>
         <Link href="/learn/glossary" className={styles.navLink}>Glossary</Link>
+        <Link href="/contact" className={styles.navLink}>Contact</Link>
         <div className={styles.spacer} />
-        <ThemeToggle theme={theme} onChange={onThemeChange} />
       </div>
     </nav>
   )
