@@ -16,6 +16,7 @@ import { CropPanel } from './CropPanel'
 import { FramePanel } from './FramePanel'
 import { GridControls } from './GridControls'
 import { ExportDialog } from './ExportDialog'
+import { BottomSheet } from './BottomSheet'
 import type {
   EditorMode, GridType, GridOptions, FrameConfig, CropState,
 } from './types'
@@ -160,6 +161,30 @@ export function FrameStudio() {
                 )}
               </div>
             )}
+
+            <BottomSheet open={!!originalImage && (mode === 'crop' || mode === 'frame' || gridOpen)}>
+              {mode === 'crop' && (
+                <CropPanel
+                  selectedRatio={aspectRatio}
+                  onRatioChange={setAspectRatio}
+                  onApply={handleApplyCrop}
+                />
+              )}
+              {mode === 'frame' && (
+                <FramePanel
+                  config={frameConfig}
+                  onChange={setFrameConfig}
+                />
+              )}
+              {gridOpen && (
+                <GridControls
+                  activeGrids={activeGrids}
+                  onActiveGridsChange={setActiveGrids}
+                  options={gridOptions}
+                  onOptionsChange={setGridOptions}
+                />
+              )}
+            </BottomSheet>
           </div>
         </div>
         <LearnPanel slug={SLUG} />
