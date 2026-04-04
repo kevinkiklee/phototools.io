@@ -256,11 +256,17 @@ export function ShutterSpeedGuide() {
           <MotionCanvas shutterSpeed={SHUTTER_PRESETS[shutterIdx].value} />
         </div>
 
-        <LearnPanel slug="shutter-speed-visualizer" />
+        <div className={ss.desktopOnly}>
+          <LearnPanel slug="shutter-speed-visualizer" />
+        </div>
       </div>
 
       <div className={ss.mobileControls}>
         <ControlsPanel shutterIdx={shutterIdx} onShutterChange={setShutterIdx} />
+      </div>
+
+      <div className={ss.mobileOnly}>
+        <LearnPanel slug="shutter-speed-visualizer" />
       </div>
     </div>
   )

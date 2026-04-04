@@ -410,6 +410,7 @@
 
 /* Desktop-only helper (hidden on mobile via media query below) */
 .desktopOnly {}
+.mobileOnly { display: none; }
 
 /* Mobile toolbar + controls: hidden on desktop */
 .mobileToolbar {
@@ -480,13 +481,18 @@
     display: none;
   }
 
+  .mobileOnly {
+    display: block;
+  }
+
   .canvasMain {
-    padding: 4px;
+    padding: 0;
     flex: none;
   }
 
   .fovCanvas {
     border-radius: 0;
+    width: 100%;
   }
 
   /* Show mobile toolbar */
@@ -494,15 +500,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 16px;
+    padding: 12px 12px 6px;
   }
 
   /* Show mobile controls */
   .mobileControls {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 16px;
+    gap: 10px;
+    padding: 10px 12px;
   }
 
   /* Action bar horizontal on mobile */

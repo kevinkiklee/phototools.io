@@ -121,7 +121,6 @@
 .dropdownWrapper:hover .megaMenu,
 .megaMenuOpen {
   display: grid;
-  animation: fadeInUp var(--duration-normal) var(--ease-out);
 }
 
 .megaColumn {
@@ -192,7 +191,7 @@
 }
 
 .megaItemDisabled {
-  opacity: 0.4;
+  opacity: 0.5;
   cursor: default;
 }
 
@@ -220,13 +219,29 @@
   margin-left: auto;
 }
 
+/* Mobile close button — hidden on desktop */
+.megaCloseBtn {
+  display: none;
+}
+
 /* Mobile: stack mega menu columns */
+@media (max-width: 1023px) {
+  .navInner {
+    width: 100%;
+  }
+}
+
 @media (max-width: 767px) {
   .megaMenu {
+    position: fixed;
+    top: 44px;
+    left: 0;
+    right: 0;
+    width: 100%;
     grid-template-columns: 1fr;
-    max-height: 70vh;
+    max-height: calc(100vh - 44px);
     overflow-y: auto;
-    left: -60px;
+    border-radius: 0;
   }
 
   .megaColumn + .megaColumn {
@@ -238,6 +253,29 @@
 
   .megaColumn {
     min-width: 0;
+  }
+
+  .megaCloseBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: var(--space-sm);
+    right: var(--space-sm);
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .megaCloseBtn:hover {
+    color: var(--text-primary);
+    background: var(--bg-surface);
   }
 }
 

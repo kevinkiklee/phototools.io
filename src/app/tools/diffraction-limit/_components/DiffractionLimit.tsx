@@ -226,12 +226,18 @@ export function DiffractionLimit() {
             />
           </div>
         </div>
-        <LearnPanel slug="diffraction-limit" />
+        <div className={css.desktopOnly}>
+          <LearnPanel slug="diffraction-limit" />
+        </div>
       </div>
 
       {/* Mobile: controls below canvas */}
       <div className={css.mobileControls}>
         <ControlsPanel {...controlsProps} />
+      </div>
+
+      <div className={css.mobileOnly}>
+        <LearnPanel slug="diffraction-limit" />
       </div>
     </div>
   )

@@ -351,12 +351,18 @@ export function StarTrailCalculator() {
             />
           </div>
         </div>
-        <LearnPanel slug="star-trail-calculator" />
+        <div className={css.desktopOnly}>
+          <LearnPanel slug="star-trail-calculator" />
+        </div>
       </div>
 
       {/* Mobile: controls below canvas */}
       <div className={css.mobileControls}>
         <ControlsPanel {...controlsProps} />
+      </div>
+
+      <div className={css.mobileOnly}>
+        <LearnPanel slug="star-trail-calculator" />
       </div>
     </div>
   )

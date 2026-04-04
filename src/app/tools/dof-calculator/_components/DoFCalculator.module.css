@@ -214,6 +214,9 @@
   display: none;
 }
 
+.desktopOnly {}
+.mobileOnly { display: none; }
+
 /* ── Mobile breakpoint ── */
 @media (max-width: 1023px) {
   .app {
@@ -235,6 +238,13 @@
     flex-direction: column;
     gap: 14px;
     padding: 16px;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
   }
 
   .canvasTopbar {

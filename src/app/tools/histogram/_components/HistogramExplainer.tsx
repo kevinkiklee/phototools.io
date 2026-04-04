@@ -409,11 +409,17 @@ export function HistogramExplainer() {
           )}
         </div>
 
-        <LearnPanel slug="exif-viewer" />
+        <div className={styles.desktopOnly}>
+          <LearnPanel slug="exif-viewer" />
+        </div>
       </div>
 
       <div className={styles.mobileControls}>
         <ControlsPanel {...controlsProps} />
+      </div>
+
+      <div className={styles.mobileOnly}>
+        <LearnPanel slug="exif-viewer" />
       </div>
     </div>
   )

@@ -223,6 +223,9 @@
   display: none;
 }
 
+.desktopOnly {}
+.mobileOnly { display: none; }
+
 @media (max-width: 1023px) {
   .app {
     height: auto;
@@ -243,6 +246,13 @@
     flex-direction: column;
     gap: 16px;
     padding: 16px;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
   }
 
   .topbar {

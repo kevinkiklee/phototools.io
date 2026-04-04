@@ -70,22 +70,6 @@ function ControlsPanel({
 }) {
   return (
     <>
-      <div className={ss.sectionLabel}>Sensors</div>
-      <div className={ss.checkboxes}>
-        {SENSORS.map((s) => (
-          <label key={s.id} className={ss.checkLabel}>
-            <input
-              type="checkbox"
-              checked={visible.has(s.id)}
-              onChange={() => onToggleSensor(s.id)}
-            />
-            <span className={ss.checkDot} style={{ backgroundColor: s.color }} />
-            <span className={ss.checkName}>{s.name}</span>
-            <span className={ss.checkOutline} />
-          </label>
-        ))}
-      </div>
-
       <div className={ss.sectionLabel}>Display Mode</div>
       <div className={ss.modeToggle}>
         {(['overlay', 'side-by-side', 'pixel-density'] as const).map((m) => (
@@ -105,6 +89,22 @@ function ControlsPanel({
           Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.
         </p>
       )}
+
+      <div className={ss.sectionLabel}>Sensors</div>
+      <div className={ss.checkboxes}>
+        {SENSORS.map((s) => (
+          <label key={s.id} className={ss.checkLabel}>
+            <input
+              type="checkbox"
+              checked={visible.has(s.id)}
+              onChange={() => onToggleSensor(s.id)}
+            />
+            <span className={ss.checkDot} style={{ backgroundColor: s.color }} />
+            <span className={ss.checkName}>{s.name}</span>
+            <span className={ss.checkOutline} />
+          </label>
+        ))}
+      </div>
     </>
   )
 }
@@ -204,7 +204,11 @@ export function SensorSize() {
 
     const dpr = window.devicePixelRatio || 1
     const cssWidth = canvas.clientWidth
-    const cssHeight = canvas.clientHeight || 420
+    const isMobile = cssWidth < 600
+    // On mobile, use a large initial canvas then crop after drawing
+    const maxHeight = isMobile ? 5000 : (canvas.clientHeight || 420)
+    let cssHeight = maxHeight
+    canvas.style.height = `${cssHeight}px`
     canvas.width = cssWidth * dpr
     canvas.height = cssHeight * dpr
     ctx.scale(dpr, dpr)
@@ -247,12 +251,23 @@ export function SensorSize() {
 
     const padding = 30
 
+    let contentH = cssHeight
     if (mode === 'overlay') {
-      drawOverlay(ctx, cssWidth, cssHeight, padding, sensors, alphaMap)
+      contentH = drawOverlay(ctx, cssWidth, cssHeight, padding, sensors, alphaMap)
     } else if (mode === 'side-by-side') {
-      drawSideBySide(ctx, cssWidth, cssHeight, padding, sensors, alphaMap)
+      contentH = drawSideBySide(ctx, cssWidth, cssHeight, padding, sensors, alphaMap)
     } else {
-      drawPixelDensity(ctx, cssWidth, cssHeight, padding, sensors, resolution, alphaMap)
+      contentH = drawPixelDensity(ctx, cssWidth, cssHeight, padding, sensors, resolution, alphaMap)
+    }
+
+    // Crop canvas to actual content on mobile
+    if (isMobile && contentH < cssHeight) {
+      const finalH = Math.max(contentH + padding, 200)
+      canvas.style.height = `${finalH}px`
+      // Copy drawn content, resize, and redraw
+      const imageData = ctx.getImageData(0, 0, canvas.width, Math.ceil(finalH * dpr))
+      canvas.height = Math.ceil(finalH * dpr)
+      ctx.putImageData(imageData, 0, 0)
     }
 
     if (animating) {
@@ -308,47 +323,25 @@ export function SensorSize() {
             role="img"
           />
 
-          <div className={ss.tableWrap}>
-            <table className={ss.table}>
-              <thead>
-                <tr>
-                  <th style={{ textAlign: 'left' }}>Sensor</th>
-                  <th>Width (mm)</th>
-                  <th>Height (mm)</th>
-                  <th>Area (mm²)</th>
-                  <th>Crop Factor</th>
-                </tr>
-              </thead>
-              <tbody>
-                {visibleSensors.map((s) => {
-                  const area = s.w * s.h
-                  const diag = Math.sqrt(s.w * s.w + s.h * s.h)
-                  const crop = FF_DIAG / diag
-                  return (
-                    <tr key={s.id}>
-                      <td style={{ textAlign: 'left' }}>
-                        <div className={ss.sensorCell}>
-                          <span className={ss.tableDot} style={{ backgroundColor: s.color }} />
-                          {s.name}
-                        </div>
-                      </td>
-                      <td>{s.w}</td>
-                      <td>{s.h}</td>
-                      <td>{area.toFixed(1)}</td>
-                      <td>{crop.toFixed(2)}x</td>
-                    </tr>
-                  )
-                })}
-              </tbody>
-            </table>
+          <div className={`${ss.tableWrap} ${ss.desktopOnly}`}>
+            <SensorTable sensors={visibleSensors} />
           </div>
         </div>
 
-        <LearnPanel slug="sensor-size-comparison" />
+        <div className={ss.desktopOnly}>
+          <LearnPanel slug="sensor-size-comparison" />
+        </div>
       </div>
 
       <div className={ss.mobileControls}>
         <ControlsPanel {...controlsProps} />
+        <div className={ss.tableWrap}>
+          <SensorTable sensors={visibleSensors} />
+        </div>
+      </div>
+
+      <div className={ss.mobileOnly}>
+        <LearnPanel slug="sensor-size-comparison" />
       </div>
     </div>
   )
@@ -356,24 +349,75 @@ export function SensorSize() {
 
 // ── Drawing functions ──
 
+function SensorTable({ sensors }: { sensors: Required<SensorPreset>[] }) {
+  return (
+    <table className={ss.table}>
+      <thead>
+        <tr>
+          <th style={{ textAlign: 'left' }}>Sensor</th>
+          <th>Width (mm)</th>
+          <th>Height (mm)</th>
+          <th>Area (mm²)</th>
+          <th>Crop Factor</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sensors.map((s) => {
+          const area = s.w * s.h
+          const diag = Math.sqrt(s.w * s.w + s.h * s.h)
+          const crop = FF_DIAG / diag
+          return (
+            <tr key={s.id}>
+              <td style={{ textAlign: 'left' }}>
+                <div className={ss.sensorCell}>
+                  <span className={ss.tableDot} style={{ backgroundColor: s.color }} />
+                  {s.name}
+                </div>
+              </td>
+              <td>{s.w}</td>
+              <td>{s.h}</td>
+              <td>{area.toFixed(1)}</td>
+              <td>{crop.toFixed(2)}x</td>
+            </tr>
+          )
+        })}
+      </tbody>
+    </table>
+  )
+}
+
 function drawOverlay(
   ctx: CanvasRenderingContext2D,
   W: number, H: number, pad: number,
   sensors: Required<SensorPreset>[],
   alphaMap?: Map<string, number>,
-) {
+): number {
   const maxW = Math.max(...sensors.map((s) => s.w))
   const maxH = Math.max(...sensors.map((s) => s.h))
-  const labelColumnW = 160 // space for label pills on the left
-  const dimAnnotationH = 40 // space for dimension line below
-  const dimAnnotationW = 30 // space for dimension line on right
-  const availW = W - pad * 2 - labelColumnW - dimAnnotationW
-  const availH = H - pad * 2 - dimAnnotationH
-  const scale = Math.min(availW / maxW, availH / maxH)
-  const cx = pad + labelColumnW + availW / 2
-  const cy = pad + availH / 2
+  const isMobile = W < 600
 
+  // On mobile: labels go below rects; on desktop: labels go left
+  const labelColumnW = isMobile ? 0 : 160
+  const pillH = 18
+  const labelGap = 4
   const sorted = [...sensors].sort((a, b) => b.w * b.h - a.w * a.h)
+  const labelRowH = isMobile ? sorted.length * (pillH + labelGap) + 8 : 0
+
+  const dimAnnotationH = 40
+  const dimAnnotationW = isMobile ? 0 : 30
+  const availW = W - pad * 2 - labelColumnW - dimAnnotationW
+  // On mobile, don't use full H for scaling — use a reasonable max for the sensor area
+  const mobileMaxSensorH = isMobile ? Math.min(W * 0.8, 300) : 0
+  const availH = isMobile
+    ? mobileMaxSensorH
+    : H - pad * 2 - dimAnnotationH - labelRowH
+  const scale = Math.min(availW / maxW, availH / maxH)
+  const rectsH = maxH * scale
+  const cx = pad + labelColumnW + availW / 2
+  // On mobile, position from top; on desktop, center vertically
+  const cy = isMobile
+    ? pad + rectsH / 2
+    : pad + (H - pad * 2 - dimAnnotationH - labelRowH) / 2
 
   // Draw all rects first (fills + strokes)
   for (const s of sorted) {
@@ -399,66 +443,100 @@ function drawOverlay(
     ctx.restore()
   }
 
-  // Draw labels as a column to the left of the sensor rects
-  const pillH = 18
-  const labelGap = 4
   ctx.font = '11px system-ui, sans-serif'
-
-  // Evenly space labels vertically, centered on the graphic
-  const totalLabelH = sorted.length * pillH + (sorted.length - 1) * labelGap
-  let labelY = cy - totalLabelH / 2
-
-  // Find the widest pill to right-align all pills to the same column edge
   const pillWidths = sorted.map(s => ctx.measureText(s.name).width + 10)
-  const maxPillW = Math.max(...pillWidths)
-  const largestRectLeft = cx - sorted[0].w * scale / 2
-  const columnRight = largestRectLeft - 20 // fixed gap from largest rect left edge
 
-  for (let i = 0; i < sorted.length; i++) {
-    const s = sorted[i]
-    const a = alphaMap?.get(s.id) ?? 1
-    const rw = s.w * scale
-    const rectLeft = cx - rw / 2
-    const label = s.name
-    const pillW = pillWidths[i]
-    const pillX = columnRight - pillW // right-align all pills
-    const pillCenterY = labelY + pillH / 2
+  if (isMobile) {
+    // ── Mobile: labels centered below the sensor rects ──
+    const largest = sorted[0]
+    const lh = largest.h * scale
+    let labelY = cy + lh / 2 + dimAnnotationH + 4
 
-    ctx.save()
-    ctx.globalAlpha = a
+    for (let i = 0; i < sorted.length; i++) {
+      const s = sorted[i]
+      const a = alphaMap?.get(s.id) ?? 1
+      const pillW = pillWidths[i]
+      const pillX = cx - pillW / 2
 
-    // Leader line from pill to rect left edge
-    ctx.beginPath()
-    ctx.moveTo(columnRight + 4, pillCenterY)
-    ctx.lineTo(rectLeft, pillCenterY)
-    ctx.strokeStyle = rgba(s.color, 0.25)
-    ctx.lineWidth = 1
-    ctx.setLineDash([2, 2])
-    ctx.stroke()
-    ctx.setLineDash([])
+      ctx.save()
+      ctx.globalAlpha = a
 
-    // Small dot at rect edge
-    ctx.beginPath()
-    ctx.arc(rectLeft, pillCenterY, 2, 0, Math.PI * 2)
-    ctx.fillStyle = rgba(s.color, 0.5)
-    ctx.fill()
+      // Pill background
+      roundRect(ctx, pillX, labelY, pillW, pillH, 3)
+      ctx.fillStyle = rgba(s.color, 0.15)
+      ctx.fill()
 
-    // Pill background
-    roundRect(ctx, pillX, labelY, pillW, pillH, 3)
-    ctx.fillStyle = rgba(s.color, 0.15)
-    ctx.fill()
+      // Color dot
+      ctx.beginPath()
+      ctx.arc(pillX - 8, labelY + pillH / 2, 3, 0, Math.PI * 2)
+      ctx.fillStyle = s.color
+      ctx.fill()
 
-    // Label text
-    ctx.fillStyle = s.color
-    ctx.textAlign = 'left'
-    ctx.textBaseline = 'middle'
-    ctx.fillText(label, pillX + 5, pillCenterY)
+      // Label text
+      ctx.fillStyle = s.color
+      ctx.textAlign = 'left'
+      ctx.textBaseline = 'middle'
+      ctx.fillText(s.name, pillX + 5, labelY + pillH / 2)
 
-    ctx.restore()
+      ctx.restore()
 
-    labelY += pillH + labelGap
+      labelY += pillH + labelGap
+    }
+  } else {
+    // ── Desktop: labels as a column to the left of rects ──
+    const totalLabelH = sorted.length * pillH + (sorted.length - 1) * labelGap
+    let labelY = cy - totalLabelH / 2
+
+    const largestRectLeft = cx - sorted[0].w * scale / 2
+    const columnRight = largestRectLeft - 20
+
+    for (let i = 0; i < sorted.length; i++) {
+      const s = sorted[i]
+      const a = alphaMap?.get(s.id) ?? 1
+      const rw = s.w * scale
+      const rectLeft = cx - rw / 2
+      const label = s.name
+      const pillW = pillWidths[i]
+      const pillX = columnRight - pillW
+      const pillCenterY = labelY + pillH / 2
+
+      ctx.save()
+      ctx.globalAlpha = a
+
+      // Leader line from pill to rect left edge
+      ctx.beginPath()
+      ctx.moveTo(columnRight + 4, pillCenterY)
+      ctx.lineTo(rectLeft, pillCenterY)
+      ctx.strokeStyle = rgba(s.color, 0.25)
+      ctx.lineWidth = 1
+      ctx.setLineDash([2, 2])
+      ctx.stroke()
+      ctx.setLineDash([])
+
+      // Small dot at rect edge
+      ctx.beginPath()
+      ctx.arc(rectLeft, pillCenterY, 2, 0, Math.PI * 2)
+      ctx.fillStyle = rgba(s.color, 0.5)
+      ctx.fill()
+
+      // Pill background
+      roundRect(ctx, pillX, labelY, pillW, pillH, 3)
+      ctx.fillStyle = rgba(s.color, 0.15)
+      ctx.fill()
+
+      // Label text
+      ctx.fillStyle = s.color
+      ctx.textAlign = 'left'
+      ctx.textBaseline = 'middle'
+      ctx.fillText(label, pillX + 5, pillCenterY)
+
+      ctx.restore()
+
+      labelY += pillH + labelGap
+    }
   }
 
+  // Dimension annotations
   const largest = sorted[0]
   const lw = largest.w * scale
   const lh = largest.h * scale
@@ -469,6 +547,7 @@ function drawOverlay(
   ctx.lineWidth = 1
   ctx.setLineDash([3, 3])
 
+  // Width dimension below
   const dimY = ly + lh + 16
   ctx.beginPath()
   ctx.moveTo(lx, dimY)
@@ -490,29 +569,38 @@ function drawOverlay(
   ctx.textBaseline = 'top'
   ctx.fillText(`${largest.w} mm`, cx, dimY + 4)
 
-  const dimX = lx + lw + 16
-  ctx.setLineDash([3, 3])
-  ctx.beginPath()
-  ctx.moveTo(dimX, ly)
-  ctx.lineTo(dimX, ly + lh)
-  ctx.stroke()
-  ctx.beginPath()
-  ctx.moveTo(dimX - 4, ly)
-  ctx.lineTo(dimX + 4, ly)
-  ctx.stroke()
-  ctx.beginPath()
-  ctx.moveTo(dimX - 4, ly + lh)
-  ctx.lineTo(dimX + 4, ly + lh)
-  ctx.stroke()
+  // Height dimension on right (desktop only)
+  if (!isMobile) {
+    const dimX = lx + lw + 16
+    ctx.setLineDash([3, 3])
+    ctx.beginPath()
+    ctx.moveTo(dimX, ly)
+    ctx.lineTo(dimX, ly + lh)
+    ctx.stroke()
+    ctx.beginPath()
+    ctx.moveTo(dimX - 4, ly)
+    ctx.lineTo(dimX + 4, ly)
+    ctx.stroke()
+    ctx.beginPath()
+    ctx.moveTo(dimX - 4, ly + lh)
+    ctx.lineTo(dimX + 4, ly + lh)
+    ctx.stroke()
 
-  ctx.setLineDash([])
-  ctx.save()
-  ctx.translate(dimX + 6, cy)
-  ctx.rotate(-Math.PI / 2)
-  ctx.fillText(`${largest.h} mm`, 0, 0)
-  ctx.restore()
+    ctx.setLineDash([])
+    ctx.save()
+    ctx.translate(dimX + 6, cy)
+    ctx.rotate(-Math.PI / 2)
+    ctx.fillText(`${largest.h} mm`, 0, 0)
+    ctx.restore()
+  }
 
   ctx.textBaseline = 'alphabetic'
+  if (isMobile) {
+    // Return actual bottom of drawn content
+    const lastLabelY = dimY + 20 + labelRowH
+    return lastLabelY
+  }
+  return H
 }
 
 function drawSideBySideRow(
@@ -536,7 +624,12 @@ function drawSideBySideRow(
     return Math.max(nameW, modelW) + 8
   })
 
-  const colWidths = sensors.map((s, i) => Math.max(s.w * scale, minTextWidths[i]))
+  // On mobile (2-per-row), use equal column widths for alignment
+  const isMobileRow = W < 600
+  const equalColW = isMobileRow ? (W - pad * 2 - (sensors.length - 1) * gap) / Math.max(sensors.length, 1) : 0
+  const colWidths = isMobileRow
+    ? sensors.map(() => equalColW)
+    : sensors.map((s, i) => Math.max(s.w * scale, minTextWidths[i]))
   const totalGap = (sensors.length - 1) * gap
   const totalColW = colWidths.reduce((a, b) => a + b, 0) + totalGap
   let x = (W - totalColW) / 2
@@ -603,8 +696,9 @@ function drawSideBySide(
   W: number, H: number, pad: number,
   sensors: Required<SensorPreset>[],
   alphaMap?: Map<string, number>,
-) {
-  const useRows = sensors.length > 5
+): number {
+  const isMobile = W < 600
+  const useRows = isMobile || sensors.length > 5
   const gap = 16
 
   if (!useRows) {
@@ -643,17 +737,19 @@ function drawSideBySide(
 
     drawSideBySideRow(ctx, W, pad, sensors, scale, baseY, alphaMap)
   } else {
-    // Two rows: split sensors in half
-    const mid = Math.ceil(sensors.length / 2)
-    const row1 = sensors.slice(0, mid)
-    const row2 = sensors.slice(mid)
+    // Multiple rows: on mobile use 2 per row, otherwise split in half
+    const perRow = isMobile ? 2 : Math.ceil(sensors.length / 2)
+    const rows: Required<SensorPreset>[][] = []
+    for (let i = 0; i < sensors.length; i += perRow) {
+      rows.push(sensors.slice(i, i + perRow))
+    }
 
     const rowGap = 20
     const maxModels = Math.max(...sensors.map(s => (POPULAR_MODELS[s.id] ?? []).length), 0)
     const labelSpace = 36 + maxModels * 12
     const maxH = Math.max(...sensors.map(s => s.h))
 
-    // Compute scale that fits both rows
+    // Compute scale that fits all rows
     ctx.font = '10px system-ui, sans-serif'
     const minTextWidths = sensors.map(s => {
       const nameLabel = s.name.length > 14 ? s.name.replace(' (', '\n(') : s.name
@@ -665,35 +761,53 @@ function drawSideBySide(
       return Math.max(nameW, modelW) + 8
     })
 
-    const availH = (H - pad * 2 - rowGap - labelSpace * 2) / 2
-    const maxRowLen = Math.max(row1.length, row2.length)
+    const availH = (H - pad * 2 - (rows.length - 1) * rowGap - labelSpace * rows.length) / rows.length
+    const maxRowLen = Math.max(...rows.map(r => r.length))
     const totalGap = (maxRowLen - 1) * gap
     const availW = W - pad * 2 - totalGap
 
     // Scale must fit the widest row and the available height
-    let lo = 0, hi = availH / maxH
+    let lo = 0, hi = Math.max(availH / maxH, 1)
     for (let iter = 0; iter < 30; iter++) {
       const midScale = (lo + hi) / 2
-      const row1Needed = row1.reduce((sum, s, i) => sum + Math.max(s.w * midScale, minTextWidths[i]), 0)
-      const row2Needed = row2.reduce((sum, s, i) => sum + Math.max(s.w * midScale, minTextWidths[mid + i]), 0)
-      if (Math.max(row1Needed, row2Needed) <= availW) lo = midScale
+      let fits = true
+      let sIdx = 0
+      for (const row of rows) {
+        const rowNeeded = row.reduce((sum, s) => {
+          const tw = minTextWidths[sensors.indexOf(s)]
+          return sum + Math.max(s.w * midScale, tw)
+        }, 0)
+        if (rowNeeded > availW) { fits = false; break }
+        sIdx += row.length
+      }
+      if (fits && maxH * midScale <= availH) lo = midScale
       else hi = midScale
     }
     const scale = lo
 
-    const tallestH = maxH * scale
-    const rowHeight = tallestH + labelSpace
-    const totalHeight = rowHeight * 2 + rowGap
-    const startY = (H - totalHeight) / 2
+    // Compute per-row heights based on each row's tallest sensor
+    const rowHeights = rows.map(row => {
+      const rowMaxH = Math.max(...row.map(s => s.h)) * scale
+      const rowMaxModels = Math.max(...row.map(s => (POPULAR_MODELS[s.id] ?? []).length), 0)
+      const rowLabelSpace = 36 + rowMaxModels * 12
+      return { sensorH: rowMaxH, labelSpace: rowLabelSpace, total: rowMaxH + rowLabelSpace }
+    })
+    const totalHeight = rowHeights.reduce((sum, r) => sum + r.total, 0) + (rows.length - 1) * rowGap
+    const startY = isMobile ? pad : (H - totalHeight) / 2
 
-    const baseY1 = startY + tallestH
-    const baseY2 = startY + rowHeight + rowGap + tallestH
+    let curY = startY
+    for (let ri = 0; ri < rows.length; ri++) {
+      const baseY = curY + rowHeights[ri].sensorH
+      drawSideBySideRow(ctx, W, pad, rows[ri], scale, baseY, alphaMap)
+      curY += rowHeights[ri].total + rowGap
+    }
 
-    drawSideBySideRow(ctx, W, pad, row1, scale, baseY1, alphaMap)
-    drawSideBySideRow(ctx, W, pad, row2, scale, baseY2, alphaMap)
+    ctx.textBaseline = 'alphabetic'
+    return startY + totalHeight + pad
   }
 
   ctx.textBaseline = 'alphabetic'
+  return H
 }
 
 function drawPixelDensity(
@@ -702,7 +816,7 @@ function drawPixelDensity(
   sensors: Required<SensorPreset>[],
   resolution: number,
   alphaMap?: Map<string, number>,
-) {
+): number {
   // We want to combine 'mf_645' and 'mf' into a single visual column
   // To do this, we map sensors to visual columns
   type ColumnGroup = { title: string, color: string, items: { sensor: Required<SensorPreset>, entries: MpEntry[] }[] }
@@ -726,151 +840,279 @@ function drawPixelDensity(
     }
   }
 
-  const colGap = 24
+  const isMobile = W < 600
+  const colGap = isMobile ? 12 : 24
   const rowGap = 12
   const labelH = 46
 
   // Find maximum sensor dimension for scaling across all displayed sensors
   const maxSensorW = Math.max(...sensors.map((s) => s.w))
 
-  // Compute how much horizontal space we need
-  const availW = W - pad * 2
-  const availH = H - pad * 2
-  const colW = Math.min(
-    (availW - (columns.length - 1) * colGap) / columns.length,
-    200,
-  )
+  if (isMobile) {
+    // ── Mobile: flatten all entries into a 2-column grid, grouped by sensor type ──
+    type FlatEntry = { sensor: Required<SensorPreset>, mp: number, models: string, title?: string }
+    const flatEntries: FlatEntry[] = []
 
-  // Scale: map sensor mm to pixels so the largest sensor fills colW
-  const sensorScale = (colW - 8) / maxSensorW
-
-  const totalW = columns.length * colW + (columns.length - 1) * colGap
-  let colX = (W - totalW) / 2
-
-  for (const col of columns) {
-    // Column alpha: max of all sensors in the group
-    const colAlpha = alphaMap
-      ? Math.max(...col.items.map(item => alphaMap.get(item.sensor.id) ?? 1))
-      : 1
-
-    // Center the column header
-    ctx.save()
-    ctx.globalAlpha = colAlpha
-    ctx.fillStyle = col.color
-    ctx.font = 'bold 11px system-ui, sans-serif'
-    ctx.textAlign = 'center'
-    ctx.textBaseline = 'top'
-    ctx.fillText(col.title, colX + colW / 2, pad)
-    ctx.restore()
-
-    // Draw each MP variant vertically
-    let gridY = pad + 20
-
-    for (const item of col.items) {
-      const s = item.sensor
-      const a = alphaMap?.get(s.id) ?? 1
-      const sensorPxW = s.w * sensorScale
-      const sensorPxH = s.h * sensorScale
-
-      for (const entry of item.entries) {
-        const { mp, models } = entry
-        const pitch = pixelPitch(s.w, mp, s.h)
-
-        // Draw sensor-sized rectangle with pixel grid inside
-        const rx = colX + (colW - sensorPxW) / 2
-        const ry = gridY
-
-        if (ry + sensorPxH + labelH > availH + pad) break // out of vertical space
-
-        ctx.save()
-        ctx.globalAlpha = a
-
-        // Pixel grid: cell size proportional to pixel pitch
-        const cellSize = Math.max(pitch * sensorScale * 0.25, 1.5)
-        const cols = Math.max(1, Math.floor(sensorPxW / cellSize))
-        const rows = Math.max(1, Math.floor(sensorPxH / cellSize))
-        const actualGridW = cols * cellSize
-        const actualGridH = rows * cellSize
-        const gridOffX = rx + (sensorPxW - actualGridW) / 2
-        const gridOffY = ry + (sensorPxH - actualGridH) / 2
-
-        // Background fill for sensor area
-        roundRect(ctx, rx, ry, sensorPxW, sensorPxH, 3)
-        ctx.fillStyle = rgba(s.color, 0.06)
-        ctx.fill()
-
-        // Draw pixel grid (limit total cells to avoid performance issues)
-        const maxCells = 2000
-        if (cols * rows <= maxCells) {
-          for (let r = 0; r < rows; r++) {
-            for (let c = 0; c < cols; c++) {
-              const cx = gridOffX + c * cellSize
-              const cy = gridOffY + r * cellSize
-              ctx.fillStyle = rgba(s.color, 0.12)
-              ctx.fillRect(cx, cy, cellSize, cellSize)
-              ctx.strokeStyle = rgba(s.color, 0.25)
-              ctx.lineWidth = 0.3
-              ctx.strokeRect(cx, cy, cellSize, cellSize)
-            }
-          }
-        } else {
-          // Too many cells — just fill with a solid grid pattern hint
-          ctx.fillStyle = rgba(s.color, 0.12)
-          ctx.fillRect(gridOffX, gridOffY, actualGridW, actualGridH)
-
-          // Draw a few representative grid lines
-          ctx.strokeStyle = rgba(s.color, 0.2)
-          ctx.lineWidth = 0.5
-          const step = Math.max(actualGridW / 20, 3)
-          for (let lx = gridOffX; lx <= gridOffX + actualGridW; lx += step) {
-            ctx.beginPath()
-            ctx.moveTo(lx, gridOffY)
-            ctx.lineTo(lx, gridOffY + actualGridH)
-            ctx.stroke()
-          }
-          for (let ly = gridOffY; ly <= gridOffY + actualGridH; ly += step) {
-            ctx.beginPath()
-            ctx.moveTo(gridOffX, ly)
-            ctx.lineTo(gridOffX + actualGridW, ly)
-            ctx.stroke()
-          }
+    for (const col of columns) {
+      let first = true
+      for (const item of col.items) {
+        for (const entry of item.entries) {
+          flatEntries.push({
+            sensor: item.sensor,
+            mp: entry.mp,
+            models: entry.models,
+            title: first ? col.title : undefined,
+          })
+          first = false
         }
-
-        // Sensor border
-        roundRect(ctx, rx, ry, sensorPxW, sensorPxH, 3)
-        ctx.strokeStyle = rgba(s.color, 0.6)
-        ctx.lineWidth = 1.5
-        ctx.stroke()
-
-        // MP label below
-        ctx.fillStyle = s.color
-        ctx.font = '10px system-ui, sans-serif'
-        ctx.textAlign = 'center'
-        ctx.textBaseline = 'top'
-        ctx.fillText(`${mp} MP · ${pitch.toFixed(2)} µm`, colX + colW / 2, ry + sensorPxH + 4)
-
-        // Model names
-        let modelLines = 0
-        if (models) {
-          const parts = models.split(' / ')
-          ctx.fillStyle = rgba(s.color, 0.5)
-          ctx.font = '9px system-ui, sans-serif'
-          for (let mi = 0; mi < parts.length; mi++) {
-            ctx.fillText(parts[mi].trim(), colX + colW / 2, ry + sensorPxH + 18 + mi * 12)
-          }
-          modelLines = parts.length
-        }
-
-        ctx.restore()
-
-        const entryLabelH = 20 + Math.max(1, modelLines) * 12
-        gridY += sensorPxH + entryLabelH + rowGap
       }
     }
 
-    colX += colW + colGap
+    const numCols = 2
+    const availW = W - pad * 2
+    const colW = (availW - colGap) / numCols
+    const sensorScale = (colW - 8) / maxSensorW
+    const totalRowW = numCols * colW + colGap
+    const startX = (W - totalRowW) / 2
+
+    // Group flat entries by category for aligned row layout
+    type CategoryGroup = { title: string, color: string, entries: FlatEntry[] }
+    const catGroups: CategoryGroup[] = []
+    for (const fe of flatEntries) {
+      if (fe.title) {
+        catGroups.push({ title: fe.title, color: fe.sensor.color, entries: [fe] })
+      } else {
+        catGroups[catGroups.length - 1].entries.push(fe)
+      }
+    }
+
+    let curY = pad
+
+    for (const group of catGroups) {
+      // Draw category title spanning full width
+      if (curY > pad + 5) curY += 12
+      const titleAlpha = alphaMap
+        ? Math.max(...group.entries.map(e => alphaMap.get(e.sensor.id) ?? 1))
+        : 1
+      ctx.save()
+      ctx.globalAlpha = titleAlpha
+      ctx.fillStyle = group.color
+      ctx.font = 'bold 11px system-ui, sans-serif'
+      ctx.textAlign = 'center'
+      ctx.textBaseline = 'top'
+      ctx.fillText(group.title, W / 2, curY)
+      ctx.restore()
+      curY += 20
+
+      // Draw entries in pairs (2 per row), aligned horizontally
+      for (let ei = 0; ei < group.entries.length; ei += numCols) {
+        const rowEntries = group.entries.slice(ei, ei + numCols)
+        let rowH = 0
+
+        for (let ci = 0; ci < rowEntries.length; ci++) {
+          const fe = rowEntries[ci]
+          const s = fe.sensor
+          const a = alphaMap?.get(s.id) ?? 1
+          const colX = startX + ci * (colW + colGap)
+
+          const sensorPxW = s.w * sensorScale
+          const sensorPxH = s.h * sensorScale
+          const pitch = pixelPitch(s.w, fe.mp, s.h)
+
+          const rx = colX + (colW - sensorPxW) / 2
+          const ry = curY
+
+          ctx.save()
+          ctx.globalAlpha = a
+
+          const cellSize = Math.max(pitch * sensorScale * 0.25, 1.5)
+          const gridCols = Math.max(1, Math.floor(sensorPxW / cellSize))
+          const gridRows = Math.max(1, Math.floor(sensorPxH / cellSize))
+          const actualGridW = gridCols * cellSize
+          const actualGridH = gridRows * cellSize
+          const gridOffX = rx + (sensorPxW - actualGridW) / 2
+          const gridOffY = ry + (sensorPxH - actualGridH) / 2
+
+          roundRect(ctx, rx, ry, sensorPxW, sensorPxH, 3)
+          ctx.fillStyle = rgba(s.color, 0.06)
+          ctx.fill()
+
+          const maxCells = 2000
+          if (gridCols * gridRows <= maxCells) {
+            for (let r = 0; r < gridRows; r++) {
+              for (let c = 0; c < gridCols; c++) {
+                const cx = gridOffX + c * cellSize
+                const cy = gridOffY + r * cellSize
+                ctx.fillStyle = rgba(s.color, 0.12)
+                ctx.fillRect(cx, cy, cellSize, cellSize)
+                ctx.strokeStyle = rgba(s.color, 0.25)
+                ctx.lineWidth = 0.3
+                ctx.strokeRect(cx, cy, cellSize, cellSize)
+              }
+            }
+          } else {
+            ctx.fillStyle = rgba(s.color, 0.12)
+            ctx.fillRect(gridOffX, gridOffY, actualGridW, actualGridH)
+            ctx.strokeStyle = rgba(s.color, 0.2)
+            ctx.lineWidth = 0.5
+            const step = Math.max(actualGridW / 20, 3)
+            for (let lx = gridOffX; lx <= gridOffX + actualGridW; lx += step) {
+              ctx.beginPath(); ctx.moveTo(lx, gridOffY); ctx.lineTo(lx, gridOffY + actualGridH); ctx.stroke()
+            }
+            for (let ly = gridOffY; ly <= gridOffY + actualGridH; ly += step) {
+              ctx.beginPath(); ctx.moveTo(gridOffX, ly); ctx.lineTo(gridOffX + actualGridW, ly); ctx.stroke()
+            }
+          }
+
+          roundRect(ctx, rx, ry, sensorPxW, sensorPxH, 3)
+          ctx.strokeStyle = rgba(s.color, 0.6)
+          ctx.lineWidth = 1.5
+          ctx.stroke()
+
+          ctx.fillStyle = s.color
+          ctx.font = '10px system-ui, sans-serif'
+          ctx.textAlign = 'center'
+          ctx.textBaseline = 'top'
+          ctx.fillText(`${fe.mp} MP · ${pitch.toFixed(2)} µm`, colX + colW / 2, ry + sensorPxH + 4)
+
+          let modelLines = 0
+          if (fe.models) {
+            const parts = fe.models.split(' / ')
+            ctx.fillStyle = rgba(s.color, 0.5)
+            ctx.font = '9px system-ui, sans-serif'
+            for (let mi = 0; mi < parts.length; mi++) {
+              ctx.fillText(parts[mi].trim(), colX + colW / 2, ry + sensorPxH + 18 + mi * 12)
+            }
+            modelLines = parts.length
+          }
+
+          ctx.restore()
+
+          const entryH = sensorPxH + 20 + Math.max(1, modelLines) * 12
+          if (entryH > rowH) rowH = entryH
+        }
+
+        curY += rowH + rowGap
+      }
+    }
+    return curY
+  } else {
+    // ── Desktop: one column per sensor type ──
+    const colsPerRow = columns.length
+    const availW = W - pad * 2
+    const colW = Math.min(
+      (availW - (colsPerRow - 1) * colGap) / colsPerRow,
+      200,
+    )
+    const sensorScale = (colW - 8) / maxSensorW
+    const totalRowW = colsPerRow * colW + (colsPerRow - 1) * colGap
+    let colX = (W - totalRowW) / 2
+
+    for (const col of columns) {
+      const colAlpha = alphaMap
+        ? Math.max(...col.items.map(item => alphaMap.get(item.sensor.id) ?? 1))
+        : 1
+
+      ctx.save()
+      ctx.globalAlpha = colAlpha
+      ctx.fillStyle = col.color
+      ctx.font = 'bold 11px system-ui, sans-serif'
+      ctx.textAlign = 'center'
+      ctx.textBaseline = 'top'
+      ctx.fillText(col.title, colX + colW / 2, pad)
+      ctx.restore()
+
+      let gridY = pad + 20
+
+      for (const item of col.items) {
+        const s = item.sensor
+        const a = alphaMap?.get(s.id) ?? 1
+        const sensorPxW = s.w * sensorScale
+        const sensorPxH = s.h * sensorScale
+
+        for (const entry of item.entries) {
+          const { mp, models } = entry
+          const pitch = pixelPitch(s.w, mp, s.h)
+          const rx = colX + (colW - sensorPxW) / 2
+          const ry = gridY
+
+          if (ry + sensorPxH + labelH > H - pad) break
+
+          ctx.save()
+          ctx.globalAlpha = a
+
+          const cellSize = Math.max(pitch * sensorScale * 0.25, 1.5)
+          const gridColCount = Math.max(1, Math.floor(sensorPxW / cellSize))
+          const gridRowCount = Math.max(1, Math.floor(sensorPxH / cellSize))
+          const actualGridW = gridColCount * cellSize
+          const actualGridH = gridRowCount * cellSize
+          const gridOffX = rx + (sensorPxW - actualGridW) / 2
+          const gridOffY = ry + (sensorPxH - actualGridH) / 2
+
+          roundRect(ctx, rx, ry, sensorPxW, sensorPxH, 3)
+          ctx.fillStyle = rgba(s.color, 0.06)
+          ctx.fill()
+
+          const maxCells = 2000
+          if (gridColCount * gridRowCount <= maxCells) {
+            for (let r = 0; r < gridRowCount; r++) {
+              for (let c = 0; c < gridColCount; c++) {
+                const cx = gridOffX + c * cellSize
+                const cy = gridOffY + r * cellSize
+                ctx.fillStyle = rgba(s.color, 0.12)
+                ctx.fillRect(cx, cy, cellSize, cellSize)
+                ctx.strokeStyle = rgba(s.color, 0.25)
+                ctx.lineWidth = 0.3
+                ctx.strokeRect(cx, cy, cellSize, cellSize)
+              }
+            }
+          } else {
+            ctx.fillStyle = rgba(s.color, 0.12)
+            ctx.fillRect(gridOffX, gridOffY, actualGridW, actualGridH)
+            ctx.strokeStyle = rgba(s.color, 0.2)
+            ctx.lineWidth = 0.5
+            const step = Math.max(actualGridW / 20, 3)
+            for (let lx = gridOffX; lx <= gridOffX + actualGridW; lx += step) {
+              ctx.beginPath(); ctx.moveTo(lx, gridOffY); ctx.lineTo(lx, gridOffY + actualGridH); ctx.stroke()
+            }
+            for (let ly = gridOffY; ly <= gridOffY + actualGridH; ly += step) {
+              ctx.beginPath(); ctx.moveTo(gridOffX, ly); ctx.lineTo(gridOffX + actualGridW, ly); ctx.stroke()
+            }
+          }
+
+          roundRect(ctx, rx, ry, sensorPxW, sensorPxH, 3)
+          ctx.strokeStyle = rgba(s.color, 0.6)
+          ctx.lineWidth = 1.5
+          ctx.stroke()
+
+          ctx.fillStyle = s.color
+          ctx.font = '10px system-ui, sans-serif'
+          ctx.textAlign = 'center'
+          ctx.textBaseline = 'top'
+          ctx.fillText(`${mp} MP · ${pitch.toFixed(2)} µm`, colX + colW / 2, ry + sensorPxH + 4)
+
+          let modelLines = 0
+          if (models) {
+            const parts = models.split(' / ')
+            ctx.fillStyle = rgba(s.color, 0.5)
+            ctx.font = '9px system-ui, sans-serif'
+            for (let mi = 0; mi < parts.length; mi++) {
+              ctx.fillText(parts[mi].trim(), colX + colW / 2, ry + sensorPxH + 18 + mi * 12)
+            }
+            modelLines = parts.length
+          }
+
+          ctx.restore()
+          const entryLabelH = 20 + Math.max(1, modelLines) * 12
+          gridY += sensorPxH + entryLabelH + rowGap
+        }
+      }
+
+      colX += colW + colGap
+    }
   }
 
   ctx.textBaseline = 'alphabetic'
+  return H
 }
 

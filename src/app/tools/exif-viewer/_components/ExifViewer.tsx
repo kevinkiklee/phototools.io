@@ -579,6 +579,10 @@ export function ExifViewer() {
         </div>
 
         <div className={styles.main}>
+          <div className={styles.mobileControls}>
+            <ControlsPanel onFile={handleFile} onSample={() => loadFromUrl(SAMPLE_PHOTO)} />
+          </div>
+
           {error && <div className={styles.error}>{error}</div>}
 
           {imageUrl && (
@@ -626,7 +630,7 @@ export function ExifViewer() {
                 {data.gps && (
                   <div className={styles.section}>
                     <div className={styles.sectionTitle}>GPS</div>
-                    <div className={styles.gpsWarning}>
+                    <div className={styles.gpsWarning} role="alert">
                       This photo contains location data. Be careful when sharing the original file.
                     </div>
                     <table className={styles.table}>
@@ -643,11 +647,13 @@ export function ExifViewer() {
           ) : null}
         </div>
 
-        <LearnPanel slug="exif-viewer" />
+        <div className={styles.desktopOnly}>
+          <LearnPanel slug="exif-viewer" />
+        </div>
       </div>
 
-      <div className={styles.mobileControls}>
-        <ControlsPanel onFile={handleFile} onSample={() => loadFromUrl(SAMPLE_PHOTO)} />
+      <div className={styles.mobileOnly}>
+        <LearnPanel slug="exif-viewer" />
       </div>
       <canvas ref={exportCanvasRef} style={{ display: 'none' }} />
     </div>

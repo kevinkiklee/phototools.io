@@ -55,6 +55,9 @@
   display: none;
 }
 
+.desktopOnly {}
+.mobileOnly { display: none; }
+
 /* Shutter speed value */
 .shutterValue {
   font-family: var(--font-mono);
@@ -148,6 +151,13 @@
     flex-direction: column;
     gap: 16px;
     padding: 16px;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
   }
   .resultBig {
     font-size: 28px;

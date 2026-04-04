@@ -270,7 +270,8 @@ export function PhotoPicker({ onColorPick, onClose, initialFile }: PhotoPickerPr
           >
             <span className={styles.dropIcon}>📷</span>
             <span className={styles.dropPrompt}>Drop a photo here or click to browse</span>
-            <span className={styles.dropSub}>Click anywhere on the photo to sample that color</span>
+            <span className={styles.dropPromptMobile}>Tap to choose a photo</span>
+            <span className={styles.dropSub}>Tap anywhere on the photo to sample that color</span>
           </div>
         )}
 

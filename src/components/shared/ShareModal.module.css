@@ -2,13 +2,15 @@
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 100;
+  animation: overlayFadeIn 150ms ease-out;
 }
 
 .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -17,6 +19,8 @@
   width: 90%;
   max-height: 80vh;
   overflow-y: auto;
+  z-index: 101;
+  animation: contentFadeIn 150ms ease-out;
 }
 
 .header {
@@ -26,7 +30,7 @@
   margin-bottom: 16px;
 }
 
-.header h3 {
+.title {
   margin: 0;
   font-size: 16px;
   color: var(--text-primary);
@@ -38,7 +42,19 @@
   font-size: 20px;
   color: var(--text-muted);
   cursor: pointer;
-  padding: 0 4px;
+  padding: 8px;
+  min-width: 36px;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  transition: color var(--duration-fast) var(--ease-out), background var(--duration-fast) var(--ease-out);
+}
+
+.closeBtn:hover {
+  color: var(--text-primary);
+  background: var(--bg-surface);
 }
 
 .section {
@@ -81,4 +97,14 @@
 
 .row button:hover {
   background: var(--accent-hover);
+}
+
+@keyframes overlayFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes contentFadeIn {
+  from { opacity: 0; transform: translate(-50%, -48%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
 }

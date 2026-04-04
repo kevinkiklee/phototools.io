@@ -47,6 +47,9 @@
   display: none;
 }
 
+.desktopOnly {}
+.mobileOnly { display: none; }
+
 /* Sample photo button */
 .sampleBtn {
   background: none;
@@ -247,7 +250,7 @@
     display: none;
   }
   .main {
-    padding: 8px;
+    padding: 0;
   }
   .mobileControls {
     display: flex;
@@ -255,8 +258,21 @@
     gap: 16px;
     padding: 16px;
   }
+
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
+  }
+  .imagePreview {
+    border-radius: 0;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
   .sectionsGrid {
     grid-template-columns: 1fr;
+    padding: 0 8px;
   }
   .histogramRow {
     grid-template-columns: 1fr 1fr;

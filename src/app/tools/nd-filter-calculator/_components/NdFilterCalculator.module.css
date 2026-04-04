@@ -46,6 +46,9 @@
 .mobileControls {
   display: none;
 }
+
+.desktopOnly {}
+.mobileOnly { display: none; }
 .tableTitle {
   font-size: 12px;
   font-weight: 600;
@@ -72,5 +75,12 @@
     flex-direction: column;
     gap: 16px;
     padding: 16px;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
   }
 }

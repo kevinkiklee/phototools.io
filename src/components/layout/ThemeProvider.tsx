@@ -1,8 +1,10 @@
 'use client'
 
 import { useState, useEffect, createContext, useContext, type ReactNode } from 'react'
+import { Toaster } from 'sonner'
 import { Nav } from './Nav'
 import { Footer } from './Footer'
+import styles from './ThemeProvider.module.css'
 
 interface ThemeContextValue {
   theme: 'dark' | 'light'
@@ -28,8 +30,9 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   return (
     <ThemeContext value={{ theme, setTheme }}>
       <Nav theme={theme} onThemeChange={setTheme} />
-      <main style={{ flex: 1, minHeight: 0, overflow: 'auto', width: '80%', maxWidth: 1400, margin: '0 auto', borderLeft: '1px solid var(--border)', borderRight: '1px solid var(--border)' }}>{children}</main>
+      <main className={styles.main}>{children}</main>
       <Footer />
+      <Toaster theme={theme} position="bottom-center" />
     </ThemeContext>
   )
 }

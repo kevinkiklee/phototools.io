@@ -50,6 +50,9 @@
   display: none;
 }
 
+.desktopOnly {}
+.mobileOnly { display: none; }
+
 /* ── Top row: photo + EXIF side-by-side ── */
 .topRow {
   display: flex;
@@ -201,6 +204,13 @@
     flex-direction: column;
     gap: 16px;
     padding: 16px;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
   }
   .topRow {
     flex-direction: column;

@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useCallback, type RefObject } from 'react'
+import { toast } from 'sonner'
 import { ShareModal } from './ShareModal'
-import { Toast } from './Toast'
 import { copyLinkToClipboard, copyCanvasToClipboard } from '@/lib/utils/export'
 import styles from './ToolActions.module.css'
 
@@ -13,22 +13,22 @@ interface ToolActionsProps {
   canvasRef?: RefObject<HTMLCanvasElement | null>
   imageFilename?: string
   onBeforeCopyImage?: () => void
+  hideTitle?: boolean
 }
 
-export function ToolActions({ toolName, toolSlug, onReset, canvasRef, imageFilename, onBeforeCopyImage }: ToolActionsProps) {
+export function ToolActions({ toolName, toolSlug, onReset, canvasRef, imageFilename, onBeforeCopyImage, hideTitle }: ToolActionsProps) {
   const [showShare, setShowShare] = useState(false)
-  const [toast, setToast] = useState<string | null>(null)
 
   const handleCopyLink = useCallback(async () => {
     const ok = await copyLinkToClipboard()
-    setToast(ok ? 'Link copied!' : 'Failed to copy')
+    toast(ok ? 'Link copied!' : 'Failed to copy')
   }, [])
 
   const handleCopyImage = useCallback(async () => {
     onBeforeCopyImage?.()
     if (!canvasRef?.current) return
     const ok = await copyCanvasToClipboard(canvasRef.current, imageFilename)
-    setToast(ok ? 'Copied image!' : 'Failed to copy')
+    toast(ok ? 'Copied image!' : 'Failed to copy')
   }, [canvasRef, imageFilename, onBeforeCopyImage])
 
   const handleShare = useCallback(async () => {
@@ -48,7 +48,7 @@ export function ToolActions({ toolName, toolSlug, onReset, canvasRef, imageFilen
 
   return (
     <>
-      <h2 className={styles.title}>{toolName}</h2>
+      {!hideTitle && <h2 className={styles.title}>{toolName}</h2>}
       <div className={styles.actions}>
         {canvasRef && (
           <button className={styles.btn} data-tooltip="Copy image" onClick={handleCopyImage} aria-label="Copy image">
@@ -93,11 +93,8 @@ export function ToolActions({ toolName, toolSlug, onReset, canvasRef, imageFilen
           toolName={toolName}
           toolSlug={toolSlug}
           onClose={() => setShowShare(false)}
-          onToast={setToast}
         />
       )}
-
-      <Toast message={toast} onDone={() => setToast(null)} />
     </>
   )
 }

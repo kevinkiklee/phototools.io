@@ -286,12 +286,18 @@ export function ExposureSimulator() {
           shutterSpeed={shutter}
           iso={iso}
         />
-        <LearnPanel slug="exposure-simulator" />
+        <div className={sim.desktopOnly}>
+          <LearnPanel slug="exposure-simulator" />
+        </div>
       </div>
 
       {/* Mobile: controls below canvas */}
       <div className={sim.mobileControls}>
         <ControlsPanel {...controlsProps} />
+      </div>
+
+      <div className={sim.mobileOnly}>
+        <LearnPanel slug="exposure-simulator" />
       </div>
     </div>
   )

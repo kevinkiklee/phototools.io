@@ -147,11 +147,17 @@ export function WhiteBalance() {
 
         <WbPreview rgb={rgb} kelvin={kelvin} customSrc={customSrc} onFile={handleFile} onRemoveCustom={handleRemoveCustom} canvasRef={canvasRef} sceneIdx={sceneIdx} onSceneChange={(idx) => { if (idx >= 0) setSceneId(WB_SCENES[idx].id) }} />
 
-        <LearnPanel slug="white-balance-visualizer" />
+        <div className={wb.desktopOnly}>
+          <LearnPanel slug="white-balance-visualizer" />
+        </div>
       </div>
 
       <div className={wb.mobileControls}>
         <ControlsPanel {...controlsProps} />
+      </div>
+
+      <div className={wb.mobileOnly}>
+        <LearnPanel slug="white-balance-visualizer" />
       </div>
     </div>
   )

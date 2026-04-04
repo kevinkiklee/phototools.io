@@ -58,6 +58,9 @@
   display: none;
 }
 
+.desktopOnly {}
+.mobileOnly { display: none; }
+
 /* ── Sensor checkboxes ── */
 .checkboxes {
   display: flex;
@@ -282,11 +285,22 @@
     padding: 8px;
   }
 
+  .canvas {
+    min-height: 500px;
+  }
+
   .mobileControls {
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 16px;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
   }
 
   .modeBtn {

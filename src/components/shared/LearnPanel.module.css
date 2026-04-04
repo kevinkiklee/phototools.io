@@ -316,17 +316,14 @@
   .panel {
     width: 100%;
     min-width: 0;
+    height: auto;
     border-left: none;
     border-top: 1px solid var(--border);
+    order: 999;
   }
 
   .collapsed {
-    width: 100%;
-    min-width: 0;
-    border-left: none;
-    border-top: 1px solid var(--border);
-    padding: 8px;
-    align-items: center;
+    display: none;
   }
 
   .reopenBtn {

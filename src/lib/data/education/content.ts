@@ -844,8 +844,20 @@ export const TOOL_EDUCATION: ToolEducation[] = [
     slug: 'white-balance-visualizer',
     beginner:
       'White balance adjusts the colors in your photo so that white objects actually appear white under any lighting. Different light sources have different color temperatures — a candle is warm and orange, while shade is cool and blue. Your camera\'s white balance setting compensates for these differences so colors look natural.',
-    deeper:
-      'Color temperature is measured in Kelvin (K) and corresponds to the color of light emitted by an ideal "black body" heated to that temperature. Lower values (2000-3500K) produce warm, reddish-orange light (incandescent bulbs, candles), while higher values (6500-10000K) produce cool, bluish light (shade, overcast sky). The camera\'s white balance system applies the inverse color shift to neutralize the ambient color cast. When you set white balance to "Tungsten" (~3200K), the camera adds blue to counteract the orange cast from incandescent lights. In digital photography, white balance is applied as a multiplier to the red and blue channels relative to green. Shooting in RAW format preserves all color data and allows you to change white balance freely in post-processing with zero quality loss — it is simply a metadata tag applied during conversion.',
+    deeper: [
+      {
+        heading: 'Color temperature',
+        text: 'Color temperature is measured in Kelvin (K) and corresponds to the color of light emitted by an ideal "black body" heated to that temperature. Lower values (2000–3500K) produce warm, reddish-orange light (incandescent bulbs, candles), while higher values (6500–10000K) produce cool, bluish light (shade, overcast sky).',
+      },
+      {
+        heading: 'How white balance works',
+        text: 'The camera\'s white balance system applies the inverse color shift to neutralize the ambient color cast. When you set white balance to "Tungsten" (~3200K), the camera adds blue to counteract the orange cast from incandescent lights. In digital photography, white balance is applied as a multiplier to the red and blue channels relative to green.',
+      },
+      {
+        heading: 'RAW advantage',
+        text: 'Shooting in RAW format preserves all color data and allows you to change white balance freely in post-processing with zero quality loss — it is simply a metadata tag applied during conversion.',
+      },
+    ],
     keyFactors: [
       {
         label: 'Color Temperature (Kelvin)',

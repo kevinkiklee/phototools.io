@@ -101,7 +101,9 @@ Content is defined as structured data in `src/lib/data/education/content.ts` and
 - **`'use client'`** directive on interactive components; server components by default
 - **TDD for math**: all `lib/math/` modules have thorough unit tests
 - **Named exports** for all components
-- **No external UI libraries** — custom CSS only
+- **Shared components first**: Before building tool-specific UI, check `src/components/shared/` for existing components. When two or more tools need similar UI (e.g. file upload, scene selector, share modal), extract a shared component. Familiarize yourself with what each shared component does so you reuse them consistently.
+- **DRY**: Avoid duplicating logic, styles, constants, or markup. Extract shared utilities, components, and data modules. When adding a feature, check if similar patterns already exist in the codebase and reuse them.
+- **200-line file limit**: Keep all `.ts`/`.tsx` files under 200 lines. If a file grows beyond this, break it into smaller focused modules (e.g. extract hooks, sub-components, helpers, constants, or types into separate files).
 - **Test files** co-located next to source files (`*.test.ts`)
 - **18 test files, 212 tests** covering math, data, education, and integration
 

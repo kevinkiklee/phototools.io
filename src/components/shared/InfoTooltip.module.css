@@ -1,19 +1,24 @@
-.wrapper {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-}
-
 .trigger {
   background: none;
   border: none;
   color: var(--accent);
   cursor: pointer;
-  padding: 0 2px;
+  padding: 4px;
   font-size: 13px;
   line-height: 1;
   display: inline-flex;
   align-items: center;
+  min-width: 28px;
+  min-height: 28px;
+  justify-content: center;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+@media (max-width: 1023px) {
+  .trigger {
+    min-width: 44px;
+    min-height: 44px;
+  }
 }
 
 .trigger:hover {
@@ -21,10 +26,6 @@
 }
 
 .popover {
-  position: absolute;
-  bottom: calc(100% + 6px);
-  left: 50%;
-  transform: translateX(-50%);
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
@@ -32,7 +33,7 @@
   width: 220px;
   box-shadow: var(--shadow-md);
   z-index: 50;
-  pointer-events: none;
+  animation: fadeIn 150ms ease-out;
 }
 
 .term {
@@ -46,4 +47,13 @@
   font-size: 11px;
   color: var(--text-secondary);
   line-height: 1.4;
+}
+
+.arrow {
+  fill: var(--bg-secondary);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
 }

@@ -70,21 +70,33 @@
 
 .removeBtn {
   position: absolute;
-  top: -4px;
-  right: -4px;
-  width: 14px;
-  height: 14px;
+  top: -6px;
+  right: -6px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background: var(--bg-surface);
   border: 1px solid var(--border);
   color: var(--text-secondary);
   font-size: 11px;
-  line-height: 12px;
-  text-align: center;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   opacity: 0;
-  transition: opacity 0.15s;
+  transition: opacity var(--duration-fast) var(--ease-out);
   z-index: 1;
+}
+
+@media (max-width: 1023px) {
+  .removeBtn {
+    width: 28px;
+    height: 28px;
+    top: -8px;
+    right: -8px;
+    opacity: 1;
+  }
 }
 
 .customThumb:hover .removeBtn {

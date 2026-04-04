@@ -463,7 +463,9 @@ export function ColorHarmony() {
           />
         </div>
       </div>
-      <LearnPanel slug="color-scheme-generator" />
+      <div className={styles.desktopOnly}>
+        <LearnPanel slug="color-scheme-generator" />
+      </div>
 
       {showPhotoPicker && (
         <PhotoPicker
@@ -479,6 +481,9 @@ export function ColorHarmony() {
           }}
         />
       )}
+      <div className={styles.mobileOnly}>
+        <LearnPanel slug="color-scheme-generator" />
+      </div>
       <canvas ref={exportCanvasRef} style={{ display: 'none' }} />
     </div>
   )

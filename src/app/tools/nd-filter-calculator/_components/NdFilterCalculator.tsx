@@ -132,11 +132,17 @@ export function NdFilterCalculator() {
           </div>
         </div>
 
-        <LearnPanel slug="nd-filter-calculator" />
+        <div className={nd.desktopOnly}>
+          <LearnPanel slug="nd-filter-calculator" />
+        </div>
       </div>
 
       <div className={nd.mobileControls}>
         <ControlsPanel {...controlsProps} />
+      </div>
+
+      <div className={nd.mobileOnly}>
+        <LearnPanel slug="nd-filter-calculator" />
       </div>
     </div>
   )

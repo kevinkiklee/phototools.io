@@ -204,7 +204,10 @@ export function FovSimulator() {
             cleanCanvasRef={cleanCanvasRef}
           />
         </main>
-        <LearnPanel slug="fov-simulator" />
+        {/* Desktop: LearnPanel as right sidebar inside appBody */}
+        <div className={styles.desktopOnly}>
+          <LearnPanel slug="fov-simulator" />
+        </div>
       </div>
 
       {/* Mobile toolbar below canvas: logo + rotate + center + theme */}
@@ -222,6 +225,7 @@ export function FovSimulator() {
 
       {/* Mobile controls below toolbar */}
       <div className={styles.mobileControls}>
+        <ToolActions toolName="FOV Simulator" toolSlug="fov-simulator" onReset={() => dispatch({ type: 'RESET' })} canvasRef={canvasRef} imageFilename="fov-comparison.png" hideTitle />
         <div className={styles.mobileDivider} />
 
         {state.lenses.map((lens, i) => (
@@ -245,14 +249,12 @@ export function FovSimulator() {
           </button>
         )}
 
-        <ToolActions toolName="FOV Simulator" toolSlug="fov-simulator" canvasRef={canvasRef} imageFilename="fov-comparison.png" />
-        <div className={styles.actionBar}>
-          <button className={styles.actionBarBtn} onClick={() => dispatch({ type: 'RESET' })}>
-            Reset
-          </button>
-        </div>
       </div>
 
+      {/* Mobile: LearnPanel below all controls */}
+      <div className={styles.mobileOnly}>
+        <LearnPanel slug="fov-simulator" />
+      </div>
       <canvas ref={cleanCanvasRef} style={{ display: 'none' }} />
     </div>
   )

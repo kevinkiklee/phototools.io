@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback } from 'react'
+import { toast } from 'sonner'
 import type { LensConfig } from '@/lib/types'
 import { getSensor } from '@/lib/data/sensors'
 import { stateToQueryString } from './querySync'
@@ -10,7 +11,6 @@ import styles from './FovSimulator.module.css'
 interface ShareModalProps {
   state: FovSimulatorState
   onClose: () => void
-  onToast: (msg: string) => void
 }
 
 function buildLabel(lenses: LensConfig[]): string {
@@ -21,7 +21,7 @@ function buildLabel(lenses: LensConfig[]): string {
   return parts.join(' vs ') + ' FOV Comparison'
 }
 
-export function ShareModal({ state, onClose, onToast }: ShareModalProps) {
+export function ShareModal({ state, onClose }: ShareModalProps) {
   const [copied, setCopied] = useState<string | null>(null)
   const qs = stateToQueryString(state)
   const baseUrl = 'https://www.phototools.io/tools/fov-simulator'
@@ -39,10 +39,10 @@ export function ShareModal({ state, onClose, onToast }: ShareModalProps) {
   const copy = useCallback((key: string, text: string) => {
     navigator.clipboard.writeText(text).then(() => {
       setCopied(key)
-      onToast('Copied!')
+      toast('Copied!')
       setTimeout(() => setCopied(null), 2000)
     })
-  }, [onToast])
+  }, [])
 
   return (
     <div className={styles.shareModalOverlay} onClick={onClose} role="dialog" aria-label="Embed">

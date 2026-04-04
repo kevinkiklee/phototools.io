@@ -34,9 +34,9 @@
   gap: 8px;
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
-  justify-content: center;
   overflow: hidden;
   min-width: 0;
+  width: 100%;
 }
 
 .paletteBarSwatch {
@@ -285,7 +285,11 @@
   display: block;
   border-radius: 50%;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 4px 24px rgba(0, 0, 0, 0.4);
+  touch-action: none;
 }
+
+.desktopOnly {}
+.mobileOnly { display: none; }
 
 /* Mobile */
 @media (max-width: 1023px) {
@@ -303,12 +307,42 @@
     order: 3;
   }
 
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
+    order: 99;
+  }
+
   .rightSide {
     order: 1;
   }
 
   .paletteBar {
     order: 1;
+    flex-wrap: wrap;
+    padding: 8px;
+    gap: 6px;
+  }
+
+  .paletteBarSwatch {
+    flex: 1 1 0;
+    min-width: 60px;
+    height: 64px;
+    padding: 6px 4px;
+  }
+
+  .paletteBarRgb {
+    display: none;
+  }
+
+  .copyGroup {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2px;
   }
 
   .mainArea {

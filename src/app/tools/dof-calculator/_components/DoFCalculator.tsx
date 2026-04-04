@@ -255,13 +255,19 @@ export function DoFCalculator() {
             />
           </div>
         </div>
-        <LearnPanel slug="dof-calculator" />
+        <div className={s.desktopOnly}>
+          <LearnPanel slug="dof-calculator" />
+        </div>
       </div>
 
       {/* Mobile: controls below canvas */}
       <div className={s.mobileControls}>
         <SettingsPanel {...settingsProps} />
         <ResultsPanel {...resultsProps} />
+      </div>
+
+      <div className={s.mobileOnly}>
+        <LearnPanel slug="dof-calculator" />
       </div>
     </div>
   )

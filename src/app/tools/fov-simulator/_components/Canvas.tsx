@@ -358,11 +358,13 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef, cleanCanvas
 
       // 3:2 landscape or 2:3 portrait
       const aspect = orientation === 'landscape' ? 3 / 2 : 2 / 3
+      const isMobile = window.innerWidth < 1024
 
       let w = rect.width
       let h = w / aspect
 
-      if (h > rect.height) {
+      // On desktop, constrain to parent height; on mobile, fill width and let page scroll
+      if (!isMobile && h > rect.height) {
         h = rect.height
         w = h * aspect
       }

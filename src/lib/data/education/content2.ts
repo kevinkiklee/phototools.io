@@ -637,8 +637,20 @@ export const TOOL_EDUCATION_2: ToolEducation[] = [
     slug: 'fov-simulator',
     beginner:
       'Field of view (FOV) is how much of a scene your camera captures. A wide-angle lens (like 24mm) sees a broad view, while a telephoto lens (like 200mm) narrows in on a small slice. This simulator lets you compare up to four lenses on different sensors, overlaid on real-world scenes, so you can visualize exactly what each combination captures.',
-    deeper:
-      'Field of view is determined by two factors: the focal length of the lens and the size of the sensor. The horizontal FOV angle is calculated as 2 × arctan(sensorWidth / (2 × focalLength)). A shorter focal length or larger sensor produces a wider angle of view. When switching sensors, the "equivalent focal length" concept applies: a 50mm lens on an APS-C sensor (1.5x crop) frames the same as a 75mm lens on full frame, because the smaller sensor captures a narrower central portion of the image circle. However, perspective (the spatial relationship between near and far objects) depends only on camera position, not focal length — a 50mm and 200mm lens shot from the same spot show the same perspective, just different crops. This simulator helps you plan lens purchases, understand how focal length affects composition, and compare sensor formats visually.',
+    deeper: [
+      {
+        heading: 'The FOV Formula',
+        text: 'Field of view is determined by two factors: focal length and sensor size. The horizontal FOV angle is calculated as 2 × arctan(sensorWidth / (2 × focalLength)). A shorter focal length or larger sensor produces a wider angle of view.',
+      },
+      {
+        heading: 'Crop Factor & Equivalent Focal Length',
+        text: 'When switching sensors, the "equivalent focal length" concept applies: a 50mm lens on an APS-C sensor (1.5× crop) frames the same as a 75mm on full frame. The smaller sensor captures a narrower central portion of the image circle, effectively cropping in.',
+      },
+      {
+        heading: 'Perspective vs. Focal Length',
+        text: 'Perspective — the spatial relationship between near and far objects — depends only on camera position, not focal length. A 50mm and 200mm lens shot from the same spot show identical perspective, just different crops. Moving closer with a wide lens exaggerates depth; stepping back with a telephoto compresses it.',
+      },
+    ],
     keyFactors: [
       { label: 'Focal Length', description: 'The primary control over field of view. Shorter focal lengths see more of the scene; longer ones see less but magnify distant subjects.' },
       { label: 'Sensor Size', description: 'A smaller sensor crops into the center of the image circle, narrowing the field of view (the crop factor effect).' },

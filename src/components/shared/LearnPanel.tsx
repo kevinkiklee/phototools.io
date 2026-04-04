@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback, useEffect } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { getEducationBySlug, isChallengeComplete, markChallengeComplete } from '@/lib/data/education'
 import type { Challenge } from '@/lib/data/education/types'
 import styles from './LearnPanel.module.css'
@@ -16,20 +17,32 @@ export function LearnPanel({ slug }: LearnPanelProps) {
 
   if (!edu) return null
 
-  if (collapsed) {
-    return (
-      <div className={styles.collapsed}>
-        <button className={styles.reopenBtn} onClick={() => setCollapsed(false)} aria-label="Open learn panel">
-          Learn
-        </button>
-      </div>
-    )
-  }
-
   const challenge = edu.challenges[challengeIndex]
 
   return (
-    <aside className={styles.panel}>
+    <AnimatePresence mode="wait">
+      {collapsed ? (
+        <motion.div
+          key="collapsed"
+          className={styles.collapsed}
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 20 }}
+          transition={{ duration: 0.2 }}
+        >
+          <button className={styles.reopenBtn} onClick={() => setCollapsed(false)} aria-label="Open learn panel">
+            Learn
+          </button>
+        </motion.div>
+      ) : (
+    <motion.aside
+      key="expanded"
+      className={styles.panel}
+      initial={{ opacity: 0, x: 40 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 40 }}
+      transition={{ duration: 0.25, ease: 'easeOut' }}
+    >
       <header className={styles.header}>
         <h2 className={styles.headerTitle}>Learn</h2>
         <span className={styles.spacer} />
@@ -102,7 +115,9 @@ export function LearnPanel({ slug }: LearnPanelProps) {
             </div>
           </ChallengeCard>
       )}
-    </aside>
+    </motion.aside>
+      )}
+    </AnimatePresence>
   )
 }
 

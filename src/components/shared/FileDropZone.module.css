@@ -22,6 +22,15 @@
   font-size: 12px;
   color: var(--text-secondary);
 }
+.promptMobile {
+  display: none;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+@media (max-width: 1023px) {
+  .prompt { display: none; }
+  .promptMobile { display: block; }
+}
 .fileName {
   font-size: 12px;
   font-family: var(--font-mono);

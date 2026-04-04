@@ -18,8 +18,20 @@
   color: var(--text-secondary);
   border: 1px solid var(--border);
   border-radius: 6px;
-  padding: 6px;
+  padding: 8px;
   cursor: pointer;
+  min-width: 32px;
+  min-height: 32px;
+  transition: color var(--duration-fast) var(--ease-out),
+              border-color var(--duration-fast) var(--ease-out),
+              background var(--duration-fast) var(--ease-out);
+}
+
+@media (max-width: 1023px) {
+  .btn {
+    min-width: 44px;
+    min-height: 44px;
+  }
 }
 
 .btn:hover {
