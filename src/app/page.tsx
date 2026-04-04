@@ -38,9 +38,7 @@ export default function HomePage() {
         </p>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center', margin: '0 0 24px' }}>
-        <AdUnit slot="" format="leaderboard" channel="homepage_leaderboard" />
-      </div>
+      <AdUnit slot="" format="leaderboard" channel="homepage_leaderboard" className={styles.homepageAd} />
 
       {grouped.map((group) => (
         <section key={group.key} className={styles.category}>
