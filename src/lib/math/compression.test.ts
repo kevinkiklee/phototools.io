@@ -37,4 +37,24 @@ describe('calcCameraDistance', () => {
     expect(fl2 / d2).toBeCloseTo(refRatio, 5)
     expect(fl3 / d3).toBeCloseTo(refRatio, 5)
   })
+
+  it('scales linearly with subject distance', () => {
+    const d1 = calcCameraDistance(100, 50, 5)
+    const d2 = calcCameraDistance(100, 50, 10)
+    expect(d2).toBeCloseTo(d1 * 2, 5)
+  })
+
+  it('scales linearly with focal length', () => {
+    const d1 = calcCameraDistance(100, 50, 10)
+    const d2 = calcCameraDistance(200, 50, 10)
+    expect(d2).toBeCloseTo(d1 * 2, 5)
+  })
+
+  it('returns positive distance for all standard focal lengths', () => {
+    const focalLengths = [14, 24, 35, 50, 85, 135, 200, 400, 600]
+    for (const fl of focalLengths) {
+      const d = calcCameraDistance(fl, 50, 10)
+      expect(d).toBeGreaterThan(0)
+    }
+  })
 })

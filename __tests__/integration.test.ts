@@ -1,13 +1,16 @@
 import { describe, it, expect } from 'vitest'
 import { calcFOV } from '@/lib/math/fov'
 import { calcDoF } from '@/lib/math/dof'
-import { calcEV, shutterWithNd } from '@/lib/math/exposure'
-import { rule500 } from '@/lib/math/startrail'
+import { calcEV, shutterWithNd, reciprocalRule } from '@/lib/math/exposure'
+import { rule500, ruleNPF } from '@/lib/math/startrail'
+import { pixelPitch, diffractionLimitedAperture } from '@/lib/math/diffraction'
 import { kelvinToRgb, complementary } from '@/lib/math/color'
+import { calcCameraDistance } from '@/lib/math/compression'
 import { SENSORS } from '@/lib/data/sensors'
 import { FOCAL_LENGTHS } from '@/lib/data/focalLengths'
 import { TOOLS, getToolBySlug, getLiveTools } from '@/lib/data/tools'
 import { GLOSSARY } from '@/lib/data/glossary'
+import { getAllEducation } from '@/lib/data/education'
 
 describe('FOV calculations with real sensor data', () => {
   it('all sensors produce valid FOV at all focal lengths', () => {
@@ -134,5 +137,80 @@ describe('ND filter math matches data', () => {
     // 10-stop ND should give 1024x longer exposure
     const nd10 = shutterWithNd(base, 10)
     expect(nd10).toBeCloseTo(base * 1024, 6)
+  })
+})
+
+describe('Diffraction limits with real sensor data', () => {
+  it('higher resolution sensors hit diffraction limit at wider apertures', () => {
+    const ff = SENSORS.find((s) => s.id === 'ff')!
+    const pitch24 = pixelPitch(ff.w!, 24)
+    const pitch50 = pixelPitch(ff.w!, 50)
+    const limit24 = diffractionLimitedAperture(pitch24)
+    const limit50 = diffractionLimitedAperture(pitch50)
+    expect(limit50).toBeLessThan(limit24)
+  })
+
+  it('smaller sensors hit diffraction earlier at same resolution', () => {
+    const apsc = SENSORS.find((s) => s.id === 'apsc_n')!
+    const ff = SENSORS.find((s) => s.id === 'ff')!
+    const pitchAps = pixelPitch(apsc.w!, 24)
+    const pitchFf = pixelPitch(ff.w!, 24)
+    expect(diffractionLimitedAperture(pitchAps)).toBeLessThan(diffractionLimitedAperture(pitchFf))
+  })
+})
+
+describe('Reciprocal rule with real sensors', () => {
+  it('crop factor shortens safe shutter speed', () => {
+    const ff = reciprocalRule(200, 1.0, 0)
+    const apsc = reciprocalRule(200, 1.5, 0)
+    expect(apsc).toBeLessThan(ff) // APS-C needs faster shutter
+  })
+
+  it('IBIS allows longer shutter at every focal length', () => {
+    for (const fl of [24, 50, 85, 200]) {
+      const noStab = reciprocalRule(fl, 1.0, 0)
+      const withStab = reciprocalRule(fl, 1.0, 4)
+      expect(withStab).toBeGreaterThan(noStab)
+    }
+  })
+})
+
+describe('Star trail rules with real sensors', () => {
+  it('NPF rule gives shorter max exposure than rule of 500', () => {
+    const ff = SENSORS.find((s) => s.id === 'ff')!
+    const pitch = pixelPitch(ff.w!, 24)
+    const r500 = rule500(50, 1.0)
+    const npf = ruleNPF(2.8, 50, pitch)
+    expect(npf).toBeLessThan(r500)
+  })
+})
+
+describe('Compression matches FOV expectations', () => {
+  it('telephoto compression requires farther distance to match framing', () => {
+    const d85 = calcCameraDistance(85, 50, 5)
+    const d200 = calcCameraDistance(200, 50, 5)
+    expect(d200).toBeGreaterThan(d85)
+    // At those distances, FOV should narrow proportionally
+    const fov85 = calcFOV(85, 1.0)
+    const fov200 = calcFOV(200, 1.0)
+    expect(fov200.horizontal).toBeLessThan(fov85.horizontal)
+  })
+})
+
+describe('Education and tool registry alignment', () => {
+  it('every education entry has a matching tool or known sub-feature', () => {
+    const toolSlugs = new Set(TOOLS.map((t) => t.slug))
+    const knownSubFeatures = new Set(['histogram'])
+    for (const edu of getAllEducation()) {
+      expect(toolSlugs.has(edu.slug) || knownSubFeatures.has(edu.slug)).toBe(true)
+    }
+  })
+
+  it('every live tool has education content', () => {
+    const liveTools = getLiveTools()
+    for (const tool of liveTools) {
+      const edu = getAllEducation().find((e) => e.slug === tool.slug)
+      expect(edu).toBeDefined()
+    }
   })
 })

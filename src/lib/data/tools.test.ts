@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { TOOLS, getToolBySlug, getLiveTools, getToolStatus } from './tools'
+import { TOOLS, getToolBySlug, getLiveTools, getAllTools, getToolStatus } from './tools'
 
 describe('TOOLS registry', () => {
   it('contains at least one tool', () => {
@@ -35,6 +35,32 @@ describe('TOOLS registry', () => {
     const live = getLiveTools()
     for (const tool of live) {
       expect(getToolStatus(tool)).toBe('live')
+    }
+  })
+
+  it('getAllTools returns every tool regardless of status', () => {
+    const all = getAllTools()
+    expect(all).toHaveLength(TOOLS.length)
+    expect(all).toEqual(TOOLS)
+  })
+
+  it('getToolStatus returns live or draft', () => {
+    for (const tool of TOOLS) {
+      expect(['live', 'draft']).toContain(getToolStatus(tool))
+    }
+  })
+
+  it('getLiveTools is a subset of getAllTools', () => {
+    const live = getLiveTools()
+    const all = getAllTools()
+    for (const tool of live) {
+      expect(all).toContainEqual(tool)
+    }
+  })
+
+  it('every tool slug is a valid URL path segment', () => {
+    for (const tool of TOOLS) {
+      expect(tool.slug).toMatch(/^[a-z0-9-]+$/)
     }
   })
 })

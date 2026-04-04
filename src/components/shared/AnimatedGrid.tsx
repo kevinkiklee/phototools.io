@@ -35,7 +35,7 @@ export function AnimatedGrid({ children, className }: AnimatedGridProps) {
 
 export function AnimatedItem({ children, className }: { children: ReactNode; className?: string }) {
   return (
-    <motion.div variants={item} className={className}>
+    <motion.div variants={item} className={className} style={{ height: '100%' }}>
       {children}
     </motion.div>
   )

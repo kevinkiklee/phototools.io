@@ -51,6 +51,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 8px;
+  align-items: stretch;
 }
 
 .card {
@@ -63,6 +64,7 @@
   border-radius: 10px;
   text-decoration: none;
   color: inherit;
+  height: 100%;
   transition: border-color var(--duration-fast) var(--ease-out),
               background var(--duration-fast) var(--ease-out),
               transform var(--duration-normal) var(--ease-out),
