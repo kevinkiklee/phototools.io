@@ -6,7 +6,7 @@ export function Footer() {
   const tools = getAllTools()
   return (
     <footer className={styles.footer}>
-      <div className={styles.links}>
+      <div className={styles.toolsRow}>
         {tools.map((tool) => {
           const isLive = getToolStatus(tool) === 'live'
           if (isLive) {
@@ -22,9 +22,15 @@ export function Footer() {
             </span>
           )
         })}
-        <Link href="/learn/glossary" className={styles.link}>Glossary</Link>
       </div>
-      <p>&copy; {new Date().getFullYear()} PhotoTools</p>
+      <div className={styles.infoRow}>
+        <Link href="/learn/glossary" className={styles.link}>Glossary</Link>
+        <Link href="/contact" className={styles.link}>Contact</Link>
+        <Link href="/privacy" className={styles.link}>Privacy Policy</Link>
+        <Link href="/terms" className={styles.link}>Terms of Service</Link>
+        <span className={styles.separator} />
+        <p>&copy; {new Date().getFullYear()} PhotoTools</p>
+      </div>
     </footer>
   )
 }
