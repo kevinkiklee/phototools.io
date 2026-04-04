@@ -50,7 +50,7 @@ interface CropThumbProps {
   sourceImageRef: React.RefObject<HTMLImageElement | null>
 }
 
-function CropThumb({ lens, orientation, color, lensIndex, isActive, onSelect, offset, cleanCanvasRef, sourceImageRef }: CropThumbProps) {
+function CropThumb({ lens, orientation, color, lensIndex, onSelect, offset, cleanCanvasRef, sourceImageRef }: CropThumbProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   const render = () => {
@@ -146,7 +146,7 @@ interface CropStripProps {
   sourceImageRef: React.RefObject<HTMLImageElement | null>
 }
 
-export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelectLens, offsets, expanded, onToggleExpand, cleanCanvasRef, sourceImageRef }: CropStripProps) {
+export function CropStrip({ lenses, orientation, activeLens, onSelectLens, offsets, expanded, onToggleExpand, cleanCanvasRef, sourceImageRef }: CropStripProps) {
   return (
     <div className={`${styles.strip} ${expanded ? styles.stripExpanded : ''}`}>
       <div className={styles.stripHeader}>

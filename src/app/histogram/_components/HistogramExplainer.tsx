@@ -385,7 +385,6 @@ export function HistogramExplainer() {
               <div className={styles.topRow}>
                 {imageUrl && (
                   <div className={styles.imagePreview}>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={imageUrl} alt="Uploaded photo" className={styles.previewImg} />
                   </div>
                 )}

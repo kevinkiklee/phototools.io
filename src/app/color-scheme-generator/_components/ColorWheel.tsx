@@ -56,7 +56,6 @@ export interface ColorWheelHandle {
 }
 
 export const ColorWheel = forwardRef<ColorWheelHandle, ColorWheelProps>(function ColorWheel({
-  hue,
   saturation,
   lightness,
   harmonyHues,

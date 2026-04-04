@@ -5,10 +5,9 @@ import ExifReader from 'exifreader'
 import { PhotoUploadPanel } from '@/components/shared/PhotoUploadPanel'
 import { LearnPanel } from '@/components/shared/LearnPanel'
 import { ToolActions } from '@/components/shared/ToolActions'
-import { getToolBySlug } from '@/lib/data/tools'
 import { calcEV } from '@/lib/math/exposure'
 import { diffractionLimitedAperture, pixelPitch } from '@/lib/math/diffraction'
-import { computeHistogram, detectClipping } from '@/lib/math/histogram'
+import { computeHistogram } from '@/lib/math/histogram'
 import type { HistogramData } from '@/lib/math/histogram'
 import styles from './ExifViewer.module.css'
 
@@ -379,8 +378,6 @@ const HistogramTriple = forwardRef<HistogramTripleHandle, { imageUrl: string }>(
 })
 
 // ── Main Component ──
-
-const tool = getToolBySlug('exif-viewer')!
 
 function ControlsPanel({ onFile, onSample }: { onFile: (file: File) => void; onSample: () => void }) {
   return (

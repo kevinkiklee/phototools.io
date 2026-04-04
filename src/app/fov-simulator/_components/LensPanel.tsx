@@ -5,7 +5,6 @@ import { FOCAL_MIN } from '@/lib/data/focalLengths'
 import { SENSORS, getSensor } from '@/lib/data/sensors'
 import { calcEquivFocalLength } from '@/lib/math/fov'
 import { ControlPanel, FocalLengthField, FieldRow, controlPanelStyles as cp } from '@/components/shared/ControlPanel'
-import styles from './FovSimulator.module.css'
 
 interface LensPanelProps {
   label: string

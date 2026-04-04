@@ -13,8 +13,6 @@ import { StarTrailCanvas, type StarTrailCanvasHandle } from './StarTrailCanvas'
 import css from './StarTrailCalculator.module.css'
 
 const APERTURES = [1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22]
-const EXPOSURE_OPTIONS = [15, 30, 60, 120]
-
 const LATITUDE_PRESETS = [
   { label: 'Equator 0\u00B0', value: 0 },
   { label: 'Mid 45\u00B0', value: 45 },
