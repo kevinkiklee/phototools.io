@@ -1190,15 +1190,19 @@ function drawPixelDensity(
     }
   }
 
-  const isMobile = W < 600
-  const colGap = isMobile ? 12 : 24
+  const isMobileScreen = W < 600
+  // Use 2-column grid layout when screen is narrow OR too many columns to fit
+  const minColW = 140
+  const maxDesktopCols = Math.floor((W - pad * 2) / (minColW + 24))
+  const useGridLayout = isMobileScreen || columns.length > maxDesktopCols
+  const colGap = useGridLayout ? 12 : 24
   const rowGap = 12
   const labelH = 46
 
   // Find maximum sensor dimension for scaling across all displayed sensors
   const maxSensorW = Math.max(...sensors.map((s) => s.w))
 
-  if (isMobile) {
+  if (useGridLayout) {
     // ── Mobile: flatten all entries into a 2-column grid, grouped by sensor type ──
     type FlatEntry = { sensor: Required<SensorPreset>, mp: number, models: string, title?: string }
     const flatEntries: FlatEntry[] = []
@@ -1218,11 +1222,11 @@ function drawPixelDensity(
       }
     }
 
-    const numCols = 2
+    const numCols = isMobileScreen ? 2 : Math.min(maxDesktopCols, Math.max(2, columns.length))
     const availW = W - pad * 2
-    const colW = (availW - colGap) / numCols
+    const colW = (availW - colGap * (numCols - 1)) / numCols
     const sensorScale = (colW - 8) / maxSensorW
-    const totalRowW = numCols * colW + colGap
+    const totalRowW = numCols * colW + (numCols - 1) * colGap
     const startX = (W - totalRowW) / 2
 
     // Group flat entries by category for aligned row layout
