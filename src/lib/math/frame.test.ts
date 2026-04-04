@@ -2,7 +2,6 @@ import { describe, it, expect, vi } from 'vitest'
 import {
   drawSolidBorder,
   drawGradientBorder,
-  drawTextureBorder,
   drawInnerMat,
   drawShadow,
   generateTexture,
