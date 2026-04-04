@@ -6,6 +6,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.infoRow}>
         <Link href="/learn/glossary" className={styles.link}>Glossary</Link>
+        <Link href="/about" className={styles.link}>About</Link>
         <Link href="/contact" className={styles.link}>Contact</Link>
         <Link href="/privacy" className={styles.link}>Privacy Policy</Link>
         <Link href="/terms" className={styles.link}>Terms of Service</Link>
