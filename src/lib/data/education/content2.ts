@@ -107,8 +107,20 @@ export const TOOL_EDUCATION_2: ToolEducation[] = [
     slug: 'sensor-size-comparison',
     beginner:
       'Camera sensors come in many different physical sizes, from the large medium-format chips used in studio cameras down to the tiny sensors in smartphones. A larger sensor captures more light, produces less noise, and makes it easier to blur backgrounds. Sensor size is one of the biggest factors separating camera categories.',
-    deeper:
-      'Sensor size affects photography in several interconnected ways. A larger sensor has a bigger area to collect photons, improving signal-to-noise ratio and dynamic range. The "crop factor" describes how a sensor compares to the 35mm full-frame standard: an APS-C sensor with a 1.5x crop factor gives the same field of view with a 35mm lens as a full-frame camera would with a 52.5mm lens. This crop factor also multiplies the effective depth of field — a smaller sensor appears to give more depth of field at the same framing because you need a wider (shorter) lens to match the field of view. Pixel density (pixel pitch) is another key metric: packing more megapixels onto a smaller sensor shrinks each photosite, reducing per-pixel light gathering. A 24MP full-frame sensor has ~6µm pixels while a 24MP APS-C sensor has ~4µm pixels, which is why the full-frame sensor typically performs better at high ISO.',
+    deeper: [
+      {
+        heading: 'How it works',
+        text: 'Sensor size affects photography in several interconnected ways. A larger sensor has a bigger area to collect photons, improving signal-to-noise ratio and dynamic range. Sensor size is one of the most important differences between camera categories — from medium format studio cameras to smartphone sensors.',
+      },
+      {
+        heading: 'Crop factor',
+        text: 'The "crop factor" describes how a sensor compares to the 35mm full-frame standard. An APS-C sensor with a 1.5x crop factor gives the same field of view with a 35mm lens as a full-frame camera would with a 52.5mm lens. This crop factor also multiplies the effective depth of field — a smaller sensor appears to give more depth of field at the same framing because you need a wider (shorter) lens to match the field of view.',
+      },
+      {
+        heading: 'Pixel density',
+        text: 'Pixel density (pixel pitch) measures how tightly pixels are packed on the sensor. Packing more megapixels onto a smaller sensor shrinks each photosite, reducing per-pixel light gathering. A 24MP full-frame sensor has ~6µm pixels while a 24MP APS-C sensor has ~4µm pixels, which is why the full-frame sensor typically performs better at high ISO.',
+      },
+    ],
     keyFactors: [
       { label: 'Physical Dimensions', description: 'Width and height in millimeters determine the total light-gathering area and the field of view for a given lens.' },
       { label: 'Crop Factor', description: 'The ratio of the full-frame diagonal to the sensor diagonal. Multiplied by focal length, it gives the "equivalent" focal length.' },
@@ -142,47 +154,47 @@ export const TOOL_EDUCATION_2: ToolEducation[] = [
       {
         id: 'ss-beginner-1',
         difficulty: 'beginner',
-        scenario: 'You want to see how a smartphone sensor compares to full frame. Which two sensors should you enable in the comparison?',
-        hint: 'Look for "Full Frame" and the smartphone option.',
-        successMessage: 'Correct! Comparing Full Frame and Smartphone shows just how dramatic the size difference is — the full-frame sensor is over 13 times larger by area.',
-        failureMessage: 'Enable "Full Frame" and "Smartphone Flagship (1/1.3\")" to see the comparison.',
+        scenario: 'A full-frame sensor measures 36×24mm. An APS-C sensor has a 1.5x crop factor. What is the approximate width of an APS-C sensor?',
+        hint: 'Divide the full-frame width by the crop factor.',
+        successMessage: 'Correct! 36mm ÷ 1.5 ≈ 24mm. The APS-C sensor is about 24×16mm, giving it roughly 44% of the full-frame area.',
+        failureMessage: 'Divide the full-frame width (36mm) by the crop factor (1.5x): 36 ÷ 1.5 = 24mm.',
         targetField: 'sensor',
         options: [
-          { label: 'Full Frame + Smartphone', value: 'ff-phone' },
-          { label: 'Medium Format + 1" Sensor', value: 'mf-1in' },
-          { label: 'APS-C + Micro Four Thirds', value: 'apsc-m43' },
+          { label: '24mm', value: '24' },
+          { label: '30mm', value: '30' },
+          { label: '18mm', value: '18' },
         ],
-        correctOption: 'ff-phone',
+        correctOption: '24',
       },
       {
         id: 'ss-beginner-2',
         difficulty: 'beginner',
-        scenario: 'Which display mode best shows the relative physical sizes of sensors at a glance?',
-        hint: 'One mode draws all the sensor rectangles on top of each other.',
-        successMessage: 'Right! Overlay mode centers all sensors on the same point, making relative size differences immediately visible.',
-        failureMessage: 'The overlay mode is best for comparing relative sizes — it stacks all sensor outlines concentrically.',
-        targetField: 'displayMode',
+        scenario: 'You mount a 50mm lens on a camera with a 2.0x crop factor sensor. What full-frame equivalent focal length do you get?',
+        hint: 'Multiply the focal length by the crop factor.',
+        successMessage: 'Right! 50mm × 2.0 = 100mm equivalent. This is why Micro Four Thirds cameras are popular for telephoto work — you get extra reach from every lens.',
+        failureMessage: 'Multiply the lens focal length by the crop factor: 50mm × 2.0 = 100mm equivalent.',
+        targetField: 'sensor',
         options: [
-          { label: 'Overlay', value: 'overlay' },
-          { label: 'Side by Side', value: 'side-by-side' },
-          { label: 'Pixel Density', value: 'pixel-density' },
+          { label: '25mm', value: '25' },
+          { label: '75mm', value: '75' },
+          { label: '100mm', value: '100' },
         ],
-        correctOption: 'overlay',
+        correctOption: '100',
       },
       {
         id: 'ss-intermediate-1',
         difficulty: 'intermediate',
-        scenario: 'You are deciding between a 24MP full-frame camera and a 24MP APS-C camera. Which display mode would help you understand why the full-frame camera has better high-ISO performance?',
-        hint: 'Think about what determines noise: the size of each individual pixel.',
-        successMessage: 'Excellent! Pixel Density mode shows that at the same megapixel count, the full-frame sensor has larger pixels (higher pixel pitch), which gather more light per pixel.',
-        failureMessage: 'Pixel Density mode is the answer — it reveals that full-frame pixels are physically larger at 24MP, explaining the noise advantage.',
-        targetField: 'displayMode',
+        scenario: 'Two cameras both have 24 megapixels — one full-frame (36×24mm) and one APS-C (24×16mm). Which has better high-ISO noise performance, and why?',
+        hint: 'Think about how the same number of pixels spread across different sensor areas affects individual pixel size.',
+        successMessage: 'Exactly! The full-frame sensor spreads 24MP over a larger area, so each pixel is physically bigger (~6µm vs ~4µm pitch) and captures more photons, resulting in less noise.',
+        failureMessage: 'The full-frame sensor wins — same megapixel count on a larger area means bigger pixels that gather more light, producing less noise at high ISO.',
+        targetField: 'sensor',
         options: [
-          { label: 'Overlay', value: 'overlay' },
-          { label: 'Side by Side', value: 'side-by-side' },
-          { label: 'Pixel Density', value: 'pixel-density' },
+          { label: 'Full frame — larger pixels gather more light', value: 'ff' },
+          { label: 'APS-C — smaller sensors are more efficient', value: 'apsc' },
+          { label: 'Same noise — megapixel count is what matters', value: 'same' },
         ],
-        correctOption: 'pixel-density',
+        correctOption: 'ff',
       },
       {
         id: 'ss-intermediate-2',
@@ -474,8 +486,32 @@ export const TOOL_EDUCATION_2: ToolEducation[] = [
     slug: 'color-scheme-generator',
     beginner:
       'Color harmony is about choosing colors that look good together. Just like musical chords, certain color combinations create pleasing visual relationships. Photographers use color harmony to plan wardrobe, set design, and even timing of outdoor shoots to get the right palette from nature.',
-    deeper:
-      'Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. Complementary colors sit opposite each other (e.g., blue and orange, red and green) and create maximum contrast. Analogous colors are neighbors on the wheel and produce smooth, cohesive palettes. Triadic harmony uses three evenly spaced hues for balanced vibrancy. Split-complementary modifies the complementary scheme by using the two neighbors of the opposite color, reducing tension while keeping contrast. Tetradic (double-complementary) uses four colors forming a rectangle on the wheel, offering the richest palette but requiring careful balance. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle, saturation is the distance from center, and lightness controls the brightness.',
+    deeper: [
+      {
+        heading: 'The Color Wheel',
+        text: 'Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle (0–360°), saturation is the distance from center, and lightness controls brightness. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary.',
+      },
+      {
+        heading: 'Complementary',
+        text: 'Two colors that sit directly opposite each other on the wheel (180° apart), such as blue and orange or red and green. This creates maximum contrast and visual energy. Great for making a subject pop against a background — think golden-hour portraits where warm skin tones contrast with a cool blue sky.',
+      },
+      {
+        heading: 'Analogous',
+        text: 'Three colors that are neighbors on the wheel, typically within a 30–60° spread. They produce smooth, cohesive palettes with low contrast. Ideal for landscapes and mood-driven work — autumn foliage is a natural analogous palette of reds, oranges, and yellows.',
+      },
+      {
+        heading: 'Triadic',
+        text: 'Three colors evenly spaced at 120° intervals around the wheel, such as red, yellow, and blue. Triadic schemes feel balanced and vibrant without the tension of complementary contrast. Use one dominant color and the other two as accents for the strongest results.',
+      },
+      {
+        heading: 'Split Complementary',
+        text: 'A variation of complementary that uses the two neighbors of the opposite color instead of the opposite itself. This keeps the high contrast of complementary but reduces the visual tension, making it more versatile and forgiving. A popular choice for styled portrait sessions.',
+      },
+      {
+        heading: 'Tetradic (Double Complementary)',
+        text: 'Four colors forming a rectangle on the wheel — essentially two complementary pairs. This offers the richest, most complex palette but requires careful balance. Let one color dominate and use the others as supporting accents to avoid a chaotic look.',
+      },
+    ],
     keyFactors: [
       { label: 'Harmony Type', description: 'The geometric relationship between colors on the wheel: complementary, analogous, triadic, split-complementary, or tetradic.' },
       { label: 'Hue', description: 'The base color angle on the wheel (0-360 degrees). This is the starting point for all harmony calculations.' },

@@ -35,8 +35,8 @@ export interface ToolEducation {
   slug: string
   /** Short beginner-friendly explanation */
   beginner: string
-  /** Deeper explanation for intermediate users */
-  deeper: string
+  /** Deeper explanation for intermediate users — plain string or headed sections */
+  deeper: string | { heading: string; text: string }[]
   /** Key factors / bullet points */
   keyFactors?: { label: string; description: string }[]
   /** Pro tips with amber callout styling */

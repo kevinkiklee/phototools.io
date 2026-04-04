@@ -56,7 +56,7 @@ function roundRect(
   ctx.closePath()
 }
 
-const tool = getToolBySlug('sensor-size')
+const tool = getToolBySlug('sensor-size-comparison')
 
 function ControlsPanel({
   visible, mode, resolution, onToggleSensor, onModeChange, onResolutionChange,
@@ -295,7 +295,7 @@ export function SensorSize() {
     <div className={ss.app}>
       <div className={ss.appBody}>
         <div className={ss.sidebar}>
-          <ToolActions toolName="Sensor Size Comparison" toolSlug="sensor-size" canvasRef={canvasRef} imageFilename="sensor-comparison.png" />
+          <ToolActions toolName="Sensor Size Comparison" toolSlug="sensor-size-comparison" canvasRef={canvasRef} imageFilename="sensor-comparison.png" />
           <ControlsPanel {...controlsProps} />
         </div>
 
@@ -344,7 +344,7 @@ export function SensorSize() {
           </div>
         </div>
 
-        <LearnPanel slug="sensor-size" />
+        <LearnPanel slug="sensor-size-comparison" />
       </div>
 
       <div className={ss.mobileControls}>

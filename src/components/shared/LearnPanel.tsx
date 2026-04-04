@@ -45,10 +45,19 @@ export function LearnPanel({ slug }: LearnPanelProps) {
       </section>
 
       {/* Deeper explanation */}
-      <section className={styles.section}>
-        <h3 className={styles.sectionTitle}>How it works</h3>
-        <p className={styles.sectionText}>{edu.deeper}</p>
-      </section>
+      {typeof edu.deeper === 'string' ? (
+        <section className={styles.section}>
+          <h3 className={styles.sectionTitle}>How it works</h3>
+          <p className={styles.sectionText}>{edu.deeper}</p>
+        </section>
+      ) : (
+        edu.deeper.map((s, i) => (
+          <section key={i} className={styles.section}>
+            <h3 className={styles.sectionTitle}>{s.heading}</h3>
+            <p className={styles.sectionText}>{s.text}</p>
+          </section>
+        ))
+      )}
 
       {/* Key factors */}
       {edu.keyFactors && edu.keyFactors.length > 0 && (
