@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 
 import { useState, useCallback } from 'react'
@@ -10,6 +9,7 @@ import { ToolIcon } from '@/components/shared/ToolIcon'
 import { ToolActions } from '@/components/shared/ToolActions'
 import { getToolBySlug, getToolStatus } from '@/lib/data/tools'
 import { Toolbar } from './Toolbar'
+import { ImageCanvas } from './ImageCanvas'
 import type {
   EditorMode, GridType, GridOptions, FrameConfig, CropState,
 } from './types'
@@ -96,11 +96,15 @@ export function FrameStudio() {
                 />
               ) : (
                 <div className={styles.canvasArea}>
-                  <p className={styles.placeholder}>
-                    {mode === 'view' && 'View mode — image preview'}
-                    {mode === 'crop' && 'Crop mode — cropper active'}
-                    {mode === 'frame' && 'Frame mode — border configuration'}
-                  </p>
+                  {mode === 'view' || mode === 'frame' ? (
+                    <ImageCanvas
+                      image={originalImage}
+                      crop={cropState}
+                      frameConfig={mode === 'frame' ? frameConfig : DEFAULT_FRAME_CONFIG}
+                    />
+                  ) : (
+                    <p className={styles.placeholder}>Crop mode — cropper active</p>
+                  )}
                 </div>
               )}
             </div>
