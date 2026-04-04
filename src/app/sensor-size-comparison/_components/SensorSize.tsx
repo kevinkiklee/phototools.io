@@ -8,11 +8,31 @@ import { getToolBySlug } from '@/lib/data/tools'
 import ss from './SensorSize.module.css'
 import { pixelPitch } from '@/lib/math/diffraction'
 // strParam and intParam kept for reference but query sync is manual
-import { SENSORS, POPULAR_MODELS, COMMON_MP, calcCropFactor, type MpEntry } from '@/lib/data/sensors'
+import { SENSORS, POPULAR_MODELS, COMMON_MP, calcCropFactor, calcAspectCropFactor, type MpEntry } from '@/lib/data/sensors'
 import type { SensorPreset } from '@/lib/types'
 
 type DisplayMode = 'overlay' | 'side-by-side' | 'pixel-density'
 
+function gcd(a: number, b: number): number {
+  a = Math.round(a * 10)
+  b = Math.round(b * 10)
+  while (b) { [a, b] = [b, a % b] }
+  return a
+}
+
+function formatAspectRatio(w: number, h: number): string {
+  const g = gcd(w, h)
+  const rw = Math.round(w * 10 / g)
+  const rh = Math.round(h * 10 / g)
+  // Common known ratios — prefer clean labels
+  const ratio = w / h
+  if (Math.abs(ratio - 3 / 2) < 0.02) return '3:2'
+  if (Math.abs(ratio - 4 / 3) < 0.02) return '4:3'
+  if (Math.abs(ratio - 16 / 9) < 0.02) return '16:9'
+  if (Math.abs(ratio - 5 / 4) < 0.02) return '5:4'
+  if (Math.abs(ratio - 1) < 0.02) return '1:1'
+  return `${rw}:${rh}`
+}
 
 const ALL_SENSOR_IDS = SENSORS.map((s) => s.id) as unknown as string[]
 const ALL_SENSOR_ID_SET = new Set(ALL_SENSOR_IDS)
@@ -719,14 +739,18 @@ function SensorTable({ sensors }: { sensors: Required<SensorPreset>[] }) {
           <th style={{ textAlign: 'left' }}>Sensor</th>
           <th>Width (mm)</th>
           <th>Height (mm)</th>
+          <th>Aspect Ratio</th>
           <th>Area (mm²)</th>
           <th>Crop Factor</th>
+          <th>Aspect Crop</th>
         </tr>
       </thead>
       <tbody>
         {sorted.map((s) => {
           const area = s.w * s.h
           const crop = calcCropFactor(s.w, s.h)
+          const aspectCrop = calcAspectCropFactor(s.w, s.h)
+          const ratio = formatAspectRatio(s.w, s.h)
           return (
             <tr key={s.id}>
               <td style={{ textAlign: 'left' }}>
@@ -737,8 +761,10 @@ function SensorTable({ sensors }: { sensors: Required<SensorPreset>[] }) {
               </td>
               <td>{s.w}</td>
               <td>{s.h}</td>
+              <td>{ratio}</td>
               <td>{area.toFixed(1)}</td>
               <td>{crop.toFixed(2)}x</td>
+              <td>{aspectCrop.toFixed(2)}x</td>
             </tr>
           )
         })}
