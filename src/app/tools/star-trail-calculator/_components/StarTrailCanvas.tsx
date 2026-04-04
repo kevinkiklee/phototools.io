@@ -77,28 +77,58 @@ export function StarTrailCanvas({
     [latitude],
   )
 
+  const drawBackground = useCallback(
+    (ctx: CanvasRenderingContext2D, w: number, h: number) => {
+      // Dark sky gradient — lighter near horizon
+      const grad = ctx.createLinearGradient(0, 0, 0, h)
+      grad.addColorStop(0, '#020210')
+      grad.addColorStop(0.6, '#050518')
+      grad.addColorStop(1, '#0a0a20')
+      ctx.fillStyle = grad
+      ctx.fillRect(0, 0, w, h)
+    },
+    [],
+  )
+
+  const drawStar = useCallback(
+    (ctx: CanvasRenderingContext2D, x: number, y: number, radius: number, alpha: number) => {
+      // Glow
+      const glow = ctx.createRadialGradient(x, y, 0, x, y, radius * 4)
+      glow.addColorStop(0, `rgba(180, 200, 255, ${alpha * 0.3})`)
+      glow.addColorStop(1, 'transparent')
+      ctx.fillStyle = glow
+      ctx.fillRect(x - radius * 4, y - radius * 4, radius * 8, radius * 8)
+      // Core
+      ctx.beginPath()
+      ctx.arc(x, y, radius, 0, Math.PI * 2)
+      ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`
+      ctx.fill()
+    },
+    [],
+  )
+
   const drawSharp = useCallback(
     (ctx: CanvasRenderingContext2D, w: number, h: number) => {
       ctx.clearRect(0, 0, w, h)
-      ctx.fillStyle = '#050510'
-      ctx.fillRect(0, 0, w, h)
+      drawBackground(ctx, w, h)
 
       const { cx, cy } = getPolePosition(w, h)
       const maxR = Math.max(w, h) * 0.9
 
-      // Draw all stars as dots
+      // Draw all stars with glow
       for (const star of STARS) {
         const r = star.dist * maxR
         const x = cx + Math.cos(star.angle) * r
         const y = cy + Math.sin(star.angle) * r
-
-        ctx.beginPath()
-        ctx.arc(x, y, star.radius, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`
-        ctx.fill()
+        drawStar(ctx, x, y, star.radius, star.alpha)
       }
 
-      // Draw Polaris
+      // Draw Polaris with golden tint
+      const polarGlow = ctx.createRadialGradient(cx, cy, 0, cx, cy, 12)
+      polarGlow.addColorStop(0, 'rgba(255, 255, 200, 0.4)')
+      polarGlow.addColorStop(1, 'transparent')
+      ctx.fillStyle = polarGlow
+      ctx.fillRect(cx - 12, cy - 12, 24, 24)
       ctx.beginPath()
       ctx.arc(cx, cy, 2.5, 0, Math.PI * 2)
       ctx.fillStyle = 'rgba(255, 255, 200, 1)'
@@ -114,76 +144,80 @@ export function StarTrailCanvas({
       if (exposurePerFrame <= limit) {
         // Green ring — safe, point-like star
         ctx.beginPath()
-        ctx.arc(sx, sy, 6, 0, Math.PI * 2)
-        ctx.strokeStyle = 'rgba(34, 197, 94, 0.9)'
-        ctx.lineWidth = 2
+        ctx.arc(sx, sy, 8, 0, Math.PI * 2)
+        ctx.strokeStyle = 'rgba(34, 197, 94, 0.7)'
+        ctx.lineWidth = 1.5
         ctx.stroke()
-
-        ctx.beginPath()
-        ctx.arc(sx, sy, 1.5, 0, Math.PI * 2)
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)'
-        ctx.fill()
       } else {
         // Red streak showing trail amount
         const trailAngle = (exposurePerFrame / SIDEREAL_DAY) * Math.PI * 2
         ctx.beginPath()
         ctx.arc(cx, cy, sampleR, sampleAngle - trailAngle / 2, sampleAngle + trailAngle / 2)
-        ctx.strokeStyle = 'rgba(239, 68, 68, 0.9)'
-        ctx.lineWidth = 3
+        ctx.strokeStyle = 'rgba(239, 68, 68, 0.8)'
+        ctx.lineWidth = 2.5
+        ctx.lineCap = 'round'
         ctx.stroke()
-
-        // Label
-        ctx.font = '11px system-ui, sans-serif'
-        ctx.fillStyle = 'rgba(239, 68, 68, 0.9)'
-        ctx.fillText('trailing', sx + 10, sy - 10)
       }
 
-      // Legend
-      ctx.font = '11px system-ui, sans-serif'
-      ctx.fillStyle = 'rgba(255,255,255,0.5)'
-      ctx.fillText(`500 Rule: ${maxExposure500.toFixed(1)}s`, 12, h - 28)
-      ctx.fillText(`NPF Rule: ${maxExposureNPF.toFixed(1)}s`, 12, h - 12)
+      // Legend — bottom left, subtle
+      ctx.font = '500 11px system-ui, sans-serif'
+      ctx.fillStyle = 'rgba(255,255,255,0.35)'
+      ctx.fillText(`500 Rule: ${maxExposure500.toFixed(1)}s`, 14, h - 30)
+      ctx.fillText(`NPF Rule: ${maxExposureNPF.toFixed(1)}s`, 14, h - 14)
     },
-    [getPolePosition, maxExposure500, maxExposureNPF, exposurePerFrame],
+    [getPolePosition, maxExposure500, maxExposureNPF, exposurePerFrame, drawBackground, drawStar],
   )
 
   const drawTrails = useCallback(
     (ctx: CanvasRenderingContext2D, w: number, h: number, progress: number) => {
       ctx.clearRect(0, 0, w, h)
-      ctx.fillStyle = '#050510'
-      ctx.fillRect(0, 0, w, h)
+      drawBackground(ctx, w, h)
 
       const { cx, cy } = getPolePosition(w, h)
       const maxR = Math.max(w, h) * 0.9
 
       // Total arc angle for totalExposure
       const fullArcAngle = (totalExposure / SIDEREAL_DAY) * Math.PI * 2
-      // Animated: arcs build up over the animation duration
       const currentArc = fullArcAngle * progress
 
       for (const star of STARS) {
         const r = star.dist * maxR
 
+        // Trail glow
+        ctx.beginPath()
+        ctx.arc(cx, cy, r, star.angle, star.angle + currentArc)
+        ctx.strokeStyle = `rgba(180, 200, 255, ${star.alpha * 0.15})`
+        ctx.lineWidth = star.radius * 3
+        ctx.lineCap = 'round'
+        ctx.stroke()
+
+        // Trail core
         ctx.beginPath()
         ctx.arc(cx, cy, r, star.angle, star.angle + currentArc)
         ctx.strokeStyle = `rgba(255, 255, 255, ${star.alpha * 0.7})`
         ctx.lineWidth = star.radius * 0.8
+        ctx.lineCap = 'round'
         ctx.stroke()
       }
 
       // Draw Polaris
+      const polarGlow = ctx.createRadialGradient(cx, cy, 0, cx, cy, 10)
+      polarGlow.addColorStop(0, 'rgba(255, 255, 200, 0.3)')
+      polarGlow.addColorStop(1, 'transparent')
+      ctx.fillStyle = polarGlow
+      ctx.fillRect(cx - 10, cy - 10, 20, 20)
       ctx.beginPath()
       ctx.arc(cx, cy, 2.5, 0, Math.PI * 2)
       ctx.fillStyle = 'rgba(255, 255, 200, 1)'
       ctx.fill()
 
       // Legend
-      ctx.font = '11px system-ui, sans-serif'
-      ctx.fillStyle = 'rgba(255,255,255,0.5)'
+      ctx.font = '500 11px system-ui, sans-serif'
+      ctx.fillStyle = 'rgba(255,255,255,0.35)'
       const arcDeg = ((currentArc * 180) / Math.PI).toFixed(1)
-      ctx.fillText(`Arc: ${arcDeg}\u00B0`, 12, h - 12)
+      ctx.fillText(`Arc: ${arcDeg}\u00B0`, 14, h - 14)
     },
-    [getPolePosition, totalExposure],
+    [getPolePosition, totalExposure, drawBackground],
   )
 
   useEffect(() => {

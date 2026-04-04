@@ -92,7 +92,7 @@
 .exifSectionTitle {
   font-size: 11px;
   font-weight: 600;
-  color: var(--text-secondary);
+  color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 4px;
@@ -146,7 +146,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--text-secondary);
+  color: var(--accent);
   margin-bottom: 8px;
 }
 .canvas {

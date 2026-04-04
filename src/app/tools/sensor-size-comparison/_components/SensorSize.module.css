@@ -120,40 +120,6 @@
   pointer-events: none;
 }
 
-/* ── Mode toggle ── */
-.modeToggle {
-  display: flex;
-  gap: 0;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.modeBtn {
-  flex: 1;
-  padding: 6px 10px;
-  background: var(--bg-surface);
-  color: var(--text-secondary);
-  border: none;
-  font-size: 11px;
-  cursor: pointer;
-  font-family: inherit;
-  transition: background 0.15s, color 0.15s;
-}
-
-.modeBtn:not(:last-child) {
-  border-right: 1px solid var(--border);
-}
-
-.modeBtn:hover {
-  color: var(--text-primary);
-}
-
-.modeBtnActive {
-  background: var(--accent);
-  color: #000;
-}
-
 /* ── Resolution field ── */
 .resolutionField {
   display: flex;
@@ -263,7 +229,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--text-secondary);
+  color: var(--accent);
 }
 
 /* ── Mobile ── */
@@ -315,4 +281,109 @@
   .resolutionField input {
     min-height: 44px;
   }
+
+  .customInput {
+    min-height: 44px;
+    font-size: 16px;
+  }
+
+  .customAddBtn {
+    min-height: 44px;
+  }
+}
+
+/* ── Custom Sensor Form ── */
+.customForm {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.customRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.customX {
+  font-size: 12px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.customInput {
+  flex: 1;
+  padding: 6px 8px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: inherit;
+  min-width: 0;
+  transition: border-color var(--duration-fast) var(--ease-out);
+}
+
+.customInput:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* Hide native number spinners */
+.customInput[type='number']::-webkit-inner-spin-button,
+.customInput[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.customInput[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.customAddBtn {
+  padding: 6px 10px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-out), opacity var(--duration-fast);
+}
+
+.customAddBtn:hover {
+  background: var(--accent-hover);
+}
+
+.customAddBtn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.customRemoveBtn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+  transition: color var(--duration-fast);
+}
+
+.customRemoveBtn:hover {
+  color: #ef4444;
+}
+
+.customWarning {
+  font-size: 11px;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: 4px;
+  padding: 4px 8px;
+  animation: fadeInUp var(--duration-fast) var(--ease-out);
 }

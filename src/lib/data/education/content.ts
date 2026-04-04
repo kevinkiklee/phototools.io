@@ -503,8 +503,20 @@ export const TOOL_EDUCATION: ToolEducation[] = [
     slug: 'star-trail-calculator',
     beginner:
       'Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.',
-    deeper:
-      'The Earth rotates 360 degrees in approximately 23 hours and 56 minutes (a sidereal day), which means stars move at about 15 arcseconds per second at the celestial equator. Stars near the celestial poles (Polaris in the north) trace smaller circles and appear to move more slowly. The classic "500 Rule" divides 500 by your effective focal length to estimate the maximum exposure in seconds before trailing is visible. However, this rule was designed for lower-resolution sensors. The more accurate NPF Rule accounts for pixel pitch, focal length, aperture, and declination: it typically produces shorter — and more accurate — exposure limits for modern high-resolution cameras. For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame does not ruin the entire shot.',
+    deeper: [
+      {
+        heading: 'How Stars Move',
+        text: 'The Earth rotates 360° in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly.',
+      },
+      {
+        heading: 'The 500 Rule vs. NPF Rule',
+        text: 'The classic "500 Rule" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras.',
+      },
+      {
+        heading: 'Stacking for Star Trails',
+        text: 'For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn\'t ruin the entire shot.',
+      },
+    ],
     keyFactors: [
       {
         label: 'Focal Length',

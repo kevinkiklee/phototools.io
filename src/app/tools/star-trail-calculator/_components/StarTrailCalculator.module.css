@@ -20,49 +20,16 @@
   padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
+  animation: slideInLeft var(--duration-slow) var(--ease-out) both;
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-12px); }
+  to { opacity: 1; transform: translateX(0); }
 }
 
 /* Mode toggle buttons */
-.modeToggle {
-  display: flex;
-  gap: 0;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.modeBtn {
-  flex: 1;
-  padding: 8px 12px;
-  min-height: 44px;
-  background: var(--bg-primary);
-  color: var(--text-secondary);
-  border: none;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  font-family: inherit;
-  transition: background 0.15s, color 0.15s;
-}
-
-.modeBtn:first-child {
-  border-right: 1px solid var(--border);
-}
-
-.modeBtn:hover {
-  background: var(--bg-surface);
-}
-
-.modeBtnActive {
-  background: var(--accent);
-  color: #000;
-}
-
-.modeBtnActive:hover {
-  background: var(--accent);
-}
-
 /* Slider fields */
 .field {
   display: flex;
@@ -114,6 +81,24 @@
   cursor: pointer;
 }
 
+.geoBtn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: var(--text-xs);
+  padding: 4px 10px;
+  cursor: pointer;
+  margin-top: var(--space-xs);
+  align-self: flex-start;
+  transition: color var(--duration-fast) var(--ease-out), border-color var(--duration-fast) var(--ease-out);
+}
+
+.geoBtn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 /* Result cards */
 .resultCard {
   display: flex;
@@ -123,25 +108,32 @@
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: 10px;
+  transition: border-color var(--duration-fast) var(--ease-out);
+}
+
+.resultCard:first-of-type {
+  border-left: 2px solid var(--accent);
 }
 
 .resultLabel {
-  font-size: 11px;
-  color: var(--text-secondary);
+  font-size: 10px;
+  color: var(--text-muted);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
+  font-weight: 600;
 }
 
 .resultValue {
   font-family: var(--font-mono);
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
 }
 
 .resultNote {
   font-size: 12px;
   color: var(--text-secondary);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 /* Canvas area */
@@ -214,8 +206,8 @@
   display: block;
   max-width: 100%;
   max-height: 100%;
-  background: #050510;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05), 0 8px 32px rgba(0, 0, 0, 0.5);
 }
 
 /* Mobile layout */

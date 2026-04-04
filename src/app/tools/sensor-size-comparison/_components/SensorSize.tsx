@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback, type ReactNode } from 'react'
 import { LearnPanel } from '@/components/shared/LearnPanel'
+import { ModeToggle } from '@/components/shared/ModeToggle'
 import { ToolActions } from '@/components/shared/ToolActions'
 import { getToolBySlug } from '@/lib/data/tools'
 import ss from './SensorSize.module.css'
@@ -58,31 +59,78 @@ function roundRect(
 
 const tool = getToolBySlug('sensor-size-comparison')
 
+function CustomSensorForm({ onAdd }: { onAdd: (name: string, w: number, h: number, mp: number) => void }) {
+  const [name, setName] = useState('')
+  const [w, setW] = useState('')
+  const [h, setH] = useState('')
+  const [mp, setMp] = useState('')
+  const [warning, setWarning] = useState<string | null>(null)
+  const warningTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const clampDim = (val: string, setter: (v: string) => void) => {
+    const num = parseFloat(val)
+    if (!isNaN(num) && num > 99) {
+      setter('99')
+      setWarning('Max sensor dimension is 99 mm')
+      if (warningTimer.current) clearTimeout(warningTimer.current)
+      warningTimer.current = setTimeout(() => setWarning(null), 2000)
+    } else {
+      setter(val.slice(0, 5))
+    }
+  }
+
+  const handleSubmit = () => {
+    const wn = parseFloat(w)
+    const hn = parseFloat(h)
+    const mpn = parseFloat(mp) || 0
+    if (!name.trim() || isNaN(wn) || isNaN(hn) || wn <= 0 || hn <= 0) return
+    onAdd(name.trim(), wn, hn, mpn)
+    setName(''); setW(''); setH(''); setMp('')
+  }
+
+  return (
+    <div className={ss.customForm}>
+      <input className={ss.customInput} placeholder="Name" value={name} onChange={e => setName(e.target.value)} />
+      <div className={ss.customRow}>
+        <input className={ss.customInput} placeholder="W (mm)" type="number" step="0.1" min="0.1" value={w} onChange={e => clampDim(e.target.value, setW)} />
+        <span className={ss.customX}>×</span>
+        <input className={ss.customInput} placeholder="H (mm)" type="number" step="0.1" min="0.1" value={h} onChange={e => clampDim(e.target.value, setH)} />
+      </div>
+      {warning && <div className={ss.customWarning}>{warning}</div>}
+      <input className={ss.customInput} placeholder="Megapixels (optional)" type="number" step="1" min="1" value={mp} onChange={e => setMp(e.target.value)} />
+      <button className={ss.customAddBtn} onClick={handleSubmit} disabled={!name.trim() || !w || !h}>
+        Add Sensor
+      </button>
+    </div>
+  )
+}
+
 function ControlsPanel({
-  visible, mode, resolution, onToggleSensor, onModeChange, onResolutionChange,
+  visible, mode, resolution, customSensors,
+  onToggleSensor, onModeChange, onResolutionChange, onAddCustom, onRemoveCustom,
 }: {
   visible: Set<string>
   mode: DisplayMode
   resolution: number
+  customSensors: Required<SensorPreset>[]
   onToggleSensor: (id: string) => void
   onModeChange: (m: DisplayMode) => void
   onResolutionChange: (v: number) => void
+  onAddCustom: (name: string, w: number, h: number, mp: number) => void
+  onRemoveCustom: (id: string) => void
 }) {
   return (
     <>
-      <div className={ss.sectionLabel}>Display Mode</div>
-      <div className={ss.modeToggle}>
-        {(['overlay', 'side-by-side', 'pixel-density'] as const).map((m) => (
-          <button
-            key={m}
-            className={`${ss.modeBtn} ${mode === m ? ss.modeBtnActive : ''}`}
-            onClick={() => onModeChange(m)}
-            aria-pressed={mode === m}
-          >
-            {m === 'overlay' ? 'Overlay' : m === 'side-by-side' ? 'Side by Side' : 'Pixel Density'}
-          </button>
-        ))}
-      </div>
+      <ModeToggle
+        title="Display Mode"
+        options={[
+          { value: 'overlay', label: 'Overlay' },
+          { value: 'side-by-side', label: 'Side by Side' },
+          { value: 'pixel-density', label: 'Pixel Density' },
+        ]}
+        value={mode}
+        onChange={onModeChange}
+      />
 
       {mode === 'pixel-density' && (
         <p style={{ fontSize: 11, color: 'var(--text-secondary)', lineHeight: 1.5, margin: 0 }}>
@@ -92,19 +140,36 @@ function ControlsPanel({
 
       <div className={ss.sectionLabel}>Sensors</div>
       <div className={ss.checkboxes}>
-        {SENSORS.map((s) => (
-          <label key={s.id} className={ss.checkLabel}>
-            <input
-              type="checkbox"
-              checked={visible.has(s.id)}
-              onChange={() => onToggleSensor(s.id)}
-            />
-            <span className={ss.checkDot} style={{ backgroundColor: s.color }} />
-            <span className={ss.checkName}>{s.name}</span>
-            <span className={ss.checkOutline} />
-          </label>
-        ))}
+        {[...SENSORS as Required<SensorPreset>[], ...customSensors]
+          .sort((a, b) => (b.w * b.h) - (a.w * a.h))
+          .map((s) => {
+            const isCustom = s.id.startsWith('custom_')
+            return (
+              <label key={s.id} className={ss.checkLabel}>
+                <input
+                  type="checkbox"
+                  checked={visible.has(s.id)}
+                  onChange={() => onToggleSensor(s.id)}
+                />
+                <span className={ss.checkDot} style={{ backgroundColor: s.color }} />
+                <span className={ss.checkName}>{s.name}</span>
+                {isCustom && (
+                  <button
+                    className={ss.customRemoveBtn}
+                    onClick={(e) => { e.preventDefault(); onRemoveCustom(s.id) }}
+                    title="Remove"
+                  >
+                    ✕
+                  </button>
+                )}
+                <span className={ss.checkOutline} />
+              </label>
+            )
+          })}
       </div>
+
+      <div className={ss.sectionLabel}>Custom Sensor</div>
+      <CustomSensorForm onAdd={onAddCustom} />
     </>
   )
 }
@@ -117,11 +182,20 @@ function easeOut(t: number): number {
   return 1 - (1 - t) ** 3
 }
 
+// Stored rect positions for hit-testing overlay mode
+type SensorRect = { id: string; x: number; y: number; w: number; h: number; sensorW: number; sensorH: number; color: string }
+let overlayRects: SensorRect[] = []
+
+const CUSTOM_COLORS = ['#06b6d4', '#f97316', '#84cc16', '#e879f9', '#facc15', '#fb7185']
+let customColorIdx = 0
+
 export function SensorSize() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [visible, setVisible] = useState<Set<string>>(() => new Set(DEFAULT_VISIBLE_IDS))
   const [mode, setMode] = useState<DisplayMode>('overlay')
   const [resolution, setResolution] = useState(24)
+  const [hoveredSensor, setHoveredSensor] = useState<string | null>(null)
+  const [customSensors, setCustomSensors] = useState<Required<SensorPreset>[]>([])
 
   // Animation state: maps sensor id → { progress: 0..1, direction: 'in' | 'out', startTime }
   const animRef = useRef<Map<string, { progress: number; direction: 'in' | 'out'; startTime: number }>>(new Map())
@@ -138,7 +212,8 @@ export function SensorSize() {
     PARAM_SCHEMA,
   )
 
-  const visibleSensors = SENSORS.filter((s) => visible.has(s.id)) as Required<SensorPreset>[]
+  const allSensors = [...SENSORS as Required<SensorPreset>[], ...customSensors]
+  const visibleSensors = allSensors.filter((s) => visible.has(s.id))
 
   const toggleSensor = useCallback((id: string) => {
     setVisible((prev) => {
@@ -147,6 +222,31 @@ export function SensorSize() {
       else next.add(id)
       return next
     })
+  }, [])
+
+  const addCustomSensor = useCallback((name: string, w: number, h: number, mp: number) => {
+    const id = `custom_${Date.now()}`
+    const color = CUSTOM_COLORS[customColorIdx % CUSTOM_COLORS.length]
+    customColorIdx++
+    const diag = Math.sqrt(w * w + h * h)
+    const cropFactor = FF_DIAG / diag
+    const sensor: Required<SensorPreset> = { id, name, w, h, cropFactor, color }
+    setCustomSensors(prev => [...prev, sensor])
+    setVisible(prev => new Set([...prev, id]))
+    // Store MP for pixel density mode
+    if (mp > 0) {
+      COMMON_MP[id] = [{ mp, models: name }]
+    }
+  }, [])
+
+  const removeCustomSensor = useCallback((id: string) => {
+    setCustomSensors(prev => prev.filter(s => s.id !== id))
+    setVisible(prev => {
+      const next = new Set(prev)
+      next.delete(id)
+      return next
+    })
+    delete COMMON_MP[id]
   }, [])
 
   // Detect added/removed sensors and start animations
@@ -182,7 +282,7 @@ export function SensorSize() {
       }
     }
 
-    const sensors = SENSORS.filter((s) => ids.has(s.id)) as Required<SensorPreset>[]
+    const sensors = allSensors.filter((s) => ids.has(s.id))
 
     for (const s of sensors) {
       const anim = animRef.current.get(s.id)
@@ -253,7 +353,7 @@ export function SensorSize() {
 
     let contentH = cssHeight
     if (mode === 'overlay') {
-      contentH = drawOverlay(ctx, cssWidth, cssHeight, padding, sensors, alphaMap)
+      contentH = drawOverlay(ctx, cssWidth, cssHeight, padding, sensors, alphaMap, hoveredSensor)
     } else if (mode === 'side-by-side') {
       contentH = drawSideBySide(ctx, cssWidth, cssHeight, padding, sensors, alphaMap)
     } else {
@@ -273,7 +373,7 @@ export function SensorSize() {
     if (animating) {
       rafRef.current = requestAnimationFrame(drawFrame)
     }
-  }, [mode, resolution, getRenderSensors])
+  }, [mode, resolution, getRenderSensors, hoveredSensor])
 
   // Redraw when dependencies change
   useEffect(() => {
@@ -299,11 +399,35 @@ export function SensorSize() {
     return () => observer.disconnect()
   }, [drawFrame])
 
+  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLCanvasElement>) => {
+    if (mode !== 'overlay') { setHoveredSensor(null); return }
+    const canvas = canvasRef.current
+    if (!canvas) return
+    const rect = canvas.getBoundingClientRect()
+    const mx = e.clientX - rect.left
+    const my = e.clientY - rect.top
+    // Check rects from smallest to largest (reverse of sorted order) for better hit precision
+    for (let i = overlayRects.length - 1; i >= 0; i--) {
+      const r = overlayRects[i]
+      if (mx >= r.x && mx <= r.x + r.w && my >= r.y && my <= r.y + r.h) {
+        setHoveredSensor(r.id)
+        return
+      }
+    }
+    setHoveredSensor(null)
+  }, [mode])
+
+  const handleMouseLeave = useCallback(() => {
+    setHoveredSensor(null)
+  }, [])
+
   const controlsProps = {
-    visible, mode, resolution,
+    visible, mode, resolution, customSensors,
     onToggleSensor: toggleSensor,
     onModeChange: setMode,
     onResolutionChange: setResolution,
+    onAddCustom: addCustomSensor,
+    onRemoveCustom: removeCustomSensor,
   }
 
   return (
@@ -321,6 +445,8 @@ export function SensorSize() {
             style={{ width: '100%', flex: 1, minHeight: 300 }}
             aria-label={`Sensor size comparison in ${mode} mode`}
             role="img"
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
           />
 
           <div className={`${ss.tableWrap} ${ss.desktopOnly}`}>
@@ -350,6 +476,7 @@ export function SensorSize() {
 // ── Drawing functions ──
 
 function SensorTable({ sensors }: { sensors: Required<SensorPreset>[] }) {
+  const sorted = [...sensors].sort((a, b) => (b.w * b.h) - (a.w * a.h))
   return (
     <table className={ss.table}>
       <thead>
@@ -362,7 +489,7 @@ function SensorTable({ sensors }: { sensors: Required<SensorPreset>[] }) {
         </tr>
       </thead>
       <tbody>
-        {sensors.map((s) => {
+        {sorted.map((s) => {
           const area = s.w * s.h
           const diag = Math.sqrt(s.w * s.w + s.h * s.h)
           const crop = FF_DIAG / diag
@@ -391,6 +518,7 @@ function drawOverlay(
   W: number, H: number, pad: number,
   sensors: Required<SensorPreset>[],
   alphaMap?: Map<string, number>,
+  hoveredId?: string | null,
 ): number {
   const maxW = Math.max(...sensors.map((s) => s.w))
   const maxH = Math.max(...sensors.map((s) => s.h))
@@ -403,23 +531,22 @@ function drawOverlay(
   const sorted = [...sensors].sort((a, b) => b.w * b.h - a.w * a.h)
   const labelRowH = isMobile ? sorted.length * (pillH + labelGap) + 8 : 0
 
-  const dimAnnotationH = 40
-  const dimAnnotationW = isMobile ? 0 : 30
-  const availW = W - pad * 2 - labelColumnW - dimAnnotationW
+  const availW = W - pad * 2 - labelColumnW
   // On mobile, don't use full H for scaling — use a reasonable max for the sensor area
   const mobileMaxSensorH = isMobile ? Math.min(W * 0.8, 300) : 0
   const availH = isMobile
     ? mobileMaxSensorH
-    : H - pad * 2 - dimAnnotationH - labelRowH
+    : H - pad * 2 - labelRowH
   const scale = Math.min(availW / maxW, availH / maxH)
   const rectsH = maxH * scale
   const cx = pad + labelColumnW + availW / 2
   // On mobile, position from top; on desktop, center vertically
   const cy = isMobile
     ? pad + rectsH / 2
-    : pad + (H - pad * 2 - dimAnnotationH - labelRowH) / 2
+    : pad + (H - pad * 2 - labelRowH) / 2
 
-  // Draw all rects first (fills + strokes)
+  // Draw all rects first (fills + strokes), store positions for hit-testing
+  overlayRects = []
   for (const s of sorted) {
     const a = alphaMap?.get(s.id) ?? 1
     const rw = s.w * scale
@@ -427,6 +554,8 @@ function drawOverlay(
     const x = cx - rw / 2
     const y = cy - rh / 2
     const r = Math.min(4, rw * 0.02)
+
+    overlayRects.push({ id: s.id, x, y, w: rw, h: rh, sensorW: s.w, sensorH: s.h, color: s.color })
 
     ctx.save()
     ctx.globalAlpha = a
@@ -443,6 +572,52 @@ function drawOverlay(
     ctx.restore()
   }
 
+  // Draw dimension labels inside rects that are large enough
+  const MIN_DIM_W = 70
+  const MIN_DIM_H = 30
+  ctx.font = '9px system-ui, sans-serif'
+  ctx.textAlign = 'center'
+  ctx.textBaseline = 'bottom'
+
+  for (const s of sorted) {
+    const a = alphaMap?.get(s.id) ?? 1
+    const rw = s.w * scale
+    const rh = s.h * scale
+
+    if (rw >= MIN_DIM_W && rh >= MIN_DIM_H) {
+      const x = cx - rw / 2
+      const y = cy - rh / 2
+      ctx.save()
+      ctx.globalAlpha = a * 0.5
+      ctx.fillStyle = s.color
+      ctx.fillText(`${s.w}×${s.h} mm`, x + rw / 2, y + rh - 4)
+      ctx.restore()
+    }
+  }
+
+  // Draw tooltip for hovered sensor if its rect is too small for inline dims
+  if (hoveredId) {
+    const hRect = overlayRects.find(r => r.id === hoveredId)
+    if (hRect && (hRect.w < MIN_DIM_W || hRect.h < MIN_DIM_H)) {
+      const label = `${hRect.sensorW}×${hRect.sensorH} mm`
+      ctx.font = '10px system-ui, sans-serif'
+      const tw = ctx.measureText(label).width + 10
+      const th = 20
+      const tx = hRect.x + hRect.w / 2 - tw / 2
+      const ty = hRect.y - th - 4
+
+      ctx.save()
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.8)'
+      roundRect(ctx, tx, ty, tw, th, 4)
+      ctx.fill()
+      ctx.fillStyle = hRect.color
+      ctx.textAlign = 'center'
+      ctx.textBaseline = 'middle'
+      ctx.fillText(label, tx + tw / 2, ty + th / 2)
+      ctx.restore()
+    }
+  }
+
   ctx.font = '11px system-ui, sans-serif'
   const pillWidths = sorted.map(s => ctx.measureText(s.name).width + 10)
 
@@ -450,7 +625,7 @@ function drawOverlay(
     // ── Mobile: labels centered below the sensor rects ──
     const largest = sorted[0]
     const lh = largest.h * scale
-    let labelY = cy + lh / 2 + dimAnnotationH + 4
+    let labelY = cy + lh / 2 + 16
 
     for (let i = 0; i < sorted.length; i++) {
       const s = sorted[i]
@@ -536,69 +711,12 @@ function drawOverlay(
     }
   }
 
-  // Dimension annotations
-  const largest = sorted[0]
-  const lw = largest.w * scale
-  const lh = largest.h * scale
-  const lx = cx - lw / 2
-  const ly = cy - lh / 2
-
-  ctx.strokeStyle = rgba(largest.color, 0.3)
-  ctx.lineWidth = 1
-  ctx.setLineDash([3, 3])
-
-  // Width dimension below
-  const dimY = ly + lh + 16
-  ctx.beginPath()
-  ctx.moveTo(lx, dimY)
-  ctx.lineTo(lx + lw, dimY)
-  ctx.stroke()
-  ctx.beginPath()
-  ctx.moveTo(lx, dimY - 4)
-  ctx.lineTo(lx, dimY + 4)
-  ctx.stroke()
-  ctx.beginPath()
-  ctx.moveTo(lx + lw, dimY - 4)
-  ctx.lineTo(lx + lw, dimY + 4)
-  ctx.stroke()
-
-  ctx.setLineDash([])
-  ctx.fillStyle = rgba(largest.color, 0.5)
-  ctx.font = '10px system-ui, sans-serif'
-  ctx.textAlign = 'center'
-  ctx.textBaseline = 'top'
-  ctx.fillText(`${largest.w} mm`, cx, dimY + 4)
-
-  // Height dimension on right (desktop only)
-  if (!isMobile) {
-    const dimX = lx + lw + 16
-    ctx.setLineDash([3, 3])
-    ctx.beginPath()
-    ctx.moveTo(dimX, ly)
-    ctx.lineTo(dimX, ly + lh)
-    ctx.stroke()
-    ctx.beginPath()
-    ctx.moveTo(dimX - 4, ly)
-    ctx.lineTo(dimX + 4, ly)
-    ctx.stroke()
-    ctx.beginPath()
-    ctx.moveTo(dimX - 4, ly + lh)
-    ctx.lineTo(dimX + 4, ly + lh)
-    ctx.stroke()
-
-    ctx.setLineDash([])
-    ctx.save()
-    ctx.translate(dimX + 6, cy)
-    ctx.rotate(-Math.PI / 2)
-    ctx.fillText(`${largest.h} mm`, 0, 0)
-    ctx.restore()
-  }
-
   ctx.textBaseline = 'alphabetic'
   if (isMobile) {
-    // Return actual bottom of drawn content
-    const lastLabelY = dimY + 20 + labelRowH
-    return lastLabelY
+    const largest = sorted[0]
+    const lh = largest.h * scale
+    const bottomOfRects = cy + lh / 2
+    return bottomOfRects + 8 + labelRowH
   }
   return H
 }

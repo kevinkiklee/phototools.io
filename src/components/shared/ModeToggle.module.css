@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg-secondary);
+  padding-bottom: var(--space-xs);
+}
+
+.title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accent);
+}
+
+.toggle {
+  display: flex;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.btn {
+  flex: 1;
+  padding: 8px 12px;
+  min-height: 44px;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn:not(:last-child) {
+  border-right: 1px solid var(--border);
+}
+
+.btn:hover {
+  background: var(--bg-surface);
+}
+
+.btnActive {
+  background: var(--accent);
+  color: #000;
+}
+
+.btnActive:hover {
+  background: var(--accent);
+}

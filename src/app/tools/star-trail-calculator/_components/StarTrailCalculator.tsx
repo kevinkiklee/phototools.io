@@ -7,6 +7,7 @@ import { SENSORS } from '@/lib/data/sensors'
 import { FOCAL_LENGTHS } from '@/lib/data/focalLengths'
 import { useQueryInit, useToolQuerySync, intParam, numParam, strParam, sensorParam } from '@/lib/utils/querySync'
 import { LearnPanel } from '@/components/shared/LearnPanel'
+import { ModeToggle } from '@/components/shared/ModeToggle'
 import { ToolActions } from '@/components/shared/ToolActions'
 import { StarTrailCanvas } from './StarTrailCanvas'
 import css from './StarTrailCalculator.module.css'
@@ -82,23 +83,16 @@ function ControlsPanel({
 }) {
   return (
     <>
-      {/* Mode toggle */}
-      <div className={css.modeToggle}>
-        <button
-          className={`${css.modeBtn} ${mode === 'sharp' ? css.modeBtnActive : ''}`}
-          onClick={() => onModeChange('sharp')}
-          aria-pressed={mode === 'sharp'}
-        >
-          Sharp Stars
-        </button>
-        <button
-          className={`${css.modeBtn} ${mode === 'trails' ? css.modeBtnActive : ''}`}
-          onClick={() => onModeChange('trails')}
-          aria-pressed={mode === 'trails'}
-        >
-          Star Trails
-        </button>
-      </div>
+      <ModeToggle
+        title="Display Mode"
+        options={[
+          { value: 'sharp', label: 'Sharp Stars' },
+          { value: 'trails', label: 'Star Trails' },
+        ]}
+        value={mode}
+        onChange={onModeChange}
+        sticky
+      />
 
       {/* Camera controls */}
       <div className={css.field}>
@@ -161,7 +155,7 @@ function ControlsPanel({
       {/* Latitude slider */}
       <div className={css.field}>
         <label className={css.fieldLabel}>
-          Latitude: <span className={css.fieldValue}>{latitude}\u00B0</span>
+          Latitude: <span className={css.fieldValue}>{latitude}°</span>
         </label>
         <input
           type="range"
@@ -172,6 +166,17 @@ function ControlsPanel({
           value={latitude}
           onChange={(e) => onLatitudeChange(Number(e.target.value))}
         />
+        <button
+          className={css.geoBtn}
+          onClick={() => {
+            navigator.geolocation.getCurrentPosition(
+              (pos) => onLatitudeChange(Math.round(Math.abs(pos.coords.latitude))),
+              () => {},
+            )
+          }}
+        >
+          📍 Use My Location
+        </button>
       </div>
 
       {/* Trail mode controls */}

@@ -33,7 +33,7 @@ const nextConfig: NextConfig = {
         headers: [
           // Privacy
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(), interest-cohort=()' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(self), interest-cohort=()' },
 
           // Security
           { key: 'X-Content-Type-Options', value: 'nosniff' },
