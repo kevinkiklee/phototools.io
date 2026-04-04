@@ -324,58 +324,50 @@ export function SensorSize() {
     const customParam = params.get('custom')
     let loadedCustom: Required<SensorPreset>[] = []
 
-    // Always load localStorage sensors first
-    const storedCustom = loadCustomSensors()
-
     if (customParam) {
-      // Merge URL custom sensors with localStorage sensors (URL sensors use custom_url_* IDs)
-      const fromUrl = decodeCustomParam(customParam)
-      // Combine: localStorage sensors + URL sensors (avoid ID conflicts)
-      const urlIds = new Set(fromUrl.map(s => s.id))
-      loadedCustom = [...storedCustom.filter(s => !urlIds.has(s.id)), ...fromUrl]
+      // URL custom param takes precedence
+      loadedCustom = decodeCustomParam(customParam)
       customColorIdx = loadedCustom.length
     } else {
-      loadedCustom = storedCustom
+      loadedCustom = loadCustomSensors()
     }
 
-    if (loadedCustom.length > 0) {
-      setCustomSensors(loadedCustom)
-    }
+    // Build the complete set of valid custom IDs
+    const customIds = new Set(loadedCustom.map(s => s.id))
 
-    // Now apply show param — accept built-in IDs, loaded custom IDs, and any custom_ prefixed IDs
+    // Determine which sensors to show
     const showParam = params.get('show')
+    let newVisible: Set<string>
+
     if (showParam && showParam.length > 0) {
       // Explicit show param — select only what's specified
-      const customIds = new Set(loadedCustom.map(s => s.id))
-      const ids = showParam.split(/[+,]/).filter(id =>
-        ALL_SENSOR_ID_SET.has(id) || customIds.has(id) || id.startsWith('custom_')
+      const ids = showParam.split(/[+, ]+/).filter(id =>
+        id && (ALL_SENSOR_ID_SET.has(id) || customIds.has(id))
       )
-      if (ids.length > 0) {
-        setVisible(new Set(ids))
-      }
+      newVisible = ids.length > 0 ? new Set(ids) : new Set(DEFAULT_VISIBLE_IDS)
     } else if (customParam && loadedCustom.length > 0) {
       // Custom param but no show param — select all custom sensors only
-      setVisible(new Set(loadedCustom.map(s => s.id)))
+      newVisible = new Set(loadedCustom.map(s => s.id))
     } else if (loadedCustom.length > 0) {
       // No URL params, but localStorage has custom sensors — add them to defaults
-      setVisible(prev => {
-        const next = new Set(prev)
-        loadedCustom.forEach(s => next.add(s.id))
-        return next
-      })
+      newVisible = new Set([...DEFAULT_VISIBLE_IDS, ...loadedCustom.map(s => s.id)])
+    } else {
+      newVisible = new Set(DEFAULT_VISIBLE_IDS)
     }
 
     // Apply mode and mp params
     const modeParam = params.get('mode')
-    if (modeParam && ['overlay', 'side-by-side', 'pixel-density'].includes(modeParam)) {
-      setMode(modeParam as DisplayMode)
-    }
+    const newMode = (modeParam && ['overlay', 'side-by-side', 'pixel-density'].includes(modeParam))
+      ? modeParam as DisplayMode : 'overlay'
     const mpParam = params.get('mp')
-    if (mpParam) {
-      const n = parseInt(mpParam)
-      if (!isNaN(n) && n >= 1 && n <= 200) setResolution(n)
-    }
+    const newMp = mpParam ? Math.min(Math.max(parseInt(mpParam) || 24, 1), 200) : 24
 
+    // Batch all state updates together
+    setCustomSensors(loadedCustom)
+    setVisible(newVisible)
+    setMode(newMode)
+    setResolution(newMp)
+    prevVisibleRef.current = newVisible
     setHydrated(true)
   }, [])
 
