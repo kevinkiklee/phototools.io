@@ -40,7 +40,7 @@ export function FrameStudio() {
   const [activeGrids, setActiveGrids] = useState<GridType[]>([])
   const [gridOptions, setGridOptions] = useState<GridOptions>(DEFAULT_GRID_OPTIONS)
   const [frameConfig, setFrameConfig] = useState<FrameConfig>(DEFAULT_FRAME_CONFIG)
-  const [gridOpen, setGridOpen] = useState(false)
+
   const [canvasDims, setCanvasDims] = useState({ width: 0, height: 0, offsetX: 0, offsetY: 0 })
   const [showExport, setShowExport] = useState(false)
   const [aspectRatio, setAspectRatio] = useState<number | null>(null)
@@ -61,7 +61,7 @@ export function FrameStudio() {
     setActiveGrids([])
     setGridOptions(DEFAULT_GRID_OPTIONS)
     setFrameConfig(DEFAULT_FRAME_CONFIG)
-    setGridOpen(false)
+
     setShowExport(false)
     setAspectRatio(null)
   }, [])
@@ -85,28 +85,12 @@ export function FrameStudio() {
         <FramePanel config={frameConfig} onChange={setFrameConfig} />
       )}
 
-      <button
-        className={`${styles.gridToggle} ${gridOpen ? styles.gridToggleActive : ''}`}
-        onClick={() => setGridOpen((v) => !v)}
-      >
-        <svg viewBox="0 0 20 20" width={16} height={16} fill="none" stroke="currentColor" strokeWidth={1.5}>
-          <rect x="2" y="2" width="16" height="16" rx="1" />
-          <line x1="8" y1="2" x2="8" y2="18" />
-          <line x1="13" y1="2" x2="13" y2="18" />
-          <line x1="2" y1="8" x2="18" y2="8" />
-          <line x1="2" y1="13" x2="18" y2="13" />
-        </svg>
-        Grid Overlay
-      </button>
-
-      {gridOpen && (
-        <GridControls
-          activeGrids={activeGrids}
-          onActiveGridsChange={setActiveGrids}
-          options={gridOptions}
-          onOptionsChange={setGridOptions}
-        />
-      )}
+      <GridControls
+        activeGrids={activeGrids}
+        onActiveGridsChange={setActiveGrids}
+        options={gridOptions}
+        onOptionsChange={setGridOptions}
+      />
 
       {originalImage && (
         <button className={styles.exportBtn} onClick={() => setShowExport(true)}>

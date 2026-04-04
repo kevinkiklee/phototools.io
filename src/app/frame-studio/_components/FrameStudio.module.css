@@ -53,32 +53,6 @@
   height: 100%;
 }
 
-/* Grid toggle button */
-.gridToggle {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  width: 100%;
-  padding: 8px 12px;
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  color: var(--text-secondary);
-  font-size: 0.8125rem;
-  cursor: pointer;
-  transition: border-color 0.15s, color 0.15s;
-}
-
-.gridToggle:hover {
-  border-color: var(--accent);
-  color: var(--text-primary);
-}
-
-.gridToggleActive {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
 /* Export button */
 .exportBtn {
   width: 100%;
