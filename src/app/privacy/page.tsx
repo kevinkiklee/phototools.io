@@ -116,6 +116,73 @@ export default function PrivacyPage() {
 
       <section style={{ marginBottom: 'var(--space-xl)' }}>
         <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 'var(--space-sm)' }}>
+          Google AdSense
+        </h2>
+        <p>
+          PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies
+          and web beacons to serve ads based on your prior visits to this site or other websites.
+          Google&apos;s use of advertising cookies enables it and its partners to serve ads based on
+          your browsing patterns.
+        </p>
+        <p style={{ marginTop: 'var(--space-sm)' }}>
+          You may opt out of personalized advertising by visiting{' '}
+          <a
+            href="https://www.google.com/settings/ads"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'var(--accent)' }}
+          >
+            Google Ads Settings
+          </a>
+          . For more information about how Google uses data, see{' '}
+          <a
+            href="https://policies.google.com/technologies/partner-sites"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'var(--accent)' }}
+          >
+            How Google uses data when you use our partners&apos; sites
+          </a>
+          .
+        </p>
+      </section>
+
+      <section style={{ marginBottom: 'var(--space-xl)' }}>
+        <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 'var(--space-sm)' }}>
+          Cookie Consent
+        </h2>
+        <p>
+          When you first visit PhotoTools, a cookie consent banner is displayed allowing you to
+          accept or reject non-essential cookies. This banner is powered by CookieYes, a
+          Google-certified Consent Management Platform that supports the IAB Transparency and Consent
+          Framework (TCF) v2.3.
+        </p>
+        <p style={{ marginTop: 'var(--space-sm)' }}>
+          You can change your consent preferences at any time by clicking the cookie settings link
+          in the footer. If you reject advertising cookies, you will still see ads, but they will
+          not be personalized to your browsing history.
+        </p>
+      </section>
+
+      <section style={{ marginBottom: 'var(--space-xl)' }}>
+        <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 'var(--space-sm)' }}>
+          California Residents (CCPA)
+        </h2>
+        <p>
+          Under the California Consumer Privacy Act (CCPA), California residents have the right to
+          know what personal information is collected, request its deletion, and opt out of its sale.
+          PhotoTools does not sell personal information. Advertising cookies used by our ad partners
+          may constitute a &quot;sale&quot; under the CCPA — you can opt out via the cookie consent banner
+          or by contacting us through our{' '}
+          <a href="/contact" style={{ color: 'var(--accent)' }}>
+            contact page
+          </a>
+          .
+        </p>
+      </section>
+
+      <section style={{ marginBottom: 'var(--space-xl)' }}>
+        <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 'var(--space-sm)' }}>
           Data Sharing
         </h2>
         <p>
