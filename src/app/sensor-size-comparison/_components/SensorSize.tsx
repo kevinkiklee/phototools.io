@@ -8,12 +8,11 @@ import { getToolBySlug } from '@/lib/data/tools'
 import ss from './SensorSize.module.css'
 import { pixelPitch } from '@/lib/math/diffraction'
 // strParam and intParam kept for reference but query sync is manual
-import { SENSORS, POPULAR_MODELS, COMMON_MP, type MpEntry } from '@/lib/data/sensors'
+import { SENSORS, POPULAR_MODELS, COMMON_MP, calcCropFactor, type MpEntry } from '@/lib/data/sensors'
 import type { SensorPreset } from '@/lib/types'
 
 type DisplayMode = 'overlay' | 'side-by-side' | 'pixel-density'
 
-const FF_DIAG = Math.sqrt(36 * 36 + 24 * 24)
 
 const ALL_SENSOR_IDS = SENSORS.map((s) => s.id) as unknown as string[]
 const ALL_SENSOR_ID_SET = new Set(ALL_SENSOR_IDS)
@@ -303,8 +302,7 @@ function decodeCustomParam(raw: string): Required<SensorPreset>[] {
     if (!name || isNaN(w) || isNaN(h) || w <= 0 || h <= 0) return null
     const id = `custom_url_${i}`
     const color = CUSTOM_COLORS[i % CUSTOM_COLORS.length]
-    const diag = Math.sqrt(w * w + h * h)
-    const cropFactor = FF_DIAG / diag
+    const cropFactor = calcCropFactor(w, h)
     if (mp > 0) COMMON_MP[id] = [{ mp, models: name }]
     return { id, name, w, h, cropFactor, color } as Required<SensorPreset>
   }).filter(Boolean) as Required<SensorPreset>[]
@@ -440,8 +438,7 @@ export function SensorSize() {
     const id = `custom_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`
     const color = CUSTOM_COLORS[customColorIdx % CUSTOM_COLORS.length]
     customColorIdx++
-    const diag = Math.sqrt(w * w + h * h)
-    const cropFactor = FF_DIAG / diag
+    const cropFactor = calcCropFactor(w, h)
     const sensor: Required<SensorPreset> = { id, name, w, h, cropFactor, color }
     setCustomSensors(prev => [...prev, sensor])
     setVisible(prev => new Set([...prev, id]))
@@ -451,8 +448,7 @@ export function SensorSize() {
   }, [])
 
   const editCustomSensor = useCallback((id: string, name: string, w: number, h: number, mp: number) => {
-    const diag = Math.sqrt(w * w + h * h)
-    const cropFactor = FF_DIAG / diag
+    const cropFactor = calcCropFactor(w, h)
     setCustomSensors(prev => prev.map(s => s.id === id ? { ...s, name, w, h, cropFactor } : s))
     if (mp > 0) {
       COMMON_MP[id] = [{ mp, models: name }]
@@ -730,8 +726,7 @@ function SensorTable({ sensors }: { sensors: Required<SensorPreset>[] }) {
       <tbody>
         {sorted.map((s) => {
           const area = s.w * s.h
-          const diag = Math.sqrt(s.w * s.w + s.h * s.h)
-          const crop = FF_DIAG / diag
+          const crop = calcCropFactor(s.w, s.h)
           return (
             <tr key={s.id}>
               <td style={{ textAlign: 'left' }}>

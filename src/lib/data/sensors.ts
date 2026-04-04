@@ -1,15 +1,49 @@
 import type { SensorPreset } from '@/lib/types'
 
+const FF_W = 36
+const FF_H = 24
+
+/**
+ * Aspect-ratio-aware crop factor.
+ *
+ * Instead of comparing diagonals against the full 36×24 frame (which gives
+ * misleading results for non-3:2 sensors), we compare against the largest
+ * 36×24 crop that matches the sensor's aspect ratio.
+ *
+ * For example, a 4:3 Micro Four Thirds sensor is compared against a 32×24
+ * crop of full frame (4:3 at FF height), not the full 36×24 diagonal.
+ * This means a person shooting 16:9 on FF won't see a spurious ~1.09× crop.
+ */
+export function calcCropFactor(w: number, h: number): number {
+  const sensorAspect = w / h
+  const ffAspect = FF_W / FF_H
+
+  let refW: number, refH: number
+  if (sensorAspect >= ffAspect) {
+    // Sensor is wider than or equal to 3:2 — constrained by FF width
+    refW = FF_W
+    refH = FF_W / sensorAspect
+  } else {
+    // Sensor is taller than 3:2 — constrained by FF height
+    refH = FF_H
+    refW = FF_H * sensorAspect
+  }
+
+  const refDiag = Math.sqrt(refW * refW + refH * refH)
+  const sensorDiag = Math.sqrt(w * w + h * h)
+  return refDiag / sensorDiag
+}
+
 export const SENSORS: SensorPreset[] = [
-  { id: 'mf_645', name: 'Medium Format (54x40)', cropFactor: 0.64, w: 53.4, h: 40.0, color: '#a855f7' },
-  { id: 'mf', name: 'Medium Format (44x33)', cropFactor: 0.79, w: 43.8, h: 32.9, color: '#8b5cf6' },
-  { id: 'mf_leica', name: 'Medium Format (45x30)', cropFactor: 0.8, w: 45.0, h: 30.0, color: '#d946ef' },
+  { id: 'mf_645', name: 'Medium Format (54x40)', cropFactor: calcCropFactor(53.4, 40.0), w: 53.4, h: 40.0, color: '#a855f7' },
+  { id: 'mf', name: 'Medium Format (44x33)', cropFactor: calcCropFactor(43.8, 32.9), w: 43.8, h: 32.9, color: '#8b5cf6' },
+  { id: 'mf_leica', name: 'Medium Format (45x30)', cropFactor: calcCropFactor(45.0, 30.0), w: 45.0, h: 30.0, color: '#d946ef' },
   { id: 'ff', name: 'Full Frame', cropFactor: 1.0, w: 36, h: 24, color: '#3b82f6' },
-  { id: 'apsc_n', name: 'APS-C (1.5x)', cropFactor: 1.5, w: 23.5, h: 15.6, color: '#10b981' },
-  { id: 'apsc_c', name: 'APS-C (Canon)', cropFactor: 1.6, w: 22.3, h: 14.9, color: '#f59e0b' },
-  { id: 'm43', name: 'Micro Four Thirds', cropFactor: 2.0, w: 17.3, h: 13, color: '#ef4444' },
-  { id: '1in', name: '1" Sensor', cropFactor: 2.7, w: 13.2, h: 8.8, color: '#ec4899' },
-  { id: 'phone', name: 'Smartphone Flagship (1/1.3")', cropFactor: 3.5, w: 9.8, h: 7.3, color: '#8b5cf6' },
+  { id: 'apsc_n', name: 'APS-C (1.5x)', cropFactor: calcCropFactor(23.5, 15.6), w: 23.5, h: 15.6, color: '#10b981' },
+  { id: 'apsc_c', name: 'APS-C (Canon)', cropFactor: calcCropFactor(22.3, 14.9), w: 22.3, h: 14.9, color: '#f59e0b' },
+  { id: 'm43', name: 'Micro Four Thirds', cropFactor: calcCropFactor(17.3, 13), w: 17.3, h: 13, color: '#ef4444' },
+  { id: '1in', name: '1" Sensor', cropFactor: calcCropFactor(13.2, 8.8), w: 13.2, h: 8.8, color: '#ec4899' },
+  { id: 'phone', name: 'Smartphone Flagship (1/1.3")', cropFactor: calcCropFactor(9.8, 7.3), w: 9.8, h: 7.3, color: '#8b5cf6' },
 ]
 
 export function getSensor(id: string): SensorPreset {
