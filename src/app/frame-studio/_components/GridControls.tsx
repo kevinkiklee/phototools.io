@@ -26,12 +26,8 @@ const THICKNESS_OPTIONS: GridOptions['thickness'][] = ['thin', 'medium', 'thick'
 export function GridControls({
   activeGrids, onActiveGridsChange, options, onOptionsChange,
 }: GridControlsProps) {
-  const toggleGrid = useCallback((id: GridType) => {
-    onActiveGridsChange(
-      activeGrids.includes(id)
-        ? activeGrids.filter((g) => g !== id)
-        : [...activeGrids, id],
-    )
+  const selectGrid = useCallback((id: GridType) => {
+    onActiveGridsChange(activeGrids.includes(id) ? [] : [id])
   }, [activeGrids, onActiveGridsChange])
 
   const updateOption = useCallback(<K extends keyof GridOptions>(key: K, value: GridOptions[K]) => {
@@ -48,9 +44,11 @@ export function GridControls({
           {GRID_TYPES.map((g) => (
             <label key={g.id} className={styles.gridType}>
               <input
-                type="checkbox"
+                type="radio"
+                name="grid-type"
                 checked={activeGrids.includes(g.id)}
-                onChange={() => toggleGrid(g.id)}
+                onChange={() => selectGrid(g.id)}
+                onClick={() => { if (activeGrids.includes(g.id)) selectGrid(g.id) }}
               />
               <span>{g.label}</span>
             </label>
