@@ -76,6 +76,13 @@
   color: var(--text-secondary);
 }
 
+.fieldDesc {
+  font-size: 10px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
 .editableValue {
   background: none;
   border: none;

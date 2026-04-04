@@ -136,15 +136,15 @@ function ControlsPanel({
       {/* Trail mode controls card */}
       {mode === 'trails' && (
         <ControlPanel title="Stacking">
-          <FieldRow label="Exposure / frame (s)">
+          <FieldRow label="Exposure / frame (sec)" description="Shutter speed for each individual frame">
             <NumberStepper value={exposurePerFrame} min={1} max={600} onChange={onExposurePerFrameChange} />
           </FieldRow>
 
-          <FieldRow label="Frames">
-            <NumberStepper value={numFrames} min={1} max={999} onChange={onNumFramesChange} />
+          <FieldRow label="Frames" description="Total number of photos to stack">
+            <NumberStepper value={numFrames} min={1} max={9999} onChange={onNumFramesChange} />
           </FieldRow>
 
-          <FieldRow label="Gap (seconds)">
+          <FieldRow label="Gap (sec)" description="Delay between frames for buffer write">
             <NumberStepper value={gap} min={0} max={60} onChange={onGapChange} />
           </FieldRow>
         </ControlPanel>
@@ -286,6 +286,9 @@ export function StarTrailCalculator() {
   const totalExposure = exposurePerFrame * numFrames
 
   const handleBeforeCopy = useCallback(() => {
+    // Draw a static full-progress frame first (captures trails at 100%)
+    canvasHandle.current?.drawStatic()
+
     const src = canvasHandle.current?.canvas
     if (!src) return
     // Create a copy canvas to draw the overlay on (so the live canvas isn't modified)

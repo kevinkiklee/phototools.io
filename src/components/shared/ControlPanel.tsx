@@ -194,16 +194,20 @@ export function FocalLengthField({ value, onChange, color, minFocal = FOCAL_MIN 
 
 interface FieldRowProps {
   label: string
+  description?: string
   value?: string | number
   children?: ReactNode
 }
 
-export function FieldRow({ label, value, children }: FieldRowProps) {
+export function FieldRow({ label, description, value, children }: FieldRowProps) {
   return (
-    <div className={styles.fieldRow}>
-      <span className={styles.fieldLabel}>{label}</span>
-      {value !== undefined && <span className={styles.fieldValue}>{value}</span>}
-      {children}
+    <div>
+      <div className={styles.fieldRow}>
+        <span className={styles.fieldLabel}>{label}</span>
+        {value !== undefined && <span className={styles.fieldValue}>{value}</span>}
+        {children}
+      </div>
+      {description && <div className={styles.fieldDesc}>{description}</div>}
     </div>
   )
 }

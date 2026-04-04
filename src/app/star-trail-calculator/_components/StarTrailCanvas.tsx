@@ -5,6 +5,7 @@ import css from './StarTrailCalculator.module.css'
 
 export interface StarTrailCanvasHandle {
   canvas: HTMLCanvasElement | null
+  drawStatic: () => void
 }
 
 interface StarTrailCanvasProps {
@@ -70,7 +71,7 @@ export function StarTrailCanvas({
 }: StarTrailCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
-  useImperativeHandle(ref, () => ({ canvas: canvasRef.current }), [])
+  // useImperativeHandle is below draw functions
   const animRef = useRef<number>(0)
   const startTimeRef = useRef<number>(0)
 
@@ -277,6 +278,25 @@ export function StarTrailCanvas({
     },
     [getPolePosition, totalExposure, drawSky, drawTerrain],
   )
+
+  useImperativeHandle(ref, () => ({
+    canvas: canvasRef.current,
+    drawStatic: () => {
+      const canvas = canvasRef.current
+      if (!canvas) return
+      const ctx = canvas.getContext('2d')
+      if (!ctx) return
+      const dpr = window.devicePixelRatio || 1
+      const w = canvas.width / dpr
+      const h = canvas.height / dpr
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
+      if (mode === 'sharp') {
+        drawSharp(ctx, w, h)
+      } else {
+        drawTrails(ctx, w, h, 1) // progress=1 for full trails
+      }
+    },
+  }), [mode, drawSharp, drawTrails])
 
   useEffect(() => {
     const canvas = canvasRef.current
