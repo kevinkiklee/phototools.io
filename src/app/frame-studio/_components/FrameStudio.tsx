@@ -15,6 +15,7 @@ import { CropView } from './CropView'
 import { CropPanel } from './CropPanel'
 import { FramePanel } from './FramePanel'
 import { GridControls } from './GridControls'
+import { ExportDialog } from './ExportDialog'
 import type {
   EditorMode, GridType, GridOptions, FrameConfig, CropState,
 } from './types'
@@ -163,6 +164,18 @@ export function FrameStudio() {
         </div>
         <LearnPanel slug={SLUG} />
       </div>
+      {showExport && originalImage && originalFile && (
+        <ExportDialog
+          image={originalImage}
+          crop={cropState}
+          frameConfig={frameConfig}
+          activeGrids={activeGrids}
+          gridOptions={gridOptions}
+          originalFile={originalFile}
+          originalMimeType={originalMimeType}
+          onClose={() => setShowExport(false)}
+        />
+      )}
     </>
   )
 }
