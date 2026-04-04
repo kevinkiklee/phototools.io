@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Glossary } from './_components/Glossary'
 import { GLOSSARY } from '@/lib/data/glossary'
+import { AdUnit } from '@/components/shared/AdUnit'
+import styles from './page.module.css'
 
 export const metadata: Metadata = {
   title: 'Photography Glossary',
@@ -22,16 +24,21 @@ export default function GlossaryPage() {
   }
 
   return (
-    <div style={{ padding: 'var(--space-xl) var(--space-md)', maxWidth: 800, margin: '0 auto' }}>
+    <div className={styles.outer}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 'var(--space-sm)' }}>Photography Glossary</h1>
-      <p style={{ color: 'var(--text-secondary)', marginBottom: 'var(--space-xl)' }}>
-        Searchable reference of photography terms. Click any term to see its definition.
-      </p>
-      <Glossary />
+      <div className={styles.main}>
+        <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 'var(--space-sm)' }}>Photography Glossary</h1>
+        <p style={{ color: 'var(--text-secondary)', marginBottom: 'var(--space-xl)' }}>
+          Searchable reference of photography terms. Click any term to see its definition.
+        </p>
+        <Glossary />
+      </div>
+      <div className={styles.sidebar}>
+        <AdUnit slot="" format="rectangle" channel="glossary_sidebar" />
+      </div>
     </div>
   )
 }
