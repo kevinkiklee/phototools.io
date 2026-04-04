@@ -74,14 +74,14 @@ export const COMMON_MP: Record<string, MpEntry[]> = {
   ff: [
     { mp: 12, models: 'Sony A7S III' },
     { mp: 20, models: 'Canon R6' },
-    { mp: 24, models: 'Sony A7 III / Nikon Z6 III / Canon R6 Mark II / Leica SL2-S / Leica M10' },
+    { mp: 24, models: 'Sony A7 III / Nikon Z6 III' },
     { mp: 33, models: 'Sony A7 IV' },
-    { mp: 45, models: 'Canon R5 / Nikon Z8 / Nikon Z9' },
+    { mp: 45, models: 'Canon R5 / Nikon Z9' },
     { mp: 61, models: 'Sony A7R V / Sigma fp L' },
   ],
   apsc_n: [
     { mp: 20, models: 'Nikon Z50 / Z50II' },
-    { mp: 24, models: 'Sony A6400 / Leica CL' },
+    { mp: 24, models: 'Sony A6400' },
     { mp: 26, models: 'Sony A6700 / Fujifilm X-H2S' },
     { mp: 40, models: 'Fujifilm X-T5 / X-H2' },
   ],

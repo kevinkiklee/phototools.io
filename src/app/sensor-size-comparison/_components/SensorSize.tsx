@@ -1,10 +1,9 @@
 'use client'
 
-import { useState, useRef, useEffect, useCallback, type ReactNode } from 'react'
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react'
 import { LearnPanel } from '@/components/shared/LearnPanel'
 import { ModeToggle } from '@/components/shared/ModeToggle'
 import { ToolActions } from '@/components/shared/ToolActions'
-import { getToolBySlug } from '@/lib/data/tools'
 import ss from './SensorSize.module.css'
 import { pixelPitch } from '@/lib/math/diffraction'
 // strParam and intParam kept for reference but query sync is manual
@@ -63,8 +62,6 @@ function roundRect(
   ctx.arcTo(x, y, x + r, y, r)
   ctx.closePath()
 }
-
-const tool = getToolBySlug('sensor-size-comparison')
 
 function CustomSensorForm({ onAdd }: { onAdd: (name: string, w: number, h: number, mp: number) => void }) {
   const [name, setName] = useState('')
@@ -148,16 +145,14 @@ function EditSensorRow({ sensor, onSave, onCancel }: {
 }
 
 function ControlsPanel({
-  visible, mode, resolution, customSensors,
-  onToggleSensor, onModeChange, onResolutionChange, onAddCustom, onRemoveCustom, onRemoveAllCustom, onEditCustom,
+  visible, mode, customSensors,
+  onToggleSensor, onModeChange, onAddCustom, onRemoveCustom, onRemoveAllCustom, onEditCustom,
 }: {
   visible: Set<string>
   mode: DisplayMode
-  resolution: number
   customSensors: Required<SensorPreset>[]
   onToggleSensor: (id: string) => void
   onModeChange: (m: DisplayMode) => void
-  onResolutionChange: (v: number) => void
   onAddCustom: (name: string, w: number, h: number, mp: number) => void
   onRemoveCustom: (id: string) => void
   onRemoveAllCustom: () => void
@@ -442,8 +437,8 @@ export function SensorSize() {
     window.history.replaceState(null, '', url.toString())
   }, [visible, mode, resolution, customSensors, hydrated])
 
-  const allSensors = [...SENSORS as Required<SensorPreset>[], ...customSensors]
-  const visibleSensors = allSensors.filter((s) => visible.has(s.id))
+  const allSensors = useMemo(() => [...SENSORS as Required<SensorPreset>[], ...customSensors], [customSensors])
+  const visibleSensors = useMemo(() => allSensors.filter((s) => visible.has(s.id)), [allSensors, visible])
 
   const toggleSensor = useCallback((id: string) => {
     setVisible((prev) => {
@@ -542,7 +537,7 @@ export function SensorSize() {
     }
 
     return { sensors, alphaMap }
-  }, [visible])
+  }, [visible, allSensors])
 
   const drawFrame = useCallback(() => {
     const canvas = canvasRef.current
@@ -552,12 +547,12 @@ export function SensorSize() {
 
     const dpr = window.devicePixelRatio || 1
     const cssWidth = canvas.clientWidth
-    const isMobile = cssWidth < 600
-    // Pixel-density mode can be very tall — allocate generous height then crop
-    const naturalHeight = canvas.clientHeight || 420
-    const needsTallCanvas = isMobile || mode === 'pixel-density'
-    const maxHeight = needsTallCanvas ? 5000 : naturalHeight
-    let cssHeight = maxHeight
+    if (cssWidth === 0) return // not yet measured
+
+    // Always allow canvas to be tall enough for its content and push the table down.
+    // The .main container has overflow: auto to handle the scrolling.
+    const maxHeight = 5000
+    const cssHeight = maxHeight
     canvas.style.height = `${cssHeight}px`
     canvas.width = cssWidth * dpr
     canvas.height = cssHeight * dpr
@@ -611,9 +606,9 @@ export function SensorSize() {
     }
 
     // Crop canvas to actual content height
-    if (needsTallCanvas && contentH < cssHeight) {
-      const finalH = Math.max(contentH + padding, 200)
-      canvas.style.height = `${finalH}px`
+    const finalH = Math.max(contentH, 200)
+    canvas.style.height = `${finalH}px`
+    if (finalH < maxHeight) {
       const imageData = ctx.getImageData(0, 0, canvas.width, Math.ceil(finalH * dpr))
       canvas.height = Math.ceil(finalH * dpr)
       ctx.putImageData(imageData, 0, 0)
@@ -697,7 +692,7 @@ export function SensorSize() {
           <canvas
             ref={canvasRef}
             className={ss.canvas}
-            style={{ width: '100%', flex: 1, minHeight: 300 }}
+            style={{ width: '100%', minHeight: 300, flexShrink: 0 }}
             aria-label={`Sensor size comparison in ${mode} mode`}
             role="img"
             onMouseMove={handleMouseMove}
@@ -789,21 +784,23 @@ function drawOverlay(
   const pillH = 18
   const labelGap = 4
   const sorted = [...sensors].sort((a, b) => b.w * b.h - a.w * a.h)
-  const labelRowH = isMobile ? sorted.length * (pillH + labelGap) + 8 : 0
 
   const availW = W - pad * 2 - labelColumnW
-  // On mobile, don't use full H for scaling — use a reasonable max for the sensor area
-  const mobileMaxSensorH = isMobile ? Math.min(W * 0.8, 300) : 0
-  const availH = isMobile
-    ? mobileMaxSensorH
-    : H - pad * 2 - labelRowH
+  // Desktop: we want a "comfortable" height but grow if needed for labels
+  const totalLabelH = sorted.length * pillH + (sorted.length - 1) * labelGap
+  
+  // On desktop, we want sensors to be large but not exceed a reasonable scale
+  // If we have a lot of height (like 5000), we don't want to use it all for one sensor.
+  // We'll target around 400px for the sensor area height if possible.
+  const targetSensorH = 400
+  const availH = isMobile ? Math.min(W * 0.8, 300) : Math.max(targetSensorH, totalLabelH)
+  
   const scale = Math.min(availW / maxW, availH / maxH)
   const rectsH = maxH * scale
   const cx = pad + labelColumnW + availW / 2
-  // On mobile, position from top; on desktop, center vertically
-  const cy = isMobile
-    ? pad + rectsH / 2
-    : pad + (H - pad * 2 - labelRowH) / 2
+  
+  // Position from top since we are in a growing canvas
+  const cy = pad + Math.max(rectsH, totalLabelH) / 2
 
   // Draw all rects first (fills + strokes), store positions for hit-testing
   overlayRects = []
@@ -917,9 +914,9 @@ function drawOverlay(
 
       labelY += pillH + labelGap
     }
+    return labelY + pad
   } else {
     // ── Desktop: labels as a column to the left of rects ──
-    const totalLabelH = sorted.length * pillH + (sorted.length - 1) * labelGap
     let labelY = cy - totalLabelH / 2
 
     const largestRectLeft = cx - sorted[0].w * scale / 2
@@ -969,16 +966,8 @@ function drawOverlay(
 
       labelY += pillH + labelGap
     }
+    return cy + Math.max(rectsH, totalLabelH) / 2 + pad
   }
-
-  ctx.textBaseline = 'alphabetic'
-  if (isMobile) {
-    const largest = sorted[0]
-    const lh = largest.h * scale
-    const bottomOfRects = cy + lh / 2
-    return bottomOfRects + 8 + labelRowH
-  }
-  return H
 }
 
 function drawSideBySideRow(
@@ -1098,22 +1087,24 @@ function drawSideBySide(
 
     const totalGap = (sensors.length - 1) * gap
     const availW = W - pad * 2 - totalGap
-    const availH = H - pad * 2 - labelSpace
+    // On desktop single row, we want them to be large but fit a reasonable height
+    const targetH = 400
+    const availH = targetH
 
-    let lo = 0, hi = availH / maxH
+    let lo = 0, hi = 50 // generous max scale
     for (let iter = 0; iter < 30; iter++) {
       const mid = (lo + hi) / 2
       const totalNeeded = sensors.reduce((sum, s, i) => sum + Math.max(s.w * mid, minTextWidths[i]), 0)
-      if (totalNeeded <= availW) lo = mid
+      if (totalNeeded <= availW && maxH * mid <= availH) lo = mid
       else hi = mid
     }
     const scale = lo
 
     const tallestH = maxH * scale
-    const groupH = tallestH + labelSpace
-    const baseY = (H + groupH) / 2 - labelSpace
+    const baseY = pad + tallestH
 
     drawSideBySideRow(ctx, W, pad, sensors, scale, baseY, alphaMap)
+    return baseY + labelSpace + pad
   } else {
     // Multiple rows: on mobile use 2 per row, otherwise split in half
     const perRow = isMobile ? 2 : Math.ceil(sensors.length / 2)
@@ -1123,11 +1114,9 @@ function drawSideBySide(
     }
 
     const rowGap = 20
-    const maxModels = Math.max(...sensors.map(s => (POPULAR_MODELS[s.id] ?? []).length), 0)
-    const labelSpace = 36 + maxModels * 12
     const maxH = Math.max(...sensors.map(s => s.h))
 
-    // Compute scale that fits all rows
+    // Compute scale that fits row width
     ctx.font = '10px system-ui, sans-serif'
     const minTextWidths = sensors.map(s => {
       const nameLabel = s.name.length > 14 ? s.name.replace(' (', '\n(') : s.name
@@ -1139,26 +1128,24 @@ function drawSideBySide(
       return Math.max(nameW, modelW) + 8
     })
 
-    const availH = (H - pad * 2 - (rows.length - 1) * rowGap - labelSpace * rows.length) / rows.length
     const maxRowLen = Math.max(...rows.map(r => r.length))
     const totalGap = (maxRowLen - 1) * gap
     const availW = W - pad * 2 - totalGap
 
-    // Scale must fit the widest row and the available height
-    let lo = 0, hi = Math.max(availH / maxH, 1)
+    // On multiple rows, we use a fixed target height per row unless width limited
+    const targetRowH = 250
+    let lo = 0, hi = targetRowH / maxH
     for (let iter = 0; iter < 30; iter++) {
       const midScale = (lo + hi) / 2
       let fits = true
-      let sIdx = 0
       for (const row of rows) {
         const rowNeeded = row.reduce((sum, s) => {
           const tw = minTextWidths[sensors.indexOf(s)]
           return sum + Math.max(s.w * midScale, tw)
         }, 0)
         if (rowNeeded > availW) { fits = false; break }
-        sIdx += row.length
       }
-      if (fits && maxH * midScale <= availH) lo = midScale
+      if (fits) lo = midScale
       else hi = midScale
     }
     const scale = lo
@@ -1170,8 +1157,7 @@ function drawSideBySide(
       const rowLabelSpace = 36 + rowMaxModels * 12
       return { sensorH: rowMaxH, labelSpace: rowLabelSpace, total: rowMaxH + rowLabelSpace }
     })
-    const totalHeight = rowHeights.reduce((sum, r) => sum + r.total, 0) + (rows.length - 1) * rowGap
-    const startY = isMobile ? pad : (H - totalHeight) / 2
+    const startY = pad
 
     let curY = startY
     for (let ri = 0; ri < rows.length; ri++) {
@@ -1181,11 +1167,8 @@ function drawSideBySide(
     }
 
     ctx.textBaseline = 'alphabetic'
-    return startY + totalHeight + pad
+    return curY - rowGap + pad
   }
-
-  ctx.textBaseline = 'alphabetic'
-  return H
 }
 
 function drawPixelDensity(
@@ -1219,12 +1202,10 @@ function drawPixelDensity(
   }
 
   const isMobileScreen = W < 600
-  const DESKTOP_COLS_PER_ROW = 5
   // Only use the flat 2-column grid on mobile; desktop uses multi-row column layout
   const useGridLayout = isMobileScreen
   const colGap = useGridLayout ? 12 : 24
   const rowGap = 12
-  const labelH = 46
 
   // Find maximum sensor dimension for scaling across all displayed sensors
   const maxSensorW = Math.max(...sensors.map((s) => s.w))
