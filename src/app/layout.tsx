@@ -43,7 +43,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        {process.env.NEXT_PUBLIC_COOKIEYES_ID && process.env.NEXT_PUBLIC_ADSENSE_CLIENT && (
+          <>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});gtag('set','ads_data_redaction',true);`,
+              }}
+            />
+            <script
+              id="cookieyes"
+              type="text/javascript"
+              src={`https://cdn-cookieyes.com/client_data/${process.env.NEXT_PUBLIC_COOKIEYES_ID}/script.js`}
+            />
+          </>
+        )}
+      </head>
       <body style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
         <AdScripts />
         <script
