@@ -62,14 +62,9 @@
   flex-shrink: 0;
 }
 
-.stripExpanded .thumbs {
-  flex-wrap: wrap;
-}
-
 .stripExpanded .thumb {
   height: auto;
-  flex: 1 1 calc(50% - 4px);
-  flex-shrink: 1;
+  flex: 1 1 0;
   min-width: 0;
   aspect-ratio: 3 / 2;
 }

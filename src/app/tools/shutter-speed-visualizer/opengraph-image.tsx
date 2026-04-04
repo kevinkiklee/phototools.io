@@ -5,5 +5,5 @@ export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
 export default async function Image() {
-  return generateOgImage('shutter-speed-guide')
+  return generateOgImage('shutter-speed-visualizer')
 }

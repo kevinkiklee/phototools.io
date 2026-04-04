@@ -999,9 +999,9 @@ export const TOOL_EDUCATION: ToolEducation[] = [
     ],
   },
 
-  // ── Tool 7: shutter-speed-guide ─────────────────────────────────────
+  // ── Tool 7: shutter-speed-visualizer ────────────────────────────────
   {
-    slug: 'shutter-speed-guide',
+    slug: 'shutter-speed-visualizer',
     beginner:
       'The shutter speed guide helps you find the slowest shutter speed you can use while still getting a sharp handheld photo. If your shutter speed is too slow, camera shake from your hands will blur the image. The minimum safe speed depends on your focal length, whether you have image stabilization, and how steady your hands are.',
     deeper:

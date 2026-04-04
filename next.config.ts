@@ -4,6 +4,22 @@ const nextConfig: NextConfig = {
   experimental: {
     viewTransition: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        has: [{ type: 'host', value: 'fov-viewer.iser.io' }],
+        destination: 'https://www.phototools.io/tools/fov-simulator',
+        permanent: true,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'fov-viewer.iser.io' }],
+        destination: 'https://www.phototools.io/tools/fov-simulator',
+        permanent: true,
+      },
+    ]
+  },
   async headers() {
     return [
       {

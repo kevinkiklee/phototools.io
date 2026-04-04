@@ -45,7 +45,7 @@ const SUBJECTS: Subject[] = [
   { label: 'Airplane (landing)', speed: 370, color: '#06b6d4' },
 ]
 
-const tool = getToolBySlug('shutter-speed-guide')!
+const tool = getToolBySlug('shutter-speed-visualizer')!
 
 /* ─── Verdict logic ─── */
 function getVerdict(speed: number, shutterSpeed: number): { label: string; color: string } {
@@ -248,7 +248,7 @@ export function ShutterSpeedGuide() {
     <div className={ss.app}>
       <div className={ss.appBody}>
         <div className={ss.sidebar}>
-          <ToolActions toolName="Shutter Speed Guide" toolSlug="shutter-speed-guide" />
+          <ToolActions toolName="Shutter Speed Visualizer" toolSlug="shutter-speed-visualizer" />
           <ControlsPanel shutterIdx={shutterIdx} onShutterChange={setShutterIdx} />
         </div>
 
@@ -256,7 +256,7 @@ export function ShutterSpeedGuide() {
           <MotionCanvas shutterSpeed={SHUTTER_PRESETS[shutterIdx].value} />
         </div>
 
-        <LearnPanel slug="shutter-speed-guide" />
+        <LearnPanel slug="shutter-speed-visualizer" />
       </div>
 
       <div className={ss.mobileControls}>

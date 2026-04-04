@@ -52,7 +52,7 @@ export const GLOSSARY: GlossaryEntry[] = [
   { term: 'Reciprocal Rule', definition: 'A guideline stating that the minimum handheld shutter speed should be 1/(focal length) to avoid camera shake. For a 200mm lens, use at least 1/200s.' },
   { term: 'Rule of Thirds', definition: 'A composition guideline that divides the frame into a 3x3 grid. Placing subjects along the lines or at their intersections often creates a more balanced image.' },
   { term: 'Sensor Size', definition: 'The physical dimensions of a camera\'s image sensor. Larger sensors capture more light, offer shallower depth of field, and generally produce less noise.', relatedTool: 'sensor-size-comparison' },
-  { term: 'Shutter Speed', definition: 'The length of time the camera\'s shutter is open during an exposure. Faster speeds freeze motion; slower speeds allow motion blur.', relatedTool: 'shutter-speed-guide' },
+  { term: 'Shutter Speed', definition: 'The length of time the camera\'s shutter is open during an exposure. Faster speeds freeze motion; slower speeds allow motion blur.', relatedTool: 'shutter-speed-visualizer' },
   { term: 'Star Trails', definition: 'Streaks of light created by the apparent motion of stars during a long exposure. Can be captured in a single very long exposure or by stacking multiple shorter frames.', relatedTool: 'star-trail-calculator' },
   { term: 'Stop', definition: 'A unit of exposure change representing a doubling or halving of light. Applies to aperture, shutter speed, and ISO equally.' },
   { term: 'Telephoto', definition: 'A lens with a focal length longer than about 70mm (full frame equivalent). Telephoto lenses magnify distant subjects and compress perspective.' },

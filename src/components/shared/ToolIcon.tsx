@@ -165,7 +165,7 @@ const ICON_MAP: Record<string, (props: IconProps) => React.JSX.Element> = {
   'exposure-simulator': ExposureSimulator,
   'dof-calculator': DofCalculator,
   'hyperfocal-simulator': HyperfocalSimulator,
-  'shutter-speed-guide': ShutterSpeedGuide,
+  'shutter-speed-visualizer': ShutterSpeedGuide,
   'nd-filter-calculator': NdFilterCalculator,
   'diffraction-limit': DiffractionLimit,
   'star-trail-calculator': StarTrailCalculator,
