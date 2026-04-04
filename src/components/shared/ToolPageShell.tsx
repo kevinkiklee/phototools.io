@@ -6,6 +6,7 @@ import { ToolActions } from './ToolActions'
 import { ToolIcon } from './ToolIcon'
 import { LearnPanel } from './LearnPanel'
 import { Breadcrumbs } from './Breadcrumbs'
+import { AdUnit } from './AdUnit'
 import type { ReactNode } from 'react'
 import styles from './ToolPageShell.module.css'
 
@@ -35,7 +36,12 @@ export function ToolPageShell({ slug, children }: ToolPageShellProps) {
           )}
           {children}
         </div>
-        <LearnPanel slug={slug} />
+        <div className={styles.rightColumn}>
+          <div className={styles.sidebarAd}>
+            <AdUnit slot="" format="rectangle" channel="tool_sidebar" />
+          </div>
+          <LearnPanel slug={slug} />
+        </div>
       </article>
     </>
   )

@@ -39,6 +39,23 @@
   line-height: 1.4;
 }
 
+.rightColumn {
+  width: 260px;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sidebarAd {
+  flex-shrink: 0;
+  padding: 8px;
+  border-left: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-primary);
+}
+
 @media (max-width: 1023px) {
   .outer {
     flex-direction: column;
@@ -47,5 +64,15 @@
 
   .main {
     overflow-y: visible;
+  }
+
+  .rightColumn {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+
+  .sidebarAd {
+    display: none;
   }
 }
