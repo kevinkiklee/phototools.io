@@ -17,14 +17,6 @@ export const metadata: Metadata = {
     description: 'Free browser-based photography tools: field of view simulator, color scheme generator, exif viewer, and more.',
     url: 'https://www.phototools.io',
     siteName: 'PhotoTools',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'PhotoTools - Interactive Photography Tools',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
   },
@@ -32,7 +24,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'PhotoTools — Free Photography Tools',
     description: 'Free browser-based photography tools: field of view simulator, color scheme generator, exif viewer, and more.',
-    images: ['/og-image.jpg'],
   },
   alternates: {
     canonical: '/',

@@ -228,7 +228,7 @@
 
 .checkBtn {
   background: var(--accent);
-  color: #fff;
+  color: #000;
   border: none;
   border-radius: var(--radius-sm);
   padding: 8px 12px;

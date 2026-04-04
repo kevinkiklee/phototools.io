@@ -32,6 +32,7 @@
 .title {
   font-size: 14px;
   font-weight: 600;
+  color: var(--accent);
   margin: 0;
 }
 
@@ -140,7 +141,7 @@
 
 .presetBtnActive {
   background: var(--accent);
-  color: #fff;
+  color: #000;
   border-color: var(--accent);
 }
 

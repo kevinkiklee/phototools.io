@@ -106,6 +106,7 @@ Content is defined as structured data in `src/lib/data/education/content.ts` and
 - **200-line file limit**: Keep all `.ts`/`.tsx` files under 200 lines. If a file grows beyond this, break it into smaller focused modules (e.g. extract hooks, sub-components, helpers, constants, or types into separate files).
 - **Test files** co-located next to source files (`*.test.ts`)
 - **18 test files, 212 tests** covering math, data, education, and integration
+- **Privacy Sandbox is deprecated** — do not discuss, recommend, or implement any Privacy Sandbox APIs (Topics, Attribution Reporting, Protected Audience, etc.)
 
 ## Deployment
 

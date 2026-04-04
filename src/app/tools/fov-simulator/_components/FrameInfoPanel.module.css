@@ -78,7 +78,7 @@
 
 .presetActive {
   background: var(--accent);
-  color: #fff;
+  color: #000;
 }
 
 .presetActive:hover {

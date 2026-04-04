@@ -4,9 +4,6 @@ import { SensorSize } from './_components/SensorSize'
 export const metadata: Metadata = {
   title: 'Sensor Size Comparison',
   description: 'Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models.',
-  openGraph: {
-    images: ['/images/og/sensor-size.png'],
-  },
 }
 
 export default function SensorSizePage() {

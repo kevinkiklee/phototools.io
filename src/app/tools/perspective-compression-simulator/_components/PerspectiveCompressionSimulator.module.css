@@ -50,6 +50,7 @@
 .title {
   font-size: 11px;
   font-weight: 600;
+  color: var(--accent);
   color: var(--text-secondary);
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -109,7 +110,7 @@
 
 .presetActive {
   background: var(--accent);
-  color: #fff;
+  color: #000;
 }
 
 .select {

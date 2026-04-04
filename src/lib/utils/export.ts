@@ -9,7 +9,7 @@ export async function copyCanvasToClipboard(canvas: HTMLCanvasElement, filename 
 
     // Fill background based on current theme (prevents transparent exports)
     const isDark = document.documentElement.getAttribute('data-theme') !== 'light'
-    ctx.fillStyle = isDark ? '#0f0f14' : '#f8f9fa'
+    ctx.fillStyle = isDark ? '#0d0d0d' : '#fafafa'
     ctx.fillRect(0, 0, tempCanvas.width, tempCanvas.height)
 
     // Draw the original image

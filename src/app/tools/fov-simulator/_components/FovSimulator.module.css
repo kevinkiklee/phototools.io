@@ -68,7 +68,7 @@
 }
 
 .lensPanelActive {
-  box-shadow: 0 0 0 1px var(--accent);
+  box-shadow: 0 0 0 1px var(--lens-color, var(--accent));
 }
 
 .lensPanelHeader {
@@ -133,7 +133,6 @@
   width: 100%;
   height: 6px;
   cursor: pointer;
-  accent-color: var(--accent);
 }
 
 .lensPanelTicks {
@@ -177,7 +176,7 @@
 }
 
 .lensPanelPresetActive {
-  color: #fff;
+  color: #000;
 }
 
 .lensPanelSensorRow {
@@ -310,7 +309,7 @@
 .actionBarBtnPrimary {
   background: var(--accent);
   border-color: var(--accent);
-  color: #fff;
+  color: #000;
 }
 
 .actionBarBtnPrimary:hover {
@@ -399,7 +398,7 @@
 
 .shareModalRow button {
   background: var(--accent);
-  color: #fff;
+  color: #000;
   border: none;
   border-radius: 6px;
   padding: 6px 12px;

@@ -75,10 +75,10 @@ export function LensPanel({
   return (
     <div
       className={`${styles.lensPanel} ${isActive ? styles.lensPanelActive : ''}`}
-      style={{ borderLeftColor: color }}
+      style={{ borderLeftColor: color, '--lens-color': color } as React.CSSProperties}
       onClick={onFocus}
     >
-      <div className={styles.lensPanelHeader} onClick={onToggleCollapse}>
+      <div className={styles.lensPanelHeader}>
         <span className={styles.lensPanelLabel} style={{ color }}>{label}</span>
         <span className={styles.lensPanelEquiv}>
           {sensor.cropFactor !== 1 ? `≡ ${equiv}mm equiv` : ''}
@@ -109,7 +109,7 @@ export function LensPanel({
             step={1}
             value={sliderVal}
             onChange={handleSliderChange}
-            style={{ accentColor: color }}
+            style={{ '--slider-color': color } as React.CSSProperties}
             aria-label={`${label} focal length: ${config.focalLength}mm`}
           />
           <div className={styles.lensPanelTicks}>

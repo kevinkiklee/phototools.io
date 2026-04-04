@@ -503,7 +503,7 @@ export function ExifViewer() {
     ctx.scale(dpr, dpr)
 
     // Background
-    ctx.fillStyle = '#1a1a2e'
+    ctx.fillStyle = '#0d0d0d'
     ctx.fillRect(0, 0, totalW, totalH)
 
     // Draw photo

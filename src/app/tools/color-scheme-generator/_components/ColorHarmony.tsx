@@ -229,7 +229,7 @@ export function ColorHarmony() {
     ctx.scale(dpr, dpr)
 
     // Dark background
-    ctx.fillStyle = '#1a1a2e'
+    ctx.fillStyle = '#0d0d0d'
     ctx.fillRect(0, 0, totalW, totalH)
 
     // Header: scheme name
