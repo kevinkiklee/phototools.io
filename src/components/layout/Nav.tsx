@@ -30,7 +30,13 @@ export function Nav({ theme, onThemeChange }: NavProps) {
   const grouped = CATEGORY_ORDER.map((cat) => ({
     category: cat,
     label: CATEGORY_LABELS[cat],
-    tools: tools.filter((t) => t.category === cat),
+    tools: tools
+      .filter((t) => t.category === cat)
+      .sort((a, b) => {
+        const aLive = getToolStatus(a) === 'live' ? 0 : 1
+        const bLive = getToolStatus(b) === 'live' ? 0 : 1
+        return aLive - bLive
+      }),
   })).filter((g) => g.tools.length > 0)
 
   useEffect(() => {

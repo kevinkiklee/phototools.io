@@ -17,7 +17,13 @@ export default function HomePage() {
   const grouped = CATEGORIES
     .map((cat) => ({
       ...cat,
-      tools: tools.filter((t) => t.category === cat.key),
+      tools: tools
+        .filter((t) => t.category === cat.key)
+        .sort((a, b) => {
+          const aLive = getToolStatus(a) === 'live' ? 0 : 1
+          const bLive = getToolStatus(b) === 'live' ? 0 : 1
+          return aLive - bLive
+        }),
     }))
     .filter((g) => g.tools.length > 0)
 
