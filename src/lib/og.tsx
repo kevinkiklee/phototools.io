@@ -257,11 +257,11 @@ export async function generateHomepageOgImage() {
 
           <div
             style={{
-              fontSize: 72,
+              fontSize: 56,
               fontWeight: 800,
               color: '#e5e5e5',
-              lineHeight: 1.1,
-              marginBottom: 20,
+              lineHeight: 1.15,
+              marginBottom: 24,
             }}
           >
             Free Photography Tools
