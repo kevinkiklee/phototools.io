@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { ThemeProvider } from '@/components/layout/ThemeProvider'
 import { JsonLd } from '@/components/shared/JsonLd'
+import { AdScripts } from '@/components/shared/AdScripts'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.phototools.io'),
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <head />
       <body style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+        <AdScripts />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
