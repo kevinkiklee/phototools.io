@@ -23,6 +23,7 @@ interface CanvasProps {
   offsets: OverlayOffsets
   onOffsetsChange: React.Dispatch<React.SetStateAction<OverlayOffsets>>
   customImageSrc?: string | null
+  sourceImageRef?: React.MutableRefObject<HTMLImageElement | null>
 }
 
 // Reference FOV: 14mm on full frame defines the widest view the canvas shows.
@@ -131,7 +132,7 @@ function drawFramingGuides(
   ctx.setLineDash([])
 }
 
-export function Canvas({ lenses, imageIndex, orientation, canvasRef, cleanCanvasRef, distance, showGuides, activeLens, offsets, onOffsetsChange, customImageSrc }: CanvasProps) {
+export function Canvas({ lenses, imageIndex, orientation, canvasRef, cleanCanvasRef, distance, showGuides, activeLens, offsets, onOffsetsChange, customImageSrc, sourceImageRef }: CanvasProps) {
   const imageRef = useRef<HTMLImageElement | null>(null)
   const animFrameRef = useRef<number>(0)
   const drawnRectsRef = useRef<Rect[]>([])
@@ -334,6 +335,7 @@ export function Canvas({ lenses, imageIndex, orientation, canvasRef, cleanCanvas
     const img = new Image()
     img.onload = () => {
       imageRef.current = img
+      if (sourceImageRef) sourceImageRef.current = img
       draw()
     }
     img.src = (imageIndex === -1 && customImageSrc) ? customImageSrc : SCENES[imageIndex]?.src ?? SCENES[0].src

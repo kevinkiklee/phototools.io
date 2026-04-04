@@ -11,6 +11,33 @@ import styles from './CropStrip.module.css'
 
 const REF_FOV = calcFOV(14, 1.0)
 
+/**
+ * Compute the cover-fit source region for a given image drawn into a canvas.
+ * Returns the visible region of the source image (sx, sy, sw, sh)
+ * and the scale factor from canvas pixels to image pixels.
+ */
+function coverFitMapping(imgW: number, imgH: number, canvasW: number, canvasH: number) {
+  const imgAspect = imgW / imgH
+  const canvasAspect = canvasW / canvasH
+  let sx: number, sy: number, sw: number, sh: number
+  if (imgAspect > canvasAspect) {
+    // Image is wider — crop sides
+    sh = imgH
+    sw = sh * canvasAspect
+    sx = (imgW - sw) / 2
+    sy = 0
+  } else {
+    // Image is taller — crop top/bottom
+    sw = imgW
+    sh = sw / canvasAspect
+    sx = 0
+    sy = (imgH - sh) / 2
+  }
+  // scale: how many image pixels per canvas pixel
+  const scale = sw / canvasW
+  return { sx, sy, sw, sh, scale }
+}
+
 interface CropThumbProps {
   lens: LensConfig
   orientation: Orientation
@@ -20,14 +47,16 @@ interface CropThumbProps {
   onSelect: () => void
   offset: { dx: number; dy: number }
   cleanCanvasRef: React.RefObject<HTMLCanvasElement | null>
+  sourceImageRef: React.RefObject<HTMLImageElement | null>
 }
 
-function CropThumb({ lens, orientation, color, lensIndex, isActive, onSelect, offset, cleanCanvasRef }: CropThumbProps) {
+function CropThumb({ lens, orientation, color, lensIndex, isActive, onSelect, offset, cleanCanvasRef, sourceImageRef }: CropThumbProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   const render = () => {
     const canvas = canvasRef.current
     const mainCanvas = cleanCanvasRef.current
+    const img = sourceImageRef.current
     if (!canvas || !mainCanvas) return
     if (mainCanvas.width === 0 || mainCanvas.height === 0) return
 
@@ -59,19 +88,31 @@ function CropThumb({ lens, orientation, color, lensIndex, isActive, onSelect, of
       isPortrait ? REF_FOV.horizontal : REF_FOV.vertical,
     )
 
+    // Rect position in canvas coordinates
     const rectW = mainW * ratioW
     const rectH = mainH * ratioH
     const rectX = (mainW - rectW) / 2 + offset.dx
     const rectY = (mainH - rectH) / 2 + offset.dy
 
     ctx.clearRect(0, 0, canvas.width, canvas.height)
-    ctx.drawImage(mainCanvas, rectX, rectY, rectW, rectH, 0, 0, canvas.width, canvas.height)
+
+    // If we have the original hi-res image, crop from it for better quality
+    if (img && img.complete && img.naturalWidth > 0) {
+      const { sx, sy, scale } = coverFitMapping(img.naturalWidth, img.naturalHeight, mainW, mainH)
+      // Map canvas-coordinate rect to image-coordinate rect
+      const imgRectX = sx + rectX * scale
+      const imgRectY = sy + rectY * scale
+      const imgRectW = rectW * scale
+      const imgRectH = rectH * scale
+      ctx.drawImage(img, imgRectX, imgRectY, imgRectW, imgRectH, 0, 0, canvas.width, canvas.height)
+    } else {
+      // Fallback: copy from canvas (lower res)
+      ctx.drawImage(mainCanvas, rectX, rectY, rectW, rectH, 0, 0, canvas.width, canvas.height)
+    }
   }
 
-  // Re-render when lens/orientation/offset changes
-  useEffect(render, [lens, orientation, offset, cleanCanvasRef])
+  useEffect(render, [lens, orientation, offset, cleanCanvasRef, sourceImageRef])
 
-  // Re-render when Canvas signals a fresh draw on the cleanCanvas
   useEffect(() => {
     const cleanCanvas = cleanCanvasRef.current
     if (!cleanCanvas) return
@@ -102,9 +143,10 @@ interface CropStripProps {
   expanded: boolean
   onToggleExpand: () => void
   cleanCanvasRef: React.RefObject<HTMLCanvasElement | null>
+  sourceImageRef: React.RefObject<HTMLImageElement | null>
 }
 
-export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelectLens, offsets, expanded, onToggleExpand, cleanCanvasRef }: CropStripProps) {
+export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelectLens, offsets, expanded, onToggleExpand, cleanCanvasRef, sourceImageRef }: CropStripProps) {
   return (
     <div className={`${styles.strip} ${expanded ? styles.stripExpanded : ''}`}>
       <div className={styles.stripHeader}>
@@ -126,6 +168,7 @@ export function CropStrip({ lenses, imageIndex, orientation, activeLens, onSelec
               onSelect={() => onSelectLens(i)}
               offset={offsets[i] ?? { dx: 0, dy: 0 }}
               cleanCanvasRef={cleanCanvasRef}
+              sourceImageRef={sourceImageRef}
             />
           ))}
         </div>

@@ -78,10 +78,11 @@ export function FovSimulator() {
   const [hydrated, setHydrated] = useState(false)
   const [collapsed, setCollapsed] = useState<Record<number, boolean>>({})
   const [overlayOffsets, setOverlayOffsets] = useState<OverlayOffsets>({})
-  const [cropExpanded, setCropExpanded] = useState(false)
+  const [cropExpanded, setCropExpanded] = useState(true)
   const [customImageSrc, setCustomImageSrc] = useState<string | null>(null)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const cleanCanvasRef = useRef<HTMLCanvasElement>(null)
+  const sourceImageRef = useRef<HTMLImageElement | null>(null)
   const { theme, setTheme } = useTheme()
 
   const handleCustomFile = useCallback((file: File) => {
@@ -136,7 +137,7 @@ export function FovSimulator() {
       <div className={styles.appBody}>
         {/* Desktop sidebar */}
         <Sidebar>
-          <ToolActions toolName="FOV Simulator" toolSlug="fov-simulator" onReset={() => dispatch({ type: 'RESET' })} canvasRef={canvasRef} imageFilename="fov-comparison.png" />
+          <ToolActions toolName="FOV Simulator" toolSlug="fov-simulator" onReset={() => { dispatch({ type: 'RESET' }); setOverlayOffsets({}) }} canvasRef={canvasRef} imageFilename="fov-comparison.png" />
           {state.lenses.map((lens, i) => (
             <LensPanel
               key={i}
@@ -189,6 +190,7 @@ export function FovSimulator() {
               offsets={overlayOffsets}
               onOffsetsChange={setOverlayOffsets}
               customImageSrc={customImageSrc}
+              sourceImageRef={sourceImageRef}
             />
           </section>
 
@@ -202,6 +204,7 @@ export function FovSimulator() {
             expanded={cropExpanded}
             onToggleExpand={() => setCropExpanded((v) => !v)}
             cleanCanvasRef={cleanCanvasRef}
+            sourceImageRef={sourceImageRef}
           />
         </main>
         {/* Desktop: LearnPanel as right sidebar inside appBody */}
@@ -225,7 +228,7 @@ export function FovSimulator() {
 
       {/* Mobile controls below toolbar */}
       <div className={styles.mobileControls}>
-        <ToolActions toolName="FOV Simulator" toolSlug="fov-simulator" onReset={() => dispatch({ type: 'RESET' })} canvasRef={canvasRef} imageFilename="fov-comparison.png" hideTitle />
+        <ToolActions toolName="FOV Simulator" toolSlug="fov-simulator" onReset={() => { dispatch({ type: 'RESET' }); setOverlayOffsets({}) }} canvasRef={canvasRef} imageFilename="fov-comparison.png" hideTitle />
         <div className={styles.mobileDivider} />
 
         {state.lenses.map((lens, i) => (
