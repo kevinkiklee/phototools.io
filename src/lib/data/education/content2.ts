@@ -1,4 +1,5 @@
 import type { ToolEducation } from './types'
+import { FRAME_STUDIO_EDUCATION } from './frame-studio'
 
 export const TOOL_EDUCATION_2: ToolEducation[] = [
   // ── Tool 8: Hyperfocal Distance Table ──────────────────────────────
@@ -758,4 +759,6 @@ export const TOOL_EDUCATION_2: ToolEducation[] = [
       },
     ],
   },
+
+  FRAME_STUDIO_EDUCATION,
 ]
