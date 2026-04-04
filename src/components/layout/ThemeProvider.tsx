@@ -4,6 +4,7 @@ import { useState, useEffect, createContext, useContext, type ReactNode } from '
 import { Toaster } from 'sonner'
 import { Nav } from './Nav'
 import { Footer } from './Footer'
+import { MobileAdBanner } from '@/components/shared/MobileAdBanner'
 import styles from './ThemeProvider.module.css'
 
 interface ThemeContextValue {
@@ -32,6 +33,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       <Nav theme={theme} onThemeChange={setTheme} />
       <main className={styles.main}>{children}</main>
       <Footer />
+      <MobileAdBanner />
       <Toaster theme={theme} position="bottom-center" />
     </ThemeContext>
   )
