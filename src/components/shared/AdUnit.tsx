@@ -1,0 +1,83 @@
+'use client'
+
+import { useEffect, useRef, useState } from 'react'
+import { isAdsEnabled, AD_FORMATS, getAdsenseClient } from '@/lib/ads'
+import type { AdFormat } from '@/lib/ads'
+import styles from './AdUnit.module.css'
+
+declare global {
+  interface Window {
+    adsbygoogle?: Record<string, unknown>[]
+  }
+}
+
+interface AdUnitProps {
+  slot: string
+  format: AdFormat
+  className?: string
+  channel?: string
+  testId?: string
+}
+
+export function AdUnit({ slot, format, className, channel, testId }: AdUnitProps) {
+  const insRef = useRef<HTMLModElement>(null)
+  const [loaded, setLoaded] = useState(false)
+  const [collapsed, setCollapsed] = useState(false)
+  const { width, height } = AD_FORMATS[format]
+
+  useEffect(() => {
+    if (!isAdsEnabled()) return
+
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({})
+    } catch {
+      // AdSense not loaded yet
+    }
+
+    const ins = insRef.current
+    if (!ins) return
+
+    const observer = new MutationObserver(() => {
+      if (ins.querySelector('iframe')) {
+        setLoaded(true)
+        observer.disconnect()
+      }
+    })
+    observer.observe(ins, { childList: true, subtree: true })
+
+    const timeout = setTimeout(() => {
+      if (!ins.querySelector('iframe')) {
+        setCollapsed(true)
+      }
+      observer.disconnect()
+    }, 5000)
+
+    return () => {
+      observer.disconnect()
+      clearTimeout(timeout)
+    }
+  }, [])
+
+  if (!isAdsEnabled()) return null
+
+  const client = getAdsenseClient()
+
+  return (
+    <div
+      className={`${styles.container} ${collapsed ? styles.collapsed : ''} ${className ?? ''}`}
+      data-testid={testId}
+    >
+      <span className={styles.label}>Advertisement</span>
+      <ins
+        ref={insRef}
+        className={`adsbygoogle ${loaded ? '' : styles.skeleton} ${styles.slot}`}
+        style={{ display: 'inline-block', width, height }}
+        data-ad-client={client}
+        data-ad-slot={slot}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+        {...(channel ? { 'data-ad-channel': channel } : {})}
+      />
+    </div>
+  )
+}
