@@ -1,0 +1,33 @@
+{
+  "toolUI": {
+    "star-trail-calculator": {
+      "rule500": "500ルール",
+      "ruleNPF": "NPFルール",
+      "recommendation": "推奨",
+      "recommendationText": "ピクセルレベルのシャープネスにはNPFルール（{npf}秒）を使用してください。500ルール（{r500}秒）は簡易的な目安ですが、高解像度センサーでは軌跡が見える場合があります。",
+      "shootingTime": "撮影時間",
+      "exposure": "露出",
+      "displayMode": "表示モード",
+      "modeStarTrails": "スタートレイル",
+      "modeSingleShot": "シングルショット",
+      "stacking": "スタッキング",
+      "exposurePerFrame": "露出 / フレーム（秒）",
+      "exposurePerFrameDesc": "各フレームのシャッタースピード",
+      "frames": "フレーム数",
+      "framesDesc": "スタッキングする写真の合計枚数",
+      "gapSec": "ギャップ（秒）",
+      "gapDesc": "バッファ書き込みのためのフレーム間遅延",
+      "camera": "カメラ",
+      "sensor": "センサー",
+      "resolutionMP": "解像度（MP）",
+      "apertureLabel": "絞り",
+      "latitude": "緯度",
+      "position": "位置",
+      "useMyLocation": "現在地を使用",
+      "latitudeLabel": "緯度:",
+      "equator": "赤道 0°",
+      "mid45": "中緯度 45°",
+      "arctic70": "北極圏 70°"
+    }
+  }
+}

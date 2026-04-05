@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "site": {
+      "defaultTitle": "PhotoTools — Fotografie-Werkzeuge",
+      "titleTemplate": "%s | PhotoTools",
+      "description": "Kostenlose Fotografie-Werkzeuge: Bildwinkel-Simulator, Farbschema-Generator, EXIF-Betrachter, Fotos zuschneiden und rahmen und mehr.",
+      "ogTitle": "PhotoTools — Kostenlose Fotografie-Werkzeuge"
+    },
+    "fov-simulator": {
+      "title": "Bildwinkel-Simulator — Brennweiten vergleichen",
+      "description": "Vergleiche den Bildwinkel bei verschiedenen Brennweiten und Sensorgrößen. Kostenlos, interaktiv und teilbar."
+    },
+    "dof-calculator": {
+      "title": "Schärfentieferechner",
+      "description": "Berechne die Schärfentiefe für jedes Objektiv, jede Blende und Sensorgröße. Nah-/Ferngrenze, Hyperfokaldistanz und Hintergrundunschärfe — kostenlos und interaktiv."
+    },
+    "exposure-simulator": {
+      "title": "Belichtungsdreieck-Simulator",
+      "description": "Interaktiver Belichtungsdreieck-Simulator — sieh in Echtzeit, wie Blende, Verschlusszeit und ISO dein Bild beeinflussen, mit Live-Vorschau."
+    },
+    "star-trail-calculator": {
+      "title": "Sternenspuren-Rechner",
+      "description": "Berechne die maximale Belichtungszeit für punktförmige Sterne mit der 500er-, NPF- und anderen Regeln. Plane Sternenspuren-Stacking für jeden Standort."
+    },
+    "white-balance-visualizer": {
+      "title": "Weißabgleich-Visualisierer",
+      "description": "Sieh, wie Weißabgleich und Farbtemperatur deine Fotos beeinflussen. Visualisiere Änderungen von 2000K bis 10000K mit Echtzeit-Vorschau."
+    },
+    "sensor-size-comparison": {
+      "title": "Sensorgrößen-Vergleich",
+      "description": "Vergleiche Kamera-Sensorgrößen vom Mittelformat bis zum Smartphone. Überlagerungs-, Nebeneinander- und Pixeldichte-Ansichten mit echten Kameramodellen."
+    },
+    "color-scheme-generator": {
+      "title": "Farbschema-Generator",
+      "description": "Erstelle Farbpaletten für die Fotografie mit komplementären, analogen, triadischen und tetradischen Farbharmonien. Interaktives Farbrad mit Foto-Pipette."
+    },
+    "frame-studio": {
+      "title": "Rahmen-Studio",
+      "description": "Fotos zuschneiden, rahmen und mit Rasterüberlagerungen komponieren. 100 % clientseitig — deine Fotos verlassen nie dein Gerät."
+    },
+    "exif-viewer": {
+      "title": "EXIF-Betrachter",
+      "description": "EXIF-Metadaten, Histogramm und Bildvorschau für jedes Foto anzeigen. 100 % clientseitig — deine Fotos verlassen nie dein Gerät."
+    },
+    "hyperfocal-simulator": {
+      "title": "Hyperfokale-Distanz-Simulator",
+      "description": "Visualisiere die Hyperfokaldistanz für jedes Objektiv und jeden Sensor. Sieh genau, wo du fokussieren musst, um maximale Schärfe vom Vordergrund bis Unendlich zu erzielen."
+    },
+    "shutter-speed-visualizer": {
+      "title": "Verschlusszeit-Visualisierer",
+      "description": "Finde die minimale Verschlusszeit für scharfe Freihandaufnahmen. Berücksichtigt Brennweite, Sensorgröße und Bildstabilisierung."
+    },
+    "nd-filter-calculator": {
+      "title": "ND-Filter-Rechner",
+      "description": "Berechne die korrekte Verschlusszeit beim Einsatz von ND-Filtern. Unterstützt jede Filterstärke von ND2 bis ND1000000 mit Schnellreferenz-Tabelle."
+    },
+    "perspective-compression-simulator": {
+      "title": "Perspektivische-Kompression-Simulator",
+      "description": "Interaktiver 3D-Simulator, der zeigt, wie Brennweite und Entfernung die perspektivische Kompression beeinflussen. Sieh die Hintergrundkompression in Echtzeit."
+    },
+    "about": {
+      "title": "Über uns",
+      "description": "PhotoTools ist eine kostenlose Sammlung browserbasierter Fotografie-Rechner, Simulatoren und Nachschlagewerke für Fotografen aller Erfahrungsstufen."
+    },
+    "contact": {
+      "title": "Kontakt | PhotoTools",
+      "description": "Kontaktiere das PhotoTools-Team — Fragen, Feedback oder Vorschläge zu unseren Fotografie-Werkzeugen."
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie | PhotoTools",
+      "description": "Erfahre, wie PhotoTools mit deinen Daten umgeht, einschließlich Analyse, Cookies und Kontaktformular-Eingaben auf www.phototools.io."
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen | PhotoTools",
+      "description": "Nutzungsbedingungen für PhotoTools — erfahre mehr über zulässige Nutzung, geistiges Eigentum, Haftungsausschlüsse und Haftungsbeschränkungen für www.phototools.io."
+    },
+    "glossary": {
+      "title": "Fotografie-Glossar",
+      "description": "Durchsuchbares Glossar mit über 50 Fotografie-Begriffen mit Definitionen und Links zu interaktiven Werkzeugen."
+    }
+  }
+}

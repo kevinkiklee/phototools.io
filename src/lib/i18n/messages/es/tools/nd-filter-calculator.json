@@ -1,0 +1,12 @@
+{
+  "toolUI": {
+    "nd-filter-calculator": {
+      "baseShutterSpeed": "Velocidad de obturación base",
+      "ndFilter": "Filtro ND",
+      "resultingShutterSpeed": "Velocidad de obturación resultante",
+      "stopsAdded": "Pasos añadidos",
+      "quickReference": "Referencia rápida",
+      "tableBase": "Base"
+    }
+  }
+}

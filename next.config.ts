@@ -1,5 +1,6 @@
 import type { NextConfig } from 'next'
 import createNextIntlPlugin from 'next-intl/plugin'
+import { staticRedirects } from './src/lib/i18n/redirects'
 
 const withNextIntl = createNextIntlPlugin('./src/lib/i18n/request.ts')
 
@@ -8,27 +9,7 @@ const nextConfig: NextConfig = {
     viewTransition: true,
   },
   async redirects() {
-    return [
-      // Legacy /tools/* URLs → root-level
-      {
-        source: '/tools/:slug',
-        destination: '/:slug',
-        permanent: true,
-      },
-      // Old domain redirect
-      {
-        source: '/',
-        has: [{ type: 'host', value: 'fov-viewer.iser.io' }],
-        destination: 'https://www.phototools.io/fov-simulator',
-        permanent: true,
-      },
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'fov-viewer.iser.io' }],
-        destination: 'https://www.phototools.io/fov-simulator',
-        permanent: true,
-      },
-    ]
+    return staticRedirects
   },
   async headers() {
     return [

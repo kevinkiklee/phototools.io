@@ -1,0 +1,240 @@
+{
+  "glossary": {
+    "title": "Glossaire de la photographie",
+    "subtitle": "Référence consultable des termes de la photographie. Clique sur un terme pour voir sa définition.",
+    "searchPlaceholder": "Rechercher un terme...",
+    "searchAriaLabel": "Rechercher dans le glossaire",
+    "noResults": "Aucun terme ne correspond à ta recherche.",
+    "tryTool": "Essaye le {toolName}",
+    "entries": {
+      "aperture": {
+        "term": "Ouverture",
+        "definition": "L'ouverture dans un objectif par laquelle passe la lumière. Une ouverture plus large (nombre f plus petit) laisse entrer plus de lumière et crée une profondeur de champ plus faible."
+      },
+      "aspect-ratio": {
+        "term": "Rapport d'aspect",
+        "definition": "La relation proportionnelle entre la largeur et la hauteur d'une image. Les rapports courants incluent 3:2 (reflex standard), 4:3 (Micro Four Thirds) et 16:9 (écran large)."
+      },
+      "autofocus": {
+        "term": "Autofocus",
+        "definition": "Un système d'appareil photo qui ajuste automatiquement l'objectif pour mettre un sujet au point. Les systèmes modernes utilisent la détection de phase ou la détection de contraste."
+      },
+      "bokeh": {
+        "term": "Bokeh",
+        "definition": "La qualité esthétique des zones floues dans une image, en particulier les hautes lumières. Un bokeh doux et circulaire est généralement préféré et dépend de la conception de l'objectif et de la forme de l'ouverture."
+      },
+      "bracketing": {
+        "term": "Bracketing",
+        "definition": "Prise de plusieurs photos de la même scène avec différents réglages d'exposition. Utilisé pour la photographie HDR ou pour garantir au moins une image correctement exposée."
+      },
+      "bulb-mode": {
+        "term": "Mode Bulb",
+        "definition": "Un réglage de l'obturateur où celui-ci reste ouvert tant que le déclencheur est maintenu enfoncé. Utilisé pour les très longues expositions au-delà des réglages temporisés de l'appareil."
+      },
+      "burst-mode": {
+        "term": "Mode rafale",
+        "definition": "Un mode de prise de vue où l'appareil prend plusieurs images par seconde en succession rapide. Utile pour capturer l'action rapide ou sélectionner le meilleur moment."
+      },
+      "chromatic-aberration": {
+        "term": "Aberration chromatique",
+        "definition": "Un défaut optique où différentes longueurs d'onde de la lumière se focalisent à des points légèrement différents, provoquant des franges colorées le long des bords à fort contraste. Plus fréquent avec les objectifs bon marché et à grande ouverture."
+      },
+      "circle-of-confusion": {
+        "term": "Cercle de confusion",
+        "definition": "Le plus grand cercle de flou qui apparaît encore comme un point à l'œil humain. Il détermine les limites de netteté acceptable et est utilisé dans les calculs de profondeur de champ."
+      },
+      "color-temperature": {
+        "term": "Température de couleur",
+        "definition": "Une mesure en Kelvin qui décrit la chaleur ou la froideur d'une source de lumière. Les valeurs basses (2700K) apparaissent chaudes/orangées ; les valeurs élevées (6500K+) apparaissent froides/bleutées."
+      },
+      "crop-factor": {
+        "term": "Facteur de recadrage",
+        "definition": "Le rapport entre la diagonale du capteur d'un appareil photo et celle d'un capteur plein format 35 mm. Il affecte la longueur focale effective et le champ de vision."
+      },
+      "depth-of-field": {
+        "term": "Profondeur de champ",
+        "definition": "La plage de distance dans une scène qui paraît suffisamment nette. Contrôlée par l'ouverture, la longueur focale et la distance au sujet."
+      },
+      "diffraction": {
+        "term": "Diffraction",
+        "definition": "La déviation de la lumière lorsqu'elle passe par une petite ouverture, ce qui adoucit l'image. Elle fixe une limite pratique à la fermeture du diaphragme."
+      },
+      "dynamic-range": {
+        "term": "Plage dynamique",
+        "definition": "L'écart entre les ombres les plus sombres et les hautes lumières les plus brillantes qu'un appareil peut capturer en une seule exposition. Mesurée en stops (IL)."
+      },
+      "ev": {
+        "term": "IL (Indice de lumination)",
+        "definition": "Un nombre représentant une combinaison de vitesse d'obturation et d'ouverture qui produit la même exposition. Chaque incrément de 1 IL double ou divise par deux la lumière."
+      },
+      "exposure-compensation": {
+        "term": "Correction d'exposition",
+        "definition": "Une commande de l'appareil qui remplace l'exposition mesurée, généralement par incréments de 1/3 de stop. Les valeurs positives éclaircissent l'image ; les valeurs négatives l'assombrissent."
+      },
+      "exposure-triangle": {
+        "term": "Triangle d'exposition",
+        "definition": "La relation entre l'ouverture, la vitesse d'obturation et l'ISO. Modifier l'un nécessite d'ajuster les autres pour maintenir la même exposition."
+      },
+      "f-stop": {
+        "term": "Diaphragme (f-stop)",
+        "definition": "Une unité de mesure de l'ouverture de l'objectif. Chaque stop entier (f/1.4, f/2, f/2.8, f/4...) divise par deux la quantité de lumière passant à travers l'objectif."
+      },
+      "focal-length": {
+        "term": "Longueur focale",
+        "definition": "La distance en millimètres entre le centre optique d'un objectif et le capteur lorsque la mise au point est à l'infini. Elle détermine l'angle de champ et le grossissement."
+      },
+      "focus-stacking": {
+        "term": "Empilement de mise au point",
+        "definition": "Une technique où plusieurs images mises au point à des distances différentes sont combinées en post-traitement pour obtenir une profondeur de champ plus grande qu'une seule exposition ne le permet."
+      },
+      "full-frame": {
+        "term": "Plein format",
+        "definition": "Une taille de capteur équivalente au film 35 mm (36 × 24 mm). C'est la référence standard pour les calculs de longueur focale et de facteur de recadrage."
+      },
+      "golden-hour": {
+        "term": "Heure dorée",
+        "definition": "La période juste après le lever du soleil ou avant le coucher du soleil, quand la lumière est chaude, douce et directionnelle. Très prisée pour la photo de paysage et de portrait."
+      },
+      "histogram": {
+        "term": "Histogramme",
+        "definition": "Un graphique montrant la distribution des valeurs de luminosité dans une image. Le côté gauche représente les ombres, le côté droit les hautes lumières."
+      },
+      "hyperfocal-distance": {
+        "term": "Distance hyperfocale",
+        "definition": "La distance de mise au point la plus proche à laquelle tout, de la moitié de cette distance à l'infini, est suffisamment net. Maximise la profondeur de champ pour une ouverture donnée."
+      },
+      "image-stabilization": {
+        "term": "Stabilisation d'image",
+        "definition": "Un système qui réduit le flou dû au bougé de l'appareil, soit dans l'objectif (OIS) soit dans le boîtier (IBIS). Offre généralement un gain de 3 à 7 stops pour la prise de vue à main levée."
+      },
+      "iso": {
+        "term": "ISO",
+        "definition": "Une mesure de la sensibilité du capteur à la lumière. Des valeurs ISO plus élevées éclaircissent l'image mais introduisent plus de bruit."
+      },
+      "jpeg": {
+        "term": "JPEG",
+        "definition": "Un format de fichier image compressé utilisant une compression avec pertes. Fichiers plus petits mais moins de flexibilité en retouche par rapport au RAW."
+      },
+      "kelvin": {
+        "term": "Kelvin",
+        "definition": "L'unité utilisée pour mesurer la température de couleur de la lumière. Les photographes utilisent les valeurs en Kelvin pour régler la balance des blancs et adapter la couleur de l'éclairage ambiant."
+      },
+      "lens-compression": {
+        "term": "Compression de l'objectif",
+        "definition": "L'effet visuel d'un téléobjectif faisant paraître les objets éloignés plus proches des sujets au premier plan. Il est causé par la grande distance de prise de vue, pas par l'objectif lui-même."
+      },
+      "light-meter": {
+        "term": "Posemètre",
+        "definition": "Un appareil ou système qui mesure l'intensité lumineuse pour déterminer les bons réglages d'exposition. Les appareils photo utilisent la mesure de lumière réfléchie ; les posemètres à main peuvent mesurer la lumière incidente."
+      },
+      "long-exposure": {
+        "term": "Longue exposition",
+        "definition": "Une photo prise avec une vitesse d'obturation lente, généralement de quelques secondes ou minutes. Utilisée pour les filés de lumière, l'eau lissée, les filés d'étoiles et les scènes en basse lumière."
+      },
+      "macro": {
+        "term": "Macro",
+        "definition": "Photographie qui reproduit des sujets à un grossissement proche ou égal à la taille réelle (rapport 1:1). Nécessite des objectifs macro spécialisés ou des tubes allonge."
+      },
+      "medium-format": {
+        "term": "Moyen format",
+        "definition": "Une taille de capteur plus grande que le plein format, généralement autour de 44 × 33 mm ou 54 × 40 mm. Offre une résolution plus élevée, une profondeur de champ plus faible et une plage dynamique plus grande."
+      },
+      "megapixel": {
+        "term": "Mégapixel",
+        "definition": "Un million de pixels. Le nombre de mégapixels d'un capteur détermine la résolution maximale des images qu'il peut capturer."
+      },
+      "micro-four-thirds": {
+        "term": "Micro Four Thirds",
+        "definition": "Un système d'appareil photo sans miroir avec un capteur de 17,3 × 13 mm, donnant un facteur de recadrage de 2×. Offre des boîtiers et objectifs compacts avec une bonne qualité d'image."
+      },
+      "mirror-lock-up": {
+        "term": "Relevage du miroir",
+        "definition": "Une fonction des reflex qui relève le miroir avant le déclenchement de l'obturateur, réduisant les vibrations. Utilisé pour des photos nettes sur trépied, surtout aux vitesses d'obturation lentes."
+      },
+      "nd-filter": {
+        "term": "Filtre ND",
+        "definition": "Un filtre à densité neutre qui réduit la quantité de lumière entrant dans l'objectif sans affecter les couleurs. Permet des expositions plus longues ou des ouvertures plus larges en conditions lumineuses."
+      },
+      "noise": {
+        "term": "Bruit",
+        "definition": "Variation aléatoire de luminosité et de couleur dans les images numériques, plus visible dans les zones sombres et à hauts ISO. Peut être réduit avec un logiciel de réduction du bruit."
+      },
+      "overexposure": {
+        "term": "Surexposition",
+        "definition": "Quand une image reçoit trop de lumière, provoquant l'écrêtage des hautes lumières en blanc pur et la perte de détails. Le contraire de la sous-exposition."
+      },
+      "panorama": {
+        "term": "Panorama",
+        "definition": "Une image grand-angle créée en assemblant plusieurs photos se chevauchant. Peut couvrir jusqu'à 360 degrés d'une scène."
+      },
+      "pixel-pitch": {
+        "term": "Pas de pixel",
+        "definition": "La distance en micromètres entre les centres de pixels adjacents sur un capteur. Un pas de pixel plus grand signifie généralement de meilleures performances en basse lumière."
+      },
+      "polarizer": {
+        "term": "Polariseur",
+        "definition": "Un filtre qui réduit les reflets et les éblouissements sur les surfaces non métalliques et peut intensifier le bleu du ciel. Il fonctionne en bloquant les ondes lumineuses oscillant dans une direction spécifique."
+      },
+      "prime-lens": {
+        "term": "Objectif à focale fixe",
+        "definition": "Un objectif à longueur focale fixe (sans zoom). Les focales fixes sont généralement plus nettes, plus lumineuses (ouverture plus grande) et plus légères que les zooms comparables."
+      },
+      "raw": {
+        "term": "RAW",
+        "definition": "Un format de fichier non compressé ou compressé sans perte qui préserve toutes les données du capteur. Offre une flexibilité maximale en post-traitement au prix de fichiers plus volumineux."
+      },
+      "reciprocal-rule": {
+        "term": "Règle de réciprocité",
+        "definition": "Un principe selon lequel la vitesse d'obturation minimale à main levée doit être de 1/(longueur focale) pour éviter le flou de bougé. Pour un objectif de 200 mm, utilise au moins 1/200s."
+      },
+      "rule-of-thirds": {
+        "term": "Règle des tiers",
+        "definition": "Un principe de composition qui divise le cadre en une grille 3×3. Placer les sujets le long des lignes ou à leurs intersections crée souvent une image plus équilibrée."
+      },
+      "sensor-size": {
+        "term": "Taille du capteur",
+        "definition": "Les dimensions physiques du capteur d'un appareil photo. Les capteurs plus grands captent plus de lumière, offrent une profondeur de champ plus faible et produisent généralement moins de bruit."
+      },
+      "shutter-speed": {
+        "term": "Vitesse d'obturation",
+        "definition": "La durée pendant laquelle l'obturateur de l'appareil est ouvert lors d'une exposition. Les vitesses rapides figent le mouvement ; les vitesses lentes permettent le flou de mouvement."
+      },
+      "star-trails": {
+        "term": "Filé d'étoiles",
+        "definition": "Des traînées de lumière créées par le mouvement apparent des étoiles pendant une longue exposition. Peut être capturé en une seule très longue exposition ou en empilant plusieurs poses plus courtes."
+      },
+      "stop": {
+        "term": "Stop",
+        "definition": "Une unité de changement d'exposition représentant un doublement ou un halving de la lumière. S'applique de manière égale à l'ouverture, la vitesse d'obturation et l'ISO."
+      },
+      "telephoto": {
+        "term": "Téléobjectif",
+        "definition": "Un objectif avec une longueur focale supérieure à environ 70 mm (équivalent plein format). Les téléobjectifs grossissent les sujets éloignés et compriment la perspective."
+      },
+      "tilt-shift": {
+        "term": "Objectif à bascule et décentrement",
+        "definition": "Un objectif qui peut incliner le plan de mise au point et déplacer le cercle image par rapport au capteur. Utilisé pour la photographie d'architecture et les effets de mise au point sélective."
+      },
+      "underexposure": {
+        "term": "Sous-exposition",
+        "definition": "Quand une image reçoit trop peu de lumière, provoquant la perte de détails dans les zones d'ombre qui apparaissent bruitées. Le contraire de la surexposition."
+      },
+      "vignetting": {
+        "term": "Vignetage",
+        "definition": "Un assombrissement des coins et des bords d'une image par rapport au centre. Peut être causé par la conception de l'objectif, les filtres ou les paresoleil, et est parfois ajouté intentionnellement en post-traitement."
+      },
+      "white-balance": {
+        "term": "Balance des blancs",
+        "definition": "Un réglage de l'appareil qui ajuste les couleurs pour que les objets blancs apparaissent neutres sous différentes conditions d'éclairage. Peut être réglé automatiquement ou manuellement avec des valeurs en Kelvin."
+      },
+      "wide-angle": {
+        "term": "Grand-angle",
+        "definition": "Un objectif à courte longueur focale (généralement inférieure à 35 mm en plein format) qui capture un champ de vision plus large. Souvent utilisé pour les paysages, l'architecture et les intérieurs."
+      },
+      "zoom-lens": {
+        "term": "Objectif zoom",
+        "definition": "Un objectif à plage focale variable, permettant au photographe de changer le cadrage sans se déplacer. Offre de la polyvalence au prix de la taille, du poids et parfois de la netteté."
+      }
+    }
+  }
+}

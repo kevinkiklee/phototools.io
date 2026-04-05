@@ -1,0 +1,56 @@
+{
+  "tools": {
+    "fov-simulator": {
+      "name": "Simulateur de champ de vision",
+      "description": "Compare le champ de vision selon les longueurs focales et les tailles de capteur"
+    },
+    "color-scheme-generator": {
+      "name": "Générateur de palette de couleurs",
+      "description": "Crée des palettes de couleurs pour tes séances photo"
+    },
+    "exposure-simulator": {
+      "name": "Simulateur du triangle d'exposition",
+      "description": "Découvre l'interaction entre ouverture, vitesse d'obturation et ISO"
+    },
+    "dof-calculator": {
+      "name": "Calculateur de profondeur de champ",
+      "description": "Calcule la mise au point proche, lointaine et la profondeur de champ totale"
+    },
+    "hyperfocal-simulator": {
+      "name": "Simulateur de distance hyperfocale",
+      "description": "Apprends où faire la mise au point pour une netteté maximale du premier plan à l'infini"
+    },
+    "shutter-speed-visualizer": {
+      "name": "Visualiseur de vitesse d'obturation",
+      "description": "Trouve la vitesse d'obturation minimale pour des photos nettes à main levée"
+    },
+    "nd-filter-calculator": {
+      "name": "Calculateur de filtre ND",
+      "description": "Calcule le temps d'exposition avec n'importe quel filtre ND"
+    },
+    "star-trail-calculator": {
+      "name": "Calculateur de filé d'étoiles",
+      "description": "Calcule l'exposition maximale pour des étoiles nettes ou planifie des photos de filé d'étoiles"
+    },
+    "perspective-compression-simulator": {
+      "name": "Simulateur de compression de perspective",
+      "description": "Découvre comment la longueur focale affecte la compression de l'arrière-plan"
+    },
+    "white-balance-visualizer": {
+      "name": "Visualiseur de balance des blancs",
+      "description": "Découvre comment la température de couleur affecte tes photos"
+    },
+    "sensor-size-comparison": {
+      "name": "Comparaison des tailles de capteur",
+      "description": "Compare visuellement les tailles de capteur des appareils photo"
+    },
+    "frame-studio": {
+      "name": "Studio de cadrage",
+      "description": "Recadre, encadre et compose tes photos avec des grilles de composition"
+    },
+    "exif-viewer": {
+      "name": "Visionneuse EXIF",
+      "description": "Affiche les métadonnées EXIF et l'histogramme de n'importe quelle photo — 100 % côté client"
+    }
+  }
+}

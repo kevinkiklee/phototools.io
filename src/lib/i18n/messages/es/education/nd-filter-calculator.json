@@ -1,0 +1,112 @@
+{
+  "education": {
+    "nd-filter-calculator": {
+      "beginner": "Un filtro ND (densidad neutra) es como unas gafas de sol para el objetivo de tu cámara. Reduce la cantidad de luz que entra al objetivo sin cambiar los colores, permitiéndote usar velocidades de obturación más lentas o aperturas más amplias en condiciones de mucha luz. Así es como los fotógrafos crean cascadas sedosas, océanos suaves o nubes borrosas durante el día.",
+      "deeper": "Los filtros ND se clasifican por cuántos pasos de luz bloquean. Un filtro ND2 (1 paso) reduce la luz a la mitad, un ND8 (3 pasos) la reduce a 1/8, y un ND1000 (10 pasos) reduce la luz por un factor de 1024. Las convenciones de nomenclatura pueden ser confusas: \"ND8\" significa que el factor del filtro es 8 (3 pasos), mientras que \"ND 0.9\" usa notación de densidad óptica (cada 0.3 = 1 paso, así que 0.9 = 3 pasos). La velocidad de obturación resultante es simplemente la velocidad base multiplicada por el factor del filtro. Por ejemplo, si tu exposición sin filtro es 1/125s y añades un ND de 10 pasos (ND1000), la nueva velocidad de obturación es 1/125 x 1024 = aproximadamente 8 segundos. Apilar múltiples filtros ND suma sus valores de pasos pero puede introducir viñeteo y dominantes de color, especialmente con objetivos gran angular.",
+      "keyFactors": {
+        "0": {
+          "label": "Velocidad de obturación base",
+          "description": "El tiempo de exposición correcto sin ningún filtro. Mide la escena primero, luego calcula la exposición filtrada a partir de este punto de partida."
+        },
+        "1": {
+          "label": "Intensidad del filtro",
+          "description": "Medida en pasos. Cada paso duplica el tiempo de exposición. Intensidades comunes: 3 pasos (ND8), 6 pasos (ND64) y 10 pasos (ND1000)."
+        },
+        "2": {
+          "label": "Apilamiento de filtros",
+          "description": "Puedes combinar filtros sumando sus valores de pasos. Un apilamiento de 3 pasos + 6 pasos da 9 pasos de reducción. Cuidado con el viñeteo en objetivos gran angular."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Compone y enfoca antes de colocar un filtro ND fuerte. Con 10 pasos de reducción de luz, tu visor y enfoque automático tendrán dificultades en la oscuridad."
+        },
+        "1": {
+          "text": "Para paisajes marinos, exposiciones de 1-2 segundos suavizan las pequeñas ondulaciones en textura mientras retienen la estructura de las olas. Exposiciones de 30 segundos o más crean agua completamente plana y brumosa."
+        },
+        "2": {
+          "text": "Los filtros ND baratos a menudo añaden una dominante de color (generalmente magenta o marrón). Invierte en vidrio de calidad de marcas reputadas, o aprende a corregir la dominante en posprocesamiento usando una referencia de carta gris."
+        }
+      },
+      "tooltips": {
+        "baseShutterSpeed": {
+          "term": "Velocidad de obturación base",
+          "definition": "La velocidad de obturación para una exposición correcta sin ningún filtro ND colocado. Este es tu punto de partida — la calculadora la multiplica por el factor del filtro."
+        },
+        "ndFilter": {
+          "term": "Filtro ND",
+          "definition": "Un filtro de densidad neutra que reduce uniformemente la transmisión de luz. Se clasifica por factor de filtro (ND2, ND4, ND8...) o pasos de reducción de luz. ND2 = 1 paso, ND4 = 2 pasos, ND8 = 3 pasos, y así sucesivamente."
+        },
+        "resultingShutterSpeed": {
+          "term": "Velocidad de obturación resultante",
+          "definition": "La nueva velocidad de obturación después de considerar el filtro ND. Se calcula multiplicando la velocidad de obturación base por el factor del filtro (por ejemplo, 1/125s x 1024 para un ND de 10 pasos)."
+        },
+        "stopsAdded": {
+          "term": "Pasos añadidos",
+          "definition": "El número de pasos de reducción de luz que proporciona el filtro ND. Cada paso duplica el tiempo de exposición requerido. 10 pasos significa que la exposición es 1024 veces más larga."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Estás en una cascada y tu cámara mide una exposición correcta a 1/125s sin ningún filtro. Colocas un filtro ND de 3 pasos (ND8). ¿Cuál es la nueva velocidad de obturación?",
+          "hint": "Cada paso duplica el tiempo de exposición. 3 pasos significa 2 x 2 x 2 = 8 veces más largo.",
+          "successMessage": "¡Correcto! 1/125s x 8 = 1/15s. Este es un buen comienzo para el desenfoque de movimiento en el agua, aunque podrías necesitar un filtro aún más fuerte para resultados completamente sedosos.",
+          "failureMessage": "Un filtro ND de 3 pasos multiplica el tiempo de exposición por 8 (2^3 = 8). Así que 1/125s se convierte en 1/15s.",
+          "options": {
+            "0": { "label": "1/60s" },
+            "1": { "label": "1/30s" },
+            "2": { "label": "1/15s" },
+            "3": { "label": "1/8s" }
+          }
+        },
+        "1": {
+          "scenario": "Quieres crear una exposición de 30 segundos de nubes moviéndose por el cielo. Sin filtro, la exposición correcta es 1/30s. ¿Cuántos pasos de filtración ND necesitas?",
+          "hint": "Necesitas pasar de 1/30s a 30s — eso es 1/30 x factor = 30, así que factor = 900. Encuentra la potencia de 2 más cercana.",
+          "successMessage": "¡Correcto! Pasar de 1/30s a 30s es aproximadamente un aumento de 1000x, que son unos 10 pasos. Un filtro ND1000 (10 pasos) te lleva a aproximadamente 33 segundos.",
+          "failureMessage": "La relación es 30 / (1/30) = 900. La potencia de 2 más cercana es 1024 (2^10), así que necesitas un filtro ND de 10 pasos.",
+          "options": {
+            "0": { "label": "6 pasos (ND64)" },
+            "1": { "label": "8 pasos (ND256)" },
+            "2": { "label": "10 pasos (ND1000)" },
+            "3": { "label": "15 pasos (ND32768)" }
+          }
+        },
+        "2": {
+          "scenario": "Estás fotografiando un paisaje marino al atardecer. La luz se desvanece y tu exposición base (sin filtro) es ahora 1/4s a f/11, ISO 100. Quieres exposiciones de 2 minutos para agua ultra suave. ¿Qué intensidad de filtro ND necesitas?",
+          "hint": "De 1/4s a 120s es un factor de 480. Encuentra el valor de paso más cercano.",
+          "successMessage": "Un ND de 9 pasos te daría 1/4 x 512 = 128 segundos, o poco más de 2 minutos. Perfecto para ese aspecto etéreo y brumoso de paisaje marino al atardecer.",
+          "failureMessage": "De 0.25s a 120s es aproximadamente un aumento de 480x. 2^9 = 512, que se acerca a 480, así que un filtro de 9 pasos te lleva a aproximadamente 128 segundos.",
+          "options": {
+            "0": { "label": "6 pasos" },
+            "1": { "label": "9 pasos" },
+            "2": { "label": "10 pasos" },
+            "3": { "label": "13 pasos" }
+          }
+        },
+        "3": {
+          "scenario": "Quieres hacer un retrato a f/1.4 en pleno sol (exposición base: f/1.4, 1/8000s, ISO 100). La velocidad de obturación máxima de tu cámara es 1/8000s. ¿Puedes disparar a f/1.4 sin filtro ND?",
+          "hint": "Comprueba si 1/8000s a f/1.4 e ISO 100 es alcanzable, o si la escena sigue sobreexpuesta.",
+          "successMessage": "¡Correcto! En un día muy brillante (EV 15+), f/1.4 a ISO 100 a menudo necesita velocidades de obturación más rápidas que 1/8000s, que la mayoría de las cámaras no pueden alcanzar. Un filtro ND de 2-3 pasos te permite disparar con apertura abierta sin sobreexposición.",
+          "failureMessage": "En pleno sol, f/1.4 a ISO 100 puede requerir velocidades de obturación más allá del límite de 1/8000s de la cámara. Un filtro ND es esencial para disparar con apertura abierta en condiciones de mucha luz.",
+          "options": {
+            "0": { "label": "Sí — 1/8000s es suficientemente rápido" },
+            "1": { "label": "No — probablemente necesites un filtro ND de 2-3 pasos" },
+            "2": { "label": "Solo sube el ISO para compensar" }
+          }
+        },
+        "4": {
+          "scenario": "Tienes un filtro ND de 6 pasos y otro de 3 pasos. Los apilas en tu objetivo con una exposición base de 1/250s. ¿Cuál es la velocidad de obturación resultante, y qué deberías vigilar con esta configuración?",
+          "hint": "Suma los valores de pasos, luego calcula la nueva exposición. Piensa en los efectos ópticos secundarios del apilamiento.",
+          "successMessage": "¡Correcto! 6 + 3 = 9 pasos. 1/250 x 512 = aproximadamente 2 segundos. Vigila el viñeteo (esquinas oscuras) en objetivos gran angular y posibles dominantes de color con vidrio barato.",
+          "failureMessage": "Apilar suma los valores de pasos: 6 + 3 = 9 pasos en total. 2^9 = 512, así que 1/250 x 512 = ~2 segundos. El apilamiento también puede causar viñeteo y dominantes de color.",
+          "options": {
+            "0": { "label": "~0.5s, vigilar los destellos del objetivo" },
+            "1": { "label": "~2s, vigilar el viñeteo y las dominantes de color" },
+            "2": { "label": "~4s, vigilar el sobrecalentamiento del sensor" },
+            "3": { "label": "~8s, sin preocupaciones con el apilamiento" }
+          }
+        }
+      }
+    }
+  }
+}

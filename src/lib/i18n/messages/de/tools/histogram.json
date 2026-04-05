@@ -1,0 +1,42 @@
+{
+  "toolUI": {
+    "histogram": {
+      "luminance": "Luminanz",
+      "rgbOverlay": "RGB-Überlagerung",
+      "allChannels": "Alle Kanäle",
+      "shadows": "Schatten",
+      "midtones": "Mitteltöne",
+      "highlights": "Lichter",
+      "blackClipping": "Schwarz-Clipping",
+      "whiteClipping": "Weiß-Clipping",
+      "pureBlack": "reines Schwarz",
+      "pureWhite": "reines Weiß",
+      "uploadPrompt": "Lade ein Bild hoch, um EXIF-Daten und Histogramm anzuzeigen",
+      "uploadedPhoto": "Hochgeladenes Foto",
+      "noExifData": "Keine EXIF-Daten in diesem Bild gefunden.",
+      "sectionCamera": "Kamera",
+      "sectionLens": "Objektiv",
+      "sectionSettings": "Einstellungen",
+      "sectionImage": "Bild",
+      "sectionDate": "Datum",
+      "sectionGPS": "GPS",
+      "sectionSoftware": "Software",
+      "make": "Hersteller",
+      "model": "Modell",
+      "lensModel": "Objektivmodell",
+      "lensMake": "Objektivhersteller",
+      "apertureLabel": "Blende",
+      "shutterSpeed": "Verschlusszeit",
+      "isoLabel": "ISO",
+      "focalLengthLabel": "Brennweite",
+      "focalLength35mm": "Brennweite (35mm-Äquiv.)",
+      "width": "Breite",
+      "height": "Höhe",
+      "orientationLabel": "Ausrichtung",
+      "dateTaken": "Aufnahmedatum",
+      "latitudeLabel": "Breitengrad",
+      "longitudeLabel": "Längengrad",
+      "softwareLabel": "Software"
+    }
+  }
+}

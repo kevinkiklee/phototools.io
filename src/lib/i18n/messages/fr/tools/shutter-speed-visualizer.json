@@ -1,0 +1,27 @@
+{
+  "toolUI": {
+    "shutter-speed-visualizer": {
+      "description": "Découvre comment la vitesse d'obturation affecte le flou de mouvement pour différents sujets.",
+      "shutterSpeed": "Vitesse d'obturation",
+      "shutterSpeedAriaLabel": "Vitesse d'obturation",
+      "sliderSlow": "Lent (2s)",
+      "sliderFast": "Rapide (1/4000)",
+      "selectedSpeed": "Vitesse sélectionnée",
+      "motionBlurAriaLabel": "Visualisation du flou de mouvement pour différents sujets",
+      "verdictFrozen": "Figé",
+      "verdictMostlySharp": "Plutôt net",
+      "verdictSlightBlur": "Léger flou",
+      "verdictMotionBlur": "Flou de mouvement",
+      "standingPerson": "Personne debout",
+      "slowWalk": "Marche lente",
+      "jogging": "Jogging",
+      "running": "Course",
+      "cyclist": "Cycliste",
+      "birdsInFlight": "Oiseaux en vol",
+      "carCity": "Voiture (ville)",
+      "f1Car": "Voiture F1",
+      "airplaneLanding": "Avion (atterrissage)",
+      "stationary": "immobile"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "toolUI": {
+    "shutter-speed-visualizer": {
+      "description": "シャッタースピードが異なる被写体のモーションブラーにどう影響するかを確認。",
+      "shutterSpeed": "シャッタースピード",
+      "shutterSpeedAriaLabel": "シャッタースピード",
+      "sliderSlow": "遅い（2秒）",
+      "sliderFast": "速い（1/4000）",
+      "selectedSpeed": "選択中の速度",
+      "motionBlurAriaLabel": "異なる被写体のモーションブラー視覚化",
+      "verdictFrozen": "静止",
+      "verdictMostlySharp": "ほぼシャープ",
+      "verdictSlightBlur": "わずかなブレ",
+      "verdictMotionBlur": "モーションブラー",
+      "standingPerson": "立っている人",
+      "slowWalk": "ゆっくり歩行",
+      "jogging": "ジョギング",
+      "running": "ランニング",
+      "cyclist": "自転車",
+      "birdsInFlight": "飛んでいる鳥",
+      "carCity": "車（市街地）",
+      "f1Car": "F1カー",
+      "airplaneLanding": "飛行機（着陸）",
+      "stationary": "静止"
+    }
+  }
+}

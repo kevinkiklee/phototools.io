@@ -1,0 +1,101 @@
+{
+  "common": {
+    "nav": {
+      "tools": "Werkzeuge",
+      "glossary": "Glossar",
+      "closeMenu": "Menü schließen",
+      "comingSoon": "Bald",
+      "categories": {
+        "visualizer": "Visualisierer",
+        "calculator": "Rechner",
+        "reference": "Nachschlagewerke",
+        "file-tool": "Dateiwerkzeuge"
+      }
+    },
+    "footer": {
+      "glossary": "Glossar",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen",
+      "cookieSettings": "Cookie-Einstellungen"
+    },
+    "theme": {
+      "switchToLight": "Zum hellen Modus wechseln",
+      "switchToDark": "Zum dunklen Modus wechseln"
+    },
+    "actions": {
+      "copyImage": "Bild kopieren",
+      "reset": "Zurücksetzen",
+      "copyLink": "Link kopieren",
+      "share": "Teilen",
+      "embed": "Einbetten"
+    },
+    "toast": {
+      "linkCopied": "Link kopiert!",
+      "imageCopied": "Bild kopiert!",
+      "failedToCopy": "Kopieren fehlgeschlagen",
+      "copied": "Kopiert!"
+    },
+    "learn": {
+      "title": "Lernen",
+      "openPanel": "Lernbereich öffnen",
+      "collapsePanel": "Lernbereich einklappen",
+      "whatIsThis": "Was ist das?",
+      "howItWorks": "Wie es funktioniert",
+      "keyFactors": "Schlüsselfaktoren",
+      "proTip": "Profi-Tipp",
+      "challenge": "Aufgabe",
+      "hint": "Hinweis: {hint}",
+      "completed": "Abgeschlossen",
+      "checkAnswer": "Antwort prüfen",
+      "nextChallenge": "Nächste Aufgabe",
+      "tryAgain": "Nochmal versuchen",
+      "resetAll": "Alle zurücksetzen",
+      "resetAllChallenges": "Alle Aufgaben zurücksetzen",
+      "challengeNumber": "Aufgabe {number}"
+    },
+    "share": {
+      "title": "Teilen & Einbetten",
+      "closeModal": "Teilen-Dialog schließen",
+      "directLink": "Direktlink",
+      "markdown": "Markdown (Reddit, GitHub)",
+      "bbcode": "BBCode (Foren)",
+      "htmlEmbed": "HTML-Einbettung",
+      "copy": "Kopieren",
+      "copied": "Kopiert"
+    },
+    "draft": {
+      "banner": "Vorschau — Dieses Werkzeug ist noch nicht öffentlich"
+    },
+    "fileUpload": {
+      "dropPrompt": "Bild hier ablegen oder klicken zum Durchsuchen",
+      "tapPrompt": "Tippen, um ein Foto auszuwählen",
+      "privacy": "Deine Fotos verlassen nie dein Gerät",
+      "selectedFile": "Ausgewählte Datei: {fileName}. Klicken, um ein anderes Bild auszuwählen",
+      "defaultLabel": "Dein Foto"
+    },
+    "scene": {
+      "label": "Szene:",
+      "yourPhoto": "Dein Foto",
+      "removePhoto": "Foto entfernen",
+      "uploadPhoto": "Foto hochladen"
+    },
+    "controls": {
+      "focalLength": "Brennweite",
+      "clickToEnterValue": "Klicken, um einen Wert einzugeben",
+      "decrease": "Verringern",
+      "increase": "Erhöhen"
+    },
+    "dof": {
+      "depthOfField": "Schärfentiefe: {totalDoF} von {nearFocus} bis {farFocus}",
+      "infinity": "Unendlich"
+    },
+    "ad": {
+      "closeAd": "Werbung schließen"
+    },
+    "tooltip": {
+      "infoLabel": "Info: {term}"
+    }
+  }
+}

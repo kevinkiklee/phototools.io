@@ -1,0 +1,150 @@
+{
+  "education": {
+    "star-trail-calculator": {
+      "beginner": "Les étoiles semblent se déplacer dans le ciel parce que la Terre tourne. Si ton obturateur reste ouvert assez longtemps, les étoiles laisseront des traînées sur ta photo. Le calculateur de filé d'étoiles t'aide à trouver le temps d'exposition maximal pour des étoiles nettes, ou à planifier de longues expositions pour créer de beaux arcs de filé d'étoiles circulaires.",
+      "deeper": {
+        "0": {
+          "heading": "Comment les étoiles se déplacent",
+          "text": "La Terre effectue une rotation de 360° en environ 23 heures et 56 minutes (un jour sidéral), les étoiles se déplacent donc à environ 15 secondes d'arc par seconde à l'équateur céleste. Les étoiles proches des pôles (Polaris au nord) tracent des cercles plus petits et semblent se déplacer plus lentement."
+        },
+        "1": {
+          "heading": "La règle des 500 vs la règle NPF",
+          "text": "La classique « règle des 500 » divise 500 par ta longueur focale effective pour estimer l'exposition maximale avant que le filé soit visible — mais elle a été conçue pour des capteurs de résolution inférieure. La règle NPF prend en compte le pas de pixel, la longueur focale, l'ouverture et la déclinaison, produisant des limites plus courtes et plus précises pour les appareils modernes à haute résolution."
+        },
+        "2": {
+          "heading": "L'empilement pour les filés d'étoiles",
+          "text": "Pour les filés d'étoiles intentionnels, les photographes prennent de nombreuses expositions courtes (typiquement 30s chacune) et les empilent en logiciel. Cela évite l'accumulation de bruit, permet des traînées sans coupures, et signifie qu'une seule mauvaise image ne ruine pas toute la photo."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Longueur focale",
+          "description": "Les longues focales grossissent le mouvement des étoiles, nécessitant des expositions plus courtes pour des étoiles nettes. Un 14 mm peut exposer 5 à 10 fois plus longtemps qu'un 200 mm."
+        },
+        "1": {
+          "label": "Résolution du capteur",
+          "description": "Les capteurs haute résolution révèlent le filé stellaire à des temps d'exposition plus courts. La règle des 500 est trop généreuse pour les appareils modernes de 40 MP+."
+        },
+        "2": {
+          "label": "Latitude et déclinaison",
+          "description": "Les étoiles proches des pôles célestes bougent moins par seconde. Pointer vers Polaris permet des expositions plus longues avant que les traînées n'apparaissent."
+        },
+        "3": {
+          "label": "Empilement vs exposition unique",
+          "description": "Pour les filés d'étoiles, empiler de nombreuses expositions courtes produit des résultats plus propres qu'une seule très longue exposition, et permet de récupérer les interruptions."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Utilise la règle NPF plutôt que la règle des 500 pour les appareils modernes. Elle prend en compte la résolution du capteur et produit des temps d'exposition maximum plus précis, surtout avec les boîtiers à haute résolution."
+        },
+        "1": {
+          "text": "Pour l'empilement de filé d'étoiles, garde les intervalles entre les images sous 2-3 secondes en utilisant une télécommande filaire ou un intervallomètre. Des intervalles plus longs créent des traînées en pointillés plutôt que lisses."
+        },
+        "2": {
+          "text": "Inclus Polaris (ou le Pôle Céleste Sud) dans ta composition pour des traînées concentriques spectaculaires. Les étoiles plus proches du pôle tracent des arcs plus serrés."
+        }
+      },
+      "tooltips": {
+        "mode": {
+          "term": "Mode",
+          "definition": "Choisis « Étoiles nettes » pour calculer le temps d'exposition maximal pour des étoiles nettes, ou « Filé d'étoiles » pour planifier des séquences d'exposition pour des effets de traînées intentionnels."
+        },
+        "focalLength": {
+          "term": "Longueur focale",
+          "definition": "La longueur focale de l'objectif en millimètres. Les focales plus longues grossissent le mouvement apparent des étoiles, nécessitant des expositions individuelles plus courtes."
+        },
+        "sensor": {
+          "term": "Taille du capteur",
+          "definition": "Les dimensions physiques du capteur. Combinées avec la résolution, elles déterminent le pas de pixel, qui affecte la rapidité à laquelle le filé stellaire devient visible."
+        },
+        "resolution": {
+          "term": "Résolution",
+          "definition": "La résolution du capteur en mégapixels. Les appareils haute résolution révèlent le filé stellaire plus tôt car chaque pixel couvre une plus petite zone angulaire du ciel."
+        },
+        "aperture": {
+          "term": "Ouverture",
+          "definition": "L'ouverture de l'objectif. Pour l'astrophotographie, utilise l'ouverture la plus large disponible (nombre f le plus bas) pour capturer le plus de lumière stellaire dans chaque image."
+        },
+        "latitude": {
+          "term": "Latitude",
+          "definition": "Ta latitude géographique. Affecte la vitesse apparente de mouvement des étoiles — à des latitudes plus élevées, les étoiles proches du pôle bougent plus lentement dans le cadre."
+        },
+        "exposurePerFrame": {
+          "term": "Exposition par image",
+          "definition": "La vitesse d'obturation pour chaque image individuelle dans une séquence de filé d'étoiles. Typiquement 15-30 secondes pour capter assez de lumière tout en évitant un bruit excessif."
+        },
+        "numberOfFrames": {
+          "term": "Nombre d'images",
+          "definition": "Combien d'expositions individuelles à prendre. Plus d'images signifie des filés plus longs et plus spectaculaires. 120 images de 30 secondes produisent une heure de traînées."
+        },
+        "gapBetweenFrames": {
+          "term": "Intervalle entre les images",
+          "definition": "Le temps entre les expositions pour que l'appareil enregistre le fichier. Garde cet intervalle aussi court que possible (1-3 secondes) pour éviter les traînées en pointillés."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tu photographies la Voie Lactée avec un objectif de 24 mm sur un appareil plein format 24 MP. En utilisant la règle des 500, combien de temps peux-tu exposer approximativement avant que les étoiles ne commencent à filer ?",
+          "hint": "La règle des 500 : secondes maximum = 500 / longueur focale.",
+          "successMessage": "Exact ! 500 / 24 = environ 20 secondes. C'est un bon point de départ, même si la règle NPF pourrait suggérer un temps légèrement plus court pour une netteté critique.",
+          "failureMessage": "Applique la règle des 500 : divise 500 par ta longueur focale (24 mm). Cela te donne environ 20 secondes.",
+          "options": {
+            "0": { "label": "5 secondes" },
+            "1": { "label": "10 secondes" },
+            "2": { "label": "20 secondes" },
+            "3": { "label": "60 secondes" }
+          }
+        },
+        "1": {
+          "scenario": "Tu veux photographier la Nébuleuse d'Orion avec un 200 mm sur un appareil à capteur crop (facteur 1,5×). Quelle est l'exposition maximale approximative avec la règle des 500 ?",
+          "hint": "Avec un capteur crop, multiplie d'abord la longueur focale par le facteur de recadrage, puis applique la règle.",
+          "successMessage": "Correct ! La longueur focale effective est 200 mm × 1,5 = 300 mm. 500 / 300 = ~1,7 secondes. Aux focales télé sur capteurs crop, tu as très peu de temps avant que le filé n'apparaisse.",
+          "failureMessage": "N'oublie pas le facteur de recadrage : 200 mm × 1,5 = 300 mm effectifs. Puis 500 / 300 donne environ 1,7 secondes.",
+          "options": {
+            "0": { "label": "~1,7 secondes" },
+            "1": { "label": "~2,5 secondes" },
+            "2": { "label": "~5 secondes" },
+            "3": { "label": "~10 secondes" }
+          }
+        },
+        "2": {
+          "scenario": "Tu veux créer une photo de filé d'étoiles de 2 heures. Tu prévois des expositions de 30 secondes avec des intervalles de 2 secondes. Combien d'images te faudra-t-il ?",
+          "hint": "Calcule combien d'intervalles de 32 secondes (30s d'exposition + 2s d'intervalle) rentrent dans 2 heures (7200 secondes).",
+          "successMessage": "Correct ! 7200 secondes / 32 secondes par image = 225 images. Tu obtiendras des traînées lisses et continues sur 2 heures de rotation terrestre.",
+          "failureMessage": "Deux heures = 7200 secondes. Chaque cycle d'image dure 30s + 2s = 32s. Divise 7200 par 32 pour obtenir le nombre d'images nécessaires.",
+          "options": {
+            "0": { "label": "120 images" },
+            "1": { "label": "180 images" },
+            "2": { "label": "225 images" },
+            "3": { "label": "240 images" }
+          }
+        },
+        "3": {
+          "scenario": "Ton ami utilise un appareil plein format 50 MP et a suivi la règle des 500 avec un 20 mm, obtenant une exposition de 25 secondes. Il se plaint que les étoiles ressemblent à de courts traits quand on zoome. Pourquoi ?",
+          "hint": "La règle des 500 a été conçue pour des capteurs plus anciens, de résolution inférieure.",
+          "successMessage": "Exactement ! La règle des 500 est trop généreuse pour les capteurs haute résolution. Un capteur plein format 50 MP a un pas de pixel d'environ 4,4 micromètres, et la règle NPF recommanderait environ 10-12 secondes pour des étoiles vraiment nettes.",
+          "failureMessage": "La règle des 500 a été créée quand les capteurs avaient bien moins de mégapixels. Avec 50 MP, chaque pixel couvre une tranche de ciel beaucoup plus petite, révélant un mouvement stellaire invisible sur les anciens appareils.",
+          "options": {
+            "0": { "label": "L'objectif n'était pas au point" },
+            "1": { "label": "La règle des 500 est trop généreuse pour les capteurs haute résolution" },
+            "2": { "label": "L'appareil tremblait dans le vent" },
+            "3": { "label": "Le 20 mm est trop large pour l'astrophotographie" }
+          }
+        },
+        "4": {
+          "scenario": "Tu veux une image de filé d'étoiles d'1 heure. Pourquoi les astrophotographes expérimentés empilent-ils de nombreuses expositions courtes (par ex. 240 × 15s) au lieu de prendre une seule exposition d'1 heure ?",
+          "hint": "Pense à ce qui arrive au bruit du capteur, à la batterie, et à la récupération pendant une exposition unique extrêmement longue.",
+          "successMessage": "Correct ! Une seule exposition d'une heure accumule un bruit thermique massif, draine la batterie, et si quelque chose tourne mal (vibration, buée, phares de voiture) toute la photo est ruinée. Empiler des images courtes garde le bruit bas, permet de retirer les mauvaises images, et est bien plus tolérant.",
+          "failureMessage": "Les longues expositions uniques accumulent un bruit thermique sévère et risquent la perte totale en cas d'interruption. Empiler des images courtes garde le bruit gérable, permet d'éliminer les images ratées, et produit des résultats plus propres.",
+          "options": {
+            "0": { "label": "L'empilement produit des traînées plus longues qu'une exposition unique" },
+            "1": { "label": "Les expositions uniques ne peuvent pas enregistrer le mouvement des étoiles" },
+            "2": { "label": "L'empilement réduit le bruit, permet la récupération des interruptions et économise la batterie" },
+            "3": { "label": "Il n'y a pas de différence pratique — c'est purement une préférence personnelle" }
+          }
+        }
+      }
+    }
+  }
+}

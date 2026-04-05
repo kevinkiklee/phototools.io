@@ -1,0 +1,43 @@
+{
+  "toolUI": {
+    "exposure-simulator": {
+      "lock": "Bloquear:",
+      "lockAperture": "Apertura",
+      "lockShutter": "Obturación",
+      "lockISO": "ISO",
+      "lockApertureLabel": "Bloquear apertura",
+      "lockShutterLabel": "Bloquear obturación",
+      "lockISOLabel": "Bloquear ISO",
+      "aperture": "Apertura:",
+      "shutterSpeed": "Velocidad de obturación:",
+      "iso": "ISO:",
+      "locked": "(bloqueado)",
+      "exposureValue": "Valor de exposición (EV)",
+      "depthOfField": "Profundidad de campo",
+      "motion": "Movimiento",
+      "noise": "Ruido",
+      "dofVeryShallow": "Muy reducida",
+      "dofShallow": "Reducida",
+      "dofModerate": "Moderada",
+      "dofDeep": "Profunda",
+      "dofVeryDeep": "Muy profunda",
+      "motionFrozen": "Congelado",
+      "motionSharp": "Nítido",
+      "motionModerate": "Moderado",
+      "motionSlightBlur": "Ligero desenfoque",
+      "motionBlurred": "Borroso",
+      "noiseClean": "Limpio",
+      "noiseLow": "Ruido bajo",
+      "noiseModerate": "Ruido moderado",
+      "noiseNoisy": "Ruidoso",
+      "noiseVeryNoisy": "Muy ruidoso",
+      "scene": "Escena:",
+      "sceneStreet": "Calle",
+      "sceneLandscape": "Paisaje",
+      "scenePortrait": "Retrato",
+      "sceneLowLight": "Poca luz",
+      "imageEffectsUnavailable": "La vista previa de efectos de imagen no está disponible.",
+      "loadingScene": "Cargando escena..."
+    }
+  }
+}

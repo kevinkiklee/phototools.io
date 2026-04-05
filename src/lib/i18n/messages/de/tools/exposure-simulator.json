@@ -1,0 +1,43 @@
+{
+  "toolUI": {
+    "exposure-simulator": {
+      "lock": "Sperren:",
+      "lockAperture": "Blende",
+      "lockShutter": "Verschluss",
+      "lockISO": "ISO",
+      "lockApertureLabel": "Blende sperren",
+      "lockShutterLabel": "Verschluss sperren",
+      "lockISOLabel": "ISO sperren",
+      "aperture": "Blende:",
+      "shutterSpeed": "Verschlusszeit:",
+      "iso": "ISO:",
+      "locked": "(gesperrt)",
+      "exposureValue": "Belichtungswert (EV)",
+      "depthOfField": "Schärfentiefe",
+      "motion": "Bewegung",
+      "noise": "Rauschen",
+      "dofVeryShallow": "Sehr gering",
+      "dofShallow": "Gering",
+      "dofModerate": "Moderat",
+      "dofDeep": "Tief",
+      "dofVeryDeep": "Sehr tief",
+      "motionFrozen": "Eingefroren",
+      "motionSharp": "Scharf",
+      "motionModerate": "Moderat",
+      "motionSlightBlur": "Leichte Unschärfe",
+      "motionBlurred": "Unscharf",
+      "noiseClean": "Sauber",
+      "noiseLow": "Wenig Rauschen",
+      "noiseModerate": "Moderates Rauschen",
+      "noiseNoisy": "Rauschig",
+      "noiseVeryNoisy": "Sehr rauschig",
+      "scene": "Szene:",
+      "sceneStreet": "Straße",
+      "sceneLandscape": "Landschaft",
+      "scenePortrait": "Porträt",
+      "sceneLowLight": "Wenig Licht",
+      "imageEffectsUnavailable": "Bildeffekt-Vorschau ist nicht verfügbar.",
+      "loadingScene": "Szene wird geladen..."
+    }
+  }
+}

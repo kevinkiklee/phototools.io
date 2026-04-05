@@ -1,0 +1,13 @@
+{
+  "toolUI": {
+    "perspective-compression-simulator": {
+      "cameraSettings": "Kameraeinstellungen",
+      "focalLength": "Brennweite",
+      "equivalent35mm": "Äquivalent (35 mm)",
+      "perspectiveDistance": "Perspektive & Entfernung",
+      "subjectDistance": "Motivabstand",
+      "maintainSubjectSize": "Motivgröße beibehalten",
+      "resetAll": "Alles zurücksetzen"
+    }
+  }
+}

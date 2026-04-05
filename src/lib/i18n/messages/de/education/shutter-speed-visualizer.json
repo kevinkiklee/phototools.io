@@ -1,0 +1,121 @@
+{
+  "education": {
+    "shutter-speed-visualizer": {
+      "beginner": "Der Verschlusszeit-Ratgeber hilft dir, die langsamste Verschlusszeit zu finden, die du noch verwenden kannst, um ein scharfes Freihandfoto zu erhalten. Wenn deine Verschlusszeit zu lang ist, wird das Bild durch Kameraverwacklung unscharf. Die minimale sichere Geschwindigkeit hängt von deiner Brennweite ab, davon ob du Bildstabilisierung hast, und davon wie ruhig deine Hände sind.",
+      "deeper": "Die klassische \"Kehrwertregel\" besagt, dass für scharfe Freihandfotos die Verschlusszeit mindestens 1/(Brennweite) Sekunden betragen sollte — ein 200-mm-Objektiv braucht also mindestens 1/200s. Bei Crop-Sensor-Kameras solltest du die äquivalente Brennweite verwenden (z. B. 200 mm an 1,5× Crop = 1/300s). Moderne Gehäuse-Stabilisierung (IBIS) und optische Stabilisierung (OIS) können 3-7 zusätzliche Blendenstufen Freihand-Spielraum bieten, was bedeutet, dass ein stabilisiertes 200-mm-Objektiv bei 1/15s oder noch langsamer scharf sein könnte. Allerdings kompensiert die Stabilisierung nur Kameraverwacklung, nicht die Bewegung des Motivs. Eine Person, die bei 1/15s auf dich zugeht, wird trotz Stabilisierung unscharf sein. Für sich bewegende Motive musst du eine Verschlusszeit basierend auf der Geschwindigkeit und Entfernung des Motivs wählen, nicht nur nach der Brennweite.",
+      "keyFactors": {
+        "0": {
+          "label": "Brennweite",
+          "description": "Längere Brennweiten vergrößern die Kameraverwacklung. Die Kehrwertregel (1/Brennweite) ist der Ausgangspunkt zur Bestimmung der minimalen Verschlusszeit."
+        },
+        "1": {
+          "label": "Bildstabilisierung",
+          "description": "OIS (objektivbasiert) bietet typischerweise 2-4 Stufen Vorteil. IBIS (gehäusebasiert) bietet 3-5 Stufen. Kombiniertes OIS+IBIS kann bei einigen Systemen 5-7 Stufen erreichen."
+        },
+        "2": {
+          "label": "Motivbewegung",
+          "description": "Stehende Motive erfordern nur genug Geschwindigkeit, um Kameraverwacklung entgegenzuwirken. Sich bewegende Motive brauchen schnellere Zeiten unabhängig von der Stabilisierung: Gehen (~1/125s), Laufen (~1/500s), Fahrzeuge (~1/1000s+)."
+        },
+        "3": {
+          "label": "Sensorgröße (Crop-Faktor)",
+          "description": "Crop-Sensor-Kameras multiplizieren die Brennweite für die Kehrwertregel. Ein 50-mm-Objektiv an einem 1,5× Crop verhält sich wie 75 mm, also brauchst du mindestens 1/75s."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Stütze dich an eine Wand, drücke die Ellbogen an den Körper und atme langsam aus, bevor du den Auslöser drückst. Gute Technik kann 1-2 zusätzliche Stufen Stabilität über die Kehrwertregel hinaus bringen."
+        },
+        "1": {
+          "text": "Beim Fotografieren von Menschen bestimmt meist die Bewegung des Motivs deine Mindestverschlusszeit, nicht deine Brennweite. Selbst mit einem Weitwinkelobjektiv und Stabilisierung braucht ein rennendes Kind mindestens 1/500s."
+        },
+        "2": {
+          "text": "Wenn du regelmäßig bei wenig Licht fotografierst, investiere in ein Kameragehäuse mit IBIS. Die Möglichkeit, mit einem Weitwinkelobjektiv bei 1/2s freihändig zu fotografieren, eröffnet Möglichkeiten, die keine noch so gute Hoch-ISO-Leistung bieten kann."
+        }
+      },
+      "tooltips": {
+        "focalLength": {
+          "term": "Brennweite",
+          "definition": "Die Objektiv-Brennweite in Millimetern. Beeinflusst direkt die minimale sichere Verschlusszeit durch die Kehrwertregel: 1/(Brennweite) für Vollformat, angepasst um den Crop-Faktor für kleinere Sensoren."
+        },
+        "sensor": {
+          "term": "Sensorgröße",
+          "definition": "Die Kamerasensorgröße, die den Crop-Faktor bestimmt. APS-C (1,5×) und Micro Four Thirds (2×) multiplizieren die effektive Brennweite und erfordern kürzere Verschlusszeiten für das gleiche Objektiv."
+        },
+        "stabilization": {
+          "term": "Bildstabilisierung",
+          "definition": "Technologie, die Kameraverwacklung kompensiert. OIS (Optische Bildstabilisierung) ist im Objektiv, IBIS (gehäusebasierte Bildstabilisierung) ist in der Kamera. Sie können für maximalen Nutzen zusammenarbeiten."
+        },
+        "subjectMotion": {
+          "term": "Motivbewegung",
+          "definition": "Wie schnell sich dein Motiv bewegt. Stehende Motive brauchen nur genug Verschlusszeit, um Kameraverwacklung entgegenzuwirken. Sich bewegende Motive brauchen schnellere Zeiten basierend auf ihrer Geschwindigkeit und Richtung relativ zur Kamera."
+        },
+        "recommendedShutterSpeed": {
+          "term": "Empfohlene Verschlusszeit",
+          "definition": "Die minimale Verschlusszeit, berechnet für deine spezifische Kombination aus Brennweite, Stabilisierung, Sensor und Motivbewegung. Fotografieren mit dieser Geschwindigkeit oder schneller sollte scharfe Ergebnisse liefern."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Du fotografierst mit einem 100-mm-Objektiv an einer Vollformatkamera ohne Bildstabilisierung. Dein Motiv steht still. Welche minimale Verschlusszeit wird empfohlen?",
+          "hint": "Die Kehrwertregel: minimale Verschlusszeit = 1 / Brennweite.",
+          "successMessage": "Richtig! Die Kehrwertregel sagt 1/100s für ein 100-mm-Objektiv an Vollformat. Das ist der klassische Ausgangspunkt für Freihandschärfe.",
+          "failureMessage": "Für ein 100-mm-Objektiv an Vollformat ohne Stabilisierung ergibt die Kehrwertregel 1/100s als minimale sichere Verschlusszeit für statische Motive.",
+          "options": {
+            "0": { "label": "1/50s" },
+            "1": { "label": "1/100s" },
+            "2": { "label": "1/200s" },
+            "3": { "label": "1/500s" }
+          }
+        },
+        "1": {
+          "scenario": "Du verwendest ein 50-mm-Objektiv an einer APS-C-Kamera (1,5× Crop-Faktor) ohne Stabilisierung. Welche minimale Verschlusszeit solltest du für ein stehendes Motiv verwenden?",
+          "hint": "Multipliziere die Brennweite mit dem Crop-Faktor, bevor du die Kehrwertregel anwendest.",
+          "successMessage": "Richtig! 50 mm × 1,5 = 75 mm äquivalent, also brauchst du mindestens 1/75s. In der Praxis ist Aufrunden auf 1/80s die sichere Wahl.",
+          "failureMessage": "An APS-C bedeutet der Crop-Faktor (1,5×), dass sich ein 50-mm-Objektiv wie ein 75-mm-Objektiv verhält. Die Kehrwertregel ergibt 1/75s als Mindestverschlusszeit.",
+          "options": {
+            "0": { "label": "1/50s" },
+            "1": { "label": "1/75s (aufrunden auf 1/80s)" },
+            "2": { "label": "1/100s" },
+            "3": { "label": "1/125s" }
+          }
+        },
+        "2": {
+          "scenario": "Du hast ein 200-mm-Objektiv mit OIS (4 Stufen Stabilisierung) an einem Vollformat-Gehäuse mit IBIS (5 Stufen). Zusammen bieten sie etwa 6 Stufen kombinierte Stabilisierung. Für ein stehendes Motiv, was ist die ungefähre minimale Verschlusszeit?",
+          "hint": "Beginne mit der Kehrwertregel (1/200s) und wende dann 6 Stufen Stabilisierungsvorteil an.",
+          "successMessage": "Richtig! Ausgehend von 1/200s und 6 Stufen Gewinn: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Etwa 1/3 Sekunde freihändig mit einem 200-mm-Objektiv — beeindruckend, aber mit moderner Stabilisierung erreichbar!",
+          "failureMessage": "Von 1/200s verdoppelt jede Stabilisierungsstufe die nutzbare Zeit: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Sechs Stufen Stabilisierung mit einem 200-mm-Objektiv ergeben ungefähr 1/3s.",
+          "options": {
+            "0": { "label": "1/30s" },
+            "1": { "label": "1/8s" },
+            "2": { "label": "~1/3s" },
+            "3": { "label": "1 Sekunde" }
+          }
+        },
+        "3": {
+          "scenario": "Du fotografierst einen Freund, der im Park joggt, mit einem 35-mm-Objektiv an einer Vollformatkamera mit IBIS. Dein IBIS gibt dir 5 Stufen Stabilisierung, sodass die Kehrwertregel allein eine Belichtung von etwa 1 Sekunde erlauben würde. Solltest du 1 Sekunde verwenden?",
+          "hint": "Stabilisierung kompensiert Kameraverwacklung, nicht Motivbewegung.",
+          "successMessage": "Richtig! Stabilisierung wirkt nur gegen Kameraverwacklung. Ein joggender Mensch braucht mindestens 1/250s, um seine Bewegung einzufrieren, egal wie gut deine Stabilisierung ist.",
+          "failureMessage": "Stabilisierung kann ein sich bewegendes Motiv nicht einfrieren. Für eine joggende Person brauchst du mindestens 1/250s, um Bewegungsunschärfe zu vermeiden, selbst wenn deine Kamera bei 1 Sekunde stabil halten könnte.",
+          "options": {
+            "0": { "label": "Ja — IBIS gleicht alle Bewegung aus" },
+            "1": { "label": "Nein — mindestens 1/250s verwenden, um den Jogger einzufrieren" },
+            "2": { "label": "Nein — 1/60s als Kompromiss verwenden" },
+            "3": { "label": "Das hängt von der ISO-Einstellung ab" }
+          }
+        },
+        "4": {
+          "scenario": "Du möchtest eine Mitzieher-Aufnahme eines Radfahrers machen — der Fahrer soll scharf sein, während der Hintergrund Bewegungsunschärfe-Streifen zeigt. Du verwendest ein 70-mm-Objektiv an Vollformat. Welchen Verschlusszeit-Bereich solltest du ausprobieren?",
+          "hint": "Mitziehen verwendet absichtlich eine langsame Verschlusszeit, während man dem Motiv folgt. Zu schnell friert alles ein; zu langsam verwischt auch das Motiv.",
+          "successMessage": "Richtig! Für Mitziehen bei einem Radfahrer sind 1/30s bis 1/60s der optimale Bereich. Das ist langsam genug, um den Hintergrund in Streifen zu verwischen, während deine Mitziehbewegung den Fahrer relativ scharf hält. Es braucht Übung — fotografiere im Serienbildmodus und erwarte viele Ausschuss-Bilder.",
+          "failureMessage": "Mitziehen erfordert eine Verschlusszeit, die langsam genug ist, um den Hintergrund zu verwischen, aber schnell genug, dass deine Nachführbewegung das Motiv scharf hält. Für einen Radfahrer sind 1/30s bis 1/60s der typische Bereich.",
+          "options": {
+            "0": { "label": "1/1000s bis 1/2000s" },
+            "1": { "label": "1/250s bis 1/500s" },
+            "2": { "label": "1/30s bis 1/60s" },
+            "3": { "label": "1s bis 2s" }
+          }
+        }
+      }
+    }
+  }
+}

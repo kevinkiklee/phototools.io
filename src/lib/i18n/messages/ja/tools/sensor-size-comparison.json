@@ -1,0 +1,33 @@
+{
+  "toolUI": {
+    "sensor-size-comparison": {
+      "displayMode": "表示モード",
+      "modeOverlay": "オーバーレイ",
+      "modeSideBySide": "横並び",
+      "modePixelDensity": "画素密度",
+      "pixelDensityDescription": "各センサーの一般的なメガピクセル数を表示しています。大きい画素（大きいセル）はより多くの光を捉えます。",
+      "sensors": "センサー",
+      "customSensors": "カスタムセンサー",
+      "placeholderName": "名前",
+      "placeholderW": "幅（mm）",
+      "placeholderH": "高さ（mm）",
+      "placeholderMP": "メガピクセル（任意）",
+      "placeholderMPShort": "MP",
+      "maxDimensionWarning": "センサーの最大寸法は99 mmです",
+      "addSensor": "センサーを追加",
+      "save": "保存",
+      "cancelEdit": "キャンセル",
+      "edit": "編集",
+      "remove": "削除",
+      "deleteAllCustom": "すべてのカスタムセンサーを削除",
+      "tableSensor": "センサー",
+      "tableWidth": "幅（mm）",
+      "tableHeight": "高さ（mm）",
+      "tableAspectRatio": "アスペクト比",
+      "tableArea": "面積（mm²）",
+      "tableCropFactor": "クロップファクター",
+      "tableAspectCrop": "アスペクトクロップ",
+      "canvasAriaLabel": "{mode}モードのセンサーサイズ比較"
+    }
+  }
+}

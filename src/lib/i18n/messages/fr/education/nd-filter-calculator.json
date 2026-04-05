@@ -1,0 +1,112 @@
+{
+  "education": {
+    "nd-filter-calculator": {
+      "beginner": "Un filtre ND (densité neutre) est comme des lunettes de soleil pour ton objectif. Il réduit la quantité de lumière entrant dans l'objectif sans changer les couleurs, te permettant d'utiliser des vitesses d'obturation plus lentes ou des ouvertures plus larges en conditions lumineuses. C'est ainsi que les photographes créent des cascades soyeuses, des océans lisses ou des nuages flous en plein jour.",
+      "deeper": "Les filtres ND sont classés par le nombre de stops de lumière qu'ils bloquent. Un filtre ND2 (1 stop) divise la lumière par deux, un ND8 (3 stops) la réduit à 1/8e, et un ND1000 (10 stops) réduit la lumière d'un facteur de 1024. Les conventions de nommage peuvent prêter à confusion : « ND8 » signifie que le facteur de filtre est 8 (3 stops), tandis que « ND 0.9 » utilise la notation de densité optique (chaque 0,3 = 1 stop, donc 0,9 = 3 stops). La vitesse résultante est simplement la vitesse de base multipliée par le facteur de filtre. Par exemple, si ton exposition sans filtre est 1/125s et que tu ajoutes un ND 10 stops (ND1000), la nouvelle vitesse est 1/125 × 1024 = environ 8 secondes. Empiler plusieurs filtres ND additionne leurs valeurs en stops mais peut introduire du vignetage et des dominantes colorées, surtout avec les objectifs grand-angle.",
+      "keyFactors": {
+        "0": {
+          "label": "Vitesse de base",
+          "description": "Le temps d'exposition correct sans aucun filtre. Mesure la scène d'abord, puis calcule l'exposition filtrée à partir de ce point de départ."
+        },
+        "1": {
+          "label": "Puissance du filtre",
+          "description": "Mesurée en stops. Chaque stop double le temps d'exposition. Puissances courantes : 3 stops (ND8), 6 stops (ND64) et 10 stops (ND1000)."
+        },
+        "2": {
+          "label": "Empilement de filtres",
+          "description": "Tu peux combiner des filtres en additionnant leurs valeurs en stops. Un 3 stops + 6 stops empilés donnent 9 stops de réduction. Attention au vignetage sur les objectifs grand-angle."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Compose et fais la mise au point avant de monter un filtre ND puissant. Avec 10 stops de réduction de lumière, ton viseur et ton autofocus seront dans le noir."
+        },
+        "1": {
+          "text": "Pour les paysages marins, des expositions de 1-2 secondes lissent les petites rides en texture tout en conservant la structure des vagues. Les expositions de 30 secondes ou plus créent une eau complètement plate et vaporeuse."
+        },
+        "2": {
+          "text": "Les filtres ND bon marché ajoutent souvent une dominante colorée (généralement magenta ou marron). Investis dans du verre de qualité de marques réputées, ou apprends à corriger la dominante en post-traitement avec une référence de charte grise."
+        }
+      },
+      "tooltips": {
+        "baseShutterSpeed": {
+          "term": "Vitesse de base",
+          "definition": "La vitesse d'obturation pour une exposition correcte sans aucun filtre ND. C'est ton point de départ — le calculateur la multiplie par le facteur du filtre."
+        },
+        "ndFilter": {
+          "term": "Filtre ND",
+          "definition": "Un filtre à densité neutre qui réduit uniformément la transmission de lumière. Classé par facteur de filtre (ND2, ND4, ND8...) ou par stops de réduction. ND2 = 1 stop, ND4 = 2 stops, ND8 = 3 stops, etc."
+        },
+        "resultingShutterSpeed": {
+          "term": "Vitesse résultante",
+          "definition": "La nouvelle vitesse d'obturation après prise en compte du filtre ND. Calculée en multipliant la vitesse de base par le facteur du filtre (par ex. 1/125s × 1024 pour un ND 10 stops)."
+        },
+        "stopsAdded": {
+          "term": "Stops ajoutés",
+          "definition": "Le nombre de stops de réduction de lumière que le filtre ND procure. Chaque stop double le temps d'exposition requis. 10 stops signifie que l'exposition est 1024 fois plus longue."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tu es devant une cascade et ton appareil mesure une exposition correcte à 1/125s sans filtre. Tu montes un filtre ND 3 stops (ND8). Quelle est la nouvelle vitesse ?",
+          "hint": "Chaque stop double le temps d'exposition. 3 stops signifie 2 × 2 × 2 = 8 fois plus long.",
+          "successMessage": "Correct ! 1/125s × 8 = 1/15s. C'est un bon début pour du flou de mouvement dans l'eau, même si tu pourrais vouloir un filtre encore plus fort pour un résultat soyeux.",
+          "failureMessage": "Un filtre ND 3 stops multiplie le temps d'exposition par 8 (2^3 = 8). Donc 1/125s devient 1/15s.",
+          "options": {
+            "0": { "label": "1/60s" },
+            "1": { "label": "1/30s" },
+            "2": { "label": "1/15s" },
+            "3": { "label": "1/8s" }
+          }
+        },
+        "1": {
+          "scenario": "Tu veux créer une exposition de 30 secondes de nuages traversant le ciel. Sans filtre, l'exposition correcte est 1/30s. Combien de stops de filtration ND te faut-il ?",
+          "hint": "Tu dois passer de 1/30s à 30s — soit 1/30 × facteur = 30, donc facteur = 900. Trouve la puissance de 2 la plus proche.",
+          "successMessage": "Correct ! Passer de 1/30s à 30s est environ une augmentation de 1000×, soit environ 10 stops. Un filtre ND1000 (10 stops) te donne environ 33 secondes.",
+          "failureMessage": "Le ratio est 30 / (1/30) = 900. La puissance de 2 la plus proche est 1024 (2^10), donc tu as besoin d'un filtre ND 10 stops.",
+          "options": {
+            "0": { "label": "6 stops (ND64)" },
+            "1": { "label": "8 stops (ND256)" },
+            "2": { "label": "10 stops (ND1000)" },
+            "3": { "label": "15 stops (ND32768)" }
+          }
+        },
+        "2": {
+          "scenario": "Tu photographies un paysage marin au coucher du soleil. La lumière baisse et ton exposition de base (sans filtre) est maintenant 1/4s à f/11, ISO 100. Tu veux des expositions de 2 minutes pour une eau ultra-lisse. Quelle puissance de filtre ND te faut-il ?",
+          "hint": "De 1/4s à 120s, c'est un facteur de 480. Trouve la valeur en stops la plus proche.",
+          "successMessage": "Un ND 9 stops te donnerait 1/4 × 512 = 128 secondes, soit un peu plus de 2 minutes. Parfait pour ce look marin éthéré au coucher de soleil.",
+          "failureMessage": "De 0,25s à 120s, c'est environ une augmentation de 480×. 2^9 = 512, ce qui est proche de 480, donc un filtre 9 stops te donne environ 128 secondes.",
+          "options": {
+            "0": { "label": "6 stops" },
+            "1": { "label": "9 stops" },
+            "2": { "label": "10 stops" },
+            "3": { "label": "13 stops" }
+          }
+        },
+        "3": {
+          "scenario": "Tu veux faire un portrait à f/1.4 en plein soleil (exposition de base : f/1.4, 1/8000s, ISO 100). La vitesse maximale de ton appareil est 1/8000s. Peux-tu photographier à f/1.4 sans filtre ND ?",
+          "hint": "Vérifie si 1/8000s à f/1.4 et ISO 100 est atteignable, ou si la scène est toujours surexposée.",
+          "successMessage": "Correct ! Par temps très ensoleillé (EV 15+), f/1.4 à ISO 100 nécessite souvent des vitesses supérieures à 1/8000s, que la plupart des appareils ne peuvent pas atteindre. Un filtre ND 2-3 stops te permet de photographier à pleine ouverture sans surexposition.",
+          "failureMessage": "En plein soleil, f/1.4 à ISO 100 peut nécessiter des vitesses au-delà de la limite de 1/8000s de l'appareil. Un filtre ND est essentiel pour la prise de vue à grande ouverture en conditions lumineuses.",
+          "options": {
+            "0": { "label": "Oui — 1/8000s est suffisant" },
+            "1": { "label": "Non — tu as probablement besoin d'un filtre ND 2-3 stops" },
+            "2": { "label": "Monte juste l'ISO pour compenser" }
+          }
+        },
+        "4": {
+          "scenario": "Tu possèdes un filtre ND 6 stops et un ND 3 stops. Tu les empiles sur ton objectif avec une exposition de base de 1/250s. Quelle est la vitesse résultante, et à quoi faire attention avec cette configuration ?",
+          "hint": "Additionne les valeurs en stops, puis calcule la nouvelle exposition. Pense aux effets optiques secondaires de l'empilement.",
+          "successMessage": "Correct ! 6 + 3 = 9 stops. 1/250 × 512 = environ 2 secondes. Attention au vignetage (coins sombres) sur les objectifs grand-angle et aux dominantes colorées possibles avec du verre bon marché.",
+          "failureMessage": "L'empilement additionne les valeurs en stops : 6 + 3 = 9 stops au total. 2^9 = 512, donc 1/250 × 512 = ~2 secondes. L'empilement peut aussi causer du vignetage et des dominantes colorées.",
+          "options": {
+            "0": { "label": "~0,5s, attention aux reflets parasites" },
+            "1": { "label": "~2s, attention au vignetage et aux dominantes colorées" },
+            "2": { "label": "~4s, attention à la surchauffe du capteur" },
+            "3": { "label": "~8s, aucun souci avec l'empilement" }
+          }
+        }
+      }
+    }
+  }
+}

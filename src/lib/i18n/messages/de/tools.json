@@ -1,0 +1,56 @@
+{
+  "tools": {
+    "fov-simulator": {
+      "name": "Bildwinkel-Simulator",
+      "description": "Vergleiche den Bildwinkel bei verschiedenen Brennweiten und Sensorgrößen"
+    },
+    "color-scheme-generator": {
+      "name": "Farbschema-Generator",
+      "description": "Erstelle Farbpaletten für Fotoshootings"
+    },
+    "exposure-simulator": {
+      "name": "Belichtungsdreieck-Simulator",
+      "description": "Sieh, wie Blende, Verschlusszeit und ISO zusammenwirken"
+    },
+    "dof-calculator": {
+      "name": "Schärfentieferechner",
+      "description": "Berechne Nahgrenze, Ferngrenze und gesamte Schärfentiefe"
+    },
+    "hyperfocal-simulator": {
+      "name": "Hyperfokale-Distanz-Simulator",
+      "description": "Lerne, wo du fokussieren musst, um maximale Schärfe vom Vordergrund bis Unendlich zu erzielen"
+    },
+    "shutter-speed-visualizer": {
+      "name": "Verschlusszeit-Visualisierer",
+      "description": "Finde die minimale sichere Verschlusszeit für scharfe Freihandaufnahmen"
+    },
+    "nd-filter-calculator": {
+      "name": "ND-Filter-Rechner",
+      "description": "Berechne die Belichtungszeit mit jedem ND-Filter"
+    },
+    "star-trail-calculator": {
+      "name": "Sternenspuren-Rechner",
+      "description": "Berechne die maximale Belichtungszeit für scharfe Sterne oder plane Sternenspuren-Aufnahmen"
+    },
+    "perspective-compression-simulator": {
+      "name": "Perspektivische-Kompression-Simulator",
+      "description": "Sieh, wie die Brennweite die Hintergrundkompression beeinflusst"
+    },
+    "white-balance-visualizer": {
+      "name": "Weißabgleich-Visualisierer",
+      "description": "Sieh, wie die Farbtemperatur deine Fotos beeinflusst"
+    },
+    "sensor-size-comparison": {
+      "name": "Sensorgrößen-Vergleich",
+      "description": "Vergleiche Kamera-Sensorgrößen visuell"
+    },
+    "frame-studio": {
+      "name": "Rahmen-Studio",
+      "description": "Fotos zuschneiden, rahmen und mit Rasterüberlagerungen komponieren"
+    },
+    "exif-viewer": {
+      "name": "EXIF-Betrachter",
+      "description": "EXIF-Metadaten und Histogramm für jedes Foto anzeigen — 100 % clientseitig"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 'use client'
 
-import { usePathname } from 'next/navigation'
+import { usePathname } from '@/lib/i18n/navigation'
 import { getToolBySlug } from '@/lib/data/tools'
 import type { ToolCategory } from '@/lib/types'
 

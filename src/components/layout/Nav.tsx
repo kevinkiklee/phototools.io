@@ -2,13 +2,13 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { Link, usePathname } from '@/lib/i18n/navigation'
 import { useTranslations } from 'next-intl'
 import { getVisibleTools, getToolStatus } from '@/lib/data/tools'
 import type { ToolCategory } from '@/lib/types'
 import { ToolIcon } from '@/components/shared/ToolIcon'
 import { ThemeToggle } from './ThemeToggle'
+import { LanguageSwitcher } from '@/components/shared/LanguageSwitcher'
 import styles from './Nav.module.css'
 
 interface NavProps {
@@ -163,6 +163,7 @@ export function Nav({ theme, onThemeChange }: NavProps) {
         </div>
         <Link href="/learn/glossary" className={styles.navLink}>{t('glossary')}</Link>
         <span className={styles.desktopThemeToggle}><ThemeToggle theme={theme} onChange={onThemeChange} /></span>
+        <LanguageSwitcher />
         <div className={styles.spacer} />
       </div>
     </nav>

@@ -1,0 +1,13 @@
+{
+  "home": {
+    "heroTitle": "PhotoTools — Kostenlose Fotografie-Werkzeuge",
+    "heroDesc": "Kostenlose Fotografie-Rechner, Simulatoren und Nachschlagewerke. Keine Anmeldung nötig — deine Fotos verlassen nie deinen Browser.",
+    "comingSoon": "Demnächst verfügbar",
+    "categories": {
+      "visualizer": "Visualisierer",
+      "calculator": "Rechner",
+      "reference": "Nachschlagewerke",
+      "file-tool": "Dateiwerkzeuge"
+    }
+  }
+}

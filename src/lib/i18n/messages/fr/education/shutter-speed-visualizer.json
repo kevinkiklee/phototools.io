@@ -1,0 +1,121 @@
+{
+  "education": {
+    "shutter-speed-visualizer": {
+      "beginner": "Le guide de vitesse d'obturation t'aide à trouver la vitesse la plus lente que tu peux utiliser tout en obtenant une photo nette à main levée. Si ta vitesse d'obturation est trop lente, le bougé de tes mains floutera l'image. La vitesse minimale sûre dépend de ta longueur focale, de la présence ou non d'une stabilisation d'image, et de la stabilité de tes mains.",
+      "deeper": "La classique « règle de réciprocité » stipule que pour des photos nettes à main levée, ta vitesse d'obturation doit être d'au moins 1/(longueur focale) secondes — donc un objectif de 200 mm nécessite au moins 1/200s. Sur les appareils à capteur crop, tu dois utiliser la longueur focale équivalente (par ex. 200 mm sur un crop 1,5× = 1/300s). Les stabilisations modernes dans le boîtier (IBIS) et optiques (OIS) peuvent te faire gagner 3 à 7 stops supplémentaires à main levée, ce qui signifie qu'un 200 mm stabilisé pourrait être net à 1/15s ou même plus lent. Cependant, la stabilisation ne compense que le bougé de l'appareil, pas le mouvement du sujet. Une personne marchant vers toi à 1/15s sera toujours floue quelle que soit la stabilisation. Pour les sujets en mouvement, tu dois choisir une vitesse basée sur la vitesse et la distance du sujet, pas seulement la longueur focale.",
+      "keyFactors": {
+        "0": {
+          "label": "Longueur focale",
+          "description": "Les longues focales grossissent le bougé. La règle de réciprocité (1/longueur focale) est le point de départ pour déterminer la vitesse minimale."
+        },
+        "1": {
+          "label": "Stabilisation d'image",
+          "description": "L'OIS (dans l'objectif) offre typiquement 2 à 4 stops de gain. L'IBIS (dans le boîtier) offre 3 à 5 stops. OIS+IBIS combinés peuvent atteindre 5 à 7 stops sur certains systèmes."
+        },
+        "2": {
+          "label": "Mouvement du sujet",
+          "description": "Les sujets immobiles ne nécessitent qu'une vitesse suffisante pour contrer le bougé. Les sujets en mouvement ont besoin de vitesses plus rapides quelle que soit la stabilisation : marche (~1/125s), course (~1/500s), véhicules (~1/1000s+)."
+        },
+        "3": {
+          "label": "Taille du capteur (facteur de recadrage)",
+          "description": "Les appareils à capteur crop multiplient effectivement la longueur focale pour la règle de réciprocité. Un 50 mm sur un crop 1,5× se comporte comme un 75 mm, donc tu as besoin d'au moins 1/75s."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Appuie-toi contre un mur, rentre les coudes et expire lentement avant de déclencher. Une bonne technique peut te donner 1 à 2 stops de stabilité supplémentaires au-delà de la règle de réciprocité."
+        },
+        "1": {
+          "text": "Quand tu photographies des personnes, le mouvement du sujet dicte généralement ta vitesse minimale, pas ta longueur focale. Même avec un grand-angle et de la stabilisation, un enfant qui court nécessite au moins 1/500s."
+        },
+        "2": {
+          "text": "Si tu photographies régulièrement en basse lumière, investis dans un boîtier avec IBIS. La possibilité de photographier à main levée à 1/2s avec un grand-angle ouvre des possibilités qu'aucune performance en haut ISO ne peut égaler."
+        }
+      },
+      "tooltips": {
+        "focalLength": {
+          "term": "Longueur focale",
+          "definition": "La longueur focale de l'objectif en millimètres. Affecte directement la vitesse minimale sûre par la règle de réciprocité : 1/(longueur focale) pour le plein format, ajustée par le facteur de recadrage pour les capteurs plus petits."
+        },
+        "sensor": {
+          "term": "Taille du capteur",
+          "definition": "La taille du capteur, qui détermine le facteur de recadrage. L'APS-C (1,5×) et le Micro Four Thirds (2×) multiplient la longueur focale effective, nécessitant des vitesses plus rapides pour le même objectif."
+        },
+        "stabilization": {
+          "term": "Stabilisation d'image",
+          "definition": "Technologie qui compense le bougé. L'OIS (Stabilisation Optique) est dans l'objectif, l'IBIS (Stabilisation dans le Boîtier) est dans l'appareil. Ils peuvent fonctionner ensemble pour un bénéfice maximum."
+        },
+        "subjectMotion": {
+          "term": "Mouvement du sujet",
+          "definition": "La vitesse de déplacement de ton sujet. Les sujets immobiles n'ont besoin que d'une vitesse suffisante pour contrer le bougé. Les sujets en mouvement nécessitent des vitesses plus rapides basées sur leur vélocité et direction par rapport à l'appareil."
+        },
+        "recommendedShutterSpeed": {
+          "term": "Vitesse d'obturation recommandée",
+          "definition": "La vitesse minimale calculée pour ta combinaison spécifique de longueur focale, stabilisation, capteur et mouvement du sujet. Photographier à cette vitesse ou plus vite devrait produire des résultats nets."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tu photographies avec un 100 mm sur un appareil plein format sans stabilisation d'image. Ton sujet est immobile. Quelle est la vitesse minimale recommandée ?",
+          "hint": "La règle de réciprocité : vitesse minimale = 1 / longueur focale.",
+          "successMessage": "Correct ! La règle de réciprocité donne 1/100s pour un 100 mm sur plein format. C'est le point de départ classique pour la netteté à main levée.",
+          "failureMessage": "Pour un 100 mm sur plein format sans stabilisation, la règle de réciprocité te donne 1/100s comme vitesse minimale sûre pour les sujets statiques.",
+          "options": {
+            "0": { "label": "1/50s" },
+            "1": { "label": "1/100s" },
+            "2": { "label": "1/200s" },
+            "3": { "label": "1/500s" }
+          }
+        },
+        "1": {
+          "scenario": "Tu utilises un 50 mm sur un appareil APS-C (facteur de crop 1,5×) sans stabilisation. Quelle vitesse minimale utiliser pour un sujet immobile ?",
+          "hint": "Multiplie la longueur focale par le facteur de recadrage avant d'appliquer la règle de réciprocité.",
+          "successMessage": "Exact ! 50 mm × 1,5 = 75 mm équivalent, donc tu as besoin d'au moins 1/75s. En pratique, arrondir à 1/80s est le choix sûr.",
+          "failureMessage": "Sur APS-C, le facteur de recadrage (1,5×) signifie qu'un 50 mm se comporte comme un 75 mm. La règle de réciprocité donne 1/75s comme vitesse minimale.",
+          "options": {
+            "0": { "label": "1/50s" },
+            "1": { "label": "1/75s (arrondir à 1/80s)" },
+            "2": { "label": "1/100s" },
+            "3": { "label": "1/125s" }
+          }
+        },
+        "2": {
+          "scenario": "Tu as un 200 mm avec OIS (4 stops de stabilisation) sur un boîtier plein format avec IBIS (5 stops). Ensemble ils offrent environ 6 stops de stabilisation combinée. Pour un sujet immobile, quelle est la vitesse minimale approximative ?",
+          "hint": "Commence par la règle de réciprocité (1/200s) puis applique 6 stops de gain de stabilisation.",
+          "successMessage": "Correct ! En partant de 1/200s et en gagnant 6 stops : 1/200 → 1/100 → 1/50 → 1/25 → 1/13 → 1/6 → 1/3s. Environ 1/3 de seconde à main levée avec un 200 mm — impressionnant mais réalisable avec la stabilisation moderne !",
+          "failureMessage": "Depuis 1/200s, chaque stop de stabilisation double le temps utilisable : 1/200 → 1/100 → 1/50 → 1/25 → 1/13 → 1/6 → 1/3s. Six stops de stabilisation avec un 200 mm donnent environ 1/3s.",
+          "options": {
+            "0": { "label": "1/30s" },
+            "1": { "label": "1/8s" },
+            "2": { "label": "~1/3s" },
+            "3": { "label": "1 seconde" }
+          }
+        },
+        "3": {
+          "scenario": "Tu photographies un ami qui fait du jogging dans un parc avec un 35 mm sur plein format avec IBIS. Ton IBIS te donne 5 stops de stabilisation, donc la règle de réciprocité seule te permettrait de photographier à environ 1 seconde. Devrais-tu utiliser 1 seconde ?",
+          "hint": "La stabilisation compense le bougé de l'appareil, pas le mouvement du sujet.",
+          "successMessage": "Correct ! La stabilisation ne contrecarre que le bougé. Une personne qui fait du jogging nécessite au moins 1/250s pour figer son mouvement, quelle que soit la qualité de ta stabilisation.",
+          "failureMessage": "La stabilisation ne peut pas figer un sujet en mouvement. Pour une personne qui fait du jogging, tu as besoin d'au moins 1/250s pour éviter le flou de mouvement, même si ton appareil pourrait tenir stable à 1 seconde.",
+          "options": {
+            "0": { "label": "Oui — l'IBIS gère tout le mouvement" },
+            "1": { "label": "Non — utilise au moins 1/250s pour figer le joggeur" },
+            "2": { "label": "Non — utilise 1/60s comme compromis" },
+            "3": { "label": "Ça dépend du réglage ISO" }
+          }
+        },
+        "4": {
+          "scenario": "Tu veux créer un filé panoramique d'un cycliste — le cycliste doit être net tandis que l'arrière-plan montre des traînées de mouvement. Tu utilises un 70 mm sur plein format. Quelle plage de vitesse essayer ?",
+          "hint": "Le filé panoramique utilise intentionnellement une vitesse lente tout en suivant le sujet. Trop rapide fige tout ; trop lent floute même le sujet.",
+          "successMessage": "Correct ! Pour le filé panoramique d'un cycliste, 1/30s à 1/60s est le bon compromis. C'est assez lent pour flouter l'arrière-plan en traînées tandis que ton suivi garde le cycliste relativement net. Ça demande de la pratique — photographie en rafale et prépare-toi à beaucoup de ratés.",
+          "failureMessage": "Le filé panoramique nécessite une vitesse assez lente pour flouter l'arrière-plan mais assez rapide pour que ton suivi garde le sujet net. Pour un cycliste, 1/30s à 1/60s est la plage typique.",
+          "options": {
+            "0": { "label": "1/1000s à 1/2000s" },
+            "1": { "label": "1/250s à 1/500s" },
+            "2": { "label": "1/30s à 1/60s" },
+            "3": { "label": "1s à 2s" }
+          }
+        }
+      }
+    }
+  }
+}

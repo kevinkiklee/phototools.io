@@ -1,0 +1,125 @@
+{
+  "education": {
+    "sensor-size-comparison": {
+      "beginner": "Los sensores de cámara vienen en muchos tamaños físicos diferentes, desde los grandes chips de formato medio usados en cámaras de estudio hasta los diminutos sensores de los smartphones. Un sensor más grande captura más luz, produce menos ruido y facilita el desenfoque de fondos. El tamaño del sensor es uno de los mayores factores que separan las categorías de cámaras.",
+      "deeper": {
+        "0": {
+          "heading": "Cómo funciona",
+          "text": "El tamaño del sensor afecta la fotografía de varias formas interconectadas. Un sensor más grande tiene un área mayor para recolectar fotones, mejorando la relación señal-ruido y el rango dinámico. El tamaño del sensor es una de las diferencias más importantes entre las categorías de cámaras — desde cámaras de formato medio de estudio hasta sensores de smartphone."
+        },
+        "1": {
+          "heading": "Factor de recorte",
+          "text": "El \"factor de recorte\" describe cómo un sensor se compara con el estándar de formato completo de 35 mm. Un sensor APS-C con un factor de recorte de 1.5x da el mismo campo de visión con un objetivo de 35 mm que una cámara de formato completo con un objetivo de 52.5 mm. Este factor de recorte también multiplica la profundidad de campo efectiva — un sensor más pequeño parece dar más profundidad de campo con el mismo encuadre porque necesitas un objetivo más angular (más corto) para igualar el campo de visión."
+        },
+        "2": {
+          "heading": "Densidad de píxeles",
+          "text": "La densidad de píxeles (paso de píxel) mide cuán apretados están los píxeles en el sensor. Empaquetar más megapíxeles en un sensor más pequeño reduce cada fotodiodo, disminuyendo la captación de luz por píxel. Un sensor de formato completo de 24MP tiene píxeles de ~6µm mientras que un sensor APS-C de 24MP tiene píxeles de ~4µm, por eso el sensor de formato completo generalmente rinde mejor a ISO alto."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Dimensiones físicas",
+          "description": "El ancho y alto en milímetros determinan el área total de captación de luz y el campo de visión para un objetivo dado."
+        },
+        "1": {
+          "label": "Factor de recorte",
+          "description": "La relación de la diagonal del formato completo a la diagonal del sensor. Multiplicado por la distancia focal, da la distancia focal \"equivalente\"."
+        },
+        "2": {
+          "label": "Densidad de píxeles",
+          "description": "Cuán apretados están los píxeles. Un paso de píxel menor significa más detalle pero menos luz por píxel, afectando el rendimiento de ruido."
+        },
+        "3": {
+          "label": "Área del sensor",
+          "description": "Área total en mm². Un sensor de formato medio de 44x33mm (Fujifilm GFX, Hasselblad X) tiene aproximadamente 1.7 veces el área del formato completo, mientras que un chip de formato medio más grande de 54x40mm es unas 2.5 veces. El formato completo es aproximadamente 13 veces el área de un sensor de smartphone de gama alta."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Usa el modo de superposición para ver exactamente cuánto más grande es un sensor que otro — la diferencia de área suele ser más dramática de lo que sugieren los números."
+        },
+        "1": {
+          "text": "Cambia al modo de densidad de píxeles e introduce la resolución de tu cámara para comparar el paso de píxel. Si tu cámara tiene una densidad de píxeles muy alta, podrías alcanzar los límites de difracción a aperturas más abiertas de lo esperado."
+        },
+        "2": {
+          "text": "Al comparar cámaras, el área del sensor importa más que el conteo de megapíxeles para el rendimiento de ruido. Un sensor de formato completo de 20MP generalmente superará a un sensor APS-C de 40MP a ISO alto."
+        }
+      },
+      "tooltips": {
+        "Sensor": {
+          "term": "Sensor",
+          "definition": "Activa o desactiva formatos de sensor individuales para incluirlos en la comparación visual y la tabla de datos."
+        },
+        "Display Mode": {
+          "term": "Modo de visualización",
+          "definition": "Superposición muestra todos los sensores centrados en el mismo punto. Lado a lado los coloca uno junto al otro a la misma escala. Densidad de píxeles visualiza cuán apretados están los píxeles."
+        },
+        "Resolution": {
+          "term": "Resolución",
+          "definition": "El conteo total de megapíxeles usado para calcular el paso de píxel en el modo de densidad de píxeles. Más megapíxeles en el mismo tamaño de sensor significa píxeles individuales más pequeños."
+        },
+        "Crop Factor": {
+          "term": "Factor de recorte",
+          "definition": "La relación de la diagonal del formato completo de 35 mm a la diagonal de este sensor. Un factor de recorte de 1.5x significa que un objetivo de 50 mm encuadra como un objetivo de 75 mm en formato completo."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Un sensor de formato completo mide 36×24 mm. Un sensor APS-C tiene un factor de recorte de 1.5x. ¿Cuál es el ancho aproximado de un sensor APS-C?",
+          "hint": "Divide el ancho del formato completo por el factor de recorte.",
+          "successMessage": "¡Correcto! 36 mm ÷ 1.5 ≈ 24 mm. El sensor APS-C mide aproximadamente 24×16 mm, dándole aproximadamente el 44% del área del formato completo.",
+          "failureMessage": "Divide el ancho del formato completo (36 mm) por el factor de recorte (1.5x): 36 ÷ 1.5 = 24 mm.",
+          "options": {
+            "0": { "label": "24 mm" },
+            "1": { "label": "30 mm" },
+            "2": { "label": "18 mm" }
+          }
+        },
+        "1": {
+          "scenario": "Montas un objetivo de 50 mm en una cámara con un sensor de factor de recorte 2.0x. ¿Qué distancia focal equivalente en formato completo obtienes?",
+          "hint": "Multiplica la distancia focal por el factor de recorte.",
+          "successMessage": "¡Correcto! 50 mm × 2.0 = 100 mm equivalente. Por eso las cámaras Micro Cuatro Tercios son populares para trabajo de teleobjetivo — obtienes alcance extra con cada objetivo.",
+          "failureMessage": "Multiplica la distancia focal del objetivo por el factor de recorte: 50 mm × 2.0 = 100 mm equivalente.",
+          "options": {
+            "0": { "label": "25 mm" },
+            "1": { "label": "75 mm" },
+            "2": { "label": "100 mm" }
+          }
+        },
+        "2": {
+          "scenario": "Dos cámaras tienen 24 megapíxeles — una de formato completo (36×24 mm) y una APS-C (24×16 mm). ¿Cuál tiene mejor rendimiento de ruido a ISO alto, y por qué?",
+          "hint": "Piensa en cómo el mismo número de píxeles distribuidos en diferentes áreas de sensor afecta el tamaño individual de los píxeles.",
+          "successMessage": "¡Exacto! El sensor de formato completo distribuye 24MP en un área mayor, así que cada píxel es físicamente más grande (~6µm vs ~4µm de paso) y captura más fotones, resultando en menos ruido.",
+          "failureMessage": "El sensor de formato completo gana — el mismo conteo de megapíxeles en un área mayor significa píxeles más grandes que captan más luz, produciendo menos ruido a ISO alto.",
+          "options": {
+            "0": { "label": "Formato completo — píxeles más grandes captan más luz" },
+            "1": { "label": "APS-C — los sensores más pequeños son más eficientes" },
+            "2": { "label": "Mismo ruido — lo que importa es el conteo de megapíxeles" }
+          }
+        },
+        "3": {
+          "scenario": "Mirando la tabla de comparación, ¿qué formato de sensor tiene un factor de recorte más cercano a 2.0x?",
+          "hint": "El factor de recorte es la diagonal del formato completo dividida entre la diagonal del sensor.",
+          "successMessage": "¡Correcto! Micro Cuatro Tercios tiene un factor de recorte de 2.0x, por eso un objetivo M43 de 25 mm encuadra como un 50 mm en formato completo.",
+          "failureMessage": "Micro Cuatro Tercios tiene un factor de recorte de 2.0x. Compruébalo en la tabla — su diagonal es exactamente la mitad de la diagonal del formato completo.",
+          "options": {
+            "0": { "label": "APS-C (Canon)" },
+            "1": { "label": "Micro Cuatro Tercios" },
+            "2": { "label": "Sensor de 1\"" }
+          }
+        },
+        "4": {
+          "scenario": "Estás comparando una cámara de formato medio de 50MP con una de formato completo de 50MP usando el modo de densidad de píxeles. Ambas tienen el mismo conteo de megapíxeles. ¿Cuál tiene el mayor paso de píxel, y qué ventaja práctica da eso?",
+          "hint": "El paso de píxel depende del ancho del sensor dividido por el número de píxeles horizontales.",
+          "successMessage": "¡Correcto! El sensor de formato medio es físicamente más grande, así que a 50MP sus píxeles son más grandes (mayor paso). Esto le da aproximadamente 1/3 de paso de mejor captación de luz por píxel, más un inicio de difracción ligeramente más tardío.",
+          "failureMessage": "El sensor de formato medio es más grande, así que a la misma resolución cada píxel es físicamente más grande. Píxeles más grandes recolectan más fotones, dando mejor rango dinámico y límites de difracción ligeramente más tardíos.",
+          "options": {
+            "0": { "label": "Formato medio — mejor captación de luz por píxel y rango dinámico" },
+            "1": { "label": "Formato completo — los píxeles más pequeños son más eficientes" },
+            "2": { "label": "Ambos son idénticos ya que tienen el mismo conteo de megapíxeles" }
+          }
+        }
+      }
+    }
+  }
+}

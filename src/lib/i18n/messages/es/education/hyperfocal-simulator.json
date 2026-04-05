@@ -1,0 +1,98 @@
+{
+  "education": {
+    "hyperfocal-simulator": {
+      "beginner": "La distancia hiperfocal es el punto más cercano al que puedes enfocar mientras mantienes todo al infinito aceptablemente nítido. Cuando enfocas a la distancia hiperfocal, tu profundidad de campo se extiende desde la mitad de esa distancia hasta el infinito. Los fotógrafos de paisajes usan esta técnica para maximizar la nitidez del primer plano al horizonte.",
+      "deeper": "La distancia hiperfocal se deriva de la ecuación de lente delgada y el concepto del círculo de confusión (CdC). Es igual a la distancia focal al cuadrado dividida por el producto del número f y el diámetro del CdC: H = f² / (N × c). Todo desde H/2 hasta el infinito queda dentro de la nitidez aceptable. El CdC depende del tamaño del sensor — los sensores más pequeños tienen un CdC aceptable más pequeño, lo que empuja la distancia hiperfocal más lejos para la misma distancia focal y apertura. Por esto las cámaras con sensor de recorte parecen tener mayor profundidad de campo: el estándar del CdC es más estricto en relación al área de la imagen. En la práctica, el suavizado por difracción a aperturas muy pequeñas (f/16 y más allá en la mayoría de los sensores) significa que hay un compromiso entre maximizar la profundidad de campo y mantener la nitidez por píxel.",
+      "keyFactors": {
+        "0": {
+          "label": "Distancia focal",
+          "description": "Las distancias focales más largas aumentan dramáticamente la distancia hiperfocal — escala con el cuadrado de la distancia focal."
+        },
+        "1": {
+          "label": "Apertura",
+          "description": "Aperturas más cerradas (números f más altos) reducen la distancia hiperfocal, extendiendo la profundidad de campo."
+        },
+        "2": {
+          "label": "Tamaño del sensor",
+          "description": "Los sensores más pequeños usan un círculo de confusión menor, lo que aumenta la distancia hiperfocal para un encuadre equivalente."
+        },
+        "3": {
+          "label": "Círculo de confusión",
+          "description": "El diámetro máximo del punto de desenfoque considerado \"aceptablemente nítido\" — generalmente 0.03 mm para formato completo."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Para trabajo rápido de paisaje, enfoca aproximadamente un tercio dentro de la escena — se aproxima al punto hiperfocal para la mayoría de configuraciones con gran angular."
+        },
+        "1": {
+          "text": "Evita cerrar más allá de f/16 en formato completo o f/11 en APS-C. La difracción anulará las ganancias de profundidad de campo que buscas."
+        },
+        "2": {
+          "text": "Usa la ampliación en vista en vivo para clavar el enfoque con precisión en la distancia hiperfocal en lugar de confiar en la escala de distancia del objetivo, que a menudo es imprecisa en los objetivos de enfoque automático modernos."
+        }
+      },
+      "tooltips": {
+        "Sensor": {
+          "term": "Sensor",
+          "definition": "El formato del sensor de la cámara. Los sensores más pequeños tienen un estándar de círculo de confusión más estricto, lo que desplaza todas las distancias hiperfocales más lejos."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Estás fotografiando un paisaje con un objetivo de 24 mm en una cámara de formato completo. ¿Qué formato de sensor deberías seleccionar para ver las distancias hiperfocales de formato completo?",
+          "hint": "Formato completo es el tamaño de sensor estándar de 35 mm.",
+          "successMessage": "¡Correcto! Formato Completo es la elección correcta para un sensor estándar de 35 mm.",
+          "failureMessage": "No del todo — selecciona el sensor de Formato Completo para coincidir con un cuerpo de cámara estándar de 35 mm.",
+          "options": {
+            "0": { "label": "Formato Completo" },
+            "1": { "label": "APS-C (Nikon/Sony)" },
+            "2": { "label": "Micro Cuatro Tercios" }
+          }
+        },
+        "1": {
+          "scenario": "Mirando la tabla para formato completo, ¿cuál tiene una distancia hiperfocal más corta: 24 mm a f/8, o 50 mm a f/8?",
+          "hint": "La distancia hiperfocal aumenta con el cuadrado de la distancia focal.",
+          "successMessage": "¡Correcto! El objetivo de 24 mm tiene una distancia hiperfocal mucho más corta porque la distancia focal tiene una relación cuadrática.",
+          "failureMessage": "En realidad, distancias focales más cortas siempre dan distancias hiperfocales más cortas. El 24 mm gana aquí.",
+          "options": {
+            "0": { "label": "24 mm a f/8" },
+            "1": { "label": "50 mm a f/8" }
+          }
+        },
+        "2": {
+          "scenario": "Estás de excursión con una cámara APS-C y un objetivo de 35 mm. Quieres que todo desde unos 3 metros hasta el infinito esté nítido. ¿En qué rango de apertura deberías buscar en la tabla para encontrar una distancia hiperfocal cercana a 6 metros (de modo que la mitad — 3 m — sea tu límite de enfoque cercano)?",
+          "hint": "Recuerda: enfoque cercano = hiperfocal / 2. Busca una apertura que dé una hiperfocal de unos 6 m.",
+          "successMessage": "¡Buen razonamiento! Identificaste correctamente que necesitas una distancia hiperfocal de unos 6 m, y encontraste el rango de apertura correcto.",
+          "failureMessage": "Recuerda, el enfoque cercano es la mitad de la distancia hiperfocal. Necesitas que la hiperfocal sea de unos 6 m para obtener un límite de enfoque cercano de 3 m.",
+          "options": {
+            "0": { "label": "f/2.8 — f/4" },
+            "1": { "label": "f/5.6 — f/8" },
+            "2": { "label": "f/16 — f/22" }
+          }
+        },
+        "3": {
+          "scenario": "Un amigo cambia de una cámara de formato completo a Micro Cuatro Tercios pero sigue usando las mismas distancias focales. Se queja de que las distancias hiperfocales parecen diferentes. ¿Por qué?",
+          "hint": "El círculo de confusión se calcula según el tamaño del sensor.",
+          "successMessage": "¡Exacto! El sensor M43 más pequeño usa un CdC más pequeño (aproximadamente 0.015 mm vs 0.03 mm), lo que aumenta las distancias hiperfocales para la misma distancia focal y apertura.",
+          "failureMessage": "El factor clave es el círculo de confusión. Los sensores más pequeños requieren un estándar de CdC más estricto, lo que empuja las distancias hiperfocales más lejos.",
+          "options": {
+            "0": { "label": "La distancia focal del objetivo cambia en sensores de recorte" },
+            "1": { "label": "Los sensores más pequeños usan un círculo de confusión más pequeño" },
+            "2": { "label": "Las cámaras Micro Cuatro Tercios tienen un enfoque automático menos preciso" }
+          }
+        },
+        "4": {
+          "scenario": "Estás fotografiando arquitectura a 14 mm f/11 en formato completo. La tabla muestra una distancia hiperfocal muy corta. ¿Deberías cerrar más a f/22 para aún más profundidad de campo, o f/11 es la mejor elección?",
+          "hint": "Considera qué sucede con la nitidez de la imagen a aperturas muy pequeñas.",
+          "successMessage": "¡Excelente! A f/11, la difracción es mínima en formato completo, y la distancia hiperfocal a 14 mm ya es muy corta. Cerrar a f/22 suavizaría la imagen por difracción sin un beneficio significativo de PdC.",
+          "failureMessage": "Aunque f/22 da una distancia hiperfocal más corta sobre el papel, el suavizado por difracción a f/22 en formato completo realmente reduce la nitidez general de la imagen. A 14 mm f/11, la distancia hiperfocal ya es tan corta que la PdC extra no vale la penalización de la difracción.",
+          "options": {
+            "0": { "label": "Cerrar a f/22 para máxima profundidad de campo" },
+            "1": { "label": "Quedarse en f/11 — la difracción a f/22 reducirá la nitidez" }
+          }
+        }
+      }
+    }
+  }
+}

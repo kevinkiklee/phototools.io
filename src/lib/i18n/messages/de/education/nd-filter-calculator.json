@@ -1,0 +1,112 @@
+{
+  "education": {
+    "nd-filter-calculator": {
+      "beginner": "Ein ND-Filter (Neutraldichtefilter) ist wie eine Sonnenbrille für dein Kameraobjektiv. Er reduziert die Lichtmenge, die ins Objektiv einfällt, ohne die Farben zu verändern, und ermöglicht dir längere Verschlusszeiten oder größere Blendenöffnungen bei hellen Bedingungen. So erzeugen Fotografen seidige Wasserfälle, glatte Ozeane oder verwischte Wolken am Tag.",
+      "deeper": "ND-Filter werden danach bewertet, wie viele Blendenstufen Licht sie blockieren. Ein ND2-Filter (1 Stufe) halbiert das Licht, ein ND8 (3 Stufen) reduziert es auf 1/8, und ein ND1000 (10 Stufen) reduziert das Licht um den Faktor 1024. Die Namenskonventionen können verwirrend sein: \"ND8\" bedeutet, der Filterfaktor ist 8 (3 Stufen), während \"ND 0,9\" die optische Dichte verwendet (jede 0,3 = 1 Stufe, also 0,9 = 3 Stufen). Die resultierende Verschlusszeit ist einfach die Basisgeschwindigkeit multipliziert mit dem Filterfaktor. Wenn deine ungefilterte Belichtung beispielsweise 1/125s beträgt und du einen 10-Stufen-ND (ND1000) hinzufügst, ist die neue Verschlusszeit 1/125 × 1024 = ungefähr 8 Sekunden. Das Stapeln mehrerer ND-Filter addiert ihre Stufenwerte, kann aber Vignettierung und Farbstiche verursachen, besonders bei Weitwinkelobjektiven.",
+      "keyFactors": {
+        "0": {
+          "label": "Basis-Verschlusszeit",
+          "description": "Die korrekte Belichtungszeit ohne Filter. Miss die Szene zuerst aus und berechne dann die gefilterte Belichtung von diesem Ausgangspunkt."
+        },
+        "1": {
+          "label": "Filterstärke",
+          "description": "Gemessen in Blendenstufen. Jede Stufe verdoppelt die Belichtungszeit. Gängige Stärken: 3-Stufen (ND8), 6-Stufen (ND64) und 10-Stufen (ND1000)."
+        },
+        "2": {
+          "label": "Filter stapeln",
+          "description": "Du kannst Filter kombinieren, indem du ihre Stufenwerte addierst. Ein 3-Stufen + 6-Stufen-Stapel ergibt 9 Stufen Reduzierung. Achte auf Vignettierung bei Weitwinkelobjektiven."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Komponiere und fokussiere, bevor du einen starken ND-Filter anbringst. Mit 10 Stufen Lichtreduzierung wird dein Sucher und Autofokus im Dunkeln Probleme haben."
+        },
+        "1": {
+          "text": "Für Meereslandschaften glätten 1-2 Sekunden Belichtung kleine Wellen zu Struktur, während die Wellenform erhalten bleibt. Belichtungen von 30 Sekunden oder mehr erzeugen komplett flaches, nebliges Wasser."
+        },
+        "2": {
+          "text": "Günstige ND-Filter fügen oft einen Farbstich hinzu (meist magenta oder braun). Investiere in Qualitätsglas von renommierten Herstellern oder lerne, den Farbstich in der Nachbearbeitung mit einer Graukarten-Referenz zu korrigieren."
+        }
+      },
+      "tooltips": {
+        "baseShutterSpeed": {
+          "term": "Basis-Verschlusszeit",
+          "definition": "Die Verschlusszeit für eine korrekte Belichtung ohne angebrachten ND-Filter. Das ist dein Ausgangspunkt — der Rechner multipliziert sie mit dem Filterfaktor."
+        },
+        "ndFilter": {
+          "term": "ND-Filter",
+          "definition": "Ein Neutraldichtefilter, der die Lichttransmission gleichmäßig reduziert. Bewertet nach Filterfaktor (ND2, ND4, ND8...) oder Stufen der Lichtreduzierung. ND2 = 1 Stufe, ND4 = 2 Stufen, ND8 = 3 Stufen und so weiter."
+        },
+        "resultingShutterSpeed": {
+          "term": "Resultierende Verschlusszeit",
+          "definition": "Die neue Verschlusszeit nach Berücksichtigung des ND-Filters. Berechnet durch Multiplikation der Basis-Verschlusszeit mit dem Filterfaktor (z. B. 1/125s × 1024 für einen 10-Stufen-ND)."
+        },
+        "stopsAdded": {
+          "term": "Hinzugefügte Stufen",
+          "definition": "Die Anzahl der Blendenstufen Lichtreduzierung, die der ND-Filter bietet. Jede Stufe verdoppelt die erforderliche Belichtungszeit. 10 Stufen bedeuten, die Belichtung ist 1024-mal länger."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Du stehst an einem Wasserfall und deine Kamera misst eine korrekte Belichtung von 1/125s ohne Filter. Du bringst einen 3-Stufen-ND-Filter (ND8) an. Wie ist die neue Verschlusszeit?",
+          "hint": "Jede Stufe verdoppelt die Belichtungszeit. 3 Stufen bedeuten 2 × 2 × 2 = 8-mal länger.",
+          "successMessage": "Richtig! 1/125s × 8 = 1/15s. Das ist ein guter Anfang für Bewegungsunschärfe im Wasser, obwohl du für seidig glatte Ergebnisse möglicherweise einen noch stärkeren Filter brauchst.",
+          "failureMessage": "Ein 3-Stufen-ND-Filter multipliziert die Belichtungszeit mit 8 (2^3 = 8). Somit wird aus 1/125s dann 1/15s.",
+          "options": {
+            "0": { "label": "1/60s" },
+            "1": { "label": "1/30s" },
+            "2": { "label": "1/15s" },
+            "3": { "label": "1/8s" }
+          }
+        },
+        "1": {
+          "scenario": "Du möchtest eine 30-Sekunden-Belichtung von Wolken erstellen, die über den Himmel ziehen. Ohne Filter beträgt die korrekte Belichtung 1/30s. Wie viele Stufen ND-Filterung brauchst du?",
+          "hint": "Du musst von 1/30s auf 30s kommen — das ist 1/30 × Faktor = 30, also Faktor = 900. Finde die nächste Zweierpotenz.",
+          "successMessage": "Richtig! Von 1/30s auf 30s ist ungefähr eine 1000-fache Erhöhung, was etwa 10 Stufen entspricht. Ein ND1000 (10-Stufen) Filter bringt dich auf ungefähr 33 Sekunden.",
+          "failureMessage": "Das Verhältnis ist 30 / (1/30) = 900. Die nächste Zweierpotenz ist 1024 (2^10), du brauchst also einen 10-Stufen-ND-Filter.",
+          "options": {
+            "0": { "label": "6 Stufen (ND64)" },
+            "1": { "label": "8 Stufen (ND256)" },
+            "2": { "label": "10 Stufen (ND1000)" },
+            "3": { "label": "15 Stufen (ND32768)" }
+          }
+        },
+        "2": {
+          "scenario": "Du fotografierst eine Meereslandschaft bei Sonnenuntergang. Das Licht schwindet und deine Basisbelichtung (ohne Filter) ist jetzt 1/4s bei f/11, ISO 100. Du möchtest 2-Minuten-Belichtungen für ultraglatte Wasseroberfläche. Welche ND-Filterstärke brauchst du?",
+          "hint": "Von 1/4s auf 120s ist ein Faktor von 480. Finde den nächsten Stufenwert.",
+          "successMessage": "Ein 9-Stufen-ND würde dir 1/4 × 512 = 128 Sekunden geben, also etwas über 2 Minuten. Perfekt für den nebligen, ätherischen Meereslandschafts-Look bei Sonnenuntergang.",
+          "failureMessage": "Von 0,25s auf 120s ist etwa eine 480-fache Erhöhung. 2^9 = 512, was nahe an 480 liegt, sodass ein 9-Stufen-Filter dich auf ungefähr 128 Sekunden bringt.",
+          "options": {
+            "0": { "label": "6 Stufen" },
+            "1": { "label": "9 Stufen" },
+            "2": { "label": "10 Stufen" },
+            "3": { "label": "13 Stufen" }
+          }
+        },
+        "3": {
+          "scenario": "Du möchtest ein Porträt bei f/1,4 in hellem Sonnenlicht aufnehmen (Basisbelichtung: f/1,4, 1/8000s, ISO 100). Die maximale Verschlusszeit deiner Kamera ist 1/8000s. Kannst du bei f/1,4 ohne ND-Filter fotografieren?",
+          "hint": "Prüfe, ob 1/8000s bei f/1,4 und ISO 100 erreichbar ist oder ob die Szene immer noch überbelichtet ist.",
+          "successMessage": "Richtig! An einem sehr hellen Tag (EV 15+) benötigt f/1,4 bei ISO 100 oft Verschlusszeiten schneller als 1/8000s, die die meisten Kameras nicht erreichen können. Ein 2-3-Stufen-ND-Filter ermöglicht es dir, bei offener Blende ohne Überbelichtung zu fotografieren.",
+          "failureMessage": "Bei hellem Sonnenlicht kann f/1,4 bei ISO 100 Verschlusszeiten jenseits der 1/8000s-Grenze der Kamera erfordern. Ein ND-Filter ist für Aufnahmen mit offener Blende bei hellen Bedingungen unverzichtbar.",
+          "options": {
+            "0": { "label": "Ja — 1/8000s ist schnell genug" },
+            "1": { "label": "Nein — du brauchst wahrscheinlich einen 2-3-Stufen-ND-Filter" },
+            "2": { "label": "Einfach ISO erhöhen zum Ausgleich" }
+          }
+        },
+        "4": {
+          "scenario": "Du besitzt einen 6-Stufen- und einen 3-Stufen-ND-Filter. Du stapelst sie auf deinem Objektiv bei einer Basisbelichtung von 1/250s. Wie lautet die resultierende Verschlusszeit, und worauf solltest du bei diesem Setup achten?",
+          "hint": "Addiere die Stufenwerte und berechne dann die neue Belichtung. Denke an optische Nebenwirkungen des Stapelns.",
+          "successMessage": "Richtig! 6 + 3 = 9 Stufen. 1/250 × 512 = ungefähr 2 Sekunden. Achte auf Vignettierung (dunkle Ecken) bei Weitwinkelobjektiven und mögliche Farbstiche durch günstige Gläser.",
+          "failureMessage": "Beim Stapeln werden die Stufenwerte addiert: 6 + 3 = 9 Stufen insgesamt. 2^9 = 512, also 1/250 × 512 = ~2 Sekunden. Stapeln kann auch Vignettierung und Farbstiche verursachen.",
+          "options": {
+            "0": { "label": "~0,5s, auf Streulicht achten" },
+            "1": { "label": "~2s, auf Vignettierung und Farbstiche achten" },
+            "2": { "label": "~4s, auf Sensor-Überhitzung achten" },
+            "3": { "label": "~8s, keine Bedenken beim Stapeln" }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "education": {
+    "white-balance-visualizer": {
+      "beginner": "El balance de blancos ajusta los colores en tu foto para que los objetos blancos realmente aparezcan blancos bajo cualquier iluminación. Diferentes fuentes de luz tienen diferentes temperaturas de color — una vela es cálida y anaranjada, mientras que la sombra es fría y azulada. El ajuste de balance de blancos de tu cámara compensa estas diferencias para que los colores se vean naturales.",
+      "deeper": {
+        "0": {
+          "heading": "Temperatura de color",
+          "text": "La temperatura de color se mide en Kelvin (K) y corresponde al color de la luz emitida por un \"cuerpo negro\" ideal calentado a esa temperatura. Los valores más bajos (2000–3500K) producen luz cálida, anaranjada-rojiza (bombillas incandescentes, velas), mientras que los valores más altos (6500–10000K) producen luz fría y azulada (sombra, cielo nublado)."
+        },
+        "1": {
+          "heading": "Cómo funciona el balance de blancos",
+          "text": "El sistema de balance de blancos de la cámara aplica el cambio de color inverso para neutralizar la dominante de color ambiental. Cuando configuras el balance de blancos en \"Tungsteno\" (~3200K), la cámara añade azul para contrarrestar la dominante anaranjada de las luces incandescentes. En fotografía digital, el balance de blancos se aplica como un multiplicador a los canales rojo y azul respecto al verde."
+        },
+        "2": {
+          "heading": "Ventaja del RAW",
+          "text": "Disparar en formato RAW preserva todos los datos de color y te permite cambiar el balance de blancos libremente en posprocesamiento sin pérdida de calidad — es simplemente una etiqueta de metadatos aplicada durante la conversión."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Temperatura de color (Kelvin)",
+          "description": "La medida numérica del color de la luz. Kelvin bajo = luz cálida/anaranjada. Kelvin alto = luz fría/azulada. La luz del día es aproximadamente 5500K."
+        },
+        "1": {
+          "label": "Fuente de luz",
+          "description": "Diferentes fuentes emiten diferentes temperaturas de color: velas (~1800K), bombillas de tungsteno (~2800K), tubos fluorescentes (~4000K), sol del mediodía (~5500K), cielo nublado (~6500K), sombra (~7500K)."
+        },
+        "2": {
+          "label": "RAW vs JPEG",
+          "description": "Disparar en RAW te permite cambiar el balance de blancos en posprocesamiento sin pérdida de calidad. El JPEG graba el balance de blancos permanentemente, así que acertar en cámara importa más."
+        },
+        "3": {
+          "label": "Iluminación mixta",
+          "description": "Escenas con múltiples fuentes de luz a diferentes temperaturas (por ejemplo, luz natural de ventana + lámparas de tungsteno) hacen imposible neutralizar todos los colores simultáneamente de forma perfecta."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Siempre dispara en RAW si quieres total flexibilidad para ajustar el balance de blancos después. Los archivos RAW almacenan los datos sin procesar del sensor, así que los cambios de balance de blancos no tienen pérdida."
+        },
+        "1": {
+          "text": "Para un efecto creativo, intenta \"desajustar\" intencionalmente el balance de blancos. Configurar un balance de blancos de luz diurna durante la hora dorada hace que los atardeceres sean aún más cálidos, mientras que un balance de tungsteno al aire libre crea un aspecto azul frío dramático."
+        },
+        "2": {
+          "text": "En situaciones de iluminación mixta (por ejemplo, una habitación iluminada tanto por luz de ventana como por lámparas de tungsteno), usa una carta gris para establecer un balance de blancos personalizado, o pon un gel en tu flash para que coincida con la fuente de luz ambiental."
+        }
+      },
+      "tooltips": {
+        "colorTemperature": {
+          "term": "Temperatura de color",
+          "definition": "Una medida del color de la luz en Kelvin (K). Basada en el color teórico de un cuerpo negro calentado. Valores más bajos son más cálidos (naranja/rojo), valores más altos son más fríos (azul)."
+        },
+        "preset": {
+          "term": "Preajuste de balance de blancos",
+          "definition": "Un ajuste de balance de blancos predefinido calibrado para una fuente de luz común. Los preajustes incluyen Tungsteno (~3200K), Fluorescente (~4000K), Luz diurna (~5500K), Nublado (~6500K) y Sombra (~7500K)."
+        },
+        "rgbValues": {
+          "term": "Valores RGB",
+          "definition": "Los valores de los canales rojo, verde y azul (0-255 cada uno) que representan el color de la luz a la temperatura seleccionada. Se usan para visualizar cómo la fuente de luz tiñe la escena."
+        },
+        "hexCode": {
+          "term": "Código Hex",
+          "definition": "Una representación hexadecimal de seis caracteres del color (por ejemplo, #FF8C00). Útil para referenciar el color exacto en software de diseño o desarrollo web."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tus fotos interiores bajo bombillas domésticas normales se ven muy anaranjadas/amarillas. ¿Qué preajuste de balance de blancos deberías usar para corregir esto?",
+          "hint": "Las bombillas incandescentes domésticas emiten luz cálida y anaranjada alrededor de 2800-3200K.",
+          "successMessage": "¡Correcto! El preajuste de Tungsteno añade azul para contrarrestar la dominante anaranjada de las bombillas incandescentes, devolviendo los colores a un tono neutro.",
+          "failureMessage": "Las bombillas incandescentes/de tungsteno emiten luz anaranjada cálida. El preajuste de balance de blancos Tungsteno está diseñado específicamente para neutralizar esta dominante añadiendo azul.",
+          "options": {
+            "0": { "label": "Luz diurna" },
+            "1": { "label": "Tungsteno" },
+            "2": { "label": "Sombra" },
+            "3": { "label": "Fluorescente" }
+          }
+        },
+        "1": {
+          "scenario": "Estás haciendo retratos durante la hora dorada y quieres mantener el hermoso brillo cálido del atardecer. ¿Qué ajuste de balance de blancos deberías usar?",
+          "hint": "Si configuras el balance de blancos \"correcto\" para la hora dorada, neutralizaría los tonos cálidos que quieres conservar.",
+          "successMessage": "¡Correcto! Usar el preajuste de Luz diurna (o incluso Nublado/Sombra) durante la hora dorada preserva y realza los tonos cálidos en lugar de neutralizarlos.",
+          "failureMessage": "Para preservar el brillo cálido de la hora dorada, usa un balance de blancos que no compense la luz cálida. Luz diurna o preajustes superiores mantendrán (e incluso realzarán) la calidez.",
+          "options": {
+            "0": { "label": "Balance de blancos automático" },
+            "1": { "label": "Tungsteno (para neutralizar la calidez)" },
+            "2": { "label": "Luz diurna (para preservar la calidez)" },
+            "3": { "label": "Flash" }
+          }
+        },
+        "2": {
+          "scenario": "Estás ajustando manualmente el balance de blancos en Kelvin. Tu foto se ve demasiado azul/fría. ¿Deberías aumentar o disminuir el valor de Kelvin para calentarla?",
+          "hint": "El ajuste de balance de blancos en Kelvin le dice a la cámara qué temperatura de color tiene la fuente de luz. Configurar un valor de Kelvin más alto hace que la cámara añada más calidez.",
+          "successMessage": "¡Correcto! Aumentar el valor de Kelvin le dice a la cámara que la luz es más fría de lo que realmente es, así que la cámara compensa añadiendo calidez. Sube el K para calentar una imagen fría.",
+          "failureMessage": "Cuando aumentas el valor de Kelvin, la cámara añade más calidez para compensar. Así que para corregir una imagen fría/azulada, sube el número de Kelvin.",
+          "options": {
+            "0": { "label": "Aumentar Kelvin (por ejemplo, de 5500K a 7500K)" },
+            "1": { "label": "Disminuir Kelvin (por ejemplo, de 5500K a 3200K)" },
+            "2": { "label": "La dirección del Kelvin no afecta la calidez" }
+          }
+        },
+        "3": {
+          "scenario": "Estás fotografiando el interior de un restaurante que tiene lámparas colgantes de tungsteno cálido arriba y luz natural azul fría entrando por grandes ventanas. Las personas cerca de las ventanas se ven azuladas, y las personas bajo las lámparas se ven anaranjadas. ¿Cuál es el mejor enfoque?",
+          "hint": "Ningún ajuste único de balance de blancos puede corregir dos temperaturas de color muy diferentes simultáneamente.",
+          "successMessage": "¡Exacto! Poner geles en el flash o luces adicionales para igualar una fuente dominante, o elegir un balance de blancos intermedio y corregir selectivamente en posprocesamiento, son los mejores enfoques para iluminación mixta.",
+          "failureMessage": "La iluminación mixta es uno de los desafíos más difíciles del balance de blancos. Un solo balance de blancos no puede corregir ambas fuentes simultáneamente. Necesitas igualar las fuentes con geles o corregirlo selectivamente en posprocesamiento.",
+          "options": {
+            "0": { "label": "Configurar balance de blancos en Tungsteno — lo arreglará todo" },
+            "1": { "label": "Configurar balance de blancos en Luz diurna — las ventanas son más importantes" },
+            "2": { "label": "Usar balance de blancos automático y disparar en RAW, luego corregir cada zona en posprocesamiento" },
+            "3": { "label": "Subir el ISO para que los colores sean más precisos" }
+          }
+        },
+        "4": {
+          "scenario": "Estás fotografiando una escena nocturna urbana cinematográfica y quieres un tono azul frío intencional. Las farolas son de vapor de sodio (~2200K). ¿Qué ajuste de balance de blancos en Kelvin te daría el cambio más fuerte hacia el azul?",
+          "hint": "Configurar el balance de blancos mucho más bajo que la temperatura real de la fuente de luz desplazará la imagen hacia el azul.",
+          "successMessage": "¡Correcto! Configurar el balance de blancos a 7500K (preajuste de Sombra) le dice a la cámara que la fuente de luz es muy fría/azulada — así que compensa añadiendo una fuerte corrección de calidez. Pero como las luces de sodio reales son solo 2200K (muy cálidas), esta sobrecorrección pasa del neutro hacia una fuerte dominante azul. Cuanto más alto configures el Kelvin del balance de blancos por encima de la temperatura real de la luz, más fuerte será el cambio hacia el azul.",
+          "failureMessage": "Configurar un valor de Kelvin del balance de blancos mucho más alto que la temperatura real de la fuente de luz hace que la cámara sobrecorrija hacia el azul. Con luces de sodio de 2200K, configurar el balance de blancos a 7500K+ crea el aspecto azul frío más fuerte.",
+          "options": {
+            "0": { "label": "2200K (igualando las luces de sodio)" },
+            "1": { "label": "3200K (preajuste de Tungsteno)" },
+            "2": { "label": "7500K o superior (preajuste de Sombra)" },
+            "3": { "label": "5500K (preajuste de Luz diurna)" }
+          }
+        }
+      }
+    }
+  }
+}

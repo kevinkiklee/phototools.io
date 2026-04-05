@@ -1,0 +1,68 @@
+{
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "effectiveDate": "Date d'entrée en vigueur : 3 avril 2026",
+    "sections": {
+      "overview": {
+        "title": "Aperçu",
+        "body": "Cette version française est fournie à titre informatif uniquement. En cas de divergence, la version anglaise fait foi. PhotoTools exploite www.phototools.io, une ressource éducative gratuite de photographie offrant des calculateurs interactifs, des simulateurs et des outils de référence. Cette Politique de confidentialité décrit comment nous collectons, utilisons et traitons les informations lorsque vous visitez ou utilisez notre site. En utilisant PhotoTools, vous acceptez les pratiques décrites dans cette politique."
+      },
+      "informationWeCollect": {
+        "title": "Informations que nous collectons",
+        "intro": "Nous collectons un minimum d'informations pour exploiter et améliorer le site :",
+        "analytics": "<strong>Analyses :</strong> Nous utilisons Google Analytics pour comprendre comment les visiteurs utilisent le site (par ex. pages visitées, temps passé, type d'appareil). Les données d'analyse sont anonymisées — nous ne collectons pas d'informations personnellement identifiables via les analyses. Les adresses IP sont anonymisées avant stockage.",
+        "contactForm": "<strong>Formulaire de contact :</strong> Si vous soumettez le formulaire de contact, nous collectons votre nom, adresse e-mail, sujet et message. Ces informations sont utilisées uniquement pour répondre à votre demande et ne sont pas conservées au-delà de la livraison de l'e-mail — elles ne sont ni sauvegardées dans une base de données ni conservées à long terme.",
+        "noAccounts": "<strong>Pas de comptes :</strong> PhotoTools ne nécessite pas d'inscription ni de comptes utilisateurs. Nous ne collectons ni mots de passe ni informations de paiement."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "intro": "PhotoTools utilise des cookies pour prendre en charge les fonctionnalités d'analyse et de publicité. Plus précisément :",
+        "analyticsCookies": "<strong>Cookies Google Analytics</strong> suivent l'utilisation du site de manière agrégée et anonymisée. Ces cookies nous aident à comprendre quels outils sont les plus utilisés et comment améliorer le site.",
+        "adCookies": "<strong>Cookies publicitaires tiers</strong> peuvent être déposés par nos partenaires publicitaires pour diffuser des annonces pertinentes et mesurer les performances publicitaires.",
+        "control": "Vous pouvez contrôler ou désactiver les cookies via les paramètres de votre navigateur. Notez que la désactivation des cookies peut affecter le fonctionnement de certaines fonctionnalités."
+      },
+      "thirdPartyAdvertising": {
+        "title": "Publicité tierce",
+        "body": "PhotoTools affiche des publicités diffusées par des régies publicitaires tierces. Ces régies peuvent utiliser des cookies et des technologies de suivi similaires pour diffuser des annonces basées sur votre historique de navigation et vos centres d'intérêt (publicité ciblée). Nous ne contrôlons pas les pratiques de données de ces régies publicitaires tierces. Pour plus d'informations, veuillez consulter les politiques de confidentialité de ces régies ou visiter la <naiLink>page d'opt-out du Network Advertising Initiative</naiLink>."
+      },
+      "googleAdSense": {
+        "title": "Google AdSense",
+        "body1": "PhotoTools utilise Google AdSense pour afficher des publicités. Google AdSense peut utiliser des cookies et des balises web pour diffuser des annonces basées sur vos visites précédentes sur ce site ou d'autres sites. L'utilisation par Google de cookies publicitaires lui permet, ainsi qu'à ses partenaires, de diffuser des annonces basées sur vos habitudes de navigation.",
+        "body2": "Vous pouvez refuser la publicité personnalisée en visitant les <adsSettingsLink>Paramètres des annonces Google</adsSettingsLink>. Pour plus d'informations sur la façon dont Google utilise les données, consultez <partnerSitesLink>Comment Google utilise les données lorsque vous utilisez les sites de nos partenaires</partnerSitesLink>."
+      },
+      "cookieConsent": {
+        "title": "Consentement aux cookies",
+        "body1": "Lors de votre première visite sur PhotoTools, une bannière de consentement aux cookies s'affiche, vous permettant d'accepter ou de refuser les cookies non essentiels. Cette bannière est alimentée par CookieYes, une plateforme de gestion du consentement certifiée Google qui prend en charge le cadre de transparence et de consentement IAB (TCF) v2.3.",
+        "body2": "Vous pouvez modifier vos préférences de consentement à tout moment en cliquant sur le lien des paramètres de cookies dans le pied de page. Si vous refusez les cookies publicitaires, vous verrez toujours des publicités, mais elles ne seront pas personnalisées en fonction de votre historique de navigation."
+      },
+      "ccpa": {
+        "title": "Résidents de Californie (CCPA)",
+        "body": "En vertu du California Consumer Privacy Act (CCPA), les résidents de Californie ont le droit de savoir quelles informations personnelles sont collectées, de demander leur suppression et de refuser leur vente. PhotoTools ne vend pas d'informations personnelles. Les cookies publicitaires utilisés par nos partenaires publicitaires peuvent constituer une « vente » au sens du CCPA — vous pouvez refuser via la bannière de consentement aux cookies ou en nous contactant via notre <contactLink>page de contact</contactLink>."
+      },
+      "dataSharing": {
+        "title": "Partage des données",
+        "intro": "Nous ne vendons, n'échangeons ni ne louons vos informations personnelles à des tiers. Nous ne partageons des données que dans les circonstances limitées suivantes :",
+        "analytics": "Avec <strong>Google Analytics</strong> pour analyser le trafic du site et les habitudes d'utilisation, sous réserve de la politique de confidentialité de Google.",
+        "advertising": "Avec nos <strong>partenaires publicitaires</strong> comme décrit ci-dessus dans la section Publicité tierce.",
+        "contactForm": "Nous ne partageons les soumissions du formulaire de contact avec aucun tiers."
+      },
+      "childrensPrivacy": {
+        "title": "Confidentialité des enfants",
+        "body": "PhotoTools ne s'adresse pas aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous pensez qu'un enfant de moins de 13 ans nous a fourni des informations personnelles, veuillez nous contacter pour que nous puissions les supprimer."
+      },
+      "yourRights": {
+        "title": "Vos droits",
+        "body1": "Selon votre localisation, vous pouvez avoir des droits en vertu de lois telles que le RGPD (Union européenne) ou le CCPA (Californie) concernant vos données personnelles.",
+        "body2": "Étant donné que PhotoTools collecte un minimum de données personnelles — et ne conserve pas les soumissions du formulaire de contact à long terme — la plupart des demandes peuvent être traitées simplement. Vous pouvez effacer les cookies à tout moment via les paramètres de votre navigateur. Pour exercer tout droit relatif aux données ou soumettre une demande de confidentialité, veuillez utiliser notre <contactLink>page de contact</contactLink>."
+      },
+      "changesToPolicy": {
+        "title": "Modifications de cette politique",
+        "body": "Nous pouvons mettre à jour cette Politique de confidentialité de temps en temps. Lorsque nous le faisons, la politique mise à jour sera publiée sur cette page avec une date d'entrée en vigueur révisée. Nous vous encourageons à consulter cette politique périodiquement. L'utilisation continue de PhotoTools après toute modification constitue votre acceptation de la politique mise à jour."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Si vous avez des questions sur cette Politique de confidentialité ou sur la façon dont nous traitons vos données, veuillez nous contacter via notre <contactLink>page de contact</contactLink>."
+      }
+    }
+  }
+}

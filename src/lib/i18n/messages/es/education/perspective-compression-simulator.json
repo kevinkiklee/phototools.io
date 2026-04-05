@@ -1,0 +1,60 @@
+{
+  "education": {
+    "perspective-compression-simulator": {
+      "beginner": "La compresión de perspectiva es un efecto óptico donde los objetos a diferentes distancias parecen más cercanos entre sí de lo que realmente están. Se observa más comúnmente al usar teleobjetivos largos (como 200 mm o 400 mm) desde una distancia lejana. Contrariamente a la creencia popular, no es el objetivo en sí el que causa la compresión, sino la distancia entre la cámara y la escena.",
+      "deeper": "La compresión ocurre porque a grandes distancias, la diferencia relativa en distancia entre el sujeto en primer plano y los objetos del fondo se vuelve pequeña. Por ejemplo, si estás a 30 metros de tu sujeto y el fondo está otros 6 metros detrás, el fondo está solo un 20% más lejos que el sujeto. Desde 1.5 metros, esa misma separación de 6 metros hace que el fondo esté un 500% más lejos. Al alejarte y usar un teleobjetivo para \"llenar el encuadre\" con el sujeto, reduces la profundidad relativa, haciendo que el fondo parezca más grande y \"comprimido\" contra el sujeto.",
+      "keyFactors": {
+        "0": {
+          "label": "Distancia de disparo",
+          "description": "La causa principal de la compresión. Cuanto más lejos estés del sujeto, más comprimido aparecerá el fondo respecto al sujeto."
+        },
+        "1": {
+          "label": "Distancia focal",
+          "description": "Los teleobjetivos amplían la imagen, permitiéndote llenar el encuadre con tu sujeto desde una distancia donde la compresión es visible. Los gran angulares requieren que estés cerca, lo que expande la profundidad percibida."
+        },
+        "2": {
+          "label": "Profundidad relativa",
+          "description": "La compresión es más aparente cuando la distancia entre el sujeto y el fondo es pequeña comparada con la distancia entre la cámara y el sujeto."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Para que las montañas parezcan enormes detrás de un sujeto, aléjate lo más posible y usa tu teleobjetivo más largo. Esto \"acerca\" el fondo al primer plano."
+        },
+        "1": {
+          "text": "En fotografía de retratos, un objetivo de 85 mm o 135 mm suele ser preferido porque la ligera compresión produce una representación más favorecedora de los rasgos faciales comparado con los objetivos gran angular."
+        },
+        "2": {
+          "text": "Usa la expansión de perspectiva (gran angular de cerca) para enfatizar las líneas de entrada de un primer plano y hacer que un espacio se sienta más vasto y abierto."
+        }
+      },
+      "tooltips": {
+        "focalLength": {
+          "term": "Distancia focal",
+          "definition": "El poder de ampliación del objetivo. Distancias focales más largas (teleobjetivo) te permiten disparar desde más lejos, que es lo que realmente causa la compresión de perspectiva."
+        },
+        "distance": {
+          "term": "Distancia al sujeto",
+          "definition": "La distancia entre la cámara y el sujeto principal. Aumentar esta distancia es la causa física de la compresión de perspectiva."
+        },
+        "maintainSize": {
+          "term": "Mantener tamaño del sujeto",
+          "definition": "Ajusta automáticamente la distancia de la cámara al cambiar la distancia focal para mantener al sujeto principal del mismo tamaño en el encuadre. Esto demuestra el efecto \"Dolly Zoom\"."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Quieres tomar una foto de un amigo frente a una montaña, y quieres que la montaña se vea lo más grande posible detrás de él. ¿Qué deberías hacer?",
+          "hint": "La compresión es causada por la distancia, y los teleobjetivos te permiten llenar el encuadre desde lejos.",
+          "successMessage": "¡Exacto! Al alejarte y usar un teleobjetivo, comprimes la distancia entre tu amigo y la montaña, haciendo que la montaña parezca mucho más grande.",
+          "failureMessage": "No exactamente. Acercarte con un gran angular haría que la montaña se vea más pequeña y lejana. ¡Aléjate y usa zoom!",
+          "options": {
+            "0": { "label": "Alejarse y usar un objetivo de 200 mm" },
+            "1": { "label": "Acercarse y usar un objetivo de 24 mm" },
+            "2": { "label": "Quedarse y usar un objetivo de 50 mm" }
+          }
+        }
+      }
+    }
+  }
+}

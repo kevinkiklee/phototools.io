@@ -1,0 +1,28 @@
+{
+  "about": {
+    "title": "À propos de PhotoTools",
+    "subtitle": "L'éducation photographique gratuite, directement dans ton navigateur.",
+    "sections": {
+      "whatIs": {
+        "title": "Qu'est-ce que PhotoTools ?",
+        "body": "PhotoTools est une collection gratuite de calculateurs, simulateurs et outils de référence interactifs pour la photographie. Que tu découvres le triangle d'exposition pour la première fois ou que tu calcules la distance hyperfocale pour une séance de paysage, PhotoTools te donne des outils visuels pratiques pour approfondir ta compréhension de la photographie."
+      },
+      "whoIsItFor": {
+        "title": "À qui ça s'adresse ?",
+        "body": "Aux photographes de tous niveaux — des débutants qui explorent comment l'ouverture affecte la profondeur de champ aux photographes expérimentés qui planifient une séance de filé d'étoiles. Chaque outil inclut un panneau d'apprentissage avec des explications, des facteurs clés, des conseils de pro et des défis interactifs pour tester tes connaissances."
+      },
+      "privacyFirst": {
+        "title": "La confidentialité d'abord",
+        "body": "Tous les calculs et simulations s'exécutent entièrement dans ton navigateur. Tes photos ne quittent jamais ton appareil — la visionneuse EXIF, par exemple, traite les images à 100 % côté client. Aucune inscription n'est requise, et aucune donnée personnelle n'est collectée en dehors d'analyses anonymes."
+      },
+      "builtBy": {
+        "title": "Créé par des photographes",
+        "body": "PhotoTools est créé et maintenu par un photographe et ingénieur logiciel qui souhaitait de meilleurs outils visuels pour comprendre le côté technique de la photographie. Les outils sont fondés sur l'optique et la physique réelles — pas des approximations — pour que tu puisses faire confiance aux résultats sur le terrain."
+      },
+      "getInTouch": {
+        "title": "Nous contacter",
+        "body": "Tu as une suggestion, un bug à signaler ou une idée d'outil ? Contacte-nous via la <contactLink>page de contact</contactLink>."
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "education": {
+    "star-trail-calculator": {
+      "beginner": "Sterne scheinen sich über den Himmel zu bewegen, weil sich die Erde dreht. Wenn dein Verschluss lang genug geöffnet ist, werden Sterne zu Streifen in deinem Foto. Der Sternenspuren-Rechner hilft dir, die maximale Belichtungszeit für punktförmige Sterne zu finden oder Langzeitbelichtungen für schöne kreisförmige Sternenspuren-Bögen zu planen.",
+      "deeper": {
+        "0": {
+          "heading": "Wie sich Sterne bewegen",
+          "text": "Die Erde dreht sich in etwa 23 Stunden und 56 Minuten (ein Sterntag) um 360°, sodass sich Sterne am Himmelsäquator mit etwa 15 Bogensekunden pro Sekunde bewegen. Sterne nahe den Polen (Polaris im Norden) beschreiben kleinere Kreise und scheinen sich langsamer zu bewegen."
+        },
+        "1": {
+          "heading": "Die 500er-Regel vs. NPF-Regel",
+          "text": "Die klassische \"500er-Regel\" teilt 500 durch deine effektive Brennweite, um die maximale Belichtungszeit zu schätzen, bevor Streifen sichtbar werden — aber sie wurde für Sensoren mit niedrigerer Auflösung konzipiert. Die NPF-Regel berücksichtigt Pixelabstand, Brennweite, Blende und Deklination und liefert kürzere und genauere Grenzen für moderne hochauflösende Kameras."
+        },
+        "2": {
+          "heading": "Stacking für Sternenspuren",
+          "text": "Für absichtliche Sternenspuren machen Fotografen viele kürzere Belichtungen (typischerweise 30s) und stapeln sie in Software. Das vermeidet Rauschaufbau, ermöglicht lückenlose Spuren und bedeutet, dass ein einzelnes schlechtes Bild nicht die gesamte Aufnahme ruiniert."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Brennweite",
+          "description": "Längere Brennweiten vergrößern die Sternbewegung und erfordern kürzere Belichtungen für punktförmige Sterne. Ein 14-mm-Objektiv kann 5-10 mal länger belichten als ein 200-mm-Objektiv."
+        },
+        "1": {
+          "label": "Sensorauflösung",
+          "description": "Sensoren mit höherer Auflösung zeigen Sternenspuren bei kürzeren Belichtungszeiten. Die 500er-Regel ist für moderne 40MP+-Kameras zu großzügig."
+        },
+        "2": {
+          "label": "Breitengrad & Deklination",
+          "description": "Sterne nahe den Himmelspolen bewegen sich weniger pro Sekunde. Auf Polaris gerichtet zu fotografieren ermöglicht längere Belichtungen, bevor Spuren erscheinen."
+        },
+        "3": {
+          "label": "Stacking vs. Einzelbelichtung",
+          "description": "Für Sternenspuren liefert das Stapeln vieler kurzer Belichtungen sauberere Ergebnisse als eine extrem lange Einzelbelichtung und ermöglicht die Wiederherstellung bei Unterbrechungen."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Verwende die NPF-Regel statt der 500er-Regel für moderne Kameras. Sie berücksichtigt die Sensorauflösung und liefert genauere maximale Belichtungszeiten, besonders bei hochauflösenden Kameras."
+        },
+        "1": {
+          "text": "Für Sternenspuren-Stacking halte die Lücken zwischen den Aufnahmen unter 2-3 Sekunden mit einem Kabelauslöser oder Intervallometer. Längere Lücken erzeugen gepunktete statt glatter Spuren."
+        },
+        "2": {
+          "text": "Nimm Polaris (oder den südlichen Himmelspol) in deine Komposition auf für dramatische konzentrische Kreisspuren. Sterne näher am Pol beschreiben engere Bögen."
+        }
+      },
+      "tooltips": {
+        "mode": {
+          "term": "Modus",
+          "definition": "Wähle \"Scharfe Sterne\", um die maximale Belichtungszeit für punktförmige Sterne zu berechnen, oder \"Sternenspuren\", um Belichtungssequenzen für absichtliche Spureneffekte zu planen."
+        },
+        "focalLength": {
+          "term": "Brennweite",
+          "definition": "Die Objektiv-Brennweite in Millimetern. Längere Brennweiten vergrößern die scheinbare Sternbewegung und erfordern kürzere Einzelbelichtungen."
+        },
+        "sensor": {
+          "term": "Sensorgröße",
+          "definition": "Die physischen Sensorabmessungen. Zusammen mit der Auflösung bestimmt sie den Pixelabstand, der beeinflusst, wie schnell Sternenspuren sichtbar werden."
+        },
+        "resolution": {
+          "term": "Auflösung",
+          "definition": "Die Sensorauflösung in Megapixeln. Kameras mit höherer Auflösung zeigen Sternenspuren früher, weil jeder Pixel einen kleineren Winkelbereich des Himmels abdeckt."
+        },
+        "aperture": {
+          "term": "Blende",
+          "definition": "Die Objektivöffnung. Für Astrofotografie verwende die größtmögliche Blende (niedrigste Blendenzahl), um in jedem Bild möglichst viel Sternenlicht einzufangen."
+        },
+        "latitude": {
+          "term": "Breitengrad",
+          "definition": "Dein geografischer Breitengrad. Beeinflusst die scheinbare Bewegungsrate der Sterne — bei höheren Breitengraden bewegen sich Sterne nahe dem Pol langsamer durchs Bild."
+        },
+        "exposurePerFrame": {
+          "term": "Belichtung pro Bild",
+          "definition": "Die Verschlusszeit für jedes einzelne Bild in einer Sternenspuren-Sequenz. Typischerweise 15-30 Sekunden, um genug Licht einzufangen und gleichzeitig übermäßiges Rauschen zu vermeiden."
+        },
+        "numberOfFrames": {
+          "term": "Anzahl der Bilder",
+          "definition": "Wie viele Einzelbelichtungen aufgenommen werden sollen. Mehr Bilder bedeuten längere, dramatischere Sternenspuren. 120 Bilder à 30 Sekunden ergeben eine Stunde Spuren."
+        },
+        "gapBetweenFrames": {
+          "term": "Lücke zwischen den Bildern",
+          "definition": "Die Zeit zwischen den Belichtungen, in der die Kamera die Datei speichert. Halte dies so kurz wie möglich (1-3 Sekunden), um gepunktete Spuren zu vermeiden."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Du fotografierst die Milchstraße mit einem 24-mm-Objektiv an einer Vollformat-24MP-Kamera. Wie lange kannst du mit der 500er-Regel ungefähr belichten, bevor Sterne beginnen zu wandern?",
+          "hint": "Die 500er-Regel: maximale Sekunden = 500 / Brennweite.",
+          "successMessage": "Richtig! 500 / 24 = ungefähr 20 Sekunden. Das ist ein guter Ausgangspunkt, obwohl die NPF-Regel für kritische Schärfe eine etwas kürzere Zeit vorschlagen könnte.",
+          "failureMessage": "Wende die 500er-Regel an: Teile 500 durch deine Brennweite (24 mm). Das ergibt ungefähr 20 Sekunden.",
+          "options": {
+            "0": { "label": "5 Sekunden" },
+            "1": { "label": "10 Sekunden" },
+            "2": { "label": "20 Sekunden" },
+            "3": { "label": "60 Sekunden" }
+          }
+        },
+        "1": {
+          "scenario": "Du möchtest den Orionnebel mit einem 200-mm-Objektiv an einer Crop-Sensor-Kamera (1,5× Crop-Faktor) fotografieren. Wie lange ist ungefähr die maximale Belichtung nach der 500er-Regel?",
+          "hint": "Bei einem Crop-Sensor multipliziere zuerst die Brennweite mit dem Crop-Faktor und wende dann die Regel an.",
+          "successMessage": "Richtig! Die effektive Brennweite ist 200 mm × 1,5 = 300 mm. 500 / 300 = ~1,7 Sekunden. Bei Telebrennweiten an Crop-Sensoren hast du sehr wenig Zeit, bevor Spuren erscheinen.",
+          "failureMessage": "Denke daran, den Crop-Faktor zu berücksichtigen: 200 mm × 1,5 = 300 mm effektiv. Dann 500 / 300 ergibt etwa 1,7 Sekunden.",
+          "options": {
+            "0": { "label": "~1,7 Sekunden" },
+            "1": { "label": "~2,5 Sekunden" },
+            "2": { "label": "~5 Sekunden" },
+            "3": { "label": "~10 Sekunden" }
+          }
+        },
+        "2": {
+          "scenario": "Du möchtest ein 2-Stunden-Sternenspurenfoto erstellen. Du planst 30-Sekunden-Belichtungen mit 2-Sekunden-Pausen. Wie viele Bilder brauchst du?",
+          "hint": "Berechne, wie viele 32-Sekunden-Intervalle (30s Belichtung + 2s Pause) in 2 Stunden (7200 Sekunden) passen.",
+          "successMessage": "Richtig! 7200 Sekunden / 32 Sekunden pro Bild = 225 Bilder. Du bekommst glatte, durchgehende Spuren über 2 Stunden Erdrotation.",
+          "failureMessage": "Zwei Stunden = 7200 Sekunden. Jeder Bildzyklus ist 30s + 2s = 32s. Teile 7200 durch 32, um die Anzahl der benötigten Bilder zu erhalten.",
+          "options": {
+            "0": { "label": "120 Bilder" },
+            "1": { "label": "180 Bilder" },
+            "2": { "label": "225 Bilder" },
+            "3": { "label": "240 Bilder" }
+          }
+        },
+        "3": {
+          "scenario": "Dein Freund verwendet eine 50MP-Vollformatkamera und hat die 500er-Regel mit einem 20-mm-Objektiv befolgt, was eine 25-Sekunden-Belichtung ergibt. Er beklagt, dass Sterne bei Vergrößerung wie kurze Striche aussehen. Warum?",
+          "hint": "Die 500er-Regel wurde für ältere Sensoren mit niedrigerer Auflösung entwickelt.",
+          "successMessage": "Genau! Die 500er-Regel ist für hochauflösende Sensoren zu großzügig. Ein 50MP-Vollformatsensor hat einen Pixelabstand von etwa 4,4 Mikrometern, und die NPF-Regel würde für wirklich scharfe Sterne etwa 10-12 Sekunden empfehlen.",
+          "failureMessage": "Die 500er-Regel wurde entwickelt, als Sensoren weit weniger Megapixel hatten. Bei 50MP deckt jeder Pixel einen viel kleineren Himmelsausschnitt ab und zeigt Sternbewegung, die auf älteren Kameras unsichtbar war.",
+          "options": {
+            "0": { "label": "Das Objektiv war nicht fokussiert" },
+            "1": { "label": "Die 500er-Regel ist für hochauflösende Sensoren zu großzügig" },
+            "2": { "label": "Die Kamera wackelte im Wind" },
+            "3": { "label": "20 mm ist zu weitwinklig für Astrofotografie" }
+          }
+        },
+        "4": {
+          "scenario": "Du möchtest ein 1-Stunden-Sternenspurenbild. Warum stapeln erfahrene Astrofotografen viele kurze Belichtungen (z. B. 240 × 15s) statt einer einzelnen 1-Stunden-Belichtung?",
+          "hint": "Denke darüber nach, was mit dem Sensorrauschen, der Batterie und der Wiederherstellbarkeit während einer extrem langen Einzelbelichtung passiert.",
+          "successMessage": "Richtig! Eine einzelne einstündige Belichtung baut massives thermisches Rauschen auf, entleert die Batterie, und wenn etwas schiefgeht (Vibration, Tau, Autoscheinwerfer), ist die gesamte Aufnahme ruiniert. Das Stapeln kurzer Bilder hält das Rauschen niedrig, ermöglicht das Entfernen schlechter Bilder und ist weitaus fehlerverzeihender.",
+          "failureMessage": "Lange Einzelbelichtungen bauen starkes thermisches Rauschen auf und riskieren den Totalverlust durch jede Unterbrechung. Das Stapeln kurzer Bilder hält das Rauschen beherrschbar, ermöglicht das Verwerfen ruinierter Bilder und liefert sauberere Ergebnisse.",
+          "options": {
+            "0": { "label": "Stacking erzeugt längere Spuren als eine Einzelbelichtung" },
+            "1": { "label": "Einzelbelichtungen können Sternbewegung nicht aufzeichnen" },
+            "2": { "label": "Stacking reduziert Rauschen, ermöglicht Wiederherstellung bei Unterbrechungen und schont den Akku" },
+            "3": { "label": "Es gibt keinen praktischen Unterschied — es ist reine Geschmackssache" }
+          }
+        }
+      }
+    }
+  }
+}

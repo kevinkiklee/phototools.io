@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "site": {
+      "defaultTitle": "PhotoTools — 写真撮影ツール",
+      "titleTemplate": "%s | PhotoTools",
+      "description": "無料の写真撮影ツール: 画角シミュレーター、配色ジェネレーター、EXIFビューアー、写真のトリミング＆フレーム、その他多数。",
+      "ogTitle": "PhotoTools — 無料の写真撮影ツール"
+    },
+    "fov-simulator": {
+      "title": "画角シミュレーター — 焦点距離を比較",
+      "description": "さまざまな焦点距離とセンサーサイズで画角を比較。無料、インタラクティブ、共有可能。"
+    },
+    "dof-calculator": {
+      "title": "被写界深度計算ツール",
+      "description": "任意のレンズ、絞り、センサーサイズで被写界深度を計算。前方・後方ピント限界、過焦点距離、背景ぼけを確認 — 無料のインタラクティブツール。"
+    },
+    "exposure-simulator": {
+      "title": "露出トライアングルシミュレーター",
+      "description": "インタラクティブな露出トライアングルシミュレーター — 絞り、シャッタースピード、ISO感度がリアルタイムプレビューで画像にどう影響するかを確認。"
+    },
+    "star-trail-calculator": {
+      "title": "スタートレイル計算ツール",
+      "description": "500ルール、NPFルールなどを使って点像の星を撮るための最大露出時間を計算。任意の場所でのスタートレイルスタッキング撮影を計画。"
+    },
+    "white-balance-visualizer": {
+      "title": "ホワイトバランスビジュアライザー",
+      "description": "ホワイトバランスと色温度が写真にどう影響するかを確認。2000Kから10000Kまでリアルタイムプレビューで変化を可視化。"
+    },
+    "sensor-size-comparison": {
+      "title": "センサーサイズ比較",
+      "description": "中判からスマートフォンまでカメラセンサーのサイズを比較。オーバーレイ、横並び、画素密度ビューで実際のカメラモデルと共に確認。"
+    },
+    "color-scheme-generator": {
+      "title": "配色ジェネレーター",
+      "description": "補色、類似色、三色配色、四色配色を使って撮影用のカラーパレットを生成。写真からの色抽出機能付きインタラクティブカラーホイール。"
+    },
+    "frame-studio": {
+      "title": "フレームスタジオ",
+      "description": "写真のトリミング、フレーム追加、グリッドオーバーレイで構図を整える。100%クライアントサイド処理 — あなたの写真はデバイスから外部に送信されません。"
+    },
+    "exif-viewer": {
+      "title": "EXIFビューアー",
+      "description": "写真のEXIFメタデータ、ヒストグラム、プレビューを表示。100%クライアントサイド処理 — あなたの写真はデバイスから外部に送信されません。"
+    },
+    "hyperfocal-simulator": {
+      "title": "過焦点距離シミュレーター",
+      "description": "任意のレンズとセンサーで過焦点距離を可視化。前景から無限遠まで最大限のシャープネスを得るためのピント位置を正確に確認。"
+    },
+    "shutter-speed-visualizer": {
+      "title": "シャッタースピードビジュアライザー",
+      "description": "手持ち撮影でシャープな写真を撮るための最低シャッタースピードを確認。焦点距離、センサーサイズ、手ブレ補正を考慮。"
+    },
+    "nd-filter-calculator": {
+      "title": "NDフィルター計算ツール",
+      "description": "NDフィルター使用時の正しいシャッタースピードを計算。ND2からND1000000まで対応、クイックリファレンス表付き。"
+    },
+    "perspective-compression-simulator": {
+      "title": "圧縮効果シミュレーター",
+      "description": "焦点距離と距離が圧縮効果にどう影響するかを示すインタラクティブ3Dシミュレーター。リアルタイムで背景圧縮の変化を確認。"
+    },
+    "about": {
+      "title": "概要",
+      "description": "PhotoToolsは、あらゆるスキルレベルのフォトグラファー向けの無料のブラウザベース写真撮影計算ツール、シミュレーター、リファレンス集です。"
+    },
+    "contact": {
+      "title": "お問い合わせ | PhotoTools",
+      "description": "PhotoToolsチームへのご質問、フィードバック、写真撮影ツールに関するご提案はこちらから。"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー | PhotoTools",
+      "description": "www.phototools.ioにおけるアナリティクス、Cookie、お問い合わせフォームの送信を含むデータの取り扱いについて。"
+    },
+    "terms": {
+      "title": "利用規約 | PhotoTools",
+      "description": "PhotoToolsの利用規約 — www.phototools.ioの利用条件、知的財産、免責事項、責任の制限について。"
+    },
+    "glossary": {
+      "title": "写真用語集",
+      "description": "50以上の写真用語の定義とインタラクティブツールへのリンク付き検索可能な用語集。"
+    }
+  }
+}

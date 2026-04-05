@@ -1,0 +1,13 @@
+{
+  "home": {
+    "heroTitle": "PhotoTools — 無料の写真撮影ツール",
+    "heroDesc": "無料の写真撮影計算ツール、シミュレーター、リファレンス。登録不要 — あなたの写真はブラウザの外に出ることはありません。",
+    "comingSoon": "近日公開",
+    "categories": {
+      "visualizer": "ビジュアライザー",
+      "calculator": "計算ツール",
+      "reference": "リファレンス",
+      "file-tool": "ファイルツール"
+    }
+  }
+}

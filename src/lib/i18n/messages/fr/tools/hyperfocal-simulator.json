@@ -1,0 +1,21 @@
+{
+  "toolUI": {
+    "hyperfocal-simulator": {
+      "settings": "Paramètres",
+      "focalLength": "Longueur focale",
+      "aperture": "Ouverture",
+      "focusDistance": "Distance de mise au point :",
+      "sensor": "Capteur",
+      "scene": "Scène :",
+      "sceneLandscape": "Paysage",
+      "sceneStreet": "Rue",
+      "hyperfocalDistance": "Distance hyperfocale",
+      "nearLimit": "Limite proche",
+      "farLimit": "Limite lointaine",
+      "focusDistanceResult": "Distance de mise au point",
+      "hyperfocalReference": "Référence hyperfocale",
+      "sharpToInfinity": "Net jusqu'à l'infini",
+      "nearLimitBadge": "Limite proche :"
+    }
+  }
+}

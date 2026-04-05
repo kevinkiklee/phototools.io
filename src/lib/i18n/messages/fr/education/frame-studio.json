@@ -1,0 +1,133 @@
+{
+  "education": {
+    "frame-studio": {
+      "beginner": "Frame Studio t'aide à recadrer, encadrer et composer tes photos directement dans le navigateur. Utilise les grilles de composition pour améliorer ton cadrage, recadre selon les rapports d'aspect populaires et ajoute des bordures d'aspect professionnel — tout cela sans perte de qualité d'image.",
+      "deeper": {
+        "0": {
+          "heading": "Grilles de composition",
+          "text": "La Règle des tiers divise le cadre en une grille 3×3 — placer les sujets le long des lignes ou aux intersections crée un équilibre visuel naturel. Le Nombre d'or (environ 1,618:1) fournit une division mathématiquement harmonieuse utilisée en art et architecture depuis des siècles. La Spirale dorée guide l'œil le long d'une courbe logarithmique dérivée de la suite de Fibonacci, utile pour diriger le regard du spectateur à travers l'image."
+        },
+        "1": {
+          "heading": "Rapports d'aspect",
+          "text": "Différents rapports d'aspect servent différents objectifs. 1:1 (carré) fonctionne bien pour les réseaux sociaux et les compositions symétriques. 3:2 est le rapport classique du film 35 mm. 4:3 est courant en Micro Four Thirds et les anciens appareils numériques. 16:9 est le standard écran large pour la vidéo et les compositions cinématiques. 5:4 est traditionnel pour les tirages 20×25 cm."
+        },
+        "2": {
+          "heading": "Encadrement et bordures",
+          "text": "Ajouter une bordure autour d'une photographie imite l'effet d'un passe-partout et d'un cadre physique. Un passe-partout blanc offre un espace de respiration visuel et dirige le regard vers l'intérieur. La largeur de la bordure par rapport à l'image affecte le « poids » perçu de la photographie. Les présentations style galerie utilisent typiquement des passe-partout plus larges. Une ombre subtile crée de la profondeur, simulant comment un tirage encadré repose sur un mur."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Grille de composition",
+          "description": "Les guides en superposition t'aident à évaluer et améliorer le placement des sujets dans le cadre."
+        },
+        "1": {
+          "label": "Rapport d'aspect",
+          "description": "La proportion largeur/hauteur affecte le ressenti de l'image — les rapports plus larges paraissent cinématiques, le carré paraît équilibré."
+        },
+        "2": {
+          "label": "Largeur de bordure",
+          "description": "Les bordures plus larges ajoutent de la gravité et de la focalisation ; les bordures étroites paraissent modernes et minimales."
+        },
+        "3": {
+          "label": "Couleur du passe-partout",
+          "description": "Les passe-partout blancs sont classiques pour la photographie d'art. Les passe-partout sombres mettent en valeur les images claires. Les passe-partout colorés peuvent compléter ou contraster."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Pour les publications Instagram, recadre en 4:5 (portrait) pour occuper l'espace maximum dans le fil d'actualité."
+        },
+        "1": {
+          "text": "Quand tu ajoutes une bordure pour l'impression, utilise une largeur de passe-partout d'au moins 10 % de la plus petite dimension de l'image pour un aspect professionnel."
+        },
+        "2": {
+          "text": "La Spirale dorée est plus efficace pour les images avec un flux naturel — eau, routes ou architecture courbe."
+        }
+      },
+      "tooltips": {
+        "Aspect Ratio": {
+          "term": "Rapport d'aspect",
+          "definition": "La relation proportionnelle entre la largeur et la hauteur. Les rapports courants incluent 3:2 (35 mm), 4:3 (M43) et 16:9 (écran large)."
+        },
+        "Rule of Thirds": {
+          "term": "Règle des tiers",
+          "definition": "Un principe de composition qui divise le cadre en 9 parties égales. Placer les sujets aux points d'intersection crée un intérêt visuel."
+        },
+        "Golden Ratio": {
+          "term": "Nombre d'or",
+          "definition": "Une proportion mathématique (~1,618:1) trouvée dans la nature et l'art. Crée des divisions d'espace esthétiquement plaisantes."
+        },
+        "Border Width": {
+          "term": "Largeur de bordure",
+          "definition": "L'épaisseur de la bordure du cadre en pixels. S'ajoute à l'extérieur de l'image, augmentant les dimensions totales sans recadrage."
+        },
+        "Inner Mat": {
+          "term": "Passe-partout intérieur",
+          "definition": "Une seconde bordure plus fine entre le cadre extérieur et l'image — imite le passe-partout intérieur biseauté d'un cadre photo physique."
+        },
+        "Corner Radius": {
+          "term": "Rayon de coin",
+          "definition": "Arrondit les coins de la bordure du cadre. Zéro donne des coins nets, des valeurs plus élevées donnent un aspect plus doux et arrondi."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tu veux publier une photo portrait sur Instagram pour une présence maximale dans le fil. Quel rapport d'aspect utiliser ?",
+          "hint": "Les publications portrait Instagram utilisent un format plus haut que large.",
+          "successMessage": "Correct ! 4:5 te donne l'espace vertical maximum dans le fil Instagram.",
+          "failureMessage": "Les publications portrait Instagram utilisent le 4:5 (retourne le 5:4 en orientation portrait) pour un maximum de surface dans le fil.",
+          "options": {
+            "0": { "label": "1:1 (Carré)" },
+            "1": { "label": "4:5 (Portrait)" },
+            "2": { "label": "16:9 (Écran large)" }
+          }
+        },
+        "1": {
+          "scenario": "Quelle grille de composition est le point de départ le plus enseigné aux débutants ?",
+          "hint": "Elle divise le cadre en 9 sections égales.",
+          "successMessage": "Exact ! La Règle des tiers est le guide de composition fondamental.",
+          "failureMessage": "La Règle des tiers (grille 3×3) est le point de départ le plus courant pour apprendre la composition.",
+          "options": {
+            "0": { "label": "Règle des tiers" },
+            "1": { "label": "Spirale dorée" },
+            "2": { "label": "Lignes diagonales" }
+          }
+        },
+        "2": {
+          "scenario": "Tu prépares une photo pour une impression galerie sur du papier 20×25 cm. Quel rapport d'aspect correspond à ce format d'impression ?",
+          "hint": "20×25 se simplifie en un rapport bien connu.",
+          "successMessage": "Correct ! 5:4 correspond parfaitement aux dimensions d'impression 20×25 cm.",
+          "failureMessage": "20×25 se simplifie en 4:5, qui est la version portrait du 5:4.",
+          "options": {
+            "0": { "label": "3:2" },
+            "1": { "label": "5:4" },
+            "2": { "label": "4:3" }
+          }
+        },
+        "3": {
+          "scenario": "Une photo de paysage présente une rivière sinueuse menant du premier plan aux montagnes en arrière-plan. Quelle grille de superposition correspond le mieux à ce flux naturel ?",
+          "hint": "Un type de grille suit un chemin courbe naturel.",
+          "successMessage": "Excellent choix ! La Spirale dorée suit parfaitement les courbes et lignes directrices.",
+          "failureMessage": "La Spirale dorée est idéale pour les images avec des éléments courbes naturels comme les rivières, routes ou côtes.",
+          "options": {
+            "0": { "label": "Croix centrale" },
+            "1": { "label": "Spirale dorée" },
+            "2": { "label": "Grille carrée" }
+          }
+        },
+        "4": {
+          "scenario": "Tu veux une bordure blanche épurée pour présenter ta photo sur les réseaux sociaux. Quel préréglage de cadre utiliser ?",
+          "hint": "Pense au préréglage qui te donne une simple bordure blanche.",
+          "successMessage": "Correct ! Le préréglage Blanc ajoute une bordure blanche de 100px autour de ta photo.",
+          "failureMessage": "Le préréglage Blanc est conçu pour une présentation simple avec bordure blanche épurée.",
+          "options": {
+            "0": { "label": "Aucun" },
+            "1": { "label": "Blanc" },
+            "2": { "label": "Noir" }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "toolUI": {
+    "nd-filter-calculator": {
+      "baseShutterSpeed": "Basis-Verschlusszeit",
+      "ndFilter": "ND-Filter",
+      "resultingShutterSpeed": "Resultierende Verschlusszeit",
+      "stopsAdded": "Hinzugefügte Stufen",
+      "quickReference": "Schnellreferenz",
+      "tableBase": "Basis"
+    }
+  }
+}

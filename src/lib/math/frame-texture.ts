@@ -1,4 +1,4 @@
-import type { TexturePreset } from '@/app/frame-studio/_components/types'
+import type { TexturePreset } from '@/app/[locale]/frame-studio/_components/types'
 
 interface TextureConfig {
   baseColor: [number, number, number]

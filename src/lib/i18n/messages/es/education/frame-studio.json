@@ -1,0 +1,133 @@
+{
+  "education": {
+    "frame-studio": {
+      "beginner": "Frame Studio te ayuda a recortar, enmarcar y componer tus fotos directamente en el navegador. Usa cuadrículas de composición para mejorar tu encuadre, recorta a relaciones de aspecto populares y añade bordes con aspecto profesional — todo sin perder calidad de imagen.",
+      "deeper": {
+        "0": {
+          "heading": "Cuadrículas de composición",
+          "text": "La regla de los tercios divide el encuadre en una cuadrícula de 3×3 — colocar los sujetos a lo largo de las líneas o en las intersecciones crea un equilibrio visual natural. La proporción áurea (aproximadamente 1.618:1) proporciona una división matemáticamente armoniosa utilizada en el arte y la arquitectura durante siglos. La espiral áurea guía la mirada a lo largo de una curva logarítmica derivada de la secuencia de Fibonacci, útil para conducir al espectador a través de la imagen."
+        },
+        "1": {
+          "heading": "Relaciones de aspecto",
+          "text": "Diferentes relaciones de aspecto sirven para diferentes propósitos. 1:1 (cuadrado) funciona bien para redes sociales y composiciones simétricas. 3:2 es la proporción clásica de película de 35 mm. 4:3 es común en Micro Cuatro Tercios y cámaras digitales antiguas. 16:9 es la proporción panorámica estándar para video y composiciones cinematográficas. 5:4 es tradicional para impresiones de 8×10."
+        },
+        "2": {
+          "heading": "Enmarcado y bordes",
+          "text": "Añadir un borde alrededor de una fotografía imita el efecto de un paspartú y marco físico. Un paspartú blanco proporciona espacio visual para respirar y dirige el enfoque hacia dentro. El ancho del borde relativo a la imagen afecta el \"peso\" percibido de la fotografía. Las presentaciones de estilo galería generalmente usan paspartús más anchos. Una sombra sutil crea profundidad, simulando cómo una impresión enmarcada descansa en una pared."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Cuadrícula de composición",
+          "description": "Las guías superpuestas te ayudan a evaluar y mejorar la colocación del sujeto dentro del encuadre."
+        },
+        "1": {
+          "label": "Relación de aspecto",
+          "description": "La proporción ancho-alto afecta cómo se siente la imagen — las relaciones más anchas se sienten cinematográficas, la cuadrada se siente equilibrada."
+        },
+        "2": {
+          "label": "Ancho del borde",
+          "description": "Los bordes más anchos añaden gravedad y enfoque; los bordes estrechos se sienten modernos y minimalistas."
+        },
+        "3": {
+          "label": "Color del paspartú",
+          "description": "Los paspartús blancos son clásicos para fotografía artística. Los paspartús oscuros enfatizan las imágenes más claras. Los paspartús de color pueden complementar o contrastar."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Para publicaciones de Instagram, recorta a 4:5 (retrato) para ocupar el máximo espacio de pantalla en el feed."
+        },
+        "1": {
+          "text": "Al añadir un borde para impresión, usa un ancho de paspartú de al menos el 10% de la dimensión más corta de la imagen para un aspecto profesional."
+        },
+        "2": {
+          "text": "La espiral áurea es más efectiva para imágenes con un flujo natural — agua, caminos o arquitectura curva."
+        }
+      },
+      "tooltips": {
+        "Aspect Ratio": {
+          "term": "Relación de aspecto",
+          "definition": "La relación proporcional entre ancho y alto. Las relaciones comunes incluyen 3:2 (35 mm), 4:3 (M43) y 16:9 (panorámico)."
+        },
+        "Rule of Thirds": {
+          "term": "Regla de los tercios",
+          "definition": "Una guía de composición que divide el encuadre en 9 partes iguales. Colocar los sujetos en los puntos de intersección crea interés visual."
+        },
+        "Golden Ratio": {
+          "term": "Proporción áurea",
+          "definition": "Una proporción matemática (~1.618:1) encontrada en la naturaleza y el arte. Crea divisiones del espacio estéticamente agradables."
+        },
+        "Border Width": {
+          "term": "Ancho del borde",
+          "definition": "El grosor del borde del marco en píxeles. Va fuera de la imagen, aumentando las dimensiones totales sin recortar."
+        },
+        "Inner Mat": {
+          "term": "Paspartú interior",
+          "definition": "Un segundo borde más delgado entre el marco exterior y la imagen — imita el paspartú interior biselado de un marco de fotos físico."
+        },
+        "Corner Radius": {
+          "term": "Radio de esquina",
+          "definition": "Redondea las esquinas del borde del marco. Cero da esquinas agudas, valores más altos dan un aspecto más suave y redondeado."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Quieres publicar una foto de retrato en Instagram para máxima presencia en el feed. ¿Qué relación de aspecto deberías usar?",
+          "hint": "Las publicaciones de retrato en Instagram usan una relación más alta que ancha.",
+          "successMessage": "¡Correcto! 4:5 te da el máximo espacio vertical en el feed de Instagram.",
+          "failureMessage": "Las publicaciones de retrato en Instagram usan 4:5 (invierte 5:4 a orientación retrato) para máxima presencia en el feed.",
+          "options": {
+            "0": { "label": "1:1 (Cuadrado)" },
+            "1": { "label": "4:5 (Retrato)" },
+            "2": { "label": "16:9 (Panorámico)" }
+          }
+        },
+        "1": {
+          "scenario": "¿Qué cuadrícula de composición es el punto de partida más enseñado para principiantes?",
+          "hint": "Divide el encuadre en 9 secciones iguales.",
+          "successMessage": "¡Correcto! La regla de los tercios es la guía fundamental de composición.",
+          "failureMessage": "La regla de los tercios (cuadrícula 3×3) es el punto de partida más común para aprender composición.",
+          "options": {
+            "0": { "label": "Regla de los tercios" },
+            "1": { "label": "Espiral áurea" },
+            "2": { "label": "Líneas diagonales" }
+          }
+        },
+        "2": {
+          "scenario": "Estás preparando una foto para impresión de galería en papel de 8×10. ¿Qué relación de aspecto coincide con este tamaño de impresión?",
+          "hint": "8×10 se simplifica a una relación bien conocida.",
+          "successMessage": "¡Correcto! 5:4 coincide perfectamente con las dimensiones de impresión de 8×10.",
+          "failureMessage": "8×10 se simplifica a 4:5, que es la versión retrato de 5:4.",
+          "options": {
+            "0": { "label": "3:2" },
+            "1": { "label": "5:4" },
+            "2": { "label": "4:3" }
+          }
+        },
+        "3": {
+          "scenario": "Una foto de paisaje presenta un río serpenteante que va desde el primer plano hasta las montañas en el fondo. ¿Qué superposición de cuadrícula coincide mejor con este flujo natural?",
+          "hint": "Un tipo de cuadrícula sigue un camino curvo natural.",
+          "successMessage": "¡Buena elección! La espiral áurea sigue curvas y líneas de conducción perfectamente.",
+          "failureMessage": "La espiral áurea es ideal para imágenes con elementos curvos naturales como ríos, caminos o costas.",
+          "options": {
+            "0": { "label": "Cruz central" },
+            "1": { "label": "Espiral áurea" },
+            "2": { "label": "Cuadrícula cuadrada" }
+          }
+        },
+        "4": {
+          "scenario": "Quieres un borde blanco limpio para presentar tu foto en redes sociales. ¿Qué preajuste de marco deberías usar?",
+          "hint": "Piensa en qué preajuste te da un borde blanco simple.",
+          "successMessage": "¡Correcto! El preajuste Blanco añade un borde blanco de 100px alrededor de tu foto.",
+          "failureMessage": "El preajuste Blanco está diseñado para una presentación con borde blanco limpio y simple.",
+          "options": {
+            "0": { "label": "Ninguno" },
+            "1": { "label": "Blanco" },
+            "2": { "label": "Negro" }
+          }
+        }
+      }
+    }
+  }
+}

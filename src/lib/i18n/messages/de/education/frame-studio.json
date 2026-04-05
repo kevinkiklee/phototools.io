@@ -1,0 +1,133 @@
+{
+  "education": {
+    "frame-studio": {
+      "beginner": "Das Rahmen-Studio hilft dir, deine Fotos direkt im Browser zuzuschneiden, zu rahmen und zu komponieren. Verwende Kompositionsraster, um deine Bildgestaltung zu verbessern, schneide auf beliebte Seitenverhältnisse zu und füge professionell aussehende Ränder hinzu — alles ohne Qualitätsverlust.",
+      "deeper": {
+        "0": {
+          "heading": "Kompositionsraster",
+          "text": "Die Drittelregel teilt das Bild in ein 3×3-Raster — das Platzieren von Motiven entlang der Linien oder an Schnittpunkten erzeugt eine natürliche visuelle Balance. Der Goldene Schnitt (ungefähr 1,618:1) bietet eine mathematisch harmonische Teilung, die seit Jahrhunderten in Kunst und Architektur verwendet wird. Die Goldene Spirale führt das Auge entlang einer logarithmischen Kurve, die von der Fibonacci-Folge abgeleitet ist, und eignet sich zum Leiten des Betrachters durch das Bild."
+        },
+        "1": {
+          "heading": "Seitenverhältnisse",
+          "text": "Verschiedene Seitenverhältnisse dienen verschiedenen Zwecken. 1:1 (quadratisch) funktioniert gut für Social Media und symmetrische Kompositionen. 3:2 ist das klassische 35-mm-Film-Verhältnis. 4:3 ist üblich bei Micro Four Thirds und älteren Digitalkameras. 16:9 ist das Standard-Breitbildformat für Video und filmische Kompositionen. 5:4 ist traditionell für 20×25-cm-Drucke."
+        },
+        "2": {
+          "heading": "Rahmung und Ränder",
+          "text": "Das Hinzufügen eines Randes um ein Foto ahmt den Effekt eines physischen Passepartouts und Rahmens nach. Ein weißes Passepartout bietet visuellen Freiraum und lenkt den Fokus nach innen. Die Breite des Randes im Verhältnis zum Bild beeinflusst das wahrgenommene \"Gewicht\" der Fotografie. Galerie-Präsentationen verwenden typischerweise breitere Passepartouts. Ein dezenter Schatten erzeugt Tiefe und simuliert, wie ein gerahmter Druck an der Wand hängt."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Kompositionsraster",
+          "description": "Überlagerungslinien helfen dir, die Platzierung des Motivs im Bildausschnitt zu bewerten und zu verbessern."
+        },
+        "1": {
+          "label": "Seitenverhältnis",
+          "description": "Das Breite-zu-Höhe-Verhältnis beeinflusst, wie das Bild wirkt — breitere Verhältnisse wirken filmisch, quadratisch wirkt ausgewogen."
+        },
+        "2": {
+          "label": "Rahmenbreite",
+          "description": "Breitere Rahmen verleihen Erhabenheit und Fokus; schmale Rahmen wirken modern und minimalistisch."
+        },
+        "3": {
+          "label": "Passepartout-Farbe",
+          "description": "Weiße Passepartouts sind klassisch für Kunstfotografie. Dunkle Passepartouts betonen hellere Bilder. Farbige Passepartouts können ergänzen oder kontrastieren."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Für Instagram-Posts schneide auf 4:5 (Hochformat) zu, um maximalen Platz im Feed einzunehmen."
+        },
+        "1": {
+          "text": "Wenn du einen Rahmen für den Druck hinzufügst, verwende eine Passepartout-Breite von mindestens 10 % der kürzeren Bildseite für einen professionellen Look."
+        },
+        "2": {
+          "text": "Die Goldene Spirale ist am effektivsten für Bilder mit natürlichem Fluss — Wasser, Straßen oder geschwungene Architektur."
+        }
+      },
+      "tooltips": {
+        "Aspect Ratio": {
+          "term": "Seitenverhältnis",
+          "definition": "Das proportionale Verhältnis zwischen Breite und Höhe. Gängige Verhältnisse sind 3:2 (35 mm), 4:3 (M43) und 16:9 (Breitbild)."
+        },
+        "Rule of Thirds": {
+          "term": "Drittelregel",
+          "definition": "Eine Kompositionsregel, die das Bild in 9 gleiche Teile unterteilt. Das Platzieren von Motiven an Schnittpunkten erzeugt visuelles Interesse."
+        },
+        "Golden Ratio": {
+          "term": "Goldener Schnitt",
+          "definition": "Ein mathematisches Verhältnis (~1,618:1), das in Natur und Kunst vorkommt. Erzeugt ästhetisch ansprechende Raumaufteilungen."
+        },
+        "Border Width": {
+          "term": "Rahmenbreite",
+          "definition": "Die Dicke des Rahmenrandes in Pixeln. Wird außerhalb des Bildes hinzugefügt und vergrößert die Gesamtabmessungen, ohne zu beschneiden."
+        },
+        "Inner Mat": {
+          "term": "Inneres Passepartout",
+          "definition": "Ein zweiter, dünnerer Rand zwischen dem äußeren Rahmen und dem Bild — ahmt das abgeschrägte innere Passepartout eines physischen Bilderrahmens nach."
+        },
+        "Corner Radius": {
+          "term": "Eckenradius",
+          "definition": "Rundet die Ecken des Rahmenrandes ab. Null ergibt scharfe Ecken, höhere Werte einen weicheren, abgerundeten Look."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Du möchtest ein Porträtfoto auf Instagram posten und maximale Präsenz im Feed erreichen. Welches Seitenverhältnis solltest du verwenden?",
+          "hint": "Instagram-Hochformat-Posts verwenden ein höher-als-breit-Verhältnis.",
+          "successMessage": "Richtig! 4:5 gibt dir den maximalen vertikalen Platz im Instagram-Feed.",
+          "failureMessage": "Instagram-Hochformat-Posts verwenden 4:5 (5:4 ins Hochformat gedreht) für maximale Feed-Präsenz.",
+          "options": {
+            "0": { "label": "1:1 (Quadrat)" },
+            "1": { "label": "4:5 (Hochformat)" },
+            "2": { "label": "16:9 (Breitbild)" }
+          }
+        },
+        "1": {
+          "scenario": "Welches Kompositionsraster ist der am häufigsten gelehrte Ausgangspunkt für Anfänger?",
+          "hint": "Es teilt das Bild in 9 gleiche Abschnitte.",
+          "successMessage": "Richtig! Die Drittelregel ist die grundlegende Kompositionshilfe.",
+          "failureMessage": "Die Drittelregel (3×3-Raster) ist der häufigste Ausgangspunkt zum Erlernen der Komposition.",
+          "options": {
+            "0": { "label": "Drittelregel" },
+            "1": { "label": "Goldene Spirale" },
+            "2": { "label": "Diagonale Linien" }
+          }
+        },
+        "2": {
+          "scenario": "Du bereitest ein Foto für den Galeriedruck auf 20×25-cm-Papier vor. Welches Seitenverhältnis passt zu diesem Druckformat?",
+          "hint": "20×25 vereinfacht sich zu einem bekannten Verhältnis.",
+          "successMessage": "Richtig! 5:4 entspricht den 20×25-cm-Druckmaßen perfekt.",
+          "failureMessage": "20×25 vereinfacht sich zu 4:5, was die Hochformat-Version von 5:4 ist.",
+          "options": {
+            "0": { "label": "3:2" },
+            "1": { "label": "5:4" },
+            "2": { "label": "4:3" }
+          }
+        },
+        "3": {
+          "scenario": "Ein Landschaftsfoto zeigt einen sich windenden Fluss, der vom Vordergrund zu Bergen im Hintergrund führt. Welche Rasterüberlagerung passt am besten zu diesem natürlichen Fluss?",
+          "hint": "Ein Rastertyp folgt einem natürlichen geschwungenen Pfad.",
+          "successMessage": "Gute Wahl! Die Goldene Spirale folgt Kurven und Führungslinien perfekt.",
+          "failureMessage": "Die Goldene Spirale ist ideal für Bilder mit natürlichen geschwungenen Elementen wie Flüssen, Straßen oder Küstenlinien.",
+          "options": {
+            "0": { "label": "Mittenkreuz" },
+            "1": { "label": "Goldene Spirale" },
+            "2": { "label": "Quadratisches Raster" }
+          }
+        },
+        "4": {
+          "scenario": "Du möchtest einen sauberen weißen Rand, um dein Foto in sozialen Medien zu präsentieren. Welche Rahmen-Voreinstellung solltest du verwenden?",
+          "hint": "Überlege, welche Voreinstellung dir einen einfachen weißen Rand gibt.",
+          "successMessage": "Richtig! Die Voreinstellung \"Weiß\" fügt einen 100px weißen Rand um dein Foto hinzu.",
+          "failureMessage": "Die Voreinstellung \"Weiß\" ist für eine saubere, einfache weiße Randpräsentation gedacht.",
+          "options": {
+            "0": { "label": "Keine" },
+            "1": { "label": "Weiß" },
+            "2": { "label": "Schwarz" }
+          }
+        }
+      }
+    }
+  }
+}

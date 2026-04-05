@@ -1,4 +1,4 @@
-import type { GradientDirection } from '@/app/frame-studio/_components/types'
+import type { GradientDirection } from '@/app/[locale]/frame-studio/_components/types'
 
 export function computeExportDimensions(
   imageW: number,

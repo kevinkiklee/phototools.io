@@ -1,0 +1,60 @@
+{
+  "education": {
+    "perspective-compression-simulator": {
+      "beginner": "Perspektivische Kompression ist ein optischer Effekt, bei dem Objekte in unterschiedlichen Entfernungen näher beieinander erscheinen, als sie tatsächlich sind. Er wird am häufigsten bei der Verwendung langer Teleobjektive (wie 200 mm oder 400 mm) aus großer Entfernung beobachtet. Entgegen der landläufigen Meinung verursacht nicht das Objektiv selbst die Kompression, sondern die Entfernung zwischen Kamera und Szene.",
+      "deeper": "Kompression entsteht, weil bei großen Entfernungen der relative Entfernungsunterschied zwischen dem Vordergrundobjekt und den Hintergrundobjekten gering wird. Wenn du beispielsweise 30 Meter von deinem Motiv entfernt bist und der Hintergrund weitere 6 Meter dahinter liegt, ist der Hintergrund nur 20 % weiter entfernt als das Motiv. Aus 1,5 Metern Entfernung macht die gleiche 6-Meter-Lücke den Hintergrund 500 % weiter entfernt. Indem du dich weit entfernst und ein Teleobjektiv verwendest, um das Bild mit dem Motiv zu \"füllen\", reduzierst du die relative Tiefe, sodass der Hintergrund größer erscheint und gegen das Motiv \"komprimiert\" wird.",
+      "keyFactors": {
+        "0": {
+          "label": "Aufnahmeentfernung",
+          "description": "Die Hauptursache für Kompression. Je weiter du vom Motiv entfernt bist, desto komprimierter erscheint der Hintergrund im Verhältnis zum Motiv."
+        },
+        "1": {
+          "label": "Brennweite",
+          "description": "Teleobjektive vergrößern das Bild und ermöglichen es, das Motiv aus einer Entfernung bildfüllend aufzunehmen, bei der die Kompression sichtbar ist. Weitwinkelobjektive erfordern Nähe, was die wahrgenommene Tiefe ausdehnt."
+        },
+        "2": {
+          "label": "Relative Tiefe",
+          "description": "Kompression ist am deutlichsten, wenn der Abstand zwischen Motiv und Hintergrund im Verhältnis zum Abstand zwischen Kamera und Motiv gering ist."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Um Berge hinter einem Motiv massiv erscheinen zu lassen, gehe so weit wie möglich zurück und verwende dein längstes Teleobjektiv. Das \"zieht\" den Hintergrund näher an den Vordergrund."
+        },
+        "1": {
+          "text": "In der Porträtfotografie wird oft ein 85-mm- oder 135-mm-Objektiv bevorzugt, weil die leichte Kompression eine schmeichelhaftere Darstellung der Gesichtszüge erzeugt als Weitwinkelobjektive."
+        },
+        "2": {
+          "text": "Nutze Perspektiverweiterung (Weitwinkel aus der Nähe), um die Führungslinien eines Vordergrunds zu betonen und einen Raum weiter und offener erscheinen zu lassen."
+        }
+      },
+      "tooltips": {
+        "focalLength": {
+          "term": "Brennweite",
+          "definition": "Die Vergrößerungsleistung des Objektivs. Längere Brennweiten (Tele) ermöglichen es, aus größerer Entfernung zu fotografieren, was die eigentliche Ursache der perspektivischen Kompression ist."
+        },
+        "distance": {
+          "term": "Motivabstand",
+          "definition": "Die Entfernung zwischen der Kamera und dem Hauptmotiv. Die Vergrößerung dieser Entfernung ist die physische Ursache der perspektivischen Kompression."
+        },
+        "maintainSize": {
+          "term": "Motivgröße beibehalten",
+          "definition": "Passt die Kameraentfernung automatisch an, wenn die Brennweite geändert wird, um das Hauptmotiv in gleicher Größe im Bild zu halten. Dies demonstriert den \"Dolly-Zoom\"-Effekt."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Du möchtest ein Foto von einem Freund vor einem Berg machen und möchtest, dass der Berg so groß wie möglich hinter ihm erscheint. Was solltest du tun?",
+          "hint": "Kompression wird durch Entfernung verursacht, und Teleobjektive ermöglichen es, das Bild aus der Ferne zu füllen.",
+          "successMessage": "Genau! Indem du weit zurückgehst und ein Teleobjektiv verwendest, komprimierst du den Abstand zwischen deinem Freund und dem Berg, sodass der Berg viel größer erscheint.",
+          "failureMessage": "Nicht ganz. Näherkommen mit einem Weitwinkelobjektiv würde den Berg kleiner und weiter entfernt erscheinen lassen. Geh zurück und zoome rein!",
+          "options": {
+            "0": { "label": "Zurückgehen und ein 200-mm-Objektiv verwenden" },
+            "1": { "label": "Näherkommen und ein 24-mm-Objektiv verwenden" },
+            "2": { "label": "Stehenbleiben und ein 50-mm-Objektiv verwenden" }
+          }
+        }
+      }
+    }
+  }
+}

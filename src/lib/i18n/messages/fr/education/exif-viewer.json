@@ -1,0 +1,126 @@
+{
+  "education": {
+    "exif-viewer": {
+      "beginner": "Les données EXIF sont des informations cachées intégrées dans chaque photo prise par ton appareil. Elles enregistrent quel appareil et objectif tu as utilisé, les réglages exacts (ouverture, vitesse d'obturation, ISO), la date et l'heure, et parfois même les coordonnées GPS. Cet outil lit ces données sans envoyer ta photo nulle part — tout se passe dans ton navigateur.",
+      "deeper": "L'EXIF (Exchangeable Image File Format) est un standard défini par JEITA/CIPA qui stocke les métadonnées dans les fichiers JPEG, TIFF et certains fichiers RAW. Les données sont écrites dans des segments spécifiques de l'en-tête du fichier sous forme de paires clé-valeur balisées utilisant une structure IFD (Image File Directory) basée sur TIFF. Il y a plusieurs sections IFD : IFD0 pour les informations de base de l'image, le sous-IFD EXIF pour les réglages de l'appareil, l'IFD GPS pour la géolocalisation, et l'IFD Interop pour les données de compatibilité. Les fabricants écrivent aussi des données propriétaires « MakerNote » contenant les corrections d'objectif, les points de focus, le nombre de déclenchements, et d'autres détails spécifiques au modèle. Les réseaux sociaux suppriment souvent les données EXIF lors du téléversement pour la confidentialité, mais le fichier original sur ta carte mémoire les conserve toujours. Comprendre l'EXIF t'aide à apprendre de tes propres habitudes de prise de vue et à reconstituer les réglages derrière les photos que tu admires.",
+      "keyFactors": {
+        "0": {
+          "label": "Appareil et objectif",
+          "description": "Marque, modèle, nom de l'objectif et fabricant — utile pour identifier le matériel dans les photos trouvées en ligne."
+        },
+        "1": {
+          "label": "Réglages d'exposition",
+          "description": "Ouverture, vitesse d'obturation, ISO et longueur focale — les paramètres de prise de vue principaux enregistrés pour chaque image."
+        },
+        "2": {
+          "label": "Date et GPS",
+          "description": "Quand et où la photo a été prise. Attention : les données GPS révèlent ta position lors du partage de fichiers."
+        },
+        "3": {
+          "label": "Logiciel",
+          "description": "Montre quel logiciel d'édition a enregistré le fichier en dernier. Utile pour vérifier si une image a été retouchée."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Vérifie la longueur focale et l'équivalent 35 mm pour comprendre si le photographe a utilisé une perspective grand-angle, normale ou téléobjectif — cela enseigne la composition plus que n'importe quelle règle des tiers."
+        },
+        "1": {
+          "text": "Si une photo que tu admires a été prise à haut ISO avec une grande ouverture, cela t'indique que c'était une situation de basse lumière. Utilise l'EXIF pour comprendre les contraintes auxquelles le photographe faisait face."
+        },
+        "2": {
+          "text": "Avant de partager des photos en ligne, sache que l'EXIF peut contenir ta position GPS. Supprime les métadonnées via les paramètres d'export de ton logiciel d'édition si la confidentialité est un souci."
+        }
+      },
+      "tooltips": {
+        "Make": {
+          "term": "Marque",
+          "definition": "Le nom du fabricant de l'appareil (par ex. Canon, Nikon, Sony) stocké dans l'en-tête EXIF."
+        },
+        "Model": {
+          "term": "Modèle",
+          "definition": "Le modèle spécifique de l'appareil (par ex. « EOS R5 », « Z 9 ») qui a capturé l'image."
+        },
+        "Aperture": {
+          "term": "Ouverture",
+          "definition": "Le nombre f auquel l'objectif était réglé. Les nombres plus bas signifient une ouverture plus large et plus de lumière."
+        },
+        "Shutter Speed": {
+          "term": "Vitesse d'obturation",
+          "definition": "La durée d'exposition du capteur. Exprimée en fraction (par ex. 1/250s) ou en secondes entières pour les longues expositions."
+        },
+        "ISO": {
+          "term": "ISO",
+          "definition": "Le réglage de sensibilité du capteur. Un ISO plus élevé éclaircit l'image mais ajoute du bruit."
+        },
+        "Focal Length": {
+          "term": "Longueur focale",
+          "definition": "La longueur focale réelle de l'objectif en millimètres."
+        },
+        "Focal Length (35mm equiv)": {
+          "term": "Longueur focale (éq. 35 mm)",
+          "definition": "La longueur focale équivalente comme si prise avec un capteur plein format 35 mm. Utile pour comparer le champ de vision entre différentes tailles de capteur."
+        },
+        "GPS": {
+          "term": "GPS",
+          "definition": "Les coordonnées de latitude et longitude intégrées par les appareils équipés de modules GPS. Révèle où la photo a été prise."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tu as trouvé une photo magnifique en ligne et tu veux savoir quel objectif a été utilisé. Quelle section EXIF te le dira ?",
+          "hint": "Les informations de l'appareil et de l'objectif sont dans des sections différentes.",
+          "successMessage": "Correct ! La section Objectif montre le modèle et le fabricant de l'objectif.",
+          "failureMessage": "La section Objectif contient le modèle de l'objectif — vérifie là pour identifier l'optique utilisée.",
+          "options": {
+            "0": { "label": "Appareil" },
+            "1": { "label": "Objectif" },
+            "2": { "label": "Réglages" }
+          }
+        },
+        "1": {
+          "scenario": "Tu as importé une photo et tu vois Ouverture : f/1.8, Vitesse : 1/4000s, ISO : 100. La photo a-t-elle été prise en lumière vive ou tamisée ?",
+          "hint": "Une vitesse très rapide à bas ISO suggère beaucoup de lumière disponible.",
+          "successMessage": "Exact ! La vitesse rapide (1/4000s) à l'ISO de base (100) indique qu'il y avait beaucoup de lumière — probablement en extérieur lumineux.",
+          "failureMessage": "Une vitesse de 1/4000s à ISO 100 signifie que l'appareil avait besoin de très peu de sensibilité et d'un temps d'exposition très court. C'est une scène extérieure lumineuse.",
+          "options": {
+            "0": { "label": "Lumière vive — vitesse rapide à bas ISO" },
+            "1": { "label": "Lumière tamisée — la grande ouverture compense" }
+          }
+        },
+        "2": {
+          "scenario": "Une photo indique Longueur focale : 50 mm et Longueur focale (éq. 35 mm) : 75 mm. Quel capteur l'appareil utilisait-il ?",
+          "hint": "L'équivalent 35 mm est la longueur focale multipliée par le facteur de recadrage.",
+          "successMessage": "Correct ! 75 / 50 = facteur de recadrage 1,5×, soit un capteur APS-C (variante Nikon/Sony).",
+          "failureMessage": "Divise l'équivalent 35 mm par la focale réelle : 75 / 50 = 1,5×. Ce facteur de recadrage correspond à l'APS-C (Nikon/Sony).",
+          "options": {
+            "0": { "label": "Plein Format (crop 1,0×)" },
+            "1": { "label": "APS-C (crop 1,5×)" },
+            "2": { "label": "Micro Four Thirds (crop 2,0×)" }
+          }
+        },
+        "3": {
+          "scenario": "Tu vois deux photos de la même scène. Photo A : f/2.8, 1/60s, ISO 3200. Photo B : f/2.8, 1/60s, ISO 200. Quelle photo a été prise dans une lumière plus vive ?",
+          "hint": "Un ISO plus élevé compense un manque de lumière.",
+          "successMessage": "Exactement ! La Photo B à ISO 200 avait beaucoup plus de lumière ambiante. La Photo A avait besoin d'ISO 3200 (4 stops de sensibilité en plus) pour obtenir la même exposition, ce qui signifie que la scène était bien plus sombre.",
+          "failureMessage": "La Photo B était dans une lumière plus vive. Même ouverture et vitesse, mais ISO 200 vs 3200 signifie que la Photo A était dans un environnement bien plus sombre et avait besoin de 4 stops de sensibilité supplémentaire.",
+          "options": {
+            "0": { "label": "Photo A (ISO 3200)" },
+            "1": { "label": "Photo B (ISO 200)" }
+          }
+        },
+        "4": {
+          "scenario": "Tu analyses une photo animalière : 400 mm, f/5.6, 1/2000s, ISO 1600. L'EXIF montre que le champ logiciel est « Adobe Lightroom Classic 13.1 ». Que peux-tu en déduire sur le photographe et les conditions de prise de vue ?",
+          "hint": "Considère la longue focale, l'ouverture maximale, la vitesse rapide et l'ISO élevé ensemble.",
+          "successMessage": "Belle analyse ! Le 400 mm à f/5.6 (probablement à pleine ouverture pour cet objectif) avec une vitesse rapide de 1/2000s suggère un sujet en mouvement rapide (oiseaux ou animaux en action). ISO 1600 indique que ce n'était pas en plein soleil — probablement couvert ou à l'ombre. Le champ Lightroom confirme un post-traitement.",
+          "failureMessage": "Les réglages révèlent beaucoup : 400 mm f/5.6 est un téléobjectif animalier typique à pleine ouverture, 1/2000s fige le mouvement rapide d'un animal, et ISO 1600 signifie une lumière limitée (pas le plein soleil). L'entrée Lightroom confirme que le fichier a été traité.",
+          "options": {
+            "0": { "label": "Sujet rapide en lumière modérée, post-traité dans Lightroom" },
+            "1": { "label": "Sujet lent en pleine lumière, directement de l'appareil" },
+            "2": { "label": "Photo de paysage avec flou de mouvement, fortement retouchée" }
+          }
+        }
+      }
+    }
+  }
+}

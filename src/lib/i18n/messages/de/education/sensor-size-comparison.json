@@ -1,0 +1,125 @@
+{
+  "education": {
+    "sensor-size-comparison": {
+      "beginner": "Kamerasensoren gibt es in vielen verschiedenen physischen Größen, von den großen Mittelformat-Chips in Studiokameras bis hin zu den winzigen Sensoren in Smartphones. Ein größerer Sensor fängt mehr Licht ein, produziert weniger Rauschen und macht es einfacher, Hintergründe zu verwischen. Die Sensorgröße ist einer der größten Unterschiede zwischen Kamerakategorien.",
+      "deeper": {
+        "0": {
+          "heading": "Wie es funktioniert",
+          "text": "Die Sensorgröße beeinflusst die Fotografie auf mehrere zusammenhängende Weisen. Ein größerer Sensor hat eine größere Fläche, um Photonen zu sammeln, was das Signal-Rausch-Verhältnis und den Dynamikumfang verbessert. Die Sensorgröße ist einer der wichtigsten Unterschiede zwischen Kamerakategorien — von Mittelformat-Studiokameras bis zu Smartphone-Sensoren."
+        },
+        "1": {
+          "heading": "Crop-Faktor",
+          "text": "Der \"Crop-Faktor\" beschreibt, wie ein Sensor im Vergleich zum 35-mm-Vollformat-Standard steht. Ein APS-C-Sensor mit 1,5× Crop-Faktor ergibt mit einem 35-mm-Objektiv den gleichen Bildwinkel wie eine Vollformatkamera mit einem 52,5-mm-Objektiv. Dieser Crop-Faktor multipliziert auch die effektive Schärfentiefe — ein kleinerer Sensor scheint bei gleichem Bildausschnitt mehr Schärfentiefe zu geben, weil man ein weitwinkligeres (kürzeres) Objektiv braucht, um den Bildwinkel zu erreichen."
+        },
+        "2": {
+          "heading": "Pixeldichte",
+          "text": "Die Pixeldichte (Pixelabstand) misst, wie dicht die Pixel auf dem Sensor gepackt sind. Mehr Megapixel auf einen kleineren Sensor zu packen, verkleinert jedes Photosite und reduziert die Lichtsammlung pro Pixel. Ein 24MP-Vollformatsensor hat ca. 6µm-Pixel, während ein 24MP-APS-C-Sensor ca. 4µm-Pixel hat, weshalb der Vollformatsensor typischerweise bei hohem ISO besser abschneidet."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Physische Abmessungen",
+          "description": "Breite und Höhe in Millimetern bestimmen die gesamte Lichtsammelfläche und den Bildwinkel für ein bestimmtes Objektiv."
+        },
+        "1": {
+          "label": "Crop-Faktor",
+          "description": "Das Verhältnis der Vollformat-Diagonale zur Sensor-Diagonale. Mit der Brennweite multipliziert ergibt es die \"äquivalente\" Brennweite."
+        },
+        "2": {
+          "label": "Pixeldichte",
+          "description": "Wie dicht die Pixel gepackt sind. Kleinerer Pixelabstand bedeutet mehr Detail, aber weniger Licht pro Pixel, was die Rauschleistung beeinflusst."
+        },
+        "3": {
+          "label": "Sensorfläche",
+          "description": "Gesamtfläche in mm². Ein 44×33mm-Mittelformatsensor (Fujifilm GFX, Hasselblad X) hat etwa 1,7× die Fläche von Vollformat, während ein größerer 54×40mm-Mittelformat-Chip etwa 2,5× hat. Vollformat ist etwa 13× die Fläche eines Smartphone-Flaggschiff-Sensors."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Verwende den Überlagerungsmodus, um genau zu sehen, wie viel größer ein Sensor als ein anderer ist — der Flächenunterschied ist oft dramatischer, als die Zahlen vermuten lassen."
+        },
+        "1": {
+          "text": "Wechsle in den Pixeldichte-Modus und gib deine Kameraauflösung ein, um den Pixelabstand zu vergleichen. Wenn deine Kamera eine sehr hohe Pixeldichte hat, könntest du die Beugungsgrenze bei weiteren Blenden als erwartet erreichen."
+        },
+        "2": {
+          "text": "Beim Vergleich von Kameras ist die Sensorfläche wichtiger als die Megapixelzahl für die Rauschleistung. Ein 20MP-Vollformatsensor wird typischerweise einen 40MP-APS-C-Sensor bei hohem ISO übertreffen."
+        }
+      },
+      "tooltips": {
+        "Sensor": {
+          "term": "Sensor",
+          "definition": "Schalte einzelne Sensorformate ein oder aus, um sie in den visuellen Vergleich und die Datentabelle einzubeziehen."
+        },
+        "Display Mode": {
+          "term": "Anzeigemodus",
+          "definition": "Überlagerung zeigt alle Sensoren auf denselben Punkt zentriert. Nebeneinander platziert sie nebeneinander im gleichen Maßstab. Pixeldichte visualisiert, wie dicht die Pixel gepackt sind."
+        },
+        "Resolution": {
+          "term": "Auflösung",
+          "definition": "Die Gesamt-Megapixelzahl, die zur Berechnung des Pixelabstands im Pixeldichte-Modus verwendet wird. Mehr Megapixel auf der gleichen Sensorgröße bedeuten kleinere einzelne Pixel."
+        },
+        "Crop Factor": {
+          "term": "Crop-Faktor",
+          "definition": "Das Verhältnis der 35mm-Vollformat-Diagonale zur Diagonale dieses Sensors. Ein 1,5× Crop-Faktor bedeutet, dass ein 50-mm-Objektiv wie ein 75-mm-Objektiv an Vollformat wirkt."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Ein Vollformatsensor misst 36×24 mm. Ein APS-C-Sensor hat einen 1,5× Crop-Faktor. Was ist die ungefähre Breite eines APS-C-Sensors?",
+          "hint": "Teile die Vollformat-Breite durch den Crop-Faktor.",
+          "successMessage": "Richtig! 36 mm ÷ 1,5 ≈ 24 mm. Der APS-C-Sensor ist etwa 24×16 mm und hat damit ungefähr 44% der Vollformat-Fläche.",
+          "failureMessage": "Teile die Vollformat-Breite (36 mm) durch den Crop-Faktor (1,5×): 36 ÷ 1,5 = 24 mm.",
+          "options": {
+            "0": { "label": "24 mm" },
+            "1": { "label": "30 mm" },
+            "2": { "label": "18 mm" }
+          }
+        },
+        "1": {
+          "scenario": "Du montierst ein 50-mm-Objektiv an einer Kamera mit 2,0× Crop-Faktor-Sensor. Welche Vollformat-äquivalente Brennweite ergibt sich?",
+          "hint": "Multipliziere die Brennweite mit dem Crop-Faktor.",
+          "successMessage": "Richtig! 50 mm × 2,0 = 100 mm äquivalent. Deshalb sind Micro-Four-Thirds-Kameras für Teleaufnahmen beliebt — man bekommt mit jedem Objektiv mehr Reichweite.",
+          "failureMessage": "Multipliziere die Objektivbrennweite mit dem Crop-Faktor: 50 mm × 2,0 = 100 mm äquivalent.",
+          "options": {
+            "0": { "label": "25 mm" },
+            "1": { "label": "75 mm" },
+            "2": { "label": "100 mm" }
+          }
+        },
+        "2": {
+          "scenario": "Zwei Kameras haben beide 24 Megapixel — eine Vollformat (36×24 mm) und eine APS-C (24×16 mm). Welche hat bessere Hoch-ISO-Rauschleistung und warum?",
+          "hint": "Denke darüber nach, wie sich die gleiche Pixelanzahl über verschiedene Sensorflächen verteilt und wie sich das auf die einzelne Pixelgröße auswirkt.",
+          "successMessage": "Genau! Der Vollformatsensor verteilt 24MP über eine größere Fläche, sodass jeder Pixel physisch größer ist (~6µm vs. ~4µm Abstand) und mehr Photonen einfängt, was zu weniger Rauschen führt.",
+          "failureMessage": "Der Vollformatsensor gewinnt — gleiche Megapixelzahl auf einer größeren Fläche bedeutet größere Pixel, die mehr Licht sammeln und bei hohem ISO weniger Rauschen produzieren.",
+          "options": {
+            "0": { "label": "Vollformat — größere Pixel sammeln mehr Licht" },
+            "1": { "label": "APS-C — kleinere Sensoren sind effizienter" },
+            "2": { "label": "Gleiches Rauschen — die Megapixelzahl ist entscheidend" }
+          }
+        },
+        "3": {
+          "scenario": "Betrachte die Vergleichstabelle: Welches Sensorformat hat einen Crop-Faktor, der 2,0× am nächsten kommt?",
+          "hint": "Der Crop-Faktor ist die Vollformat-Diagonale geteilt durch die Sensor-Diagonale.",
+          "successMessage": "Richtig! Micro Four Thirds hat einen Crop-Faktor von 2,0×, weshalb ein 25-mm-M43-Objektiv wie ein 50 mm an Vollformat wirkt.",
+          "failureMessage": "Micro Four Thirds hat einen 2,0× Crop-Faktor. Prüfe die Tabelle — seine Diagonale ist genau die Hälfte der Vollformat-Diagonale.",
+          "options": {
+            "0": { "label": "APS-C (Canon)" },
+            "1": { "label": "Micro Four Thirds" },
+            "2": { "label": "1\"-Sensor" }
+          }
+        },
+        "4": {
+          "scenario": "Du vergleichst eine 50MP-Mittelformatkamera mit einer 50MP-Vollformatkamera im Pixeldichte-Modus. Beide haben die gleiche Megapixelzahl. Welche Kamera hat den größeren Pixelabstand, und welchen praktischen Vorteil bringt das?",
+          "hint": "Der Pixelabstand hängt von der Sensorbreite geteilt durch die Anzahl der horizontalen Pixel ab.",
+          "successMessage": "Richtig! Der Mittelformatsensor ist physisch größer, sodass bei 50MP seine Pixel größer sind (höherer Abstand). Das gibt ihm etwa 1/3 Blendenstufe bessere Lichtsammlung pro Pixel, plus ein etwas späteres Einsetzen der Beugung.",
+          "failureMessage": "Der Mittelformatsensor ist größer, sodass bei gleicher Auflösung jeder Pixel physisch größer ist. Größere Pixel sammeln mehr Photonen und bieten besseren Dynamikumfang und etwas spätere Beugungsgrenzen.",
+          "options": {
+            "0": { "label": "Mittelformat — bessere Lichtsammlung pro Pixel und Dynamikumfang" },
+            "1": { "label": "Vollformat — kleinere Pixel sind effizienter" },
+            "2": { "label": "Beide sind identisch, da sie die gleiche Megapixelzahl haben" }
+          }
+        }
+      }
+    }
+  }
+}

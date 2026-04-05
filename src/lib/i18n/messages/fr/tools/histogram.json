@@ -1,0 +1,42 @@
+{
+  "toolUI": {
+    "histogram": {
+      "luminance": "Luminance",
+      "rgbOverlay": "Superposition RVB",
+      "allChannels": "Tous les canaux",
+      "shadows": "Ombres",
+      "midtones": "Tons moyens",
+      "highlights": "Hautes lumières",
+      "blackClipping": "Écrêtage du noir",
+      "whiteClipping": "Écrêtage du blanc",
+      "pureBlack": "noir pur",
+      "pureWhite": "blanc pur",
+      "uploadPrompt": "Importe une image pour voir les données EXIF et l'histogramme",
+      "uploadedPhoto": "Photo importée",
+      "noExifData": "Aucune donnée EXIF trouvée dans cette image.",
+      "sectionCamera": "Appareil",
+      "sectionLens": "Objectif",
+      "sectionSettings": "Réglages",
+      "sectionImage": "Image",
+      "sectionDate": "Date",
+      "sectionGPS": "GPS",
+      "sectionSoftware": "Logiciel",
+      "make": "Marque",
+      "model": "Modèle",
+      "lensModel": "Modèle d'objectif",
+      "lensMake": "Fabricant d'objectif",
+      "apertureLabel": "Ouverture",
+      "shutterSpeed": "Vitesse d'obturation",
+      "isoLabel": "ISO",
+      "focalLengthLabel": "Longueur focale",
+      "focalLength35mm": "Longueur focale (éq. 35 mm)",
+      "width": "Largeur",
+      "height": "Hauteur",
+      "orientationLabel": "Orientation",
+      "dateTaken": "Date de prise de vue",
+      "latitudeLabel": "Latitude",
+      "longitudeLabel": "Longitude",
+      "softwareLabel": "Logiciel"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "effectiveDate": "Date d'entrée en vigueur : 3 avril 2026",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptation des conditions",
+        "body": "Cette version française est fournie à titre informatif uniquement. En cas de divergence, la version anglaise fait foi. En accédant ou en utilisant www.phototools.io (« PhotoTools » ou « le Site »), vous acceptez d'être lié par ces Conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser le Site. Ces conditions s'appliquent à tous les visiteurs et utilisateurs de PhotoTools."
+      },
+      "descriptionOfService": {
+        "title": "Description du service",
+        "body": "PhotoTools fournit des outils éducatifs gratuits pour la photographie, notamment des calculateurs interactifs, des simulateurs et du matériel de référence. Le Site est destiné à des fins informatives et éducatives uniquement. Tous les outils sont fournis gratuitement aux utilisateurs et sont conçus pour aider les photographes à apprendre et comprendre les concepts photographiques."
+      },
+      "noWarranty": {
+        "title": "Absence de garantie",
+        "body": "PhotoTools est fourni « tel quel » sans aucune garantie d'aucune sorte, expresse ou implicite. Nous ne garantissons pas que les outils, calculateurs ou informations de ce site sont exacts, complets ou adaptés à un usage particulier. Les résultats de nos outils sont des approximations et ne doivent pas être utilisés pour des décisions critiques, un travail professionnel ou des situations où la précision est essentielle. Vérifiez toujours les calculs importants auprès de professionnels qualifiés ou de sources faisant autorité."
+      },
+      "intellectualProperty": {
+        "title": "Propriété intellectuelle",
+        "body": "Tout le contenu de PhotoTools — y compris les textes, graphiques, designs d'outils, code et matériel éducatif — est la propriété de PhotoTools sauf indication contraire. Vous êtes libre d'utiliser les outils et le matériel de référence à des fins personnelles et éducatives. La reproduction, la redistribution ou l'utilisation commerciale du contenu du site sans autorisation écrite préalable est interdite."
+      },
+      "acceptableUse": {
+        "title": "Utilisation acceptable",
+        "intro": "En utilisant PhotoTools, vous vous engagez à ne pas :",
+        "items": {
+          "laws": "Enfreindre toute loi ou réglementation locale, nationale ou internationale applicable",
+          "disrupt": "Perturber ou interférer avec le fonctionnement du site, des serveurs ou des réseaux",
+          "scrape": "Extraire, explorer ou collecter systématiquement des données du site sans autorisation écrite préalable",
+          "misrepresent": "Falsifier votre identité ou votre affiliation dans les communications avec PhotoTools",
+          "commercial": "Utiliser le site à des fins commerciales au-delà de la référence personnelle sans autorisation"
+        }
+      },
+      "thirdPartyContent": {
+        "title": "Contenu de tiers",
+        "body": "PhotoTools affiche des publicités de tiers et peut inclure des liens vers des sites externes. Nous ne sommes pas responsables du contenu, de l'exactitude ou des pratiques des annonceurs tiers ou des sites liés. L'inclusion de toute publicité ou lien externe ne constitue pas une approbation par PhotoTools. Vos interactions avec les services tiers sont régies par leurs propres conditions et politiques de confidentialité."
+      },
+      "limitationOfLiability": {
+        "title": "Limitation de responsabilité",
+        "body": "Dans toute la mesure permise par la loi, PhotoTools et ses opérateurs ne sauraient être tenus responsables de tout dommage direct, indirect, accessoire, spécial ou consécutif résultant de votre utilisation — ou de votre incapacité à utiliser — le Site ou ses outils. Cela inclut, sans limitation, les dommages résultant de la confiance accordée aux informations ou calculs fournis par PhotoTools. Votre utilisation du Site est entièrement à vos propres risques."
+      },
+      "changesToTerms": {
+        "title": "Modifications des conditions",
+        "body": "Nous pouvons modifier ces Conditions d'utilisation à tout moment. Les conditions mises à jour seront publiées sur cette page avec une date d'entrée en vigueur révisée. L'utilisation continue de PhotoTools après la publication des modifications constitue votre acceptation des conditions révisées. Nous vous encourageons à consulter ces conditions périodiquement."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Si vous avez des questions sur ces Conditions d'utilisation, veuillez nous contacter via notre <contactLink>page de contact</contactLink>."
+      }
+    }
+  }
+}

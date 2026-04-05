@@ -1,0 +1,150 @@
+{
+  "education": {
+    "star-trail-calculator": {
+      "beginner": "Las estrellas parecen moverse por el cielo porque la Tierra gira. Si tu obturador está abierto el tiempo suficiente, las estrellas dejarán trazos en tu foto. La calculadora de trazos estelares te ayuda a encontrar el tiempo máximo de exposición para estrellas puntuales, o a planificar exposiciones largas para crear hermosos arcos de trazos estelares circulares.",
+      "deeper": {
+        "0": {
+          "heading": "Cómo se mueven las estrellas",
+          "text": "La Tierra rota 360° en aproximadamente 23 horas y 56 minutos (un día sideral), por lo que las estrellas se mueven a unos 15 segundos de arco por segundo en el ecuador celeste. Las estrellas cercanas a los polos (Polaris en el norte) trazan círculos más pequeños y parecen moverse más lentamente."
+        },
+        "1": {
+          "heading": "La regla de los 500 vs. la regla NPF",
+          "text": "La clásica \"Regla de los 500\" divide 500 entre tu distancia focal efectiva para estimar la exposición máxima antes de que el trazo sea visible — pero fue diseñada para sensores de menor resolución. La regla NPF tiene en cuenta el paso de píxel, la distancia focal, la apertura y la declinación, produciendo límites más cortos y precisos para las cámaras modernas de alta resolución."
+        },
+        "2": {
+          "heading": "Apilamiento para trazos estelares",
+          "text": "Para trazos estelares intencionales, los fotógrafos toman muchas exposiciones cortas (generalmente de 30s cada una) y las apilan en software. Esto evita la acumulación de ruido, permite trazos sin huecos y significa que un solo fotograma malo no arruina toda la toma."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Distancia focal",
+          "description": "Las distancias focales más largas amplifican el movimiento estelar, requiriendo exposiciones más cortas para estrellas puntuales. Un objetivo de 14 mm puede exponer 5-10 veces más que uno de 200 mm."
+        },
+        "1": {
+          "label": "Resolución del sensor",
+          "description": "Los sensores de mayor resolución revelan el trazo estelar en tiempos de exposición más cortos. La regla de los 500 es demasiado generosa para cámaras modernas de 40MP+."
+        },
+        "2": {
+          "label": "Latitud y declinación",
+          "description": "Las estrellas cercanas a los polos celestes se mueven menos por segundo. Apuntar hacia Polaris permite exposiciones más largas antes de que aparezcan los trazos."
+        },
+        "3": {
+          "label": "Apilamiento vs. exposición única",
+          "description": "Para trazos estelares, apilar muchas exposiciones cortas produce resultados más limpios que una sola exposición extremadamente larga, y permite recuperarse de interrupciones."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Usa la regla NPF en lugar de la regla de los 500 para cámaras modernas. Tiene en cuenta la resolución del sensor y produce tiempos máximos de exposición más precisos, especialmente con cuerpos de muchos megapíxeles."
+        },
+        "1": {
+          "text": "Para el apilamiento de trazos estelares, mantén los intervalos entre fotogramas por debajo de 2-3 segundos usando un disparador remoto con cable o un intervalómetro. Intervalos más largos crean trazos punteados en lugar de suaves."
+        },
+        "2": {
+          "text": "Incluye Polaris (o el Polo Sur Celeste) en tu composición para obtener trazos concéntricos dramáticos. Las estrellas más cercanas al polo trazan arcos más cerrados."
+        }
+      },
+      "tooltips": {
+        "mode": {
+          "term": "Modo",
+          "definition": "Elige \"Estrellas nítidas\" para calcular el tiempo máximo de exposición para estrellas puntuales, o \"Trazos estelares\" para planificar secuencias de exposición para efectos de trazos intencionales."
+        },
+        "focalLength": {
+          "term": "Distancia focal",
+          "definition": "La distancia focal del objetivo en milímetros. Las distancias focales más largas amplifican el movimiento aparente de las estrellas, requiriendo exposiciones individuales más cortas."
+        },
+        "sensor": {
+          "term": "Tamaño del sensor",
+          "definition": "Las dimensiones físicas del sensor. Combinadas con la resolución, determinan el paso de píxel, que afecta la rapidez con que el trazo estelar se hace visible."
+        },
+        "resolution": {
+          "term": "Resolución",
+          "definition": "La resolución del sensor en megapíxeles. Las cámaras de mayor resolución revelan el trazo estelar antes porque cada píxel cubre un área angular más pequeña del cielo."
+        },
+        "aperture": {
+          "term": "Apertura",
+          "definition": "La abertura del objetivo. Para astrofotografía, usa la apertura más amplia disponible (número f más bajo) para capturar la mayor cantidad de luz estelar en cada fotograma."
+        },
+        "latitude": {
+          "term": "Latitud",
+          "definition": "Tu latitud geográfica. Afecta la tasa de movimiento aparente de las estrellas — en latitudes más altas, las estrellas cercanas al polo se mueven más lentamente a través del encuadre."
+        },
+        "exposurePerFrame": {
+          "term": "Exposición por fotograma",
+          "definition": "La velocidad de obturación para cada fotograma individual en una secuencia de trazos estelares. Generalmente de 15-30 segundos para capturar suficiente luz evitando ruido excesivo."
+        },
+        "numberOfFrames": {
+          "term": "Número de fotogramas",
+          "definition": "Cuántas exposiciones individuales tomar. Más fotogramas significan trazos estelares más largos y dramáticos. 120 fotogramas a 30 segundos cada uno produce una hora de trazos."
+        },
+        "gapBetweenFrames": {
+          "term": "Intervalo entre fotogramas",
+          "definition": "El tiempo entre exposiciones para que la cámara guarde el archivo. Mantenlo lo más corto posible (1-3 segundos) para evitar trazos punteados."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Estás fotografiando la Vía Láctea con un objetivo de 24 mm en una cámara de formato completo de 24MP. Usando la regla de los 500, ¿aproximadamente cuánto puedes exponer antes de que las estrellas comiencen a dejar trazos?",
+          "hint": "La regla de los 500: segundos máximos = 500 / distancia focal.",
+          "successMessage": "¡Correcto! 500 / 24 = aproximadamente 20 segundos. Este es un buen punto de partida, aunque la regla NPF podría sugerir un tiempo ligeramente más corto para una nitidez crítica.",
+          "failureMessage": "Aplica la regla de los 500: divide 500 entre tu distancia focal (24 mm). Eso te da aproximadamente 20 segundos.",
+          "options": {
+            "0": { "label": "5 segundos" },
+            "1": { "label": "10 segundos" },
+            "2": { "label": "20 segundos" },
+            "3": { "label": "60 segundos" }
+          }
+        },
+        "1": {
+          "scenario": "Quieres fotografiar la Nebulosa de Orión con un objetivo de 200 mm en una cámara con sensor de recorte (factor de recorte 1.5x). ¿Cuál es la exposición máxima aproximada usando la regla de los 500?",
+          "hint": "Con un sensor de recorte, multiplica primero la distancia focal por el factor de recorte, luego aplica la regla.",
+          "successMessage": "¡Correcto! La distancia focal efectiva es 200 mm x 1.5 = 300 mm. 500 / 300 = ~1.7 segundos. A longitudes de teleobjetivo en sensores de recorte, tienes muy poco tiempo antes de que aparezcan los trazos.",
+          "failureMessage": "Recuerda tener en cuenta el factor de recorte: 200 mm x 1.5 = 300 mm efectivos. Luego 500 / 300 da aproximadamente 1.7 segundos.",
+          "options": {
+            "0": { "label": "~1.7 segundos" },
+            "1": { "label": "~2.5 segundos" },
+            "2": { "label": "~5 segundos" },
+            "3": { "label": "~10 segundos" }
+          }
+        },
+        "2": {
+          "scenario": "Quieres crear una foto de trazos estelares de 2 horas. Planeas disparar exposiciones de 30 segundos con intervalos de 2 segundos. ¿Cuántos fotogramas necesitarás?",
+          "hint": "Calcula cuántos intervalos de 32 segundos (30s de exposición + 2s de intervalo) caben en 2 horas (7200 segundos).",
+          "successMessage": "¡Correcto! 7200 segundos / 32 segundos por fotograma = 225 fotogramas. Obtendrás trazos suaves y continuos a lo largo de 2 horas de rotación terrestre.",
+          "failureMessage": "Dos horas = 7200 segundos. Cada ciclo de fotograma es 30s + 2s = 32s. Divide 7200 entre 32 para obtener el número de fotogramas necesarios.",
+          "options": {
+            "0": { "label": "120 fotogramas" },
+            "1": { "label": "180 fotogramas" },
+            "2": { "label": "225 fotogramas" },
+            "3": { "label": "240 fotogramas" }
+          }
+        },
+        "3": {
+          "scenario": "Tu amigo usa una cámara de formato completo de 50MP y siguió la regla de los 500 con un objetivo de 20 mm, obteniendo una exposición de 25 segundos. Se queja de que las estrellas parecen trazos cortos al hacer zoom. ¿Por qué?",
+          "hint": "La regla de los 500 fue diseñada para sensores más antiguos de menor resolución.",
+          "successMessage": "¡Exacto! La regla de los 500 es demasiado generosa para sensores de alta resolución. Un sensor de formato completo de 50MP tiene un paso de píxel de aproximadamente 4.4 micrómetros, y la regla NPF recomendaría aproximadamente 10-12 segundos para estrellas verdaderamente nítidas.",
+          "failureMessage": "La regla de los 500 fue creada cuando los sensores tenían muchos menos megapíxeles. Con 50MP, cada píxel cubre una porción mucho más pequeña del cielo, revelando movimiento estelar que era invisible en cámaras más antiguas.",
+          "options": {
+            "0": { "label": "El objetivo estaba desenfocado" },
+            "1": { "label": "La regla de los 500 es demasiado generosa para sensores de alta resolución" },
+            "2": { "label": "La cámara vibraba por el viento" },
+            "3": { "label": "20 mm es demasiado angular para astrofotografía" }
+          }
+        },
+        "4": {
+          "scenario": "Quieres una imagen de trazos estelares de 1 hora. ¿Por qué los astrofotógrafos experimentados apilan muchas exposiciones cortas (por ejemplo, 240 x 15s) en lugar de tomar una sola exposición de 1 hora?",
+          "hint": "Piensa en lo que sucede con el ruido del sensor, la duración de la batería y la recuperabilidad durante una exposición única extremadamente larga.",
+          "successMessage": "¡Correcto! Una sola exposición de una hora acumula un ruido térmico masivo, agota la batería, y si algo sale mal (vibración, rocío, la luz de un coche) toda la toma se arruina. Apilar fotogramas cortos mantiene el ruido bajo, te permite eliminar fotogramas malos y es mucho más indulgente.",
+          "failureMessage": "Las exposiciones únicas largas acumulan ruido térmico severo y arriesgan la pérdida total por cualquier interrupción. Apilar fotogramas cortos mantiene el ruido manejable, te permite descartar fotogramas arruinados y produce resultados más limpios.",
+          "options": {
+            "0": { "label": "El apilamiento produce trazos más largos que una sola exposición" },
+            "1": { "label": "Las exposiciones únicas no pueden registrar el movimiento estelar" },
+            "2": { "label": "El apilamiento reduce el ruido, permite la recuperación de interrupciones y ahorra batería" },
+            "3": { "label": "No hay diferencia práctica — es puramente preferencia personal" }
+          }
+        }
+      }
+    }
+  }
+}

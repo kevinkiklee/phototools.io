@@ -1,0 +1,60 @@
+{
+  "education": {
+    "perspective-compression-simulator": {
+      "beginner": "La compression de perspective est un effet optique où les objets à des distances différentes paraissent plus proches les uns des autres qu'ils ne le sont réellement. On l'observe surtout en utilisant de longs téléobjectifs (comme 200 mm ou 400 mm) depuis une grande distance. Contrairement à la croyance populaire, ce n'est pas l'objectif lui-même qui cause la compression, mais plutôt la distance entre l'appareil et la scène.",
+      "deeper": "La compression se produit parce qu'à grande distance, la différence relative de distance entre le sujet au premier plan et les objets en arrière-plan devient petite. Par exemple, si tu es à 30 mètres de ton sujet et que l'arrière-plan est à 6 mètres de plus derrière lui, l'arrière-plan n'est que 20 % plus loin que le sujet. Depuis 1,5 mètre, ce même écart de 6 mètres fait que l'arrière-plan est 500 % plus loin. En s'éloignant et en utilisant un téléobjectif pour « remplir le cadre » avec le sujet, on réduit la profondeur relative, faisant paraître l'arrière-plan plus grand et « comprimé » contre le sujet.",
+      "keyFactors": {
+        "0": {
+          "label": "Distance de prise de vue",
+          "description": "La cause principale de la compression. Plus tu es loin du sujet, plus l'arrière-plan paraîtra comprimé par rapport au sujet."
+        },
+        "1": {
+          "label": "Longueur focale",
+          "description": "Les téléobjectifs grossissent l'image, te permettant de remplir le cadre avec ton sujet depuis une distance où la compression est visible. Les grand-angles t'obligent à être proche, ce qui étend la profondeur perçue."
+        },
+        "2": {
+          "label": "Profondeur relative",
+          "description": "La compression est plus apparente quand la distance entre le sujet et l'arrière-plan est petite comparée à la distance entre l'appareil et le sujet."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Pour faire paraître les montagnes massives derrière un sujet, recule autant que possible et utilise ton téléobjectif le plus long. Cela « rapproche » l'arrière-plan du premier plan."
+        },
+        "1": {
+          "text": "En photographie de portrait, un 85 mm ou 135 mm est souvent préféré car la légère compression produit une représentation plus flatteuse des traits du visage par rapport aux objectifs grand-angle."
+        },
+        "2": {
+          "text": "Utilise l'expansion de perspective (grand-angle en gros plan) pour accentuer les lignes directrices du premier plan et donner à un espace un aspect plus vaste et ouvert."
+        }
+      },
+      "tooltips": {
+        "focalLength": {
+          "term": "Longueur focale",
+          "definition": "La puissance de grossissement de l'objectif. Les longues focales (téléobjectif) te permettent de photographier de plus loin, ce qui cause réellement la compression de perspective."
+        },
+        "distance": {
+          "term": "Distance au sujet",
+          "definition": "La distance entre l'appareil et le sujet principal. Augmenter cette distance est la cause physique de la compression de perspective."
+        },
+        "maintainSize": {
+          "term": "Maintenir la taille du sujet",
+          "definition": "Ajuste automatiquement la distance de l'appareil lors du changement de longueur focale pour garder le sujet principal à la même taille dans le cadre. Cela démontre l'effet « Dolly Zoom »."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tu veux prendre une photo d'un ami devant une montagne, et tu veux que la montagne paraisse aussi grande que possible derrière lui. Que faire ?",
+          "hint": "La compression est causée par la distance, et les téléobjectifs permettent de remplir le cadre de loin.",
+          "successMessage": "Exactement ! En reculant et en utilisant un téléobjectif, tu comprimes la distance entre ton ami et la montagne, faisant paraître la montagne beaucoup plus grande.",
+          "failureMessage": "Pas tout à fait. Se rapprocher avec un grand-angle ferait paraître la montagne plus petite et plus éloignée. Recule et zoome !",
+          "options": {
+            "0": { "label": "Reculer et utiliser un 200 mm" },
+            "1": { "label": "Se rapprocher et utiliser un 24 mm" },
+            "2": { "label": "Rester sur place et utiliser un 50 mm" }
+          }
+        }
+      }
+    }
+  }
+}

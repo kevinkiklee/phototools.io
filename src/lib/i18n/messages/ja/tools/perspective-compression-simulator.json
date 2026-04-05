@@ -1,0 +1,13 @@
+{
+  "toolUI": {
+    "perspective-compression-simulator": {
+      "cameraSettings": "カメラ設定",
+      "focalLength": "焦点距離",
+      "equivalent35mm": "換算（35mm）",
+      "perspectiveDistance": "パースペクティブと距離",
+      "subjectDistance": "被写体距離",
+      "maintainSubjectSize": "被写体サイズを維持",
+      "resetAll": "すべてリセット"
+    }
+  }
+}

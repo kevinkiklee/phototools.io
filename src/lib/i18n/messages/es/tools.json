@@ -1,0 +1,56 @@
+{
+  "tools": {
+    "fov-simulator": {
+      "name": "Simulador de campo de visión",
+      "description": "Compara el campo de visión entre diferentes distancias focales y tamaños de sensor"
+    },
+    "color-scheme-generator": {
+      "name": "Generador de esquemas de color",
+      "description": "Crea paletas de colores para sesiones fotográficas"
+    },
+    "exposure-simulator": {
+      "name": "Simulador del triángulo de exposición",
+      "description": "Observa cómo interactúan la apertura, la velocidad de obturación y el ISO"
+    },
+    "dof-calculator": {
+      "name": "Calculadora de profundidad de campo",
+      "description": "Calcula el enfoque cercano, el enfoque lejano y la profundidad de campo total"
+    },
+    "hyperfocal-simulator": {
+      "name": "Simulador de distancia hiperfocal",
+      "description": "Aprende dónde enfocar para obtener la máxima nitidez del primer plano al infinito"
+    },
+    "shutter-speed-visualizer": {
+      "name": "Visualizador de velocidad de obturación",
+      "description": "Encuentra la velocidad de obturación mínima segura para fotos nítidas a pulso"
+    },
+    "nd-filter-calculator": {
+      "name": "Calculadora de filtros ND",
+      "description": "Calcula el tiempo de exposición con cualquier filtro ND"
+    },
+    "star-trail-calculator": {
+      "name": "Calculadora de trazos estelares",
+      "description": "Calcula la exposición máxima para estrellas nítidas o planifica tomas de trazos estelares"
+    },
+    "perspective-compression-simulator": {
+      "name": "Simulador de compresión de perspectiva",
+      "description": "Observa cómo la distancia focal afecta la compresión del fondo"
+    },
+    "white-balance-visualizer": {
+      "name": "Visualizador de balance de blancos",
+      "description": "Observa cómo la temperatura de color afecta tus fotos"
+    },
+    "sensor-size-comparison": {
+      "name": "Comparación de tamaños de sensor",
+      "description": "Compara visualmente los tamaños de los sensores de cámara"
+    },
+    "frame-studio": {
+      "name": "Estudio de enmarcado",
+      "description": "Recorta, enmarca y compone fotos con guías de cuadrícula"
+    },
+    "exif-viewer": {
+      "name": "Visor EXIF",
+      "description": "Visualiza metadatos EXIF e histograma de cualquier foto — 100% en el navegador"
+    }
+  }
+}

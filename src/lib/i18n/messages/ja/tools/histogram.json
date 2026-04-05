@@ -1,0 +1,42 @@
+{
+  "toolUI": {
+    "histogram": {
+      "luminance": "輝度",
+      "rgbOverlay": "RGBオーバーレイ",
+      "allChannels": "全チャンネル",
+      "shadows": "シャドウ",
+      "midtones": "ミッドトーン",
+      "highlights": "ハイライト",
+      "blackClipping": "ブラッククリッピング",
+      "whiteClipping": "ホワイトクリッピング",
+      "pureBlack": "純黒",
+      "pureWhite": "純白",
+      "uploadPrompt": "画像をアップロードしてEXIFデータとヒストグラムを表示",
+      "uploadedPhoto": "アップロードされた写真",
+      "noExifData": "この画像にはEXIFデータが見つかりませんでした。",
+      "sectionCamera": "カメラ",
+      "sectionLens": "レンズ",
+      "sectionSettings": "設定",
+      "sectionImage": "画像",
+      "sectionDate": "日時",
+      "sectionGPS": "GPS",
+      "sectionSoftware": "ソフトウェア",
+      "make": "メーカー",
+      "model": "モデル",
+      "lensModel": "レンズモデル",
+      "lensMake": "レンズメーカー",
+      "apertureLabel": "絞り",
+      "shutterSpeed": "シャッタースピード",
+      "isoLabel": "ISO",
+      "focalLengthLabel": "焦点距離",
+      "focalLength35mm": "焦点距離（35mm換算）",
+      "width": "幅",
+      "height": "高さ",
+      "orientationLabel": "向き",
+      "dateTaken": "撮影日時",
+      "latitudeLabel": "緯度",
+      "longitudeLabel": "経度",
+      "softwareLabel": "ソフトウェア"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "effectiveDate": "Gültig ab: 3. April 2026",
+    "sections": {
+      "overview": {
+        "title": "Überblick",
+        "body": "PhotoTools betreibt www.phototools.io, eine kostenlose Bildungsressource für Fotografie mit interaktiven Rechnern, Simulatoren und Nachschlagewerken. Diese Datenschutzrichtlinie beschreibt, wie wir Informationen erheben, verwenden und verarbeiten, wenn Sie unsere Website besuchen oder nutzen. Durch die Nutzung von PhotoTools stimmen Sie den in dieser Richtlinie beschriebenen Praktiken zu. Hinweis: Im Falle von Unstimmigkeiten ist die englische Fassung dieser Datenschutzrichtlinie maßgebend."
+      },
+      "informationWeCollect": {
+        "title": "Von uns erhobene Informationen",
+        "intro": "Wir erheben nur minimale Informationen zum Betrieb und zur Verbesserung der Website:",
+        "analytics": "<strong>Analyse:</strong> Wir verwenden Google Analytics, um zu verstehen, wie Besucher die Website nutzen (z. B. besuchte Seiten, Verweildauer, Gerätetyp). Die Analysedaten sind anonymisiert — wir erheben keine personenbezogenen Daten über die Analyse. IP-Adressen werden vor der Speicherung anonymisiert.",
+        "contactForm": "<strong>Kontaktformular:</strong> Wenn Sie das Kontaktformular absenden, erheben wir Ihren Namen, Ihre E-Mail-Adresse, den Betreff und die Nachricht. Diese Informationen werden ausschließlich zur Beantwortung Ihrer Anfrage verwendet und nicht über die E-Mail-Zustellung hinaus gespeichert — sie werden nicht in einer Datenbank gesichert oder langfristig aufbewahrt.",
+        "noAccounts": "<strong>Keine Konten:</strong> PhotoTools erfordert keine Benutzerregistrierung oder Konten. Wir erheben keine Passwörter oder Zahlungsinformationen."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "intro": "PhotoTools verwendet Cookies zur Unterstützung von Analyse- und Werbefunktionen. Im Einzelnen:",
+        "analyticsCookies": "<strong>Google-Analytics-Cookies</strong> verfolgen die Website-Nutzung in aggregierter und anonymisierter Form. Diese Cookies helfen uns zu verstehen, welche Werkzeuge am häufigsten genutzt werden und wie wir die Website verbessern können.",
+        "adCookies": "<strong>Werbe-Cookies von Drittanbietern</strong> können von unseren Werbepartner-Netzwerken gesetzt werden, um relevante Werbung anzuzeigen und die Werbeleistung zu messen.",
+        "control": "Sie können Cookies über Ihre Browsereinstellungen steuern oder deaktivieren. Beachten Sie, dass die Deaktivierung von Cookies die Funktionalität einiger Funktionen beeinträchtigen kann."
+      },
+      "thirdPartyAdvertising": {
+        "title": "Werbung von Drittanbietern",
+        "body": "PhotoTools zeigt Werbung an, die von Drittanbieter-Werbenetzwerken bereitgestellt wird. Diese Netzwerke können Cookies und ähnliche Tracking-Technologien verwenden, um Werbung basierend auf Ihrem Browserverlauf und Ihren Interessen zu schalten (interessenbasierte Werbung). Wir haben keine Kontrolle über die Datenpraktiken dieser Drittanbieter-Werbenetzwerke. Weitere Informationen finden Sie in den Datenschutzrichtlinien dieser Netzwerke oder besuchen Sie die <naiLink>Opt-out-Seite der Network Advertising Initiative</naiLink>."
+      },
+      "googleAdSense": {
+        "title": "Google AdSense",
+        "body1": "PhotoTools verwendet Google AdSense zur Anzeige von Werbung. Google AdSense kann Cookies und Web-Beacons verwenden, um Werbung basierend auf Ihren früheren Besuchen dieser Website oder anderer Websites zu schalten. Die Verwendung von Werbe-Cookies durch Google ermöglicht es Google und seinen Partnern, Werbung basierend auf Ihren Surfgewohnheiten zu schalten.",
+        "body2": "Sie können die personalisierte Werbung deaktivieren, indem Sie die <adsSettingsLink>Google-Anzeigeneinstellungen</adsSettingsLink> besuchen. Weitere Informationen darüber, wie Google Daten verwendet, finden Sie unter <partnerSitesLink>Wie Google Daten verwendet, wenn Sie Websites unserer Partner nutzen</partnerSitesLink>."
+      },
+      "cookieConsent": {
+        "title": "Cookie-Einwilligung",
+        "body1": "Wenn Sie PhotoTools zum ersten Mal besuchen, wird ein Cookie-Einwilligungsbanner angezeigt, das Ihnen ermöglicht, nicht wesentliche Cookies zu akzeptieren oder abzulehnen. Dieses Banner wird von CookieYes bereitgestellt, einer von Google zertifizierten Consent-Management-Plattform, die das IAB Transparency and Consent Framework (TCF) v2.3 unterstützt.",
+        "body2": "Sie können Ihre Einwilligungseinstellungen jederzeit ändern, indem Sie auf den Cookie-Einstellungen-Link in der Fußzeile klicken. Wenn Sie Werbe-Cookies ablehnen, sehen Sie weiterhin Werbung, diese wird jedoch nicht auf Ihren Browserverlauf personalisiert."
+      },
+      "ccpa": {
+        "title": "Einwohner Kaliforniens (CCPA)",
+        "body": "Gemäß dem California Consumer Privacy Act (CCPA) haben Einwohner Kaliforniens das Recht zu erfahren, welche personenbezogenen Daten erhoben werden, deren Löschung zu verlangen und dem Verkauf zu widersprechen. PhotoTools verkauft keine personenbezogenen Daten. Von unseren Werbepartnern verwendete Werbe-Cookies können unter dem CCPA als \"Verkauf\" gelten — Sie können über das Cookie-Einwilligungsbanner oder über unsere <contactLink>Kontaktseite</contactLink> widersprechen."
+      },
+      "dataSharing": {
+        "title": "Datenweitergabe",
+        "intro": "Wir verkaufen, handeln oder vermieten Ihre personenbezogenen Daten nicht an Dritte. Wir geben Daten nur in folgenden eingeschränkten Fällen weiter:",
+        "analytics": "An <strong>Google Analytics</strong> zur Analyse des Website-Traffics und der Nutzungsmuster, vorbehaltlich der Datenschutzrichtlinie von Google.",
+        "advertising": "An <strong>Werbepartner</strong> wie oben unter Werbung von Drittanbietern beschrieben.",
+        "contactForm": "Wir geben Kontaktformular-Eingaben nicht an Dritte weiter."
+      },
+      "childrensPrivacy": {
+        "title": "Datenschutz für Kinder",
+        "body": "PhotoTools richtet sich nicht an Kinder unter 13 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie glauben, dass ein Kind unter 13 Jahren uns personenbezogene Daten übermittelt hat, kontaktieren Sie uns bitte, damit wir diese entfernen können."
+      },
+      "yourRights": {
+        "title": "Ihre Rechte",
+        "body1": "Je nach Ihrem Standort haben Sie möglicherweise Rechte gemäß Gesetzen wie der DSGVO (Europäische Union) oder dem CCPA (Kalifornien) in Bezug auf Ihre personenbezogenen Daten.",
+        "body2": "Da PhotoTools nur minimale personenbezogene Daten erhebt — und Kontaktformular-Eingaben nicht langfristig speichert — können die meisten Anfragen unkompliziert bearbeitet werden. Sie können Cookies jederzeit über Ihre Browsereinstellungen löschen. Um Datenschutzrechte auszuüben oder eine Datenschutzanfrage zu stellen, nutzen Sie bitte unsere <contactLink>Kontaktseite</contactLink>."
+      },
+      "changesToPolicy": {
+        "title": "Änderungen dieser Richtlinie",
+        "body": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Die aktualisierte Richtlinie wird auf dieser Seite mit einem überarbeiteten Gültigkeitsdatum veröffentlicht. Wir empfehlen Ihnen, diese Richtlinie regelmäßig zu überprüfen. Die weitere Nutzung von PhotoTools nach Änderungen stellt Ihre Zustimmung zur aktualisierten Richtlinie dar."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder zur Verarbeitung Ihrer Daten haben, kontaktieren Sie uns bitte über unsere <contactLink>Kontaktseite</contactLink>."
+      }
+    }
+  }
+}

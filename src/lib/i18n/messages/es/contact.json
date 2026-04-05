@@ -1,0 +1,25 @@
+{
+  "contact": {
+    "title": "Contáctanos",
+    "description": "¿Tienes una pregunta, encontraste un error o quieres sugerir una nueva herramienta? Nos encantaría saber de ti.",
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "subjectLabel": "Asunto",
+      "subjectPlaceholder": "¿De qué se trata?",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Tu mensaje...",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "honeypotLabel": "Sitio web",
+      "successToast": "¡Mensaje enviado! Te responderemos pronto.",
+      "errorToast": "Algo salió mal. Por favor, inténtalo de nuevo.",
+      "networkErrorToast": "Error de red. Por favor, verifica tu conexión e inténtalo de nuevo.",
+      "sentTitle": "¡Gracias por contactarnos!",
+      "sentMessage": "Te responderemos lo antes posible.",
+      "sendAnother": "Enviar otro mensaje"
+    }
+  }
+}

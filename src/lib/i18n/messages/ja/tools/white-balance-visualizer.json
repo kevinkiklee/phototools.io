@@ -1,0 +1,16 @@
+{
+  "toolUI": {
+    "white-balance-visualizer": {
+      "colorTemperature": "色温度:",
+      "warm": "暖色",
+      "neutral": "ニュートラル",
+      "cool": "寒色",
+      "presets": "プリセット",
+      "red": "赤",
+      "green": "緑",
+      "blue": "青",
+      "hex": "Hex",
+      "loadingScene": "シーンを読み込み中..."
+    }
+  }
+}

@@ -8,7 +8,7 @@ import type {
   GridOptions,
   GridType,
   TexturePreset,
-} from '@/app/frame-studio/_components/types'
+} from '@/app/[locale]/frame-studio/_components/types'
 
 // ---------------------------------------------------------------------------
 // Aspect ratios (CropPanel)

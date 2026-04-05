@@ -1,5 +1,5 @@
 import type { LensConfig } from '@/lib/types'
-import type { FovSimulatorState } from '@/app/fov-simulator/_components/types'
+import type { FovSimulatorState } from '@/app/[locale]/fov-simulator/_components/types'
 
 export const LENS_COLORS = ['#3b82f6', '#f59e0b', '#10b981']
 export const LENS_LABELS = ['A', 'B', 'C']

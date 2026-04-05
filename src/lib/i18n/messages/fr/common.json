@@ -1,0 +1,101 @@
+{
+  "common": {
+    "nav": {
+      "tools": "Outils",
+      "glossary": "Glossaire",
+      "closeMenu": "Fermer le menu",
+      "comingSoon": "Bientôt",
+      "categories": {
+        "visualizer": "Visualiseurs",
+        "calculator": "Calculateurs",
+        "reference": "Référence",
+        "file-tool": "Outils fichier"
+      }
+    },
+    "footer": {
+      "glossary": "Glossaire",
+      "about": "À propos",
+      "contact": "Contact",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "cookieSettings": "Paramètres des cookies"
+    },
+    "theme": {
+      "switchToLight": "Passer en mode clair",
+      "switchToDark": "Passer en mode sombre"
+    },
+    "actions": {
+      "copyImage": "Copier l'image",
+      "reset": "Réinitialiser",
+      "copyLink": "Copier le lien",
+      "share": "Partager",
+      "embed": "Intégrer"
+    },
+    "toast": {
+      "linkCopied": "Lien copié !",
+      "imageCopied": "Image copiée !",
+      "failedToCopy": "Échec de la copie",
+      "copied": "Copié !"
+    },
+    "learn": {
+      "title": "Apprendre",
+      "openPanel": "Ouvrir le panneau d'apprentissage",
+      "collapsePanel": "Réduire le panneau d'apprentissage",
+      "whatIsThis": "Qu'est-ce que c'est ?",
+      "howItWorks": "Comment ça marche",
+      "keyFactors": "Facteurs clés",
+      "proTip": "Conseil de pro",
+      "challenge": "Défi",
+      "hint": "Indice : {hint}",
+      "completed": "Terminé",
+      "checkAnswer": "Vérifier la réponse",
+      "nextChallenge": "Défi suivant",
+      "tryAgain": "Réessayer",
+      "resetAll": "Tout réinitialiser",
+      "resetAllChallenges": "Réinitialiser tous les défis",
+      "challengeNumber": "Défi {number}"
+    },
+    "share": {
+      "title": "Partager et intégrer",
+      "closeModal": "Fermer la fenêtre de partage",
+      "directLink": "Lien direct",
+      "markdown": "Markdown (Reddit, GitHub)",
+      "bbcode": "BBCode (Forums)",
+      "htmlEmbed": "Intégration HTML",
+      "copy": "Copier",
+      "copied": "Copié"
+    },
+    "draft": {
+      "banner": "Aperçu — Cet outil n'est pas encore public"
+    },
+    "fileUpload": {
+      "dropPrompt": "Dépose une image ici ou clique pour parcourir",
+      "tapPrompt": "Appuie pour choisir une photo",
+      "privacy": "Tes photos ne quittent jamais ton appareil",
+      "selectedFile": "Fichier sélectionné : {fileName}. Clique pour choisir une autre image",
+      "defaultLabel": "Ta photo"
+    },
+    "scene": {
+      "label": "Scène :",
+      "yourPhoto": "Ta photo",
+      "removePhoto": "Supprimer la photo",
+      "uploadPhoto": "Importer une photo"
+    },
+    "controls": {
+      "focalLength": "Longueur focale",
+      "clickToEnterValue": "Clique pour saisir une valeur",
+      "decrease": "Diminuer",
+      "increase": "Augmenter"
+    },
+    "dof": {
+      "depthOfField": "Profondeur de champ : {totalDoF} de {nearFocus} à {farFocus}",
+      "infinity": "Infini"
+    },
+    "ad": {
+      "closeAd": "Fermer la publicité"
+    },
+    "tooltip": {
+      "infoLabel": "Info : {term}"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "toolUI": {
+    "exposure-simulator": {
+      "lock": "ロック:",
+      "lockAperture": "絞り",
+      "lockShutter": "シャッター",
+      "lockISO": "ISO",
+      "lockApertureLabel": "絞りをロック",
+      "lockShutterLabel": "シャッターをロック",
+      "lockISOLabel": "ISOをロック",
+      "aperture": "絞り:",
+      "shutterSpeed": "シャッタースピード:",
+      "iso": "ISO:",
+      "locked": "（ロック中）",
+      "exposureValue": "露出値（EV）",
+      "depthOfField": "被写界深度",
+      "motion": "動き",
+      "noise": "ノイズ",
+      "dofVeryShallow": "非常に浅い",
+      "dofShallow": "浅い",
+      "dofModerate": "普通",
+      "dofDeep": "深い",
+      "dofVeryDeep": "非常に深い",
+      "motionFrozen": "静止",
+      "motionSharp": "シャープ",
+      "motionModerate": "普通",
+      "motionSlightBlur": "わずかなブレ",
+      "motionBlurred": "ブレ",
+      "noiseClean": "クリーン",
+      "noiseLow": "低ノイズ",
+      "noiseModerate": "中程度のノイズ",
+      "noiseNoisy": "ノイジー",
+      "noiseVeryNoisy": "非常にノイジー",
+      "scene": "シーン:",
+      "sceneStreet": "ストリート",
+      "sceneLandscape": "風景",
+      "scenePortrait": "ポートレート",
+      "sceneLowLight": "低照度",
+      "imageEffectsUnavailable": "画像エフェクトプレビューは使用できません。",
+      "loadingScene": "シーンを読み込み中..."
+    }
+  }
+}

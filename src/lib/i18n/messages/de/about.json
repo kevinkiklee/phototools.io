@@ -1,0 +1,28 @@
+{
+  "about": {
+    "title": "Über PhotoTools",
+    "subtitle": "Kostenlose Fotografie-Bildung, direkt in deinem Browser.",
+    "sections": {
+      "whatIs": {
+        "title": "Was ist PhotoTools?",
+        "body": "PhotoTools ist eine kostenlose Sammlung interaktiver Fotografie-Rechner, Simulatoren und Nachschlagewerke. Ob du zum ersten Mal das Belichtungsdreieck lernst oder die Hyperfokaldistanz für eine Landschaftsaufnahme berechnest — PhotoTools bietet dir praxisnahe visuelle Werkzeuge, um dein Verständnis der Fotografie zu vertiefen."
+      },
+      "whoIsItFor": {
+        "title": "Für wen ist es gedacht?",
+        "body": "Fotografen aller Erfahrungsstufen — vom Anfänger, der erkundet, wie die Blende die Schärfentiefe beeinflusst, bis zum erfahrenen Fotografen, der eine Sternenspuren-Session plant. Jedes Werkzeug enthält einen Lernbereich mit Erklärungen, Schlüsselfaktoren, Profi-Tipps und interaktiven Aufgaben, um dein Wissen zu testen."
+      },
+      "privacyFirst": {
+        "title": "Datenschutz zuerst",
+        "body": "Alle Berechnungen und Simulationen laufen vollständig in deinem Browser. Deine Fotos verlassen nie dein Gerät — der EXIF-Betrachter beispielsweise verarbeitet Bilder zu 100 % clientseitig. Keine Anmeldung erforderlich, und es werden keine persönlichen Daten über anonyme Analysen hinaus erhoben."
+      },
+      "builtBy": {
+        "title": "Von Fotografen entwickelt",
+        "body": "PhotoTools wird von einem Fotografen und Software-Ingenieur entwickelt und gepflegt, der bessere visuelle Werkzeuge zum Verständnis der technischen Seite der Fotografie wollte. Die Werkzeuge basieren auf echter Optik und Physik — nicht auf Näherungen — damit du den Ergebnissen im Feld vertrauen kannst."
+      },
+      "getInTouch": {
+        "title": "Kontakt aufnehmen",
+        "body": "Hast du einen Vorschlag, einen Fehlerbericht oder eine Werkzeugidee? Melde dich über die <contactLink>Kontaktseite</contactLink>."
+      }
+    }
+  }
+}

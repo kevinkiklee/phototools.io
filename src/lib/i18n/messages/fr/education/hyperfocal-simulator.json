@@ -1,0 +1,98 @@
+{
+  "education": {
+    "hyperfocal-simulator": {
+      "beginner": "La distance hyperfocale est le point le plus proche sur lequel tu peux faire la mise au point tout en gardant tout à l'infini suffisamment net. Quand tu fais la mise au point à la distance hyperfocale, ta profondeur de champ s'étend de la moitié de cette distance jusqu'à l'infini. Les photographes de paysage utilisent cette technique pour maximiser la netteté du premier plan à l'horizon.",
+      "deeper": "La distance hyperfocale est dérivée de l'équation des lentilles minces et du concept de cercle de confusion (CdC). Elle est égale au carré de la longueur focale divisé par le produit du nombre f et du diamètre du CdC : H = f² / (N × c). Tout de H/2 à l'infini est dans la zone de netteté acceptable. Le CdC dépend de la taille du capteur — les capteurs plus petits ont un CdC acceptable plus petit, ce qui repousse la distance hyperfocale pour la même longueur focale et ouverture. C'est pourquoi les appareils à capteur crop semblent avoir une profondeur de champ plus grande : le standard de CdC est plus strict par rapport à la surface de l'image. En pratique, l'adoucissement par diffraction aux très petites ouvertures (f/16 et au-delà sur la plupart des capteurs) signifie qu'il y a un compromis entre maximiser la profondeur de champ et maintenir la netteté pixel par pixel.",
+      "keyFactors": {
+        "0": {
+          "label": "Longueur focale",
+          "description": "Les focales plus longues augmentent considérablement la distance hyperfocale — elle évolue avec le carré de la longueur focale."
+        },
+        "1": {
+          "label": "Ouverture",
+          "description": "Les ouvertures plus petites (nombres f plus élevés) réduisent la distance hyperfocale, étendant la profondeur de champ."
+        },
+        "2": {
+          "label": "Taille du capteur",
+          "description": "Les capteurs plus petits utilisent un cercle de confusion plus petit, ce qui augmente la distance hyperfocale à cadrage équivalent."
+        },
+        "3": {
+          "label": "Cercle de confusion",
+          "description": "Le diamètre maximal de tache de flou considéré comme « suffisamment net » — typiquement 0,03 mm pour le plein format."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Pour un travail rapide en paysage, fais la mise au point à environ un tiers de la profondeur de la scène — cela approxime le point hyperfocal pour la plupart des configurations grand-angle."
+        },
+        "1": {
+          "text": "Évite de fermer au-delà de f/16 sur plein format ou f/11 sur APS-C. La diffraction annulera les gains de profondeur de champ que tu recherches."
+        },
+        "2": {
+          "text": "Utilise le zoom du live view pour caler précisément la mise au point à la distance hyperfocale plutôt que de te fier à l'échelle de distance de l'objectif, qui est souvent imprécise sur les objectifs autofocus modernes."
+        }
+      },
+      "tooltips": {
+        "Sensor": {
+          "term": "Capteur",
+          "definition": "Le format du capteur. Les capteurs plus petits ont un standard de cercle de confusion plus strict, ce qui repousse toutes les distances hyperfocales."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tu photographies un paysage avec un 24 mm sur un appareil plein format. Quel format de capteur sélectionner pour voir les distances hyperfocales plein format ?",
+          "hint": "Le plein format est la taille de capteur 35 mm standard.",
+          "successMessage": "Correct ! Plein Format est le bon choix pour un capteur 35 mm standard.",
+          "failureMessage": "Pas tout à fait — sélectionne le capteur Plein Format pour correspondre à un boîtier 35 mm standard.",
+          "options": {
+            "0": { "label": "Plein Format" },
+            "1": { "label": "APS-C (Nikon/Sony)" },
+            "2": { "label": "Micro Four Thirds" }
+          }
+        },
+        "1": {
+          "scenario": "En regardant le tableau pour le plein format, lequel a une distance hyperfocale plus courte : 24 mm à f/8, ou 50 mm à f/8 ?",
+          "hint": "La distance hyperfocale augmente avec le carré de la longueur focale.",
+          "successMessage": "Exact ! Le 24 mm a une distance hyperfocale beaucoup plus courte car la longueur focale a une relation au carré.",
+          "failureMessage": "En fait, les focales plus courtes donnent toujours des distances hyperfocales plus courtes. Le 24 mm l'emporte ici.",
+          "options": {
+            "0": { "label": "24 mm à f/8" },
+            "1": { "label": "50 mm à f/8" }
+          }
+        },
+        "2": {
+          "scenario": "Tu randonnes avec un appareil APS-C et un 35 mm. Tu veux que tout soit net d'environ 3 mètres à l'infini. Quelle plage d'ouverture regarder dans le tableau pour trouver une distance hyperfocale proche de 6 mètres (de sorte que la moitié — 3 m — soit ta limite de mise au point proche) ?",
+          "hint": "Rappelle-toi : mise au point proche = hyperfocale / 2. Cherche une ouverture qui donne une hyperfocale d'environ 6 m.",
+          "successMessage": "Bonne réflexion ! Tu as correctement identifié qu'il te faut une distance hyperfocale d'environ 6 m, et trouvé la bonne plage d'ouverture.",
+          "failureMessage": "Rappelle-toi, la mise au point proche égale la moitié de la distance hyperfocale. Tu as besoin d'une hyperfocale d'environ 6 m pour obtenir une limite proche de 3 m.",
+          "options": {
+            "0": { "label": "f/2.8 — f/4" },
+            "1": { "label": "f/5.6 — f/8" },
+            "2": { "label": "f/16 — f/22" }
+          }
+        },
+        "3": {
+          "scenario": "Un ami passe d'un appareil plein format à un Micro Four Thirds mais continue de photographier aux mêmes longueurs focales. Il se plaint que les distances hyperfocales semblent différentes. Pourquoi ?",
+          "hint": "Le cercle de confusion est calculé en fonction de la taille du capteur.",
+          "successMessage": "Exactement ! Le capteur M43 plus petit utilise un CdC plus petit (environ 0,015 mm vs 0,03 mm), ce qui augmente les distances hyperfocales pour la même longueur focale et ouverture.",
+          "failureMessage": "Le facteur clé est le cercle de confusion. Les capteurs plus petits nécessitent un standard de CdC plus strict, ce qui repousse les distances hyperfocales.",
+          "options": {
+            "0": { "label": "La longueur focale de l'objectif change sur les capteurs crop" },
+            "1": { "label": "Les capteurs plus petits utilisent un cercle de confusion plus petit" },
+            "2": { "label": "Les appareils Micro Four Thirds ont un autofocus moins précis" }
+          }
+        },
+        "4": {
+          "scenario": "Tu photographies de l'architecture au 14 mm f/11 sur plein format. Le tableau montre une distance hyperfocale très courte. Devrais-tu fermer davantage à f/22 pour encore plus de profondeur de champ, ou f/11 est-il le meilleur choix ?",
+          "hint": "Considère ce qui arrive à la netteté de l'image aux très petites ouvertures.",
+          "successMessage": "Excellent ! À f/11, la diffraction est minimale sur plein format, et la distance hyperfocale à 14 mm est déjà très courte. Fermer à f/22 adoucirait l'image par diffraction sans bénéfice significatif de PdC.",
+          "failureMessage": "Bien que f/22 donne une distance hyperfocale plus courte sur le papier, l'adoucissement par diffraction à f/22 sur plein format réduit en fait la netteté globale. À 14 mm f/11, la distance hyperfocale est déjà si courte que la PdC supplémentaire ne vaut pas la pénalité de diffraction.",
+          "options": {
+            "0": { "label": "Fermer à f/22 pour une profondeur de champ maximale" },
+            "1": { "label": "Rester à f/11 — la diffraction à f/22 réduira la netteté" }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "toolUI": {
+    "exposure-simulator": {
+      "lock": "Verrouiller :",
+      "lockAperture": "Ouverture",
+      "lockShutter": "Obturation",
+      "lockISO": "ISO",
+      "lockApertureLabel": "Verrouiller l'ouverture",
+      "lockShutterLabel": "Verrouiller l'obturation",
+      "lockISOLabel": "Verrouiller l'ISO",
+      "aperture": "Ouverture :",
+      "shutterSpeed": "Vitesse d'obturation :",
+      "iso": "ISO :",
+      "locked": "(verrouillé)",
+      "exposureValue": "Indice de lumination (IL)",
+      "depthOfField": "Profondeur de champ",
+      "motion": "Mouvement",
+      "noise": "Bruit",
+      "dofVeryShallow": "Très faible",
+      "dofShallow": "Faible",
+      "dofModerate": "Modérée",
+      "dofDeep": "Grande",
+      "dofVeryDeep": "Très grande",
+      "motionFrozen": "Figé",
+      "motionSharp": "Net",
+      "motionModerate": "Modéré",
+      "motionSlightBlur": "Léger flou",
+      "motionBlurred": "Flou",
+      "noiseClean": "Propre",
+      "noiseLow": "Bruit faible",
+      "noiseModerate": "Bruit modéré",
+      "noiseNoisy": "Bruité",
+      "noiseVeryNoisy": "Très bruité",
+      "scene": "Scène :",
+      "sceneStreet": "Rue",
+      "sceneLandscape": "Paysage",
+      "scenePortrait": "Portrait",
+      "sceneLowLight": "Basse lumière",
+      "imageEffectsUnavailable": "L'aperçu des effets d'image n'est pas disponible.",
+      "loadingScene": "Chargement de la scène..."
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "education": {
+    "histogram": {
+      "beginner": "Ein Histogramm ist ein Diagramm, das zeigt, wie hell oder dunkel die Pixel in deinem Foto sind. Die linke Seite stellt Schatten (dunkle Bereiche) dar, die Mitte die Mitteltöne und die rechte Seite die Lichter (helle Bereiche). Wenn das Diagramm auf einer Seite zusammengedrängt ist, könnte dein Foto unter- oder überbelichtet sein.",
+      "deeper": "Ein Histogramm stellt die Pixelanzahl (vertikale Achse) gegen den Helligkeitswert (horizontale Achse, 0-255 für 8-Bit-Bilder) dar. Im Luminanzmodus wird die Helligkeit jedes Pixels als gewichteter Durchschnitt der Rot-, Grün- und Blaukanäle berechnet (typischerweise 0,299R + 0,587G + 0,114B, passend zur menschlichen Wahrnehmung). Der RGB-Modus zeigt drei separate Verteilungen und zeigt, welche Farbkanäle unabhängig beschnitten werden könnten — ein Rotkanal am Wert 255, während Blau in Ordnung ist, deutet auf Beschneidung der Lichter in warmen Tönen hin, wie bei einem Sonnenuntergangshimmel. \"Clipping\" tritt auf, wenn Pixelwerte die 0- oder 255-Grenze erreichen, was bedeutet, dass Schatten- oder Lichterdetail unwiederbringlich verloren ist. Schwarz-Clipping (Pixel bei 0) verliert Schattendetail; Weiß-Clipping (Pixel bei 255) verliert Lichterdetail. RAW-Aufnahmen bieten ungefähr 2-3 zusätzliche Blendenstufen wiederherstellbaren Lichterspielraum über das hinaus, was das JPEG-Histogramm zeigt, weshalb viele Fotografen \"nach rechts belichten\" (ETTR) — die Belichtung so hell wie möglich schieben, ohne die RAW-Daten zu beschneiden.",
+      "keyFactors": {
+        "0": {
+          "label": "Tonwertverteilung",
+          "description": "Die Gesamtform verrät dir, ob das Bild dunkel (linkslastig), hell (rechtslastig) oder ausgewogen (über den gesamten Bereich verteilt) ist."
+        },
+        "1": {
+          "label": "Clipping",
+          "description": "Spitzen am äußersten linken oder rechten Rand zeigen verlorenes Detail in Schatten oder Lichtern an."
+        },
+        "2": {
+          "label": "Kanaltrennung",
+          "description": "Der RGB-Modus zeigt das Verhalten einzelner Farbkanäle — nützlich, um farbspezifisches Clipping in gesättigten Szenen zu erkennen."
+        },
+        "3": {
+          "label": "Dynamikumfang",
+          "description": "Ein Histogramm, das die volle Breite überspannt ohne zu beschneiden, zeigt eine gute Nutzung des verfügbaren Dynamikumfangs."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Es gibt keine \"perfekte\" Histogrammform. Ein Foto einer schwarzen Katze auf einem dunklen Sofa sollte linkslastig sein. Beurteile das Histogramm anhand deiner kreativen Absicht, nicht anhand einer idealen Kurve."
+        },
+        "1": {
+          "text": "Prüfe den RGB-Überlagerungsmodus für Sonnenuntergangs- und Neonlicht-Fotos. Der Rotkanal beschneidet oft lange bevor der Blaukanal es tut, was zu Detailverlust in warmen Lichtern führt, selbst wenn das Luminanz-Histogramm gut aussieht."
+        },
+        "2": {
+          "text": "Wenn du Clipping-Warnungen an beiden Enden gleichzeitig siehst, übersteigt die Szene wahrscheinlich den Dynamikumfang deiner Kamera. Erwäge Belichtungsreihen für HDR oder den Einsatz von Verlaufs-ND-Filtern."
+        }
+      },
+      "tooltips": {
+        "View Mode": {
+          "term": "Ansichtsmodus",
+          "definition": "Luminanz zeigt die Gesamthelligkeit. RGB-Überlagerung zeigt alle drei Farbkanäle übereinandergelegt. Alle Kanäle zeigt RGB plus Luminanz zusammen."
+        },
+        "Shadows": {
+          "term": "Schatten",
+          "definition": "Der linkeste Bereich des Histogramms (ungefähr 0-85), der die dunkelsten Töne im Bild darstellt."
+        },
+        "Midtones": {
+          "term": "Mitteltöne",
+          "definition": "Der mittlere Bereich (ungefähr 86-170), der mittlere Helligkeiten darstellt — Hauttöne und die meisten natürlichen Texturen fallen hierher."
+        },
+        "Highlights": {
+          "term": "Lichter",
+          "definition": "Der rechteste Bereich (ungefähr 171-255), der die hellsten Töne darstellt: Himmel, Reflexionen und Lichtquellen."
+        },
+        "Black Clipping": {
+          "term": "Schwarz-Clipping",
+          "definition": "Der Prozentsatz der Pixel bei Helligkeitswert 0 (reines Schwarz). Hohe Werte bedeuten, dass Schattendetail verloren gegangen ist und nicht wiederhergestellt werden kann."
+        },
+        "White Clipping": {
+          "term": "Weiß-Clipping",
+          "definition": "Der Prozentsatz der Pixel bei Helligkeitswert 255 (reines Weiß). Hohe Werte bedeuten, dass Lichterdetail ausgebrannt ist."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Du lädst ein Foto hoch und das Histogramm ist stark nach links verschoben, mit fast nichts auf der rechten Seite. Was sagt dir das über das Bild?",
+          "hint": "Links = dunkel, rechts = hell.",
+          "successMessage": "Richtig! Ein linkslastiges Histogramm bedeutet, das Bild besteht hauptsächlich aus dunklen Tönen — es könnte unterbelichtet sein, oder es könnte ein absichtlich dunkles/Low-Key-Bild sein.",
+          "failureMessage": "Ein Histogramm, das nach links gedrängt ist, zeigt an, dass das Bild überwiegend dunkel ist. Das bedeutet oft Unterbelichtung.",
+          "options": {
+            "0": { "label": "Das Bild ist unterbelichtet oder sehr dunkel" },
+            "1": { "label": "Das Bild ist überbelichtet oder sehr hell" },
+            "2": { "label": "Das Bild hat eine perfekte Belichtung" }
+          }
+        },
+        "1": {
+          "scenario": "Welchen Ansichtsmodus solltest du verwenden, um die Gesamthelligkeitsverteilung deines Fotos in einem einzelnen Diagramm zu sehen?",
+          "hint": "Ein Modus fasst alle Farbinformationen in einer einzigen Helligkeitskurve zusammen.",
+          "successMessage": "Richtig! Der Luminanzmodus zeigt eine einzelne Kurve, die die Gesamthelligkeit darstellt.",
+          "failureMessage": "Der Luminanzmodus ist die einfachste Ansicht — er kombiniert R, G, B in einer Helligkeitskurve.",
+          "options": {
+            "0": { "label": "Luminanz" },
+            "1": { "label": "RGB-Überlagerung" },
+            "2": { "label": "Alle Kanäle" }
+          }
+        },
+        "2": {
+          "scenario": "Du hast einen lebhaften Sonnenuntergang fotografiert und das Luminanz-Histogramm sieht gut aus, aber wenn du zu RGB-Überlagerung wechselst, siehst du den Rotkanal ganz rechts anschlagen. Was passiert?",
+          "hint": "Einzelne Farbkanäle können beschneiden, selbst wenn die Gesamt-Luminanz es nicht tut.",
+          "successMessage": "Genau! Der Rotkanal beschneidet — die Sonnenuntergangs-Lichter haben Detail in den Rottönen verloren, obwohl die Gesamthelligkeit akzeptabel aussieht. Du verlierst warme Farbnuancen.",
+          "failureMessage": "Der Rotkanal beschneidet unabhängig. Gesättigte warme Lichter (Sonnenuntergänge, Feuer) drücken Rot oft auf 255, während Grün und Blau in Ordnung sind, wodurch Farbdetail in diesen Tönen verloren geht.",
+          "options": {
+            "0": { "label": "Rotkanal-Clipping — warmes Lichterdetail verloren" },
+            "1": { "label": "Das Bild ist insgesamt überbelichtet" },
+            "2": { "label": "Der Weißabgleich stimmt nicht" }
+          }
+        },
+        "3": {
+          "scenario": "Das Werkzeug meldet 2,3 % Schwarz-Clipping und 0,1 % Weiß-Clipping. Solltest du die Belichtung anpassen?",
+          "hint": "Kleine Mengen an Clipping sind normal — reinschwarze Schatten und spiegelnde Lichter sind zu erwarten.",
+          "successMessage": "Gutes Urteil! 2,3 % Schwarz-Clipping ist moderat und sind oft nur tiefe Schatten oder dunkle Ränder. 0,1 % Weiß-Clipping sind wahrscheinlich spiegelnde Reflexe (Sonnenreflexionen). Diese Belichtung ist für die meisten Zwecke in Ordnung.",
+          "failureMessage": "Diese Clipping-Prozentsätze sind recht gering. Ein wenig Schwarz-Clipping in tiefen Schatten und minimales Weiß-Clipping durch spiegelnde Lichter ist normal und zu erwarten. Keine Anpassung nötig.",
+          "options": {
+            "0": { "label": "Belichtung erhöhen, um Schwarz-Clipping zu reduzieren" },
+            "1": { "label": "Das ist in Ordnung — geringes Clipping in Schatten und spiegelnden Lichtern ist normal" },
+            "2": { "label": "Belichtung verringern, um Weiß-Clipping zu eliminieren" }
+          }
+        },
+        "4": {
+          "scenario": "Du fotografierst eine kontrastreiche Szene: eine Braut im weißen Kleid in einer dunklen Kathedrale. Das Histogramm zeigt starke Spitzen an beiden Extremen mit einer Lücke in den Mitteltönen. Wie solltest du damit umgehen?",
+          "hint": "Wenn der Dynamikumfang der Szene den Sensordynamikumfang der Kamera übersteigt, brauchst du eine Mehrfachbelichtungstechnik.",
+          "successMessage": "Perfekt! Dieses bimodale Histogramm zeigt, dass die Szene den Dynamikumfang deines Sensors übersteigt. Belichtungsreihen (HDR) erfassen sowohl das dunkle Innere als auch das helle Kleiddetail. Alternativ verwende Aufhellblitz, um die Schatten aufzuhellen.",
+          "failureMessage": "Ein bimodales Histogramm (Spitzen an beiden Extremen, leere Mitte) bedeutet, dass die Szene mehr Dynamikumfang hat, als dein Sensor in einer Aufnahme erfassen kann. Mache Belichtungsreihen für HDR oder verwende Aufhellblitz, um das Kontrastverhältnis zu reduzieren.",
+          "options": {
+            "0": { "label": "Belichtungsreihen für HDR oder Aufhellblitz verwenden" },
+            "1": { "label": "Auf die Mitteltöne belichten und das Beste hoffen" },
+            "2": { "label": "Zu Schwarzweiß wechseln, um das Problem zu verbergen" }
+          }
+        }
+      }
+    }
+  }
+}

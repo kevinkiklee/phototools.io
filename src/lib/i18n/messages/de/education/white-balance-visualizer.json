@@ -1,0 +1,129 @@
+{
+  "education": {
+    "white-balance-visualizer": {
+      "beginner": "Der Weißabgleich passt die Farben in deinem Foto an, damit weiße Objekte unter jeder Beleuchtung tatsächlich weiß erscheinen. Verschiedene Lichtquellen haben unterschiedliche Farbtemperaturen — eine Kerze ist warm und orange, während Schatten kühl und blau ist. Die Weißabgleich-Einstellung deiner Kamera kompensiert diese Unterschiede, damit die Farben natürlich aussehen.",
+      "deeper": {
+        "0": {
+          "heading": "Farbtemperatur",
+          "text": "Die Farbtemperatur wird in Kelvin (K) gemessen und entspricht der Farbe des Lichts, das ein idealer \"schwarzer Körper\" bei dieser Temperatur abstrahlt. Niedrigere Werte (2000–3500K) erzeugen warmes, rötlich-oranges Licht (Glühlampen, Kerzen), während höhere Werte (6500–10000K) kühles, bläuliches Licht erzeugen (Schatten, bewölkter Himmel)."
+        },
+        "1": {
+          "heading": "Wie der Weißabgleich funktioniert",
+          "text": "Das Weißabgleich-System der Kamera wendet die umgekehrte Farbverschiebung an, um den Farbstich des Umgebungslichts zu neutralisieren. Wenn du den Weißabgleich auf \"Kunstlicht\" (~3200K) einstellst, fügt die Kamera Blau hinzu, um den Orangestich von Glühlampen auszugleichen. In der digitalen Fotografie wird der Weißabgleich als Multiplikator auf die Rot- und Blaukanäle relativ zu Grün angewendet."
+        },
+        "2": {
+          "heading": "RAW-Vorteil",
+          "text": "Das Aufnehmen im RAW-Format bewahrt alle Farbdaten und ermöglicht es dir, den Weißabgleich in der Nachbearbeitung frei zu ändern, ohne Qualitätsverlust — es ist lediglich ein Metadaten-Tag, das während der Konvertierung angewendet wird."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Farbtemperatur (Kelvin)",
+          "description": "Der numerische Messwert der Lichtfarbe. Niedriger Kelvin = warmes/oranges Licht. Hoher Kelvin = kühles/blaues Licht. Tageslicht liegt bei ungefähr 5500K."
+        },
+        "1": {
+          "label": "Lichtquelle",
+          "description": "Verschiedene Quellen strahlen unterschiedliche Farbtemperaturen ab: Kerzen (~1800K), Glühlampen (~2800K), Leuchtstoffröhren (~4000K), Mittagssonne (~5500K), bewölkter Himmel (~6500K), Schatten (~7500K)."
+        },
+        "2": {
+          "label": "RAW vs. JPEG",
+          "description": "RAW-Aufnahmen ermöglichen die Änderung des Weißabgleichs in der Nachbearbeitung ohne Qualitätsverlust. JPEG bäckt den Weißabgleich dauerhaft ein, weshalb die korrekte Einstellung in der Kamera wichtiger ist."
+        },
+        "3": {
+          "label": "Mischlicht",
+          "description": "Szenen mit mehreren Lichtquellen unterschiedlicher Temperatur (z. B. Tageslicht durch Fenster + Glühlampen) machen es unmöglich, alle Farben gleichzeitig perfekt zu neutralisieren."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Fotografiere immer im RAW-Format, wenn du volle Flexibilität bei der späteren Anpassung des Weißabgleichs möchtest. RAW-Dateien speichern die unverarbeiteten Sensordaten, sodass Weißabgleich-Änderungen verlustfrei sind."
+        },
+        "1": {
+          "text": "Für kreative Effekte versuche, den Weißabgleich absichtlich \"falsch\" einzustellen. Ein Tageslicht-Weißabgleich während der Goldenen Stunde macht Sonnenuntergänge noch wärmer, während ein Kunstlicht-Weißabgleich im Freien einen dramatisch kalten blauen Look erzeugt."
+        },
+        "2": {
+          "text": "Bei Mischlicht-Situationen (z. B. ein Raum, der sowohl durch Fensterlicht als auch durch Glühlampen beleuchtet wird) verwende eine Graukarte für einen benutzerdefinierten Weißabgleich oder versehe deinen Blitz mit einer Farbfolie, die der Umgebungslichtquelle entspricht."
+        }
+      },
+      "tooltips": {
+        "colorTemperature": {
+          "term": "Farbtemperatur",
+          "definition": "Ein Maß für die Lichtfarbe in Kelvin (K). Basiert auf der theoretischen Farbe eines erhitzten schwarzen Körpers. Niedrigere Werte sind wärmer (orange/rot), höhere Werte sind kühler (blau)."
+        },
+        "preset": {
+          "term": "Weißabgleich-Voreinstellung",
+          "definition": "Eine vordefinierte Weißabgleich-Einstellung, kalibriert für eine gängige Lichtquelle. Voreinstellungen umfassen Kunstlicht (~3200K), Leuchtstoffröhre (~4000K), Tageslicht (~5500K), Bewölkt (~6500K) und Schatten (~7500K)."
+        },
+        "rgbValues": {
+          "term": "RGB-Werte",
+          "definition": "Die Rot-, Grün- und Blaukanal-Werte (jeweils 0-255), die die Farbe des Lichts bei der gewählten Temperatur darstellen. Werden verwendet, um zu visualisieren, wie die Lichtquelle die Szene einfärbt."
+        },
+        "hexCode": {
+          "term": "Hex-Code",
+          "definition": "Eine sechsstellige hexadezimale Darstellung der Farbe (z. B. #FF8C00). Nützlich zum Referenzieren der genauen Farbe in Design-Software oder Webentwicklung."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Deine Innenaufnahmen unter normalen Haushaltsglühbirnen sehen sehr orange/gelb aus. Welche Weißabgleich-Voreinstellung solltest du verwenden, um das zu korrigieren?",
+          "hint": "Glühbirnen strahlen warmes, orangefarbenes Licht um 2800-3200K aus.",
+          "successMessage": "Richtig! Die Kunstlicht-Voreinstellung fügt Blau hinzu, um den Orangestich von Glühbirnen auszugleichen und die Farben neutral zu machen.",
+          "failureMessage": "Glühbirnen/Kunstlicht strahlen warmes oranges Licht aus. Die Kunstlicht-Weißabgleich-Voreinstellung ist speziell dafür konzipiert, diesen Stich durch Hinzufügen von Blau zu neutralisieren.",
+          "options": {
+            "0": { "label": "Tageslicht" },
+            "1": { "label": "Kunstlicht" },
+            "2": { "label": "Schatten" },
+            "3": { "label": "Leuchtstoffröhre" }
+          }
+        },
+        "1": {
+          "scenario": "Du fotografierst Porträts während der Goldenen Stunde und möchtest das schöne warme Leuchten des Sonnenuntergangs beibehalten. Welche Weißabgleich-Einstellung solltest du verwenden?",
+          "hint": "Wenn du den \"korrekten\" Weißabgleich für die Goldene Stunde einstellst, würde er die warmen Töne neutralisieren, die du beibehalten möchtest.",
+          "successMessage": "Richtig! Die Tageslicht-Voreinstellung (oder sogar Bewölkt/Schatten) während der Goldenen Stunde bewahrt und verstärkt die warmen Töne, anstatt sie zu neutralisieren.",
+          "failureMessage": "Um das warme Leuchten der Goldenen Stunde zu bewahren, verwende einen Weißabgleich, der warmes Licht nicht kompensiert. Tageslicht oder höhere Voreinstellungen bewahren (und verstärken sogar) die Wärme.",
+          "options": {
+            "0": { "label": "Automatischer Weißabgleich" },
+            "1": { "label": "Kunstlicht (um die Wärme zu neutralisieren)" },
+            "2": { "label": "Tageslicht (um die Wärme zu bewahren)" },
+            "3": { "label": "Blitz" }
+          }
+        },
+        "2": {
+          "scenario": "Du stellst den Weißabgleich manuell in Kelvin ein. Dein Foto sieht zu blau/kalt aus. Solltest du den Kelvin-Wert erhöhen oder verringern, um es aufzuwärmen?",
+          "hint": "Die Kelvin-Weißabgleich-Einstellung teilt der Kamera mit, welche Farbtemperatur die Lichtquelle hat. Ein höherer Kelvin-Wert lässt die Kamera mehr Wärme hinzufügen.",
+          "successMessage": "Richtig! Das Erhöhen des Kelvin-Werts teilt der Kamera mit, dass das Licht kühler ist als es tatsächlich ist, sodass die Kamera durch Hinzufügen von Wärme kompensiert. Stelle einen höheren K-Wert ein, um ein kalt wirkendes Bild aufzuwärmen.",
+          "failureMessage": "Wenn du den Kelvin-Wert erhöhst, fügt die Kamera mehr Wärme zur Kompensation hinzu. Um ein kaltes/blaues Bild zu korrigieren, erhöhe die Kelvin-Zahl.",
+          "options": {
+            "0": { "label": "Kelvin erhöhen (z. B. 5500K auf 7500K)" },
+            "1": { "label": "Kelvin verringern (z. B. 5500K auf 3200K)" },
+            "2": { "label": "Die Kelvin-Richtung beeinflusst die Wärme nicht" }
+          }
+        },
+        "3": {
+          "scenario": "Du fotografierst ein Restaurant-Interieur mit warmen Kunstlicht-Pendelleuchten an der Decke und kühlem blauen Tageslicht, das durch große Fenster strömt. Personen nahe den Fenstern sehen blau aus, und Personen unter den Lampen sehen orange aus. Was ist der beste Ansatz?",
+          "hint": "Keine einzelne Weißabgleich-Einstellung kann zwei sehr unterschiedliche Farbtemperaturen gleichzeitig korrigieren.",
+          "successMessage": "Genau! Das Anbringen von Farbfolien am Blitz oder zusätzlichen Lichtquellen, um sie an eine dominante Quelle anzupassen, oder die Wahl eines Kompromiss-Weißabgleichs und die selektive Korrektur in der Nachbearbeitung sind die besten Ansätze für Mischlicht.",
+          "failureMessage": "Mischlicht ist eine der schwierigsten Weißabgleich-Herausforderungen. Ein einzelner Weißabgleich kann nicht beide Quellen gleichzeitig korrigieren. Du musst entweder die Quellen mit Farbfolien angleichen oder es selektiv in der Nachbearbeitung korrigieren.",
+          "options": {
+            "0": { "label": "Weißabgleich auf Kunstlicht — das löst alles" },
+            "1": { "label": "Weißabgleich auf Tageslicht — die Fenster sind wichtiger" },
+            "2": { "label": "Automatischer Weißabgleich und RAW fotografieren, dann jede Zone in der Nachbearbeitung korrigieren" },
+            "3": { "label": "ISO erhöhen, um die Farben genauer zu machen" }
+          }
+        },
+        "4": {
+          "scenario": "Du fotografierst eine stimmungsvolle, filmische Nachtszene in einer Stadt und möchtest einen absichtlich kalten Blauton. Die Straßenlaternen sind Natriumdampflampen (~2200K). Welche Kelvin-Weißabgleich-Einstellung würde dir die stärkste Blauverschiebung geben?",
+          "hint": "Wenn du den Weißabgleich deutlich unter die tatsächliche Lichtquellentemperatur einstellst, verschiebt sich das Bild Richtung Blau.",
+          "successMessage": "Richtig! Die Einstellung des Weißabgleichs auf 7500K (Schatten-Voreinstellung) teilt der Kamera mit, die Lichtquelle sei sehr kühl/blau — also kompensiert sie durch starke Wärmekorrektur. Da die tatsächlichen Natriumlampen aber nur 2200K (sehr warm) sind, schwingt diese Überkorrektur am Neutral vorbei in einen starken Blaustich. Je höher du den Weißabgleich-Kelvin über die tatsächliche Lichttemperatur einstellst, desto stärker die Blauverschiebung.",
+          "failureMessage": "Das Einstellen eines Weißabgleich-Kelvin-Werts deutlich über der tatsächlichen Lichtquellentemperatur lässt die Kamera in Richtung Blau überkorrigieren. Bei 2200K-Natriumlampen erzeugt die Einstellung auf 7500K+ den stärksten kalten Blau-Look.",
+          "options": {
+            "0": { "label": "2200K (passend zu den Natriumlampen)" },
+            "1": { "label": "3200K (Kunstlicht-Voreinstellung)" },
+            "2": { "label": "7500K oder höher (Schatten-Voreinstellung)" },
+            "3": { "label": "5500K (Tageslicht-Voreinstellung)" }
+          }
+        }
+      }
+    }
+  }
+}

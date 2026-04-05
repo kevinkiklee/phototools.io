@@ -1,0 +1,129 @@
+{
+  "education": {
+    "white-balance-visualizer": {
+      "beginner": "La balance des blancs ajuste les couleurs de ta photo pour que les objets blancs apparaissent vraiment blancs sous n'importe quel éclairage. Différentes sources de lumière ont différentes températures de couleur — une bougie est chaude et orangée, tandis que l'ombre est froide et bleutée. Le réglage de balance des blancs de ton appareil compense ces différences pour que les couleurs paraissent naturelles.",
+      "deeper": {
+        "0": {
+          "heading": "Température de couleur",
+          "text": "La température de couleur se mesure en Kelvin (K) et correspond à la couleur de la lumière émise par un « corps noir » idéal chauffé à cette température. Les valeurs basses (2000-3500K) produisent une lumière chaude, rouge-orangée (ampoules à incandescence, bougies), tandis que les valeurs élevées (6500-10000K) produisent une lumière froide, bleutée (ombre, ciel couvert)."
+        },
+        "1": {
+          "heading": "Comment fonctionne la balance des blancs",
+          "text": "Le système de balance des blancs de l'appareil applique le décalage de couleur inverse pour neutraliser la dominante colorée ambiante. Quand tu règles la balance des blancs sur « Tungstène » (~3200K), l'appareil ajoute du bleu pour contrebalancer la dominante orangée des lumières à incandescence. En photographie numérique, la balance des blancs s'applique comme un multiplicateur sur les canaux rouge et bleu par rapport au vert."
+        },
+        "2": {
+          "heading": "L'avantage du RAW",
+          "text": "Photographier en format RAW préserve toutes les données de couleur et te permet de modifier la balance des blancs librement en post-traitement sans aucune perte de qualité — c'est simplement une étiquette de métadonnées appliquée lors de la conversion."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Température de couleur (Kelvin)",
+          "description": "La mesure numérique de la couleur de la lumière. Kelvin bas = lumière chaude/orangée. Kelvin élevé = lumière froide/bleue. La lumière du jour est d'environ 5500K."
+        },
+        "1": {
+          "label": "Source de lumière",
+          "description": "Différentes sources émettent différentes températures de couleur : bougies (~1800K), ampoules tungstène (~2800K), tubes fluorescents (~4000K), soleil de midi (~5500K), ciel nuageux (~6500K), ombre (~7500K)."
+        },
+        "2": {
+          "label": "RAW vs JPEG",
+          "description": "Photographier en RAW permet de changer la balance des blancs en post sans perte de qualité. Le JPEG grave définitivement la balance des blancs, donc la régler correctement à la prise de vue est plus important."
+        },
+        "3": {
+          "label": "Éclairage mixte",
+          "description": "Les scènes avec plusieurs sources de lumière à différentes températures (par ex. lumière du jour par la fenêtre + lampes tungstène) rendent impossible la neutralisation parfaite de toutes les couleurs simultanément."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Photographie toujours en RAW si tu veux une flexibilité totale pour ajuster la balance des blancs plus tard. Les fichiers RAW stockent les données brutes du capteur, donc les changements de balance des blancs sont sans perte."
+        },
+        "1": {
+          "text": "Pour un effet créatif, essaie de « décaler » intentionnellement la balance des blancs. Régler une balance lumière du jour pendant l'heure dorée rend les couchers de soleil encore plus chauds, tandis qu'une balance tungstène en extérieur crée un look bleu froid dramatique."
+        },
+        "2": {
+          "text": "En situation d'éclairage mixte (par ex. une pièce éclairée par la lumière de la fenêtre et des lampes tungstène), utilise une charte grise pour définir une balance des blancs personnalisée, ou équipe ton flash d'un gel pour correspondre à la source de lumière ambiante."
+        }
+      },
+      "tooltips": {
+        "colorTemperature": {
+          "term": "Température de couleur",
+          "definition": "Une mesure de la couleur de la lumière en Kelvin (K). Basée sur la couleur théorique d'un corps noir chauffé. Les valeurs basses sont plus chaudes (orange/rouge), les valeurs élevées sont plus froides (bleu)."
+        },
+        "preset": {
+          "term": "Préréglage de balance des blancs",
+          "definition": "Un réglage de balance des blancs prédéfini calibré pour une source de lumière courante. Les préréglages incluent Tungstène (~3200K), Fluorescent (~4000K), Lumière du jour (~5500K), Nuageux (~6500K) et Ombre (~7500K)."
+        },
+        "rgbValues": {
+          "term": "Valeurs RVB",
+          "definition": "Les valeurs des canaux rouge, vert et bleu (0-255 chacun) qui représentent la couleur de la lumière à la température sélectionnée. Utilisées pour visualiser comment la source de lumière teinte la scène."
+        },
+        "hexCode": {
+          "term": "Code hexadécimal",
+          "definition": "Une représentation hexadécimale à six caractères de la couleur (par ex. #FF8C00). Utile pour référencer la couleur exacte dans un logiciel de design ou le développement web."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tes photos en intérieur sous des ampoules classiques sont très orangées/jaunes. Quel préréglage de balance des blancs utiliser pour corriger cela ?",
+          "hint": "Les ampoules à incandescence émettent une lumière chaude, orangée autour de 2800-3200K.",
+          "successMessage": "Correct ! Le préréglage Tungstène ajoute du bleu pour contrebalancer la dominante orangée des ampoules à incandescence, ramenant les couleurs à la neutralité.",
+          "failureMessage": "Les ampoules à incandescence/tungstène émettent une lumière chaude orangée. Le préréglage Tungstène est spécifiquement conçu pour neutraliser cette dominante en ajoutant du bleu.",
+          "options": {
+            "0": { "label": "Lumière du jour" },
+            "1": { "label": "Tungstène" },
+            "2": { "label": "Ombre" },
+            "3": { "label": "Fluorescent" }
+          }
+        },
+        "1": {
+          "scenario": "Tu fais des portraits pendant l'heure dorée et tu veux conserver la belle lueur chaude du coucher de soleil. Quel réglage de balance des blancs utiliser ?",
+          "hint": "Si tu règles la BB « correcte » pour l'heure dorée, elle neutraliserait les tons chauds que tu veux garder.",
+          "successMessage": "Correct ! Utiliser le préréglage Lumière du jour (ou même Nuageux/Ombre) pendant l'heure dorée préserve et renforce les tons chauds au lieu de les neutraliser.",
+          "failureMessage": "Pour préserver la lueur chaude de l'heure dorée, utilise une BB qui ne compense pas la lumière chaude. Lumière du jour ou des préréglages plus élevés garderont (et même renforceront) la chaleur.",
+          "options": {
+            "0": { "label": "Balance des blancs automatique" },
+            "1": { "label": "Tungstène (pour neutraliser la chaleur)" },
+            "2": { "label": "Lumière du jour (pour préserver la chaleur)" },
+            "3": { "label": "Flash" }
+          }
+        },
+        "2": {
+          "scenario": "Tu ajustes manuellement la balance des blancs en Kelvin. Ta photo paraît trop bleue/froide. Dois-tu augmenter ou diminuer la valeur Kelvin pour la réchauffer ?",
+          "hint": "Le réglage BB en Kelvin indique à l'appareil quelle est la température de couleur de la source lumineuse. Régler une valeur Kelvin plus élevée fait que l'appareil ajoute plus de chaleur.",
+          "successMessage": "Exact ! Augmenter la valeur Kelvin dit à l'appareil que la lumière est plus froide qu'elle ne l'est réellement, donc l'appareil compense en ajoutant de la chaleur. Augmente le K pour réchauffer une image froide.",
+          "failureMessage": "Quand tu augmentes la valeur Kelvin, l'appareil ajoute plus de chaleur pour compenser. Donc pour corriger une image froide/bleue, augmente le nombre Kelvin.",
+          "options": {
+            "0": { "label": "Augmenter le Kelvin (par ex. de 5500K à 7500K)" },
+            "1": { "label": "Diminuer le Kelvin (par ex. de 5500K à 3200K)" },
+            "2": { "label": "La direction du Kelvin n'affecte pas la chaleur" }
+          }
+        },
+        "3": {
+          "scenario": "Tu photographies l'intérieur d'un restaurant qui a des suspensions tungstène chaudes au plafond et de la lumière du jour bleutée froide entrant par de grandes fenêtres. Les personnes près des fenêtres paraissent bleues, et celles sous les lampes paraissent orangées. Quelle est la meilleure approche ?",
+          "hint": "Aucun réglage de balance des blancs unique ne peut corriger deux températures de couleur très différentes simultanément.",
+          "successMessage": "Exactement ! Gélifier le flash ou des lumières additionnelles pour correspondre à une source dominante, ou choisir une BB de compromis et corriger sélectivement en post, sont les meilleures approches pour l'éclairage mixte.",
+          "failureMessage": "L'éclairage mixte est l'un des défis BB les plus difficiles. Une seule BB ne peut pas corriger les deux sources simultanément. Tu dois soit harmoniser les sources avec des gels, soit corriger sélectivement en post.",
+          "options": {
+            "0": { "label": "Régler la BB sur Tungstène — ça corrigera tout" },
+            "1": { "label": "Régler la BB sur Lumière du jour — les fenêtres sont plus importantes" },
+            "2": { "label": "Utiliser la BB auto et photographier en RAW, puis corriger chaque zone en post" },
+            "3": { "label": "Augmenter l'ISO pour rendre les couleurs plus précises" }
+          }
+        },
+        "4": {
+          "scenario": "Tu photographies une scène de nuit urbaine cinématique et moody, et tu veux un ton bleu froid intentionnel. Les lampadaires sont au sodium (~2200K). Quel réglage de balance des blancs en Kelvin donnerait le décalage bleu le plus fort ?",
+          "hint": "Régler la BB bien plus bas que la température réelle de la source décalera l'image vers le bleu.",
+          "successMessage": "Correct ! Régler la BB à 7500K (préréglage Ombre) dit à l'appareil que la source est très froide/bleue — donc il compense en ajoutant une forte correction chaude. Mais comme les lampes au sodium réelles ne sont qu'à 2200K (très chaudes), cette sur-correction dépasse le point neutre et crée une forte dominante bleue. Plus tu règles le Kelvin au-dessus de la température réelle, plus le décalage bleu est fort.",
+          "failureMessage": "Régler une valeur Kelvin bien supérieure à la température réelle de la source fait que l'appareil sur-corrige vers le bleu. Avec des lampes sodium à 2200K, régler la BB à 7500K+ crée le look bleu froid le plus fort.",
+          "options": {
+            "0": { "label": "2200K (correspondant aux lampes sodium)" },
+            "1": { "label": "3200K (préréglage Tungstène)" },
+            "2": { "label": "7500K ou plus (préréglage Ombre)" },
+            "3": { "label": "5500K (préréglage Lumière du jour)" }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "toolUI": {
+    "histogram": {
+      "luminance": "Luminancia",
+      "rgbOverlay": "Superposición RGB",
+      "allChannels": "Todos los canales",
+      "shadows": "Sombras",
+      "midtones": "Tonos medios",
+      "highlights": "Luces",
+      "blackClipping": "Recorte a negro",
+      "whiteClipping": "Recorte a blanco",
+      "pureBlack": "negro puro",
+      "pureWhite": "blanco puro",
+      "uploadPrompt": "Sube una imagen para ver los datos EXIF y el histograma",
+      "uploadedPhoto": "Foto subida",
+      "noExifData": "No se encontraron datos EXIF en esta imagen.",
+      "sectionCamera": "Cámara",
+      "sectionLens": "Objetivo",
+      "sectionSettings": "Ajustes",
+      "sectionImage": "Imagen",
+      "sectionDate": "Fecha",
+      "sectionGPS": "GPS",
+      "sectionSoftware": "Software",
+      "make": "Marca",
+      "model": "Modelo",
+      "lensModel": "Modelo de objetivo",
+      "lensMake": "Fabricante del objetivo",
+      "apertureLabel": "Apertura",
+      "shutterSpeed": "Velocidad de obturación",
+      "isoLabel": "ISO",
+      "focalLengthLabel": "Distancia focal",
+      "focalLength35mm": "Distancia focal (equiv. 35 mm)",
+      "width": "Ancho",
+      "height": "Alto",
+      "orientationLabel": "Orientación",
+      "dateTaken": "Fecha de captura",
+      "latitudeLabel": "Latitud",
+      "longitudeLabel": "Longitud",
+      "softwareLabel": "Software"
+    }
+  }
+}

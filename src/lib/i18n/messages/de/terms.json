@@ -1,0 +1,51 @@
+{
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "effectiveDate": "Gültig ab: 3. April 2026",
+    "sections": {
+      "acceptance": {
+        "title": "Annahme der Bedingungen",
+        "body": "Durch den Zugriff auf oder die Nutzung von www.phototools.io (\"PhotoTools\" oder \"die Website\") erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie die Website bitte nicht. Diese Bedingungen gelten für alle Besucher und Nutzer von PhotoTools. Hinweis: Im Falle von Unstimmigkeiten ist die englische Fassung dieser Nutzungsbedingungen maßgebend."
+      },
+      "descriptionOfService": {
+        "title": "Beschreibung des Dienstes",
+        "body": "PhotoTools bietet kostenlose Bildungswerkzeuge für die Fotografie, einschließlich interaktiver Rechner, Simulatoren und Nachschlagewerke. Die Website dient ausschließlich Informations- und Bildungszwecken. Alle Werkzeuge werden den Nutzern kostenlos zur Verfügung gestellt und sollen Fotografen beim Erlernen und Verstehen fotografischer Konzepte unterstützen."
+      },
+      "noWarranty": {
+        "title": "Gewährleistungsausschluss",
+        "body": "PhotoTools wird \"wie besehen\" ohne jegliche ausdrückliche oder stillschweigende Gewährleistung bereitgestellt. Wir garantieren nicht, dass die Werkzeuge, Rechner oder Informationen auf dieser Website genau, vollständig oder für einen bestimmten Zweck geeignet sind. Die Ergebnisse unserer Werkzeuge sind Näherungswerte und sollten nicht für kritische Entscheidungen, professionelle Arbeiten oder Situationen herangezogen werden, in denen Präzision unerlässlich ist. Überprüfen Sie wichtige Berechnungen stets mit qualifizierten Fachleuten oder maßgeblichen Quellen."
+      },
+      "intellectualProperty": {
+        "title": "Geistiges Eigentum",
+        "body": "Alle Inhalte auf PhotoTools — einschließlich Texte, Grafiken, Werkzeugdesigns, Code und Lehrmaterialien — sind Eigentum von PhotoTools, sofern nicht anders angegeben. Sie dürfen die Werkzeuge und Nachschlagewerke für persönliche und Bildungszwecke nutzen. Die Vervielfältigung, Weiterverbreitung oder kommerzielle Nutzung von Website-Inhalten ohne vorherige schriftliche Genehmigung ist untersagt."
+      },
+      "acceptableUse": {
+        "title": "Zulässige Nutzung",
+        "intro": "Bei der Nutzung von PhotoTools verpflichten Sie sich, Folgendes zu unterlassen:",
+        "items": {
+          "laws": "Verstoß gegen geltende lokale, nationale oder internationale Gesetze oder Vorschriften",
+          "disrupt": "Störung oder Beeinträchtigung des Website-Betriebs, der Server oder Netzwerke",
+          "scrape": "Scraping, Crawling oder systematisches Extrahieren von Daten von der Website ohne vorherige schriftliche Genehmigung",
+          "misrepresent": "Falschangabe Ihrer Identität oder Zugehörigkeit in der Kommunikation mit PhotoTools",
+          "commercial": "Nutzung der Website für kommerzielle Zwecke über die persönliche Referenz hinaus ohne Genehmigung"
+        }
+      },
+      "thirdPartyContent": {
+        "title": "Inhalte von Drittanbietern",
+        "body": "PhotoTools zeigt Werbung von Drittanbietern an und kann Links zu externen Websites enthalten. Wir sind nicht verantwortlich für den Inhalt, die Genauigkeit oder die Praktiken von Drittanbieter-Werbetreibenden oder verlinkten Websites. Die Einbeziehung von Werbung oder externen Links stellt keine Billigung durch PhotoTools dar. Ihre Interaktionen mit Drittanbieterdiensten unterliegen deren eigenen Nutzungsbedingungen und Datenschutzrichtlinien."
+      },
+      "limitationOfLiability": {
+        "title": "Haftungsbeschränkung",
+        "body": "Im größtmöglich gesetzlich zulässigen Umfang haften PhotoTools und seine Betreiber nicht für direkte, indirekte, zufällige, besondere oder Folgeschäden, die sich aus Ihrer Nutzung — oder der Unmöglichkeit der Nutzung — der Website oder ihrer Werkzeuge ergeben. Dies umfasst, ohne Einschränkung, Schäden, die aus dem Vertrauen auf von PhotoTools bereitgestellte Informationen oder Berechnungen resultieren. Die Nutzung der Website erfolgt ausschließlich auf eigenes Risiko."
+      },
+      "changesToTerms": {
+        "title": "Änderungen der Bedingungen",
+        "body": "Wir können diese Nutzungsbedingungen jederzeit ändern. Aktualisierte Bedingungen werden auf dieser Seite mit einem überarbeiteten Gültigkeitsdatum veröffentlicht. Die weitere Nutzung von PhotoTools nach Veröffentlichung der Änderungen stellt Ihre Zustimmung zu den überarbeiteten Bedingungen dar. Wir empfehlen Ihnen, diese Bedingungen regelmäßig zu überprüfen."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte über unsere <contactLink>Kontaktseite</contactLink>."
+      }
+    }
+  }
+}

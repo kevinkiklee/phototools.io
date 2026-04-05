@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link'
+import { Link } from '@/lib/i18n/navigation'
 import { useTranslations } from 'next-intl'
 import styles from './Footer.module.css'
 

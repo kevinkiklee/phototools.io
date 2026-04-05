@@ -1,0 +1,125 @@
+{
+  "education": {
+    "sensor-size-comparison": {
+      "beginner": "Les capteurs d'appareils photo existent en de nombreuses tailles physiques différentes, des grandes puces moyen format utilisées dans les appareils de studio aux petits capteurs des smartphones. Un capteur plus grand capte plus de lumière, produit moins de bruit et facilite le flou d'arrière-plan. La taille du capteur est l'un des plus grands facteurs différenciant les catégories d'appareils.",
+      "deeper": {
+        "0": {
+          "heading": "Comment ça fonctionne",
+          "text": "La taille du capteur affecte la photographie de plusieurs manières interconnectées. Un capteur plus grand a une plus grande surface pour collecter les photons, améliorant le rapport signal-bruit et la plage dynamique. La taille du capteur est l'une des différences les plus importantes entre les catégories d'appareils — des appareils moyen format de studio aux capteurs de smartphone."
+        },
+        "1": {
+          "heading": "Facteur de recadrage",
+          "text": "Le « facteur de recadrage » décrit comment un capteur se compare au standard plein format 35 mm. Un capteur APS-C avec un facteur de recadrage de 1,5× donne le même champ de vision avec un 35 mm qu'un appareil plein format avec un 52,5 mm. Ce facteur multiplie aussi la profondeur de champ effective — un capteur plus petit semble donner plus de profondeur de champ au même cadrage car tu as besoin d'un objectif plus large (plus court) pour correspondre au champ de vision."
+        },
+        "2": {
+          "heading": "Densité de pixels",
+          "text": "La densité de pixels (pas de pixel) mesure à quel point les pixels sont serrés sur le capteur. Empiler plus de mégapixels sur un capteur plus petit réduit chaque photosite, diminuant la captation de lumière par pixel. Un capteur plein format de 24 MP a des pixels de ~6µm tandis qu'un capteur APS-C de 24 MP a des pixels de ~4µm, c'est pourquoi le capteur plein format est typiquement meilleur en haut ISO."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Dimensions physiques",
+          "description": "La largeur et la hauteur en millimètres déterminent la surface totale de captation de lumière et le champ de vision pour un objectif donné."
+        },
+        "1": {
+          "label": "Facteur de recadrage",
+          "description": "Le rapport de la diagonale plein format à la diagonale du capteur. Multiplié par la longueur focale, il donne la focale « équivalente »."
+        },
+        "2": {
+          "label": "Densité de pixels",
+          "description": "À quel point les pixels sont serrés. Un pas de pixel plus petit signifie plus de détails mais moins de lumière par pixel, affectant les performances en bruit."
+        },
+        "3": {
+          "label": "Surface du capteur",
+          "description": "Surface totale en mm². Un capteur moyen format 44×33 mm (Fujifilm GFX, Hasselblad X) a environ 1,7× la surface du plein format, tandis qu'un plus grand capteur moyen format 54×40 mm fait environ 2,5×. Le plein format a environ 13× la surface d'un capteur de smartphone haut de gamme."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Utilise le mode superposition pour voir exactement combien un capteur est plus grand qu'un autre — la différence de surface est souvent plus dramatique que les chiffres ne le suggèrent."
+        },
+        "1": {
+          "text": "Passe en mode densité de pixels et entre la résolution de ton appareil pour comparer le pas de pixel. Si ton appareil a une très haute densité de pixels, tu pourrais atteindre les limites de diffraction à des ouvertures plus larges que prévu."
+        },
+        "2": {
+          "text": "Quand tu compares des appareils, la surface du capteur compte plus que le nombre de mégapixels pour les performances en bruit. Un capteur plein format de 20 MP surpassera typiquement un capteur APS-C de 40 MP en haut ISO."
+        }
+      },
+      "tooltips": {
+        "Sensor": {
+          "term": "Capteur",
+          "definition": "Active ou désactive les formats de capteur individuels pour les inclure dans la comparaison visuelle et le tableau de données."
+        },
+        "Display Mode": {
+          "term": "Mode d'affichage",
+          "definition": "Superposition montre tous les capteurs centrés sur le même point. Côte à côte les place les uns à côté des autres à la même échelle. Densité de pixels visualise à quel point les pixels sont serrés."
+        },
+        "Resolution": {
+          "term": "Résolution",
+          "definition": "Le nombre total de mégapixels utilisé pour calculer le pas de pixel en mode densité de pixels. Plus de mégapixels sur la même taille de capteur signifie des pixels individuels plus petits."
+        },
+        "Crop Factor": {
+          "term": "Facteur de recadrage",
+          "definition": "Le rapport de la diagonale plein format 35 mm à la diagonale de ce capteur. Un facteur de recadrage de 1,5× signifie qu'un objectif de 50 mm cadre comme un 75 mm sur plein format."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Un capteur plein format mesure 36×24 mm. Un capteur APS-C a un facteur de recadrage de 1,5×. Quelle est la largeur approximative d'un capteur APS-C ?",
+          "hint": "Divise la largeur plein format par le facteur de recadrage.",
+          "successMessage": "Correct ! 36 mm ÷ 1,5 ≈ 24 mm. Le capteur APS-C mesure environ 24×16 mm, ce qui lui donne environ 44 % de la surface du plein format.",
+          "failureMessage": "Divise la largeur plein format (36 mm) par le facteur de recadrage (1,5×) : 36 ÷ 1,5 = 24 mm.",
+          "options": {
+            "0": { "label": "24 mm" },
+            "1": { "label": "30 mm" },
+            "2": { "label": "18 mm" }
+          }
+        },
+        "1": {
+          "scenario": "Tu montes un 50 mm sur un appareil avec un capteur à facteur de recadrage 2,0×. Quelle longueur focale équivalente plein format obtiens-tu ?",
+          "hint": "Multiplie la longueur focale par le facteur de recadrage.",
+          "successMessage": "Exact ! 50 mm × 2,0 = 100 mm équivalent. C'est pourquoi les appareils Micro Four Thirds sont populaires pour le télé — tu obtiens plus de portée avec chaque objectif.",
+          "failureMessage": "Multiplie la focale de l'objectif par le facteur de recadrage : 50 mm × 2,0 = 100 mm équivalent.",
+          "options": {
+            "0": { "label": "25 mm" },
+            "1": { "label": "75 mm" },
+            "2": { "label": "100 mm" }
+          }
+        },
+        "2": {
+          "scenario": "Deux appareils ont tous les deux 24 mégapixels — un plein format (36×24 mm) et un APS-C (24×16 mm). Lequel a de meilleures performances en bruit à haut ISO, et pourquoi ?",
+          "hint": "Pense à comment le même nombre de pixels répartis sur des surfaces de capteur différentes affecte la taille individuelle des pixels.",
+          "successMessage": "Exactement ! Le capteur plein format répartit 24 MP sur une plus grande surface, donc chaque pixel est physiquement plus grand (~6µm vs ~4µm de pas) et capte plus de photons, donnant moins de bruit.",
+          "failureMessage": "Le capteur plein format l'emporte — même nombre de mégapixels sur une surface plus grande signifie des pixels plus grands qui captent plus de lumière, produisant moins de bruit à haut ISO.",
+          "options": {
+            "0": { "label": "Plein format — des pixels plus grands captent plus de lumière" },
+            "1": { "label": "APS-C — les capteurs plus petits sont plus efficaces" },
+            "2": { "label": "Même bruit — c'est le nombre de mégapixels qui compte" }
+          }
+        },
+        "3": {
+          "scenario": "En regardant le tableau de comparaison, quel format de capteur a un facteur de recadrage le plus proche de 2,0× ?",
+          "hint": "Le facteur de recadrage est la diagonale plein format divisée par la diagonale du capteur.",
+          "successMessage": "Correct ! Le Micro Four Thirds a un facteur de recadrage de 2,0×, c'est pourquoi un objectif M43 de 25 mm cadre comme un 50 mm sur plein format.",
+          "failureMessage": "Le Micro Four Thirds a un facteur de recadrage de 2,0×. Vérifie dans le tableau — sa diagonale est exactement la moitié de celle du plein format.",
+          "options": {
+            "0": { "label": "APS-C (Canon)" },
+            "1": { "label": "Micro Four Thirds" },
+            "2": { "label": "Capteur 1\"" }
+          }
+        },
+        "4": {
+          "scenario": "Tu compares un appareil moyen format 50 MP à un appareil plein format 50 MP en mode densité de pixels. Les deux ont le même nombre de mégapixels. Lequel a le plus grand pas de pixel, et quel avantage pratique cela donne-t-il ?",
+          "hint": "Le pas de pixel dépend de la largeur du capteur divisée par le nombre de pixels horizontaux.",
+          "successMessage": "Exact ! Le capteur moyen format est physiquement plus grand, donc à 50 MP ses pixels sont plus grands (pas plus élevé). Cela lui donne environ 1/3 de stop de meilleure captation de lumière par pixel, plus un seuil de diffraction légèrement repoussé.",
+          "failureMessage": "Le capteur moyen format est plus grand, donc à la même résolution chaque pixel est physiquement plus grand. Les pixels plus grands collectent plus de photons, donnant une meilleure plage dynamique et des limites de diffraction légèrement repoussées.",
+          "options": {
+            "0": { "label": "Moyen format — meilleure captation de lumière par pixel et plage dynamique" },
+            "1": { "label": "Plein format — les pixels plus petits sont plus efficaces" },
+            "2": { "label": "Les deux sont identiques puisqu'ils ont le même nombre de mégapixels" }
+          }
+        }
+      }
+    }
+  }
+}

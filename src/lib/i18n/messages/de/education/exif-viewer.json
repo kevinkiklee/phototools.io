@@ -1,0 +1,126 @@
+{
+  "education": {
+    "exif-viewer": {
+      "beginner": "EXIF-Daten sind verborgene Informationen, die in jedes Foto eingebettet werden, das deine Kamera aufnimmt. Sie zeichnen auf, welche Kamera und welches Objektiv du verwendet hast, die genauen Einstellungen (Blende, Verschlusszeit, ISO), Datum und Uhrzeit und manchmal sogar GPS-Koordinaten. Dieses Werkzeug liest diese Daten, ohne dein Foto irgendwohin hochzuladen — alles passiert in deinem Browser.",
+      "deeper": "EXIF (Exchangeable Image File Format) ist ein von JEITA/CIPA definierter Standard, der Metadaten in JPEG-, TIFF- und einigen RAW-Dateien speichert. Die Daten werden als getaggte Schlüssel-Wert-Paare in spezifische Segmente des Datei-Headers geschrieben, unter Verwendung einer TIFF-basierten IFD-Struktur (Image File Directory). Es gibt mehrere IFD-Abschnitte: IFD0 für grundlegende Bildinformationen, das EXIF-Sub-IFD für Kameraeinstellungen, das GPS-IFD für Geolokalisierung und das Interop-IFD für Kompatibilitätsdaten. Kamerahersteller schreiben auch proprietäre \"MakerNote\"-Daten, die Objektivkorrekturen, Fokuspunkte, Auslösungszähler und andere modellspezifische Details enthalten. Social-Media-Plattformen entfernen EXIF-Daten oft beim Upload aus Datenschutzgründen, aber die Originaldatei auf deiner Speicherkarte behält sie immer. Das Verständnis von EXIF hilft dir, aus deinen eigenen Aufnahmemustern zu lernen und die Einstellungen hinter Fotos, die du bewunderst, nachzuvollziehen.",
+      "keyFactors": {
+        "0": {
+          "label": "Kamera & Objektiv",
+          "description": "Hersteller, Modell, Objektivname und Objektivhersteller — nützlich, um die Ausrüstung in Fotos zu identifizieren, die du online findest."
+        },
+        "1": {
+          "label": "Belichtungseinstellungen",
+          "description": "Blende, Verschlusszeit, ISO und Brennweite — die grundlegenden Aufnahmeparameter, die für jedes Bild aufgezeichnet werden."
+        },
+        "2": {
+          "label": "Datum & GPS",
+          "description": "Wann und wo das Foto aufgenommen wurde. Beachte, dass GPS-Daten beim Teilen von Dateien deinen Standort preisgeben."
+        },
+        "3": {
+          "label": "Software",
+          "description": "Zeigt, welche Bearbeitungssoftware die Datei zuletzt gespeichert hat. Nützlich, um zu prüfen, ob ein Bild bearbeitet wurde."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Prüfe die Brennweite und das 35-mm-Äquivalent, um zu verstehen, ob der Fotograf eine Weitwinkel-, Normal- oder Teleperspektive verwendet hat — das lehrt mehr über Komposition als jede Drittelregel."
+        },
+        "1": {
+          "text": "Wenn ein Foto, das du bewunderst, bei hohem ISO und großer Blende aufgenommen wurde, sagt dir das, dass es eine Situation mit wenig Licht war. Nutze EXIF, um die Einschränkungen zu verstehen, mit denen der Fotograf konfrontiert war."
+        },
+        "2": {
+          "text": "Bevor du Fotos online teilst, beachte, dass EXIF deinen GPS-Standort enthalten kann. Entferne Metadaten über die Exporteinstellungen deiner Bearbeitungssoftware, wenn dir der Datenschutz wichtig ist."
+        }
+      },
+      "tooltips": {
+        "Make": {
+          "term": "Hersteller",
+          "definition": "Der Kamerahersteller-Name (z. B. Canon, Nikon, Sony), gespeichert im EXIF-Header."
+        },
+        "Model": {
+          "term": "Modell",
+          "definition": "Das spezifische Kameramodell (z. B. \"EOS R5\", \"Z 9\"), das das Bild aufgenommen hat."
+        },
+        "Aperture": {
+          "term": "Blende",
+          "definition": "Die Blendenzahl, auf die das Objektiv eingestellt war. Niedrigere Zahlen bedeuten größere Blendenöffnung und mehr Licht."
+        },
+        "Shutter Speed": {
+          "term": "Verschlusszeit",
+          "definition": "Wie lange der Sensor belichtet wurde. Angegeben als Bruch (z. B. 1/250s) oder in ganzen Sekunden bei Langzeitbelichtungen."
+        },
+        "ISO": {
+          "term": "ISO",
+          "definition": "Die Sensorempfindlichkeits-Einstellung. Höherer ISO hellt das Bild auf, fügt aber Rauschen hinzu."
+        },
+        "Focal Length": {
+          "term": "Brennweite",
+          "definition": "Die tatsächliche Brennweite des Objektivs in Millimetern."
+        },
+        "Focal Length (35mm equiv)": {
+          "term": "Brennweite (35mm-Äquiv.)",
+          "definition": "Die äquivalente Brennweite, als wäre sie auf einem 35-mm-Vollformatsensor aufgenommen worden. Nützlich zum Vergleich des Bildwinkels über verschiedene Sensorgrößen."
+        },
+        "GPS": {
+          "term": "GPS",
+          "definition": "Breitengrad- und Längengradkoordinaten, eingebettet von Kameras mit GPS-Modulen. Verraten, wo das Foto aufgenommen wurde."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Du hast online ein beeindruckendes Foto gefunden und möchtest wissen, welches Objektiv verwendet wurde. Welcher EXIF-Abschnitt würde dir das verraten?",
+          "hint": "Kamera- und Objektivinformationen sind in verschiedenen Abschnitten.",
+          "successMessage": "Richtig! Der Objektiv-Abschnitt zeigt das Objektivmodell und den Hersteller.",
+          "failureMessage": "Der Objektiv-Abschnitt enthält das Objektivmodell — schau dort nach, um das verwendete Glas zu identifizieren.",
+          "options": {
+            "0": { "label": "Kamera" },
+            "1": { "label": "Objektiv" },
+            "2": { "label": "Einstellungen" }
+          }
+        },
+        "1": {
+          "scenario": "Du hast ein Foto hochgeladen und siehst Blende: f/1,8, Verschlusszeit: 1/4000s, ISO: 100. Wurde dieses Foto wahrscheinlich bei hellem oder schwachem Licht aufgenommen?",
+          "hint": "Eine sehr kurze Verschlusszeit bei niedrigem ISO deutet auf viel verfügbares Licht hin.",
+          "successMessage": "Richtig! Die kurze Verschlusszeit (1/4000s) bei Basis-ISO (100) sagt dir, dass es reichlich Licht gab — wahrscheinlich helles Wetter im Freien.",
+          "failureMessage": "Eine Verschlusszeit von 1/4000s bei ISO 100 bedeutet, dass die Kamera sehr wenig Empfindlichkeit und sehr kurze Belichtung brauchte. Das ist eine helle Außenszene.",
+          "options": {
+            "0": { "label": "Helles Licht — kurze Verschlusszeit bei niedrigem ISO" },
+            "1": { "label": "Schwaches Licht — die große Blende kompensiert" }
+          }
+        },
+        "2": {
+          "scenario": "Ein Foto zeigt Brennweite: 50 mm und Brennweite (35mm-Äquiv.): 75 mm. Welchen Sensor hatte die Kamera?",
+          "hint": "Das 35mm-Äquivalent ist die Brennweite multipliziert mit dem Crop-Faktor.",
+          "successMessage": "Richtig! 75 / 50 = 1,5× Crop-Faktor, das ist ein APS-C-Sensor (Nikon/Sony-Variante).",
+          "failureMessage": "Teile das 35mm-Äquivalent durch die tatsächliche Brennweite: 75 / 50 = 1,5×. Dieser Crop-Faktor entspricht APS-C (Nikon/Sony).",
+          "options": {
+            "0": { "label": "Vollformat (1,0× Crop)" },
+            "1": { "label": "APS-C (1,5× Crop)" },
+            "2": { "label": "Micro Four Thirds (2,0× Crop)" }
+          }
+        },
+        "3": {
+          "scenario": "Du siehst zwei Fotos derselben Szene. Foto A: f/2,8, 1/60s, ISO 3200. Foto B: f/2,8, 1/60s, ISO 200. Welches Foto wurde bei hellerem Licht aufgenommen?",
+          "hint": "Höherer ISO kompensiert weniger Licht.",
+          "successMessage": "Genau! Foto B bei ISO 200 hatte viel mehr Umgebungslicht. Foto A brauchte ISO 3200 (4 Stufen mehr Empfindlichkeit), um die gleiche Belichtung zu erreichen, was bedeutet, dass die Szene viel dunkler war.",
+          "failureMessage": "Foto B wurde bei hellerem Licht aufgenommen. Gleiche Blende und Verschlusszeit, aber ISO 200 vs. 3200 bedeutet, dass Foto A in einer viel dunkleren Umgebung war und 4 Stufen mehr Sensorempfindlichkeit brauchte.",
+          "options": {
+            "0": { "label": "Foto A (ISO 3200)" },
+            "1": { "label": "Foto B (ISO 200)" }
+          }
+        },
+        "4": {
+          "scenario": "Du analysierst ein Wildtierfoto: 400 mm, f/5,6, 1/2000s, ISO 1600. Die EXIF-Daten zeigen im Software-Feld \"Adobe Lightroom Classic 13.1\". Was kannst du über den Fotografen und die Aufnahmebedingungen ableiten?",
+          "hint": "Betrachte die lange Brennweite, die offene Blende, die kurze Verschlusszeit und den erhöhten ISO zusammen.",
+          "successMessage": "Tolle Analyse! Die 400 mm bei f/5,6 (wahrscheinlich Offenblende für dieses Objektiv) mit einer schnellen 1/2000s-Verschlusszeit deutet auf ein sich schnell bewegendes Motiv hin (Vögel oder Wildtiere in Aktion). ISO 1600 zeigt, dass es kein helles Sonnenlicht war — wahrscheinlich bewölkt oder im Schatten. Der Lightroom-Eintrag bestätigt, dass eine Nachbearbeitung erfolgte.",
+          "failureMessage": "Die Einstellungen verraten viel: 400 mm f/5,6 ist ein typisches Wildlife-Teleobjektiv bei Offenblende, 1/2000s friert schnelle Tierbewegung ein, und ISO 1600 bedeutet, das Licht war begrenzt (kein heller Sonnenschein). Der Lightroom-Eintrag bestätigt, dass die Datei bearbeitet wurde.",
+          "options": {
+            "0": { "label": "Schnelles Motiv bei mäßigem Licht, in Lightroom nachbearbeitet" },
+            "1": { "label": "Langsames Motiv bei hellem Licht, direkt aus der Kamera" },
+            "2": { "label": "Landschaftsaufnahme mit Bewegungsunschärfe, stark bearbeitet" }
+          }
+        }
+      }
+    }
+  }
+}

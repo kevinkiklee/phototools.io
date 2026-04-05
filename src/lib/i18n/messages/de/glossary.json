@@ -1,0 +1,240 @@
+{
+  "glossary": {
+    "title": "Fotografie-Glossar",
+    "subtitle": "Durchsuchbares Nachschlagewerk für Fotografie-Begriffe. Klicke auf einen Begriff, um seine Definition zu sehen.",
+    "searchPlaceholder": "Begriffe suchen...",
+    "searchAriaLabel": "Glossarbegriffe durchsuchen",
+    "noResults": "Keine Begriffe entsprechen deiner Suche.",
+    "tryTool": "{toolName} ausprobieren",
+    "entries": {
+      "aperture": {
+        "term": "Blende",
+        "definition": "Die Öffnung im Objektiv, durch die Licht einfällt. Eine größere Blende (kleinere Blendenzahl) lässt mehr Licht ein und erzeugt eine geringere Schärfentiefe."
+      },
+      "aspect-ratio": {
+        "term": "Seitenverhältnis",
+        "definition": "Das proportionale Verhältnis zwischen Breite und Höhe eines Bildes. Gängige Verhältnisse sind 3:2 (Standard-DSLR), 4:3 (Micro Four Thirds) und 16:9 (Breitbild)."
+      },
+      "autofocus": {
+        "term": "Autofokus",
+        "definition": "Ein Kamerasystem, das das Objektiv automatisch einstellt, um ein Motiv scharf abzubilden. Moderne Systeme verwenden Phasendetektion oder Kontrastdetektion."
+      },
+      "bokeh": {
+        "term": "Bokeh",
+        "definition": "Die ästhetische Qualität unscharfer Bereiche in einem Bild, insbesondere bei Lichtpunkten. Weiches, kreisförmiges Bokeh wird allgemein bevorzugt und wird durch Objektivdesign und Blendenlamellenform beeinflusst."
+      },
+      "bracketing": {
+        "term": "Belichtungsreihe",
+        "definition": "Aufnahme mehrerer Bilder derselben Szene mit unterschiedlichen Belichtungseinstellungen. Wird für HDR-Fotografie verwendet oder um sicherzustellen, dass mindestens ein Bild korrekt belichtet ist."
+      },
+      "bulb-mode": {
+        "term": "Bulb-Modus",
+        "definition": "Eine Verschlusseinstellung, bei der der Verschluss so lange geöffnet bleibt, wie der Auslöser gedrückt wird. Wird für sehr lange Belichtungen jenseits der zeitgesteuerten Kameraeinstellungen verwendet."
+      },
+      "burst-mode": {
+        "term": "Serienbildmodus",
+        "definition": "Ein Aufnahmemodus, bei dem die Kamera in schneller Folge mehrere Bilder pro Sekunde aufnimmt. Nützlich zum Einfangen schneller Aktionen oder zur Auswahl des besten Moments."
+      },
+      "chromatic-aberration": {
+        "term": "Chromatische Aberration",
+        "definition": "Ein Objektivfehler, bei dem verschiedene Lichtwellenlängen an leicht unterschiedlichen Punkten fokussiert werden, was zu Farbsäumen an kontrastreichen Kanten führt. Häufiger bei günstigen Objektiven und bei offener Blende."
+      },
+      "circle-of-confusion": {
+        "term": "Zerstreuungskreis",
+        "definition": "Der größte Unschärfekreis, der dem menschlichen Auge noch als Punkt erscheint. Er bestimmt die Grenzen akzeptabler Schärfe und wird in Schärfentiefe-Berechnungen verwendet."
+      },
+      "color-temperature": {
+        "term": "Farbtemperatur",
+        "definition": "Ein Messwert in Kelvin, der die Wärme oder Kühle einer Lichtquelle beschreibt. Niedrigere Werte (2700K) wirken warm/orange; höhere Werte (6500K+) wirken kühl/blau."
+      },
+      "crop-factor": {
+        "term": "Crop-Faktor",
+        "definition": "Das Verhältnis der Diagonale eines Kamerasensors zur Diagonale eines 35-mm-Vollformatsensors. Er beeinflusst die effektive Brennweite und den Bildwinkel."
+      },
+      "depth-of-field": {
+        "term": "Schärfentiefe",
+        "definition": "Der Entfernungsbereich in einer Szene, der akzeptabel scharf erscheint. Wird durch Blende, Brennweite und Motivabstand gesteuert."
+      },
+      "diffraction": {
+        "term": "Beugung",
+        "definition": "Die Ablenkung von Licht beim Durchgang durch eine kleine Öffnung, wodurch das Bild weicher wird. Sie setzt eine praktische Grenze dafür, wie weit man ein Objektiv abblenden kann."
+      },
+      "dynamic-range": {
+        "term": "Dynamikumfang",
+        "definition": "Der Bereich zwischen den dunkelsten Schatten und den hellsten Lichtern, den eine Kamera in einer einzelnen Belichtung erfassen kann. Wird in Blendenstufen (EV) gemessen."
+      },
+      "ev": {
+        "term": "EV (Belichtungswert)",
+        "definition": "Eine Zahl, die eine Kombination aus Verschlusszeit und Blende darstellt, die die gleiche Belichtung ergibt. Jede Erhöhung um 1 EV verdoppelt oder halbiert das Licht."
+      },
+      "exposure-compensation": {
+        "term": "Belichtungskorrektur",
+        "definition": "Eine Kamerasteuerung, die die gemessene Belichtung überschreibt, typischerweise in Drittelstufen. Positive Werte hellen das Bild auf; negative Werte dunkeln es ab."
+      },
+      "exposure-triangle": {
+        "term": "Belichtungsdreieck",
+        "definition": "Die Beziehung zwischen Blende, Verschlusszeit und ISO. Die Änderung eines Parameters erfordert die Anpassung der anderen, um die gleiche Belichtung beizubehalten."
+      },
+      "f-stop": {
+        "term": "Blendenstufe",
+        "definition": "Eine Maßeinheit für die Blendenöffnung. Jede volle Stufe (f/1,4, f/2, f/2,8, f/4...) halbiert die Lichtmenge, die durch das Objektiv fällt."
+      },
+      "focal-length": {
+        "term": "Brennweite",
+        "definition": "Der Abstand in Millimetern vom optischen Zentrum eines Objektivs zum Sensor bei Fokussierung auf Unendlich. Sie bestimmt den Bildwinkel und die Vergrößerung."
+      },
+      "focus-stacking": {
+        "term": "Focus Stacking",
+        "definition": "Eine Technik, bei der mehrere Bilder mit unterschiedlichen Fokusabständen in der Nachbearbeitung kombiniert werden, um eine größere Schärfentiefe zu erzielen, als eine Einzelaufnahme ermöglicht."
+      },
+      "full-frame": {
+        "term": "Vollformat",
+        "definition": "Eine Sensorgröße, die dem 35-mm-Film entspricht (36 x 24 mm). Sie ist der Referenzstandard für Brennweite und Crop-Faktor-Berechnungen."
+      },
+      "golden-hour": {
+        "term": "Goldene Stunde",
+        "definition": "Die Zeit kurz nach Sonnenaufgang oder vor Sonnenuntergang, wenn das Sonnenlicht warm, weich und gerichtet ist. Sehr geschätzt für Landschafts- und Porträtfotografie."
+      },
+      "histogram": {
+        "term": "Histogramm",
+        "definition": "Ein Diagramm, das die Verteilung der Helligkeitswerte in einem Bild zeigt. Die linke Seite stellt Schatten dar, die rechte Seite Lichter."
+      },
+      "hyperfocal-distance": {
+        "term": "Hyperfokaldistanz",
+        "definition": "Der nächste Fokusabstand, bei dem alles von der halben Distanz bis Unendlich akzeptabel scharf ist. Maximiert die Schärfentiefe bei einer gegebenen Blende."
+      },
+      "image-stabilization": {
+        "term": "Bildstabilisierung",
+        "definition": "Ein System, das Verwacklungsunschärfe reduziert, entweder im Objektiv (OIS) oder im Kameragehäuse (IBIS). Bietet typischerweise 3–7 Blendenstufen Vorteil für Freihandaufnahmen."
+      },
+      "iso": {
+        "term": "ISO",
+        "definition": "Ein Maß für die Lichtempfindlichkeit des Kamerasensors. Höhere ISO-Werte hellen das Bild auf, führen aber zu mehr Bildrauschen."
+      },
+      "jpeg": {
+        "term": "JPEG",
+        "definition": "Ein komprimiertes Bilddateiformat, das verlustbehaftete Kompression verwendet. Kleinere Dateigröße, aber weniger Bearbeitungsflexibilität im Vergleich zu RAW."
+      },
+      "kelvin": {
+        "term": "Kelvin",
+        "definition": "Die Maßeinheit für die Farbtemperatur von Licht. Fotografen verwenden Kelvin-Werte, um den Weißabgleich einzustellen und die Farbe des Umgebungslichts anzupassen."
+      },
+      "lens-compression": {
+        "term": "Perspektivische Kompression",
+        "definition": "Der visuelle Effekt eines Teleobjektivs, bei dem entfernte Objekte näher an Vordergrundobjekten erscheinen. Er wird durch die große Aufnahmeentfernung verursacht, nicht durch das Objektiv selbst."
+      },
+      "light-meter": {
+        "term": "Belichtungsmesser",
+        "definition": "Ein Gerät oder Kamerasystem, das die Lichtintensität misst, um die richtige Belichtung zu bestimmen. Kameras verwenden reflektierte Lichtmessung; Handbelichtungsmesser können einfallendes Licht messen."
+      },
+      "long-exposure": {
+        "term": "Langzeitbelichtung",
+        "definition": "Ein Foto, das mit einer langen Verschlusszeit aufgenommen wird, typischerweise Sekunden oder Minuten. Wird für Lichtspuren, glattes Wasser, Sternenspuren und Nachtaufnahmen verwendet."
+      },
+      "macro": {
+        "term": "Makro",
+        "definition": "Fotografie, die Motive in Lebensgröße oder nahezu in Lebensgröße (Abbildungsmaßstab 1:1) wiedergibt. Erfordert spezielle Makroobjektive oder Zwischenringe."
+      },
+      "medium-format": {
+        "term": "Mittelformat",
+        "definition": "Eine Sensorgröße, die größer als Vollformat ist, typischerweise etwa 44 x 33 mm oder 54 x 40 mm. Bietet höhere Auflösung, geringere Schärfentiefe und größeren Dynamikumfang."
+      },
+      "megapixel": {
+        "term": "Megapixel",
+        "definition": "Eine Million Pixel. Die Megapixelanzahl eines Sensors bestimmt die maximale Auflösung der Bilder, die er aufnehmen kann."
+      },
+      "micro-four-thirds": {
+        "term": "Micro Four Thirds",
+        "definition": "Ein spiegelloses Kamerasystem mit einem Sensor von 17,3 x 13 mm, was einen 2-fachen Crop-Faktor ergibt. Bietet kompakte Gehäuse und Objektive bei guter Bildqualität."
+      },
+      "mirror-lock-up": {
+        "term": "Spiegelvorauslösung",
+        "definition": "Eine DSLR-Funktion, die den Spiegel vor dem Auslösen des Verschlusses hochklappt, um Vibrationen zu reduzieren. Wird für scharfe Aufnahmen vom Stativ verwendet, besonders bei langen Verschlusszeiten."
+      },
+      "nd-filter": {
+        "term": "ND-Filter",
+        "definition": "Ein Neutraldichtefilter, der die Lichtmenge reduziert, die ins Objektiv einfällt, ohne die Farben zu verändern. Ermöglicht längere Belichtungszeiten oder größere Blendenöffnungen bei hellen Bedingungen."
+      },
+      "noise": {
+        "term": "Bildrauschen",
+        "definition": "Zufällige Variationen in Helligkeit und Farbe in digitalen Bildern, am sichtbarsten in Schattenbereichen und bei hohen ISO-Einstellungen. Kann mit Rauschreduktions-Software verringert werden."
+      },
+      "overexposure": {
+        "term": "Überbelichtung",
+        "definition": "Wenn ein Bild zu viel Licht erhält, wodurch Lichter zu reinem Weiß beschnitten werden und Details verloren gehen. Das Gegenteil von Unterbelichtung."
+      },
+      "panorama": {
+        "term": "Panorama",
+        "definition": "Ein Weitwinkelbild, das durch Zusammenfügen mehrerer überlappender Fotografien erstellt wird. Kann bis zu 360 Grad einer Szene abdecken."
+      },
+      "pixel-pitch": {
+        "term": "Pixelabstand",
+        "definition": "Der Abstand in Mikrometern zwischen den Mittelpunkten benachbarter Pixel auf einem Sensor. Größerer Pixelabstand bedeutet in der Regel bessere Leistung bei wenig Licht."
+      },
+      "polarizer": {
+        "term": "Polfilter",
+        "definition": "Ein Filter, der Reflexionen und Blendung von nicht-metallischen Oberflächen reduziert und den blauen Himmel vertiefen kann. Er funktioniert, indem er Lichtwellen blockiert, die in einer bestimmten Richtung schwingen."
+      },
+      "prime-lens": {
+        "term": "Festbrennweite",
+        "definition": "Ein Objektiv mit fester Brennweite (kein Zoom). Festbrennweiten sind typischerweise schärfer, lichtstärker (größere Blende) und leichter als vergleichbare Zoomobjektive."
+      },
+      "raw": {
+        "term": "RAW",
+        "definition": "Ein unkomprimiertes oder verlustfrei komprimiertes Dateiformat, das alle Sensordaten bewahrt. Bietet maximale Flexibilität in der Nachbearbeitung auf Kosten größerer Dateien."
+      },
+      "reciprocal-rule": {
+        "term": "Kehrwertregel",
+        "definition": "Eine Richtlinie, die besagt, dass die minimale Verschlusszeit für Freihandaufnahmen 1/(Brennweite) betragen sollte, um Verwacklungen zu vermeiden. Für ein 200-mm-Objektiv mindestens 1/200s verwenden."
+      },
+      "rule-of-thirds": {
+        "term": "Drittelregel",
+        "definition": "Eine Kompositionsregel, die das Bild in ein 3x3-Raster unterteilt. Das Platzieren von Motiven entlang der Linien oder an ihren Schnittpunkten erzeugt oft ein ausgewogeneres Bild."
+      },
+      "sensor-size": {
+        "term": "Sensorgröße",
+        "definition": "Die physischen Abmessungen des Bildsensors einer Kamera. Größere Sensoren erfassen mehr Licht, bieten geringere Schärfentiefe und erzeugen in der Regel weniger Bildrauschen."
+      },
+      "shutter-speed": {
+        "term": "Verschlusszeit",
+        "definition": "Die Zeitdauer, in der der Verschluss der Kamera während einer Belichtung geöffnet ist. Kürzere Zeiten frieren Bewegung ein; längere Zeiten ermöglichen Bewegungsunschärfe."
+      },
+      "star-trails": {
+        "term": "Sternenspuren",
+        "definition": "Lichtstreifen, die durch die scheinbare Bewegung der Sterne während einer Langzeitbelichtung entstehen. Können in einer einzelnen sehr langen Belichtung oder durch Stapeln mehrerer kürzerer Aufnahmen aufgenommen werden."
+      },
+      "stop": {
+        "term": "Blendenstufe",
+        "definition": "Eine Einheit der Belichtungsänderung, die eine Verdopplung oder Halbierung des Lichts darstellt. Gilt gleichermaßen für Blende, Verschlusszeit und ISO."
+      },
+      "telephoto": {
+        "term": "Teleobjektiv",
+        "definition": "Ein Objektiv mit einer Brennweite über etwa 70 mm (Vollformat-Äquivalent). Teleobjektive vergrößern entfernte Motive und komprimieren die Perspektive."
+      },
+      "tilt-shift": {
+        "term": "Tilt-Shift",
+        "definition": "Ein Objektiv, das die Schärfeebene neigen und den Bildkreis relativ zum Sensor verschieben kann. Wird für Architekturfotografie und selektive Schärfeeffekte verwendet."
+      },
+      "underexposure": {
+        "term": "Unterbelichtung",
+        "definition": "Wenn ein Bild zu wenig Licht erhält, wodurch Schattenbereiche Details verlieren und rauschig erscheinen. Das Gegenteil von Überbelichtung."
+      },
+      "vignetting": {
+        "term": "Vignettierung",
+        "definition": "Eine Abdunklung der Ecken und Ränder eines Bildes im Vergleich zur Mitte. Kann durch Objektivdesign, Filter oder Gegenlichtblenden verursacht werden und wird manchmal absichtlich in der Nachbearbeitung hinzugefügt."
+      },
+      "white-balance": {
+        "term": "Weißabgleich",
+        "definition": "Eine Kameraeinstellung, die die Farben anpasst, damit weiße Objekte unter verschiedenen Lichtbedingungen neutral erscheinen. Kann automatisch oder manuell über Kelvin-Werte eingestellt werden."
+      },
+      "wide-angle": {
+        "term": "Weitwinkel",
+        "definition": "Ein Objektiv mit kurzer Brennweite (typischerweise unter 35 mm bei Vollformat), das einen breiteren Bildwinkel erfasst. Wird häufig für Landschaften, Architektur und Innenaufnahmen verwendet."
+      },
+      "zoom-lens": {
+        "term": "Zoomobjektiv",
+        "definition": "Ein Objektiv mit variablem Brennweitenbereich, das dem Fotografen ermöglicht, den Bildausschnitt zu ändern, ohne sich zu bewegen. Bietet Vielseitigkeit auf Kosten von Größe, Gewicht und manchmal Schärfe."
+      }
+    }
+  }
+}

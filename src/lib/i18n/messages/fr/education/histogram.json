@@ -1,0 +1,120 @@
+{
+  "education": {
+    "histogram": {
+      "beginner": "Un histogramme est un graphique qui montre la luminosité ou l'obscurité des pixels de ta photo. Le côté gauche représente les ombres (zones sombres), le milieu les tons moyens, et le côté droit les hautes lumières (zones claires). Si le graphique est concentré d'un côté, ta photo est peut-être sous-exposée ou surexposée.",
+      "deeper": "Un histogramme trace le nombre de pixels (axe vertical) en fonction du niveau de luminosité (axe horizontal, 0-255 pour les images 8 bits). En mode luminance, la luminosité de chaque pixel est calculée comme une moyenne pondérée des canaux rouge, vert et bleu (typiquement 0,299R + 0,587V + 0,114B, correspondant à la perception humaine). Le mode RVB montre trois distributions séparées, révélant quels canaux de couleur peuvent être écrêtés indépendamment — un canal rouge poussé à 255 tandis que le bleu est correct indique un écrêtage des hautes lumières dans les tons chauds, comme un ciel de coucher de soleil. L'« écrêtage » se produit quand les valeurs de pixel atteignent la limite 0 ou 255, ce qui signifie que les détails d'ombre ou de haute lumière ont été irrémédiablement perdus. L'écrêtage du noir (pixels à 0) perd les détails d'ombre ; l'écrêtage du blanc (pixels à 255) perd les détails de haute lumière. Photographier en RAW donne environ 2-3 stops supplémentaires de hautes lumières récupérables au-delà de ce que l'histogramme JPEG montre, c'est pourquoi beaucoup de photographes « exposent à droite » (ETTR) — poussant l'exposition aussi lumineuse que possible sans écrêter les données RAW.",
+      "keyFactors": {
+        "0": {
+          "label": "Distribution tonale",
+          "description": "La forme globale t'indique si l'image est sombre (lourde à gauche), claire (lourde à droite) ou équilibrée (étalée sur toute la plage)."
+        },
+        "1": {
+          "label": "Écrêtage",
+          "description": "Des pics aux extrémités gauche ou droite indiquent une perte de détails dans les ombres ou les hautes lumières."
+        },
+        "2": {
+          "label": "Séparation des canaux",
+          "description": "Le mode RVB révèle le comportement individuel de chaque canal de couleur — utile pour détecter l'écrêtage spécifique à une couleur dans les scènes saturées."
+        },
+        "3": {
+          "label": "Plage dynamique",
+          "description": "Un histogramme qui couvre toute la largeur sans écrêtage indique une bonne utilisation de la plage dynamique disponible."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Il n'y a pas de forme d'histogramme « parfaite ». Une photo d'un chat noir sur un canapé sombre devrait être lourde à gauche. Juge l'histogramme par rapport à ton intention créative, pas une courbe idéale."
+        },
+        "1": {
+          "text": "Vérifie le mode de superposition RVB pour les photos de coucher de soleil et de néons. Le canal rouge écrête souvent bien avant le bleu, causant une perte de détails dans les hautes lumières chaudes même quand l'histogramme de luminance semble correct."
+        },
+        "2": {
+          "text": "Si tu vois des avertissements d'écrêtage aux deux extrémités simultanément, la scène dépasse probablement la plage dynamique de ton capteur. Envisage le bracketing pour le HDR ou utilise des filtres ND dégradés."
+        }
+      },
+      "tooltips": {
+        "View Mode": {
+          "term": "Mode d'affichage",
+          "definition": "Luminance montre la luminosité globale. Superposition RVB montre les trois canaux de couleur superposés. Tous les canaux montre RVB plus luminance ensemble."
+        },
+        "Shadows": {
+          "term": "Ombres",
+          "definition": "La région la plus à gauche de l'histogramme (environ 0-85), représentant les tons les plus sombres de l'image."
+        },
+        "Midtones": {
+          "term": "Tons moyens",
+          "definition": "La région centrale (environ 86-170), représentant la luminosité moyenne — les tons de peau et la plupart des textures naturelles se trouvent ici."
+        },
+        "Highlights": {
+          "term": "Hautes lumières",
+          "definition": "La région la plus à droite (environ 171-255), représentant les tons les plus clairs : ciels, reflets et sources de lumière."
+        },
+        "Black Clipping": {
+          "term": "Écrêtage du noir",
+          "definition": "Le pourcentage de pixels à luminosité 0 (noir pur). Des valeurs élevées signifient que les détails d'ombre ont été perdus et ne peuvent pas être récupérés."
+        },
+        "White Clipping": {
+          "term": "Écrêtage du blanc",
+          "definition": "Le pourcentage de pixels à luminosité 255 (blanc pur). Des valeurs élevées signifient que les détails de haute lumière ont été brûlés."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tu importes une photo et l'histogramme est fortement poussé vers la gauche avec presque rien à droite. Que cela te dit-il sur l'image ?",
+          "hint": "Gauche = sombre, droite = clair.",
+          "successMessage": "Correct ! Un histogramme lourd à gauche signifie que l'image est principalement en tons sombres — elle est peut-être sous-exposée, ou c'est une image intentionnellement sombre/low-key.",
+          "failureMessage": "Un histogramme concentré à gauche indique que l'image est majoritairement sombre. Cela signifie souvent une sous-exposition.",
+          "options": {
+            "0": { "label": "L'image est sous-exposée ou très sombre" },
+            "1": { "label": "L'image est surexposée ou très claire" },
+            "2": { "label": "L'image a une exposition parfaite" }
+          }
+        },
+        "1": {
+          "scenario": "Quel mode d'affichage utiliser pour voir la distribution de luminosité globale de ta photo en un seul graphique ?",
+          "hint": "Un mode combine toutes les informations de couleur en une seule courbe de luminosité.",
+          "successMessage": "Exact ! Le mode Luminance montre une courbe unique représentant la luminosité globale perçue.",
+          "failureMessage": "Le mode Luminance est l'affichage le plus simple — il combine R, V, B en une seule courbe de luminosité.",
+          "options": {
+            "0": { "label": "Luminance" },
+            "1": { "label": "Superposition RVB" },
+            "2": { "label": "Tous les canaux" }
+          }
+        },
+        "2": {
+          "scenario": "Tu as photographié un coucher de soleil vif et l'histogramme de luminance semble correct, mais quand tu passes en Superposition RVB tu vois le canal rouge qui pointe à l'extrême droite. Que se passe-t-il ?",
+          "hint": "Les canaux de couleur individuels peuvent écrêter même quand la luminance globale ne le fait pas.",
+          "successMessage": "Exactement ! Le canal rouge écrête — les hautes lumières du coucher de soleil ont perdu des détails dans les tons rouges même si la luminosité globale semble acceptable. Tu perds des nuances de couleurs chaudes.",
+          "failureMessage": "Le canal rouge écrête indépendamment. Les hautes lumières chaudes saturées (couchers de soleil, feu) poussent souvent le rouge à 255 tandis que le vert et le bleu sont corrects, perdant des détails de couleur dans ces tons.",
+          "options": {
+            "0": { "label": "Écrêtage du canal rouge — détails de hautes lumières chaudes perdus" },
+            "1": { "label": "L'image est globalement surexposée" },
+            "2": { "label": "La balance des blancs est mauvaise" }
+          }
+        },
+        "3": {
+          "scenario": "L'outil indique 2,3 % d'écrêtage du noir et 0,1 % d'écrêtage du blanc. Dois-tu ajuster ton exposition ?",
+          "hint": "De petites quantités d'écrêtage sont normales — les ombres noires pures et les reflets spéculaires sont attendus.",
+          "successMessage": "Bon jugement ! 2,3 % d'écrêtage du noir est modeste et souvent juste des ombres profondes ou des bords sombres. 0,1 % d'écrêtage du blanc est probablement des reflets spéculaires (reflets de soleil). Cette exposition convient pour la plupart des usages.",
+          "failureMessage": "Ces pourcentages d'écrêtage sont assez faibles. Un peu d'écrêtage du noir dans les ombres profondes et un infime écrêtage du blanc par les reflets spéculaires est normal et attendu. Aucun ajustement nécessaire.",
+          "options": {
+            "0": { "label": "Augmenter l'exposition pour réduire l'écrêtage du noir" },
+            "1": { "label": "C'est correct — un léger écrêtage dans les ombres et les reflets spéculaires est normal" },
+            "2": { "label": "Diminuer l'exposition pour éliminer l'écrêtage du blanc" }
+          }
+        },
+        "4": {
+          "scenario": "Tu photographies une scène à fort contraste : une mariée en robe blanche debout dans une cathédrale sombre. L'histogramme montre des pics forts aux deux extrémités avec un creux dans les tons moyens. Comment gérer cela ?",
+          "hint": "Quand la plage dynamique de la scène dépasse celle du capteur, tu as besoin d'une technique multi-exposition.",
+          "successMessage": "Parfait ! Cet histogramme bimodal indique que la scène dépasse la plage dynamique de ton capteur. Le bracketing d'exposition (HDR) capture à la fois l'intérieur sombre et les détails de la robe claire. Alternativement, utilise un flash d'appoint pour relever les ombres.",
+          "failureMessage": "Un histogramme bimodal (pics aux deux extrémités, milieu vide) signifie que la scène a plus de plage dynamique que ton capteur ne peut capturer en une seule prise. Fais un bracketing pour le HDR, ou utilise un flash d'appoint pour réduire le contraste.",
+          "options": {
+            "0": { "label": "Bracketer les expositions pour le HDR ou utiliser un flash d'appoint" },
+            "1": { "label": "Exposer pour les tons moyens et espérer que ça aille" },
+            "2": { "label": "Passer en noir et blanc pour masquer le problème" }
+          }
+        }
+      }
+    }
+  }
+}

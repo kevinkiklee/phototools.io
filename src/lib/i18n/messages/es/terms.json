@@ -1,0 +1,51 @@
+{
+  "terms": {
+    "title": "Términos de servicio",
+    "effectiveDate": "Fecha de vigencia: 3 de abril de 2026",
+    "sections": {
+      "acceptance": {
+        "title": "Aceptación de los términos",
+        "body": "Al acceder o usar www.phototools.io (\"PhotoTools\" o \"el Sitio\"), aceptas quedar vinculado por estos Términos de Servicio. Si no estás de acuerdo con estos términos, por favor no uses el Sitio. Estos términos se aplican a todos los visitantes y usuarios de PhotoTools. Nota: La versión en inglés de estos términos es la versión oficial y prevalece en caso de discrepancias."
+      },
+      "descriptionOfService": {
+        "title": "Descripción del servicio",
+        "body": "PhotoTools proporciona herramientas educativas de fotografía gratuitas, incluyendo calculadoras interactivas, simuladores y materiales de referencia. El Sitio está destinado únicamente a fines informativos y educativos. Todas las herramientas se proporcionan sin costo para los usuarios y están diseñadas para ayudar a los fotógrafos a aprender y comprender conceptos fotográficos."
+      },
+      "noWarranty": {
+        "title": "Sin garantía",
+        "body": "PhotoTools se proporciona \"tal cual\" sin ninguna garantía de ningún tipo, expresa o implícita. No garantizamos que las herramientas, calculadoras o información en este sitio sean precisas, completas o adecuadas para ningún propósito particular. Los resultados de nuestras herramientas son aproximaciones y no deben ser utilizados para decisiones críticas, trabajo profesional o situaciones donde la precisión es esencial. Siempre verifica los cálculos importantes con profesionales cualificados o fuentes autorizadas."
+      },
+      "intellectualProperty": {
+        "title": "Propiedad intelectual",
+        "body": "Todo el contenido de PhotoTools — incluyendo texto, gráficos, diseños de herramientas, código y materiales educativos — es propiedad de PhotoTools a menos que se indique lo contrario. Eres bienvenido a usar las herramientas y materiales de referencia para fines personales y educativos. La reproducción, redistribución o uso comercial del contenido del sitio sin permiso previo por escrito está prohibida."
+      },
+      "acceptableUse": {
+        "title": "Uso aceptable",
+        "intro": "Al usar PhotoTools, te comprometes a no:",
+        "items": {
+          "laws": "Violar cualquier ley o regulación local, nacional o internacional aplicable",
+          "disrupt": "Interrumpir o interferir con el funcionamiento del sitio, sus servidores o redes",
+          "scrape": "Extraer, rastrear o recopilar datos del sitio de forma sistemática sin permiso previo por escrito",
+          "misrepresent": "Falsificar tu identidad o afiliación en comunicaciones con PhotoTools",
+          "commercial": "Usar el sitio para cualquier propósito comercial más allá de la referencia personal sin permiso"
+        }
+      },
+      "thirdPartyContent": {
+        "title": "Contenido de terceros",
+        "body": "PhotoTools muestra anuncios de terceros y puede incluir enlaces a sitios web externos. No somos responsables del contenido, exactitud o prácticas de anunciantes de terceros o sitios enlazados. La inclusión de cualquier anuncio o enlace externo no constituye un respaldo por parte de PhotoTools. Tus interacciones con servicios de terceros se rigen por sus propios términos y políticas de privacidad."
+      },
+      "limitationOfLiability": {
+        "title": "Limitación de responsabilidad",
+        "body": "En la máxima medida permitida por la ley, PhotoTools y sus operadores no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente que surja de tu uso — o incapacidad de usar — el Sitio o sus herramientas. Esto incluye, sin limitación, daños resultantes de la confianza en la información o cálculos proporcionados por PhotoTools. Tu uso del Sitio es completamente bajo tu propio riesgo."
+      },
+      "changesToTerms": {
+        "title": "Cambios en los términos",
+        "body": "Podemos modificar estos Términos de Servicio en cualquier momento. Los términos actualizados se publicarán en esta página con una fecha de vigencia revisada. El uso continuado de PhotoTools después de la publicación de los cambios constituye tu aceptación de los términos revisados. Te recomendamos revisar estos términos periódicamente."
+      },
+      "contact": {
+        "title": "Contacto",
+        "body": "Si tienes preguntas sobre estos Términos de Servicio, por favor contáctanos a través de nuestra <contactLink>página de contacto</contactLink>."
+      }
+    }
+  }
+}

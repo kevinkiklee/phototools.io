@@ -1,0 +1,27 @@
+{
+  "toolUI": {
+    "shutter-speed-visualizer": {
+      "description": "Sieh, wie die Verschlusszeit die Bewegungsunschärfe bei verschiedenen Motiven beeinflusst.",
+      "shutterSpeed": "Verschlusszeit",
+      "shutterSpeedAriaLabel": "Verschlusszeit",
+      "sliderSlow": "Langsam (2s)",
+      "sliderFast": "Schnell (1/4000)",
+      "selectedSpeed": "Gewählte Geschwindigkeit",
+      "motionBlurAriaLabel": "Bewegungsunschärfe-Visualisierung für verschiedene Motive",
+      "verdictFrozen": "Eingefroren",
+      "verdictMostlySharp": "Größtenteils scharf",
+      "verdictSlightBlur": "Leichte Unschärfe",
+      "verdictMotionBlur": "Bewegungsunschärfe",
+      "standingPerson": "Stehende Person",
+      "slowWalk": "Langsames Gehen",
+      "jogging": "Joggen",
+      "running": "Laufen",
+      "cyclist": "Radfahrer",
+      "birdsInFlight": "Vögel im Flug",
+      "carCity": "Auto (Stadt)",
+      "f1Car": "Formel-1-Wagen",
+      "airplaneLanding": "Flugzeug (Landung)",
+      "stationary": "stationär"
+    }
+  }
+}

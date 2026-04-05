@@ -1,0 +1,98 @@
+{
+  "education": {
+    "hyperfocal-simulator": {
+      "beginner": "Die Hyperfokaldistanz ist der nächste Punkt, auf den du fokussieren kannst, während alles bis Unendlich noch akzeptabel scharf bleibt. Wenn du auf die Hyperfokaldistanz fokussierst, erstreckt sich deine Schärfentiefe von der halben Distanz bis Unendlich. Landschaftsfotografen nutzen diese Technik, um die Schärfe vom Vordergrund bis zum Horizont zu maximieren.",
+      "deeper": "Die Hyperfokaldistanz wird aus der Dünnlinsengleichung und dem Konzept des Zerstreuungskreises (CoC) abgeleitet. Sie entspricht der Brennweite zum Quadrat geteilt durch das Produkt aus Blendenzahl und CoC-Durchmesser: H = f² / (N × c). Alles von H/2 bis Unendlich fällt in den akzeptablen Schärfebereich. Der CoC hängt von der Sensorgröße ab — kleinere Sensoren haben einen kleineren akzeptablen CoC, was die Hyperfokaldistanz bei gleicher Brennweite und Blende weiter nach außen schiebt. Deshalb scheinen Crop-Sensor-Kameras eine größere Schärfentiefe zu haben: Der CoC-Standard ist relativ zur Bildfläche enger. In der Praxis bedeutet Beugungsunschärfe bei sehr kleinen Blenden (f/16 und darüber bei den meisten Sensoren), dass es einen Kompromiss zwischen der Maximierung der Schärfentiefe und dem Erhalt der Schärfe pro Pixel gibt.",
+      "keyFactors": {
+        "0": {
+          "label": "Brennweite",
+          "description": "Längere Brennweiten erhöhen die Hyperfokaldistanz dramatisch — sie skaliert mit dem Quadrat der Brennweite."
+        },
+        "1": {
+          "label": "Blende",
+          "description": "Kleinere Blenden (höhere Blendenzahlen) reduzieren die Hyperfokaldistanz und erweitern die Schärfentiefe."
+        },
+        "2": {
+          "label": "Sensorgröße",
+          "description": "Kleinere Sensoren verwenden einen kleineren Zerstreuungskreis, was die Hyperfokaldistanz bei äquivalentem Bildausschnitt erhöht."
+        },
+        "3": {
+          "label": "Zerstreuungskreis",
+          "description": "Der maximale Unschärfefleck-Durchmesser, der als \"akzeptabel scharf\" gilt — typischerweise 0,03 mm für Vollformat."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Für schnelle Landschaftsarbeit fokussiere ungefähr ein Drittel in die Szene hinein — das nähert den Hyperfokalpunkt für die meisten Weitwinkel-Setups an."
+        },
+        "1": {
+          "text": "Vermeide es, über f/16 bei Vollformat oder f/11 bei APS-C hinaus abzublenden. Beugung wird die Schärfentiefe-Gewinne wieder zunichtemachen."
+        },
+        "2": {
+          "text": "Verwende Live-View-Vergrößerung, um den Fokus präzise auf die Hyperfokaldistanz zu setzen, anstatt dich auf die Entfernungsskala des Objektivs zu verlassen, die bei modernen Autofokus-Objektiven oft ungenau ist."
+        }
+      },
+      "tooltips": {
+        "Sensor": {
+          "term": "Sensor",
+          "definition": "Das Kamerasensorformat. Kleinere Sensoren haben einen engeren Zerstreuungskreis-Standard, der alle Hyperfokaldistanzen weiter nach außen verschiebt."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Du fotografierst eine Landschaft mit einem 24-mm-Objektiv an einer Vollformatkamera. Welches Sensorformat solltest du auswählen, um Vollformat-Hyperfokaldistanzen zu sehen?",
+          "hint": "Vollformat ist die Standard-35mm-Sensorgröße.",
+          "successMessage": "Richtig! Vollformat ist die richtige Wahl für einen Standard-35mm-Sensor.",
+          "failureMessage": "Nicht ganz — wähle den Vollformat-Sensor, um einem Standard-35mm-Kameragehäuse zu entsprechen.",
+          "options": {
+            "0": { "label": "Vollformat" },
+            "1": { "label": "APS-C (Nikon/Sony)" },
+            "2": { "label": "Micro Four Thirds" }
+          }
+        },
+        "1": {
+          "scenario": "Betrachte die Tabelle für Vollformat: Was hat eine kürzere Hyperfokaldistanz: 24 mm bei f/8 oder 50 mm bei f/8?",
+          "hint": "Die Hyperfokaldistanz steigt mit dem Quadrat der Brennweite.",
+          "successMessage": "Richtig! Das 24-mm-Objektiv hat eine viel kürzere Hyperfokaldistanz, weil die Brennweite einen quadratischen Zusammenhang hat.",
+          "failureMessage": "Tatsächlich ergeben kürzere Brennweiten immer kürzere Hyperfokaldistanzen. 24 mm gewinnt hier.",
+          "options": {
+            "0": { "label": "24 mm bei f/8" },
+            "1": { "label": "50 mm bei f/8" }
+          }
+        },
+        "2": {
+          "scenario": "Du wanderst mit einer APS-C-Kamera und einem 35-mm-Objektiv. Du möchtest alles von etwa 3 Metern bis Unendlich scharf haben. Welchen Blendenbereich solltest du in der Tabelle suchen, um eine Hyperfokaldistanz nahe 6 Metern zu finden (sodass die Hälfte davon — 3 m — deine Nahgrenze ist)?",
+          "hint": "Denke daran: Nahgrenze = Hyperfokaldistanz / 2. Suche eine Blende, die eine Hyperfokaldistanz um 6 m ergibt.",
+          "successMessage": "Gut gedacht! Du hast richtig erkannt, dass du eine Hyperfokaldistanz von etwa 6 m brauchst, und den richtigen Blendenbereich gefunden.",
+          "failureMessage": "Denke daran, die Nahgrenze entspricht der halben Hyperfokaldistanz. Du brauchst eine Hyperfokaldistanz von etwa 6 m, um eine Nahgrenze von 3 m zu erhalten.",
+          "options": {
+            "0": { "label": "f/2,8 — f/4" },
+            "1": { "label": "f/5,6 — f/8" },
+            "2": { "label": "f/16 — f/22" }
+          }
+        },
+        "3": {
+          "scenario": "Ein Freund wechselt von einer Vollformatkamera zu Micro Four Thirds, verwendet aber weiterhin die gleichen Brennweiten. Er beklagt, dass die Hyperfokaldistanzen anders zu sein scheinen. Warum?",
+          "hint": "Der Zerstreuungskreis wird basierend auf der Sensorgröße berechnet.",
+          "successMessage": "Genau! Der kleinere M43-Sensor verwendet einen kleineren CoC (etwa 0,015 mm vs. 0,03 mm), was die Hyperfokaldistanzen bei gleicher Brennweite und Blende erhöht.",
+          "failureMessage": "Der Schlüsselfaktor ist der Zerstreuungskreis. Kleinere Sensoren erfordern einen engeren CoC-Standard, der die Hyperfokaldistanzen weiter nach außen schiebt.",
+          "options": {
+            "0": { "label": "Die Brennweite des Objektivs ändert sich an Crop-Sensoren" },
+            "1": { "label": "Kleinere Sensoren verwenden einen kleineren Zerstreuungskreis" },
+            "2": { "label": "Micro-Four-Thirds-Kameras haben einen weniger genauen Autofokus" }
+          }
+        },
+        "4": {
+          "scenario": "Du fotografierst Architektur bei 14 mm f/11 an Vollformat. Die Tabelle zeigt eine sehr kurze Hyperfokaldistanz. Solltest du weiter auf f/22 abblenden für noch mehr Schärfentiefe, oder ist f/11 die bessere Wahl?",
+          "hint": "Überlege, was bei sehr kleinen Blenden mit der Bildschärfe passiert.",
+          "successMessage": "Ausgezeichnet! Bei f/11 ist die Beugung an Vollformat minimal, und die Hyperfokaldistanz bei 14 mm ist bereits sehr kurz. Das Abblenden auf f/22 würde das Bild durch Beugung weicher machen, ohne einen nennenswerten Schärfentiefe-Vorteil.",
+          "failureMessage": "Während f/22 auf dem Papier eine kürzere Hyperfokaldistanz ergibt, reduziert Beugungsunschärfe bei f/22 an Vollformat tatsächlich die Gesamtbildschärfe. Bei 14 mm f/11 ist die Hyperfokaldistanz bereits so kurz, dass die zusätzliche Schärfentiefe den Beugungsnachteil nicht wert ist.",
+          "options": {
+            "0": { "label": "Auf f/22 abblenden für maximale Schärfentiefe" },
+            "1": { "label": "Bei f/11 bleiben — Beugung bei f/22 reduziert die Schärfe" }
+          }
+        }
+      }
+    }
+  }
+}

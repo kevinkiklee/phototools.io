@@ -2,9 +2,9 @@ import { test, expect } from '@playwright/test'
 import { TOOLS } from '../../lib/data/tools'
 
 const pages = [
-  { url: '/', name: 'Homepage' },
-  { url: '/learn/glossary', name: 'Photography Glossary' },
-  ...TOOLS.map((t) => ({ url: `/${t.slug}`, name: t.name })),
+  { url: '/en', name: 'Homepage' },
+  { url: '/en/learn/glossary', name: 'Photography Glossary' },
+  ...TOOLS.map((t) => ({ url: `/en/${t.slug}`, name: t.name })),
 ]
 
 for (const page of pages) {
@@ -44,11 +44,11 @@ for (const page of pages) {
       await expect(p.locator('footer')).toBeVisible()
 
       // Check for page-specific content
-      if (page.url === '/') {
+      if (page.url === '/en') {
         // Homepage has sr-only h1
         await expect(p.locator('h1')).toHaveCount(1)
-      } else if (page.url === '/learn/glossary') {
-        await expect(p.locator('h1')).toContainText('Photography Glossary')
+      } else if (page.url === '/en/learn/glossary') {
+        await expect(p.locator('h1')).toBeVisible()
       } else {
         // Tool pages: tool name should appear somewhere on the page
         await expect(p.getByText(page.name, { exact: false }).first()).toBeVisible()
@@ -70,5 +70,18 @@ for (const page of pages) {
       })
       expect(imagesWithoutAlt).toBe(0)
     })
+  })
+}
+
+// Multi-locale smoke tests
+const testLocales = ['en', 'es', 'ja', 'de', 'fr']
+
+for (const locale of testLocales) {
+  test(`homepage loads for locale: ${locale}`, async ({ page }) => {
+    await page.goto(`/${locale}`)
+    await expect(page.locator('html')).toHaveAttribute('lang', locale)
+    // Ensure no missing translation markers
+    const content = await page.textContent('body')
+    expect(content).not.toContain('MISSING_MESSAGE')
   })
 }

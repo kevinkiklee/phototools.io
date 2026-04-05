@@ -1,0 +1,125 @@
+{
+  "education": {
+    "fov-simulator": {
+      "beginner": "Le champ de vision (FOV) désigne la portion de scène que ton appareil capture. Un objectif grand-angle (comme 24 mm) offre une vue large, tandis qu'un téléobjectif (comme 200 mm) se concentre sur une petite tranche. Ce simulateur te permet de comparer jusqu'à quatre objectifs sur différents capteurs, superposés sur des scènes réelles, pour visualiser exactement ce que chaque combinaison capture.",
+      "deeper": {
+        "0": {
+          "heading": "La formule du champ de vision",
+          "text": "Le champ de vision est déterminé par deux facteurs : la longueur focale et la taille du capteur. L'angle de champ horizontal se calcule par 2 × arctan(largeur du capteur / (2 × longueur focale)). Une focale plus courte ou un capteur plus grand produit un angle de vision plus large."
+        },
+        "1": {
+          "heading": "Facteur de recadrage et focale équivalente",
+          "text": "Quand on change de capteur, le concept de « focale équivalente » s'applique : un objectif de 50 mm sur un capteur APS-C (crop 1,5×) cadre comme un 75 mm sur plein format. Le capteur plus petit capture une portion centrale plus étroite du cercle image, recadrant effectivement l'image."
+        },
+        "2": {
+          "heading": "Perspective vs longueur focale",
+          "text": "La perspective — la relation spatiale entre objets proches et lointains — ne dépend que de la position de l'appareil, pas de la longueur focale. Un 50 mm et un 200 mm pris du même endroit montrent une perspective identique, juste des recadrages différents. Se rapprocher avec un grand-angle exagère la profondeur ; reculer avec un téléobjectif la comprime."
+        }
+      },
+      "keyFactors": {
+        "0": {
+          "label": "Longueur focale",
+          "description": "Le contrôle principal du champ de vision. Les focales courtes voient plus de la scène ; les focales longues voient moins mais grossissent les sujets éloignés."
+        },
+        "1": {
+          "label": "Taille du capteur",
+          "description": "Un capteur plus petit recadre le centre du cercle image, réduisant le champ de vision (l'effet du facteur de recadrage)."
+        },
+        "2": {
+          "label": "Orientation",
+          "description": "L'orientation portrait (verticale) montre une tranche plus haute et plus étroite. L'orientation paysage (horizontale) montre la vue plus large et traditionnelle."
+        },
+        "3": {
+          "label": "Contexte de la scène",
+          "description": "Différentes scènes (paysages urbains, intérieurs, nature) t'aident à comprendre comment les changements de champ de vision se ressentent dans divers contextes réels."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Ajoute deux objectifs et bascule entre un capteur crop et un plein format sur l'un d'eux pour voir instantanément l'effet du facteur de recadrage. Un 35 mm sur APS-C cadre presque comme un 50 mm sur plein format."
+        },
+        "1": {
+          "text": "Utilise le sélecteur de scène pour vérifier la couverture pour des situations de prise de vue spécifiques — une scène de paysage urbain montre si ton grand-angle est assez large pour capturer un bâtiment de l'autre côté de la rue."
+        },
+        "2": {
+          "text": "Quand tu prépares un achat d'objectif, ajoute ton objectif actuel comme Objectif A et celui que tu envisages comme Objectif B. La superposition montre exactement combien tu verrais en plus ou en moins."
+        }
+      },
+      "tooltips": {
+        "Focal Length": {
+          "term": "Longueur focale",
+          "definition": "La distance (en mm) du centre optique de l'objectif au capteur lorsque la mise au point est à l'infini. Plus courte = champ de vision plus large."
+        },
+        "Sensor": {
+          "term": "Capteur",
+          "definition": "Le format de capteur pour cet objectif. Différentes tailles de capteur recadrent le cercle image différemment, modifiant le champ de vision effectif."
+        },
+        "Scene": {
+          "term": "Scène",
+          "definition": "L'image de référence en arrière-plan. Choisis une scène correspondant au type de photographie que tu prépares pour mieux juger la couverture de l'objectif."
+        },
+        "Orientation": {
+          "term": "Orientation",
+          "definition": "Bascule entre l'orientation paysage (horizontale) et portrait (verticale). Le rectangle de champ de vision pivote en conséquence."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Tu veux capturer une vue large d'un panorama urbain. Quelle longueur focale donne le champ de vision le plus large ?",
+          "hint": "Les valeurs de longueur focale plus basses donnent une vue plus large.",
+          "successMessage": "Correct ! Un objectif de 24 mm voit beaucoup plus de la scène qu'un 70 mm. Les objectifs grand-angle ont des focales courtes.",
+          "failureMessage": "Les focales plus courtes donnent des champs de vision plus larges. Le 24 mm est un objectif grand-angle qui capture beaucoup plus du panorama que le 70 mm.",
+          "options": {
+            "0": { "label": "24 mm" },
+            "1": { "label": "70 mm" },
+            "2": { "label": "200 mm" }
+          }
+        },
+        "1": {
+          "scenario": "Configure l'Objectif A en 50 mm sur Plein Format. Quel type de champ de vision donne ce « nifty fifty » ?",
+          "hint": "Le 50 mm sur plein format est appelé objectif « normal » car il se rapproche de la vision humaine.",
+          "successMessage": "Exact ! Un 50 mm sur plein format est le classique objectif « normal » — son champ de vision d'environ 46 degrés se rapproche de ce que l'œil humain perçoit naturellement.",
+          "failureMessage": "Un 50 mm sur plein format est considéré comme un objectif « normal » car son champ de vision (~46 degrés) correspond étroitement à la perception humaine confortable.",
+          "options": {
+            "0": { "label": "Ultra grand-angle" },
+            "1": { "label": "Normal / standard" },
+            "2": { "label": "Téléobjectif" }
+          }
+        },
+        "2": {
+          "scenario": "Ajoute deux objectifs : l'Objectif A est un 35 mm sur APS-C (Nikon/Sony), et l'Objectif B est un 50 mm sur Plein Format. Compare les deux superpositions de champ de vision. Que remarques-tu ?",
+          "hint": "35 mm multiplié par le facteur de recadrage APS-C de 1,5 donne...",
+          "successMessage": "Exactement ! 35 mm sur APS-C (crop 1,5×) donne un champ de vision équivalent à 52,5 mm sur plein format — presque identique au 50 mm FF. Les superpositions ont presque la même taille.",
+          "failureMessage": "35 mm × facteur de crop 1,5 = 52,5 mm équivalent. C'est presque identique au 50 mm sur plein format, ce qui explique pourquoi les superpositions sont presque identiques.",
+          "options": {
+            "0": { "label": "Ils ont des champs de vision presque identiques" },
+            "1": { "label": "L'objectif APS-C montre une vue beaucoup plus large" },
+            "2": { "label": "L'objectif Plein Format montre une vue beaucoup plus large" }
+          }
+        },
+        "3": {
+          "scenario": "Tu photographies l'intérieur d'une petite pièce. Tu as un objectif de 24 mm. Verras-tu plus de la pièce sur Plein Format ou APS-C ?",
+          "hint": "Un capteur plus petit capture une portion centrale plus étroite du cercle image de l'objectif.",
+          "successMessage": "Correct ! Le Plein Format voit plus car le capteur plus grand capture une portion plus large du cercle image du 24 mm. Sur APS-C, le même 24 mm cadre comme un ~36 mm.",
+          "failureMessage": "Le Plein Format capture plus de la scène. Le capteur plus grand utilise davantage le cercle image de l'objectif, donnant un champ de vision effectif plus large.",
+          "options": {
+            "0": { "label": "Plein Format — le capteur plus grand voit plus" },
+            "1": { "label": "APS-C — le capteur crop voit plus" },
+            "2": { "label": "Les deux voient la même chose — c'est la focale qui compte" }
+          }
+        },
+        "4": {
+          "scenario": "Un photographe animalier utilise un 200 mm sur Micro Four Thirds. Quelle focale équivalente plein format cela produit-il, et quel est le compromis par rapport à un vrai 400 mm sur plein format ?",
+          "hint": "Le M43 a un facteur de crop de 2×. Pense à la profondeur de champ et aux différences de taille de capteur.",
+          "successMessage": "Excellent ! 200 mm sur M43 (crop 2×) donne un champ de vision équivalent à 400 mm. Le compromis : bien que le cadrage corresponde à un 400 mm FF, la profondeur de champ correspond à l'objectif de 200 mm (PdC plus grande), et le capteur plus petit capte moins de lumière totale, ce qui signifie plus de bruit à haut ISO. L'avantage est un objectif beaucoup plus petit, léger et abordable.",
+          "failureMessage": "200 mm × crop 2,0 = 400 mm équivalent FOV. Mais ce n'est pas identique à un 400 mm sur FF : tu obtiens plus de profondeur de champ (basée sur la vraie focale de 200 mm), moins de captation de lumière (capteur plus petit), et plus de bruit à haut ISO. L'avantage est un équipement nettement plus petit et léger.",
+          "options": {
+            "0": { "label": "400 mm équivalent — même FOV mais PdC plus grande, plus de bruit, équipement plus petit/léger" },
+            "1": { "label": "400 mm équivalent — identique en tout point à un 400 mm sur plein format" },
+            "2": { "label": "200 mm équivalent — le facteur de crop n'affecte pas le FOV" }
+          }
+        }
+      }
+    }
+  }
+}

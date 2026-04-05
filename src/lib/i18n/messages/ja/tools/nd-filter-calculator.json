@@ -1,0 +1,12 @@
+{
+  "toolUI": {
+    "nd-filter-calculator": {
+      "baseShutterSpeed": "基本シャッタースピード",
+      "ndFilter": "NDフィルター",
+      "resultingShutterSpeed": "結果のシャッタースピード",
+      "stopsAdded": "追加段数",
+      "quickReference": "クイックリファレンス",
+      "tableBase": "基本"
+    }
+  }
+}

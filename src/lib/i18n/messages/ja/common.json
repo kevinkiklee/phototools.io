@@ -1,0 +1,101 @@
+{
+  "common": {
+    "nav": {
+      "tools": "ツール",
+      "glossary": "用語集",
+      "closeMenu": "メニューを閉じる",
+      "comingSoon": "近日公開",
+      "categories": {
+        "visualizer": "ビジュアライザー",
+        "calculator": "計算ツール",
+        "reference": "リファレンス",
+        "file-tool": "ファイルツール"
+      }
+    },
+    "footer": {
+      "glossary": "用語集",
+      "about": "概要",
+      "contact": "お問い合わせ",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約",
+      "cookieSettings": "Cookie設定"
+    },
+    "theme": {
+      "switchToLight": "ライトモードに切り替える",
+      "switchToDark": "ダークモードに切り替える"
+    },
+    "actions": {
+      "copyImage": "画像をコピー",
+      "reset": "リセット",
+      "copyLink": "リンクをコピー",
+      "share": "共有",
+      "embed": "埋め込み"
+    },
+    "toast": {
+      "linkCopied": "リンクをコピーしました！",
+      "imageCopied": "画像をコピーしました！",
+      "failedToCopy": "コピーに失敗しました",
+      "copied": "コピーしました！"
+    },
+    "learn": {
+      "title": "学ぶ",
+      "openPanel": "学習パネルを開く",
+      "collapsePanel": "学習パネルを閉じる",
+      "whatIsThis": "これは何？",
+      "howItWorks": "仕組み",
+      "keyFactors": "主な要因",
+      "proTip": "プロのコツ",
+      "challenge": "チャレンジ",
+      "hint": "ヒント: {hint}",
+      "completed": "完了",
+      "checkAnswer": "回答を確認",
+      "nextChallenge": "次のチャレンジ",
+      "tryAgain": "もう一度",
+      "resetAll": "すべてリセット",
+      "resetAllChallenges": "すべてのチャレンジをリセット",
+      "challengeNumber": "チャレンジ {number}"
+    },
+    "share": {
+      "title": "共有と埋め込み",
+      "closeModal": "共有モーダルを閉じる",
+      "directLink": "ダイレクトリンク",
+      "markdown": "Markdown（Reddit、GitHub）",
+      "bbcode": "BBCode（フォーラム）",
+      "htmlEmbed": "HTML埋め込み",
+      "copy": "コピー",
+      "copied": "コピー済み"
+    },
+    "draft": {
+      "banner": "プレビュー — このツールはまだ公開されていません"
+    },
+    "fileUpload": {
+      "dropPrompt": "画像をここにドロップするか、クリックして選択",
+      "tapPrompt": "タップして写真を選択",
+      "privacy": "あなたの写真はデバイスから外部に送信されません",
+      "selectedFile": "選択中のファイル: {fileName}。クリックして別の画像を選択",
+      "defaultLabel": "あなたの写真"
+    },
+    "scene": {
+      "label": "シーン:",
+      "yourPhoto": "あなたの写真",
+      "removePhoto": "写真を削除",
+      "uploadPhoto": "写真をアップロード"
+    },
+    "controls": {
+      "focalLength": "焦点距離",
+      "clickToEnterValue": "クリックして値を入力",
+      "decrease": "減少",
+      "increase": "増加"
+    },
+    "dof": {
+      "depthOfField": "被写界深度: {totalDoF}（{nearFocus} から {farFocus} まで）",
+      "infinity": "無限遠"
+    },
+    "ad": {
+      "closeAd": "広告を閉じる"
+    },
+    "tooltip": {
+      "infoLabel": "情報: {term}"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "education": {
+    "shutter-speed-visualizer": {
+      "beginner": "La guía de velocidad de obturación te ayuda a encontrar la velocidad de obturación más lenta que puedes usar mientras obtienes una foto nítida a pulso. Si tu velocidad de obturación es demasiado lenta, la vibración de la cámara por tus manos desenfocará la imagen. La velocidad mínima segura depende de tu distancia focal, si tienes estabilización de imagen y qué tan estables son tus manos.",
+      "deeper": "La clásica \"regla recíproca\" establece que para fotos nítidas a pulso, tu velocidad de obturación debe ser al menos 1/(distancia focal) segundos — así que un objetivo de 200 mm necesita al menos 1/200s. En cámaras con sensor de recorte, debes usar la distancia focal equivalente (por ejemplo, 200 mm en un recorte 1.5x = 1/300s). La estabilización moderna en el cuerpo (IBIS) y la estabilización óptica (OIS) pueden darte 3-7 pasos extra de margen a pulso, lo que significa que un objetivo de 200 mm estabilizado podría dar fotos nítidas a 1/15s o incluso más lento. Sin embargo, la estabilización solo compensa la vibración de la cámara, no el movimiento del sujeto. Una persona caminando hacia ti a 1/15s seguirá borrosa independientemente de la estabilización. Para sujetos en movimiento, debes seleccionar una velocidad de obturación basada en la velocidad y distancia del sujeto, no solo en la distancia focal.",
+      "keyFactors": {
+        "0": {
+          "label": "Distancia focal",
+          "description": "Las distancias focales más largas amplifican la vibración de la cámara. La regla recíproca (1/distancia focal) es el punto de partida para determinar la velocidad de obturación mínima."
+        },
+        "1": {
+          "label": "Estabilización de imagen",
+          "description": "La OIS (en el objetivo) generalmente proporciona 2-4 pasos de beneficio. El IBIS (en el cuerpo) proporciona 3-5 pasos. La combinación de OIS+IBIS puede lograr 5-7 pasos en algunos sistemas."
+        },
+        "2": {
+          "label": "Movimiento del sujeto",
+          "description": "Los sujetos estáticos solo requieren velocidad suficiente para contrarrestar la vibración de la cámara. Los sujetos en movimiento necesitan velocidades más rápidas independientemente de la estabilización: caminando (~1/125s), corriendo (~1/500s), vehículos (~1/1000s+)."
+        },
+        "3": {
+          "label": "Tamaño del sensor (factor de recorte)",
+          "description": "Las cámaras con sensor de recorte multiplican efectivamente la distancia focal para la regla recíproca. Un objetivo de 50 mm en un recorte 1.5x se comporta como 75 mm, así que necesitas al menos 1/75s."
+        }
+      },
+      "tips": {
+        "0": {
+          "text": "Apóyate contra una pared, pega los codos al cuerpo y exhala lentamente antes de presionar el obturador. Una buena técnica puede darte 1-2 pasos extra de estabilidad más allá de la regla recíproca."
+        },
+        "1": {
+          "text": "Al fotografiar personas, el movimiento del sujeto generalmente dicta tu velocidad mínima, no tu distancia focal. Incluso con un objetivo gran angular y estabilización, un niño corriendo requiere al menos 1/500s."
+        },
+        "2": {
+          "text": "Si constantemente disparas en poca luz, invierte en un cuerpo de cámara con IBIS. La capacidad de disparar a pulso a 1/2s con un objetivo gran angular abre posibilidades que ningún rendimiento de ISO alto puede igualar."
+        }
+      },
+      "tooltips": {
+        "focalLength": {
+          "term": "Distancia focal",
+          "definition": "La distancia focal del objetivo en milímetros. Afecta directamente la velocidad de obturación mínima segura a través de la regla recíproca: 1/(distancia focal) para formato completo, ajustada por factor de recorte para sensores más pequeños."
+        },
+        "sensor": {
+          "term": "Tamaño del sensor",
+          "definition": "El tamaño del sensor de la cámara, que determina el factor de recorte. APS-C (1.5x) y Micro Cuatro Tercios (2x) multiplican la distancia focal efectiva, requiriendo velocidades de obturación más rápidas para el mismo objetivo."
+        },
+        "stabilization": {
+          "term": "Estabilización de imagen",
+          "definition": "Tecnología que compensa la vibración de la cámara. La OIS (Estabilización Óptica de Imagen) está en el objetivo, el IBIS (Estabilización de Imagen en el Cuerpo) está en el cuerpo de la cámara. Pueden trabajar juntos para máximo beneficio."
+        },
+        "subjectMotion": {
+          "term": "Movimiento del sujeto",
+          "definition": "Qué tan rápido se mueve tu sujeto. Los sujetos estáticos solo necesitan velocidad de obturación suficiente para contrarrestar la vibración de la cámara. Los sujetos en movimiento necesitan velocidades más rápidas según su velocidad y dirección respecto a la cámara."
+        },
+        "recommendedShutterSpeed": {
+          "term": "Velocidad de obturación recomendada",
+          "definition": "La velocidad de obturación mínima calculada para tu combinación específica de distancia focal, estabilización, sensor y movimiento del sujeto. Disparar a esta velocidad o más rápido debería producir resultados nítidos."
+        }
+      },
+      "challenges": {
+        "0": {
+          "scenario": "Estás disparando con un objetivo de 100 mm en una cámara de formato completo sin estabilización de imagen. Tu sujeto está quieto. ¿Cuál es la velocidad de obturación mínima recomendada?",
+          "hint": "La regla recíproca: velocidad de obturación mínima = 1 / distancia focal.",
+          "successMessage": "¡Correcto! La regla recíproca dice 1/100s para un objetivo de 100 mm en formato completo. Este es el punto de partida clásico para nitidez a pulso.",
+          "failureMessage": "Para un objetivo de 100 mm en formato completo sin estabilización, la regla recíproca te da 1/100s como la velocidad de obturación mínima segura para sujetos estáticos.",
+          "options": {
+            "0": { "label": "1/50s" },
+            "1": { "label": "1/100s" },
+            "2": { "label": "1/200s" },
+            "3": { "label": "1/500s" }
+          }
+        },
+        "1": {
+          "scenario": "Estás usando un objetivo de 50 mm en una cámara APS-C (factor de recorte 1.5x) sin estabilización. ¿Qué velocidad de obturación mínima deberías usar para un sujeto quieto?",
+          "hint": "Multiplica la distancia focal por el factor de recorte antes de aplicar la regla recíproca.",
+          "successMessage": "¡Correcto! 50 mm x 1.5 = 75 mm equivalente, así que necesitas al menos 1/75s. En la práctica, redondear a 1/80s es la opción segura.",
+          "failureMessage": "En APS-C, el factor de recorte (1.5x) significa que un objetivo de 50 mm se comporta como uno de 75 mm. La regla recíproca da 1/75s como velocidad mínima.",
+          "options": {
+            "0": { "label": "1/50s" },
+            "1": { "label": "1/75s (redondear a 1/80s)" },
+            "2": { "label": "1/100s" },
+            "3": { "label": "1/125s" }
+          }
+        },
+        "2": {
+          "scenario": "Tienes un objetivo de 200 mm con OIS (4 pasos de estabilización) en un cuerpo de formato completo con IBIS (5 pasos). Juntos proporcionan unos 6 pasos de estabilización combinada. Para un sujeto quieto, ¿cuál es la velocidad de obturación mínima aproximada?",
+          "hint": "Comienza con la regla recíproca (1/200s) y luego aplica 6 pasos de beneficio de estabilización.",
+          "successMessage": "¡Correcto! Empezando en 1/200s y ganando 6 pasos: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Aproximadamente 1/3 de segundo a pulso con un objetivo de 200 mm — ¡impresionante pero alcanzable con la estabilización moderna!",
+          "failureMessage": "Desde 1/200s, cada paso de estabilización duplica el tiempo utilizable: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Seis pasos de estabilización con un objetivo de 200 mm dan aproximadamente 1/3s.",
+          "options": {
+            "0": { "label": "1/30s" },
+            "1": { "label": "1/8s" },
+            "2": { "label": "~1/3s" },
+            "3": { "label": "1 segundo" }
+          }
+        },
+        "3": {
+          "scenario": "Estás fotografiando a un amigo trotando en un parque usando un objetivo de 35 mm en una cámara de formato completo con IBIS. Tu IBIS te da 5 pasos de estabilización, así que la regla recíproca sola te permitiría disparar a aproximadamente 1 segundo. ¿Deberías usar 1 segundo?",
+          "hint": "La estabilización compensa la vibración de la cámara, no el movimiento del sujeto.",
+          "successMessage": "¡Correcto! La estabilización solo contrarresta la vibración de la cámara. Una persona trotando necesita al menos 1/250s para congelar su movimiento, independientemente de lo buena que sea tu estabilización.",
+          "failureMessage": "La estabilización no puede congelar un sujeto en movimiento. Para una persona trotando, necesitas al menos 1/250s para evitar el desenfoque de movimiento, incluso si tu cámara pudiera mantenerse estable a 1 segundo.",
+          "options": {
+            "0": { "label": "Sí — el IBIS se encarga de todo el movimiento" },
+            "1": { "label": "No — usar al menos 1/250s para congelar al corredor" },
+            "2": { "label": "No — usar 1/60s como compromiso" },
+            "3": { "label": "Depende del ajuste de ISO" }
+          }
+        },
+        "4": {
+          "scenario": "Quieres crear una toma de barrido de un ciclista — el ciclista debe estar nítido mientras el fondo muestra estelas de desenfoque de movimiento. Estás usando un objetivo de 70 mm en formato completo. ¿Qué rango de velocidad de obturación deberías probar?",
+          "hint": "El barrido usa intencionalmente una velocidad de obturación lenta mientras sigues al sujeto. Demasiado rápida congela todo; demasiado lenta desenfoca incluso al sujeto.",
+          "successMessage": "¡Correcto! Para hacer barrido de un ciclista, 1/30s a 1/60s es el punto ideal. Es lo suficientemente lento para desenfocar el fondo en estelas mientras tu movimiento de seguimiento mantiene al ciclista relativamente nítido. Requiere práctica — dispara en modo ráfaga y espera muchos descartes.",
+          "failureMessage": "El barrido requiere una velocidad de obturación lo suficientemente lenta para desenfocar el fondo pero lo suficientemente rápida para que tu seguimiento mantenga al sujeto nítido. Para un ciclista, 1/30s a 1/60s es el rango típico.",
+          "options": {
+            "0": { "label": "1/1000s a 1/2000s" },
+            "1": { "label": "1/250s a 1/500s" },
+            "2": { "label": "1/30s a 1/60s" },
+            "3": { "label": "1s a 2s" }
+          }
+        }
+      }
+    }
+  }
+}

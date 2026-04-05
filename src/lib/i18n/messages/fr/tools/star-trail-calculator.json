@@ -1,0 +1,33 @@
+{
+  "toolUI": {
+    "star-trail-calculator": {
+      "rule500": "Règle des 500",
+      "ruleNPF": "Règle NPF",
+      "recommendation": "Recommandation",
+      "recommendationText": "Utilise la règle NPF ({npf}s) pour une netteté au pixel près. La règle des 500 ({r500}s) est une estimation rapide mais peut montrer du filé sur les capteurs haute résolution.",
+      "shootingTime": "Temps de prise de vue",
+      "exposure": "Exposition",
+      "displayMode": "Mode d'affichage",
+      "modeStarTrails": "Filé d'étoiles",
+      "modeSingleShot": "Photo unique",
+      "stacking": "Empilement",
+      "exposurePerFrame": "Exposition / image (sec)",
+      "exposurePerFrameDesc": "Vitesse d'obturation pour chaque image individuelle",
+      "frames": "Images",
+      "framesDesc": "Nombre total de photos à empiler",
+      "gapSec": "Intervalle (sec)",
+      "gapDesc": "Délai entre les images pour l'écriture du buffer",
+      "camera": "Appareil",
+      "sensor": "Capteur",
+      "resolutionMP": "Résolution (MP)",
+      "apertureLabel": "Ouverture",
+      "latitude": "Latitude",
+      "position": "Position",
+      "useMyLocation": "Utiliser ma position",
+      "latitudeLabel": "Latitude :",
+      "equator": "Équateur 0°",
+      "mid45": "Moyen 45°",
+      "arctic70": "Arctique 70°"
+    }
+  }
+}
