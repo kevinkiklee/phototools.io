@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { DOF_SCENE_PRESETS } from './dofCalculator'
+import { DOF_SCENE_PRESETS } from './dofSimulator'
 
 describe('DOF_SCENE_PRESETS', () => {
   it('contains 4 scene presets', () => {
