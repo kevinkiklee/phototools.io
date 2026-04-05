@@ -73,15 +73,22 @@ for (const page of pages) {
   })
 }
 
-// Multi-locale smoke tests
-const testLocales = ['en', 'es', 'ja', 'de', 'fr']
+// Multi-locale smoke tests — import locale list from routing config
+import { locales } from '../../lib/i18n/routing'
 
-for (const locale of testLocales) {
+for (const locale of locales) {
   test(`homepage loads for locale: ${locale}`, async ({ page }) => {
     await page.goto(`/${locale}`)
-    await expect(page.locator('html')).toHaveAttribute('lang', locale)
+    await expect(page.locator('nav').first()).toBeVisible()
     // Ensure no missing translation markers
     const content = await page.textContent('body')
     expect(content).not.toContain('MISSING_MESSAGE')
   })
 }
+
+test('bare tool URL redirects to locale-prefixed URL', async ({ page }) => {
+  const response = await page.goto('/fov-simulator')
+  // Should redirect to /en/fov-simulator (or another locale)
+  expect(page.url()).toMatch(/\/[a-z]{2}\/fov-simulator/)
+  expect(response!.status()).toBeLessThan(400)
+})

@@ -16,6 +16,7 @@ import { FRAME_PRESETS, ASPECT_RATIOS, TEXTURES } from '@/lib/data/frameStudio'
 import { TEXTURE_PRESETS } from '@/lib/math/frame-texture'
 import { WB_PRESETS } from '@/lib/data/whiteBalance'
 import { HARMONY_KEYS } from '@/lib/data/colorSchemeGenerator'
+import { locales, defaultLocale, localeNames, localeOpenGraph } from '@/lib/i18n/routing'
 
 describe('FOV calculations with real sensor data', () => {
   it('all sensors produce valid FOV at all focal lengths', () => {
@@ -285,5 +286,31 @@ describe('Aspect ratio consistency', () => {
     expect(original?.h).toBe(0)
     expect(free?.w).toBe(0)
     expect(free?.h).toBe(0)
+  })
+})
+
+describe('i18n routing config consistency', () => {
+  it('defaultLocale is in the locales list', () => {
+    expect(locales).toContain(defaultLocale)
+  })
+
+  it('every locale has a display name', () => {
+    for (const locale of locales) {
+      expect(localeNames[locale]).toBeTruthy()
+    }
+  })
+
+  it('every locale has an OpenGraph locale', () => {
+    for (const locale of locales) {
+      expect(localeOpenGraph[locale]).toMatch(/^[a-z]{2}_[A-Z]{2}$/)
+    }
+  })
+
+  it('localeNames and localeOpenGraph cover exactly the locales list', () => {
+    const nameKeys = Object.keys(localeNames).sort()
+    const ogKeys = Object.keys(localeOpenGraph).sort()
+    const sortedLocales = [...locales].sort()
+    expect(nameKeys).toEqual(sortedLocales)
+    expect(ogKeys).toEqual(sortedLocales)
   })
 })
