@@ -194,12 +194,20 @@ export function ExportDialog({
 
       const baseName = originalFile.name.replace(/\.[^.]+$/, '')
       const ext = originalFile.name.match(/\.[^.]+$/)?.[0] ?? '.png'
-      const url = URL.createObjectURL(blob)
-      const a = document.createElement('a')
-      a.href = url
-      a.download = `${baseName}_edited${ext}`
-      a.click()
-      URL.revokeObjectURL(url)
+      const fileName = `${baseName}_edited${ext}`
+      const file = new File([blob], fileName, { type: originalMimeType })
+
+      // iOS Safari doesn't support anchor downloads — use native share sheet
+      if (navigator.share && navigator.canShare?.({ files: [file] })) {
+        try { await navigator.share({ files: [file] }) } catch { /* user cancelled */ }
+      } else {
+        const url = URL.createObjectURL(blob)
+        const a = document.createElement('a')
+        a.href = url
+        a.download = fileName
+        a.click()
+        setTimeout(() => URL.revokeObjectURL(url), 10000)
+      }
       onClose()
     } finally {
       setExporting(false)
