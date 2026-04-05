@@ -96,6 +96,18 @@
     },
     "tooltip": {
       "infoLabel": "Info: {term}"
+    },
+    "notFound": {
+      "title": "Pagina niet gevonden",
+      "message": "De pagina die je zoekt bestaat niet of is verplaatst.",
+      "backHome": "Terug naar home",
+      "popularTools": "Populaire tools"
+    },
+    "breadcrumb": {
+      "home": "Home"
+    },
+    "relatedTools": {
+      "title": "Gerelateerde tools"
     }
   }
 }

@@ -1,32 +1,30 @@
 'use client'
 
 import { usePathname } from '@/lib/i18n/navigation'
+import { useTranslations } from 'next-intl'
 import { getToolBySlug } from '@/lib/data/tools'
-import type { ToolCategory } from '@/lib/types'
-
-const CATEGORY_LABELS: Record<ToolCategory, string> = {
-  visualizer: 'Visualizers',
-  calculator: 'Calculators',
-  reference: 'Reference',
-  'file-tool': 'File Tools',
-}
 
 export function JsonLd() {
   const pathname = usePathname()
-  
+  const toolsT = useTranslations('tools')
+  const catT = useTranslations('common.nav.categories')
+
   if (!pathname) return null
 
   {
     const slug = pathname.slice(1) // remove leading /
     if (!slug || slug.includes('/')) return null
     const tool = getToolBySlug(slug)
-    
+
     if (tool) {
+      const translatedName = toolsT(`${slug}.name`)
+      const translatedDesc = toolsT(`${slug}.description`)
+
       const softwareApp = {
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
-        name: tool.name,
-        description: tool.description,
+        name: translatedName,
+        description: translatedDesc,
         applicationCategory: 'MultimediaApplication',
         operatingSystem: 'Any',
         offers: {
@@ -50,13 +48,13 @@ export function JsonLd() {
           {
             '@type': 'ListItem',
             position: 2,
-            name: CATEGORY_LABELS[tool.category],
+            name: catT(tool.category),
             item: `https://www.phototools.io/#${tool.category}`,
           },
           {
             '@type': 'ListItem',
             position: 3,
-            name: tool.name,
+            name: translatedName,
             item: `https://www.phototools.io/${tool.slug}`,
           },
         ],

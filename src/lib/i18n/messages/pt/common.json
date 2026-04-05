@@ -96,6 +96,18 @@
     },
     "tooltip": {
       "infoLabel": "Info: {term}"
+    },
+    "notFound": {
+      "title": "Página não encontrada",
+      "message": "A página que você procura não existe ou foi movida.",
+      "backHome": "Voltar ao início",
+      "popularTools": "Ferramentas populares"
+    },
+    "breadcrumb": {
+      "home": "Início"
+    },
+    "relatedTools": {
+      "title": "Ferramentas relacionadas"
     }
   }
 }

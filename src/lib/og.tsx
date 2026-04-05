@@ -24,12 +24,14 @@ const CATEGORY_LABELS: Record<string, string> = {
   'file-tool': 'File Tool',
 }
 
-export async function generateOgImage(slug: string) {
+export async function generateOgImage(slug: string, overrides?: { name?: string, description?: string }) {
   const tool = getToolBySlug(slug)
   if (!tool) return new Response('Not Found', { status: 404 })
 
   const emoji = TOOL_EMOJIS[slug] ?? '📷'
   const categoryLabel = CATEGORY_LABELS[tool.category] ?? tool.category
+  const displayName = overrides?.name ?? tool.name
+  const displayDescription = overrides?.description ?? tool.description
 
   return new ImageResponse(
     (
@@ -56,10 +58,10 @@ export async function generateOgImage(slug: string) {
               marginBottom: 24,
             }}
           >
-            {tool.name}
+            {displayName}
           </div>
           <div style={{ fontSize: 24, color: '#888888', lineHeight: 1.5 }}>
-            {tool.description}
+            {displayDescription}
           </div>
           <div style={{ display: 'flex', marginTop: 28 }}>
             <span

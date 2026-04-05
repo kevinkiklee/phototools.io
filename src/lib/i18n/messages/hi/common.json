@@ -96,6 +96,18 @@
     },
     "tooltip": {
       "infoLabel": "जानकारी: {term}"
+    },
+    "notFound": {
+      "title": "पेज नहीं मिला",
+      "message": "आप जो पेज खोज रहे हैं वह मौजूद नहीं है या स्थानांतरित हो गया है।",
+      "backHome": "होम पर वापस जाएं",
+      "popularTools": "लोकप्रिय टूल"
+    },
+    "breadcrumb": {
+      "home": "होम"
+    },
+    "relatedTools": {
+      "title": "संबंधित टूल"
     }
   }
 }

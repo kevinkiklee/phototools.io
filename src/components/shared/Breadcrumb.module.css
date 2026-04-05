@@ -1,0 +1,41 @@
+.nav {
+  padding: 4px 0;
+  margin-bottom: 2px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0;
+  font-size: 11px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.separator {
+  color: var(--text-tertiary);
+  margin: 0 2px;
+}
+
+.link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+.category {
+  color: var(--text-secondary);
+}
+
+.current {
+  color: var(--text-tertiary);
+}

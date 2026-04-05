@@ -96,6 +96,18 @@
     },
     "tooltip": {
       "infoLabel": "정보: {term}"
+    },
+    "notFound": {
+      "title": "페이지를 찾을 수 없습니다",
+      "message": "찾으시는 페이지가 존재하지 않거나 이동되었습니다.",
+      "backHome": "홈으로 돌아가기",
+      "popularTools": "인기 도구"
+    },
+    "breadcrumb": {
+      "home": "홈"
+    },
+    "relatedTools": {
+      "title": "관련 도구"
     }
   }
 }

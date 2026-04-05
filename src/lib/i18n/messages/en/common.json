@@ -96,6 +96,18 @@
     },
     "tooltip": {
       "infoLabel": "Info: {term}"
+    },
+    "notFound": {
+      "title": "Page Not Found",
+      "message": "The page you're looking for doesn't exist or has been moved.",
+      "backHome": "Back to Home",
+      "popularTools": "Popular Tools"
+    },
+    "breadcrumb": {
+      "home": "Home"
+    },
+    "relatedTools": {
+      "title": "Related Tools"
     }
   }
 }

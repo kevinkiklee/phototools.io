@@ -4,17 +4,13 @@ import { useState, useMemo, useCallback, useRef } from 'react'
 import { useTranslations } from 'next-intl'
 import { GLOSSARY } from '@/lib/data/glossary'
 import { getLiveTools } from '@/lib/data/tools'
+import { Link } from '@/lib/i18n/navigation'
 import styles from './Glossary.module.css'
 
 const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
 
 const LIVE_TOOLS = getLiveTools()
 const LIVE_SLUGS = new Set(LIVE_TOOLS.map((t) => t.slug))
-
-function getToolName(slug: string): string {
-  const tool = LIVE_TOOLS.find((t) => t.slug === slug)
-  return tool?.name ?? slug
-}
 
 interface ResolvedEntry {
   id: string
@@ -25,6 +21,7 @@ interface ResolvedEntry {
 
 export function Glossary() {
   const t = useTranslations('glossary')
+  const toolsT = useTranslations('tools')
 
   const entries: ResolvedEntry[] = useMemo(
     () =>
@@ -109,9 +106,9 @@ export function Glossary() {
               <div className={styles.termName}>{entry.term}</div>
               <div className={styles.termDef}>{entry.definition}</div>
               {entry.relatedTool && LIVE_SLUGS.has(entry.relatedTool) && (
-                <a className={styles.toolLink} href={`/${entry.relatedTool}`}>
-                  {t('tryTool', { toolName: getToolName(entry.relatedTool) })} &rarr;
-                </a>
+                <Link className={styles.toolLink} href={`/${entry.relatedTool}`}>
+                  {t('tryTool', { toolName: toolsT(`${entry.relatedTool}.name`) })} &rarr;
+                </Link>
               )}
             </div>
           ))}

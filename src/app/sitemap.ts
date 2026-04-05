@@ -2,6 +2,9 @@ import { MetadataRoute } from 'next'
 import { getLiveTools } from '@/lib/data/tools'
 import { locales, defaultLocale } from '@/lib/i18n/routing'
 
+// Update this date when tools are added or site content changes significantly
+const LAST_CONTENT_UPDATE = new Date('2026-04-05')
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.phototools.io'
 
@@ -22,7 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return allPaths.flatMap(({ path, changeFrequency, priority }) =>
     locales.map((locale) => ({
       url: `${baseUrl}/${locale}${path}`,
-      lastModified: new Date(),
+      lastModified: LAST_CONTENT_UPDATE,
       changeFrequency,
       priority,
       alternates: {

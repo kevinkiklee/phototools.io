@@ -59,12 +59,19 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages()
 
   const siteT = await getTranslations({ locale, namespace: 'metadata.site' })
-  const jsonLd = {
+  const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'PhotoTools',
     url: 'https://www.phototools.io',
     description: siteT('description'),
+  }
+  const orgJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'PhotoTools',
+    url: 'https://www.phototools.io',
+    logo: 'https://www.phototools.io/icon.svg',
   }
 
   return (
@@ -72,7 +79,11 @@ export default async function LocaleLayout({ children, params }: Props) {
       <AdScripts />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
       />
       <NextIntlClientProvider messages={messages}>
         <JsonLd />

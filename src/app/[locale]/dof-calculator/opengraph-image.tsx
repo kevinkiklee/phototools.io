@@ -4,6 +4,14 @@ export const alt = 'PhotoTools'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
-export default async function Image() {
-  return generateOgImage('dof-calculator')
+export default async function Image({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  let name: string | undefined
+  let description: string | undefined
+  try {
+    const messages = (await import(`@/lib/i18n/messages/${locale}/tools.json`)).default
+    name = messages?.tools?.['dof-calculator']?.name
+    description = messages?.tools?.['dof-calculator']?.description
+  } catch { /* fallback to English in og.tsx */ }
+  return generateOgImage('dof-calculator', { name, description })
 }

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { getSkeletonBySlug, isChallengeComplete, clearChallengeProgressForTool } from '@/lib/data/education'
 import { ChallengeCard, ChallengeNavDot } from './ChallengeCard'
+import { RelatedTools } from './RelatedTools'
 import styles from './LearnPanel.module.css'
 
 interface LearnPanelProps {
@@ -139,6 +140,7 @@ export function LearnPanel({ slug, closable = false }: LearnPanelProps) {
           </div>
         </ChallengeCard>
       )}
+      <RelatedTools currentSlug={slug} />
     </aside>
   )
 }
