@@ -7,8 +7,6 @@ import { getLiveTools } from '@/lib/data/tools'
 import { Link } from '@/lib/i18n/navigation'
 import styles from './Glossary.module.css'
 
-const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
-
 const LIVE_TOOLS = getLiveTools()
 const LIVE_SLUGS = new Set(LIVE_TOOLS.map((t) => t.slug))
 
@@ -57,7 +55,9 @@ export function Glossary() {
     return groups
   }, [filtered])
 
-  const activeLetters = useMemo(() => new Set(Object.keys(grouped)), [grouped])
+  // Derive section keys from actual data — supports Latin and non-Latin scripts
+  const sectionKeys = useMemo(() => Object.keys(grouped).sort(), [grouped])
+  const activeLetters = useMemo(() => new Set(sectionKeys), [sectionKeys])
 
   const scrollToLetter = useCallback((letter: string) => {
     sectionRefs.current[letter]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -75,26 +75,22 @@ export function Glossary() {
       />
 
       <div className={styles.alphabet}>
-        {LETTERS.map((letter) => {
-          const active = activeLetters.has(letter)
-          return (
-            <button
-              key={letter}
-              className={`${styles.letterBtn} ${!active ? styles.letterBtnDisabled : ''}`}
-              onClick={() => active && scrollToLetter(letter)}
-              disabled={!active}
-            >
-              {letter}
-            </button>
-          )
-        })}
+        {sectionKeys.map((letter) => (
+          <button
+            key={letter}
+            className={styles.letterBtn}
+            onClick={() => scrollToLetter(letter)}
+          >
+            {letter}
+          </button>
+        ))}
       </div>
 
       {filtered.length === 0 && (
         <div className={styles.noResults}>{t('noResults')}</div>
       )}
 
-      {LETTERS.filter((l) => grouped[l]).map((letter) => (
+      {sectionKeys.map((letter) => (
         <div
           key={letter}
           className={styles.section}
