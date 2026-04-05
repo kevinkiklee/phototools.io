@@ -1,5 +1,5 @@
 import { Link } from '@/lib/i18n/navigation'
-import { getTranslations } from 'next-intl/server'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { getVisibleTools, getToolStatus } from '@/lib/data/tools'
 import { ToolIcon } from '@/components/shared/ToolIcon'
 import { AnimatedGrid, AnimatedItem } from '@/components/shared/AnimatedGrid'
@@ -9,7 +9,9 @@ import styles from './page.module.css'
 
 const CATEGORY_KEYS: ToolCategory[] = ['file-tool', 'visualizer', 'calculator', 'reference']
 
-export default async function HomePage() {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations('home')
   const toolsT = await getTranslations('tools')
   const tools = getVisibleTools()
@@ -66,10 +68,10 @@ export default async function HomePage() {
                   <div className={`${styles.card} ${styles.cardDisabled}`}>
                     <div className={styles.cardHeader}>
                       <ToolIcon slug={tool.slug} className={styles.cardIcon} />
-                      <h3 className={styles.cardName}>{tool.name}</h3>
+                      <h3 className={styles.cardName}>{toolsT(`${tool.slug}.name`)}</h3>
                       <span className={styles.cardBadge}>{t('comingSoon')}</span>
                     </div>
-                    <span className={styles.cardDesc}>{tool.description}</span>
+                    <span className={styles.cardDesc}>{toolsT(`${tool.slug}.description`)}</span>
                   </div>
                 </AnimatedItem>
               )

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { getTranslations } from 'next-intl/server'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { getAlternates } from '@/lib/i18n/metadata'
 import { PrivacySection, SectionParagraph } from './PrivacySection'
 
@@ -12,7 +12,9 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default async function PrivacyPage() {
+export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations('privacy')
 
   const jsonLd = {

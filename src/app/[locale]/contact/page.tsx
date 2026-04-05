@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { getTranslations } from 'next-intl/server'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { getAlternates } from '@/lib/i18n/metadata'
 import { ContactForm } from './_components/ContactForm'
 
@@ -12,13 +12,15 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default async function ContactPage() {
+export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations('contact')
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    name: 'Contact PhotoTools',
+    name: t('title'),
     url: 'https://www.phototools.io/contact',
   }
 
