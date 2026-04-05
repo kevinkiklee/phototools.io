@@ -21,6 +21,7 @@
 }
 
 .toggle {
+  position: relative;
   display: flex;
   gap: 0;
   border: 1px solid var(--border);
@@ -32,29 +33,38 @@
   flex: 1;
   padding: 8px 12px;
   min-height: 44px;
-  background: var(--bg-primary);
+  background: transparent;
   color: var(--text-secondary);
   border: none;
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
   font-family: inherit;
-  transition: background 0.15s, color 0.15s;
+  position: relative;
+  z-index: 1;
+  transition: color var(--duration-fast) var(--ease-out);
 }
 
 .btn:not(:last-child) {
   border-right: 1px solid var(--border);
 }
 
-.btn:hover {
-  background: var(--bg-surface);
+.btn:hover:not(.btnActive) {
+  color: var(--text-primary);
+  background: var(--surface-1);
 }
 
 .btnActive {
-  background: var(--accent);
   color: var(--text-on-accent);
 }
 
-.btnActive:hover {
+.indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   background: var(--accent);
+  border-radius: 7px;
+  transition: left var(--duration-normal) var(--ease-out),
+              width var(--duration-normal) var(--ease-out);
+  z-index: 0;
 }
