@@ -4,7 +4,6 @@ import { useState, useCallback, type RefObject } from 'react'
 import { toast } from 'sonner'
 import { useTranslations } from 'next-intl'
 import { ShareModal } from './ShareModal'
-import { Breadcrumb } from './Breadcrumb'
 import { copyLinkToClipboard, copyCanvasToClipboard } from '@/lib/utils/export'
 import styles from './ToolActions.module.css'
 
@@ -53,12 +52,7 @@ export function ToolActions({ toolName, toolSlug, onReset, canvasRef, imageFilen
 
   return (
     <>
-      {!hideTitle && (
-        <>
-          <Breadcrumb toolSlug={toolSlug} />
-          <h2 className={styles.title}>{resolvedName}</h2>
-        </>
-      )}
+      {!hideTitle && <h2 className={styles.title}>{resolvedName}</h2>}
       <div className={styles.actions}>
         {canvasRef && (
           <button className={styles.btn} data-tooltip={t('actions.copyImage')} onClick={handleCopyImage} aria-label={t('actions.copyImage')}>
