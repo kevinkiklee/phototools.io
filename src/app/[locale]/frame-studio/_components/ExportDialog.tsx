@@ -197,16 +197,28 @@ export function ExportDialog({
       const fileName = `${baseName}_edited${ext}`
       const file = new File([blob], fileName, { type: originalMimeType })
 
-      // iOS Safari doesn't support anchor downloads — use native share sheet
-      if (navigator.share && navigator.canShare?.({ files: [file] })) {
-        try { await navigator.share({ files: [file] }) } catch { /* user cancelled */ }
-      } else {
+      // Try Web Share API first (iOS Safari doesn't support anchor downloads)
+      let shared = false
+      if (typeof navigator.share === 'function') {
+        try {
+          await navigator.share({ files: [file] })
+          shared = true
+        } catch (e) {
+          // AbortError = user cancelled share sheet (still counts as handled)
+          if (e instanceof DOMException && e.name === 'AbortError') shared = true
+          // TypeError = files not supported → fall through to anchor download
+        }
+      }
+
+      if (!shared) {
         const url = URL.createObjectURL(blob)
         const a = document.createElement('a')
         a.href = url
         a.download = fileName
+        document.body.appendChild(a)
         a.click()
-        setTimeout(() => URL.revokeObjectURL(url), 10000)
+        document.body.removeChild(a)
+        setTimeout(() => URL.revokeObjectURL(url), 30000)
       }
       onClose()
     } finally {
