@@ -1,0 +1,72 @@
+/* Aperture slider with tick labels and optional sweet-spot marker */
+
+.sliderWrap {
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.slider {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  accent-color: var(--accent);
+}
+
+/* Sweet-spot marker on the track */
+.sweetSpot {
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  box-shadow: 0 0 4px rgba(34, 197, 94, 0.6);
+  z-index: 1;
+}
+
+/* Tick label row beneath slider */
+.tickLabels {
+  display: flex;
+  position: relative;
+  height: 16px;
+  margin-top: 2px;
+  pointer-events: none;
+}
+
+.tickLabel {
+  position: absolute;
+  font-size: 9px;
+  color: var(--text-muted);
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  pointer-events: auto;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  line-height: 1;
+}
+
+.tickLabelActive {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Mobile sizing */
+@media (max-width: 1023px) {
+  .slider {
+    height: 44px;
+  }
+
+  .tickLabel {
+    font-size: 10px;
+  }
+
+  .sweetSpot {
+    width: 10px;
+    height: 10px;
+  }
+}

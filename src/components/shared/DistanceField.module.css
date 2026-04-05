@@ -1,0 +1,20 @@
+/* Distance slider with logarithmic scale and click-to-edit value */
+
+.sliderWrap {
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.slider {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  accent-color: var(--accent);
+}
+
+/* Mobile sizing */
+@media (max-width: 1023px) {
+  .slider {
+    height: 44px;
+  }
+}

@@ -4,6 +4,8 @@ import styles from './ControlPanel.module.css'
 
 export { styles as controlPanelStyles }
 export { FocalLengthField } from './FocalLengthField'
+export { ApertureField } from './ApertureField'
+export { DistanceField, formatDistance } from './DistanceField'
 
 /* ── Panel container ── */
 
