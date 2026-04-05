@@ -41,7 +41,7 @@ phototools.io/
 │   ├── globals.css                 # Global styles + design tokens
 │   ├── tools/
 │   │   ├── fov-simulator/page.tsx     # Each tool has its own route
-│   │   ├── dof-calculator/page.tsx
+│   │   ├── dof-simulator/page.tsx
 │   │   ├── exposure-simulator/page.tsx
 │   │   └── ...                     # 14 tool routes total
 │   └── learn/
@@ -51,7 +51,7 @@ phototools.io/
 │   ├── shared/                     # LearnPanel, InfoTooltip, ShareModal, ToolActions, FileDropZone, DraftBanner
 │   └── tools/                      # One directory per tool + shared/
 │       ├── fov-simulator/
-│       ├── dof-calculator/
+│       ├── dof-simulator/
 │       ├── shared/                 # Components shared across tools
 │       └── ...
 ├── lib/

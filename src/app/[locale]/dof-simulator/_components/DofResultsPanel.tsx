@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl'
 import { InfoTooltip } from '@/components/shared/InfoTooltip'
 import { getSkeletonBySlug } from '@/lib/data/education'
-import { formatDistance } from './dof-helpers'
+import { formatDistance } from '@/components/shared/DistanceField'
 import s from './DofSimulator.module.css'
 
 interface DofResultsPanelProps {
