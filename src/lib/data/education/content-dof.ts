@@ -4,7 +4,7 @@ export const DOF_CALCULATOR_SKELETON: ToolEducationSkeleton = {
   slug: 'dof-simulator',
   keyFactorCount: 4,
   tipCount: 3,
-  tooltipKeys: ['focalLength', 'aperture', 'subjectDistance', 'sensor', 'nearFocus', 'farFocus', 'totalDoF', 'hyperfocal'],
+  tooltipKeys: ['focalLength', 'aperture', 'subjectDistance', 'sensor', 'nearFocus', 'farFocus', 'totalDoF', 'hyperfocal', 'backgroundBlur', 'isolationScore', 'bokehShape', 'diffractionWarning', 'coc', 'orientation'],
   challenges: [
     {
       id: 'dof-portrait-blur',
