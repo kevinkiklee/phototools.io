@@ -23,7 +23,7 @@ PhotoTools is an educational photography application — free calculators, simul
 - `npm run dev` — start dev server with Turbopack at `http://localhost:3000`
 - `npm run build` — production build via `next build`
 - `npm run start` — serve production build locally
-- `npm test` — run Vitest tests (353 tests across 25 files)
+- `npm test` — run Vitest tests (420 tests across 34 files)
 - `npm run test:watch` — run tests in watch mode
 - `npm run test:e2e` — run Playwright e2e tests (requires a build first)
 - `npm run test:e2e:ui` — run Playwright tests with interactive UI
@@ -176,7 +176,7 @@ GoogleAdSense integration managed via `src/lib/ads.ts` (configuration and featur
 - **DRY**: Avoid duplicating logic, styles, constants, or markup. Extract shared utilities, components, and data modules. When adding a feature, check if similar patterns already exist in the codebase and reuse them.
 - **200-line file limit**: Keep all `.ts`/`.tsx` files under 200 lines (test files exempt). If a file grows beyond this, break it into smaller focused modules (e.g. extract hooks, sub-components, helpers, constants, or types into separate files).
 - **Test files** co-located next to source files (`*.test.ts`)
-- **25 test files, 353 tests** covering math, data, education, ads, and component integration
+- **34 test files, 420 tests** covering math, data, education, ads, and component integration
 - **Privacy Sandbox is deprecated** — do not discuss, recommend, or implement any Privacy Sandbox APIs (Topics, Attribution Reporting, Protected Audience, etc.)
 
 ## E2E Testing (Playwright)
@@ -187,11 +187,13 @@ Playwright integration tests live in `src/e2e/` and run against a production bui
 
 ```
 src/e2e/
-  smoke/all-pages.spec.ts   Parameterized smoke tests for all pages (200 status, no console errors, content rendering, no desktop scroll)
-  tools/fov-simulator.spec.ts   FOV Simulator interaction tests
-  tools/color-scheme.spec.ts    Color Scheme Generator interaction tests
-  tools/sensor-size.spec.ts     Sensor Size Comparison interaction tests
-  fixtures/test-image.jpg       Minimal JPEG fixture for upload tests
+  smoke/all-pages.spec.ts        Parameterized smoke tests for all pages (200 status, no console errors, content rendering, no desktop scroll)
+  tools/fov-simulator.spec.ts    FOV Simulator interaction tests
+  tools/color-scheme.spec.ts     Color Scheme Generator interaction tests
+  tools/sensor-size.spec.ts      Sensor Size Comparison interaction tests
+  tools/star-trail.spec.ts       Star Trail Calculator interaction tests
+  tools/white-balance.spec.ts    White Balance Visualizer interaction tests
+  fixtures/test-image.jpg        Minimal JPEG fixture for upload tests
 ```
 
 ### Running
