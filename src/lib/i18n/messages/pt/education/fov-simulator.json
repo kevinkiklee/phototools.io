@@ -1,7 +1,7 @@
 {
   "education": {
     "fov-simulator": {
-      "beginner": "Campo de visão (CdV) é o quanto de uma cena sua câmera captura. Uma lente grande angular (como 24mm) vê uma visão ampla, enquanto uma teleobjetiva (como 200mm) se estreita em uma pequena fatia. Este simulador permite comparar até quatro lentes em diferentes sensores, sobrepostas em cenas do mundo real, para que você visualize exatamente o que cada combinação captura.",
+      "beginner": "Campo de visão (CdV) é o quanto de uma cena sua câmera captura. Uma lente grande angular (como 24mm) vê uma visão ampla, enquanto uma teleobjetiva (como 200mm) foca em uma parte menor da cena. Este simulador permite comparar até quatro lentes em diferentes sensores, sobrepostas em cenas do mundo real, para que você visualize exatamente o que cada combinação captura.",
       "deeper": {
         "0": {
           "heading": "A Fórmula do CdV",

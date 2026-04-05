@@ -1,7 +1,7 @@
 {
   "education": {
     "fov-simulator": {
-      "beginner": "El campo de visión (FOV) es cuánto de una escena captura tu cámara. Un objetivo gran angular (como 24 mm) ve una vista amplia, mientras que un teleobjetivo (como 200 mm) se concentra en una porción pequeña. Este simulador te permite comparar hasta cuatro objetivos en diferentes sensores, superpuestos sobre escenas del mundo real, para que visualices exactamente lo que captura cada combinación.",
+      "beginner": "El campo de visión (FOV) es cuánto de una escena captura tu cámara. Un objetivo gran angular (como 24 mm) ve una vista amplia, mientras que un teleobjetivo (como 200 mm) captura un ángulo más estrecho. Este simulador te permite comparar hasta cuatro objetivos en diferentes sensores, superpuestos sobre escenas del mundo real, para que visualices exactamente lo que captura cada combinación.",
       "deeper": {
         "0": {
           "heading": "La fórmula del FOV",

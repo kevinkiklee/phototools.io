@@ -4,12 +4,12 @@
       "tools": "Strumenti",
       "glossary": "Glossario",
       "closeMenu": "Chiudi menu",
-      "comingSoon": "Presto",
+      "comingSoon": "In arrivo",
       "categories": {
         "visualizer": "Visualizzatori",
         "calculator": "Calcolatori",
-        "reference": "Riferimento",
-        "file-tool": "Strumenti File"
+        "reference": "Riferimenti",
+        "file-tool": "Strumenti per i file"
       }
     },
     "footer": {
