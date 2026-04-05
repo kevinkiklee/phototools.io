@@ -72,7 +72,7 @@ export function FovSimulator() {
 
   const lensControls = (hideTitle?: boolean) => (
     <>
-      <ToolActions toolName="FOV Simulator" toolSlug="fov-simulator"
+      <ToolActions toolSlug="fov-simulator"
         onReset={() => { dispatch({ type: 'RESET' }); setOverlayOffsets({}) }}
         canvasRef={canvasRef} imageFilename="fov-comparison.png" hideTitle={hideTitle} />
       {hideTitle && <div className={styles.mobileDivider} />}

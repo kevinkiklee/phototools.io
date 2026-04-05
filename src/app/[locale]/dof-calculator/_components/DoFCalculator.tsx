@@ -65,7 +65,7 @@ export function DoFCalculator() {
     <div className={s.app}>
       <div className={s.appBody}>
         <div className={s.sidebar}>
-          <ToolActions toolName="Depth of Field Calculator" toolSlug="dof-calculator" />
+          <ToolActions toolSlug="dof-calculator" />
           <DoFSettingsPanel {...settingsProps} />
           <DoFResultsPanel {...resultsProps} />
         </div>

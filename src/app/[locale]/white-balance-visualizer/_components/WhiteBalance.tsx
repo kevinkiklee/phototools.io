@@ -143,7 +143,7 @@ export function WhiteBalance() {
     <div className={wb.app}>
       <div className={wb.appBody}>
         <div className={wb.sidebar}>
-          <ToolActions toolName="White Balance Visualizer" toolSlug="white-balance-visualizer" canvasRef={canvasRef} imageFilename="white-balance.png" />
+          <ToolActions toolSlug="white-balance-visualizer" canvasRef={canvasRef} imageFilename="white-balance.png" />
           <ControlsPanel {...controlsProps} />
         </div>
 

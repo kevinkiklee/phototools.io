@@ -113,7 +113,7 @@ export function FrameStudio() {
       <div className={styles.app}>
         <div className={styles.appBody}>
           <aside className={styles.sidebar}>
-            <ToolActions toolName={tool?.name ?? 'Frame Studio'} toolSlug={SLUG} onReset={handleDeletePhoto} />
+            <ToolActions toolSlug={SLUG} onReset={handleDeletePhoto} />
             <FrameSidebar {...sidebarProps} />
           </aside>
 
@@ -153,7 +153,7 @@ export function FrameStudio() {
 
         <div className={styles.mobileControls}>
           <div className={styles.toolsSection}>
-            <ToolActions toolName={tool?.name ?? 'Frame Studio'} toolSlug={SLUG} onReset={handleDeletePhoto} hideTitle />
+            <ToolActions toolSlug={SLUG} onReset={handleDeletePhoto} hideTitle />
           </div>
           <div className={styles.mobileDivider} />
           <FrameSidebar {...sidebarProps} />

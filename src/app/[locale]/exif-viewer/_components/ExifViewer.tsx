@@ -83,7 +83,7 @@ export function ExifViewer() {
     <div className={styles.app}>
       <div className={styles.appBody}>
         <div className={styles.sidebar}>
-          <ToolActions toolName="EXIF Viewer" toolSlug="exif-viewer" canvasRef={exportCanvasRef} imageFilename="exif-data.png" onBeforeCopyImage={handleBuildExport} />
+          <ToolActions toolSlug="exif-viewer" canvasRef={exportCanvasRef} imageFilename="exif-data.png" onBeforeCopyImage={handleBuildExport} />
           <ControlsPanel onFile={handleFile} onSample={() => loadFromUrl(SAMPLE_PHOTO)} />
         </div>
 

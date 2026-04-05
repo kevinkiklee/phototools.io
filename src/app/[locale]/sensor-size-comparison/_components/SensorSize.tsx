@@ -144,7 +144,7 @@ export function SensorSize() {
     <div className={ss.app}>
       <div className={ss.appBody}>
         <div className={ss.sidebar}>
-          <ToolActions toolName="Sensor Size Comparison" toolSlug="sensor-size-comparison" canvasRef={canvasRef} imageFilename="sensor-comparison.png" onReset={() => {
+          <ToolActions toolSlug="sensor-size-comparison" canvasRef={canvasRef} imageFilename="sensor-comparison.png" onReset={() => {
             setVisible(new Set(DEFAULT_VISIBLE_IDS)); setMode('overlay'); setResolution(24)
           }} />
           <SensorControlsPanel {...controlsProps} />

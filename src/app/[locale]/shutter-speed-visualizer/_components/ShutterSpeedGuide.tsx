@@ -15,7 +15,7 @@ export function ShutterSpeedGuide() {
     <div className={ss.app}>
       <div className={ss.appBody}>
         <div className={ss.sidebar}>
-          <ToolActions toolName="Shutter Speed Visualizer" toolSlug="shutter-speed-visualizer" />
+          <ToolActions toolSlug="shutter-speed-visualizer" />
           <ShutterControlsPanel shutterIdx={shutterIdx} onShutterChange={setShutterIdx} />
         </div>
 

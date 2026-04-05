@@ -105,7 +105,7 @@ export function NdFilterCalculator() {
     <div className={nd.app}>
       <div className={nd.appBody}>
         <div className={nd.sidebar}>
-          <ToolActions toolName="ND Filter Calculator" toolSlug="nd-filter-calculator" />
+          <ToolActions toolSlug="nd-filter-calculator" />
           <ControlsPanel {...controlsProps} />
         </div>
 

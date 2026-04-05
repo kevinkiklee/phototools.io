@@ -37,7 +37,7 @@ export function ColorSidebar(props: ColorSidebarProps) {
 
   return (
     <aside className={styles.sidebar}>
-      <ToolActions toolName="Color Scheme Generator" toolSlug="color-scheme-generator" canvasRef={exportCanvasRef} imageFilename="color-scheme.png" onBeforeCopyImage={buildExportCanvas} />
+      <ToolActions toolSlug="color-scheme-generator" canvasRef={exportCanvasRef} imageFilename="color-scheme.png" onBeforeCopyImage={buildExportCanvas} />
 
       <div className={styles.field}>
         <span className={styles.label}>{t('colorScheme')}</span>

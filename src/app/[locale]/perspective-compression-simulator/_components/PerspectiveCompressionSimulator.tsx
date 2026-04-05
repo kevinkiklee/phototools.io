@@ -28,7 +28,6 @@ export function PerspectiveCompressionSimulator() {
       <div className={styles.appBody}>
         <aside className={styles.sidebar}>
           <ToolActions
-            toolName="Perspective Compression Simulator"
             toolSlug="perspective-compression-simulator"
             onReset={() => dispatch({ type: 'RESET' })}
           />

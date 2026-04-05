@@ -84,7 +84,7 @@ export function HyperfocalSimulator() {
     <div className={s.app}>
       <div className={s.appBody}>
         <div className={s.sidebar}>
-          <ToolActions toolName="Hyperfocal Distance Simulator" toolSlug="hyperfocal-simulator" />
+          <ToolActions toolSlug="hyperfocal-simulator" />
           <HyperfocalSettingsPanel {...settingsProps} />
           <div className={s.panel}>
             <HyperfocalResults result={result} distance={distance} isAtHyperfocal={isAtHyperfocal} />

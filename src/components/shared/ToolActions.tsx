@@ -8,7 +8,7 @@ import { copyLinkToClipboard, copyCanvasToClipboard } from '@/lib/utils/export'
 import styles from './ToolActions.module.css'
 
 interface ToolActionsProps {
-  toolName: string
+  toolName?: string
   toolSlug: string
   onReset?: () => void
   canvasRef?: RefObject<HTMLCanvasElement | null>
@@ -19,6 +19,8 @@ interface ToolActionsProps {
 
 export function ToolActions({ toolName, toolSlug, onReset, canvasRef, imageFilename, onBeforeCopyImage, hideTitle }: ToolActionsProps) {
   const t = useTranslations('common')
+  const toolsT = useTranslations('tools')
+  const resolvedName = toolName ?? toolsT(`${toolSlug}.name`)
   const [showShare, setShowShare] = useState(false)
 
   const handleCopyLink = useCallback(async () => {
@@ -37,7 +39,7 @@ export function ToolActions({ toolName, toolSlug, onReset, canvasRef, imageFilen
     if (navigator.share) {
       try {
         await navigator.share({
-          title: toolName,
+          title: resolvedName,
           url: window.location.href,
         })
       } catch {
@@ -46,11 +48,11 @@ export function ToolActions({ toolName, toolSlug, onReset, canvasRef, imageFilen
       return
     }
     setShowShare(true)
-  }, [toolName])
+  }, [resolvedName])
 
   return (
     <>
-      {!hideTitle && <h2 className={styles.title}>{toolName}</h2>}
+      {!hideTitle && <h2 className={styles.title}>{resolvedName}</h2>}
       <div className={styles.actions}>
         {canvasRef && (
           <button className={styles.btn} data-tooltip={t('actions.copyImage')} onClick={handleCopyImage} aria-label={t('actions.copyImage')}>
@@ -92,7 +94,7 @@ export function ToolActions({ toolName, toolSlug, onReset, canvasRef, imageFilen
 
       {showShare && (
         <ShareModal
-          toolName={toolName}
+          toolName={resolvedName}
           toolSlug={toolSlug}
           onClose={() => setShowShare(false)}
         />

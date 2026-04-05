@@ -97,7 +97,7 @@ export function ExposureSimulator() {
     <div className={sim.app}>
       <div className={sim.appBody}>
         <div className={sim.sidebar}>
-          <ToolActions toolName="Exposure Triangle Simulator" toolSlug="exposure-simulator" />
+          <ToolActions toolSlug="exposure-simulator" />
           <ExposureControlsPanel {...controlsProps} />
         </div>
 

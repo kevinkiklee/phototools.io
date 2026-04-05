@@ -115,7 +115,6 @@ export function StarTrailCalculator() {
       <div className={css.appBody}>
         <div className={css.sidebar}>
           <ToolActions
-            toolName="Star Trail Calculator"
             toolSlug="star-trail-calculator"
             canvasRef={exportCanvasRef}
             imageFilename="star-trail-calculator.png"
