@@ -17,7 +17,7 @@
       "description": "Bereken nabijscherpte, verscherpte en totale scherptediepte"
     },
     "hyperfocal-simulator": {
-      "name": "Hyperfocale-afstandsimulator",
+      "name": "Hyperfocale afstand simulator",
       "description": "Leer waar je moet scherpstellen voor maximale scherpte van voorgrond tot oneindig"
     },
     "shutter-speed-visualizer": {
@@ -33,7 +33,7 @@
       "description": "Bereken de maximale belichting voor scherpe sterren of plan sterrenspooropnames"
     },
     "perspective-compression-simulator": {
-      "name": "Perspectivische-compressiesimulator",
+      "name": "Perspectief compressie simulator",
       "description": "Bekijk hoe brandpuntsafstand de achtergrondcompressie beïnvloedt"
     },
     "white-balance-visualizer": {
