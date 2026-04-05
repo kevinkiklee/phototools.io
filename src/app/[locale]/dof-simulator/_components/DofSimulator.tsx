@@ -14,7 +14,7 @@ import { distanceToSlider, sliderToDistance } from './dof-helpers'
 import { DOF_SCENE_PRESETS } from '@/lib/data/dofSimulator'
 import { DoFSettingsPanel } from './DoFSettingsPanel'
 import { DoFResultsPanel } from './DoFResultsPanel'
-import s from './DoFCalculator.module.css'
+import s from './DofSimulator.module.css'
 
 const PARAM_SCHEMA = {
   fl: intParam(50, 8, 800),
@@ -24,8 +24,8 @@ const PARAM_SCHEMA = {
   scene: strParam<SceneKey>('portrait', ['portrait', 'landscape', 'street', 'macro']),
 }
 
-export function DoFCalculator() {
-  const t = useTranslations('toolUI.dof-calculator')
+export function DofSimulator() {
+  const t = useTranslations('toolUI.dof-simulator')
   const [focalLength, setFocalLength] = useState(50)
   const [aperture, setAperture] = useState(2.8)
   const [sliderVal, setSliderVal] = useState(distanceToSlider(3))
@@ -65,7 +65,7 @@ export function DoFCalculator() {
     <div className={s.app}>
       <div className={s.appBody}>
         <div className={s.sidebar}>
-          <ToolActions toolSlug="dof-calculator" />
+          <ToolActions toolSlug="dof-simulator" />
           <DoFSettingsPanel {...settingsProps} />
           <DoFResultsPanel {...resultsProps} />
         </div>
@@ -89,7 +89,7 @@ export function DoFCalculator() {
           </div>
         </div>
         <div className={s.desktopOnly}>
-          <LearnPanel slug="dof-calculator" />
+          <LearnPanel slug="dof-simulator" />
         </div>
       </div>
 
@@ -99,7 +99,7 @@ export function DoFCalculator() {
       </div>
 
       <div className={s.mobileOnly}>
-        <LearnPanel slug="dof-calculator" />
+        <LearnPanel slug="dof-simulator" />
       </div>
     </div>
   )

@@ -194,7 +194,6 @@ const ICON_MAP: Record<string, (props: IconProps) => React.JSX.Element> = {
   'color-scheme-generator': ColorHarmony,
   'exposure-simulator': ExposureSimulator,
   'dof-simulator': DofCalculator,
-  'dof-calculator': DofCalculator,
   'focus-stacking-calculator': FocusStackingCalc,
   'equivalent-settings-calculator': EquivalentSettingsCalc,
   'hyperfocal-simulator': HyperfocalSimulator,

@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl'
 import { formatDistance } from './dof-helpers'
-import s from './DoFCalculator.module.css'
+import s from './DofSimulator.module.css'
 
 interface ResultsPanelProps {
   nearFocus: number
@@ -12,7 +12,7 @@ interface ResultsPanelProps {
 }
 
 export function DoFResultsPanel({ nearFocus, farFocus, totalDoF, hyperfocal }: ResultsPanelProps) {
-  const t = useTranslations('toolUI.dof-calculator')
+  const t = useTranslations('toolUI.dof-simulator')
   return (
     <div className={s.panel}>
       <h3 className={s.panelTitle}>{t('results')}</h3>

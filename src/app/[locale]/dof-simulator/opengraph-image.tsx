@@ -10,8 +10,8 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
   let description: string | undefined
   try {
     const messages = (await import(`@/lib/i18n/messages/${locale}/tools.json`)).default
-    name = messages?.tools?.['dof-calculator']?.name
-    description = messages?.tools?.['dof-calculator']?.description
+    name = messages?.tools?.['dof-simulator']?.name
+    description = messages?.tools?.['dof-simulator']?.description
   } catch { /* fallback to English in og.tsx */ }
-  return generateOgImage('dof-calculator', { name, description })
+  return generateOgImage('dof-simulator', { name, description })
 }

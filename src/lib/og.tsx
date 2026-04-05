@@ -6,7 +6,7 @@ const TOOL_EMOJIS: Record<string, string> = {
   'fov-simulator': '🔭',
   'color-scheme-generator': '🎨',
   'exposure-simulator': '📸',
-  'dof-calculator': '🌿',
+  'dof-simulator': '🌿',
   'hyperfocal-simulator': '🎯',
   'shutter-speed-visualizer': '⏱️',
   'nd-filter-calculator': '🕶️',

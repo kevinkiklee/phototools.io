@@ -6,7 +6,7 @@ import { SENSORS } from '@/lib/data/sensors'
 import { FOCAL_LENGTHS } from '@/lib/data/focalLengths'
 import { APERTURES } from '@/lib/data/camera'
 import { formatDistance } from './dof-helpers'
-import s from './DoFCalculator.module.css'
+import s from './DofSimulator.module.css'
 
 interface SettingsPanelProps {
   focalLength: number
@@ -24,7 +24,7 @@ export function DoFSettingsPanel({
   focalLength, aperture, sliderVal, sensorId, distance,
   onFocalLengthChange, onApertureChange, onSliderChange, onSensorChange,
 }: SettingsPanelProps) {
-  const t = useTranslations('toolUI.dof-calculator')
+  const t = useTranslations('toolUI.dof-simulator')
   const sensorsT = useTranslations('common.sensors')
   return (
     <div className={s.panel}>
