@@ -1,36 +1,43 @@
-node_modules
-.next
-out
-.superpowers
-docs/superpowers
-.claude
-coverage
-dist
-build
-.github
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build artifacts
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+.env*.local
 
 # Editor / OS
 .DS_Store
 *.swp
 *.swo
-.idea
-.vscode
-*.local
-
-# Environment
-.env
-.env.*
-
-# Build artifacts
-*.tsbuildinfo
+.idea/
+.vscode/
 
 # Playwright
 playwright-report/
 test-results/
 .playwright-mcp/
 
+# Vercel
+.vercel/
 
-# Source examples (not published)
-examples/
-.vercel
-.env*.local
+# Claude / Superpowers
+.claude/
+.superpowers/
+docs/superpowers/
+
+# Scratch files
+*.png
+!src/**/*.png
+!public/**/*.png
+*.json.bak
