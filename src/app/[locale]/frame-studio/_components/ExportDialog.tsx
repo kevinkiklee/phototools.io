@@ -180,7 +180,7 @@ export function ExportDialog({
         ctx.restore()
       }
 
-      const quality = (originalMimeType === 'image/png') ? undefined : 0.92
+      const quality = (originalMimeType === 'image/png') ? undefined : 1
       let blob = await new Promise<Blob>((resolve) => {
         canvas.toBlob(
           (b) => resolve(b!),
