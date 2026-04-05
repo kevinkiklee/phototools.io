@@ -12,8 +12,8 @@ import { DoFCanvas } from '@/components/shared/DoFCanvas'
 import type { SceneKey } from '@/components/shared/DoFCanvas'
 import { distanceToSlider, sliderToDistance } from './dof-helpers'
 import { DOF_SCENE_PRESETS } from '@/lib/data/dofSimulator'
-import { DoFSettingsPanel } from './DoFSettingsPanel'
-import { DoFResultsPanel } from './DoFResultsPanel'
+import { DofSettingsPanel } from './DofSettingsPanel'
+import { DofResultsPanel } from './DofResultsPanel'
 import s from './DofSimulator.module.css'
 
 const PARAM_SCHEMA = {
@@ -66,8 +66,8 @@ export function DofSimulator() {
       <div className={s.appBody}>
         <div className={s.sidebar}>
           <ToolActions toolSlug="dof-simulator" />
-          <DoFSettingsPanel {...settingsProps} />
-          <DoFResultsPanel {...resultsProps} />
+          <DofSettingsPanel {...settingsProps} />
+          <DofResultsPanel {...resultsProps} />
         </div>
 
         <div className={s.canvasArea}>
@@ -94,8 +94,8 @@ export function DofSimulator() {
       </div>
 
       <div className={s.mobileControls}>
-        <DoFSettingsPanel {...settingsProps} />
-        <DoFResultsPanel {...resultsProps} />
+        <DofSettingsPanel {...settingsProps} />
+        <DofResultsPanel {...resultsProps} />
       </div>
 
       <div className={s.mobileOnly}>

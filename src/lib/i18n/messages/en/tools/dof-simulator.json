@@ -45,6 +45,7 @@
       "modeWipe": "Wipe Compare",
       "modeSplit": "Split Compare",
       "blurReadout": "Blur: {value}",
+      "simulateDiffraction": "Simulate diffraction",
       "diffractionWarning": "Diffraction softening may reduce sharpness at this aperture",
       "depthRulerNear": "Near",
       "depthRulerFar": "Far",
