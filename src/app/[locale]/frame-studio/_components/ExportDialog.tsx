@@ -71,6 +71,12 @@ export function ExportDialog({
   const t = useTranslations('toolUI.frame-studio')
   const [includeGrid, setIncludeGrid] = useState(false)
   const [exporting, setExporting] = useState(false)
+  const [closing, setClosing] = useState(false)
+
+  const handleClose = useCallback(() => {
+    setClosing(true)
+    setTimeout(onClose, 150)
+  }, [onClose])
 
   const handleExport = useCallback(async () => {
     setExporting(true)
@@ -163,7 +169,7 @@ export function ExportDialog({
   }, [image, crop, frameConfig, includeGrid, activeGrids, gridOptions, gridOffset, gridDisplaySize, originalFile, originalMimeType, onClose])
 
   return (
-    <div className={styles.overlay} onClick={onClose}>
+    <div className={`${styles.overlay} ${closing ? styles.closing : ''}`} onClick={handleClose}>
       <div className={styles.dialog} onClick={(e) => e.stopPropagation()}>
         <h3 className={styles.title}>{t('exportPhoto')}</h3>
 
@@ -184,7 +190,7 @@ export function ExportDialog({
         )}
 
         <div className={styles.actions}>
-          <button className={styles.cancelBtn} onClick={onClose}>{t('cancel')}</button>
+          <button className={styles.cancelBtn} onClick={handleClose}>{t('cancel')}</button>
           <button className={styles.exportBtn} onClick={handleExport} disabled={exporting}>
             {exporting ? t('exporting') : t('download')}
           </button>

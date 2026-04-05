@@ -63,8 +63,8 @@ export const PALETTE_COLORS = [
 // ---------------------------------------------------------------------------
 
 export const DEFAULT_FRAME_CONFIG: FrameConfig = {
-  preset: 'custom',
-  borderWidth: 100,
+  preset: 'none',
+  borderWidth: 0,
   fillType: 'solid',
   solidColor: '#ffffff',
   gradientColor1: '#ffffff',

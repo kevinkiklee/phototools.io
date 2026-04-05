@@ -121,3 +121,10 @@
   color: var(--text-primary);
   border-color: var(--text-secondary);
 }
+
+@media (max-width: 640px) {
+  .gridSelect { padding: 8px; min-height: 36px; }
+  .paletteBtn { width: 28px; height: 28px; }
+  .rotBtn { padding: 6px 10px; min-height: 36px; }
+  .resetBtn { padding: 8px; min-height: 36px; }
+}

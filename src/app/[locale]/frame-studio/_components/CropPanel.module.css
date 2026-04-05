@@ -59,10 +59,15 @@
   color: var(--text-secondary);
   font-size: 0.75rem;
   cursor: pointer;
+  transition: color var(--duration-fast) var(--ease-out);
 }
 
 .flipBtn:hover {
   color: var(--accent);
+}
+
+.flipBtn svg {
+  transition: transform var(--duration-normal) var(--ease-out);
 }
 
 .customRow {
@@ -95,6 +100,13 @@
   font-size: 0.75rem;
   border-radius: 4px;
   cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-out),
+              border-color var(--duration-fast) var(--ease-out);
+}
+
+.applyBtn:hover {
+  background: var(--surface-2);
+  border-color: var(--text-secondary);
 }
 
 .doneBtn {
@@ -113,6 +125,13 @@
   opacity: 0.9;
 }
 
+.input:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
 @media (max-width: 640px) {
   .input { width: 48px; }
+  .ratioBtn { padding: 6px 10px; min-height: 36px; }
+  .doneBtn { padding: 10px 16px; min-height: 44px; }
 }

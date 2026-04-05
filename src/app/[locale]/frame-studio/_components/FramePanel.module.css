@@ -110,4 +110,5 @@
 
 @media (max-width: 640px) {
   .panel { padding: 10px; }
+  .presetBtn, .fillBtn, .dirBtn, .textureBtn { padding: 6px 10px; min-height: 36px; }
 }

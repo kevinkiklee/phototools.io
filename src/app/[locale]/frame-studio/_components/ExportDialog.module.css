@@ -9,6 +9,10 @@
   animation: overlayFadeIn var(--duration-fast) ease-out;
 }
 
+.overlay.closing {
+  animation: overlayFadeOut var(--duration-fast) ease-in forwards;
+}
+
 .dialog {
   background: var(--bg-surface);
   border: 1px solid var(--border);
@@ -20,6 +24,10 @@
   flex-direction: column;
   gap: 16px;
   animation: dialogScaleIn var(--duration-normal) var(--ease-out);
+}
+
+.overlay.closing .dialog {
+  animation: dialogScaleOut var(--duration-fast) ease-in forwards;
 }
 
 .title {
@@ -95,6 +103,21 @@
   from { opacity: 0; }
 }
 
+@keyframes overlayFadeOut {
+  to { opacity: 0; }
+}
+
 @keyframes dialogScaleIn {
   from { opacity: 0; transform: scale(0.96) translateY(4px); }
+}
+
+@keyframes dialogScaleOut {
+  to { opacity: 0; transform: scale(0.96) translateY(4px); }
+}
+
+@media (max-width: 640px) {
+  .dialog { padding: 20px; }
+  .cancelBtn, .exportBtn { padding: 10px 16px; min-height: 44px; }
+  .actions { flex-direction: column-reverse; }
+  .cancelBtn, .exportBtn { width: 100%; }
 }

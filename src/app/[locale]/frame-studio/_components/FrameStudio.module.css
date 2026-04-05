@@ -108,10 +108,12 @@
   cursor: grab;
   touch-action: none;
   user-select: none;
+  transition: opacity var(--duration-fast) var(--ease-out);
 }
 
 .gridOverlay:active {
   cursor: grabbing;
+  opacity: 0.7;
 }
 
 /* Action Buttons */
@@ -169,11 +171,17 @@
   font-weight: 600;
   border-radius: 8px;
   cursor: pointer;
-  transition: opacity var(--duration-fast) var(--ease-out);
+  transition: background var(--duration-fast) var(--ease-out),
+              transform var(--duration-fast) var(--ease-out);
 }
 
 .exportBtn:hover {
-  opacity: 0.9;
+  background: var(--accent-hover);
+}
+
+@media (max-width: 640px) {
+  .exportBtn { padding: 12px 16px; min-height: 44px; }
+  .secondaryBtn, .dangerBtn { padding: 10px 8px; min-height: 44px; }
 }
 
 /* Mobile toolbar + controls: hidden on desktop */
@@ -216,8 +224,8 @@
   .mobileControls {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 10px 12px;
+    gap: 12px;
+    padding: 12px 16px;
   }
 }
 
@@ -250,13 +258,6 @@
   /* Row 3: Frame/Crop panel + Grid overlay */
   .modePanel { order: 5; }
   .gridSection { order: 6; }
-
-  /* Column dividers — right border on left-column items */
-  .modeSection,
-  .photoSection,
-  .modePanel {
-    border-right: 1px solid var(--border);
-  }
 
   /* Row dividers — bottom border on rows 1 and 2 */
   .modeSection,
