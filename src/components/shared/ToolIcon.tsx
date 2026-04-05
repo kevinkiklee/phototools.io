@@ -166,11 +166,37 @@ function FrameStudioIcon(p: IconProps) {
   )
 }
 
+/** Focus Stacking Calculator — stacked layers */
+function FocusStackingCalc(p: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={s} height={s} fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" {...p}>
+      <rect x="4" y="14" width="16" height="4" rx="1" />
+      <rect x="5" y="9" width="14" height="4" rx="1" opacity={0.7} />
+      <rect x="6" y="4" width="12" height="4" rx="1" opacity={0.4} />
+    </svg>
+  )
+}
+
+/** Equivalent Settings Calculator — balance/scale */
+function EquivalentSettingsCalc(p: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={s} height={s} fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" {...p}>
+      <path d="M12 3v18" />
+      <path d="M4 7l8-4 8 4" />
+      <path d="M2 12c1 2 3 2 4 0" />
+      <path d="M18 12c1 2 3 2 4 0" />
+    </svg>
+  )
+}
+
 const ICON_MAP: Record<string, (props: IconProps) => React.JSX.Element> = {
   'fov-simulator': FovSimulator,
   'color-scheme-generator': ColorHarmony,
   'exposure-simulator': ExposureSimulator,
+  'dof-simulator': DofCalculator,
   'dof-calculator': DofCalculator,
+  'focus-stacking-calculator': FocusStackingCalc,
+  'equivalent-settings-calculator': EquivalentSettingsCalc,
   'hyperfocal-simulator': HyperfocalSimulator,
   'shutter-speed-visualizer': ShutterSpeedGuide,
   'nd-filter-calculator': NdFilterCalculator,

@@ -1,7 +1,7 @@
 import type { ToolEducationSkeleton } from './types'
 
 export const DOF_CALCULATOR_SKELETON: ToolEducationSkeleton = {
-  slug: 'dof-calculator',
+  slug: 'dof-simulator',
   keyFactorCount: 4,
   tipCount: 3,
   tooltipKeys: ['focalLength', 'aperture', 'subjectDistance', 'sensor', 'nearFocus', 'farFocus', 'totalDoF', 'hyperfocal'],

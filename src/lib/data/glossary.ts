@@ -16,7 +16,7 @@ export const GLOSSARY: GlossaryEntry[] = [
   { id: 'circle-of-confusion' },
   { id: 'color-temperature', relatedTool: 'white-balance-visualizer' },
   { id: 'crop-factor', relatedTool: 'sensor-size-comparison' },
-  { id: 'depth-of-field', relatedTool: 'dof-calculator' },
+  { id: 'depth-of-field', relatedTool: 'dof-simulator' },
   { id: 'diffraction' },
   { id: 'dynamic-range' },
   { id: 'ev' },
