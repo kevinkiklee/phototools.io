@@ -10,7 +10,6 @@ const TOOL_EMOJIS: Record<string, string> = {
   'hyperfocal-simulator': '🎯',
   'shutter-speed-visualizer': '⏱️',
   'nd-filter-calculator': '🕶️',
-  'diffraction-limit': '🔬',
   'star-trail-calculator': '⭐',
   'white-balance-visualizer': '🌡️',
   'sensor-size-comparison': '📏',
