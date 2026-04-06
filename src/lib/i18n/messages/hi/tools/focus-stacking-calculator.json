@@ -23,6 +23,8 @@
       "diagram": "Focus Stack Diagram",
       "diagramNear": "Near",
       "diagramFar": "Far",
+      "diagramCoverage": "Coverage",
+      "diagramFocusPoints": "Focus pts",
       "diagramShot": "Shot {number}",
       "diagramOverlap": "Overlap zone",
       "diagramSharpZone": "Sharp zone",
