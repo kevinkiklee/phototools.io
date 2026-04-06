@@ -36,7 +36,7 @@ export function CompressionScene({ focalLength, sensorId, distance }: Compressio
     try {
       program = createProgram(gl, compressionVertexShader, compressionFragmentShader)
     } catch (e) {
-      console.error(e)
+      console.error('[CompressionScene] WebGL program creation failed:', e)
       return
     }
     programRef.current = program

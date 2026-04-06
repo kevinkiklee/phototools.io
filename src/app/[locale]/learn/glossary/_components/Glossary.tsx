@@ -57,8 +57,6 @@ export function Glossary() {
 
   // Derive section keys from actual data — supports Latin and non-Latin scripts
   const sectionKeys = useMemo(() => Object.keys(grouped).sort(), [grouped])
-  const activeLetters = useMemo(() => new Set(sectionKeys), [sectionKeys])
-
   const scrollToLetter = useCallback((letter: string) => {
     sectionRefs.current[letter]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }, [])
