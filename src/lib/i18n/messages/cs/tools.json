@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "Simulátor zorného úhlu",
       "description": "Porovnej zorný úhel u různých ohniskových vzdáleností a velikostí snímače"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "Generátor barevných palet",
       "description": "Sestav si barevné palety pro focení"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "Uvidíš, jak spolu souvisí clona, expoziční čas a ISO"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "Simulátor hloubky ostrosti",
       "description": "Sleduj, jak clona, ohnisko a vzdálenost ovlivňují rozostření pozadí"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "Kalkulačka focus stackingu",
       "description": "Spočítej optimální zaostření pro ostrost od popředí po pozadí"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "Zjisti, kam zaostřit pro maximální ostrost od popředí do nekonečna"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "Vizualizér expozičního času",
       "description": "Najdi minimální bezpečný čas pro ostré snímky z ruky"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "Kalkulačka ND filtrů",
       "description": "Spočítej expoziční čas s libovolným ND filtrem"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "Kalkulačka hvězdných stop",
       "description": "Spočítej maximální expozici pro ostré hvězdy nebo naplánuj hvězdné stopy"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "Sleduj, jak ohnisková vzdálenost mění kompresi pozadí"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "Vizualizér vyvážení bílé",
       "description": "Uvidíš, jak teplota barev ovlivňuje tvoje fotky"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "Srovnání velikostí snímačů",
       "description": "Porovnej velikosti snímačů fotoaparátů vizuálně"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Studio kompozice",
       "description": "Ořízni, orámuj a komponuj fotky s pomocnými mřížkami"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "Prohlížeč EXIF",
       "description": "Zobraz EXIF metadata a histogram libovolné fotky — vše běží u tebe v prohlížeči"
     }
   }

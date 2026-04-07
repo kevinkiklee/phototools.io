@@ -13,7 +13,7 @@
       },
       "privacyFirst": {
         "title": "Az adatvédelem az első",
-        "body": "Minden számítás és szimuláció teljes egészében a böngésződben fut. A fotóid ki sem kerülnek az eszközödről — az EXIF Viewer például 100%-ban kliensoldalon dolgozza fel a képeket. Nincs regisztráció, és az anonim analitikán túl semmilyen személyes adatot nem gyűjtünk."
+        "body": "Minden számítás és szimuláció teljes egészében a böngésződben fut. A fotóid ki sem kerülnek az eszközödről — az EXIF-megjelenítő például 100%-ban kliensoldalon dolgozza fel a képeket. Nincs regisztráció, és az anonim analitikán túl semmilyen személyes adatot nem gyűjtünk."
       },
       "builtBy": {
         "title": "Fotósok készítik",

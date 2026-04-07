@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio ti pomůže ořezávat, rámovat a komponovat fotky přímo v prohlížeči. Kompoziční mřížky ti pomohou vylepšit výřez, můžeš oříznout na populární poměry stran a přidat profesionálně vypadající rámečky — to vše bez ztráty kvality obrazu.",
+      "beginner": "Studio kompozice ti pomůže ořezávat, rámovat a komponovat fotky přímo v prohlížeči. Kompoziční mřížky ti pomohou vylepšit výřez, můžeš oříznout na populární poměry stran a přidat profesionálně vypadající rámečky — to vše bez ztráty kvality obrazu.",
       "deeper": {
         "0": {
           "heading": "Kompoziční mřížky",
@@ -78,9 +78,15 @@
           "successMessage": "Správně! 4:5 ti dává maximální vertikální prostor ve feedu Instagramu.",
           "failureMessage": "Portrétní posty na Instagramu používají 4:5 (5:4 otočené na výšku) pro maximální využití prostoru ve feedu.",
           "options": {
-            "0": { "label": "1:1 (Čtverec)" },
-            "1": { "label": "4:5 (Na výšku)" },
-            "2": { "label": "16:9 (Širokoúhlý)" }
+            "0": {
+              "label": "1:1 (Čtverec)"
+            },
+            "1": {
+              "label": "4:5 (Na výšku)"
+            },
+            "2": {
+              "label": "16:9 (Širokoúhlý)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Správně! Pravidlo třetin je základním průvodcem kompozice.",
           "failureMessage": "Pravidlo třetin (mřížka 3×3) je nejčastějším výchozím bodem pro učení kompozice.",
           "options": {
-            "0": { "label": "Pravidlo třetin" },
-            "1": { "label": "Zlatá spirála" },
-            "2": { "label": "Diagonální linie" }
+            "0": {
+              "label": "Pravidlo třetin"
+            },
+            "1": {
+              "label": "Zlatá spirála"
+            },
+            "2": {
+              "label": "Diagonální linie"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Správně! 5:4 dokonale odpovídá rozměrům tisku 8×10.",
           "failureMessage": "8×10 se zjednoduší na 4:5, což je 5:4 otočené na výšku.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Výborná volba! Zlatá spirála dokonale sleduje křivky a vodicí linie.",
           "failureMessage": "Zlatá spirála je ideální pro snímky s přirozenými zakřivenými prvky, jako jsou řeky, silnice nebo pobřeží.",
           "options": {
-            "0": { "label": "Středový kříž" },
-            "1": { "label": "Zlatá spirála" },
-            "2": { "label": "Čtvercová mřížka" }
+            "0": {
+              "label": "Středový kříž"
+            },
+            "1": {
+              "label": "Zlatá spirála"
+            },
+            "2": {
+              "label": "Čtvercová mřížka"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Správně! Přednastavení Bílý přidá 100px bílý okraj okolo fotky.",
           "failureMessage": "Přednastavení Bílý je určené pro čistou, jednoduchou prezentaci s bílým okrajem.",
           "options": {
-            "0": { "label": "Žádný" },
-            "1": { "label": "Bílý" },
-            "2": { "label": "Černý" }
+            "0": {
+              "label": "Žádný"
+            },
+            "1": {
+              "label": "Bílý"
+            },
+            "2": {
+              "label": "Černý"
+            }
           }
         }
       }

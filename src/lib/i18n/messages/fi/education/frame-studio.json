@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio auttaa rajaamaan, kehystämään ja sommittelemaan kuvia suoraan selaimessa. Käytä sommitteluruudukkoja rajauksen parantamiseen, rajaa suosittuihin kuvasuhteisiin ja lisää siistejä kehyksiä — kaikki ilman kuvanlaadun menetystä.",
+      "beginner": "Sommittelustudio auttaa rajaamaan, kehystämään ja sommittelemaan kuvia suoraan selaimessa. Käytä sommitteluruudukkoja rajauksen parantamiseen, rajaa suosittuihin kuvasuhteisiin ja lisää siistejä kehyksiä — kaikki ilman kuvanlaadun menetystä.",
       "deeper": {
         "0": {
           "heading": "Sommitteluruudukot",
@@ -78,9 +78,15 @@
           "successMessage": "Oikein! 4:5 antaa eniten pystysuuntaista tilaa Instagramin feedissä.",
           "failureMessage": "Instagramin pystyjulkaisut käyttävät suhdetta 4:5 (5:4 pystyasentoon käännettynä), jotta feedissä saadaan mahdollisimman paljon tilaa.",
           "options": {
-            "0": { "label": "1:1 (neliö)" },
-            "1": { "label": "4:5 (pysty)" },
-            "2": { "label": "16:9 (laajakuva)" }
+            "0": {
+              "label": "1:1 (neliö)"
+            },
+            "1": {
+              "label": "4:5 (pysty)"
+            },
+            "2": {
+              "label": "16:9 (laajakuva)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Aivan! Kolmanneksen sääntö on sommittelun perusta.",
           "failureMessage": "Kolmanneksen sääntö (3×3-ruudukko) on yleisin lähtökohta sommittelun opettelemiseen.",
           "options": {
-            "0": { "label": "Kolmanneksen sääntö" },
-            "1": { "label": "Kultainen spiraali" },
-            "2": { "label": "Diagonaaliviivat" }
+            "0": {
+              "label": "Kolmanneksen sääntö"
+            },
+            "1": {
+              "label": "Kultainen spiraali"
+            },
+            "2": {
+              "label": "Diagonaaliviivat"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Oikein! 5:4 vastaa tarkalleen 8×10-tulostuksen mittoja.",
           "failureMessage": "8×10 supistuu suhteeseen 4:5, joka on 5:4:n pystyversio.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Hieno valinta! Kultainen spiraali seuraa kaaria ja johtolinjoja täydellisesti.",
           "failureMessage": "Kultainen spiraali on ihanteellinen kuviin, joissa on luonnollisia kaaria — esimerkiksi jokia, teitä tai rantaviivoja.",
           "options": {
-            "0": { "label": "Keskiristi" },
-            "1": { "label": "Kultainen spiraali" },
-            "2": { "label": "Neliöruudukko" }
+            "0": {
+              "label": "Keskiristi"
+            },
+            "1": {
+              "label": "Kultainen spiraali"
+            },
+            "2": {
+              "label": "Neliöruudukko"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Oikein! Valkoinen-esiasetus lisää kuvan ympärille 100 pikselin valkoisen reunan.",
           "failureMessage": "Valkoinen-esiasetus on tehty nimenomaan puhtaan, yksinkertaisen valkoisen reunan lisäämiseen.",
           "options": {
-            "0": { "label": "Ei mitään" },
-            "1": { "label": "Valkoinen" },
-            "2": { "label": "Musta" }
+            "0": {
+              "label": "Ei mitään"
+            },
+            "1": {
+              "label": "Valkoinen"
+            },
+            "2": {
+              "label": "Musta"
+            }
           }
         }
       }

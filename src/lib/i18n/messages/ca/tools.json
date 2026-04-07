@@ -53,7 +53,7 @@
       "description": "Compara visualment les mides dels sensors de càmera"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Estudi d'enquadrament",
       "description": "Retalla, emmarca i composa fotos amb graelles superposades"
     },
     "exif-viewer": {

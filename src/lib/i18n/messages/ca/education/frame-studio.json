@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio t'ajuda a retallar, emmarcar i compondre les teves fotos directament al navegador. Fes servir graelles de composició per millorar l'enquadrament, retalla a relacions d'aspecte populars i afegeix vores amb aspecte professional — tot sense perdre qualitat d'imatge.",
+      "beginner": "Estudi d'enquadrament t'ajuda a retallar, emmarcar i compondre les teves fotos directament al navegador. Fes servir graelles de composició per millorar l'enquadrament, retalla a relacions d'aspecte populars i afegeix vores amb aspecte professional — tot sense perdre qualitat d'imatge.",
       "deeper": {
         "0": {
           "heading": "Graelles de composició",
@@ -78,9 +78,15 @@
           "successMessage": "Correcte! 4:5 et dona el màxim espai vertical al feed d'Instagram.",
           "failureMessage": "Les publicacions verticals d'Instagram fan servir 4:5 (5:4 girat a vertical) per al màxim espai al feed.",
           "options": {
-            "0": { "label": "1:1 (quadrat)" },
-            "1": { "label": "4:5 (vertical)" },
-            "2": { "label": "16:9 (panoràmic)" }
+            "0": {
+              "label": "1:1 (quadrat)"
+            },
+            "1": {
+              "label": "4:5 (vertical)"
+            },
+            "2": {
+              "label": "16:9 (panoràmic)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Exacte! La regla dels terços és la guia de composició fonamental.",
           "failureMessage": "La regla dels terços (graella 3×3) és el punt de partida més habitual per aprendre composició.",
           "options": {
-            "0": { "label": "Regla dels terços" },
-            "1": { "label": "Espiral àuria" },
-            "2": { "label": "Línies diagonals" }
+            "0": {
+              "label": "Regla dels terços"
+            },
+            "1": {
+              "label": "Espiral àuria"
+            },
+            "2": {
+              "label": "Línies diagonals"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Correcte! 5:4 coincideix perfectament amb les dimensions d'una còpia 8×10.",
           "failureMessage": "8×10 es simplifica a 4:5, que és la versió vertical de 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Bona tria! L'espiral àuria segueix corbes i línies guia a la perfecció.",
           "failureMessage": "L'espiral àuria és ideal per a imatges amb elements corbats naturals com rius, carreteres o costes.",
           "options": {
-            "0": { "label": "Creu central" },
-            "1": { "label": "Espiral àuria" },
-            "2": { "label": "Graella quadrada" }
+            "0": {
+              "label": "Creu central"
+            },
+            "1": {
+              "label": "Espiral àuria"
+            },
+            "2": {
+              "label": "Graella quadrada"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Correcte! El preajust White afegeix una vora blanca de 100px al voltant de la foto.",
           "failureMessage": "El preajust White està dissenyat per a una presentació de vora blanca neta i senzilla.",
           "options": {
-            "0": { "label": "Cap" },
-            "1": { "label": "White" },
-            "2": { "label": "Black" }
+            "0": {
+              "label": "Cap"
+            },
+            "1": {
+              "label": "White"
+            },
+            "2": {
+              "label": "Black"
+            }
           }
         }
       }

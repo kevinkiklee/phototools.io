@@ -7,7 +7,7 @@
       "ogTitle": "PhotoTools — Alat Fotografi Percuma"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Bandingkan Panjang Fokus",
+      "title": "Simulator Medan Pandangan — Bandingkan Panjang Fokus",
       "description": "Bandingkan medan pandangan merentasi pelbagai panjang fokus dan saiz sensor. Percuma, interaktif dan boleh dikongsi."
     },
     "dof-simulator": {
@@ -27,27 +27,27 @@
       "description": "Simulator segi tiga pendedahan interaktif — lihat cara aperture, kelajuan pengatup dan ISO mempengaruhi imej anda secara masa nyata dengan pratonton langsung."
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator",
+      "title": "Kalkulator Jejak Bintang",
       "description": "Kira masa pendedahan maksimum untuk bintang titik menggunakan peraturan 500, NPF dan lain-lain. Rancang tangkapan stacking jejak bintang untuk mana-mana lokasi."
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer",
+      "title": "Pemapar Imbangan Putih",
       "description": "Lihat cara imbangan putih dan suhu warna mempengaruhi foto anda. Visualkan perubahan dari 2000K hingga 10000K dengan pratonton masa nyata."
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison",
+      "title": "Perbandingan Saiz Sensor",
       "description": "Bandingkan saiz sensor kamera dari format sederhana hingga telefon pintar. Lihat paparan tindanan, bersebelahan dan ketumpatan piksel dengan model kamera sebenar."
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator",
+      "title": "Penjana Palet Warna",
       "description": "Jana palet warna untuk fotografi menggunakan harmoni warna komplementari, analogus, triadik dan tetradik. Roda warna interaktif dengan pemilih foto."
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "Studio Bingkai",
       "description": "Potong, bingkai dan susun foto dengan tindanan grid. 100% di sebelah klien — foto anda tidak pernah meninggalkan peranti anda."
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
+      "title": "Pemapar EXIF",
       "description": "Lihat metadata EXIF, histogram dan pratonton imej untuk mana-mana foto. 100% di sebelah klien — foto anda tidak pernah meninggalkan peranti anda."
     },
     "hyperfocal-simulator": {
@@ -55,11 +55,11 @@
       "description": "Visualkan jarak hiperfokal untuk mana-mana lensa dan sensor. Lihat dengan tepat tempat untuk memfokus bagi ketajaman maksimum dari latar depan ke infiniti."
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer",
+      "title": "Pemapar Kelajuan Pengatup",
       "description": "Cari kelajuan pengatup minimum untuk foto tangan yang tajam. Mengambil kira panjang fokus, saiz sensor dan penstabilan imej."
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator",
+      "title": "Kalkulator Penapis ND",
       "description": "Kira kelajuan pengatup yang betul apabila menggunakan penapis ND. Menyokong sebarang kekuatan penapis dari ND2 hingga ND1000000 dengan jadual rujukan pantas."
     },
     "perspective-compression-simulator": {

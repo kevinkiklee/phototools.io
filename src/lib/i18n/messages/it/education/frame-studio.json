@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio ti aiuta a ritagliare, incorniciare e comporre le tue foto direttamente nel browser. Usa le griglie di composizione per migliorare la tua inquadratura, ritaglia con rapporti d'aspetto popolari e aggiungi bordi dall'aspetto professionale — tutto senza perdere qualità dell'immagine.",
+      "beginner": "Studio di inquadratura ti aiuta a ritagliare, incorniciare e comporre le tue foto direttamente nel browser. Usa le griglie di composizione per migliorare la tua inquadratura, ritaglia con rapporti d'aspetto popolari e aggiungi bordi dall'aspetto professionale — tutto senza perdere qualità dell'immagine.",
       "deeper": {
         "0": {
           "heading": "Griglie di composizione",
@@ -78,9 +78,15 @@
           "successMessage": "Corretto! 4:5 ti dà il massimo spazio verticale nel feed di Instagram.",
           "failureMessage": "I post verticali di Instagram usano 4:5 (ruota 5:4 in orientamento verticale) per il massimo spazio nel feed.",
           "options": {
-            "0": { "label": "1:1 (Quadrato)" },
-            "1": { "label": "4:5 (Verticale)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": {
+              "label": "1:1 (Quadrato)"
+            },
+            "1": {
+              "label": "4:5 (Verticale)"
+            },
+            "2": {
+              "label": "16:9 (Widescreen)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Giusto! La Regola dei Terzi è la guida fondamentale di composizione.",
           "failureMessage": "La Regola dei Terzi (griglia 3×3) è il punto di partenza più comune per imparare la composizione.",
           "options": {
-            "0": { "label": "Regola dei terzi" },
-            "1": { "label": "Spirale aurea" },
-            "2": { "label": "Linee diagonali" }
+            "0": {
+              "label": "Regola dei terzi"
+            },
+            "1": {
+              "label": "Spirale aurea"
+            },
+            "2": {
+              "label": "Linee diagonali"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Corretto! 5:4 corrisponde perfettamente alle dimensioni di stampa 8×10.",
           "failureMessage": "8×10 si semplifica a 4:5, che è la versione verticale di 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Ottima scelta! La Spirale Aurea segue perfettamente curve e linee guida.",
           "failureMessage": "La Spirale Aurea è ideale per immagini con elementi curvi naturali come fiumi, strade o coste.",
           "options": {
-            "0": { "label": "Croce centrale" },
-            "1": { "label": "Spirale aurea" },
-            "2": { "label": "Griglia quadrata" }
+            "0": {
+              "label": "Croce centrale"
+            },
+            "1": {
+              "label": "Spirale aurea"
+            },
+            "2": {
+              "label": "Griglia quadrata"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Corretto! Il preset Bianco aggiunge un bordo bianco di 100px attorno alla tua foto.",
           "failureMessage": "Il preset Bianco è progettato per una presentazione con bordo bianco pulito e semplice.",
           "options": {
-            "0": { "label": "Nessuno" },
-            "1": { "label": "Bianco" },
-            "2": { "label": "Nero" }
+            "0": {
+              "label": "Nessuno"
+            },
+            "1": {
+              "label": "Bianco"
+            },
+            "2": {
+              "label": "Nero"
+            }
           }
         }
       }

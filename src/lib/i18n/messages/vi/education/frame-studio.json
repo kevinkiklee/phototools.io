@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio giúp bạn cắt, đóng khung và bố cục ảnh ngay trong trình duyệt. Sử dụng các lưới bố cục để cải thiện khung hình, cắt theo tỷ lệ phổ biến và thêm viền chuyên nghiệp — tất cả mà không mất chất lượng ảnh.",
+      "beginner": "Studio bố cục giúp bạn cắt, đóng khung và bố cục ảnh ngay trong trình duyệt. Sử dụng các lưới bố cục để cải thiện khung hình, cắt theo tỷ lệ phổ biến và thêm viền chuyên nghiệp — tất cả mà không mất chất lượng ảnh.",
       "deeper": {
         "0": {
           "heading": "Lưới bố cục",
@@ -78,9 +78,15 @@
           "successMessage": "Chính xác! 4:5 cho bạn không gian dọc tối đa trong feed Instagram.",
           "failureMessage": "Bài đăng portrait Instagram sử dụng 4:5 (lật 5:4 sang hướng portrait) cho diện tích feed tối đa.",
           "options": {
-            "0": { "label": "1:1 (Vuông)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Màn hình rộng)" }
+            "0": {
+              "label": "1:1 (Vuông)"
+            },
+            "1": {
+              "label": "4:5 (Portrait)"
+            },
+            "2": {
+              "label": "16:9 (Màn hình rộng)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Đúng! Quy tắc một phần ba là hướng dẫn bố cục nền tảng.",
           "failureMessage": "Quy tắc một phần ba (lưới 3×3) là điểm xuất phát phổ biến nhất cho học bố cục.",
           "options": {
-            "0": { "label": "Quy tắc một phần ba" },
-            "1": { "label": "Xoắn ốc vàng" },
-            "2": { "label": "Đường chéo" }
+            "0": {
+              "label": "Quy tắc một phần ba"
+            },
+            "1": {
+              "label": "Xoắn ốc vàng"
+            },
+            "2": {
+              "label": "Đường chéo"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Chính xác! 5:4 phù hợp kích thước in 8×10 hoàn hảo.",
           "failureMessage": "8×10 đơn giản hóa thành 4:5, là phiên bản portrait của 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Lựa chọn tuyệt vời! Xoắn ốc vàng theo các đường cong và đường dẫn hoàn hảo.",
           "failureMessage": "Xoắn ốc vàng lý tưởng cho ảnh có các yếu tố cong tự nhiên như sông, đường hoặc bờ biển.",
           "options": {
-            "0": { "label": "Chữ thập trung tâm" },
-            "1": { "label": "Xoắn ốc vàng" },
-            "2": { "label": "Lưới vuông" }
+            "0": {
+              "label": "Chữ thập trung tâm"
+            },
+            "1": {
+              "label": "Xoắn ốc vàng"
+            },
+            "2": {
+              "label": "Lưới vuông"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Chính xác! Preset Trắng thêm viền trắng 100px quanh ảnh.",
           "failureMessage": "Preset Trắng được thiết kế cho trình bày viền trắng sạch, đơn giản.",
           "options": {
-            "0": { "label": "Không" },
-            "1": { "label": "Trắng" },
-            "2": { "label": "Đen" }
+            "0": {
+              "label": "Không"
+            },
+            "1": {
+              "label": "Trắng"
+            },
+            "2": {
+              "label": "Đen"
+            }
           }
         }
       }

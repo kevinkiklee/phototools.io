@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio hjelper deg med å beskjære, ramme inn og komponere bildene dine direkte i nettleseren. Bruk komposisjonsrutenett for bedre innramming, beskjær til populære bildeforhold, og legg til profesjonelle kanter — alt uten kvalitetstap.",
+      "beginner": "Komposisjonsstudio hjelper deg med å beskjære, ramme inn og komponere bildene dine direkte i nettleseren. Bruk komposisjonsrutenett for bedre innramming, beskjær til populære bildeforhold, og legg til profesjonelle kanter — alt uten kvalitetstap.",
       "deeper": {
         "0": {
           "heading": "Komposisjonsrutenett",
@@ -78,9 +78,15 @@
           "successMessage": "Riktig! 4:5 gir deg mest vertikal plass i Instagram-feeden.",
           "failureMessage": "Portrettinnlegg på Instagram bruker 4:5 (5:4 snudd til stående) for å ta mest mulig plass i feeden.",
           "options": {
-            "0": { "label": "1:1 (kvadrat)" },
-            "1": { "label": "4:5 (portrett)" },
-            "2": { "label": "16:9 (widescreen)" }
+            "0": {
+              "label": "1:1 (kvadrat)"
+            },
+            "1": {
+              "label": "4:5 (portrett)"
+            },
+            "2": {
+              "label": "16:9 (widescreen)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Riktig! Tredjedelsregelen er den grunnleggende komposisjonsguiden.",
           "failureMessage": "Tredjedelsregelen (3×3-rutenett) er det vanligste utgangspunktet for å lære komposisjon.",
           "options": {
-            "0": { "label": "Tredjedelsregelen" },
-            "1": { "label": "Gylden spiral" },
-            "2": { "label": "Diagonale linjer" }
+            "0": {
+              "label": "Tredjedelsregelen"
+            },
+            "1": {
+              "label": "Gylden spiral"
+            },
+            "2": {
+              "label": "Diagonale linjer"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Riktig! 5:4 matcher 8×10-kopiformatet perfekt.",
           "failureMessage": "8×10 forenkles til 4:5, som er portrettversjonen av 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Bra valg! Den gylne spiralen følger kurver og ledende linjer perfekt.",
           "failureMessage": "Den gylne spiralen er ideell for bilder med naturlige kurver, som elver, veier eller kystlinjer.",
           "options": {
-            "0": { "label": "Senterkryss" },
-            "1": { "label": "Gylden spiral" },
-            "2": { "label": "Kvadratrutenett" }
+            "0": {
+              "label": "Senterkryss"
+            },
+            "1": {
+              "label": "Gylden spiral"
+            },
+            "2": {
+              "label": "Kvadratrutenett"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Riktig! Forhåndsinnstillingen «Hvit» legger til en 100 px hvit kant rundt bildet.",
           "failureMessage": "Forhåndsinnstillingen «Hvit» er laget for nettopp dette — en enkel, ren hvit kant.",
           "options": {
-            "0": { "label": "Ingen" },
-            "1": { "label": "Hvit" },
-            "2": { "label": "Svart" }
+            "0": {
+              "label": "Ingen"
+            },
+            "1": {
+              "label": "Hvit"
+            },
+            "2": {
+              "label": "Svart"
+            }
           }
         }
       }

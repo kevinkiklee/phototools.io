@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "FOV সিমুলেটর",
       "description": "বিভিন্ন ফোকাল দৈর্ঘ্য ও সেন্সর সাইজের দৃষ্টিক্ষেত্র তুলনা করো"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "কালার প্যালেট জেনারেটর",
       "description": "ফটোগ্রাফি শ্যুটের জন্য রঙের প্যালেট তৈরি করো"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "অ্যাপারচার, শাটার স্পিড ও ISO কীভাবে একসাথে কাজ করে দেখো"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "DOF সিমুলেটর",
       "description": "অ্যাপারচার, ফোকাল দৈর্ঘ্য ও দূরত্ব কীভাবে ব্যাকগ্রাউন্ড ঝাপসা করে দেখো"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "ফোকাস স্ট্যাকিং ক্যালকুলেটর",
       "description": "সামনে থেকে পেছন পর্যন্ত শার্পনেসের জন্য সঠিক ফোকাস দূরত্ব বের করো"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "সামনে থেকে অসীম পর্যন্ত সর্বোচ্চ শার্পনেসের জন্য কোথায় ফোকাস করবে শেখো"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "শাটার স্পিড ভিজ্যুয়ালাইজার",
       "description": "হ্যান্ডহেল্ড শটে শার্প ছবির জন্য সর্বনিম্ন নিরাপদ শাটার স্পিড বের করো"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "ND ফিল্টার ক্যালকুলেটর",
       "description": "যেকোনো ND ফিল্টারের সাথে এক্সপোজার টাইম হিসাব করো"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "স্টার ট্রেইল ক্যালকুলেটর",
       "description": "শার্প তারার জন্য সর্বোচ্চ এক্সপোজার হিসাব করো বা স্টার ট্রেইল শট প্ল্যান করো"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "ফোকাল দৈর্ঘ্য কীভাবে ব্যাকগ্রাউন্ড সংকোচন করে দেখো"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "হোয়াইট ব্যালেন্স ভিজ্যুয়ালাইজার",
       "description": "রঙের তাপমাত্রা তোমার ছবিতে কীভাবে প্রভাব ফেলে দেখো"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "সেন্সর সাইজ তুলনা",
       "description": "ক্যামেরার সেন্সর সাইজ ভিজ্যুয়ালি তুলনা করো"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "ফ্রেম স্টুডিও",
       "description": "গ্রিড ওভারলে দিয়ে ছবি ক্রপ, ফ্রেম এবং কম্পোজ করো"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "EXIF ভিউয়ার",
       "description": "যেকোনো ছবির EXIF মেটাডেটা ও হিস্টোগ্রাম দেখো — ১০০% ব্রাউজারে"
     }
   }

@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "Симулятор кута огляду",
       "description": "Порівняй кут огляду для різних фокусних відстаней і розмірів матриці"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "Генератор кольорових палітр",
       "description": "Створюй кольорові палітри для фотозйомок"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "Побач, як взаємодіють діафрагма, витримка і ISO"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "Симулятор глибини різкості",
       "description": "Візуалізуй, як діафрагма, фокусна відстань і дистанція впливають на розмиття фону"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "Калькулятор фокус-стекінгу",
       "description": "Порахуй оптимальні дистанції фокусування для різкості від переднього плану до фону"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "Дізнайся, куди фокусуватися для максимальної різкості від переднього плану до нескінченності"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "Візуалізатор витримки",
       "description": "Знайди мінімальну безпечну витримку для різкої зйомки з рук"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "Калькулятор ND-фільтрів",
       "description": "Порахуй витримку для будь-якого ND-фільтра"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "Калькулятор зоряних треків",
       "description": "Порахуй максимальну витримку для різких зірок або сплануй зйомку зоряних треків"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "Побач, як фокусна відстань впливає на стиснення фону"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "Візуалізатор балансу білого",
       "description": "Побач, як колірна температура впливає на твої фото"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "Порівняння розмірів матриць",
       "description": "Порівнюй розміри матриць камер візуально"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Студія кадрування",
       "description": "Обрізай, обрамлюй і компонуй фото з накладанням сіток"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "Переглядач EXIF",
       "description": "Переглядай EXIF і гістограму будь-якого фото — 100% у браузері"
     }
   }

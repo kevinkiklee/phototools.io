@@ -7,63 +7,63 @@
       "ogTitle": "PhotoTools — Libreng Photography Tools"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Ikumpara ang Focal Lengths",
+      "title": "Simulator ng FOV — Ikumpara ang Focal Lengths",
       "description": "Ikumpara ang field of view sa iba't ibang focal length at sensor size. Libre, interactive, at shareable."
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator — DoF Calculator | PhotoTools",
+      "title": "Simulator ng Depth-of-Field — DoF Calculator | PhotoTools",
       "description": "I-visualize kung paano apektado ng aperture, focal length, at distance ang background blur gamit ang real-time WebGL simulation."
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator — Kalkulador ng DoF | PhotoTools",
+      "title": "Kalkulador ng Focus Stacking — Kalkulador ng DoF | PhotoTools",
       "description": "Kalkulahin ang tamang focus distances para sa front-to-back sharpness sa macro at landscape photography."
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator — Katumbas na Settings | PhotoTools",
+      "title": "Kalkulador ng Katumbas na Settings — Katumbas na Settings | PhotoTools",
       "description": "Hanapin ang equivalent aperture at focal length sa iba't ibang sensor format para magkapareho ang depth of field."
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator — Simulator ng Eksposyur",
+      "title": "Simulator ng Exposure Triangle — Simulator ng Eksposyur",
       "description": "Interactive exposure triangle simulator — tingnan kung paano apektado ng aperture, shutter speed, at ISO ang litrato mo gamit ang live preview."
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator",
+      "title": "Kalkulador ng Star Trail",
       "description": "Kalkulahin ang max exposure time para sa pinpoint stars gamit ang 500, NPF, at iba pang rules. Magplano ng star trail stacking shot para sa kahit saang lokasyon."
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer",
+      "title": "Visualizer ng White Balance",
       "description": "Tingnan kung paano apektado ng white balance at color temperature ang mga litrato mo. I-visualize ang pagbabago mula 2000K hanggang 10000K gamit ang real-time preview."
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison",
+      "title": "Paghahambing ng Sensor Size",
       "description": "Ikumpara ang mga camera sensor size mula medium format hanggang smartphone. Tingnan sa overlay, side-by-side, at pixel density views gamit ang totoong camera models."
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator",
+      "title": "Tagabuo ng Color Scheme",
       "description": "Gumawa ng color palette para sa photography gamit ang complementary, analogous, triadic, at tetradic na color harmonies. Interactive color wheel na may photo picker."
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "Studio ng Frame",
       "description": "I-crop, i-frame, at i-compose ang mga litrato gamit ang grid overlays. 100% client-side — hindi umaalis sa device mo ang mga litrato."
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
+      "title": "Tagabasa ng EXIF",
       "description": "Tingnan ang EXIF metadata, histogram, at image preview ng kahit anong litrato. 100% client-side — hindi umaalis sa device mo ang mga litrato."
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator — Hyperfocal na Distansya",
+      "title": "Simulator ng Hyperfocal na Distansya — Hyperfocal na Distansya",
       "description": "I-visualize ang hyperfocal distance para sa kahit anong lens at sensor. Tingnan kung saan dapat mag-focus para sa maximum sharpness mula foreground hanggang infinity."
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer",
+      "title": "Visualizer ng Shutter Speed",
       "description": "Hanapin ang minimum shutter speed para sa sharp na handheld shots. Isinasaalang-alang ang focal length, sensor size, at image stabilization."
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator",
+      "title": "Kalkulador ng ND Filter",
       "description": "Kalkulahin ang tamang shutter speed kapag gumagamit ng ND filter. Sinusuportahan ang lahat ng filter strength mula ND2 hanggang ND1000000 gamit ang quick-reference table."
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator — Pagkasiksik ng Perspektibo",
+      "title": "Simulator ng Pagkasiksik ng Perspektibo — Pagkasiksik ng Perspektibo",
       "description": "Interactive 3D simulator na nagpapakita kung paano apektado ng focal length at distance ang perspective compression. Tingnan ang background compression in real time."
     },
     "about": {

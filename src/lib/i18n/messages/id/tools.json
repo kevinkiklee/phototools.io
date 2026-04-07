@@ -53,11 +53,11 @@
       "description": "Bandingkan ukuran sensor kamera secara visual"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Studio Bingkai",
       "description": "Potong, bingkai, dan komposisikan foto dengan overlay grid"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "Penampil EXIF",
       "description": "Lihat metadata EXIF dan histogram untuk foto apa pun — 100% di sisi klien"
     }
   }

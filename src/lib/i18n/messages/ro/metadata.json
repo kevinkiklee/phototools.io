@@ -7,7 +7,7 @@
       "ogTitle": "PhotoTools — Unelte gratuite pentru fotografie"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compară distanțe focale",
+      "title": "Simulator câmp vizual — Compară distanțe focale",
       "description": "Compară unghiul de vizualizare pentru diferite distanțe focale și dimensiuni de senzor. Gratuit, interactiv, distribuibil."
     },
     "dof-simulator": {
@@ -27,27 +27,27 @@
       "description": "Simulator interactiv al triunghiului expunerii — vezi în timp real cum diafragma, timpul de expunere și ISO afectează imaginea, cu previzualizare live."
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator",
+      "title": "Calculator dâre de stele",
       "description": "Calculează timpul maxim de expunere pentru stele punctiforme folosind regulile 500, NPF și altele. Planifică dâre de stele prin stacking pentru orice locație."
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer",
+      "title": "Vizualizator balans de alb",
       "description": "Vezi cum influențează balansul de alb și temperatura culorii fotografiile tale. Vizualizează schimbări de la 2000K la 10000K cu previzualizare în timp real."
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison",
+      "title": "Comparație dimensiuni senzor",
       "description": "Compară dimensiunile senzorilor de cameră, de la format mediu până la smartphone. Vizualizare suprapusă, alăturată și cu densitate de pixeli, cu modele reale."
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator",
+      "title": "Generator de palete de culori",
       "description": "Generează palete de culori pentru fotografie folosind armonii complementare, analoge, triadice și tetradice. Roată de culori interactivă cu selector din fotografie."
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "Studio de încadrare",
       "description": "Decupează, încadrează și compune fotografii cu grile de ghidaj. 100% în browser — fotografiile tale nu părăsesc dispozitivul."
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
+      "title": "Vizualizator EXIF",
       "description": "Vezi metadatele EXIF, histograma și previzualizarea oricărei fotografii. 100% în browser — fotografiile tale nu părăsesc dispozitivul."
     },
     "hyperfocal-simulator": {
@@ -55,11 +55,11 @@
       "description": "Vizualizează distanța hiperfocală pentru orice obiectiv și senzor. Vezi exact unde să focalizezi pentru claritate maximă din prim-plan până la infinit."
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer",
+      "title": "Vizualizator timp de expunere",
       "description": "Găsește cel mai lung timp de expunere cu care poți fotografia clar din mână. Ia în calcul distanța focală, dimensiunea senzorului și stabilizarea."
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator",
+      "title": "Calculator filtre ND",
       "description": "Calculează timpul corect de expunere când folosești filtre ND. Suportă orice densitate de la ND2 la ND1000000, cu tabel de referință rapidă."
     },
     "perspective-compression-simulator": {

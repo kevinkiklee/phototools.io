@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helpt je foto's bij te snijden, om te lijsten en te componeren, rechtstreeks in de browser. Gebruik compositierasters om je kadrering te verbeteren, snij bij naar populaire beeldverhoudingen en voeg professioneel ogende randen toe — allemaal zonder verlies van beeldkwaliteit.",
+      "beginner": "Compositiestudio helpt je foto's bij te snijden, om te lijsten en te componeren, rechtstreeks in de browser. Gebruik compositierasters om je kadrering te verbeteren, snij bij naar populaire beeldverhoudingen en voeg professioneel ogende randen toe — allemaal zonder verlies van beeldkwaliteit.",
       "deeper": {
         "0": {
           "heading": "Compositierasters",
@@ -78,9 +78,15 @@
           "successMessage": "Correct! 4:5 geeft je de maximale verticale ruimte in de Instagram-feed.",
           "failureMessage": "Instagram-portretberichten gebruiken 4:5 (draai 5:4 naar portretoriëntatie) voor maximale feedruimte.",
           "options": {
-            "0": { "label": "1:1 (Vierkant)" },
-            "1": { "label": "4:5 (Portret)" },
-            "2": { "label": "16:9 (Breedbeeld)" }
+            "0": {
+              "label": "1:1 (Vierkant)"
+            },
+            "1": {
+              "label": "4:5 (Portret)"
+            },
+            "2": {
+              "label": "16:9 (Breedbeeld)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Juist! De regel van derden is de fundamentele compositiegids.",
           "failureMessage": "De regel van derden (3×3-raster) is het meest gebruikelijke startpunt voor het leren van compositie.",
           "options": {
-            "0": { "label": "Regel van derden" },
-            "1": { "label": "Gulden spiraal" },
-            "2": { "label": "Diagonale lijnen" }
+            "0": {
+              "label": "Regel van derden"
+            },
+            "1": {
+              "label": "Gulden spiraal"
+            },
+            "2": {
+              "label": "Diagonale lijnen"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Correct! 5:4 past precies bij 8×10-afdrukafmetingen.",
           "failureMessage": "8×10 vereenvoudigt tot 4:5, wat de portretversie is van 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Goede keuze! De gulden spiraal volgt curves en leidende lijnen perfect.",
           "failureMessage": "De gulden spiraal is ideaal voor beelden met natuurlijke gebogen elementen zoals rivieren, wegen of kustlijnen.",
           "options": {
-            "0": { "label": "Middenkruis" },
-            "1": { "label": "Gulden spiraal" },
-            "2": { "label": "Vierkant raster" }
+            "0": {
+              "label": "Middenkruis"
+            },
+            "1": {
+              "label": "Gulden spiraal"
+            },
+            "2": {
+              "label": "Vierkant raster"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Correct! De Wit-voorinstelling voegt een 100px witte rand toe rond je foto.",
           "failureMessage": "De Wit-voorinstelling is ontworpen voor een schone, eenvoudige witte randpresentatie.",
           "options": {
-            "0": { "label": "Geen" },
-            "1": { "label": "Wit" },
-            "2": { "label": "Zwart" }
+            "0": {
+              "label": "Geen"
+            },
+            "1": {
+              "label": "Wit"
+            },
+            "2": {
+              "label": "Zwart"
+            }
           }
         }
       }

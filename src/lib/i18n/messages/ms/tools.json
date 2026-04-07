@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "Simulator Medan Pandangan",
       "description": "Bandingkan medan pandangan merentasi panjang fokus dan saiz sensor"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "Penjana Palet Warna",
       "description": "Bina palet warna untuk sesi fotografi anda"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "Lihat bagaimana aperture, kelajuan pengatup dan ISO saling berinteraksi"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "Simulator Kedalaman Medan",
       "description": "Visualkan cara aperture, panjang fokus dan jarak mempengaruhi kekaburan latar belakang"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "Kalkulator Focus Stacking",
       "description": "Kira jarak fokus optimum untuk ketajaman dari depan ke belakang"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "Pelajari tempat untuk memfokus bagi ketajaman maksimum dari latar depan ke infiniti"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "Pemapar Kelajuan Pengatup",
       "description": "Cari kelajuan pengatup minimum yang selamat untuk tangkapan tangan yang tajam"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "Kalkulator Penapis ND",
       "description": "Kira masa pendedahan dengan sebarang penapis ND"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "Kalkulator Jejak Bintang",
       "description": "Kira pendedahan maksimum untuk bintang tajam atau rancang tangkapan jejak bintang"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "Lihat cara panjang fokus mempengaruhi mampatan latar belakang"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "Pemapar Imbangan Putih",
       "description": "Lihat cara suhu warna mempengaruhi foto anda"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "Perbandingan Saiz Sensor",
       "description": "Bandingkan saiz sensor kamera secara visual"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Studio Bingkai",
       "description": "Potong, bingkaikan dan susun foto dengan tindanan grid"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "Pemapar EXIF",
       "description": "Lihat metadata EXIF dan histogram mana-mana foto — 100% di sebelah klien"
     }
   }

@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio membantu Anda memotong, membingkai, dan mengomposisi foto langsung di browser. Gunakan grid komposisi untuk meningkatkan framing Anda, potong ke rasio aspek populer, dan tambahkan border yang terlihat profesional — semua tanpa kehilangan kualitas gambar.",
+      "beginner": "Studio Bingkai membantu Anda memotong, membingkai, dan mengomposisi foto langsung di browser. Gunakan grid komposisi untuk meningkatkan framing Anda, potong ke rasio aspek populer, dan tambahkan border yang terlihat profesional — semua tanpa kehilangan kualitas gambar.",
       "deeper": {
         "0": {
           "heading": "Grid Komposisi",
@@ -78,9 +78,15 @@
           "successMessage": "Benar! 4:5 memberi Anda ruang vertikal maksimum di feed Instagram.",
           "failureMessage": "Postingan potret Instagram menggunakan 4:5 (balik 5:4 ke orientasi potret) untuk real estate feed maksimum.",
           "options": {
-            "0": { "label": "1:1 (Persegi)" },
-            "1": { "label": "4:5 (Potret)" },
-            "2": { "label": "16:9 (Layar Lebar)" }
+            "0": {
+              "label": "1:1 (Persegi)"
+            },
+            "1": {
+              "label": "4:5 (Potret)"
+            },
+            "2": {
+              "label": "16:9 (Layar Lebar)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Tepat! Rule of Thirds adalah panduan komposisi dasar.",
           "failureMessage": "Rule of Thirds (grid 3×3) adalah titik awal paling umum untuk belajar komposisi.",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Garis Diagonal" }
+            "0": {
+              "label": "Rule of Thirds"
+            },
+            "1": {
+              "label": "Golden Spiral"
+            },
+            "2": {
+              "label": "Garis Diagonal"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Benar! 5:4 cocok dengan dimensi cetak 8×10 dengan sempurna.",
           "failureMessage": "8×10 disederhanakan menjadi 4:5, yang merupakan versi potret dari 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Pilihan bagus! Golden Spiral mengikuti kurva dan garis penuntun dengan sempurna.",
           "failureMessage": "Golden Spiral ideal untuk gambar dengan elemen melengkung alami seperti sungai, jalan, atau garis pantai.",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Grid Persegi" }
+            "0": {
+              "label": "Center Cross"
+            },
+            "1": {
+              "label": "Golden Spiral"
+            },
+            "2": {
+              "label": "Grid Persegi"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Benar! Preset White menambahkan border putih 100px di sekitar foto Anda.",
           "failureMessage": "Preset White dirancang untuk presentasi border putih yang bersih dan sederhana.",
           "options": {
-            "0": { "label": "None" },
-            "1": { "label": "White" },
-            "2": { "label": "Black" }
+            "0": {
+              "label": "None"
+            },
+            "1": {
+              "label": "White"
+            },
+            "2": {
+              "label": "Black"
+            }
           }
         }
       }

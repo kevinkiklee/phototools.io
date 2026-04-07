@@ -13,7 +13,7 @@
       },
       "privacyFirst": {
         "title": "Privacy muna",
-        "body": "Lahat ng calculation at simulation ay tumatakbo nang buo sa browser mo. Hindi umaalis sa device mo ang mga litrato mo — halimbawa, ang EXIF Viewer ay nagpo-process ng mga imahe nang 100% client-side. Hindi kailangan mag-sign up, at walang personal data na kinokolekta maliban sa anonymous analytics."
+        "body": "Lahat ng calculation at simulation ay tumatakbo nang buo sa browser mo. Hindi umaalis sa device mo ang mga litrato mo — halimbawa, ang Tagabasa ng EXIF ay nagpo-process ng mga imahe nang 100% client-side. Hindi kailangan mag-sign up, at walang personal data na kinokolekta maliban sa anonymous analytics."
       },
       "builtBy": {
         "title": "Gawa ng mga photographer",

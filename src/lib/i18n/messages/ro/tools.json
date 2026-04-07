@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "Simulator câmp vizual",
       "description": "Compară unghiul de vizualizare între distanțe focale și dimensiuni de senzor"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "Generator de palete de culori",
       "description": "Construiește palete de culori pentru sesiuni foto"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "Vezi cum interacționează diafragma, timpul de expunere și ISO"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "Simulator profunzime de câmp",
       "description": "Vizualizează cum diafragma, distanța focală și distanța influențează blurarea fundalului"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "Calculator focus stacking",
       "description": "Calculează distanțele optime de focalizare pentru claritate din prim-plan până în fundal"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "Află unde să focalizezi pentru claritate maximă din prim-plan până la infinit"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "Vizualizator timp de expunere",
       "description": "Găsește cel mai lung timp de expunere sigur pentru cadre clare din mână"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "Calculator filtre ND",
       "description": "Calculează timpul de expunere cu orice filtru ND"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "Calculator dâre de stele",
       "description": "Calculează expunerea maximă pentru stele punctiforme sau planifică dâre de stele"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "Vezi cum afectează distanța focală compresia fundalului"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "Vizualizator balans de alb",
       "description": "Vezi cum influențează temperatura culorii fotografiile tale"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "Comparație dimensiuni senzor",
       "description": "Compară vizual dimensiunile senzorilor de cameră"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Studio de încadrare",
       "description": "Decupează, încadrează și compune fotografii cu grile de ghidaj"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "Vizualizator EXIF",
       "description": "Vezi datele EXIF și histograma oricărei fotografii — 100% în browser"
     }
   }

@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio pomaga kadrować, ramkować i komponować zdjęcia bezpośrednio w przeglądarce. Używaj siatek kompozycyjnych do poprawy kadrowania, przycinaj do popularnych proporcji i dodawaj profesjonalnie wyglądające ramki — wszystko bez utraty jakości obrazu.",
+      "beginner": "Studio kompozycji pomaga kadrować, ramkować i komponować zdjęcia bezpośrednio w przeglądarce. Używaj siatek kompozycyjnych do poprawy kadrowania, przycinaj do popularnych proporcji i dodawaj profesjonalnie wyglądające ramki — wszystko bez utraty jakości obrazu.",
       "deeper": {
         "0": {
           "heading": "Siatki kompozycyjne",
@@ -78,9 +78,15 @@
           "successMessage": "Prawidłowo! 4:5 daje Ci maksymalną pionową przestrzeń w kanale Instagrama.",
           "failureMessage": "Posty portretowe na Instagramie używają proporcji 4:5 (obróć 5:4 do orientacji portretowej) dla maksymalnej przestrzeni w kanale.",
           "options": {
-            "0": { "label": "1:1 (kwadrat)" },
-            "1": { "label": "4:5 (portret)" },
-            "2": { "label": "16:9 (panoramiczny)" }
+            "0": {
+              "label": "1:1 (kwadrat)"
+            },
+            "1": {
+              "label": "4:5 (portret)"
+            },
+            "2": {
+              "label": "16:9 (panoramiczny)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Zgadza się! Zasada trójpodziału to podstawowy przewodnik kompozycyjny.",
           "failureMessage": "Zasada trójpodziału (siatka 3×3) to najczęstszy punkt wyjścia do nauki kompozycji.",
           "options": {
-            "0": { "label": "Zasada trójpodziału" },
-            "1": { "label": "Złota spirala" },
-            "2": { "label": "Linie przekątne" }
+            "0": {
+              "label": "Zasada trójpodziału"
+            },
+            "1": {
+              "label": "Złota spirala"
+            },
+            "2": {
+              "label": "Linie przekątne"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Prawidłowo! 5:4 idealnie pasuje do wymiarów druku 8×10.",
           "failureMessage": "8×10 upraszcza się do 4:5, czyli portretowej wersji 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Świetny wybór! Złota spirala idealnie podąża za krzywymi i liniami prowadzącymi.",
           "failureMessage": "Złota spirala jest idealna dla obrazów z naturalnymi zakrzywionymi elementami jak rzeki, drogi czy linie brzegowe.",
           "options": {
-            "0": { "label": "Krzyż centralny" },
-            "1": { "label": "Złota spirala" },
-            "2": { "label": "Siatka kwadratowa" }
+            "0": {
+              "label": "Krzyż centralny"
+            },
+            "1": {
+              "label": "Złota spirala"
+            },
+            "2": {
+              "label": "Siatka kwadratowa"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Prawidłowo! Preset Biały dodaje 100px białą ramkę wokół Twojego zdjęcia.",
           "failureMessage": "Preset Biały jest zaprojektowany do czystej, prostej białej prezentacji ramki.",
           "options": {
-            "0": { "label": "Brak" },
-            "1": { "label": "Biały" },
-            "2": { "label": "Czarny" }
+            "0": {
+              "label": "Brak"
+            },
+            "1": {
+              "label": "Biały"
+            },
+            "2": {
+              "label": "Czarny"
+            }
           }
         }
       }

@@ -7,7 +7,7 @@
       "ogTitle": "PhotoTools — ilmaiset valokuvaustyökalut"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — vertaa polttovälejä",
+      "title": "Kuvakulmasimulaattori — vertaa polttovälejä",
       "description": "Vertaa kuvakulmaa eri polttoväleillä ja kennokoilla. Ilmainen, interaktiivinen ja jaettava."
     },
     "dof-simulator": {
@@ -43,7 +43,7 @@
       "description": "Luo valokuvaukseen väripaletteja komplementti-, analogisen, triadisen ja tetradisen väriharmonian avulla. Interaktiivinen väripyörä ja värien poiminta kuvasta."
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "Sommittelustudio",
       "description": "Rajaa, kehystä ja sommittele kuvia apuviivoilla. 100 % selaimessa — kuvasi eivät poistu laitteeltasi."
     },
     "exif-viewer": {

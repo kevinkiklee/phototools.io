@@ -7,7 +7,7 @@
       "ogTitle": "PhotoTools — ingyenes fotós eszközök"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — gyújtótávolságok összehasonlítása",
+      "title": "Látószög-szimulátor — gyújtótávolságok összehasonlítása",
       "description": "Hasonlítsd össze a látószögeket különböző gyújtótávolságokon és érzékelőméreteken. Ingyenes, interaktív, megosztható."
     },
     "dof-simulator": {
@@ -27,27 +27,27 @@
       "description": "Interaktív expozíciós háromszög-szimulátor — élő előnézeten láthatod, hogyan hat a rekesz, a záridő és az ISO a képedre."
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator",
+      "title": "Csillagív-kalkulátor",
       "description": "Számítsd ki a maximális expozíciós időt pontszerű csillagokhoz az 500-as, az NPF és más szabályokkal. Tervezz csillagív-felvételeket bármilyen helyszínre."
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer",
+      "title": "Fehéregyensúly-vizualizáló",
       "description": "Nézd meg, hogyan hat a fehéregyensúly és a színhőmérséklet a fotóidra. 2000K-től 10000K-ig, élő előnézettel."
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison",
+      "title": "Érzékelőméret-összehasonlítás",
       "description": "Hasonlítsd össze a kameraérzékelőket a közepes formátumtól az okostelefonig. Átfedéses, egymás melletti és pixelsűrűség-nézet, valódi kameramodellekkel."
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator",
+      "title": "Színpaletta-generátor",
       "description": "Állíts össze fotós színpalettákat komplementer, analóg, triadikus és tetradikus harmóniák alapján. Interaktív színkör fotóválasztóval."
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "Kompozíciós stúdió",
       "description": "Vágj, keretezz és komponálj fotókat rács-segédvonalakkal. 100%-ban a böngészőben — a fotóid ki sem kerülnek az eszközödről."
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
+      "title": "EXIF-megjelenítő",
       "description": "Nézd meg bármelyik fotó EXIF metaadatait, hisztogramját és előnézetét. 100%-ban a böngészőben — a fotóid ki sem kerülnek az eszközödről."
     },
     "hyperfocal-simulator": {
@@ -55,11 +55,11 @@
       "description": "Jelenítsd meg a hiperfokális távolságot bármilyen objektívhez és érzékelőhöz. Nézd meg, pontosan hová érdemes fókuszálnod a maximális élességért."
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer",
+      "title": "Záridő-vizualizáló",
       "description": "Keresd meg a leglassabb záridőt, amivel még éles kézi felvételt csinálhatsz. Figyelembe veszi a gyújtótávolságot, az érzékelőméretet és a képstabilizálást."
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator",
+      "title": "ND szűrő kalkulátor",
       "description": "Számítsd ki a helyes záridőt ND szűrő használatakor. ND2-től ND1000000-ig minden erősséget kezel, gyorsreferencia-táblázattal."
     },
     "perspective-compression-simulator": {

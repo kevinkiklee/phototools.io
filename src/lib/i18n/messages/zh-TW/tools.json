@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "視角模擬器",
       "description": "比較不同焦距與感光元件尺寸下的視角差異"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "配色方案產生器",
       "description": "為攝影拍攝規劃配色方案"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "親身感受光圈、快門速度與 ISO 如何相互影響"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "景深模擬器",
       "description": "視覺化光圈、焦距與距離如何影響背景虛化"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "焦點堆疊計算機",
       "description": "計算前後景皆清晰所需的最佳對焦距離"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "掌握從前景到無限遠都清晰的對焦位置"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "快門速度視覺化",
       "description": "找出手持拍攝不模糊的最慢安全快門速度"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "ND 濾鏡計算機",
       "description": "計算使用 ND 濾鏡後的正確曝光時間"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "星軌計算機",
       "description": "計算點狀星空的最長曝光時間，或規劃星軌拍攝"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "觀察焦距如何影響背景的壓縮感"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "白平衡視覺化",
       "description": "親眼見證色溫如何改變照片風貌"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "感光元件尺寸比較",
       "description": "以視覺方式比較各種相機感光元件尺寸"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "構圖工作室",
       "description": "使用格線覆圖為照片裁切、加框與構圖"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "EXIF 檢視器",
       "description": "讀取照片的 EXIF 資訊與直方圖 — 完全在瀏覽器端處理"
     }
   }

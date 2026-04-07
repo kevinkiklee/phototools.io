@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio hjælper dig med at beskære, indramme og komponere dine billeder direkte i browseren. Brug kompositionsgitre til at forbedre dit udsnit, beskær til populære billedformater, og læg professionelle rammer på — alt sammen uden at miste billedkvalitet.",
+      "beginner": "Komposition Studio hjælper dig med at beskære, indramme og komponere dine billeder direkte i browseren. Brug kompositionsgitre til at forbedre dit udsnit, beskær til populære billedformater, og læg professionelle rammer på — alt sammen uden at miste billedkvalitet.",
       "deeper": {
         "0": {
           "heading": "Kompositionsgitre",
@@ -78,9 +78,15 @@
           "successMessage": "Rigtigt! 4:5 giver dig maksimal lodret plads i Instagram-feedet.",
           "failureMessage": "Instagram-portrætposter bruger 4:5 (vend 5:4 til portræt) for at fylde mest muligt i feedet.",
           "options": {
-            "0": { "label": "1:1 (kvadrat)" },
-            "1": { "label": "4:5 (portræt)" },
-            "2": { "label": "16:9 (widescreen)" }
+            "0": {
+              "label": "1:1 (kvadrat)"
+            },
+            "1": {
+              "label": "4:5 (portræt)"
+            },
+            "2": {
+              "label": "16:9 (widescreen)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Rigtigt! Tredjedelsreglen er den grundlæggende kompositionsguide.",
           "failureMessage": "Tredjedelsreglen (3×3-gitter) er det mest almindelige startpunkt, når man lærer komposition.",
           "options": {
-            "0": { "label": "Tredjedelsreglen" },
-            "1": { "label": "Den gyldne spiral" },
-            "2": { "label": "Diagonallinjer" }
+            "0": {
+              "label": "Tredjedelsreglen"
+            },
+            "1": {
+              "label": "Den gyldne spiral"
+            },
+            "2": {
+              "label": "Diagonallinjer"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Rigtigt! 5:4 passer perfekt til 8×10-print.",
           "failureMessage": "8×10 forenkles til 4:5, som er portrætversionen af 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Godt valg! Den gyldne spiral følger kurver og ledelinjer perfekt.",
           "failureMessage": "Den gyldne spiral er ideel til billeder med naturlige kurvede elementer som floder, veje eller kyster.",
           "options": {
-            "0": { "label": "Centerkryds" },
-            "1": { "label": "Den gyldne spiral" },
-            "2": { "label": "Kvadratgitter" }
+            "0": {
+              "label": "Centerkryds"
+            },
+            "1": {
+              "label": "Den gyldne spiral"
+            },
+            "2": {
+              "label": "Kvadratgitter"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Rigtigt! Forudindstillingen White tilføjer en 100px hvid ramme rundt om dit foto.",
           "failureMessage": "Forudindstillingen White er lavet til en ren, enkel hvid ramme.",
           "options": {
-            "0": { "label": "None" },
-            "1": { "label": "White" },
-            "2": { "label": "Black" }
+            "0": {
+              "label": "None"
+            },
+            "1": {
+              "label": "White"
+            },
+            "2": {
+              "label": "Black"
+            }
           }
         }
       }

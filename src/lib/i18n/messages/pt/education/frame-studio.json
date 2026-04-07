@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "O Frame Studio ajuda você a cortar, emoldurar e compor suas fotos direto no navegador. Use grades de composição para melhorar seu enquadramento, corte em proporções populares e adicione bordas de aparência profissional — tudo sem perder qualidade de imagem.",
+      "beginner": "O Estúdio de Enquadramento ajuda você a cortar, emoldurar e compor suas fotos direto no navegador. Use grades de composição para melhorar seu enquadramento, corte em proporções populares e adicione bordas de aparência profissional — tudo sem perder qualidade de imagem.",
       "deeper": {
         "0": {
           "heading": "Grades de Composição",
@@ -78,9 +78,15 @@
           "successMessage": "Correto! 4:5 dá o máximo espaço vertical no feed do Instagram.",
           "failureMessage": "Postagens de retrato no Instagram usam 4:5 (inverta 5:4 para orientação retrato) para máxima ocupação no feed.",
           "options": {
-            "0": { "label": "1:1 (Quadrado)" },
-            "1": { "label": "4:5 (Retrato)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": {
+              "label": "1:1 (Quadrado)"
+            },
+            "1": {
+              "label": "4:5 (Retrato)"
+            },
+            "2": {
+              "label": "16:9 (Widescreen)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Certo! A Regra dos Terços é o guia fundamental de composição.",
           "failureMessage": "A Regra dos Terços (grade 3×3) é o ponto de partida mais comum para aprender composição.",
           "options": {
-            "0": { "label": "Regra dos Terços" },
-            "1": { "label": "Espiral Áurea" },
-            "2": { "label": "Linhas Diagonais" }
+            "0": {
+              "label": "Regra dos Terços"
+            },
+            "1": {
+              "label": "Espiral Áurea"
+            },
+            "2": {
+              "label": "Linhas Diagonais"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Correto! 5:4 corresponde perfeitamente às dimensões de impressão 8×10.",
           "failureMessage": "8×10 simplifica para 4:5, que é a versão retrato de 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Ótima escolha! A Espiral Áurea acompanha curvas e linhas de condução perfeitamente.",
           "failureMessage": "A Espiral Áurea é ideal para imagens com elementos curvos naturais como rios, estradas ou linhas costeiras.",
           "options": {
-            "0": { "label": "Cruz Central" },
-            "1": { "label": "Espiral Áurea" },
-            "2": { "label": "Grade Quadrada" }
+            "0": {
+              "label": "Cruz Central"
+            },
+            "1": {
+              "label": "Espiral Áurea"
+            },
+            "2": {
+              "label": "Grade Quadrada"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Correto! A predefinição Branco adiciona uma borda branca de 100px ao redor da sua foto.",
           "failureMessage": "A predefinição Branco é projetada para uma apresentação com borda branca limpa e simples.",
           "options": {
-            "0": { "label": "Nenhum" },
-            "1": { "label": "Branco" },
-            "2": { "label": "Preto" }
+            "0": {
+              "label": "Nenhum"
+            },
+            "1": {
+              "label": "Branco"
+            },
+            "2": {
+              "label": "Preto"
+            }
           }
         }
       }

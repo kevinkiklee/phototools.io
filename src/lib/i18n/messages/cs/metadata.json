@@ -7,7 +7,7 @@
       "ogTitle": "PhotoTools — Bezplatné nástroje pro fotografy"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Porovnání ohniskových vzdáleností",
+      "title": "Simulátor zorného úhlu — Porovnání ohniskových vzdáleností",
       "description": "Porovnej zorný úhel napříč ohnisky a velikostmi snímače. Zdarma, interaktivně, se sdílením."
     },
     "dof-simulator": {
@@ -27,27 +27,27 @@
       "description": "Interaktivní simulátor expozičního trojúhelníku — uvidíš v reálném čase, jak clona, expoziční čas a ISO ovlivňují snímek."
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator",
+      "title": "Kalkulačka hvězdných stop",
       "description": "Spočítej maximální expoziční čas pro bodové hvězdy podle pravidla 500, NPF a dalších. Naplánuj stackování pro hvězdné stopy kdekoli na světě."
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer",
+      "title": "Vizualizér vyvážení bílé",
       "description": "Zjisti, jak vyvážení bílé a teplota barev mění tvoje fotky. Sleduj změny od 2000 K do 10000 K v živém náhledu."
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison",
+      "title": "Srovnání velikostí snímačů",
       "description": "Porovnej velikosti snímačů od středního formátu po smartphone. Překrytí, vedle sebe, hustota pixelů a reálné modely fotoaparátů."
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator",
+      "title": "Generátor barevných palet",
       "description": "Generuj barevné palety pro fotografy pomocí komplementárních, analogických, triadických a tetradických harmonií. Interaktivní barevné kolo s výběrem z fotky."
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "Studio kompozice",
       "description": "Ořízni, orámuj a komponuj fotky s pomocnými mřížkami. Vše běží v prohlížeči — tvoje fotky nikdy neopustí zařízení."
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
+      "title": "Prohlížeč EXIF",
       "description": "Prohlédni si EXIF metadata, histogram a náhled libovolné fotky. Vše probíhá v prohlížeči — fotky nikdy neopouští tvoje zařízení."
     },
     "hyperfocal-simulator": {
@@ -55,11 +55,11 @@
       "description": "Vizualizuj hyperfokální vzdálenost pro libovolný objektiv a snímač. Zjisti, kam přesně zaostřit pro maximální ostrost od popředí do nekonečna."
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer",
+      "title": "Vizualizér expozičního času",
       "description": "Najdi minimální expoziční čas pro ostré fotky z ruky. Počítá s ohniskem, velikostí snímače i stabilizací obrazu."
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator",
+      "title": "Kalkulačka ND filtrů",
       "description": "Spočítej správný expoziční čas s ND filtry. Podporuje libovolnou hustotu od ND2 po ND1000000 včetně rychlé tabulky."
     },
     "perspective-compression-simulator": {

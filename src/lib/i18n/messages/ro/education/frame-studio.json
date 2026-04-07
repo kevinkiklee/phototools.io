@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio te ajută să decupezi, să încadrezi și să compui fotografiile direct în browser. Folosește grile de compoziție ca să-ți îmbunătățești încadrarea, decupează la rapoartele populare de aspect și adaugă borduri cu aspect profesionist — totul fără să pierzi din calitatea imaginii.",
+      "beginner": "Studio de încadrare te ajută să decupezi, să încadrezi și să compui fotografiile direct în browser. Folosește grile de compoziție ca să-ți îmbunătățești încadrarea, decupează la rapoartele populare de aspect și adaugă borduri cu aspect profesionist — totul fără să pierzi din calitatea imaginii.",
       "deeper": {
         "0": {
           "heading": "Grile de compoziție",
@@ -78,9 +78,15 @@
           "successMessage": "Corect! 4:5 îți dă spațiul vertical maxim în feed-ul Instagram.",
           "failureMessage": "Postările verticale pe Instagram folosesc 4:5 (versiunea verticală a lui 5:4), pentru maximum de spațiu în feed.",
           "options": {
-            "0": { "label": "1:1 (Pătrat)" },
-            "1": { "label": "4:5 (Vertical)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": {
+              "label": "1:1 (Pătrat)"
+            },
+            "1": {
+              "label": "4:5 (Vertical)"
+            },
+            "2": {
+              "label": "16:9 (Widescreen)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Exact! Regula treimilor este ghidul fundamental de compoziție.",
           "failureMessage": "Regula treimilor (grilă 3×3) este cel mai comun punct de plecare pentru învățarea compoziției.",
           "options": {
-            "0": { "label": "Regula treimilor" },
-            "1": { "label": "Spirala de aur" },
-            "2": { "label": "Linii diagonale" }
+            "0": {
+              "label": "Regula treimilor"
+            },
+            "1": {
+              "label": "Spirala de aur"
+            },
+            "2": {
+              "label": "Linii diagonale"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Corect! 5:4 se potrivește perfect cu dimensiunile printului 8×10.",
           "failureMessage": "8×10 se simplifică la 4:5, versiunea verticală a lui 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Alegere excelentă! Spirala de aur urmărește perfect curbele și liniile de ghidaj.",
           "failureMessage": "Spirala de aur e ideală pentru imagini cu elemente curbate naturale, precum râuri, drumuri sau linii de coastă.",
           "options": {
-            "0": { "label": "Cruce centrală" },
-            "1": { "label": "Spirala de aur" },
-            "2": { "label": "Grilă pătrată" }
+            "0": {
+              "label": "Cruce centrală"
+            },
+            "1": {
+              "label": "Spirala de aur"
+            },
+            "2": {
+              "label": "Grilă pătrată"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Corect! Presetul White adaugă o bordură albă de 100px în jurul fotografiei.",
           "failureMessage": "Presetul White este gândit pentru o prezentare curată, cu o bordură albă simplă.",
           "options": {
-            "0": { "label": "Niciunul" },
-            "1": { "label": "Alb" },
-            "2": { "label": "Negru" }
+            "0": {
+              "label": "Niciunul"
+            },
+            "1": {
+              "label": "Alb"
+            },
+            "2": {
+              "label": "Negru"
+            }
           }
         }
       }

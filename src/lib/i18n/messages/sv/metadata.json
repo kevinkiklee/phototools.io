@@ -7,7 +7,7 @@
       "ogTitle": "PhotoTools — Gratis fotoverktyg"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Jämför brännvidder",
+      "title": "Bildvinkelsimulator — Jämför brännvidder",
       "description": "Jämför bildvinkel för olika brännvidder och sensorstorlekar. Gratis, interaktivt och delbart."
     },
     "dof-simulator": {
@@ -27,27 +27,27 @@
       "description": "Interaktiv simulator för exponeringstriangeln — se i realtid hur bländare, slutartid och ISO påverkar bilden, med livevisning."
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator",
+      "title": "Stjärnspårskalkylator",
       "description": "Räkna ut maximal exponeringstid för skarpa stjärnor med 500-regeln, NPF-regeln med flera. Planera star trail-stacking för vilken plats som helst."
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer",
+      "title": "Vitbalansvisare",
       "description": "Se hur vitbalans och färgtemperatur påverkar dina foton. Visualisera förändringar från 2000 K till 10000 K i realtid."
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison",
+      "title": "Sensorstorleksjämförelse",
       "description": "Jämför sensorstorlekar från mellanformat till mobiltelefoner. Overlay, sida vid sida och pixeltäthet med verkliga kameramodeller."
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator",
+      "title": "Färgpalettgenerator",
       "description": "Skapa färgpaletter för fotografering med komplementära, analoga, triadiska och tetradiska färgharmonier. Interaktiv färgcirkel med färgplockning från foto."
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "Kompositionsstudio",
       "description": "Beskär, rama in och komponera foton med kompositionsrutnät. Körs helt i webbläsaren — dina foton lämnar aldrig din enhet."
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
+      "title": "EXIF-visare",
       "description": "Se EXIF-metadata, histogram och förhandsvisning för vilket foto som helst. Körs helt i webbläsaren — dina foton lämnar aldrig din enhet."
     },
     "hyperfocal-simulator": {
@@ -55,11 +55,11 @@
       "description": "Visualisera hyperfokalavståndet för vilket objektiv och sensor som helst. Se exakt var du ska fokusera för maximal skärpa från förgrund till oändlighet."
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer",
+      "title": "Slutartidsvisare",
       "description": "Hitta kortaste säkra slutartid för skarpa handhållna foton. Tar hänsyn till brännvidd, sensorstorlek och bildstabilisering."
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator",
+      "title": "ND-filterkalkylator",
       "description": "Räkna ut rätt slutartid med ND-filter. Fungerar med alla filterstyrkor från ND2 till ND1000000 med snabbreferenstabell."
     },
     "perspective-compression-simulator": {

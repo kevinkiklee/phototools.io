@@ -43,11 +43,11 @@
       "description": "Buat palet warna untuk fotografi menggunakan harmoni warna komplementer, analogus, triadik, dan tetradik. Roda warna interaktif dengan pemilih warna dari foto."
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "Studio Bingkai",
       "description": "Potong, bingkai, dan komposisikan foto dengan overlay grid. 100% di sisi klien — foto Anda tidak pernah meninggalkan perangkat."
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
+      "title": "Penampil EXIF",
       "description": "Lihat metadata EXIF, histogram, dan pratinjau gambar untuk foto apa pun. 100% di sisi klien — foto Anda tidak pernah meninggalkan perangkat."
     },
     "hyperfocal-simulator": {

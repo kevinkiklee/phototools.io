@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio te ayuda a recortar, enmarcar y componer tus fotos directamente en el navegador. Usa cuadrículas de composición para mejorar tu encuadre, recorta a relaciones de aspecto populares y añade bordes con aspecto profesional — todo sin perder calidad de imagen.",
+      "beginner": "Estudio de enmarcado te ayuda a recortar, enmarcar y componer tus fotos directamente en el navegador. Usa cuadrículas de composición para mejorar tu encuadre, recorta a relaciones de aspecto populares y añade bordes con aspecto profesional — todo sin perder calidad de imagen.",
       "deeper": {
         "0": {
           "heading": "Cuadrículas de composición",
@@ -78,9 +78,15 @@
           "successMessage": "¡Correcto! 4:5 te da el máximo espacio vertical en el feed de Instagram.",
           "failureMessage": "Las publicaciones de retrato en Instagram usan 4:5 (invierte 5:4 a orientación retrato) para máxima presencia en el feed.",
           "options": {
-            "0": { "label": "1:1 (Cuadrado)" },
-            "1": { "label": "4:5 (Retrato)" },
-            "2": { "label": "16:9 (Panorámico)" }
+            "0": {
+              "label": "1:1 (Cuadrado)"
+            },
+            "1": {
+              "label": "4:5 (Retrato)"
+            },
+            "2": {
+              "label": "16:9 (Panorámico)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "¡Correcto! La regla de los tercios es la guía fundamental de composición.",
           "failureMessage": "La regla de los tercios (cuadrícula 3×3) es el punto de partida más común para aprender composición.",
           "options": {
-            "0": { "label": "Regla de los tercios" },
-            "1": { "label": "Espiral áurea" },
-            "2": { "label": "Líneas diagonales" }
+            "0": {
+              "label": "Regla de los tercios"
+            },
+            "1": {
+              "label": "Espiral áurea"
+            },
+            "2": {
+              "label": "Líneas diagonales"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "¡Correcto! 5:4 coincide perfectamente con las dimensiones de impresión de 8×10.",
           "failureMessage": "8×10 se simplifica a 4:5, que es la versión retrato de 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "¡Buena elección! La espiral áurea sigue curvas y líneas de conducción perfectamente.",
           "failureMessage": "La espiral áurea es ideal para imágenes con elementos curvos naturales como ríos, caminos o costas.",
           "options": {
-            "0": { "label": "Cruz central" },
-            "1": { "label": "Espiral áurea" },
-            "2": { "label": "Cuadrícula cuadrada" }
+            "0": {
+              "label": "Cruz central"
+            },
+            "1": {
+              "label": "Espiral áurea"
+            },
+            "2": {
+              "label": "Cuadrícula cuadrada"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "¡Correcto! El preajuste Blanco añade un borde blanco de 100px alrededor de tu foto.",
           "failureMessage": "El preajuste Blanco está diseñado para una presentación con borde blanco limpio y simple.",
           "options": {
-            "0": { "label": "Ninguno" },
-            "1": { "label": "Blanco" },
-            "2": { "label": "Negro" }
+            "0": {
+              "label": "Ninguno"
+            },
+            "1": {
+              "label": "Blanco"
+            },
+            "2": {
+              "label": "Negro"
+            }
           }
         }
       }

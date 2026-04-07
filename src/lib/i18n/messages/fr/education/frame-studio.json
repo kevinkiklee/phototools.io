@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio t'aide à recadrer, encadrer et composer tes photos directement dans le navigateur. Utilise les grilles de composition pour améliorer ton cadrage, recadre selon les rapports d'aspect populaires et ajoute des bordures d'aspect professionnel — tout cela sans perte de qualité d'image.",
+      "beginner": "Studio de cadrage t'aide à recadrer, encadrer et composer tes photos directement dans le navigateur. Utilise les grilles de composition pour améliorer ton cadrage, recadre selon les rapports d'aspect populaires et ajoute des bordures d'aspect professionnel — tout cela sans perte de qualité d'image.",
       "deeper": {
         "0": {
           "heading": "Grilles de composition",
@@ -78,9 +78,15 @@
           "successMessage": "Correct ! 4:5 te donne l'espace vertical maximum dans le fil Instagram.",
           "failureMessage": "Les publications portrait Instagram utilisent le 4:5 (retourne le 5:4 en orientation portrait) pour un maximum de surface dans le fil.",
           "options": {
-            "0": { "label": "1:1 (Carré)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Écran large)" }
+            "0": {
+              "label": "1:1 (Carré)"
+            },
+            "1": {
+              "label": "4:5 (Portrait)"
+            },
+            "2": {
+              "label": "16:9 (Écran large)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Exact ! La Règle des tiers est le guide de composition fondamental.",
           "failureMessage": "La Règle des tiers (grille 3×3) est le point de départ le plus courant pour apprendre la composition.",
           "options": {
-            "0": { "label": "Règle des tiers" },
-            "1": { "label": "Spirale dorée" },
-            "2": { "label": "Lignes diagonales" }
+            "0": {
+              "label": "Règle des tiers"
+            },
+            "1": {
+              "label": "Spirale dorée"
+            },
+            "2": {
+              "label": "Lignes diagonales"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Correct ! 5:4 correspond parfaitement aux dimensions d'impression 20×25 cm.",
           "failureMessage": "20×25 se simplifie en 4:5, qui est la version portrait du 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Excellent choix ! La Spirale dorée suit parfaitement les courbes et lignes directrices.",
           "failureMessage": "La Spirale dorée est idéale pour les images avec des éléments courbes naturels comme les rivières, routes ou côtes.",
           "options": {
-            "0": { "label": "Croix centrale" },
-            "1": { "label": "Spirale dorée" },
-            "2": { "label": "Grille carrée" }
+            "0": {
+              "label": "Croix centrale"
+            },
+            "1": {
+              "label": "Spirale dorée"
+            },
+            "2": {
+              "label": "Grille carrée"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Correct ! Le préréglage Blanc ajoute une bordure blanche de 100px autour de ta photo.",
           "failureMessage": "Le préréglage Blanc est conçu pour une présentation simple avec bordure blanche épurée.",
           "options": {
-            "0": { "label": "Aucun" },
-            "1": { "label": "Blanc" },
-            "2": { "label": "Noir" }
+            "0": {
+              "label": "Aucun"
+            },
+            "1": {
+              "label": "Blanc"
+            },
+            "2": {
+              "label": "Noir"
+            }
           }
         }
       }

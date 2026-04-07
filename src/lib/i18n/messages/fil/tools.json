@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "Simulator ng FOV",
       "description": "Ikumpara ang field of view sa iba't ibang focal length at sensor size"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "Tagabuo ng Color Scheme",
       "description": "Gumawa ng color palette para sa iyong photo shoot"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "Tingnan kung paano magkakaugnay ang aperture, shutter speed, at ISO"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "Simulator ng Depth-of-Field",
       "description": "I-visualize kung paano apektado ng aperture, focal length, at distance ang background blur"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "Kalkulador ng Focus Stacking",
       "description": "Kalkulahin ang tamang focus distances para sa front-to-back sharpness"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "Alamin kung saan mag-focus para sa maximum sharpness mula foreground hanggang infinity"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "Visualizer ng Shutter Speed",
       "description": "Hanapin ang pinakamabagal na safe shutter speed para sa sharp na handheld shots"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "Kalkulador ng ND Filter",
       "description": "Kalkulahin ang exposure time gamit ang kahit anong ND filter"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "Kalkulador ng Star Trail",
       "description": "Kalkulahin ang max exposure para sa sharp na stars o magplano ng star trail shot"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "Tingnan kung paano apektado ng focal length ang background compression"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "Visualizer ng White Balance",
       "description": "Tingnan kung paano apektado ng color temperature ang mga litrato mo"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "Paghahambing ng Sensor Size",
       "description": "Visually na ikumpara ang mga camera sensor size"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Studio ng Frame",
       "description": "I-crop, i-frame, at i-compose ang mga litrato gamit ang grid overlays"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "Tagabasa ng EXIF",
       "description": "Tingnan ang EXIF metadata at histogram ng kahit anong litrato — 100% client-side"
     }
   }

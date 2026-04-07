@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "Látószög-szimulátor",
       "description": "Hasonlítsd össze a látószögeket különböző gyújtótávolságokon és érzékelőméreteken"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "Színpaletta-generátor",
       "description": "Állíts össze színpalettákat a fotózásaidhoz"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "Nézd meg, hogyan dolgozik együtt a rekesz, a záridő és az ISO"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "Mélységélesség-szimulátor",
       "description": "Nézd meg, hogyan hat a rekesz, a gyújtótávolság és a téma távolsága a háttérelmosódásra"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "Fókuszhalmozás-kalkulátor",
       "description": "Számítsd ki az optimális fókusztávolságokat az elejétől a végéig éles képhez"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "Nézd meg, hová érdemes fókuszálnod az előtértől a végtelenig terjedő maximális élességhez"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "Záridő-vizualizáló",
       "description": "Keresd meg a leglassabb biztonságos záridőt az éles kézi felvételekhez"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "ND szűrő kalkulátor",
       "description": "Számítsd ki az expozíciós időt tetszőleges ND szűrővel"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "Csillagív-kalkulátor",
       "description": "Számítsd ki a maximális expozíciót pontszerű csillagokhoz, vagy tervezz csillagív-felvételeket"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "Nézd meg, hogyan hat a gyújtótávolság a háttér tömörítésére"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "Fehéregyensúly-vizualizáló",
       "description": "Nézd meg, hogyan hat a színhőmérséklet a fotóidra"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "Érzékelőméret-összehasonlítás",
       "description": "Hasonlítsd össze vizuálisan a kameraérzékelők méretét"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Kompozíciós stúdió",
       "description": "Vágj, keretezz és komponálj fotókat rács-segédvonalakkal"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "EXIF-megjelenítő",
       "description": "Nézd meg bármelyik fotó EXIF metaadatait és hisztogramját — 100%-ban a böngésződben"
     }
   }

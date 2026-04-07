@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "Bildvinkelsimulator",
       "description": "Jämför bildvinkel mellan brännvidder och sensorstorlekar"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "Färgpalettgenerator",
       "description": "Bygg färgpaletter för dina fotograferingar"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "Se hur bländare, slutartid och ISO samspelar"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "Skärpedjupssimulator",
       "description": "Visualisera hur bländare, brännvidd och avstånd påverkar bakgrundsoskärpan"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "Focus stacking-kalkylator",
       "description": "Räkna ut optimala fokusavstånd för skärpa från förgrund till bakgrund"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "Lär dig var du ska fokusera för maximal skärpa från förgrund till oändlighet"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "Slutartidsvisare",
       "description": "Hitta kortaste säkra slutartid för skarpa handhållna bilder"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "ND-filterkalkylator",
       "description": "Räkna ut exponeringstid med vilket ND-filter som helst"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "Stjärnspårskalkylator",
       "description": "Räkna ut maxexponering för skarpa stjärnor eller planera star trails"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "Se hur brännvidden påverkar bakgrundskompressionen"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "Vitbalansvisare",
       "description": "Se hur färgtemperaturen påverkar dina foton"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "Sensorstorleksjämförelse",
       "description": "Jämför sensorstorlekar visuellt"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Kompositionsstudio",
       "description": "Beskär, rama in och komponera foton med kompositionsrutnät"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "EXIF-visare",
       "description": "Se EXIF-metadata och histogram för vilket foto som helst — 100 % i webbläsaren"
     }
   }

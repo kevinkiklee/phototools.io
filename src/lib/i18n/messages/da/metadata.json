@@ -7,7 +7,7 @@
       "ogTitle": "PhotoTools — gratis værktøjer til fotografer"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — sammenlign brændvidder",
+      "title": "Billedvinkel-simulator — sammenlign brændvidder",
       "description": "Sammenlign billedvinkel på tværs af brændvidder og sensorstørrelser. Gratis, interaktivt og kan deles."
     },
     "dof-simulator": {
@@ -27,27 +27,27 @@
       "description": "Interaktiv eksponeringstrekant — se i realtid, hvordan blænde, lukkertid og ISO påvirker billedet, med live preview."
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator",
+      "title": "Stjernespor-beregner",
       "description": "Beregn den længste eksponeringstid for knivskarpe stjerner med 500-reglen, NPF-reglen og flere. Planlæg star trails, uanset hvor du befinder dig."
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer",
+      "title": "Hvidbalance-visualisering",
       "description": "Se hvordan hvidbalance og farvetemperatur påvirker dine billeder. Følg ændringerne fra 2000K til 10000K i realtid."
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison",
+      "title": "Sensorstørrelse-sammenligning",
       "description": "Sammenlign kamerasensorer fra mellemformat til smartphone. Se overlay, side om side og pixeltæthed for rigtige kameramodeller."
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator",
+      "title": "Farvepalet-generator",
       "description": "Lav farvepaletter til dine billeder med komplementære, analoge, triadiske og tetradiske farveharmonier. Interaktiv farvecirkel med pipette til at hente farver fra fotos."
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "Komposition Studio",
       "description": "Beskær, indram og komponér fotos med kompositionsguider. Alt foregår i browseren — dine billeder forlader aldrig din enhed."
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
+      "title": "EXIF-fremviser",
       "description": "Se EXIF-metadata, histogram og preview for ethvert foto. Alt foregår i browseren — dine billeder forlader aldrig din enhed."
     },
     "hyperfocal-simulator": {
@@ -55,11 +55,11 @@
       "description": "Se hyperfokal afstand for enhver linse og sensor. Find præcis hvor du skal stille skarpt for maksimal skarphed fra forgrund til uendelig."
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer",
+      "title": "Lukkertids-visualisering",
       "description": "Find den langsomste lukkertid, du kan slippe af sted med håndholdt. Tager højde for brændvidde, sensorstørrelse og billedstabilisering."
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator",
+      "title": "ND-filter-beregner",
       "description": "Beregn den korrekte lukkertid, når du bruger ND-filtre. Understøtter alle filterstyrker fra ND2 til ND1000000 med hurtigoversigt."
     },
     "perspective-compression-simulator": {

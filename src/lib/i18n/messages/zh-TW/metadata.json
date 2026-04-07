@@ -7,7 +7,7 @@
       "ogTitle": "PhotoTools — 免費攝影工具"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — 比較不同焦距",
+      "title": "視角模擬器 — 比較不同焦距",
       "description": "比較不同焦距與感光元件尺寸下的視角差異。免費、互動、可分享。"
     },
     "dof-simulator": {
@@ -23,47 +23,47 @@
       "description": "跨不同感光元件格式找出可匹配景深的等效光圈與焦距"
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator 曝光三角模擬器",
+      "title": "曝光三角模擬器",
       "description": "互動式曝光三角模擬器 — 透過即時預覽，見證光圈、快門速度與 ISO 如何影響影像。"
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator 星軌計算機",
+      "title": "星軌計算機",
       "description": "使用 500 法則、NPF 法則等公式計算點狀星空的最長曝光時間。支援任何地點的星軌堆疊拍攝規劃。"
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer 白平衡視覺化工具",
+      "title": "白平衡視覺化工具",
       "description": "親眼見證白平衡與色溫如何改變照片風貌。以即時預覽從 2000K 到 10000K 的變化。"
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison 感光元件尺寸比較",
+      "title": "感光元件尺寸比較",
       "description": "比較從中片幅到智慧型手機的各種相機感光元件。支援疊合、並排與畫素密度三種檢視模式，並內建真實機型資料。"
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator 配色方案產生器",
+      "title": "配色方案產生器",
       "description": "以互補、類比、三等分、四等分等色彩和諧法則產生攝影配色方案。內建互動式色環與照片取色工具。"
     },
     "frame-studio": {
-      "title": "Frame Studio",
+      "title": "構圖工作室",
       "description": "使用構圖格線為照片裁切、加框與構圖。完全於瀏覽器端處理 — 您的照片絕不會離開您的裝置。"
     },
     "exif-viewer": {
-      "title": "EXIF Viewer EXIF 檢視器",
+      "title": "EXIF 檢視器",
       "description": "檢視任何照片的 EXIF 資訊、直方圖與預覽。完全於瀏覽器端處理 — 您的照片絕不會離開您的裝置。"
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator 超焦距模擬器",
+      "title": "超焦距模擬器",
       "description": "視覺化任意鏡頭與感光元件的超焦距。明確指出從前景到無限遠都清晰的對焦位置。"
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer 快門速度視覺化工具",
+      "title": "快門速度視覺化工具",
       "description": "找出手持拍攝不模糊的最慢快門速度。自動納入焦距、感光元件尺寸與影像穩定器等因素。"
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator ND 減光鏡計算機",
+      "title": "ND 濾鏡計算機",
       "description": "裝上 ND 濾鏡後，快速計算正確的快門速度。支援 ND2 到 ND1000000 任意減光強度，並提供速查表。"
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator 透視壓縮模擬器",
+      "title": "透視壓縮模擬器",
       "description": "互動式 3D 模擬，展示焦距與距離如何影響透視壓縮。即時觀察背景壓縮感的變化。"
     },
     "about": {

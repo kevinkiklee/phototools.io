@@ -1,11 +1,11 @@
 {
   "tools": {
     "fov-simulator": {
-      "name": "FOV Simulator",
+      "name": "Kuvakulmasimulaattori",
       "description": "Vertaa kuvakulmaa eri polttoväleillä ja kennoilla"
     },
     "color-scheme-generator": {
-      "name": "Color Scheme Generator",
+      "name": "Väripalettigeneraattori",
       "description": "Luo väripaletteja kuvauksia varten"
     },
     "exposure-simulator": {
@@ -13,11 +13,11 @@
       "description": "Näe, miten aukko, suljinaika ja ISO vaikuttavat toisiinsa"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
+      "name": "Syväterävyyssimulaattori",
       "description": "Näe, miten aukko, polttoväli ja etäisyys vaikuttavat taustan sumenemiseen"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
+      "name": "Tarkennuspinoamisen laskuri",
       "description": "Laske optimaaliset tarkennusetäisyydet läpiterävään lopputulokseen"
     },
     "equivalent-settings-calculator": {
@@ -29,15 +29,15 @@
       "description": "Opi, mihin tarkentaa, jotta kuva on terävä etualasta äärettömyyteen"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
+      "name": "Suljinajan visualisointi",
       "description": "Löydä turvallinen suljinaika teräviin käsivarakuviin"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
+      "name": "ND-suotimen laskuri",
       "description": "Laske valotusaika millä tahansa ND-suotimella"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
+      "name": "Tähtijälkien laskuri",
       "description": "Laske pisin valotus pistemäisille tähdille tai suunnittele tähtiratakuvaus"
     },
     "perspective-compression-simulator": {
@@ -45,19 +45,19 @@
       "description": "Näe, miten polttoväli vaikuttaa taustan pakkautumiseen"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
+      "name": "Valkotasapainon visualisointi",
       "description": "Näe, miten värilämpötila vaikuttaa kuviisi"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
+      "name": "Kennokokojen vertailu",
       "description": "Vertaile kameroiden kennokokoja visuaalisesti"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Sommittelustudio",
       "description": "Rajaa, kehystä ja sommittele kuvia apuviivoilla"
     },
     "exif-viewer": {
-      "name": "EXIF Viewer",
+      "name": "EXIF-katselin",
       "description": "Tarkastele minkä tahansa kuvan EXIF-tietoja ja histogrammia — 100 % selaimessa"
     }
   }

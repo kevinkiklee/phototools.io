@@ -1,7 +1,7 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio hjälper dig beskära, rama in och komponera dina foton direkt i webbläsaren. Lägg på kompositionsrutnät för att finslipa bildutsnittet, beskär till vanliga bildförhållanden och sätt på proffsiga ramar — allt utan att tappa i bildkvalitet.",
+      "beginner": "Kompositionsstudio hjälper dig beskära, rama in och komponera dina foton direkt i webbläsaren. Lägg på kompositionsrutnät för att finslipa bildutsnittet, beskär till vanliga bildförhållanden och sätt på proffsiga ramar — allt utan att tappa i bildkvalitet.",
       "deeper": {
         "0": {
           "heading": "Kompositionsrutnät",
@@ -78,9 +78,15 @@
           "successMessage": "Rätt! 4:5 ger dig maximal vertikal yta i Instagram-flödet.",
           "failureMessage": "Instagrams stående inlägg använder 4:5 (5:4 vänt till stående orientering) för maximal plats i flödet.",
           "options": {
-            "0": { "label": "1:1 (kvadrat)" },
-            "1": { "label": "4:5 (stående)" },
-            "2": { "label": "16:9 (widescreen)" }
+            "0": {
+              "label": "1:1 (kvadrat)"
+            },
+            "1": {
+              "label": "4:5 (stående)"
+            },
+            "2": {
+              "label": "16:9 (widescreen)"
+            }
           }
         },
         "1": {
@@ -89,9 +95,15 @@
           "successMessage": "Rätt! Tredjedelsregeln är den grundläggande kompositionsprincipen.",
           "failureMessage": "Tredjedelsregeln (3×3-rutnät) är den vanligaste utgångspunkten när man lär sig komposition.",
           "options": {
-            "0": { "label": "Tredjedelsregeln" },
-            "1": { "label": "Gyllene spiralen" },
-            "2": { "label": "Diagonallinjer" }
+            "0": {
+              "label": "Tredjedelsregeln"
+            },
+            "1": {
+              "label": "Gyllene spiralen"
+            },
+            "2": {
+              "label": "Diagonallinjer"
+            }
           }
         },
         "2": {
@@ -100,9 +112,15 @@
           "successMessage": "Rätt! 5:4 matchar 8×10-måtten exakt.",
           "failureMessage": "8×10 förenklas till 4:5, som är den stående versionen av 5:4.",
           "options": {
-            "0": { "label": "3:2" },
-            "1": { "label": "5:4" },
-            "2": { "label": "4:3" }
+            "0": {
+              "label": "3:2"
+            },
+            "1": {
+              "label": "5:4"
+            },
+            "2": {
+              "label": "4:3"
+            }
           }
         },
         "3": {
@@ -111,9 +129,15 @@
           "successMessage": "Fint val! Gyllene spiralen följer kurvor och ledande linjer perfekt.",
           "failureMessage": "Gyllene spiralen är idealisk för bilder med naturligt böjda element som floder, vägar eller kustlinjer.",
           "options": {
-            "0": { "label": "Centrumkors" },
-            "1": { "label": "Gyllene spiralen" },
-            "2": { "label": "Kvadratrutnät" }
+            "0": {
+              "label": "Centrumkors"
+            },
+            "1": {
+              "label": "Gyllene spiralen"
+            },
+            "2": {
+              "label": "Kvadratrutnät"
+            }
           }
         },
         "4": {
@@ -122,9 +146,15 @@
           "successMessage": "Rätt! Förinställningen \"Vit\" lägger till en 100 px vit ram runt bilden.",
           "failureMessage": "Förinställningen \"Vit\" är gjord för en ren, enkel vit ram.",
           "options": {
-            "0": { "label": "Ingen" },
-            "1": { "label": "Vit" },
-            "2": { "label": "Svart" }
+            "0": {
+              "label": "Ingen"
+            },
+            "1": {
+              "label": "Vit"
+            },
+            "2": {
+              "label": "Svart"
+            }
           }
         }
       }

@@ -53,7 +53,7 @@
       "description": "Confronta visivamente le dimensioni dei sensori delle fotocamere"
     },
     "frame-studio": {
-      "name": "Frame Studio",
+      "name": "Studio di inquadratura",
       "description": "Ritaglia, incornicia e componi le foto con griglie di composizione"
     },
     "exif-viewer": {
