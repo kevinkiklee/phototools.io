@@ -17,16 +17,24 @@ export function useTheme() { return useContext(ThemeContext) }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<'dark' | 'light'>('dark')
+  // Tracks whether we've read the persisted theme from localStorage yet.
+  // Without this, the write effect fires on initial mount with the default
+  // 'dark' state and overwrites the user's saved preference. This bug
+  // surfaces on every locale switch because changing the [locale] segment
+  // remounts the provider.
+  const [hydrated, setHydrated] = useState(false)
 
   useEffect(() => {
     const saved = localStorage.getItem('phototools-theme') as 'dark' | 'light' | null
     if (saved) setTheme(saved)
+    setHydrated(true)
   }, [])
 
   useEffect(() => {
+    if (!hydrated) return
     document.documentElement.setAttribute('data-theme', theme)
     localStorage.setItem('phototools-theme', theme)
-  }, [theme])
+  }, [theme, hydrated])
 
   return (
     <ThemeContext value={{ theme, setTheme }}>
