@@ -31,10 +31,22 @@ function isRateLimited(key: string): boolean {
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
+const ALLOWED_CATEGORIES = ['tool-feedback', 'bug-report', 'new-tool-suggestion', 'translation-issue', 'other'] as const
+type ContactCategory = typeof ALLOWED_CATEGORIES[number]
+
+const CATEGORY_LABELS: Record<ContactCategory, string> = {
+  'tool-feedback': 'Tool Feedback',
+  'bug-report': 'Bug Report',
+  'new-tool-suggestion': 'New Tool Suggestion',
+  'translation-issue': 'Translation Issue',
+  'other': 'Other',
+}
+
 interface ContactBody {
   name: string
   email: string
   subject: string
+  category: string
   message: string
   website?: string
 }
@@ -63,9 +75,9 @@ export async function POST(request: NextRequest) {
     )
   }
 
-  const { name, email, subject, message } = body
+  const { name, email, subject, category, message } = body
 
-  if (!name || !email || !subject || !message) {
+  if (!name || !email || !subject || !category || !message) {
     return NextResponse.json({ error: 'All fields are required.' }, { status: 400 })
   }
 
@@ -81,6 +93,10 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Subject must be under 200 characters.' }, { status: 400 })
   }
 
+  if (typeof category !== 'string' || !ALLOWED_CATEGORIES.includes(category as ContactCategory)) {
+    return NextResponse.json({ error: 'Please select a valid category.' }, { status: 400 })
+  }
+
   if (typeof message !== 'string' || message.length > 5000) {
     return NextResponse.json({ error: 'Message must be under 5000 characters.' }, { status: 400 })
   }
@@ -90,8 +106,8 @@ export async function POST(request: NextRequest) {
     await resend.emails.send({
       from: 'PhotoTools Contact <onboarding@resend.dev>',
       to: 'kevinkiklee@gmail.com',
-      subject: `[PhotoTools Contact] ${subject}`,
-      text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
+      subject: `[PhotoTools Contact] [${CATEGORY_LABELS[category as ContactCategory]}] ${subject}`,
+      text: `Name: ${name}\nEmail: ${email}\nCategory: ${CATEGORY_LABELS[category as ContactCategory]}\n\n${message}`,
       replyTo: email,
     })
 
