@@ -80,14 +80,13 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   const commonT = await getTranslations({ locale, namespace: 'common' })
   const siteT = await getTranslations({ locale, namespace: 'metadata.site' })
-  const ogLocale = localeOpenGraph[locale as Locale] || 'en_US'
   const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'PhotoTools',
     url: 'https://www.phototools.io',
     description: siteT('description'),
-    inLanguage: ogLocale,
+    inLanguage: locale,
   }
   const orgJsonLd = {
     '@context': 'https://schema.org',
@@ -95,7 +94,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     name: 'PhotoTools',
     url: 'https://www.phototools.io',
     logo: 'https://www.phototools.io/icon.svg',
-    inLanguage: ogLocale,
+    inLanguage: locale,
   }
 
   const cookieyesId = getCookieyesId()

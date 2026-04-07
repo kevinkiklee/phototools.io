@@ -4,7 +4,6 @@ import { usePathname } from '@/lib/i18n/navigation'
 import { useLocale, useTranslations } from 'next-intl'
 import { getToolBySlug } from '@/lib/data/tools'
 import { getFaqsBySlug } from '@/lib/data/faq'
-import { localeOpenGraph, type Locale } from '@/lib/i18n/routing'
 
 export function JsonLd() {
   const pathname = usePathname()
@@ -25,8 +24,6 @@ export function JsonLd() {
       const translatedName = toolsT(`${slug}.name`)
       const translatedDesc = toolsT(`${slug}.description`)
 
-      const ogLocale = localeOpenGraph[locale as Locale] || 'en_US'
-
       const softwareApp = {
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
@@ -34,7 +31,7 @@ export function JsonLd() {
         description: translatedDesc,
         applicationCategory: 'MultimediaApplication',
         operatingSystem: 'Any',
-        inLanguage: ogLocale,
+        inLanguage: locale,
         offers: {
           '@type': 'Offer',
           price: '0',
@@ -46,7 +43,7 @@ export function JsonLd() {
       const breadcrumbs = {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
-        inLanguage: ogLocale,
+        inLanguage: locale,
         itemListElement: [
           {
             '@type': 'ListItem',
@@ -73,7 +70,7 @@ export function JsonLd() {
       const faqJsonLd = faqs && faqs.questions.length > 0 ? {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
-        inLanguage: ogLocale,
+        inLanguage: locale,
         mainEntity: faqs.questions.map((q) => ({
           '@type': 'Question',
           name: toolUIT(`${slug}.faq.${q.id}.question`),
