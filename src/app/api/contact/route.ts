@@ -104,7 +104,7 @@ export async function POST(request: NextRequest) {
   try {
     const resend = getResend()
     await resend.emails.send({
-      from: 'PhotoTools Contact <onboarding@resend.dev>',
+      from: 'PhotoTools <hello@phototools.io>',
       to: 'kevinkiklee@gmail.com',
       subject: `[PhotoTools Contact] [${CATEGORY_LABELS[category as ContactCategory]}] ${subject}`,
       text: `Name: ${name}\nEmail: ${email}\nCategory: ${CATEGORY_LABELS[category as ContactCategory]}\n\n${message}`,
