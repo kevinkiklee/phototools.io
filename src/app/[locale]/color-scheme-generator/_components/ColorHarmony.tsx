@@ -13,6 +13,7 @@ import { rgbToHex, getHarmonyHues, getBaseIndex, getSuggestion } from './colorHa
 import { ColorSidebar } from './ColorSidebar'
 import { PaletteBar } from './PaletteBar'
 import { buildColorExportCanvas } from './buildColorExport'
+import { useToolSession } from '@/lib/analytics/hooks/useToolSession'
 
 const PARAM_SCHEMA = {
   h: intParam(200, 0, 359),
@@ -26,6 +27,7 @@ const PARAM_SCHEMA = {
 
 export function ColorHarmony() {
   const t = useTranslations('toolUI.color-scheme-generator')
+  const { trackParam } = useToolSession()
   const [hue, setHue] = useState(200)
   const [saturation, setSaturation] = useState(70)
   const [lightness, setLightness] = useState(50)
@@ -104,7 +106,7 @@ export function ColorHarmony() {
   return (
     <div className={styles.wrapper}>
       <ColorSidebar
-        harmony={harmony} setHarmony={setHarmony} suggestion={suggestion}
+        harmony={harmony} setHarmony={(v) => { trackParam({ param_name: 'harmony', param_value: v, input_type: 'select' }); setHarmony(v) }} suggestion={suggestion}
         baseHex={baseHex} displayedHex={displayedHex} applyHex={applyHex} setHexDraft={setHexDraft}
         hue={hue} setHue={setHue} saturation={saturation} setSaturation={setSaturation}
         lightness={lightness} setLightness={setLightness}
@@ -120,7 +122,8 @@ export function ColorHarmony() {
         <div className={styles.mainArea}>
           <ColorWheel ref={wheelRef} hue={hue} saturation={saturation} lightness={lightness}
             harmonyHues={harmonyHues} baseIndex={baseIndex} draggableNodes={draggableNodes}
-            onHueChange={setHue} onSaturationChange={setSaturation} onSecondaryDrag={handleSecondaryDrag} />
+            onHueChange={(v) => { trackParam({ param_name: 'hue', param_value: String(v), input_type: 'slider' }); setHue(v) }}
+            onSaturationChange={setSaturation} onSecondaryDrag={handleSecondaryDrag} />
         </div>
       </div>
       <div className={styles.desktopOnly}><LearnPanel slug="color-scheme-generator" /></div>

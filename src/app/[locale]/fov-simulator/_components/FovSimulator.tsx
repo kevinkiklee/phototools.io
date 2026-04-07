@@ -16,9 +16,11 @@ import { ScenePicker } from '@/components/shared/ScenePicker'
 import { Canvas, type OverlayOffsets } from './Canvas'
 import { CropStrip } from './CropStrip'
 import styles from './FovSimulator.module.css'
+import { useToolSession } from '@/lib/analytics/hooks/useToolSession'
 
 export function FovSimulator() {
   const t = useTranslations('toolUI.fov-simulator')
+  const { trackParam } = useToolSession()
   const [state, dispatch] = useReducer(fovReducer, DEFAULT_FOV_STATE)
   const [hydrated, setHydrated] = useState(false)
   const [collapsed, setCollapsed] = useState<Record<number, boolean>>({})
@@ -79,7 +81,11 @@ export function FovSimulator() {
       {state.lenses.map((lens, i) => (
         <LensPanel key={i} label={`Lens ${LENS_LABELS[i]}`} color={LENS_COLORS[i]} config={lens}
           isActive={state.activeLens === i} collapsed={collapsed[i] ?? false}
-          onChange={(u) => dispatch({ type: 'SET_LENS', payload: { index: i, updates: u } })}
+          onChange={(u) => {
+            const key = Object.keys(u)[0]
+            if (key) trackParam({ param_name: key, param_value: String(Object.values(u)[0]), input_type: 'slider' })
+            dispatch({ type: 'SET_LENS', payload: { index: i, updates: u } })
+          }}
           onFocus={() => dispatch({ type: 'SET_ACTIVE_LENS', payload: i })}
           onToggleCollapse={() => setCollapsed((c) => ({ ...c, [i]: !c[i] }))}
           onRemove={state.lenses.length > 1 ? () => dispatch({ type: 'REMOVE_LENS', payload: i }) : undefined} />

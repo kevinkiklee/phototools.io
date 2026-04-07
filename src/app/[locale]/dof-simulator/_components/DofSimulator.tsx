@@ -16,8 +16,10 @@ import { LearnPanel } from '@/components/shared/LearnPanel'
 import { ToolActions } from '@/components/shared/ToolActions'
 import { ModeToggle } from '@/components/shared/ModeToggle'
 import s from './DofSimulator.module.css'
+import { useToolSession } from '@/lib/analytics/hooks/useToolSession'
 
 export function DofSimulator() {
+  const { trackParam } = useToolSession()
   const {
     focalLength, aperture, subjectDistance, sensorWidth, sensorHeight, coc,
     scene, sceneKey, setSceneKey, subjectMode, setSubjectMode,
@@ -46,7 +48,10 @@ export function DofSimulator() {
           )}
 
           {activeSet === 'a' || abMode === 'off' ? (
-            <DofSettingsPanel {...settingsProps} />
+            <DofSettingsPanel {...settingsProps}
+              onFocalLengthChange={(v) => { trackParam({ param_name: 'focal_length', param_value: String(v), input_type: 'slider' }); settingsProps.onFocalLengthChange(v) }}
+              onApertureChange={(v) => { trackParam({ param_name: 'aperture', param_value: String(v), input_type: 'select' }); settingsProps.onApertureChange(v) }}
+            />
           ) : (
             <DofSettingsPanel
               focalLength={bFocalLength} aperture={bAperture}

@@ -11,6 +11,7 @@ import { ExposureControlsPanel } from './ExposureControlsPanel'
 import type { LockTarget } from './exposure-helpers'
 import { findNearest } from './exposure-helpers'
 import sim from './ExposureSimulator.module.css'
+import { useToolSession } from '@/lib/analytics/hooks/useToolSession'
 
 const PARAM_SCHEMA = {
   ai: intParam(APERTURES.indexOf(5.6), 0, 8),
@@ -20,6 +21,7 @@ const PARAM_SCHEMA = {
 }
 
 export function ExposureSimulator() {
+  const { trackParam } = useToolSession()
   const [apertureIdx, setApertureIdx] = useState(APERTURES.indexOf(5.6))
   const [shutterIdx, setShutterIdx] = useState(SHUTTER_SPEEDS.indexOf(1/125))
   const [isoIdx, setIsoIdx] = useState(0)
@@ -38,6 +40,7 @@ export function ExposureSimulator() {
   const handleApertureChange = useCallback((newIdx: number) => {
     const newAperture = APERTURES[newIdx]
     if (lock === 'aperture') return
+    trackParam({ param_name: 'aperture', param_value: String(newAperture), input_type: 'slider' })
     setApertureIdx(newIdx)
 
     if (lock === 'shutter') {
@@ -50,11 +53,12 @@ export function ExposureSimulator() {
       const neededShutter = (newAperture * newAperture) / Math.pow(2, targetEV100)
       setShutterIdx(SHUTTER_SPEEDS.indexOf(findNearest(SHUTTER_SPEEDS, neededShutter)))
     }
-  }, [lock, shutter, iso, totalEV])
+  }, [lock, shutter, iso, totalEV, trackParam])
 
   const handleShutterChange = useCallback((newIdx: number) => {
     const newShutter = SHUTTER_SPEEDS[newIdx]
     if (lock === 'shutter') return
+    trackParam({ param_name: 'shutter', param_value: String(newShutter), input_type: 'slider' })
     setShutterIdx(newIdx)
 
     if (lock === 'aperture') {
@@ -67,7 +71,7 @@ export function ExposureSimulator() {
       const neededAperture = Math.sqrt(newShutter * Math.pow(2, targetEV100))
       setApertureIdx(APERTURES.indexOf(findNearest(APERTURES, neededAperture)))
     }
-  }, [lock, aperture, iso, totalEV])
+  }, [lock, aperture, iso, totalEV, trackParam])
 
   const handleIsoChange = useCallback((newIdx: number) => {
     const newIso = ISOS[newIdx]

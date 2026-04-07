@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useCallback } from 'react'
 import { useTranslations } from 'next-intl'
+import { useToolSession } from '@/lib/analytics/hooks/useToolSession'
 import { calcDoF } from '@/lib/math/dof'
 import { SENSORS } from '@/lib/data/sensors'
 import { useQueryInit, useToolQuerySync, intParam, numParam, strParam, sensorParam } from '@/lib/utils/querySync'
@@ -38,6 +39,7 @@ function distanceToSlider(dist: number): number {
 
 export function HyperfocalSimulator() {
   const t = useTranslations('toolUI.hyperfocal-simulator')
+  const { trackParam } = useToolSession()
   const [focalLength, setFocalLength] = useState(24)
   const [aperture, setAperture] = useState(8)
   const [sliderVal, setSliderVal] = useState(distanceToSlider(3))
@@ -76,7 +78,8 @@ export function HyperfocalSimulator() {
 
   const settingsProps = {
     focalLength, aperture, sliderVal, sensorId, distance,
-    onFocalLengthChange: setFocalLength, onApertureChange: setAperture,
+    onFocalLengthChange: (v: number) => { trackParam({ param_name: 'focal_length', param_value: String(v), input_type: 'slider' }); setFocalLength(v) },
+    onApertureChange: (v: number) => { trackParam({ param_name: 'aperture', param_value: String(v), input_type: 'select' }); setAperture(v) },
     onSliderChange: setSliderVal, onSensorChange: setSensorId,
   }
 

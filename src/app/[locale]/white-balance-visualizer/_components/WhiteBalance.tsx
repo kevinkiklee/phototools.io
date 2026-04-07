@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useCallback, useRef } from 'react'
 import { useTranslations } from 'next-intl'
+import { useToolSession } from '@/lib/analytics/hooks/useToolSession'
 import { kelvinToRgb } from '@/lib/math/color'
 import { getToolBySlug } from '@/lib/data/tools'
 import { WB_PRESETS, WB_SCENES } from '@/lib/data/whiteBalance'
@@ -112,6 +113,7 @@ function ControlsPanel({ kelvin, rgb, activePreset, onKelvinChange, onFile }: {
 }
 
 export function WhiteBalance() {
+  const { trackParam } = useToolSession()
   const [kelvin, setKelvin] = useState(5500)
   const [sceneId, setSceneId] = useState(SCENE_IDS[0])
   const [customSrc, setCustomSrc] = useState<string | null>(null)
@@ -137,7 +139,11 @@ export function WhiteBalance() {
     setCustomSrc(null)
   }, [customSrc])
 
-  const controlsProps = { kelvin, rgb, activePreset, onKelvinChange: setKelvin, onFile: handleFile }
+  const controlsProps = {
+    kelvin, rgb, activePreset,
+    onKelvinChange: (v: number) => { trackParam({ param_name: 'kelvin', param_value: String(v), input_type: 'slider' }); setKelvin(v) },
+    onFile: handleFile,
+  }
 
   return (
     <div className={wb.app}>
