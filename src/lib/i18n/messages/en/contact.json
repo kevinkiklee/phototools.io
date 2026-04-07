@@ -2,6 +2,13 @@
   "contact": {
     "title": "Contact Us",
     "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "sidebar": {
+      "responseTimeTitle": "Response Time",
+      "responseTimeText": "We typically reply within 48 hours.",
+      "helpfulLinksTitle": "Helpful Links",
+      "glossaryLink": "Photography Glossary",
+      "aboutLink": "About PhotoTools"
+    },
     "form": {
       "nameLabel": "Name",
       "namePlaceholder": "Your name",
@@ -9,6 +16,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "Subject",
       "subjectPlaceholder": "What is this about?",
+      "categoryLabel": "Category",
+      "categoryPlaceholder": "Select a category...",
+      "categoryToolFeedback": "Tool Feedback",
+      "categoryBugReport": "Bug Report",
+      "categoryNewToolSuggestion": "New Tool Suggestion",
+      "categoryTranslationIssue": "Translation Issue",
+      "categoryOther": "Other",
       "messageLabel": "Message",
       "messagePlaceholder": "Your message...",
       "submit": "Send Message",
