@@ -2,6 +2,7 @@
 
 import { useRef, useCallback } from 'react'
 import { useTranslations } from 'next-intl'
+import { trackToolInteraction } from '@/lib/analytics'
 import styles from './ScenePicker.module.css'
 
 export interface ScenePickerScene {
@@ -58,7 +59,10 @@ export function ScenePicker({
         <button
           key={scene.id}
           className={`${styles.thumb} ${i === selectedIndex ? styles.thumbActive : ''}`}
-          onClick={() => onSelect(i)}
+          onClick={() => {
+            trackToolInteraction({ param_name: 'scene', param_value: `scene-${i}`, input_type: 'scene-picker' })
+            onSelect(i)
+          }}
           title={scene.name}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}

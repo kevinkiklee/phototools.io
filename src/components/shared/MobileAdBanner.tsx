@@ -5,9 +5,10 @@
 
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useTranslations } from 'next-intl'
 import { isAdsEnabled } from '@/lib/ads'
+import { trackMobileAdDismiss } from '@/lib/analytics'
 import { AdUnit } from './AdUnit'
 import styles from './MobileAdBanner.module.css'
 
@@ -17,6 +18,7 @@ export function MobileAdBanner() {
   const t = useTranslations('common.ad')
   const [visible, setVisible] = useState(false)
   const [dismissed, setDismissed] = useState(false)
+  const mountTimeRef = useRef(Date.now())
 
   useEffect(() => {
     if (!isAdsEnabled()) return
@@ -31,6 +33,9 @@ export function MobileAdBanner() {
   if (!isAdsEnabled() || dismissed) return null
 
   function handleClose() {
+    trackMobileAdDismiss({
+      time_before_dismiss_seconds: Math.round((Date.now() - mountTimeRef.current) / 1000),
+    })
     sessionStorage.setItem(DISMISS_KEY, '1')
     setDismissed(true)
   }

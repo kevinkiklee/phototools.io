@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { isAdsEnabled, AD_FORMATS, getAdsenseClient } from '@/lib/ads'
 import type { AdFormat } from '@/lib/ads'
+import { trackAdSlotVisible } from '@/lib/analytics'
 import styles from './AdUnit.module.css'
 
 declare global {
@@ -49,6 +50,21 @@ export function AdUnit({ slot, format, className, channel, testId }: AdUnitProps
     })
     observer.observe(ins, { childList: true, subtree: true })
 
+    const visibilityObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          trackAdSlotVisible({
+            slot_id: slot,
+            format,
+            viewport_type: window.innerWidth < 768 ? 'mobile' : 'desktop',
+          })
+          visibilityObserver.disconnect()
+        }
+      },
+      { threshold: 0.5 },
+    )
+    if (ins) visibilityObserver.observe(ins)
+
     // If no ad fills within 5s (adblocker, no inventory, consent denied),
     // collapse the container to avoid an empty gap in the layout.
     const timeout = setTimeout(() => {
@@ -60,9 +76,10 @@ export function AdUnit({ slot, format, className, channel, testId }: AdUnitProps
 
     return () => {
       observer.disconnect()
+      visibilityObserver.disconnect()
       clearTimeout(timeout)
     }
-  }, [])
+  }, [slot, format])
 
   if (!isAdsEnabled() || !slot) return null
 

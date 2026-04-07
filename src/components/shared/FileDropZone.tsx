@@ -2,6 +2,7 @@
 
 import { useState, useRef, useCallback } from 'react'
 import { useTranslations } from 'next-intl'
+import { trackFileUpload } from '@/lib/analytics'
 import styles from './FileDropZone.module.css'
 
 interface FileDropZoneProps {
@@ -19,6 +20,7 @@ export function FileDropZone({ onFile, prompt: promptText }: FileDropZoneProps) 
   const handleFile = useCallback(
     (file: File) => {
       setFileName(file.name)
+      trackFileUpload({ file_type: file.type, file_size_kb: Math.round(file.size / 1024) })
       onFile(file)
     },
     [onFile],
