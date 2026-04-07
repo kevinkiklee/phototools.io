@@ -179,6 +179,7 @@ export function Nav({ theme, onThemeChange }: NavProps) {
           onClick={() => trackNavClick({ target: 'glossary', source: 'mega-menu' })}
         >{t('glossary')}</Link>
         <div className={styles.spacer} />
+        <Link href="/contact" className={styles.navLink}>{t('contact')}</Link>
         <span className={styles.desktopThemeToggle}><ThemeToggle theme={theme} onChange={onThemeChange} /></span>
         <LanguageSwitcher />
       </div>
