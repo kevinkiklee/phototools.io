@@ -27,7 +27,21 @@
       "latitudeLabel": "Enlem:",
       "equator": "Ekvator 0°",
       "mid45": "Orta 45°",
-      "arctic70": "Arktik 70°"
+      "arctic70": "Arktik 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "Astrofotoğrafçılıkta 500 kuralı nedir?",
+          "answer": "500 kuralı, yıldızlar nokta yerine iz olarak görünmeden önceki en uzun pozlama süresini tahmin eder. Keskin yıldızlar için maksimum enstantane hızını saniye cinsinden elde etmek üzere 500'ü efektif odak uzaklığına (odak uzaklığı × kırpma faktörü) bölün."
+        },
+        "star-trails-vs-points": {
+          "question": "Yıldız izleri ile keskin yıldız noktaları arasında nasıl seçim yaparım?",
+          "answer": "Keskin yıldız noktaları (Samanyolu, takımyıldızları) için 500 kuralına uygun kısa pozlamalar kullanın. Dünya'nın dönüşünü gösteren yaratıcı yıldız izleri için çok uzun pozlamalar (dakikalar ile saatler) kullanın veya birden fazla kısa pozlamayı istifleyin."
+        },
+        "best-settings-milky-way": {
+          "question": "Samanyolu fotoğrafçılığı için en iyi kamera ayarları nelerdir?",
+          "answer": "Mevcut en geniş diyafram açıklığı (f/1.4–f/2.8), ISO 1600–6400 ve objektifiniz için 500 kuralının izin verdiği en uzun enstantane hızı ile başlayın. Sağlam bir tripod kullanın ve manuel odağı sonsuza ayarlayın. Karanlık gökyüzü olan bir yerde yeni ay döneminde çekin."
+        }
+      }
     }
   }
 }

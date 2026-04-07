@@ -5,7 +5,9 @@ import { SensorSize } from './_components/SensorSize'
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('metadata.sensor-size-comparison')
-  return { title: t('title'), description: t('description'), alternates: getAlternates('/sensor-size-comparison') }
+  const title = t('title')
+  const description = t('description')
+  return { title, description, openGraph: { title, description }, alternates: getAlternates('/sensor-size-comparison') }
 }
 
 export default function SensorSizePage() {

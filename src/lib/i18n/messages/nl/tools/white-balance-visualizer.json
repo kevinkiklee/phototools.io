@@ -10,7 +10,21 @@
       "green": "Groen",
       "blue": "Blauw",
       "hex": "Hex",
-      "loadingScene": "Scène laden..."
+      "loadingScene": "Scène laden...",
+      "faq": {
+        "what-is-white-balance": {
+          "question": "Wat is witbalans in fotografie?",
+          "answer": "Witbalans past de kleuren in je foto aan zodat objecten die in het echt wit lijken, ook wit lijken op de foto. Verschillende lichtbronnen zenden verschillende kleurtemperaturen uit, en witbalans compenseert voor deze variaties."
+        },
+        "kelvin-vs-presets": {
+          "question": "Moet ik Kelvin-waarden of witbalansvoorinstellingen gebruiken?",
+          "answer": "Voorinstellingen (Daglicht, Bewolkt, Kunstlicht) zijn handige startpunten, maar het instellen van een specifieke Kelvin-waarde geeft nauwkeurigere controle. Fotografeer in RAW-formaat om de witbalans non-destructief aan te passen bij nabewerking."
+        },
+        "when-to-use-manual-white-balance": {
+          "question": "Wanneer moet ik handmatige witbalans gebruiken?",
+          "answer": "Gebruik handmatige witbalans bij gemengd licht (combinatie van natuurlijk en kunstlicht), studio-opstellingen die exacte kleurnauwkeurigheid vereisen, productfotografie en wanneer automatische witbalans inconsistente resultaten geeft in een reeks foto's."
+        }
+      }
     }
   }
 }

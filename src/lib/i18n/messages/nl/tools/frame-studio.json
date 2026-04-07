@@ -72,7 +72,21 @@
       "downscaleNotice": "Your image ({from}) exceeds the browser's maximum canvas size and will be exported at {to}.",
       "cancel": "Annuleren",
       "exporting": "Exporteren...",
-      "download": "Downloaden"
+      "download": "Downloaden",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "Wat is de regel van derden in fotografie?",
+          "answer": "De regel van derden verdeelt je beeld in een 3×3-raster. Door belangrijke onderwerpen langs de rasterlijnen of op hun kruispunten te plaatsen, creëer je dynamischere, evenwichtigere composities dan wanneer je het onderwerp centreert."
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "Wat is de beste beeldverhouding voor Instagram-berichten?",
+          "answer": "Instagram ondersteunt 1:1 (vierkant), 4:5 (portret) en 1,91:1 (landschap). De 4:5 portretverhouding neemt de meeste schermruimte in de feed in en krijgt doorgaans het meeste engagement."
+        },
+        "how-to-use-golden-ratio": {
+          "question": "Hoe gebruik ik de gulden snede voor fotocompositie?",
+          "answer": "De gulden snede (ongeveer 1,618:1) creëert een spiraalpatroon dat het oog van de kijker door het beeld leidt. Plaats je hoofdonderwerp op het nauwste punt van de spiraal en laat leidende lijnen de curve naar buiten volgen."
+        }
+      }
     }
   }
 }

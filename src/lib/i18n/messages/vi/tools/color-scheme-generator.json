@@ -51,6 +51,20 @@
           "default": "Dùng cho: nhiếp ảnh sản phẩm cân bằng với đa dạng thị giác"
         },
         "tetradic": "Dùng cho: bố cục biên tập phong phú và bố cục đa chủ thể phức tạp"
+      },
+      "faq": {
+        "what-is-color-harmony": {
+          "question": "Sự hài hòa màu sắc trong nhiếp ảnh là gì?",
+          "answer": "Sự hài hòa màu sắc đề cập đến các kết hợp màu đẹp mắt dựa trên vị trí của chúng trên vòng tròn màu. Các màu hài hòa tạo ra sự cân bằng thị giác và có thể gợi lên tâm trạng cụ thể trong ảnh của bạn."
+        },
+        "complementary-vs-analogous": {
+          "question": "Sự khác biệt giữa màu bổ sung và màu tương tự là gì?",
+          "answer": "Màu bổ sung nằm đối diện nhau trên vòng tròn màu (như xanh dương và cam) và tạo ra tương phản cao. Màu tương tự nằm cạnh nhau (như xanh dương, xanh dương-lục và xanh lục) và tạo ra cảm giác hài hòa, thống nhất hơn."
+        },
+        "how-to-use-color-schemes-photography": {
+          "question": "Làm thế nào để sử dụng phối màu trong nhiếp ảnh?",
+          "answer": "Lên kế hoạch chụp ảnh xung quanh một bảng màu — chọn trang phục, địa điểm và đạo cụ phù hợp với phối màu của bạn. Trong hậu kỳ, sử dụng chỉnh màu để nhấn mạnh bảng màu đã chọn. Phối màu giúp tạo ra bản sắc thị giác nhất quán trong toàn bộ series ảnh."
+        }
       }
     }
   }

@@ -10,7 +10,21 @@
       "green": "Xanh lá",
       "blue": "Xanh dương",
       "hex": "Hex",
-      "loadingScene": "Đang tải cảnh..."
+      "loadingScene": "Đang tải cảnh...",
+      "faq": {
+        "what-is-white-balance": {
+          "question": "Cân bằng trắng trong nhiếp ảnh là gì?",
+          "answer": "Cân bằng trắng điều chỉnh màu sắc trong ảnh để các vật thể trông trắng ngoài đời thực cũng trông trắng trong hình. Các nguồn sáng khác nhau phát ra nhiệt độ màu khác nhau, và cân bằng trắng bù đắp cho những biến đổi này."
+        },
+        "kelvin-vs-presets": {
+          "question": "Nên dùng giá trị Kelvin hay preset cân bằng trắng?",
+          "answer": "Các preset (Ánh sáng ban ngày, Nhiều mây, Đèn Tungsten) là điểm bắt đầu tiện lợi, nhưng đặt giá trị Kelvin cụ thể cho phép kiểm soát chính xác hơn. Chụp ở định dạng RAW để điều chỉnh cân bằng trắng không phá hủy trong hậu kỳ."
+        },
+        "when-to-use-manual-white-balance": {
+          "question": "Khi nào nên sử dụng cân bằng trắng thủ công?",
+          "answer": "Sử dụng cân bằng trắng thủ công cho ánh sáng hỗn hợp (kết hợp tự nhiên và nhân tạo), thiết lập studio yêu cầu độ chính xác màu sắc cao, nhiếp ảnh sản phẩm, và bất cứ khi nào cân bằng trắng tự động cho kết quả không nhất quán trong một series ảnh."
+        }
+      }
     }
   }
 }

@@ -72,7 +72,21 @@
       "downscaleNotice": "Ảnh của bạn ({from}) vượt quá kích thước canvas tối đa của trình duyệt và sẽ được xuất ở {to}.",
       "cancel": "Hủy",
       "exporting": "Đang xuất...",
-      "download": "Tải xuống"
+      "download": "Tải xuống",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "Quy tắc một phần ba trong nhiếp ảnh là gì?",
+          "answer": "Quy tắc một phần ba chia hình ảnh thành lưới 3×3. Đặt chủ thể chính dọc theo các đường lưới hoặc tại các giao điểm tạo ra bố cục năng động và cân bằng hơn so với việc đặt chủ thể ở giữa."
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "Tỷ lệ khung hình tốt nhất cho bài đăng Instagram là gì?",
+          "answer": "Instagram hỗ trợ tỷ lệ 1:1 (vuông), 4:5 (dọc) và 1,91:1 (ngang). Tỷ lệ dọc 4:5 chiếm nhiều không gian màn hình nhất trên bảng tin và thường nhận được tương tác cao nhất."
+        },
+        "how-to-use-golden-ratio": {
+          "question": "Làm thế nào để sử dụng tỷ lệ vàng cho bố cục ảnh?",
+          "answer": "Tỷ lệ vàng (xấp xỉ 1,618:1) tạo ra một hoa văn xoắn ốc dẫn dắt mắt người xem xuyên suốt hình ảnh. Đặt chủ thể chính tại điểm chặt nhất của xoắn ốc và để các đường dẫn theo đường cong hướng ra ngoài."
+        }
+      }
     }
   }
 }

@@ -28,7 +28,21 @@
       "collapse": "Einklappen",
       "expand": "Ausklappen",
       "fovComparison": "Bildwinkel-Vergleich",
-      "loadingScene": "Szene wird geladen..."
+      "loadingScene": "Szene wird geladen...",
+      "faq": {
+        "what-is-fov": {
+          "question": "Was ist das Sichtfeld in der Fotografie?",
+          "answer": "Das Sichtfeld (FOV) ist der Winkelbereich der Szene, der durch dein Objektiv und den Kamerasensor sichtbar ist. Es bestimmt, wie viel einer Szene in einem Foto erfasst wird, und wird von der Brennweite und der Sensorgr\u00f6\u00dfe beeinflusst."
+        },
+        "how-crop-factor-affects-fov": {
+          "question": "Wie beeinflusst der Crop-Faktor das Sichtfeld?",
+          "answer": "Ein kleinerer Sensor (h\u00f6herer Crop-Faktor) erfasst ein engeres Sichtfeld als ein Vollformatsensor bei gleicher Brennweite. Zum Beispiel l\u00e4sst ein APS-C-Sensor mit 1,5-fachem Crop-Faktor ein 50-mm-Objektiv in Bezug auf das Sichtfeld wie ein 75-mm-Objektiv wirken."
+        },
+        "fov-vs-focal-length": {
+          "question": "Welche Beziehung besteht zwischen Sichtfeld und Brennweite?",
+          "answer": "Sichtfeld und Brennweite stehen in umgekehrtem Verh\u00e4ltnis zueinander. K\u00fcrzere Brennweiten (Weitwinkel) ergeben ein breiteres Sichtfeld, w\u00e4hrend l\u00e4ngere Brennweiten (Tele) ein engeres Sichtfeld ergeben. Das genaue Sichtfeld h\u00e4ngt auch von der Sensorgr\u00f6\u00dfe ab."
+        }
+      }
     }
   }
 }

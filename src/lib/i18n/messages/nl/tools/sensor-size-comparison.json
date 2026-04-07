@@ -27,7 +27,21 @@
       "tableArea": "Oppervlak (mm²)",
       "tableCropFactor": "Cropfactor",
       "tableAspectCrop": "Beeldverhouding-crop",
-      "canvasAriaLabel": "Sensorformaatvergelijking in {mode}-modus"
+      "canvasAriaLabel": "Sensorformaatvergelijking in {mode}-modus",
+      "faq": {
+        "what-is-crop-factor": {
+          "question": "Wat is cropfactor en waarom is het belangrijk?",
+          "answer": "Cropfactor beschrijft het grootteverschil tussen de sensor van een camera en een fullframe (35mm) sensor. Het beïnvloedt de effectieve brandpuntsafstand, scherptediepte en prestaties bij weinig licht. Een cropfactor van 1,5x betekent dat de sensor 1,5 keer kleiner is dan fullframe."
+        },
+        "full-frame-vs-aps-c": {
+          "question": "Wat zijn de voordelen van fullframe versus APS-C-sensoren?",
+          "answer": "Fullframe-sensoren bieden betere prestaties bij weinig licht, een geringere scherptediepte en een bredere beeldhoek bij elke brandpuntsafstand. APS-C-sensoren zijn betaalbaarder, lichter en geven extra bereik voor natuur- en sportfotografie."
+        },
+        "sensor-size-and-depth-of-field": {
+          "question": "Hoe beïnvloedt sensorformaat de scherptediepte?",
+          "answer": "Grotere sensoren produceren een geringere scherptediepte bij gelijkwaardige kadrering. Om dezelfde kadrering te krijgen met een kleinere sensor, gebruik je een kortere brandpuntsafstand (diepere scherptediepte) of ga je verder weg staan (diepere scherptediepte), wat beide de achtergrondvervaging vermindert."
+        }
+      }
     }
   }
 }

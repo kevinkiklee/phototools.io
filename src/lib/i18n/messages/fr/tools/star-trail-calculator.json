@@ -27,7 +27,21 @@
       "latitudeLabel": "Latitude :",
       "equator": "Équateur 0°",
       "mid45": "Moyen 45°",
-      "arctic70": "Arctique 70°"
+      "arctic70": "Arctique 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "Qu'est-ce que la r\u00e8gle des 500 en astrophotographie ?",
+          "answer": "La r\u00e8gle des 500 estime le temps d'exposition le plus long avant que les \u00e9toiles n'apparaissent comme des tra\u00een\u00e9es au lieu de points. Divisez 500 par votre longueur focale effective (longueur focale \u00d7 facteur de recadrage) pour obtenir la vitesse d'obturation maximale en secondes pour des \u00e9toiles nettes."
+        },
+        "star-trails-vs-points": {
+          "question": "Comment choisir entre des fil\u00e9s d'\u00e9toiles et des \u00e9toiles ponctuelles nettes ?",
+          "answer": "Pour des \u00e9toiles ponctuelles nettes (Voie lact\u00e9e, constellations), utilisez des expositions courtes suivant la r\u00e8gle des 500. Pour des fil\u00e9s d'\u00e9toiles cr\u00e9atifs montrant la rotation de la Terre, utilisez des expositions tr\u00e8s longues (minutes \u00e0 heures) ou empilez plusieurs expositions plus courtes."
+        },
+        "best-settings-milky-way": {
+          "question": "Quels sont les meilleurs r\u00e9glages pour photographier la Voie lact\u00e9e ?",
+          "answer": "Commencez avec l'ouverture la plus grande disponible (f/1,4\u2013f/2,8), ISO 1600\u20136400, et la vitesse d'obturation la plus longue autoris\u00e9e par la r\u00e8gle des 500 pour votre objectif. Utilisez un tr\u00e9pied solide et la mise au point manuelle \u00e0 l'infini. Photographiez pendant la nouvelle lune dans un lieu au ciel sombre."
+        }
+      }
     }
   }
 }

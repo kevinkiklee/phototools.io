@@ -27,7 +27,21 @@
       "latitudeLabel": "Breedtegraad:",
       "equator": "Evenaar 0°",
       "mid45": "Midden 45°",
-      "arctic70": "Arctisch 70°"
+      "arctic70": "Arctisch 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "Wat is de 500-regel in astrofotografie?",
+          "answer": "De 500-regel schat de langste belichtingstijd voordat sterren als strepen verschijnen in plaats van punten. Deel 500 door je effectieve brandpuntsafstand (brandpuntsafstand × cropfactor) om de maximale sluitertijd in seconden te krijgen voor scherpe sterren."
+        },
+        "star-trails-vs-points": {
+          "question": "Hoe kies ik tussen sterrensporen en scherpe sterpunten?",
+          "answer": "Voor scherpe sterpunten (Melkweg, sterrenbeelden) gebruik je korte belichtingen volgens de 500-regel. Voor creatieve sterrensporen die de rotatie van de aarde tonen, gebruik je zeer lange belichtingen (minuten tot uren) of stapel je meerdere kortere belichtingen."
+        },
+        "best-settings-milky-way": {
+          "question": "Wat zijn de beste camera-instellingen voor Melkwegfotografie?",
+          "answer": "Begin met het grootst beschikbare diafragma (f/1.4–f/2.8), ISO 1600–6400 en de langste sluitertijd die de 500-regel toestaat voor je lens. Gebruik een stevig statief en handmatige scherpstelling op oneindig. Fotografeer tijdens nieuwe maan op een locatie met donkere hemel."
+        }
+      }
     }
   }
 }

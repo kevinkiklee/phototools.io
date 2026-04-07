@@ -10,7 +10,21 @@
       "green": "Verde",
       "blue": "Blu",
       "hex": "Hex",
-      "loadingScene": "Caricamento scena..."
+      "loadingScene": "Caricamento scena...",
+      "faq": {
+        "what-is-white-balance": {
+          "question": "Cos'è il bilanciamento del bianco nella fotografia?",
+          "answer": "Il bilanciamento del bianco regola i colori nella foto in modo che gli oggetti che appaiono bianchi nella realtà appaiano bianchi anche nell'immagine. Diverse fonti di luce emettono diverse temperature di colore, e il bilanciamento del bianco compensa queste variazioni."
+        },
+        "kelvin-vs-presets": {
+          "question": "Devo usare i valori Kelvin o i preset del bilanciamento del bianco?",
+          "answer": "I preset (Luce diurna, Nuvoloso, Tungsteno) sono punti di partenza comodi, ma impostare un valore Kelvin specifico offre un controllo più preciso. Scatta in formato RAW per regolare il bilanciamento del bianco in modo non distruttivo in post-produzione."
+        },
+        "when-to-use-manual-white-balance": {
+          "question": "Quando devo usare il bilanciamento del bianco manuale?",
+          "answer": "Usa il bilanciamento del bianco manuale per illuminazione mista (naturale e artificiale combinata), configurazioni in studio che richiedono precisione cromatica esatta, fotografia di prodotti e ogni volta che il bilanciamento automatico produce risultati inconsistenti in una serie di scatti."
+        }
+      }
     }
   }
 }

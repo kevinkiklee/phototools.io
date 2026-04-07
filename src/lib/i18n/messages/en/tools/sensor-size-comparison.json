@@ -27,7 +27,21 @@
       "tableArea": "Area (mm\u00b2)",
       "tableCropFactor": "Crop Factor",
       "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode"
+      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "faq": {
+        "what-is-crop-factor": {
+          "question": "What is crop factor and why does it matter?",
+          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+        },
+        "full-frame-vs-aps-c": {
+          "question": "What are the advantages of full frame vs APS-C sensors?",
+          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+        },
+        "sensor-size-and-depth-of-field": {
+          "question": "How does sensor size affect depth of field?",
+          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+        }
+      }
     }
   }
 }

@@ -72,7 +72,21 @@
       "downscaleNotice": "Görüntünüz ({from}) tarayıcının maksimum tuval boyutunu aşıyor ve {to} boyutunda dışa aktarılacaktır.",
       "cancel": "İptal",
       "exporting": "Dışa aktarılıyor...",
-      "download": "İndir"
+      "download": "İndir",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "Fotoğrafçılıkta üçler kuralı nedir?",
+          "answer": "Üçler kuralı görüntünüzü 3×3 ızgaraya böler. Ana konuları ızgara çizgileri boyunca veya kesişim noktalarına yerleştirmek, konuyu ortalamaktan daha dinamik ve dengeli kompozisyonlar oluşturur."
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "Instagram gönderileri için en iyi en-boy oranı nedir?",
+          "answer": "Instagram 1:1 (kare), 4:5 (dikey) ve 1,91:1 (yatay) formatlarını destekler. 4:5 dikey oranı akışta en fazla ekran alanı kaplar ve genellikle en yüksek etkileşimi alır."
+        },
+        "how-to-use-golden-ratio": {
+          "question": "Fotoğraf kompozisyonunda altın oranı nasıl kullanırım?",
+          "answer": "Altın oran (yaklaşık 1,618:1) izleyicinin gözünü görüntü boyunca yönlendiren bir spiral desen oluşturur. Ana konunuzu spiralin en dar noktasına yerleştirin ve yönlendirici çizgilerin eğri boyunca dışa doğru gitmesini sağlayın."
+        }
+      }
     }
   }
 }

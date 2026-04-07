@@ -27,7 +27,21 @@
       "latitudeLabel": "Latitudine:",
       "equator": "Equatore 0°",
       "mid45": "Medio 45°",
-      "arctic70": "Artico 70°"
+      "arctic70": "Artico 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "Cos'è la regola del 500 nell'astrofotografia?",
+          "answer": "La regola del 500 stima il tempo di esposizione più lungo prima che le stelle appaiano come scie anziché come punti. Dividi 500 per la tua lunghezza focale effettiva (lunghezza focale × fattore di crop) per ottenere il tempo di posa massimo in secondi per stelle nitide."
+        },
+        "star-trails-vs-points": {
+          "question": "Come scelgo tra scie stellari e punti stellari nitidi?",
+          "answer": "Per punti stellari nitidi (Via Lattea, costellazioni), usa esposizioni brevi seguendo la regola del 500. Per scie stellari creative che mostrano la rotazione terrestre, usa esposizioni molto lunghe (da minuti a ore) o sovrapponi più esposizioni brevi."
+        },
+        "best-settings-milky-way": {
+          "question": "Quali sono le migliori impostazioni per fotografare la Via Lattea?",
+          "answer": "Inizia con l'apertura più ampia disponibile (f/1.4–f/2.8), ISO 1600–6400 e il tempo di posa più lungo consentito dalla regola del 500 per il tuo obiettivo. Usa un treppiede robusto e messa a fuoco manuale all'infinito. Scatta durante la luna nuova in un luogo con cielo buio."
+        }
+      }
     }
   }
 }

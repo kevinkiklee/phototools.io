@@ -27,7 +27,21 @@
       "tableArea": "面积（mm²）",
       "tableCropFactor": "裁切系数",
       "tableAspectCrop": "宽高比裁切",
-      "canvasAriaLabel": "传感器尺寸{mode}模式对比"
+      "canvasAriaLabel": "传感器尺寸{mode}模式对比",
+      "faq": {
+        "what-is-crop-factor": {
+          "question": "什么是裁切系数，为什么它很重要？",
+          "answer": "裁切系数描述相机传感器与全画幅（35mm）传感器之间的尺寸差异。它影响有效焦距、景深和低光性能。1.5倍裁切系数意味着传感器比全画幅小1.5倍。"
+        },
+        "full-frame-vs-aps-c": {
+          "question": "全画幅与APS-C传感器各有什么优势？",
+          "answer": "全画幅传感器提供更好的低光性能、更浅的景深以及在任何焦距下更宽的视场角。APS-C传感器更经济实惠、更轻便，并为野生动物和运动摄影提供额外的拍摄距离。"
+        },
+        "sensor-size-and-depth-of-field": {
+          "question": "传感器尺寸如何影响景深？",
+          "answer": "在等效构图下，较大的传感器产生更浅的景深。要用较小的传感器获得相同构图，需要使用较短的焦距（景深更深）或站得更远（景深更深），两者都会减少背景虚化。"
+        }
+      }
     }
   }
 }

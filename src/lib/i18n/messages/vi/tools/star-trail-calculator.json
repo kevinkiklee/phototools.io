@@ -27,7 +27,21 @@
       "latitudeLabel": "Vĩ độ:",
       "equator": "Xích đạo 0°",
       "mid45": "Trung vĩ 45°",
-      "arctic70": "Bắc cực 70°"
+      "arctic70": "Bắc cực 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "Quy tắc 500 trong nhiếp ảnh thiên văn là gì?",
+          "answer": "Quy tắc 500 ước tính thời gian phơi sáng dài nhất trước khi các ngôi sao xuất hiện dưới dạng vệt thay vì điểm. Chia 500 cho tiêu cự hiệu dụng (tiêu cự × hệ số crop) để có tốc độ màn trập tối đa tính bằng giây cho sao sắc nét."
+        },
+        "star-trails-vs-points": {
+          "question": "Làm thế nào để chọn giữa vệt sao và điểm sao sắc nét?",
+          "answer": "Để có điểm sao sắc nét (Dải Ngân Hà, chòm sao), sử dụng phơi sáng ngắn theo quy tắc 500. Để có vệt sao sáng tạo thể hiện sự quay của Trái Đất, sử dụng phơi sáng rất dài (phút đến giờ) hoặc chồng nhiều bức phơi sáng ngắn."
+        },
+        "best-settings-milky-way": {
+          "question": "Cài đặt máy ảnh tốt nhất để chụp Dải Ngân Hà là gì?",
+          "answer": "Bắt đầu với khẩu độ rộng nhất có sẵn (f/1.4–f/2.8), ISO 1600–6400 và tốc độ màn trập dài nhất mà quy tắc 500 cho phép đối với ống kính của bạn. Sử dụng chân máy chắc chắn và lấy nét thủ công ở vô cực. Chụp vào đêm trăng non ở nơi có bầu trời tối."
+        }
+      }
     }
   }
 }

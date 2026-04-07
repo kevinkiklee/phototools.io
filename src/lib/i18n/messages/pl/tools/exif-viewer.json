@@ -53,7 +53,21 @@
       "evDimIndoor": "Przyciemnione wnętrze",
       "evNightStreet": "Ulica nocą",
       "evDimNight": "Ciemna noc",
-      "evVeryDark": "Bardzo ciemno"
+      "evVeryDark": "Bardzo ciemno",
+      "faq": {
+        "what-is-exif-data": {
+          "question": "Czym są dane EXIF w zdjęciu?",
+          "answer": "Dane EXIF (Exchangeable Image File Format) to metadane osadzone w zdjęciu przez aparat. Zawierają ustawienia aparatu (przysłona, czas migawki, ISO), model aparatu i obiektywu, datę i godzinę, a czasem lokalizację GPS."
+        },
+        "how-to-read-histogram": {
+          "question": "Jak czytać histogram zdjęcia?",
+          "answer": "Histogram pokazuje rozkład jasności obrazu od cieni (lewa strona) do świateł (prawa strona). Dobrze naświetlone zdjęcie ma zazwyczaj dane rozłożone w całym zakresie bez przycinania na żadnym końcu, choć idealny kształt zależy od sceny."
+        },
+        "does-exif-contain-location": {
+          "question": "Czy dane EXIF zawierają moją lokalizację?",
+          "answer": "Jeśli aparat lub telefon ma włączony GPS, dane EXIF mogą zawierać dokładne współrzędne GPS miejsca wykonania zdjęcia. Miej to na uwadze, udostępniając zdjęcia online — wiele platform społecznościowych usuwa dane EXIF, ale nie wszystkie."
+        }
+      }
     }
   }
 }

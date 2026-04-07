@@ -53,7 +53,21 @@
       "evDimIndoor": "昏暗室内",
       "evNightStreet": "夜间街道",
       "evDimNight": "昏暗夜间",
-      "evVeryDark": "非常暗"
+      "evVeryDark": "非常暗",
+      "faq": {
+        "what-is-exif-data": {
+          "question": "照片中的EXIF数据是什么？",
+          "answer": "EXIF（可交换图像文件格式）数据是相机嵌入照片中的元数据。包括相机设置（光圈、快门速度、ISO）、相机和镜头型号、日期和时间，有时还包括GPS位置。"
+        },
+        "how-to-read-histogram": {
+          "question": "如何读取照片直方图？",
+          "answer": "直方图显示图像从阴影（左侧）到高光（右侧）的亮度分布。曝光良好的照片通常数据分布在整个范围内，两端没有溢出，但理想形状取决于具体场景。"
+        },
+        "does-exif-contain-location": {
+          "question": "EXIF数据是否包含我的位置信息？",
+          "answer": "如果相机或手机启用了GPS，EXIF数据可能包含拍摄照片的精确GPS坐标。在线分享照片时请注意这一点——许多社交平台会去除EXIF数据，但并非所有平台都会这样做。"
+        }
+      }
     }
   }
 }

@@ -27,7 +27,21 @@
       "tableArea": "Area (mm²)",
       "tableCropFactor": "Crop Factor",
       "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Perbandingan ukuran sensor dalam mode {mode}"
+      "canvasAriaLabel": "Perbandingan ukuran sensor dalam mode {mode}",
+      "faq": {
+        "what-is-crop-factor": {
+          "question": "Apa itu crop factor dan mengapa penting?",
+          "answer": "Crop factor menggambarkan perbedaan ukuran antara sensor kamera dan sensor full-frame (35mm). Ini mempengaruhi panjang fokus efektif, depth of field, dan performa cahaya rendah. Crop factor 1,5x berarti sensor 1,5 kali lebih kecil dari full frame."
+        },
+        "full-frame-vs-aps-c": {
+          "question": "Apa keunggulan sensor full frame dibandingkan APS-C?",
+          "answer": "Sensor full-frame menawarkan performa cahaya rendah yang lebih baik, depth of field yang lebih dangkal, dan field of view yang lebih luas pada panjang fokus apa pun. Sensor APS-C lebih terjangkau, lebih ringan, dan memberikan jangkauan ekstra untuk fotografi satwa liar dan olahraga."
+        },
+        "sensor-size-and-depth-of-field": {
+          "question": "Bagaimana ukuran sensor mempengaruhi depth of field?",
+          "answer": "Sensor yang lebih besar menghasilkan depth of field yang lebih dangkal pada framing yang setara. Untuk mendapatkan framing yang sama dengan sensor yang lebih kecil, Anda menggunakan panjang fokus lebih pendek (DOF lebih dalam) atau mundur lebih jauh (DOF lebih dalam), keduanya mengurangi blur latar belakang."
+        }
+      }
     }
   }
 }

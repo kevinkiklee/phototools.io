@@ -72,7 +72,21 @@
       "downscaleNotice": "Your image ({from}) exceeds the browser's maximum canvas size and will be exported at {to}.",
       "cancel": "취소",
       "exporting": "내보내는 중...",
-      "download": "다운로드"
+      "download": "다운로드",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "사진에서 삼분의 일 법칙이란 무엇인가요?",
+          "answer": "삼분의 일 법칙은 이미지를 3×3 그리드로 나눕니다. 주요 피사체를 그리드 선이나 교차점에 배치하면 피사체를 중앙에 두는 것보다 더 역동적이고 균형 잡힌 구도를 만들 수 있습니다."
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "인스타그램 게시물에 가장 좋은 종횡비는 무엇인가요?",
+          "answer": "인스타그램은 1:1(정사각형), 4:5(세로), 1.91:1(가로)을 지원합니다. 4:5 세로 비율이 피드에서 가장 많은 화면 공간을 차지하며 일반적으로 가장 높은 참여도를 얻습니다."
+        },
+        "how-to-use-golden-ratio": {
+          "question": "사진 구도에 황금 비율을 어떻게 사용하나요?",
+          "answer": "황금 비율(약 1.618:1)은 시선을 이미지를 통해 안내하는 나선형 패턴을 만듭니다. 나선의 가장 좁은 지점에 주요 피사체를 배치하고 이끄는 선이 나선을 따라 바깥쪽으로 흐르게 하세요."
+        }
+      }
     }
   }
 }

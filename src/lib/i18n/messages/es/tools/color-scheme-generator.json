@@ -51,6 +51,20 @@
           "default": "Usar para: fotografía de producto equilibrada con variedad visual"
         },
         "tetradic": "Usar para: maquetaciones editoriales ricas y composiciones complejas con múltiples sujetos"
+      },
+      "faq": {
+        "what-is-color-harmony": {
+          "question": "\u00bfQu\u00e9 es la armon\u00eda de color en fotograf\u00eda?",
+          "answer": "La armon\u00eda de color se refiere a combinaciones de colores est\u00e9ticamente agradables basadas en sus posiciones en el c\u00edrculo crom\u00e1tico. Los colores armoniosos crean equilibrio visual y pueden evocar estados de \u00e1nimo espec\u00edficos en tus fotograf\u00edas."
+        },
+        "complementary-vs-analogous": {
+          "question": "\u00bfCu\u00e1l es la diferencia entre colores complementarios y an\u00e1logos?",
+          "answer": "Los colores complementarios est\u00e1n opuestos en el c\u00edrculo crom\u00e1tico (como azul y naranja) y crean alto contraste. Los colores an\u00e1logos est\u00e1n uno al lado del otro (como azul, azul verdoso y verde) y crean una sensaci\u00f3n m\u00e1s armoniosa y unificada."
+        },
+        "how-to-use-color-schemes-photography": {
+          "question": "\u00bfC\u00f3mo uso los esquemas de color en fotograf\u00eda?",
+          "answer": "Planifica tus sesiones en torno a una paleta de colores: elige vestuario, ubicaciones y accesorios que coincidan con tu esquema. En el posprocesado, usa la graduaci\u00f3n de color para enfatizar tu paleta elegida. Los esquemas de color ayudan a crear una identidad visual consistente en una serie de fotos."
+        }
       }
     }
   }

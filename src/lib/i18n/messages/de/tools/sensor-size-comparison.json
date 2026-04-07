@@ -27,7 +27,21 @@
       "tableArea": "Fläche (mm²)",
       "tableCropFactor": "Crop-Faktor",
       "tableAspectCrop": "Seitenverhältnis-Crop",
-      "canvasAriaLabel": "Sensorgrößen-Vergleich im {mode}-Modus"
+      "canvasAriaLabel": "Sensorgrößen-Vergleich im {mode}-Modus",
+      "faq": {
+        "what-is-crop-factor": {
+          "question": "Was ist der Crop-Faktor und warum ist er wichtig?",
+          "answer": "Der Crop-Faktor beschreibt den Gr\u00f6\u00dfenunterschied zwischen dem Sensor einer Kamera und einem Vollformatsensor (35 mm). Er beeinflusst die effektive Brennweite, die Sch\u00e4rfentiefe und die Leistung bei wenig Licht. Ein 1,5-facher Crop-Faktor bedeutet, dass der Sensor 1,5-mal kleiner als Vollformat ist."
+        },
+        "full-frame-vs-aps-c": {
+          "question": "Was sind die Vorteile von Vollformat- gegen\u00fcber APS-C-Sensoren?",
+          "answer": "Vollformatsensoren bieten bessere Leistung bei wenig Licht, geringere Sch\u00e4rfentiefe und ein breiteres Sichtfeld bei jeder Brennweite. APS-C-Sensoren sind g\u00fcnstiger, leichter und bieten zus\u00e4tzliche Reichweite f\u00fcr Wildtier- und Sportfotografie."
+        },
+        "sensor-size-and-depth-of-field": {
+          "question": "Wie beeinflusst die Sensorgr\u00f6\u00dfe die Sch\u00e4rfentiefe?",
+          "answer": "Gr\u00f6\u00dfere Sensoren erzeugen bei gleichem Bildausschnitt eine geringere Sch\u00e4rfentiefe. Um den gleichen Bildausschnitt mit einem kleineren Sensor zu erhalten, verwendet man entweder eine k\u00fcrzere Brennweite (gr\u00f6\u00dfere Sch\u00e4rfentiefe) oder geht weiter weg (gr\u00f6\u00dfere Sch\u00e4rfentiefe), beides reduziert die Hintergrundunsch\u00e4rfe."
+        }
+      }
     }
   }
 }

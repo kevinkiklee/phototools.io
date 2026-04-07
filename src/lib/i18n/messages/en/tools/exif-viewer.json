@@ -53,7 +53,21 @@
       "evDimIndoor": "Dim indoor",
       "evNightStreet": "Night street",
       "evDimNight": "Dim night",
-      "evVeryDark": "Very dark"
+      "evVeryDark": "Very dark",
+      "faq": {
+        "what-is-exif-data": {
+          "question": "What is EXIF data in a photo?",
+          "answer": "EXIF (Exchangeable Image File Format) data is metadata embedded in your photo by the camera. It includes camera settings (aperture, shutter speed, ISO), the camera and lens model, date and time, and sometimes GPS location."
+        },
+        "how-to-read-histogram": {
+          "question": "How do I read a photo histogram?",
+          "answer": "A histogram shows the distribution of brightness in your image from shadows (left) to highlights (right). A well-exposed photo typically has data spread across the range without clipping at either end, though the ideal shape depends on the scene."
+        },
+        "does-exif-contain-location": {
+          "question": "Does EXIF data contain my location?",
+          "answer": "If your camera or phone has GPS enabled, EXIF data can include precise GPS coordinates where the photo was taken. Be aware of this when sharing photos online — many social platforms strip EXIF data, but not all do."
+        }
+      }
     }
   }
 }

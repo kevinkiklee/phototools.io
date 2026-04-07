@@ -51,6 +51,20 @@
           "default": "Używaj do: wyważonej fotografii produktowej z wizualną różnorodnością"
         },
         "tetradic": "Używaj do: bogatych układów edytorialnych i złożonych kompozycji wieloobiektowych"
+      },
+      "faq": {
+        "what-is-color-harmony": {
+          "question": "Czym jest harmonia kolorów w fotografii?",
+          "answer": "Harmonia kolorów odnosi się do estetycznie przyjemnych kombinacji kolorów opartych na ich pozycjach na kole barw. Harmonijne kolory tworzą równowagę wizualną i mogą wywoływać określone nastroje na zdjęciach."
+        },
+        "complementary-vs-analogous": {
+          "question": "Jaka jest różnica między kolorami dopełniającymi a analogicznymi?",
+          "answer": "Kolory dopełniające leżą naprzeciwko siebie na kole barw (jak niebieski i pomarańczowy) i tworzą wysoki kontrast. Kolory analogiczne leżą obok siebie (jak niebieski, niebiesko-zielony i zielony) i tworzą bardziej harmonijne, spójne wrażenie."
+        },
+        "how-to-use-color-schemes-photography": {
+          "question": "Jak stosować schematy kolorów w fotografii?",
+          "answer": "Planuj sesje wokół palety kolorów — wybieraj garderobę, lokalizacje i rekwizyty pasujące do schematu. W postprodukcji używaj korekcji kolorów, aby podkreślić wybraną paletę. Schematy kolorów pomagają tworzyć spójną tożsamość wizualną w całej serii zdjęć."
+        }
       }
     }
   }

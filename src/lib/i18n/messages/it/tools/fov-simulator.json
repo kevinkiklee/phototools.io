@@ -28,7 +28,21 @@
       "collapse": "Comprimi",
       "expand": "Espandi",
       "fovComparison": "Confronto campo visivo",
-      "loadingScene": "Caricamento scena..."
+      "loadingScene": "Caricamento scena...",
+      "faq": {
+        "what-is-fov": {
+          "question": "Cos'è il campo visivo nella fotografia?",
+          "answer": "Il campo visivo (FOV) è l'estensione angolare della scena visibile attraverso l'obiettivo e il sensore della fotocamera. Determina quanta scena viene catturata in una foto ed è influenzato dalla lunghezza focale e dalle dimensioni del sensore."
+        },
+        "how-crop-factor-affects-fov": {
+          "question": "Come influisce il fattore di crop sul campo visivo?",
+          "answer": "Un sensore più piccolo (fattore di crop più alto) cattura un campo visivo più stretto rispetto a un sensore full frame alla stessa lunghezza focale. Ad esempio, i sensori APS-C con fattore di crop 1,5x fanno comportare un obiettivo da 50mm come un 75mm in termini di campo visivo."
+        },
+        "fov-vs-focal-length": {
+          "question": "Qual è la relazione tra campo visivo e lunghezza focale?",
+          "answer": "Campo visivo e lunghezza focale sono inversamente proporzionali. Lunghezze focali più corte (grandangolo) offrono un campo visivo più ampio, mentre lunghezze focali più lunghe (teleobiettivo) offrono un campo visivo più stretto. Il FOV esatto dipende anche dalle dimensioni del sensore."
+        }
+      }
     }
   }
 }

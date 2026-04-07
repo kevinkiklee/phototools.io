@@ -5,7 +5,9 @@ import { StarTrailCalculator } from './_components/StarTrailCalculator'
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('metadata.star-trail-calculator')
-  return { title: t('title'), description: t('description'), alternates: getAlternates('/star-trail-calculator') }
+  const title = t('title')
+  const description = t('description')
+  return { title, description, openGraph: { title, description }, alternates: getAlternates('/star-trail-calculator') }
 }
 
 export default function StarTrailCalculatorPage() {

@@ -9,6 +9,7 @@ import { GridCanvas } from './GridCanvas'
 import { CropView } from './CropView'
 import { ExportDialog } from './ExportDialog'
 import { FrameSidebar } from './FrameSidebar'
+import { LearnPanel } from '@/components/shared/LearnPanel'
 import type { EditorMode, GridType, GridOptions, FrameConfig, CropState, AspectRatioType } from './types'
 import { DEFAULT_GRID_OPTIONS, DEFAULT_FRAME_CONFIG } from '@/lib/data/frameStudio'
 import styles from './FrameStudio.module.css'
@@ -158,6 +159,7 @@ export function FrameStudio() {
               )}
             </section>
           </main>
+          <div className={styles.desktopOnly}><LearnPanel slug={SLUG} /></div>
         </div>
 
         <div className={styles.mobileControls}>
@@ -168,6 +170,7 @@ export function FrameStudio() {
           <FrameSidebar {...sidebarProps} />
         </div>
       </div>
+      <div className={styles.mobileOnly}><LearnPanel slug={SLUG} /></div>
 
       {showExport && originalImage && originalFile && (
         <ExportDialog image={originalImage} crop={cropState} frameConfig={frameConfig}

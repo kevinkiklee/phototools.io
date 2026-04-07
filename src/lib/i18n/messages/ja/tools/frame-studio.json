@@ -72,7 +72,21 @@
       "downscaleNotice": "Your image ({from}) exceeds the browser's maximum canvas size and will be exported at {to}.",
       "cancel": "キャンセル",
       "exporting": "エクスポート中...",
-      "download": "ダウンロード"
+      "download": "ダウンロード",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "写真における三分割法とは何ですか？",
+          "answer": "三分割法は画像を3\u00d73のグリッドに分割します。主要な被写体をグリッドの線上やその交点に配置することで、被写体を中央に置くよりもダイナミックでバランスの取れた構図が作れます。"
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "Instagramの投稿に最適なアスペクト比は？",
+          "answer": "Instagramは1:1（正方形）、4:5（縦位置）、1.91:1（横位置）に対応しています。4:5の縦位置比率はフィードで最も画面スペースを占め、通常最も高いエンゲージメントを獲得します。"
+        },
+        "how-to-use-golden-ratio": {
+          "question": "写真構図で黄金比をどう使えばいいですか？",
+          "answer": "黄金比（約1.618:1）は、見る人の視線を画像内に導くスパイラルパターンを作ります。スパイラルの最も狭い点にメインの被写体を配置し、リーディングラインがカーブに沿って外側に向かうようにします。"
+        }
+      }
     }
   }
 }

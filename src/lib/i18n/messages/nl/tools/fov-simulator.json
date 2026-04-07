@@ -28,7 +28,21 @@
       "collapse": "Inklappen",
       "expand": "Uitklappen",
       "fovComparison": "Beeldhoek vergelijking",
-      "loadingScene": "Scène laden..."
+      "loadingScene": "Scène laden...",
+      "faq": {
+        "what-is-fov": {
+          "question": "Wat is beeldhoek in fotografie?",
+          "answer": "Beeldhoek (FOV) is de hoekgrootte van de scène die zichtbaar is door je lens en camerasensor. Het bepaalt hoeveel van een scène wordt vastgelegd in een foto en wordt beïnvloed door brandpuntsafstand en sensorformaat."
+        },
+        "how-crop-factor-affects-fov": {
+          "question": "Hoe beïnvloedt de cropfactor de beeldhoek?",
+          "answer": "Een kleinere sensor (hogere cropfactor) legt een smallere beeldhoek vast dan een fullframe-sensor bij dezelfde brandpuntsafstand. Bijvoorbeeld: APS-C-sensoren met een cropfactor van 1,5x laten een 50mm-lens zich gedragen als een 75mm-lens qua beeldhoek."
+        },
+        "fov-vs-focal-length": {
+          "question": "Wat is de relatie tussen beeldhoek en brandpuntsafstand?",
+          "answer": "Beeldhoek en brandpuntsafstand zijn omgekeerd evenredig. Kortere brandpuntsafstanden (groothoek) geven een bredere beeldhoek, terwijl langere brandpuntsafstanden (tele) een smallere beeldhoek geven. De exacte beeldhoek hangt ook af van het sensorformaat."
+        }
+      }
     }
   }
 }

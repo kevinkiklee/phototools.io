@@ -53,7 +53,21 @@
       "evDimIndoor": "어두운 실내",
       "evNightStreet": "야간 거리",
       "evDimNight": "어두운 야간",
-      "evVeryDark": "매우 어두움"
+      "evVeryDark": "매우 어두움",
+      "faq": {
+        "what-is-exif-data": {
+          "question": "사진의 EXIF 데이터란 무엇인가요?",
+          "answer": "EXIF(Exchangeable Image File Format) 데이터는 카메라가 사진에 내장하는 메타데이터입니다. 카메라 설정(조리개, 셔터 스피드, ISO), 카메라 및 렌즈 모델, 날짜와 시간, 때로는 GPS 위치 정보가 포함됩니다."
+        },
+        "how-to-read-histogram": {
+          "question": "사진 히스토그램을 어떻게 읽나요?",
+          "answer": "히스토그램은 이미지의 밝기 분포를 그림자(왼쪽)에서 하이라이트(오른쪽)까지 보여줍니다. 잘 노출된 사진은 일반적으로 양쪽 끝에서 클리핑 없이 전체 범위에 걸쳐 데이터가 분포하지만, 이상적인 형태는 장면에 따라 달라집니다."
+        },
+        "does-exif-contain-location": {
+          "question": "EXIF 데이터에 위치 정보가 포함되나요?",
+          "answer": "카메라나 휴대폰에 GPS가 활성화되어 있으면 EXIF 데이터에 사진이 촬영된 정확한 GPS 좌표가 포함될 수 있습니다. 온라인으로 사진을 공유할 때 이 점에 유의하세요 — 많은 소셜 플랫폼이 EXIF 데이터를 제거하지만, 모든 플랫폼이 그런 것은 아닙니다."
+        }
+      }
     }
   }
 }

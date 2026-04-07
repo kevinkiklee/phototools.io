@@ -10,7 +10,21 @@
       "green": "Verde",
       "blue": "Azul",
       "hex": "Hex",
-      "loadingScene": "Carregando cena..."
+      "loadingScene": "Carregando cena...",
+      "faq": {
+        "what-is-white-balance": {
+          "question": "O que é balanço de branco na fotografia?",
+          "answer": "O balanço de branco ajusta as cores na sua foto para que objetos que parecem brancos pessoalmente também pareçam brancos na imagem. Diferentes fontes de luz emitem diferentes temperaturas de cor, e o balanço de branco compensa essas variações."
+        },
+        "kelvin-vs-presets": {
+          "question": "Devo usar valores Kelvin ou predefinições de balanço de branco?",
+          "answer": "Predefinições (Luz do Dia, Nublado, Tungstênio) são pontos de partida convenientes, mas definir um valor Kelvin específico oferece controle mais preciso. Fotografe em formato RAW para ajustar o balanço de branco de forma não destrutiva na pós-produção."
+        },
+        "when-to-use-manual-white-balance": {
+          "question": "Quando devo usar balanço de branco manual?",
+          "answer": "Use balanço de branco manual para iluminação mista (combinando natural e artificial), configurações de estúdio que exigem precisão exata de cores, fotografia de produtos e sempre que o balanço de branco automático produzir resultados inconsistentes em uma série de fotos."
+        }
+      }
     }
   }
 }

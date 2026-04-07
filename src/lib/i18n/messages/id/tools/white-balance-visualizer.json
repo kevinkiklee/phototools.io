@@ -10,7 +10,21 @@
       "green": "Hijau",
       "blue": "Biru",
       "hex": "Hex",
-      "loadingScene": "Memuat adegan..."
+      "loadingScene": "Memuat adegan...",
+      "faq": {
+        "what-is-white-balance": {
+          "question": "Apa itu white balance dalam fotografi?",
+          "answer": "White balance menyesuaikan warna dalam foto agar objek yang terlihat putih secara langsung juga terlihat putih di gambar. Sumber cahaya yang berbeda memancarkan suhu warna yang berbeda, dan white balance mengompensasi variasi tersebut."
+        },
+        "kelvin-vs-presets": {
+          "question": "Haruskah saya menggunakan nilai Kelvin atau preset white balance?",
+          "answer": "Preset (Daylight, Cloudy, Tungsten) adalah titik awal yang praktis, tetapi mengatur nilai Kelvin tertentu memberikan kontrol yang lebih presisi. Pemotretan dalam format RAW memungkinkan penyesuaian white balance secara non-destruktif dalam pasca-produksi."
+        },
+        "when-to-use-manual-white-balance": {
+          "question": "Kapan saya harus menggunakan white balance manual?",
+          "answer": "Gunakan white balance manual untuk pencahayaan campuran (kombinasi alami dan buatan), pengaturan studio yang memerlukan akurasi warna tepat, fotografi produk, dan setiap kali auto white balance menghasilkan hasil yang tidak konsisten di seluruh seri foto."
+        }
+      }
     }
   }
 }

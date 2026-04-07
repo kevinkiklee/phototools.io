@@ -27,7 +27,21 @@
       "tableArea": "Powierzchnia (mm²)",
       "tableCropFactor": "Wsp. kadrowania",
       "tableAspectCrop": "Kadrowanie proporcji",
-      "canvasAriaLabel": "Porównanie rozmiarów matryc w trybie {mode}"
+      "canvasAriaLabel": "Porównanie rozmiarów matryc w trybie {mode}",
+      "faq": {
+        "what-is-crop-factor": {
+          "question": "Czym jest współczynnik kadrowania i dlaczego ma znaczenie?",
+          "answer": "Współczynnik kadrowania opisuje różnicę w rozmiarze między matrycą aparatu a matrycą pełnoklatkową (35 mm). Wpływa na efektywną ogniskową, głębię ostrości i wydajność przy słabym oświetleniu. Współczynnik 1,5x oznacza, że matryca jest 1,5 razy mniejsza od pełnej klatki."
+        },
+        "full-frame-vs-aps-c": {
+          "question": "Jakie są zalety matryc pełnoklatkowych w porównaniu z APS-C?",
+          "answer": "Matrycze pełnoklatkowe oferują lepszą wydajność przy słabym świetle, płytszą głębię ostrości i szersze pole widzenia przy każdej ogniskowej. Matrycze APS-C są tańsze, lżejsze i zapewniają dodatkowy zasięg w fotografii dzikiej przyrody i sportowej."
+        },
+        "sensor-size-and-depth-of-field": {
+          "question": "Jak rozmiar matrycy wpływa na głębię ostrości?",
+          "answer": "Większe matrycze dają płytszą głębię ostrości przy równoważnym kadrowaniu. Aby uzyskać ten sam kadr z mniejszą matrycą, używasz krótszej ogniskowej (głębsza DOF) lub odsuwasz się dalej (głębsza DOF), co w obu przypadkach zmniejsza rozmycie tła."
+        }
+      }
     }
   }
 }

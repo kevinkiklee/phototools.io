@@ -27,7 +27,21 @@
       "tableArea": "Área (mm²)",
       "tableCropFactor": "Fator de Corte",
       "tableAspectCrop": "Corte de Aspecto",
-      "canvasAriaLabel": "Comparação de tamanho de sensor no modo {mode}"
+      "canvasAriaLabel": "Comparação de tamanho de sensor no modo {mode}",
+      "faq": {
+        "what-is-crop-factor": {
+          "question": "O que é fator de corte e por que é importante?",
+          "answer": "O fator de corte descreve a diferença de tamanho entre o sensor de uma câmera e um sensor full frame (35mm). Afeta a distância focal efetiva, a profundidade de campo e o desempenho em pouca luz. Um fator de corte de 1,5x significa que o sensor é 1,5 vezes menor que o full frame."
+        },
+        "full-frame-vs-aps-c": {
+          "question": "Quais são as vantagens dos sensores full frame versus APS-C?",
+          "answer": "Sensores full frame oferecem melhor desempenho em pouca luz, menor profundidade de campo e campo de visão mais amplo em qualquer distância focal. Sensores APS-C são mais acessíveis, mais leves e proporcionam alcance extra para fotografia de vida selvagem e esportes."
+        },
+        "sensor-size-and-depth-of-field": {
+          "question": "Como o tamanho do sensor afeta a profundidade de campo?",
+          "answer": "Sensores maiores produzem profundidade de campo mais rasa com enquadramento equivalente. Para obter o mesmo enquadramento com um sensor menor, você usa uma distância focal mais curta (maior profundidade) ou se afasta mais (maior profundidade), ambos reduzindo o desfoque de fundo."
+        }
+      }
     }
   }
 }

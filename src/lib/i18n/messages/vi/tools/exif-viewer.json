@@ -53,7 +53,21 @@
       "evDimIndoor": "Trong nhà mờ",
       "evNightStreet": "Đường phố đêm",
       "evDimNight": "Đêm mờ",
-      "evVeryDark": "Rất tối"
+      "evVeryDark": "Rất tối",
+      "faq": {
+        "what-is-exif-data": {
+          "question": "Dữ liệu EXIF trong ảnh là gì?",
+          "answer": "Dữ liệu EXIF (Exchangeable Image File Format) là siêu dữ liệu được nhúng vào ảnh bởi máy ảnh. Nó bao gồm cài đặt máy ảnh (khẩu độ, tốc độ màn trập, ISO), mẫu máy ảnh và ống kính, ngày giờ, và đôi khi cả vị trí GPS."
+        },
+        "how-to-read-histogram": {
+          "question": "Làm thế nào để đọc histogram ảnh?",
+          "answer": "Histogram hiển thị phân bố độ sáng trong ảnh từ vùng tối (bên trái) đến vùng sáng (bên phải). Một bức ảnh phơi sáng tốt thường có dữ liệu trải đều trong phạm vi mà không bị cắt ở hai đầu, mặc dù hình dạng lý tưởng phụ thuộc vào cảnh chụp."
+        },
+        "does-exif-contain-location": {
+          "question": "Dữ liệu EXIF có chứa vị trí của tôi không?",
+          "answer": "Nếu máy ảnh hoặc điện thoại của bạn bật GPS, dữ liệu EXIF có thể bao gồm tọa độ GPS chính xác nơi ảnh được chụp. Hãy lưu ý điều này khi chia sẻ ảnh trực tuyến — nhiều nền tảng mạng xã hội loại bỏ dữ liệu EXIF, nhưng không phải tất cả."
+        }
+      }
     }
   }
 }

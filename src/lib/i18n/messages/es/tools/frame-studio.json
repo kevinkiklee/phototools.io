@@ -72,7 +72,21 @@
       "downscaleNotice": "Your image ({from}) exceeds the browser's maximum canvas size and will be exported at {to}.",
       "cancel": "Cancelar",
       "exporting": "Exportando...",
-      "download": "Descargar"
+      "download": "Descargar",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "\u00bfQu\u00e9 es la regla de los tercios en fotograf\u00eda?",
+          "answer": "La regla de los tercios divide tu imagen en una cuadr\u00edcula de 3\u00d73. Colocar los sujetos clave a lo largo de las l\u00edneas de la cuadr\u00edcula o en sus intersecciones crea composiciones m\u00e1s din\u00e1micas y equilibradas que centrar el sujeto."
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "\u00bfCu\u00e1l es la mejor relaci\u00f3n de aspecto para publicaciones de Instagram?",
+          "answer": "Instagram admite 1:1 (cuadrado), 4:5 (retrato) y 1.91:1 (paisaje). La relaci\u00f3n de retrato 4:5 ocupa m\u00e1s espacio en pantalla en el feed y normalmente obtiene el mayor engagement."
+        },
+        "how-to-use-golden-ratio": {
+          "question": "\u00bfC\u00f3mo uso la proporci\u00f3n \u00e1urea para la composici\u00f3n fotogr\u00e1fica?",
+          "answer": "La proporci\u00f3n \u00e1urea (aproximadamente 1.618:1) crea un patr\u00f3n en espiral que gu\u00eda la mirada del espectador a trav\u00e9s de la imagen. Coloca tu sujeto principal en el punto m\u00e1s cerrado de la espiral y deja que las l\u00edneas conductoras sigan la curva hacia afuera."
+        }
+      }
     }
   }
 }

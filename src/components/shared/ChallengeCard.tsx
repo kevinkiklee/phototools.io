@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { isChallengeComplete, markChallengeComplete } from '@/lib/data/education'
+import { trackChallengeComplete } from '@/lib/analytics'
 import type { ChallengeSkeleton } from '@/lib/data/education/types'
 import styles from './LearnPanel.module.css'
 
@@ -24,13 +25,14 @@ export function ChallengeNavDot({ index, complete, active, onClick }: {
 interface ChallengeCardProps {
   challenge: ChallengeSkeleton
   challengeIndex: number
+  slug: string
   et: ReturnType<typeof useTranslations>
   onAdvance?: () => void
   onComplete?: (id: string) => void
   children?: React.ReactNode
 }
 
-export function ChallengeCard({ challenge, challengeIndex, et, onAdvance, onComplete, children }: ChallengeCardProps) {
+export function ChallengeCard({ challenge, challengeIndex, slug, et, onAdvance, onComplete, children }: ChallengeCardProps) {
   const t = useTranslations('common.learn')
   const [selected, setSelected] = useState<string | null>(null)
   const [result, setResult] = useState<'success' | 'failure' | null>(null)
@@ -46,12 +48,18 @@ export function ChallengeCard({ challenge, challengeIndex, et, onAdvance, onComp
     if (!selected) return
     const correct = challenge.correctOption === selected
     setResult(correct ? 'success' : 'failure')
+    trackChallengeComplete({
+      tool_slug: slug,
+      challenge_id: challenge.id,
+      difficulty: challenge.difficulty,
+      correct,
+    })
     if (correct) {
       markChallengeComplete(challenge.id)
       setCompleted(true)
       onComplete?.(challenge.id)
     }
-  }, [selected, challenge, onComplete])
+  }, [selected, challenge, slug, onComplete])
 
   return (
     <div className={styles.challenge}>

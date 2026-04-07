@@ -10,7 +10,21 @@
       "green": "Zielony",
       "blue": "Niebieski",
       "hex": "Hex",
-      "loadingScene": "Ładowanie sceny..."
+      "loadingScene": "Ładowanie sceny...",
+      "faq": {
+        "what-is-white-balance": {
+          "question": "Czym jest balans bieli w fotografii?",
+          "answer": "Balans bieli dostosowuje kolory na zdjęciu tak, aby obiekty wyglądające na białe w rzeczywistości wyglądały na białe również na zdjęciu. Różne źródła światła emitują różne temperatury barwowe, a balans bieli kompensuje te różnice."
+        },
+        "kelvin-vs-presets": {
+          "question": "Czy powinienem używać wartości Kelvin czy presetów balansu bieli?",
+          "answer": "Presety (Światło dzienne, Pochmurno, Żarówka) to wygodne punkty wyjścia, ale ustawienie konkretnej wartości Kelvin daje bardziej precyzyjną kontrolę. Fotografuj w formacie RAW, aby regulować balans bieli nieniszcząco w postprodukcji."
+        },
+        "when-to-use-manual-white-balance": {
+          "question": "Kiedy powinienem używać ręcznego balansu bieli?",
+          "answer": "Używaj ręcznego balansu bieli przy mieszanym oświetleniu (kombinacja naturalnego i sztucznego), w ustawieniach studyjnych wymagających dokładnej wierności kolorów, w fotografii produktowej i zawsze, gdy automatyczny balans bieli daje niespójne wyniki w serii zdjęć."
+        }
+      }
     }
   }
 }

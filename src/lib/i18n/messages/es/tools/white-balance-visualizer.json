@@ -10,7 +10,21 @@
       "green": "Verde",
       "blue": "Azul",
       "hex": "Hex",
-      "loadingScene": "Cargando escena..."
+      "loadingScene": "Cargando escena...",
+      "faq": {
+        "what-is-white-balance": {
+          "question": "\u00bfQu\u00e9 es el balance de blancos en fotograf\u00eda?",
+          "answer": "El balance de blancos ajusta los colores en tu foto para que los objetos que parecen blancos en persona tambi\u00e9n aparezcan blancos en la imagen. Diferentes fuentes de luz emiten diferentes temperaturas de color, y el balance de blancos compensa estas variaciones."
+        },
+        "kelvin-vs-presets": {
+          "question": "\u00bfDeber\u00eda usar valores Kelvin o preajustes de balance de blancos?",
+          "answer": "Los preajustes (Luz de d\u00eda, Nublado, Tungsteno) son puntos de partida convenientes, pero establecer un valor Kelvin espec\u00edfico da un control m\u00e1s preciso. Dispara en formato RAW para ajustar el balance de blancos de forma no destructiva en el posprocesado."
+        },
+        "when-to-use-manual-white-balance": {
+          "question": "\u00bfCu\u00e1ndo debo usar el balance de blancos manual?",
+          "answer": "Usa el balance de blancos manual para iluminaci\u00f3n mixta (combinando natural y artificial), configuraciones de estudio que requieren precisi\u00f3n exacta de color, fotograf\u00eda de producto y siempre que el balance de blancos autom\u00e1tico produzca resultados inconsistentes en una serie de tomas."
+        }
+      }
     }
   }
 }

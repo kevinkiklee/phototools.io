@@ -10,7 +10,21 @@
       "green": "Yeşil",
       "blue": "Mavi",
       "hex": "Hex",
-      "loadingScene": "Sahne yükleniyor..."
+      "loadingScene": "Sahne yükleniyor...",
+      "faq": {
+        "what-is-white-balance": {
+          "question": "Fotoğrafçılıkta beyaz dengesi nedir?",
+          "answer": "Beyaz dengesi, gerçekte beyaz görünen nesnelerin fotoğrafta da beyaz görünmesi için fotoğrafınızdaki renkleri ayarlar. Farklı ışık kaynakları farklı renk sıcaklıkları yayar ve beyaz dengesi bu farklılıkları telafi eder."
+        },
+        "kelvin-vs-presets": {
+          "question": "Kelvin değerlerini mi yoksa beyaz dengesi ön ayarlarını mı kullanmalıyım?",
+          "answer": "Ön ayarlar (Gün Işığı, Bulutlu, Tungsten) uygun başlangıç noktalarıdır, ancak belirli bir Kelvin değeri ayarlamak daha hassas kontrol sağlar. Beyaz dengesini post-prodüksiyonda tahribatsız olarak ayarlamak için RAW formatında çekin."
+        },
+        "when-to-use-manual-white-balance": {
+          "question": "Manuel beyaz dengesini ne zaman kullanmalıyım?",
+          "answer": "Manuel beyaz dengesini karışık aydınlatma (doğal ve yapay birleşimi), hassas renk doğruluğu gerektiren stüdyo kurulumları, ürün fotoğrafçılığı ve otomatik beyaz dengesinin bir çekim serisi boyunca tutarsız sonuçlar verdiği her durumda kullanın."
+        }
+      }
     }
   }
 }

@@ -72,7 +72,21 @@
       "downscaleNotice": "Gambar Anda ({from}) melebihi ukuran kanvas maksimum browser dan akan diekspor pada {to}.",
       "cancel": "Batal",
       "exporting": "Mengekspor...",
-      "download": "Unduh"
+      "download": "Unduh",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "Apa itu rule of thirds dalam fotografi?",
+          "answer": "Rule of thirds membagi gambar menjadi grid 3×3. Menempatkan subjek utama di sepanjang garis grid atau di titik persilangan menciptakan komposisi yang lebih dinamis dan seimbang daripada menempatkan subjek di tengah."
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "Apa rasio aspek terbaik untuk postingan Instagram?",
+          "answer": "Instagram mendukung rasio 1:1 (persegi), 4:5 (potret), dan 1,91:1 (lanskap). Rasio potret 4:5 mengambil ruang layar terbanyak di feed dan biasanya mendapatkan engagement tertinggi."
+        },
+        "how-to-use-golden-ratio": {
+          "question": "Bagaimana cara menggunakan golden ratio untuk komposisi foto?",
+          "answer": "Golden ratio (sekitar 1,618:1) menciptakan pola spiral yang mengarahkan pandangan pemirsa melalui gambar. Tempatkan subjek utama di titik terkecil spiral dan biarkan garis pemandu mengikuti kurva ke luar."
+        }
+      }
     }
   }
 }

@@ -27,7 +27,21 @@
       "latitudeLabel": "Breitengrad:",
       "equator": "Äquator 0°",
       "mid45": "Mitte 45°",
-      "arctic70": "Arktis 70°"
+      "arctic70": "Arktis 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "Was ist die 500er-Regel in der Astrofotografie?",
+          "answer": "Die 500er-Regel sch\u00e4tzt die l\u00e4ngste Belichtungszeit, bevor Sterne als Striche statt als Punkte erscheinen. Teile 500 durch deine effektive Brennweite (Brennweite \u00d7 Crop-Faktor), um die maximale Verschlusszeit in Sekunden f\u00fcr scharfe Sterne zu erhalten."
+        },
+        "star-trails-vs-points": {
+          "question": "Wie w\u00e4hle ich zwischen Sternenspuren und scharfen Sternpunkten?",
+          "answer": "F\u00fcr scharfe Sternpunkte (Milchstra\u00dfe, Sternbilder) verwende kurze Belichtungen gem\u00e4\u00df der 500er-Regel. F\u00fcr kreative Sternenspuren, die die Erdrotation zeigen, verwende sehr lange Belichtungen (Minuten bis Stunden) oder staple mehrere k\u00fcrzere Belichtungen."
+        },
+        "best-settings-milky-way": {
+          "question": "Was sind die besten Kameraeinstellungen f\u00fcr Milchstra\u00dfenfotografie?",
+          "answer": "Beginne mit der weitesten verf\u00fcgbaren Blende (f/1,4\u2013f/2,8), ISO 1600\u20136400 und der l\u00e4ngsten Verschlusszeit, die die 500er-Regel f\u00fcr dein Objektiv erlaubt. Verwende ein stabiles Stativ und manuellen Fokus auf Unendlich. Fotografiere bei Neumond an einem dunklen Standort."
+        }
+      }
     }
   }
 }

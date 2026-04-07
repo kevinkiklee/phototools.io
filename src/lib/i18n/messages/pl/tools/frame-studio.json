@@ -72,7 +72,21 @@
       "downscaleNotice": "Twój obraz ({from}) przekracza maksymalny rozmiar canvas przeglądarki i zostanie wyeksportowany w rozdzielczości {to}.",
       "cancel": "Anuluj",
       "exporting": "Eksportowanie...",
-      "download": "Pobierz"
+      "download": "Pobierz",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "Czym jest reguła trzech w fotografii?",
+          "answer": "Reguła trzech dzieli obraz na siatkę 3×3. Umieszczanie kluczowych elementów wzdłuż linii siatki lub w ich punktach przecięcia tworzy bardziej dynamiczne, zrównoważone kompozycje niż centrowanie obiektu."
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "Jaki jest najlepszy format zdjęć na Instagram?",
+          "answer": "Instagram obsługuje formaty 1:1 (kwadrat), 4:5 (portret) i 1,91:1 (krajobraz). Format portretowy 4:5 zajmuje najwięcej miejsca na ekranie w feedzie i zwykle generuje najwyższe zaangażowanie."
+        },
+        "how-to-use-golden-ratio": {
+          "question": "Jak używać złotego podziału w kompozycji fotograficznej?",
+          "answer": "Złoty podział (około 1,618:1) tworzy wzór spiralny, który prowadzi wzrok widza przez obraz. Umieść główny obiekt w najciaśniejszym punkcie spirali i pozwól liniom prowadzącym podążać za krzywą na zewnątrz."
+        }
+      }
     }
   }
 }

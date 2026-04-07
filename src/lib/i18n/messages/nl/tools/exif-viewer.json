@@ -53,7 +53,21 @@
       "evDimIndoor": "Schemerig binnenshuis",
       "evNightStreet": "Nachtelijke straat",
       "evDimNight": "Schemerige nacht",
-      "evVeryDark": "Zeer donker"
+      "evVeryDark": "Zeer donker",
+      "faq": {
+        "what-is-exif-data": {
+          "question": "Wat zijn EXIF-gegevens in een foto?",
+          "answer": "EXIF-gegevens (Exchangeable Image File Format) zijn metadata die door de camera in je foto worden ingebed. Ze bevatten camera-instellingen (diafragma, sluitertijd, ISO), het camera- en lensmodel, datum en tijd, en soms GPS-locatie."
+        },
+        "how-to-read-histogram": {
+          "question": "Hoe lees ik een fotohistogram?",
+          "answer": "Een histogram toont de verdeling van helderheid in je beeld van schaduwen (links) tot hooglichten (rechts). Een goed belichte foto heeft doorgaans data verspreid over het hele bereik zonder afkapping aan beide uiteinden, hoewel de ideale vorm afhankelijk is van de scène."
+        },
+        "does-exif-contain-location": {
+          "question": "Bevatten EXIF-gegevens mijn locatie?",
+          "answer": "Als je camera of telefoon GPS ingeschakeld heeft, kunnen EXIF-gegevens precieze GPS-coördinaten bevatten van waar de foto is genomen. Wees je hiervan bewust bij het online delen van foto's — veel sociale platforms verwijderen EXIF-gegevens, maar niet allemaal."
+        }
+      }
     }
   }
 }

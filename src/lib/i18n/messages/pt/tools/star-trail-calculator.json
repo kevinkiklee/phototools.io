@@ -27,7 +27,21 @@
       "latitudeLabel": "Latitude:",
       "equator": "Equador 0°",
       "mid45": "Média 45°",
-      "arctic70": "Ártico 70°"
+      "arctic70": "Ártico 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "O que é a regra dos 500 na astrofotografia?",
+          "answer": "A regra dos 500 estima o maior tempo de exposição antes que as estrelas apareçam como trilhas em vez de pontos. Divida 500 pela sua distância focal efetiva (distância focal × fator de corte) para obter a velocidade máxima do obturador em segundos para estrelas nítidas."
+        },
+        "star-trails-vs-points": {
+          "question": "Como escolho entre trilhas de estrelas e pontos nítidos?",
+          "answer": "Para pontos estelares nítidos (Via Láctea, constelações), use exposições curtas seguindo a regra dos 500. Para trilhas estelares criativas mostrando a rotação da Terra, use exposições muito longas (minutos a horas) ou empilhe várias exposições mais curtas."
+        },
+        "best-settings-milky-way": {
+          "question": "Quais são as melhores configurações para fotografar a Via Láctea?",
+          "answer": "Comece com a maior abertura disponível (f/1.4–f/2.8), ISO 1600–6400 e a maior velocidade de obturador permitida pela regra dos 500 para sua lente. Use um tripé robusto e foco manual ajustado para o infinito. Fotografe durante a lua nova em um local com céu escuro."
+        }
+      }
     }
   }
 }

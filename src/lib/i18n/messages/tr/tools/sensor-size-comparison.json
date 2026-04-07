@@ -27,7 +27,21 @@
       "tableArea": "Alan (mm²)",
       "tableCropFactor": "Kırpma Faktörü",
       "tableAspectCrop": "Oran Kırpması",
-      "canvasAriaLabel": "{mode} modunda sensör boyutu karşılaştırması"
+      "canvasAriaLabel": "{mode} modunda sensör boyutu karşılaştırması",
+      "faq": {
+        "what-is-crop-factor": {
+          "question": "Kırpma faktörü nedir ve neden önemlidir?",
+          "answer": "Kırpma faktörü, bir kameranın sensörü ile tam kare (35mm) sensör arasındaki boyut farkını tanımlar. Efektif odak uzaklığını, alan derinliğini ve düşük ışık performansını etkiler. 1,5x kırpma faktörü, sensörün tam kareden 1,5 kat daha küçük olduğu anlamına gelir."
+        },
+        "full-frame-vs-aps-c": {
+          "question": "Tam kare ve APS-C sensörlerin avantajları nelerdir?",
+          "answer": "Tam kare sensörler daha iyi düşük ışık performansı, daha sığ alan derinliği ve herhangi bir odak uzaklığında daha geniş görüş alanı sunar. APS-C sensörler daha uygun fiyatlı, daha hafiftir ve vahşi yaşam ile spor fotoğrafçılığı için ekstra erişim sağlar."
+        },
+        "sensor-size-and-depth-of-field": {
+          "question": "Sensör boyutu alan derinliğini nasıl etkiler?",
+          "answer": "Büyük sensörler, eşdeğer kadrajda daha sığ alan derinliği üretir. Daha küçük bir sensörle aynı kadrajı elde etmek için daha kısa odak uzaklığı (daha derin DOF) veya daha uzak mesafe (daha derin DOF) kullanırsınız; her ikisi de arka plan bulanıklığını azaltır."
+        }
+      }
     }
   }
 }

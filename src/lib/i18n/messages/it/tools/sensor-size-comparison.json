@@ -27,7 +27,21 @@
       "tableArea": "Area (mm²)",
       "tableCropFactor": "Fattore di crop",
       "tableAspectCrop": "Crop d'aspetto",
-      "canvasAriaLabel": "Confronto dimensioni sensore in modalità {mode}"
+      "canvasAriaLabel": "Confronto dimensioni sensore in modalità {mode}",
+      "faq": {
+        "what-is-crop-factor": {
+          "question": "Cos'è il fattore di crop e perché è importante?",
+          "answer": "Il fattore di crop descrive la differenza di dimensioni tra il sensore di una fotocamera e un sensore full frame (35mm). Influisce sulla lunghezza focale effettiva, sulla profondità di campo e sulle prestazioni in condizioni di scarsa luminosità. Un fattore di crop di 1,5x significa che il sensore è 1,5 volte più piccolo del full frame."
+        },
+        "full-frame-vs-aps-c": {
+          "question": "Quali sono i vantaggi dei sensori full frame rispetto agli APS-C?",
+          "answer": "I sensori full frame offrono migliori prestazioni in scarsa luminosità, minore profondità di campo e campo visivo più ampio a qualsiasi lunghezza focale. I sensori APS-C sono più economici, più leggeri e offrono una portata extra per la fotografia naturalistica e sportiva."
+        },
+        "sensor-size-and-depth-of-field": {
+          "question": "Come influiscono le dimensioni del sensore sulla profondità di campo?",
+          "answer": "Sensori più grandi producono una profondità di campo più ridotta a inquadratura equivalente. Per ottenere la stessa inquadratura con un sensore più piccolo, si usa una lunghezza focale più corta (maggiore profondità) o ci si allontana (maggiore profondità), entrambi riducendo la sfocatura dello sfondo."
+        }
+      }
     }
   }
 }

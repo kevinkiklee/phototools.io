@@ -28,7 +28,21 @@
       "collapse": "Recolher",
       "expand": "Expandir",
       "fovComparison": "Comparação de CdV",
-      "loadingScene": "Carregando cena..."
+      "loadingScene": "Carregando cena...",
+      "faq": {
+        "what-is-fov": {
+          "question": "O que e campo de visao na fotografia?",
+          "answer": "O campo de visao (CdV) e a extensao angular da cena visivel atraves da lente e do sensor da camera. Determina quanta cena e capturada em uma foto e e afetado pela distancia focal e pelo tamanho do sensor."
+        },
+        "how-crop-factor-affects-fov": {
+          "question": "Como o fator de corte afeta o campo de visao?",
+          "answer": "Um sensor menor (fator de corte maior) captura um campo de visao mais estreito do que um sensor full frame na mesma distancia focal. Por exemplo, sensores APS-C com fator de corte de 1,5x fazem uma lente de 50mm se comportar como uma de 75mm em termos de campo de visao."
+        },
+        "fov-vs-focal-length": {
+          "question": "Qual e a relacao entre campo de visao e distancia focal?",
+          "answer": "Campo de visao e distancia focal sao inversamente relacionados. Distancias focais mais curtas (grande angular) proporcionam um campo de visao mais amplo, enquanto distancias focais mais longas (teleobjetiva) proporcionam um campo de visao mais estreito. O CdV exato tambem depende do tamanho do sensor."
+        }
+      }
     }
   }
 }

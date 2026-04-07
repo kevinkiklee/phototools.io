@@ -51,6 +51,20 @@
           "default": "Usare per: fotografia di prodotto bilanciata con varietà visiva"
         },
         "tetradic": "Usare per: layout editoriali ricchi e composizioni complesse con più soggetti"
+      },
+      "faq": {
+        "what-is-color-harmony": {
+          "question": "Cos'è l'armonia cromatica nella fotografia?",
+          "answer": "L'armonia cromatica si riferisce a combinazioni di colori esteticamente piacevoli basate sulla loro posizione nel cerchio cromatico. I colori armoniosi creano equilibrio visivo e possono evocare stati d'animo specifici nelle tue fotografie."
+        },
+        "complementary-vs-analogous": {
+          "question": "Qual è la differenza tra colori complementari e analoghi?",
+          "answer": "I colori complementari si trovano ai lati opposti del cerchio cromatico (come blu e arancione) e creano un alto contrasto. I colori analoghi si trovano uno accanto all'altro (come blu, blu-verde e verde) e creano una sensazione più armoniosa e unificata."
+        },
+        "how-to-use-color-schemes-photography": {
+          "question": "Come utilizzo gli schemi di colore nella fotografia?",
+          "answer": "Pianifica i tuoi scatti attorno a una palette di colori — scegli abbigliamento, location e accessori che corrispondano al tuo schema. In post-produzione, usa la color grading per enfatizzare la palette scelta. Gli schemi di colore aiutano a creare un'identità visiva coerente in una serie fotografica."
+        }
       }
     }
   }

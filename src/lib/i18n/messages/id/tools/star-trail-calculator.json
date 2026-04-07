@@ -27,7 +27,21 @@
       "latitudeLabel": "Lintang:",
       "equator": "Ekuator 0°",
       "mid45": "Tengah 45°",
-      "arctic70": "Arktik 70°"
+      "arctic70": "Arktik 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "Apa itu aturan 500 dalam astrofotografi?",
+          "answer": "Aturan 500 memperkirakan waktu eksposur terlama sebelum bintang tampak sebagai garis alih-alih titik. Bagi 500 dengan panjang fokus efektif (panjang fokus × crop factor) untuk mendapatkan kecepatan rana maksimum dalam detik agar bintang tetap tajam."
+        },
+        "star-trails-vs-points": {
+          "question": "Bagaimana memilih antara jejak bintang dan titik bintang tajam?",
+          "answer": "Untuk titik bintang tajam (Bima Sakti, rasi bintang), gunakan eksposur pendek mengikuti aturan 500. Untuk jejak bintang kreatif yang menunjukkan rotasi Bumi, gunakan eksposur sangat panjang (menit hingga jam) atau tumpuk beberapa eksposur pendek."
+        },
+        "best-settings-milky-way": {
+          "question": "Apa pengaturan kamera terbaik untuk fotografi Bima Sakti?",
+          "answer": "Mulai dengan apertur terlebar yang tersedia (f/1.4–f/2.8), ISO 1600–6400, dan kecepatan rana terlama yang diizinkan aturan 500 untuk lensa Anda. Gunakan tripod kokoh dan fokus manual ke infinity. Pemotretan saat bulan baru di lokasi langit gelap."
+        }
+      }
     }
   }
 }

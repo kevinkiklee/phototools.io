@@ -27,7 +27,21 @@
       "latitudeLabel": "Szerokość geogr.:",
       "equator": "Równik 0°",
       "mid45": "Środek 45°",
-      "arctic70": "Arktyka 70°"
+      "arctic70": "Arktyka 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "Czym jest reguła 500 w astrofotografii?",
+          "answer": "Reguła 500 szacuje najdłuższy czas naświetlania, zanim gwiazdy zaczną tworzyć smugi zamiast punktów. Podziel 500 przez efektywną ogniskową (ogniskowa × współczynnik kadrowania), aby uzyskać maksymalny czas migawki w sekundach dla ostrych gwiazd."
+        },
+        "star-trails-vs-points": {
+          "question": "Jak wybrać między śladami gwiazd a ostrymi punktami?",
+          "answer": "Dla ostrych punktów gwiezdnych (Droga Mleczna, gwiazdozbiory) używaj krótkich ekspozycji zgodnych z regułą 500. Dla kreatywnych śladów gwiazd pokazujących obrót Ziemi używaj bardzo długich ekspozycji (minuty do godzin) lub stackuj wiele krótszych zdjęć."
+        },
+        "best-settings-milky-way": {
+          "question": "Jakie są najlepsze ustawienia aparatu do fotografii Drogi Mlecznej?",
+          "answer": "Zacznij od najjaśniejszego dostępnego obiektywu (f/1.4–f/2.8), ISO 1600–6400 i najdłuższego czasu migawki dozwolonego przez regułę 500 dla twojego obiektywu. Użyj stabilnego statywu i ustaw ręczny fokus na nieskończoność. Fotografuj podczas nowiu w miejscu z ciemnym niebem."
+        }
+      }
     }
   }
 }

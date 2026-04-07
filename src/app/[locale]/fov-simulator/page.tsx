@@ -5,7 +5,9 @@ import { FovSimulator } from './_components/FovSimulator'
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('metadata.fov-simulator')
-  return { title: t('title'), description: t('description'), alternates: getAlternates('/fov-simulator') }
+  const title = t('title')
+  const description = t('description')
+  return { title, description, openGraph: { title, description }, alternates: getAlternates('/fov-simulator') }
 }
 
 export default function FovSimulatorPage() {

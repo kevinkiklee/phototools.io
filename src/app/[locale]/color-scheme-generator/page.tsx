@@ -5,7 +5,9 @@ import { ColorHarmony } from './_components/ColorHarmony'
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('metadata.color-scheme-generator')
-  return { title: t('title'), description: t('description'), alternates: getAlternates('/color-scheme-generator') }
+  const title = t('title')
+  const description = t('description')
+  return { title, description, openGraph: { title, description }, alternates: getAlternates('/color-scheme-generator') }
 }
 
 export default function ColorSchemeGeneratorPage() {

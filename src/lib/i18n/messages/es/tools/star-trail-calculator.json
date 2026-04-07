@@ -27,7 +27,21 @@
       "latitudeLabel": "Latitud:",
       "equator": "Ecuador 0°",
       "mid45": "Media 45°",
-      "arctic70": "Ártico 70°"
+      "arctic70": "Ártico 70°",
+      "faq": {
+        "what-is-500-rule": {
+          "question": "\u00bfQu\u00e9 es la regla de los 500 en astrofotograf\u00eda?",
+          "answer": "La regla de los 500 estima el tiempo de exposici\u00f3n m\u00e1s largo antes de que las estrellas aparezcan como trazos en vez de puntos. Divide 500 entre tu distancia focal efectiva (distancia focal \u00d7 factor de recorte) para obtener la velocidad de obturaci\u00f3n m\u00e1xima en segundos para estrellas n\u00edtidas."
+        },
+        "star-trails-vs-points": {
+          "question": "\u00bfC\u00f3mo elijo entre trazos estelares y estrellas n\u00edtidas como puntos?",
+          "answer": "Para estrellas n\u00edtidas como puntos (V\u00eda L\u00e1ctea, constelaciones), usa exposiciones cortas siguiendo la regla de los 500. Para trazos estelares creativos que muestran la rotaci\u00f3n de la Tierra, usa exposiciones muy largas (minutos a horas) o apila m\u00faltiples exposiciones m\u00e1s cortas."
+        },
+        "best-settings-milky-way": {
+          "question": "\u00bfCu\u00e1les son los mejores ajustes de c\u00e1mara para fotografiar la V\u00eda L\u00e1ctea?",
+          "answer": "Comienza con la apertura m\u00e1s amplia disponible (f/1.4\u2013f/2.8), ISO 1600\u20136400, y la velocidad de obturaci\u00f3n m\u00e1s larga que permita la regla de los 500 para tu objetivo. Usa un tr\u00edpode resistente y enfoque manual en infinito. Dispara durante la luna nueva en un lugar con cielo oscuro."
+        }
+      }
     }
   }
 }

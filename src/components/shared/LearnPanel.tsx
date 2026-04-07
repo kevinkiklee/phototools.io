@@ -3,7 +3,9 @@
 import { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { getSkeletonBySlug, isChallengeComplete, clearChallengeProgressForTool } from '@/lib/data/education'
+import { trackLearnPanelOpen } from '@/lib/analytics'
 import { ChallengeCard, ChallengeNavDot } from './ChallengeCard'
+import { FaqSection } from './FaqSection'
 import { RelatedTools } from './RelatedTools'
 import styles from './LearnPanel.module.css'
 
@@ -45,7 +47,7 @@ export function LearnPanel({ slug, closable = false }: LearnPanelProps) {
   if (showCloseBtn && collapsed) {
     return (
       <div className={styles.collapsed}>
-        <button className={styles.reopenBtn} onClick={() => setCollapsed(false)} aria-label={t('openPanel')}>
+        <button className={styles.reopenBtn} onClick={() => { trackLearnPanelOpen({ tool_slug: slug }); setCollapsed(false) }} aria-label={t('openPanel')}>
           {t('title')}
         </button>
       </div>
@@ -107,6 +109,7 @@ export function LearnPanel({ slug, closable = false }: LearnPanelProps) {
         <ChallengeCard
           challenge={challenge}
           challengeIndex={challengeIndex}
+          slug={slug}
           et={et}
           onAdvance={challengeIndex < skel.challenges.length - 1
             ? () => setChallengeIndex(challengeIndex + 1)
@@ -140,6 +143,7 @@ export function LearnPanel({ slug, closable = false }: LearnPanelProps) {
           </div>
         </ChallengeCard>
       )}
+      <FaqSection slug={slug} />
       <RelatedTools currentSlug={slug} />
     </aside>
   )

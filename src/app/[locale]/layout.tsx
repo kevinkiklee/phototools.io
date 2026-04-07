@@ -6,11 +6,13 @@ import { setRequestLocale, getMessages, getTranslations } from 'next-intl/server
 import { notFound } from 'next/navigation'
 
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/next'
 import { ThemeProvider } from '@/components/layout/ThemeProvider'
 import { JsonLd } from '@/components/shared/JsonLd'
 import { AdScripts } from '@/components/shared/AdScripts'
 import { routing, localeOpenGraph } from '@/lib/i18n/routing'
 import type { Locale } from '@/lib/i18n/routing'
+import { getCookieyesId } from '@/lib/ads'
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
@@ -74,8 +76,17 @@ export default async function LocaleLayout({ children, params }: Props) {
     logo: 'https://www.phototools.io/icon.svg',
   }
 
+  const cookieyesId = getCookieyesId()
+
   return (
     <>
+      {cookieyesId && (
+        <Script
+          id="cookieyes"
+          src={`https://cdn-cookieyes.com/client_data/${cookieyesId}/script.js`}
+          strategy="beforeInteractive"
+        />
+      )}
       <AdScripts />
       <script
         type="application/ld+json"
@@ -95,12 +106,13 @@ export default async function LocaleLayout({ children, params }: Props) {
       </NextIntlClientProvider>
 
       <SpeedInsights />
+      <Analytics />
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-B0QND42GRG"
         strategy="afterInteractive"
       />
       <Script id="gtag-init" strategy="afterInteractive">
-        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-B0QND42GRG');`}
+        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});gtag('js',new Date());gtag('config','G-B0QND42GRG');`}
       </Script>
     </>
   )

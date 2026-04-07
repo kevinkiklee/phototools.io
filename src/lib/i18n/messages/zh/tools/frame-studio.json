@@ -72,7 +72,21 @@
       "downscaleNotice": "您的图像（{from}）超出浏览器的最大画布尺寸，将以 {to} 导出。",
       "cancel": "取消",
       "exporting": "导出中...",
-      "download": "下载"
+      "download": "下载",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "摄影中的三分法则是什么？",
+          "answer": "三分法则将图像分成3×3的网格。将关键主体放置在网格线或其交叉点上，可以创造比将主体居中更具动感和平衡的构图。"
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "Instagram帖子的最佳宽高比是什么？",
+          "answer": "Instagram支持1:1（正方形）、4:5（纵向）和1.91:1（横向）。4:5纵向比例在信息流中占据最多屏幕空间，通常获得最高的互动率。"
+        },
+        "how-to-use-golden-ratio": {
+          "question": "如何使用黄金比例进行照片构图？",
+          "answer": "黄金比例（约1.618:1）创造一个引导观众视线穿过图像的螺旋形图案。将主要主体放置在螺旋最紧密的点上，让引导线沿曲线向外延伸。"
+        }
+      }
     }
   }
 }

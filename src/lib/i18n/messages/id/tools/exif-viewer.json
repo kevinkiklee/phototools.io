@@ -53,7 +53,21 @@
       "evDimIndoor": "Indoor redup",
       "evNightStreet": "Jalanan malam",
       "evDimNight": "Malam redup",
-      "evVeryDark": "Sangat gelap"
+      "evVeryDark": "Sangat gelap",
+      "faq": {
+        "what-is-exif-data": {
+          "question": "Apa itu data EXIF pada foto?",
+          "answer": "Data EXIF (Exchangeable Image File Format) adalah metadata yang disematkan dalam foto oleh kamera. Data ini mencakup pengaturan kamera (apertur, kecepatan rana, ISO), model kamera dan lensa, tanggal dan waktu, dan terkadang lokasi GPS."
+        },
+        "how-to-read-histogram": {
+          "question": "Bagaimana cara membaca histogram foto?",
+          "answer": "Histogram menunjukkan distribusi kecerahan dalam gambar dari bayangan (kiri) ke highlight (kanan). Foto dengan eksposur yang baik biasanya memiliki data yang tersebar di seluruh rentang tanpa clipping di kedua ujung, meskipun bentuk ideal tergantung pada pemandangan."
+        },
+        "does-exif-contain-location": {
+          "question": "Apakah data EXIF berisi lokasi saya?",
+          "answer": "Jika kamera atau ponsel Anda mengaktifkan GPS, data EXIF dapat menyertakan koordinat GPS presisi di mana foto diambil. Waspadai hal ini saat membagikan foto secara online — banyak platform media sosial menghapus data EXIF, tetapi tidak semuanya."
+        }
+      }
     }
   }
 }

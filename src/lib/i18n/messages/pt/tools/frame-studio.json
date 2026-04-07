@@ -72,7 +72,21 @@
       "downscaleNotice": "Your image ({from}) exceeds the browser's maximum canvas size and will be exported at {to}.",
       "cancel": "Cancelar",
       "exporting": "Exportando...",
-      "download": "Baixar"
+      "download": "Baixar",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "O que é a regra dos terços na fotografia?",
+          "answer": "A regra dos terços divide sua imagem em uma grade 3×3. Posicionar os elementos principais ao longo das linhas da grade ou em suas interseções cria composições mais dinâmicas e equilibradas do que centralizar o assunto."
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "Qual é a melhor proporção para posts no Instagram?",
+          "answer": "O Instagram suporta 1:1 (quadrado), 4:5 (retrato) e 1,91:1 (paisagem). A proporção 4:5 em retrato ocupa mais espaço na tela no feed e normalmente obtém o maior engajamento."
+        },
+        "how-to-use-golden-ratio": {
+          "question": "Como uso a proporção áurea na composição fotográfica?",
+          "answer": "A proporção áurea (aproximadamente 1,618:1) cria um padrão espiral que guia o olhar do espectador pela imagem. Posicione seu assunto principal no ponto mais apertado da espiral e deixe as linhas condutoras seguirem a curva para fora."
+        }
+      }
     }
   }
 }

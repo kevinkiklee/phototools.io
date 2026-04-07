@@ -72,7 +72,21 @@
       "downscaleNotice": "Your image ({from}) exceeds the browser's maximum canvas size and will be exported at {to}.",
       "cancel": "Annulla",
       "exporting": "Esportazione...",
-      "download": "Scarica"
+      "download": "Scarica",
+      "faq": {
+        "what-is-rule-of-thirds": {
+          "question": "Cos'è la regola dei terzi nella fotografia?",
+          "answer": "La regola dei terzi divide l'immagine in una griglia 3×3. Posizionare i soggetti principali lungo le linee della griglia o alle loro intersezioni crea composizioni più dinamiche ed equilibrate rispetto a centrare il soggetto."
+        },
+        "best-aspect-ratio-for-instagram": {
+          "question": "Qual è il miglior rapporto d'aspetto per i post di Instagram?",
+          "answer": "Instagram supporta 1:1 (quadrato), 4:5 (verticale) e 1,91:1 (orizzontale). Il rapporto 4:5 in verticale occupa più spazio sullo schermo nel feed e generalmente ottiene il maggiore coinvolgimento."
+        },
+        "how-to-use-golden-ratio": {
+          "question": "Come uso il rapporto aureo per la composizione fotografica?",
+          "answer": "Il rapporto aureo (circa 1,618:1) crea un pattern a spirale che guida l'occhio dell'osservatore attraverso l'immagine. Posiziona il soggetto principale nel punto più stretto della spirale e lascia che le linee guida seguano la curva verso l'esterno."
+        }
+      }
     }
   }
 }

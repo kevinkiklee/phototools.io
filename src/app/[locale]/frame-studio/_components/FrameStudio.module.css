@@ -184,6 +184,18 @@
   .secondaryBtn, .dangerBtn { padding: 10px 8px; min-height: 44px; }
 }
 
+/* Desktop/mobile visibility helpers */
+.desktopOnly {
+  width: 320px;
+  min-width: 320px;
+  border-left: 1px solid var(--border);
+  overflow-y: auto;
+}
+
+.mobileOnly {
+  display: none;
+}
+
 /* Mobile toolbar + controls: hidden on desktop */
 .mobileControls {
   display: none;
@@ -208,6 +220,14 @@
 
   .sidebar {
     display: none;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+  .mobileOnly {
+    display: block;
   }
 
   .canvasArea {

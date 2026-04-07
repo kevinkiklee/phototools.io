@@ -53,7 +53,21 @@
       "evDimIndoor": "Loş iç mekan",
       "evNightStreet": "Gece sokak",
       "evDimNight": "Loş gece",
-      "evVeryDark": "Çok karanlık"
+      "evVeryDark": "Çok karanlık",
+      "faq": {
+        "what-is-exif-data": {
+          "question": "Fotoğraftaki EXIF verisi nedir?",
+          "answer": "EXIF (Değiştirilebilir Görüntü Dosyası Formatı) verisi, kameranız tarafından fotoğrafınıza gömülen meta verilerdir. Kamera ayarlarını (diyafram, enstantane hızı, ISO), kamera ve objektif modelini, tarih ve saati ve bazen GPS konumunu içerir."
+        },
+        "how-to-read-histogram": {
+          "question": "Fotoğraf histogramını nasıl okurum?",
+          "answer": "Histogram, görüntünüzdeki parlaklık dağılımını gölgelerden (sol) parlak alanlara (sağ) doğru gösterir. İyi pozlanmış bir fotoğraf genellikle her iki uçta da kırpılma olmadan aralık boyunca yayılmış verilere sahiptir, ancak ideal şekil sahneye bağlıdır."
+        },
+        "does-exif-contain-location": {
+          "question": "EXIF verisi konumumu içerir mi?",
+          "answer": "Kameranızda veya telefonunuzda GPS etkinse, EXIF verisi fotoğrafın çekildiği yerin hassas GPS koordinatlarını içerebilir. Fotoğrafları çevrimiçi paylaşırken buna dikkat edin — birçok sosyal platform EXIF verilerini temizler, ancak hepsi bunu yapmaz."
+        }
+      }
     }
   }
 }
