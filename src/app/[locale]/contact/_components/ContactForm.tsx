@@ -116,6 +116,24 @@ export function ContactForm() {
       </div>
 
       <div className={styles.field}>
+        <label htmlFor="category" className={styles.label}>{t('categoryLabel')}</label>
+        <select
+          id="category"
+          name="category"
+          required
+          className={styles.select}
+          defaultValue=""
+        >
+          <option value="" disabled>{t('categoryPlaceholder')}</option>
+          <option value="tool-feedback">{t('categoryToolFeedback')}</option>
+          <option value="bug-report">{t('categoryBugReport')}</option>
+          <option value="new-tool-suggestion">{t('categoryNewToolSuggestion')}</option>
+          <option value="translation-issue">{t('categoryTranslationIssue')}</option>
+          <option value="other">{t('categoryOther')}</option>
+        </select>
+      </div>
+
+      <div className={styles.field}>
         <label htmlFor="message" className={styles.label}>{t('messageLabel')}</label>
         <textarea
           id="message"
