@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from 'react'
 import { useTranslations } from 'next-intl'
 import { toast } from 'sonner'
+import { trackContactFormSubmit } from '@/lib/analytics'
 import styles from './ContactForm.module.css'
 
 export function ContactForm() {
@@ -25,6 +26,7 @@ export function ContactForm() {
       })
 
       if (res.ok) {
+        trackContactFormSubmit()
         toast.success(t('successToast'))
         setSent(true)
         form.reset()
@@ -68,7 +70,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className={styles.form}>
+    <form onSubmit={handleSubmit} className={styles.form} data-ph-no-capture>
       {/* Honeypot — hidden from humans and screen readers */}
       <div className={styles.honeypot} aria-hidden="true">
         <label htmlFor="website">{t('honeypotLabel')}</label>

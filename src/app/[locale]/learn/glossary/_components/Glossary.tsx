@@ -1,10 +1,11 @@
 'use client'
 
-import { useState, useMemo, useCallback, useRef } from 'react'
+import { useState, useMemo, useCallback, useRef, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { GLOSSARY } from '@/lib/data/glossary'
 import { getLiveTools } from '@/lib/data/tools'
 import { Link } from '@/lib/i18n/navigation'
+import { trackGlossarySearch, trackGlossaryEntryView } from '@/lib/analytics'
 import styles from './Glossary.module.css'
 
 const LIVE_TOOLS = getLiveTools()
@@ -34,6 +35,7 @@ export function Glossary() {
 
   const [query, setQuery] = useState('')
   const sectionRefs = useRef<Record<string, HTMLDivElement | null>>({})
+  const prevQueryRef = useRef('')
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase().trim()
@@ -44,6 +46,17 @@ export function Glossary() {
         entry.definition.toLowerCase().includes(q),
     )
   }, [query, entries])
+
+  useEffect(() => {
+    const q = query.trim()
+    if (q && q !== prevQueryRef.current) {
+      const timer = setTimeout(() => {
+        trackGlossarySearch({ search_term: q, results_count: filtered.length })
+        prevQueryRef.current = q
+      }, 500)
+      return () => clearTimeout(timer)
+    }
+  }, [query, filtered.length])
 
   const grouped = useMemo(() => {
     const groups: Record<string, ResolvedEntry[]> = {}
@@ -100,7 +113,11 @@ export function Glossary() {
               <div className={styles.termName}>{entry.term}</div>
               <div className={styles.termDef}>{entry.definition}</div>
               {entry.relatedTool && LIVE_SLUGS.has(entry.relatedTool) && (
-                <Link className={styles.toolLink} href={`/${entry.relatedTool}`}>
+                <Link
+                  className={styles.toolLink}
+                  href={`/${entry.relatedTool}`}
+                  onClick={() => trackGlossaryEntryView({ term_id: entry.id })}
+                >
                   {t('tryTool', { toolName: toolsT(`${entry.relatedTool}.name`) })} &rarr;
                 </Link>
               )}
