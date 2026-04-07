@@ -24,6 +24,8 @@ jobs:
       - run: npm ci
       - run: npm audit --omit=dev
       - run: npm run lint
+      - run: npm run type-check
+      - run: node scripts/check-translations.mjs
       - run: npm test
       - run: npm run build
 

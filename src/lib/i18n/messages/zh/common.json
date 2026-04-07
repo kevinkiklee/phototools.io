@@ -1,5 +1,6 @@
 {
   "common": {
+    "skipToContent": "跳转到内容",
     "nav": {
       "tools": "工具",
       "glossary": "术语表",

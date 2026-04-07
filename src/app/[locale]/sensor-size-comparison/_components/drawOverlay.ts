@@ -6,7 +6,7 @@ export let overlayRects: SensorRect[] = []
 
 export function drawOverlay(
   ctx: CanvasRenderingContext2D,
-  W: number, H: number, pad: number,
+  W: number, _H: number, pad: number,
   sensors: Required<SensorPreset>[],
   alphaMap?: Map<string, number>,
   hoveredId?: string | null,

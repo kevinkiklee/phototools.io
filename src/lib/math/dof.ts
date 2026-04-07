@@ -199,8 +199,7 @@ export function calcOptimalAperture(
  * @param coc - Circle of confusion (included for API consistency)
  * @returns Isolation score 0-100
  */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export function calcIsolationScore(backgroundBlurMm: number, coc: number): number {
+export function calcIsolationScore(backgroundBlurMm: number, _coc: number): number {
   if (backgroundBlurMm <= 0) return 0
   const raw = Math.sqrt(backgroundBlurMm / 0.5) * 100
   return Math.min(Math.max(raw, 0), 100)

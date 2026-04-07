@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { setRequestLocale, getTranslations } from 'next-intl/server'
+import { Link } from '@/lib/i18n/navigation'
 import { getAlternates } from '@/lib/i18n/metadata'
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -24,9 +25,9 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
   }
 
   const contactLink = (chunks: React.ReactNode) => (
-    <a href="/contact" style={{ color: 'var(--accent)' }}>
+    <Link href="/contact" style={{ color: 'var(--accent)' }}>
       {chunks}
-    </a>
+    </Link>
   )
 
   return (

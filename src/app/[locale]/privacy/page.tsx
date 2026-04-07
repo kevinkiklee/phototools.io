@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { setRequestLocale, getTranslations } from 'next-intl/server'
+import { Link } from '@/lib/i18n/navigation'
 import { getAlternates } from '@/lib/i18n/metadata'
 import { PrivacySection, SectionParagraph } from './PrivacySection'
 
@@ -25,7 +26,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
   }
 
   const contactLink = (chunks: React.ReactNode) => (
-    <a href="/contact" style={{ color: 'var(--accent)' }}>{chunks}</a>
+    <Link href="/contact" style={{ color: 'var(--accent)' }}>{chunks}</Link>
   )
 
   const strong = (chunks: React.ReactNode) => <strong>{chunks}</strong>

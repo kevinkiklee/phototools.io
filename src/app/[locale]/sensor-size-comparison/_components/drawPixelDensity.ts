@@ -138,7 +138,7 @@ function drawDesktopGrid(
 }
 
 export function drawPixelDensity(
-  ctx: CanvasRenderingContext2D, W: number, H: number, pad: number,
+  ctx: CanvasRenderingContext2D, W: number, _H: number, pad: number,
   sensors: Required<SensorPreset>[], resolution: number, alphaMap?: Map<string, number>,
 ): number {
   const columns = buildColumns(sensors, resolution)

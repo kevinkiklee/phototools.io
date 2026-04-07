@@ -1,3 +1,4 @@
+import type { Page } from '@playwright/test'
 import { test, expect } from '@playwright/test'
 
 test.describe('Sensor Size Comparison', () => {
@@ -6,7 +7,7 @@ test.describe('Sensor Size Comparison', () => {
   })
 
   // Scope to desktop sidebar to avoid mobile duplicates
-  function sidebar(page: import('@playwright/test').Page) {
+  function sidebar(page: Page) {
     return page.locator('[class*="sidebar"]').first()
   }
 

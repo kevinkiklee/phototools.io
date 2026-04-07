@@ -60,6 +60,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale)
   const messages = await getMessages()
 
+  const commonT = await getTranslations({ locale, namespace: 'common' })
   const siteT = await getTranslations({ locale, namespace: 'metadata.site' })
   const websiteJsonLd = {
     '@context': 'https://schema.org',
@@ -87,6 +88,9 @@ export default async function LocaleLayout({ children, params }: Props) {
           strategy="beforeInteractive"
         />
       )}
+      <a href="#main-content" className="skip-to-content">
+        {commonT('skipToContent')}
+      </a>
       <AdScripts />
       <script
         type="application/ld+json"
@@ -100,7 +104,9 @@ export default async function LocaleLayout({ children, params }: Props) {
         <JsonLd />
         <ThemeProvider>
           <ViewTransition>
-            {children}
+            <div id="main-content">
+              {children}
+            </div>
           </ViewTransition>
         </ThemeProvider>
       </NextIntlClientProvider>

@@ -85,7 +85,7 @@ export function drawInnerMat(
   canvasH: number,
   borderWidth: number,
   cornerRadius: number,
-  matWidth: number,
+  _matWidth: number,
   matColor: string,
 ): void {
   ctx.fillStyle = matColor
@@ -107,7 +107,7 @@ export function drawShadow(
   ctx: CanvasRenderingContext2D,
   canvasW: number,
   canvasH: number,
-  borderWidth: number,
+  _borderWidth: number,
   cornerRadius: number,
   options: ShadowOptions,
 ): void {

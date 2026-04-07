@@ -106,7 +106,7 @@ function computeMinTextWidths(
 
 export function drawSideBySide(
   ctx: CanvasRenderingContext2D,
-  W: number, H: number, pad: number,
+  W: number, _H: number, pad: number,
   sensors: Required<SensorPreset>[],
   alphaMap?: Map<string, number>,
 ): number {

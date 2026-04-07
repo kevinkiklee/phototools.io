@@ -1,8 +1,10 @@
 import type { NextConfig } from 'next'
 import createNextIntlPlugin from 'next-intl/plugin'
+import bundleAnalyzer from '@next/bundle-analyzer'
 import { staticRedirects } from './src/lib/i18n/redirects'
 
 const withNextIntl = createNextIntlPlugin('./src/lib/i18n/request.ts')
+const withBundleAnalyzer = bundleAnalyzer({ enabled: process.env.ANALYZE === 'true' })
 
 const nextConfig: NextConfig = {
   experimental: {
@@ -38,11 +40,12 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' blob: data: https://pagead2.googlesyndication.com https://www.google.com https://googleads.g.doubleclick.net https://cdn-cookieyes.com",
               "font-src 'self'",
-              "connect-src 'self' blob: https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://pagead2.googlesyndication.com https://cdn-cookieyes.com https://log.cookieyes.com",
+              "connect-src 'self' blob: https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://pagead2.googlesyndication.com https://cdn-cookieyes.com https://log.cookieyes.com",
               "frame-src 'self' https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.google.com",
               "frame-ancestors 'self'",
               "base-uri 'self'",
               "form-action 'self'",
+              "worker-src 'self' blob:",
               "object-src 'none'",
             ].join('; '),
           },
@@ -52,4 +55,4 @@ const nextConfig: NextConfig = {
   },
 }
 
-export default withNextIntl(nextConfig)
+export default withBundleAnalyzer(withNextIntl(nextConfig))

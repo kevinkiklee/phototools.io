@@ -41,6 +41,7 @@ export function ExposurePreview({ aperture, shutterSpeed, iso }: ExposurePreview
               aria-label={`Select ${label} scene`}
               title={label}
             >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={scene.assets.photo}
                 alt={label}
@@ -56,6 +57,7 @@ export function ExposurePreview({ aperture, shutterSpeed, iso }: ExposurePreview
       <div className={styles.canvasMain}>
         {error ? (
           <div className={styles.fallback}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={currentScene.assets.photo}
               alt={t(currentScene.labelKey as Parameters<typeof t>[0])}

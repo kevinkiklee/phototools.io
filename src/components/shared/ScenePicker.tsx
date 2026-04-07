@@ -61,6 +61,7 @@ export function ScenePicker({
           onClick={() => onSelect(i)}
           title={scene.name}
         >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={scene.src} alt={scene.name} />
         </button>
       ))}
@@ -72,6 +73,7 @@ export function ScenePicker({
               onClick={() => onSelect(-1)}
               title={t('yourPhoto')}
             >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={customSrc} alt={t('yourPhoto')} />
               <span className={styles.removeBtn} onClick={handleRemove} title={t('removePhoto')}>×</span>
             </button>

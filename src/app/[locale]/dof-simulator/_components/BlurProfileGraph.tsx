@@ -60,8 +60,7 @@ function sampleBlurCurve(
   return points
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export function BlurProfileGraph({ focalLength, aperture, subjectDistance, coc, sensorWidth }: BlurProfileGraphProps) {
+export function BlurProfileGraph({ focalLength, aperture, subjectDistance, coc, sensorWidth: _sensorWidth }: BlurProfileGraphProps) {
   const samples = useMemo(
     () => sampleBlurCurve(focalLength, aperture, subjectDistance),
     [focalLength, aperture, subjectDistance],

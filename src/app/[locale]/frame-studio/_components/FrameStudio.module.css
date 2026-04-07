@@ -188,8 +188,16 @@
 .desktopOnly {
   width: 320px;
   min-width: 320px;
+  height: 100%;
   border-left: 1px solid var(--border);
-  overflow-y: auto;
+  overflow: hidden;
+}
+
+/* Override LearnPanel's own width/border — wrapper provides them */
+.desktopOnly > * {
+  width: 100%;
+  min-width: 0;
+  border-left: none;
 }
 
 .mobileOnly {

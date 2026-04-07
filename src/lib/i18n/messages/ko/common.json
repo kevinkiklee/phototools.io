@@ -1,5 +1,6 @@
 {
   "common": {
+    "skipToContent": "콘텐츠로 건너뛰기",
     "nav": {
       "tools": "도구",
       "glossary": "용어 사전",

@@ -1,4 +1,4 @@
-import ExifReader from 'exifreader'
+import type ExifReader from 'exifreader'
 import { calcEV } from '@/lib/math/exposure'
 import { diffractionLimitedAperture, pixelPitch } from '@/lib/math/diffraction'
 import { DASH } from './exifTypes'

@@ -1,4 +1,4 @@
-import { MetadataRoute } from 'next'
+import { type MetadataRoute } from 'next'
 import { getLiveTools } from '@/lib/data/tools'
 import { locales, defaultLocale } from '@/lib/i18n/routing'
 

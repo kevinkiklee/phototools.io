@@ -1,5 +1,6 @@
 {
   "common": {
+    "skipToContent": "コンテンツにスキップ",
     "nav": {
       "tools": "ツール",
       "glossary": "用語集",

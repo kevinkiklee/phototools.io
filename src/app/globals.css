@@ -207,6 +207,41 @@ input[type="range"]::-moz-range-thumb {
 
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
 
+/* Skip to content — accessibility link for keyboard navigation */
+/* Main content wrapper — must fill viewport for tool layouts (height: 100%) */
+#main-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -1;
+  color: var(--text-on-accent);
+  background: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+.skip-to-content:focus {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  z-index: 9999;
+  padding: var(--space-sm) var(--space-md);
+}
+
 /* ── View Transitions ── */
 ::view-transition-group(*) {
   animation-duration: 0.2s;

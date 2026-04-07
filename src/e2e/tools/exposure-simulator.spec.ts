@@ -1,6 +1,7 @@
+import type { Page } from '@playwright/test'
 import { test, expect } from '@playwright/test'
 
-function sidebar(page: import('@playwright/test').Page) {
+function sidebar(page: Page) {
   return page.locator('[class*="sidebar"]').first()
 }
 
