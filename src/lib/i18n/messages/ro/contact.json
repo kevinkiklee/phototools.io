@@ -9,6 +9,13 @@
       "emailPlaceholder": "email@exemplu.com",
       "subjectLabel": "Subiect",
       "subjectPlaceholder": "Despre ce este vorba?",
+      "categoryLabel": "Categorie",
+      "categoryPlaceholder": "Selectați o categorie...",
+      "categoryToolFeedback": "Feedback despre instrument",
+      "categoryBugReport": "Raport de eroare",
+      "categoryNewToolSuggestion": "Sugestie pentru instrument nou",
+      "categoryTranslationIssue": "Problemă de traducere",
+      "categoryOther": "Altele",
       "messageLabel": "Mesaj",
       "messagePlaceholder": "Mesajul tău...",
       "submit": "Trimite mesajul",
@@ -20,6 +27,13 @@
       "sentTitle": "Mulțumim că ne-ai scris!",
       "sentMessage": "Îți vom răspunde cât mai repede posibil.",
       "sendAnother": "Trimite alt mesaj"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Timp de răspuns",
+      "responseTimeText": "De obicei răspundem în 48 de ore.",
+      "helpfulLinksTitle": "Linkuri utile",
+      "glossaryLink": "Glosar de fotografie",
+      "aboutLink": "Despre PhotoTools"
     }
   }
 }

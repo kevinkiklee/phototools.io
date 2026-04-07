@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "Тема",
       "subjectPlaceholder": "Про що йдеться?",
+      "categoryLabel": "Категорія",
+      "categoryPlaceholder": "Виберіть категорію...",
+      "categoryToolFeedback": "Відгук про інструмент",
+      "categoryBugReport": "Повідомлення про помилку",
+      "categoryNewToolSuggestion": "Пропозиція нового інструменту",
+      "categoryTranslationIssue": "Проблема з перекладом",
+      "categoryOther": "Інше",
       "messageLabel": "Повідомлення",
       "messagePlaceholder": "Твоє повідомлення...",
       "submit": "Надіслати",
@@ -20,6 +27,13 @@
       "sentTitle": "Дякуємо, що написав!",
       "sentMessage": "Відповімо якомога швидше.",
       "sendAnother": "Надіслати ще одне повідомлення"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Час відповіді",
+      "responseTimeText": "Зазвичай ми відповідаємо протягом 48 годин.",
+      "helpfulLinksTitle": "Корисні посилання",
+      "glossaryLink": "Глосарій фотографії",
+      "aboutLink": "Про PhotoTools"
     }
   }
 }

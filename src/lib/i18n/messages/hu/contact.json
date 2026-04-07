@@ -9,6 +9,13 @@
       "emailPlaceholder": "a.te@email.hu",
       "subjectLabel": "Tárgy",
       "subjectPlaceholder": "Miről szól az üzenet?",
+      "categoryLabel": "Kategória",
+      "categoryPlaceholder": "Válasszon kategóriát...",
+      "categoryToolFeedback": "Eszköz visszajelzés",
+      "categoryBugReport": "Hibajelentés",
+      "categoryNewToolSuggestion": "Új eszköz javaslata",
+      "categoryTranslationIssue": "Fordítási probléma",
+      "categoryOther": "Egyéb",
       "messageLabel": "Üzenet",
       "messagePlaceholder": "Az üzeneted...",
       "submit": "Üzenet küldése",
@@ -20,6 +27,13 @@
       "sentTitle": "Köszönjük, hogy írtál!",
       "sentMessage": "Amint tudunk, visszajelzünk.",
       "sendAnother": "Új üzenet küldése"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Válaszidő",
+      "responseTimeText": "Általában 48 órán belül válaszolunk.",
+      "helpfulLinksTitle": "Hasznos linkek",
+      "glossaryLink": "Fotográfiai szójegyzék",
+      "aboutLink": "A PhotoTools-ról"
     }
   }
 }

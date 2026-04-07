@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "หัวข้อ",
       "subjectPlaceholder": "เรื่องนี้เกี่ยวกับอะไร?",
+      "categoryLabel": "หมวดหมู่",
+      "categoryPlaceholder": "เลือกหมวดหมู่...",
+      "categoryToolFeedback": "ข้อเสนอแนะเครื่องมือ",
+      "categoryBugReport": "รายงานข้อบกพร่อง",
+      "categoryNewToolSuggestion": "ข้อเสนอแนะเครื่องมือใหม่",
+      "categoryTranslationIssue": "ปัญหาการแปล",
+      "categoryOther": "อื่นๆ",
       "messageLabel": "ข้อความ",
       "messagePlaceholder": "ข้อความของคุณ...",
       "submit": "ส่งข้อความ",
@@ -20,6 +27,13 @@
       "sentTitle": "ขอบคุณที่ติดต่อมา!",
       "sentMessage": "เราจะติดต่อกลับโดยเร็วที่สุด",
       "sendAnother": "ส่งข้อความอื่น"
+    },
+    "sidebar": {
+      "responseTimeTitle": "เวลาตอบกลับ",
+      "responseTimeText": "โดยทั่วไปเราตอบกลับภายใน 48 ชั่วโมง",
+      "helpfulLinksTitle": "ลิงก์ที่มีประโยชน์",
+      "glossaryLink": "อภิธานศัพท์การถ่ายภาพ",
+      "aboutLink": "เกี่ยวกับ PhotoTools"
     }
   }
 }

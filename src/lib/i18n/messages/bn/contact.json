@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "বিষয়",
       "subjectPlaceholder": "কী নিয়ে?",
+      "categoryLabel": "বিভাগ",
+      "categoryPlaceholder": "একটি বিভাগ নির্বাচন করুন...",
+      "categoryToolFeedback": "টুল প্রতিক্রিয়া",
+      "categoryBugReport": "বাগ রিপোর্ট",
+      "categoryNewToolSuggestion": "নতুন টুলের পরামর্শ",
+      "categoryTranslationIssue": "অনুবাদ সমস্যা",
+      "categoryOther": "অন্যান্য",
       "messageLabel": "বার্তা",
       "messagePlaceholder": "তোমার বার্তা...",
       "submit": "বার্তা পাঠাও",
@@ -20,6 +27,13 @@
       "sentTitle": "যোগাযোগের জন্য ধন্যবাদ!",
       "sentMessage": "আমরা যত দ্রুত সম্ভব উত্তর দেবো।",
       "sendAnother": "আরেকটি বার্তা পাঠাও"
+    },
+    "sidebar": {
+      "responseTimeTitle": "প্রতিক্রিয়া সময়",
+      "responseTimeText": "আমরা সাধারণত ৪৮ ঘণ্টার মধ্যে উত্তর দিই।",
+      "helpfulLinksTitle": "সহায়ক লিঙ্কসমূহ",
+      "glossaryLink": "ফটোগ্রাফি গ্লোসারি",
+      "aboutLink": "PhotoTools সম্পর্কে"
     }
   }
 }

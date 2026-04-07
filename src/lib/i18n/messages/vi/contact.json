@@ -9,6 +9,13 @@
       "emailPlaceholder": "email@cuaban.com",
       "subjectLabel": "Chủ đề",
       "subjectPlaceholder": "Nội dung về vấn đề gì?",
+      "categoryLabel": "Danh mục",
+      "categoryPlaceholder": "Chọn danh mục...",
+      "categoryToolFeedback": "Phản hồi về công cụ",
+      "categoryBugReport": "Báo cáo lỗi",
+      "categoryNewToolSuggestion": "Đề xuất công cụ mới",
+      "categoryTranslationIssue": "Vấn đề dịch thuật",
+      "categoryOther": "Khác",
       "messageLabel": "Tin nhắn",
       "messagePlaceholder": "Tin nhắn của bạn...",
       "submit": "Gửi tin nhắn",
@@ -20,6 +27,13 @@
       "sentTitle": "Cảm ơn bạn đã liên hệ!",
       "sentMessage": "Chúng tôi sẽ phản hồi bạn sớm nhất có thể.",
       "sendAnother": "Gửi tin nhắn khác"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Thời gian phản hồi",
+      "responseTimeText": "Chúng tôi thường trả lời trong vòng 48 giờ.",
+      "helpfulLinksTitle": "Liên kết hữu ích",
+      "glossaryLink": "Từ điển nhiếp ảnh",
+      "aboutLink": "Giới thiệu về PhotoTools"
     }
   }
 }

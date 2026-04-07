@@ -9,6 +9,13 @@
       "emailPlaceholder": "email@anda.com",
       "subjectLabel": "Subjek",
       "subjectPlaceholder": "Tentang apa ini?",
+      "categoryLabel": "Kategori",
+      "categoryPlaceholder": "Pilih kategori...",
+      "categoryToolFeedback": "Masukan tentang Alat",
+      "categoryBugReport": "Laporan Bug",
+      "categoryNewToolSuggestion": "Saran Alat Baru",
+      "categoryTranslationIssue": "Masalah Terjemahan",
+      "categoryOther": "Lainnya",
       "messageLabel": "Pesan",
       "messagePlaceholder": "Pesan Anda...",
       "submit": "Kirim Pesan",
@@ -20,6 +27,13 @@
       "sentTitle": "Terima kasih telah menghubungi kami!",
       "sentMessage": "Kami akan membalas sesegera mungkin.",
       "sendAnother": "Kirim pesan lain"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Waktu Respons",
+      "responseTimeText": "Kami biasanya membalas dalam 48 jam.",
+      "helpfulLinksTitle": "Tautan Berguna",
+      "glossaryLink": "Glosarium Fotografi",
+      "aboutLink": "Tentang PhotoTools"
     }
   }
 }

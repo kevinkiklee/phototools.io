@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "제목",
       "subjectPlaceholder": "문의 내용을 입력하세요",
+      "categoryLabel": "카테고리",
+      "categoryPlaceholder": "카테고리를 선택하세요...",
+      "categoryToolFeedback": "도구 피드백",
+      "categoryBugReport": "버그 신고",
+      "categoryNewToolSuggestion": "새 도구 제안",
+      "categoryTranslationIssue": "번역 문제",
+      "categoryOther": "기타",
       "messageLabel": "메시지",
       "messagePlaceholder": "메시지를 입력하세요...",
       "submit": "메시지 보내기",
@@ -20,6 +27,13 @@
       "sentTitle": "문의해 주셔서 감사합니다!",
       "sentMessage": "가능한 빨리 답변드리겠습니다.",
       "sendAnother": "다른 메시지 보내기"
+    },
+    "sidebar": {
+      "responseTimeTitle": "응답 시간",
+      "responseTimeText": "보통 48시간 이내에 답변드립니다.",
+      "helpfulLinksTitle": "유용한 링크",
+      "glossaryLink": "사진 용어집",
+      "aboutLink": "PhotoTools 소개"
     }
   }
 }

@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "विषय",
       "subjectPlaceholder": "यह किस बारे में है?",
+      "categoryLabel": "श्रेणी",
+      "categoryPlaceholder": "एक श्रेणी चुनें...",
+      "categoryToolFeedback": "टूल फ़ीडबैक",
+      "categoryBugReport": "बग रिपोर्ट",
+      "categoryNewToolSuggestion": "नए टूल का सुझाव",
+      "categoryTranslationIssue": "अनुवाद समस्या",
+      "categoryOther": "अन्य",
       "messageLabel": "संदेश",
       "messagePlaceholder": "आपका संदेश...",
       "submit": "संदेश भेजें",
@@ -20,6 +27,13 @@
       "sentTitle": "संपर्क करने के लिए धन्यवाद!",
       "sentMessage": "हम जल्द से जल्द आपसे संपर्क करेंगे।",
       "sendAnother": "एक और संदेश भेजें"
+    },
+    "sidebar": {
+      "responseTimeTitle": "प्रतिक्रिया समय",
+      "responseTimeText": "हम आमतौर पर 48 घंटों के भीतर उत्तर देते हैं।",
+      "helpfulLinksTitle": "सहायक लिंक",
+      "glossaryLink": "फ़ोटोग्राफ़ी शब्दावली",
+      "aboutLink": "PhotoTools के बारे में"
     }
   }
 }

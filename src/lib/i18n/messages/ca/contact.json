@@ -9,6 +9,13 @@
       "emailPlaceholder": "tu@exemple.cat",
       "subjectLabel": "Assumpte",
       "subjectPlaceholder": "De què va?",
+      "categoryLabel": "Categoria",
+      "categoryPlaceholder": "Seleccioneu una categoria...",
+      "categoryToolFeedback": "Comentaris sobre eines",
+      "categoryBugReport": "Informe d'error",
+      "categoryNewToolSuggestion": "Suggeriment d'eina nova",
+      "categoryTranslationIssue": "Problema de traducció",
+      "categoryOther": "Altres",
       "messageLabel": "Missatge",
       "messagePlaceholder": "El teu missatge...",
       "submit": "Envia el missatge",
@@ -20,6 +27,13 @@
       "sentTitle": "Gràcies per escriure'ns!",
       "sentMessage": "Et respondrem al més aviat possible.",
       "sendAnother": "Envia un altre missatge"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Temps de resposta",
+      "responseTimeText": "Normalment responem en un termini de 48 hores.",
+      "helpfulLinksTitle": "Enllaços útils",
+      "glossaryLink": "Glossari de fotografia",
+      "aboutLink": "Sobre PhotoTools"
     }
   }
 }

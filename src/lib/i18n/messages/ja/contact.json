@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "件名",
       "subjectPlaceholder": "お問い合わせ内容は？",
+      "categoryLabel": "カテゴリー",
+      "categoryPlaceholder": "カテゴリーを選択...",
+      "categoryToolFeedback": "ツールへのフィードバック",
+      "categoryBugReport": "バグ報告",
+      "categoryNewToolSuggestion": "新しいツールの提案",
+      "categoryTranslationIssue": "翻訳の問題",
+      "categoryOther": "その他",
       "messageLabel": "メッセージ",
       "messagePlaceholder": "メッセージを入力...",
       "submit": "送信",
@@ -20,6 +27,13 @@
       "sentTitle": "お問い合わせありがとうございます！",
       "sentMessage": "できるだけ早くご返信いたします。",
       "sendAnother": "別のメッセージを送信"
+    },
+    "sidebar": {
+      "responseTimeTitle": "返信時間",
+      "responseTimeText": "通常48時間以内にご返信いたします。",
+      "helpfulLinksTitle": "お役立ちリンク",
+      "glossaryLink": "写真用語集",
+      "aboutLink": "PhotoToolsについて"
     }
   }
 }

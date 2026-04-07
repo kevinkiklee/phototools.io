@@ -9,6 +9,13 @@
       "emailPlaceholder": "din@email.dk",
       "subjectLabel": "Emne",
       "subjectPlaceholder": "Hvad handler det om?",
+      "categoryLabel": "Kategori",
+      "categoryPlaceholder": "Vælg en kategori...",
+      "categoryToolFeedback": "Feedback om værktøj",
+      "categoryBugReport": "Fejlrapport",
+      "categoryNewToolSuggestion": "Forslag til nyt værktøj",
+      "categoryTranslationIssue": "Oversættelsesproblem",
+      "categoryOther": "Andet",
       "messageLabel": "Besked",
       "messagePlaceholder": "Din besked...",
       "submit": "Send besked",
@@ -20,6 +27,13 @@
       "sentTitle": "Tak fordi du skrev!",
       "sentMessage": "Vi vender tilbage så hurtigt vi kan.",
       "sendAnother": "Send en ny besked"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Svartid",
+      "responseTimeText": "Vi svarer typisk inden for 48 timer.",
+      "helpfulLinksTitle": "Nyttige links",
+      "glossaryLink": "Fotografiordliste",
+      "aboutLink": "Om PhotoTools"
     }
   }
 }

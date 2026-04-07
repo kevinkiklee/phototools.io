@@ -9,6 +9,13 @@
       "emailPlaceholder": "tvuj@email.cz",
       "subjectLabel": "Předmět",
       "subjectPlaceholder": "O co jde?",
+      "categoryLabel": "Kategorie",
+      "categoryPlaceholder": "Vyberte kategorii...",
+      "categoryToolFeedback": "Zpětná vazba na nástroj",
+      "categoryBugReport": "Hlášení chyby",
+      "categoryNewToolSuggestion": "Návrh nového nástroje",
+      "categoryTranslationIssue": "Problém s překladem",
+      "categoryOther": "Jiné",
       "messageLabel": "Zpráva",
       "messagePlaceholder": "Tvoje zpráva...",
       "submit": "Odeslat zprávu",
@@ -20,6 +27,13 @@
       "sentTitle": "Díky, že ses nám ozval!",
       "sentMessage": "Ozveme se, jakmile to bude možné.",
       "sendAnother": "Poslat další zprávu"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Doba odezvy",
+      "responseTimeText": "Obvykle odpovídáme do 48 hodin.",
+      "helpfulLinksTitle": "Užitečné odkazy",
+      "glossaryLink": "Fotografický slovníček",
+      "aboutLink": "O PhotoTools"
     }
   }
 }

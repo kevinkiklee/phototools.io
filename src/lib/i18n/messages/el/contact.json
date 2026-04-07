@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "Θέμα",
       "subjectPlaceholder": "Για τι πρόκειται;",
+      "categoryLabel": "Κατηγορία",
+      "categoryPlaceholder": "Επιλέξτε κατηγορία...",
+      "categoryToolFeedback": "Σχόλια για εργαλείο",
+      "categoryBugReport": "Αναφορά σφάλματος",
+      "categoryNewToolSuggestion": "Πρόταση νέου εργαλείου",
+      "categoryTranslationIssue": "Πρόβλημα μετάφρασης",
+      "categoryOther": "Άλλο",
       "messageLabel": "Μήνυμα",
       "messagePlaceholder": "Το μήνυμά σου...",
       "submit": "Αποστολή μηνύματος",
@@ -20,6 +27,13 @@
       "sentTitle": "Ευχαριστούμε για το μήνυμά σου!",
       "sentMessage": "Θα επικοινωνήσουμε μαζί σου το συντομότερο δυνατό.",
       "sendAnother": "Στείλε άλλο μήνυμα"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Χρόνος απόκρισης",
+      "responseTimeText": "Συνήθως απαντάμε εντός 48 ωρών.",
+      "helpfulLinksTitle": "Χρήσιμοι σύνδεσμοι",
+      "glossaryLink": "Γλωσσάριο φωτογραφίας",
+      "aboutLink": "Σχετικά με το PhotoTools"
     }
   }
 }

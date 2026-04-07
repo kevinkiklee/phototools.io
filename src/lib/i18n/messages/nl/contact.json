@@ -9,6 +9,13 @@
       "emailPlaceholder": "jouw@email.nl",
       "subjectLabel": "Onderwerp",
       "subjectPlaceholder": "Waar gaat het over?",
+      "categoryLabel": "Categorie",
+      "categoryPlaceholder": "Selecteer een categorie...",
+      "categoryToolFeedback": "Feedback over tool",
+      "categoryBugReport": "Bugrapport",
+      "categoryNewToolSuggestion": "Suggestie voor nieuw hulpmiddel",
+      "categoryTranslationIssue": "Vertaalprobleem",
+      "categoryOther": "Anders",
       "messageLabel": "Bericht",
       "messagePlaceholder": "Je bericht...",
       "submit": "Bericht versturen",
@@ -20,6 +27,13 @@
       "sentTitle": "Bedankt voor je bericht!",
       "sentMessage": "We nemen zo snel mogelijk contact met je op.",
       "sendAnother": "Nog een bericht versturen"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Reactietijd",
+      "responseTimeText": "We reageren doorgaans binnen 48 uur.",
+      "helpfulLinksTitle": "Nuttige links",
+      "glossaryLink": "Fotografie woordenlijst",
+      "aboutLink": "Over PhotoTools"
     }
   }
 }

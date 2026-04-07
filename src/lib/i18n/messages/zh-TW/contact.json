@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "主旨",
       "subjectPlaceholder": "想討論什麼主題？",
+      "categoryLabel": "類別",
+      "categoryPlaceholder": "選擇類別...",
+      "categoryToolFeedback": "工具回饋",
+      "categoryBugReport": "錯誤回報",
+      "categoryNewToolSuggestion": "新工具建議",
+      "categoryTranslationIssue": "翻譯問題",
+      "categoryOther": "其他",
       "messageLabel": "訊息",
       "messagePlaceholder": "請輸入您的訊息...",
       "submit": "送出訊息",
@@ -20,6 +27,13 @@
       "sentTitle": "感謝您的來信！",
       "sentMessage": "我們會盡快回覆您。",
       "sendAnother": "再送出一則訊息"
+    },
+    "sidebar": {
+      "responseTimeTitle": "回覆時間",
+      "responseTimeText": "我們通常在48小時內回覆。",
+      "helpfulLinksTitle": "有用連結",
+      "glossaryLink": "攝影術語表",
+      "aboutLink": "關於 PhotoTools"
     }
   }
 }

@@ -9,6 +9,13 @@
       "emailPlaceholder": "din@epost.no",
       "subjectLabel": "Emne",
       "subjectPlaceholder": "Hva handler det om?",
+      "categoryLabel": "Kategori",
+      "categoryPlaceholder": "Velg en kategori...",
+      "categoryToolFeedback": "Tilbakemelding om verktøy",
+      "categoryBugReport": "Feilrapport",
+      "categoryNewToolSuggestion": "Forslag til nytt verktøy",
+      "categoryTranslationIssue": "Oversettelsesproblem",
+      "categoryOther": "Annet",
       "messageLabel": "Melding",
       "messagePlaceholder": "Meldingen din …",
       "submit": "Send melding",
@@ -20,6 +27,13 @@
       "sentTitle": "Takk for at du tok kontakt!",
       "sentMessage": "Vi svarer så snart vi kan.",
       "sendAnother": "Send en ny melding"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Svartid",
+      "responseTimeText": "Vi svarer vanligvis innen 48 timer.",
+      "helpfulLinksTitle": "Nyttige lenker",
+      "glossaryLink": "Fotografiordliste",
+      "aboutLink": "Om PhotoTools"
     }
   }
 }

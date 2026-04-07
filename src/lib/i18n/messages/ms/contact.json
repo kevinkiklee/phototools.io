@@ -9,6 +9,13 @@
       "emailPlaceholder": "[email protected]",
       "subjectLabel": "Subjek",
       "subjectPlaceholder": "Mengenai apa?",
+      "categoryLabel": "Kategori",
+      "categoryPlaceholder": "Pilih kategori...",
+      "categoryToolFeedback": "Maklum Balas Alat",
+      "categoryBugReport": "Laporan Bug",
+      "categoryNewToolSuggestion": "Cadangan Alat Baharu",
+      "categoryTranslationIssue": "Isu Terjemahan",
+      "categoryOther": "Lain-lain",
       "messageLabel": "Mesej",
       "messagePlaceholder": "Mesej anda...",
       "submit": "Hantar Mesej",
@@ -20,6 +27,13 @@
       "sentTitle": "Terima kasih kerana menghubungi kami!",
       "sentMessage": "Kami akan membalas secepat mungkin.",
       "sendAnother": "Hantar mesej lain"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Masa Respons",
+      "responseTimeText": "Kami biasanya membalas dalam masa 48 jam.",
+      "helpfulLinksTitle": "Pautan Berguna",
+      "glossaryLink": "Glosari Fotografi",
+      "aboutLink": "Tentang PhotoTools"
     }
   }
 }

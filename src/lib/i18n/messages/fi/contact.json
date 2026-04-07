@@ -9,6 +9,13 @@
       "emailPlaceholder": "sinun@sahkoposti.fi",
       "subjectLabel": "Aihe",
       "subjectPlaceholder": "Mitä viesti koskee?",
+      "categoryLabel": "Kategoria",
+      "categoryPlaceholder": "Valitse kategoria...",
+      "categoryToolFeedback": "Palaute työkalusta",
+      "categoryBugReport": "Vikaraportti",
+      "categoryNewToolSuggestion": "Ehdotus uudesta työkalusta",
+      "categoryTranslationIssue": "Käännösongelma",
+      "categoryOther": "Muu",
       "messageLabel": "Viesti",
       "messagePlaceholder": "Viestisi...",
       "submit": "Lähetä viesti",
@@ -20,6 +27,13 @@
       "sentTitle": "Kiitos yhteydenotosta!",
       "sentMessage": "Palaamme asiaan mahdollisimman pian.",
       "sendAnother": "Lähetä toinen viesti"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Vastausaika",
+      "responseTimeText": "Vastaamme yleensä 48 tunnin kuluessa.",
+      "helpfulLinksTitle": "Hyödylliset linkit",
+      "glossaryLink": "Valokuvauksen sanasto",
+      "aboutLink": "Tietoa PhotoToolsista"
     }
   }
 }

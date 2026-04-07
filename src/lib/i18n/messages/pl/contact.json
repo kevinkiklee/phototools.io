@@ -9,6 +9,13 @@
       "emailPlaceholder": "twoj@email.com",
       "subjectLabel": "Temat",
       "subjectPlaceholder": "O czym chcesz napisać?",
+      "categoryLabel": "Kategoria",
+      "categoryPlaceholder": "Wybierz kategorię...",
+      "categoryToolFeedback": "Opinia o narzędziu",
+      "categoryBugReport": "Zgłoszenie błędu",
+      "categoryNewToolSuggestion": "Sugestia nowego narzędzia",
+      "categoryTranslationIssue": "Problem z tłumaczeniem",
+      "categoryOther": "Inne",
       "messageLabel": "Wiadomość",
       "messagePlaceholder": "Twoja wiadomość...",
       "submit": "Wyślij wiadomość",
@@ -20,6 +27,13 @@
       "sentTitle": "Dziękujemy za kontakt!",
       "sentMessage": "Odpowiemy tak szybko, jak to możliwe.",
       "sendAnother": "Wyślij kolejną wiadomość"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Czas odpowiedzi",
+      "responseTimeText": "Zazwyczaj odpowiadamy w ciągu 48 godzin.",
+      "helpfulLinksTitle": "Przydatne linki",
+      "glossaryLink": "Słownik fotograficzny",
+      "aboutLink": "O PhotoTools"
     }
   }
 }

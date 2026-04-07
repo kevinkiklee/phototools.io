@@ -9,6 +9,13 @@
       "emailPlaceholder": "eposta@adresiniz.com",
       "subjectLabel": "Konu",
       "subjectPlaceholder": "Ne hakkında?",
+      "categoryLabel": "Kategori",
+      "categoryPlaceholder": "Bir kategori seçin...",
+      "categoryToolFeedback": "Araç Geri Bildirimi",
+      "categoryBugReport": "Hata Raporu",
+      "categoryNewToolSuggestion": "Yeni Araç Önerisi",
+      "categoryTranslationIssue": "Çeviri Sorunu",
+      "categoryOther": "Diğer",
       "messageLabel": "Mesaj",
       "messagePlaceholder": "Mesajınız...",
       "submit": "Mesaj Gönder",
@@ -20,6 +27,13 @@
       "sentTitle": "İletişime geçtiğiniz için teşekkürler!",
       "sentMessage": "En kısa sürede size dönüş yapacağız.",
       "sendAnother": "Başka bir mesaj gönder"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Yanıt Süresi",
+      "responseTimeText": "Genellikle 48 saat içinde yanıt veririz.",
+      "helpfulLinksTitle": "Faydalı Bağlantılar",
+      "glossaryLink": "Fotoğrafçılık Sözlüğü",
+      "aboutLink": "PhotoTools Hakkında"
     }
   }
 }

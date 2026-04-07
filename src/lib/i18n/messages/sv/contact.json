@@ -9,6 +9,13 @@
       "emailPlaceholder": "din@email.se",
       "subjectLabel": "Ämne",
       "subjectPlaceholder": "Vad gäller det?",
+      "categoryLabel": "Kategori",
+      "categoryPlaceholder": "Välj en kategori...",
+      "categoryToolFeedback": "Återkoppling om verktyg",
+      "categoryBugReport": "Felrapport",
+      "categoryNewToolSuggestion": "Förslag på nytt verktyg",
+      "categoryTranslationIssue": "Översättningsproblem",
+      "categoryOther": "Övrigt",
       "messageLabel": "Meddelande",
       "messagePlaceholder": "Ditt meddelande ...",
       "submit": "Skicka meddelande",
@@ -20,6 +27,13 @@
       "sentTitle": "Tack för att du hörde av dig!",
       "sentMessage": "Vi återkommer så snart vi kan.",
       "sendAnother": "Skicka ett nytt meddelande"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Svarstid",
+      "responseTimeText": "Vi svarar vanligtvis inom 48 timmar.",
+      "helpfulLinksTitle": "Användbara länkar",
+      "glossaryLink": "Fotografi-ordlista",
+      "aboutLink": "Om PhotoTools"
     }
   }
 }

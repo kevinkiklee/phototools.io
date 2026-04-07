@@ -9,6 +9,13 @@
       "emailPlaceholder": "твой@email.com",
       "subjectLabel": "Тема",
       "subjectPlaceholder": "О чём сообщение?",
+      "categoryLabel": "Категория",
+      "categoryPlaceholder": "Выберите категорию...",
+      "categoryToolFeedback": "Отзыв об инструменте",
+      "categoryBugReport": "Сообщение об ошибке",
+      "categoryNewToolSuggestion": "Предложение нового инструмента",
+      "categoryTranslationIssue": "Проблема с переводом",
+      "categoryOther": "Другое",
       "messageLabel": "Сообщение",
       "messagePlaceholder": "Твоё сообщение...",
       "submit": "Отправить сообщение",
@@ -20,6 +27,13 @@
       "sentTitle": "Спасибо, что написал!",
       "sentMessage": "Ответим так быстро, как сможем.",
       "sendAnother": "Отправить ещё одно сообщение"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Время ответа",
+      "responseTimeText": "Обычно мы отвечаем в течение 48 часов.",
+      "helpfulLinksTitle": "Полезные ссылки",
+      "glossaryLink": "Глоссарий по фотографии",
+      "aboutLink": "О PhotoTools"
     }
   }
 }

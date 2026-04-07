@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "Paksa",
       "subjectPlaceholder": "Tungkol saan ito?",
+      "categoryLabel": "Kategorya",
+      "categoryPlaceholder": "Pumili ng kategorya...",
+      "categoryToolFeedback": "Feedback sa Tool",
+      "categoryBugReport": "Ulat ng Bug",
+      "categoryNewToolSuggestion": "Mungkahi ng Bagong Tool",
+      "categoryTranslationIssue": "Isyu sa Pagsasalin",
+      "categoryOther": "Iba Pa",
       "messageLabel": "Mensahe",
       "messagePlaceholder": "Mensahe mo...",
       "submit": "Ipadala ang Mensahe",
@@ -20,6 +27,13 @@
       "sentTitle": "Salamat sa pakikipag-ugnayan!",
       "sentMessage": "Makikipag-ugnayan kami sa iyo sa lalong madaling panahon.",
       "sendAnother": "Magpadala ng isa pang mensahe"
+    },
+    "sidebar": {
+      "responseTimeTitle": "Oras ng Pagtugon",
+      "responseTimeText": "Karaniwang sumasagot kami sa loob ng 48 oras.",
+      "helpfulLinksTitle": "Mga Kapaki-pakinabang na Link",
+      "glossaryLink": "Talasalitaan ng Photography",
+      "aboutLink": "Tungkol sa PhotoTools"
     }
   }
 }

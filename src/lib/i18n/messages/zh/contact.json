@@ -9,6 +9,13 @@
       "emailPlaceholder": "your@email.com",
       "subjectLabel": "主题",
       "subjectPlaceholder": "关于什么内容？",
+      "categoryLabel": "类别",
+      "categoryPlaceholder": "选择类别...",
+      "categoryToolFeedback": "工具反馈",
+      "categoryBugReport": "错误报告",
+      "categoryNewToolSuggestion": "新工具建议",
+      "categoryTranslationIssue": "翻译问题",
+      "categoryOther": "其他",
       "messageLabel": "留言",
       "messagePlaceholder": "您的留言...",
       "submit": "发送消息",
@@ -20,6 +27,13 @@
       "sentTitle": "感谢您的来信！",
       "sentMessage": "我们会尽快回复您。",
       "sendAnother": "发送另一条消息"
+    },
+    "sidebar": {
+      "responseTimeTitle": "响应时间",
+      "responseTimeText": "我们通常在48小时内回复。",
+      "helpfulLinksTitle": "有用链接",
+      "glossaryLink": "摄影术语表",
+      "aboutLink": "关于 PhotoTools"
     }
   }
 }
