@@ -1,123 +1,123 @@
 {
   "education": {
     "exif-viewer": {
-      "beginner": "EXIF data is hidden information embedded in every photo your camera takes. It records what camera and lens you used, the exact settings (aperture, shutter speed, ISO), the date and time, and sometimes even GPS coordinates. This tool reads that data without uploading your photo anywhere — everything happens in your browser.",
-      "deeper": "EXIF (Exchangeable Image File Format) is a standard defined by JEITA/CIPA that stores metadata in JPEG, TIFF, and some RAW files. The data is written into specific segments of the file header as tagged key-value pairs using a TIFF-based IFD (Image File Directory) structure. There are several IFD sections: IFD0 for basic image info, the EXIF sub-IFD for camera settings, the GPS IFD for geolocation, and the Interop IFD for compatibility data. Camera manufacturers also write proprietary \"MakerNote\" data containing lens corrections, focus points, shutter count, and other model-specific details. Social media platforms often strip EXIF data on upload for privacy, but the original file on your memory card always retains it. Understanding EXIF helps you learn from your own shooting patterns and reverse-engineer the settings behind photos you admire.",
+      "beginner": "Les dades EXIF són informació amagada incrustada a cada foto que fa la teva càmera. Registren quina càmera i objectiu vas fer servir, els ajustos exactes (diafragma, velocitat d'obturació, ISO), la data i l'hora, i de vegades fins i tot les coordenades GPS. Aquesta eina llegeix aquestes dades sense pujar la foto enlloc — tot passa al teu navegador.",
+      "deeper": "EXIF (Exchangeable Image File Format) és un estàndard definit per JEITA/CIPA que desa metadades en fitxers JPEG, TIFF i alguns RAW. Les dades s'escriuen en segments concrets de la capçalera del fitxer com a parelles clau-valor etiquetades, amb una estructura IFD (Image File Directory) basada en TIFF. Hi ha diverses seccions IFD: IFD0 per a informació bàsica de la imatge, el sub-IFD EXIF per als ajustos de la càmera, l'IFD de GPS per a la geolocalització, i l'IFD d'Interop per a dades de compatibilitat. Els fabricants de càmeres també escriuen dades propietàries \"MakerNote\" amb correccions d'objectiu, punts d'enfocament, comptador d'obturacions i altres detalls específics del model. Les plataformes de xarxes socials sovint eliminen les dades EXIF en pujar les imatges per privacitat, però el fitxer original a la targeta sempre les conserva. Entendre l'EXIF t'ajuda a aprendre dels teus propis patrons de disparament i a descobrir els ajustos darrere de les fotos que admires.",
       "keyFactors": {
         "0": {
-          "label": "Camera & Lens",
-          "description": "Make, model, lens name, and lens manufacturer — useful for identifying gear in photos you find online."
+          "label": "Càmera i objectiu",
+          "description": "Marca, model, nom de l'objectiu i fabricant de l'objectiu — útils per identificar l'equipament a les fotos que trobes a Internet."
         },
         "1": {
-          "label": "Exposure Settings",
-          "description": "Aperture, shutter speed, ISO, and focal length — the core shooting parameters recorded for every frame."
+          "label": "Ajustos d'exposició",
+          "description": "Diafragma, velocitat d'obturació, ISO i distància focal — els paràmetres de disparament bàsics que es registren a cada fotograma."
         },
         "2": {
-          "label": "Date & GPS",
-          "description": "When and where the photo was taken. Be mindful that GPS data reveals your location when sharing files."
+          "label": "Data i GPS",
+          "description": "Quan i on s'ha fet la foto. Tingues en compte que les dades GPS revelen la teva localització quan comparteixes fitxers."
         },
         "3": {
-          "label": "Software",
-          "description": "Shows which editing software last saved the file. Useful for checking if an image has been processed."
+          "label": "Programari",
+          "description": "Mostra amb quin programa d'edició es va desar el fitxer per darrera vegada. Útil per comprovar si una imatge ha estat processada."
         }
       },
       "tips": {
         "0": {
-          "text": "Check the focal length and 35mm equivalent to understand whether the photographer used a wide, normal, or telephoto perspective — this teaches composition more than any rule of thirds."
+          "text": "Comprova la distància focal i l'equivalent a 35mm per entendre si el fotògraf va fer servir una perspectiva ampla, normal o de teleobjectiu — això ensenya de composició més que qualsevol regla dels terços."
         },
         "1": {
-          "text": "If a photo you admire was shot at high ISO with a wide aperture, that tells you it was a low-light situation. Use EXIF to understand the constraints the photographer faced."
+          "text": "Si una foto que admires es va fer amb ISO alt i diafragma obert, això et diu que era una situació amb poca llum. Fes servir l'EXIF per entendre les limitacions amb què va treballar el fotògraf."
         },
         "2": {
-          "text": "Before sharing photos online, be aware that EXIF may contain your GPS location. Strip metadata using your editing software export settings if privacy is a concern."
+          "text": "Abans de compartir fotos en línia, recorda que l'EXIF pot contenir la teva localització GPS. Elimina les metadades amb les opcions d'exportació del teu programari d'edició si la privacitat et preocupa."
         }
       },
       "tooltips": {
         "Make": {
-          "term": "Make",
-          "definition": "The camera manufacturer name (e.g., Canon, Nikon, Sony) stored in the EXIF header."
+          "term": "Marca",
+          "definition": "El nom del fabricant de la càmera (p. ex., Canon, Nikon, Sony) desat a la capçalera EXIF."
         },
         "Model": {
           "term": "Model",
-          "definition": "The specific camera model (e.g., \"EOS R5\", \"Z 9\") that captured the image."
+          "definition": "El model concret de càmera (p. ex., \"EOS R5\", \"Z 9\") que va fer la imatge."
         },
         "Aperture": {
-          "term": "Aperture",
-          "definition": "The f-number the lens was set to. Lower numbers mean wider aperture and more light."
+          "term": "Diafragma",
+          "definition": "L'f-stop al qual estava l'objectiu. Els números més baixos signifiquen diafragma més obert i més llum."
         },
         "Shutter Speed": {
-          "term": "Shutter Speed",
-          "definition": "How long the sensor was exposed. Expressed as a fraction (e.g., 1/250s) or whole seconds for long exposures."
+          "term": "Velocitat d'obturació",
+          "definition": "Quant de temps va estar exposat el sensor. S'expressa com a fracció (p. ex., 1/250s) o en segons per a exposicions llargues."
         },
         "ISO": {
           "term": "ISO",
-          "definition": "The sensor sensitivity setting. Higher ISO brightens the image but adds noise."
+          "definition": "L'ajust de sensibilitat del sensor. Un ISO més alt aclareix la imatge però afegeix soroll."
         },
         "Focal Length": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens in millimeters."
+          "term": "Distància focal",
+          "definition": "La distància focal real de l'objectiu en mil·límetres."
         },
         "Focal Length (35mm equiv)": {
-          "term": "Focal Length (35mm equiv.)",
-          "definition": "The equivalent focal length as if shot on a full-frame 35mm sensor. Useful for comparing field of view across sensor sizes."
+          "term": "Distància focal (equiv. 35mm)",
+          "definition": "La distància focal equivalent com si s'hagués fet amb un sensor full frame de 35mm. Útil per comparar angles de visió entre mides de sensor."
         },
         "GPS": {
           "term": "GPS",
-          "definition": "Latitude and longitude coordinates embedded by cameras with GPS modules. Reveals where the photo was taken."
+          "definition": "Coordenades de latitud i longitud incrustades per càmeres amb mòdul GPS. Revelen on s'ha fet la foto."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You found a stunning photo online and want to know what lens was used. Which EXIF section would tell you?",
-          "hint": "Camera and lens info are in different sections.",
-          "successMessage": "Correct! The Lens section shows the lens model and manufacturer.",
-          "failureMessage": "The Lens section contains the lens model — check there to identify the glass used.",
+          "scenario": "Has trobat una foto impressionant a Internet i vols saber quin objectiu es va fer servir. Quina secció EXIF t'ho diu?",
+          "hint": "La informació de càmera i la d'objectiu són a seccions diferents.",
+          "successMessage": "Correcte! La secció Objectiu mostra el model i el fabricant.",
+          "failureMessage": "La secció Objectiu conté el model — mira-hi per identificar el vidre utilitzat.",
           "options": {
-            "0": { "label": "Camera" },
-            "1": { "label": "Lens" },
-            "2": { "label": "Settings" }
+            "0": { "label": "Càmera" },
+            "1": { "label": "Objectiu" },
+            "2": { "label": "Ajustos" }
           }
         },
         "1": {
-          "scenario": "You uploaded a photo and see Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Was this likely shot in bright or dim light?",
-          "hint": "A very fast shutter speed at low ISO suggests lots of available light.",
-          "successMessage": "Right! The fast shutter speed (1/4000s) at base ISO (100) tells you there was plenty of light — likely bright outdoors.",
-          "failureMessage": "A shutter speed of 1/4000s at ISO 100 means the camera needed very little sensitivity and very short exposure. That is a bright outdoor scene.",
+          "scenario": "Has pujat una foto i veus Diafragma: f/1.8, Velocitat d'obturació: 1/4000s, ISO: 100. Molt probablement es va fer amb molta o amb poca llum?",
+          "hint": "Una velocitat d'obturació molt ràpida amb ISO baix suggereix que hi havia molta llum disponible.",
+          "successMessage": "Exacte! La velocitat d'obturació ràpida (1/4000s) amb ISO base (100) et diu que hi havia molta llum — probablement a exterior brillant.",
+          "failureMessage": "Una velocitat d'obturació d'1/4000s amb ISO 100 vol dir que la càmera necessitava molt poca sensibilitat i una exposició molt curta. És una escena brillant a exterior.",
           "options": {
-            "0": { "label": "Bright light — fast shutter at low ISO" },
-            "1": { "label": "Dim light — the wide aperture compensates" }
+            "0": { "label": "Molta llum — obturació ràpida amb ISO baix" },
+            "1": { "label": "Poca llum — el diafragma obert ho compensa" }
           }
         },
         "2": {
-          "scenario": "A photo shows Focal Length: 50mm and Focal Length (35mm equiv.): 75mm. What sensor was the camera using?",
-          "hint": "The 35mm equivalent is the focal length multiplied by the crop factor.",
-          "successMessage": "Correct! 75 / 50 = 1.5x crop factor, which is an APS-C sensor (Nikon/Sony variant).",
-          "failureMessage": "Divide the 35mm equivalent by the actual focal length: 75 / 50 = 1.5x. That crop factor matches APS-C (Nikon/Sony).",
+          "scenario": "Una foto mostra Distància focal: 50mm i Distància focal (equiv. 35mm): 75mm. Quin sensor estava fent servir la càmera?",
+          "hint": "L'equivalent a 35mm és la distància focal multiplicada pel factor de retall.",
+          "successMessage": "Correcte! 75 / 50 = factor de retall d'1,5x, que és un sensor APS-C (variant de Nikon/Sony).",
+          "failureMessage": "Divideix l'equivalent 35mm per la distància focal real: 75 / 50 = 1,5x. Aquest factor de retall coincideix amb APS-C (Nikon/Sony).",
           "options": {
-            "0": { "label": "Full Frame (1.0x crop)" },
-            "1": { "label": "APS-C (1.5x crop)" },
-            "2": { "label": "Micro Four Thirds (2.0x crop)" }
+            "0": { "label": "Full Frame (retall 1,0x)" },
+            "1": { "label": "APS-C (retall 1,5x)" },
+            "2": { "label": "Micro Quatre Terços (retall 2,0x)" }
           }
         },
         "3": {
-          "scenario": "You see two photos of the same scene. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Which photo was taken in brighter light?",
-          "hint": "Higher ISO compensates for less light.",
-          "successMessage": "Exactly! Photo B at ISO 200 had much more ambient light. Photo A needed ISO 3200 (4 stops more sensitivity) to achieve the same exposure, meaning the scene was much darker.",
-          "failureMessage": "Photo B was in brighter light. Same aperture and shutter speed, but ISO 200 vs 3200 means Photo A was in a much darker environment and needed 4 stops more sensor sensitivity.",
+          "scenario": "Veus dues fotos de la mateixa escena. Foto A: f/2.8, 1/60s, ISO 3200. Foto B: f/2.8, 1/60s, ISO 200. Quina es va fer amb més llum?",
+          "hint": "Un ISO alt compensa la manca de llum.",
+          "successMessage": "Exacte! La foto B a ISO 200 tenia molta més llum ambient. La foto A necessitava ISO 3200 (4 passos més de sensibilitat) per aconseguir la mateixa exposició, cosa que vol dir que l'escena era molt més fosca.",
+          "failureMessage": "La foto B es va fer amb més llum. Mateix diafragma i velocitat d'obturació, però ISO 200 vs 3200 vol dir que la foto A era en un entorn molt més fosc i necessitava 4 passos més de sensibilitat del sensor.",
           "options": {
-            "0": { "label": "Photo A (ISO 3200)" },
-            "1": { "label": "Photo B (ISO 200)" }
+            "0": { "label": "Foto A (ISO 3200)" },
+            "1": { "label": "Foto B (ISO 200)" }
           }
         },
         "4": {
-          "scenario": "You are analyzing a wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. The EXIF shows the software field is \"Adobe Lightroom Classic 13.1\". What can you infer about the photographer and the shooting conditions?",
-          "hint": "Consider the long focal length, wide-open aperture, fast shutter, and elevated ISO together.",
-          "successMessage": "Great analysis! The 400mm at f/5.6 (likely wide open for that lens) with a fast 1/2000s shutter suggests a fast-moving subject (birds or wildlife in action). ISO 1600 indicates it was not bright sunlight — probably overcast or in shade. The Lightroom field confirms post-processing was done.",
-          "failureMessage": "The settings reveal a lot: 400mm f/5.6 is a typical wildlife telephoto wide open, 1/2000s freezes fast animal movement, and ISO 1600 means light was limited (not bright sun). The Lightroom entry confirms the file was processed.",
+          "scenario": "Analitzes una foto de fauna: 400mm, f/5.6, 1/2000s, ISO 1600. L'EXIF mostra que el camp de programari és \"Adobe Lightroom Classic 13.1\". Què pots deduir del fotògraf i les condicions de presa?",
+          "hint": "Considera conjuntament la distància focal llarga, el diafragma ben obert, l'obturació ràpida i l'ISO elevat.",
+          "successMessage": "Bona anàlisi! Els 400mm a f/5.6 (probablement el diafragma més obert d'aquest objectiu) amb una obturació ràpida d'1/2000s suggereixen un subjecte ràpid (ocells o fauna en acció). L'ISO 1600 indica que no hi havia sol brillant — probablement ennuvolat o a l'ombra. L'entrada de Lightroom confirma que hi va haver postprocessament.",
+          "failureMessage": "Els ajustos diuen molt: 400mm f/5.6 és un teleobjectiu típic de fauna amb el diafragma obert, 1/2000s congela el moviment ràpid d'un animal, i ISO 1600 vol dir que la llum era limitada (no hi havia sol brillant). L'entrada de Lightroom confirma que el fitxer es va processar.",
           "options": {
-            "0": { "label": "Fast subject in moderate light, post-processed in Lightroom" },
-            "1": { "label": "Slow subject in bright light, straight from camera" },
-            "2": { "label": "Landscape shot with motion blur, heavily edited" }
+            "0": { "label": "Subjecte ràpid amb llum moderada, processat a Lightroom" },
+            "1": { "label": "Subjecte lent amb molta llum, directe de la càmera" },
+            "2": { "label": "Foto de paisatge amb rastre de moviment, molt editada" }
           }
         }
       }

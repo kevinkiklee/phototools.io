@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "Makipag-ugnayan sa Amin",
+    "description": "May tanong, nakakita ng bug, o gustong magsuggest ng bagong tool? Gusto naming marinig sa iyo.",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
+      "nameLabel": "Pangalan",
+      "namePlaceholder": "Pangalan mo",
       "emailLabel": "Email",
       "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
+      "subjectLabel": "Paksa",
+      "subjectPlaceholder": "Tungkol saan ito?",
+      "messageLabel": "Mensahe",
+      "messagePlaceholder": "Mensahe mo...",
+      "submit": "Ipadala ang Mensahe",
+      "sending": "Ipinapadala...",
       "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "successToast": "Naipadala na ang mensahe! Maghihintay ka lang ng kaunti at makikipag-ugnayan kami sa iyo.",
+      "errorToast": "May nangyaring mali. Pakisubukan muli.",
+      "networkErrorToast": "May problema sa network. Pakisuri ang koneksyon mo at subukan muli.",
+      "sentTitle": "Salamat sa pakikipag-ugnayan!",
+      "sentMessage": "Makikipag-ugnayan kami sa iyo sa lalong madaling panahon.",
+      "sendAnother": "Magpadala ng isa pang mensahe"
     }
   }
 }

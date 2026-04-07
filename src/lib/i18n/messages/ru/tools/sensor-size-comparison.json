@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "sensor-size-comparison": {
-      "displayMode": "Display Mode",
-      "modeOverlay": "Overlay",
-      "modeSideBySide": "Side by Side",
-      "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
-      "sensors": "Sensors",
-      "customSensors": "Custom Sensors",
-      "placeholderName": "Name",
-      "placeholderW": "W (mm)",
-      "placeholderH": "H (mm)",
-      "placeholderMP": "Megapixels (optional)",
-      "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
-      "addSensor": "Add Sensor",
-      "save": "Save",
-      "cancelEdit": "Cancel",
-      "edit": "Edit",
-      "remove": "Remove",
-      "deleteAllCustom": "Delete All Custom Sensors",
-      "tableSensor": "Sensor",
-      "tableWidth": "Width (mm)",
-      "tableHeight": "Height (mm)",
-      "tableAspectRatio": "Aspect Ratio",
-      "tableArea": "Area (mm\u00b2)",
-      "tableCropFactor": "Crop Factor",
-      "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "displayMode": "Режим отображения",
+      "modeOverlay": "Наложение",
+      "modeSideBySide": "Рядом",
+      "modePixelDensity": "Плотность пикселей",
+      "pixelDensityDescription": "Показаны типичные значения мегапикселей для каждой матрицы. Более крупные пиксели (большие ячейки) собирают больше света.",
+      "sensors": "Матрицы",
+      "customSensors": "Свои матрицы",
+      "placeholderName": "Название",
+      "placeholderW": "Ш (мм)",
+      "placeholderH": "В (мм)",
+      "placeholderMP": "Мегапиксели (необязательно)",
+      "placeholderMPShort": "МП",
+      "maxDimensionWarning": "Максимальный размер матрицы — 99 мм",
+      "addSensor": "Добавить матрицу",
+      "save": "Сохранить",
+      "cancelEdit": "Отмена",
+      "edit": "Изменить",
+      "remove": "Удалить",
+      "deleteAllCustom": "Удалить все свои матрицы",
+      "tableSensor": "Матрица",
+      "tableWidth": "Ширина (мм)",
+      "tableHeight": "Высота (мм)",
+      "tableAspectRatio": "Соотношение сторон",
+      "tableArea": "Площадь (мм²)",
+      "tableCropFactor": "Кроп-фактор",
+      "tableAspectCrop": "Кроп по соотношению",
+      "canvasAriaLabel": "Сравнение размеров матриц в режиме {mode}",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "Что такое кроп-фактор и почему он важен?",
+          "answer": "Кроп-фактор описывает, насколько матрица камеры отличается по размеру от полнокадровой (35 мм). Он влияет на эффективное фокусное расстояние, глубину резкости и работу в слабом свете. Кроп-фактор 1.5× означает, что матрица в 1.5 раза меньше полного кадра по диагонали."
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "В чём преимущества полного кадра по сравнению с APS-C?",
+          "answer": "Полный кадр лучше работает в слабом свете, даёт меньшую глубину резкости и более широкий угол обзора при том же фокусном. APS-C дешевле, легче и даёт дополнительный «вылет» для съёмки дикой природы и спорта."
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "Как размер матрицы влияет на глубину резкости?",
+          "answer": "Чем больше матрица, тем меньше глубина резкости при эквивалентном кадре. Чтобы получить тот же кадр с маленькой матрицы, берут более короткое фокусное (больше ГРИП) или отходят дальше (тоже больше ГРИП) — в обоих случаях размытие фона уменьшается."
         }
       }
     }

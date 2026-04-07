@@ -1,123 +1,123 @@
 {
   "education": {
     "exif-viewer": {
-      "beginner": "EXIF data is hidden information embedded in every photo your camera takes. It records what camera and lens you used, the exact settings (aperture, shutter speed, ISO), the date and time, and sometimes even GPS coordinates. This tool reads that data without uploading your photo anywhere — everything happens in your browser.",
-      "deeper": "EXIF (Exchangeable Image File Format) is a standard defined by JEITA/CIPA that stores metadata in JPEG, TIFF, and some RAW files. The data is written into specific segments of the file header as tagged key-value pairs using a TIFF-based IFD (Image File Directory) structure. There are several IFD sections: IFD0 for basic image info, the EXIF sub-IFD for camera settings, the GPS IFD for geolocation, and the Interop IFD for compatibility data. Camera manufacturers also write proprietary \"MakerNote\" data containing lens corrections, focus points, shutter count, and other model-specific details. Social media platforms often strip EXIF data on upload for privacy, but the original file on your memory card always retains it. Understanding EXIF helps you learn from your own shooting patterns and reverse-engineer the settings behind photos you admire.",
+      "beginner": "Az EXIF adatok a kamera által minden fotóba beágyazott rejtett információk. Rögzítik, milyen kamerát és objektívet használtál, a pontos beállításokat (rekesz, záridő, ISO), a dátumot és időt, néha még GPS-koordinátákat is. Ez az eszköz úgy olvassa ki ezeket, hogy nem tölti fel sehová a fotódat — minden a böngésződben történik.",
+      "deeper": "Az EXIF (Exchangeable Image File Format) egy a JEITA/CIPA által meghatározott szabvány, ami JPEG, TIFF és néhány RAW fájlba ágyazott metaadatokat tárol. Az adatok a fájl fejlécének bizonyos szegmenseibe íródnak címke-érték párokként, TIFF-alapú IFD (Image File Directory) szerkezetben. Több IFD szekció van: az IFD0 az alapvető képadatokat, az EXIF al-IFD a kamerabeállításokat, a GPS IFD a helymeghatározást, az Interop IFD pedig a kompatibilitási adatokat tárolja. A kameragyártók saját „MakerNote” adatokat is írnak bele, amik objektívkorrekciókat, fókuszpontokat, záridőszámlálót és más modellspecifikus részleteket tartalmaznak. A közösségi platformok gyakran eltávolítják az EXIF-et feltöltéskor adatvédelmi okból, de a memóriakártyán lévő eredeti fájl mindig megőrzi. Az EXIF ismeretével tanulhatsz a saját fotós szokásaidból, és visszafejtheted a csodált képek mögötti beállításokat.",
       "keyFactors": {
         "0": {
-          "label": "Camera & Lens",
-          "description": "Make, model, lens name, and lens manufacturer — useful for identifying gear in photos you find online."
+          "label": "Kamera és objektív",
+          "description": "Gyártó, modell, objektív neve és gyártója — hasznos, ha online talált fotókon akarod azonosítani a felszerelést."
         },
         "1": {
-          "label": "Exposure Settings",
-          "description": "Aperture, shutter speed, ISO, and focal length — the core shooting parameters recorded for every frame."
+          "label": "Expozíciós beállítások",
+          "description": "Rekesz, záridő, ISO és gyújtótávolság — az alapvető felvételi paraméterek, amik minden kockához rögzítve vannak."
         },
         "2": {
-          "label": "Date & GPS",
-          "description": "When and where the photo was taken. Be mindful that GPS data reveals your location when sharing files."
+          "label": "Dátum és GPS",
+          "description": "Mikor és hol készült a fotó. Ügyelj rá, hogy a GPS adat elárulja a tartózkodási helyed, ha fájlokat osztasz meg."
         },
         "3": {
-          "label": "Software",
-          "description": "Shows which editing software last saved the file. Useful for checking if an image has been processed."
+          "label": "Szoftver",
+          "description": "Megmutatja, melyik szerkesztő mentette utoljára a fájlt. Hasznos annak ellenőrzésére, hogy a képet feldolgozták-e."
         }
       },
       "tips": {
         "0": {
-          "text": "Check the focal length and 35mm equivalent to understand whether the photographer used a wide, normal, or telephoto perspective — this teaches composition more than any rule of thirds."
+          "text": "Nézd meg a gyújtótávolságot és a 35mm-es ekvivalenst, hogy megértsd, a fotós nagylátószögű, normál vagy teleperspektívát használt — ez többet tanít a kompozícióról, mint bármelyik harmadolási szabály."
         },
         "1": {
-          "text": "If a photo you admire was shot at high ISO with a wide aperture, that tells you it was a low-light situation. Use EXIF to understand the constraints the photographer faced."
+          "text": "Ha egy csodált fotót magas ISO-n és tág rekesszel készítettek, az elárulja, hogy gyenge fényben készült. Használd az EXIF-et, hogy megértsd, milyen feltételekkel dolgozott a fotós."
         },
         "2": {
-          "text": "Before sharing photos online, be aware that EXIF may contain your GPS location. Strip metadata using your editing software export settings if privacy is a concern."
+          "text": "Mielőtt fotót posztolsz az interneten, vedd figyelembe, hogy az EXIF GPS-adatot tartalmazhat. Ha aggaszt az adatvédelem, a szerkesztőd exportbeállításaiban távolíttasd el a metaadatokat."
         }
       },
       "tooltips": {
         "Make": {
-          "term": "Make",
-          "definition": "The camera manufacturer name (e.g., Canon, Nikon, Sony) stored in the EXIF header."
+          "term": "Gyártó",
+          "definition": "A kameragyártó neve (pl. Canon, Nikon, Sony), ami az EXIF fejlécben van tárolva."
         },
         "Model": {
-          "term": "Model",
-          "definition": "The specific camera model (e.g., \"EOS R5\", \"Z 9\") that captured the image."
+          "term": "Modell",
+          "definition": "A konkrét kameramodell (pl. „EOS R5”, „Z 9”), ami a képet készítette."
         },
         "Aperture": {
-          "term": "Aperture",
-          "definition": "The f-number the lens was set to. Lower numbers mean wider aperture and more light."
+          "term": "Rekesz",
+          "definition": "Az f-szám, amire az objektív be volt állítva. Az alacsonyabb szám tágabb rekeszt és több fényt jelent."
         },
         "Shutter Speed": {
-          "term": "Shutter Speed",
-          "definition": "How long the sensor was exposed. Expressed as a fraction (e.g., 1/250s) or whole seconds for long exposures."
+          "term": "Záridő",
+          "definition": "Mennyi ideig volt az érzékelő exponálva. Törtként (pl. 1/250s) vagy egész másodpercekben (hosszú expozíció) jelölik."
         },
         "ISO": {
           "term": "ISO",
-          "definition": "The sensor sensitivity setting. Higher ISO brightens the image but adds noise."
+          "definition": "Az érzékelő érzékenységi beállítása. A magasabb ISO világosítja a képet, de zajt ad hozzá."
         },
         "Focal Length": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens in millimeters."
+          "term": "Gyújtótávolság",
+          "definition": "Az objektív valós gyújtótávolsága milliméterben."
         },
         "Focal Length (35mm equiv)": {
-          "term": "Focal Length (35mm equiv.)",
-          "definition": "The equivalent focal length as if shot on a full-frame 35mm sensor. Useful for comparing field of view across sensor sizes."
+          "term": "Gyújtótávolság (35mm ekv.)",
+          "definition": "Az ekvivalens gyújtótávolság, mintha Full Frame 35mm-es érzékelővel készült volna. Hasznos a látószögek összehasonlítására érzékelőméretek között."
         },
         "GPS": {
           "term": "GPS",
-          "definition": "Latitude and longitude coordinates embedded by cameras with GPS modules. Reveals where the photo was taken."
+          "definition": "GPS-modullal rendelkező kamerák által beágyazott szélességi és hosszúsági koordináták. Elárulja, hol készült a fotó."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You found a stunning photo online and want to know what lens was used. Which EXIF section would tell you?",
-          "hint": "Camera and lens info are in different sections.",
-          "successMessage": "Correct! The Lens section shows the lens model and manufacturer.",
-          "failureMessage": "The Lens section contains the lens model — check there to identify the glass used.",
+          "scenario": "Találtál egy lenyűgöző fotót az interneten, és szeretnéd tudni, milyen objektívvel készült. Melyik EXIF-szekció mondja meg?",
+          "hint": "A kamera és az objektív információi külön szekcióban vannak.",
+          "successMessage": "Jó! Az objektív szekció mutatja az objektív modellt és gyártót.",
+          "failureMessage": "Az objektív szekció tartalmazza az objektív modelljét — ott nézd meg, milyen üveget használtak.",
           "options": {
-            "0": { "label": "Camera" },
-            "1": { "label": "Lens" },
-            "2": { "label": "Settings" }
+            "0": { "label": "Kamera" },
+            "1": { "label": "Objektív" },
+            "2": { "label": "Beállítások" }
           }
         },
         "1": {
-          "scenario": "You uploaded a photo and see Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Was this likely shot in bright or dim light?",
-          "hint": "A very fast shutter speed at low ISO suggests lots of available light.",
-          "successMessage": "Right! The fast shutter speed (1/4000s) at base ISO (100) tells you there was plenty of light — likely bright outdoors.",
-          "failureMessage": "A shutter speed of 1/4000s at ISO 100 means the camera needed very little sensitivity and very short exposure. That is a bright outdoor scene.",
+          "scenario": "Feltöltöttél egy fotót, és ezt látod: rekesz f/1.8, záridő 1/4000s, ISO 100. Valószínűleg erős vagy gyenge fényben készült?",
+          "hint": "A nagyon gyors záridő alacsony ISO-n sok rendelkezésre álló fényre utal.",
+          "successMessage": "Jó! A gyors záridő (1/4000s) alap ISO-n (100) azt mutatja, hogy bőven volt fény — valószínűleg erős napfényben, kültéren.",
+          "failureMessage": "Az 1/4000s záridő ISO 100-on azt jelenti, hogy a kamerának nagyon kevés érzékenység és nagyon rövid expozíció kellett. Ez egy erős fényű kültéri jelenet.",
           "options": {
-            "0": { "label": "Bright light — fast shutter at low ISO" },
-            "1": { "label": "Dim light — the wide aperture compensates" }
+            "0": { "label": "Erős fény — gyors záridő alacsony ISO-n" },
+            "1": { "label": "Gyenge fény — a tág rekesz kompenzál" }
           }
         },
         "2": {
-          "scenario": "A photo shows Focal Length: 50mm and Focal Length (35mm equiv.): 75mm. What sensor was the camera using?",
-          "hint": "The 35mm equivalent is the focal length multiplied by the crop factor.",
-          "successMessage": "Correct! 75 / 50 = 1.5x crop factor, which is an APS-C sensor (Nikon/Sony variant).",
-          "failureMessage": "Divide the 35mm equivalent by the actual focal length: 75 / 50 = 1.5x. That crop factor matches APS-C (Nikon/Sony).",
+          "scenario": "Egy fotón: gyújtótávolság 50mm és gyújtótávolság (35mm ekv.) 75mm. Milyen érzékelőt használt a kamera?",
+          "hint": "A 35mm ekvivalens a valós gyújtótávolság a crop faktorral megszorozva.",
+          "successMessage": "Jó! 75 / 50 = 1,5x crop faktor, ami APS-C érzékelő (Nikon/Sony változat).",
+          "failureMessage": "Oszd el a 35mm ekvivalenst a valós gyújtótávolsággal: 75 / 50 = 1,5x. Ez a crop faktor APS-C-nek felel meg (Nikon/Sony).",
           "options": {
-            "0": { "label": "Full Frame (1.0x crop)" },
-            "1": { "label": "APS-C (1.5x crop)" },
-            "2": { "label": "Micro Four Thirds (2.0x crop)" }
+            "0": { "label": "Full Frame (1,0x crop)" },
+            "1": { "label": "APS-C (1,5x crop)" },
+            "2": { "label": "Micro Four Thirds (2,0x crop)" }
           }
         },
         "3": {
-          "scenario": "You see two photos of the same scene. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Which photo was taken in brighter light?",
-          "hint": "Higher ISO compensates for less light.",
-          "successMessage": "Exactly! Photo B at ISO 200 had much more ambient light. Photo A needed ISO 3200 (4 stops more sensitivity) to achieve the same exposure, meaning the scene was much darker.",
-          "failureMessage": "Photo B was in brighter light. Same aperture and shutter speed, but ISO 200 vs 3200 means Photo A was in a much darker environment and needed 4 stops more sensor sensitivity.",
+          "scenario": "Ugyanazt a jelenetet mutató két képet nézel. A kép: f/2.8, 1/60s, ISO 3200. B kép: f/2.8, 1/60s, ISO 200. Melyik készült erősebb fényben?",
+          "hint": "A magasabb ISO kevesebb fényt kompenzál.",
+          "successMessage": "Pontosan! A B kép ISO 200-on sokkal több környezeti fényt kapott. Az A képnek ISO 3200 kellett (4 stoppal több érzékenység) az azonos expozícióhoz, tehát a jelenet sokkal sötétebb volt.",
+          "failureMessage": "A B kép készült erősebb fényben. Azonos rekesz és záridő, de ISO 200 vs 3200 azt jelenti, hogy az A kép sokkal sötétebb környezetben készült, és 4 stoppal több érzékenységre volt szüksége.",
           "options": {
-            "0": { "label": "Photo A (ISO 3200)" },
-            "1": { "label": "Photo B (ISO 200)" }
+            "0": { "label": "A kép (ISO 3200)" },
+            "1": { "label": "B kép (ISO 200)" }
           }
         },
         "4": {
-          "scenario": "You are analyzing a wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. The EXIF shows the software field is \"Adobe Lightroom Classic 13.1\". What can you infer about the photographer and the shooting conditions?",
-          "hint": "Consider the long focal length, wide-open aperture, fast shutter, and elevated ISO together.",
-          "successMessage": "Great analysis! The 400mm at f/5.6 (likely wide open for that lens) with a fast 1/2000s shutter suggests a fast-moving subject (birds or wildlife in action). ISO 1600 indicates it was not bright sunlight — probably overcast or in shade. The Lightroom field confirms post-processing was done.",
-          "failureMessage": "The settings reveal a lot: 400mm f/5.6 is a typical wildlife telephoto wide open, 1/2000s freezes fast animal movement, and ISO 1600 means light was limited (not bright sun). The Lightroom entry confirms the file was processed.",
+          "scenario": "Egy vadvilág-fotót elemzel: 400mm, f/5.6, 1/2000s, ISO 1600. Az EXIF szoftver mezője „Adobe Lightroom Classic 13.1”. Mit lehet ebből következtetni a fotósról és a felvételi körülményekről?",
+          "hint": "Vedd figyelembe együtt a hosszú gyújtótávolságot, a teljesen nyitott rekeszt, a gyors záridőt és az emelt ISO-t.",
+          "successMessage": "Jó elemzés! A 400mm f/5.6 (valószínűleg teljesen nyitva ezen az objektíven) és az 1/2000s gyors záridő gyors mozgású témára utal (madarak vagy vadállatok akcióban). Az ISO 1600 jelzi, hogy nem erős napfényben készült — valószínűleg borult vagy árnyékos helyen. A Lightroom mező megerősíti, hogy volt utómunka.",
+          "failureMessage": "A beállítások sokat elárulnak: a 400mm f/5.6 egy tipikus vadvilág-telefotó teljesen nyitva, az 1/2000s lefagyasztja a gyors állatmozgást, az ISO 1600 pedig korlátozott fényt jelez (nincs erős nap). A Lightroom bejegyzés megerősíti, hogy a fájlt feldolgozták.",
           "options": {
-            "0": { "label": "Fast subject in moderate light, post-processed in Lightroom" },
-            "1": { "label": "Slow subject in bright light, straight from camera" },
-            "2": { "label": "Landscape shot with motion blur, heavily edited" }
+            "0": { "label": "Gyors téma mérsékelt fényben, Lightroomban utómunkázva" },
+            "1": { "label": "Lassú téma erős fényben, közvetlenül a kameráról" },
+            "2": { "label": "Tájkép bemozdulással, erősen szerkesztve" }
           }
         }
       }

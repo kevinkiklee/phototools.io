@@ -1,98 +1,98 @@
 {
   "education": {
     "color-scheme-generator": {
-      "beginner": "Color harmony is about choosing colors that look good together. Just like musical chords, certain color combinations create pleasing visual relationships. Photographers use color harmony to plan wardrobe, set design, and even timing of outdoor shoots to get the right palette from nature.",
+      "beginner": "Ang color harmony ay tungkol sa pagpili ng mga kulay na magkasundo. Gaya ng mga musical chord, may mga color combination na gumagawa ng kaaya-ayang visual na relasyon. Ginagamit ng mga photographer ang color harmony para magplano ng wardrobe, set design, at maging ang timing ng outdoor shoot para makuha ang tamang palette mula sa kalikasan.",
       "deeper": {
         "0": {
-          "heading": "The Color Wheel",
-          "text": "Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle (0\u2013360\u00b0), saturation is the distance from center, and lightness controls brightness. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary."
+          "heading": "Ang Color Wheel",
+          "text": "Ang color harmony theory ay nakaugat sa color wheel, na nag-aayos ng mga hue sa isang bilog batay sa relasyon ng kanilang wavelength. Ang HSL (Hue, Saturation, Lightness) model ay direktang naka-map sa wheel: ang hue ay ang angle (0–360°), ang saturation ay ang distansya mula sa sentro, at ang lightness ang kumokontrol sa liwanag. Sa photography, natural na lumilitaw ang mga relasyong ito — ang golden hour ay gumagawa ng analogous na mainit na tones, habang ang pulang kamalig laban sa berdeng bukirin ay complementary."
         },
         "1": {
           "heading": "Complementary",
-          "text": "Two colors that sit directly opposite each other on the wheel (180\u00b0 apart), such as blue and orange or red and green. This creates maximum contrast and visual energy. Great for making a subject pop against a background — think golden-hour portraits where warm skin tones contrast with a cool blue sky."
+          "text": "Dalawang kulay na diretsong magkasalungat sa wheel (180° ang layo), tulad ng asul at orange o pula at berde. Gumagawa ito ng maximum contrast at visual na enerhiya. Perpekto para mapansin ang isang subject laban sa background — isipin ang golden-hour portraits kung saan ang mga mainit na skin tone ay kaibahan ng malamig na asul na langit."
         },
         "2": {
           "heading": "Analogous",
-          "text": "Three colors that are neighbors on the wheel, typically within a 30\u201360\u00b0 spread. They produce smooth, cohesive palettes with low contrast. Ideal for landscapes and mood-driven work — autumn foliage is a natural analogous palette of reds, oranges, and yellows."
+          "text": "Tatlong kulay na magkakatabi sa wheel, karaniwang nasa loob ng 30–60° na spread. Nagbibigay sila ng smooth at pinag-isang palette na may mababang contrast. Perpekto para sa landscape at mood-driven na trabaho — ang autumn foliage ay isang natural na analogous palette ng pula, orange, at dilaw."
         },
         "3": {
           "heading": "Triadic",
-          "text": "Three colors evenly spaced at 120\u00b0 intervals around the wheel, such as red, yellow, and blue. Triadic schemes feel balanced and vibrant without the tension of complementary contrast. Use one dominant color and the other two as accents for the strongest results."
+          "text": "Tatlong kulay na patas ang pagitan sa 120° interval sa wheel, tulad ng pula, dilaw, at asul. Ang triadic schemes ay pakiramdam balanse at buhay na buhay nang walang tensyon ng complementary contrast. Gumamit ng isang dominanteng kulay at gawing accent ang iba pang dalawa para sa pinakamalakas na resulta."
         },
         "4": {
           "heading": "Split Complementary",
-          "text": "A variation of complementary that uses the two neighbors of the opposite color instead of the opposite itself. This keeps the high contrast of complementary but reduces the visual tension, making it more versatile and forgiving. A popular choice for styled portrait sessions."
+          "text": "Isang variation ng complementary na gumagamit ng dalawang katabi ng kasalungat na kulay sa halip na ang kasalungat mismo. Pinapanatili nito ang mataas na contrast ng complementary pero binabawasan ang visual na tensyon, kaya mas versatile at mas mapagpatawad. Sikat na pagpipilian para sa styled portrait sessions."
         },
         "5": {
-          "heading": "Tetradic (Double Complementary)",
-          "text": "Four colors forming a rectangle on the wheel — essentially two complementary pairs. This offers the richest, most complex palette but requires careful balance. Let one color dominate and use the others as supporting accents to avoid a chaotic look."
+          "heading": "Tetradic (Dobleng Complementary)",
+          "text": "Apat na kulay na bumubuo ng rektanggulo sa wheel — mahalagang dalawang complementary pair. Nag-aalok ito ng pinakamasagana, pinakamasalimuot na palette pero nangangailangan ng maingat na balanse. Pabayaang isang kulay ang dominante at gawing suporta ang iba para maiwasan ang magulo na itsura."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Harmony Type",
-          "description": "The geometric relationship between colors on the wheel: complementary, analogous, triadic, split-complementary, or tetradic."
+          "label": "Uri ng Harmony",
+          "description": "Ang geometric na relasyon ng mga kulay sa wheel: complementary, analogous, triadic, split-complementary, o tetradic."
         },
         "1": {
           "label": "Hue",
-          "description": "The base color angle on the wheel (0-360 degrees). This is the starting point for all harmony calculations."
+          "description": "Ang base color angle sa wheel (0-360 degrees). Ito ang panimulang punto para sa lahat ng harmony calculations."
         },
         "2": {
           "label": "Saturation",
-          "description": "How vivid or muted the colors are. Lower saturation produces pastels and earth tones; higher saturation gives bold, vibrant palettes."
+          "description": "Kung gaano kavibrant o kamuted ang mga kulay. Ang mas mababang saturation ay gumagawa ng pastel at earth tones; ang mas mataas ay nagbibigay ng bold at vibrant na palette."
         },
         "3": {
           "label": "Lightness",
-          "description": "Controls brightness. Adjusting lightness can make the same hue feel completely different — dark navy vs. sky blue are the same hue at different lightness."
+          "description": "Kumokontrol ng liwanag. Ang pag-adjust ng lightness ay kayang magpakita ng parehong hue nang iba ang pakiramdam — ang dark navy kumpara sa sky blue ay parehong hue sa iba't ibang lightness."
         }
       },
       "tips": {
         "0": {
-          "text": "For portrait sessions, pick a complementary or split-complementary palette, then have your subject wear the key color while the background provides the contrasting hue. Blue/orange (golden hour portraits) is a classic example."
+          "text": "Para sa portrait sessions, pumili ng complementary o split-complementary palette, tapos pasuotan ang subject mo ng key color habang ang background ang nagbibigay ng contrasting hue. Ang blue/orange (golden hour portraits) ay isang klasikong halimbawa."
         },
         "1": {
-          "text": "Use analogous harmony for landscapes — nature already works in analogous palettes. Match your wardrobe advice or prop choices to the dominant natural hues."
+          "text": "Gumamit ng analogous harmony para sa landscape — natural na gumagana ang kalikasan sa analogous palette. Itugma ang iyong wardrobe advice o props sa mga dominanteng natural na hue."
         },
         "2": {
-          "text": "Reduce saturation to 30-50% to preview how colors will look in a more muted, editorial style. High saturation works for commercial and fashion, but lower saturation often feels more sophisticated."
+          "text": "Babaan ang saturation sa 30-50% para ma-preview kung paano lilitaw ang mga kulay sa mas muted at editorial style. Gumagana ang mataas na saturation para sa commercial at fashion, pero ang mas mababang saturation ay kadalasang mas sophisticated ang pakiramdam."
         }
       },
       "tooltips": {
         "Harmony Type": {
-          "term": "Harmony Type",
-          "definition": "The color relationship pattern: Complementary (opposite), Analogous (neighbors), Triadic (three-way), Split Complementary (offset opposites), or Tetradic (four-way rectangle)."
+          "term": "Uri ng Harmony",
+          "definition": "Ang pattern ng relasyon ng kulay: Complementary (magkasalungat), Analogous (magkakatabi), Triadic (tatlong panig), Split Complementary (naka-offset na magkasalungat), o Tetradic (four-way rectangle)."
         },
         "Key Color": {
           "term": "Key Color",
-          "definition": "The dominant color in your palette. All other harmony colors are calculated relative to this starting hue."
+          "definition": "Ang dominanteng kulay sa palette mo. Ang lahat ng ibang harmony colors ay kinakalkula relative sa panimulang hue na ito."
         },
         "Hue": {
           "term": "Hue",
-          "definition": "The color angle on the wheel in degrees: 0\u00b0 is red, 120\u00b0 is green, 240\u00b0 is blue."
+          "definition": "Ang color angle sa wheel sa degrees: 0° ay pula, 120° ay berde, 240° ay asul."
         },
         "Saturation": {
           "term": "Saturation",
-          "definition": "Color intensity from 0% (gray) to 100% (fully vivid). Controls how bold or muted the entire palette appears."
+          "definition": "Ang intensity ng kulay mula 0% (gray) hanggang 100% (buong-buong vivid). Kumokontrol kung gaano kabold o kamuted ang buong palette."
         },
         "Lightness": {
           "term": "Lightness",
-          "definition": "Brightness from 0% (black) to 100% (white). At 50% you see the pure color; below is darker, above is lighter."
+          "definition": "Liwanag mula 0% (itim) hanggang 100% (puti). Sa 50% makikita mo ang purong kulay; mas mababa ay mas madilim, mas mataas ay mas maliwanag."
         },
         "Split Angle": {
           "term": "Split Angle",
-          "definition": "How far apart the two split-complementary colors are from the direct opposite. Wider angles give more contrast."
+          "definition": "Kung gaano kalayo ang dalawang split-complementary colors mula sa direktang kasalungat. Mas malawak na anggulo ay mas maraming contrast."
         },
         "Spread": {
           "term": "Spread",
-          "definition": "How far apart the analogous colors are from the key hue. Narrow spread gives subtle variation; wide spread increases diversity."
+          "definition": "Kung gaano kalayo ang analogous colors mula sa key hue. Ang masikip na spread ay nagbibigay ng banayad na variation; ang malawak na spread ay nagdadagdag ng diversity."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want maximum contrast between two colors for a bold graphic portrait. Which harmony type gives you the most visual tension?",
-          "hint": "Colors directly across from each other on the wheel create the strongest contrast.",
-          "successMessage": "Correct! Complementary colors sit 180 degrees apart and produce the highest contrast — perfect for bold, eye-catching compositions.",
-          "failureMessage": "Complementary harmony places colors directly opposite on the wheel, creating maximum visual contrast.",
+          "scenario": "Gusto mo ng maximum contrast sa pagitan ng dalawang kulay para sa isang bold na graphic portrait. Anong uri ng harmony ang nagbibigay sa iyo ng pinakamatinding visual na tensyon?",
+          "hint": "Ang mga kulay na diretsong magkasalungat sa wheel ang gumagawa ng pinakamatinding contrast.",
+          "successMessage": "Tama! Ang mga complementary colors ay 180 degrees ang layo at gumagawa ng pinakamataas na contrast — perpekto para sa bold at nakakaakit na komposisyon.",
+          "failureMessage": "Ang complementary harmony ay naglalagay ng mga kulay nang diretsong magkasalungat sa wheel, na gumagawa ng maximum visual contrast.",
           "options": {
             "0": { "label": "Complementary" },
             "1": { "label": "Analogous" },
@@ -100,10 +100,10 @@
           }
         },
         "1": {
-          "scenario": "You are planning a golden hour shoot and want warm, cohesive tones. Which harmony type keeps colors close together on the wheel?",
-          "hint": "This type uses neighboring hues for a smooth, unified feel.",
-          "successMessage": "Right! Analogous harmony uses adjacent colors, giving you a warm, cohesive palette perfect for golden hour.",
-          "failureMessage": "Analogous harmony keeps all colors as neighbors on the wheel — ideal for unified warm or cool palettes.",
+          "scenario": "Nagpaplano ka ng golden hour shoot at gusto mo ng mainit at pinag-isang tones. Anong uri ng harmony ang nagpapanatili ng mga kulay na magkakalapit sa wheel?",
+          "hint": "Gumagamit ang ganitong uri ng mga katabing hue para sa smooth at pinag-isang pakiramdam.",
+          "successMessage": "Tama! Ang analogous harmony ay gumagamit ng mga magkatabing kulay, nagbibigay sa iyo ng mainit at pinag-isang palette na perpekto para sa golden hour.",
+          "failureMessage": "Pinapanatiling magkakatabi sa wheel ang lahat ng kulay ng analogous harmony — perpekto para sa pinag-isang mainit o malamig na palette.",
           "options": {
             "0": { "label": "Complementary" },
             "1": { "label": "Analogous" },
@@ -111,10 +111,10 @@
           }
         },
         "2": {
-          "scenario": "A client wants a portrait with contrast but not as intense as pure complementary. Which harmony type softens the opposition while keeping visual interest?",
-          "hint": "This type uses two colors near the complement instead of the direct opposite.",
-          "successMessage": "Excellent! Split complementary keeps the contrast of complementary but splits the opposing color into two flanking hues, producing a less jarring but still dynamic palette.",
-          "failureMessage": "Split Complementary is the answer — it replaces the single opposite color with two neighbors of the opposite, softening the contrast while maintaining visual energy.",
+          "scenario": "Gusto ng kliyente ng portrait na may contrast pero hindi kasingtindi ng pure complementary. Anong uri ng harmony ang nagpapalambot ng oposisyon habang pinapanatili ang visual na interes?",
+          "hint": "Gumagamit ang ganitong uri ng dalawang kulay na malapit sa complement sa halip na ang direktang kasalungat.",
+          "successMessage": "Magaling! Ang split complementary ay pinapanatili ang contrast ng complementary pero hinahati ang kasalungat na kulay sa dalawang katabing hue, na gumagawa ng hindi masyadong nakakabigla pero buhay pa ring palette.",
+          "failureMessage": "Split Complementary ang sagot — pinapalitan nito ang isang kasalungat na kulay ng dalawang katabi ng kasalungat, pinapalambot ang contrast habang pinapanatili ang visual na enerhiya.",
           "options": {
             "0": { "label": "Split Complementary" },
             "1": { "label": "Triadic" },
@@ -122,25 +122,25 @@
           }
         },
         "3": {
-          "scenario": "You set the key color to orange (hue ~30 degrees) with complementary harmony. What color will the complement be?",
-          "hint": "Complementary means 180 degrees opposite on the wheel.",
-          "successMessage": "Correct! 30\u00b0 + 180\u00b0 = 210\u00b0, which falls in the blue range. Orange and blue is one of photography most beloved complementary pairs.",
-          "failureMessage": "Adding 180\u00b0 to orange (30\u00b0) gives 210\u00b0, which is blue. The orange-blue complementary pair is a photography staple.",
+          "scenario": "Sinet mo ang key color sa orange (hue ~30 degrees) na may complementary harmony. Anong kulay ang magiging complement?",
+          "hint": "Ang complementary ay nangangahulugan ng 180 degrees na kasalungat sa wheel.",
+          "successMessage": "Tama! 30° + 180° = 210°, na nasa asul na range. Ang orange at asul ay isa sa pinakamamahal na complementary pair sa photography.",
+          "failureMessage": "Ang pagdagdag ng 180° sa orange (30°) ay nagbibigay ng 210°, na asul. Ang orange-asul na complementary pair ay isang staple sa photography.",
           "options": {
-            "0": { "label": "Blue (~210\u00b0)" },
-            "1": { "label": "Green (~150\u00b0)" },
-            "2": { "label": "Red (~0\u00b0)" }
+            "0": { "label": "Asul (~210°)" },
+            "1": { "label": "Berde (~150°)" },
+            "2": { "label": "Pula (~0°)" }
           }
         },
         "4": {
-          "scenario": "You are art-directing a fashion editorial and need a four-color palette that provides both warm and cool tones with high visual richness. Which harmony type gives you four colors, and what is the main challenge when using it?",
-          "hint": "The four-color harmony forms a rectangle on the wheel.",
-          "successMessage": "Right! Tetradic harmony gives four colors forming a rectangle on the wheel. The main challenge is balance — with four distinct hues, one should dominate while the others accent. Without hierarchy, the image feels chaotic.",
-          "failureMessage": "Tetradic (double-complementary) provides four colors in a rectangular arrangement. The challenge is that four strong hues compete for attention — you need to designate one dominant color and use the others as accents.",
+          "scenario": "Nag-a-art-direct ka ng fashion editorial at kailangan mo ng four-color palette na nagbibigay ng parehong mainit at malamig na tones na may mataas na visual na yaman. Anong uri ng harmony ang nagbibigay sa iyo ng apat na kulay, at ano ang pangunahing hamon sa paggamit nito?",
+          "hint": "Ang four-color harmony ay bumubuo ng rektanggulo sa wheel.",
+          "successMessage": "Tama! Ang tetradic harmony ay nagbibigay ng apat na kulay na bumubuo ng rektanggulo sa wheel. Ang pangunahing hamon ay balanse — sa apat na magkaibang hue, isa ang dapat maging dominante habang ang iba ay accent. Kung walang hierarchy, magiging magulo ang imahe.",
+          "failureMessage": "Ang tetradic (double-complementary) ay nagbibigay ng apat na kulay sa isang rektanggulong ayos. Ang hamon ay ang apat na malakas na hue ay nag-aagawan ng atensyon — kailangan mong italaga ang isang dominanteng kulay at gawing accent ang iba.",
           "options": {
-            "0": { "label": "Tetradic — challenge is maintaining visual hierarchy among four hues" },
-            "1": { "label": "Triadic — challenge is having too few colors" },
-            "2": { "label": "Analogous — challenge is lack of contrast" }
+            "0": { "label": "Tetradic — ang hamon ay pagpapanatili ng visual hierarchy sa apat na hue" },
+            "1": { "label": "Triadic — ang hamon ay masyadong kaunting kulay" },
+            "2": { "label": "Analogous — ang hamon ay kawalan ng contrast" }
           }
         }
       }

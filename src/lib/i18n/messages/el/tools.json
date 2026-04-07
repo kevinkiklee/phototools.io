@@ -2,63 +2,63 @@
   "tools": {
     "fov-simulator": {
       "name": "FOV Simulator",
-      "description": "Compare field of view across focal lengths and sensor sizes"
+      "description": "Σύγκρινε το οπτικό πεδίο σε διαφορετικές εστιακές αποστάσεις και μεγέθη αισθητήρα"
     },
     "color-scheme-generator": {
       "name": "Color Scheme Generator",
-      "description": "Build color palettes for photography shoots"
+      "description": "Φτιάξε χρωματικές παλέτες για τις λήψεις σου"
     },
     "exposure-simulator": {
-      "name": "Exposure Triangle Simulator",
-      "description": "See how aperture, shutter speed, and ISO interact"
+      "name": "Προσομοιωτής τριγώνου έκθεσης",
+      "description": "Δες πώς αλληλεπιδρούν διάφραγμα, ταχύτητα κλείστρου και ISO"
     },
     "dof-simulator": {
       "name": "Depth-of-Field Simulator",
-      "description": "Visualize how aperture, focal length, and distance affect background blur"
+      "description": "Οπτικοποίησε πώς διάφραγμα, εστιακή απόσταση και απόσταση επηρεάζουν το θόλωμα του φόντου"
     },
     "focus-stacking-calculator": {
       "name": "Focus Stacking Calculator",
-      "description": "Calculate optimal focus distances for front-to-back sharpness"
+      "description": "Υπολόγισε τις βέλτιστες αποστάσεις εστίασης για ευκρίνεια από μπροστά έως πίσω"
     },
     "equivalent-settings-calculator": {
-      "name": "Equivalent Settings Calculator",
-      "description": "Find equivalent aperture and focal length across sensor formats"
+      "name": "Υπολογιστής ισοδύναμων ρυθμίσεων",
+      "description": "Βρες ισοδύναμο διάφραγμα και εστιακή απόσταση σε διαφορετικά φορμά αισθητήρα"
     },
     "hyperfocal-simulator": {
-      "name": "Hyperfocal Distance Simulator",
-      "description": "Learn where to focus for maximum sharpness from foreground to infinity"
+      "name": "Προσομοιωτής υπερεστιακής απόστασης",
+      "description": "Μάθε πού να εστιάζεις για μέγιστη ευκρίνεια από το προσκήνιο μέχρι το άπειρο"
     },
     "shutter-speed-visualizer": {
       "name": "Shutter Speed Visualizer",
-      "description": "Find the minimum safe shutter speed for sharp handheld shots"
+      "description": "Βρες την ελάχιστη ασφαλή ταχύτητα κλείστρου για ευκρινείς λήψεις με το χέρι"
     },
     "nd-filter-calculator": {
       "name": "ND Filter Calculator",
-      "description": "Calculate exposure time with any ND filter"
+      "description": "Υπολόγισε τον χρόνο έκθεσης με οποιοδήποτε φίλτρο ND"
     },
     "star-trail-calculator": {
       "name": "Star Trail Calculator",
-      "description": "Calculate max exposure for sharp stars or plan star trail shots"
+      "description": "Υπολόγισε τη μέγιστη έκθεση για ευκρινή αστέρια ή σχεδίασε λήψεις με ίχνη αστεριών"
     },
     "perspective-compression-simulator": {
-      "name": "Perspective Compression Simulator",
-      "description": "See how focal length affects background compression"
+      "name": "Προσομοιωτής συμπίεσης προοπτικής",
+      "description": "Δες πώς η εστιακή απόσταση επηρεάζει τη συμπίεση του φόντου"
     },
     "white-balance-visualizer": {
       "name": "White Balance Visualizer",
-      "description": "See how color temperature affects your photos"
+      "description": "Δες πώς η θερμοκρασία χρώματος επηρεάζει τις φωτογραφίες σου"
     },
     "sensor-size-comparison": {
       "name": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes visually"
+      "description": "Σύγκρινε οπτικά τα μεγέθη αισθητήρων"
     },
     "frame-studio": {
       "name": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays"
+      "description": "Κόψε, πλαισίωσε και σύνθεσε φωτογραφίες με πλέγματα σύνθεσης"
     },
     "exif-viewer": {
       "name": "EXIF Viewer",
-      "description": "View EXIF metadata and histogram for any photo — 100% client-side"
+      "description": "Δες EXIF metadata και ιστόγραμμα για οποιαδήποτε φωτογραφία — 100% στον browser σου"
     }
   }
 }

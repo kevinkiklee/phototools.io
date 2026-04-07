@@ -2,63 +2,63 @@
   "tools": {
     "fov-simulator": {
       "name": "FOV Simulator",
-      "description": "Compare field of view across focal lengths and sensor sizes"
+      "description": "Сравнение угла обзора на разных фокусных расстояниях и матрицах"
     },
     "color-scheme-generator": {
       "name": "Color Scheme Generator",
-      "description": "Build color palettes for photography shoots"
+      "description": "Подбор цветовых палитр для фотосъёмки"
     },
     "exposure-simulator": {
-      "name": "Exposure Triangle Simulator",
-      "description": "See how aperture, shutter speed, and ISO interact"
+      "name": "Симулятор экспозиционного треугольника",
+      "description": "Посмотри, как взаимодействуют диафрагма, выдержка и ISO"
     },
     "dof-simulator": {
-      "name": "Depth-of-Field Simulator",
-      "description": "Visualize how aperture, focal length, and distance affect background blur"
+      "name": "Симулятор глубины резкости",
+      "description": "Как диафрагма, фокусное расстояние и дистанция влияют на размытие фона"
     },
     "focus-stacking-calculator": {
-      "name": "Focus Stacking Calculator",
-      "description": "Calculate optimal focus distances for front-to-back sharpness"
+      "name": "Калькулятор фокус-стекинга",
+      "description": "Расчёт оптимальных точек фокусировки для сквозной резкости"
     },
     "equivalent-settings-calculator": {
-      "name": "Equivalent Settings Calculator",
-      "description": "Find equivalent aperture and focal length across sensor formats"
+      "name": "Калькулятор эквивалентных настроек",
+      "description": "Эквивалентная диафрагма и фокусное расстояние для разных форматов"
     },
     "hyperfocal-simulator": {
-      "name": "Hyperfocal Distance Simulator",
-      "description": "Learn where to focus for maximum sharpness from foreground to infinity"
+      "name": "Симулятор гиперфокального расстояния",
+      "description": "Куда наводить фокус для максимальной резкости от переднего плана до бесконечности"
     },
     "shutter-speed-visualizer": {
-      "name": "Shutter Speed Visualizer",
-      "description": "Find the minimum safe shutter speed for sharp handheld shots"
+      "name": "Визуализатор выдержки",
+      "description": "Минимально безопасная выдержка для съёмки с рук"
     },
     "nd-filter-calculator": {
-      "name": "ND Filter Calculator",
-      "description": "Calculate exposure time with any ND filter"
+      "name": "Калькулятор ND-фильтров",
+      "description": "Расчёт выдержки при использовании ND-фильтров"
     },
     "star-trail-calculator": {
-      "name": "Star Trail Calculator",
-      "description": "Calculate max exposure for sharp stars or plan star trail shots"
+      "name": "Калькулятор звёздных треков",
+      "description": "Максимальная выдержка для точек-звёзд и планирование звёздных треков"
     },
     "perspective-compression-simulator": {
-      "name": "Perspective Compression Simulator",
-      "description": "See how focal length affects background compression"
+      "name": "Симулятор перспективного сжатия",
+      "description": "Как фокусное расстояние влияет на сжатие фона"
     },
     "white-balance-visualizer": {
-      "name": "White Balance Visualizer",
-      "description": "See how color temperature affects your photos"
+      "name": "Визуализатор баланса белого",
+      "description": "Как цветовая температура влияет на снимки"
     },
     "sensor-size-comparison": {
-      "name": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes visually"
+      "name": "Сравнение размеров матриц",
+      "description": "Визуальное сравнение размеров матриц камер"
     },
     "frame-studio": {
       "name": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays"
+      "description": "Кадрирование, рамки и композиция с сетками-подсказками"
     },
     "exif-viewer": {
       "name": "EXIF Viewer",
-      "description": "View EXIF metadata and histogram for any photo — 100% client-side"
+      "description": "Просмотр EXIF-метаданных и гистограммы — всё в браузере"
     }
   }
 }

@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "sensor-size-comparison": {
-      "displayMode": "Display Mode",
-      "modeOverlay": "Overlay",
-      "modeSideBySide": "Side by Side",
-      "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
-      "sensors": "Sensors",
-      "customSensors": "Custom Sensors",
-      "placeholderName": "Name",
-      "placeholderW": "W (mm)",
-      "placeholderH": "H (mm)",
-      "placeholderMP": "Megapixels (optional)",
+      "displayMode": "顯示模式",
+      "modeOverlay": "疊合",
+      "modeSideBySide": "並排",
+      "modePixelDensity": "畫素密度",
+      "pixelDensityDescription": "顯示各感光元件常見的畫素數。畫素越大（方格越大）收光量越多。",
+      "sensors": "感光元件",
+      "customSensors": "自訂感光元件",
+      "placeholderName": "名稱",
+      "placeholderW": "寬 (mm)",
+      "placeholderH": "高 (mm)",
+      "placeholderMP": "百萬畫素（選填）",
       "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
-      "addSensor": "Add Sensor",
-      "save": "Save",
-      "cancelEdit": "Cancel",
-      "edit": "Edit",
-      "remove": "Remove",
-      "deleteAllCustom": "Delete All Custom Sensors",
-      "tableSensor": "Sensor",
-      "tableWidth": "Width (mm)",
-      "tableHeight": "Height (mm)",
-      "tableAspectRatio": "Aspect Ratio",
-      "tableArea": "Area (mm\u00b2)",
-      "tableCropFactor": "Crop Factor",
-      "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "maxDimensionWarning": "感光元件尺寸最大為 99 mm",
+      "addSensor": "新增感光元件",
+      "save": "儲存",
+      "cancelEdit": "取消",
+      "edit": "編輯",
+      "remove": "移除",
+      "deleteAllCustom": "刪除所有自訂感光元件",
+      "tableSensor": "感光元件",
+      "tableWidth": "寬度 (mm)",
+      "tableHeight": "高度 (mm)",
+      "tableAspectRatio": "長寬比",
+      "tableArea": "面積 (mm²)",
+      "tableCropFactor": "裁切係數",
+      "tableAspectCrop": "長寬比裁切",
+      "canvasAriaLabel": "以{mode}模式顯示感光元件尺寸比較",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "裁切係數是什麼？為什麼重要？",
+          "answer": "裁切係數描述相機感光元件與全片幅（35mm）感光元件的尺寸差異，會影響等效焦距、景深與弱光表現。1.5x 裁切係數代表感光元件比全片幅小 1.5 倍。"
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "全片幅與 APS-C 感光元件各有什麼優勢？",
+          "answer": "全片幅在相同焦距下提供更好的弱光表現、更淺的景深以及更寬的視角。APS-C 則更親民、更輕巧，並為野生動物與運動攝影提供額外的焦段延伸。"
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "感光元件尺寸如何影響景深？",
+          "answer": "在相同取景下，較大的感光元件景深較淺。若要以較小的感光元件取得相同取景，您必須使用較短焦距（景深更深）或退得更遠（景深也更深），兩者都會減少背景虛化。"
         }
       }
     }

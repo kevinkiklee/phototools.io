@@ -1,74 +1,74 @@
 {
   "education": {
     "sensor-size-comparison": {
-      "beginner": "Camera sensors come in many different physical sizes, from the large medium-format chips used in studio cameras down to the tiny sensors in smartphones. A larger sensor captures more light, produces less noise, and makes it easier to blur backgrounds. Sensor size is one of the biggest factors separating camera categories.",
+      "beginner": "ক্যামেরা সেন্সর বিভিন্ন শারীরিক সাইজে আসে, স্টুডিও ক্যামেরায় ব্যবহৃত বড় মিডিয়াম-ফরম্যাট চিপ থেকে শুরু করে স্মার্টফোনে ছোট সেন্সর পর্যন্ত। বড় সেন্সর বেশি আলো ধরে, কম নয়েজ তৈরি করে এবং ব্যাকগ্রাউন্ড ঝাপসা করা সহজ করে। সেন্সর সাইজ ক্যামেরা ক্যাটাগরির মধ্যে পার্থক্য তৈরি করার অন্যতম বড় কারণ।",
       "deeper": {
         "0": {
-          "heading": "How it works",
-          "text": "Sensor size affects photography in several interconnected ways. A larger sensor has a bigger area to collect photons, improving signal-to-noise ratio and dynamic range. Sensor size is one of the most important differences between camera categories — from medium format studio cameras to smartphone sensors."
+          "heading": "এটি কীভাবে কাজ করে",
+          "text": "সেন্সর সাইজ ফটোগ্রাফিকে একাধিক আন্তঃসম্পর্কিত উপায়ে প্রভাবিত করে। বড় সেন্সরের ফোটন সংগ্রহের জন্য বেশি এলাকা থাকে, সিগন্যাল-টু-নয়েজ অনুপাত ও ডায়নামিক রেঞ্জ উন্নত করে। সেন্সর সাইজ ক্যামেরা ক্যাটাগরির মধ্যে সবচেয়ে গুরুত্বপূর্ণ পার্থক্যের একটি — মিডিয়াম ফরম্যাট স্টুডিও ক্যামেরা থেকে স্মার্টফোন সেন্সর পর্যন্ত।"
         },
         "1": {
-          "heading": "Crop factor",
-          "text": "The \"crop factor\" describes how a sensor compares to the 35mm full-frame standard. An APS-C sensor with a 1.5x crop factor gives the same field of view with a 35mm lens as a full-frame camera would with a 52.5mm lens. This crop factor also multiplies the effective depth of field — a smaller sensor appears to give more depth of field at the same framing because you need a wider (shorter) lens to match the field of view."
+          "heading": "ক্রপ ফ্যাক্টর",
+          "text": "\"ক্রপ ফ্যাক্টর\" বর্ণনা করে একটি সেন্সর কীভাবে 35mm ফুল-ফ্রেম স্ট্যান্ডার্ডের সাথে তুলনা হয়। 1.5x ক্রপ ফ্যাক্টরবিশিষ্ট একটি APS-C সেন্সর 35mm লেন্সের সাথে একই দৃষ্টিক্ষেত্র দেয় যা একটি ফুল-ফ্রেম ক্যামেরা 52.5mm লেন্সের সাথে দেবে। এই ক্রপ ফ্যাক্টর কার্যকর ক্ষেত্রের গভীরতাকেও গুণ করে — একই ফ্রেমিংয়ে ছোট সেন্সর বেশি ক্ষেত্রের গভীরতা দেয় বলে মনে হয় কারণ দৃষ্টিক্ষেত্র মেলাতে তোমাকে প্রশস্ততর (ছোট) লেন্স লাগাতে হবে।"
         },
         "2": {
-          "heading": "Pixel density",
-          "text": "Pixel density (pixel pitch) measures how tightly pixels are packed on the sensor. Packing more megapixels onto a smaller sensor shrinks each photosite, reducing per-pixel light gathering. A 24MP full-frame sensor has ~6\u00b5m pixels while a 24MP APS-C sensor has ~4\u00b5m pixels, which is why the full-frame sensor typically performs better at high ISO."
+          "heading": "পিক্সেল ডেনসিটি",
+          "text": "পিক্সেল ডেনসিটি (পিক্সেল পিচ) মাপে সেন্সরে পিক্সেলগুলো কতটা ঘনভাবে সাজানো। ছোট সেন্সরে বেশি মেগাপিক্সেল প্যাক করা প্রতিটি ফটোসাইট ছোট করে, প্রতি-পিক্সেল আলো সংগ্রহ কমিয়ে দেয়। একটি 24MP ফুল-ফ্রেম সেন্সরের ~6µm পিক্সেল আছে, যখন একটি 24MP APS-C সেন্সরের ~4µm পিক্সেল, যে কারণে ফুল-ফ্রেম সেন্সর সাধারণত উচ্চ ISO-তে ভালো পারফর্ম করে।"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Physical Dimensions",
-          "description": "Width and height in millimeters determine the total light-gathering area and the field of view for a given lens."
+          "label": "শারীরিক মাত্রা",
+          "description": "মিলিমিটারে প্রস্থ ও উচ্চতা একটি নির্দিষ্ট লেন্সের জন্য মোট আলো-সংগ্রহের এলাকা ও দৃষ্টিক্ষেত্র নির্ধারণ করে।"
         },
         "1": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame diagonal to the sensor diagonal. Multiplied by focal length, it gives the \"equivalent\" focal length."
+          "label": "ক্রপ ফ্যাক্টর",
+          "description": "ফুল-ফ্রেম কর্ণ এবং সেন্সর কর্ণের অনুপাত। ফোকাল দৈর্ঘ্য দিয়ে গুণ করলে \"সমতুল্য\" ফোকাল দৈর্ঘ্য পাওয়া যায়।"
         },
         "2": {
-          "label": "Pixel Density",
-          "description": "How tightly pixels are packed. Smaller pixel pitch means more detail but less light per pixel, affecting noise performance."
+          "label": "পিক্সেল ডেনসিটি",
+          "description": "পিক্সেলগুলো কতটা ঘনভাবে সাজানো। ছোট পিক্সেল পিচ মানে বেশি ডিটেইল কিন্তু প্রতি পিক্সেলে কম আলো, যা নয়েজ পারফরম্যান্সকে প্রভাবিত করে।"
         },
         "3": {
-          "label": "Sensor Area",
-          "description": "Total area in mm\u00b2. A 44x33mm medium format sensor (Fujifilm GFX, Hasselblad X) has roughly 1.7x the area of full frame, while a larger 54x40mm medium format chip is about 2.5x. Full frame is roughly 13x the area of a flagship smartphone sensor."
+          "label": "সেন্সর এলাকা",
+          "description": "mm²-তে মোট এলাকা। একটি 44x33mm মিডিয়াম ফরম্যাট সেন্সর (Fujifilm GFX, Hasselblad X)-এর ফুল ফ্রেমের প্রায় 1.7x এলাকা আছে, যখন একটি বড় 54x40mm মিডিয়াম ফরম্যাট চিপ প্রায় 2.5x। ফুল ফ্রেম একটি ফ্ল্যাগশিপ স্মার্টফোন সেন্সরের প্রায় 13x এলাকা।"
         }
       },
       "tips": {
         "0": {
-          "text": "Use the overlay mode to see exactly how much bigger one sensor is than another — the area difference is often more dramatic than the numbers suggest."
+          "text": "ওভারলে মোড ব্যবহার করে দেখো একটি সেন্সর অন্যটির চেয়ে ঠিক কতটা বড় — এলাকার পার্থক্য প্রায়ই সংখ্যা যা বোঝায় তার চেয়ে বেশি নাটকীয়।"
         },
         "1": {
-          "text": "Switch to pixel density mode and enter your camera resolution to compare pixel pitch. If your camera has very high pixel density, you may hit diffraction limits at wider apertures than expected."
+          "text": "পিক্সেল পিচ তুলনা করতে পিক্সেল ডেনসিটি মোডে স্যুইচ করো এবং তোমার ক্যামেরা রেজোলিউশন লেখো। তোমার ক্যামেরার পিক্সেল ডেনসিটি খুব বেশি হলে, তুমি প্রত্যাশার চেয়ে প্রশস্ত অ্যাপারচারে বিবর্তন সীমায় পৌঁছাতে পারো।"
         },
         "2": {
-          "text": "When comparing cameras, sensor area matters more than megapixel count for noise performance. A 20MP full-frame sensor will typically outperform a 40MP APS-C sensor at high ISO."
+          "text": "ক্যামেরা তুলনা করার সময়, নয়েজ পারফরম্যান্সের জন্য সেন্সর এলাকা মেগাপিক্সেল সংখ্যার চেয়ে বেশি গুরুত্বপূর্ণ। একটি 20MP ফুল-ফ্রেম সেন্সর উচ্চ ISO-তে একটি 40MP APS-C সেন্সরের চেয়ে সাধারণত ভালো পারফর্ম করবে।"
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "Toggle individual sensor formats on or off to include them in the visual comparison and data table."
+          "term": "সেন্সর",
+          "definition": "ভিজ্যুয়াল তুলনা ও ডেটা টেবিলে অন্তর্ভুক্ত করতে পৃথক সেন্সর ফরম্যাট চালু বা বন্ধ করো।"
         },
         "Display Mode": {
           "term": "Display Mode",
-          "definition": "Overlay shows all sensors centered on the same point. Side by Side places them next to each other at the same scale. Pixel Density visualizes how tightly pixels are packed."
+          "definition": "Overlay সমস্ত সেন্সরকে একই বিন্দুতে কেন্দ্রীভূত দেখায়। Side by Side একই স্কেলে একে অপরের পাশে রাখে। Pixel Density দেখায় পিক্সেলগুলো কতটা ঘনভাবে সাজানো।"
         },
         "Resolution": {
-          "term": "Resolution",
-          "definition": "The total megapixel count used to calculate pixel pitch in pixel density mode. Higher megapixels on the same sensor size means smaller individual pixels."
+          "term": "রেজোলিউশন",
+          "definition": "পিক্সেল ডেনসিটি মোডে পিক্সেল পিচ হিসাবের জন্য ব্যবহৃত মোট মেগাপিক্সেল সংখ্যা। একই সেন্সর সাইজে বেশি মেগাপিক্সেল মানে ছোট পৃথক পিক্সেল।"
         },
         "Crop Factor": {
-          "term": "Crop Factor",
-          "definition": "The ratio of the 35mm full-frame diagonal to this sensor diagonal. A 1.5x crop factor means a 50mm lens frames like a 75mm lens on full frame."
+          "term": "ক্রপ ফ্যাক্টর",
+          "definition": "35mm ফুল-ফ্রেম কর্ণ এবং এই সেন্সর কর্ণের অনুপাত। 1.5x ক্রপ ফ্যাক্টর মানে ফুল ফ্রেমে 50mm লেন্স 75mm লেন্সের মতো ফ্রেম করে।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "A full-frame sensor measures 36\u00d724mm. An APS-C sensor has a 1.5x crop factor. What is the approximate width of an APS-C sensor?",
-          "hint": "Divide the full-frame width by the crop factor.",
-          "successMessage": "Correct! 36mm \u00f7 1.5 \u2248 24mm. The APS-C sensor is about 24\u00d716mm, giving it roughly 44% of the full-frame area.",
-          "failureMessage": "Divide the full-frame width (36mm) by the crop factor (1.5x): 36 \u00f7 1.5 = 24mm.",
+          "scenario": "একটি ফুল-ফ্রেম সেন্সরের মাপ 36×24mm। একটি APS-C সেন্সরের ক্রপ ফ্যাক্টর 1.5x। APS-C সেন্সরের আনুমানিক প্রস্থ কী?",
+          "hint": "ফুল-ফ্রেম প্রস্থকে ক্রপ ফ্যাক্টর দিয়ে ভাগ করো।",
+          "successMessage": "সঠিক! 36mm ÷ 1.5 ≈ 24mm। APS-C সেন্সর প্রায় 24×16mm, যা ফুল-ফ্রেম এলাকার প্রায় 44%।",
+          "failureMessage": "ফুল-ফ্রেম প্রস্থ (36mm) কে ক্রপ ফ্যাক্টর (1.5x) দিয়ে ভাগ করো: 36 ÷ 1.5 = 24mm।",
           "options": {
             "0": { "label": "24mm" },
             "1": { "label": "30mm" },
@@ -76,10 +76,10 @@
           }
         },
         "1": {
-          "scenario": "You mount a 50mm lens on a camera with a 2.0x crop factor sensor. What full-frame equivalent focal length do you get?",
-          "hint": "Multiply the focal length by the crop factor.",
-          "successMessage": "Right! 50mm \u00d7 2.0 = 100mm equivalent. This is why Micro Four Thirds cameras are popular for telephoto work — you get extra reach from every lens.",
-          "failureMessage": "Multiply the lens focal length by the crop factor: 50mm \u00d7 2.0 = 100mm equivalent.",
+          "scenario": "তুমি একটি 2.0x ক্রপ ফ্যাক্টর সেন্সরবিশিষ্ট ক্যামেরায় 50mm লেন্স লাগাও। কোন ফুল-ফ্রেম সমতুল্য ফোকাল দৈর্ঘ্য পাও?",
+          "hint": "ফোকাল দৈর্ঘ্যকে ক্রপ ফ্যাক্টর দিয়ে গুণ করো।",
+          "successMessage": "ঠিক! 50mm × 2.0 = 100mm সমতুল্য। এজন্যই Micro Four Thirds ক্যামেরা টেলিফটো কাজের জন্য জনপ্রিয় — প্রতিটি লেন্স থেকে অতিরিক্ত রিচ পাও।",
+          "failureMessage": "লেন্সের ফোকাল দৈর্ঘ্যকে ক্রপ ফ্যাক্টর দিয়ে গুণ করো: 50mm × 2.0 = 100mm সমতুল্য।",
           "options": {
             "0": { "label": "25mm" },
             "1": { "label": "75mm" },
@@ -87,36 +87,36 @@
           }
         },
         "2": {
-          "scenario": "Two cameras both have 24 megapixels — one full-frame (36\u00d724mm) and one APS-C (24\u00d716mm). Which has better high-ISO noise performance, and why?",
-          "hint": "Think about how the same number of pixels spread across different sensor areas affects individual pixel size.",
-          "successMessage": "Exactly! The full-frame sensor spreads 24MP over a larger area, so each pixel is physically bigger (~6\u00b5m vs ~4\u00b5m pitch) and captures more photons, resulting in less noise.",
-          "failureMessage": "The full-frame sensor wins — same megapixel count on a larger area means bigger pixels that gather more light, producing less noise at high ISO.",
+          "scenario": "দুটি ক্যামেরার উভয়েই 24 মেগাপিক্সেল — একটি ফুল-ফ্রেম (36×24mm) এবং একটি APS-C (24×16mm)। কোনটির উচ্চ-ISO নয়েজ পারফরম্যান্স ভালো, এবং কেন?",
+          "hint": "একই সংখ্যক পিক্সেল বিভিন্ন সেন্সর এলাকায় ছড়িয়ে দিলে পৃথক পিক্সেলের সাইজ কীভাবে প্রভাবিত হয় চিন্তা করো।",
+          "successMessage": "ঠিক! ফুল-ফ্রেম সেন্সর 24MP-কে বড় এলাকায় ছড়িয়ে দেয়, তাই প্রতিটি পিক্সেল শারীরিকভাবে বড় (~6µm বনাম ~4µm পিচ) এবং বেশি ফোটন ধরে, ফলে কম নয়েজ।",
+          "failureMessage": "ফুল-ফ্রেম সেন্সর জিতে — বড় এলাকায় একই মেগাপিক্সেল সংখ্যা মানে বড় পিক্সেল যা বেশি আলো সংগ্রহ করে, উচ্চ ISO-তে কম নয়েজ তৈরি করে।",
           "options": {
-            "0": { "label": "Full frame — larger pixels gather more light" },
-            "1": { "label": "APS-C — smaller sensors are more efficient" },
-            "2": { "label": "Same noise — megapixel count is what matters" }
+            "0": { "label": "ফুল ফ্রেম — বড় পিক্সেল বেশি আলো সংগ্রহ করে" },
+            "1": { "label": "APS-C — ছোট সেন্সর বেশি কার্যকর" },
+            "2": { "label": "একই নয়েজ — মেগাপিক্সেল সংখ্যাই গুরুত্বপূর্ণ" }
           }
         },
         "3": {
-          "scenario": "Looking at the comparison table, which sensor format has a crop factor closest to 2.0x?",
-          "hint": "Crop factor is the full-frame diagonal divided by the sensor diagonal.",
-          "successMessage": "Correct! Micro Four Thirds has a crop factor of 2.0x, which is why a 25mm M43 lens frames like a 50mm on full frame.",
-          "failureMessage": "Micro Four Thirds has a 2.0x crop factor. Check the table — its diagonal is exactly half the full-frame diagonal.",
+          "scenario": "তুলনা টেবিল দেখে, কোন সেন্সর ফরম্যাটের ক্রপ ফ্যাক্টর 2.0x-এর সবচেয়ে কাছে?",
+          "hint": "ক্রপ ফ্যাক্টর হলো ফুল-ফ্রেম কর্ণ ভাগ সেন্সর কর্ণ।",
+          "successMessage": "সঠিক! Micro Four Thirds-এর ক্রপ ফ্যাক্টর 2.0x, যে কারণে একটি 25mm M43 লেন্স ফুল ফ্রেমে 50mm-এর মতো ফ্রেম করে।",
+          "failureMessage": "Micro Four Thirds-এর 2.0x ক্রপ ফ্যাক্টর আছে। টেবিল চেক করো — এর কর্ণ ফুল-ফ্রেম কর্ণের ঠিক অর্ধেক।",
           "options": {
             "0": { "label": "APS-C (Canon)" },
             "1": { "label": "Micro Four Thirds" },
-            "2": { "label": "1\" Sensor" }
+            "2": { "label": "1\" সেন্সর" }
           }
         },
         "4": {
-          "scenario": "You are comparing a 50MP medium format camera to a 50MP full-frame camera using pixel density mode. Both have the same megapixel count. Which camera has the larger pixel pitch, and what practical advantage does that give?",
-          "hint": "Pixel pitch depends on sensor width divided by the number of horizontal pixels.",
-          "successMessage": "Right! The medium format sensor is physically larger, so at 50MP its pixels are bigger (higher pitch). This gives it about 1/3 stop better light gathering per pixel, plus slightly later diffraction onset.",
-          "failureMessage": "The medium format sensor is larger, so at the same resolution each pixel is physically bigger. Larger pixels collect more photons, giving better dynamic range and slightly later diffraction limits.",
+          "scenario": "তুমি পিক্সেল ডেনসিটি মোড ব্যবহার করে একটি 50MP মিডিয়াম ফরম্যাট ক্যামেরা ও একটি 50MP ফুল-ফ্রেম ক্যামেরা তুলনা করছো। দুটোতেই একই মেগাপিক্সেল সংখ্যা। কোন ক্যামেরার পিক্সেল পিচ বড়, এবং এটি কী ব্যবহারিক সুবিধা দেয়?",
+          "hint": "পিক্সেল পিচ সেন্সর প্রস্থকে অনুভূমিক পিক্সেলের সংখ্যা দিয়ে ভাগ করার উপর নির্ভর করে।",
+          "successMessage": "ঠিক! মিডিয়াম ফরম্যাট সেন্সর শারীরিকভাবে বড়, তাই 50MP-এ এর পিক্সেল বড় (বেশি পিচ)। এটি প্রতি পিক্সেলে প্রায় 1/3 স্টপ ভালো আলো সংগ্রহ দেয়, সাথে সামান্য দেরিতে বিবর্তন শুরু।",
+          "failureMessage": "মিডিয়াম ফরম্যাট সেন্সর বড়, তাই একই রেজোলিউশনে প্রতিটি পিক্সেল শারীরিকভাবে বড়। বড় পিক্সেল বেশি ফোটন সংগ্রহ করে, ভালো ডায়নামিক রেঞ্জ ও সামান্য দেরিতে বিবর্তন সীমা দেয়।",
           "options": {
-            "0": { "label": "Medium Format — better per-pixel light gathering and dynamic range" },
-            "1": { "label": "Full Frame — smaller pixels are more efficient" },
-            "2": { "label": "Both are identical since they have the same megapixel count" }
+            "0": { "label": "মিডিয়াম ফরম্যাট — প্রতি পিক্সেলে ভালো আলো সংগ্রহ ও ডায়নামিক রেঞ্জ" },
+            "1": { "label": "ফুল ফ্রেম — ছোট পিক্সেল বেশি কার্যকর" },
+            "2": { "label": "দুটোই অভিন্ন কারণ একই মেগাপিক্সেল" }
           }
         }
       }

@@ -13,16 +13,16 @@
       "loadingScene": "Loading scene...",
       "faq": {
         "what-is-white-balance": {
-          "question": "What is white balance in photography?",
-          "answer": "White balance adjusts colors in your photo so that objects that appear white in person also appear white in the image. Different light sources emit different color temperatures, and white balance compensates for these variations."
+          "question": "Τι είναι η ισορροπία λευκού στη φωτογραφία;",
+          "answer": "Η ισορροπία λευκού προσαρμόζει τα χρώματα στη φωτογραφία σου, ώστε τα αντικείμενα που φαίνονται λευκά στη φύση να εμφανίζονται λευκά και στην εικόνα. Διαφορετικές πηγές φωτός εκπέμπουν διαφορετικές θερμοκρασίες χρώματος, και η ισορροπία λευκού αντισταθμίζει αυτές τις διακυμάνσεις."
         },
         "kelvin-vs-presets": {
-          "question": "Should I use Kelvin values or white balance presets?",
-          "answer": "Presets (Daylight, Cloudy, Tungsten) are convenient starting points, but setting a specific Kelvin value gives more precise control. Shoot in RAW format to adjust white balance non-destructively in post-processing."
+          "question": "Να χρησιμοποιώ τιμές Kelvin ή προεπιλογές ισορροπίας λευκού;",
+          "answer": "Οι προεπιλογές (Daylight, Cloudy, Tungsten) είναι βολικά σημεία εκκίνησης, αλλά ρυθμίζοντας συγκεκριμένη τιμή Kelvin έχεις πιο ακριβή έλεγχο. Τράβα σε μορφή RAW για να προσαρμόσεις την ισορροπία λευκού χωρίς απώλειες στην επεξεργασία."
         },
         "when-to-use-manual-white-balance": {
-          "question": "When should I use manual white balance?",
-          "answer": "Use manual white balance for mixed lighting (combining natural and artificial), studio setups requiring exact color accuracy, product photography, and any time auto white balance produces inconsistent results across a series of shots."
+          "question": "Πότε να χρησιμοποιώ χειροκίνητη ισορροπία λευκού;",
+          "answer": "Χρησιμοποίησε χειροκίνητη ισορροπία λευκού σε μικτό φωτισμό (συνδυασμός φυσικού και τεχνητού), σε στούντιο που απαιτούν ακριβή χρωματική απόδοση, σε φωτογραφία προϊόντος και κάθε φορά που η αυτόματη ισορροπία λευκού δίνει ασυνεπή αποτελέσματα σε μια σειρά λήψεων."
         }
       }
     }

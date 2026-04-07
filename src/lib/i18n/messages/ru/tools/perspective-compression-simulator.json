@@ -1,13 +1,13 @@
 {
   "toolUI": {
     "perspective-compression-simulator": {
-      "cameraSettings": "Camera Settings",
-      "focalLength": "Focal Length",
-      "equivalent35mm": "Equivalent (35mm)",
-      "perspectiveDistance": "Perspective & Distance",
-      "subjectDistance": "Subject Distance",
-      "maintainSubjectSize": "Maintain Subject Size",
-      "resetAll": "Reset All"
+      "cameraSettings": "Настройки камеры",
+      "focalLength": "Фокусное расстояние",
+      "equivalent35mm": "Эквивалент (35 мм)",
+      "perspectiveDistance": "Перспектива и дистанция",
+      "subjectDistance": "Дистанция до объекта",
+      "maintainSubjectSize": "Держать размер объекта",
+      "resetAll": "Сбросить всё"
     }
   }
 }

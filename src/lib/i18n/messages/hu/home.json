@@ -1,13 +1,13 @@
 {
   "home": {
-    "heroTitle": "PhotoTools — Free Photography Tools",
-    "heroDesc": "Free photography calculators, simulators, and references. No sign-up required — your photos never leave your browser.",
-    "comingSoon": "Coming Soon",
+    "heroTitle": "PhotoTools — ingyenes fotós eszközök",
+    "heroDesc": "Ingyenes fotós kalkulátorok, szimulátorok és referenciák. Regisztráció nélkül — a fotóid soha nem hagyják el a böngésződet.",
+    "comingSoon": "Hamarosan",
     "categories": {
-      "visualizer": "Visualizers",
-      "calculator": "Calculators",
-      "reference": "Reference",
-      "file-tool": "File Tools"
+      "visualizer": "Szemléltetők",
+      "calculator": "Kalkulátorok",
+      "reference": "Referencia",
+      "file-tool": "Fájleszközök"
     }
   }
 }

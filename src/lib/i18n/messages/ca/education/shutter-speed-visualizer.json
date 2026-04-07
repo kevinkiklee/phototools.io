@@ -1,65 +1,65 @@
 {
   "education": {
     "shutter-speed-visualizer": {
-      "beginner": "The shutter speed guide helps you find the slowest shutter speed you can use while still getting a sharp handheld photo. If your shutter speed is too slow, camera shake from your hands will blur the image. The minimum safe speed depends on your focal length, whether you have image stabilization, and how steady your hands are.",
-      "deeper": "The classic \"reciprocal rule\" states that for sharp handheld photos, your shutter speed should be at least 1/(focal length) seconds — so a 200mm lens needs at least 1/200s. On crop-sensor cameras, you should use the equivalent focal length (e.g., 200mm on a 1.5x crop = 1/300s). Modern in-body stabilization (IBIS) and optical stabilization (OIS) can buy you 3-7 extra stops of handheld leeway, meaning that stabilized 200mm lens might be sharp at 1/15s or even slower. However, stabilization only compensates for camera shake, not subject motion. A person walking toward you at 1/15s will still be blurred regardless of stabilization. For moving subjects, you must select a shutter speed based on the subject's speed and distance, not just the focal length.",
+      "beginner": "La guia de velocitat d'obturació t'ajuda a trobar la velocitat d'obturació més lenta que pots fer servir mantenint una foto nítida a pols. Si la velocitat d'obturació és massa lenta, la trepidació de les mans desenfocarà la imatge. La velocitat mínima segura depèn de la distància focal, de si tens estabilització d'imatge i de com de ferma és la teva mà.",
+      "deeper": "La clàssica \"regla del recíproc\" diu que per a fotos nítides a pols, la velocitat d'obturació hauria de ser com a mínim 1/(distància focal) segons — per tant, un 200mm necessita almenys 1/200s. En càmeres de sensor retallat, hauries de fer servir la distància focal equivalent (p. ex., 200mm en un retall 1,5x = 1/300s). L'estabilització moderna dins del cos (IBIS) i l'estabilització òptica (OIS) poden donar-te entre 3 i 7 passos addicionals de marge a pols, cosa que significa que aquell 200mm estabilitzat pot ser nítid a 1/15s o fins i tot més lent. Tanmateix, l'estabilització només compensa la trepidació de la càmera, no el moviment del subjecte. Una persona caminant cap a tu a 1/15s seguirà sortint borrosa independentment de l'estabilització. Per a subjectes en moviment has de triar la velocitat d'obturació segons la velocitat i la distància del subjecte, no només segons la distància focal.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify camera shake. The reciprocal rule (1/focal length) is the starting point for determining minimum shutter speed."
+          "label": "Distància focal",
+          "description": "Les distàncies focals més llargues amplifiquen la trepidació. La regla del recíproc (1/distància focal) és el punt de partida per determinar la velocitat d'obturació mínima."
         },
         "1": {
-          "label": "Image Stabilization",
-          "description": "OIS (lens-based) typically provides 2-4 stops of benefit. IBIS (body-based) provides 3-5 stops. Combined OIS+IBIS can achieve 5-7 stops on some systems."
+          "label": "Estabilització d'imatge",
+          "description": "OIS (a l'objectiu) aporta normalment 2-4 passos de benefici. IBIS (al cos) aporta 3-5 passos. OIS+IBIS combinats poden arribar a 5-7 passos en alguns sistemes."
         },
         "2": {
-          "label": "Subject Motion",
-          "description": "Still subjects require only enough speed to counter camera shake. Moving subjects need faster speeds regardless of stabilization: walking (~1/125s), running (~1/500s), vehicles (~1/1000s+)."
+          "label": "Moviment del subjecte",
+          "description": "Els subjectes quiets només necessiten prou velocitat per contrarestar la trepidació. Els que es mouen necessiten velocitats més ràpides independentment de l'estabilització: caminar (~1/125s), córrer (~1/500s), vehicles (~1/1000s+)."
         },
         "3": {
-          "label": "Sensor Size (Crop Factor)",
-          "description": "Crop-sensor cameras effectively multiply the focal length for the reciprocal rule. A 50mm lens on a 1.5x crop behaves like 75mm, so you need at least 1/75s."
+          "label": "Mida del sensor (factor de retall)",
+          "description": "Les càmeres amb sensor de retall multipliquen efectivament la distància focal per a la regla del recíproc. Un 50mm en un retall 1,5x es comporta com un 75mm, per tant necessites almenys 1/75s."
         }
       },
       "tips": {
         "0": {
-          "text": "Brace yourself against a wall, tuck your elbows in, and exhale slowly before pressing the shutter. Good technique can give you 1-2 extra stops of steadiness beyond the reciprocal rule."
+          "text": "Recolza't contra una paret, ajunta els colzes al cos i expira lentament abans de prémer el disparador. Una bona tècnica et pot donar 1-2 passos extra d'estabilitat més enllà de la regla del recíproc."
         },
         "1": {
-          "text": "When shooting people, the subject's motion usually dictates your minimum speed, not your focal length. Even with a wide-angle lens and stabilization, a child running requires at least 1/500s."
+          "text": "Quan fotografiïs persones, el moviment del subjecte sol dictar la velocitat mínima, no la distància focal. Fins i tot amb un gran angular i estabilització, un nen corrent requereix almenys 1/500s."
         },
         "2": {
-          "text": "If you are consistently shooting in low light, invest in a camera body with IBIS. The ability to shoot handheld at 1/2s with a wide-angle lens opens up possibilities that no amount of high-ISO performance can match."
+          "text": "Si dispares constantment amb poca llum, inverteix en un cos de càmera amb IBIS. Poder disparar a pols a 1/2s amb un gran angular obre possibilitats que cap rendiment d'ISO alt pot igualar."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Directly affects the minimum safe shutter speed through the reciprocal rule: 1/(focal length) for full-frame, adjusted by crop factor for smaller sensors."
+          "term": "Distància focal",
+          "definition": "La distància focal de l'objectiu en mil·límetres. Afecta directament la velocitat d'obturació mínima segura a través de la regla del recíproc: 1/(distància focal) per a full frame, ajustat pel factor de retall per a sensors més petits."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The camera sensor size, which determines the crop factor. APS-C (1.5x) and Micro Four Thirds (2x) multiply the effective focal length, requiring faster shutter speeds for the same lens."
+          "term": "Mida del sensor",
+          "definition": "La mida del sensor de la càmera, que determina el factor de retall. APS-C (1,5x) i Micro Quatre Terços (2x) multipliquen la distància focal efectiva, requerint velocitats d'obturació més ràpides per al mateix objectiu."
         },
         "stabilization": {
-          "term": "Image Stabilization",
-          "definition": "Technology that compensates for camera shake. OIS (Optical Image Stabilization) is in the lens, IBIS (In-Body Image Stabilization) is in the camera body. They can work together for maximum benefit."
+          "term": "Estabilització d'imatge",
+          "definition": "Tecnologia que compensa la trepidació de la càmera. OIS (estabilització òptica) és a l'objectiu, IBIS (estabilització al cos) és dins del cos. Poden treballar juntes per al màxim benefici."
         },
         "subjectMotion": {
-          "term": "Subject Motion",
-          "definition": "How fast your subject is moving. Still subjects only need enough shutter speed to counteract camera shake. Moving subjects need faster speeds based on their velocity and direction relative to the camera."
+          "term": "Moviment del subjecte",
+          "definition": "Com de ràpid es mou el teu subjecte. Els subjectes quiets només necessiten prou velocitat d'obturació per contrarestar la trepidació. Els que es mouen necessiten velocitats més ràpides segons la velocitat i direcció respecte a la càmera."
         },
         "recommendedShutterSpeed": {
-          "term": "Recommended Shutter Speed",
-          "definition": "The minimum shutter speed calculated for your specific combination of focal length, stabilization, sensor, and subject motion. Shooting at this speed or faster should produce sharp results."
+          "term": "Velocitat d'obturació recomanada",
+          "definition": "La velocitat d'obturació mínima calculada per a la teva combinació concreta de distància focal, estabilització, sensor i moviment del subjecte. Disparant a aquesta velocitat o més ràpida hauries de tenir resultats nítids."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting with a 100mm lens on a full-frame camera with no image stabilization. Your subject is standing still. What is the minimum recommended shutter speed?",
-          "hint": "The reciprocal rule: minimum shutter speed = 1 / focal length.",
-          "successMessage": "Correct! The reciprocal rule says 1/100s for a 100mm lens on full frame. This is the classic starting point for handheld sharpness.",
-          "failureMessage": "For a 100mm lens on full frame with no stabilization, the reciprocal rule gives you 1/100s as the minimum safe shutter speed for static subjects.",
+          "scenario": "Estàs disparant amb un 100mm en una full frame sense estabilització. El teu subjecte és quiet. Quina és la velocitat d'obturació mínima recomanada?",
+          "hint": "La regla del recíproc: velocitat d'obturació mínima = 1 / distància focal.",
+          "successMessage": "Correcte! La regla del recíproc diu 1/100s per a un 100mm en full frame. És el punt de partida clàssic per a la nitidesa a pols.",
+          "failureMessage": "Per a un 100mm en full frame sense estabilització, la regla del recíproc et dona 1/100s com a velocitat mínima segura per a subjectes estàtics.",
           "options": {
             "0": { "label": "1/50s" },
             "1": { "label": "1/100s" },
@@ -68,51 +68,51 @@
           }
         },
         "1": {
-          "scenario": "You are using a 50mm lens on an APS-C camera (1.5x crop factor) with no stabilization. What minimum shutter speed should you use for a still subject?",
-          "hint": "Multiply the focal length by the crop factor before applying the reciprocal rule.",
-          "successMessage": "Right! 50mm x 1.5 = 75mm equivalent, so you need at least 1/75s. In practice, rounding up to 1/80s is the safe choice.",
-          "failureMessage": "On APS-C, the crop factor (1.5x) means a 50mm lens behaves like a 75mm lens. The reciprocal rule gives 1/75s as the minimum speed.",
+          "scenario": "Fas servir un 50mm en una càmera APS-C (factor de retall 1,5x) sense estabilització. Quina velocitat d'obturació mínima has de fer servir per a un subjecte quiet?",
+          "hint": "Multiplica la distància focal pel factor de retall abans d'aplicar la regla del recíproc.",
+          "successMessage": "Exacte! 50mm x 1,5 = 75mm equivalent, per tant necessites almenys 1/75s. A la pràctica, arrodonir a 1/80s és la tria segura.",
+          "failureMessage": "En APS-C, el factor de retall (1,5x) vol dir que un 50mm es comporta com un 75mm. La regla del recíproc et dona 1/75s com a velocitat mínima.",
           "options": {
             "0": { "label": "1/50s" },
-            "1": { "label": "1/75s (round to 1/80s)" },
+            "1": { "label": "1/75s (arrodonit a 1/80s)" },
             "2": { "label": "1/100s" },
             "3": { "label": "1/125s" }
           }
         },
         "2": {
-          "scenario": "You have a 200mm lens with OIS (4 stops of stabilization) on a full-frame body with IBIS (5 stops). Together they provide about 6 stops of combined stabilization. For a still subject, what is the approximate minimum shutter speed?",
-          "hint": "Start with the reciprocal rule (1/200s) and then apply 6 stops of stabilization benefit.",
-          "successMessage": "Correct! Starting at 1/200s and gaining 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. About 1/3 second handheld with a 200mm lens — impressive but achievable with modern stabilization!",
-          "failureMessage": "From 1/200s, each stop of stabilization doubles the usable time: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Six stops of stabilization with a 200mm lens gives approximately 1/3s.",
+          "scenario": "Tens un 200mm amb OIS (4 passos d'estabilització) en un cos full frame amb IBIS (5 passos). Junts aporten uns 6 passos d'estabilització combinada. Per a un subjecte quiet, quina és la velocitat d'obturació mínima aproximada?",
+          "hint": "Comença amb la regla del recíproc (1/200s) i aplica-hi 6 passos de benefici d'estabilització.",
+          "successMessage": "Correcte! Començant a 1/200s i guanyant 6 passos: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Uns 1/3 de segon a pols amb un 200mm — impressionant però assolible amb estabilització moderna!",
+          "failureMessage": "Des d'1/200s, cada pas d'estabilització dobla el temps utilitzable: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Sis passos d'estabilització amb un 200mm donen aproximadament 1/3s.",
           "options": {
             "0": { "label": "1/30s" },
             "1": { "label": "1/8s" },
             "2": { "label": "~1/3s" },
-            "3": { "label": "1 second" }
+            "3": { "label": "1 segon" }
           }
         },
         "3": {
-          "scenario": "You are photographing a friend jogging in a park using a 35mm lens on a full-frame camera with IBIS. Your IBIS gives you 5 stops of stabilization, so the reciprocal rule alone would let you shoot at about 1 second. Should you use 1 second?",
-          "hint": "Stabilization compensates for camera shake, not subject motion.",
-          "successMessage": "Correct! Stabilization only counters camera shake. A jogging person needs at least 1/250s to freeze their motion, regardless of how good your stabilization is.",
-          "failureMessage": "Stabilization cannot freeze a moving subject. For a person jogging, you need at least 1/250s to prevent motion blur, even if your camera could hold steady at 1 second.",
+          "scenario": "Fotografies un amic fent footing en un parc amb un 35mm en full frame amb IBIS. El teu IBIS et dona 5 passos d'estabilització, per tant la regla del recíproc per si sola et deixaria disparar a aproximadament 1 segon. Hauries de fer servir 1 segon?",
+          "hint": "L'estabilització compensa la trepidació, no el moviment del subjecte.",
+          "successMessage": "Correcte! L'estabilització només contrarresta la trepidació. Una persona fent footing necessita almenys 1/250s per congelar el moviment, independentment de com de bona sigui l'estabilització.",
+          "failureMessage": "L'estabilització no pot congelar un subjecte en moviment. Per a una persona fent footing, necessites almenys 1/250s per evitar el rastre de moviment, encara que la càmera pogués mantenir-se estable a 1 segon.",
           "options": {
-            "0": { "label": "Yes — IBIS handles all the motion" },
-            "1": { "label": "No — use at least 1/250s to freeze the jogger" },
-            "2": { "label": "No — use 1/60s as a compromise" },
-            "3": { "label": "It depends on the ISO setting" }
+            "0": { "label": "Sí — l'IBIS gestiona tot el moviment" },
+            "1": { "label": "No — fes servir almenys 1/250s per congelar el corredor" },
+            "2": { "label": "No — fes servir 1/60s com a compromís" },
+            "3": { "label": "Depèn de l'ajust d'ISO" }
           }
         },
         "4": {
-          "scenario": "You want to create a panning shot of a cyclist — the rider should be sharp while the background shows motion blur streaks. You are using a 70mm lens on full frame. What shutter speed range should you try?",
-          "hint": "Panning intentionally uses a slow shutter speed while tracking the subject. Too fast freezes everything; too slow blurs even the subject.",
-          "successMessage": "Correct! For panning a cyclist, 1/30s to 1/60s is the sweet spot. This is slow enough to blur the background into streaks while your tracking motion keeps the rider relatively sharp. It takes practice — shoot in burst mode and expect many rejects.",
-          "failureMessage": "Panning requires a shutter speed slow enough to blur the background but fast enough that your tracking keeps the subject sharp. For a cyclist, 1/30s to 1/60s is the typical range.",
+          "scenario": "Vols fer un escombrat (panning) d'un ciclista — el ciclista ha de sortir nítid mentre el fons mostra traces de moviment. Fas servir un 70mm en full frame. Quin rang de velocitat d'obturació hauries de provar?",
+          "hint": "El panning fa servir intencionadament una velocitat lenta mentre segueixes el subjecte. Massa ràpid ho congela tot; massa lent desenfoca fins i tot el subjecte.",
+          "successMessage": "Correcte! Per fer panning a un ciclista, d'1/30s a 1/60s és el punt dolç. És prou lent per convertir el fons en traces i, alhora, el teu moviment de seguiment manté el ciclista relativament nítid. Cal pràctica — dispara en mode ràfega i espera molts descarts.",
+          "failureMessage": "El panning requereix una velocitat prou lenta per desenfocar el fons però prou ràpida perquè el teu seguiment mantingui el subjecte nítid. Per a un ciclista, el rang típic és d'1/30s a 1/60s.",
           "options": {
-            "0": { "label": "1/1000s to 1/2000s" },
-            "1": { "label": "1/250s to 1/500s" },
-            "2": { "label": "1/30s to 1/60s" },
-            "3": { "label": "1s to 2s" }
+            "0": { "label": "1/1000s a 1/2000s" },
+            "1": { "label": "1/250s a 1/500s" },
+            "2": { "label": "1/30s a 1/60s" },
+            "3": { "label": "1s a 2s" }
           }
         }
       }

@@ -1,90 +1,90 @@
 {
   "metadata": {
     "site": {
-      "defaultTitle": "PhotoTools — Photography Tools",
+      "defaultTitle": "PhotoTools — fotós eszközök",
       "titleTemplate": "%s | PhotoTools",
-      "description": "Free photography tools: FOV simulator, Color scheme generator, EXIF viewer, Crop and frame photos, and more.",
-      "ogTitle": "PhotoTools — Free Photography Tools"
+      "description": "Ingyenes fotós eszközök: látószög-szimulátor, színpaletta-generátor, EXIF-megjelenítő, fotóvágás és -keretezés, és még sok más.",
+      "ogTitle": "PhotoTools — ingyenes fotós eszközök"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compare Focal Lengths",
-      "description": "Compare field of view across different focal lengths and sensor sizes. Free, interactive, shareable."
+      "title": "FOV Simulator — gyújtótávolságok összehasonlítása",
+      "description": "Hasonlíts össze látószögeket különböző gyújtótávolságokon és érzékelőméreteken. Ingyenes, interaktív, megosztható."
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator | PhotoTools",
-      "description": "Visualize how aperture, focal length, and distance affect background blur with real-time WebGL simulation"
+      "title": "Mélységélesség-szimulátor | PhotoTools",
+      "description": "Szemléltesd valós idejű WebGL-szimulációval, hogyan hat a rekesz, a gyújtótávolság és a távolság a háttérelmosódásra."
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator | PhotoTools",
-      "description": "Calculate optimal focus distances for front-to-back sharpness in macro and landscape photography"
+      "title": "Focus stacking-kalkulátor | PhotoTools",
+      "description": "Számítsd ki az optimális fókusztávolságokat az elölről hátulig éles képhez makró- és tájfotózáshoz."
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator | PhotoTools",
-      "description": "Find equivalent aperture and focal length across sensor formats to match depth of field"
+      "title": "Ekvivalens beállítások kalkulátor | PhotoTools",
+      "description": "Találd meg az ekvivalens rekeszt és gyújtótávolságot az érzékelőformátumok között azonos mélységélességhez."
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator",
-      "description": "Interactive exposure triangle simulator — see how aperture, shutter speed, and ISO affect your image in real time with live preview."
+      "title": "Expozíciós háromszög szimulátor | PhotoTools",
+      "description": "Interaktív expozíciós háromszög-szimulátor — nézd élő előnézeten, hogyan hat a rekesz, a záridő és az ISO a képedre."
     },
     "star-trail-calculator": {
       "title": "Star Trail Calculator",
-      "description": "Calculate the maximum exposure time for pinpoint stars using the 500, NPF, and other rules. Plan star trail stacking shots for any location."
+      "description": "Számold ki a maximális expozíciós időt éles csillagokhoz az 500-as, NPF és más szabályokkal. Tervezz csillagívfelvételeket bármilyen helyszínre."
     },
     "white-balance-visualizer": {
       "title": "White Balance Visualizer",
-      "description": "See how white balance and color temperature affect your photos. Visualize changes from 2000K to 10000K with real-time preview."
+      "description": "Nézd meg, hogyan hat a fehéregyensúly és a színhőmérséklet a fotóidra. Szemléltesd a változásokat 2000K-től 10000K-ig, élő előnézetben."
     },
     "sensor-size-comparison": {
       "title": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models."
+      "description": "Hasonlítsd össze a kamera-érzékelőket a közepes formátumtól az okostelefonig. Átfedés, egymás melletti és pixelsűrűség-nézet, valódi kameramodellekkel."
     },
     "color-scheme-generator": {
       "title": "Color Scheme Generator",
-      "description": "Generate color palettes for photography using complementary, analogous, triadic, and tetradic color harmonies. Interactive color wheel with photo picker."
+      "description": "Generálj fotós színpalettákat komplementer, analóg, triadikus és tetradikus harmóniák segítségével. Interaktív színkör fotóválasztóval."
     },
     "frame-studio": {
       "title": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays. 100% client-side — your photos never leave your device."
+      "description": "Vágj, keretezz és komponálj fotókat rács-segédvonalakkal. 100%-ban a böngészőben — a fotóid soha nem hagyják el az eszközöd."
     },
     "exif-viewer": {
       "title": "EXIF Viewer",
-      "description": "View EXIF metadata, histogram, and image preview for any photo. 100% client-side — your photos never leave your device."
+      "description": "Nézd meg bármely fotó EXIF metaadatait, hisztogramját és előnézetét. 100%-ban a böngészőben — a fotóid soha nem hagyják el az eszközöd."
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator",
-      "description": "Visualize hyperfocal distance for any lens and sensor. See exactly where to focus for maximum sharpness from foreground to infinity."
+      "title": "Hiperfokális távolság szimulátor | PhotoTools",
+      "description": "Szemléltesd a hiperfokális távolságot bármilyen objektívhez és érzékelőhöz. Nézd meg, pontosan hová fókuszálj a maximális élességért."
     },
     "shutter-speed-visualizer": {
       "title": "Shutter Speed Visualizer",
-      "description": "Find the minimum shutter speed for sharp handheld photos. Accounts for focal length, sensor size, and image stabilization."
+      "description": "Találd meg a legkisebb záridőt az éles kézi felvételekhez. Figyelembe veszi a gyújtótávolságot, az érzékelőméretet és a képstabilizálást."
     },
     "nd-filter-calculator": {
       "title": "ND Filter Calculator",
-      "description": "Calculate the correct shutter speed when using ND filters. Supports any filter strength from ND2 to ND1000000 with a quick-reference table."
+      "description": "Számítsd ki a helyes záridőt ND szűrők használatakor. ND2-től ND1000000-ig minden erősséget támogat, gyorsreferencia-táblázattal."
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator",
-      "description": "Interactive 3D simulator showing how focal length and distance affect perspective compression. See background compression change in real time."
+      "title": "Perspektíva-tömörítés szimulátor | PhotoTools",
+      "description": "Interaktív 3D-s szimulátor, ami megmutatja, hogyan hat a gyújtótávolság és a távolság a perspektíva-tömörítésre. Nézd valós időben a háttérváltozást."
     },
     "about": {
-      "title": "About",
-      "description": "PhotoTools is a free collection of browser-based photography calculators, simulators, and references for photographers of all skill levels."
+      "title": "Rólunk",
+      "description": "A PhotoTools ingyenes, böngésző-alapú fotós kalkulátorok, szimulátorok és referenciák gyűjteménye minden szintű fotósnak."
     },
     "contact": {
-      "title": "Contact | PhotoTools",
-      "description": "Get in touch with the PhotoTools team — questions, feedback, or suggestions about our photography tools."
+      "title": "Kapcsolat | PhotoTools",
+      "description": "Lépj kapcsolatba a PhotoTools csapatával — kérdések, visszajelzések vagy javaslatok a fotós eszközeinkkel kapcsolatban."
     },
     "privacy": {
-      "title": "Privacy Policy | PhotoTools",
-      "description": "Learn how PhotoTools handles your data, including analytics, cookies, and contact form submissions at www.phototools.io."
+      "title": "Adatvédelmi tájékoztató | PhotoTools",
+      "description": "Tudd meg, hogyan kezeli a PhotoTools az adataidat: analitika, sütik és kapcsolati űrlap a www.phototools.io oldalon."
     },
     "terms": {
-      "title": "Terms of Service | PhotoTools",
-      "description": "Terms of Service for PhotoTools — learn about acceptable use, intellectual property, disclaimers, and limitations of liability for www.phototools.io."
+      "title": "Felhasználási feltételek | PhotoTools",
+      "description": "A PhotoTools felhasználási feltételei — elfogadható használat, szellemi tulajdon, szavatosság kizárása és felelősségkorlátozás a www.phototools.io oldalon."
     },
     "glossary": {
-      "title": "Photography Glossary",
-      "description": "Searchable glossary of 50+ photography terms with definitions and links to interactive tools."
+      "title": "Fotós fogalomtár",
+      "description": "Kereshető fogalomtár 50+ fotós szakkifejezéssel, definíciókkal és linkekkel az interaktív eszközökhöz."
     }
   }
 }

@@ -1,28 +1,28 @@
 {
   "toolUI": {
     "white-balance-visualizer": {
-      "colorTemperature": "Color Temperature:",
-      "warm": "Warm",
-      "neutral": "Neutral",
-      "cool": "Cool",
-      "presets": "Presets",
-      "red": "Red",
-      "green": "Green",
-      "blue": "Blue",
+      "colorTemperature": "Teplota barev:",
+      "warm": "Teplá",
+      "neutral": "Neutrální",
+      "cool": "Chladná",
+      "presets": "Přednastavení",
+      "red": "Červená",
+      "green": "Zelená",
+      "blue": "Modrá",
       "hex": "Hex",
-      "loadingScene": "Loading scene...",
+      "loadingScene": "Načítám scénu...",
       "faq": {
         "what-is-white-balance": {
-          "question": "What is white balance in photography?",
-          "answer": "White balance adjusts colors in your photo so that objects that appear white in person also appear white in the image. Different light sources emit different color temperatures, and white balance compensates for these variations."
+          "question": "Co je vyvážení bílé ve fotografii?",
+          "answer": "Vyvážení bílé upravuje barvy na fotce tak, aby objekty, které naživo vypadají bílé, vypadaly bílé i na snímku. Různé zdroje světla mají různé teploty barev a vyvážení bílé tyto rozdíly kompenzuje."
         },
         "kelvin-vs-presets": {
-          "question": "Should I use Kelvin values or white balance presets?",
-          "answer": "Presets (Daylight, Cloudy, Tungsten) are convenient starting points, but setting a specific Kelvin value gives more precise control. Shoot in RAW format to adjust white balance non-destructively in post-processing."
+          "question": "Mám používat hodnoty v Kelvinech, nebo přednastavení?",
+          "answer": "Přednastavení (Denní světlo, Zataženo, Žárovka) jsou pohodlný výchozí bod, ale konkrétní hodnota v Kelvinech ti dá přesnější kontrolu. Foť do RAWu, abys mohl vyvážení bílé nedestruktivně upravit v postprodukci."
         },
         "when-to-use-manual-white-balance": {
-          "question": "When should I use manual white balance?",
-          "answer": "Use manual white balance for mixed lighting (combining natural and artificial), studio setups requiring exact color accuracy, product photography, and any time auto white balance produces inconsistent results across a series of shots."
+          "question": "Kdy použít ruční vyvážení bílé?",
+          "answer": "Ruční vyvážení bílé se hodí pro smíšené osvětlení (přirozené plus umělé), studiové fotografování s přesnou barevnou reprodukcí, produktovou fotografii a všude tam, kde automatické vyvážení bílé dává napříč sérií nekonzistentní výsledky."
         }
       }
     }

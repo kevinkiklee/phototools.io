@@ -1,21 +1,21 @@
 {
   "toolUI": {
     "hyperfocal-simulator": {
-      "settings": "Settings",
-      "focalLength": "Focal Length",
-      "aperture": "Aperture",
-      "focusDistance": "Focus Distance:",
-      "sensor": "Sensor",
-      "scene": "Scene:",
-      "sceneLandscape": "Landscape",
-      "sceneStreet": "Street",
-      "hyperfocalDistance": "Hyperfocal Distance",
-      "nearLimit": "Near Limit",
-      "farLimit": "Far Limit",
-      "focusDistanceResult": "Focus Distance",
-      "hyperfocalReference": "Hyperfocal Reference",
-      "sharpToInfinity": "Sharp to infinity",
-      "nearLimitBadge": "Near limit:"
+      "settings": "Налаштування",
+      "focalLength": "Фокусна відстань",
+      "aperture": "Діафрагма",
+      "focusDistance": "Дистанція фокусування:",
+      "sensor": "Матриця",
+      "scene": "Сцена:",
+      "sceneLandscape": "Пейзаж",
+      "sceneStreet": "Вулиця",
+      "hyperfocalDistance": "Гіперфокальна відстань",
+      "nearLimit": "Передня межа",
+      "farLimit": "Задня межа",
+      "focusDistanceResult": "Дистанція фокусування",
+      "hyperfocalReference": "Гіперфокальний орієнтир",
+      "sharpToInfinity": "Різко до нескінченності",
+      "nearLimitBadge": "Передня межа:"
     }
   }
 }

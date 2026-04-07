@@ -1,13 +1,13 @@
 {
   "toolUI": {
     "perspective-compression-simulator": {
-      "cameraSettings": "Camera Settings",
-      "focalLength": "Focal Length",
-      "equivalent35mm": "Equivalent (35mm)",
-      "perspectiveDistance": "Perspective & Distance",
-      "subjectDistance": "Subject Distance",
-      "maintainSubjectSize": "Maintain Subject Size",
-      "resetAll": "Reset All"
+      "cameraSettings": "Kamerabeállítások",
+      "focalLength": "Gyújtótávolság",
+      "equivalent35mm": "Ekvivalens (35mm)",
+      "perspectiveDistance": "Perspektíva és távolság",
+      "subjectDistance": "Téma távolsága",
+      "maintainSubjectSize": "Téma méretének megtartása",
+      "resetAll": "Minden visszaállítása"
     }
   }
 }

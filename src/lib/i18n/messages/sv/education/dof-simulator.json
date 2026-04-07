@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "Skärpedjup (DoF) är det avståndsområde i bilden som upplevs som acceptabelt skarpt. Ett grunt skärpedjup suddar bakgrunden bakom motivet, medan ett stort skärpedjup håller allt från förgrund till horisont skarpt. Att kontrollera skärpedjupet är ett av de starkaste kreativa verktygen i fotografi.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Så fungerar skärpedjup",
+          "text": "Skärpedjup styrs av oskärpecirkeln (CoC) — den största oskärpefläck på sensorn som fortfarande uppfattas som skarp av ögat. Tre fysiska faktorer bestämmer skärpedjupet: brännvidd, bländare och motivsavstånd. En större bländare (lägre f-tal) ger grundare skärpedjup eftersom linsen samlar ljuset i brantare vinklar, vilket gör att oskärpa punkter breder ut sig till större cirklar på sensorn."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Brännvidd och avstånd",
+          "text": "Längre brännvidder förstorar bilden, vilket också förstorar oskärpecirklarna och krymper skärpedjupet. Att gå närmare motivet minskar skärpedjupet av samma skäl — det relativa avståndet mellan motiv och bakgrund blir större. Hyperfokalavståndet är det fokusavstånd där skärpedjupet sträcker sig från halva det avståndet till oändligheten, vilket maximerar skärpan i hela scenen."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Bokeh och diffraktion",
+          "text": "Bokeh syftar på kvaliteten i de oskärpa områdena. Antalet bländarblad och deras form påverkar bokehens karaktär — mer rundade blad ger mjukare, mer cirkulära högdagrar. Vid mycket små bländare (f/16 och mindre) sprider diffraktionen ljuset när det passerar bländarkanten, vilket gör hela bilden mjukare även inom skärpedjupszonen. Det finns alltid en sweet spot — vanligtvis runt f/5.6–f/8 på fullformat — där skärpa och skärpedjup är optimalt balanserade."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "Bländare",
+          "description": "Större bländare (f/1.4–f/2.8) ger grunt skärpedjup med krämig bokeh. Mindre bländare (f/8–f/16) ökar skärpan i hela bilden."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "Brännvidd",
+          "description": "Längre brännvidder komprimerar perspektivet och krymper skärpedjupet vid samma bländare och bildutsnitt. Ett 200 mm på f/4 ger mycket mindre skärpedjup än ett 35 mm på f/4."
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "Motivsavstånd",
+          "description": "Ju närmare du fokuserar, desto grundare blir skärpedjupet. Makrofotografer arbetar ofta med skärpedjup i millimeter."
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "Sensorstorlek",
+          "description": "Större sensorer kräver längre brännvidder för samma bildutsnitt, vilket indirekt krymper skärpedjupet. En fullformatskamera ger grundare skärpedjup än en Micro Four Thirds-kamera vid ekvivalent bildutsnitt."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "För gruppporträtt: använd f/5.6 eller mindre och se till att alla står i samma fokusplan. Även en person som står ett halvt steg framför kan hamna utanför skärpan vid stora bländare."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "Vid landskapsfotografering: fokusera på hyperfokalavståndet snarare än på oändligheten. Det ger maximal skärpa från nära förgrund till avlägsen bakgrund."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Vill du ha maximal bakgrundsoskärpa i ett porträtt: öka brännvidden och kom så nära motivet bildutsnittet tillåter — båda ändringarna samverkar och krymper skärpedjupet ordentligt."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "Brännvidd",
+          "definition": "Avståndet i millimeter från linsens optiska centrum till sensorn när den är fokuserad på oändligheten. Längre brännvidder förstorar bilden och krymper skärpedjupet."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "Bländare",
+          "definition": "Storleken på linsens öppning, uttryckt som ett f-tal (t.ex. f/2.8). Lägre f-tal betyder större öppning, mer ljus och grundare skärpedjup."
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "Motivsavstånd",
+          "definition": "Avståndet från kamerans sensor till fokuspunkten. Närmare fokus ger grundare skärpedjup."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "Sensorstorlek",
+          "definition": "Kamerasensorns fysiska mått. Större sensorer (fullformat, mellanformat) ger grundare skärpedjup vid ekvivalent bildutsnitt jämfört med mindre sensorer (APS-C, Micro Four Thirds)."
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "Orientering",
+          "definition": "Växla mellan liggande (horisontell) och stående (vertikal) orientering. Påverkar referensramen för motivsavståndet i beräkningarna."
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "Nära skärpegräns",
+          "definition": "Det närmaste avståndet från kameran som upplevs som acceptabelt skarpt. Allt närmare än detta uppfattas som oskarpt."
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "Bortre skärpegräns",
+          "definition": "Det längsta avståndet från kameran som upplevs som acceptabelt skarpt. När denna når oändligheten är allt bortom den nära gränsen i fokus."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Totalt skärpedjup",
+          "definition": "Det fulla avståndet mellan nära och bortre skärpegränsen — hela den zon som upplevs som skarp i bilden."
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "Hyperfokalavstånd",
+          "definition": "Det fokusavstånd som maximerar skärpedjupet. När du fokuserar här är allt från halva hyperfokalavståndet till oändligheten skarpt."
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "Bakgrundsoskärpa",
+          "definition": "Ett mått på hur oskarp bakgrunden är bakom motivet. Högre värden betyder starkare oskärpa och tydligare motivisolering."
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "Oskärpecirkel",
+          "definition": "Den största diametern på en oskärpefläck på sensorn som fortfarande uppfattas som en punkt av ögat. Bestämmer gränsen för acceptabel skärpa vid skärpedjupsberäkningar."
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "Isoleringspoäng",
+          "definition": "Ett sammanvägt mått (0–100) som visar hur väl motivet är skiljt från bakgrunden, utifrån mängden bakgrundsoskärpa i förhållande till motivets storlek."
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "Bokehform",
+          "definition": "Formen på oskärpa högdagrar, bestämd av antalet bländarblad och deras kurvatur. Fler blad ger rundare, mjukare bokeh."
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "Diffraktion",
+          "definition": "Vid mycket små bländare böjs ljuset runt bländarkanten och bilden blir mjukare. På fullformatssensorer märks det vanligtvis från f/16 och mindre."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Du fotograferar ett porträtt och vill ha en vackert oskarp bakgrund. Vilken bländare bör du välja?",
+          "hint": "Lägre f-tal betyder större linsöppning och mer bakgrundsoskärpa.",
+          "successMessage": "Rätt! En stor bländare som f/1.8 eller f/2.8 ger grunt skärpedjup och separerar motivet från bakgrunden med fin bokeh.",
+          "failureMessage": "Inte riktigt. Små bländare som f/11 eller f/16 håller mer av scenen i fokus. För bakgrundsoskärpa väljer du en stor bländare (lågt f-tal).",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Du fotograferar en grupp på 8 personer i två rader på ett bröllop. Vilken bländare hjälper dig att få alla i fokus?",
+          "hint": "Med personer på något olika avstånd behöver du tillräckligt skärpedjup för att täcka båda raderna.",
+          "successMessage": "Bra val! f/5.6 ger tillräckligt skärpedjup för att hålla båda raderna skarpa och samtidigt rimlig slutartid inomhus.",
+          "failureMessage": "Den bländaren kan antingen lämna den bakre raden utanför fokus eller vara onödigt liten. För två rader av personer är f/5.6 en pålitlig utgångspunkt.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Du fotograferar ett landskap med vildblommor 2 meter bort och berg i bakgrunden. Du använder ett 24 mm-objektiv på fullformat. Vilken teknik ger maximal skärpa från främst till bakåt?",
+          "hint": "Det finns ett specifikt avstånd du kan fokusera på som maximerar skärpezonen från förgrund till oändlighet.",
+          "successMessage": "Precis! Att fokusera på hyperfokalavståndet vid f/11 gör att allt från cirka 1 meter till oändligheten blir acceptabelt skarpt — perfekt för den här scenen.",
+          "failureMessage": "Fokuserar du på oändligheten blir blommorna mjuka. Använd hyperfokalavståndet för att sträcka skärpan från nära förgrund till oändlighet.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Fokusera på blommorna (2 m)" },
+            "1": { "label": "Fokusera på bergen (oändligheten)" },
+            "2": { "label": "Fokusera på hyperfokalavståndet" },
+            "3": { "label": "Fokusera halvvägs mellan blommor och berg" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Du makrofotograferar en blomma och märker att bara de främre kronbladen är skarpa. Resten av blomman är suddig. Du är på f/5.6. Vad bör du göra för att få mer av blomman i fokus?",
+          "hint": "På nära håll blir skärpedjupet extremt tunt. Tänk på bländaren.",
+          "successMessage": "Rätt! Att nedbländaa till f/11 eller f/16 ökar det hårfint tunna skärpedjupet i makrofoto. Var bara uppmärksam på att diffraktion kan göra bilden mjukare vid mycket små bländare.",
+          "failureMessage": "Att öppna bländaren ytterligare skulle göra skärpedjupet ännu tunnare. Vid makrofoto är nedbländning (högre f-tal) det främsta sättet att få mer djup.",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Öppna till f/2.8 för mer ljus" },
+            "1": { "label": "Nedbländaa till f/11" },
+            "2": { "label": "Byt till ett vidvinkelobjektiv" },
+            "3": { "label": "Flytta dig längre från blomman" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Du jämför två kameror för porträttfoto: en fullformatskamera med ett 85 mm f/1.8 och en Micro Four Thirds-kamera med ett 42,5 mm f/1.8. Båda ger samma bildutsnitt. Vilken kamera ger grundare skärpedjup?",
+          "hint": "Tänk på ekvivalenta brännvidder och hur sensorstorleken påverkar skärpedjupsberäkningen vid samma f-tal.",
+          "successMessage": "Rätt! Fullformatskameran ger ungefär 2 steg grundare skärpedjup. MFT-objektivet har visserligen samma f-tal, men den kortare faktiska brännvidden (42,5 mm mot 85 mm) ger större skärpedjup vid ekvivalent bildutsnitt.",
+          "failureMessage": "Även om båda objektiven är f/1.8 använder fullformatskameran en längre faktisk brännvidd för samma bildutsnitt, vilket ger betydligt grundare skärpedjup.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Fullformat med 85 mm f/1.8" },
+            "1": { "label": "Micro Four Thirds med 42,5 mm f/1.8" },
+            "2": { "label": "Båda ger identiskt skärpedjup" }
           }
         }
       }

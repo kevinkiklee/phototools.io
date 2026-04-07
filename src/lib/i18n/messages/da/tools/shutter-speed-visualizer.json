@@ -1,27 +1,27 @@
 {
   "toolUI": {
     "shutter-speed-visualizer": {
-      "description": "See how shutter speed affects motion blur for different subjects.",
-      "shutterSpeed": "Shutter Speed",
-      "shutterSpeedAriaLabel": "Shutter speed",
-      "sliderSlow": "Slow (2s)",
-      "sliderFast": "Fast (1/4000)",
-      "selectedSpeed": "Selected Speed",
-      "motionBlurAriaLabel": "Motion blur visualization for different subjects",
-      "verdictFrozen": "Frozen",
-      "verdictMostlySharp": "Mostly sharp",
-      "verdictSlightBlur": "Slight blur",
+      "description": "Se hvordan lukkertiden påvirker motion blur for forskellige motiver.",
+      "shutterSpeed": "Lukkertid",
+      "shutterSpeedAriaLabel": "Lukkertid",
+      "sliderSlow": "Langsom (2s)",
+      "sliderFast": "Hurtig (1/4000)",
+      "selectedSpeed": "Valgt tid",
+      "motionBlurAriaLabel": "Visualisering af motion blur for forskellige motiver",
+      "verdictFrozen": "Frosset",
+      "verdictMostlySharp": "Næsten skarp",
+      "verdictSlightBlur": "Let sløring",
       "verdictMotionBlur": "Motion blur",
-      "standingPerson": "Standing person",
-      "slowWalk": "Slow walk",
+      "standingPerson": "Stående person",
+      "slowWalk": "Langsom gang",
       "jogging": "Jogging",
-      "running": "Running",
-      "cyclist": "Cyclist",
-      "birdsInFlight": "Birds in flight",
-      "carCity": "Car (city)",
-      "f1Car": "F1 car",
-      "airplaneLanding": "Airplane (landing)",
-      "stationary": "stationary"
+      "running": "Løb",
+      "cyclist": "Cyklist",
+      "birdsInFlight": "Fugle i flugt",
+      "carCity": "Bil (by)",
+      "f1Car": "F1-bil",
+      "airplaneLanding": "Fly (landing)",
+      "stationary": "stillestående"
     }
   }
 }

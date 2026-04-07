@@ -1,74 +1,74 @@
 {
   "education": {
     "sensor-size-comparison": {
-      "beginner": "Camera sensors come in many different physical sizes, from the large medium-format chips used in studio cameras down to the tiny sensors in smartphones. A larger sensor captures more light, produces less noise, and makes it easier to blur backgrounds. Sensor size is one of the biggest factors separating camera categories.",
+      "beginner": "Els sensors de càmera tenen moltes mides físiques diferents, des dels grans xips de mitjà format utilitzats a les càmeres d'estudi fins als sensors minúsculs dels mòbils. Un sensor més gran captura més llum, produeix menys soroll i facilita desenfocar els fons. La mida del sensor és un dels factors més importants que separen les categories de càmeres.",
       "deeper": {
         "0": {
-          "heading": "How it works",
-          "text": "Sensor size affects photography in several interconnected ways. A larger sensor has a bigger area to collect photons, improving signal-to-noise ratio and dynamic range. Sensor size is one of the most important differences between camera categories — from medium format studio cameras to smartphone sensors."
+          "heading": "Com funciona",
+          "text": "La mida del sensor afecta la fotografia en diverses maneres interconnectades. Un sensor més gran té una àrea més gran per recollir fotons, cosa que millora la relació senyal-soroll i el rang dinàmic. La mida del sensor és una de les diferències més importants entre categories de càmera — des de les de mitjà format d'estudi fins als sensors dels mòbils."
         },
         "1": {
-          "heading": "Crop factor",
-          "text": "The \"crop factor\" describes how a sensor compares to the 35mm full-frame standard. An APS-C sensor with a 1.5x crop factor gives the same field of view with a 35mm lens as a full-frame camera would with a 52.5mm lens. This crop factor also multiplies the effective depth of field — a smaller sensor appears to give more depth of field at the same framing because you need a wider (shorter) lens to match the field of view."
+          "heading": "Factor de retall",
+          "text": "El \"factor de retall\" descriu com es compara un sensor amb l'estàndard full frame de 35mm. Un sensor APS-C amb un factor de retall d'1,5x dona el mateix angle de visió amb un 35mm que una càmera full frame amb un 52,5mm. Aquest factor de retall també multiplica la profunditat de camp efectiva — un sensor més petit sembla donar més profunditat de camp al mateix enquadrament perquè necessites un objectiu més curt per igualar l'angle de visió."
         },
         "2": {
-          "heading": "Pixel density",
-          "text": "Pixel density (pixel pitch) measures how tightly pixels are packed on the sensor. Packing more megapixels onto a smaller sensor shrinks each photosite, reducing per-pixel light gathering. A 24MP full-frame sensor has ~6\u00b5m pixels while a 24MP APS-C sensor has ~4\u00b5m pixels, which is why the full-frame sensor typically performs better at high ISO."
+          "heading": "Densitat de píxels",
+          "text": "La densitat de píxels (pitch de píxel) mesura com de junts hi ha els píxels al sensor. Posar més megapíxels en un sensor més petit encongeix cada fotolloc, reduint la captació de llum per píxel. Un sensor full frame de 24MP té píxels de ~6µm mentre que un APS-C de 24MP té píxels de ~4µm, raó per la qual el sensor full frame sol rendir millor a ISO alt."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Physical Dimensions",
-          "description": "Width and height in millimeters determine the total light-gathering area and the field of view for a given lens."
+          "label": "Dimensions físiques",
+          "description": "L'amplada i l'alçada en mil·límetres determinen l'àrea total de captació de llum i l'angle de visió per a un objectiu determinat."
         },
         "1": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame diagonal to the sensor diagonal. Multiplied by focal length, it gives the \"equivalent\" focal length."
+          "label": "Factor de retall",
+          "description": "La proporció entre la diagonal del full frame i la diagonal del sensor. Multiplicada per la distància focal, dona la distància focal \"equivalent\"."
         },
         "2": {
-          "label": "Pixel Density",
-          "description": "How tightly pixels are packed. Smaller pixel pitch means more detail but less light per pixel, affecting noise performance."
+          "label": "Densitat de píxels",
+          "description": "Com de junts estan els píxels. Un pitch de píxel més petit vol dir més detall però menys llum per píxel, afectant el rendiment de soroll."
         },
         "3": {
-          "label": "Sensor Area",
-          "description": "Total area in mm\u00b2. A 44x33mm medium format sensor (Fujifilm GFX, Hasselblad X) has roughly 1.7x the area of full frame, while a larger 54x40mm medium format chip is about 2.5x. Full frame is roughly 13x the area of a flagship smartphone sensor."
+          "label": "Àrea del sensor",
+          "description": "Àrea total en mm². Un sensor de mitjà format de 44x33mm (Fujifilm GFX, Hasselblad X) té aproximadament 1,7x l'àrea del full frame, mentre que un xip de mitjà format més gran de 54x40mm n'és aproximadament 2,5x. El full frame és aproximadament 13x l'àrea d'un sensor de mòbil de gamma alta."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the overlay mode to see exactly how much bigger one sensor is than another — the area difference is often more dramatic than the numbers suggest."
+          "text": "Fes servir el mode superposat per veure exactament quant més gran és un sensor que un altre — la diferència d'àrea sovint és més dramàtica del que els números suggereixen."
         },
         "1": {
-          "text": "Switch to pixel density mode and enter your camera resolution to compare pixel pitch. If your camera has very high pixel density, you may hit diffraction limits at wider apertures than expected."
+          "text": "Canvia al mode de densitat de píxels i introdueix la resolució de la teva càmera per comparar el pitch de píxel. Si la teva càmera té una densitat de píxels molt alta, pots arribar als límits de difracció amb diafragmes més oberts del que t'esperaries."
         },
         "2": {
-          "text": "When comparing cameras, sensor area matters more than megapixel count for noise performance. A 20MP full-frame sensor will typically outperform a 40MP APS-C sensor at high ISO."
+          "text": "Quan compares càmeres, l'àrea del sensor importa més que el nombre de megapíxels per al rendiment de soroll. Un sensor full frame de 20MP normalment superarà un APS-C de 40MP a ISO alt."
         }
       },
       "tooltips": {
         "Sensor": {
           "term": "Sensor",
-          "definition": "Toggle individual sensor formats on or off to include them in the visual comparison and data table."
+          "definition": "Activa o desactiva cada format de sensor per incloure'l a la comparació visual i a la taula de dades."
         },
         "Display Mode": {
-          "term": "Display Mode",
-          "definition": "Overlay shows all sensors centered on the same point. Side by Side places them next to each other at the same scale. Pixel Density visualizes how tightly pixels are packed."
+          "term": "Mode de visualització",
+          "definition": "Superposat mostra tots els sensors centrats al mateix punt. Costat a costat els col·loca al costat els uns dels altres a la mateixa escala. Densitat de píxels visualitza com de junts estan els píxels."
         },
         "Resolution": {
-          "term": "Resolution",
-          "definition": "The total megapixel count used to calculate pixel pitch in pixel density mode. Higher megapixels on the same sensor size means smaller individual pixels."
+          "term": "Resolució",
+          "definition": "El nombre total de megapíxels utilitzat per calcular el pitch de píxel al mode de densitat de píxels. Més megapíxels a la mateixa mida de sensor vol dir píxels individuals més petits."
         },
         "Crop Factor": {
-          "term": "Crop Factor",
-          "definition": "The ratio of the 35mm full-frame diagonal to this sensor diagonal. A 1.5x crop factor means a 50mm lens frames like a 75mm lens on full frame."
+          "term": "Factor de retall",
+          "definition": "La proporció entre la diagonal del full frame de 35mm i la d'aquest sensor. Un factor de retall d'1,5x vol dir que un 50mm enquadra com un 75mm en full frame."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "A full-frame sensor measures 36\u00d724mm. An APS-C sensor has a 1.5x crop factor. What is the approximate width of an APS-C sensor?",
-          "hint": "Divide the full-frame width by the crop factor.",
-          "successMessage": "Correct! 36mm \u00f7 1.5 \u2248 24mm. The APS-C sensor is about 24\u00d716mm, giving it roughly 44% of the full-frame area.",
-          "failureMessage": "Divide the full-frame width (36mm) by the crop factor (1.5x): 36 \u00f7 1.5 = 24mm.",
+          "scenario": "Un sensor full frame mesura 36×24mm. Un sensor APS-C té un factor de retall d'1,5x. Quina és l'amplada aproximada d'un sensor APS-C?",
+          "hint": "Divideix l'amplada del full frame pel factor de retall.",
+          "successMessage": "Correcte! 36mm ÷ 1,5 ≈ 24mm. El sensor APS-C fa uns 24×16mm, donant-li aproximadament el 44% de l'àrea del full frame.",
+          "failureMessage": "Divideix l'amplada del full frame (36mm) pel factor de retall (1,5x): 36 ÷ 1,5 = 24mm.",
           "options": {
             "0": { "label": "24mm" },
             "1": { "label": "30mm" },
@@ -76,10 +76,10 @@
           }
         },
         "1": {
-          "scenario": "You mount a 50mm lens on a camera with a 2.0x crop factor sensor. What full-frame equivalent focal length do you get?",
-          "hint": "Multiply the focal length by the crop factor.",
-          "successMessage": "Right! 50mm \u00d7 2.0 = 100mm equivalent. This is why Micro Four Thirds cameras are popular for telephoto work — you get extra reach from every lens.",
-          "failureMessage": "Multiply the lens focal length by the crop factor: 50mm \u00d7 2.0 = 100mm equivalent.",
+          "scenario": "Muntes un 50mm en una càmera amb un sensor de factor de retall 2,0x. Quina distància focal equivalent a full frame obtens?",
+          "hint": "Multiplica la distància focal pel factor de retall.",
+          "successMessage": "Exacte! 50mm × 2,0 = 100mm equivalent. Per això les càmeres Micro Quatre Terços són populars per a treball de teleobjectiu — obtens abast extra de cada objectiu.",
+          "failureMessage": "Multiplica la distància focal de l'objectiu pel factor de retall: 50mm × 2,0 = 100mm equivalent.",
           "options": {
             "0": { "label": "25mm" },
             "1": { "label": "75mm" },
@@ -87,36 +87,36 @@
           }
         },
         "2": {
-          "scenario": "Two cameras both have 24 megapixels — one full-frame (36\u00d724mm) and one APS-C (24\u00d716mm). Which has better high-ISO noise performance, and why?",
-          "hint": "Think about how the same number of pixels spread across different sensor areas affects individual pixel size.",
-          "successMessage": "Exactly! The full-frame sensor spreads 24MP over a larger area, so each pixel is physically bigger (~6\u00b5m vs ~4\u00b5m pitch) and captures more photons, resulting in less noise.",
-          "failureMessage": "The full-frame sensor wins — same megapixel count on a larger area means bigger pixels that gather more light, producing less noise at high ISO.",
+          "scenario": "Dues càmeres tenen totes dues 24 megapíxels — una full frame (36×24mm) i una APS-C (24×16mm). Quina té millor rendiment de soroll a ISO alt, i per què?",
+          "hint": "Pensa com el mateix nombre de píxels repartits sobre àrees de sensor diferents afecta la mida individual del píxel.",
+          "successMessage": "Exacte! El sensor full frame reparteix 24MP sobre una àrea més gran, de manera que cada píxel és físicament més gran (~6µm vs ~4µm de pitch) i captura més fotons, resultant en menys soroll.",
+          "failureMessage": "El sensor full frame guanya — mateix nombre de megapíxels sobre una àrea més gran vol dir píxels més grans que recullen més llum, produint menys soroll a ISO alt.",
           "options": {
-            "0": { "label": "Full frame — larger pixels gather more light" },
-            "1": { "label": "APS-C — smaller sensors are more efficient" },
-            "2": { "label": "Same noise — megapixel count is what matters" }
+            "0": { "label": "Full frame — els píxels més grans recullen més llum" },
+            "1": { "label": "APS-C — els sensors més petits són més eficients" },
+            "2": { "label": "Mateix soroll — el que importa és el nombre de megapíxels" }
           }
         },
         "3": {
-          "scenario": "Looking at the comparison table, which sensor format has a crop factor closest to 2.0x?",
-          "hint": "Crop factor is the full-frame diagonal divided by the sensor diagonal.",
-          "successMessage": "Correct! Micro Four Thirds has a crop factor of 2.0x, which is why a 25mm M43 lens frames like a 50mm on full frame.",
-          "failureMessage": "Micro Four Thirds has a 2.0x crop factor. Check the table — its diagonal is exactly half the full-frame diagonal.",
+          "scenario": "Mirant la taula de comparació, quin format de sensor té un factor de retall més proper a 2,0x?",
+          "hint": "El factor de retall és la diagonal del full frame dividida per la diagonal del sensor.",
+          "successMessage": "Correcte! Micro Quatre Terços té un factor de retall de 2,0x, raó per la qual un 25mm MFT enquadra com un 50mm en full frame.",
+          "failureMessage": "Micro Quatre Terços té un factor de retall de 2,0x. Revisa la taula — la seva diagonal és exactament la meitat de la diagonal del full frame.",
           "options": {
             "0": { "label": "APS-C (Canon)" },
-            "1": { "label": "Micro Four Thirds" },
-            "2": { "label": "1\" Sensor" }
+            "1": { "label": "Micro Quatre Terços" },
+            "2": { "label": "Sensor d'1\"" }
           }
         },
         "4": {
-          "scenario": "You are comparing a 50MP medium format camera to a 50MP full-frame camera using pixel density mode. Both have the same megapixel count. Which camera has the larger pixel pitch, and what practical advantage does that give?",
-          "hint": "Pixel pitch depends on sensor width divided by the number of horizontal pixels.",
-          "successMessage": "Right! The medium format sensor is physically larger, so at 50MP its pixels are bigger (higher pitch). This gives it about 1/3 stop better light gathering per pixel, plus slightly later diffraction onset.",
-          "failureMessage": "The medium format sensor is larger, so at the same resolution each pixel is physically bigger. Larger pixels collect more photons, giving better dynamic range and slightly later diffraction limits.",
+          "scenario": "Estàs comparant una càmera de mitjà format de 50MP amb una full frame de 50MP fent servir el mode de densitat de píxels. Totes dues tenen el mateix nombre de megapíxels. Quina càmera té el pitch de píxel més gran, i quin avantatge pràctic suposa?",
+          "hint": "El pitch de píxel depèn de l'amplada del sensor dividida pel nombre de píxels horitzontals.",
+          "successMessage": "Exacte! El sensor de mitjà format és físicament més gran, de manera que a 50MP els seus píxels són més grans (pitch més alt). Això li dona aproximadament 1/3 de pas més de captació de llum per píxel, més un inici de difracció lleugerament més tardà.",
+          "failureMessage": "El sensor de mitjà format és més gran, de manera que amb la mateixa resolució cada píxel és físicament més gran. Els píxels més grans recullen més fotons, donant un millor rang dinàmic i límits de difracció lleugerament més tardans.",
           "options": {
-            "0": { "label": "Medium Format — better per-pixel light gathering and dynamic range" },
-            "1": { "label": "Full Frame — smaller pixels are more efficient" },
-            "2": { "label": "Both are identical since they have the same megapixel count" }
+            "0": { "label": "Mitjà format — millor captació de llum i rang dinàmic per píxel" },
+            "1": { "label": "Full Frame — els píxels més petits són més eficients" },
+            "2": { "label": "Són idèntics perquè tenen el mateix nombre de megapíxels" }
           }
         }
       }

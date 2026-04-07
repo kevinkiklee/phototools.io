@@ -1,117 +1,117 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "O histogramă este un grafic care arată cât de luminoși sau întunecați sunt pixelii din fotografia ta. Partea stângă reprezintă umbrele (zone întunecate), mijlocul reprezintă tonurile medii, iar partea dreaptă luminile (zone strălucitoare). Dacă graficul este înghesuit pe o parte, fotografia poate fi subexpusă sau supraexpusă.",
+      "deeper": "O histogramă plasează numărul de pixeli (axa verticală) în funcție de nivelul de luminozitate (axa orizontală, 0-255 pentru imagini de 8 biți). În modul luminanță, luminozitatea fiecărui pixel este calculată ca o medie ponderată a canalelor roșu, verde și albastru (de obicei 0.299R + 0.587G + 0.114B, potrivită percepției umane). Modul RGB arată trei distribuții separate, dezvăluind ce canale de culoare pot tăia independent — un canal roșu împins până la 255 în timp ce albastrul este în regulă indică tăiere a luminilor în tonurile calde, cum ar fi un cer la apus. \"Tăierea\" apare când valorile pixelilor ating limita de 0 sau 255, ceea ce înseamnă că detaliul de umbră sau de lumină a fost pierdut irecuperabil. Tăierea neagră (pixeli la 0) pierde detaliul umbrelor; tăierea albă (pixeli la 255) pierde detaliul luminilor. Fotografierea în RAW oferă aproximativ 2-3 stopuri suplimentare de rezervă în lumini, dincolo de ce arată histograma JPEG, motiv pentru care mulți fotografi practică \"expose to the right\" (ETTR) — împing expunerea cât mai spre dreapta, fără să taie datele RAW.",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "Distribuție tonală",
+          "description": "Forma generală îți spune dacă imaginea este întunecată (grea la stânga), luminoasă (grea la dreapta) sau echilibrată (întinsă pe tot intervalul)."
         },
         "1": {
-          "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "label": "Tăiere",
+          "description": "Vârfurile la marginile extreme, stânga sau dreapta, indică detaliu pierdut în umbre sau lumini."
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "Separarea canalelor",
+          "description": "Modul RGB dezvăluie comportamentul individual al canalelor de culoare — util pentru detectarea tăierii specifice unor culori, în scene saturate."
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "Gamă dinamică",
+          "description": "O histogramă care acoperă toată lățimea fără tăiere indică o folosire bună a gamei dinamice disponibile."
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "Nu există o formă \"perfectă\" de histogramă. O fotografie cu o pisică neagră pe o canapea întunecată ar trebui să fie grea la stânga. Judecă histograma după intenția ta creativă, nu după o curbă ideală."
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "Verifică modul suprapunere RGB pentru fotografii de apus sau cu neoane. Canalul roșu taie adesea cu mult înainte de albastru, ceea ce duce la pierderea detaliului în luminile calde chiar dacă histograma de luminanță pare în regulă."
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "Dacă vezi avertismente de tăiere la ambele capete simultan, scena depășește probabil gama dinamică a camerei. Ia în calcul bracketing pentru HDR sau folosește filtre ND graduate."
         }
       },
       "tooltips": {
         "View Mode": {
-          "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "term": "Mod de vizualizare",
+          "definition": "Luminanță arată luminozitatea generală. Suprapunere RGB arată toate cele trei canale de culoare suprapuse. Toate canalele arată RGB plus luminanța împreună."
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "Umbre",
+          "definition": "Regiunea din stânga histogramei (aproximativ 0-85), reprezentând tonurile cele mai întunecate din imagine."
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "Tonuri medii",
+          "definition": "Regiunea centrală (aproximativ 86-170), reprezentând luminozitatea medie — tonurile de piele și majoritatea texturilor naturale se încadrează aici."
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "Lumini",
+          "definition": "Regiunea din dreapta (aproximativ 171-255), reprezentând tonurile cele mai strălucitoare: cer, reflexii și surse de lumină."
         },
         "Black Clipping": {
-          "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "term": "Tăiere neagră",
+          "definition": "Procentul de pixeli la luminozitate 0 (negru pur). Valorile mari înseamnă că detaliul umbrelor a fost pierdut și nu poate fi recuperat."
         },
         "White Clipping": {
-          "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "term": "Tăiere albă",
+          "definition": "Procentul de pixeli la luminozitate 255 (alb pur). Valorile mari înseamnă că detaliul luminilor a fost ars."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "Încarci o fotografie și histograma este împinsă puternic spre stânga, cu aproape nimic în partea dreaptă. Ce îți spune asta despre imagine?",
+          "hint": "Stânga = întunecat, dreapta = luminos.",
+          "successMessage": "Corect! O histogramă grea la stânga înseamnă că imaginea este dominată de tonuri întunecate — poate fi subexpusă sau poate fi o imagine întunecată/low-key intenționată.",
+          "failureMessage": "O histogramă înghesuită la stânga indică o imagine predominant întunecată. Asta înseamnă adesea subexpunere.",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "Imaginea este subexpusă sau foarte întunecată" },
+            "1": { "label": "Imaginea este supraexpusă sau foarte luminoasă" },
+            "2": { "label": "Imaginea are expunere perfectă" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "Ce mod de vizualizare ar trebui să folosești ca să vezi distribuția generală de luminozitate a fotografiei tale într-un singur grafic?",
+          "hint": "Un mod combină toate informațiile de culoare într-o singură curbă de luminozitate.",
+          "successMessage": "Exact! Modul Luminanță arată o singură curbă care reprezintă luminozitatea percepută globală.",
+          "failureMessage": "Modul Luminanță este cea mai simplă vizualizare — combină R, G, B într-o singură curbă de luminozitate.",
           "options": {
-            "0": { "label": "Luminance" },
-            "1": { "label": "RGB Overlay" },
-            "2": { "label": "All Channels" }
+            "0": { "label": "Luminanță" },
+            "1": { "label": "Suprapunere RGB" },
+            "2": { "label": "Toate canalele" }
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "Ai fotografiat un apus viu și histograma de luminanță pare în regulă, dar când treci la suprapunere RGB vezi canalul roșu cu un vârf în extrema dreaptă. Ce se întâmplă?",
+          "hint": "Canalele de culoare individuale pot tăia chiar dacă luminanța generală nu o face.",
+          "successMessage": "Exact! Canalul roșu taie — luminile apusului au pierdut detaliul în tonurile roșii, chiar dacă luminozitatea generală arată acceptabil. Pierzi nuanțele culorilor calde.",
+          "failureMessage": "Canalul roșu taie independent. Luminile calde saturate (apusuri, foc) împing adesea roșul la 255 în timp ce verdele și albastrul sunt bine, pierzând detaliul de culoare în acele tonuri.",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "Canalul roșu taie — detaliul luminilor calde este pierdut" },
+            "1": { "label": "Imaginea este supraexpusă în general" },
+            "2": { "label": "Balansul de alb este greșit" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "Unealta raportează 2.3% tăiere neagră și 0.1% tăiere albă. Ar trebui să ajustezi expunerea?",
+          "hint": "Cantități mici de tăiere sunt normale — umbrele negre pure și luminile speculare sunt de așteptat.",
+          "successMessage": "Judecată bună! 2.3% tăiere neagră este modestă și adesea înseamnă doar umbre adânci sau margini întunecate. 0.1% tăiere albă sunt probabil lumini speculare (reflexii ale soarelui). Această expunere este bună pentru majoritatea scopurilor.",
+          "failureMessage": "Aceste procente de tăiere sunt destul de mici. Puțină tăiere neagră în umbre adânci și tăiere albă minimă de la lumini speculare este normală și de așteptat. Nu e nevoie de ajustare.",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "Crește expunerea ca să reduci tăierea neagră" },
+            "1": { "label": "Asta e bine — tăiere mică în umbre și lumini speculare este normală" },
+            "2": { "label": "Scade expunerea ca să elimini tăierea albă" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "Fotografiezi o scenă cu contrast ridicat: o mireasă într-o rochie albă stând într-o catedrală întunecată. Histograma arată vârfuri puternice la ambele extreme, cu un gol la tonurile medii. Cum ar trebui să gestionezi asta?",
+          "hint": "Când gama dinamică a scenei depășește gama senzorului, ai nevoie de o tehnică cu mai multe expuneri.",
+          "successMessage": "Perfect! Această histogramă bimodală indică faptul că scena depășește gama dinamică a senzorului. Bracketing-ul de expunere (HDR) captează atât interiorul întunecat, cât și detaliul rochiei luminoase. Alternativ, folosește blițul de umplere pentru a ridica umbrele.",
+          "failureMessage": "O histogramă bimodală (vârfuri la ambele extreme, mijloc gol) înseamnă că scena are mai multă gamă dinamică decât poate capta senzorul într-un singur cadru. Fă bracketing pentru HDR sau folosește bliț de umplere pentru a reduce raportul de contrast.",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "Bracketing pentru HDR sau folosește bliț de umplere" },
+            "1": { "label": "Expune pentru tonuri medii și speră la ce-o fi" },
+            "2": { "label": "Treci la alb-negru ca să ascunzi problema" }
           }
         }
       }

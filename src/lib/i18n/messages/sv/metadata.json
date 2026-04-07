@@ -1,90 +1,90 @@
 {
   "metadata": {
     "site": {
-      "defaultTitle": "PhotoTools — Photography Tools",
+      "defaultTitle": "PhotoTools — Fotoverktyg",
       "titleTemplate": "%s | PhotoTools",
-      "description": "Free photography tools: FOV simulator, Color scheme generator, EXIF viewer, Crop and frame photos, and more.",
-      "ogTitle": "PhotoTools — Free Photography Tools"
+      "description": "Gratis fotoverktyg: FOV-simulator, färgschemagenerator, EXIF-läsare, beskärning och inramning med mera.",
+      "ogTitle": "PhotoTools — Gratis fotoverktyg"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compare Focal Lengths",
-      "description": "Compare field of view across different focal lengths and sensor sizes. Free, interactive, shareable."
+      "title": "FOV Simulator — Jämför brännvidder",
+      "description": "Jämför bildvinkel för olika brännvidder och sensorstorlekar. Gratis, interaktivt och delbart."
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator | PhotoTools",
-      "description": "Visualize how aperture, focal length, and distance affect background blur with real-time WebGL simulation"
+      "title": "Skärpedjupssimulator | PhotoTools",
+      "description": "Visualisera skärpedjupet i realtid — se hur bländare, brännvidd och avstånd påverkar bakgrundsoskärpan med WebGL-simulering."
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator | PhotoTools",
-      "description": "Calculate optimal focus distances for front-to-back sharpness in macro and landscape photography"
+      "title": "Focus stacking-kalkylator | PhotoTools",
+      "description": "Räkna ut optimala fokusavstånd för skärpa genom hela bilden i makro- och landskapsfoto."
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator | PhotoTools",
-      "description": "Find equivalent aperture and focal length across sensor formats to match depth of field"
+      "title": "Kalkylator för ekvivalenta inställningar | PhotoTools",
+      "description": "Hitta ekvivalent bländare och brännvidd mellan sensorformat för att matcha skärpedjupet."
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator",
-      "description": "Interactive exposure triangle simulator — see how aperture, shutter speed, and ISO affect your image in real time with live preview."
+      "title": "Exponeringstriangelsimulator",
+      "description": "Interaktiv simulator för exponeringstriangeln — se i realtid hur bländare, slutartid och ISO påverkar bilden med live-förhandsvisning."
     },
     "star-trail-calculator": {
       "title": "Star Trail Calculator",
-      "description": "Calculate the maximum exposure time for pinpoint stars using the 500, NPF, and other rules. Plan star trail stacking shots for any location."
+      "description": "Räkna ut maximal exponeringstid för skarpa stjärnor med 500-regeln, NPF-regeln m.fl. Planera star trail-stacking för vilken plats som helst."
     },
     "white-balance-visualizer": {
       "title": "White Balance Visualizer",
-      "description": "See how white balance and color temperature affect your photos. Visualize changes from 2000K to 10000K with real-time preview."
+      "description": "Se hur vitbalans och färgtemperatur påverkar dina foton. Visualisera förändringar från 2000 K till 10000 K med realtidsförhandsvisning."
     },
     "sensor-size-comparison": {
       "title": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models."
+      "description": "Jämför sensorstorlekar från mellanformat till smartphone. Överlägg, sida vid sida och pixeltäthet med verkliga kameramodeller."
     },
     "color-scheme-generator": {
       "title": "Color Scheme Generator",
-      "description": "Generate color palettes for photography using complementary, analogous, triadic, and tetradic color harmonies. Interactive color wheel with photo picker."
+      "description": "Skapa färgpaletter för fotografering med komplement, analoga, triadiska och tetradiska färgharmonier. Interaktiv färgcirkel med fotoplockning."
     },
     "frame-studio": {
       "title": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays. 100% client-side — your photos never leave your device."
+      "description": "Beskär, rama in och komponera foton med kompositionsrutnät. 100 % i webbläsaren — dina foton lämnar aldrig din enhet."
     },
     "exif-viewer": {
       "title": "EXIF Viewer",
-      "description": "View EXIF metadata, histogram, and image preview for any photo. 100% client-side — your photos never leave your device."
+      "description": "Se EXIF-metadata, histogram och förhandsvisning för vilket foto som helst. 100 % i webbläsaren — dina foton lämnar aldrig din enhet."
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator",
-      "description": "Visualize hyperfocal distance for any lens and sensor. See exactly where to focus for maximum sharpness from foreground to infinity."
+      "title": "Hyperfokalavståndssimulator",
+      "description": "Visualisera hyperfokalavståndet för vilket objektiv och sensor som helst. Se exakt var du ska fokusera för maximal skärpa från förgrund till oändlighet."
     },
     "shutter-speed-visualizer": {
       "title": "Shutter Speed Visualizer",
-      "description": "Find the minimum shutter speed for sharp handheld photos. Accounts for focal length, sensor size, and image stabilization."
+      "description": "Hitta kortaste slutartid för skarpa handhållna foton. Tar hänsyn till brännvidd, sensorstorlek och bildstabilisering."
     },
     "nd-filter-calculator": {
       "title": "ND Filter Calculator",
-      "description": "Calculate the correct shutter speed when using ND filters. Supports any filter strength from ND2 to ND1000000 with a quick-reference table."
+      "description": "Räkna ut rätt slutartid med ND-filter. Fungerar med alla filterstyrkor från ND2 till ND1000000 med snabbreferenstabell."
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator",
-      "description": "Interactive 3D simulator showing how focal length and distance affect perspective compression. See background compression change in real time."
+      "title": "Perspektivkompressionssimulator",
+      "description": "Interaktiv 3D-simulator som visar hur brännvidd och avstånd påverkar perspektivkompression. Se bakgrundskompressionen förändras i realtid."
     },
     "about": {
-      "title": "About",
-      "description": "PhotoTools is a free collection of browser-based photography calculators, simulators, and references for photographers of all skill levels."
+      "title": "Om oss",
+      "description": "PhotoTools är en gratis samling webbläsarbaserade fotokalkylatorer, simulatorer och referensverktyg för fotografer på alla nivåer."
     },
     "contact": {
-      "title": "Contact | PhotoTools",
-      "description": "Get in touch with the PhotoTools team — questions, feedback, or suggestions about our photography tools."
+      "title": "Kontakt | PhotoTools",
+      "description": "Kontakta PhotoTools-teamet — frågor, feedback eller förslag om våra fotoverktyg."
     },
     "privacy": {
-      "title": "Privacy Policy | PhotoTools",
-      "description": "Learn how PhotoTools handles your data, including analytics, cookies, and contact form submissions at www.phototools.io."
+      "title": "Integritetspolicy | PhotoTools",
+      "description": "Läs om hur PhotoTools hanterar dina uppgifter — analys, cookies och kontaktformulär på www.phototools.io."
     },
     "terms": {
-      "title": "Terms of Service | PhotoTools",
-      "description": "Terms of Service for PhotoTools — learn about acceptable use, intellectual property, disclaimers, and limitations of liability for www.phototools.io."
+      "title": "Användarvillkor | PhotoTools",
+      "description": "Användarvillkor för PhotoTools — acceptabel användning, immateriella rättigheter, friskrivningar och ansvarsbegränsningar för www.phototools.io."
     },
     "glossary": {
-      "title": "Photography Glossary",
-      "description": "Searchable glossary of 50+ photography terms with definitions and links to interactive tools."
+      "title": "Fotografisk ordlista",
+      "description": "Sökbar ordlista med över 50 fototermer, definitioner och länkar till interaktiva verktyg."
     }
   }
 }

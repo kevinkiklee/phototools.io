@@ -1,27 +1,27 @@
 {
   "about": {
-    "title": "About PhotoTools",
-    "subtitle": "Free photography education, right in your browser.",
+    "title": "關於 PhotoTools",
+    "subtitle": "免費的攝影教學工具，就在您的瀏覽器裡。",
     "sections": {
       "whatIs": {
-        "title": "What is PhotoTools?",
-        "body": "PhotoTools is a free collection of interactive photography calculators, simulators, and reference tools. Whether you're learning the exposure triangle for the first time or calculating hyperfocal distance for a landscape shoot, PhotoTools gives you hands-on visual tools to deepen your understanding of photography."
+        "title": "PhotoTools 是什麼？",
+        "body": "PhotoTools 是一套免費的互動式攝影計算機、模擬器與參考工具集。無論您是第一次學習曝光三角，還是正在為風景拍攝計算超焦距，PhotoTools 都提供親手操作的視覺化工具，幫助您更深入理解攝影技術。"
       },
       "whoIsItFor": {
-        "title": "Who is it for?",
-        "body": "Photographers of all skill levels — from beginners exploring how aperture affects depth of field to experienced shooters planning a star trail session. Every tool includes a learning panel with explanations, key factors, pro tips, and interactive challenges to test your knowledge."
+        "title": "適合哪些人？",
+        "body": "適合所有程度的攝影愛好者 — 從初學者探索光圈如何影響景深，到資深玩家規劃星軌拍攝。每個工具都附有學習面板，提供觀念解說、關鍵因素、專業技巧與互動挑戰，讓您邊學邊驗證自己的理解。"
       },
       "privacyFirst": {
-        "title": "Privacy first",
-        "body": "All calculations and simulations run entirely in your browser. Your photos never leave your device — the EXIF Viewer, for example, processes images 100% client-side. No sign-up is required, and no personal data is collected beyond anonymous analytics."
+        "title": "隱私優先",
+        "body": "所有計算與模擬都完全在您的瀏覽器內執行。您的照片絕不會離開裝置 — 例如 EXIF Viewer 便是 100% 在本機處理。無需註冊，也不會蒐集任何個人資料（僅有匿名的使用分析）。"
       },
       "builtBy": {
-        "title": "Built by photographers",
-        "body": "PhotoTools is built and maintained by a photographer and software engineer who wanted better visual tools for understanding the technical side of photography. The tools are grounded in real optics and physics — not approximations — so you can trust the results in the field."
+        "title": "由攝影師打造",
+        "body": "PhotoTools 由一位同時身兼攝影師與軟體工程師的作者設計與維護，目的是提供更好的視覺化工具來理解攝影的技術層面。所有工具皆基於真實的光學與物理原理 — 不是近似公式 — 您可以放心在實戰中參考結果。"
       },
       "getInTouch": {
-        "title": "Get in touch",
-        "body": "Have a suggestion, bug report, or tool idea? Reach out via the <contactLink>contact page</contactLink>."
+        "title": "與我們聯繫",
+        "body": "有建議、回報錯誤或想到新的工具點子嗎？歡迎透過<contactLink>聯絡頁面</contactLink>與我們聯繫。"
       }
     }
   }

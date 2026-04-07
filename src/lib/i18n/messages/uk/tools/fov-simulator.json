@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "Обернути",
+      "center": "Центрувати",
+      "switchToPortrait": "Переключити на вертикальну",
+      "switchToLandscape": "Переключити на горизонтальну",
+      "centerOverlays": "Центрувати накладання",
+      "addLens": "+ Додати об'єктив",
       "fovSimulator": "FOV Simulator",
-      "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
-      "embed": "Embed",
-      "reset": "Reset",
-      "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
-      "wide": "wide",
-      "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
+      "sensor": "Матриця",
+      "copyImage": "Скопіювати зображення",
+      "copyLink": "Скопіювати посилання",
+      "embed": "Вбудувати",
+      "reset": "Скинути",
+      "frameInfo": "Інформація про кадр",
+      "distance": "Дистанція",
+      "showFramingGuides": "Показати напрямні кадрування",
+      "wide": "широко",
+      "embedTitle": "Вбудувати",
+      "closeEmbedModal": "Закрити вікно вбудовування",
       "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
-      "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
-      "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "bbcodeLabel": "BBCode (форуми)",
+      "htmlEmbedLabel": "HTML-вставка",
+      "copied": "Скопійовано",
+      "copy": "Скопіювати",
+      "cropView": "Режим кадру:",
+      "collapse": "Згорнути",
+      "expand": "Розгорнути",
+      "fovComparison": "Порівняння FOV",
+      "loadingScene": "Завантаження сцени...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Що таке кут огляду у фотографії?",
+          "answer": "Кут огляду (FOV) — це кутова ділянка сцени, яку бачить твій об'єктив з матрицею. Він визначає, скільки сцени потрапляє в кадр, і залежить від фокусної відстані та розміру матриці."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Як кроп-фактор впливає на кут огляду?",
+          "answer": "Менша матриця (більший кроп-фактор) при тій самій фокусній відстані дає вужчий кут огляду, ніж повний кадр. Наприклад, APS-C із кроп-фактором 1.5× робить так, що 50 мм кадрує як 75 мм на повному кадрі."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Який зв'язок між кутом огляду і фокусною відстанню?",
+          "answer": "Кут огляду і фокусна відстань обернено залежні. Коротші фокусні відстані (ширококутники) дають ширший кут огляду, довші (телеоб'єктиви) — вужчий. Точний кут огляду також залежить від розміру матриці."
         }
       }
     }

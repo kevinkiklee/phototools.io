@@ -1,74 +1,74 @@
 {
   "education": {
     "white-balance-visualizer": {
-      "beginner": "White balance adjusts the colors in your photo so that white objects actually appear white under any lighting. Different light sources have different color temperatures — a candle is warm and orange, while shade is cool and blue. Your camera's white balance setting compensates for these differences so colors look natural.",
+      "beginner": "Ina-adjust ng white balance ang mga kulay sa litrato mo para ang mga puting bagay ay mukhang talagang puti sa kahit anong lighting. Ang iba't ibang light source ay may iba't ibang color temperature — ang kandila ay mainit at orange, habang ang lilim ay malamig at asul. Ang white balance setting ng camera mo ay nag-co-compensate sa mga pagkakaibang ito para mukhang natural ang mga kulay.",
       "deeper": {
         "0": {
           "heading": "Color temperature",
-          "text": "Color temperature is measured in Kelvin (K) and corresponds to the color of light emitted by an ideal \"black body\" heated to that temperature. Lower values (2000\u20133500K) produce warm, reddish-orange light (incandescent bulbs, candles), while higher values (6500\u201310000K) produce cool, bluish light (shade, overcast sky)."
+          "text": "Ang color temperature ay sinusukat sa Kelvin (K) at tumutugma sa kulay ng liwanag na lumalabas mula sa isang ideal na \"black body\" na pinainit sa temperaturang iyon. Ang mas mababang values (2000–3500K) ay gumagawa ng mainit at mapula-pulang orange na liwanag (incandescent bulbs, kandila), habang ang mas mataas na values (6500–10000K) ay gumagawa ng malamig at mabulahaw na liwanag (lilim, maulap na langit)."
         },
         "1": {
-          "heading": "How white balance works",
-          "text": "The camera's white balance system applies the inverse color shift to neutralize the ambient color cast. When you set white balance to \"Tungsten\" (~3200K), the camera adds blue to counteract the orange cast from incandescent lights. In digital photography, white balance is applied as a multiplier to the red and blue channels relative to green."
+          "heading": "Paano gumagana ang white balance",
+          "text": "Ang white balance system ng camera ay nag-a-apply ng inverse color shift para ma-neutralize ang ambient color cast. Kapag sinet mo ang white balance sa \"Tungsten\" (~3200K), nagdadagdag ang camera ng asul para salungatin ang orange cast mula sa incandescent lights. Sa digital photography, ang white balance ay ina-apply bilang multiplier sa red at blue channels relative sa green."
         },
         "2": {
-          "heading": "RAW advantage",
-          "text": "Shooting in RAW format preserves all color data and allows you to change white balance freely in post-processing with zero quality loss — it is simply a metadata tag applied during conversion."
+          "heading": "Bentahe ng RAW",
+          "text": "Ang pagkuha sa RAW format ay nagpepreserba ng lahat ng color data at nagpapahintulot sa iyo na baguhin ang white balance nang walang quality loss sa post-processing — ito ay isang metadata tag na ina-apply habang nagko-convert."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Color Temperature (Kelvin)",
-          "description": "The numerical measure of light color. Low Kelvin = warm/orange light. High Kelvin = cool/blue light. Daylight is approximately 5500K."
+          "label": "Color Temperature (sa Kelvin)",
+          "description": "Ang numerong sukat ng kulay ng liwanag. Mababang Kelvin = mainit/orange na liwanag. Mataas na Kelvin = malamig/asul na liwanag. Ang daylight ay humigit-kumulang 5500K."
         },
         "1": {
           "label": "Light Source",
-          "description": "Different sources emit different color temperatures: candles (~1800K), tungsten bulbs (~2800K), fluorescent tubes (~4000K), midday sun (~5500K), cloudy sky (~6500K), shade (~7500K)."
+          "description": "Ang iba't ibang source ay naglalabas ng iba't ibang color temperature: kandila (~1800K), tungsten bulbs (~2800K), fluorescent tubes (~4000K), midday sun (~5500K), maulap na langit (~6500K), lilim (~7500K)."
         },
         "2": {
-          "label": "RAW vs JPEG",
-          "description": "Shooting RAW lets you change white balance in post with no quality loss. JPEG bakes in the white balance permanently, so getting it right in-camera matters more."
+          "label": "RAW kumpara sa JPEG",
+          "description": "Ang pagkuha sa RAW ay nagpapahintulot sa iyo na baguhin ang white balance sa post nang walang quality loss. Ang JPEG ay nag-bake in ng white balance nang permanente, kaya mas mahalaga na tama sa camera."
         },
         "3": {
           "label": "Mixed Lighting",
-          "description": "Scenes with multiple light sources at different temperatures (e.g., window daylight + tungsten lamps) make it impossible to perfectly neutralize all colors simultaneously."
+          "description": "Ang mga eksenang may maraming light source sa iba't ibang temperatura (hal. window daylight + tungsten lamps) ay nagiging imposible na perpektong ma-neutralize lahat ng kulay nang sabay."
         }
       },
       "tips": {
         "0": {
-          "text": "Always shoot RAW if you want full flexibility to adjust white balance later. RAW files store the unprocessed sensor data, so white balance changes are lossless."
+          "text": "Palaging kumuha sa RAW kung gusto mo ng buong flexibility para i-adjust ang white balance mamaya. Ang RAW files ay nag-s-store ng unprocessed sensor data, kaya ang mga pagbabago ng white balance ay lossless."
         },
         "1": {
-          "text": "For creative effect, try intentionally \"mismatching\" white balance. Setting a daylight WB during golden hour makes sunsets even warmer, while a tungsten WB outdoors creates a dramatic cold blue look."
+          "text": "Para sa creative effect, subukan na sadyain ang \"mismatch\" ng white balance. Ang pag-set ng daylight WB sa golden hour ay nagpapainit pa sa mga sunset, habang ang tungsten WB sa labas ay gumagawa ng dramatikong malamig na asul na itsura."
         },
         "2": {
-          "text": "In mixed lighting situations (e.g., a room lit by both window light and tungsten lamps), use a gray card to set a custom white balance, or gel your flash to match the ambient light source."
+          "text": "Sa mixed lighting na sitwasyon (hal. kwartong pinaliwanag ng parehong window light at tungsten lamps), gumamit ng gray card para mag-set ng custom white balance, o mag-gel ng flash mo para tumugma sa ambient light source."
         }
       },
       "tooltips": {
         "colorTemperature": {
           "term": "Color Temperature",
-          "definition": "A measure of light color in Kelvin (K). Based on the theoretical color of a heated black body. Lower values are warmer (orange/red), higher values are cooler (blue)."
+          "definition": "Isang sukat ng kulay ng liwanag sa Kelvin (K). Batay sa teoretikal na kulay ng pinainit na black body. Ang mas mababang values ay mas mainit (orange/pula), ang mas mataas na values ay mas malamig (asul)."
         },
         "preset": {
           "term": "White Balance Preset",
-          "definition": "A predefined white balance setting calibrated for a common light source. Presets include Tungsten (~3200K), Fluorescent (~4000K), Daylight (~5500K), Cloudy (~6500K), and Shade (~7500K)."
+          "definition": "Isang predefined na white balance setting na calibrated para sa karaniwang light source. Kabilang sa mga preset ang Tungsten (~3200K), Fluorescent (~4000K), Daylight (~5500K), Cloudy (~6500K), at Shade (~7500K)."
         },
         "rgbValues": {
           "term": "RGB Values",
-          "definition": "The red, green, and blue channel values (0-255 each) that represent the color of light at the selected temperature. Used to visualize how the light source tints the scene."
+          "definition": "Ang red, green, at blue channel values (0-255 bawat isa) na kumakatawan sa kulay ng liwanag sa napiling temperatura. Ginagamit para i-visualize kung paano tina-tint ng light source ang eksena."
         },
         "hexCode": {
           "term": "Hex Code",
-          "definition": "A six-character hexadecimal representation of the color (e.g., #FF8C00). Useful for referencing the exact color in design software or web development."
+          "definition": "Isang six-character hexadecimal representation ng kulay (hal. #FF8C00). Kapaki-pakinabang para sa pag-reference ng eksaktong kulay sa design software o web development."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "Your indoor photos under regular household light bulbs look very orange/yellow. Which white balance preset should you use to fix this?",
-          "hint": "Household incandescent bulbs emit warm, orange-toned light around 2800-3200K.",
-          "successMessage": "Correct! The Tungsten preset adds blue to counteract the orange cast of incandescent bulbs, bringing colors back to neutral.",
-          "failureMessage": "Incandescent/tungsten bulbs emit warm orange light. The Tungsten white balance preset is specifically designed to neutralize this cast by adding blue.",
+          "scenario": "Ang mga indoor photos mo sa ilalim ng regular household light bulbs ay mukhang napaka-orange/dilaw. Anong white balance preset ang dapat mong gamitin para ayusin ito?",
+          "hint": "Ang mga household incandescent bulb ay naglalabas ng mainit at orange na liwanag sa mga 2800-3200K.",
+          "successMessage": "Tama! Ang Tungsten preset ay nagdadagdag ng asul para salungatin ang orange cast ng incandescent bulbs, nagbabalik sa mga kulay sa neutral.",
+          "failureMessage": "Ang mga incandescent/tungsten bulb ay naglalabas ng mainit na orange na liwanag. Ang Tungsten white balance preset ay partikular na dinisenyo para i-neutralize ang cast na ito sa pamamagitan ng pagdadagdag ng asul.",
           "options": {
             "0": { "label": "Daylight" },
             "1": { "label": "Tungsten" },
@@ -77,49 +77,49 @@
           }
         },
         "1": {
-          "scenario": "You are shooting portraits during golden hour and want to keep the beautiful warm glow of the sunset. Which white balance setting should you use?",
-          "hint": "If you set the \"correct\" WB for golden hour, it would neutralize the warm tones you want to keep.",
-          "successMessage": "Correct! Using the Daylight preset (or even Cloudy/Shade) during golden hour preserves and enhances the warm tones instead of neutralizing them.",
-          "failureMessage": "To preserve the warm glow of golden hour, use a WB that does not compensate for warm light. Daylight or higher presets will keep (and even enhance) the warmth.",
+          "scenario": "Kumukuha ka ng portrait sa golden hour at gusto mong panatilihin ang magandang mainit na ningning ng sunset. Anong white balance setting ang dapat mong gamitin?",
+          "hint": "Kung sinet mo ang \"tamang\" WB para sa golden hour, nene-neutralize nito ang mainit na tones na gusto mong panatilihin.",
+          "successMessage": "Tama! Ang paggamit ng Daylight preset (o kahit Cloudy/Shade) sa golden hour ay nagpepreserba at nagpapaganda pa sa mainit na tones sa halip na i-neutralize ang mga ito.",
+          "failureMessage": "Para mapanatili ang mainit na ningning ng golden hour, gumamit ng WB na hindi nagko-compensate para sa mainit na liwanag. Ang Daylight o mas mataas na presets ay panatilihin (at padadalasin pa) ang init.",
           "options": {
             "0": { "label": "Auto White Balance" },
-            "1": { "label": "Tungsten (to neutralize the warmth)" },
-            "2": { "label": "Daylight (to preserve the warmth)" },
+            "1": { "label": "Tungsten (para i-neutralize ang init)" },
+            "2": { "label": "Daylight (para mapanatili ang init)" },
             "3": { "label": "Flash" }
           }
         },
         "2": {
-          "scenario": "You are manually adjusting white balance in Kelvin. Your photo looks too blue/cold. Should you increase or decrease the Kelvin value to warm it up?",
-          "hint": "The Kelvin WB setting tells the camera what color temperature the light source is. Setting a higher Kelvin value makes the camera add more warmth.",
-          "successMessage": "Right! Increasing the Kelvin value tells the camera the light is cooler than it actually is, so the camera compensates by adding warmth. Set a higher K to warm up a cold-looking image.",
-          "failureMessage": "When you increase the Kelvin value, the camera adds more warmth to compensate. So to fix a cold/blue image, raise the Kelvin number.",
+          "scenario": "Mano mano mong ina-adjust ang white balance sa Kelvin. Ang litrato mo ay mukhang sobrang asul/malamig. Dapat mo bang taasan o babaan ang Kelvin value para mapainit ito?",
+          "hint": "Ang Kelvin WB setting ay nagsasabi sa camera kung anong color temperature ang light source. Ang pag-set ng mas mataas na Kelvin value ay nagpapadagdag sa camera ng mas maraming init.",
+          "successMessage": "Tama! Ang pagtaas ng Kelvin value ay nagsasabi sa camera na ang liwanag ay mas malamig kaysa sa totoo, kaya nag-co-compensate ang camera sa pamamagitan ng pagdadagdag ng init. I-set ang mas mataas na K para mapainit ang malamig na tingin na imahe.",
+          "failureMessage": "Kapag tinaasan mo ang Kelvin value, nagdadagdag ang camera ng mas maraming init para mag-compensate. Kaya para ayusin ang malamig/asul na imahe, taasan ang Kelvin number.",
           "options": {
-            "0": { "label": "Increase Kelvin (e.g., 5500K to 7500K)" },
-            "1": { "label": "Decrease Kelvin (e.g., 5500K to 3200K)" },
-            "2": { "label": "Kelvin direction does not affect warmth" }
+            "0": { "label": "Taasan ang Kelvin (hal. 5500K hanggang 7500K)" },
+            "1": { "label": "Babaan ang Kelvin (hal. 5500K hanggang 3200K)" },
+            "2": { "label": "Walang epekto ang direksyon ng Kelvin sa init" }
           }
         },
         "3": {
-          "scenario": "You are photographing a restaurant interior that has warm tungsten pendant lights overhead and cool blue daylight streaming through large windows. People near the windows look blue, and people under the lamps look orange. What is the best approach?",
-          "hint": "No single white balance setting can correct two very different color temperatures simultaneously.",
-          "successMessage": "Exactly! Gelling the flash or additional lights to match one dominant source, or choosing a compromise WB and correcting selectively in post, are the best approaches for mixed lighting.",
-          "failureMessage": "Mixed lighting is one of the hardest WB challenges. A single WB cannot correct both sources simultaneously. You need to either match the sources with gels or fix it selectively in post.",
+          "scenario": "Kumukuha ka ng litrato ng restaurant interior na may mainit na tungsten pendant lights sa itaas at malamig na asul na daylight na dumadaan sa malalaking bintana. Ang mga tao malapit sa bintana ay mukhang asul, at ang mga tao sa ilalim ng mga lampara ay mukhang orange. Ano ang pinakamagandang approach?",
+          "hint": "Walang isang white balance setting na kayang itama nang sabay ang dalawang magkaibang color temperature.",
+          "successMessage": "Eksakto! Ang pag-gel sa flash o karagdagang ilaw para tumugma sa isang dominanteng source, o pagpili ng compromise WB at pag-correct nang selective sa post, ay ang pinakamagandang approach para sa mixed lighting.",
+          "failureMessage": "Ang mixed lighting ay isa sa pinakamahirap na WB challenges. Hindi kayang itama ng isang WB ang dalawang source nang sabay. Kailangan mong tugmain ang mga source gamit ang gels o ayusin ito nang selective sa post.",
           "options": {
-            "0": { "label": "Set WB to Tungsten — it will fix everything" },
-            "1": { "label": "Set WB to Daylight — windows are more important" },
-            "2": { "label": "Use Auto WB and shoot RAW, then correct each zone in post" },
-            "3": { "label": "Raise ISO to make colors more accurate" }
+            "0": { "label": "I-set ang WB sa Tungsten — aayusin nito ang lahat" },
+            "1": { "label": "I-set ang WB sa Daylight — mas mahalaga ang mga bintana" },
+            "2": { "label": "Gamitin ang Auto WB at kumuha sa RAW, tapos i-correct ang bawat zone sa post" },
+            "3": { "label": "Taasan ang ISO para maging mas tumpak ang mga kulay" }
           }
         },
         "4": {
-          "scenario": "You are shooting a moody, cinematic night scene in a city and want an intentional cold blue tone. The streetlights are sodium vapor (~2200K). What Kelvin white balance setting would give you the strongest blue shift?",
-          "hint": "Setting WB much lower than the actual light source temperature will shift the image toward blue.",
-          "successMessage": "Correct! Setting WB to 7500K (Shade preset) tells the camera the light source is very cool/blue — so it compensates by adding heavy warmth-correction. But since the actual sodium lights are only 2200K (very warm), this overcorrection swings past neutral into a strong blue cast. The higher you set the WB Kelvin above the actual light temperature, the stronger the blue shift.",
-          "failureMessage": "Setting a WB Kelvin value much higher than the actual light source temperature makes the camera overcorrect toward blue. With 2200K sodium lights, setting WB to 7500K+ creates the strongest cold blue look.",
+          "scenario": "Kumukuha ka ng moody at cinematic na night scene sa isang lungsod at gusto mo ng sadya na malamig na asul na tone. Ang mga streetlight ay sodium vapor (~2200K). Anong Kelvin white balance setting ang magbibigay sa iyo ng pinakamalakas na blue shift?",
+          "hint": "Ang pag-set ng WB na mas mababa kaysa sa aktwal na light source temperature ay nag-s-shift ng imahe patungo sa asul.",
+          "successMessage": "Tama! Ang pag-set ng WB sa 7500K (Shade preset) ay nagsasabi sa camera na ang light source ay napakalamig/asul — kaya nag-co-compensate ito sa pamamagitan ng pagdadagdag ng matinding warmth-correction. Pero dahil ang aktwal na sodium lights ay 2200K lamang (napakainit), ang overcorrection na ito ay lumalampas sa neutral patungo sa malakas na asul na cast. Mas mataas mong sinet ang WB Kelvin sa itaas ng aktwal na light temperature, mas malakas ang blue shift.",
+          "failureMessage": "Ang pag-set ng WB Kelvin value na mas mataas kaysa sa aktwal na light source temperature ay nagpapa-overcorrect sa camera patungo sa asul. Sa 2200K sodium lights, ang pag-set ng WB sa 7500K+ ay gumagawa ng pinakamalakas na malamig na asul na itsura.",
           "options": {
-            "0": { "label": "2200K (matching the sodium lights)" },
+            "0": { "label": "2200K (tumutugma sa sodium lights)" },
             "1": { "label": "3200K (Tungsten preset)" },
-            "2": { "label": "7500K or higher (Shade preset)" },
+            "2": { "label": "7500K o mas mataas (Shade preset)" },
             "3": { "label": "5500K (Daylight preset)" }
           }
         }

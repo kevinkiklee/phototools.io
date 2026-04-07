@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "Tähdet näyttävät liikkuvan taivaalla, koska Maa pyörii. Jos suljin on auki tarpeeksi kauan, tähdet venyvät raidoiksi kuvassasi. Tähtiratalaskuri auttaa sinua löytämään maksimivalotusajan pistemäisille tähdille tai suunnittelemaan pitkiä valotuksia kauniiden ympyräkaaristen tähtiratojen luomiseksi.",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "Miten tähdet liikkuvat",
+          "text": "Maa pyörii 360° noin 23 tunnissa ja 56 minuutissa (sideerinen vuorokausi), joten tähdet liikkuvat noin 15 kaarisekuntia sekunnissa taivaanpäiväntasaajalla. Napojen lähellä olevat tähdet (Pohjantähti pohjoisessa) piirtävät pienempiä ympyröitä ja liikkuvat hitaammin."
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "500-sääntö vs. NPF-sääntö",
+          "text": "Klassinen \"500-sääntö\" jakaa 500:n tehollisella polttovälilläsi arvioidakseen maksimivalotuksen ennen kuin venytys näkyy — mutta se suunniteltiin matalaresoluutioisille kennoille. NPF-sääntö ottaa huomioon pikselikoon, polttovälin, aukon ja deklinaation, tuottaen lyhyempiä ja tarkempia rajoja moderneille korkearesoluutioisille kameroille."
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "Pinoaminen tähtiratoja varten",
+          "text": "Tarkoituksellisia tähtiratoja varten kuvaajat ottavat monia lyhyempiä valotuksia (tyypillisesti 30s kukin) ja pinoavat ne ohjelmistossa. Tämä välttää kohinan kertymisen, mahdollistaa aukottomat radat ja tarkoittaa ettei yksi huono ruutu pilaa koko kuvaa."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "Polttoväli",
+          "description": "Pidemmät polttovälit suurentavat tähtien liikettä, vaatien lyhyempiä valotuksia pistemäisille tähdille. 14 mm:n objektiivilla voi valottaa 5–10 kertaa pidempään kuin 200 mm:n objektiivilla."
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "Kennon resoluutio",
+          "description": "Korkearesoluutioiset kennot paljastavat tähtien venymän lyhyemmillä valotusajoilla. 500-sääntö on liian antelias moderneille 40 MP+ kameroille."
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "Leveysaste ja deklinaatio",
+          "description": "Taivaannapojen lähellä olevat tähdet liikkuvat vähemmän sekunnissa. Pohjantähteä kohti osoittaminen mahdollistaa pidempiä valotuksia ennen raitoja."
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "Pinoaminen vs. yksittäinen valotus",
+          "description": "Tähtiradoissa monien lyhyiden valotusten pinoaminen tuottaa puhtaampia tuloksia kuin yksi äärimmäisen pitkä valotus ja mahdollistaa keskeytyksistä toipumisen."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "Käytä NPF-sääntöä 500-säännön sijaan moderneille kameroille. Se ottaa huomioon kennon resoluution ja tuottaa tarkempia maksimivalotusaikoja, etenkin korkeamegapikselisillä rungoilla."
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "Tähtiratojen pinoamiseen pidä ruutujen väliset aukot alle 2–3 sekunnissa käyttämällä langallista kaukolaukaisinta tai intervalometria. Pidemmät aukot luovat pisteviä raitoja sulavien sijaan."
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "Sisällytä Pohjantähti (tai eteläinen taivaannapa) sommitelmaasi saadaksesi vaikuttavat samankeskiset ympyräradat. Napaan lähempänä olevat tähdet piirtävät tiukempia kaaria."
         }
       },
       "tooltips": {
         "mode": {
-          "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "term": "Tila",
+          "definition": "Valitse \"Sharp Stars\" laskeaksesi maksimivalotusajan pistemäisille tähdille tai \"Star Trails\" suunnitellaksesi valotussarjoja tarkoituksellisia rataefektejä varten."
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "Polttoväli",
+          "definition": "Objektiivin polttoväli millimetreinä. Pidemmät polttovälit suurentavat tähtien näennäistä liikettä, vaatien lyhyempiä yksittäisvalotuksia."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "Kennokoko",
+          "definition": "Kennon fyysiset mitat. Yhdistettynä resoluutioon määrittää pikselikoon, joka vaikuttaa siihen kuinka nopeasti tähtien venymä tulee näkyviin."
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "Resoluutio",
+          "definition": "Kennon resoluutio megapikseleinä. Korkearesoluutioiset kamerat paljastavat tähtien venymän aikaisemmin, koska jokainen pikseli kattaa pienemmän taivaan kulman."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "term": "Aukko",
+          "definition": "Objektiivin aukko. Astrokuvaukseen käytä suurinta saatavilla olevaa aukkoa (pienintä f-lukua) tallentaaksesi mahdollisimman paljon tähtien valoa joka ruutuun."
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "Leveysaste",
+          "definition": "Maantieteellinen leveysasteesi. Vaikuttaa tähtien näennäiseen liikenopeuteen — korkeammilla leveysasteilla napaan lähellä olevat tähdet liikkuvat hitaammin ruudussa."
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "Valotus ruutua kohden",
+          "definition": "Yksittäisen ruudun suljinaika tähtiratasarjassa. Tyypillisesti 15–30 sekuntia tallentaakseen tarpeeksi valoa ja välttäen liiallista kohinaa."
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "Ruutujen määrä",
+          "definition": "Kuinka monta yksittäistä valotusta otetaan. Enemmän ruutuja tarkoittaa pidempiä, dramaattisempia tähtiratoja. 120 ruutua 30 sekunnin välein tuottaa yhden tunnin ratoja."
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "Aukko ruutujen välillä",
+          "definition": "Aika valotusten välillä, jolloin kamera tallentaa tiedoston. Pidä tämä mahdollisimman lyhyenä (1–3 sekuntia) välttääksesi pisteviä ratoja."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "Kuvaat Linnunrataa 24 mm:n objektiivilla täyskennoisella 24 MP:n kameralla. Kuinka pitkään voit likimäärin valottaa 500-säännön mukaan ennen kuin tähdet alkavat venyä?",
+          "hint": "500-sääntö: maksimisekunnit = 500 / polttoväli.",
+          "successMessage": "Oikein! 500 / 24 = noin 20 sekuntia. Tämä on hyvä lähtökohta, vaikka NPF-sääntö saattaisi ehdottaa hieman lyhyempää aikaa kriittistä terävyyttä varten.",
+          "failureMessage": "Käytä 500-sääntöä: jaa 500 polttovälilläsi (24 mm). Saat noin 20 sekuntia.",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 sekuntia" },
+            "1": { "label": "10 sekuntia" },
+            "2": { "label": "20 sekuntia" },
+            "3": { "label": "60 sekuntia" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "Haluat kuvata Orionin sumun 200 mm:n objektiivilla rajaavalla kennolla (1,5x kerroin). Mikä on likimääräinen maksimivalotus 500-säännöllä?",
+          "hint": "Rajaavalla kennolla kerro ensin polttoväli kertoimella ja sovella sitten sääntöä.",
+          "successMessage": "Oikein! Tehollinen polttoväli on 200 mm × 1,5 = 300 mm. 500 / 300 = ~1,7 sekuntia. Telepituuksilla rajaavilla kennoilla on hyvin vähän aikaa ennen kuin venymä näkyy.",
+          "failureMessage": "Muista ottaa kerroin huomioon: 200 mm × 1,5 = 300 mm tehollinen. Sitten 500 / 300 antaa noin 1,7 sekuntia.",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1,7 sekuntia" },
+            "1": { "label": "~2,5 sekuntia" },
+            "2": { "label": "~5 sekuntia" },
+            "3": { "label": "~10 sekuntia" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "Haluat luoda 2 tunnin tähtiratakuvan. Aiot kuvata 30 sekunnin valotuksia 2 sekunnin aukoilla. Kuinka monta ruutua tarvitset?",
+          "hint": "Laske kuinka monta 32 sekunnin väliä (30s valotus + 2s aukko) mahtuu 2 tuntiin (7200 sekuntia).",
+          "successMessage": "Oikein! 7200 sekuntia / 32 sekuntia per ruutu = 225 ruutua. Saat sulavat, jatkuvat radat 2 tunnin Maan pyörähdyksen ajalta.",
+          "failureMessage": "Kaksi tuntia = 7200 sekuntia. Jokainen ruutukierros on 30s + 2s = 32s. Jaa 7200 luvulla 32 saadaksesi tarvittavien ruutujen määrän.",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 ruutua" },
+            "1": { "label": "180 ruutua" },
+            "2": { "label": "225 ruutua" },
+            "3": { "label": "240 ruutua" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "Ystäväsi käyttää 50 MP:n täyskennoista kameraa ja noudatti 500-sääntöä 20 mm:n objektiivilla, saaden 25 sekunnin valotuksen. Hän valittaa, että tähdet näyttävät lyhyiltä raidoilta lähennettäessä. Miksi?",
+          "hint": "500-sääntö suunniteltiin vanhemmille, matalaresoluutioisille kennoille.",
+          "successMessage": "Juuri niin! 500-sääntö on liian antelias korkearesoluutioisille kennoille. 50 MP:n täyskennoisella kennolla pikselikoko on noin 4,4 mikrometriä, ja NPF-sääntö suosittelisi noin 10–12 sekuntia todella teräville tähdille.",
+          "failureMessage": "500-sääntö luotiin, kun kennoissa oli paljon vähemmän megapikseleitä. 50 MP:llä jokainen pikseli kattaa paljon pienemmän siivun taivasta, paljastaen tähtien liikkeen, joka oli näkymätön vanhemmissa kameroissa.",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "Objektiivi oli epätarkasti tarkennettu" },
+            "1": { "label": "500-sääntö on liian antelias korkearesoluutioisille kennoille" },
+            "2": { "label": "Kamera tärisi tuulessa" },
+            "3": { "label": "20 mm on liian laaja astrokuvaukseen" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "Haluat yhden tunnin tähtiratakuvan. Miksi kokeneet astrokuvaajat pinoavat monia lyhyitä valotuksia (esim. 240 × 15s) sen sijaan että ottaisivat yhden tunnin valotuksen?",
+          "hint": "Mieti mitä tapahtuu kennon kohinalle, akun kestolle ja palautettavuudelle erittäin pitkässä yksittäisvalotuksessa.",
+          "successMessage": "Oikein! Yksittäinen tunnin valotus kertyy massiivisesti lämpökohinaa, tyhjentää akun, ja jos jotain menee pieleen (tärinä, kaste, auton ajovalot), koko kuva on pilalla. Lyhyiden ruutujen pinoaminen pitää kohinan alhaisena, sallii huonojen ruutujen poiston ja on paljon anteeksiantavampaa.",
+          "failureMessage": "Pitkät yksittäisvalotukset kerryttävät vakavaa lämpökohinaa ja riskeeraavat täyden menetyksen keskeytyksistä. Lyhyiden ruutujen pinoaminen pitää kohinan hallittavana, antaa hylätä pilatut ruudut ja tuottaa puhtaampia tuloksia.",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "Pinoaminen tuottaa pidempiä ratoja kuin yksi valotus" },
+            "1": { "label": "Yksittäisvalotukset eivät voi tallentaa tähtien liikettä" },
+            "2": { "label": "Pinoaminen vähentää kohinaa, sallii toipumisen keskeytyksistä ja säästää akkua" },
+            "3": { "label": "Ei käytännön eroa — puhtaasti mieltymyskysymys" }
           }
         }
       }

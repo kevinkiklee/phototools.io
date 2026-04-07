@@ -1,49 +1,49 @@
 {
   "education": {
     "hyperfocal-simulator": {
-      "beginner": "The hyperfocal distance is the closest point you can focus on while still keeping everything at infinity acceptably sharp. When you focus at the hyperfocal distance, your depth of field extends from half that distance all the way to infinity. Landscape photographers use this technique to maximize sharpness from foreground to horizon.",
-      "deeper": "Hyperfocal distance is derived from the thin-lens equation and the concept of the circle of confusion (CoC). It equals the focal length squared divided by the product of the f-number and the CoC diameter: H = f\u00b2 / (N \u00d7 c). Anything from H/2 to infinity falls within acceptable sharpness. The CoC depends on sensor size — smaller sensors have a smaller acceptable CoC, which pushes the hyperfocal distance farther away for the same focal length and aperture. This is why crop-sensor cameras appear to have greater depth of field: the CoC standard is tighter relative to the image area. In practice, diffraction softening at very small apertures (f/16 and beyond on most sensors) means there is a trade-off between maximizing depth of field and maintaining per-pixel sharpness.",
+      "beginner": "Distanța hiperfocală este cel mai apropiat punct pe care poți focaliza menținând totuși totul de la infinit acceptabil de clar. Când focalizezi la distanța hiperfocală, adâncimea câmpului se întinde de la jumătate din acea distanță până la infinit. Fotografii de peisaj folosesc această tehnică pentru a maximiza claritatea din prim-plan până la orizont.",
+      "deeper": "Distanța hiperfocală derivă din ecuația lentilei subțiri și din conceptul de cerc de confuzie (CoC). Este egală cu pătratul distanței focale împărțit la produsul dintre cifra f și diametrul CoC: H = f\u00b2 / (N \u00d7 c). Orice, de la H/2 până la infinit, se încadrează în zona de claritate acceptabilă. CoC-ul depinde de dimensiunea senzorului — senzorii mai mici au un CoC acceptabil mai mic, ceea ce împinge distanța hiperfocală mai departe, pentru aceeași distanță focală și diafragmă. De aceea camerele crop par să aibă o adâncime a câmpului mai mare: standardul CoC este mai strict în raport cu suprafața imaginii. În practică, înmuierea prin difracție la diafragme foarte mici (f/16 și peste, pe majoritatea senzorilor) înseamnă că există un compromis între maximizarea adâncimii câmpului și menținerea clarității per pixel.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths dramatically increase hyperfocal distance — it scales with the square of focal length."
+          "label": "Distanță focală",
+          "description": "Distanțele focale mai lungi cresc dramatic distanța hiperfocală — aceasta scalează cu pătratul distanței focale."
         },
         "1": {
-          "label": "Aperture",
-          "description": "Smaller apertures (higher f-numbers) reduce hyperfocal distance, extending depth of field."
+          "label": "Diafragmă",
+          "description": "Diafragmele mai mici (cifre f mai mari) reduc distanța hiperfocală, extinzând adâncimea câmpului."
         },
         "2": {
-          "label": "Sensor Size",
-          "description": "Smaller sensors use a smaller circle of confusion, which increases hyperfocal distance for equivalent framing."
+          "label": "Dimensiunea senzorului",
+          "description": "Senzorii mai mici folosesc un cerc de confuzie mai mic, ceea ce crește distanța hiperfocală pentru încadrare echivalentă."
         },
         "3": {
-          "label": "Circle of Confusion",
-          "description": "The maximum blur spot diameter considered \"acceptably sharp\" — typically 0.03mm for full frame."
+          "label": "Cerc de confuzie",
+          "description": "Diametrul maxim al punctului de neclaritate considerat \"acceptabil de clar\" — de obicei 0.03mm pentru full frame."
         }
       },
       "tips": {
         "0": {
-          "text": "For quick landscape work, focus roughly one-third into the scene — it approximates the hyperfocal point for most wide-angle setups."
+          "text": "Pentru peisaje rapide, focalizează aproximativ la o treime din scenă — aproximează punctul hiperfocal pentru majoritatea setărilor cu obiectiv larg."
         },
         "1": {
-          "text": "Avoid stopping down past f/16 on full-frame or f/11 on APS-C. Diffraction will undo the depth-of-field gains you are chasing."
+          "text": "Evită să închizi mai mult de f/16 pe full-frame sau f/11 pe APS-C. Difracția va anula câștigurile de adâncime a câmpului pe care le urmărești."
         },
         "2": {
-          "text": "Use live view magnification to nail focus precisely at the hyperfocal distance rather than relying on the lens distance scale, which is often imprecise on modern autofocus lenses."
+          "text": "Folosește mărirea în Live View ca să fixezi focalizarea precis la distanța hiperfocală, în loc să te bazezi pe scala de distanță a obiectivului, care e adesea imprecisă pe obiectivele moderne cu autofocus."
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "The camera sensor format. Smaller sensors have a tighter circle of confusion standard, which shifts all hyperfocal distances farther away."
+          "term": "Senzor",
+          "definition": "Formatul senzorului camerei. Senzorii mai mici au un standard de cerc de confuzie mai strict, ceea ce împinge toate distanțele hiperfocale mai departe."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a landscape with a 24mm lens on a full-frame camera. Which sensor format should you select to see full-frame hyperfocal distances?",
-          "hint": "Full frame is the standard 35mm sensor size.",
-          "successMessage": "Correct! Full Frame is the right choice for a standard 35mm sensor.",
-          "failureMessage": "Not quite — select the Full Frame sensor to match a standard 35mm camera body.",
+          "scenario": "Faci un peisaj cu un obiectiv de 24mm pe o cameră full-frame. Ce format de senzor ar trebui să selectezi ca să vezi distanțele hiperfocale full-frame?",
+          "hint": "Full frame este dimensiunea standard de senzor 35mm.",
+          "successMessage": "Corect! Full Frame este alegerea potrivită pentru un senzor standard de 35mm.",
+          "failureMessage": "Nu chiar — selectează senzorul Full Frame ca să potrivești un corp de cameră standard de 35mm.",
           "options": {
             "0": { "label": "Full Frame" },
             "1": { "label": "APS-C (Nikon/Sony)" },
@@ -51,20 +51,20 @@
           }
         },
         "1": {
-          "scenario": "Looking at the table for full frame, which has a shorter hyperfocal distance: 24mm at f/8, or 50mm at f/8?",
-          "hint": "Hyperfocal distance increases with the square of the focal length.",
-          "successMessage": "Right! The 24mm lens has a much shorter hyperfocal distance because focal length has a squared relationship.",
-          "failureMessage": "Actually, shorter focal lengths always yield shorter hyperfocal distances. The 24mm wins here.",
+          "scenario": "Uitându-te la tabelul pentru full frame, care are o distanță hiperfocală mai scurtă: 24mm la f/8 sau 50mm la f/8?",
+          "hint": "Distanța hiperfocală crește cu pătratul distanței focale.",
+          "successMessage": "Exact! Obiectivul de 24mm are o distanță hiperfocală mult mai scurtă pentru că distanța focală are o relație la pătrat.",
+          "failureMessage": "De fapt, distanțele focale mai scurte dau întotdeauna distanțe hiperfocale mai scurte. 24mm câștigă aici.",
           "options": {
-            "0": { "label": "24mm at f/8" },
-            "1": { "label": "50mm at f/8" }
+            "0": { "label": "24mm la f/8" },
+            "1": { "label": "50mm la f/8" }
           }
         },
         "2": {
-          "scenario": "You are hiking with an APS-C camera and a 35mm lens. You want everything from about 3 meters to infinity sharp. Which aperture range should you look at in the table to find a hyperfocal distance near 6 meters (so that half of it — 3m — is your near-focus limit)?",
-          "hint": "Remember: near focus = hyperfocal / 2. Look for an aperture that gives a hyperfocal around 6m.",
-          "successMessage": "Great thinking! You correctly identified that you need a hyperfocal distance of about 6m, and found the right aperture range.",
-          "failureMessage": "Remember, near focus equals half the hyperfocal distance. You need the hyperfocal to be around 6m to get a near-focus limit of 3m.",
+          "scenario": "Ești în drumeție cu o cameră APS-C și un obiectiv de 35mm. Vrei ca totul de la aproximativ 3 metri până la infinit să fie clar. În ce interval de diafragmă ar trebui să te uiți în tabel ca să găsești o distanță hiperfocală aproape de 6 metri (astfel încât jumătate din ea — 3m — să fie limita ta de focalizare apropiată)?",
+          "hint": "Ține minte: focalizarea apropiată = hiperfocală / 2. Caută o diafragmă care îți dă o hiperfocală în jur de 6m.",
+          "successMessage": "Gândire excelentă! Ai identificat corect că ai nevoie de o distanță hiperfocală de aproximativ 6m și ai găsit intervalul de diafragmă potrivit.",
+          "failureMessage": "Ține minte, focalizarea apropiată este egală cu jumătate din distanța hiperfocală. Ai nevoie ca hiperfocala să fie în jur de 6m ca să obții o limită apropiată de 3m.",
           "options": {
             "0": { "label": "f/2.8 — f/4" },
             "1": { "label": "f/5.6 — f/8" },
@@ -72,24 +72,24 @@
           }
         },
         "3": {
-          "scenario": "A friend switches from a full-frame camera to Micro Four Thirds but keeps shooting the same focal lengths. They complain that the hyperfocal distances seem different. Why?",
-          "hint": "The circle of confusion is calculated based on sensor size.",
-          "successMessage": "Exactly! The smaller M43 sensor uses a smaller CoC (about 0.015mm vs 0.03mm), which increases hyperfocal distances for the same focal length and aperture.",
-          "failureMessage": "The key factor is the circle of confusion. Smaller sensors require a tighter CoC standard, which pushes hyperfocal distances farther out.",
+          "scenario": "Un prieten trece de la o cameră full-frame la Micro Four Thirds, dar continuă să fotografieze cu aceleași distanțe focale. Se plânge că distanțele hiperfocale par diferite. De ce?",
+          "hint": "Cercul de confuzie se calculează în funcție de dimensiunea senzorului.",
+          "successMessage": "Exact! Senzorul mai mic M43 folosește un CoC mai mic (aproximativ 0.015mm vs 0.03mm), ceea ce crește distanțele hiperfocale pentru aceeași distanță focală și diafragmă.",
+          "failureMessage": "Factorul cheie este cercul de confuzie. Senzorii mai mici cer un standard CoC mai strict, ceea ce împinge distanțele hiperfocale mai departe.",
           "options": {
-            "0": { "label": "The lens focal length changes on crop sensors" },
-            "1": { "label": "Smaller sensors use a smaller circle of confusion" },
-            "2": { "label": "Micro Four Thirds cameras have less accurate autofocus" }
+            "0": { "label": "Distanța focală a obiectivului se schimbă pe senzorii crop" },
+            "1": { "label": "Senzorii mai mici folosesc un cerc de confuzie mai mic" },
+            "2": { "label": "Camerele Micro Four Thirds au autofocus mai puțin precis" }
           }
         },
         "4": {
-          "scenario": "You are shooting architecture at 14mm f/11 on full frame. The table shows a very short hyperfocal distance. Should you stop down further to f/22 for even more depth of field, or is f/11 the better choice?",
-          "hint": "Consider what happens to image sharpness at very small apertures.",
-          "successMessage": "Excellent! At f/11, diffraction is minimal on full frame, and the hyperfocal distance at 14mm is already very short. Stopping down to f/22 would soften the image due to diffraction without meaningful DoF benefit.",
-          "failureMessage": "While f/22 gives a shorter hyperfocal distance on paper, diffraction softening at f/22 on full frame actually reduces overall image sharpness. At 14mm f/11, the hyperfocal distance is already so short that the extra DoF is not worth the diffraction penalty.",
+          "scenario": "Fotografiezi arhitectură la 14mm f/11 pe full frame. Tabelul arată o distanță hiperfocală foarte scurtă. Ar trebui să închizi mai mult la f/22 pentru și mai multă adâncime a câmpului sau f/11 este alegerea mai bună?",
+          "hint": "Gândește-te la ce se întâmplă cu claritatea imaginii la diafragme foarte mici.",
+          "successMessage": "Excelent! La f/11, difracția este minimă pe full frame, iar distanța hiperfocală la 14mm este deja foarte scurtă. Închiderea la f/22 ar înmuia imaginea din cauza difracției, fără un beneficiu semnificativ de DoF.",
+          "failureMessage": "Deși f/22 dă pe hârtie o distanță hiperfocală mai scurtă, înmuierea prin difracție la f/22 pe full frame reduce de fapt claritatea generală. La 14mm f/11, distanța hiperfocală este deja atât de scurtă încât DoF-ul suplimentar nu merită penalizarea de difracție.",
           "options": {
-            "0": { "label": "Stop down to f/22 for maximum depth of field" },
-            "1": { "label": "Stay at f/11 — diffraction at f/22 will reduce sharpness" }
+            "0": { "label": "Închide la f/22 pentru adâncime maximă a câmpului" },
+            "1": { "label": "Rămâi la f/11 — difracția la f/22 va reduce claritatea" }
           }
         }
       }

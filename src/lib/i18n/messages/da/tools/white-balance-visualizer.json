@@ -1,28 +1,28 @@
 {
   "toolUI": {
     "white-balance-visualizer": {
-      "colorTemperature": "Color Temperature:",
-      "warm": "Warm",
+      "colorTemperature": "Farvetemperatur:",
+      "warm": "Varm",
       "neutral": "Neutral",
-      "cool": "Cool",
-      "presets": "Presets",
-      "red": "Red",
-      "green": "Green",
-      "blue": "Blue",
+      "cool": "Kold",
+      "presets": "Forudindstillinger",
+      "red": "Rød",
+      "green": "Grøn",
+      "blue": "Blå",
       "hex": "Hex",
-      "loadingScene": "Loading scene...",
+      "loadingScene": "Indlæser motiv...",
       "faq": {
         "what-is-white-balance": {
-          "question": "What is white balance in photography?",
-          "answer": "White balance adjusts colors in your photo so that objects that appear white in person also appear white in the image. Different light sources emit different color temperatures, and white balance compensates for these variations."
+          "question": "Hvad er hvidbalance i fotografi?",
+          "answer": "Hvidbalance justerer farverne i dit billede, så objekter, der er hvide i virkeligheden, også ser hvide ud på billedet. Forskellige lyskilder udsender forskellige farvetemperaturer, og hvidbalance kompenserer for de forskelle."
         },
         "kelvin-vs-presets": {
-          "question": "Should I use Kelvin values or white balance presets?",
-          "answer": "Presets (Daylight, Cloudy, Tungsten) are convenient starting points, but setting a specific Kelvin value gives more precise control. Shoot in RAW format to adjust white balance non-destructively in post-processing."
+          "question": "Skal jeg bruge Kelvin-værdier eller hvidbalance-forudindstillinger?",
+          "answer": "Forudindstillinger (Dagslys, Overskyet, Tungsten) er praktiske udgangspunkter, men en bestemt Kelvin-værdi giver mere præcis kontrol. Skyd i RAW, så du kan justere hvidbalancen tabsfrit i efterbehandlingen."
         },
         "when-to-use-manual-white-balance": {
-          "question": "When should I use manual white balance?",
-          "answer": "Use manual white balance for mixed lighting (combining natural and artificial), studio setups requiring exact color accuracy, product photography, and any time auto white balance produces inconsistent results across a series of shots."
+          "question": "Hvornår bør jeg bruge manuel hvidbalance?",
+          "answer": "Brug manuel hvidbalance i blandet lys (naturligt og kunstigt), til studieopstillinger der kræver præcis farve, til produktfotografi og altid når auto-hvidbalance giver inkonsekvente resultater på tværs af en serie."
         }
       }
     }

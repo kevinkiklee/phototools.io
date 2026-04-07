@@ -1,77 +1,77 @@
 {
   "education": {
     "exif-viewer": {
-      "beginner": "EXIF data is hidden information embedded in every photo your camera takes. It records what camera and lens you used, the exact settings (aperture, shutter speed, ISO), the date and time, and sometimes even GPS coordinates. This tool reads that data without uploading your photo anywhere — everything happens in your browser.",
-      "deeper": "EXIF (Exchangeable Image File Format) is a standard defined by JEITA/CIPA that stores metadata in JPEG, TIFF, and some RAW files. The data is written into specific segments of the file header as tagged key-value pairs using a TIFF-based IFD (Image File Directory) structure. There are several IFD sections: IFD0 for basic image info, the EXIF sub-IFD for camera settings, the GPS IFD for geolocation, and the Interop IFD for compatibility data. Camera manufacturers also write proprietary \"MakerNote\" data containing lens corrections, focus points, shutter count, and other model-specific details. Social media platforms often strip EXIF data on upload for privacy, but the original file on your memory card always retains it. Understanding EXIF helps you learn from your own shooting patterns and reverse-engineer the settings behind photos you admire.",
+      "beginner": "Τα δεδομένα EXIF είναι κρυμμένες πληροφορίες ενσωματωμένες σε κάθε φωτογραφία που τραβάει η κάμερά σου. Καταγράφουν ποια κάμερα και φακό χρησιμοποίησες, τις ακριβείς ρυθμίσεις (διάφραγμα, ταχύτητα κλείστρου, ISO), την ημερομηνία και ώρα, και μερικές φορές ακόμα και συντεταγμένες GPS. Αυτό το εργαλείο διαβάζει αυτά τα δεδομένα χωρίς να ανεβάζει τη φωτογραφία σου πουθενά — όλα γίνονται στον browser σου.",
+      "deeper": "Το EXIF (Exchangeable Image File Format) είναι ένα πρότυπο που ορίζεται από τη JEITA/CIPA και αποθηκεύει metadata σε αρχεία JPEG, TIFF και ορισμένα RAW. Τα δεδομένα γράφονται σε συγκεκριμένα τμήματα της κεφαλίδας του αρχείου ως ζεύγη κλειδιού-τιμής με ετικέτες, χρησιμοποιώντας δομή TIFF IFD (Image File Directory). Υπάρχουν αρκετές ενότητες IFD: το IFD0 για βασικές πληροφορίες εικόνας, το EXIF sub-IFD για ρυθμίσεις κάμερας, το GPS IFD για γεωτοποθεσία και το Interop IFD για δεδομένα συμβατότητας. Οι κατασκευαστές γράφουν επίσης ιδιόκτητα «MakerNote» δεδομένα με διορθώσεις φακού, σημεία εστίασης, αριθμό κλικ κλείστρου και άλλες λεπτομέρειες ειδικές για το μοντέλο. Οι πλατφόρμες social media συχνά αφαιρούν τα EXIF κατά το ανέβασμα για λόγους απορρήτου, αλλά το αρχικό αρχείο στην κάρτα μνήμης σου τα κρατάει πάντα. Η κατανόηση των EXIF σε βοηθάει να μάθεις από τα δικά σου μοτίβα λήψης και να αποκωδικοποιήσεις τις ρυθμίσεις πίσω από φωτογραφίες που θαυμάζεις.",
       "keyFactors": {
         "0": {
-          "label": "Camera & Lens",
-          "description": "Make, model, lens name, and lens manufacturer — useful for identifying gear in photos you find online."
+          "label": "Κάμερα & φακός",
+          "description": "Κατασκευαστής, μοντέλο, όνομα φακού και κατασκευαστής φακού — χρήσιμα για να αναγνωρίσεις εξοπλισμό σε φωτογραφίες που βρίσκεις online."
         },
         "1": {
-          "label": "Exposure Settings",
-          "description": "Aperture, shutter speed, ISO, and focal length — the core shooting parameters recorded for every frame."
+          "label": "Ρυθμίσεις έκθεσης",
+          "description": "Διάφραγμα, ταχύτητα κλείστρου, ISO και εστιακή απόσταση — οι βασικές παράμετροι λήψης που καταγράφονται σε κάθε καρέ."
         },
         "2": {
-          "label": "Date & GPS",
-          "description": "When and where the photo was taken. Be mindful that GPS data reveals your location when sharing files."
+          "label": "Ημερομηνία & GPS",
+          "description": "Πότε και πού τραβήχτηκε η φωτογραφία. Πρόσεχε ότι τα δεδομένα GPS αποκαλύπτουν την τοποθεσία σου όταν μοιράζεσαι αρχεία."
         },
         "3": {
-          "label": "Software",
-          "description": "Shows which editing software last saved the file. Useful for checking if an image has been processed."
+          "label": "Λογισμικό",
+          "description": "Δείχνει ποιο λογισμικό επεξεργασίας αποθήκευσε τελευταίο το αρχείο. Χρήσιμο για να ελέγξεις αν μια εικόνα έχει επεξεργαστεί."
         }
       },
       "tips": {
         "0": {
-          "text": "Check the focal length and 35mm equivalent to understand whether the photographer used a wide, normal, or telephoto perspective — this teaches composition more than any rule of thirds."
+          "text": "Έλεγξε την εστιακή απόσταση και το ισοδύναμο 35mm για να καταλάβεις αν ο φωτογράφος χρησιμοποίησε ευρυγώνια, κανονική ή τηλεφωτογραφική προοπτική — αυτό διδάσκει σύνθεση περισσότερο από οποιονδήποτε κανόνα των τρίτων."
         },
         "1": {
-          "text": "If a photo you admire was shot at high ISO with a wide aperture, that tells you it was a low-light situation. Use EXIF to understand the constraints the photographer faced."
+          "text": "Αν μια φωτογραφία που θαυμάζεις τραβήχτηκε σε υψηλό ISO με μεγάλο διάφραγμα, αυτό σου λέει ότι ήταν σε κατάσταση χαμηλού φωτισμού. Χρησιμοποίησε τα EXIF για να κατανοήσεις τους περιορισμούς που αντιμετώπισε ο φωτογράφος."
         },
         "2": {
-          "text": "Before sharing photos online, be aware that EXIF may contain your GPS location. Strip metadata using your editing software export settings if privacy is a concern."
+          "text": "Πριν μοιραστείς φωτογραφίες online, να ξέρεις ότι τα EXIF μπορεί να περιέχουν την τοποθεσία GPS σου. Αφαίρεσε τα metadata μέσω των ρυθμίσεων εξαγωγής του λογισμικού σου αν το απόρρητο σε απασχολεί."
         }
       },
       "tooltips": {
         "Make": {
-          "term": "Make",
-          "definition": "The camera manufacturer name (e.g., Canon, Nikon, Sony) stored in the EXIF header."
+          "term": "Κατασκευαστής",
+          "definition": "Το όνομα του κατασκευαστή της κάμερας (π.χ. Canon, Nikon, Sony) που αποθηκεύεται στην κεφαλίδα EXIF."
         },
         "Model": {
-          "term": "Model",
-          "definition": "The specific camera model (e.g., \"EOS R5\", \"Z 9\") that captured the image."
+          "term": "Μοντέλο",
+          "definition": "Το συγκεκριμένο μοντέλο κάμερας (π.χ. «EOS R5», «Z 9») που τράβηξε την εικόνα."
         },
         "Aperture": {
-          "term": "Aperture",
-          "definition": "The f-number the lens was set to. Lower numbers mean wider aperture and more light."
+          "term": "Διάφραγμα",
+          "definition": "Ο αριθμός f στον οποίο ήταν ρυθμισμένος ο φακός. Χαμηλότεροι αριθμοί σημαίνουν μεγαλύτερο διάφραγμα και περισσότερο φως."
         },
         "Shutter Speed": {
-          "term": "Shutter Speed",
-          "definition": "How long the sensor was exposed. Expressed as a fraction (e.g., 1/250s) or whole seconds for long exposures."
+          "term": "Ταχύτητα κλείστρου",
+          "definition": "Πόση ώρα εκτέθηκε ο αισθητήρας. Εκφράζεται ως κλάσμα (π.χ. 1/250s) ή ολόκληρα δευτερόλεπτα για μεγάλες εκθέσεις."
         },
         "ISO": {
           "term": "ISO",
-          "definition": "The sensor sensitivity setting. Higher ISO brightens the image but adds noise."
+          "definition": "Η ρύθμιση ευαισθησίας του αισθητήρα. Υψηλότερο ISO φωτίζει την εικόνα αλλά προσθέτει θόρυβο."
         },
         "Focal Length": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens in millimeters."
+          "term": "Εστιακή απόσταση",
+          "definition": "Η πραγματική εστιακή απόσταση του φακού σε χιλιοστά."
         },
         "Focal Length (35mm equiv)": {
-          "term": "Focal Length (35mm equiv.)",
-          "definition": "The equivalent focal length as if shot on a full-frame 35mm sensor. Useful for comparing field of view across sensor sizes."
+          "term": "Εστιακή απόσταση (ισοδύναμο 35mm)",
+          "definition": "Η ισοδύναμη εστιακή απόσταση αν τραβούσες σε full-frame 35mm αισθητήρα. Χρήσιμη για να συγκρίνεις οπτικό πεδίο μεταξύ μεγεθών αισθητήρα."
         },
         "GPS": {
           "term": "GPS",
-          "definition": "Latitude and longitude coordinates embedded by cameras with GPS modules. Reveals where the photo was taken."
+          "definition": "Συντεταγμένες γεωγραφικού πλάτους και μήκους ενσωματωμένες από κάμερες με GPS. Αποκαλύπτουν πού τραβήχτηκε η φωτογραφία."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You found a stunning photo online and want to know what lens was used. Which EXIF section would tell you?",
-          "hint": "Camera and lens info are in different sections.",
-          "successMessage": "Correct! The Lens section shows the lens model and manufacturer.",
-          "failureMessage": "The Lens section contains the lens model — check there to identify the glass used.",
+          "scenario": "Βρήκες μια εντυπωσιακή φωτογραφία online και θέλεις να μάθεις ποιος φακός χρησιμοποιήθηκε. Ποιο τμήμα EXIF θα σου το πει;",
+          "hint": "Οι πληροφορίες κάμερας και φακού είναι σε διαφορετικά τμήματα.",
+          "successMessage": "Σωστά! Το τμήμα Lens δείχνει το μοντέλο και τον κατασκευαστή του φακού.",
+          "failureMessage": "Το τμήμα Lens περιέχει το μοντέλο του φακού — έλεγξέ το για να αναγνωρίσεις τον φακό που χρησιμοποιήθηκε.",
           "options": {
             "0": { "label": "Camera" },
             "1": { "label": "Lens" },
@@ -79,45 +79,45 @@
           }
         },
         "1": {
-          "scenario": "You uploaded a photo and see Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Was this likely shot in bright or dim light?",
-          "hint": "A very fast shutter speed at low ISO suggests lots of available light.",
-          "successMessage": "Right! The fast shutter speed (1/4000s) at base ISO (100) tells you there was plenty of light — likely bright outdoors.",
-          "failureMessage": "A shutter speed of 1/4000s at ISO 100 means the camera needed very little sensitivity and very short exposure. That is a bright outdoor scene.",
+          "scenario": "Ανέβασες μια φωτογραφία και βλέπεις Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Τραβήχτηκε σε έντονο ή χαμηλό φως;",
+          "hint": "Μια πολύ γρήγορη ταχύτητα κλείστρου σε χαμηλό ISO δείχνει άφθονο διαθέσιμο φως.",
+          "successMessage": "Σωστά! Η γρήγορη ταχύτητα κλείστρου (1/4000s) στο base ISO (100) σου λέει ότι υπήρχε άφθονο φως — πιθανότατα έντονο εξωτερικό.",
+          "failureMessage": "Ταχύτητα κλείστρου 1/4000s στο ISO 100 σημαίνει ότι η κάμερα χρειάστηκε πολύ λίγη ευαισθησία και πολύ μικρή έκθεση. Αυτό είναι σκηνή σε έντονο εξωτερικό φως.",
           "options": {
-            "0": { "label": "Bright light — fast shutter at low ISO" },
-            "1": { "label": "Dim light — the wide aperture compensates" }
+            "0": { "label": "Έντονο φως — γρήγορο κλείστρο σε χαμηλό ISO" },
+            "1": { "label": "Χαμηλό φως — το μεγάλο διάφραγμα αντισταθμίζει" }
           }
         },
         "2": {
-          "scenario": "A photo shows Focal Length: 50mm and Focal Length (35mm equiv.): 75mm. What sensor was the camera using?",
-          "hint": "The 35mm equivalent is the focal length multiplied by the crop factor.",
-          "successMessage": "Correct! 75 / 50 = 1.5x crop factor, which is an APS-C sensor (Nikon/Sony variant).",
-          "failureMessage": "Divide the 35mm equivalent by the actual focal length: 75 / 50 = 1.5x. That crop factor matches APS-C (Nikon/Sony).",
+          "scenario": "Μια φωτογραφία δείχνει Focal Length: 50mm και Focal Length (35mm equiv.): 75mm. Ποιον αισθητήρα χρησιμοποιούσε η κάμερα;",
+          "hint": "Το ισοδύναμο 35mm είναι η εστιακή απόσταση πολλαπλασιασμένη με τον συντελεστή crop.",
+          "successMessage": "Σωστά! 75 / 50 = συντελεστής crop 1.5x, που είναι αισθητήρας APS-C (τύπος Nikon/Sony).",
+          "failureMessage": "Διαίρεσε το ισοδύναμο 35mm με την πραγματική εστιακή απόσταση: 75 / 50 = 1.5x. Αυτός ο συντελεστής crop ταιριάζει με APS-C (Nikon/Sony).",
           "options": {
             "0": { "label": "Full Frame (1.0x crop)" },
             "1": { "label": "APS-C (1.5x crop)" },
-            "2": { "label": "Micro Four Thirds (2.0x crop)" }
+            "2": { "label": "Micro Four Thirds (crop 2.0×)" }
           }
         },
         "3": {
-          "scenario": "You see two photos of the same scene. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Which photo was taken in brighter light?",
-          "hint": "Higher ISO compensates for less light.",
-          "successMessage": "Exactly! Photo B at ISO 200 had much more ambient light. Photo A needed ISO 3200 (4 stops more sensitivity) to achieve the same exposure, meaning the scene was much darker.",
-          "failureMessage": "Photo B was in brighter light. Same aperture and shutter speed, but ISO 200 vs 3200 means Photo A was in a much darker environment and needed 4 stops more sensor sensitivity.",
+          "scenario": "Βλέπεις δύο φωτογραφίες της ίδιας σκηνής. Φωτογραφία A: f/2.8, 1/60s, ISO 3200. Φωτογραφία B: f/2.8, 1/60s, ISO 200. Ποια τραβήχτηκε σε πιο έντονο φως;",
+          "hint": "Το υψηλότερο ISO αντισταθμίζει το λιγότερο φως.",
+          "successMessage": "Ακριβώς! Η φωτογραφία B στο ISO 200 είχε πολύ περισσότερο φως περιβάλλοντος. Η φωτογραφία A χρειάστηκε ISO 3200 (4 stops περισσότερη ευαισθησία) για να πετύχει την ίδια έκθεση, δηλαδή η σκηνή ήταν πολύ πιο σκοτεινή.",
+          "failureMessage": "Η φωτογραφία B ήταν σε πιο έντονο φως. Ίδιο διάφραγμα και ταχύτητα κλείστρου, αλλά ISO 200 έναντι 3200 σημαίνει ότι η φωτογραφία A ήταν σε πολύ πιο σκοτεινό περιβάλλον και χρειάστηκε 4 stops περισσότερη ευαισθησία αισθητήρα.",
           "options": {
-            "0": { "label": "Photo A (ISO 3200)" },
-            "1": { "label": "Photo B (ISO 200)" }
+            "0": { "label": "Φωτογραφία A (ISO 3200)" },
+            "1": { "label": "Φωτογραφία B (ISO 200)" }
           }
         },
         "4": {
-          "scenario": "You are analyzing a wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. The EXIF shows the software field is \"Adobe Lightroom Classic 13.1\". What can you infer about the photographer and the shooting conditions?",
-          "hint": "Consider the long focal length, wide-open aperture, fast shutter, and elevated ISO together.",
-          "successMessage": "Great analysis! The 400mm at f/5.6 (likely wide open for that lens) with a fast 1/2000s shutter suggests a fast-moving subject (birds or wildlife in action). ISO 1600 indicates it was not bright sunlight — probably overcast or in shade. The Lightroom field confirms post-processing was done.",
-          "failureMessage": "The settings reveal a lot: 400mm f/5.6 is a typical wildlife telephoto wide open, 1/2000s freezes fast animal movement, and ISO 1600 means light was limited (not bright sun). The Lightroom entry confirms the file was processed.",
+          "scenario": "Αναλύεις μια φωτογραφία άγριας ζωής: 400mm, f/5.6, 1/2000s, ISO 1600. Το EXIF δείχνει πεδίο software: «Adobe Lightroom Classic 13.1». Τι μπορείς να συμπεράνεις για τον φωτογράφο και τις συνθήκες λήψης;",
+          "hint": "Σκέψου μαζί τη μεγάλη εστιακή απόσταση, το μεγάλο διάφραγμα, τη γρήγορη ταχύτητα και το αυξημένο ISO.",
+          "successMessage": "Καλή ανάλυση! Το 400mm στο f/5.6 (πιθανώς wide open για αυτόν τον φακό) με γρήγορο 1/2000s υποδηλώνει γρήγορα κινούμενο θέμα (πουλιά ή ζώα σε δράση). Το ISO 1600 δείχνει ότι δεν ήταν έντονος ήλιος — μάλλον συννεφιά ή σκιά. Το πεδίο Lightroom επιβεβαιώνει ότι έγινε επεξεργασία.",
+          "failureMessage": "Οι ρυθμίσεις αποκαλύπτουν πολλά: 400mm f/5.6 είναι τυπικός τηλεφακός άγριας ζωής wide open, το 1/2000s παγώνει γρήγορη κίνηση ζώου και το ISO 1600 σημαίνει ότι το φως ήταν περιορισμένο (όχι έντονος ήλιος). Η εγγραφή Lightroom επιβεβαιώνει ότι το αρχείο επεξεργάστηκε.",
           "options": {
-            "0": { "label": "Fast subject in moderate light, post-processed in Lightroom" },
-            "1": { "label": "Slow subject in bright light, straight from camera" },
-            "2": { "label": "Landscape shot with motion blur, heavily edited" }
+            "0": { "label": "Γρήγορο θέμα σε μέτριο φως, επεξεργασμένο στο Lightroom" },
+            "1": { "label": "Αργό θέμα σε έντονο φως, απευθείας από την κάμερα" },
+            "2": { "label": "Λήψη τοπίου με motion blur, βαριά επεξεργασμένη" }
           }
         }
       }

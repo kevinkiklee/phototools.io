@@ -1,109 +1,109 @@
 {
   "education": {
     "nd-filter-calculator": {
-      "beginner": "An ND (neutral density) filter is like sunglasses for your camera lens. It reduces the amount of light entering the lens without changing the colors, allowing you to use slower shutter speeds or wider apertures in bright conditions. This is how photographers create silky waterfalls, smooth oceans, or blurred clouds during the day.",
-      "deeper": "ND filters are rated by how many stops of light they block. An ND2 filter (1 stop) halves the light, an ND8 (3 stops) reduces it to 1/8th, and an ND1000 (10 stops) reduces light by a factor of 1024. The naming conventions can be confusing: \"ND8\" means the filter factor is 8 (3 stops), while \"ND 0.9\" uses optical density notation (each 0.3 = 1 stop, so 0.9 = 3 stops). The resulting shutter speed is simply the base speed multiplied by the filter factor. For example, if your unfiltered exposure is 1/125s and you add a 10-stop ND (ND1000), the new shutter speed is 1/125 x 1024 = approximately 8 seconds. Stacking multiple ND filters adds their stop values together but can introduce vignetting and color casts, especially with wide-angle lenses.",
+      "beginner": "Et ND-filter (nøytralt gråfilter) er som solbriller for kameraobjektivet. Det reduserer lysmengden inn i objektivet uten å endre fargene, slik at du kan bruke langsommere lukkertider eller større blenderåpninger i sterkt lys. Dette er slik fotografer lager silkemyke fossefall, glatt hav eller uskarpe skyer midt på dagen.",
+      "deeper": "ND-filtre klassifiseres etter hvor mange blendertrinn lys de blokkerer. Et ND2-filter (1 trinn) halverer lyset, ND8 (3 trinn) reduserer til 1/8, og ND1000 (10 trinn) reduserer lys med en faktor på 1024. Navnekonvensjonene kan være forvirrende: «ND8» betyr at filterfaktoren er 8 (3 trinn), mens «ND 0.9» bruker optisk tetthetsnotasjon (hver 0,3 = 1 trinn, så 0,9 = 3 trinn). Den resulterende lukkertiden er rett og slett grunntiden multiplisert med filterfaktoren. Hvis eksponeringen uten filter er 1/125 s og du legger på et 10-trinns ND (ND1000), blir den nye lukkertiden 1/125 × 1024 = omtrent 8 sekunder. Å stable flere ND-filtre legger sammen trinnene, men kan introdusere vignettering og fargestikk, spesielt på vidvinkel.",
       "keyFactors": {
         "0": {
-          "label": "Base Shutter Speed",
-          "description": "The correct exposure time without any filter. Meter the scene first, then calculate the filtered exposure from this starting point."
+          "label": "Lukkertid uten filter",
+          "description": "Riktig eksponeringstid uten filter. Mål scenen først, og regn deretter ut den filtrerte eksponeringen fra dette utgangspunktet."
         },
         "1": {
-          "label": "Filter Strength",
-          "description": "Measured in stops. Each stop doubles the exposure time. Common strengths: 3-stop (ND8), 6-stop (ND64), and 10-stop (ND1000)."
+          "label": "Filterstyrke",
+          "description": "Måles i blendertrinn. Hvert trinn dobler eksponeringstiden. Vanlige styrker: 3 trinn (ND8), 6 trinn (ND64) og 10 trinn (ND1000)."
         },
         "2": {
-          "label": "Stacking Filters",
-          "description": "You can combine filters by adding their stop values. A 3-stop + 6-stop stack gives 9 stops of reduction. Beware of vignetting on wide-angle lenses."
+          "label": "Stabling av filtre",
+          "description": "Du kan kombinere filtre ved å legge sammen trinnverdiene. En 3-trinn + 6-trinn-stack gir 9 trinn med reduksjon. Pass på vignettering på vidvinkel."
         }
       },
       "tips": {
         "0": {
-          "text": "Compose and focus before attaching a strong ND filter. With 10 stops of light reduction, your viewfinder and autofocus will struggle in the dark."
+          "text": "Komponer og fokuser før du setter på et kraftig ND-filter. Med 10 trinn med reduksjon vil både søkeren og autofokusen slite i mørket."
         },
         "1": {
-          "text": "For seascapes, 1-2 second exposures smooth small ripples into texture while retaining wave structure. Exposures of 30 seconds or more create completely flat, misty water."
+          "text": "Til sjølandskap gir 1–2 sekunders eksponering glatte bølgetopper samtidig som du beholder litt struktur. Eksponeringer på 30 sekunder eller mer gir helt flatt, tåkete vann."
         },
         "2": {
-          "text": "Cheap ND filters often add a color cast (usually magenta or brown). Invest in quality glass from reputable brands, or learn to correct the cast in post-processing using a gray card reference."
+          "text": "Billige ND-filtre gir ofte fargestikk (som regel magenta eller brun). Invester i glass av god kvalitet fra kjente merker, eller lær deg å korrigere stikket i etterarbeidet med et gråkort som referanse."
         }
       },
       "tooltips": {
         "baseShutterSpeed": {
-          "term": "Base Shutter Speed",
-          "definition": "The shutter speed for a correct exposure without any ND filter attached. This is your starting point — the calculator multiplies it by the filter factor."
+          "term": "Lukkertid uten filter",
+          "definition": "Lukkertiden som gir riktig eksponering uten ND-filter. Dette er utgangspunktet — kalkulatoren multipliserer den med filterfaktoren."
         },
         "ndFilter": {
-          "term": "ND Filter",
-          "definition": "A neutral density filter that uniformly reduces light transmission. Rated by filter factor (ND2, ND4, ND8...) or stops of light reduction. ND2 = 1 stop, ND4 = 2 stops, ND8 = 3 stops, and so on."
+          "term": "ND-filter",
+          "definition": "Et nøytralt gråfilter som jevnt reduserer lysgjennomgangen. Klassifiseres etter filterfaktor (ND2, ND4, ND8 ...) eller blendertrinn. ND2 = 1 trinn, ND4 = 2 trinn, ND8 = 3 trinn, og så videre."
         },
         "resultingShutterSpeed": {
-          "term": "Resulting Shutter Speed",
-          "definition": "The new shutter speed after accounting for the ND filter. Calculated by multiplying the base shutter speed by the filter factor (e.g., 1/125s x 1024 for a 10-stop ND)."
+          "term": "Ny lukkertid",
+          "definition": "Den nye lukkertiden etter at ND-filteret er tatt med i beregningen. Finnes ved å multiplisere lukkertiden uten filter med filterfaktoren (for eksempel 1/125 s × 1024 for et 10-trinns ND)."
         },
         "stopsAdded": {
-          "term": "Stops Added",
-          "definition": "The number of stops of light reduction the ND filter provides. Each stop doubles the required exposure time. 10 stops means the exposure is 1024 times longer."
+          "term": "Trinn lagt til",
+          "definition": "Antall blendertrinn ND-filteret reduserer lys med. Hvert trinn dobler nødvendig eksponeringstid. 10 trinn betyr at eksponeringen er 1024 ganger lengre."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are at a waterfall and your camera meters a correct exposure at 1/125s without any filter. You attach a 3-stop ND filter (ND8). What is the new shutter speed?",
-          "hint": "Each stop doubles the exposure time. 3 stops means 2 x 2 x 2 = 8 times longer.",
-          "successMessage": "Correct! 1/125s x 8 = 1/15s. This is a good start for motion blur in the water, though you might want an even stronger filter for silky smooth results.",
-          "failureMessage": "A 3-stop ND filter multiplies the exposure time by 8 (2^3 = 8). So 1/125s becomes 1/15s.",
+          "scenario": "Du står ved et fossefall, og kameraet måler riktig eksponering på 1/125 s uten filter. Du fester et 3-trinns ND-filter (ND8). Hva blir den nye lukkertiden?",
+          "hint": "Hvert trinn dobler eksponeringstiden. 3 trinn betyr 2 × 2 × 2 = 8 ganger lengre.",
+          "successMessage": "Riktig! 1/125 s × 8 = 1/15 s. Det er et godt utgangspunkt for bevegelse i vannet, selv om du kanskje vil ha et sterkere filter for silkemykt resultat.",
+          "failureMessage": "Et 3-trinns ND-filter multipliserer eksponeringstiden med 8 (2^3 = 8). Så 1/125 s blir 1/15 s.",
           "options": {
-            "0": { "label": "1/60s" },
-            "1": { "label": "1/30s" },
-            "2": { "label": "1/15s" },
-            "3": { "label": "1/8s" }
+            "0": { "label": "1/60 s" },
+            "1": { "label": "1/30 s" },
+            "2": { "label": "1/15 s" },
+            "3": { "label": "1/8 s" }
           }
         },
         "1": {
-          "scenario": "You want to create a 30-second exposure of clouds moving across the sky. Without a filter, the correct exposure is 1/30s. How many stops of ND filtration do you need?",
-          "hint": "You need to go from 1/30s to 30s — that is 1/30 x factor = 30, so factor = 900. Find the nearest power of 2.",
-          "successMessage": "Correct! Going from 1/30s to 30s is roughly a 1000x increase, which is about 10 stops. An ND1000 (10-stop) filter gets you to approximately 33 seconds.",
-          "failureMessage": "The ratio is 30 / (1/30) = 900. The nearest power of 2 is 1024 (2^10), so you need a 10-stop ND filter.",
+          "scenario": "Du vil lage en 30-sekunders eksponering av skyer som driver over himmelen. Uten filter er riktig eksponering 1/30 s. Hvor mange ND-trinn trenger du?",
+          "hint": "Du skal gå fra 1/30 s til 30 s — det vil si 1/30 × faktor = 30, altså faktor = 900. Finn nærmeste toerpotens.",
+          "successMessage": "Riktig! Fra 1/30 s til 30 s er grovt en 1000-dobling, altså cirka 10 trinn. Et ND1000 (10 trinn) gir deg rundt 33 sekunder.",
+          "failureMessage": "Forholdet er 30 / (1/30) = 900. Nærmeste toerpotens er 1024 (2^10), så du trenger et 10-trinns ND-filter.",
           "options": {
-            "0": { "label": "6 stops (ND64)" },
-            "1": { "label": "8 stops (ND256)" },
-            "2": { "label": "10 stops (ND1000)" },
-            "3": { "label": "15 stops (ND32768)" }
+            "0": { "label": "6 trinn (ND64)" },
+            "1": { "label": "8 trinn (ND256)" },
+            "2": { "label": "10 trinn (ND1000)" },
+            "3": { "label": "15 trinn (ND32768)" }
           }
         },
         "2": {
-          "scenario": "You are shooting a seascape at sunset. The light is fading and your base exposure (no filter) is now 1/4s at f/11, ISO 100. You want 2-minute exposures for ultra-smooth water. What ND filter strength do you need?",
-          "hint": "From 1/4s to 120s is a factor of 480. Find the closest stop value.",
-          "successMessage": "A 9-stop ND would give you 1/4 x 512 = 128 seconds, or just over 2 minutes. Perfect for that misty, ethereal seascape look at sunset.",
-          "failureMessage": "From 0.25s to 120s is about a 480x increase. 2^9 = 512, which is close to 480, so a 9-stop filter gets you to approximately 128 seconds.",
+          "scenario": "Du fotograferer et sjølandskap ved solnedgang. Lyset svinner og grunneksponeringen (uten filter) er nå 1/4 s på f/11, ISO 100. Du vil ha 2-minutters eksponering for ultraglatt vann. Hvor sterkt ND-filter trenger du?",
+          "hint": "Fra 1/4 s til 120 s er en faktor på 480. Finn nærmeste trinn-verdi.",
+          "successMessage": "Et 9-trinns ND ville gi deg 1/4 × 512 = 128 sekunder, altså litt over 2 minutter. Perfekt for den drømmeaktige solnedgangen.",
+          "failureMessage": "Fra 0,25 s til 120 s er det en økning på cirka 480x. 2^9 = 512, som er nær 480, så et 9-trinns filter gir deg rundt 128 sekunder.",
           "options": {
-            "0": { "label": "6 stops" },
-            "1": { "label": "9 stops" },
-            "2": { "label": "10 stops" },
-            "3": { "label": "13 stops" }
+            "0": { "label": "6 trinn" },
+            "1": { "label": "9 trinn" },
+            "2": { "label": "10 trinn" },
+            "3": { "label": "13 trinn" }
           }
         },
         "3": {
-          "scenario": "You want to shoot a portrait at f/1.4 in bright sunlight (base exposure: f/1.4, 1/8000s, ISO 100). Your camera's maximum shutter speed is 1/8000s. Can you shoot at f/1.4 without an ND filter?",
-          "hint": "Check if 1/8000s at f/1.4 and ISO 100 is achievable, or if the scene is still overexposed.",
-          "successMessage": "Correct! On a very bright day (EV 15+), f/1.4 at ISO 100 often needs shutter speeds faster than 1/8000s, which most cameras cannot achieve. A 2-3 stop ND filter lets you shoot wide open without overexposure.",
-          "failureMessage": "In bright sunlight, f/1.4 at ISO 100 may require shutter speeds beyond the camera's 1/8000s limit. An ND filter is essential for wide-aperture shooting in bright conditions.",
+          "scenario": "Du vil ta et portrett på f/1.4 i sterkt sollys (grunneksponering: f/1.4, 1/8000 s, ISO 100). Kameraet har makslukker 1/8000 s. Kan du fotografere på f/1.4 uten ND-filter?",
+          "hint": "Sjekk om 1/8000 s på f/1.4 og ISO 100 er nok, eller om scenen fortsatt blir overeksponert.",
+          "successMessage": "Riktig! På en svært lys dag (EV 15+) krever ofte f/1.4 på ISO 100 lukkertider raskere enn 1/8000 s, noe de fleste kameraer ikke klarer. Et 2–3-trinns ND lar deg fotografere vidåpent uten overeksponering.",
+          "failureMessage": "I sterkt sollys kan f/1.4 på ISO 100 kreve lukkertider forbi kameraets 1/8000 s-grense. Et ND-filter er nødvendig for vidåpent i sterkt lys.",
           "options": {
-            "0": { "label": "Yes — 1/8000s is fast enough" },
-            "1": { "label": "No — you likely need a 2-3 stop ND filter" },
-            "2": { "label": "Just raise ISO to compensate" }
+            "0": { "label": "Ja — 1/8000 s er raskt nok" },
+            "1": { "label": "Nei — du trenger sannsynligvis et 2–3-trinns ND-filter" },
+            "2": { "label": "Bare øk ISO for å kompensere" }
           }
         },
         "4": {
-          "scenario": "You own a 6-stop and a 3-stop ND filter. You stack them on your lens with a base exposure of 1/250s. What is the resulting shutter speed, and what should you watch for with this setup?",
-          "hint": "Add the stop values together, then calculate the new exposure. Think about optical side effects of stacking.",
-          "successMessage": "Correct! 6 + 3 = 9 stops. 1/250 x 512 = approximately 2 seconds. Watch for vignetting (dark corners) on wide-angle lenses and potential color casts from cheap glass.",
-          "failureMessage": "Stacking adds the stop values: 6 + 3 = 9 stops total. 2^9 = 512, so 1/250 x 512 = ~2 seconds. Stacking can also cause vignetting and color casts.",
+          "scenario": "Du har et 6-trinns og et 3-trinns ND-filter. Du staber dem på objektivet med en grunneksponering på 1/250 s. Hva blir lukkertiden, og hva bør du passe på med dette oppsettet?",
+          "hint": "Legg sammen trinn-verdiene, regn ut ny eksponering. Tenk på de optiske bieffektene av stabling.",
+          "successMessage": "Riktig! 6 + 3 = 9 trinn. 1/250 × 512 = cirka 2 sekunder. Pass på vignettering (mørke hjørner) på vidvinkel og mulig fargestikk fra billig glass.",
+          "failureMessage": "Stabling legger sammen trinnverdiene: 6 + 3 = 9 trinn totalt. 2^9 = 512, så 1/250 × 512 = ~2 sekunder. Stabling kan også gi vignettering og fargestikk.",
           "options": {
-            "0": { "label": "~0.5s, watch for lens flare" },
-            "1": { "label": "~2s, watch for vignetting and color casts" },
-            "2": { "label": "~4s, watch for sensor overheating" },
-            "3": { "label": "~8s, no concerns with stacking" }
+            "0": { "label": "~0,5 s, pass på lysspill" },
+            "1": { "label": "~2 s, pass på vignettering og fargestikk" },
+            "2": { "label": "~4 s, pass på at sensoren overopphetes" },
+            "3": { "label": "~8 s, ingen bekymringer ved stabling" }
           }
         }
       }

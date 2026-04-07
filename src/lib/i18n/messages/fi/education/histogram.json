@@ -1,117 +1,117 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "Histogrammi on kaavio, joka näyttää kuinka kirkkaita tai tummia kuvasi pikselit ovat. Vasen puoli edustaa varjoja (tummia alueita), keskellä ovat keskisävyt ja oikealla valot (kirkkaat alueet). Jos käyrä on kasautunut toiselle puolelle, kuvasi saattaa olla ali- tai ylivalotettu.",
+      "deeper": "Histogrammi piirtää pikselimäärän (pystyakseli) kirkkausarvoa vastaan (vaaka-akseli, 0–255 8-bittisissä kuvissa). Luminanssitilassa kunkin pikselin kirkkaus lasketaan punaisen, vihreän ja sinisen kanavien painotettuna keskiarvona (tyypillisesti 0.299R + 0.587G + 0.114B, vastaten ihmisen havaintoa). RGB-tila näyttää kolme erillistä jakaumaa ja paljastaa, mitkä värikanavat saattavat leikata itsenäisesti — 255:een työntynyt punainen kanava sinisen ollessa kunnossa viittaa valoleikkautumiseen lämpimissä sävyissä, kuten auringonlaskun taivaassa. \"Leikkautuminen\" tapahtuu, kun pikseliarvot osuvat 0:n tai 255:n rajaan, tarkoittaen että varjo- tai valoyksityiskohta on peruuttamattomasti menetetty. Mustan leikkautuminen (pikselit arvossa 0) menettää varjoyksityiskohtia; valkoisen leikkautuminen (pikselit arvossa 255) menettää valoyksityiskohtia. RAW-kuvaus antaa noin 2–3 ylimääräistä aukkoa palautettavissa olevaa valotilaa sen lisäksi, mitä JPEG-histogrammi näyttää, minkä vuoksi monet valokuvaajat \"valottavat oikealle\" (ETTR) — työntävät valotusta niin kirkkaaksi kuin mahdollista leikkaamatta RAW-dataa.",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "Sävyjakauma",
+          "description": "Yleinen muoto kertoo, onko kuva tumma (painottunut vasemmalle), kirkas (painottunut oikealle) vai tasapainoinen (jakautunut koko alueelle)."
         },
         "1": {
-          "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "label": "Leikkautuminen",
+          "description": "Piikit ääripäissä (vasen tai oikea reuna) kertovat yksityiskohtien menetyksestä varjoissa tai valoissa."
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "Kanavien erottelu",
+          "description": "RGB-tila paljastaa yksittäisten värikanavien käyttäytymisen — hyödyllinen värikohtaisen leikkautumisen havaitsemiseen värikylläisissä näkymissä."
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "Dynamiikka-alue",
+          "description": "Koko leveyden kattava histogrammi ilman leikkautumista kertoo saatavilla olevan dynamiikka-alueen hyvästä käytöstä."
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "\"Täydellistä\" histogrammin muotoa ei ole. Mustan kissan kuvan tummalla sohvalla pitääkin olla painottunut vasemmalle. Arvioi histogrammia luovan tavoitteesi mukaan, ei jonkin ihannekäyrän perusteella."
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "Tarkista RGB-päällekkäistila auringonlasku- ja neonvalokuville. Punainen kanava leikkaa usein paljon ennen sinistä, menettäen yksityiskohtia lämpimissä valoissa vaikka luminanssihistogrammi näyttäisi kunnossa olevalta."
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "Jos näet leikkautumisvaroituksia molemmissa päissä samanaikaisesti, näkymä ylittää todennäköisesti kamerasi dynamiikka-alueen. Harkitse haarukointia HDR:ää varten tai asteikkoisten ND-suotimien käyttöä."
         }
       },
       "tooltips": {
         "View Mode": {
-          "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "term": "Katselutila",
+          "definition": "Luminanssi näyttää kokonaiskirkkauden. RGB-päällekkäistila näyttää kaikki kolme värikanavaa päällekkäin. Kaikki kanavat näyttää RGB:n plus luminanssin yhdessä."
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "Varjot",
+          "definition": "Histogrammin vasemmanpuoleisin alue (karkeasti 0–85), edustaen kuvan tummimpia sävyjä."
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "Keskisävyt",
+          "definition": "Keskialue (karkeasti 86–170), edustaen keskikirkkautta — ihonsävyt ja useimmat luonnonpinnat osuvat tänne."
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "Valot",
+          "definition": "Oikeanpuoleisin alue (karkeasti 171–255), edustaen kirkkaimpia sävyjä: taivasta, heijastuksia ja valonlähteitä."
         },
         "Black Clipping": {
-          "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "term": "Mustan leikkautuminen",
+          "definition": "Niiden pikselien prosenttiosuus, joiden kirkkaus on 0 (puhdas musta). Korkeat arvot tarkoittavat että varjoyksityiskohta on menetetty eikä palautettavissa."
         },
         "White Clipping": {
-          "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "term": "Valkoisen leikkautuminen",
+          "definition": "Niiden pikselien prosenttiosuus, joiden kirkkaus on 255 (puhdas valkoinen). Korkeat arvot tarkoittavat että valoyksityiskohdat ovat palaneet."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "Lataat kuvan ja histogrammi on työntynyt voimakkaasti vasemmalle ilman juuri mitään oikealla. Mitä tämä kertoo kuvasta?",
+          "hint": "Vasen = tumma, oikea = kirkas.",
+          "successMessage": "Oikein! Vasemmalle painottunut histogrammi tarkoittaa, että kuva on pääosin tummia sävyjä — se voi olla alivalotettu tai tarkoituksellisesti tumma/low-key-kuva.",
+          "failureMessage": "Vasemmalle kasautunut histogrammi ilmaisee, että kuva on pääosin tumma. Tämä tarkoittaa usein alivalotusta.",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "Kuva on alivalotettu tai hyvin tumma" },
+            "1": { "label": "Kuva on ylivalotettu tai hyvin kirkas" },
+            "2": { "label": "Kuvassa on täydellinen valotus" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "Mitä katselutilaa käytät nähdäksesi kuvasi yleiskirkkausjakauman yhtenä käyränä?",
+          "hint": "Yksi tila yhdistää kaiken väritiedon yhdeksi kirkkauskäyräksi.",
+          "successMessage": "Aivan! Luminanssitila näyttää yhden käyrän, joka edustaa koettua kokonaiskirkkautta.",
+          "failureMessage": "Luminanssitila on yksinkertaisin näkymä — se yhdistää R:n, G:n ja B:n yhdeksi kirkkauskäyräksi.",
           "options": {
-            "0": { "label": "Luminance" },
-            "1": { "label": "RGB Overlay" },
-            "2": { "label": "All Channels" }
+            "0": { "label": "Luminanssi" },
+            "1": { "label": "RGB-päällekkäin" },
+            "2": { "label": "Kaikki kanavat" }
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "Kuvasit eloisan auringonlaskun ja luminanssihistogrammi näyttää kunnossa olevalta, mutta vaihtaessasi RGB-päällekkäistilaan näet punaisen kanavan piikittävän ääressä oikealla. Mitä tapahtuu?",
+          "hint": "Yksittäiset värikanavat voivat leikata vaikka kokonaisluminanssi ei leikkaisi.",
+          "successMessage": "Juuri niin! Punainen kanava leikkaa — auringonlaskun valot ovat menettäneet yksityiskohtia punaisissa sävyissä vaikka yleinen kirkkaus näyttää hyväksyttävältä. Menetät lämpimiä värinyansseja.",
+          "failureMessage": "Punainen kanava leikkaa itsenäisesti. Kylläiset lämpimät valot (auringonlaskut, tuli) työntävät usein punaisen 255:een vihreän ja sinisen ollessa kunnossa, menettäen värin niissä sävyissä.",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "Punaisen kanavan leikkautuminen — lämpimien valojen yksityiskohta menetetty" },
+            "1": { "label": "Kuva on kokonaisuudessaan ylivalotettu" },
+            "2": { "label": "Valkotasapaino on väärä" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "Työkalu ilmoittaa 2,3 % mustan leikkautumista ja 0,1 % valkoisen leikkautumista. Pitäisikö sinun säätää valotusta?",
+          "hint": "Pieni määrä leikkautumista on normaalia — puhtaan mustat varjot ja peiliheijastukset ovat odotettavissa.",
+          "successMessage": "Hyvä harkinta! 2,3 % mustan leikkautumista on maltillista ja usein vain syviä varjoja tai tummia reunoja. 0,1 % valkoisen leikkautumista on todennäköisesti peiliheijastuksia (auringon heijastukset). Tämä valotus on kunnossa useimmille tarkoituksille.",
+          "failureMessage": "Nämä leikkautumisprosentit ovat varsin pieniä. Hieman mustan leikkautumista syvissä varjoissa ja pieni valkoisen leikkautuminen peiliheijastuksista on normaalia ja odotettavissa. Ei tarvitse säätää.",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "Kasvata valotusta vähentääksesi mustan leikkautumista" },
+            "1": { "label": "Tämä on kunnossa — pieni leikkautuminen varjoissa ja peiliheijastuksissa on normaalia" },
+            "2": { "label": "Vähennä valotusta poistaaksesi valkoisen leikkautumisen" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "Kuvaat voimakaskontrastista näkymää: morsiamen valkoisessa puvussa tummassa katedraalissa. Histogrammi näyttää voimakkaat piikit molemmissa ääripäissä ja aukon keskisävyissä. Miten käsittelet tämän?",
+          "hint": "Kun näkymän dynamiikka-alue ylittää kennon alueen, tarvitset monivalotustekniikkaa.",
+          "successMessage": "Täydellistä! Tämä kaksimoodinen histogrammi osoittaa, että näkymä ylittää kennosi dynamiikka-alueen. Valotushaarukointi (HDR) tallentaa sekä tumman sisätilan että kirkkaan puvun yksityiskohdat. Vaihtoehtoisesti käytä täydennyssalamaa varjojen nostamiseen.",
+          "failureMessage": "Kaksimoodinen histogrammi (piikit molemmissa ääripäissä, tyhjä keskikohta) tarkoittaa että näkymällä on enemmän dynamiikka-aluetta kuin kennosi pystyy tallentamaan yhteen kuvaan. Haarukoi valotuksia HDR:ää varten tai käytä täydennyssalamaa vähentääksesi kontrastisuhdetta.",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "Haarukoi valotuksia HDR:ää varten tai käytä täydennyssalamaa" },
+            "1": { "label": "Valota keskisävyille ja toivo parasta" },
+            "2": { "label": "Vaihda mustavalkoon piilottaaksesi ongelman" }
           }
         }
       }

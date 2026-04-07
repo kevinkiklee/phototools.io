@@ -1,67 +1,67 @@
 {
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Tietosuojaseloste",
+    "effectiveDate": "Voimassa: 3. huhtikuuta 2026",
     "sections": {
       "overview": {
-        "title": "Overview",
-        "body": "PhotoTools operates www.phototools.io, a free educational photography resource offering interactive calculators, simulators, and reference tools. This Privacy Policy describes how we collect, use, and handle information when you visit or use our site. By using PhotoTools, you agree to the practices described in this policy."
+        "title": "Yleiskatsaus",
+        "body": "PhotoTools ylläpitää osoitetta www.phototools.io, ilmaista valokuvauksen oppimissivustoa, joka tarjoaa interaktiivisia laskureita, simulaattoreita ja hakuteoksia. Tässä tietosuojaselosteessa kuvataan, miten keräämme, käytämme ja käsittelemme tietoja, kun vierailet sivustolla tai käytät sitä. Käyttämällä PhotoToolsia hyväksyt tässä selosteessa kuvatut käytännöt."
       },
       "informationWeCollect": {
-        "title": "Information We Collect",
-        "intro": "We collect minimal information to operate and improve the site:",
-        "analytics": "<strong>Analytics:</strong> We use Google Analytics to understand how visitors use the site (e.g. pages visited, time on page, device type). Analytics data is anonymized — we do not collect personally identifiable information through analytics. IP addresses are anonymized before storage.",
-        "contactForm": "<strong>Contact form:</strong> If you submit the contact form, we collect your name, email address, subject, and message. This information is used solely to respond to your inquiry and is not stored beyond email delivery — it is not saved to a database or retained long-term.",
-        "noAccounts": "<strong>No accounts:</strong> PhotoTools does not require user registration or accounts. We do not collect passwords or payment information."
+        "title": "Keräämämme tiedot",
+        "intro": "Keräämme mahdollisimman vähän tietoja sivuston ylläpitämiseen ja parantamiseen:",
+        "analytics": "<strong>Analytiikka:</strong> Käytämme Google Analyticsia ymmärtääksemme, miten kävijät käyttävät sivustoa (esim. katsotut sivut, sivulla vietetty aika, laitteen tyyppi). Analytiikkatiedot ovat anonymisoituja — emme kerää henkilökohtaisesti tunnistettavaa tietoa analytiikan kautta. IP-osoitteet anonymisoidaan ennen tallennusta.",
+        "contactForm": "<strong>Yhteydenottolomake:</strong> Jos lähetät yhteydenottolomakkeen, keräämme nimesi, sähköpostiosoitteesi, aiheen ja viestin. Näitä tietoja käytetään vain tiedustelusi vastaamiseen, eikä niitä säilytetä sähköpostin toimituksen jälkeen — niitä ei tallenneta tietokantaan eikä säilytetä pitkäaikaisesti.",
+        "noAccounts": "<strong>Ei tilejä:</strong> PhotoTools ei vaadi käyttäjärekisteröitymistä tai tilejä. Emme kerää salasanoja tai maksutietoja."
       },
       "cookies": {
-        "title": "Cookies",
-        "intro": "PhotoTools uses cookies to support analytics and advertising functionality. Specifically:",
-        "analyticsCookies": "<strong>Google Analytics cookies</strong> track site usage in aggregate and anonymized form. These cookies help us understand which tools are most used and how to improve the site.",
-        "adCookies": "<strong>Third-party advertising cookies</strong> may be set by our ad network partners to serve relevant advertisements and measure ad performance.",
-        "control": "You can control or disable cookies through your browser settings. Note that disabling cookies may affect the functionality of some features."
+        "title": "Evästeet",
+        "intro": "PhotoTools käyttää evästeitä analytiikan ja mainostoimintojen tukena. Tarkemmin:",
+        "analyticsCookies": "<strong>Google Analyticsin evästeet</strong> seuraavat sivuston käyttöä kokonaisuutena ja anonyymissä muodossa. Nämä evästeet auttavat meitä ymmärtämään, mitä työkaluja käytetään eniten ja miten sivustoa voidaan parantaa.",
+        "adCookies": "<strong>Kolmannen osapuolen mainosevästeitä</strong> voivat asettaa mainosverkostokumppanimme osuvien mainosten näyttämiseksi ja mainosten tehokkuuden mittaamiseksi.",
+        "control": "Voit hallita tai poistaa evästeitä selaimesi asetuksista. Huomaa, että evästeiden poistaminen voi vaikuttaa joidenkin toimintojen toimivuuteen."
       },
       "thirdPartyAdvertising": {
-        "title": "Third-Party Advertising",
-        "body": "PhotoTools displays advertisements served by third-party ad networks. These networks may use cookies and similar tracking technologies to serve ads based on your browsing history and interests (interest-based advertising). We do not control the data practices of these third-party ad networks. For more information, please review the privacy policies of those networks or visit the <naiLink>Network Advertising Initiative opt-out page</naiLink>."
+        "title": "Kolmannen osapuolen mainonta",
+        "body": "PhotoTools näyttää kolmannen osapuolen mainosverkostojen välittämiä mainoksia. Nämä verkostot voivat käyttää evästeitä ja vastaavia seurantatekniikoita näyttääkseen mainoksia selaushistoriasi ja kiinnostuksen kohteidesi perusteella (kiinnostusperusteinen mainonta). Emme valvo näiden kolmansien osapuolten tietokäytäntöjä. Lisätietoja saat niiden tietosuojaselosteista tai vierailemalla <naiLink>Network Advertising Initiative -sivulla mainoksista luopumiseksi</naiLink>."
       },
       "googleAdSense": {
         "title": "Google AdSense",
-        "body1": "PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies and web beacons to serve ads based on your prior visits to this site or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your browsing patterns.",
-        "body2": "You may opt out of personalized advertising by visiting <adsSettingsLink>Google Ads Settings</adsSettingsLink>. For more information about how Google uses data, see <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
+        "body1": "PhotoTools käyttää Google AdSensea mainosten näyttämiseen. Google AdSense voi käyttää evästeitä ja web-majakoita näyttääkseen mainoksia aiempien vierailujesi perusteella tällä tai muilla sivustoilla. Googlen mainosevästeiden käyttö mahdollistaa Googlelle ja sen kumppaneille mainosten kohdistamisen selaustottumustesi mukaan.",
+        "body2": "Voit halutessasi poistua personoidusta mainonnasta käymällä <adsSettingsLink>Googlen mainosasetuksissa</adsSettingsLink>. Lisätietoja siitä, miten Google käyttää tietoja, löytyy sivulta <partnerSitesLink>Miten Google käyttää tietoja, kun käytät kumppaneidemme sivustoja</partnerSitesLink>."
       },
       "cookieConsent": {
-        "title": "Cookie Consent",
-        "body1": "When you first visit PhotoTools, a cookie consent banner is displayed allowing you to accept or reject non-essential cookies. This banner is powered by CookieYes, a Google-certified Consent Management Platform that supports the IAB Transparency and Consent Framework (TCF) v2.3.",
-        "body2": "You can change your consent preferences at any time by clicking the cookie settings link in the footer. If you reject advertising cookies, you will still see ads, but they will not be personalized to your browsing history."
+        "title": "Evästesuostumus",
+        "body1": "Kun vierailet PhotoToolsissa ensimmäistä kertaa, näytölle tulee evästesuostumusilmoitus, jossa voit hyväksyä tai hylätä ei-välttämättömät evästeet. Ilmoituksen tarjoaa CookieYes, Google-sertifioitu evästesuostumusten hallintaratkaisu, joka tukee IAB:n Transparency and Consent Framework (TCF) v2.3 -kehystä.",
+        "body2": "Voit muuttaa suostumusasetuksiasi milloin tahansa klikkaamalla evästeasetusten linkkiä alatunnisteessa. Jos hylkäät mainosevästeet, näet silti mainoksia, mutta niitä ei kohdenneta selaushistoriasi perusteella."
       },
       "ccpa": {
-        "title": "California Residents (CCPA)",
-        "body": "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request its deletion, and opt out of its sale. PhotoTools does not sell personal information. Advertising cookies used by our ad partners may constitute a \"sale\" under the CCPA — you can opt out via the cookie consent banner or by contacting us through our <contactLink>contact page</contactLink>."
+        "title": "Kalifornian asukkaat (CCPA)",
+        "body": "Kalifornian kuluttajansuojalain (CCPA) mukaan Kalifornian asukkailla on oikeus tietää, mitä henkilötietoja kerätään, pyytää niiden poistamista ja kieltää niiden myynti. PhotoTools ei myy henkilötietoja. Mainoskumppaniemme käyttämät mainosevästeet voidaan katsoa CCPA:n mukaiseksi \"myynniksi\" — voit poistua näistä evästesuostumusilmoituksen kautta tai ottamalla yhteyttä <contactLink>yhteydenottosivulla</contactLink>."
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "intro": "We do not sell, trade, or rent your personal information to third parties. We share data only in the following limited circumstances:",
-        "analytics": "With <strong>Google Analytics</strong> to analyze site traffic and usage patterns, subject to Google's privacy policy.",
-        "advertising": "With <strong>advertising partners</strong> as described above under Third-Party Advertising.",
-        "contactForm": "We do not share contact form submissions with any third party."
+        "title": "Tietojen jakaminen",
+        "intro": "Emme myy, vaihda tai vuokraa henkilötietojasi kolmansille osapuolille. Jaamme tietoja vain seuraavissa rajatuissa tapauksissa:",
+        "analytics": "<strong>Google Analyticsin</strong> kanssa analysoidaksemme sivuston liikennettä ja käyttötapoja Googlen tietosuojakäytännön mukaisesti.",
+        "advertising": "<strong>Mainoskumppaneiden</strong> kanssa kuten yllä \"Kolmannen osapuolen mainonta\" -kohdassa on kuvattu.",
+        "contactForm": "Emme jaa yhteydenottolomakkeen lähetyksiä minkään kolmannen osapuolen kanssa."
       },
       "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "body": "PhotoTools is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can remove it."
+        "title": "Lasten tietosuoja",
+        "body": "PhotoToolsia ei ole suunnattu alle 13-vuotiaille lapsille. Emme kerää tietoisesti henkilötietoja alle 13-vuotiailta. Jos uskot alle 13-vuotiaan antaneen meille henkilötietoja, ota meihin yhteyttä, jotta voimme poistaa ne."
       },
       "yourRights": {
-        "title": "Your Rights",
-        "body1": "Depending on your location, you may have rights under laws such as the GDPR (European Union) or CCPA (California) regarding your personal data.",
-        "body2": "Because PhotoTools collects minimal personal data — and does not store contact form submissions long-term — most requests can be addressed simply. You can clear cookies at any time through your browser settings. To exercise any data rights or submit a privacy request, please use our <contactLink>contact page</contactLink>."
+        "title": "Sinun oikeutesi",
+        "body1": "Sijaintisi mukaan sinulla voi olla henkilötietojasi koskevia oikeuksia GDPR:n (Euroopan unioni) tai CCPA:n (Kalifornia) kaltaisten lakien nojalla.",
+        "body2": "Koska PhotoTools kerää mahdollisimman vähän henkilötietoja — eikä säilytä yhteydenottolomakkeen lähetyksiä pitkäaikaisesti — useimmat pyynnöt voidaan käsitellä yksinkertaisesti. Voit tyhjentää evästeet milloin tahansa selaimen asetuksista. Käyttääksesi oikeuksiasi tai tehdäksesi tietosuojapyynnön, käytä <contactLink>yhteydenottosivuamme</contactLink>."
       },
       "changesToPolicy": {
-        "title": "Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. When we do, the updated policy will be posted on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of PhotoTools after any changes constitutes your acceptance of the updated policy."
+        "title": "Muutokset tähän selosteeseen",
+        "body": "Voimme päivittää tätä tietosuojaselostetta ajoittain. Kun näin teemme, päivitetty seloste julkaistaan tällä sivulla uudella voimassaolopäivällä. Suosittelemme, että tarkistat tämän selosteen säännöllisesti. PhotoToolsin jatkuva käyttö muutosten jälkeen tarkoittaa päivitetyn selosteen hyväksymistä."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about this Privacy Policy or how we handle your data, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Yhteystiedot",
+        "body": "Jos sinulla on kysymyksiä tästä tietosuojaselosteesta tai tiedonkäsittelystämme, ota yhteyttä <contactLink>yhteydenottosivumme</contactLink> kautta."
       }
     }
   }

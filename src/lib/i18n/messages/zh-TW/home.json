@@ -1,13 +1,13 @@
 {
   "home": {
-    "heroTitle": "PhotoTools — Free Photography Tools",
-    "heroDesc": "Free photography calculators, simulators, and references. No sign-up required — your photos never leave your browser.",
-    "comingSoon": "Coming Soon",
+    "heroTitle": "PhotoTools — 免費攝影工具",
+    "heroDesc": "免費的攝影計算機、模擬器與參考資料。無需註冊 — 您的照片完全不會離開瀏覽器。",
+    "comingSoon": "即將推出",
     "categories": {
-      "visualizer": "Visualizers",
-      "calculator": "Calculators",
-      "reference": "Reference",
-      "file-tool": "File Tools"
+      "visualizer": "視覺化工具",
+      "calculator": "計算機",
+      "reference": "參考資料",
+      "file-tool": "檔案工具"
     }
   }
 }

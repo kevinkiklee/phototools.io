@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "聯絡我們",
+    "description": "有問題、發現錯誤，或想提議新工具嗎？我們很樂意聽到您的想法。",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email",
+      "nameLabel": "姓名",
+      "namePlaceholder": "您的姓名",
+      "emailLabel": "電子郵件",
       "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "subjectLabel": "主旨",
+      "subjectPlaceholder": "想討論什麼主題？",
+      "messageLabel": "訊息",
+      "messagePlaceholder": "請輸入您的訊息...",
+      "submit": "送出訊息",
+      "sending": "傳送中...",
+      "honeypotLabel": "網站",
+      "successToast": "訊息已送出！我們會盡快回覆您。",
+      "errorToast": "發生錯誤，請稍後再試。",
+      "networkErrorToast": "網路連線異常，請檢查您的網路後再試一次。",
+      "sentTitle": "感謝您的來信！",
+      "sentMessage": "我們會盡快回覆您。",
+      "sendAnother": "再送出一則訊息"
     }
   }
 }

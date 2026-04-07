@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "sensor-size-comparison": {
-      "displayMode": "Display Mode",
-      "modeOverlay": "Overlay",
-      "modeSideBySide": "Side by Side",
-      "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
+      "displayMode": "Mode de visualització",
+      "modeOverlay": "Superposat",
+      "modeSideBySide": "Costat a costat",
+      "modePixelDensity": "Densitat de píxels",
+      "pixelDensityDescription": "Mostra nombres de megapíxels habituals per a cada sensor. Els píxels més grans (cel·les més grans) capturen més llum.",
       "sensors": "Sensors",
-      "customSensors": "Custom Sensors",
-      "placeholderName": "Name",
-      "placeholderW": "W (mm)",
-      "placeholderH": "H (mm)",
-      "placeholderMP": "Megapixels (optional)",
+      "customSensors": "Sensors personalitzats",
+      "placeholderName": "Nom",
+      "placeholderW": "Amplada (mm)",
+      "placeholderH": "Alçada (mm)",
+      "placeholderMP": "Megapíxels (opcional)",
       "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
-      "addSensor": "Add Sensor",
-      "save": "Save",
-      "cancelEdit": "Cancel",
-      "edit": "Edit",
-      "remove": "Remove",
-      "deleteAllCustom": "Delete All Custom Sensors",
+      "maxDimensionWarning": "La dimensió màxima del sensor és 99 mm",
+      "addSensor": "Afegeix sensor",
+      "save": "Desa",
+      "cancelEdit": "Cancel·la",
+      "edit": "Edita",
+      "remove": "Elimina",
+      "deleteAllCustom": "Elimina tots els sensors personalitzats",
       "tableSensor": "Sensor",
-      "tableWidth": "Width (mm)",
-      "tableHeight": "Height (mm)",
-      "tableAspectRatio": "Aspect Ratio",
-      "tableArea": "Area (mm\u00b2)",
-      "tableCropFactor": "Crop Factor",
-      "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "tableWidth": "Amplada (mm)",
+      "tableHeight": "Alçada (mm)",
+      "tableAspectRatio": "Relació d'aspecte",
+      "tableArea": "Àrea (mm²)",
+      "tableCropFactor": "Factor de retall",
+      "tableAspectCrop": "Retall per aspecte",
+      "canvasAriaLabel": "Comparació de mides de sensor en mode {mode}",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "Què és el factor de retall i per què importa?",
+          "answer": "El factor de retall descriu la diferència de mida entre el sensor d'una càmera i un sensor full frame (35mm). Afecta la distància focal efectiva, la profunditat de camp i el rendiment amb poca llum. Un factor de retall d'1,5x vol dir que el sensor és 1,5 vegades més petit que el full frame."
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "Quins avantatges tenen els sensors full frame respecte als APS-C?",
+          "answer": "Els sensors full frame ofereixen un millor rendiment amb poca llum, menys profunditat de camp i un angle de visió més ampli per a qualsevol distància focal. Els sensors APS-C són més assequibles, més lleugers i donen abast extra per a fotografia de fauna i esport."
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "Com afecta la mida del sensor la profunditat de camp?",
+          "answer": "Els sensors més grans produeixen menys profunditat de camp amb enquadrament equivalent. Per obtenir el mateix enquadrament amb un sensor més petit, fas servir una distància focal més curta (més profunditat de camp) o t'allunyes (més profunditat de camp), reduint el desenfocament del fons."
         }
       }
     }

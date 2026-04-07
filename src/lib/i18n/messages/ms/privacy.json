@@ -1,67 +1,67 @@
 {
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Dasar Privasi",
+    "effectiveDate": "Tarikh berkuat kuasa: 3 April 2026",
     "sections": {
       "overview": {
-        "title": "Overview",
-        "body": "PhotoTools operates www.phototools.io, a free educational photography resource offering interactive calculators, simulators, and reference tools. This Privacy Policy describes how we collect, use, and handle information when you visit or use our site. By using PhotoTools, you agree to the practices described in this policy."
+        "title": "Gambaran Keseluruhan",
+        "body": "PhotoTools mengendalikan www.phototools.io, sebuah sumber pendidikan fotografi percuma yang menawarkan kalkulator, simulator dan alat rujukan interaktif. Dasar Privasi ini menerangkan bagaimana kami mengumpul, menggunakan dan mengendalikan maklumat apabila anda melawat atau menggunakan laman ini. Dengan menggunakan PhotoTools, anda bersetuju dengan amalan yang dinyatakan dalam dasar ini."
       },
       "informationWeCollect": {
-        "title": "Information We Collect",
-        "intro": "We collect minimal information to operate and improve the site:",
-        "analytics": "<strong>Analytics:</strong> We use Google Analytics to understand how visitors use the site (e.g. pages visited, time on page, device type). Analytics data is anonymized — we do not collect personally identifiable information through analytics. IP addresses are anonymized before storage.",
-        "contactForm": "<strong>Contact form:</strong> If you submit the contact form, we collect your name, email address, subject, and message. This information is used solely to respond to your inquiry and is not stored beyond email delivery — it is not saved to a database or retained long-term.",
-        "noAccounts": "<strong>No accounts:</strong> PhotoTools does not require user registration or accounts. We do not collect passwords or payment information."
+        "title": "Maklumat Yang Kami Kumpul",
+        "intro": "Kami mengumpul maklumat minimum untuk menjalankan dan menambah baik laman ini:",
+        "analytics": "<strong>Analitik:</strong> Kami menggunakan Google Analytics untuk memahami cara pelawat menggunakan laman ini (contohnya halaman yang dilawati, masa di halaman, jenis peranti). Data analitik dianonimkan — kami tidak mengumpul maklumat yang boleh mengenal pasti individu melalui analitik. Alamat IP dianonimkan sebelum disimpan.",
+        "contactForm": "<strong>Borang hubungi:</strong> Jika anda menghantar borang hubungi, kami mengumpul nama, alamat e-mel, subjek dan mesej anda. Maklumat ini digunakan semata-mata untuk membalas pertanyaan anda dan tidak disimpan melebihi penghantaran e-mel — ia tidak disimpan ke dalam pangkalan data atau dikekalkan jangka panjang.",
+        "noAccounts": "<strong>Tiada akaun:</strong> PhotoTools tidak memerlukan pendaftaran atau akaun pengguna. Kami tidak mengumpul kata laluan atau maklumat pembayaran."
       },
       "cookies": {
-        "title": "Cookies",
-        "intro": "PhotoTools uses cookies to support analytics and advertising functionality. Specifically:",
-        "analyticsCookies": "<strong>Google Analytics cookies</strong> track site usage in aggregate and anonymized form. These cookies help us understand which tools are most used and how to improve the site.",
-        "adCookies": "<strong>Third-party advertising cookies</strong> may be set by our ad network partners to serve relevant advertisements and measure ad performance.",
-        "control": "You can control or disable cookies through your browser settings. Note that disabling cookies may affect the functionality of some features."
+        "title": "Kuki",
+        "intro": "PhotoTools menggunakan kuki untuk menyokong fungsi analitik dan pengiklanan. Secara khususnya:",
+        "analyticsCookies": "<strong>Kuki Google Analytics</strong> menjejaki penggunaan laman secara agregat dan tanpa nama. Kuki ini membantu kami memahami alat yang paling kerap digunakan dan cara untuk menambah baik laman ini.",
+        "adCookies": "<strong>Kuki pengiklanan pihak ketiga</strong> mungkin ditetapkan oleh rakan kongsi rangkaian iklan kami untuk menyajikan iklan yang berkaitan dan mengukur prestasi iklan.",
+        "control": "Anda boleh mengawal atau melumpuhkan kuki melalui tetapan pelayar anda. Ambil perhatian bahawa melumpuhkan kuki mungkin mempengaruhi fungsi sesetengah ciri."
       },
       "thirdPartyAdvertising": {
-        "title": "Third-Party Advertising",
-        "body": "PhotoTools displays advertisements served by third-party ad networks. These networks may use cookies and similar tracking technologies to serve ads based on your browsing history and interests (interest-based advertising). We do not control the data practices of these third-party ad networks. For more information, please review the privacy policies of those networks or visit the <naiLink>Network Advertising Initiative opt-out page</naiLink>."
+        "title": "Pengiklanan Pihak Ketiga",
+        "body": "PhotoTools memaparkan iklan yang disajikan oleh rangkaian iklan pihak ketiga. Rangkaian ini mungkin menggunakan kuki dan teknologi penjejakan serupa untuk menyajikan iklan berdasarkan sejarah pelayaran dan minat anda (pengiklanan berasaskan minat). Kami tidak mengawal amalan data rangkaian iklan pihak ketiga ini. Untuk maklumat lanjut, sila semak dasar privasi rangkaian tersebut atau lawati <naiLink>halaman opt-out Network Advertising Initiative</naiLink>."
       },
       "googleAdSense": {
         "title": "Google AdSense",
-        "body1": "PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies and web beacons to serve ads based on your prior visits to this site or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your browsing patterns.",
-        "body2": "You may opt out of personalized advertising by visiting <adsSettingsLink>Google Ads Settings</adsSettingsLink>. For more information about how Google uses data, see <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
+        "body1": "PhotoTools menggunakan Google AdSense untuk memaparkan iklan. Google AdSense mungkin menggunakan kuki dan web beacon untuk menyajikan iklan berdasarkan lawatan anda sebelum ini ke laman ini atau laman web lain. Penggunaan kuki pengiklanan oleh Google membolehkannya dan rakan kongsinya menyajikan iklan berdasarkan corak pelayaran anda.",
+        "body2": "Anda boleh memilih untuk tidak menerima pengiklanan diperibadikan dengan melawat <adsSettingsLink>Tetapan Iklan Google</adsSettingsLink>. Untuk maklumat lanjut tentang cara Google menggunakan data, lihat <partnerSitesLink>Cara Google menggunakan data apabila anda menggunakan laman rakan kongsi kami</partnerSitesLink>."
       },
       "cookieConsent": {
-        "title": "Cookie Consent",
-        "body1": "When you first visit PhotoTools, a cookie consent banner is displayed allowing you to accept or reject non-essential cookies. This banner is powered by CookieYes, a Google-certified Consent Management Platform that supports the IAB Transparency and Consent Framework (TCF) v2.3.",
-        "body2": "You can change your consent preferences at any time by clicking the cookie settings link in the footer. If you reject advertising cookies, you will still see ads, but they will not be personalized to your browsing history."
+        "title": "Persetujuan Kuki",
+        "body1": "Apabila anda mula-mula melawat PhotoTools, sepanduk persetujuan kuki akan dipaparkan, membenarkan anda menerima atau menolak kuki bukan penting. Sepanduk ini dikendalikan oleh CookieYes, sebuah Platform Pengurusan Persetujuan yang disahkan oleh Google dan menyokong IAB Transparency and Consent Framework (TCF) v2.3.",
+        "body2": "Anda boleh menukar pilihan persetujuan anda pada bila-bila masa dengan mengklik pautan tetapan kuki di footer. Jika anda menolak kuki pengiklanan, anda masih akan melihat iklan, tetapi iklan tersebut tidak akan diperibadikan mengikut sejarah pelayaran anda."
       },
       "ccpa": {
-        "title": "California Residents (CCPA)",
-        "body": "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request its deletion, and opt out of its sale. PhotoTools does not sell personal information. Advertising cookies used by our ad partners may constitute a \"sale\" under the CCPA — you can opt out via the cookie consent banner or by contacting us through our <contactLink>contact page</contactLink>."
+        "title": "Penduduk California (CCPA)",
+        "body": "Di bawah California Consumer Privacy Act (CCPA), penduduk California mempunyai hak untuk mengetahui maklumat peribadi yang dikumpul, meminta penghapusannya dan memilih untuk tidak menjualnya. PhotoTools tidak menjual maklumat peribadi. Kuki pengiklanan yang digunakan oleh rakan iklan kami mungkin dianggap sebagai \"penjualan\" di bawah CCPA — anda boleh memilih untuk tidak mengambil bahagian melalui sepanduk persetujuan kuki atau dengan menghubungi kami melalui <contactLink>halaman hubungi</contactLink>."
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "intro": "We do not sell, trade, or rent your personal information to third parties. We share data only in the following limited circumstances:",
-        "analytics": "With <strong>Google Analytics</strong> to analyze site traffic and usage patterns, subject to Google's privacy policy.",
-        "advertising": "With <strong>advertising partners</strong> as described above under Third-Party Advertising.",
-        "contactForm": "We do not share contact form submissions with any third party."
+        "title": "Perkongsian Data",
+        "intro": "Kami tidak menjual, menukar atau menyewa maklumat peribadi anda kepada pihak ketiga. Kami berkongsi data hanya dalam keadaan terhad berikut:",
+        "analytics": "Dengan <strong>Google Analytics</strong> untuk menganalisis trafik dan corak penggunaan laman, tertakluk kepada dasar privasi Google.",
+        "advertising": "Dengan <strong>rakan kongsi pengiklanan</strong> seperti yang diterangkan di atas di bawah Pengiklanan Pihak Ketiga.",
+        "contactForm": "Kami tidak berkongsi hantaran borang hubungi dengan mana-mana pihak ketiga."
       },
       "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "body": "PhotoTools is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can remove it."
+        "title": "Privasi Kanak-kanak",
+        "body": "PhotoTools tidak ditujukan kepada kanak-kanak di bawah umur 13 tahun. Kami tidak mengumpul maklumat peribadi daripada kanak-kanak di bawah 13 tahun dengan sengaja. Jika anda percaya seorang kanak-kanak di bawah 13 tahun telah memberikan kami maklumat peribadi, sila hubungi kami supaya kami dapat membuangnya."
       },
       "yourRights": {
-        "title": "Your Rights",
-        "body1": "Depending on your location, you may have rights under laws such as the GDPR (European Union) or CCPA (California) regarding your personal data.",
-        "body2": "Because PhotoTools collects minimal personal data — and does not store contact form submissions long-term — most requests can be addressed simply. You can clear cookies at any time through your browser settings. To exercise any data rights or submit a privacy request, please use our <contactLink>contact page</contactLink>."
+        "title": "Hak Anda",
+        "body1": "Bergantung kepada lokasi anda, anda mungkin mempunyai hak di bawah undang-undang seperti GDPR (Kesatuan Eropah) atau CCPA (California) berkenaan data peribadi anda.",
+        "body2": "Oleh kerana PhotoTools mengumpul data peribadi yang minimum — dan tidak menyimpan hantaran borang hubungi untuk jangka panjang — kebanyakan permintaan boleh ditangani dengan mudah. Anda boleh memadam kuki pada bila-bila masa melalui tetapan pelayar anda. Untuk menggunakan sebarang hak data atau menghantar permintaan privasi, sila gunakan <contactLink>halaman hubungi</contactLink> kami."
       },
       "changesToPolicy": {
-        "title": "Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. When we do, the updated policy will be posted on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of PhotoTools after any changes constitutes your acceptance of the updated policy."
+        "title": "Perubahan Kepada Dasar Ini",
+        "body": "Kami mungkin mengemas kini Dasar Privasi ini dari semasa ke semasa. Apabila kami berbuat demikian, dasar yang dikemas kini akan disiarkan di halaman ini dengan tarikh berkuat kuasa yang disemak. Kami menggalakkan anda menyemak dasar ini secara berkala. Penggunaan berterusan PhotoTools selepas sebarang perubahan dianggap sebagai penerimaan anda terhadap dasar yang dikemas kini."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about this Privacy Policy or how we handle your data, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Hubungi",
+        "body": "Jika anda mempunyai soalan tentang Dasar Privasi ini atau cara kami mengendalikan data anda, sila hubungi kami melalui <contactLink>halaman hubungi</contactLink>."
       }
     }
   }

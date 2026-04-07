@@ -1,57 +1,57 @@
 {
   "education": {
     "nd-filter-calculator": {
-      "beginner": "An ND (neutral density) filter is like sunglasses for your camera lens. It reduces the amount of light entering the lens without changing the colors, allowing you to use slower shutter speeds or wider apertures in bright conditions. This is how photographers create silky waterfalls, smooth oceans, or blurred clouds during the day.",
-      "deeper": "ND filters are rated by how many stops of light they block. An ND2 filter (1 stop) halves the light, an ND8 (3 stops) reduces it to 1/8th, and an ND1000 (10 stops) reduces light by a factor of 1024. The naming conventions can be confusing: \"ND8\" means the filter factor is 8 (3 stops), while \"ND 0.9\" uses optical density notation (each 0.3 = 1 stop, so 0.9 = 3 stops). The resulting shutter speed is simply the base speed multiplied by the filter factor. For example, if your unfiltered exposure is 1/125s and you add a 10-stop ND (ND1000), the new shutter speed is 1/125 x 1024 = approximately 8 seconds. Stacking multiple ND filters adds their stop values together but can introduce vignetting and color casts, especially with wide-angle lenses.",
+      "beginner": "একটি ND (নিউট্রাল ডেনসিটি) ফিল্টার তোমার ক্যামেরা লেন্সের জন্য সানগ্লাসের মতো। এটি রঙ পরিবর্তন না করে লেন্সে ঢোকা আলোর পরিমাণ কমায়, ফলে উজ্জ্বল পরিস্থিতিতে তুমি ধীর শাটার স্পিড বা প্রশস্ত অ্যাপারচার ব্যবহার করতে পারো। এভাবেই ফটোগ্রাফাররা দিনের বেলায় রেশমি ঝর্ণা, মসৃণ সমুদ্র বা ঝাপসা মেঘ তৈরি করেন।",
+      "deeper": "ND ফিল্টারগুলো কত স্টপ আলো আটকায় তার ভিত্তিতে রেট করা হয়। ND2 ফিল্টার (1 স্টপ) আলো অর্ধেক করে, ND8 (3 স্টপ) 1/8তম-এ কমায়, এবং ND1000 (10 স্টপ) আলোকে 1024 গুণ কমায়। নামকরণ বিভ্রান্তিকর হতে পারে: \"ND8\" মানে ফিল্টার ফ্যাক্টর হলো 8 (3 স্টপ), আর \"ND 0.9\" অপটিক্যাল ডেনসিটি নোটেশন ব্যবহার করে (প্রতি 0.3 = 1 স্টপ, তাই 0.9 = 3 স্টপ)। ফলাফল শাটার স্পিড সহজভাবে বেস স্পিডকে ফিল্টার ফ্যাক্টর দিয়ে গুণ করে পাওয়া যায়। উদাহরণস্বরূপ, তোমার আনফিল্টারড এক্সপোজার 1/125s হলে এবং তুমি 10-স্টপ ND (ND1000) যোগ করলে, নতুন শাটার স্পিড 1/125 x 1024 = প্রায় 8 সেকেন্ড। একাধিক ND ফিল্টার স্ট্যাক করলে তাদের স্টপ মান যোগ হয়, কিন্তু ভিগনেটিং ও রঙের কাস্ট আনতে পারে, বিশেষত ওয়াইড-অ্যাঙ্গেল লেন্সে।",
       "keyFactors": {
         "0": {
-          "label": "Base Shutter Speed",
-          "description": "The correct exposure time without any filter. Meter the scene first, then calculate the filtered exposure from this starting point."
+          "label": "বেস শাটার স্পিড",
+          "description": "কোনো ফিল্টার ছাড়া সঠিক এক্সপোজার টাইম। প্রথমে দৃশ্য মিটার করো, তারপর এই শুরুর বিন্দু থেকে ফিল্টারড এক্সপোজার হিসাব করো।"
         },
         "1": {
-          "label": "Filter Strength",
-          "description": "Measured in stops. Each stop doubles the exposure time. Common strengths: 3-stop (ND8), 6-stop (ND64), and 10-stop (ND1000)."
+          "label": "ফিল্টার শক্তি",
+          "description": "স্টপে পরিমাপ করা হয়। প্রতিটি স্টপ এক্সপোজার টাইম দ্বিগুণ করে। সাধারণ শক্তি: 3-স্টপ (ND8), 6-স্টপ (ND64), এবং 10-স্টপ (ND1000)।"
         },
         "2": {
-          "label": "Stacking Filters",
-          "description": "You can combine filters by adding their stop values. A 3-stop + 6-stop stack gives 9 stops of reduction. Beware of vignetting on wide-angle lenses."
+          "label": "ফিল্টার স্ট্যাকিং",
+          "description": "তুমি ফিল্টারগুলোর স্টপ মান যোগ করে একত্রিত করতে পারো। 3-স্টপ + 6-স্টপ স্ট্যাক 9 স্টপ হ্রাস দেয়। ওয়াইড-অ্যাঙ্গেল লেন্সে ভিগনেটিং থেকে সতর্ক থাকো।"
         }
       },
       "tips": {
         "0": {
-          "text": "Compose and focus before attaching a strong ND filter. With 10 stops of light reduction, your viewfinder and autofocus will struggle in the dark."
+          "text": "একটি শক্তিশালী ND ফিল্টার লাগানোর আগে কম্পোজ ও ফোকাস করো। 10 স্টপ আলো হ্রাসের সাথে, তোমার ভিউফাইন্ডার ও অটোফোকাস অন্ধকারে সংগ্রাম করবে।"
         },
         "1": {
-          "text": "For seascapes, 1-2 second exposures smooth small ripples into texture while retaining wave structure. Exposures of 30 seconds or more create completely flat, misty water."
+          "text": "সিসকেপের জন্য, 1-2 সেকেন্ড এক্সপোজার ছোট তরঙ্গকে টেক্সচারে মসৃণ করে যখন তরঙ্গ কাঠামো ধরে রাখে। 30 সেকেন্ড বা তার বেশি এক্সপোজার সম্পূর্ণ সমতল, কুয়াশাচ্ছন্ন পানি তৈরি করে।"
         },
         "2": {
-          "text": "Cheap ND filters often add a color cast (usually magenta or brown). Invest in quality glass from reputable brands, or learn to correct the cast in post-processing using a gray card reference."
+          "text": "সস্তা ND ফিল্টারগুলো প্রায়ই একটি রঙের কাস্ট যোগ করে (সাধারণত ম্যাজেন্টা বা বাদামী)। নামকরা ব্র্যান্ডের মানসম্পন্ন গ্লাসে বিনিয়োগ করো, বা গ্রে কার্ড রেফারেন্স ব্যবহার করে পোস্ট-প্রসেসিংয়ে কাস্ট সংশোধন করতে শেখো।"
         }
       },
       "tooltips": {
         "baseShutterSpeed": {
-          "term": "Base Shutter Speed",
-          "definition": "The shutter speed for a correct exposure without any ND filter attached. This is your starting point — the calculator multiplies it by the filter factor."
+          "term": "বেস শাটার স্পিড",
+          "definition": "কোনো ND ফিল্টার ছাড়া সঠিক এক্সপোজারের জন্য শাটার স্পিড। এটি তোমার শুরুর বিন্দু — ক্যালকুলেটর এটিকে ফিল্টার ফ্যাক্টর দিয়ে গুণ করে।"
         },
         "ndFilter": {
-          "term": "ND Filter",
-          "definition": "A neutral density filter that uniformly reduces light transmission. Rated by filter factor (ND2, ND4, ND8...) or stops of light reduction. ND2 = 1 stop, ND4 = 2 stops, ND8 = 3 stops, and so on."
+          "term": "ND ফিল্টার",
+          "definition": "একটি নিউট্রাল ডেনসিটি ফিল্টার যা আলোর সঞ্চালন সমানভাবে কমায়। ফিল্টার ফ্যাক্টর (ND2, ND4, ND8...) বা স্টপ আলো হ্রাসে রেট করা হয়। ND2 = 1 স্টপ, ND4 = 2 স্টপ, ND8 = 3 স্টপ, এভাবে।"
         },
         "resultingShutterSpeed": {
-          "term": "Resulting Shutter Speed",
-          "definition": "The new shutter speed after accounting for the ND filter. Calculated by multiplying the base shutter speed by the filter factor (e.g., 1/125s x 1024 for a 10-stop ND)."
+          "term": "ফলাফল শাটার স্পিড",
+          "definition": "ND ফিল্টার হিসাব করার পর নতুন শাটার স্পিড। বেস শাটার স্পিডকে ফিল্টার ফ্যাক্টর দিয়ে গুণ করে হিসাব করা হয় (যেমন 10-স্টপ ND-এর জন্য 1/125s x 1024)।"
         },
         "stopsAdded": {
-          "term": "Stops Added",
-          "definition": "The number of stops of light reduction the ND filter provides. Each stop doubles the required exposure time. 10 stops means the exposure is 1024 times longer."
+          "term": "যোগ করা স্টপ",
+          "definition": "ND ফিল্টার যে স্টপ আলো হ্রাস প্রদান করে তার সংখ্যা। প্রতিটি স্টপ দরকারি এক্সপোজার টাইম দ্বিগুণ করে। 10 স্টপ মানে এক্সপোজার 1024 গুণ দীর্ঘ।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are at a waterfall and your camera meters a correct exposure at 1/125s without any filter. You attach a 3-stop ND filter (ND8). What is the new shutter speed?",
-          "hint": "Each stop doubles the exposure time. 3 stops means 2 x 2 x 2 = 8 times longer.",
-          "successMessage": "Correct! 1/125s x 8 = 1/15s. This is a good start for motion blur in the water, though you might want an even stronger filter for silky smooth results.",
-          "failureMessage": "A 3-stop ND filter multiplies the exposure time by 8 (2^3 = 8). So 1/125s becomes 1/15s.",
+          "scenario": "তুমি একটি ঝর্ণায় আছো এবং কোনো ফিল্টার ছাড়া তোমার ক্যামেরা 1/125s-এ সঠিক এক্সপোজার মিটার করছে। তুমি একটি 3-স্টপ ND ফিল্টার (ND8) লাগাও। নতুন শাটার স্পিড কী?",
+          "hint": "প্রতিটি স্টপ এক্সপোজার টাইম দ্বিগুণ করে। 3 স্টপ মানে 2 x 2 x 2 = 8 গুণ দীর্ঘ।",
+          "successMessage": "সঠিক! 1/125s x 8 = 1/15s। পানিতে মোশন ব্লারের জন্য এটি একটি ভালো শুরু, যদিও রেশমি মসৃণ ফলাফলের জন্য তুমি আরো শক্তিশালী ফিল্টার চাইতে পারো।",
+          "failureMessage": "একটি 3-স্টপ ND ফিল্টার এক্সপোজার টাইমকে 8 দিয়ে গুণ করে (2^3 = 8)। তাই 1/125s হয়ে যায় 1/15s।",
           "options": {
             "0": { "label": "1/60s" },
             "1": { "label": "1/30s" },
@@ -60,50 +60,50 @@
           }
         },
         "1": {
-          "scenario": "You want to create a 30-second exposure of clouds moving across the sky. Without a filter, the correct exposure is 1/30s. How many stops of ND filtration do you need?",
-          "hint": "You need to go from 1/30s to 30s — that is 1/30 x factor = 30, so factor = 900. Find the nearest power of 2.",
-          "successMessage": "Correct! Going from 1/30s to 30s is roughly a 1000x increase, which is about 10 stops. An ND1000 (10-stop) filter gets you to approximately 33 seconds.",
-          "failureMessage": "The ratio is 30 / (1/30) = 900. The nearest power of 2 is 1024 (2^10), so you need a 10-stop ND filter.",
+          "scenario": "তুমি আকাশ জুড়ে মেঘের চলাচলের 30-সেকেন্ড এক্সপোজার তৈরি করতে চাও। ফিল্টার ছাড়া, সঠিক এক্সপোজার 1/30s। তোমার কত স্টপ ND ফিল্ট্রেশন দরকার?",
+          "hint": "তোমাকে 1/30s থেকে 30s-এ যেতে হবে — মানে 1/30 x ফ্যাক্টর = 30, তাই ফ্যাক্টর = 900। 2-এর নিকটতম ঘাত খোঁজো।",
+          "successMessage": "সঠিক! 1/30s থেকে 30s-এ যাওয়া প্রায় 1000x বৃদ্ধি, যা প্রায় 10 স্টপ। একটি ND1000 (10-স্টপ) ফিল্টার তোমাকে প্রায় 33 সেকেন্ডে পৌঁছে দেবে।",
+          "failureMessage": "অনুপাত হলো 30 / (1/30) = 900। 2-এর নিকটতম ঘাত 1024 (2^10), তাই তোমার একটি 10-স্টপ ND ফিল্টার দরকার।",
           "options": {
-            "0": { "label": "6 stops (ND64)" },
-            "1": { "label": "8 stops (ND256)" },
-            "2": { "label": "10 stops (ND1000)" },
-            "3": { "label": "15 stops (ND32768)" }
+            "0": { "label": "6 স্টপ (ND64)" },
+            "1": { "label": "8 স্টপ (ND256)" },
+            "2": { "label": "10 স্টপ (ND1000)" },
+            "3": { "label": "15 স্টপ (ND32768)" }
           }
         },
         "2": {
-          "scenario": "You are shooting a seascape at sunset. The light is fading and your base exposure (no filter) is now 1/4s at f/11, ISO 100. You want 2-minute exposures for ultra-smooth water. What ND filter strength do you need?",
-          "hint": "From 1/4s to 120s is a factor of 480. Find the closest stop value.",
-          "successMessage": "A 9-stop ND would give you 1/4 x 512 = 128 seconds, or just over 2 minutes. Perfect for that misty, ethereal seascape look at sunset.",
-          "failureMessage": "From 0.25s to 120s is about a 480x increase. 2^9 = 512, which is close to 480, so a 9-stop filter gets you to approximately 128 seconds.",
+          "scenario": "তুমি সূর্যাস্তে একটি সিসকেপ শুট করছো। আলো ক্ষীণ হয়ে আসছে এবং তোমার বেস এক্সপোজার (ফিল্টার ছাড়া) এখন f/11, ISO 100-এ 1/4s। তুমি অতি-মসৃণ পানির জন্য 2-মিনিট এক্সপোজার চাও। তোমার কী ND ফিল্টার শক্তি দরকার?",
+          "hint": "1/4s থেকে 120s হলো 480-এর একটি ফ্যাক্টর। নিকটতম স্টপ মান খোঁজো।",
+          "successMessage": "একটি 9-স্টপ ND তোমাকে 1/4 x 512 = 128 সেকেন্ড দেবে, বা 2 মিনিটের একটু বেশি। সূর্যাস্তে সেই কুয়াশাচ্ছন্ন, অলৌকিক সিসকেপ লুকের জন্য উপযুক্ত।",
+          "failureMessage": "0.25s থেকে 120s হলো প্রায় 480x বৃদ্ধি। 2^9 = 512, যা 480-এর কাছাকাছি, তাই একটি 9-স্টপ ফিল্টার তোমাকে প্রায় 128 সেকেন্ডে পৌঁছে দেয়।",
           "options": {
-            "0": { "label": "6 stops" },
-            "1": { "label": "9 stops" },
-            "2": { "label": "10 stops" },
-            "3": { "label": "13 stops" }
+            "0": { "label": "6 স্টপ" },
+            "1": { "label": "9 স্টপ" },
+            "2": { "label": "10 স্টপ" },
+            "3": { "label": "13 স্টপ" }
           }
         },
         "3": {
-          "scenario": "You want to shoot a portrait at f/1.4 in bright sunlight (base exposure: f/1.4, 1/8000s, ISO 100). Your camera's maximum shutter speed is 1/8000s. Can you shoot at f/1.4 without an ND filter?",
-          "hint": "Check if 1/8000s at f/1.4 and ISO 100 is achievable, or if the scene is still overexposed.",
-          "successMessage": "Correct! On a very bright day (EV 15+), f/1.4 at ISO 100 often needs shutter speeds faster than 1/8000s, which most cameras cannot achieve. A 2-3 stop ND filter lets you shoot wide open without overexposure.",
-          "failureMessage": "In bright sunlight, f/1.4 at ISO 100 may require shutter speeds beyond the camera's 1/8000s limit. An ND filter is essential for wide-aperture shooting in bright conditions.",
+          "scenario": "তুমি উজ্জ্বল সূর্যালোকে f/1.4-এ একটি পোর্ট্রেট শুট করতে চাও (বেস এক্সপোজার: f/1.4, 1/8000s, ISO 100)। তোমার ক্যামেরার সর্বোচ্চ শাটার স্পিড 1/8000s। ND ফিল্টার ছাড়া তুমি কি f/1.4-এ শুট করতে পারবে?",
+          "hint": "ISO 100-এ 1/8000s, f/1.4 অর্জনযোগ্য কিনা চেক করো, বা দৃশ্যটি এখনো ওভারএক্সপোজড কিনা।",
+          "successMessage": "সঠিক! খুব উজ্জ্বল দিনে (EV 15+), ISO 100-এ f/1.4 প্রায়ই 1/8000s-এর চেয়ে দ্রুত শাটার স্পিড দরকার, যা বেশিরভাগ ক্যামেরা অর্জন করতে পারে না। একটি 2-3 স্টপ ND ফিল্টার তোমাকে ওভারএক্সপোজার ছাড়া ওয়াইড ওপেন শুট করতে দেয়।",
+          "failureMessage": "উজ্জ্বল সূর্যালোকে, ISO 100-এ f/1.4 ক্যামেরার 1/8000s সীমার বাইরে শাটার স্পিড দরকার হতে পারে। উজ্জ্বল পরিস্থিতিতে ওয়াইড-অ্যাপারচার শুটিংয়ের জন্য একটি ND ফিল্টার অপরিহার্য।",
           "options": {
-            "0": { "label": "Yes — 1/8000s is fast enough" },
-            "1": { "label": "No — you likely need a 2-3 stop ND filter" },
-            "2": { "label": "Just raise ISO to compensate" }
+            "0": { "label": "হ্যাঁ — 1/8000s যথেষ্ট দ্রুত" },
+            "1": { "label": "না — সম্ভবত তোমার একটি 2-3 স্টপ ND ফিল্টার দরকার" },
+            "2": { "label": "শুধু ISO বাড়িয়ে ক্ষতিপূরণ দাও" }
           }
         },
         "4": {
-          "scenario": "You own a 6-stop and a 3-stop ND filter. You stack them on your lens with a base exposure of 1/250s. What is the resulting shutter speed, and what should you watch for with this setup?",
-          "hint": "Add the stop values together, then calculate the new exposure. Think about optical side effects of stacking.",
-          "successMessage": "Correct! 6 + 3 = 9 stops. 1/250 x 512 = approximately 2 seconds. Watch for vignetting (dark corners) on wide-angle lenses and potential color casts from cheap glass.",
-          "failureMessage": "Stacking adds the stop values: 6 + 3 = 9 stops total. 2^9 = 512, so 1/250 x 512 = ~2 seconds. Stacking can also cause vignetting and color casts.",
+          "scenario": "তোমার কাছে একটি 6-স্টপ ও একটি 3-স্টপ ND ফিল্টার আছে। তুমি 1/250s বেস এক্সপোজারে তোমার লেন্সে স্ট্যাক করো। ফলাফল শাটার স্পিড কী, এবং এই সেটআপের সাথে কী লক্ষ্য রাখা উচিত?",
+          "hint": "স্টপ মান একসাথে যোগ করো, তারপর নতুন এক্সপোজার হিসাব করো। স্ট্যাকিংয়ের অপটিক্যাল পার্শ্বপ্রভাব সম্পর্কে চিন্তা করো।",
+          "successMessage": "সঠিক! 6 + 3 = 9 স্টপ। 1/250 x 512 = প্রায় 2 সেকেন্ড। ওয়াইড-অ্যাঙ্গেল লেন্সে ভিগনেটিং (গাঢ় কোনা) এবং সস্তা গ্লাস থেকে সম্ভাব্য রঙের কাস্টের জন্য সতর্ক থাকো।",
+          "failureMessage": "স্ট্যাকিং স্টপ মান যোগ করে: 6 + 3 = 9 স্টপ মোট। 2^9 = 512, তাই 1/250 x 512 = ~2 সেকেন্ড। স্ট্যাকিং ভিগনেটিং ও রঙের কাস্টও তৈরি করতে পারে।",
           "options": {
-            "0": { "label": "~0.5s, watch for lens flare" },
-            "1": { "label": "~2s, watch for vignetting and color casts" },
-            "2": { "label": "~4s, watch for sensor overheating" },
-            "3": { "label": "~8s, no concerns with stacking" }
+            "0": { "label": "~0.5s, লেন্স ফ্লেয়ারের জন্য সতর্ক থাকো" },
+            "1": { "label": "~2s, ভিগনেটিং ও রঙের কাস্টের জন্য সতর্ক থাকো" },
+            "2": { "label": "~4s, সেন্সর ওভারহিটিংয়ের জন্য সতর্ক থাকো" },
+            "3": { "label": "~8s, স্ট্যাকিংয়ের সাথে কোনো উদ্বেগ নেই" }
           }
         }
       }

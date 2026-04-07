@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "Stelele par să se miște pe cer pentru că Pământul se rotește. Dacă obturatorul rămâne deschis suficient de mult, stelele se vor transforma în dâre în fotografia ta. Calculatorul de dâre de stele te ajută să găsești timpul maxim de expunere pentru stele punctiforme sau să planifici expuneri lungi pentru arcuri frumoase, circulare.",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "Cum se mișcă stelele",
+          "text": "Pământul se rotește 360\u00b0 în aproximativ 23 de ore și 56 de minute (o zi siderală), deci stelele se mișcă cu aproximativ 15 secunde de arc pe secundă la ecuatorul celest. Stelele din apropierea polilor (Polaris la nord) trasează cercuri mai mici și par să se miște mai lent."
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "Regula 500 vs. regula NPF",
+          "text": "Clasica \"regulă 500\" împarte 500 la distanța focală efectivă pentru a estima expunerea maximă înainte ca dârele să devină vizibile — dar a fost concepută pentru senzori de rezoluție mai mică. Regula NPF ia în calcul pasul pixelilor, distanța focală, diafragma și declinația, producând limite mai scurte și mai precise pentru camerele moderne de înaltă rezoluție."
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "Stacking pentru dâre de stele",
+          "text": "Pentru dâre de stele intenționate, fotografii fac multe expuneri mai scurte (de obicei câte 30s) și le combină în software. Asta evită acumularea de zgomot, permite dâre fără goluri și înseamnă că un singur cadru prost nu strică întregul cadru."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "Distanță focală",
+          "description": "Distanțele focale mai lungi amplifică mișcarea stelelor, cerând expuneri mai scurte pentru stele punctiforme. Un obiectiv de 14mm poate expune de 5-10 ori mai mult decât un 200mm."
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "Rezoluția senzorului",
+          "description": "Senzorii de rezoluție mai mare scot la iveală dârele stelelor la timpi mai scurți de expunere. Regula 500 este prea generoasă pentru camerele moderne de 40MP+."
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "Latitudine și declinație",
+          "description": "Stelele apropiate de polii celești se mișcă mai puțin pe secundă. Îndreptarea camerei spre Polaris îți permite expuneri mai lungi înainte să apară dârele."
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "Stacking vs. expunere unică",
+          "description": "Pentru dâre de stele, combinarea mai multor expuneri scurte produce rezultate mai curate decât o singură expunere extrem de lungă și permite recuperarea după întreruperi."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "Folosește regula NPF în locul regulii 500 pentru camerele moderne. Ia în calcul rezoluția senzorului și produce timpi maximi de expunere mai preciși, mai ales pe corpuri cu mulți megapixeli."
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "Pentru stacking de dâre de stele, păstrează pauzele dintre cadre sub 2-3 secunde, folosind o telecomandă cu cablu sau un intervalometru. Pauzele mai lungi creează dâre punctate, nu netede."
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "Include Polaris (sau polul ceresc sudic) în compoziție pentru dâre concentrice dramatice. Stelele mai apropiate de pol trasează arcuri mai strânse."
         }
       },
       "tooltips": {
         "mode": {
-          "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "term": "Mod",
+          "definition": "Alege \"Stele clare\" pentru a calcula timpul maxim de expunere pentru stele punctiforme, sau \"Dâre de stele\" pentru a planifica secvențe de expunere pentru efecte intenționate de dâre."
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "Distanță focală",
+          "definition": "Distanța focală a obiectivului în milimetri. Distanțele focale mai lungi amplifică mișcarea aparentă a stelelor, cerând expuneri individuale mai scurte."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "Dimensiunea senzorului",
+          "definition": "Dimensiunile fizice ale senzorului. Împreună cu rezoluția, determină pasul pixelilor, care afectează cât de repede devin vizibile dârele stelelor."
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "Rezoluție",
+          "definition": "Rezoluția senzorului în megapixeli. Camerele de rezoluție mai mare scot la iveală dârele stelelor mai devreme, pentru că fiecare pixel acoperă o porțiune unghiulară mai mică din cer."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "term": "Diafragmă",
+          "definition": "Deschiderea obiectivului. Pentru astrofotografie, folosește cea mai largă diafragmă disponibilă (cea mai mică cifră f) pentru a capta cât mai multă lumină stelară în fiecare cadru."
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "Latitudine",
+          "definition": "Latitudinea ta geografică. Afectează viteza aparentă de mișcare a stelelor — la latitudini mai mari, stelele de lângă pol se mișcă mai lent prin cadru."
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "Expunere per cadru",
+          "definition": "Timpul de expunere pentru fiecare cadru individual dintr-o secvență de dâre de stele. De obicei 15-30 de secunde, pentru a capta suficientă lumină evitând zgomotul excesiv."
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "Număr de cadre",
+          "definition": "Câte expuneri individuale să faci. Mai multe cadre înseamnă dâre mai lungi, mai dramatice. 120 de cadre a câte 30 de secunde produc o oră de dâre."
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "Pauză între cadre",
+          "definition": "Timpul dintre expuneri, pentru ca aparatul să salveze fișierul. Ține-l cât mai scurt (1-3 secunde) ca să eviți dârele punctate."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "Fotografiezi Calea Lactee cu un obiectiv de 24mm pe o cameră full-frame de 24MP. Folosind regula 500, cât de mult poți expune înainte ca stelele să înceapă să se miște în dâre?",
+          "hint": "Regula 500: secunde maxime = 500 / distanța focală.",
+          "successMessage": "Exact! 500 / 24 = aproximativ 20 de secunde. Este un punct de plecare bun, deși regula NPF ar putea sugera un timp ușor mai scurt pentru claritate critică.",
+          "failureMessage": "Aplică regula 500: împarte 500 la distanța focală (24mm). Asta îți dă aproximativ 20 de secunde.",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 secunde" },
+            "1": { "label": "10 secunde" },
+            "2": { "label": "20 secunde" },
+            "3": { "label": "60 secunde" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "Vrei să fotografiezi nebuloasa Orion cu un obiectiv de 200mm pe o cameră cu senzor crop (factor de crop 1.5x). Care este expunerea maximă aproximativă, folosind regula 500?",
+          "hint": "Cu un senzor crop, înmulțește mai întâi distanța focală cu factorul de crop, apoi aplică regula.",
+          "successMessage": "Corect! Distanța focală efectivă este 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 secunde. La distanțe focale tele pe senzori crop, ai foarte puțin timp înainte să apară dârele.",
+          "failureMessage": "Ține minte să iei în calcul factorul de crop: 200mm x 1.5 = 300mm efectiv. Apoi 500 / 300 dă aproximativ 1.7 secunde.",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1.7 secunde" },
+            "1": { "label": "~2.5 secunde" },
+            "2": { "label": "~5 secunde" },
+            "3": { "label": "~10 secunde" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "Vrei să creezi o fotografie cu dâre de stele de 2 ore. Planifici expuneri de 30 de secunde cu pauze de 2 secunde. Câte cadre îți vor trebui?",
+          "hint": "Calculează câte intervale de 32 de secunde (30s expunere + 2s pauză) încap în 2 ore (7200 de secunde).",
+          "successMessage": "Corect! 7200 secunde / 32 secunde per cadru = 225 cadre. Vei obține dâre continue, netede, pe durata a 2 ore de rotație a Pământului.",
+          "failureMessage": "Două ore = 7200 secunde. Fiecare ciclu de cadru este 30s + 2s = 32s. Împarte 7200 la 32 ca să obții numărul de cadre necesare.",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 cadre" },
+            "1": { "label": "180 cadre" },
+            "2": { "label": "225 cadre" },
+            "3": { "label": "240 cadre" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "Un prieten folosește o cameră full-frame de 50MP și a urmat regula 500 cu un obiectiv de 20mm, obținând o expunere de 25 de secunde. Se plânge că stelele arată ca dâre scurte când dă zoom. De ce?",
+          "hint": "Regula 500 a fost concepută pentru senzori mai vechi, de rezoluție mai mică.",
+          "successMessage": "Exact! Regula 500 este prea generoasă pentru senzorii de rezoluție mare. Un senzor full-frame de 50MP are un pas de pixel de aproximativ 4.4 micrometri, iar regula NPF ar recomanda aproximativ 10-12 secunde pentru stele cu adevărat clare.",
+          "failureMessage": "Regula 500 a fost creată când senzorii aveau cu mult mai puțini megapixeli. Cu 50MP, fiecare pixel acoperă o felie mult mai mică din cer, scoțând la iveală mișcare stelară invizibilă pe camerele mai vechi.",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "Obiectivul era nefocalizat" },
+            "1": { "label": "Regula 500 este prea generoasă pentru senzorii de rezoluție mare" },
+            "2": { "label": "Camera se clătina în vânt" },
+            "3": { "label": "20mm este prea larg pentru astrofotografie" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "Vrei o imagine cu dâre de stele de 1 oră. De ce fotografii astro experimentați combină multe expuneri scurte (de exemplu 240 x 15s), în loc să facă o singură expunere de 1 oră?",
+          "hint": "Gândește-te ce se întâmplă cu zgomotul senzorului, cu bateria și cu posibilitatea de recuperare pe parcursul unei singure expuneri extrem de lungi.",
+          "successMessage": "Corect! O singură expunere de o oră acumulează zgomot termic masiv, golește bateria, iar dacă ceva merge prost (vibrație, rouă, far de mașină), tot cadrul este stricat. Combinând cadre scurte păstrezi zgomotul scăzut, poți arunca cadrele stricate și este mult mai iertător.",
+          "failureMessage": "Expunerile lungi unice acumulează zgomot termic sever și riscă pierderea totală în cazul oricărei întreruperi. Combinarea cadrelor scurte păstrează zgomotul gestionabil, îți permite să elimini cadrele stricate și produce rezultate mai curate.",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "Stacking-ul produce dâre mai lungi decât o singură expunere" },
+            "1": { "label": "Expunerile unice nu pot înregistra mișcarea stelelor" },
+            "2": { "label": "Stacking-ul reduce zgomotul, permite recuperarea după întreruperi și economisește bateria" },
+            "3": { "label": "Nu există o diferență practică — e pur și simplu o preferință personală" }
           }
         }
       }

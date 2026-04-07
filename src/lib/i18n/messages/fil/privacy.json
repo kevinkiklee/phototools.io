@@ -1,67 +1,67 @@
 {
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Patakaran sa Privacy",
+    "effectiveDate": "Petsa ng pagkakaroon ng bisa: Abril 3, 2026",
     "sections": {
       "overview": {
-        "title": "Overview",
-        "body": "PhotoTools operates www.phototools.io, a free educational photography resource offering interactive calculators, simulators, and reference tools. This Privacy Policy describes how we collect, use, and handle information when you visit or use our site. By using PhotoTools, you agree to the practices described in this policy."
+        "title": "Pangkalahatang-ideya",
+        "body": "Pinapatakbo ng PhotoTools ang www.phototools.io, isang libreng educational photography resource na nag-aalok ng interactive calculators, simulators, at reference tools. Inilalarawan ng Privacy Policy na ito kung paano kami kumokolekta, gumagamit, at humahawak ng impormasyon kapag bumibisita ka o gumagamit ng aming site. Sa paggamit ng PhotoTools, sumasang-ayon ka sa mga kasanayan na inilalarawan sa patakarang ito."
       },
       "informationWeCollect": {
-        "title": "Information We Collect",
-        "intro": "We collect minimal information to operate and improve the site:",
-        "analytics": "<strong>Analytics:</strong> We use Google Analytics to understand how visitors use the site (e.g. pages visited, time on page, device type). Analytics data is anonymized — we do not collect personally identifiable information through analytics. IP addresses are anonymized before storage.",
-        "contactForm": "<strong>Contact form:</strong> If you submit the contact form, we collect your name, email address, subject, and message. This information is used solely to respond to your inquiry and is not stored beyond email delivery — it is not saved to a database or retained long-term.",
-        "noAccounts": "<strong>No accounts:</strong> PhotoTools does not require user registration or accounts. We do not collect passwords or payment information."
+        "title": "Impormasyong Kinokolekta Namin",
+        "intro": "Kaunti lang ang kinokolekta naming impormasyon para patakbuhin at pagbutihin ang site:",
+        "analytics": "<strong>Analytics:</strong> Gumagamit kami ng Google Analytics para maunawaan kung paano ginagamit ng mga bisita ang site (hal. mga pages na binisita, time on page, device type). Ang analytics data ay anonymized — hindi kami kumokolekta ng personally identifiable information sa pamamagitan ng analytics. Ang mga IP address ay anonymized bago i-store.",
+        "contactForm": "<strong>Contact form:</strong> Kapag nag-submit ka ng contact form, kinokolekta namin ang pangalan mo, email address, paksa, at mensahe. Ginagamit lamang ang impormasyong ito para tumugon sa iyong tanong at hindi kami nag-iimbak pagkatapos ng email delivery — hindi ito ini-save sa isang database o pinanatili nang matagal.",
+        "noAccounts": "<strong>Walang accounts:</strong> Hindi kinakailangan ng PhotoTools ang user registration o accounts. Hindi kami kumokolekta ng mga password o impormasyon sa pagbabayad."
       },
       "cookies": {
         "title": "Cookies",
-        "intro": "PhotoTools uses cookies to support analytics and advertising functionality. Specifically:",
-        "analyticsCookies": "<strong>Google Analytics cookies</strong> track site usage in aggregate and anonymized form. These cookies help us understand which tools are most used and how to improve the site.",
-        "adCookies": "<strong>Third-party advertising cookies</strong> may be set by our ad network partners to serve relevant advertisements and measure ad performance.",
-        "control": "You can control or disable cookies through your browser settings. Note that disabling cookies may affect the functionality of some features."
+        "intro": "Gumagamit ang PhotoTools ng cookies para suportahan ang analytics at advertising functionality. Partikular:",
+        "analyticsCookies": "<strong>Ang mga Google Analytics cookies</strong> ay nagsusubaybay ng site usage sa aggregate at anonymized na anyo. Tumutulong ang mga cookies na ito sa amin para maunawaan kung anong tools ang pinaka-ginagamit at kung paano pagandahin ang site.",
+        "adCookies": "<strong>Ang mga third-party advertising cookies</strong> ay maaaring i-set ng aming ad network partners para mag-serve ng relevant advertisements at sukatin ang ad performance.",
+        "control": "Pwede mong kontrolin o i-disable ang cookies sa pamamagitan ng browser settings mo. Tandaan na ang pag-disable ng cookies ay maaaring makaapekto sa functionality ng ilang features."
       },
       "thirdPartyAdvertising": {
         "title": "Third-Party Advertising",
-        "body": "PhotoTools displays advertisements served by third-party ad networks. These networks may use cookies and similar tracking technologies to serve ads based on your browsing history and interests (interest-based advertising). We do not control the data practices of these third-party ad networks. For more information, please review the privacy policies of those networks or visit the <naiLink>Network Advertising Initiative opt-out page</naiLink>."
+        "body": "Nagpapakita ang PhotoTools ng mga advertisement na pinagseserve ng third-party ad networks. Maaaring gumamit ng cookies at iba pang tracking technologies ang mga network na ito para mag-serve ng ads batay sa browsing history at interes mo (interest-based advertising). Hindi namin kinokontrol ang data practices ng mga third-party ad network na ito. Para sa higit pang impormasyon, pakibasa ang mga privacy policy ng mga network na iyon o bisitahin ang <naiLink>Network Advertising Initiative opt-out page</naiLink>."
       },
       "googleAdSense": {
         "title": "Google AdSense",
-        "body1": "PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies and web beacons to serve ads based on your prior visits to this site or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your browsing patterns.",
-        "body2": "You may opt out of personalized advertising by visiting <adsSettingsLink>Google Ads Settings</adsSettingsLink>. For more information about how Google uses data, see <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
+        "body1": "Gumagamit ang PhotoTools ng Google AdSense para magpakita ng mga advertisement. Maaaring gumamit ang Google AdSense ng cookies at web beacons para mag-serve ng ads batay sa mga nakaraang pagbisita mo sa site na ito o sa ibang mga website. Ang paggamit ng Google sa advertising cookies ay nagpapahintulot dito at sa mga partner nito na mag-serve ng ads batay sa iyong browsing patterns.",
+        "body2": "Pwede kang mag-opt out sa personalized advertising sa pamamagitan ng pagbisita sa <adsSettingsLink>Google Ads Settings</adsSettingsLink>. Para sa higit pang impormasyon kung paano gumagamit ng data ang Google, tingnan ang <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
       },
       "cookieConsent": {
         "title": "Cookie Consent",
-        "body1": "When you first visit PhotoTools, a cookie consent banner is displayed allowing you to accept or reject non-essential cookies. This banner is powered by CookieYes, a Google-certified Consent Management Platform that supports the IAB Transparency and Consent Framework (TCF) v2.3.",
-        "body2": "You can change your consent preferences at any time by clicking the cookie settings link in the footer. If you reject advertising cookies, you will still see ads, but they will not be personalized to your browsing history."
+        "body1": "Kapag unang bumisita ka sa PhotoTools, ipapakita ang cookie consent banner na nagpapahintulot sa iyo na tanggapin o tanggihan ang non-essential cookies. Ang banner na ito ay pinapatakbo ng CookieYes, isang Google-certified Consent Management Platform na sumusuporta sa IAB Transparency and Consent Framework (TCF) v2.3.",
+        "body2": "Pwede mong baguhin ang iyong consent preferences anumang oras sa pamamagitan ng pag-click sa cookie settings link sa footer. Kung tatanggihan mo ang advertising cookies, makikita mo pa rin ang ads, pero hindi ito personalized sa iyong browsing history."
       },
       "ccpa": {
-        "title": "California Residents (CCPA)",
-        "body": "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request its deletion, and opt out of its sale. PhotoTools does not sell personal information. Advertising cookies used by our ad partners may constitute a \"sale\" under the CCPA — you can opt out via the cookie consent banner or by contacting us through our <contactLink>contact page</contactLink>."
+        "title": "Mga Residente ng California (CCPA)",
+        "body": "Sa ilalim ng California Consumer Privacy Act (CCPA), ang mga residente ng California ay may karapatan na malaman kung anong personal information ang kinokolekta, hilingin ang pagbura nito, at mag-opt out sa pagbebenta nito. Hindi nagbebenta ng personal information ang PhotoTools. Ang advertising cookies na ginagamit ng aming ad partners ay maaaring bumuo ng isang \"benta\" sa ilalim ng CCPA — pwede kang mag-opt out sa pamamagitan ng cookie consent banner o sa pamamagitan ng pakikipag-ugnayan sa amin sa aming <contactLink>contact page</contactLink>."
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "intro": "We do not sell, trade, or rent your personal information to third parties. We share data only in the following limited circumstances:",
-        "analytics": "With <strong>Google Analytics</strong> to analyze site traffic and usage patterns, subject to Google's privacy policy.",
-        "advertising": "With <strong>advertising partners</strong> as described above under Third-Party Advertising.",
-        "contactForm": "We do not share contact form submissions with any third party."
+        "title": "Pagbabahagi ng Data",
+        "intro": "Hindi namin ibinebenta, ipinagpapalit, o ni-rerenta ang iyong personal information sa mga third party. Ibinabahagi lang namin ang data sa sumusunod na limitadong sitwasyon:",
+        "analytics": "Sa <strong>Google Analytics</strong> para suriin ang site traffic at usage patterns, alinsunod sa privacy policy ng Google.",
+        "advertising": "Sa <strong>mga advertising partner</strong> gaya ng inilarawan sa itaas sa Third-Party Advertising.",
+        "contactForm": "Hindi namin ibinabahagi ang mga contact form submission sa kahit sinong third party."
       },
       "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "body": "PhotoTools is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can remove it."
+        "title": "Privacy ng mga Bata",
+        "body": "Hindi nakadirekta ang PhotoTools sa mga batang wala pang 13 taong gulang. Hindi kami sinasadyang kumokolekta ng personal information mula sa mga batang wala pang 13. Kung naniniwala ka na may batang wala pang 13 na nagbigay sa amin ng personal information, makipag-ugnayan sa amin para maalis namin ito."
       },
       "yourRights": {
-        "title": "Your Rights",
-        "body1": "Depending on your location, you may have rights under laws such as the GDPR (European Union) or CCPA (California) regarding your personal data.",
-        "body2": "Because PhotoTools collects minimal personal data — and does not store contact form submissions long-term — most requests can be addressed simply. You can clear cookies at any time through your browser settings. To exercise any data rights or submit a privacy request, please use our <contactLink>contact page</contactLink>."
+        "title": "Iyong mga Karapatan",
+        "body1": "Depende sa lokasyon mo, maaaring may mga karapatan ka sa ilalim ng mga batas tulad ng GDPR (European Union) o CCPA (California) tungkol sa iyong personal data.",
+        "body2": "Dahil kakaunti ang personal data na kinokolekta ng PhotoTools — at hindi iniimbak nang matagal ang mga contact form submission — madaling matugunan ang karamihan ng mga request. Pwede mong i-clear ang cookies anumang oras sa pamamagitan ng browser settings mo. Para magamit ang kahit anong data rights o mag-submit ng privacy request, pakigamit ang aming <contactLink>contact page</contactLink>."
       },
       "changesToPolicy": {
-        "title": "Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. When we do, the updated policy will be posted on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of PhotoTools after any changes constitutes your acceptance of the updated policy."
+        "title": "Mga Pagbabago sa Patakarang Ito",
+        "body": "Maaari naming i-update ang Privacy Policy na ito paminsan-minsan. Kapag ginawa namin, ipi-post ang updated policy sa page na ito na may binagong effective date. Hinihikayat ka naming basahin ang patakarang ito paminsan-minsan. Ang patuloy na paggamit ng PhotoTools pagkatapos ng anumang pagbabago ay katumbas ng iyong pagtanggap sa updated policy."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about this Privacy Policy or how we handle your data, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Makipag-ugnayan",
+        "body": "Kung may tanong ka tungkol sa Privacy Policy na ito o kung paano namin hinahawakan ang iyong data, makipag-ugnayan sa amin sa aming <contactLink>contact page</contactLink>."
       }
     }
   }

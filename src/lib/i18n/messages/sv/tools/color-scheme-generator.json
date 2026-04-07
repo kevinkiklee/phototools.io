@@ -1,69 +1,69 @@
 {
   "toolUI": {
     "color-scheme-generator": {
-      "colorScheme": "Color Scheme",
-      "complementary": "Complementary",
-      "analogous": "Analogous",
-      "triadic": "Triadic",
-      "splitComplementary": "Split Complementary",
-      "tetradic": "Tetradic",
-      "keyColor": "Key Color",
-      "hue": "Hue:",
-      "saturation": "Saturation:",
-      "lightness": "Lightness:",
-      "splitAngle": "Split angle:",
-      "spread": "Spread:",
-      "rectangleWidth": "Rectangle width:",
-      "square": "(square)",
-      "pickFromPhoto": "Pick from Photo",
-      "dropPhotoPrompt": "Drop a photo here or click to browse",
-      "keyColorLabel": "Key color — click to copy hex",
-      "clickToCopyHex": "Click to copy hex",
-      "copiedExcl": "Copied!",
-      "copyColors": "Copy colors",
+      "colorScheme": "Färgschema",
+      "complementary": "Komplementär",
+      "analogous": "Analog",
+      "triadic": "Triadisk",
+      "splitComplementary": "Delad komplementär",
+      "tetradic": "Tetradisk",
+      "keyColor": "Huvudfärg",
+      "hue": "Kulör:",
+      "saturation": "Mättnad:",
+      "lightness": "Ljushet:",
+      "splitAngle": "Delningsvinkel:",
+      "spread": "Spridning:",
+      "rectangleWidth": "Rektangelbredd:",
+      "square": "(kvadrat)",
+      "pickFromPhoto": "Plocka från foto",
+      "dropPhotoPrompt": "Släpp ett foto här eller klicka för att bläddra",
+      "keyColorLabel": "Huvudfärg — klicka för att kopiera hex",
+      "clickToCopyHex": "Klicka för att kopiera hex",
+      "copiedExcl": "Kopierat!",
+      "copyColors": "Kopiera färger",
       "hexFormat": "Hex",
       "cssFormat": "CSS",
       "rgbFormat": "RGB",
-      "copyHexCodes": "Copy hex codes",
-      "copyCssVariables": "Copy CSS variables",
-      "copyRgbValues": "Copy RGB values",
-      "pickColorFromPhoto": "Pick color from photo",
-      "close": "Close",
-      "dropPhotoOrBrowse": "Drop a photo here or click to browse",
-      "tapToChoose": "Tap to choose a photo",
-      "tapToSample": "Tap anywhere on the photo to sample that color",
-      "changePhoto": "Change photo",
-      "privacyNote": "Your photo stays in your browser — nothing is uploaded",
+      "copyHexCodes": "Kopiera hex-koder",
+      "copyCssVariables": "Kopiera CSS-variabler",
+      "copyRgbValues": "Kopiera RGB-värden",
+      "pickColorFromPhoto": "Plocka färg från foto",
+      "close": "Stäng",
+      "dropPhotoOrBrowse": "Släpp ett foto här eller klicka för att bläddra",
+      "tapToChoose": "Tryck för att välja ett foto",
+      "tapToSample": "Tryck var som helst på fotot för att plocka den färgen",
+      "changePhoto": "Byt foto",
+      "privacyNote": "Ditt foto stannar i webbläsaren — inget laddas upp",
       "suggestions": {
         "complementary": {
-          "warm": "Great for: warm sunset portraits with cool shadow contrast",
-          "cool": "Great for: moody blue-hour shots with warm accent lighting",
-          "default": "Great for: high-contrast compositions with strong visual tension"
+          "warm": "Bra för: varma solnedgångsporträtt med sval skuggkontrast",
+          "cool": "Bra för: stämningsfulla blå timmen-bilder med varma accentljus",
+          "default": "Bra för: högkontrast-kompositioner med stark visuell spänning"
         },
         "analogous": {
-          "warm": "Great for: golden hour landscapes with unified warm tones",
-          "cool": "Great for: serene water scenes and twilight photography",
-          "default": "Great for: harmonious nature shots with smooth color transitions"
+          "warm": "Bra för: gyllene timmen-landskap med enhetliga varma toner",
+          "cool": "Bra för: lugna vattenscener och skymningsfoto",
+          "default": "Bra för: harmoniska naturbilder med mjuka färgövergångar"
         },
-        "triadic": "Use for: vibrant editorial work and bold creative portraits",
+        "triadic": "Använd för: livfulla redaktionella jobb och djärva porträtt",
         "splitComplementary": {
-          "warm": "Use for: contrasting wardrobe against a natural backdrop",
-          "default": "Use for: balanced product photography with visual variety"
+          "warm": "Använd för: kontrasterande kläder mot en naturbakgrund",
+          "default": "Använd för: balanserad produktfoto med visuell variation"
         },
-        "tetradic": "Use for: rich editorial layouts and complex multi-subject compositions"
+        "tetradic": "Använd för: rika redaktionella layouter och komplexa kompositioner med flera motiv"
       },
       "faq": {
         "what-is-color-harmony": {
-          "question": "What is color harmony in photography?",
-          "answer": "Color harmony refers to aesthetically pleasing color combinations based on their positions on the color wheel. Harmonious colors create visual balance and can evoke specific moods in your photographs."
+          "question": "Vad är färgharmoni i fotografi?",
+          "answer": "Färgharmoni är estetiskt tilltalande färgkombinationer baserade på färgernas positioner på färgcirkeln. Harmoniska färger skapar visuell balans och kan framkalla specifika stämningar i dina bilder."
         },
         "complementary-vs-analogous": {
-          "question": "What is the difference between complementary and analogous colors?",
-          "answer": "Complementary colors sit opposite each other on the color wheel (like blue and orange) and create high contrast. Analogous colors sit next to each other (like blue, blue-green, and green) and create a more harmonious, unified feel."
+          "question": "Vad är skillnaden mellan komplementära och analoga färger?",
+          "answer": "Komplementära färger ligger mitt emot varandra på färgcirkeln (som blått och orange) och skapar hög kontrast. Analoga färger ligger intill varandra (som blått, blågrönt och grönt) och skapar en mer harmonisk, enhetlig känsla."
         },
         "how-to-use-color-schemes-photography": {
-          "question": "How do I use color schemes in photography?",
-          "answer": "Plan your shoots around a color palette — choose wardrobe, locations, and props that match your scheme. In post-processing, use color grading to emphasize your chosen palette. Color schemes help create a consistent visual identity across a photo series."
+          "question": "Hur använder jag färgscheman i fotografi?",
+          "answer": "Planera dina fotograferingar kring en palett — välj kläder, platser och rekvisita som matchar schemat. I efterbehandlingen kan du färggradera för att förstärka din valda palett. Färgscheman hjälper dig skapa en konsekvent visuell identitet genom en bildserie."
         }
       }
     }

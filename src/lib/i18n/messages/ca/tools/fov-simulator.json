@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "Gira",
+      "center": "Centra",
+      "switchToPortrait": "Canvia a vertical",
+      "switchToLandscape": "Canvia a horitzontal",
+      "centerOverlays": "Centra les superposicions",
+      "addLens": "+ Afegeix objectiu",
       "fovSimulator": "FOV Simulator",
       "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
-      "embed": "Embed",
-      "reset": "Reset",
-      "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
-      "wide": "wide",
-      "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
+      "copyImage": "Copia la imatge",
+      "copyLink": "Copia l'enllaç",
+      "embed": "Incrusta",
+      "reset": "Restableix",
+      "frameInfo": "Informació del fotograma",
+      "distance": "Distància",
+      "showFramingGuides": "Mostra les guies d'enquadrament",
+      "wide": "ample",
+      "embedTitle": "Incrusta",
+      "closeEmbedModal": "Tanca la finestra d'incrustació",
       "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
-      "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
-      "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "bbcodeLabel": "BBCode (fòrums)",
+      "htmlEmbedLabel": "Incrustació HTML",
+      "copied": "Copiat",
+      "copy": "Copia",
+      "cropView": "Vista retallada:",
+      "collapse": "Plega",
+      "expand": "Desplega",
+      "fovComparison": "Comparació d'angle de visió",
+      "loadingScene": "Carregant l'escena...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Què és l'angle de visió en fotografia?",
+          "answer": "L'angle de visió (FOV) és l'abast angular de l'escena visible a través del teu objectiu i sensor. Determina quanta escena es captura a la foto i depèn de la distància focal i de la mida del sensor."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Com afecta el factor de retall l'angle de visió?",
+          "answer": "Un sensor més petit (factor de retall més alt) captura un angle de visió més estret que un sensor full frame amb la mateixa distància focal. Per exemple, els sensors APS-C amb un factor de retall d'1,5x fan que un 50mm es comporti com un 75mm pel que fa a l'angle de visió."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Quina relació hi ha entre l'angle de visió i la distància focal?",
+          "answer": "L'angle de visió i la distància focal tenen una relació inversa. Les distàncies focals més curtes (gran angular) donen un angle de visió més ampli, mentre que les més llargues (teleobjectiu) donen un angle de visió més estret. L'angle exacte també depèn de la mida del sensor."
         }
       }
     }

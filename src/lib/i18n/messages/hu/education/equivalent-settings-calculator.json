@@ -1,109 +1,109 @@
 {
   "education": {
     "equivalent-settings-calculator": {
-      "beginner": "Different sensor sizes produce different depth of field and field of view even at the same focal length and aperture. Equivalent settings let you find the lens and aperture combination on a second camera that reproduces the same framing and background blur. This is essential when comparing gear across formats or switching between camera systems.",
+      "beginner": "A különböző érzékelőméretek különböző mélységélességet és látószöget adnak még azonos gyújtótávolságon és rekeszen is. Az ekvivalens beállításokkal megtalálod, hogy egy másik kamerán melyik objektív- és rekeszkombináció adja ugyanazt a kompozíciót és háttérelmosódást. Ez nélkülözhetetlen, ha formátumok között hasonlítasz gépet, vagy rendszerek között váltasz.",
       "deeper": {
         "0": {
-          "heading": "The Crop Factor",
-          "text": "Every sensor has a crop factor relative to the 35mm full-frame standard. APS-C sensors have a factor around 1.5×, Micro Four Thirds 2×, and medium format around 0.79×. Multiplying the actual focal length by the crop factor gives the full-frame equivalent field of view. A 35mm lens on APS-C frames like a 52.5mm on full frame."
+          "heading": "A crop faktor",
+          "text": "Minden érzékelőnek van egy crop faktora a 35mm-es Full Frame szabványhoz képest. Az APS-C érzékelőké körülbelül 1,5×, a Micro Four Thirdsé 2×, a közepes formátumé nagyjából 0,79×. Ha a valós gyújtótávolságot megszorzod a crop faktorral, megkapod a Full Frame-ekvivalens látószöget. Egy 35mm-es objektív APS-C-n úgy fotóz, mint egy 52,5mm Full Frame-en."
         },
         "1": {
-          "heading": "Equivalent Aperture & DoF",
-          "text": "To match depth of field across formats, multiply the f-number by the same crop factor. An f/1.4 lens on Micro Four Thirds produces DoF equivalent to f/2.8 on full frame (1.4 × 2 = 2.8). This is why full-frame cameras are prized for shallow DoF — you can use physically faster lenses at wider actual apertures to achieve blur that smaller sensors cannot replicate."
+          "heading": "Ekvivalens rekesz és DoF",
+          "text": "Ahhoz, hogy a mélységélesség egyezzen a formátumok között, az f-számot is szorozni kell ugyanazzal a crop faktorral. Egy f/1.4-es objektív Micro Four Thirds-ön olyan DoF-et ad, mint egy f/2.8 Full Frame-en (1,4 × 2 = 2,8). Ezért kedvelik annyira a Full Frame-et a kis mélységélességért — fizikailag gyorsabb objektíveket használhatsz tágabb valós rekesszel, és olyan elmosódást érhetsz el, amit a kisebb érzékelők nem tudnak reprodukálni."
         },
         "2": {
-          "heading": "Equivalent ISO & Total Light",
-          "text": "Matching exposure brightness across formats requires adjusting ISO by the crop factor squared. The larger sensor collects more total light for the same scene, which means it can use a lower ISO for equivalent noise performance. A full-frame sensor at ISO 800 produces similar noise to an APS-C sensor at ISO 356 and a Micro Four Thirds sensor at ISO 200."
+          "heading": "Ekvivalens ISO és összes fény",
+          "text": "Hogy a kép fényessége is egyezzen a formátumok között, az ISO-t a crop faktor négyzetével kell igazítani. A nagyobb érzékelő több összfényt gyűjt ugyanabból a jelenetből, így alacsonyabb ISO-n is hasonló zajt ad. Egy Full Frame ISO 800-on hasonló zajt mutat, mint egy APS-C ISO 356-on vagy egy Micro Four Thirds ISO 200-on."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame sensor diagonal to the target sensor diagonal. This single number drives all equivalence calculations for focal length, aperture, and ISO."
+          "label": "Crop faktor",
+          "description": "A Full Frame átló aránya a célérzékelő átlójához képest. Ez az egy szám vezérli az összes ekvivalencia-számítást gyújtótávolságra, rekeszre és ISO-ra."
         },
         "1": {
-          "label": "Sensor Size",
-          "description": "Physically larger sensors capture more light and produce shallower DoF at equivalent framing. The equivalence calculator reveals exactly how much difference each format makes."
+          "label": "Érzékelőméret",
+          "description": "A fizikailag nagyobb érzékelők több fényt gyűjtenek, és ekvivalens kompozíción kisebb DoF-et adnak. Az ekvivalencia-kalkulátor pontosan megmutatja, mekkora a különbség az egyes formátumok között."
         },
         "2": {
-          "label": "Available Lenses",
-          "description": "Equivalence math may call for a lens that does not exist. A 17mm f/0.7 is the equivalent of 35mm f/1.4 on MFT — but no such lens is made. Real-world gear limits what is achievable."
+          "label": "Elérhető objektívek",
+          "description": "Az ekvivalencia-matek néha olyan objektívet kívánna, ami nem is létezik. Egy 17mm f/0.7 ekvivalense a 35mm f/1.4-nek MFT-n — de ilyen objektívet nem gyártanak. A valós felszerelés határt szab annak, mit érhetsz el."
         }
       },
       "tips": {
         "0": {
-          "text": "When comparing camera systems, always compare at equivalent settings rather than matching f-numbers. An f/2.8 lens on Micro Four Thirds does not give the same background blur as f/2.8 on full frame — you need f/1.4 on MFT to match."
+          "text": "Ha kamerarendszereket hasonlítasz, mindig ekvivalens beállításokon hasonlítsd őket, ne pusztán azonos f-számokon. Egy f/2.8-as objektív Micro Four Thirds-ön nem adja ugyanazt a háttérelmosódást, mint egy f/2.8 Full Frame-en — ehhez MFT-n f/1.4 kellene."
         },
         "1": {
-          "text": "Use equivalence to plan lens purchases when switching systems. If you love the look of 85mm f/1.8 on full frame, look for a 56mm f/1.2 on APS-C or a 42.5mm f/0.95 on MFT for a similar rendering."
+          "text": "Használd az ekvivalenciát az objektívvásárlás tervezéséhez, amikor rendszert váltasz. Ha imádod a 85mm f/1.8 Full Frame hatását, keress egy 56mm f/1.2-t APS-C-re vagy egy 42,5mm f/0.95-öt MFT-re, hogy hasonló rajzot kapj."
         },
         "2": {
-          "text": "Remember that equivalence applies to depth of field and field of view, not to lens speed for exposure. An f/2.8 lens on any format still lets in the same amount of light per unit area — the larger sensor just collects more total light because of its greater area."
+          "text": "Ne feledd, hogy az ekvivalencia a mélységélességre és a látószögre vonatkozik, nem az expozíció szempontjából vett fényerőre. Egy f/2.8-as objektív bármelyik formátumon ugyanannyi fényt enged át területegységenként — a nagyobb érzékelő csak azért gyűjt több összfényt, mert nagyobb a felülete."
         }
       },
       "tooltips": {
         "sourceSensor": {
-          "term": "Source Sensor",
-          "definition": "The sensor format of the camera whose settings you want to match. All equivalence calculations are relative to this starting point."
+          "term": "Forrás-érzékelő",
+          "definition": "Annak a kamerának az érzékelőformátuma, aminek a beállításait illeszteni szeretnéd. Minden ekvivalencia-számítás ehhez a kiindulóponthoz képest történik."
         },
         "sourceFocalLength": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens on your source camera. This will be converted to equivalent focal lengths on target formats."
+          "term": "Gyújtótávolság",
+          "definition": "A forráskamerádon lévő objektív valós gyújtótávolsága. Ezt konvertáljuk ekvivalens gyújtótávolságokká a célformátumokra."
         },
         "sourceAperture": {
-          "term": "Aperture",
-          "definition": "The f-number on your source camera. The equivalent aperture on each target format determines matching depth of field."
+          "term": "Rekesz",
+          "definition": "Az f-szám a forráskamerádon. Az egyes célformátumokon kapott ekvivalens rekesz határozza meg a mélységélesség egyezését."
         },
         "targetSensor": {
-          "term": "Target Sensor",
-          "definition": "The sensor format you want to find equivalent settings for. The calculator applies the relative crop factor to compute matching focal length and aperture."
+          "term": "Cél-érzékelő",
+          "definition": "Az az érzékelőformátum, amihez ekvivalens beállításokat keresel. A kalkulátor a relatív crop faktort használja a megfelelő gyújtótávolság és rekesz kiszámításához."
         },
         "cropFactor": {
-          "term": "Crop Factor",
-          "definition": "The ratio between the diagonal of a 35mm full-frame sensor and the target sensor. Multiply focal length by crop factor for equivalent FOV; multiply aperture by crop factor for equivalent DoF."
+          "term": "Crop faktor",
+          "definition": "A 35mm-es Full Frame átló és a cél-érzékelő átlójának aránya. Gyújtótávolságot szorozd crop faktorral az ekvivalens látószöghöz; rekeszt szorozd crop faktorral az ekvivalens DoF-hez."
         },
         "equivalentFL": {
-          "term": "Equivalent Focal Length",
-          "definition": "The focal length on the target format that produces the same field of view as the source setup."
+          "term": "Ekvivalens gyújtótávolság",
+          "definition": "Az a gyújtótávolság a célformátumon, ami ugyanazt a látószöget adja, mint a forrás."
         },
         "equivalentAperture": {
-          "term": "Equivalent Aperture",
-          "definition": "The f-number on the target format that produces the same depth of field as the source setup. May be faster than any real lens."
+          "term": "Ekvivalens rekesz",
+          "definition": "Az az f-szám a célformátumon, ami ugyanazt a mélységélességet adja, mint a forrás. Lehet, hogy gyorsabb, mint bármelyik létező objektív."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You shoot portraits with an 85mm f/1.8 lens on a full-frame camera. A friend uses Micro Four Thirds (2× crop). What focal length does your friend need to match your field of view?",
-          "hint": "Divide the full-frame focal length by the MFT crop factor to find the actual lens needed.",
-          "successMessage": "Correct! 85mm / 2 = 42.5mm. Your friend needs a 42.5mm lens on Micro Four Thirds to get the same framing as your 85mm on full frame.",
-          "failureMessage": "To match the field of view, divide by the crop factor: 85mm / 2 = 42.5mm. That is the actual focal length needed on the MFT body.",
+          "scenario": "Portrékat fotózol egy 85mm f/1.8-as objektívvel Full Frame-en. Egy barátod Micro Four Thirds-öt használ (2× crop). Milyen gyújtótávolságra van szüksége a barátodnak, hogy megegyező látószöget kapjon?",
+          "hint": "Oszd el a Full Frame gyújtótávolságot az MFT crop faktorával, hogy megkapd a valós szükséges objektívet.",
+          "successMessage": "Jó! 85mm / 2 = 42,5mm. A barátodnak 42,5mm-es objektívre van szüksége Micro Four Thirds-ön ahhoz, hogy ugyanazt a kompozíciót kapja, mint a te 85mm-ed Full Frame-en.",
+          "failureMessage": "Ahhoz, hogy a látószög egyezzen, oszd el a crop faktorral: 85mm / 2 = 42,5mm. Ez a valós gyújtótávolság, ami MFT vázra kell.",
           "options": {
-            "0": { "label": "42.5mm" },
+            "0": { "label": "42,5mm" },
             "1": { "label": "85mm" },
             "2": { "label": "170mm" },
             "3": { "label": "56mm" }
           }
         },
         "1": {
-          "scenario": "Your friend found a 42.5mm f/1.8 lens for their MFT camera. Will the background blur match your 85mm f/1.8 on full frame?",
-          "hint": "Apply the crop factor to the aperture as well to find the equivalent DoF.",
-          "successMessage": "Right! The 42.5mm f/1.8 on MFT gives equivalent DoF to 85mm f/3.6 on full frame (1.8 × 2 = 3.6). Your f/1.8 full-frame shot produces significantly more blur.",
-          "failureMessage": "No — the MFT f/1.8 gives DoF equivalent to f/3.6 on full frame (1.8 × 2× crop = 3.6). To match your full-frame f/1.8 blur, your friend would need f/0.9 on MFT, which does not exist.",
+          "scenario": "A barátod talált egy 42,5mm f/1.8-as objektívet az MFT kamerájához. Megegyezik majd a háttérelmosódás a te 85mm f/1.8 Full Frame-eddel?",
+          "hint": "A crop faktort a rekeszre is alkalmazni kell az ekvivalens DoF megtalálásához.",
+          "successMessage": "Jó! A 42,5mm f/1.8 MFT-n ekvivalens DoF-et ad a 85mm f/3.6 Full Frame-mel (1,8 × 2 = 3,6). A te Full Frame f/1.8-ad jelentősen nagyobb elmosódást ad.",
+          "failureMessage": "Nem — az MFT f/1.8 olyan DoF-et ad, mint a Full Frame f/3.6 (1,8 × 2× crop = 3,6). Hogy megegyezzen a Full Frame f/1.8 elmosódásod, MFT-n f/0.9 kéne, ami nem létezik.",
           "options": {
-            "0": { "label": "Yes — same f/1.8 means same blur" },
-            "1": { "label": "No — MFT f/1.8 equals full-frame f/3.6 depth of field" },
-            "2": { "label": "No — MFT produces more blur because the sensor is smaller" }
+            "0": { "label": "Igen — azonos f/1.8 azonos elmosódás" },
+            "1": { "label": "Nem — az MFT f/1.8 a Full Frame f/3.6 DoF-ével egyenlő" },
+            "2": { "label": "Nem — az MFT erősebb elmosódást ad, mert kisebb az érzékelő" }
           }
         },
         "2": {
-          "scenario": "A photographer switching from full frame to APS-C (1.5× crop) wants to match the look of a 50mm f/1.4 on full frame. What equivalent lens and aperture do they need on APS-C?",
-          "hint": "Divide focal length by the crop factor for equivalent FOV. Divide aperture by the crop factor for equivalent DoF.",
-          "successMessage": "Exactly! 50 / 1.5 = 33mm for field of view, and f/1.4 / 1.5 = f/0.93 for matching DoF. Since no f/0.93 lens exists, the APS-C camera cannot fully replicate the full-frame look.",
-          "failureMessage": "The correct answer is ~33mm f/0.93. Since 50 / 1.5 = 33.3mm and 1.4 / 1.5 = 0.93. No f/0.93 lens exists, so the full-frame look cannot be fully matched on APS-C.",
+          "scenario": "Egy fotós Full Frame-ről APS-C-re (1,5× crop) vált, és szeretné reprodukálni az 50mm f/1.4 Full Frame hatását. Milyen ekvivalens objektív és rekesz kell APS-C-n?",
+          "hint": "Oszd el a gyújtótávolságot a crop faktorral az ekvivalens látószöghöz. Oszd el a rekeszt a crop faktorral az ekvivalens DoF-hez.",
+          "successMessage": "Pontosan! 50 / 1,5 = 33mm a látószöghöz, és f/1.4 / 1,5 = f/0.93 az egyező DoF-hez. Mivel f/0.93-as objektív nem létezik, az APS-C kamera nem tudja teljesen reprodukálni a Full Frame hatást.",
+          "failureMessage": "A helyes válasz ~33mm f/0.93. 50 / 1,5 = 33,3mm, és 1,4 / 1,5 = 0,93. Ilyen objektív nem létezik, így APS-C-n a Full Frame hatás nem reprodukálható teljesen.",
           "options": {
-            "0": { "label": "35mm f/1.4 — close enough" },
-            "1": { "label": "33mm f/0.93 — exact match, but no such lens exists" },
-            "2": { "label": "75mm f/2.1 — multiply by crop factor" }
+            "0": { "label": "35mm f/1.4 — elég közel" },
+            "1": { "label": "33mm f/0.93 — pontos, de nincs ilyen objektív" },
+            "2": { "label": "75mm f/2.1 — szorozd a crop faktorral" }
           }
         }
       }

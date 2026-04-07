@@ -1,17 +1,17 @@
 {
   "toolUI": {
     "exif-viewer": {
-      "loadExamplePhoto": "Load example photo",
-      "couldNotReadExif": "Could not read EXIF data from this image.",
-      "failedToReadFile": "Failed to read the file.",
-      "uploadedPhoto": "Uploaded photo",
-      "analysis": "Analysis",
+      "loadExamplePhoto": "I-load ang halimbawang litrato",
+      "couldNotReadExif": "Hindi mabasa ang EXIF data mula sa imaheng ito.",
+      "failedToReadFile": "Hindi mabasa ang file.",
+      "uploadedPhoto": "Na-upload na litrato",
+      "analysis": "Pagsusuri",
       "exposureValue": "Exposure Value",
       "sectionCamera": "Camera",
       "sectionLens": "Lens",
       "sectionExposure": "Exposure",
-      "sectionImage": "Image",
-      "sectionDate": "Date",
+      "sectionImage": "Imahe",
+      "sectionDate": "Petsa",
       "sectionGPS": "GPS",
       "sectionSoftware": "Software",
       "make": "Make",
@@ -28,44 +28,44 @@
       "flash": "Flash",
       "whiteBalance": "White Balance",
       "focusDistanceLabel": "Focus Distance",
-      "dimensions": "Dimensions",
+      "dimensions": "Mga Sukat",
       "megapixels": "Megapixels",
       "aspectRatio": "Aspect Ratio",
       "colorSpace": "Color Space",
       "orientation": "Orientation",
       "fileSize": "File Size",
-      "dateTaken": "Date Taken",
+      "dateTaken": "Petsa ng Pagkuha",
       "latitudeLabel": "Latitude",
       "longitudeLabel": "Longitude",
       "softwareLabel": "Software",
-      "gpsWarning": "This photo contains location data. Be careful when sharing the original file.",
+      "gpsWarning": "Ang litratong ito ay naglalaman ng location data. Mag-ingat kapag nagsha-share ng orihinal na file.",
       "luminance": "Luminance",
-      "red": "Red",
-      "green": "Green",
-      "blueLabel": "Blue",
+      "red": "Pula",
+      "green": "Berde",
+      "blueLabel": "Asul",
       "shadows": "Shadows",
       "highlights": "Highlights",
-      "evBrightSunlight": "Bright sunlight",
-      "evOvercast": "Overcast / hazy sun",
-      "evOpenShade": "Open shade",
-      "evBrightIndoor": "Bright indoor",
-      "evIndoor": "Indoor",
-      "evDimIndoor": "Dim indoor",
-      "evNightStreet": "Night street",
-      "evDimNight": "Dim night",
-      "evVeryDark": "Very dark",
+      "evBrightSunlight": "Maliwanag na sikat ng araw",
+      "evOvercast": "Maulap / mahamog na araw",
+      "evOpenShade": "Bukas na lilim",
+      "evBrightIndoor": "Maliwanag na loob",
+      "evIndoor": "Sa loob",
+      "evDimIndoor": "Madilim na loob",
+      "evNightStreet": "Kalye sa gabi",
+      "evDimNight": "Madilim na gabi",
+      "evVeryDark": "Napakadilim",
       "faq": {
         "what-is-exif-data": {
-          "question": "What is EXIF data in a photo?",
-          "answer": "EXIF (Exchangeable Image File Format) data is metadata embedded in your photo by the camera. It includes camera settings (aperture, shutter speed, ISO), the camera and lens model, date and time, and sometimes GPS location."
+          "question": "Ano ang EXIF data sa isang litrato?",
+          "answer": "Ang EXIF (Exchangeable Image File Format) data ay metadata na naka-embed sa litrato mo ng camera. Kabilang dito ang mga camera settings (aperture, shutter speed, ISO), ang camera at lens model, petsa at oras, at minsan ang GPS location."
         },
         "how-to-read-histogram": {
-          "question": "How do I read a photo histogram?",
-          "answer": "A histogram shows the distribution of brightness in your image from shadows (left) to highlights (right). A well-exposed photo typically has data spread across the range without clipping at either end, though the ideal shape depends on the scene."
+          "question": "Paano ko babasahin ang photo histogram?",
+          "answer": "Ang histogram ay nagpapakita ng distribusyon ng brightness sa imahe mo mula sa shadows (kaliwa) hanggang sa highlights (kanan). Ang well-exposed na litrato ay karaniwang may data na nakakalat sa buong range nang walang clipping sa dulo, bagaman ang perpektong hugis ay nakadepende sa eksena."
         },
         "does-exif-contain-location": {
-          "question": "Does EXIF data contain my location?",
-          "answer": "If your camera or phone has GPS enabled, EXIF data can include precise GPS coordinates where the photo was taken. Be aware of this when sharing photos online — many social platforms strip EXIF data, but not all do."
+          "question": "May lokasyon ba sa EXIF data ko?",
+          "answer": "Kung ang camera o phone mo ay may naka-enable na GPS, ang EXIF data ay maaaring magkaroon ng tumpak na GPS coordinates kung saan kinuha ang litrato. Alamin ito kapag nagsha-share ng litrato online — maraming social platform ang nagta-strip ng EXIF data, pero hindi lahat."
         }
       }
     }

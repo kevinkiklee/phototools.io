@@ -1,67 +1,67 @@
 {
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Adatvédelmi tájékoztató",
+    "effectiveDate": "Hatályos: 2026. április 3.",
     "sections": {
       "overview": {
-        "title": "Overview",
-        "body": "PhotoTools operates www.phototools.io, a free educational photography resource offering interactive calculators, simulators, and reference tools. This Privacy Policy describes how we collect, use, and handle information when you visit or use our site. By using PhotoTools, you agree to the practices described in this policy."
+        "title": "Áttekintés",
+        "body": "A PhotoTools üzemelteti a www.phototools.io oldalt, egy ingyenes oktatási célú fotós erőforrást, ami interaktív kalkulátorokat, szimulátorokat és referenciaeszközöket kínál. Ez az adatvédelmi tájékoztató leírja, hogyan gyűjtjük, használjuk és kezeljük az információkat, amikor az oldalt meglátogatod vagy használod. A PhotoTools használatával elfogadod az itt leírt gyakorlatokat."
       },
       "informationWeCollect": {
-        "title": "Information We Collect",
-        "intro": "We collect minimal information to operate and improve the site:",
-        "analytics": "<strong>Analytics:</strong> We use Google Analytics to understand how visitors use the site (e.g. pages visited, time on page, device type). Analytics data is anonymized — we do not collect personally identifiable information through analytics. IP addresses are anonymized before storage.",
-        "contactForm": "<strong>Contact form:</strong> If you submit the contact form, we collect your name, email address, subject, and message. This information is used solely to respond to your inquiry and is not stored beyond email delivery — it is not saved to a database or retained long-term.",
-        "noAccounts": "<strong>No accounts:</strong> PhotoTools does not require user registration or accounts. We do not collect passwords or payment information."
+        "title": "Milyen adatokat gyűjtünk",
+        "intro": "Az oldal működtetéséhez és fejlesztéséhez minimális adatot gyűjtünk:",
+        "analytics": "<strong>Analitika:</strong> A Google Analytics-et használjuk annak megértésére, hogyan használod az oldalt (például meglátogatott oldalak, ott töltött idő, eszköztípus). Az analitikai adatok anonimizáltak — ezen keresztül nem gyűjtünk személyazonosításra alkalmas információt. Az IP-címek tárolás előtt anonimizálódnak.",
+        "contactForm": "<strong>Kapcsolati űrlap:</strong> Ha elküldöd a kapcsolati űrlapot, bekérjük a neved, az e-mail címed, a tárgyat és az üzenetet. Ezeket az adatokat kizárólag a válaszadáshoz használjuk, és az e-mail kézbesítésén túl nem tároljuk — nem kerülnek adatbázisba, és hosszú távon nem őrizzük meg.",
+        "noAccounts": "<strong>Nincsenek fiókok:</strong> A PhotoTools nem igényel regisztrációt vagy felhasználói fiókot. Nem gyűjtünk jelszavakat vagy fizetési adatokat."
       },
       "cookies": {
-        "title": "Cookies",
-        "intro": "PhotoTools uses cookies to support analytics and advertising functionality. Specifically:",
-        "analyticsCookies": "<strong>Google Analytics cookies</strong> track site usage in aggregate and anonymized form. These cookies help us understand which tools are most used and how to improve the site.",
-        "adCookies": "<strong>Third-party advertising cookies</strong> may be set by our ad network partners to serve relevant advertisements and measure ad performance.",
-        "control": "You can control or disable cookies through your browser settings. Note that disabling cookies may affect the functionality of some features."
+        "title": "Sütik",
+        "intro": "A PhotoTools sütiket használ az analitika és a hirdetési funkciók támogatására. Pontosabban:",
+        "analyticsCookies": "<strong>A Google Analytics sütijei</strong> összesített és anonim formában követik az oldal használatát. Ezek segítenek megérteni, mely eszközök a legnépszerűbbek, és hogyan javíthatjuk az oldalt.",
+        "adCookies": "<strong>Harmadik féltől származó hirdetési sütiket</strong> hirdetési partnereink helyezhetnek el releváns hirdetések megjelenítésére és a hirdetési teljesítmény mérésére.",
+        "control": "A sütiket a böngésződ beállításain keresztül szabályozhatod vagy letilthatod. Ne feledd, hogy a sütik letiltása néhány funkció működését befolyásolhatja."
       },
       "thirdPartyAdvertising": {
-        "title": "Third-Party Advertising",
-        "body": "PhotoTools displays advertisements served by third-party ad networks. These networks may use cookies and similar tracking technologies to serve ads based on your browsing history and interests (interest-based advertising). We do not control the data practices of these third-party ad networks. For more information, please review the privacy policies of those networks or visit the <naiLink>Network Advertising Initiative opt-out page</naiLink>."
+        "title": "Harmadik féltől származó hirdetések",
+        "body": "A PhotoTools harmadik féltől származó hirdetési hálózatok által kiszolgált hirdetéseket jelenít meg. Ezek a hálózatok sütiket és hasonló követési technológiákat használhatnak, hogy a böngészési előzményeid és érdeklődési köreid alapján jelenítsenek meg hirdetéseket (érdeklődés-alapú hirdetés). Nem mi ellenőrizzük ezeknek a hálózatoknak az adatkezelési gyakorlatát. További információért olvasd el az adott hálózatok adatvédelmi tájékoztatóit, vagy látogasd meg a <naiLink>Network Advertising Initiative letiltási oldalát</naiLink>."
       },
       "googleAdSense": {
         "title": "Google AdSense",
-        "body1": "PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies and web beacons to serve ads based on your prior visits to this site or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your browsing patterns.",
-        "body2": "You may opt out of personalized advertising by visiting <adsSettingsLink>Google Ads Settings</adsSettingsLink>. For more information about how Google uses data, see <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
+        "body1": "A PhotoTools a Google AdSense-t használja hirdetések megjelenítésére. A Google AdSense sütiket és web beaconöket használhat, hogy a jelen vagy más oldalakon tett korábbi látogatásaid alapján jelenítsen meg hirdetéseket. A Google hirdetési sütijeinek használata lehetővé teszi a Google-nek és partnereinek, hogy a böngészési szokásaid alapján hirdessenek.",
+        "body2": "A személyre szabott hirdetéseket a <adsSettingsLink>Google Ads beállításokban</adsSettingsLink> tilthatod le. A Google adatkezelésről további információt itt találsz: <partnerSitesLink>A Google adatkezelése a partneroldalakon</partnerSitesLink>."
       },
       "cookieConsent": {
-        "title": "Cookie Consent",
-        "body1": "When you first visit PhotoTools, a cookie consent banner is displayed allowing you to accept or reject non-essential cookies. This banner is powered by CookieYes, a Google-certified Consent Management Platform that supports the IAB Transparency and Consent Framework (TCF) v2.3.",
-        "body2": "You can change your consent preferences at any time by clicking the cookie settings link in the footer. If you reject advertising cookies, you will still see ads, but they will not be personalized to your browsing history."
+        "title": "Sütihasználati hozzájárulás",
+        "body1": "A PhotoTools első meglátogatásakor megjelenik egy sütibanner, amivel elfogadhatod vagy elutasíthatod a nem létfontosságú sütiket. A bannert a CookieYes biztosítja, egy Google által tanúsított Consent Management Platform, ami támogatja az IAB Transparency and Consent Framework (TCF) v2.3-at.",
+        "body2": "A hozzájárulási beállításaidat bármikor módosíthatod a láblécben lévő süti beállítások linkre kattintva. Ha elutasítod a hirdetési sütiket, akkor is látsz majd hirdetéseket, de azok nem lesznek a böngészési előzményeid alapján személyre szabva."
       },
       "ccpa": {
-        "title": "California Residents (CCPA)",
-        "body": "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request its deletion, and opt out of its sale. PhotoTools does not sell personal information. Advertising cookies used by our ad partners may constitute a \"sale\" under the CCPA — you can opt out via the cookie consent banner or by contacting us through our <contactLink>contact page</contactLink>."
+        "title": "Kaliforniai lakosok (CCPA)",
+        "body": "A kaliforniai fogyasztóvédelmi törvény (CCPA) alapján a kaliforniai lakosoknak joguk van tudni, milyen személyes adatokat gyűjtünk, kérhetik azok törlését, és letilthatják azok értékesítését. A PhotoTools nem értékesít személyes adatokat. A hirdetési partnereink által használt sütik a CCPA szerint „értékesítésnek” minősülhetnek — ezt letilthatod a sütibanneren keresztül, vagy a <contactLink>kapcsolati oldalon</contactLink>."
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "intro": "We do not sell, trade, or rent your personal information to third parties. We share data only in the following limited circumstances:",
-        "analytics": "With <strong>Google Analytics</strong> to analyze site traffic and usage patterns, subject to Google's privacy policy.",
-        "advertising": "With <strong>advertising partners</strong> as described above under Third-Party Advertising.",
-        "contactForm": "We do not share contact form submissions with any third party."
+        "title": "Adatmegosztás",
+        "intro": "Nem adjuk el, nem cseréljük és nem adjuk bérbe a személyes adataidat harmadik feleknek. Adatot csak a következő korlátozott esetekben osztunk meg:",
+        "analytics": "A <strong>Google Analytics-szel</strong> az oldalforgalom és a használati minták elemzéséhez, a Google adatvédelmi tájékoztatójának megfelelően.",
+        "advertising": "A <strong>hirdetési partnerekkel</strong> a fenti, harmadik féltől származó hirdetésekről szóló szakaszban leírtak szerint.",
+        "contactForm": "A kapcsolati űrlap beküldéseit nem osztjuk meg harmadik féllel."
       },
       "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "body": "PhotoTools is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can remove it."
+        "title": "Gyermekek adatvédelme",
+        "body": "A PhotoTools nem 13 éven aluli gyermekeknek szól. Tudatosan nem gyűjtünk személyes adatokat 13 év alatti gyermekektől. Ha úgy gondolod, hogy egy 13 év alatti gyermek személyes adatokat adott meg nekünk, kérjük, jelezd, hogy eltávolíthassuk azokat."
       },
       "yourRights": {
-        "title": "Your Rights",
-        "body1": "Depending on your location, you may have rights under laws such as the GDPR (European Union) or CCPA (California) regarding your personal data.",
-        "body2": "Because PhotoTools collects minimal personal data — and does not store contact form submissions long-term — most requests can be addressed simply. You can clear cookies at any time through your browser settings. To exercise any data rights or submit a privacy request, please use our <contactLink>contact page</contactLink>."
+        "title": "A jogaid",
+        "body1": "Tartózkodási helyedtől függően olyan törvények szerinti jogaid lehetnek, mint az EU GDPR-je vagy a kaliforniai CCPA, a személyes adataiddal kapcsolatban.",
+        "body2": "Mivel a PhotoTools minimális személyes adatot gyűjt — és a kapcsolati űrlap beküldéseit nem tárolja hosszú távon —, a legtöbb kérés egyszerűen kezelhető. A sütiket bármikor törölheted a böngésződ beállításain keresztül. Bármilyen adatkezelési jog gyakorlásához vagy adatvédelmi kérés beküldéséhez használd a <contactLink>kapcsolati oldalt</contactLink>."
       },
       "changesToPolicy": {
-        "title": "Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. When we do, the updated policy will be posted on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of PhotoTools after any changes constitutes your acceptance of the updated policy."
+        "title": "A tájékoztató módosításai",
+        "body": "Ezt az adatvédelmi tájékoztatót időről időre frissíthetjük. Ilyenkor a módosított változat ezen az oldalon jelenik meg, új hatálybalépési dátummal. Javasoljuk, hogy időnként nézd át ezt a tájékoztatót. A PhotoTools folyamatos használata a módosítások után a frissített tájékoztató elfogadásának minősül."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about this Privacy Policy or how we handle your data, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Kapcsolat",
+        "body": "Ha kérdésed van ezzel az adatvédelmi tájékoztatóval vagy az adatkezelésünkkel kapcsolatban, írj nekünk a <contactLink>kapcsolati oldalon</contactLink>."
       }
     }
   }

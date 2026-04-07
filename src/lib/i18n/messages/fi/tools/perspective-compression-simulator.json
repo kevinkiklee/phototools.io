@@ -1,13 +1,13 @@
 {
   "toolUI": {
     "perspective-compression-simulator": {
-      "cameraSettings": "Camera Settings",
-      "focalLength": "Focal Length",
-      "equivalent35mm": "Equivalent (35mm)",
-      "perspectiveDistance": "Perspective & Distance",
-      "subjectDistance": "Subject Distance",
-      "maintainSubjectSize": "Maintain Subject Size",
-      "resetAll": "Reset All"
+      "cameraSettings": "Kameran asetukset",
+      "focalLength": "Polttoväli",
+      "equivalent35mm": "Ekvivalentti (35 mm)",
+      "perspectiveDistance": "Perspektiivi ja etäisyys",
+      "subjectDistance": "Kohteen etäisyys",
+      "maintainSubjectSize": "Säilytä kohteen koko",
+      "resetAll": "Nollaa kaikki"
     }
   }
 }

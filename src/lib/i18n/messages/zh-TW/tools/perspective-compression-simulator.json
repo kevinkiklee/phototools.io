@@ -1,13 +1,13 @@
 {
   "toolUI": {
     "perspective-compression-simulator": {
-      "cameraSettings": "Camera Settings",
-      "focalLength": "Focal Length",
-      "equivalent35mm": "Equivalent (35mm)",
-      "perspectiveDistance": "Perspective & Distance",
-      "subjectDistance": "Subject Distance",
-      "maintainSubjectSize": "Maintain Subject Size",
-      "resetAll": "Reset All"
+      "cameraSettings": "相機設定",
+      "focalLength": "焦距",
+      "equivalent35mm": "35mm 等效",
+      "perspectiveDistance": "透視與距離",
+      "subjectDistance": "主體距離",
+      "maintainSubjectSize": "維持主體大小",
+      "resetAll": "全部重設"
     }
   }
 }

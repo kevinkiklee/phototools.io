@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "sensor-size-comparison": {
-      "displayMode": "Display Mode",
-      "modeOverlay": "Overlay",
-      "modeSideBySide": "Side by Side",
-      "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
-      "sensors": "Sensors",
-      "customSensors": "Custom Sensors",
-      "placeholderName": "Name",
-      "placeholderW": "W (mm)",
-      "placeholderH": "H (mm)",
-      "placeholderMP": "Megapixels (optional)",
+      "displayMode": "Nézet",
+      "modeOverlay": "Átfedés",
+      "modeSideBySide": "Egymás mellett",
+      "modePixelDensity": "Pixelsűrűség",
+      "pixelDensityDescription": "Gyakori megapixelszámok minden érzékelőhöz. A nagyobb pixelek (nagyobb cellák) több fényt gyűjtenek.",
+      "sensors": "Érzékelők",
+      "customSensors": "Egyéni érzékelők",
+      "placeholderName": "Név",
+      "placeholderW": "Sz (mm)",
+      "placeholderH": "M (mm)",
+      "placeholderMP": "Megapixel (opcionális)",
       "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
-      "addSensor": "Add Sensor",
-      "save": "Save",
-      "cancelEdit": "Cancel",
-      "edit": "Edit",
-      "remove": "Remove",
-      "deleteAllCustom": "Delete All Custom Sensors",
-      "tableSensor": "Sensor",
-      "tableWidth": "Width (mm)",
-      "tableHeight": "Height (mm)",
-      "tableAspectRatio": "Aspect Ratio",
-      "tableArea": "Area (mm\u00b2)",
-      "tableCropFactor": "Crop Factor",
-      "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "maxDimensionWarning": "A maximális érzékelőméret 99 mm",
+      "addSensor": "Érzékelő hozzáadása",
+      "save": "Mentés",
+      "cancelEdit": "Mégse",
+      "edit": "Szerkesztés",
+      "remove": "Eltávolítás",
+      "deleteAllCustom": "Összes egyéni érzékelő törlése",
+      "tableSensor": "Érzékelő",
+      "tableWidth": "Szélesség (mm)",
+      "tableHeight": "Magasság (mm)",
+      "tableAspectRatio": "Képarány",
+      "tableArea": "Terület (mm²)",
+      "tableCropFactor": "Crop faktor",
+      "tableAspectCrop": "Arány/crop",
+      "canvasAriaLabel": "Érzékelőméret-összehasonlítás {mode} módban",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "Mi a crop faktor, és miért számít?",
+          "answer": "A crop faktor azt írja le, mekkora a méretkülönbség egy kamera érzékelője és a Full Frame (35mm) érzékelő között. Befolyásolja az effektív gyújtótávolságot, a mélységélességet és a gyenge fényű teljesítményt. Egy 1,5× crop faktor azt jelenti, hogy az érzékelő 1,5-ször kisebb, mint a Full Frame."
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "Mik a Full Frame és az APS-C érzékelők előnyei egymással szemben?",
+          "answer": "A Full Frame érzékelők jobb gyenge fényű teljesítményt, kisebb mélységélességet és szélesebb látószöget adnak bármely gyújtótávolságon. Az APS-C érzékelők olcsóbbak, könnyebbek, és extra hatótávolságot adnak vadvilág- és sportfotózáshoz."
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "Hogyan hat az érzékelőméret a mélységélességre?",
+          "answer": "A nagyobb érzékelők ekvivalens kompozíción kisebb mélységélességet adnak. Ha kisebb érzékelővel akarod ugyanazt a kompozíciót, vagy rövidebb gyújtótávolságot használsz (nagyobb DoF), vagy hátrébb lépsz (nagyobb DoF) — mindkettő csökkenti a háttérelmosódást."
         }
       }
     }

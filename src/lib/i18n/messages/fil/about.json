@@ -1,27 +1,27 @@
 {
   "about": {
-    "title": "About PhotoTools",
-    "subtitle": "Free photography education, right in your browser.",
+    "title": "Tungkol sa PhotoTools",
+    "subtitle": "Libreng edukasyon sa photography, mismo sa browser mo.",
     "sections": {
       "whatIs": {
-        "title": "What is PhotoTools?",
-        "body": "PhotoTools is a free collection of interactive photography calculators, simulators, and reference tools. Whether you're learning the exposure triangle for the first time or calculating hyperfocal distance for a landscape shoot, PhotoTools gives you hands-on visual tools to deepen your understanding of photography."
+        "title": "Ano ang PhotoTools?",
+        "body": "Ang PhotoTools ay isang libreng koleksyon ng mga interactive photography calculator, simulator, at reference tool. Nag-aaral ka man ng exposure triangle sa unang pagkakataon o nagkakalkula ng hyperfocal distance para sa landscape shoot, binibigyan ka ng PhotoTools ng hands-on na visual tools para palalimin ang pang-unawa mo sa photography."
       },
       "whoIsItFor": {
-        "title": "Who is it for?",
-        "body": "Photographers of all skill levels — from beginners exploring how aperture affects depth of field to experienced shooters planning a star trail session. Every tool includes a learning panel with explanations, key factors, pro tips, and interactive challenges to test your knowledge."
+        "title": "Para kanino ito?",
+        "body": "Para sa mga photographer sa lahat ng antas — mula sa mga beginner na nag-e-explore kung paano nakakaapekto ang aperture sa depth of field hanggang sa mga experienced na nagpaplano ng star trail session. May learning panel ang bawat tool na may mga paliwanag, key factors, pro tips, at interactive na hamon para subukin ang kaalaman mo."
       },
       "privacyFirst": {
-        "title": "Privacy first",
-        "body": "All calculations and simulations run entirely in your browser. Your photos never leave your device — the EXIF Viewer, for example, processes images 100% client-side. No sign-up is required, and no personal data is collected beyond anonymous analytics."
+        "title": "Privacy muna",
+        "body": "Lahat ng calculation at simulation ay tumatakbo nang buo sa browser mo. Hindi umaalis sa device mo ang mga litrato mo — halimbawa, ang EXIF Viewer ay nagpo-process ng mga imahe nang 100% client-side. Hindi kailangan mag-sign up, at walang personal data na kinokolekta maliban sa anonymous analytics."
       },
       "builtBy": {
-        "title": "Built by photographers",
-        "body": "PhotoTools is built and maintained by a photographer and software engineer who wanted better visual tools for understanding the technical side of photography. The tools are grounded in real optics and physics — not approximations — so you can trust the results in the field."
+        "title": "Gawa ng mga photographer",
+        "body": "Ang PhotoTools ay ginawa at ina-maintain ng isang photographer at software engineer na gustong magkaroon ng mas magagandang visual tool para sa pag-unawa sa technical side ng photography. Ang mga tool ay nakabase sa tunay na optics at physics — hindi approximations — kaya pwede mong pagtiwalaan ang mga resulta sa field."
       },
       "getInTouch": {
-        "title": "Get in touch",
-        "body": "Have a suggestion, bug report, or tool idea? Reach out via the <contactLink>contact page</contactLink>."
+        "title": "Makipag-ugnayan",
+        "body": "May suhestyon, bug report, o ideya para sa tool? Makipag-ugnayan sa amin sa <contactLink>contact page</contactLink>."
       }
     }
   }

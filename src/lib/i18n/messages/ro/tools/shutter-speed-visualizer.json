@@ -1,27 +1,27 @@
 {
   "toolUI": {
     "shutter-speed-visualizer": {
-      "description": "See how shutter speed affects motion blur for different subjects.",
-      "shutterSpeed": "Shutter Speed",
-      "shutterSpeedAriaLabel": "Shutter speed",
-      "sliderSlow": "Slow (2s)",
-      "sliderFast": "Fast (1/4000)",
-      "selectedSpeed": "Selected Speed",
-      "motionBlurAriaLabel": "Motion blur visualization for different subjects",
-      "verdictFrozen": "Frozen",
-      "verdictMostlySharp": "Mostly sharp",
-      "verdictSlightBlur": "Slight blur",
-      "verdictMotionBlur": "Motion blur",
-      "standingPerson": "Standing person",
-      "slowWalk": "Slow walk",
+      "description": "Vezi cum afectează timpul de expunere blur-ul de mișcare pentru diferiți subiecți.",
+      "shutterSpeed": "Timp de expunere",
+      "shutterSpeedAriaLabel": "Timp de expunere",
+      "sliderSlow": "Lent (2s)",
+      "sliderFast": "Rapid (1/4000)",
+      "selectedSpeed": "Viteză selectată",
+      "motionBlurAriaLabel": "Vizualizare a blur-ului de mișcare pentru diferiți subiecți",
+      "verdictFrozen": "Înghețat",
+      "verdictMostlySharp": "Majoritar clar",
+      "verdictSlightBlur": "Blur ușor",
+      "verdictMotionBlur": "Blur de mișcare",
+      "standingPerson": "Persoană care stă",
+      "slowWalk": "Mers lent",
       "jogging": "Jogging",
-      "running": "Running",
-      "cyclist": "Cyclist",
-      "birdsInFlight": "Birds in flight",
-      "carCity": "Car (city)",
-      "f1Car": "F1 car",
-      "airplaneLanding": "Airplane (landing)",
-      "stationary": "stationary"
+      "running": "Alergare",
+      "cyclist": "Biciclist",
+      "birdsInFlight": "Păsări în zbor",
+      "carCity": "Mașină (oraș)",
+      "f1Car": "Mașină F1",
+      "airplaneLanding": "Avion (aterizare)",
+      "stationary": "staționar"
     }
   }
 }

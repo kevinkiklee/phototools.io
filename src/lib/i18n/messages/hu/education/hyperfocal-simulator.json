@@ -1,49 +1,49 @@
 {
   "education": {
     "hyperfocal-simulator": {
-      "beginner": "The hyperfocal distance is the closest point you can focus on while still keeping everything at infinity acceptably sharp. When you focus at the hyperfocal distance, your depth of field extends from half that distance all the way to infinity. Landscape photographers use this technique to maximize sharpness from foreground to horizon.",
-      "deeper": "Hyperfocal distance is derived from the thin-lens equation and the concept of the circle of confusion (CoC). It equals the focal length squared divided by the product of the f-number and the CoC diameter: H = f\u00b2 / (N \u00d7 c). Anything from H/2 to infinity falls within acceptable sharpness. The CoC depends on sensor size — smaller sensors have a smaller acceptable CoC, which pushes the hyperfocal distance farther away for the same focal length and aperture. This is why crop-sensor cameras appear to have greater depth of field: the CoC standard is tighter relative to the image area. In practice, diffraction softening at very small apertures (f/16 and beyond on most sensors) means there is a trade-off between maximizing depth of field and maintaining per-pixel sharpness.",
+      "beginner": "A hiperfokális távolság a legközelebbi pont, amire fókuszálhatsz úgy, hogy a végtelen is elfogadhatóan éles marad. Ha a hiperfokális távolságra fókuszálsz, a mélységélesség ennek a távolságnak a felétől a végtelenig terjed. A tájfotósok ezt használják, hogy az előtértől a horizontig mindent élesen tartsanak.",
+      "deeper": "A hiperfokális távolság a vékonylencse-egyenletből és a szóráskör (CoC) fogalmából származik. Egyenlő a gyújtótávolság négyzetével osztva az f-szám és a CoC átmérőjének szorzatával: H = f² / (N × c). H/2-től a végtelenig minden elfogadhatóan élesnek számít. A CoC az érzékelőmérettől függ — a kisebb érzékelőkhöz kisebb CoC tartozik, ami ugyanannál a gyújtótávolságnál és rekesznél messzebbre tolja a hiperfokális távolságot. Ezért tűnik úgy, hogy a crop-érzékelős kamerák nagyobb mélységélességet adnak: a CoC-szabvány szigorúbb a képterülethez viszonyítva. A gyakorlatban a nagyon kicsi rekeszek (f/16 és e fölött a legtöbb érzékelőn) diffrakciós lágyítást okoznak, ami kompromisszumot jelent a mélységélesség maximalizálása és a pixelszintű élesség között.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths dramatically increase hyperfocal distance — it scales with the square of focal length."
+          "label": "Gyújtótávolság",
+          "description": "A hosszabb gyújtótávolság drámaian növeli a hiperfokális távolságot — a gyújtótávolság négyzetével skálázódik."
         },
         "1": {
-          "label": "Aperture",
-          "description": "Smaller apertures (higher f-numbers) reduce hyperfocal distance, extending depth of field."
+          "label": "Rekesz",
+          "description": "A kisebb rekesz (magasabb f-szám) csökkenti a hiperfokális távolságot, és megnöveli a mélységélességet."
         },
         "2": {
-          "label": "Sensor Size",
-          "description": "Smaller sensors use a smaller circle of confusion, which increases hyperfocal distance for equivalent framing."
+          "label": "Érzékelőméret",
+          "description": "A kisebb érzékelők kisebb szóráskört használnak, ami ekvivalens kompozíción növeli a hiperfokális távolságot."
         },
         "3": {
-          "label": "Circle of Confusion",
-          "description": "The maximum blur spot diameter considered \"acceptably sharp\" — typically 0.03mm for full frame."
+          "label": "Szóráskör",
+          "description": "A maximális elmosódottsági átmérő, ami még „elfogadhatóan élesnek” számít — Full Frame-en jellemzően 0,03 mm."
         }
       },
       "tips": {
         "0": {
-          "text": "For quick landscape work, focus roughly one-third into the scene — it approximates the hyperfocal point for most wide-angle setups."
+          "text": "Gyors tájmunkához fókuszálj nagyjából a jelenet harmadára — a legtöbb nagylátószögű beállításnál ez jó közelítése a hiperfokális pontnak."
         },
         "1": {
-          "text": "Avoid stopping down past f/16 on full-frame or f/11 on APS-C. Diffraction will undo the depth-of-field gains you are chasing."
+          "text": "Ne szűkíts f/16 fölé Full Frame-en, vagy f/11 fölé APS-C-n. A diffrakció visszaveszi azt a mélységélességet, amiért küzdesz."
         },
         "2": {
-          "text": "Use live view magnification to nail focus precisely at the hyperfocal distance rather than relying on the lens distance scale, which is often imprecise on modern autofocus lenses."
+          "text": "Használd az élőkép nagyítást a pontos fókuszbeállításhoz a hiperfokális távolságon, ne hagyatkozz az objektíven lévő távolságskálára, ami a modern autofókuszos objektíveken gyakran pontatlan."
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "The camera sensor format. Smaller sensors have a tighter circle of confusion standard, which shifts all hyperfocal distances farther away."
+          "term": "Érzékelő",
+          "definition": "A kamera érzékelőformátuma. A kisebb érzékelők szigorúbb szóráskör-szabványt használnak, ami minden hiperfokális távolságot messzebbre tol."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a landscape with a 24mm lens on a full-frame camera. Which sensor format should you select to see full-frame hyperfocal distances?",
-          "hint": "Full frame is the standard 35mm sensor size.",
-          "successMessage": "Correct! Full Frame is the right choice for a standard 35mm sensor.",
-          "failureMessage": "Not quite — select the Full Frame sensor to match a standard 35mm camera body.",
+          "scenario": "Tájképet fotózol 24mm-es objektívvel Full Frame-en. Melyik érzékelőformátumot válaszd, hogy Full Frame hiperfokális távolságokat lássál?",
+          "hint": "A Full Frame a szabványos 35mm-es érzékelőméret.",
+          "successMessage": "Jó! A Full Frame a helyes választás egy szabványos 35mm-es kameravázhoz.",
+          "failureMessage": "Nem egészen — válaszd a Full Frame érzékelőt, hogy egy szabványos 35mm-es kameravázhoz igazodj.",
           "options": {
             "0": { "label": "Full Frame" },
             "1": { "label": "APS-C (Nikon/Sony)" },
@@ -51,20 +51,20 @@
           }
         },
         "1": {
-          "scenario": "Looking at the table for full frame, which has a shorter hyperfocal distance: 24mm at f/8, or 50mm at f/8?",
-          "hint": "Hyperfocal distance increases with the square of the focal length.",
-          "successMessage": "Right! The 24mm lens has a much shorter hyperfocal distance because focal length has a squared relationship.",
-          "failureMessage": "Actually, shorter focal lengths always yield shorter hyperfocal distances. The 24mm wins here.",
+          "scenario": "A Full Frame táblázatot nézve: melyik ad rövidebb hiperfokális távolságot: 24mm f/8-on, vagy 50mm f/8-on?",
+          "hint": "A hiperfokális távolság a gyújtótávolság négyzetével nő.",
+          "successMessage": "Jó! A 24mm-es objektív sokkal rövidebb hiperfokális távolságot ad, mert a gyújtótávolságnak négyzetes hatása van.",
+          "failureMessage": "Valójában a rövidebb gyújtótávolság mindig rövidebb hiperfokális távolságot ad. Itt a 24mm nyer.",
           "options": {
-            "0": { "label": "24mm at f/8" },
-            "1": { "label": "50mm at f/8" }
+            "0": { "label": "24mm f/8-on" },
+            "1": { "label": "50mm f/8-on" }
           }
         },
         "2": {
-          "scenario": "You are hiking with an APS-C camera and a 35mm lens. You want everything from about 3 meters to infinity sharp. Which aperture range should you look at in the table to find a hyperfocal distance near 6 meters (so that half of it — 3m — is your near-focus limit)?",
-          "hint": "Remember: near focus = hyperfocal / 2. Look for an aperture that gives a hyperfocal around 6m.",
-          "successMessage": "Great thinking! You correctly identified that you need a hyperfocal distance of about 6m, and found the right aperture range.",
-          "failureMessage": "Remember, near focus equals half the hyperfocal distance. You need the hyperfocal to be around 6m to get a near-focus limit of 3m.",
+          "scenario": "APS-C kamerával és 35mm-es objektívvel túrázol. Nagyjából 3 métertől a végtelenig mindent élesen akarsz. Milyen rekesztartományt nézz a táblázatban, hogy olyan hiperfokális távolságot találj, ami kb. 6 méter (hogy a fele — 3m — legyen a közeli éles határ)?",
+          "hint": "Ne feledd: közeli éles határ = hiperfokális / 2. Keress olyan rekeszt, ami ~6m hiperfokális távolságot ad.",
+          "successMessage": "Jól gondoltad! Helyesen ismerted fel, hogy kb. 6m hiperfokális távolság kell, és megtaláltad a megfelelő rekesztartományt.",
+          "failureMessage": "Ne feledd, a közeli éles határ a hiperfokális távolság fele. A hiperfokálisnak kb. 6m-nek kell lennie, hogy a közeli határ 3m legyen.",
           "options": {
             "0": { "label": "f/2.8 — f/4" },
             "1": { "label": "f/5.6 — f/8" },
@@ -72,24 +72,24 @@
           }
         },
         "3": {
-          "scenario": "A friend switches from a full-frame camera to Micro Four Thirds but keeps shooting the same focal lengths. They complain that the hyperfocal distances seem different. Why?",
-          "hint": "The circle of confusion is calculated based on sensor size.",
-          "successMessage": "Exactly! The smaller M43 sensor uses a smaller CoC (about 0.015mm vs 0.03mm), which increases hyperfocal distances for the same focal length and aperture.",
-          "failureMessage": "The key factor is the circle of confusion. Smaller sensors require a tighter CoC standard, which pushes hyperfocal distances farther out.",
+          "scenario": "Egy barátod Full Frame-ről Micro Four Thirds-re vált, de ugyanazokat a gyújtótávolságokat használja. Panaszkodik, hogy a hiperfokális távolságok másnak tűnnek. Miért?",
+          "hint": "A szóráskört az érzékelőméret alapján számolják.",
+          "successMessage": "Pontosan! A kisebb MFT érzékelő kisebb CoC-t használ (kb. 0,015 mm vs. 0,03 mm), ami növeli a hiperfokális távolságot ugyanazon gyújtótávolságnál és rekesznél.",
+          "failureMessage": "A kulcstényező a szóráskör. A kisebb érzékelők szigorúbb CoC-szabványt igényelnek, ami távolabbra tolja a hiperfokális távolságokat.",
           "options": {
-            "0": { "label": "The lens focal length changes on crop sensors" },
-            "1": { "label": "Smaller sensors use a smaller circle of confusion" },
-            "2": { "label": "Micro Four Thirds cameras have less accurate autofocus" }
+            "0": { "label": "Az objektív gyújtótávolsága megváltozik crop érzékelőn" },
+            "1": { "label": "A kisebb érzékelők kisebb szóráskört használnak" },
+            "2": { "label": "A Micro Four Thirds kameráknak pontatlanabb az autofókusza" }
           }
         },
         "4": {
-          "scenario": "You are shooting architecture at 14mm f/11 on full frame. The table shows a very short hyperfocal distance. Should you stop down further to f/22 for even more depth of field, or is f/11 the better choice?",
-          "hint": "Consider what happens to image sharpness at very small apertures.",
-          "successMessage": "Excellent! At f/11, diffraction is minimal on full frame, and the hyperfocal distance at 14mm is already very short. Stopping down to f/22 would soften the image due to diffraction without meaningful DoF benefit.",
-          "failureMessage": "While f/22 gives a shorter hyperfocal distance on paper, diffraction softening at f/22 on full frame actually reduces overall image sharpness. At 14mm f/11, the hyperfocal distance is already so short that the extra DoF is not worth the diffraction penalty.",
+          "scenario": "Építészetet fotózol 14mm f/11-en Full Frame-en. A táblázat nagyon rövid hiperfokális távolságot mutat. Szűkíts tovább f/22-re még nagyobb mélységélességért, vagy f/11 a jobb választás?",
+          "hint": "Gondolkodj el arról, mi történik a kép élességével nagyon kicsi rekesznél.",
+          "successMessage": "Kiváló! f/11-en a diffrakció minimális Full Frame-en, és a 14mm hiperfokális távolsága már nagyon rövid. f/22-re szűkítés lágyítaná a képet a diffrakció miatt, érdemi DoF-haszon nélkül.",
+          "failureMessage": "Bár f/22 papíron rövidebb hiperfokális távolságot ad, a diffrakciós lágyítás f/22-n Full Frame-en csökkenti a kép élességét. 14mm f/11-en a hiperfokális távolság már olyan rövid, hogy az extra DoF nem éri meg a diffrakció büntetést.",
           "options": {
-            "0": { "label": "Stop down to f/22 for maximum depth of field" },
-            "1": { "label": "Stay at f/11 — diffraction at f/22 will reduce sharpness" }
+            "0": { "label": "Szűkíts f/22-re a maximális mélységélességért" },
+            "1": { "label": "Maradj f/11-en — a diffrakció f/22-n csökkenti az élességet" }
           }
         }
       }

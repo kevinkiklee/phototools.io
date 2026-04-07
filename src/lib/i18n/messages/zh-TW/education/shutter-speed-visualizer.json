@@ -1,65 +1,65 @@
 {
   "education": {
     "shutter-speed-visualizer": {
-      "beginner": "The shutter speed guide helps you find the slowest shutter speed you can use while still getting a sharp handheld photo. If your shutter speed is too slow, camera shake from your hands will blur the image. The minimum safe speed depends on your focal length, whether you have image stabilization, and how steady your hands are.",
-      "deeper": "The classic \"reciprocal rule\" states that for sharp handheld photos, your shutter speed should be at least 1/(focal length) seconds — so a 200mm lens needs at least 1/200s. On crop-sensor cameras, you should use the equivalent focal length (e.g., 200mm on a 1.5x crop = 1/300s). Modern in-body stabilization (IBIS) and optical stabilization (OIS) can buy you 3-7 extra stops of handheld leeway, meaning that stabilized 200mm lens might be sharp at 1/15s or even slower. However, stabilization only compensates for camera shake, not subject motion. A person walking toward you at 1/15s will still be blurred regardless of stabilization. For moving subjects, you must select a shutter speed based on the subject's speed and distance, not just the focal length.",
+      "beginner": "快門速度指南能協助您找出手持拍攝時仍可維持清晰的最慢快門速度。若快門太慢，手震會讓影像糊掉。最慢的安全速度取決於焦距、是否有影像穩定器，以及您雙手的穩定度。",
+      "deeper": "經典的「倒數法則」指出，手持清晰拍攝時，快門速度至少要達到 1/(焦距) 秒 — 所以 200mm 鏡頭需要至少 1/200s。使用裁切感光元件時，應採等效焦距（例如 1.5x 裁切上的 200mm = 1/300s）。現代機身防手震（IBIS）與鏡頭光學防手震（OIS）可多爭取 3–7 級手持餘裕，代表防手震的 200mm 鏡頭可能在 1/15s 甚至更慢下仍然清晰。然而，防手震只補償相機的晃動，無法抑制主體動作。朝您走來的人在 1/15s 下仍然會糊 — 無論防手震多強。對移動主體而言，快門速度必須依主體速度與距離挑選，而不是單看焦距。",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify camera shake. The reciprocal rule (1/focal length) is the starting point for determining minimum shutter speed."
+          "label": "焦距",
+          "description": "長焦距會放大手震。倒數法則（1/焦距）是決定最慢快門速度的起點。"
         },
         "1": {
-          "label": "Image Stabilization",
-          "description": "OIS (lens-based) typically provides 2-4 stops of benefit. IBIS (body-based) provides 3-5 stops. Combined OIS+IBIS can achieve 5-7 stops on some systems."
+          "label": "影像穩定",
+          "description": "鏡頭防手震（OIS）通常能提供 2–4 級效益；機身防手震（IBIS）可達 3–5 級；OIS + IBIS 在部分系統可達 5–7 級。"
         },
         "2": {
-          "label": "Subject Motion",
-          "description": "Still subjects require only enough speed to counter camera shake. Moving subjects need faster speeds regardless of stabilization: walking (~1/125s), running (~1/500s), vehicles (~1/1000s+)."
+          "label": "主體動作",
+          "description": "靜止主體只需要克服手震即可。移動主體不論是否有防手震都需要更快的快門：走路（約 1/125s）、跑步（約 1/500s）、車輛（約 1/1000s 以上）。"
         },
         "3": {
-          "label": "Sensor Size (Crop Factor)",
-          "description": "Crop-sensor cameras effectively multiply the focal length for the reciprocal rule. A 50mm lens on a 1.5x crop behaves like 75mm, so you need at least 1/75s."
+          "label": "感光元件尺寸（裁切係數）",
+          "description": "裁切感光元件相機會把倒數法則中的焦距等效放大。50mm 鏡頭在 1.5x 裁切上的表現相當於 75mm，需要至少 1/75s。"
         }
       },
       "tips": {
         "0": {
-          "text": "Brace yourself against a wall, tuck your elbows in, and exhale slowly before pressing the shutter. Good technique can give you 1-2 extra stops of steadiness beyond the reciprocal rule."
+          "text": "倚靠牆壁、手肘收緊、按下快門前慢慢吐氣。好的持機姿勢可以在倒數法則之外再多爭取 1–2 級的穩定度。"
         },
         "1": {
-          "text": "When shooting people, the subject's motion usually dictates your minimum speed, not your focal length. Even with a wide-angle lens and stabilization, a child running requires at least 1/500s."
+          "text": "拍人時，主體的動作通常決定最低快門速度，而非焦距。即使有廣角鏡與防手震，奔跑的孩子仍需要至少 1/500s。"
         },
         "2": {
-          "text": "If you are consistently shooting in low light, invest in a camera body with IBIS. The ability to shoot handheld at 1/2s with a wide-angle lens opens up possibilities that no amount of high-ISO performance can match."
+          "text": "若您經常在弱光下拍攝，投資一台具 IBIS 的機身。用廣角鏡在 1/2s 下手持拍攝所開啟的可能性，是任何高 ISO 表現都無法取代的。"
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Directly affects the minimum safe shutter speed through the reciprocal rule: 1/(focal length) for full-frame, adjusted by crop factor for smaller sensors."
+          "term": "焦距",
+          "definition": "鏡頭焦距（mm）。透過倒數法則直接影響最慢安全快門速度：全片幅為 1/(焦距)，較小感光元件需再乘上裁切係數。"
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The camera sensor size, which determines the crop factor. APS-C (1.5x) and Micro Four Thirds (2x) multiply the effective focal length, requiring faster shutter speeds for the same lens."
+          "term": "感光元件尺寸",
+          "definition": "相機感光元件尺寸，決定裁切係數。APS-C（1.5x）與微型四三（2x）會放大等效焦距，同一顆鏡頭需要更快的快門。"
         },
         "stabilization": {
-          "term": "Image Stabilization",
-          "definition": "Technology that compensates for camera shake. OIS (Optical Image Stabilization) is in the lens, IBIS (In-Body Image Stabilization) is in the camera body. They can work together for maximum benefit."
+          "term": "影像穩定",
+          "definition": "補償手震的技術。OIS（光學防手震）位於鏡頭內，IBIS（機身防手震）位於機身內。兩者可同時作用以取得最大效益。"
         },
         "subjectMotion": {
-          "term": "Subject Motion",
-          "definition": "How fast your subject is moving. Still subjects only need enough shutter speed to counteract camera shake. Moving subjects need faster speeds based on their velocity and direction relative to the camera."
+          "term": "主體動作",
+          "definition": "主體的移動速度。靜止主體只需抵銷手震。移動主體則需依速度與方向決定合適的快門速度。"
         },
         "recommendedShutterSpeed": {
-          "term": "Recommended Shutter Speed",
-          "definition": "The minimum shutter speed calculated for your specific combination of focal length, stabilization, sensor, and subject motion. Shooting at this speed or faster should produce sharp results."
+          "term": "建議快門速度",
+          "definition": "依您的焦距、防手震、感光元件與主體動作組合所計算出的最慢快門速度。使用此速度或更快應能取得清晰結果。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting with a 100mm lens on a full-frame camera with no image stabilization. Your subject is standing still. What is the minimum recommended shutter speed?",
-          "hint": "The reciprocal rule: minimum shutter speed = 1 / focal length.",
-          "successMessage": "Correct! The reciprocal rule says 1/100s for a 100mm lens on full frame. This is the classic starting point for handheld sharpness.",
-          "failureMessage": "For a 100mm lens on full frame with no stabilization, the reciprocal rule gives you 1/100s as the minimum safe shutter speed for static subjects.",
+          "scenario": "您用全片幅相機搭配 100mm 鏡頭，無防手震。主體靜止。建議的最慢快門速度是多少？",
+          "hint": "倒數法則：最慢快門 = 1 / 焦距。",
+          "successMessage": "答對了！倒數法則下，全片幅 100mm 鏡頭應使用 1/100s。這是手持清晰度的經典起點。",
+          "failureMessage": "全片幅 100mm 無防手震時，倒數法則建議 1/100s 作為靜止主體的最慢安全快門。",
           "options": {
             "0": { "label": "1/50s" },
             "1": { "label": "1/100s" },
@@ -68,51 +68,51 @@
           }
         },
         "1": {
-          "scenario": "You are using a 50mm lens on an APS-C camera (1.5x crop factor) with no stabilization. What minimum shutter speed should you use for a still subject?",
-          "hint": "Multiply the focal length by the crop factor before applying the reciprocal rule.",
-          "successMessage": "Right! 50mm x 1.5 = 75mm equivalent, so you need at least 1/75s. In practice, rounding up to 1/80s is the safe choice.",
-          "failureMessage": "On APS-C, the crop factor (1.5x) means a 50mm lens behaves like a 75mm lens. The reciprocal rule gives 1/75s as the minimum speed.",
+          "scenario": "您在 APS-C（1.5x 裁切係數）機身上使用 50mm 鏡頭，無防手震。對靜止主體應使用多少快門速度？",
+          "hint": "先把焦距乘上裁切係數，再套倒數法則。",
+          "successMessage": "沒錯！50mm × 1.5 = 75mm 等效，所以至少要 1/75s。實際操作時四捨五入到 1/80s 最保險。",
+          "failureMessage": "在 APS-C 上，裁切係數（1.5x）讓 50mm 鏡頭表現如同 75mm。倒數法則給出 1/75s 為最慢安全快門。",
           "options": {
             "0": { "label": "1/50s" },
-            "1": { "label": "1/75s (round to 1/80s)" },
+            "1": { "label": "1/75s（四捨五入到 1/80s）" },
             "2": { "label": "1/100s" },
             "3": { "label": "1/125s" }
           }
         },
         "2": {
-          "scenario": "You have a 200mm lens with OIS (4 stops of stabilization) on a full-frame body with IBIS (5 stops). Together they provide about 6 stops of combined stabilization. For a still subject, what is the approximate minimum shutter speed?",
-          "hint": "Start with the reciprocal rule (1/200s) and then apply 6 stops of stabilization benefit.",
-          "successMessage": "Correct! Starting at 1/200s and gaining 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. About 1/3 second handheld with a 200mm lens — impressive but achievable with modern stabilization!",
-          "failureMessage": "From 1/200s, each stop of stabilization doubles the usable time: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Six stops of stabilization with a 200mm lens gives approximately 1/3s.",
+          "scenario": "您用 200mm OIS（4 級防手震）鏡頭在全片幅機身上（IBIS 5 級），兩者合計約提供 6 級穩定。對靜止主體，最慢快門速度大約是多少？",
+          "hint": "從倒數法則（1/200s）起算，再套用 6 級防手震。",
+          "successMessage": "答對了！從 1/200s 起算，每級防手震加倍：1/200 → 1/100 → 1/50 → 1/25 → 1/13 → 1/6 → 1/3s。200mm 鏡頭能在約 1/3 秒下手持拍攝 — 相當驚人，但現代防手震確實做得到！",
+          "failureMessage": "從 1/200s 起，每級防手震讓可用時間加倍：1/200 → 1/100 → 1/50 → 1/25 → 1/13 → 1/6 → 1/3s。200mm 鏡頭搭配 6 級防手震約等於 1/3s。",
           "options": {
             "0": { "label": "1/30s" },
             "1": { "label": "1/8s" },
-            "2": { "label": "~1/3s" },
-            "3": { "label": "1 second" }
+            "2": { "label": "約 1/3s" },
+            "3": { "label": "1 秒" }
           }
         },
         "3": {
-          "scenario": "You are photographing a friend jogging in a park using a 35mm lens on a full-frame camera with IBIS. Your IBIS gives you 5 stops of stabilization, so the reciprocal rule alone would let you shoot at about 1 second. Should you use 1 second?",
-          "hint": "Stabilization compensates for camera shake, not subject motion.",
-          "successMessage": "Correct! Stabilization only counters camera shake. A jogging person needs at least 1/250s to freeze their motion, regardless of how good your stabilization is.",
-          "failureMessage": "Stabilization cannot freeze a moving subject. For a person jogging, you need at least 1/250s to prevent motion blur, even if your camera could hold steady at 1 second.",
+          "scenario": "您在公園用全片幅與 35mm 鏡頭（IBIS 5 級）拍攝慢跑中的朋友。單看倒數法則，您大概可以拍到約 1 秒。真的該用 1 秒嗎？",
+          "hint": "防手震補償的是相機晃動，不是主體動作。",
+          "successMessage": "答對了！防手震只能抵抗手震。慢跑中的人至少需要 1/250s 才能凍結動作，無論您的防手震多強。",
+          "failureMessage": "防手震無法凍結移動主體。拍慢跑中的人至少要 1/250s 才不會動態模糊，即使相機本身在 1 秒下也不會晃。",
           "options": {
-            "0": { "label": "Yes — IBIS handles all the motion" },
-            "1": { "label": "No — use at least 1/250s to freeze the jogger" },
-            "2": { "label": "No — use 1/60s as a compromise" },
-            "3": { "label": "It depends on the ISO setting" }
+            "0": { "label": "可以 — IBIS 會處理所有動作" },
+            "1": { "label": "不行 — 至少要 1/250s 凍結慢跑者" },
+            "2": { "label": "不行 — 用 1/60s 折衷" },
+            "3": { "label": "視 ISO 設定而定" }
           }
         },
         "4": {
-          "scenario": "You want to create a panning shot of a cyclist — the rider should be sharp while the background shows motion blur streaks. You are using a 70mm lens on full frame. What shutter speed range should you try?",
-          "hint": "Panning intentionally uses a slow shutter speed while tracking the subject. Too fast freezes everything; too slow blurs even the subject.",
-          "successMessage": "Correct! For panning a cyclist, 1/30s to 1/60s is the sweet spot. This is slow enough to blur the background into streaks while your tracking motion keeps the rider relatively sharp. It takes practice — shoot in burst mode and expect many rejects.",
-          "failureMessage": "Panning requires a shutter speed slow enough to blur the background but fast enough that your tracking keeps the subject sharp. For a cyclist, 1/30s to 1/60s is the typical range.",
+          "scenario": "您想拍一張追焦照片 — 讓騎自行車的人清晰、背景拉出動態模糊的線條。使用全片幅 70mm 鏡頭。該嘗試哪一段快門速度範圍？",
+          "hint": "追焦刻意使用慢速快門並追蹤主體。太快什麼都凍結；太慢連主體也糊掉。",
+          "successMessage": "答對了！追焦自行車手的甜蜜點是 1/30s 到 1/60s。這個範圍慢到能讓背景拉出線條，又快到能讓追蹤動作保留主體銳利度。需要多練習 — 建議連拍，並預期會有許多廢片。",
+          "failureMessage": "追焦需要快門慢到能讓背景模糊，又快到讓追蹤動作保留主體銳利。拍自行車手，1/30s 到 1/60s 是典型範圍。",
           "options": {
-            "0": { "label": "1/1000s to 1/2000s" },
-            "1": { "label": "1/250s to 1/500s" },
-            "2": { "label": "1/30s to 1/60s" },
-            "3": { "label": "1s to 2s" }
+            "0": { "label": "1/1000s 到 1/2000s" },
+            "1": { "label": "1/250s 到 1/500s" },
+            "2": { "label": "1/30s 到 1/60s" },
+            "3": { "label": "1s 到 2s" }
           }
         }
       }

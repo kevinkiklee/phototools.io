@@ -1,109 +1,109 @@
 {
   "education": {
     "equivalent-settings-calculator": {
-      "beginner": "Different sensor sizes produce different depth of field and field of view even at the same focal length and aperture. Equivalent settings let you find the lens and aperture combination on a second camera that reproduces the same framing and background blur. This is essential when comparing gear across formats or switching between camera systems.",
+      "beginner": "Různé velikosti snímačů dávají při stejné ohniskové vzdálenosti a cloně jinou hloubku ostrosti a jiný zorný úhel. Ekvivalentní nastavení ti pomůže najít kombinaci objektivu a clony na druhém fotoaparátu, která reprodukuje stejný výřez i rozmazání pozadí. Je to nutnost, když porovnáváš výbavu napříč formáty nebo přecházíš mezi systémy.",
       "deeper": {
         "0": {
-          "heading": "The Crop Factor",
-          "text": "Every sensor has a crop factor relative to the 35mm full-frame standard. APS-C sensors have a factor around 1.5×, Micro Four Thirds 2×, and medium format around 0.79×. Multiplying the actual focal length by the crop factor gives the full-frame equivalent field of view. A 35mm lens on APS-C frames like a 52.5mm on full frame."
+          "heading": "Crop faktor",
+          "text": "Každý snímač má vůči 35mm full frame standardu svůj crop faktor. APS-C má kolem 1,5×, Micro Four Thirds 2× a střední formát okolo 0,79×. Když vynásobíš skutečnou ohniskovou vzdálenost crop faktorem, dostaneš full frame ekvivalent zorného úhlu. 35mm objektiv na APS-C komponuje podobně jako 52,5 mm na full frame."
         },
         "1": {
-          "heading": "Equivalent Aperture & DoF",
-          "text": "To match depth of field across formats, multiply the f-number by the same crop factor. An f/1.4 lens on Micro Four Thirds produces DoF equivalent to f/2.8 on full frame (1.4 × 2 = 2.8). This is why full-frame cameras are prized for shallow DoF — you can use physically faster lenses at wider actual apertures to achieve blur that smaller sensors cannot replicate."
+          "heading": "Ekvivalentní clona a hloubka ostrosti",
+          "text": "Abys dorovnal hloubku ostrosti napříč formáty, vynásob clonové číslo stejným crop faktorem. Objektiv f/1.4 na Micro Four Thirds dává hloubku ostrosti ekvivalentní f/2.8 na full frame (1,4 × 2 = 2,8). Proto si fotografové na full frame tak cení malé hloubky ostrosti — mohou použít fyzicky světelnější objektivy se širší skutečnou clonou a dosáhnout rozmazání, které menší snímače nezvládnou."
         },
         "2": {
-          "heading": "Equivalent ISO & Total Light",
-          "text": "Matching exposure brightness across formats requires adjusting ISO by the crop factor squared. The larger sensor collects more total light for the same scene, which means it can use a lower ISO for equivalent noise performance. A full-frame sensor at ISO 800 produces similar noise to an APS-C sensor at ISO 356 and a Micro Four Thirds sensor at ISO 200."
+          "heading": "Ekvivalentní ISO a celkové světlo",
+          "text": "Pro dorovnání jasu expozice napříč formáty musíš ISO upravit o crop faktor na druhou. Větší snímač zachytí ze stejné scény víc celkového světla, takže může pro srovnatelný výkon použít nižší ISO. Full frame při ISO 800 má podobný šum jako APS-C při ISO 356 a Micro Four Thirds při ISO 200."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame sensor diagonal to the target sensor diagonal. This single number drives all equivalence calculations for focal length, aperture, and ISO."
+          "label": "Crop faktor",
+          "description": "Poměr úhlopříčky full frame snímače k úhlopříčce cílového snímače. Toto jedno číslo řídí všechny výpočty ekvivalence ohniska, clony i ISO."
         },
         "1": {
-          "label": "Sensor Size",
-          "description": "Physically larger sensors capture more light and produce shallower DoF at equivalent framing. The equivalence calculator reveals exactly how much difference each format makes."
+          "label": "Velikost snímače",
+          "description": "Fyzicky větší snímače zachytí víc světla a při srovnatelné kompozici dávají menší hloubku ostrosti. Kalkulačka ekvivalence ti přesně ukáže, jaký rozdíl každý formát dělá."
         },
         "2": {
-          "label": "Available Lenses",
-          "description": "Equivalence math may call for a lens that does not exist. A 17mm f/0.7 is the equivalent of 35mm f/1.4 on MFT — but no such lens is made. Real-world gear limits what is achievable."
+          "label": "Dostupné objektivy",
+          "description": "Matematika ekvivalence může vyžadovat objektiv, který neexistuje. 17mm f/0.7 je ekvivalentem 35mm f/1.4 na MFT — takový objektiv se ale nevyrábí. Reálná výbava limituje, čeho lze dosáhnout."
         }
       },
       "tips": {
         "0": {
-          "text": "When comparing camera systems, always compare at equivalent settings rather than matching f-numbers. An f/2.8 lens on Micro Four Thirds does not give the same background blur as f/2.8 on full frame — you need f/1.4 on MFT to match."
+          "text": "Při porovnávání systémů vždy srovnávej ekvivalentní nastavení, ne stejná clonová čísla. f/2.8 na Micro Four Thirds nedává stejné rozmazání pozadí jako f/2.8 na full frame — abys to dorovnal, potřebuješ na MFT f/1.4."
         },
         "1": {
-          "text": "Use equivalence to plan lens purchases when switching systems. If you love the look of 85mm f/1.8 on full frame, look for a 56mm f/1.2 on APS-C or a 42.5mm f/0.95 on MFT for a similar rendering."
+          "text": "Ekvivalence se hodí při plánování nákupu objektivů, když měníš systém. Když máš rád vzhled 85mm f/1.8 na full frame, hledej na APS-C 56mm f/1.2 nebo na MFT 42,5mm f/0.95 pro podobný výsledek."
         },
         "2": {
-          "text": "Remember that equivalence applies to depth of field and field of view, not to lens speed for exposure. An f/2.8 lens on any format still lets in the same amount of light per unit area — the larger sensor just collects more total light because of its greater area."
+          "text": "Pamatuj, že ekvivalence platí pro hloubku ostrosti a zorný úhel, ne pro světelnost z hlediska expozice. Objektiv f/2.8 propouští na všech formátech stejné množství světla na jednotku plochy — větší snímač jen zachytí víc celkového světla kvůli své větší ploše."
         }
       },
       "tooltips": {
         "sourceSensor": {
-          "term": "Source Sensor",
-          "definition": "The sensor format of the camera whose settings you want to match. All equivalence calculations are relative to this starting point."
+          "term": "Zdrojový snímač",
+          "definition": "Formát snímače fotoaparátu, jehož nastavení chceš dorovnat. Všechny výpočty ekvivalence se počítají od tohoto výchozího bodu."
         },
         "sourceFocalLength": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens on your source camera. This will be converted to equivalent focal lengths on target formats."
+          "term": "Ohnisková vzdálenost",
+          "definition": "Skutečná ohnisková vzdálenost objektivu na zdrojovém fotoaparátu. Ta se přepočte na ekvivalentní ohniska cílových formátů."
         },
         "sourceAperture": {
-          "term": "Aperture",
-          "definition": "The f-number on your source camera. The equivalent aperture on each target format determines matching depth of field."
+          "term": "Clona",
+          "definition": "Clonové číslo na zdrojovém fotoaparátu. Ekvivalentní clona na každém cílovém formátu určuje odpovídající hloubku ostrosti."
         },
         "targetSensor": {
-          "term": "Target Sensor",
-          "definition": "The sensor format you want to find equivalent settings for. The calculator applies the relative crop factor to compute matching focal length and aperture."
+          "term": "Cílový snímač",
+          "definition": "Formát snímače, pro který chceš najít ekvivalentní nastavení. Kalkulačka použije relativní crop faktor a spočítá odpovídající ohnisko a clonu."
         },
         "cropFactor": {
-          "term": "Crop Factor",
-          "definition": "The ratio between the diagonal of a 35mm full-frame sensor and the target sensor. Multiply focal length by crop factor for equivalent FOV; multiply aperture by crop factor for equivalent DoF."
+          "term": "Crop faktor",
+          "definition": "Poměr mezi úhlopříčkou 35mm full frame snímače a cílového snímače. Vynásob ohnisko crop faktorem pro ekvivalentní FOV; vynásob clonu crop faktorem pro ekvivalentní hloubku ostrosti."
         },
         "equivalentFL": {
-          "term": "Equivalent Focal Length",
-          "definition": "The focal length on the target format that produces the same field of view as the source setup."
+          "term": "Ekvivalentní ohnisko",
+          "definition": "Ohnisková vzdálenost na cílovém formátu, která dává stejný zorný úhel jako zdrojová sestava."
         },
         "equivalentAperture": {
-          "term": "Equivalent Aperture",
-          "definition": "The f-number on the target format that produces the same depth of field as the source setup. May be faster than any real lens."
+          "term": "Ekvivalentní clona",
+          "definition": "Clonové číslo na cílovém formátu, které dává stejnou hloubku ostrosti jako zdrojová sestava. Může být světelnější než jakýkoli reálný objektiv."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You shoot portraits with an 85mm f/1.8 lens on a full-frame camera. A friend uses Micro Four Thirds (2× crop). What focal length does your friend need to match your field of view?",
-          "hint": "Divide the full-frame focal length by the MFT crop factor to find the actual lens needed.",
-          "successMessage": "Correct! 85mm / 2 = 42.5mm. Your friend needs a 42.5mm lens on Micro Four Thirds to get the same framing as your 85mm on full frame.",
-          "failureMessage": "To match the field of view, divide by the crop factor: 85mm / 2 = 42.5mm. That is the actual focal length needed on the MFT body.",
+          "scenario": "Fotíš portréty s 85mm f/1.8 na full frame. Kamarád používá Micro Four Thirds (2× crop). Jakou ohniskovou vzdálenost potřebuje, aby dorovnal tvůj zorný úhel?",
+          "hint": "Full frame ohnisko vyděl crop faktorem MFT a dostaneš skutečně potřebný objektiv.",
+          "successMessage": "Správně! 85 mm / 2 = 42,5 mm. Kamarád potřebuje na Micro Four Thirds 42,5mm objektiv, aby dosáhl stejného výřezu jako ty s 85mm na full frame.",
+          "failureMessage": "Pro dorovnání zorného úhlu vyděl crop faktorem: 85 mm / 2 = 42,5 mm. Tohle je skutečná ohnisková vzdálenost, kterou na MFT potřebuje.",
           "options": {
-            "0": { "label": "42.5mm" },
-            "1": { "label": "85mm" },
-            "2": { "label": "170mm" },
-            "3": { "label": "56mm" }
+            "0": { "label": "42,5 mm" },
+            "1": { "label": "85 mm" },
+            "2": { "label": "170 mm" },
+            "3": { "label": "56 mm" }
           }
         },
         "1": {
-          "scenario": "Your friend found a 42.5mm f/1.8 lens for their MFT camera. Will the background blur match your 85mm f/1.8 on full frame?",
-          "hint": "Apply the crop factor to the aperture as well to find the equivalent DoF.",
-          "successMessage": "Right! The 42.5mm f/1.8 on MFT gives equivalent DoF to 85mm f/3.6 on full frame (1.8 × 2 = 3.6). Your f/1.8 full-frame shot produces significantly more blur.",
-          "failureMessage": "No — the MFT f/1.8 gives DoF equivalent to f/3.6 on full frame (1.8 × 2× crop = 3.6). To match your full-frame f/1.8 blur, your friend would need f/0.9 on MFT, which does not exist.",
+          "scenario": "Kamarád si na svůj MFT fotoaparát pořídil 42,5mm f/1.8. Bude mít stejné rozmazání pozadí jako ty s 85mm f/1.8 na full frame?",
+          "hint": "Crop faktor aplikuj i na clonu, abys zjistil ekvivalentní hloubku ostrosti.",
+          "successMessage": "Správně! 42,5mm f/1.8 na MFT dává hloubku ostrosti ekvivalentní 85mm f/3.6 na full frame (1,8 × 2 = 3,6). Tvůj full frame snímek při f/1.8 dává výrazně víc rozmazání.",
+          "failureMessage": "Ne — MFT f/1.8 dává hloubku ostrosti ekvivalentní f/3.6 na full frame (1,8 × 2× crop = 3,6). Abys dorovnal rozmazání tvého full frame f/1.8, kamarád by potřeboval na MFT f/0.9, což neexistuje.",
           "options": {
-            "0": { "label": "Yes — same f/1.8 means same blur" },
-            "1": { "label": "No — MFT f/1.8 equals full-frame f/3.6 depth of field" },
-            "2": { "label": "No — MFT produces more blur because the sensor is smaller" }
+            "0": { "label": "Ano — stejné f/1.8 znamená stejné rozmazání" },
+            "1": { "label": "Ne — MFT f/1.8 odpovídá full frame f/3.6 pro hloubku ostrosti" },
+            "2": { "label": "Ne — MFT dává víc rozmazání, protože má menší snímač" }
           }
         },
         "2": {
-          "scenario": "A photographer switching from full frame to APS-C (1.5× crop) wants to match the look of a 50mm f/1.4 on full frame. What equivalent lens and aperture do they need on APS-C?",
-          "hint": "Divide focal length by the crop factor for equivalent FOV. Divide aperture by the crop factor for equivalent DoF.",
-          "successMessage": "Exactly! 50 / 1.5 = 33mm for field of view, and f/1.4 / 1.5 = f/0.93 for matching DoF. Since no f/0.93 lens exists, the APS-C camera cannot fully replicate the full-frame look.",
-          "failureMessage": "The correct answer is ~33mm f/0.93. Since 50 / 1.5 = 33.3mm and 1.4 / 1.5 = 0.93. No f/0.93 lens exists, so the full-frame look cannot be fully matched on APS-C.",
+          "scenario": "Fotograf přecházející z full frame na APS-C (1,5× crop) chce dorovnat vzhled 50mm f/1.4 z full frame. Jaký ekvivalentní objektiv a clonu potřebuje na APS-C?",
+          "hint": "Ohnisko vyděl crop faktorem pro ekvivalentní FOV. Clonu vyděl crop faktorem pro ekvivalentní hloubku ostrosti.",
+          "successMessage": "Přesně! 50 / 1,5 = 33 mm pro zorný úhel a f/1.4 / 1,5 = f/0.93 pro odpovídající hloubku ostrosti. Protože objektiv f/0.93 neexistuje, APS-C nemůže full frame vzhled plně napodobit.",
+          "failureMessage": "Správná odpověď je asi 33mm f/0.93. Protože 50 / 1,5 = 33,3 mm a 1,4 / 1,5 = 0,93. Objektiv f/0.93 neexistuje, takže vzhled full frame se na APS-C plně dorovnat nedá.",
           "options": {
-            "0": { "label": "35mm f/1.4 — close enough" },
-            "1": { "label": "33mm f/0.93 — exact match, but no such lens exists" },
-            "2": { "label": "75mm f/2.1 — multiply by crop factor" }
+            "0": { "label": "35mm f/1.4 — stačí to" },
+            "1": { "label": "33mm f/0.93 — přesný ekvivalent, ale takový objektiv neexistuje" },
+            "2": { "label": "75mm f/2.1 — vynásob crop faktorem" }
           }
         }
       }

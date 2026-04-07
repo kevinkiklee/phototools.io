@@ -1,146 +1,146 @@
 {
   "education": {
     "color-scheme-generator": {
-      "beginner": "Color harmony is about choosing colors that look good together. Just like musical chords, certain color combinations create pleasing visual relationships. Photographers use color harmony to plan wardrobe, set design, and even timing of outdoor shoots to get the right palette from nature.",
+      "beginner": "色彩和諧就是選擇搭配起來好看的顏色。就像音樂和弦一樣，某些色彩組合能夠創造悅目的視覺關係。攝影師運用色彩和諧來規劃服裝、場景佈置，甚至安排外拍的時間，以便從自然光中取得理想的色彩組合。",
       "deeper": {
         "0": {
-          "heading": "The Color Wheel",
-          "text": "Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle (0\u2013360\u00b0), saturation is the distance from center, and lightness controls brightness. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary."
+          "heading": "色環",
+          "text": "色彩和諧理論源自色環 — 依照波長關係將色相排成一圈。HSL（色相、飽和度、亮度）模型直接對應於色環：色相是角度（0–360°），飽和度是距離中心的遠近，亮度則控制明暗。在攝影中，這些關係自然而然地出現 — 黃金時刻會產生暖色系的類比色調，而綠色田野上的紅色穀倉就是經典的互補色。"
         },
         "1": {
-          "heading": "Complementary",
-          "text": "Two colors that sit directly opposite each other on the wheel (180\u00b0 apart), such as blue and orange or red and green. This creates maximum contrast and visual energy. Great for making a subject pop against a background — think golden-hour portraits where warm skin tones contrast with a cool blue sky."
+          "heading": "互補色",
+          "text": "色環上相對 180° 的兩個顏色，例如藍與橘、紅與綠。這種組合能創造最大對比與視覺張力，非常適合讓主體從背景跳出 — 想想黃金時刻的人像，溫暖的膚色與冷藍天空形成對比。"
         },
         "2": {
-          "heading": "Analogous",
-          "text": "Three colors that are neighbors on the wheel, typically within a 30\u201360\u00b0 spread. They produce smooth, cohesive palettes with low contrast. Ideal for landscapes and mood-driven work — autumn foliage is a natural analogous palette of reds, oranges, and yellows."
+          "heading": "類比色",
+          "text": "色環上相鄰的三個顏色，通常落在 30–60° 範圍內。能產生和諧一致、低對比的配色。非常適合風景與情緒氛圍的作品 — 秋日落葉的紅、橘、黃就是大自然的類比色調。"
         },
         "3": {
-          "heading": "Triadic",
-          "text": "Three colors evenly spaced at 120\u00b0 intervals around the wheel, such as red, yellow, and blue. Triadic schemes feel balanced and vibrant without the tension of complementary contrast. Use one dominant color and the other two as accents for the strongest results."
+          "heading": "三等分（三色）配色",
+          "text": "色環上每 120° 均勻分布的三個顏色，例如紅、黃、藍。三等分配色既平衡又有活力，不會像互補色那樣帶有緊張感。選擇一個主導色，其他兩色作為點綴，效果最為強烈。"
         },
         "4": {
-          "heading": "Split Complementary",
-          "text": "A variation of complementary that uses the two neighbors of the opposite color instead of the opposite itself. This keeps the high contrast of complementary but reduces the visual tension, making it more versatile and forgiving. A popular choice for styled portrait sessions."
+          "heading": "分裂互補色",
+          "text": "互補色的變化版：不直接使用正對面的顏色，而是選用該互補色兩側的兩個鄰色。保留了互補色的高對比，但張力更柔和、更容易運用 — 是造型人像拍攝的熱門選擇。"
         },
         "5": {
-          "heading": "Tetradic (Double Complementary)",
-          "text": "Four colors forming a rectangle on the wheel — essentially two complementary pairs. This offers the richest, most complex palette but requires careful balance. Let one color dominate and use the others as supporting accents to avoid a chaotic look."
+          "heading": "四等分（雙互補）",
+          "text": "色環上形成矩形的四個顏色 — 實際上就是兩組互補色。這能提供最豐富、最複雜的配色，但也最需要仔細平衡。讓其中一色主導，其他三色作為輔助點綴，才能避免畫面凌亂。"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Harmony Type",
-          "description": "The geometric relationship between colors on the wheel: complementary, analogous, triadic, split-complementary, or tetradic."
+          "label": "和諧類型",
+          "description": "色環上顏色之間的幾何關係：互補、類比、三等分、分裂互補或四等分。"
         },
         "1": {
-          "label": "Hue",
-          "description": "The base color angle on the wheel (0-360 degrees). This is the starting point for all harmony calculations."
+          "label": "色相",
+          "description": "色環上的基準色角度（0–360 度）。所有和諧計算的起點。"
         },
         "2": {
-          "label": "Saturation",
-          "description": "How vivid or muted the colors are. Lower saturation produces pastels and earth tones; higher saturation gives bold, vibrant palettes."
+          "label": "飽和度",
+          "description": "色彩的鮮豔或暗淡程度。低飽和度呈現粉彩或大地色調，高飽和度則帶來大膽生動的配色。"
         },
         "3": {
-          "label": "Lightness",
-          "description": "Controls brightness. Adjusting lightness can make the same hue feel completely different — dark navy vs. sky blue are the same hue at different lightness."
+          "label": "亮度",
+          "description": "控制明暗。同樣的色相在不同亮度下可能感覺完全不同 — 深海軍藍與天空藍就是相同色相但不同亮度的例子。"
         }
       },
       "tips": {
         "0": {
-          "text": "For portrait sessions, pick a complementary or split-complementary palette, then have your subject wear the key color while the background provides the contrasting hue. Blue/orange (golden hour portraits) is a classic example."
+          "text": "拍人像時，選擇互補或分裂互補配色，讓主體穿上主色，背景提供對比色。藍/橘（黃金時刻人像）就是經典範例。"
         },
         "1": {
-          "text": "Use analogous harmony for landscapes — nature already works in analogous palettes. Match your wardrobe advice or prop choices to the dominant natural hues."
+          "text": "風景攝影建議採用類比色和諧 — 大自然本身就以類比色運作。依主要的自然色調來決定服裝或道具的顏色。"
         },
         "2": {
-          "text": "Reduce saturation to 30-50% to preview how colors will look in a more muted, editorial style. High saturation works for commercial and fashion, but lower saturation often feels more sophisticated."
+          "text": "把飽和度降到 30–50%，可以預覽出較為低調、編輯風格的色調。高飽和度適合商業與時尚，而低飽和度往往更顯內斂。"
         }
       },
       "tooltips": {
         "Harmony Type": {
-          "term": "Harmony Type",
-          "definition": "The color relationship pattern: Complementary (opposite), Analogous (neighbors), Triadic (three-way), Split Complementary (offset opposites), or Tetradic (four-way rectangle)."
+          "term": "和諧類型",
+          "definition": "色彩關係模式：互補（相對）、類比（相鄰）、三等分（三方向）、分裂互補（偏移互補）或四等分（四方向矩形）。"
         },
         "Key Color": {
-          "term": "Key Color",
-          "definition": "The dominant color in your palette. All other harmony colors are calculated relative to this starting hue."
+          "term": "主色",
+          "definition": "配色中的主導色。所有其他和諧顏色都以此起始色相為基準推算。"
         },
         "Hue": {
-          "term": "Hue",
-          "definition": "The color angle on the wheel in degrees: 0\u00b0 is red, 120\u00b0 is green, 240\u00b0 is blue."
+          "term": "色相",
+          "definition": "色環上的角度（單位：度）：0° 為紅，120° 為綠，240° 為藍。"
         },
         "Saturation": {
-          "term": "Saturation",
-          "definition": "Color intensity from 0% (gray) to 100% (fully vivid). Controls how bold or muted the entire palette appears."
+          "term": "飽和度",
+          "definition": "色彩強度，從 0%（灰）到 100%（全飽和）。控制整組配色的大膽或柔和程度。"
         },
         "Lightness": {
-          "term": "Lightness",
-          "definition": "Brightness from 0% (black) to 100% (white). At 50% you see the pure color; below is darker, above is lighter."
+          "term": "亮度",
+          "definition": "明暗度，從 0%（黑）到 100%（白）。50% 時呈現純色，以下偏暗，以上偏亮。"
         },
         "Split Angle": {
-          "term": "Split Angle",
-          "definition": "How far apart the two split-complementary colors are from the direct opposite. Wider angles give more contrast."
+          "term": "分裂角度",
+          "definition": "兩個分裂互補色與正對面互補色之間的距離。角度越大，對比越強。"
         },
         "Spread": {
-          "term": "Spread",
-          "definition": "How far apart the analogous colors are from the key hue. Narrow spread gives subtle variation; wide spread increases diversity."
+          "term": "色相跨度",
+          "definition": "類比色與主色之間的距離。跨度越小，變化越細微；跨度越大，色彩多樣性越高。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want maximum contrast between two colors for a bold graphic portrait. Which harmony type gives you the most visual tension?",
-          "hint": "Colors directly across from each other on the wheel create the strongest contrast.",
-          "successMessage": "Correct! Complementary colors sit 180 degrees apart and produce the highest contrast — perfect for bold, eye-catching compositions.",
-          "failureMessage": "Complementary harmony places colors directly opposite on the wheel, creating maximum visual contrast.",
+          "scenario": "您想在大膽的圖像式人像中讓兩個顏色形成最強烈的對比。哪種和諧類型能提供最大的視覺張力？",
+          "hint": "色環上正對面的兩色對比最強。",
+          "successMessage": "答對了！互補色相距 180°，能產生最高的對比度 — 非常適合搶眼、具張力的構圖。",
+          "failureMessage": "互補色位於色環正對面，產生最大的視覺對比。",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Triadic" }
+            "0": { "label": "互補色" },
+            "1": { "label": "類比色" },
+            "2": { "label": "三等分配色" }
           }
         },
         "1": {
-          "scenario": "You are planning a golden hour shoot and want warm, cohesive tones. Which harmony type keeps colors close together on the wheel?",
-          "hint": "This type uses neighboring hues for a smooth, unified feel.",
-          "successMessage": "Right! Analogous harmony uses adjacent colors, giving you a warm, cohesive palette perfect for golden hour.",
-          "failureMessage": "Analogous harmony keeps all colors as neighbors on the wheel — ideal for unified warm or cool palettes.",
+          "scenario": "您正在規劃黃金時刻的拍攝，希望色調溫暖且彼此協調。哪種和諧類型會讓顏色在色環上彼此相近？",
+          "hint": "這種類型會使用相鄰色相，呈現柔順統一的感覺。",
+          "successMessage": "沒錯！類比色和諧使用相鄰的顏色，提供溫暖且和諧的配色，非常適合黃金時刻。",
+          "failureMessage": "類比色和諧讓所有顏色都是色環上的鄰居 — 非常適合統一的暖色或冷色配色。",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Tetradic" }
+            "0": { "label": "互補色" },
+            "1": { "label": "類比色" },
+            "2": { "label": "四等分配色" }
           }
         },
         "2": {
-          "scenario": "A client wants a portrait with contrast but not as intense as pure complementary. Which harmony type softens the opposition while keeping visual interest?",
-          "hint": "This type uses two colors near the complement instead of the direct opposite.",
-          "successMessage": "Excellent! Split complementary keeps the contrast of complementary but splits the opposing color into two flanking hues, producing a less jarring but still dynamic palette.",
-          "failureMessage": "Split Complementary is the answer — it replaces the single opposite color with two neighbors of the opposite, softening the contrast while maintaining visual energy.",
+          "scenario": "客戶希望人像作品要有對比，但又不像純互補色那麼強烈。哪種和諧類型能柔化對立感又保留視覺趣味？",
+          "hint": "這種類型會用互補色附近的兩色，而不是正對面的單色。",
+          "successMessage": "太棒了！分裂互補保留了互補色的對比，但將對立色拆成兩側的色相，帶來相對柔和但仍具張力的配色。",
+          "failureMessage": "答案是分裂互補 — 它以互補色兩側的鄰色取代單一對立色，柔化對比的同時仍維持視覺活力。",
           "options": {
-            "0": { "label": "Split Complementary" },
-            "1": { "label": "Triadic" },
-            "2": { "label": "Analogous" }
+            "0": { "label": "分裂互補" },
+            "1": { "label": "三等分配色" },
+            "2": { "label": "類比色" }
           }
         },
         "3": {
-          "scenario": "You set the key color to orange (hue ~30 degrees) with complementary harmony. What color will the complement be?",
-          "hint": "Complementary means 180 degrees opposite on the wheel.",
-          "successMessage": "Correct! 30\u00b0 + 180\u00b0 = 210\u00b0, which falls in the blue range. Orange and blue is one of photography most beloved complementary pairs.",
-          "failureMessage": "Adding 180\u00b0 to orange (30\u00b0) gives 210\u00b0, which is blue. The orange-blue complementary pair is a photography staple.",
+          "scenario": "您將主色設為橘色（色相約 30 度），採用互補色和諧。互補色會是哪種顏色？",
+          "hint": "互補色意味著在色環上相差 180°。",
+          "successMessage": "答對了！30° + 180° = 210°，落在藍色範圍。橘與藍是攝影中最受喜愛的互補色組合之一。",
+          "failureMessage": "將 180° 加到橘色（30°）得到 210°，即藍色。橘藍互補是攝影的經典組合。",
           "options": {
-            "0": { "label": "Blue (~210\u00b0)" },
-            "1": { "label": "Green (~150\u00b0)" },
-            "2": { "label": "Red (~0\u00b0)" }
+            "0": { "label": "藍色（約 210°）" },
+            "1": { "label": "綠色（約 150°）" },
+            "2": { "label": "紅色（約 0°）" }
           }
         },
         "4": {
-          "scenario": "You are art-directing a fashion editorial and need a four-color palette that provides both warm and cool tones with high visual richness. Which harmony type gives you four colors, and what is the main challenge when using it?",
-          "hint": "The four-color harmony forms a rectangle on the wheel.",
-          "successMessage": "Right! Tetradic harmony gives four colors forming a rectangle on the wheel. The main challenge is balance — with four distinct hues, one should dominate while the others accent. Without hierarchy, the image feels chaotic.",
-          "failureMessage": "Tetradic (double-complementary) provides four colors in a rectangular arrangement. The challenge is that four strong hues compete for attention — you need to designate one dominant color and use the others as accents.",
+          "scenario": "您要為時尚雜誌社論規劃四色配色，必須同時具備暖色與冷色、畫面豐富度高。哪種和諧類型能提供四個顏色，使用時最大的挑戰又是什麼？",
+          "hint": "四色和諧會在色環上形成矩形。",
+          "successMessage": "沒錯！四等分和諧在色環上形成矩形四色。主要挑戰是平衡 — 四個鮮明的色相中必須有一個主導，其他三色作為點綴。缺乏層次時畫面會顯得凌亂。",
+          "failureMessage": "四等分（雙互補）提供四色矩形排列。挑戰在於四個強烈色相會互相搶鏡 — 必須指定一個主導色，其他三色作為點綴。",
           "options": {
-            "0": { "label": "Tetradic — challenge is maintaining visual hierarchy among four hues" },
-            "1": { "label": "Triadic — challenge is having too few colors" },
-            "2": { "label": "Analogous — challenge is lack of contrast" }
+            "0": { "label": "四等分 — 挑戰在於維持四色之間的視覺層次" },
+            "1": { "label": "三等分 — 挑戰在於顏色太少" },
+            "2": { "label": "類比色 — 挑戰在於缺乏對比" }
           }
         }
       }

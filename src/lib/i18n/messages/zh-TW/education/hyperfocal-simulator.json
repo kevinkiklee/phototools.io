@@ -1,70 +1,70 @@
 {
   "education": {
     "hyperfocal-simulator": {
-      "beginner": "The hyperfocal distance is the closest point you can focus on while still keeping everything at infinity acceptably sharp. When you focus at the hyperfocal distance, your depth of field extends from half that distance all the way to infinity. Landscape photographers use this technique to maximize sharpness from foreground to horizon.",
-      "deeper": "Hyperfocal distance is derived from the thin-lens equation and the concept of the circle of confusion (CoC). It equals the focal length squared divided by the product of the f-number and the CoC diameter: H = f\u00b2 / (N \u00d7 c). Anything from H/2 to infinity falls within acceptable sharpness. The CoC depends on sensor size — smaller sensors have a smaller acceptable CoC, which pushes the hyperfocal distance farther away for the same focal length and aperture. This is why crop-sensor cameras appear to have greater depth of field: the CoC standard is tighter relative to the image area. In practice, diffraction softening at very small apertures (f/16 and beyond on most sensors) means there is a trade-off between maximizing depth of field and maintaining per-pixel sharpness.",
+      "beginner": "超焦距是指在維持無限遠仍能可接受清晰的前提下，您可以對焦的最近距離。當您對焦在超焦距上時，景深會從該距離的一半一路延伸到無限遠。風景攝影師透過這個技巧讓前景到地平線都保持清晰。",
+      "deeper": "超焦距由薄透鏡方程與容許彌散圓（CoC）的概念推導而來。公式為焦距的平方除以 f 值與 CoC 直徑的乘積：H = f² / (N × c)。從 H/2 到無限遠的任何位置都在可接受清晰範圍內。CoC 會隨感光元件尺寸改變 — 較小感光元件的可接受 CoC 也較小，在相同焦距與光圈下會把超焦距推得更遠。這就是為什麼裁切片幅相機看起來景深更深：相對於影像面積，CoC 標準更嚴格。實務上，極小光圈（大多感光元件的 f/16 以上）的繞射柔化會讓您在最大景深與每像素銳利度之間必須取捨。",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths dramatically increase hyperfocal distance — it scales with the square of focal length."
+          "label": "焦距",
+          "description": "長焦距會大幅提升超焦距 — 它與焦距的平方成正比。"
         },
         "1": {
-          "label": "Aperture",
-          "description": "Smaller apertures (higher f-numbers) reduce hyperfocal distance, extending depth of field."
+          "label": "光圈",
+          "description": "較小的光圈（較大 f 值）可降低超焦距，進而擴大景深。"
         },
         "2": {
-          "label": "Sensor Size",
-          "description": "Smaller sensors use a smaller circle of confusion, which increases hyperfocal distance for equivalent framing."
+          "label": "感光元件尺寸",
+          "description": "較小的感光元件使用較小的容許彌散圓，在相同取景下會增加超焦距。"
         },
         "3": {
-          "label": "Circle of Confusion",
-          "description": "The maximum blur spot diameter considered \"acceptably sharp\" — typically 0.03mm for full frame."
+          "label": "容許彌散圓",
+          "description": "仍被視為「可接受清晰」的最大模糊圓直徑 — 全片幅通常為 0.03mm。"
         }
       },
       "tips": {
         "0": {
-          "text": "For quick landscape work, focus roughly one-third into the scene — it approximates the hyperfocal point for most wide-angle setups."
+          "text": "快速風景拍攝時，可以粗略對焦到場景的 1/3 深度處 — 對於多數廣角組合而言，這大約就是超焦距位置。"
         },
         "1": {
-          "text": "Avoid stopping down past f/16 on full-frame or f/11 on APS-C. Diffraction will undo the depth-of-field gains you are chasing."
+          "text": "全片幅避免縮到 f/16 以上，APS-C 則避免縮到 f/11 以上。繞射會抵銷您追求的景深優勢。"
         },
         "2": {
-          "text": "Use live view magnification to nail focus precisely at the hyperfocal distance rather than relying on the lens distance scale, which is often imprecise on modern autofocus lenses."
+          "text": "與其依賴自動對焦鏡頭上往往不精確的距離刻度，不如使用 Live View 放大功能精準對焦到超焦距位置。"
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "The camera sensor format. Smaller sensors have a tighter circle of confusion standard, which shifts all hyperfocal distances farther away."
+          "term": "感光元件",
+          "definition": "相機的感光元件格式。較小的感光元件使用更嚴格的容許彌散圓標準，會把所有超焦距推得更遠。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a landscape with a 24mm lens on a full-frame camera. Which sensor format should you select to see full-frame hyperfocal distances?",
-          "hint": "Full frame is the standard 35mm sensor size.",
-          "successMessage": "Correct! Full Frame is the right choice for a standard 35mm sensor.",
-          "failureMessage": "Not quite — select the Full Frame sensor to match a standard 35mm camera body.",
+          "scenario": "您用全片幅相機搭配 24mm 鏡頭拍攝風景。應該選擇哪個感光元件格式才能看到全片幅的超焦距？",
+          "hint": "全片幅就是標準的 35mm 感光元件尺寸。",
+          "successMessage": "答對了！標準 35mm 相機機身請選「全片幅」。",
+          "failureMessage": "不太對 — 請選「全片幅」以對應標準的 35mm 相機機身。",
           "options": {
-            "0": { "label": "Full Frame" },
-            "1": { "label": "APS-C (Nikon/Sony)" },
-            "2": { "label": "Micro Four Thirds" }
+            "0": { "label": "全片幅" },
+            "1": { "label": "APS-C（Nikon/Sony）" },
+            "2": { "label": "微型四三" }
           }
         },
         "1": {
-          "scenario": "Looking at the table for full frame, which has a shorter hyperfocal distance: 24mm at f/8, or 50mm at f/8?",
-          "hint": "Hyperfocal distance increases with the square of the focal length.",
-          "successMessage": "Right! The 24mm lens has a much shorter hyperfocal distance because focal length has a squared relationship.",
-          "failureMessage": "Actually, shorter focal lengths always yield shorter hyperfocal distances. The 24mm wins here.",
+          "scenario": "查看全片幅的表格，哪個超焦距比較短：24mm f/8 還是 50mm f/8？",
+          "hint": "超焦距與焦距的平方成正比。",
+          "successMessage": "沒錯！24mm 鏡頭的超焦距短得多，因為焦距與超焦距是平方關係。",
+          "failureMessage": "其實，較短的焦距一定對應較短的超焦距。這題 24mm 勝出。",
           "options": {
-            "0": { "label": "24mm at f/8" },
-            "1": { "label": "50mm at f/8" }
+            "0": { "label": "24mm f/8" },
+            "1": { "label": "50mm f/8" }
           }
         },
         "2": {
-          "scenario": "You are hiking with an APS-C camera and a 35mm lens. You want everything from about 3 meters to infinity sharp. Which aperture range should you look at in the table to find a hyperfocal distance near 6 meters (so that half of it — 3m — is your near-focus limit)?",
-          "hint": "Remember: near focus = hyperfocal / 2. Look for an aperture that gives a hyperfocal around 6m.",
-          "successMessage": "Great thinking! You correctly identified that you need a hyperfocal distance of about 6m, and found the right aperture range.",
-          "failureMessage": "Remember, near focus equals half the hyperfocal distance. You need the hyperfocal to be around 6m to get a near-focus limit of 3m.",
+          "scenario": "您帶著 APS-C 相機和 35mm 鏡頭登山。希望從大約 3 公尺到無限遠都清晰。應該從表格的哪個光圈範圍找出超焦距接近 6 公尺的設定（這樣一半 3 公尺就是您的近端對焦界限）？",
+          "hint": "記住：近端 = 超焦距 / 2。尋找能讓超焦距接近 6m 的光圈。",
+          "successMessage": "想得很棒！您正確判斷出需要約 6m 的超焦距，也找到了對應的光圈範圍。",
+          "failureMessage": "請記得近端等於超焦距的一半。您需要超焦距約 6m，才能得到 3m 的近端界限。",
           "options": {
             "0": { "label": "f/2.8 — f/4" },
             "1": { "label": "f/5.6 — f/8" },
@@ -72,24 +72,24 @@
           }
         },
         "3": {
-          "scenario": "A friend switches from a full-frame camera to Micro Four Thirds but keeps shooting the same focal lengths. They complain that the hyperfocal distances seem different. Why?",
-          "hint": "The circle of confusion is calculated based on sensor size.",
-          "successMessage": "Exactly! The smaller M43 sensor uses a smaller CoC (about 0.015mm vs 0.03mm), which increases hyperfocal distances for the same focal length and aperture.",
-          "failureMessage": "The key factor is the circle of confusion. Smaller sensors require a tighter CoC standard, which pushes hyperfocal distances farther out.",
+          "scenario": "一位朋友從全片幅換到微型四三，仍然用相同焦距拍攝。他抱怨超焦距好像不一樣。為什麼？",
+          "hint": "容許彌散圓會依感光元件尺寸計算。",
+          "successMessage": "正是如此！較小的 M43 感光元件使用較小的 CoC（約 0.015mm vs 0.03mm），在相同焦距與光圈下會增加超焦距。",
+          "failureMessage": "關鍵在於容許彌散圓。較小的感光元件需要更嚴格的 CoC 標準，會把超焦距推得更遠。",
           "options": {
-            "0": { "label": "The lens focal length changes on crop sensors" },
-            "1": { "label": "Smaller sensors use a smaller circle of confusion" },
-            "2": { "label": "Micro Four Thirds cameras have less accurate autofocus" }
+            "0": { "label": "裁切感光元件會改變鏡頭的焦距" },
+            "1": { "label": "較小的感光元件使用較小的容許彌散圓" },
+            "2": { "label": "微型四三相機的對焦比較不準" }
           }
         },
         "4": {
-          "scenario": "You are shooting architecture at 14mm f/11 on full frame. The table shows a very short hyperfocal distance. Should you stop down further to f/22 for even more depth of field, or is f/11 the better choice?",
-          "hint": "Consider what happens to image sharpness at very small apertures.",
-          "successMessage": "Excellent! At f/11, diffraction is minimal on full frame, and the hyperfocal distance at 14mm is already very short. Stopping down to f/22 would soften the image due to diffraction without meaningful DoF benefit.",
-          "failureMessage": "While f/22 gives a shorter hyperfocal distance on paper, diffraction softening at f/22 on full frame actually reduces overall image sharpness. At 14mm f/11, the hyperfocal distance is already so short that the extra DoF is not worth the diffraction penalty.",
+          "scenario": "您在全片幅上用 14mm f/11 拍建築。表格顯示超焦距非常短。是否應該縮到 f/22 以取得更大的景深，還是維持 f/11 就好？",
+          "hint": "想想極小光圈下會對影像銳利度造成什麼影響。",
+          "successMessage": "太棒了！在全片幅 f/11 下繞射非常輕微，而 14mm 的超焦距已經很短。縮到 f/22 反而會因繞射而柔化影像，景深上的收穫卻很有限。",
+          "failureMessage": "雖然 f/22 紙面上的超焦距更短，但全片幅 f/22 的繞射柔化反而會降低整體銳利度。14mm f/11 下的超焦距已經非常短，多一點景深實在不值得繞射的代價。",
           "options": {
-            "0": { "label": "Stop down to f/22 for maximum depth of field" },
-            "1": { "label": "Stay at f/11 — diffraction at f/22 will reduce sharpness" }
+            "0": { "label": "縮到 f/22 追求最大景深" },
+            "1": { "label": "維持 f/11 — f/22 的繞射會降低銳利度" }
           }
         }
       }

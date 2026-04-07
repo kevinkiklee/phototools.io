@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "sensor-size-comparison": {
-      "displayMode": "Display Mode",
-      "modeOverlay": "Overlay",
-      "modeSideBySide": "Side by Side",
-      "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
-      "sensors": "Sensors",
-      "customSensors": "Custom Sensors",
-      "placeholderName": "Name",
-      "placeholderW": "W (mm)",
-      "placeholderH": "H (mm)",
-      "placeholderMP": "Megapixels (optional)",
+      "displayMode": "Mod de afișare",
+      "modeOverlay": "Suprapunere",
+      "modeSideBySide": "Alăturat",
+      "modePixelDensity": "Densitate pixeli",
+      "pixelDensityDescription": "Arată numărul comun de megapixeli pentru fiecare senzor. Pixelii mai mari (celule mai mari) captează mai multă lumină.",
+      "sensors": "Senzori",
+      "customSensors": "Senzori personalizați",
+      "placeholderName": "Nume",
+      "placeholderW": "L (mm)",
+      "placeholderH": "Î (mm)",
+      "placeholderMP": "Megapixeli (opțional)",
       "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
-      "addSensor": "Add Sensor",
-      "save": "Save",
-      "cancelEdit": "Cancel",
-      "edit": "Edit",
-      "remove": "Remove",
-      "deleteAllCustom": "Delete All Custom Sensors",
-      "tableSensor": "Sensor",
-      "tableWidth": "Width (mm)",
-      "tableHeight": "Height (mm)",
-      "tableAspectRatio": "Aspect Ratio",
-      "tableArea": "Area (mm\u00b2)",
-      "tableCropFactor": "Crop Factor",
-      "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "maxDimensionWarning": "Dimensiunea maximă a senzorului este 99 mm",
+      "addSensor": "Adaugă senzor",
+      "save": "Salvează",
+      "cancelEdit": "Anulează",
+      "edit": "Editează",
+      "remove": "Șterge",
+      "deleteAllCustom": "Șterge toți senzorii personalizați",
+      "tableSensor": "Senzor",
+      "tableWidth": "Lățime (mm)",
+      "tableHeight": "Înălțime (mm)",
+      "tableAspectRatio": "Raport de aspect",
+      "tableArea": "Suprafață (mm\u00b2)",
+      "tableCropFactor": "Factor de crop",
+      "tableAspectCrop": "Crop de raport",
+      "canvasAriaLabel": "Comparație dimensiuni senzor în modul {mode}",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "Ce este factorul de crop și de ce contează?",
+          "answer": "Factorul de crop descrie diferența de dimensiune dintre senzorul unei camere și un senzor full-frame (35mm). Afectează distanța focală efectivă, adâncimea câmpului și performanța în lumină slabă. Un factor de crop de 1.5x înseamnă că senzorul este de 1.5 ori mai mic decât full frame."
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "Care sunt avantajele senzorilor full frame față de APS-C?",
+          "answer": "Senzorii full-frame oferă performanță mai bună în lumină slabă, adâncime a câmpului mai mică și un unghi de vizualizare mai larg la orice distanță focală. Senzorii APS-C sunt mai accesibili, mai ușori și oferă acoperire suplimentară pentru fotografia de natură sălbatică și sport."
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "Cum afectează dimensiunea senzorului adâncimea câmpului?",
+          "answer": "Senzorii mai mari produc o adâncime a câmpului mai mică la încadrare echivalentă. Ca să obții aceeași încadrare cu un senzor mai mic, fie folosești o distanță focală mai scurtă (DoF mai mare), fie te depărtezi (DoF mai mare), ambele reducând blur-ul de fundal."
         }
       }
     }

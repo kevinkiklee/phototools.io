@@ -1,27 +1,27 @@
 {
   "about": {
-    "title": "About PhotoTools",
-    "subtitle": "Free photography education, right in your browser.",
+    "title": "PhotoTools সম্পর্কে",
+    "subtitle": "ফ্রি ফটোগ্রাফি শিক্ষা, সরাসরি তোমার ব্রাউজারে।",
     "sections": {
       "whatIs": {
-        "title": "What is PhotoTools?",
-        "body": "PhotoTools is a free collection of interactive photography calculators, simulators, and reference tools. Whether you're learning the exposure triangle for the first time or calculating hyperfocal distance for a landscape shoot, PhotoTools gives you hands-on visual tools to deepen your understanding of photography."
+        "title": "PhotoTools কী?",
+        "body": "PhotoTools হলো ইন্টারঅ্যাক্টিভ ফটোগ্রাফি ক্যালকুলেটর, সিমুলেটর ও রেফারেন্স টুলসের একটি ফ্রি সংগ্রহ। তুমি যদি প্রথমবার এক্সপোজার ট্রায়াঙ্গেল শিখছো বা ল্যান্ডস্কেপ শ্যুটের জন্য হাইপারফোকাল দূরত্ব হিসাব করছো — PhotoTools তোমাকে হাতে-কলমে ভিজ্যুয়াল টুলস দেয় যা ফটোগ্রাফির বোঝাপড়া আরো গভীর করে।"
       },
       "whoIsItFor": {
-        "title": "Who is it for?",
-        "body": "Photographers of all skill levels — from beginners exploring how aperture affects depth of field to experienced shooters planning a star trail session. Every tool includes a learning panel with explanations, key factors, pro tips, and interactive challenges to test your knowledge."
+        "title": "কার জন্য?",
+        "body": "সব স্তরের ফটোগ্রাফারদের জন্য — নতুনরা যারা জানতে চায় অ্যাপারচার কীভাবে ক্ষেত্রের গভীরতায় প্রভাব ফেলে, থেকে শুরু করে অভিজ্ঞ ফটোগ্রাফাররা যারা স্টার ট্রেইল সেশন পরিকল্পনা করছে। প্রতিটি টুলে একটি লার্নিং প্যানেল আছে যেখানে ব্যাখ্যা, মূল বিষয়, প্রো টিপস এবং তোমার জ্ঞান যাচাই করার জন্য ইন্টারঅ্যাক্টিভ চ্যালেঞ্জ রয়েছে।"
       },
       "privacyFirst": {
-        "title": "Privacy first",
-        "body": "All calculations and simulations run entirely in your browser. Your photos never leave your device — the EXIF Viewer, for example, processes images 100% client-side. No sign-up is required, and no personal data is collected beyond anonymous analytics."
+        "title": "গোপনীয়তা সর্বাগ্রে",
+        "body": "সমস্ত হিসাব ও সিমুলেশন পুরোপুরি তোমার ব্রাউজারে চলে। তোমার ছবি কখনোই তোমার ডিভাইস ছেড়ে যায় না — উদাহরণস্বরূপ, EXIF ভিউয়ার ছবি ১০০% ক্লায়েন্ট-সাইডে প্রসেস করে। সাইন-আপ লাগে না, এবং অজ্ঞাত অ্যানালিটিক্স ছাড়া কোনো ব্যক্তিগত তথ্য সংগ্রহ করা হয় না।"
       },
       "builtBy": {
-        "title": "Built by photographers",
-        "body": "PhotoTools is built and maintained by a photographer and software engineer who wanted better visual tools for understanding the technical side of photography. The tools are grounded in real optics and physics — not approximations — so you can trust the results in the field."
+        "title": "ফটোগ্রাফারদের হাতে তৈরি",
+        "body": "PhotoTools তৈরি ও রক্ষণাবেক্ষণ করছে একজন ফটোগ্রাফার ও সফটওয়্যার ইঞ্জিনিয়ার, যিনি ফটোগ্রাফির টেকনিক্যাল দিকগুলো বোঝার জন্য আরো ভালো ভিজ্যুয়াল টুলস চেয়েছিলেন। টুলসগুলো আসল অপটিক্স ও পদার্থবিজ্ঞানের উপর ভিত্তি করে তৈরি — আনুমানিক হিসাব নয় — তাই ফিল্ডে তুমি এর ফলাফলের উপর আস্থা রাখতে পারো।"
       },
       "getInTouch": {
-        "title": "Get in touch",
-        "body": "Have a suggestion, bug report, or tool idea? Reach out via the <contactLink>contact page</contactLink>."
+        "title": "যোগাযোগ করো",
+        "body": "কোনো পরামর্শ, বাগ রিপোর্ট বা টুল আইডিয়া আছে? <contactLink>যোগাযোগ পেজ</contactLink> থেকে যোগাযোগ করো।"
       }
     }
   }

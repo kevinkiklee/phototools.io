@@ -1,11 +1,11 @@
 {
   "toolUI": {
     "nd-filter-calculator": {
-      "baseShutterSpeed": "Base Shutter Speed",
-      "ndFilter": "ND Filter",
-      "resultingShutterSpeed": "Resulting Shutter Speed",
-      "stopsAdded": "Stops Added",
-      "quickReference": "Quick Reference",
+      "baseShutterSpeed": "Basislukkertid",
+      "ndFilter": "ND-filter",
+      "resultingShutterSpeed": "Resulterende lukkertid",
+      "stopsAdded": "Tilføjede stops",
+      "quickReference": "Hurtigoversigt",
       "tableBase": "Base"
     }
   }

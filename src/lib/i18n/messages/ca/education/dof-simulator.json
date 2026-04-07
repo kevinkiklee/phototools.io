@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "La profunditat de camp (DoF) és el rang de distàncies de la teva foto que apareix acceptablement nítid. Una profunditat de camp reduïda desenfoca el fons darrere del subjecte, mentre que una profunditat de camp gran manté tot nítid, del primer pla a l'horitzó. Controlar la profunditat de camp és una de les eines creatives més potents de la fotografia.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Com funciona la profunditat de camp",
+          "text": "La profunditat de camp es regeix pel cercle de confusió (CoC) — la taca de desenfocament més gran al sensor que encara sembla nítida a l'ull humà. Tres factors físics la determinen: la distància focal, el diafragma i la distància al subjecte. Un diafragma més obert (f-stop més baix) produeix una profunditat de camp més reduïda perquè l'objectiu fa convergir la llum amb angles més pronunciats, fent que els punts fora d'enfocament es converteixin en cercles més grans al sensor."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Distància focal i distància",
+          "text": "Les distàncies focals més llargues amplien la imatge, cosa que també amplia els cercles de desenfocament, reduint la profunditat de camp. Acostar-te al subjecte redueix la profunditat de camp pel mateix motiu — la diferència relativa de distància entre el subjecte i el fons es fa més gran. La distància hiperfocal és aquella distància d'enfocament en què la profunditat de camp s'estén des de la meitat d'aquesta distància fins a l'infinit, maximitzant la nitidesa de tota l'escena."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Bokeh i difracció",
+          "text": "El bokeh fa referència a la qualitat de les zones desenfocades. El nombre i la forma de les lamel·les del diafragma afecten el seu caràcter — més lamel·les arrodonides produeixen altes llums més suaus i circulars. Amb diafragmes molt tancats (f/16+), la difracció fa que la llum es dispersi al passar per les vores del diafragma, suavitzant tota la imatge fins i tot dins de la zona de nitidesa. Sempre hi ha un punt dolç — normalment al voltant de f/5.6-f/8 en full frame — on la nitidesa i la profunditat de camp estan ben equilibrades."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "Diafragma",
+          "description": "Els diafragmes més oberts (f/1.4-f/2.8) creen una profunditat de camp reduïda amb un bokeh cremós. Els més tancats (f/8-f/16) augmenten la nitidesa a tota l'escena."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "Distància focal",
+          "description": "Els objectius més llargs comprimeixen la perspectiva i redueixen la profunditat de camp amb el mateix diafragma i enquadrament. Un 200mm a f/4 té molta menys profunditat de camp que un 35mm a f/4."
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "Distància al subjecte",
+          "description": "Com més a prop enfoques, més reduïda és la profunditat de camp. Els fotògrafs de macro sovint treballen amb profunditats de camp mesurades en mil·límetres."
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "Mida del sensor",
+          "description": "Els sensors més grans requereixen distàncies focals més llargues per al mateix enquadrament, cosa que indirectament redueix la profunditat de camp. Una càmera full frame produeix menys profunditat de camp que una Micro Quatre Terços amb enquadrament equivalent."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "Per a retrats de grup, fes servir f/5.6 o més tancat i col·loca tothom al mateix pla focal. Una persona mig pas endavant pot quedar fora d'enfocament amb diafragmes oberts."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "Quan fotografiïs paisatge, enfoca a la distància hiperfocal en comptes de l'infinit. Això maximitza la zona de nitidesa des del primer pla pròxim fins al fons llunyà."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Si vols el màxim desenfocament de fons en un retrat, augmenta la distància focal i acosta't al subjecte tant com l'enquadrament permeti — els dos canvis es combinen per reduir la profunditat de camp dràsticament."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "Distància focal",
+          "definition": "La distància en mil·límetres des del centre òptic de l'objectiu fins al sensor quan s'enfoca a l'infinit. Les distàncies focals més llargues amplien la imatge i redueixen la profunditat de camp."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "Diafragma",
+          "definition": "La mida de l'obertura de l'objectiu, expressada com a f-stop (p. ex., f/2.8). Els f-stops més baixos signifiquen obertura més ampla, deixant entrar més llum i produint profunditat de camp més reduïda."
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "Distància al subjecte",
+          "definition": "La distància des del sensor de la càmera fins al punt d'enfocament. Les distàncies d'enfocament més curtes donen una profunditat de camp més reduïda."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "Mida del sensor",
+          "definition": "Les dimensions físiques del sensor. Els sensors més grans (full frame, mitjà format) produeixen menys profunditat de camp amb enquadrament equivalent comparats amb sensors més petits (APS-C, Micro Quatre Terços)."
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "Orientació",
+          "definition": "Alterna entre orientació horitzontal (landscape) i vertical (portrait). Això afecta la referència d'enquadrament per als càlculs de distància al subjecte."
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "Límit d'enfocament proper",
+          "definition": "La distància més propera a la càmera que apareix acceptablement nítida. Tot el que hi hagi més a prop es veurà desenfocat."
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "Límit d'enfocament llunyà",
+          "definition": "La distància més llunyana a la càmera que apareix acceptablement nítida. Quan arriba a l'infinit, tot el que hi hagi més enllà del límit proper està enfocat."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Profunditat de camp total",
+          "definition": "La distància total entre els límits d'enfocament proper i llunyà — tota la zona que apareix nítida a la imatge."
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "Distància hiperfocal",
+          "definition": "La distància d'enfocament que maximitza la profunditat de camp. Quan enfoques a aquesta distància, tot des de la meitat de la hiperfocal fins a l'infinit es veu nítid."
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "Desenfocament del fons",
+          "definition": "Una mesura de com de desenfocat apareix el fons darrere del subjecte. Els valors més alts signifiquen més desenfocament i més aïllament del subjecte."
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "Cercle de confusió",
+          "definition": "El diàmetre màxim d'una taca de desenfocament al sensor que encara sembla un punt a l'ull humà. Determina el límit de la nitidesa acceptable per als càlculs de profunditat de camp."
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "Puntuació d'aïllament",
+          "definition": "Una valoració composta (0-100) que indica com de ben separat està el subjecte del fons, segons la quantitat de desenfocament de fons en relació amb la mida del subjecte."
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "Forma del bokeh",
+          "definition": "La forma de les altes llums desenfocades, determinada pel nombre i la curvatura de les lamel·les del diafragma. Més lamel·les produeixen un bokeh més rodó i suau."
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "Difracció",
+          "definition": "Amb diafragmes molt tancats, la llum es desvia al voltant de les vores del diafragma, suavitzant la imatge. En sensors full frame, això sol fer-se notable a partir de f/16."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Estàs fent un retrat i vols un fons ben desenfocat. Quin diafragma hauries de triar?",
+          "hint": "Els f-stops més baixos signifiquen una obertura més ampla i més desenfocament del fons.",
+          "successMessage": "Correcte! Un diafragma obert com f/1.8 o f/2.8 crea una profunditat de camp reduïda, separant el subjecte del fons amb un bokeh agradable.",
+          "failureMessage": "No del tot. Els diafragmes tancats com f/11 o f/16 mantenen més parts de l'escena enfocades. Per al desenfocament del fons, tria un diafragma obert (f-stop baix).",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Estàs fotografiant un grup de 8 persones col·locades en dues files en un casament. Quin diafragma t'ajudarà a tenir tothom enfocat?",
+          "hint": "Amb persones a distàncies lleugerament diferents, necessites prou profunditat de camp per cobrir les dues files.",
+          "successMessage": "Bona tria! f/5.6 ofereix prou profunditat de camp per mantenir les dues files nítides mentre manté velocitats d'obturació raonables a interior.",
+          "failureMessage": "Aquest diafragma pot deixar la fila de darrere fora d'enfocament o ser innecessàriament tancat. Per a dues files, f/5.6 és un punt de partida fiable.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Estàs fent un paisatge amb flors silvestres a 2 metres i muntanyes al fons. Fas servir un 24mm en full frame. Quina tècnica maximitzarà la nitidesa de davant a darrere?",
+          "hint": "Hi ha una distància concreta en què pots enfocar per maximitzar la zona nítida, del primer pla fins a l'infinit.",
+          "successMessage": "Exacte! Enfocar a la distància hiperfocal amb f/11 assegura que tot, des d'aproximadament 1 metre fins a l'infinit, sigui acceptablement nítid — perfecte per a aquesta escena.",
+          "failureMessage": "Enfocar a l'infinit deixaria les flors del primer pla suaus. Fes servir la distància hiperfocal per estendre la nitidesa des del primer pla fins a l'infinit.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Enfocar a les flors (2m)" },
+            "1": { "label": "Enfocar a les muntanyes (infinit)" },
+            "2": { "label": "Enfocar a la distància hiperfocal" },
+            "3": { "label": "Enfocar a mig camí entre flors i muntanyes" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Estàs fent macro d'una flor i veus que només els pètals del davant són nítids. La resta de la flor es dilueix en desenfocament. Estàs a f/5.6. Què hauries de fer per enfocar més parts de la flor?",
+          "hint": "A distàncies d'enfocament curtes, la profunditat de camp es torna extremament prima. Pensa en el diafragma.",
+          "successMessage": "Correcte! Tancar el diafragma a f/11 o f/16 augmenta aquesta profunditat de camp primíssima del treball macro. Vigila la difracció als diafragmes molt tancats.",
+          "failureMessage": "Obrir més el diafragma reduiria encara més la profunditat de camp. En macro, tancar el diafragma (f-stop més alt) és la manera principal de guanyar profunditat.",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Obrir a f/2.8 per tenir més llum" },
+            "1": { "label": "Tancar a f/11" },
+            "2": { "label": "Canviar a un objectiu més ample" },
+            "3": { "label": "Allunyar-te més de la flor" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Compares dues càmeres per a retrat: una full frame amb un 85mm f/1.8 i una Micro Quatre Terços amb un 42.5mm f/1.8. Les dues donen el mateix enquadrament. Quina produeix menys profunditat de camp?",
+          "hint": "Pensa en les distàncies focals equivalents i com la mida del sensor afecta el càlcul de profunditat de camp al mateix f-stop.",
+          "successMessage": "Correcte! La full frame produeix aproximadament 2 passos menys de profunditat de camp. Tot i que l'objectiu MFT té el mateix f-stop, la distància focal real més curta (42.5mm vs 85mm) dona més profunditat de camp amb enquadrament equivalent.",
+          "failureMessage": "Tot i que els dos objectius són f/1.8, la full frame fa servir una distància focal real més llarga per al mateix enquadrament, produint una profunditat de camp significativament més reduïda.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Full frame amb 85mm f/1.8" },
+            "1": { "label": "Micro Quatre Terços amb 42.5mm f/1.8" },
+            "2": { "label": "Les dues produeixen la mateixa profunditat de camp" }
           }
         }
       }

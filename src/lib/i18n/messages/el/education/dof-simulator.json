@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "Το βάθος πεδίου (DoF) είναι το εύρος αποστάσεων στη φωτογραφία σου που φαίνεται αποδεκτά ευκρινές. Ένα ρηχό DoF θολώνει το φόντο πίσω από το θέμα σου, ενώ ένα βαθύ DoF κρατάει τα πάντα από το προσκήνιο μέχρι τον ορίζοντα σε εστίαση. Ο έλεγχος του DoF είναι ένα από τα πιο δυνατά δημιουργικά εργαλεία στη φωτογραφία.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Πώς λειτουργεί το DoF",
+          "text": "Το βάθος πεδίου καθορίζεται από τον κύκλο σύγχυσης (CoC) — το μεγαλύτερο σημείο θολώματος στον αισθητήρα που φαίνεται ακόμα ευκρινές στο ανθρώπινο μάτι. Τρεις φυσικοί παράγοντες καθορίζουν το DoF: η εστιακή απόσταση, το διάφραγμα και η απόσταση του θέματος. Ένα μεγαλύτερο διάφραγμα (χαμηλότερος αριθμός f) δίνει πιο ρηχό DoF γιατί ο φακός συγκλίνει το φως σε πιο απότομες γωνίες, κάνοντας τα εκτός εστίασης σημεία να εξαπλώνονται σε μεγαλύτερους κύκλους στον αισθητήρα."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Εστιακή απόσταση & απόσταση θέματος",
+          "text": "Οι μεγαλύτερες εστιακές αποστάσεις μεγεθύνουν την εικόνα, πράγμα που μεγεθύνει και τους κύκλους θολώματος, περιορίζοντας το DoF. Το να πλησιάζεις στο θέμα σου μειώνει το DoF για τον ίδιο λόγο — η σχετική διαφορά απόστασης μεταξύ θέματος και φόντου γίνεται μεγαλύτερη. Η υπερεστιακή απόσταση είναι η απόσταση εστίασης στην οποία το DoF επεκτείνεται από τη μισή αυτής της απόστασης μέχρι το άπειρο, μεγιστοποιώντας την ευκρίνεια σε όλη τη σκηνή."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Bokeh & περίθλαση",
+          "text": "Το bokeh αφορά την ποιότητα των εκτός εστίασης περιοχών. Ο αριθμός και το σχήμα των λεπίδων του διαφράγματος επηρεάζουν τον χαρακτήρα του bokeh — πιο στρογγυλεμένες λεπίδες δίνουν πιο απαλά, πιο κυκλικά φωτεινά σημεία. Σε πολύ μικρά διαφράγματα (f/16+), η περίθλαση κάνει το φως να εξαπλώνεται καθώς περνά τις άκρες του διαφράγματος, μαλακώνοντας ολόκληρη την εικόνα ακόμα και μέσα στη ζώνη του DoF. Υπάρχει πάντα ένα sweet spot — συνήθως γύρω στο f/5.6-f/8 σε full-frame — όπου η ευκρίνεια και το βάθος πεδίου ισορροπούν ιδανικά."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "Διάφραγμα",
+          "description": "Μεγαλύτερα διαφράγματα (f/1.4-f/2.8) δημιουργούν ρηχό DoF με κρεμώδες bokeh. Πιο κλειστά διαφράγματα (f/8-f/16) αυξάνουν την ευκρίνεια σε όλη τη σκηνή."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "Εστιακή απόσταση",
+          "description": "Οι μεγαλύτεροι φακοί συμπιέζουν την προοπτική και περιορίζουν το DoF στο ίδιο διάφραγμα και κάδρο. Ένας φακός 200mm στο f/4 έχει πολύ μικρότερο DoF από έναν 35mm στο f/4."
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "Απόσταση θέματος",
+          "description": "Όσο πιο κοντά εστιάζεις, τόσο πιο ρηχό το DoF. Στη macro φωτογραφία, το DoF συχνά μετριέται σε χιλιοστά."
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "Μέγεθος αισθητήρα",
+          "description": "Οι μεγαλύτεροι αισθητήρες χρειάζονται μεγαλύτερες εστιακές αποστάσεις για το ίδιο κάδρο, πράγμα που περιορίζει έμμεσα το DoF. Μια full-frame κάμερα δίνει πιο ρηχό DoF από μια Micro Four Thirds σε ισοδύναμο κάδρο."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "Για ομαδικά πορτραίτα, χρησιμοποίησε f/5.6 ή πιο κλειστά και βάλε όλους στο ίδιο επίπεδο εστίασης. Ακόμα και ένα άτομο μισό βήμα μπροστά μπορεί να βγει εκτός εστίασης σε μεγάλα διαφράγματα."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "Όταν φωτογραφίζεις τοπία, εστίασε στην υπερεστιακή απόσταση αντί για το άπειρο. Αυτό μεγιστοποιεί τη ζώνη ευκρίνειας από το κοντινό προσκήνιο μέχρι το μακρινό φόντο."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Αν θέλεις μέγιστο θόλωμα φόντου για πορτραίτο, αύξησε την εστιακή απόσταση και πλησίασε όσο σου επιτρέπει το κάδρο — και οι δύο αλλαγές συνδυαζόμενες μειώνουν δραματικά το DoF."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "Εστιακή απόσταση",
+          "definition": "Η απόσταση σε χιλιοστά από το οπτικό κέντρο του φακού μέχρι τον αισθητήρα όταν η εστίαση είναι στο άπειρο. Μεγαλύτερες εστιακές αποστάσεις μεγεθύνουν την εικόνα και περιορίζουν το βάθος πεδίου."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "Διάφραγμα",
+          "definition": "Το μέγεθος του ανοίγματος του φακού, εκφρασμένο ως αριθμός f (π.χ. f/2.8). Χαμηλότεροι αριθμοί f σημαίνουν μεγαλύτερο άνοιγμα, περισσότερο φως και πιο ρηχό βάθος πεδίου."
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "Απόσταση θέματος",
+          "definition": "Η απόσταση από τον αισθητήρα της κάμερας μέχρι το σημείο εστίασης. Πιο κοντινές αποστάσεις δίνουν πιο ρηχό βάθος πεδίου."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "Μέγεθος αισθητήρα",
+          "definition": "Οι φυσικές διαστάσεις του αισθητήρα. Οι μεγαλύτεροι αισθητήρες (full-frame, medium format) δίνουν πιο ρηχό βάθος πεδίου σε ισοδύναμο κάδρο σε σχέση με μικρότερους (APS-C, Micro Four Thirds)."
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "Προσανατολισμός",
+          "definition": "Εναλλαγή μεταξύ οριζόντιου (landscape) και κάθετου (portrait) προσανατολισμού λήψης. Επηρεάζει την αναφορά κάδρου για τους υπολογισμούς απόστασης θέματος."
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "Όριο κοντινής εστίασης",
+          "definition": "Η πιο κοντινή απόσταση από την κάμερα που φαίνεται αποδεκτά ευκρινής. Οτιδήποτε πιο κοντά θα φαίνεται θολωμένο."
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "Όριο μακρινής εστίασης",
+          "definition": "Η πιο μακρινή απόσταση από την κάμερα που φαίνεται αποδεκτά ευκρινής. Όταν φτάνει στο άπειρο, όλα πέρα από το κοντινό όριο είναι σε εστίαση."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Συνολικό βάθος πεδίου",
+          "definition": "Η συνολική απόσταση μεταξύ του κοντινού και του μακρινού ορίου εστίασης — ολόκληρη η ζώνη που φαίνεται ευκρινής στην εικόνα."
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "Υπερεστιακή απόσταση",
+          "definition": "Η απόσταση εστίασης που μεγιστοποιεί το βάθος πεδίου. Όταν εστιάζεις σε αυτή την απόσταση, όλα από τη μισή της υπερεστιακής απόστασης μέχρι το άπειρο φαίνονται ευκρινή."
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "Θόλωμα φόντου",
+          "definition": "Μέτρηση του πόσο θολό φαίνεται το φόντο πίσω από το θέμα σου. Υψηλότερες τιμές σημαίνουν εντονότερο θόλωμα και καλύτερη απομόνωση του θέματος."
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "Κύκλος σύγχυσης",
+          "definition": "Η μέγιστη διάμετρος θολώματος στον αισθητήρα που εμφανίζεται ακόμα ως σημείο στο ανθρώπινο μάτι. Καθορίζει το όριο της αποδεκτής ευκρίνειας στους υπολογισμούς βάθους πεδίου."
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "Βαθμός απομόνωσης",
+          "definition": "Σύνθετη βαθμολογία (0-100) που δείχνει πόσο καλά διαχωρίζεται το θέμα από το φόντο, με βάση το θόλωμα του φόντου σε σχέση με το μέγεθος του θέματος."
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "Σχήμα bokeh",
+          "definition": "Το σχήμα των εκτός εστίασης φωτεινών σημείων, που καθορίζεται από τον αριθμό και την καμπυλότητα των λεπίδων του διαφράγματος. Περισσότερες λεπίδες δίνουν πιο στρογγυλό, πιο απαλό bokeh."
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "Περίθλαση",
+          "definition": "Σε πολύ μικρά διαφράγματα, το φως κάμπτεται γύρω από τις άκρες του διαφράγματος, μαλακώνοντας την εικόνα. Σε full-frame αισθητήρες γίνεται συνήθως αισθητό πέρα από το f/16."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Φωτογραφίζεις ένα πορτραίτο και θέλεις όμορφα θολωμένο φόντο. Ποιο διάφραγμα πρέπει να διαλέξεις;",
+          "hint": "Χαμηλότεροι αριθμοί f σημαίνουν μεγαλύτερο άνοιγμα φακού και περισσότερο θόλωμα φόντου.",
+          "successMessage": "Σωστά! Ένα μεγάλο διάφραγμα όπως f/1.8 ή f/2.8 δημιουργεί ρηχό βάθος πεδίου, απομονώνοντας το θέμα σου από το φόντο με ωραίο bokeh.",
+          "failureMessage": "Όχι ακριβώς. Τα κλειστά διαφράγματα όπως f/11 ή f/16 κρατάνε περισσότερη σκηνή σε εστίαση. Για θόλωμα φόντου, διάλεξε μεγάλο διάφραγμα (χαμηλό f).",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Φωτογραφίζεις μια ομάδα 8 ανθρώπων σε δύο σειρές σε έναν γάμο. Ποιο διάφραγμα θα σε βοηθήσει να κρατήσεις όλους σε εστίαση;",
+          "hint": "Με ανθρώπους σε ελαφρώς διαφορετικές αποστάσεις, χρειάζεσαι αρκετό βάθος πεδίου για να καλύψεις και τις δύο σειρές.",
+          "successMessage": "Καλή επιλογή! Το f/5.6 δίνει αρκετό βάθος πεδίου για να μείνουν και οι δύο σειρές ευκρινείς, διατηρώντας παράλληλα αξιοπρεπή ταχύτητα κλείστρου σε εσωτερικό χώρο.",
+          "failureMessage": "Αυτό το διάφραγμα μπορεί να αφήσει την πίσω σειρά εκτός εστίασης ή να είναι άσκοπα κλειστό. Για δύο σειρές ανθρώπων, το f/5.6 είναι αξιόπιστο σημείο εκκίνησης.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Φωτογραφίζεις τοπίο με αγριολούλουδα στα 2 μέτρα και βουνά στο φόντο. Χρησιμοποιείς φακό 24mm σε full-frame κάμερα. Ποια τεχνική θα μεγιστοποιήσει την ευκρίνεια από μπροστά έως πίσω;",
+          "hint": "Υπάρχει μια συγκεκριμένη απόσταση εστίασης που μεγιστοποιεί την ευκρινή ζώνη από το προσκήνιο μέχρι το άπειρο.",
+          "successMessage": "Ακριβώς! Η εστίαση στην υπερεστιακή απόσταση στο f/11 διασφαλίζει ότι τα πάντα από περίπου 1 μέτρο μέχρι το άπειρο είναι αποδεκτά ευκρινή — τέλεια για αυτή τη σκηνή.",
+          "failureMessage": "Η εστίαση στο άπειρο θα άφηνε τα λουλούδια του προσκηνίου μαλακά. Χρησιμοποίησε την υπερεστιακή απόσταση για να επεκτείνεις την ευκρίνεια από το κοντινό προσκήνιο μέχρι το άπειρο.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Εστίαση στα λουλούδια (2m)" },
+            "1": { "label": "Εστίαση στα βουνά (άπειρο)" },
+            "2": { "label": "Εστίαση στην υπερεστιακή απόσταση" },
+            "3": { "label": "Εστίαση στη μέση μεταξύ λουλουδιών και βουνών" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Κάνεις macro φωτογραφία σε ένα λουλούδι και παρατηρείς ότι μόνο τα μπροστινά πέταλα είναι ευκρινή. Το υπόλοιπο λουλούδι γίνεται θολό. Είσαι στο f/5.6. Τι πρέπει να κάνεις για να βγει περισσότερο λουλούδι σε εστίαση;",
+          "hint": "Σε κοντινές αποστάσεις εστίασης, το DoF γίνεται εξαιρετικά λεπτό. Σκέψου το διάφραγμά σου.",
+          "successMessage": "Σωστά! Κλείνοντας το διάφραγμα στο f/11 ή f/16 αυξάνεις το εξαιρετικά λεπτό DoF στη macro φωτογραφία. Πρόσεχε όμως για μαλάκωμα από περίθλαση σε πολύ κλειστά διαφράγματα.",
+          "failureMessage": "Το άνοιγμα του διαφράγματος θα έκανε το DoF ακόμα πιο λεπτό. Στη macro φωτογραφία, το κλείσιμο του διαφράγματος (υψηλότερος f) είναι ο κύριος τρόπος για περισσότερο βάθος.",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Άνοιξε στο f/2.8 για περισσότερο φως" },
+            "1": { "label": "Κλείσε στο f/11" },
+            "2": { "label": "Γύρισε σε πιο ευρυγώνιο φακό" },
+            "3": { "label": "Απομακρύνσου από το λουλούδι" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Συγκρίνεις δύο κάμερες για πορτραίτα: μια full-frame με φακό 85mm f/1.8 και μια Micro Four Thirds με φακό 42.5mm f/1.8. Και οι δύο δίνουν το ίδιο κάδρο. Ποια κάμερα δίνει πιο ρηχό βάθος πεδίου;",
+          "hint": "Σκέψου τις ισοδύναμες εστιακές αποστάσεις και πώς το μέγεθος του αισθητήρα επηρεάζει τον υπολογισμό του DoF στο ίδιο f.",
+          "successMessage": "Σωστά! Η full-frame δίνει περίπου 2 stops πιο ρηχό DoF. Ενώ ο MFT φακός έχει το ίδιο f, η μικρότερη πραγματική εστιακή απόσταση (42.5mm έναντι 85mm) έχει ως αποτέλεσμα μεγαλύτερο βάθος πεδίου σε ισοδύναμο κάδρο.",
+          "failureMessage": "Παρότι και οι δύο φακοί είναι f/1.8, η full-frame χρησιμοποιεί μεγαλύτερη πραγματική εστιακή απόσταση για το ίδιο κάδρο, δίνοντας σημαντικά πιο ρηχό DoF.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Full-frame με 85mm f/1.8" },
+            "1": { "label": "Micro Four Thirds με 42.5mm f/1.8" },
+            "2": { "label": "Και οι δύο δίνουν πανομοιότυπο DoF" }
           }
         }
       }

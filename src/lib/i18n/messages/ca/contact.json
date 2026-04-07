@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "Contacta'ns",
+    "description": "Tens una pregunta, has trobat un error o vols proposar una eina nova? Ens encantarà saber de tu.",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email",
-      "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "nameLabel": "Nom",
+      "namePlaceholder": "El teu nom",
+      "emailLabel": "Correu electrònic",
+      "emailPlaceholder": "tu@exemple.cat",
+      "subjectLabel": "Assumpte",
+      "subjectPlaceholder": "De què va?",
+      "messageLabel": "Missatge",
+      "messagePlaceholder": "El teu missatge...",
+      "submit": "Envia el missatge",
+      "sending": "Enviant...",
+      "honeypotLabel": "Lloc web",
+      "successToast": "Missatge enviat! Et respondrem aviat.",
+      "errorToast": "Alguna cosa ha fallat. Torna-ho a provar.",
+      "networkErrorToast": "Error de xarxa. Comprova la connexió i torna-ho a provar.",
+      "sentTitle": "Gràcies per escriure'ns!",
+      "sentMessage": "Et respondrem al més aviat possible.",
+      "sendAnother": "Envia un altre missatge"
     }
   }
 }

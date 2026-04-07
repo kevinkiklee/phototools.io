@@ -1,146 +1,146 @@
 {
   "education": {
     "color-scheme-generator": {
-      "beginner": "Color harmony is about choosing colors that look good together. Just like musical chords, certain color combinations create pleasing visual relationships. Photographers use color harmony to plan wardrobe, set design, and even timing of outdoor shoots to get the right palette from nature.",
+      "beginner": "Колірна гармонія — це про добір кольорів, які добре виглядають разом. Як і музичні акорди, певні поєднання створюють приємні візуальні зв'язки. Фотографи використовують її, щоб планувати гардероб, декорації і навіть час зйомки на вулиці — щоб природа сама дала потрібну палітру.",
       "deeper": {
         "0": {
-          "heading": "The Color Wheel",
-          "text": "Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle (0\u2013360\u00b0), saturation is the distance from center, and lightness controls brightness. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary."
+          "heading": "Колірне коло",
+          "text": "Теорія колірної гармонії базується на колірному колі, яке розкладає відтінки по колу за довжинами хвиль. Модель HSL (Hue, Saturation, Lightness) безпосередньо відповідає цьому колу: відтінок — це кут (0–360°), насиченість — віддаль від центру, а світлість — яскравість. У фотографії ці зв'язки з'являються природно: золота година дає аналогові теплі тони, а червоний сарай на тлі зелених полів — це комплементарна пара."
         },
         "1": {
-          "heading": "Complementary",
-          "text": "Two colors that sit directly opposite each other on the wheel (180\u00b0 apart), such as blue and orange or red and green. This creates maximum contrast and visual energy. Great for making a subject pop against a background — think golden-hour portraits where warm skin tones contrast with a cool blue sky."
+          "heading": "Комплементарна",
+          "text": "Два кольори, що стоять на колі рівно навпроти (180°): синій і помаранчевий або червоний і зелений. Це максимальний контраст і візуальна енергія. Гарно підходить, щоб об'єкт вистрибував з фону — наприклад, портрет у золоту годину з теплим тоном шкіри на тлі холодного блакитного неба."
         },
         "2": {
-          "heading": "Analogous",
-          "text": "Three colors that are neighbors on the wheel, typically within a 30\u201360\u00b0 spread. They produce smooth, cohesive palettes with low contrast. Ideal for landscapes and mood-driven work — autumn foliage is a natural analogous palette of reds, oranges, and yellows."
+          "heading": "Аналогова",
+          "text": "Три кольори-сусіди на колі, зазвичай у межах 30–60°. Дають плавні, цілісні палітри з низьким контрастом. Ідеально для пейзажів і атмосферних кадрів — осіннє листя з його червоними, помаранчевими й жовтими тонами є природною аналоговою палітрою."
         },
         "3": {
-          "heading": "Triadic",
-          "text": "Three colors evenly spaced at 120\u00b0 intervals around the wheel, such as red, yellow, and blue. Triadic schemes feel balanced and vibrant without the tension of complementary contrast. Use one dominant color and the other two as accents for the strongest results."
+          "heading": "Тріадна",
+          "text": "Три кольори, рівномірно розставлені по колу через 120°, наприклад, червоний, жовтий і синій. Тріади збалансовані й насичені, але без такої напруги, як у комплементарних. Для найсильнішого ефекту зроби один колір домінантним, а два інші — акцентами."
         },
         "4": {
-          "heading": "Split Complementary",
-          "text": "A variation of complementary that uses the two neighbors of the opposite color instead of the opposite itself. This keeps the high contrast of complementary but reduces the visual tension, making it more versatile and forgiving. A popular choice for styled portrait sessions."
+          "heading": "Розщеплена комплементарна",
+          "text": "Варіація комплементарної схеми: замість протилежного кольору беруть двох його сусідів. Контраст лишається високим, але напруга спадає — це робить схему гнучкішою і простішою в роботі. Популярний вибір для стилізованих портретних зйомок."
         },
         "5": {
-          "heading": "Tetradic (Double Complementary)",
-          "text": "Four colors forming a rectangle on the wheel — essentially two complementary pairs. This offers the richest, most complex palette but requires careful balance. Let one color dominate and use the others as supporting accents to avoid a chaotic look."
+          "heading": "Тетрадична (подвійна комплементарна)",
+          "text": "Чотири кольори, що утворюють на колі прямокутник — фактично дві комплементарні пари. Найбагатша і найскладніша палітра, яка вимагає уваги до балансу. Дай одному кольору домінувати, а решті — підтримувати, інакше кадр стане хаотичним."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Harmony Type",
-          "description": "The geometric relationship between colors on the wheel: complementary, analogous, triadic, split-complementary, or tetradic."
+          "label": "Тип гармонії",
+          "description": "Геометричний зв'язок між кольорами на колі: комплементарна, аналогова, тріадна, розщеплена комплементарна або тетрадична."
         },
         "1": {
-          "label": "Hue",
-          "description": "The base color angle on the wheel (0-360 degrees). This is the starting point for all harmony calculations."
+          "label": "Відтінок (Hue)",
+          "description": "Базовий кут кольору на колі (0–360°). Це стартова точка для всіх розрахунків гармонії."
         },
         "2": {
-          "label": "Saturation",
-          "description": "How vivid or muted the colors are. Lower saturation produces pastels and earth tones; higher saturation gives bold, vibrant palettes."
+          "label": "Насиченість",
+          "description": "Наскільки кольори насичені або приглушені. Низька насиченість дає пастельні й земляні тони, висока — сміливі й яскраві палітри."
         },
         "3": {
-          "label": "Lightness",
-          "description": "Controls brightness. Adjusting lightness can make the same hue feel completely different — dark navy vs. sky blue are the same hue at different lightness."
+          "label": "Світлість",
+          "description": "Керує яскравістю. Зміна світлості може зовсім по-іншому показати той самий відтінок: темно-синій і блакитний — це один відтінок з різною світлістю."
         }
       },
       "tips": {
         "0": {
-          "text": "For portrait sessions, pick a complementary or split-complementary palette, then have your subject wear the key color while the background provides the contrasting hue. Blue/orange (golden hour portraits) is a classic example."
+          "text": "Для портретних сесій вибери комплементарну або розщеплену комплементарну палітру й одягни модель у ключовий колір, а фоном зроби контрастний відтінок. Синій/помаранчевий (портрети у золоту годину) — класика."
         },
         "1": {
-          "text": "Use analogous harmony for landscapes — nature already works in analogous palettes. Match your wardrobe advice or prop choices to the dominant natural hues."
+          "text": "Для пейзажів використовуй аналогову гармонію — природа вже працює в аналогових палітрах. Підлаштуй гардероб чи реквізит під домінантні природні тони."
         },
         "2": {
-          "text": "Reduce saturation to 30-50% to preview how colors will look in a more muted, editorial style. High saturation works for commercial and fashion, but lower saturation often feels more sophisticated."
+          "text": "Опусти насиченість до 30–50%, щоб побачити, як кольори виглядатимуть у більш редакційному, приглушеному стилі. Висока насиченість — для комерції і моди, нижча часто виглядає витонченіше."
         }
       },
       "tooltips": {
         "Harmony Type": {
-          "term": "Harmony Type",
-          "definition": "The color relationship pattern: Complementary (opposite), Analogous (neighbors), Triadic (three-way), Split Complementary (offset opposites), or Tetradic (four-way rectangle)."
+          "term": "Тип гармонії",
+          "definition": "Схема співвідношення кольорів: комплементарна (протилежні), аналогова (сусіди), тріадна (три рівномірно), розщеплена комплементарна (зсунуті протилежні) або тетрадична (прямокутник із чотирьох)."
         },
         "Key Color": {
-          "term": "Key Color",
-          "definition": "The dominant color in your palette. All other harmony colors are calculated relative to this starting hue."
+          "term": "Ключовий колір",
+          "definition": "Домінантний колір палітри. Усі інші кольори гармонії розраховуються відносно цього стартового відтінку."
         },
         "Hue": {
-          "term": "Hue",
-          "definition": "The color angle on the wheel in degrees: 0\u00b0 is red, 120\u00b0 is green, 240\u00b0 is blue."
+          "term": "Відтінок",
+          "definition": "Кут кольору на колі в градусах: 0° — червоний, 120° — зелений, 240° — синій."
         },
         "Saturation": {
-          "term": "Saturation",
-          "definition": "Color intensity from 0% (gray) to 100% (fully vivid). Controls how bold or muted the entire palette appears."
+          "term": "Насиченість",
+          "definition": "Інтенсивність кольору від 0% (сірий) до 100% (повна яскравість). Визначає, наскільки смілива або приглушена вся палітра."
         },
         "Lightness": {
-          "term": "Lightness",
-          "definition": "Brightness from 0% (black) to 100% (white). At 50% you see the pure color; below is darker, above is lighter."
+          "term": "Світлість",
+          "definition": "Яскравість від 0% (чорний) до 100% (білий). На 50% видно чистий колір, нижче — темніше, вище — світліше."
         },
         "Split Angle": {
-          "term": "Split Angle",
-          "definition": "How far apart the two split-complementary colors are from the direct opposite. Wider angles give more contrast."
+          "term": "Кут розщеплення",
+          "definition": "На скільки розведені два кольори розщепленої комплементарної схеми відносно прямого протилежного. Ширший кут — більший контраст."
         },
         "Spread": {
-          "term": "Spread",
-          "definition": "How far apart the analogous colors are from the key hue. Narrow spread gives subtle variation; wide spread increases diversity."
+          "term": "Розмах",
+          "definition": "На скільки розведені аналогові кольори від ключового відтінку. Малий розмах дає ледь помітні варіації, великий — сильнішу різноманітність."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want maximum contrast between two colors for a bold graphic portrait. Which harmony type gives you the most visual tension?",
-          "hint": "Colors directly across from each other on the wheel create the strongest contrast.",
-          "successMessage": "Correct! Complementary colors sit 180 degrees apart and produce the highest contrast — perfect for bold, eye-catching compositions.",
-          "failureMessage": "Complementary harmony places colors directly opposite on the wheel, creating maximum visual contrast.",
+          "scenario": "Тобі треба максимальний контраст між двома кольорами для сміливого графічного портрета. Який тип гармонії дає найбільше візуальної напруги?",
+          "hint": "Кольори, що стоять навпроти на колі, створюють найсильніший контраст.",
+          "successMessage": "Правильно! Комплементарні кольори розташовані на 180° одне від одного і дають найвищий контраст — якраз для сміливих, ефектних композицій.",
+          "failureMessage": "Комплементарна гармонія ставить кольори прямо напроти на колі, створюючи максимальний візуальний контраст.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Triadic" }
+            "0": { "label": "Комплементарна" },
+            "1": { "label": "Аналогова" },
+            "2": { "label": "Тріадна" }
           }
         },
         "1": {
-          "scenario": "You are planning a golden hour shoot and want warm, cohesive tones. Which harmony type keeps colors close together on the wheel?",
-          "hint": "This type uses neighboring hues for a smooth, unified feel.",
-          "successMessage": "Right! Analogous harmony uses adjacent colors, giving you a warm, cohesive palette perfect for golden hour.",
-          "failureMessage": "Analogous harmony keeps all colors as neighbors on the wheel — ideal for unified warm or cool palettes.",
+          "scenario": "Плануєш зйомку у золоту годину і хочеш теплі, цілісні тони. Який тип гармонії тримає кольори близько на колі?",
+          "hint": "Ця гармонія бере сусідні відтінки й дає плавне, єдине відчуття.",
+          "successMessage": "Саме так! Аналогова гармонія бере сусідні кольори й дає теплу, цілісну палітру — ідеально для золотої години.",
+          "failureMessage": "Аналогова гармонія тримає всі кольори сусідами на колі — добре для єдиних теплих або холодних палітр.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Tetradic" }
+            "0": { "label": "Комплементарна" },
+            "1": { "label": "Аналогова" },
+            "2": { "label": "Тетрадична" }
           }
         },
         "2": {
-          "scenario": "A client wants a portrait with contrast but not as intense as pure complementary. Which harmony type softens the opposition while keeping visual interest?",
-          "hint": "This type uses two colors near the complement instead of the direct opposite.",
-          "successMessage": "Excellent! Split complementary keeps the contrast of complementary but splits the opposing color into two flanking hues, producing a less jarring but still dynamic palette.",
-          "failureMessage": "Split Complementary is the answer — it replaces the single opposite color with two neighbors of the opposite, softening the contrast while maintaining visual energy.",
+          "scenario": "Клієнт хоче портрет із контрастом, але не таким різким, як у комплементарної. Який тип гармонії зменшує жорстку протилежність, але лишає візуальний інтерес?",
+          "hint": "Ця гармонія замість прямо протилежного бере двох його сусідів.",
+          "successMessage": "Відмінно! Розщеплена комплементарна тримає контраст комплементарної, але розкладає протилежний колір на два сусідні відтінки — менш різко, але все ще динамічно.",
+          "failureMessage": "Відповідь — розщеплена комплементарна: вона замінює один протилежний колір на двох його сусідів, пом'якшуючи контраст без втрати візуальної енергії.",
           "options": {
-            "0": { "label": "Split Complementary" },
-            "1": { "label": "Triadic" },
-            "2": { "label": "Analogous" }
+            "0": { "label": "Розщеплена комплементарна" },
+            "1": { "label": "Тріадна" },
+            "2": { "label": "Аналогова" }
           }
         },
         "3": {
-          "scenario": "You set the key color to orange (hue ~30 degrees) with complementary harmony. What color will the complement be?",
-          "hint": "Complementary means 180 degrees opposite on the wheel.",
-          "successMessage": "Correct! 30\u00b0 + 180\u00b0 = 210\u00b0, which falls in the blue range. Orange and blue is one of photography most beloved complementary pairs.",
-          "failureMessage": "Adding 180\u00b0 to orange (30\u00b0) gives 210\u00b0, which is blue. The orange-blue complementary pair is a photography staple.",
+          "scenario": "Ключовий колір — помаранчевий (відтінок ~30°), гармонія комплементарна. Який колір буде комплементом?",
+          "hint": "Комплементарний — це +180° на колі.",
+          "successMessage": "Правильно! 30° + 180° = 210°, а це діапазон синього. Помаранчевий і синій — одна з улюблених фотографічних пар.",
+          "failureMessage": "Додавши 180° до помаранчевого (30°), отримуємо 210° — синій. Пара помаранчевий–синій у фотографії класична.",
           "options": {
-            "0": { "label": "Blue (~210\u00b0)" },
-            "1": { "label": "Green (~150\u00b0)" },
-            "2": { "label": "Red (~0\u00b0)" }
+            "0": { "label": "Синій (~210°)" },
+            "1": { "label": "Зелений (~150°)" },
+            "2": { "label": "Червоний (~0°)" }
           }
         },
         "4": {
-          "scenario": "You are art-directing a fashion editorial and need a four-color palette that provides both warm and cool tones with high visual richness. Which harmony type gives you four colors, and what is the main challenge when using it?",
-          "hint": "The four-color harmony forms a rectangle on the wheel.",
-          "successMessage": "Right! Tetradic harmony gives four colors forming a rectangle on the wheel. The main challenge is balance — with four distinct hues, one should dominate while the others accent. Without hierarchy, the image feels chaotic.",
-          "failureMessage": "Tetradic (double-complementary) provides four colors in a rectangular arrangement. The challenge is that four strong hues compete for attention — you need to designate one dominant color and use the others as accents.",
+          "scenario": "Ти працюєш арт-директором модної редакційної зйомки: потрібна палітра з чотирьох кольорів із теплими й холодними тонами і високою візуальною насиченістю. Який тип гармонії дає чотири кольори і в чому головна складність роботи з ним?",
+          "hint": "Чотирикольорова гармонія утворює на колі прямокутник.",
+          "successMessage": "Так! Тетрадична гармонія дає чотири кольори, що утворюють прямокутник на колі. Головна складність — баланс: із чотирма сильними відтінками треба зробити один домінантним, а решту — акцентами. Без ієрархії кадр стає хаотичним.",
+          "failureMessage": "Тетрадична (подвійна комплементарна) дає чотири кольори у прямокутнику. Складність у тому, що чотири сильні відтінки конкурують за увагу — один має бути домінантним, інші — акцентами.",
           "options": {
-            "0": { "label": "Tetradic — challenge is maintaining visual hierarchy among four hues" },
-            "1": { "label": "Triadic — challenge is having too few colors" },
-            "2": { "label": "Analogous — challenge is lack of contrast" }
+            "0": { "label": "Тетрадична — складність у збереженні візуальної ієрархії серед чотирьох відтінків" },
+            "1": { "label": "Тріадна — складність у тому, що кольорів надто мало" },
+            "2": { "label": "Аналогова — складність у браку контрасту" }
           }
         }
       }

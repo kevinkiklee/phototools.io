@@ -1,65 +1,65 @@
 {
   "education": {
     "shutter-speed-visualizer": {
-      "beginner": "The shutter speed guide helps you find the slowest shutter speed you can use while still getting a sharp handheld photo. If your shutter speed is too slow, camera shake from your hands will blur the image. The minimum safe speed depends on your focal length, whether you have image stabilization, and how steady your hands are.",
-      "deeper": "The classic \"reciprocal rule\" states that for sharp handheld photos, your shutter speed should be at least 1/(focal length) seconds — so a 200mm lens needs at least 1/200s. On crop-sensor cameras, you should use the equivalent focal length (e.g., 200mm on a 1.5x crop = 1/300s). Modern in-body stabilization (IBIS) and optical stabilization (OIS) can buy you 3-7 extra stops of handheld leeway, meaning that stabilized 200mm lens might be sharp at 1/15s or even slower. However, stabilization only compensates for camera shake, not subject motion. A person walking toward you at 1/15s will still be blurred regardless of stabilization. For moving subjects, you must select a shutter speed based on the subject's speed and distance, not just the focal length.",
+      "beginner": "Panduan kelajuan pengatup membantu anda mencari kelajuan pengatup paling perlahan yang boleh anda gunakan sambil masih mendapat foto tangan yang tajam. Jika kelajuan pengatup anda terlalu perlahan, gegaran kamera dari tangan anda akan mengaburkan imej. Kelajuan selamat minimum bergantung kepada panjang fokus anda, sama ada anda mempunyai penstabilan imej, dan betapa stabilnya tangan anda.",
+      "deeper": "\"Peraturan salingan\" klasik menyatakan bahawa untuk foto tangan yang tajam, kelajuan pengatup anda hendaklah sekurang-kurangnya 1/(panjang fokus) saat — jadi lensa 200mm memerlukan sekurang-kurangnya 1/200s. Pada kamera sensor crop, anda harus menggunakan panjang fokus setara (contoh 200mm pada crop 1.5x = 1/300s). Penstabilan dalam badan moden (IBIS) dan penstabilan optik (OIS) boleh memberi anda 3-7 stop tambahan ruang untuk penangkapan tangan, bermakna lensa 200mm yang distabilkan itu mungkin tajam pada 1/15s atau bahkan lebih perlahan. Walau bagaimanapun, penstabilan hanya mengimbangi gegaran kamera, bukan pergerakan subjek. Seorang yang berjalan ke arah anda pada 1/15s masih akan kabur tanpa mengira penstabilan. Untuk subjek bergerak, anda mesti memilih kelajuan pengatup berdasarkan kelajuan dan jarak subjek, bukan hanya panjang fokus.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify camera shake. The reciprocal rule (1/focal length) is the starting point for determining minimum shutter speed."
+          "label": "Panjang Fokus",
+          "description": "Panjang fokus lebih panjang membesarkan gegaran kamera. Peraturan salingan (1/panjang fokus) ialah titik permulaan untuk menentukan kelajuan pengatup minimum."
         },
         "1": {
-          "label": "Image Stabilization",
-          "description": "OIS (lens-based) typically provides 2-4 stops of benefit. IBIS (body-based) provides 3-5 stops. Combined OIS+IBIS can achieve 5-7 stops on some systems."
+          "label": "Penstabilan Imej",
+          "description": "OIS (berasaskan lensa) biasanya menyediakan 2-4 stop faedah. IBIS (berasaskan badan) menyediakan 3-5 stop. Gabungan OIS+IBIS boleh mencapai 5-7 stop pada sesetengah sistem."
         },
         "2": {
-          "label": "Subject Motion",
-          "description": "Still subjects require only enough speed to counter camera shake. Moving subjects need faster speeds regardless of stabilization: walking (~1/125s), running (~1/500s), vehicles (~1/1000s+)."
+          "label": "Pergerakan Subjek",
+          "description": "Subjek pegun hanya memerlukan kelajuan yang cukup untuk melawan gegaran kamera. Subjek bergerak memerlukan kelajuan lebih pantas tanpa mengira penstabilan: berjalan (~1/125s), berlari (~1/500s), kenderaan (~1/1000s+)."
         },
         "3": {
-          "label": "Sensor Size (Crop Factor)",
-          "description": "Crop-sensor cameras effectively multiply the focal length for the reciprocal rule. A 50mm lens on a 1.5x crop behaves like 75mm, so you need at least 1/75s."
+          "label": "Saiz Sensor (Faktor Crop)",
+          "description": "Kamera sensor crop secara berkesan mendarab panjang fokus untuk peraturan salingan. Lensa 50mm pada crop 1.5x berkelakuan seperti 75mm, jadi anda memerlukan sekurang-kurangnya 1/75s."
         }
       },
       "tips": {
         "0": {
-          "text": "Brace yourself against a wall, tuck your elbows in, and exhale slowly before pressing the shutter. Good technique can give you 1-2 extra stops of steadiness beyond the reciprocal rule."
+          "text": "Sandarkan diri anda pada dinding, rapatkan siku, dan tarik nafas perlahan sebelum menekan pengatup. Teknik yang baik boleh memberi anda 1-2 stop tambahan kestabilan melebihi peraturan salingan."
         },
         "1": {
-          "text": "When shooting people, the subject's motion usually dictates your minimum speed, not your focal length. Even with a wide-angle lens and stabilization, a child running requires at least 1/500s."
+          "text": "Apabila menangkap orang, pergerakan subjek biasanya menentukan kelajuan minimum anda, bukan panjang fokus anda. Walaupun dengan lensa sudut lebar dan penstabilan, seorang kanak-kanak yang berlari memerlukan sekurang-kurangnya 1/500s."
         },
         "2": {
-          "text": "If you are consistently shooting in low light, invest in a camera body with IBIS. The ability to shoot handheld at 1/2s with a wide-angle lens opens up possibilities that no amount of high-ISO performance can match."
+          "text": "Jika anda kerap menangkap dalam cahaya rendah, melabur dalam badan kamera dengan IBIS. Keupayaan untuk menangkap tangan pada 1/2s dengan lensa sudut lebar membuka kemungkinan yang tidak dapat ditandingi oleh mana-mana prestasi ISO tinggi."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Directly affects the minimum safe shutter speed through the reciprocal rule: 1/(focal length) for full-frame, adjusted by crop factor for smaller sensors."
+          "term": "Panjang Fokus",
+          "definition": "Panjang fokus lensa dalam milimeter. Secara langsung mempengaruhi kelajuan pengatup minimum yang selamat melalui peraturan salingan: 1/(panjang fokus) untuk full-frame, dilaraskan dengan faktor crop untuk sensor lebih kecil."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The camera sensor size, which determines the crop factor. APS-C (1.5x) and Micro Four Thirds (2x) multiply the effective focal length, requiring faster shutter speeds for the same lens."
+          "term": "Saiz Sensor",
+          "definition": "Saiz sensor kamera, yang menentukan faktor crop. APS-C (1.5x) dan Micro Four Thirds (2x) mendarab panjang fokus berkesan, memerlukan kelajuan pengatup lebih pantas untuk lensa yang sama."
         },
         "stabilization": {
-          "term": "Image Stabilization",
-          "definition": "Technology that compensates for camera shake. OIS (Optical Image Stabilization) is in the lens, IBIS (In-Body Image Stabilization) is in the camera body. They can work together for maximum benefit."
+          "term": "Penstabilan Imej",
+          "definition": "Teknologi yang mengimbangi gegaran kamera. OIS (Optical Image Stabilization) terletak dalam lensa, IBIS (In-Body Image Stabilization) terletak dalam badan kamera. Mereka boleh bekerjasama untuk faedah maksimum."
         },
         "subjectMotion": {
-          "term": "Subject Motion",
-          "definition": "How fast your subject is moving. Still subjects only need enough shutter speed to counteract camera shake. Moving subjects need faster speeds based on their velocity and direction relative to the camera."
+          "term": "Pergerakan Subjek",
+          "definition": "Betapa pantasnya subjek anda bergerak. Subjek pegun hanya memerlukan kelajuan pengatup yang cukup untuk mengatasi gegaran kamera. Subjek bergerak memerlukan kelajuan lebih pantas berdasarkan halaju dan arah relatifnya kepada kamera."
         },
         "recommendedShutterSpeed": {
-          "term": "Recommended Shutter Speed",
-          "definition": "The minimum shutter speed calculated for your specific combination of focal length, stabilization, sensor, and subject motion. Shooting at this speed or faster should produce sharp results."
+          "term": "Kelajuan Pengatup Yang Disarankan",
+          "definition": "Kelajuan pengatup minimum yang dikira untuk gabungan tertentu panjang fokus, penstabilan, sensor dan pergerakan subjek anda. Menangkap pada kelajuan ini atau lebih pantas sepatutnya menghasilkan hasil yang tajam."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting with a 100mm lens on a full-frame camera with no image stabilization. Your subject is standing still. What is the minimum recommended shutter speed?",
-          "hint": "The reciprocal rule: minimum shutter speed = 1 / focal length.",
-          "successMessage": "Correct! The reciprocal rule says 1/100s for a 100mm lens on full frame. This is the classic starting point for handheld sharpness.",
-          "failureMessage": "For a 100mm lens on full frame with no stabilization, the reciprocal rule gives you 1/100s as the minimum safe shutter speed for static subjects.",
+          "scenario": "Anda sedang menangkap dengan lensa 100mm pada kamera full-frame tanpa penstabilan imej. Subjek anda berdiri diam. Apakah kelajuan pengatup minimum yang disarankan?",
+          "hint": "Peraturan salingan: kelajuan pengatup minimum = 1 / panjang fokus.",
+          "successMessage": "Betul! Peraturan salingan mengatakan 1/100s untuk lensa 100mm pada full frame. Ini adalah titik permulaan klasik untuk ketajaman tangan.",
+          "failureMessage": "Untuk lensa 100mm pada full frame tanpa penstabilan, peraturan salingan memberi anda 1/100s sebagai kelajuan pengatup minimum yang selamat untuk subjek statik.",
           "options": {
             "0": { "label": "1/50s" },
             "1": { "label": "1/100s" },
@@ -68,51 +68,51 @@
           }
         },
         "1": {
-          "scenario": "You are using a 50mm lens on an APS-C camera (1.5x crop factor) with no stabilization. What minimum shutter speed should you use for a still subject?",
-          "hint": "Multiply the focal length by the crop factor before applying the reciprocal rule.",
-          "successMessage": "Right! 50mm x 1.5 = 75mm equivalent, so you need at least 1/75s. In practice, rounding up to 1/80s is the safe choice.",
-          "failureMessage": "On APS-C, the crop factor (1.5x) means a 50mm lens behaves like a 75mm lens. The reciprocal rule gives 1/75s as the minimum speed.",
+          "scenario": "Anda menggunakan lensa 50mm pada kamera APS-C (faktor crop 1.5x) tanpa penstabilan. Apakah kelajuan pengatup minimum yang patut anda gunakan untuk subjek pegun?",
+          "hint": "Darabkan panjang fokus dengan faktor crop sebelum menggunakan peraturan salingan.",
+          "successMessage": "Betul! 50mm x 1.5 = 75mm setara, jadi anda memerlukan sekurang-kurangnya 1/75s. Dalam praktiknya, membundarkan ke 1/80s ialah pilihan selamat.",
+          "failureMessage": "Pada APS-C, faktor crop (1.5x) bermakna lensa 50mm berkelakuan seperti lensa 75mm. Peraturan salingan memberikan 1/75s sebagai kelajuan minimum.",
           "options": {
             "0": { "label": "1/50s" },
-            "1": { "label": "1/75s (round to 1/80s)" },
+            "1": { "label": "1/75s (bundar ke 1/80s)" },
             "2": { "label": "1/100s" },
             "3": { "label": "1/125s" }
           }
         },
         "2": {
-          "scenario": "You have a 200mm lens with OIS (4 stops of stabilization) on a full-frame body with IBIS (5 stops). Together they provide about 6 stops of combined stabilization. For a still subject, what is the approximate minimum shutter speed?",
-          "hint": "Start with the reciprocal rule (1/200s) and then apply 6 stops of stabilization benefit.",
-          "successMessage": "Correct! Starting at 1/200s and gaining 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. About 1/3 second handheld with a 200mm lens — impressive but achievable with modern stabilization!",
-          "failureMessage": "From 1/200s, each stop of stabilization doubles the usable time: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Six stops of stabilization with a 200mm lens gives approximately 1/3s.",
+          "scenario": "Anda mempunyai lensa 200mm dengan OIS (4 stop penstabilan) pada badan full-frame dengan IBIS (5 stop). Bersama-sama mereka menyediakan kira-kira 6 stop penstabilan gabungan. Untuk subjek pegun, apakah kelajuan pengatup minimum anggaran?",
+          "hint": "Mulakan dengan peraturan salingan (1/200s) dan kemudian gunakan 6 stop faedah penstabilan.",
+          "successMessage": "Betul! Bermula pada 1/200s dan memperoleh 6 stop: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Kira-kira 1/3 saat tangan dengan lensa 200mm — mengagumkan tetapi boleh dicapai dengan penstabilan moden!",
+          "failureMessage": "Dari 1/200s, setiap stop penstabilan menggandakan masa yang boleh digunakan: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Enam stop penstabilan dengan lensa 200mm memberi kira-kira 1/3s.",
           "options": {
             "0": { "label": "1/30s" },
             "1": { "label": "1/8s" },
             "2": { "label": "~1/3s" },
-            "3": { "label": "1 second" }
+            "3": { "label": "1 saat" }
           }
         },
         "3": {
-          "scenario": "You are photographing a friend jogging in a park using a 35mm lens on a full-frame camera with IBIS. Your IBIS gives you 5 stops of stabilization, so the reciprocal rule alone would let you shoot at about 1 second. Should you use 1 second?",
-          "hint": "Stabilization compensates for camera shake, not subject motion.",
-          "successMessage": "Correct! Stabilization only counters camera shake. A jogging person needs at least 1/250s to freeze their motion, regardless of how good your stabilization is.",
-          "failureMessage": "Stabilization cannot freeze a moving subject. For a person jogging, you need at least 1/250s to prevent motion blur, even if your camera could hold steady at 1 second.",
+          "scenario": "Anda sedang memotret kawan yang berjoging di taman menggunakan lensa 35mm pada kamera full-frame dengan IBIS. IBIS anda memberi anda 5 stop penstabilan, jadi peraturan salingan sahaja akan membolehkan anda menangkap pada kira-kira 1 saat. Patutkah anda menggunakan 1 saat?",
+          "hint": "Penstabilan mengimbangi gegaran kamera, bukan pergerakan subjek.",
+          "successMessage": "Betul! Penstabilan hanya mengatasi gegaran kamera. Seorang yang berjoging memerlukan sekurang-kurangnya 1/250s untuk membekukan pergerakan mereka, tidak kira betapa baiknya penstabilan anda.",
+          "failureMessage": "Penstabilan tidak boleh membekukan subjek yang bergerak. Untuk orang yang berjoging, anda memerlukan sekurang-kurangnya 1/250s untuk mencegah kekaburan pergerakan, walaupun kamera anda boleh kekal stabil pada 1 saat.",
           "options": {
-            "0": { "label": "Yes — IBIS handles all the motion" },
-            "1": { "label": "No — use at least 1/250s to freeze the jogger" },
-            "2": { "label": "No — use 1/60s as a compromise" },
-            "3": { "label": "It depends on the ISO setting" }
+            "0": { "label": "Ya — IBIS mengendalikan semua pergerakan" },
+            "1": { "label": "Tidak — gunakan sekurang-kurangnya 1/250s untuk membekukan joger" },
+            "2": { "label": "Tidak — gunakan 1/60s sebagai kompromi" },
+            "3": { "label": "Ia bergantung kepada tetapan ISO" }
           }
         },
         "4": {
-          "scenario": "You want to create a panning shot of a cyclist — the rider should be sharp while the background shows motion blur streaks. You are using a 70mm lens on full frame. What shutter speed range should you try?",
-          "hint": "Panning intentionally uses a slow shutter speed while tracking the subject. Too fast freezes everything; too slow blurs even the subject.",
-          "successMessage": "Correct! For panning a cyclist, 1/30s to 1/60s is the sweet spot. This is slow enough to blur the background into streaks while your tracking motion keeps the rider relatively sharp. It takes practice — shoot in burst mode and expect many rejects.",
-          "failureMessage": "Panning requires a shutter speed slow enough to blur the background but fast enough that your tracking keeps the subject sharp. For a cyclist, 1/30s to 1/60s is the typical range.",
+          "scenario": "Anda ingin mencipta tangkapan panning seorang pengayuh basikal — penunggang sepatutnya tajam sementara latar belakang menunjukkan jalur kekaburan pergerakan. Anda menggunakan lensa 70mm pada full frame. Julat kelajuan pengatup manakah yang patut anda cuba?",
+          "hint": "Panning sengaja menggunakan kelajuan pengatup perlahan sambil menjejaki subjek. Terlalu pantas membekukan segalanya; terlalu perlahan mengaburkan subjek juga.",
+          "successMessage": "Betul! Untuk panning pengayuh basikal, 1/30s hingga 1/60s adalah sweet spot. Ini cukup perlahan untuk mengaburkan latar belakang menjadi jalur sementara pergerakan penjejakan anda mengekalkan penunggang relatif tajam. Ia memerlukan latihan — tangkap dalam mod burst dan jangka banyak yang terbuang.",
+          "failureMessage": "Panning memerlukan kelajuan pengatup cukup perlahan untuk mengaburkan latar belakang tetapi cukup pantas supaya penjejakan anda mengekalkan subjek tajam. Untuk pengayuh basikal, 1/30s hingga 1/60s ialah julat biasa.",
           "options": {
-            "0": { "label": "1/1000s to 1/2000s" },
-            "1": { "label": "1/250s to 1/500s" },
-            "2": { "label": "1/30s to 1/60s" },
-            "3": { "label": "1s to 2s" }
+            "0": { "label": "1/1000s hingga 1/2000s" },
+            "1": { "label": "1/250s hingga 1/500s" },
+            "2": { "label": "1/30s hingga 1/60s" },
+            "3": { "label": "1s hingga 2s" }
           }
         }
       }

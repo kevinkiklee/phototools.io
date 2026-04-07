@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "star-trail-calculator": {
-      "rule500": "500 Rule",
-      "ruleNPF": "NPF Rule",
-      "recommendation": "Recommendation",
-      "recommendationText": "Use the NPF rule ({npf}s) for pixel-level sharpness. The 500 rule ({r500}s) is a quick estimate but may show trailing on high-resolution sensors.",
-      "shootingTime": "Shooting Time",
-      "exposure": "Exposure",
-      "displayMode": "Display Mode",
-      "modeStarTrails": "Star Trails",
-      "modeSingleShot": "Single Shot",
+      "rule500": "500-regel",
+      "ruleNPF": "NPF-regel",
+      "recommendation": "Anbefaling",
+      "recommendationText": "Brug NPF-reglen ({npf}s) for skarphed på pixel-niveau. 500-reglen ({r500}s) er et hurtigt estimat, men kan vise slør på sensorer med høj opløsning.",
+      "shootingTime": "Optagetid",
+      "exposure": "Eksponering",
+      "displayMode": "Visningstilstand",
+      "modeStarTrails": "Star trails",
+      "modeSingleShot": "Enkelt billede",
       "stacking": "Stacking",
-      "exposurePerFrame": "Exposure / frame (sec)",
-      "exposurePerFrameDesc": "Shutter speed for each individual frame",
-      "frames": "Frames",
-      "framesDesc": "Total number of photos to stack",
-      "gapSec": "Gap (sec)",
-      "gapDesc": "Delay between frames for buffer write",
-      "camera": "Camera",
+      "exposurePerFrame": "Eksponering / billede (sek)",
+      "exposurePerFrameDesc": "Lukkertid for hvert enkelt billede",
+      "frames": "Billeder",
+      "framesDesc": "Samlet antal billeder at stacke",
+      "gapSec": "Gab (sek)",
+      "gapDesc": "Pause mellem billeder til bufferskrivning",
+      "camera": "Kamera",
       "sensor": "Sensor",
-      "resolutionMP": "Resolution (MP)",
-      "apertureLabel": "Aperture",
-      "latitude": "Latitude",
+      "resolutionMP": "Opløsning (MP)",
+      "apertureLabel": "Blænde",
+      "latitude": "Breddegrad",
       "position": "Position",
-      "useMyLocation": "Use My Location",
-      "latitudeLabel": "Latitude:",
-      "equator": "Equator 0\u00b0",
-      "mid45": "Mid 45\u00b0",
-      "arctic70": "Arctic 70\u00b0",
+      "useMyLocation": "Brug min position",
+      "latitudeLabel": "Breddegrad:",
+      "equator": "Ækvator 0°",
+      "mid45": "Mellem 45°",
+      "arctic70": "Arktisk 70°",
       "faq": {
         "what-is-500-rule": {
-          "question": "What is the 500 rule in astrophotography?",
-          "answer": "The 500 rule estimates the longest exposure time before stars appear as trails instead of points. Divide 500 by your effective focal length (focal length \u00d7 crop factor) to get the maximum shutter speed in seconds for sharp stars."
+          "question": "Hvad er 500-reglen i astrofotografi?",
+          "answer": "500-reglen estimerer den længste eksponeringstid, før stjerner fremstår som striber i stedet for punkter. Divider 500 med din effektive brændvidde (brændvidde × cropfaktor) for at få den maksimale lukkertid i sekunder til skarpe stjerner."
         },
         "star-trails-vs-points": {
-          "question": "How do I choose between star trails and sharp star points?",
-          "answer": "For sharp star points (Milky Way, constellations), use short exposures following the 500 rule. For creative star trails showing Earth's rotation, use very long exposures (minutes to hours) or stack multiple shorter exposures."
+          "question": "Hvordan vælger jeg mellem star trails og skarpe stjernepunkter?",
+          "answer": "Til skarpe stjernepunkter (Mælkevejen, stjernebilleder): brug korte eksponeringer efter 500-reglen. Til kreative star trails, der viser Jordens rotation: brug meget lange eksponeringer (minutter til timer) eller stack mange kortere eksponeringer."
         },
         "best-settings-milky-way": {
-          "question": "What are the best camera settings for Milky Way photography?",
-          "answer": "Start with the widest aperture available (f/1.4\u2013f/2.8), ISO 1600\u20136400, and the longest shutter speed the 500 rule allows for your lens. Use a sturdy tripod and manual focus set to infinity. Shoot during new moon in a dark sky location."
+          "question": "Hvilke kameraindstillinger er bedst til Mælkeveje-fotografi?",
+          "answer": "Start med den største blænde (f/1.4–f/2.8), ISO 1600–6400 og den længste lukkertid, 500-reglen tillader for din linse. Brug et stabilt stativ og manuel fokus indstillet på uendelig. Skyd ved nymåne på en lokation med mørk himmel."
         }
       }
     }

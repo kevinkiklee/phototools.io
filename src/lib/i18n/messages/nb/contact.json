@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "Kontakt oss",
+    "description": "Har du et spørsmål, funnet en feil eller et forslag til et nytt verktøy? Vi vil gjerne høre fra deg.",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email",
-      "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "nameLabel": "Navn",
+      "namePlaceholder": "Ditt navn",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "din@epost.no",
+      "subjectLabel": "Emne",
+      "subjectPlaceholder": "Hva handler det om?",
+      "messageLabel": "Melding",
+      "messagePlaceholder": "Din melding ...",
+      "submit": "Send melding",
+      "sending": "Sender ...",
+      "honeypotLabel": "Nettside",
+      "successToast": "Meldingen er sendt! Vi svarer så snart vi kan.",
+      "errorToast": "Noe gikk galt. Prøv igjen.",
+      "networkErrorToast": "Nettverksfeil. Sjekk tilkoblingen og prøv igjen.",
+      "sentTitle": "Takk for at du tok kontakt!",
+      "sentMessage": "Vi svarer så snart vi kan.",
+      "sendAnother": "Send en ny melding"
     }
   }
 }

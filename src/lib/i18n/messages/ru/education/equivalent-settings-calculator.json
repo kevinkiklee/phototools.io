@@ -1,109 +1,109 @@
 {
   "education": {
     "equivalent-settings-calculator": {
-      "beginner": "Different sensor sizes produce different depth of field and field of view even at the same focal length and aperture. Equivalent settings let you find the lens and aperture combination on a second camera that reproduces the same framing and background blur. This is essential when comparing gear across formats or switching between camera systems.",
+      "beginner": "Разные размеры матриц дают разную глубину резкости и угол обзора даже при одинаковом фокусном расстоянии и диафрагме. Эквивалентные настройки позволяют найти такую комбинацию объектива и диафрагмы на другой камере, которая воспроизведёт тот же кадр и размытие фона. Это важно при сравнении техники разных форматов и переходе между системами.",
       "deeper": {
         "0": {
-          "heading": "The Crop Factor",
-          "text": "Every sensor has a crop factor relative to the 35mm full-frame standard. APS-C sensors have a factor around 1.5×, Micro Four Thirds 2×, and medium format around 0.79×. Multiplying the actual focal length by the crop factor gives the full-frame equivalent field of view. A 35mm lens on APS-C frames like a 52.5mm on full frame."
+          "heading": "Кроп-фактор",
+          "text": "У каждой матрицы есть кроп-фактор относительно стандарта 35 мм (полного кадра). У APS-C он около 1.5×, у Micro Four Thirds — 2×, у среднего формата — около 0.79×. Умножаешь реальное фокусное расстояние на кроп-фактор — получаешь эквивалентное фокусное по углу обзора для полного кадра. 35 мм на APS-C кадрирует как 52.5 мм на полном кадре."
         },
         "1": {
-          "heading": "Equivalent Aperture & DoF",
-          "text": "To match depth of field across formats, multiply the f-number by the same crop factor. An f/1.4 lens on Micro Four Thirds produces DoF equivalent to f/2.8 on full frame (1.4 × 2 = 2.8). This is why full-frame cameras are prized for shallow DoF — you can use physically faster lenses at wider actual apertures to achieve blur that smaller sensors cannot replicate."
+          "heading": "Эквивалентная диафрагма и ГРИП",
+          "text": "Чтобы получить одинаковую глубину резкости на разных форматах, нужно умножить f-число на тот же кроп-фактор. f/1.4 на Micro Four Thirds даст ГРИП, эквивалентную f/2.8 на полном кадре (1.4 × 2 = 2.8). Именно за это ценят полный кадр: физически более светосильные объективы позволяют получать размытие, которое маленьким матрицам не воспроизвести."
         },
         "2": {
-          "heading": "Equivalent ISO & Total Light",
-          "text": "Matching exposure brightness across formats requires adjusting ISO by the crop factor squared. The larger sensor collects more total light for the same scene, which means it can use a lower ISO for equivalent noise performance. A full-frame sensor at ISO 800 produces similar noise to an APS-C sensor at ISO 356 and a Micro Four Thirds sensor at ISO 200."
+          "heading": "Эквивалентное ISO и общий свет",
+          "text": "Чтобы выровнять яркость экспозиции между форматами, ISO нужно умножать на квадрат кроп-фактора. Большая матрица собирает больше суммарного света со сцены и поэтому может использовать меньшее ISO при сопоставимом шуме. Полный кадр на ISO 800 даёт шум, сравнимый с APS-C на ISO 356 и с Micro Four Thirds на ISO 200."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame sensor diagonal to the target sensor diagonal. This single number drives all equivalence calculations for focal length, aperture, and ISO."
+          "label": "Кроп-фактор",
+          "description": "Отношение диагонали полного кадра к диагонали целевой матрицы. Это одно число задаёт все расчёты эквивалентности для фокусного, диафрагмы и ISO."
         },
         "1": {
-          "label": "Sensor Size",
-          "description": "Physically larger sensors capture more light and produce shallower DoF at equivalent framing. The equivalence calculator reveals exactly how much difference each format makes."
+          "label": "Размер матрицы",
+          "description": "Физически большие матрицы собирают больше света и дают меньшую ГРИП при эквивалентном кадре. Калькулятор эквивалентности показывает точно, какую разницу даёт каждый формат."
         },
         "2": {
-          "label": "Available Lenses",
-          "description": "Equivalence math may call for a lens that does not exist. A 17mm f/0.7 is the equivalent of 35mm f/1.4 on MFT — but no such lens is made. Real-world gear limits what is achievable."
+          "label": "Доступные объективы",
+          "description": "По формуле эквивалентности может получиться объектив, которого просто не существует. 17 мм f/0.7 — эквивалент 35 мм f/1.4 на MFT, но такого стекла нет. Реальный парк техники ограничивает то, что достижимо."
         }
       },
       "tips": {
         "0": {
-          "text": "When comparing camera systems, always compare at equivalent settings rather than matching f-numbers. An f/2.8 lens on Micro Four Thirds does not give the same background blur as f/2.8 on full frame — you need f/1.4 on MFT to match."
+          "text": "Сравнивая системы, сравнивай при эквивалентных настройках, а не просто по одинаковым f-числам. f/2.8 на Micro Four Thirds не даёт такого же размытия фона, как f/2.8 на полном кадре — чтобы сравняться, на MFT нужен f/1.4."
         },
         "1": {
-          "text": "Use equivalence to plan lens purchases when switching systems. If you love the look of 85mm f/1.8 on full frame, look for a 56mm f/1.2 on APS-C or a 42.5mm f/0.95 on MFT for a similar rendering."
+          "text": "Используй эквивалентность при планировании покупки стекла для другой системы. Если тебе нравится рисунок 85 мм f/1.8 на полном кадре, смотри на 56 мм f/1.2 на APS-C или 42.5 мм f/0.95 на MFT."
         },
         "2": {
-          "text": "Remember that equivalence applies to depth of field and field of view, not to lens speed for exposure. An f/2.8 lens on any format still lets in the same amount of light per unit area — the larger sensor just collects more total light because of its greater area."
+          "text": "Помни: эквивалентность касается глубины резкости и угла обзора, а не светосилы для экспозиции. f/2.8 на любом формате пропускает одинаковое количество света на единицу площади — большая матрица собирает больше суммарного света просто за счёт большей площади."
         }
       },
       "tooltips": {
         "sourceSensor": {
-          "term": "Source Sensor",
-          "definition": "The sensor format of the camera whose settings you want to match. All equivalence calculations are relative to this starting point."
+          "term": "Исходная матрица",
+          "definition": "Формат матрицы камеры, настройки которой ты хочешь перенести. Все расчёты эквивалентности идут относительно этой отправной точки."
         },
         "sourceFocalLength": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens on your source camera. This will be converted to equivalent focal lengths on target formats."
+          "term": "Фокусное расстояние",
+          "definition": "Реальное фокусное расстояние объектива на исходной камере. Оно будет пересчитано в эквивалентные фокусные для целевых форматов."
         },
         "sourceAperture": {
-          "term": "Aperture",
-          "definition": "The f-number on your source camera. The equivalent aperture on each target format determines matching depth of field."
+          "term": "Диафрагма",
+          "definition": "f-число на исходной камере. Эквивалентная диафрагма для каждого целевого формата задаёт совпадающую глубину резкости."
         },
         "targetSensor": {
-          "term": "Target Sensor",
-          "definition": "The sensor format you want to find equivalent settings for. The calculator applies the relative crop factor to compute matching focal length and aperture."
+          "term": "Целевая матрица",
+          "definition": "Формат матрицы, для которого нужно найти эквивалентные настройки. Калькулятор применяет относительный кроп-фактор для расчёта соответствующего фокусного и диафрагмы."
         },
         "cropFactor": {
-          "term": "Crop Factor",
-          "definition": "The ratio between the diagonal of a 35mm full-frame sensor and the target sensor. Multiply focal length by crop factor for equivalent FOV; multiply aperture by crop factor for equivalent DoF."
+          "term": "Кроп-фактор",
+          "definition": "Отношение диагонали полного кадра 35 мм к диагонали целевой матрицы. Умножай фокусное на кроп-фактор для эквивалентного угла обзора; умножай диафрагму на него же для эквивалентной ГРИП."
         },
         "equivalentFL": {
-          "term": "Equivalent Focal Length",
-          "definition": "The focal length on the target format that produces the same field of view as the source setup."
+          "term": "Эквивалентное фокусное расстояние",
+          "definition": "Фокусное расстояние на целевом формате, которое даёт тот же угол обзора, что и исходная связка."
         },
         "equivalentAperture": {
-          "term": "Equivalent Aperture",
-          "definition": "The f-number on the target format that produces the same depth of field as the source setup. May be faster than any real lens."
+          "term": "Эквивалентная диафрагма",
+          "definition": "f-число на целевом формате, дающее такую же глубину резкости, как у исходной связки. Может оказаться светосильнее любого реального объектива."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You shoot portraits with an 85mm f/1.8 lens on a full-frame camera. A friend uses Micro Four Thirds (2× crop). What focal length does your friend need to match your field of view?",
-          "hint": "Divide the full-frame focal length by the MFT crop factor to find the actual lens needed.",
-          "successMessage": "Correct! 85mm / 2 = 42.5mm. Your friend needs a 42.5mm lens on Micro Four Thirds to get the same framing as your 85mm on full frame.",
-          "failureMessage": "To match the field of view, divide by the crop factor: 85mm / 2 = 42.5mm. That is the actual focal length needed on the MFT body.",
+          "scenario": "Ты снимаешь портреты на 85 мм f/1.8 на полном кадре. Друг использует Micro Four Thirds (кроп 2×). Какое фокусное нужно ему, чтобы повторить твой угол обзора?",
+          "hint": "Раздели фокусное полного кадра на кроп-фактор MFT.",
+          "successMessage": "Верно! 85 мм / 2 = 42.5 мм. Другу нужен объектив 42.5 мм на MFT, чтобы получить то же кадрирование, что и у тебя с 85 мм на полном кадре.",
+          "failureMessage": "Чтобы совпасть по углу обзора, делим на кроп-фактор: 85 мм / 2 = 42.5 мм. Это и есть нужное реальное фокусное на MFT.",
           "options": {
-            "0": { "label": "42.5mm" },
-            "1": { "label": "85mm" },
-            "2": { "label": "170mm" },
-            "3": { "label": "56mm" }
+            "0": { "label": "42.5 мм" },
+            "1": { "label": "85 мм" },
+            "2": { "label": "170 мм" },
+            "3": { "label": "56 мм" }
           }
         },
         "1": {
-          "scenario": "Your friend found a 42.5mm f/1.8 lens for their MFT camera. Will the background blur match your 85mm f/1.8 on full frame?",
-          "hint": "Apply the crop factor to the aperture as well to find the equivalent DoF.",
-          "successMessage": "Right! The 42.5mm f/1.8 on MFT gives equivalent DoF to 85mm f/3.6 on full frame (1.8 × 2 = 3.6). Your f/1.8 full-frame shot produces significantly more blur.",
-          "failureMessage": "No — the MFT f/1.8 gives DoF equivalent to f/3.6 on full frame (1.8 × 2× crop = 3.6). To match your full-frame f/1.8 blur, your friend would need f/0.9 on MFT, which does not exist.",
+          "scenario": "Друг нашёл объектив 42.5 мм f/1.8 для своей MFT. Размытие фона совпадёт с твоим 85 мм f/1.8 на полном кадре?",
+          "hint": "Кроп-фактор нужно применить и к диафрагме, чтобы получить эквивалентную ГРИП.",
+          "successMessage": "Точно! 42.5 мм f/1.8 на MFT даёт ГРИП, эквивалентную 85 мм f/3.6 на полном кадре (1.8 × 2 = 3.6). Твой полнокадровый f/1.8 даст заметно больше размытия.",
+          "failureMessage": "Нет — f/1.8 на MFT по ГРИП равен f/3.6 на полном кадре (1.8 × 2× кроп = 3.6). Чтобы повторить твоё размытие на полном кадре, другу понадобится f/0.9 на MFT, а такого объектива не существует.",
           "options": {
-            "0": { "label": "Yes — same f/1.8 means same blur" },
-            "1": { "label": "No — MFT f/1.8 equals full-frame f/3.6 depth of field" },
-            "2": { "label": "No — MFT produces more blur because the sensor is smaller" }
+            "0": { "label": "Да — одинаковые f/1.8 дают одинаковое размытие" },
+            "1": { "label": "Нет — f/1.8 на MFT по глубине резкости равен f/3.6 на полном кадре" },
+            "2": { "label": "Нет — MFT даст больше размытия, потому что матрица меньше" }
           }
         },
         "2": {
-          "scenario": "A photographer switching from full frame to APS-C (1.5× crop) wants to match the look of a 50mm f/1.4 on full frame. What equivalent lens and aperture do they need on APS-C?",
-          "hint": "Divide focal length by the crop factor for equivalent FOV. Divide aperture by the crop factor for equivalent DoF.",
-          "successMessage": "Exactly! 50 / 1.5 = 33mm for field of view, and f/1.4 / 1.5 = f/0.93 for matching DoF. Since no f/0.93 lens exists, the APS-C camera cannot fully replicate the full-frame look.",
-          "failureMessage": "The correct answer is ~33mm f/0.93. Since 50 / 1.5 = 33.3mm and 1.4 / 1.5 = 0.93. No f/0.93 lens exists, so the full-frame look cannot be fully matched on APS-C.",
+          "scenario": "Фотограф переходит с полного кадра на APS-C (кроп 1.5×) и хочет повторить рисунок 50 мм f/1.4 с полного кадра. Какой эквивалентный объектив и диафрагму ему нужно на APS-C?",
+          "hint": "Для эквивалентного угла обзора дели фокусное на кроп. Для эквивалентной ГРИП дели диафрагму на кроп.",
+          "successMessage": "Именно! 50 / 1.5 = 33 мм для угла обзора, а f/1.4 / 1.5 = f/0.93 для соответствующей ГРИП. f/0.93 не существует, поэтому APS-C не может полностью повторить рисунок полного кадра.",
+          "failureMessage": "Правильный ответ — ~33 мм f/0.93. 50 / 1.5 = 33.3 мм, 1.4 / 1.5 = 0.93. Объектива f/0.93 нет, так что полный кадр на APS-C полностью не воспроизвести.",
           "options": {
-            "0": { "label": "35mm f/1.4 — close enough" },
-            "1": { "label": "33mm f/0.93 — exact match, but no such lens exists" },
-            "2": { "label": "75mm f/2.1 — multiply by crop factor" }
+            "0": { "label": "35 мм f/1.4 — достаточно близко" },
+            "1": { "label": "33 мм f/0.93 — точное совпадение, но такого объектива нет" },
+            "2": { "label": "75 мм f/2.1 — умножаем на кроп-фактор" }
           }
         }
       }

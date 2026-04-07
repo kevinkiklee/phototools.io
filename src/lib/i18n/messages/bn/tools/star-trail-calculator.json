@@ -4,7 +4,7 @@
       "rule500": "500 Rule",
       "ruleNPF": "NPF Rule",
       "recommendation": "Recommendation",
-      "recommendationText": "Use the NPF rule ({npf}s) for pixel-level sharpness. The 500 rule ({r500}s) is a quick estimate but may show trailing on high-resolution sensors.",
+      "recommendationText": "পিক্সেল-লেভেলের শার্পনেসের জন্য NPF নিয়ম ({npf}s) ব্যবহার করো। 500 নিয়ম ({r500}s) একটি দ্রুত অনুমান, তবে হাই-রেজোলিউশন সেন্সরে তারায় ট্রেইলিং দেখাতে পারে।",
       "shootingTime": "Shooting Time",
       "exposure": "Exposure",
       "displayMode": "Display Mode",
@@ -12,11 +12,11 @@
       "modeSingleShot": "Single Shot",
       "stacking": "Stacking",
       "exposurePerFrame": "Exposure / frame (sec)",
-      "exposurePerFrameDesc": "Shutter speed for each individual frame",
+      "exposurePerFrameDesc": "প্রতিটি আলাদা ফ্রেমের জন্য শাটার স্পিড",
       "frames": "Frames",
-      "framesDesc": "Total number of photos to stack",
+      "framesDesc": "স্ট্যাক করার জন্য মোট ছবির সংখ্যা",
       "gapSec": "Gap (sec)",
-      "gapDesc": "Delay between frames for buffer write",
+      "gapDesc": "বাফার রাইটের জন্য ফ্রেমগুলোর মধ্যে বিলম্ব",
       "camera": "Camera",
       "sensor": "Sensor",
       "resolutionMP": "Resolution (MP)",
@@ -30,16 +30,16 @@
       "arctic70": "Arctic 70\u00b0",
       "faq": {
         "what-is-500-rule": {
-          "question": "What is the 500 rule in astrophotography?",
-          "answer": "The 500 rule estimates the longest exposure time before stars appear as trails instead of points. Divide 500 by your effective focal length (focal length \u00d7 crop factor) to get the maximum shutter speed in seconds for sharp stars."
+          "question": "অ্যাস্ট্রোফটোগ্রাফিতে 500 নিয়ম কী?",
+          "answer": "500 নিয়ম সেই সর্বোচ্চ এক্সপোজার টাইম অনুমান করে, যার পরে তারা বিন্দুর বদলে ট্রেইল হিসেবে দেখা যায়। শার্প তারার জন্য সেকেন্ডে সর্বোচ্চ শাটার স্পিড পেতে 500-কে তোমার কার্যকর ফোকাল দৈর্ঘ্য (ফোকাল দৈর্ঘ্য × ক্রপ ফ্যাক্টর) দিয়ে ভাগ করো।"
         },
         "star-trails-vs-points": {
-          "question": "How do I choose between star trails and sharp star points?",
-          "answer": "For sharp star points (Milky Way, constellations), use short exposures following the 500 rule. For creative star trails showing Earth's rotation, use very long exposures (minutes to hours) or stack multiple shorter exposures."
+          "question": "স্টার ট্রেইল আর শার্প স্টার পয়েন্টের মধ্যে কোনটা বেছে নেব?",
+          "answer": "শার্প স্টার পয়েন্টের জন্য (মিল্কিওয়ে, নক্ষত্রমণ্ডল) 500 নিয়ম মেনে ছোট এক্সপোজার ব্যবহার করো। পৃথিবীর ঘূর্ণন দেখানো ক্রিয়েটিভ স্টার ট্রেইলের জন্য খুব লম্বা এক্সপোজার (মিনিট থেকে ঘণ্টা) ব্যবহার করো, অথবা একাধিক ছোট এক্সপোজার স্ট্যাক করো।"
         },
         "best-settings-milky-way": {
-          "question": "What are the best camera settings for Milky Way photography?",
-          "answer": "Start with the widest aperture available (f/1.4\u2013f/2.8), ISO 1600\u20136400, and the longest shutter speed the 500 rule allows for your lens. Use a sturdy tripod and manual focus set to infinity. Shoot during new moon in a dark sky location."
+          "question": "মিল্কিওয়ে ফটোগ্রাফির জন্য সেরা ক্যামেরা সেটিংস কী?",
+          "answer": "সবচেয়ে বড় অ্যাপারচার (f/1.4–f/2.8), ISO 1600–6400, এবং তোমার লেন্সে 500 নিয়ম অনুযায়ী সর্বোচ্চ শাটার স্পিড দিয়ে শুরু করো। শক্ত ট্রাইপড ব্যবহার করো, ম্যানুয়াল ফোকাস অসীমে সেট করো। অমাবস্যার রাতে অন্ধকার আকাশের জায়গায় শ্যুট করো।"
         }
       }
     }

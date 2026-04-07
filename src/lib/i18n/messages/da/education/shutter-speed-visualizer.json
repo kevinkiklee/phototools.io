@@ -1,65 +1,65 @@
 {
   "education": {
     "shutter-speed-visualizer": {
-      "beginner": "The shutter speed guide helps you find the slowest shutter speed you can use while still getting a sharp handheld photo. If your shutter speed is too slow, camera shake from your hands will blur the image. The minimum safe speed depends on your focal length, whether you have image stabilization, and how steady your hands are.",
-      "deeper": "The classic \"reciprocal rule\" states that for sharp handheld photos, your shutter speed should be at least 1/(focal length) seconds — so a 200mm lens needs at least 1/200s. On crop-sensor cameras, you should use the equivalent focal length (e.g., 200mm on a 1.5x crop = 1/300s). Modern in-body stabilization (IBIS) and optical stabilization (OIS) can buy you 3-7 extra stops of handheld leeway, meaning that stabilized 200mm lens might be sharp at 1/15s or even slower. However, stabilization only compensates for camera shake, not subject motion. A person walking toward you at 1/15s will still be blurred regardless of stabilization. For moving subjects, you must select a shutter speed based on the subject's speed and distance, not just the focal length.",
+      "beginner": "Lukkertidsguiden hjælper dig med at finde den langsomste lukkertid, du kan bruge og stadig få et skarpt håndholdt billede. Er din lukkertid for langsom, slører kamerabevægelser billedet. Den mindste sikre tid afhænger af brændvidden, om du har billedstabilisering, og hvor stødige dine hænder er.",
+      "deeper": "Den klassiske \"reciprokregel\" siger, at lukkertiden til skarpe håndholdte billeder skal være mindst 1/(brændvidde) sekunder — så en 200mm linse kræver mindst 1/200s. På crop-sensor-kameraer skal du bruge den ækvivalente brændvidde (f.eks. 200mm på en 1,5x crop = 1/300s). Moderne in-body-stabilisering (IBIS) og optisk stabilisering (OIS) kan give dig 3–7 ekstra stops håndholdt frihed, så samme stabiliserede 200mm linse kan være skarp ved 1/15s eller endnu langsommere. Men stabilisering kompenserer kun for kamerabevægelse, ikke for motivets bevægelse. En person, der går mod dig ved 1/15s, bliver stadig sløret uanset stabilisering. For motiver i bevægelse skal lukkertiden vælges ud fra motivets hastighed og afstand, ikke kun brændvidden.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify camera shake. The reciprocal rule (1/focal length) is the starting point for determining minimum shutter speed."
+          "label": "Brændvidde",
+          "description": "Længere brændvidder forstørrer kamerarystelser. Reciprokregelen (1/brændvidde) er udgangspunktet for at finde minimumslukkertiden."
         },
         "1": {
-          "label": "Image Stabilization",
-          "description": "OIS (lens-based) typically provides 2-4 stops of benefit. IBIS (body-based) provides 3-5 stops. Combined OIS+IBIS can achieve 5-7 stops on some systems."
+          "label": "Billedstabilisering",
+          "description": "OIS (linsebaseret) giver typisk 2–4 stops fordel. IBIS (hus-baseret) giver 3–5 stops. Kombineret OIS+IBIS kan nå 5–7 stops på visse systemer."
         },
         "2": {
-          "label": "Subject Motion",
-          "description": "Still subjects require only enough speed to counter camera shake. Moving subjects need faster speeds regardless of stabilization: walking (~1/125s), running (~1/500s), vehicles (~1/1000s+)."
+          "label": "Motivets bevægelse",
+          "description": "Stillestående motiver kræver kun nok lukkertid til at modvirke kamerarystelser. Motiver i bevægelse kræver hurtigere tider uanset stabilisering: gang (~1/125s), løb (~1/500s), køretøjer (~1/1000s+)."
         },
         "3": {
-          "label": "Sensor Size (Crop Factor)",
-          "description": "Crop-sensor cameras effectively multiply the focal length for the reciprocal rule. A 50mm lens on a 1.5x crop behaves like 75mm, so you need at least 1/75s."
+          "label": "Sensorstørrelse (cropfaktor)",
+          "description": "Crop-sensor-kameraer multiplicerer reelt brændvidden til reciprokregelen. En 50mm linse på en 1,5x crop opfører sig som 75mm, så du skal bruge mindst 1/75s."
         }
       },
       "tips": {
         "0": {
-          "text": "Brace yourself against a wall, tuck your elbows in, and exhale slowly before pressing the shutter. Good technique can give you 1-2 extra stops of steadiness beyond the reciprocal rule."
+          "text": "Læn dig op ad en væg, klem albuerne ind, og pust langsomt ud, inden du trykker på udløseren. God teknik kan give 1–2 ekstra stops stabilitet ud over reciprokregelen."
         },
         "1": {
-          "text": "When shooting people, the subject's motion usually dictates your minimum speed, not your focal length. Even with a wide-angle lens and stabilization, a child running requires at least 1/500s."
+          "text": "Når du fotograferer mennesker, er motivets bevægelse oftest afgørende for minimumslukkertiden, ikke brændvidden. Selv med vidvinkel og stabilisering kræver et løbende barn mindst 1/500s."
         },
         "2": {
-          "text": "If you are consistently shooting in low light, invest in a camera body with IBIS. The ability to shoot handheld at 1/2s with a wide-angle lens opens up possibilities that no amount of high-ISO performance can match."
+          "text": "Hvis du konsekvent fotograferer i svagt lys, så invester i et kamerahus med IBIS. Evnen til at skyde håndholdt ved 1/2s med en vidvinkel åbner muligheder, som ingen høj-ISO-ydelse kan matche."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Directly affects the minimum safe shutter speed through the reciprocal rule: 1/(focal length) for full-frame, adjusted by crop factor for smaller sensors."
+          "term": "Brændvidde",
+          "definition": "Linsens brændvidde i millimeter. Påvirker direkte minimumslukkertiden via reciprokregelen: 1/(brændvidde) for fuldformat, justeret med cropfaktor for mindre sensorer."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The camera sensor size, which determines the crop factor. APS-C (1.5x) and Micro Four Thirds (2x) multiply the effective focal length, requiring faster shutter speeds for the same lens."
+          "term": "Sensorstørrelse",
+          "definition": "Kamerasensorens størrelse, der bestemmer cropfaktoren. APS-C (1,5x) og Micro Four Thirds (2x) multiplicerer den effektive brændvidde og kræver hurtigere lukkertider for samme linse."
         },
         "stabilization": {
-          "term": "Image Stabilization",
-          "definition": "Technology that compensates for camera shake. OIS (Optical Image Stabilization) is in the lens, IBIS (In-Body Image Stabilization) is in the camera body. They can work together for maximum benefit."
+          "term": "Billedstabilisering",
+          "definition": "Teknologi, der kompenserer for kamerarystelser. OIS (optisk billedstabilisering) sidder i linsen, IBIS (in-body-stabilisering) sidder i kamerahuset. De kan arbejde sammen for maksimal effekt."
         },
         "subjectMotion": {
-          "term": "Subject Motion",
-          "definition": "How fast your subject is moving. Still subjects only need enough shutter speed to counteract camera shake. Moving subjects need faster speeds based on their velocity and direction relative to the camera."
+          "term": "Motivets bevægelse",
+          "definition": "Hvor hurtigt dit motiv bevæger sig. Stillestående motiver behøver kun nok lukkertid til at modvirke kamerarystelser. Motiver i bevægelse kræver hurtigere tider afhængigt af hastighed og retning i forhold til kameraet."
         },
         "recommendedShutterSpeed": {
-          "term": "Recommended Shutter Speed",
-          "definition": "The minimum shutter speed calculated for your specific combination of focal length, stabilization, sensor, and subject motion. Shooting at this speed or faster should produce sharp results."
+          "term": "Anbefalet lukkertid",
+          "definition": "Den mindste lukkertid beregnet for din specifikke kombination af brændvidde, stabilisering, sensor og motivbevægelse. Skyder du ved denne tid eller hurtigere, bør du få skarpe resultater."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting with a 100mm lens on a full-frame camera with no image stabilization. Your subject is standing still. What is the minimum recommended shutter speed?",
-          "hint": "The reciprocal rule: minimum shutter speed = 1 / focal length.",
-          "successMessage": "Correct! The reciprocal rule says 1/100s for a 100mm lens on full frame. This is the classic starting point for handheld sharpness.",
-          "failureMessage": "For a 100mm lens on full frame with no stabilization, the reciprocal rule gives you 1/100s as the minimum safe shutter speed for static subjects.",
+          "scenario": "Du skyder med et 100mm på et fuldformat uden billedstabilisering. Dit motiv står stille. Hvad er den mindst anbefalede lukkertid?",
+          "hint": "Reciprokregelen: minimumslukkertid = 1 / brændvidde.",
+          "successMessage": "Rigtigt! Reciprokregelen siger 1/100s for en 100mm linse på fuldformat. Det er det klassiske udgangspunkt for håndholdt skarphed.",
+          "failureMessage": "Til en 100mm linse på fuldformat uden stabilisering giver reciprokregelen 1/100s som den mindste sikre lukkertid for stillestående motiver.",
           "options": {
             "0": { "label": "1/50s" },
             "1": { "label": "1/100s" },
@@ -68,51 +68,51 @@
           }
         },
         "1": {
-          "scenario": "You are using a 50mm lens on an APS-C camera (1.5x crop factor) with no stabilization. What minimum shutter speed should you use for a still subject?",
-          "hint": "Multiply the focal length by the crop factor before applying the reciprocal rule.",
-          "successMessage": "Right! 50mm x 1.5 = 75mm equivalent, so you need at least 1/75s. In practice, rounding up to 1/80s is the safe choice.",
-          "failureMessage": "On APS-C, the crop factor (1.5x) means a 50mm lens behaves like a 75mm lens. The reciprocal rule gives 1/75s as the minimum speed.",
+          "scenario": "Du bruger et 50mm på et APS-C-kamera (1,5x cropfaktor) uden stabilisering. Hvilken mindste lukkertid skal du bruge til et stillestående motiv?",
+          "hint": "Gang brændvidden med cropfaktoren, før du anvender reciprokregelen.",
+          "successMessage": "Ja! 50mm x 1,5 = 75mm ækvivalent, så du skal bruge mindst 1/75s. I praksis er 1/80s det sikre valg.",
+          "failureMessage": "På APS-C betyder cropfaktoren (1,5x), at et 50mm opfører sig som et 75mm. Reciprokregelen giver 1/75s som minimum.",
           "options": {
             "0": { "label": "1/50s" },
-            "1": { "label": "1/75s (round to 1/80s)" },
+            "1": { "label": "1/75s (rundet til 1/80s)" },
             "2": { "label": "1/100s" },
             "3": { "label": "1/125s" }
           }
         },
         "2": {
-          "scenario": "You have a 200mm lens with OIS (4 stops of stabilization) on a full-frame body with IBIS (5 stops). Together they provide about 6 stops of combined stabilization. For a still subject, what is the approximate minimum shutter speed?",
-          "hint": "Start with the reciprocal rule (1/200s) and then apply 6 stops of stabilization benefit.",
-          "successMessage": "Correct! Starting at 1/200s and gaining 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. About 1/3 second handheld with a 200mm lens — impressive but achievable with modern stabilization!",
-          "failureMessage": "From 1/200s, each stop of stabilization doubles the usable time: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Six stops of stabilization with a 200mm lens gives approximately 1/3s.",
+          "scenario": "Du har en 200mm linse med OIS (4 stops stabilisering) på et fuldformathus med IBIS (5 stops). Sammen giver de ca. 6 stops kombineret stabilisering. Hvad er den omtrentlige mindste lukkertid for et stillestående motiv?",
+          "hint": "Start med reciprokregelen (1/200s) og anvend 6 stops stabilisering.",
+          "successMessage": "Rigtigt! Start ved 1/200s og få 6 stops mere: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Omkring 1/3 sekund håndholdt med et 200mm — imponerende, men muligt med moderne stabilisering!",
+          "failureMessage": "Fra 1/200s fordobler hvert stop stabilisering den brugbare tid: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Seks stops stabilisering med et 200mm giver cirka 1/3s.",
           "options": {
             "0": { "label": "1/30s" },
             "1": { "label": "1/8s" },
             "2": { "label": "~1/3s" },
-            "3": { "label": "1 second" }
+            "3": { "label": "1 sekund" }
           }
         },
         "3": {
-          "scenario": "You are photographing a friend jogging in a park using a 35mm lens on a full-frame camera with IBIS. Your IBIS gives you 5 stops of stabilization, so the reciprocal rule alone would let you shoot at about 1 second. Should you use 1 second?",
-          "hint": "Stabilization compensates for camera shake, not subject motion.",
-          "successMessage": "Correct! Stabilization only counters camera shake. A jogging person needs at least 1/250s to freeze their motion, regardless of how good your stabilization is.",
-          "failureMessage": "Stabilization cannot freeze a moving subject. For a person jogging, you need at least 1/250s to prevent motion blur, even if your camera could hold steady at 1 second.",
+          "scenario": "Du fotograferer en ven, der jogger i en park, med et 35mm på et fuldformat med IBIS. Din IBIS giver 5 stops stabilisering, så reciprokregelen alene ville tillade ca. 1 sekunds lukkertid. Skal du bruge 1 sekund?",
+          "hint": "Stabilisering kompenserer for kamerarystelser, ikke for motivets bevægelse.",
+          "successMessage": "Rigtigt! Stabilisering modvirker kun kamerarystelser. En joggende person kræver mindst 1/250s for at fryse bevægelsen, uanset hvor god din stabilisering er.",
+          "failureMessage": "Stabilisering kan ikke fryse et motiv i bevægelse. Til en joggende person skal du bruge mindst 1/250s for at undgå motion blur, selv om dit kamera kan holde stille ved 1 sekund.",
           "options": {
-            "0": { "label": "Yes — IBIS handles all the motion" },
-            "1": { "label": "No — use at least 1/250s to freeze the jogger" },
-            "2": { "label": "No — use 1/60s as a compromise" },
-            "3": { "label": "It depends on the ISO setting" }
+            "0": { "label": "Ja — IBIS håndterer al bevægelse" },
+            "1": { "label": "Nej — brug mindst 1/250s for at fryse joggeren" },
+            "2": { "label": "Nej — brug 1/60s som kompromis" },
+            "3": { "label": "Det afhænger af ISO-indstillingen" }
           }
         },
         "4": {
-          "scenario": "You want to create a panning shot of a cyclist — the rider should be sharp while the background shows motion blur streaks. You are using a 70mm lens on full frame. What shutter speed range should you try?",
-          "hint": "Panning intentionally uses a slow shutter speed while tracking the subject. Too fast freezes everything; too slow blurs even the subject.",
-          "successMessage": "Correct! For panning a cyclist, 1/30s to 1/60s is the sweet spot. This is slow enough to blur the background into streaks while your tracking motion keeps the rider relatively sharp. It takes practice — shoot in burst mode and expect many rejects.",
-          "failureMessage": "Panning requires a shutter speed slow enough to blur the background but fast enough that your tracking keeps the subject sharp. For a cyclist, 1/30s to 1/60s is the typical range.",
+          "scenario": "Du vil lave et panoreringsbillede af en cyklist — rytteren skal være skarp, mens baggrunden viser bevægelsessløring. Du bruger et 70mm på fuldformat. Hvilket lukkertidsinterval skal du prøve?",
+          "hint": "Panorering bruger bevidst en langsom lukkertid, mens du følger motivet. For hurtig fryser alt; for langsom slører selv motivet.",
+          "successMessage": "Rigtigt! Til panorering af en cyklist er 1/30s til 1/60s det rigtige område. Det er langsomt nok til at sløre baggrunden til streger, mens din følgebevægelse holder rytteren relativt skarp. Det kræver øvelse — skyd i burst og regn med mange kasserede billeder.",
+          "failureMessage": "Panorering kræver en lukkertid, der er langsom nok til at sløre baggrunden, men hurtig nok til, at din følgebevægelse holder motivet skarpt. Til en cyklist er 1/30s til 1/60s det typiske interval.",
           "options": {
-            "0": { "label": "1/1000s to 1/2000s" },
-            "1": { "label": "1/250s to 1/500s" },
-            "2": { "label": "1/30s to 1/60s" },
-            "3": { "label": "1s to 2s" }
+            "0": { "label": "1/1000s til 1/2000s" },
+            "1": { "label": "1/250s til 1/500s" },
+            "2": { "label": "1/30s til 1/60s" },
+            "3": { "label": "1s til 2s" }
           }
         }
       }

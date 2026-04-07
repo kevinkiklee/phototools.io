@@ -3,43 +3,43 @@
     "star-trail-calculator": {
       "rule500": "500 Rule",
       "ruleNPF": "NPF Rule",
-      "recommendation": "Recommendation",
-      "recommendationText": "Use the NPF rule ({npf}s) for pixel-level sharpness. The 500 rule ({r500}s) is a quick estimate but may show trailing on high-resolution sensors.",
-      "shootingTime": "Shooting Time",
+      "recommendation": "Rekomendasyon",
+      "recommendationText": "Gamitin ang NPF rule ({npf}s) para sa pixel-level sharpness. Ang 500 rule ({r500}s) ay mabilis na estimate pero maaaring magpakita ng trailing sa mga high-resolution na sensor.",
+      "shootingTime": "Oras ng Pagkuha",
       "exposure": "Exposure",
       "displayMode": "Display Mode",
       "modeStarTrails": "Star Trails",
       "modeSingleShot": "Single Shot",
       "stacking": "Stacking",
       "exposurePerFrame": "Exposure / frame (sec)",
-      "exposurePerFrameDesc": "Shutter speed for each individual frame",
+      "exposurePerFrameDesc": "Shutter speed para sa bawat individual na frame",
       "frames": "Frames",
-      "framesDesc": "Total number of photos to stack",
+      "framesDesc": "Kabuuang bilang ng litratong ise-stack",
       "gapSec": "Gap (sec)",
-      "gapDesc": "Delay between frames for buffer write",
+      "gapDesc": "Delay sa pagitan ng frames para sa buffer write",
       "camera": "Camera",
       "sensor": "Sensor",
       "resolutionMP": "Resolution (MP)",
       "apertureLabel": "Aperture",
       "latitude": "Latitude",
-      "position": "Position",
-      "useMyLocation": "Use My Location",
+      "position": "Posisyon",
+      "useMyLocation": "Gamitin ang Aking Lokasyon",
       "latitudeLabel": "Latitude:",
-      "equator": "Equator 0\u00b0",
-      "mid45": "Mid 45\u00b0",
-      "arctic70": "Arctic 70\u00b0",
+      "equator": "Equator 0°",
+      "mid45": "Mid 45°",
+      "arctic70": "Arctic 70°",
       "faq": {
         "what-is-500-rule": {
-          "question": "What is the 500 rule in astrophotography?",
-          "answer": "The 500 rule estimates the longest exposure time before stars appear as trails instead of points. Divide 500 by your effective focal length (focal length \u00d7 crop factor) to get the maximum shutter speed in seconds for sharp stars."
+          "question": "Ano ang 500 rule sa astrophotography?",
+          "answer": "Tinatantya ng 500 rule ang pinakamahabang exposure time bago lumitaw ang mga bituin bilang trails sa halip na puntos. Hatiin ang 500 sa iyong effective focal length (focal length × crop factor) para makuha ang maximum shutter speed sa segundo para sa matatalas na bituin."
         },
         "star-trails-vs-points": {
-          "question": "How do I choose between star trails and sharp star points?",
-          "answer": "For sharp star points (Milky Way, constellations), use short exposures following the 500 rule. For creative star trails showing Earth's rotation, use very long exposures (minutes to hours) or stack multiple shorter exposures."
+          "question": "Paano pumili sa pagitan ng star trails at sharp star points?",
+          "answer": "Para sa matatalas na star points (Milky Way, konstelasyon), gumamit ng maiikling exposure na sumusunod sa 500 rule. Para sa creative na star trails na nagpapakita ng pag-ikot ng Earth, gumamit ng napakahabang exposure (minuto hanggang oras) o i-stack ang maraming mas maiikling exposure."
         },
         "best-settings-milky-way": {
-          "question": "What are the best camera settings for Milky Way photography?",
-          "answer": "Start with the widest aperture available (f/1.4\u2013f/2.8), ISO 1600\u20136400, and the longest shutter speed the 500 rule allows for your lens. Use a sturdy tripod and manual focus set to infinity. Shoot during new moon in a dark sky location."
+          "question": "Ano ang pinakamagandang camera settings para sa Milky Way photography?",
+          "answer": "Magsimula sa pinakamalawak na aperture na available (f/1.4–f/2.8), ISO 1600–6400, at ang pinakamahabang shutter speed na pinapayagan ng 500 rule para sa lens mo. Gumamit ng matibay na tripod at manual focus na naka-set sa infinity. Kumuha sa panahon ng new moon sa isang dark sky na lokasyon."
         }
       }
     }

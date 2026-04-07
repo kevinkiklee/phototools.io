@@ -1,117 +1,117 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "Et histogram er en graf, der viser, hvor lyse eller mørke pixels i dit billede er. Venstre side repræsenterer skygger (mørke områder), midten repræsenterer mellemtoner, og højre side repræsenterer højlys (lyse områder). Hvis grafen er samlet i den ene side, kan billedet være undereksponeret eller overeksponeret.",
+      "deeper": "Et histogram plotter antallet af pixels (lodret akse) mod lysstyrke (vandret akse, 0–255 for 8-bit billeder). I luminans-tilstand beregnes hver pixels lysstyrke som et vægtet gennemsnit af de røde, grønne og blå kanaler (typisk 0,299R + 0,587G + 0,114B, der matcher menneskets opfattelse). RGB-tilstand viser tre separate fordelinger, så du kan se, hvilke farvekanaler der klipper uafhængigt — en rød kanal presset til 255, mens blå er fin, betyder højlysklip i varme toner, som en solnedgangshimmel. \"Clipping\" sker, når pixelværdier rammer grænsen 0 eller 255, og detalje i skygger eller højlys er tabt permanent. Sort clipping (pixels ved 0) mister skyggedetaljer; hvid clipping (pixels ved 255) mister højlysdetaljer. At skyde RAW giver groft sagt 2–3 ekstra stops højlysmargin end JPEG-histogrammet viser, hvilket er grunden til, at mange fotografer \"eksponerer til højre\" (ETTR) — skruer eksponeringen så lyst op som muligt uden at klippe RAW-data.",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "Tonefordeling",
+          "description": "Den samlede form fortæller dig, om billedet er mørkt (venstretungt), lyst (højretungt) eller balanceret (fordelt over hele spektret)."
         },
         "1": {
           "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "description": "Spidser yderst til venstre eller højre betyder, at detalje i skygger eller højlys er gået tabt."
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "Kanaladskillelse",
+          "description": "RGB-tilstand afslører de enkelte farvekanalers opførsel — nyttig til at opdage farvespecifik clipping i mættede motiver."
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "Dynamikområde",
+          "description": "Et histogram, der spænder hele bredden uden clipping, tyder på god udnyttelse af det tilgængelige dynamikområde."
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "Der findes ikke en \"perfekt\" histogramform. Et foto af en sort kat på en mørk sofa skal være venstretungt. Vurdér histogrammet mod dit kreative mål, ikke mod en idealkurve."
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "Tjek RGB-overlayet ved fotos af solnedgange og neonlys. Den røde kanal klipper ofte længe før blå, så du mister detaljer i varme højlys, selv når luminans-histogrammet ser fint ud."
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "Hvis du ser clipping-advarsler i begge ender samtidig, ligger motivets dynamikområde sandsynligvis uden for dit kameras. Overvej at bracket-eksponere for HDR eller bruge grad-ND-filtre."
         }
       },
       "tooltips": {
         "View Mode": {
-          "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "term": "Visningstilstand",
+          "definition": "Luminans viser den samlede lysstyrke. RGB-overlay viser alle tre farvekanaler lagt ovenpå hinanden. Alle kanaler viser RGB plus luminans samlet."
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "Skygger",
+          "definition": "Den venstre del af histogrammet (ca. 0–85), som repræsenterer de mørkeste toner i billedet."
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "Mellemtoner",
+          "definition": "Den midterste del (ca. 86–170), som repræsenterer middel lysstyrke — hudtoner og de fleste naturlige teksturer ligger her."
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "Højlys",
+          "definition": "Den højre del (ca. 171–255), som repræsenterer de lyseste toner: himmel, refleksioner og lyskilder."
         },
         "Black Clipping": {
-          "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "term": "Sort clipping",
+          "definition": "Procentdelen af pixels ved lysstyrke 0 (rent sort). Høje værdier betyder, at skyggedetaljer er gået tabt og ikke kan genskabes."
         },
         "White Clipping": {
-          "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "term": "Hvid clipping",
+          "definition": "Procentdelen af pixels ved lysstyrke 255 (rent hvidt). Høje værdier betyder, at højlysdetaljer er brændt ud."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "Du uploader et foto, og histogrammet er kraftigt skubbet mod venstre med næsten intet på højre side. Hvad fortæller det dig om billedet?",
+          "hint": "Venstre = mørkt, højre = lyst.",
+          "successMessage": "Rigtigt! Et venstretungt histogram betyder, at billedet mest består af mørke toner — det kan være undereksponeret, eller det kan være et bevidst mørkt/low-key billede.",
+          "failureMessage": "Et histogram samlet til venstre tyder på, at billedet er domineret af mørke toner. Det betyder ofte undereksponering.",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "Billedet er undereksponeret eller meget mørkt" },
+            "1": { "label": "Billedet er overeksponeret eller meget lyst" },
+            "2": { "label": "Billedet er perfekt eksponeret" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "Hvilken visningstilstand skal du bruge for at se den samlede lysstyrkefordeling i en enkelt graf?",
+          "hint": "En tilstand samler al farveinformation til én lysstyrkekurve.",
+          "successMessage": "Ja! Luminans-tilstand viser en enkelt kurve for den samlede opfattede lysstyrke.",
+          "failureMessage": "Luminans-tilstand er den enkleste visning — den kombinerer R, G, B til én lysstyrkekurve.",
           "options": {
-            "0": { "label": "Luminance" },
-            "1": { "label": "RGB Overlay" },
-            "2": { "label": "All Channels" }
+            "0": { "label": "Luminans" },
+            "1": { "label": "RGB-overlay" },
+            "2": { "label": "Alle kanaler" }
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "Du har fotograferet en livlig solnedgang, og luminans-histogrammet ser fint ud, men i RGB-overlayet kan du se den røde kanal klippe yderst til højre. Hvad sker der?",
+          "hint": "Enkelte farvekanaler kan klippe, selv om den samlede luminans ikke gør det.",
+          "successMessage": "Præcis! Den røde kanal klipper — solnedgangens højlys har mistet detalje i de røde toner, selv om den samlede lysstyrke ser acceptabel ud. Du mister nuancer i de varme farver.",
+          "failureMessage": "Den røde kanal klipper uafhængigt. Mættede varme højlys (solnedgange, ild) presser ofte rød til 255, mens grøn og blå er fine, og du mister farvedetaljer i de toner.",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "Den røde kanal klipper — varme højlysdetaljer er tabt" },
+            "1": { "label": "Billedet er overeksponeret overordnet" },
+            "2": { "label": "Hvidbalancen er forkert" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "Værktøjet rapporterer 2,3 % sort clipping og 0,1 % hvid clipping. Skal du justere eksponeringen?",
+          "hint": "Små mængder clipping er normalt — rent sorte skygger og spekulære højlys er at forvente.",
+          "successMessage": "Godt set! 2,3 % sort clipping er beskedent og ofte bare dybe skygger eller mørke kanter. 0,1 % hvid clipping er sandsynligvis spekulære højlys (reflekser fra solen). Eksponeringen er fin til de fleste formål.",
+          "failureMessage": "De clipping-procenter er ret små. Lidt sort clipping i dybe skygger og en smule hvid clipping fra spekulære højlys er normalt. Ingen justering nødvendig.",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "Hæv eksponeringen for at reducere sort clipping" },
+            "1": { "label": "Det er fint — små mængder clipping i skygger og spekulære højlys er normalt" },
+            "2": { "label": "Sænk eksponeringen for at fjerne hvid clipping" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "Du fotograferer et højkontrastmotiv: en brud i hvid kjole i en mørk katedral. Histogrammet viser stærke toppe i begge ekstremer med et hul i mellemtonerne. Hvordan håndterer du det?",
+          "hint": "Når motivets dynamikområde overstiger sensorens, skal du bruge en teknik med flere eksponeringer.",
+          "successMessage": "Perfekt! Dette bimodale histogram betyder, at motivet overstiger din sensors dynamikområde. Eksponerings-bracketing (HDR) fanger både det mørke interiør og kjolens højlysdetaljer. Alternativt kan fill-in-flash løfte skyggerne.",
+          "failureMessage": "Et bimodalt histogram (toppe i begge ekstremer, tomt i midten) betyder, at motivet har mere dynamikområde end sensoren kan fange i ét billede. Bracket eksponeringer til HDR, eller brug fill-in-flash for at mindske kontrasten.",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "Bracket eksponeringer til HDR eller brug fill-in-flash" },
+            "1": { "label": "Eksponér for mellemtonerne og håb på det bedste" },
+            "2": { "label": "Skift til sort-hvid for at skjule problemet" }
           }
         }
       }

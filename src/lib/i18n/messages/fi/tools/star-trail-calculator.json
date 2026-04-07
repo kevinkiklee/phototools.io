@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "star-trail-calculator": {
-      "rule500": "500 Rule",
-      "ruleNPF": "NPF Rule",
-      "recommendation": "Recommendation",
-      "recommendationText": "Use the NPF rule ({npf}s) for pixel-level sharpness. The 500 rule ({r500}s) is a quick estimate but may show trailing on high-resolution sensors.",
-      "shootingTime": "Shooting Time",
-      "exposure": "Exposure",
-      "displayMode": "Display Mode",
-      "modeStarTrails": "Star Trails",
-      "modeSingleShot": "Single Shot",
-      "stacking": "Stacking",
-      "exposurePerFrame": "Exposure / frame (sec)",
-      "exposurePerFrameDesc": "Shutter speed for each individual frame",
-      "frames": "Frames",
-      "framesDesc": "Total number of photos to stack",
-      "gapSec": "Gap (sec)",
-      "gapDesc": "Delay between frames for buffer write",
-      "camera": "Camera",
-      "sensor": "Sensor",
-      "resolutionMP": "Resolution (MP)",
-      "apertureLabel": "Aperture",
-      "latitude": "Latitude",
-      "position": "Position",
-      "useMyLocation": "Use My Location",
-      "latitudeLabel": "Latitude:",
-      "equator": "Equator 0\u00b0",
-      "mid45": "Mid 45\u00b0",
-      "arctic70": "Arctic 70\u00b0",
+      "rule500": "500-sääntö",
+      "ruleNPF": "NPF-sääntö",
+      "recommendation": "Suositus",
+      "recommendationText": "Käytä NPF-sääntöä ({npf}s) pikselitason terävyyteen. 500-sääntö ({r500}s) on nopea arvio, mutta voi näyttää venymää korkearesoluutioisilla kennoilla.",
+      "shootingTime": "Kuvausaika",
+      "exposure": "Valotus",
+      "displayMode": "Näyttötila",
+      "modeStarTrails": "Tähtiradat",
+      "modeSingleShot": "Yksittäiskuva",
+      "stacking": "Pinoaminen",
+      "exposurePerFrame": "Valotus / ruutu (s)",
+      "exposurePerFrameDesc": "Kunkin yksittäisen ruudun suljinaika",
+      "frames": "Ruudut",
+      "framesDesc": "Pinottavien kuvien kokonaismäärä",
+      "gapSec": "Aukko (s)",
+      "gapDesc": "Viive ruutujen välillä puskurin kirjoitukseen",
+      "camera": "Kamera",
+      "sensor": "Kenno",
+      "resolutionMP": "Resoluutio (MP)",
+      "apertureLabel": "Aukko",
+      "latitude": "Leveysaste",
+      "position": "Sijainti",
+      "useMyLocation": "Käytä omaa sijaintia",
+      "latitudeLabel": "Leveysaste:",
+      "equator": "Päiväntasaaja 0°",
+      "mid45": "Keski 45°",
+      "arctic70": "Napapiiri 70°",
       "faq": {
         "what-is-500-rule": {
-          "question": "What is the 500 rule in astrophotography?",
-          "answer": "The 500 rule estimates the longest exposure time before stars appear as trails instead of points. Divide 500 by your effective focal length (focal length \u00d7 crop factor) to get the maximum shutter speed in seconds for sharp stars."
+          "question": "Mikä on 500-sääntö astrokuvauksessa?",
+          "answer": "500-sääntö arvioi pisimmän valotusajan ennen kuin tähdet näkyvät raitoina pisteiden sijaan. Jaa 500 tehollisella polttovälilläsi (polttoväli × kerroin) saadaksesi maksimisuljinajan sekunteina teräville tähdille."
         },
         "star-trails-vs-points": {
-          "question": "How do I choose between star trails and sharp star points?",
-          "answer": "For sharp star points (Milky Way, constellations), use short exposures following the 500 rule. For creative star trails showing Earth's rotation, use very long exposures (minutes to hours) or stack multiple shorter exposures."
+          "question": "Miten valitsen tähtiratojen ja terävien tähtipisteiden välillä?",
+          "answer": "Teräviin tähtipisteisiin (Linnunrata, tähdistöt) käytä lyhyitä valotuksia 500-säännön mukaisesti. Luovia tähtiratoja varten, jotka näyttävät Maan pyörimisen, käytä hyvin pitkiä valotuksia (minuutteja tai tunteja) tai pinoa useita lyhyempiä valotuksia."
         },
         "best-settings-milky-way": {
-          "question": "What are the best camera settings for Milky Way photography?",
-          "answer": "Start with the widest aperture available (f/1.4\u2013f/2.8), ISO 1600\u20136400, and the longest shutter speed the 500 rule allows for your lens. Use a sturdy tripod and manual focus set to infinity. Shoot during new moon in a dark sky location."
+          "question": "Mitkä ovat parhaat kameran asetukset Linnunradan kuvaukseen?",
+          "answer": "Aloita suurimmalla saatavilla olevalla aukolla (f/1.4–f/2.8), ISO 1600–6400 ja pisimmällä suljinajalla, jonka 500-sääntö sallii objektiivillesi. Käytä tukevaa kolmijalkaa ja manuaalista tarkennusta äärettömyyteen. Kuvaa uuden kuun aikaan tummassa taivaskohteessa."
         }
       }
     }

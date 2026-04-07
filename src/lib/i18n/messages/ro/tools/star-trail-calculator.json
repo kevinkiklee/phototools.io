@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "star-trail-calculator": {
-      "rule500": "500 Rule",
-      "ruleNPF": "NPF Rule",
-      "recommendation": "Recommendation",
-      "recommendationText": "Use the NPF rule ({npf}s) for pixel-level sharpness. The 500 rule ({r500}s) is a quick estimate but may show trailing on high-resolution sensors.",
-      "shootingTime": "Shooting Time",
-      "exposure": "Exposure",
-      "displayMode": "Display Mode",
-      "modeStarTrails": "Star Trails",
-      "modeSingleShot": "Single Shot",
+      "rule500": "Regula 500",
+      "ruleNPF": "Regula NPF",
+      "recommendation": "Recomandare",
+      "recommendationText": "Folosește regula NPF ({npf}s) pentru claritate la nivel de pixel. Regula 500 ({r500}s) este o estimare rapidă, dar poate arăta dâre pe senzorii de rezoluție mare.",
+      "shootingTime": "Timp de fotografiere",
+      "exposure": "Expunere",
+      "displayMode": "Mod de afișare",
+      "modeStarTrails": "Dâre de stele",
+      "modeSingleShot": "Cadru unic",
       "stacking": "Stacking",
-      "exposurePerFrame": "Exposure / frame (sec)",
-      "exposurePerFrameDesc": "Shutter speed for each individual frame",
-      "frames": "Frames",
-      "framesDesc": "Total number of photos to stack",
-      "gapSec": "Gap (sec)",
-      "gapDesc": "Delay between frames for buffer write",
-      "camera": "Camera",
-      "sensor": "Sensor",
-      "resolutionMP": "Resolution (MP)",
-      "apertureLabel": "Aperture",
-      "latitude": "Latitude",
-      "position": "Position",
-      "useMyLocation": "Use My Location",
-      "latitudeLabel": "Latitude:",
-      "equator": "Equator 0\u00b0",
-      "mid45": "Mid 45\u00b0",
+      "exposurePerFrame": "Expunere / cadru (sec)",
+      "exposurePerFrameDesc": "Timpul de expunere pentru fiecare cadru individual",
+      "frames": "Cadre",
+      "framesDesc": "Numărul total de fotografii pentru stacking",
+      "gapSec": "Pauză (sec)",
+      "gapDesc": "Pauză între cadre pentru scrierea în buffer",
+      "camera": "Cameră",
+      "sensor": "Senzor",
+      "resolutionMP": "Rezoluție (MP)",
+      "apertureLabel": "Diafragmă",
+      "latitude": "Latitudine",
+      "position": "Poziție",
+      "useMyLocation": "Folosește locația mea",
+      "latitudeLabel": "Latitudine:",
+      "equator": "Ecuator 0\u00b0",
+      "mid45": "Mediu 45\u00b0",
       "arctic70": "Arctic 70\u00b0",
       "faq": {
         "what-is-500-rule": {
-          "question": "What is the 500 rule in astrophotography?",
-          "answer": "The 500 rule estimates the longest exposure time before stars appear as trails instead of points. Divide 500 by your effective focal length (focal length \u00d7 crop factor) to get the maximum shutter speed in seconds for sharp stars."
+          "question": "Ce este regula 500 în astrofotografie?",
+          "answer": "Regula 500 estimează cel mai lung timp de expunere înainte ca stelele să apară ca dâre, nu ca puncte. Împarte 500 la distanța focală efectivă (distanța focală \u00d7 factor de crop) ca să obții timpul maxim de expunere în secunde pentru stele clare."
         },
         "star-trails-vs-points": {
-          "question": "How do I choose between star trails and sharp star points?",
-          "answer": "For sharp star points (Milky Way, constellations), use short exposures following the 500 rule. For creative star trails showing Earth's rotation, use very long exposures (minutes to hours) or stack multiple shorter exposures."
+          "question": "Cum aleg între dâre de stele și puncte clare?",
+          "answer": "Pentru puncte clare de stele (Calea Lactee, constelații), folosește expuneri scurte conform regulii 500. Pentru dâre creative care arată rotația Pământului, folosește expuneri foarte lungi (de la minute la ore) sau combină mai multe expuneri mai scurte."
         },
         "best-settings-milky-way": {
-          "question": "What are the best camera settings for Milky Way photography?",
-          "answer": "Start with the widest aperture available (f/1.4\u2013f/2.8), ISO 1600\u20136400, and the longest shutter speed the 500 rule allows for your lens. Use a sturdy tripod and manual focus set to infinity. Shoot during new moon in a dark sky location."
+          "question": "Care sunt cele mai bune setări pentru fotografia Căii Lactee?",
+          "answer": "Începe cu cea mai largă diafragmă disponibilă (f/1.4\u2013f/2.8), ISO 1600\u20136400 și cel mai lung timp pe care îl permite regula 500 pentru obiectivul tău. Folosește un trepied solid și focalizare manuală setată la infinit. Fotografiază în lună nouă, într-o locație cu cer întunecat."
         }
       }
     }

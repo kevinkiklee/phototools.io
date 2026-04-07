@@ -1,146 +1,146 @@
 {
   "education": {
     "color-scheme-generator": {
-      "beginner": "Color harmony is about choosing colors that look good together. Just like musical chords, certain color combinations create pleasing visual relationships. Photographers use color harmony to plan wardrobe, set design, and even timing of outdoor shoots to get the right palette from nature.",
+      "beginner": "Barevná harmonie je o výběru barev, které spolu dobře vypadají. Stejně jako hudební akordy i určité kombinace barev vytvářejí příjemné vizuální vztahy. Fotografové používají barevnou harmonii při plánování oblečení, výpravy i načasování focení v přírodě, aby z ní získali správnou paletu.",
       "deeper": {
         "0": {
-          "heading": "The Color Wheel",
-          "text": "Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle (0\u2013360\u00b0), saturation is the distance from center, and lightness controls brightness. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary."
+          "heading": "Barevné kolo",
+          "text": "Teorie barevné harmonie vychází z barevného kola, které řadí odstíny do kruhu podle jejich vlnové délky. Model HSL (odstín, sytost, světlost) přímo odpovídá kolu: odstín je úhel (0–360°), sytost je vzdálenost od středu a světlost určuje jas. Ve fotografii se tyto vztahy objevují přirozeně — zlatá hodina dává analogické teplé tóny, zatímco červená stodola na pozadí zelených polí je komplementární."
         },
         "1": {
-          "heading": "Complementary",
-          "text": "Two colors that sit directly opposite each other on the wheel (180\u00b0 apart), such as blue and orange or red and green. This creates maximum contrast and visual energy. Great for making a subject pop against a background — think golden-hour portraits where warm skin tones contrast with a cool blue sky."
+          "heading": "Komplementární",
+          "text": "Dvě barvy ležící na kole přímo proti sobě (180° od sebe), jako modrá a oranžová nebo červená a zelená. Vytvářejí maximální kontrast a vizuální energii. Skvěle fungují, když chceš subjekt oddělit od pozadí — typickým příkladem jsou portréty za zlaté hodiny, kde se teplé tóny pleti dostávají do kontrastu s chladnou modrou oblohou."
         },
         "2": {
-          "heading": "Analogous",
-          "text": "Three colors that are neighbors on the wheel, typically within a 30\u201360\u00b0 spread. They produce smooth, cohesive palettes with low contrast. Ideal for landscapes and mood-driven work — autumn foliage is a natural analogous palette of reds, oranges, and yellows."
+          "heading": "Analogické",
+          "text": "Tři barvy ležící na kole vedle sebe, typicky v rozpětí 30–60°. Dávají plynulé, soudržné palety s nízkým kontrastem. Ideální pro krajiny a náladové fotky — podzimní listí je přirozená analogická paleta červených, oranžových a žlutých tónů."
         },
         "3": {
-          "heading": "Triadic",
-          "text": "Three colors evenly spaced at 120\u00b0 intervals around the wheel, such as red, yellow, and blue. Triadic schemes feel balanced and vibrant without the tension of complementary contrast. Use one dominant color and the other two as accents for the strongest results."
+          "heading": "Triadické",
+          "text": "Tři barvy rozmístěné po 120° kolem kola, například červená, žlutá a modrá. Triadická schémata působí vyváženě a živě, bez napětí komplementárního kontrastu. Nejsilnější jsou, když jednu barvu použiješ jako dominantní a zbylé dvě jako akcenty."
         },
         "4": {
-          "heading": "Split Complementary",
-          "text": "A variation of complementary that uses the two neighbors of the opposite color instead of the opposite itself. This keeps the high contrast of complementary but reduces the visual tension, making it more versatile and forgiving. A popular choice for styled portrait sessions."
+          "heading": "Dělené komplementární",
+          "text": "Varianta komplementární harmonie, která místo protilehlé barvy používá její dva sousedy. Zachovává si vysoký kontrast komplementární dvojice, ale snižuje vizuální napětí, takže je univerzálnější a odpouští víc chyb. Oblíbená volba pro stylizované portrétní sezóny."
         },
         "5": {
-          "heading": "Tetradic (Double Complementary)",
-          "text": "Four colors forming a rectangle on the wheel — essentially two complementary pairs. This offers the richest, most complex palette but requires careful balance. Let one color dominate and use the others as supporting accents to avoid a chaotic look."
+          "heading": "Tetradické (dvojitě komplementární)",
+          "text": "Čtyři barvy, které na kole tvoří obdélník — v podstatě dvě komplementární dvojice. Nabízí nejbohatší a nejsložitější paletu, ale vyžaduje pečlivou rovnováhu. Nech jednu barvu dominovat a ostatní použij jako podpůrné akcenty, jinak bude výsledek působit chaoticky."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Harmony Type",
-          "description": "The geometric relationship between colors on the wheel: complementary, analogous, triadic, split-complementary, or tetradic."
+          "label": "Typ harmonie",
+          "description": "Geometrický vztah mezi barvami na kole: komplementární, analogické, triadické, dělené komplementární nebo tetradické."
         },
         "1": {
-          "label": "Hue",
-          "description": "The base color angle on the wheel (0-360 degrees). This is the starting point for all harmony calculations."
+          "label": "Odstín",
+          "description": "Úhel základní barvy na kole (0–360°). Je výchozím bodem pro všechny výpočty harmonie."
         },
         "2": {
-          "label": "Saturation",
-          "description": "How vivid or muted the colors are. Lower saturation produces pastels and earth tones; higher saturation gives bold, vibrant palettes."
+          "label": "Sytost",
+          "description": "Jak živé nebo tlumené barvy jsou. Nižší sytost dává pastely a zemité tóny, vyšší sytost výrazné a živé palety."
         },
         "3": {
-          "label": "Lightness",
-          "description": "Controls brightness. Adjusting lightness can make the same hue feel completely different — dark navy vs. sky blue are the same hue at different lightness."
+          "label": "Světlost",
+          "description": "Ovládá jas. Změna světlosti dokáže stejný odstín zcela proměnit — tmavě modrá a blankytně modrá mají stejný odstín, ale jinou světlost."
         }
       },
       "tips": {
         "0": {
-          "text": "For portrait sessions, pick a complementary or split-complementary palette, then have your subject wear the key color while the background provides the contrasting hue. Blue/orange (golden hour portraits) is a classic example."
+          "text": "Na portrétní focení vyber komplementární nebo dělenou komplementární paletu — hlavní model ať má oblečení v základní barvě a pozadí ať dodá protilehlý odstín. Klasikou je modrá/oranžová (portréty za zlaté hodiny)."
         },
         "1": {
-          "text": "Use analogous harmony for landscapes — nature already works in analogous palettes. Match your wardrobe advice or prop choices to the dominant natural hues."
+          "text": "Pro krajinu použij analogickou harmonii — příroda už v analogických paletách funguje sama. Doporučení k oblečení nebo rekvizitám slaď s dominantními přírodními tóny."
         },
         "2": {
-          "text": "Reduce saturation to 30-50% to preview how colors will look in a more muted, editorial style. High saturation works for commercial and fashion, but lower saturation often feels more sophisticated."
+          "text": "Sniž sytost na 30–50 %, abys viděl, jak budou barvy vypadat v tlumenějším, editoriálním stylu. Vysoká sytost se hodí na komerční a módní fotografii, zatímco nižší sytost často působí sofistikovaněji."
         }
       },
       "tooltips": {
         "Harmony Type": {
-          "term": "Harmony Type",
-          "definition": "The color relationship pattern: Complementary (opposite), Analogous (neighbors), Triadic (three-way), Split Complementary (offset opposites), or Tetradic (four-way rectangle)."
+          "term": "Typ harmonie",
+          "definition": "Vzor barevného vztahu: komplementární (protilehlé), analogické (sousední), triadické (tři barvy), dělené komplementární (posunuté protilehlé) nebo tetradické (čtyři barvy ve tvaru obdélníku)."
         },
         "Key Color": {
-          "term": "Key Color",
-          "definition": "The dominant color in your palette. All other harmony colors are calculated relative to this starting hue."
+          "term": "Základní barva",
+          "definition": "Dominantní barva tvé palety. Všechny ostatní barvy harmonie se počítají právě od tohoto výchozího odstínu."
         },
         "Hue": {
-          "term": "Hue",
-          "definition": "The color angle on the wheel in degrees: 0\u00b0 is red, 120\u00b0 is green, 240\u00b0 is blue."
+          "term": "Odstín",
+          "definition": "Úhel barvy na kole ve stupních: 0° je červená, 120° zelená, 240° modrá."
         },
         "Saturation": {
-          "term": "Saturation",
-          "definition": "Color intensity from 0% (gray) to 100% (fully vivid). Controls how bold or muted the entire palette appears."
+          "term": "Sytost",
+          "definition": "Intenzita barvy od 0 % (šedá) do 100 % (plně syté). Určuje, jak výrazně nebo tlumeně bude vypadat celá paleta."
         },
         "Lightness": {
-          "term": "Lightness",
-          "definition": "Brightness from 0% (black) to 100% (white). At 50% you see the pure color; below is darker, above is lighter."
+          "term": "Světlost",
+          "definition": "Jas od 0 % (černá) do 100 % (bílá). Při 50 % vidíš čistou barvu; níž je tmavší, výš je světlejší."
         },
         "Split Angle": {
-          "term": "Split Angle",
-          "definition": "How far apart the two split-complementary colors are from the direct opposite. Wider angles give more contrast."
+          "term": "Úhel dělení",
+          "definition": "Jak daleko od sebe jsou obě dělené komplementární barvy vzdálené od přímé protilehlé. Širší úhly znamenají větší kontrast."
         },
         "Spread": {
-          "term": "Spread",
-          "definition": "How far apart the analogous colors are from the key hue. Narrow spread gives subtle variation; wide spread increases diversity."
+          "term": "Rozsah",
+          "definition": "Jak daleko jsou analogické barvy od základního odstínu. Úzký rozsah dává jemnou variaci, široký zvyšuje pestrost."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want maximum contrast between two colors for a bold graphic portrait. Which harmony type gives you the most visual tension?",
-          "hint": "Colors directly across from each other on the wheel create the strongest contrast.",
-          "successMessage": "Correct! Complementary colors sit 180 degrees apart and produce the highest contrast — perfect for bold, eye-catching compositions.",
-          "failureMessage": "Complementary harmony places colors directly opposite on the wheel, creating maximum visual contrast.",
+          "scenario": "Chceš maximální kontrast mezi dvěma barvami pro výrazný grafický portrét. Který typ harmonie ti dá největší vizuální napětí?",
+          "hint": "Barvy přímo proti sobě na barevném kole vytvářejí nejsilnější kontrast.",
+          "successMessage": "Správně! Komplementární barvy leží 180 stupňů od sebe a dávají nejvyšší kontrast — ideální pro výrazné, nepřehlédnutelné kompozice.",
+          "failureMessage": "Komplementární harmonie umísťuje barvy přímo proti sobě na kole a vytváří maximální vizuální kontrast.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Triadic" }
+            "0": { "label": "Komplementární" },
+            "1": { "label": "Analogické" },
+            "2": { "label": "Triadické" }
           }
         },
         "1": {
-          "scenario": "You are planning a golden hour shoot and want warm, cohesive tones. Which harmony type keeps colors close together on the wheel?",
-          "hint": "This type uses neighboring hues for a smooth, unified feel.",
-          "successMessage": "Right! Analogous harmony uses adjacent colors, giving you a warm, cohesive palette perfect for golden hour.",
-          "failureMessage": "Analogous harmony keeps all colors as neighbors on the wheel — ideal for unified warm or cool palettes.",
+          "scenario": "Plánuješ focení za zlaté hodiny a chceš teplé, soudržné tóny. Který typ harmonie udrží barvy blízko u sebe na kole?",
+          "hint": "Tento typ využívá sousední odstíny, aby vznikl plynulý a sjednocený pocit.",
+          "successMessage": "Přesně tak! Analogická harmonie používá sousední barvy, což ti dává teplou a soudržnou paletu jako stvořenou pro zlatou hodinu.",
+          "failureMessage": "Analogická harmonie drží všechny barvy jako sousedy na kole — ideální pro jednotné teplé nebo chladné palety.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Tetradic" }
+            "0": { "label": "Komplementární" },
+            "1": { "label": "Analogické" },
+            "2": { "label": "Tetradické" }
           }
         },
         "2": {
-          "scenario": "A client wants a portrait with contrast but not as intense as pure complementary. Which harmony type softens the opposition while keeping visual interest?",
-          "hint": "This type uses two colors near the complement instead of the direct opposite.",
-          "successMessage": "Excellent! Split complementary keeps the contrast of complementary but splits the opposing color into two flanking hues, producing a less jarring but still dynamic palette.",
-          "failureMessage": "Split Complementary is the answer — it replaces the single opposite color with two neighbors of the opposite, softening the contrast while maintaining visual energy.",
+          "scenario": "Klient chce portrét s kontrastem, ale ne tak intenzivním jako u čisté komplementární. Který typ harmonie změkčí protiklad, ale udrží vizuální zajímavost?",
+          "hint": "Tento typ místo přímo protilehlé barvy používá dvě barvy vedle ní.",
+          "successMessage": "Výborně! Dělená komplementární si zachovává kontrast komplementární, ale rozděluje protilehlou barvu na dva sousední odstíny — výsledek je méně dráždivý, ale stále dynamický.",
+          "failureMessage": "Správná odpověď je dělená komplementární — nahrazuje jedinou protilehlou barvu jejími dvěma sousedy, čímž kontrast změkčí a zároveň si udržuje vizuální energii.",
           "options": {
-            "0": { "label": "Split Complementary" },
-            "1": { "label": "Triadic" },
-            "2": { "label": "Analogous" }
+            "0": { "label": "Dělená komplementární" },
+            "1": { "label": "Triadická" },
+            "2": { "label": "Analogická" }
           }
         },
         "3": {
-          "scenario": "You set the key color to orange (hue ~30 degrees) with complementary harmony. What color will the complement be?",
-          "hint": "Complementary means 180 degrees opposite on the wheel.",
-          "successMessage": "Correct! 30\u00b0 + 180\u00b0 = 210\u00b0, which falls in the blue range. Orange and blue is one of photography most beloved complementary pairs.",
-          "failureMessage": "Adding 180\u00b0 to orange (30\u00b0) gives 210\u00b0, which is blue. The orange-blue complementary pair is a photography staple.",
+          "scenario": "Nastavil sis základní barvu oranžovou (odstín ~30°) s komplementární harmonií. Jaká bude doplňková barva?",
+          "hint": "Komplementární znamená 180° proti na kole.",
+          "successMessage": "Správně! 30° + 180° = 210°, což spadá do rozsahu modré. Oranžová a modrá je jedna z nejoblíbenějších komplementárních dvojic ve fotografii.",
+          "failureMessage": "Přičtením 180° k oranžové (30°) dostaneš 210°, tedy modrou. Dvojice oranžová-modrá je ve fotografii klasikou.",
           "options": {
-            "0": { "label": "Blue (~210\u00b0)" },
-            "1": { "label": "Green (~150\u00b0)" },
-            "2": { "label": "Red (~0\u00b0)" }
+            "0": { "label": "Modrá (~210°)" },
+            "1": { "label": "Zelená (~150°)" },
+            "2": { "label": "Červená (~0°)" }
           }
         },
         "4": {
-          "scenario": "You are art-directing a fashion editorial and need a four-color palette that provides both warm and cool tones with high visual richness. Which harmony type gives you four colors, and what is the main challenge when using it?",
-          "hint": "The four-color harmony forms a rectangle on the wheel.",
-          "successMessage": "Right! Tetradic harmony gives four colors forming a rectangle on the wheel. The main challenge is balance — with four distinct hues, one should dominate while the others accent. Without hierarchy, the image feels chaotic.",
-          "failureMessage": "Tetradic (double-complementary) provides four colors in a rectangular arrangement. The challenge is that four strong hues compete for attention — you need to designate one dominant color and use the others as accents.",
+          "scenario": "Jako art director připravuješ módní editorial a potřebuješ čtyřbarevnou paletu s teplými i chladnými tóny a vysokou vizuální bohatostí. Jaký typ harmonie dává čtyři barvy, a co je u něj hlavní výzva?",
+          "hint": "Čtyřbarevná harmonie tvoří na kole obdélník.",
+          "successMessage": "Přesně! Tetradická harmonie dává čtyři barvy tvořící obdélník na kole. Hlavní výzvou je rovnováha — u čtyř výrazných odstínů musí jeden dominovat a ostatní fungovat jako akcenty. Bez této hierarchie bude snímek působit chaoticky.",
+          "failureMessage": "Tetradická (dvojitě komplementární) nabízí čtyři barvy v obdélníkovém uspořádání. Problém je, že si čtyři silné odstíny konkurují — musíš určit jeden dominantní a zbylé použít jako akcenty.",
           "options": {
-            "0": { "label": "Tetradic — challenge is maintaining visual hierarchy among four hues" },
-            "1": { "label": "Triadic — challenge is having too few colors" },
-            "2": { "label": "Analogous — challenge is lack of contrast" }
+            "0": { "label": "Tetradická — výzvou je udržet vizuální hierarchii mezi čtyřmi odstíny" },
+            "1": { "label": "Triadická — výzvou je příliš málo barev" },
+            "2": { "label": "Analogická — výzvou je nedostatek kontrastu" }
           }
         }
       }

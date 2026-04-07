@@ -1,109 +1,109 @@
 {
   "education": {
     "exposure-simulator": {
-      "beginner": "The exposure triangle describes how three camera settings — aperture, shutter speed, and ISO — work together to control how bright your photo is. Changing one setting requires adjusting at least one of the others to maintain the same brightness. Each setting also has its own creative side effect: aperture controls background blur, shutter speed controls motion blur, and ISO controls image noise.",
-      "deeper": "Exposure is measured in Exposure Value (EV), where each whole EV step represents a doubling or halving of light. An increase of 1 EV (one \"stop\") means twice as much light is reaching the sensor. Aperture follows a geometric progression (f/1.4, f/2, f/2.8, f/4...) where each full stop halves the light entering the lens because the area of the opening is inversely proportional to the square of the f-number. Shutter speed is more intuitive: doubling the time doubles the light. ISO amplifies the signal from the sensor — doubling the ISO doubles the effective brightness but also amplifies noise. In practice, you typically set the parameter that matters most for your creative intent first (aperture for DoF control, shutter for motion), then balance the others. Modern cameras meter in 1/3-stop increments for finer control.",
+      "beginner": "Το τρίγωνο έκθεσης περιγράφει πώς τρεις ρυθμίσεις κάμερας — διάφραγμα, ταχύτητα κλείστρου και ISO — συνεργάζονται για να ελέγξουν πόσο φωτεινή είναι η φωτογραφία σου. Η αλλαγή μιας ρύθμισης απαιτεί προσαρμογή τουλάχιστον μιας από τις άλλες για να διατηρηθεί η ίδια φωτεινότητα. Κάθε ρύθμιση έχει και τη δική της δημιουργική επίδραση: το διάφραγμα ελέγχει το θόλωμα φόντου, η ταχύτητα κλείστρου το motion blur, και το ISO τον θόρυβο της εικόνας.",
+      "deeper": "Η έκθεση μετριέται σε Exposure Value (EV), όπου κάθε ολόκληρο βήμα EV αντιπροσωπεύει διπλασιασμό ή μείωση του φωτός στο μισό. Μια αύξηση 1 EV (ένα «stop») σημαίνει διπλάσιο φως στον αισθητήρα. Το διάφραγμα ακολουθεί γεωμετρική πρόοδο (f/1.4, f/2, f/2.8, f/4...) όπου κάθε ολόκληρο stop μισεί το φως που εισέρχεται, επειδή η επιφάνεια του ανοίγματος είναι αντιστρόφως ανάλογη με το τετράγωνο του αριθμού f. Η ταχύτητα κλείστρου είναι πιο διαισθητική: διπλασιάζοντας τον χρόνο διπλασιάζεται το φως. Το ISO ενισχύει το σήμα από τον αισθητήρα — διπλασιάζοντας το ISO διπλασιάζεται η ενεργή φωτεινότητα αλλά ενισχύεται και ο θόρυβος. Στην πράξη, συνήθως ρυθμίζεις πρώτα την παράμετρο που έχει τη μεγαλύτερη σημασία για τη δημιουργική σου πρόθεση (διάφραγμα για έλεγχο DoF, κλείστρο για κίνηση) και ισορροπείς τα υπόλοιπα. Οι σύγχρονες κάμερες μετρούν σε βήματα 1/3 stop για πιο λεπτομερή έλεγχο.",
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Controls the size of the lens opening. Each full stop (e.g., f/2.8 to f/4) halves the light. Also affects depth of field — wider apertures blur the background more."
+          "label": "Διάφραγμα",
+          "description": "Ελέγχει το μέγεθος του ανοίγματος του φακού. Κάθε ολόκληρο stop (π.χ. από f/2.8 σε f/4) μισεί το φως. Επίσης επηρεάζει το βάθος πεδίου — μεγαλύτερα διαφράγματα θολώνουν περισσότερο το φόντο."
         },
         "1": {
-          "label": "Shutter Speed",
-          "description": "Controls how long the sensor is exposed to light. Faster speeds freeze motion; slower speeds introduce motion blur. Doubling the time doubles the light."
+          "label": "Ταχύτητα κλείστρου",
+          "description": "Ελέγχει πόση ώρα εκτίθεται ο αισθητήρας στο φως. Οι γρήγορες ταχύτητες παγώνουν την κίνηση, οι αργές εισάγουν motion blur. Διπλασιάζοντας τον χρόνο διπλασιάζεται το φως."
         },
         "2": {
           "label": "ISO",
-          "description": "Controls the sensor's sensitivity to light. Higher ISO brightens the image but adds grain/noise. Always use the lowest ISO that gives you the exposure you need."
+          "description": "Ελέγχει την ευαισθησία του αισθητήρα στο φως. Υψηλότερο ISO φωτίζει την εικόνα αλλά προσθέτει θόρυβο/κόκκο. Πάντα χρησιμοποίησε το χαμηλότερο ISO που σου δίνει την έκθεση που χρειάζεσαι."
         },
         "3": {
           "label": "Exposure Value (EV)",
-          "description": "A single number that represents the overall brightness. EV 0 corresponds to a 1-second exposure at f/1.0. Each +1 EV halves the light."
+          "description": "Ένας αριθμός που αντιπροσωπεύει τη συνολική φωτεινότητα. Το EV 0 αντιστοιχεί σε έκθεση 1 δευτερολέπτου στο f/1.0. Κάθε +1 EV μισεί το φως."
         }
       },
       "tips": {
         "0": {
-          "text": "Start with Aperture Priority mode: set the aperture for your desired depth of field, and let the camera choose the shutter speed. Only raise ISO when the shutter speed drops too low for sharp handheld shots."
+          "text": "Ξεκίνα με τη λειτουργία Aperture Priority: ρύθμισε το διάφραγμα για το βάθος πεδίου που θέλεις και άσε την κάμερα να διαλέξει την ταχύτητα κλείστρου. Αύξησε το ISO μόνο όταν η ταχύτητα κλείστρου πέσει πολύ χαμηλά για σταθερές λήψεις με το χέρι."
         },
         "1": {
-          "text": "For sports and action, switch to Shutter Priority: pick a fast shutter speed (1/500s or faster) and let the camera adjust aperture and ISO to match."
+          "text": "Για αθλήματα και δράση, γύρισε σε Shutter Priority: διάλεξε γρήγορη ταχύτητα κλείστρου (1/500s ή πιο γρήγορη) και άσε την κάμερα να προσαρμόσει διάφραγμα και ISO."
         },
         "2": {
-          "text": "The \"Sunny 16\" rule is a quick mental shortcut: on a bright sunny day, set aperture to f/16, shutter speed to 1/ISO (e.g., 1/100s at ISO 100), and you will get a well-exposed image without metering."
+          "text": "Ο κανόνας «Sunny 16» είναι μια γρήγορη συντόμευση στο μυαλό: σε μια ηλιόλουστη μέρα, βάλε διάφραγμα f/16, ταχύτητα κλείστρου 1/ISO (π.χ. 1/100s στο ISO 100) και θα πάρεις σωστή έκθεση χωρίς φωτόμετρο."
         }
       },
       "tooltips": {
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening size expressed as an f-number. Lower numbers (f/1.4) let in more light and blur the background. Higher numbers (f/16) let in less light but keep more of the scene sharp."
+          "term": "Διάφραγμα",
+          "definition": "Το μέγεθος του ανοίγματος του φακού εκφρασμένο ως αριθμός f. Χαμηλότεροι αριθμοί (f/1.4) αφήνουν περισσότερο φως και θολώνουν το φόντο. Υψηλότεροι (f/16) αφήνουν λιγότερο φως αλλά κρατάνε περισσότερη σκηνή ευκρινή."
         },
         "shutterSpeed": {
-          "term": "Shutter Speed",
-          "definition": "The duration the sensor is exposed to light, typically measured in fractions of a second (1/250s) or full seconds (2s). Faster speeds freeze motion; slower speeds create motion blur."
+          "term": "Ταχύτητα κλείστρου",
+          "definition": "Η διάρκεια έκθεσης του αισθητήρα στο φως, συνήθως μετρημένη σε κλάσματα του δευτερολέπτου (1/250s) ή ολόκληρα δευτερόλεπτα (2s). Οι γρήγορες ταχύτητες παγώνουν την κίνηση, οι αργές δημιουργούν motion blur."
         },
         "iso": {
           "term": "ISO",
-          "definition": "A measure of sensor sensitivity. ISO 100 is the base (cleanest image). Each doubling (200, 400, 800...) brightens the image by one stop but progressively adds noise."
+          "definition": "Μέτρηση της ευαισθησίας του αισθητήρα. Το ISO 100 είναι η βάση (καθαρότερη εικόνα). Κάθε διπλασιασμός (200, 400, 800...) φωτίζει την εικόνα κατά ένα stop αλλά προσθέτει σταδιακά θόρυβο."
         },
         "ev": {
           "term": "Exposure Value (EV)",
-          "definition": "A single number summarizing the overall exposure. Higher EV means brighter conditions or more light captured. Each +1 EV is double the light."
+          "definition": "Ένας αριθμός που συνοψίζει τη συνολική έκθεση. Υψηλότερο EV σημαίνει πιο φωτεινές συνθήκες ή περισσότερο φως. Κάθε +1 EV είναι διπλάσιο φως."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing your dog running in the park on a sunny day. The image keeps coming out blurry. Which setting should you prioritize to freeze the motion?",
-          "hint": "Motion blur is caused by the subject moving during the exposure.",
-          "successMessage": "Correct! A fast shutter speed like 1/1000s will freeze your dog mid-stride. On a sunny day, you have plenty of light to support this.",
-          "failureMessage": "That setting won't directly freeze motion. To stop a moving subject, you need a fast shutter speed — the shorter the exposure, the less time the subject has to blur.",
+          "scenario": "Φωτογραφίζεις τον σκύλο σου να τρέχει στο πάρκο μια ηλιόλουστη μέρα. Οι εικόνες βγαίνουν θολές. Ποια ρύθμιση πρέπει να βάλεις σε προτεραιότητα για να παγώσεις την κίνηση;",
+          "hint": "Το motion blur προκαλείται από την κίνηση του θέματος κατά τη διάρκεια της έκθεσης.",
+          "successMessage": "Σωστά! Μια γρήγορη ταχύτητα κλείστρου όπως 1/1000s θα παγώσει τον σκύλο σου στον δρόμο. Σε ηλιόλουστη μέρα έχεις άφθονο φως για να το υποστηρίξεις.",
+          "failureMessage": "Αυτή η ρύθμιση δεν θα παγώσει άμεσα την κίνηση. Για να σταματήσεις ένα κινούμενο θέμα χρειάζεσαι γρήγορο κλείστρο — όσο πιο σύντομη η έκθεση, τόσο λιγότερος χρόνος να θολώσει το θέμα.",
           "options": {
-            "0": { "label": "Widen the aperture to f/2.8" },
-            "1": { "label": "Use a fast shutter speed (1/1000s)" },
-            "2": { "label": "Increase ISO to 3200" },
-            "3": { "label": "Use a longer focal length" }
+            "0": { "label": "Άνοιξε το διάφραγμα στο f/2.8" },
+            "1": { "label": "Χρησιμοποίησε γρήγορη ταχύτητα κλείστρου (1/1000s)" },
+            "2": { "label": "Αύξησε το ISO στα 3200" },
+            "3": { "label": "Χρησιμοποίησε μεγαλύτερη εστιακή απόσταση" }
           }
         },
         "1": {
-          "scenario": "You are taking photos at an indoor birthday party. Your images are too dark at f/3.5, 1/60s, ISO 400. You cannot use a flash. What is the best next step?",
-          "hint": "You need more light reaching the sensor or more amplification of the signal.",
-          "successMessage": "Good thinking! Raising ISO to 1600 gives you two extra stops of brightness while keeping your shutter speed fast enough for handheld shots.",
-          "failureMessage": "That change might cause other issues. Since the aperture is already near its widest and you need a shutter speed fast enough for handheld use, raising ISO is the most practical adjustment.",
+          "scenario": "Φωτογραφίζεις σε εσωτερικό πάρτι γενεθλίων. Οι εικόνες σου είναι πολύ σκοτεινές στο f/3.5, 1/60s, ISO 400. Δεν μπορείς να χρησιμοποιήσεις φλας. Ποιο είναι το καλύτερο επόμενο βήμα;",
+          "hint": "Χρειάζεσαι περισσότερο φως να φτάσει στον αισθητήρα ή περισσότερη ενίσχυση του σήματος.",
+          "successMessage": "Καλή σκέψη! Ανεβάζοντας το ISO στα 1600 κερδίζεις δύο επιπλέον stops φωτεινότητας, διατηρώντας την ταχύτητα κλείστρου αρκετά γρήγορη για λήψεις με το χέρι.",
+          "failureMessage": "Αυτή η αλλαγή μπορεί να δημιουργήσει άλλα προβλήματα. Αφού το διάφραγμα είναι ήδη κοντά στο πιο ανοιχτό και χρειάζεσαι ταχύτητα κλείστρου αρκετά γρήγορη για χρήση με το χέρι, η αύξηση του ISO είναι η πιο πρακτική προσαρμογή.",
           "options": {
-            "0": { "label": "Raise ISO to 1600" },
-            "1": { "label": "Slow shutter to 1/4s" },
-            "2": { "label": "Close aperture to f/8" },
-            "3": { "label": "Switch to a smaller sensor camera" }
+            "0": { "label": "Αύξησε το ISO στα 1600" },
+            "1": { "label": "Κατέβασε το κλείστρο στο 1/4s" },
+            "2": { "label": "Κλείσε το διάφραγμα στο f/8" },
+            "3": { "label": "Άλλαξε σε κάμερα με μικρότερο αισθητήρα" }
           }
         },
         "2": {
-          "scenario": "You want to capture a waterfall with a silky smooth water effect on a bright day. Your current settings are f/8, 1/250s, ISO 100. What should you change to get the silky look?",
-          "hint": "Silky water requires a long exposure, but it is very bright outside.",
-          "successMessage": "Exactly! Using a slow shutter speed (1/2s or longer) and compensating by narrowing the aperture to f/22 (and possibly adding an ND filter) will give you that silky water effect.",
-          "failureMessage": "To get silky water, you need a slow shutter speed — around 1/2s to several seconds. On a bright day, you will also need to reduce the light entering the lens to avoid overexposure.",
+          "scenario": "Θέλεις να τραβήξεις έναν καταρράκτη με απαλό, μεταξένιο εφέ στο νερό μια φωτεινή μέρα. Οι τρέχουσες ρυθμίσεις σου είναι f/8, 1/250s, ISO 100. Τι πρέπει να αλλάξεις για να πετύχεις το μεταξένιο look;",
+          "hint": "Το μεταξένιο νερό χρειάζεται μεγάλη έκθεση, αλλά έξω έχει πολύ φως.",
+          "successMessage": "Ακριβώς! Μια αργή ταχύτητα κλείστρου (1/2s ή πιο αργή) και αντιστάθμιση κλείνοντας το διάφραγμα στο f/22 (και ενδεχομένως προσθέτοντας ένα φίλτρο ND) θα σου δώσει αυτό το μεταξένιο αποτέλεσμα.",
+          "failureMessage": "Για μεταξένιο νερό, χρειάζεσαι αργή ταχύτητα κλείστρου — γύρω στο 1/2s έως αρκετά δευτερόλεπτα. Σε φωτεινή μέρα θα χρειαστεί και να μειώσεις το φως που μπαίνει στον φακό για να αποφύγεις την υπερέκθεση.",
           "options": {
-            "0": { "label": "Use 1/2s shutter and narrow to f/22" },
-            "1": { "label": "Use 1/1000s shutter at f/2.8" },
-            "2": { "label": "Raise ISO to 6400" },
-            "3": { "label": "Keep 1/250s but open to f/1.4" }
+            "0": { "label": "Κλείστρο 1/2s και διάφραγμα f/22" },
+            "1": { "label": "Κλείστρο 1/1000s στο f/2.8" },
+            "2": { "label": "Αύξησε το ISO στα 6400" },
+            "3": { "label": "Κράτα 1/250s αλλά άνοιξε στο f/1.4" }
           }
         },
         "3": {
-          "scenario": "Your properly exposed photo is at f/5.6, 1/125s, ISO 200. You want to switch to f/2.8 for more background blur. How should you adjust the other settings to maintain the same exposure?",
-          "hint": "Going from f/5.6 to f/2.8 is 2 stops more light. You need to remove 2 stops somewhere else.",
-          "successMessage": "Perfect! Opening from f/5.6 to f/2.8 adds 2 stops of light. Changing shutter speed from 1/125s to 1/500s removes exactly 2 stops, keeping the exposure identical.",
-          "failureMessage": "The math needs to balance. f/5.6 to f/2.8 is +2 stops. You need to compensate by removing exactly 2 stops through faster shutter speed, lower ISO, or a combination.",
+          "scenario": "Η σωστά εκτεθειμένη φωτογραφία σου είναι στα f/5.6, 1/125s, ISO 200. Θέλεις να γυρίσεις σε f/2.8 για περισσότερο θόλωμα φόντου. Πώς πρέπει να προσαρμόσεις τις άλλες ρυθμίσεις για να διατηρήσεις την ίδια έκθεση;",
+          "hint": "Από f/5.6 σε f/2.8 είναι 2 stops παραπάνω φως. Πρέπει να αφαιρέσεις 2 stops κάπου αλλού.",
+          "successMessage": "Τέλεια! Το άνοιγμα από f/5.6 σε f/2.8 προσθέτει 2 stops φωτός. Η αλλαγή του κλείστρου από 1/125s σε 1/500s αφαιρεί ακριβώς 2 stops, διατηρώντας την έκθεση πανομοιότυπη.",
+          "failureMessage": "Τα μαθηματικά πρέπει να ισορροπούν. f/5.6 σε f/2.8 είναι +2 stops. Πρέπει να αντισταθμίσεις αφαιρώντας ακριβώς 2 stops μέσω γρηγορότερου κλείστρου, χαμηλότερου ISO ή συνδυασμού.",
           "options": {
-            "0": { "label": "1/500s at ISO 200" },
-            "1": { "label": "1/250s at ISO 200" },
-            "2": { "label": "1/125s at ISO 100" },
-            "3": { "label": "1/60s at ISO 100" }
+            "0": { "label": "1/500s στο ISO 200" },
+            "1": { "label": "1/250s στο ISO 200" },
+            "2": { "label": "1/125s στο ISO 100" },
+            "3": { "label": "1/60s στο ISO 100" }
           }
         },
         "4": {
-          "scenario": "You are photographing a concert in a dark venue. The performers are moving quickly under colored stage lights. You need at least 1/250s to freeze motion. Your fastest lens is f/2.8. What ISO do you likely need if the scene meters at EV 6?",
-          "hint": "At EV 6, f/2.8, calculate the ISO needed to achieve 1/250s. Each full stop of ISO doubles the brightness.",
-          "successMessage": "Correct! At EV 6 with f/2.8 and 1/250s, you need ISO 3200. Concert photography often demands high ISO — knowing your camera's usable ISO limit is critical for these situations.",
-          "failureMessage": "At EV 6, the combination of f/2.8 and 1/250s requires ISO 3200 to achieve proper exposure. The exposure formula balances aperture, shutter speed, and ISO against the available light.",
+          "scenario": "Φωτογραφίζεις μια συναυλία σε σκοτεινό χώρο. Οι ερμηνευτές κινούνται γρήγορα κάτω από έγχρωμα φώτα σκηνής. Χρειάζεσαι τουλάχιστον 1/250s για να παγώσεις την κίνηση. Ο ταχύτερος φακός σου είναι f/2.8. Τι ISO χρειάζεσαι περίπου αν η σκηνή μετριέται στα EV 6;",
+          "hint": "Στα EV 6, f/2.8, υπολόγισε το ISO που χρειάζεται για να πετύχεις 1/250s. Κάθε ολόκληρο stop ISO διπλασιάζει τη φωτεινότητα.",
+          "successMessage": "Σωστά! Στα EV 6 με f/2.8 και 1/250s, χρειάζεσαι ISO 3200. Η φωτογραφία συναυλιών συχνά απαιτεί υψηλό ISO — η γνώση του χρησιμοποιήσιμου ορίου ISO της κάμερας σου είναι κρίσιμη σε αυτές τις περιπτώσεις.",
+          "failureMessage": "Στα EV 6, ο συνδυασμός f/2.8 και 1/250s απαιτεί ISO 3200 για να πετύχεις σωστή έκθεση. Ο τύπος της έκθεσης ισορροπεί διάφραγμα, ταχύτητα κλείστρου και ISO με το διαθέσιμο φως.",
           "options": {
             "0": { "label": "ISO 400" },
             "1": { "label": "ISO 800" },

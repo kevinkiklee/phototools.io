@@ -1,110 +1,110 @@
 {
   "education": {
     "focus-stacking-calculator": {
-      "beginner": "Focus stacking is a technique where you take multiple photos at different focus distances and merge them in software to create an image with front-to-back sharpness. It is essential for macro photography, where depth of field is razor-thin, and useful in landscape photography when you need both near foreground and distant background in sharp focus.",
+      "beginner": "焦點堆疊是一種拍攝技巧：先對不同距離拍攝多張照片，再用軟體合成為一張從前到後都清晰的影像。在景深極薄的微距攝影中不可或缺；風景攝影中若需要同時保留近處前景與遠方背景，也非常實用。",
       "deeper": {
         "0": {
-          "heading": "Why Stacking Is Necessary",
-          "text": "At macro magnifications, even f/16 may yield only a few millimeters of depth of field. Stopping down further introduces diffraction softening that degrades the image. Focus stacking lets you shoot at the lens's sharpest aperture (typically f/5.6-f/8) and combine the sharp slices. Each frame shifts focus slightly forward, covering a new slice of the subject."
+          "heading": "為什麼需要堆疊",
+          "text": "在微距放大率下，即使 f/16 可能也只剩幾毫米的景深。再繼續縮光圈就會因繞射而變得柔軟。焦點堆疊讓您可以在鏡頭最銳利的光圈（通常是 f/5.6–f/8）拍攝，再把每張清晰切片合成起來。每一張的對焦點會略為前移，涵蓋主體的新一段。"
         },
         "1": {
-          "heading": "Planning the Stack",
-          "text": "The key to a successful stack is ensuring each shot's depth of field overlaps the next by 20-30%. Too little overlap creates gaps where nothing is sharp; too much wastes frames without benefit. The calculator determines the per-shot DoF using the circle of confusion formula, subtracts the overlap margin, and divides the total depth range by the effective step to compute the number of shots."
+          "heading": "堆疊規劃",
+          "text": "成功堆疊的關鍵，在於確保每張照片的景深與下一張有 20–30% 的重疊。重疊不足會留下無清晰區的缺口；重疊過多則會浪費張數。計算機會以容許彌散圓公式計算每張的景深，減掉重疊邊界後再以總深度範圍除以有效步距，得到所需張數。"
         },
         "2": {
-          "heading": "Merging & Alignment",
-          "text": "Software like Photoshop, Helicon Focus, or Zerene Stacker aligns the frames (slight magnification shifts occur as focus changes), then selects the sharpest pixels from each layer. Shooting on a sturdy tripod with consistent lighting and using a focus rail for precise increments produces the cleanest results."
+          "heading": "合成與對齊",
+          "text": "Photoshop、Helicon Focus 或 Zerene Stacker 等軟體會先對齊各張（對焦改變時會產生細微的放大變化），再從每一層挑出最銳利的像素。使用穩固的三腳架、一致的光線，並搭配對焦滑軌做精確的位移，能得到最乾淨的結果。"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Determines per-shot depth of field. A moderate aperture (f/5.6-f/8) balances sharpness and DoF per frame. Avoid very small apertures — diffraction reduces the sharpness you are stacking for."
+          "label": "光圈",
+          "description": "決定每張的景深。中等光圈（f/5.6–f/8）在銳利度與每張景深之間取得平衡。避免極小光圈 — 繞射會抵銷您本來想堆疊取得的銳利度。"
         },
         "1": {
-          "label": "Depth Range",
-          "description": "The distance from the nearest to farthest point you want sharp. Wider ranges require more shots. In macro work this may be just centimeters; in landscapes it can span meters to infinity."
+          "label": "深度範圍",
+          "description": "從最近到最遠、您想保持清晰的距離。範圍越大需要越多張。微距工作中可能只有幾公分；風景則可能從幾公尺延伸到無限遠。"
         },
         "2": {
-          "label": "Overlap",
-          "description": "The percentage of each shot's DoF that overlaps the adjacent shots. 20-30% is standard. Less risks gaps; more wastes frames."
+          "label": "重疊比例",
+          "description": "每一張的景深與相鄰張重疊的百分比。20–30% 為標準值。過少有風險留缺口，過多則浪費張數。"
         }
       },
       "tips": {
         "0": {
-          "text": "Use a focus rail instead of the lens's focus ring for macro stacking. A rail moves the entire camera forward in precise increments, avoiding the slight magnification changes that occur when refocusing the lens."
+          "text": "微距堆疊時請使用對焦滑軌，而不要轉鏡頭對焦環。滑軌會以精確的步距整體前移相機，避免因重新對焦而產生微小放大變化。"
         },
         "1": {
-          "text": "Keep your aperture at the lens's sweet spot (typically f/5.6-f/8). The point of stacking is to avoid stopping down to f/16+, so use the sharpest aperture and let the stack handle depth."
+          "text": "請把光圈維持在鏡頭的甜蜜點（通常是 f/5.6–f/8）。堆疊的目的就是避免縮到 f/16 以上，因此要用最銳利的光圈，把景深問題交給堆疊處理。"
         },
         "2": {
-          "text": "For landscape stacks, shoot front-to-back: focus on the nearest element first, then step focus toward infinity. This makes alignment easier since the foreground (with the most parallax) is captured first."
+          "text": "風景堆疊請從近到遠拍攝：先對焦於最近的元素，再依序將對焦點推向無限遠。這樣對齊會容易許多，因為視差最大的前景是最先拍下的。"
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths reduce per-shot depth of field, requiring more frames to cover the same depth range."
+          "term": "焦距",
+          "definition": "鏡頭的焦距，單位為毫米。焦距越長，每張的景深越薄，涵蓋相同深度範圍所需的張數也越多。"
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening (f-number). For stacking, use the lens's sharpest aperture rather than stopping down — the stack provides the depth."
+          "term": "光圈",
+          "definition": "鏡頭開口（f 值）。堆疊時應使用鏡頭最銳利的光圈而非縮光圈 — 景深由堆疊負責。"
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "Larger sensors have a shallower per-shot depth of field at equivalent framing, which may increase the number of required stack frames."
+          "term": "感光元件尺寸",
+          "definition": "較大的感光元件在相同取景下每張的景深較淺，可能會增加所需的堆疊張數。"
         },
         "nearLimit": {
-          "term": "Near Limit",
-          "definition": "The closest point in the scene that you want sharp. This is where the first shot in the stack will be focused."
+          "term": "近端",
+          "definition": "場景中您想保持清晰的最近點。這是堆疊第一張的對焦位置。"
         },
         "farLimit": {
-          "term": "Far Limit",
-          "definition": "The farthest point in the scene that you want sharp. The last shot in the stack will cover this distance."
+          "term": "遠端",
+          "definition": "場景中您想保持清晰的最遠點。堆疊中最後一張會涵蓋到這個距離。"
         },
         "overlap": {
-          "term": "Overlap",
-          "definition": "The percentage of depth-of-field overlap between consecutive shots. 20-30% ensures no gaps after software alignment and merging."
+          "term": "重疊",
+          "definition": "連續兩張之間景深的重疊百分比。20–30% 可確保軟體對齊與合成後沒有縫隙。"
         },
         "shotCount": {
-          "term": "Shot Count",
-          "definition": "The total number of frames needed to cover the depth range with the specified overlap. More shots = more processing but smoother results."
+          "term": "張數",
+          "definition": "在指定重疊下涵蓋深度範圍所需的總張數。張數越多，後製負擔越重，但成果越平順。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing a small flower that is 3cm deep from front petal to back stem. Your macro lens at f/8 gives about 4mm of DoF per shot. Roughly how many frames do you need with 25% overlap?",
-          "hint": "Each shot covers 4mm, but 25% overlap means the effective step is 3mm per frame. Divide 30mm by 3mm.",
-          "successMessage": "Correct! With 4mm DoF and 25% overlap, each step advances 3mm. 30mm / 3mm = 10 shots to cover the entire flower.",
-          "failureMessage": "With 25% overlap, each frame's effective step is 75% of the DoF: 4mm × 0.75 = 3mm. You need 30mm / 3mm = 10 shots.",
+          "scenario": "您正在拍攝一朵小花，從前花瓣到後花梗深度約 3 公分。您的微距鏡在 f/8 下每張約有 4mm 景深。在 25% 重疊下，大約需要多少張？",
+          "hint": "每張涵蓋 4mm，25% 重疊代表每張有效步距為 3mm。以 30mm 除以 3mm。",
+          "successMessage": "答對了！4mm 景深搭配 25% 重疊，每張有效推進 3mm。30mm / 3mm = 10 張即可涵蓋整朵花。",
+          "failureMessage": "25% 重疊下，每張的有效步距是景深的 75%：4mm × 0.75 = 3mm。您需要 30mm / 3mm = 10 張。",
           "options": {
-            "0": { "label": "5 shots" },
-            "1": { "label": "10 shots" },
-            "2": { "label": "20 shots" },
-            "3": { "label": "30 shots" }
+            "0": { "label": "5 張" },
+            "1": { "label": "10 張" },
+            "2": { "label": "20 張" },
+            "3": { "label": "30 張" }
           }
         },
         "1": {
-          "scenario": "You want the sharpest possible result from your focus stack. Should you shoot each frame at f/2.8, f/8, or f/22?",
-          "hint": "Consider the lens's sharpest aperture and how diffraction affects small apertures.",
-          "successMessage": "Right! f/8 is typically the sharpest aperture for most lenses. f/2.8 has too little DoF per shot (wasting frames) and f/22 suffers from diffraction softening.",
-          "failureMessage": "f/8 is the best choice. f/2.8 gives very thin per-shot DoF (requiring many more frames), and f/22 introduces diffraction softening that defeats the purpose of stacking for sharpness.",
+          "scenario": "您希望焦點堆疊的成果盡量銳利。每張應該用 f/2.8、f/8 還是 f/22？",
+          "hint": "考慮鏡頭最銳利的光圈，以及小光圈下的繞射問題。",
+          "successMessage": "沒錯！f/8 通常是多數鏡頭最銳利的光圈。f/2.8 每張景深太薄（浪費張數），f/22 則會因繞射而柔化。",
+          "failureMessage": "f/8 是最好的選擇。f/2.8 每張景深過薄（需要更多張數），f/22 會因繞射柔化 — 違背了堆疊求銳利的初衷。",
           "options": {
-            "0": { "label": "f/2.8 — widest for fastest shutter" },
-            "1": { "label": "f/8 — lens sweet spot" },
-            "2": { "label": "f/22 — maximum per-shot DoF" }
+            "0": { "label": "f/2.8 — 最大光圈換最快快門" },
+            "1": { "label": "f/8 — 鏡頭甜蜜點" },
+            "2": { "label": "f/22 — 每張最大景深" }
           }
         },
         "2": {
-          "scenario": "After merging your focus stack, you notice a soft band across the middle of the image where nothing is sharp. What most likely went wrong?",
-          "hint": "Think about what connects one frame's sharp zone to the next.",
-          "successMessage": "Exactly! Insufficient overlap between adjacent frames creates a gap where neither shot is sharp. Increase overlap to 25-30% and reshoot.",
-          "failureMessage": "A soft band usually means the gap between focus steps was too large — the DoF of adjacent frames did not overlap enough. Increase the overlap percentage.",
+          "scenario": "合成完焦點堆疊後，您注意到畫面中間有一條模糊帶，整條都不清晰。最可能是什麼出了問題？",
+          "hint": "想想什麼能讓一張的清晰範圍與下一張相連。",
+          "successMessage": "完全正確！相鄰張之間的重疊不足會留下縫隙，兩張都無法覆蓋到。把重疊提高到 25–30% 重拍一次。",
+          "failureMessage": "軟帶通常代表對焦步距之間的間隔太大 — 相鄰張的景深沒有足夠重疊。請提高重疊百分比。",
           "options": {
-            "0": { "label": "The aperture was too wide" },
-            "1": { "label": "Insufficient overlap between focus steps" },
-            "2": { "label": "The tripod moved during the sequence" },
-            "3": { "label": "The ISO was too high" }
+            "0": { "label": "光圈太大" },
+            "1": { "label": "對焦步距之間的重疊不足" },
+            "2": { "label": "拍攝過程中三腳架位移" },
+            "3": { "label": "ISO 設定太高" }
           }
         }
       }

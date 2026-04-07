@@ -1,74 +1,74 @@
 {
   "education": {
     "sensor-size-comparison": {
-      "beginner": "Camera sensors come in many different physical sizes, from the large medium-format chips used in studio cameras down to the tiny sensors in smartphones. A larger sensor captures more light, produces less noise, and makes it easier to blur backgrounds. Sensor size is one of the biggest factors separating camera categories.",
+      "beginner": "Οι αισθητήρες κάμερας έρχονται σε πολλά διαφορετικά φυσικά μεγέθη, από τους μεγάλους medium-format αισθητήρες σε studio κάμερες μέχρι τους μικροσκοπικούς στα smartphone. Ένας μεγαλύτερος αισθητήρας συλλαμβάνει περισσότερο φως, παράγει λιγότερο θόρυβο και διευκολύνει το θόλωμα του φόντου. Το μέγεθος αισθητήρα είναι ένας από τους σημαντικότερους παράγοντες που χωρίζουν τις κατηγορίες κάμερας.",
       "deeper": {
         "0": {
-          "heading": "How it works",
-          "text": "Sensor size affects photography in several interconnected ways. A larger sensor has a bigger area to collect photons, improving signal-to-noise ratio and dynamic range. Sensor size is one of the most important differences between camera categories — from medium format studio cameras to smartphone sensors."
+          "heading": "Πώς λειτουργεί",
+          "text": "Το μέγεθος του αισθητήρα επηρεάζει τη φωτογραφία με αρκετούς αλληλοσυνδεόμενους τρόπους. Ένας μεγαλύτερος αισθητήρας έχει μεγαλύτερη επιφάνεια για να συλλέγει φωτόνια, βελτιώνοντας τη σχέση σήματος προς θόρυβο και το δυναμικό εύρος. Το μέγεθος αισθητήρα είναι από τις σημαντικότερες διαφορές μεταξύ κατηγοριών κάμερας — από medium format studio κάμερες μέχρι αισθητήρες smartphone."
         },
         "1": {
-          "heading": "Crop factor",
-          "text": "The \"crop factor\" describes how a sensor compares to the 35mm full-frame standard. An APS-C sensor with a 1.5x crop factor gives the same field of view with a 35mm lens as a full-frame camera would with a 52.5mm lens. This crop factor also multiplies the effective depth of field — a smaller sensor appears to give more depth of field at the same framing because you need a wider (shorter) lens to match the field of view."
+          "heading": "Συντελεστής crop",
+          "text": "Ο «συντελεστής crop» περιγράφει πώς συγκρίνεται ένας αισθητήρας με το πρότυπο full-frame 35mm. Ένας αισθητήρας APS-C με συντελεστή crop 1.5x δίνει το ίδιο οπτικό πεδίο με φακό 35mm όσο μια full-frame με φακό 52.5mm. Αυτός ο συντελεστής crop πολλαπλασιάζει επίσης το ενεργό βάθος πεδίου — ένας μικρότερος αισθητήρας φαίνεται να δίνει περισσότερο βάθος πεδίου στο ίδιο κάδρο επειδή χρειάζεσαι έναν πιο ευρυγώνιο (μικρότερο) φακό για να ταιριάξεις το οπτικό πεδίο."
         },
         "2": {
-          "heading": "Pixel density",
-          "text": "Pixel density (pixel pitch) measures how tightly pixels are packed on the sensor. Packing more megapixels onto a smaller sensor shrinks each photosite, reducing per-pixel light gathering. A 24MP full-frame sensor has ~6\u00b5m pixels while a 24MP APS-C sensor has ~4\u00b5m pixels, which is why the full-frame sensor typically performs better at high ISO."
+          "heading": "Πυκνότητα pixel",
+          "text": "Η πυκνότητα pixel (pixel pitch) μετρά πόσο πυκνά είναι συσκευασμένα τα pixel στον αισθητήρα. Στριμώχνοντας περισσότερα megapixel σε μικρότερο αισθητήρα συρρικνώνεται κάθε photosite, μειώνοντας τη συλλογή φωτός ανά pixel. Ένας 24MP full-frame αισθητήρας έχει pixel ~6μm ενώ ένας 24MP APS-C έχει pixel ~4μm, γι' αυτό ο full-frame αισθητήρας συνήθως αποδίδει καλύτερα σε υψηλό ISO."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Physical Dimensions",
-          "description": "Width and height in millimeters determine the total light-gathering area and the field of view for a given lens."
+          "label": "Φυσικές διαστάσεις",
+          "description": "Το πλάτος και το ύψος σε χιλιοστά καθορίζουν τη συνολική επιφάνεια συλλογής φωτός και το οπτικό πεδίο για έναν δεδομένο φακό."
         },
         "1": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame diagonal to the sensor diagonal. Multiplied by focal length, it gives the \"equivalent\" focal length."
+          "label": "Συντελεστής crop",
+          "description": "Η αναλογία της διαγωνίου full-frame προς τη διαγώνιο του αισθητήρα. Πολλαπλασιαζόμενος με την εστιακή απόσταση, δίνει την «ισοδύναμη» εστιακή απόσταση."
         },
         "2": {
-          "label": "Pixel Density",
-          "description": "How tightly pixels are packed. Smaller pixel pitch means more detail but less light per pixel, affecting noise performance."
+          "label": "Πυκνότητα pixel",
+          "description": "Πόσο πυκνά είναι τα pixel. Μικρότερο pixel pitch σημαίνει περισσότερη λεπτομέρεια αλλά λιγότερο φως ανά pixel, επηρεάζοντας την απόδοση στον θόρυβο."
         },
         "3": {
-          "label": "Sensor Area",
-          "description": "Total area in mm\u00b2. A 44x33mm medium format sensor (Fujifilm GFX, Hasselblad X) has roughly 1.7x the area of full frame, while a larger 54x40mm medium format chip is about 2.5x. Full frame is roughly 13x the area of a flagship smartphone sensor."
+          "label": "Επιφάνεια αισθητήρα",
+          "description": "Συνολική επιφάνεια σε mm². Ένας 44x33mm medium format αισθητήρας (Fujifilm GFX, Hasselblad X) έχει περίπου 1.7x την επιφάνεια του full-frame, ενώ ένας μεγαλύτερος 54x40mm medium format είναι περίπου 2.5x. Το full-frame είναι περίπου 13x την επιφάνεια ενός flagship smartphone αισθητήρα."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the overlay mode to see exactly how much bigger one sensor is than another — the area difference is often more dramatic than the numbers suggest."
+          "text": "Χρησιμοποίησε τη λειτουργία overlay για να δεις ακριβώς πόσο μεγαλύτερος είναι ένας αισθητήρας από έναν άλλο — η διαφορά επιφάνειας είναι συχνά πιο δραματική από όσο προτείνουν οι αριθμοί."
         },
         "1": {
-          "text": "Switch to pixel density mode and enter your camera resolution to compare pixel pitch. If your camera has very high pixel density, you may hit diffraction limits at wider apertures than expected."
+          "text": "Γύρισε σε pixel density mode και εισήγαγε την ανάλυση της κάμεράς σου για να συγκρίνεις το pixel pitch. Αν η κάμερά σου έχει πολύ υψηλή πυκνότητα pixel, μπορεί να χτυπήσεις όρια περίθλασης σε πιο ανοιχτά διαφράγματα από όσο περίμενες."
         },
         "2": {
-          "text": "When comparing cameras, sensor area matters more than megapixel count for noise performance. A 20MP full-frame sensor will typically outperform a 40MP APS-C sensor at high ISO."
+          "text": "Όταν συγκρίνεις κάμερες, η επιφάνεια του αισθητήρα έχει μεγαλύτερη σημασία από τον αριθμό των megapixel για την απόδοση στον θόρυβο. Ένας 20MP full-frame αισθητήρας συνήθως θα υπερτερεί ενός 40MP APS-C σε υψηλό ISO."
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "Toggle individual sensor formats on or off to include them in the visual comparison and data table."
+          "term": "Αισθητήρας",
+          "definition": "Εναλλαγή μεμονωμένων φορμά αισθητήρα on ή off για να τα συμπεριλάβεις στην οπτική σύγκριση και στον πίνακα δεδομένων."
         },
         "Display Mode": {
-          "term": "Display Mode",
-          "definition": "Overlay shows all sensors centered on the same point. Side by Side places them next to each other at the same scale. Pixel Density visualizes how tightly pixels are packed."
+          "term": "Λειτουργία προβολής",
+          "definition": "Το Overlay δείχνει όλους τους αισθητήρες κεντραρισμένους στο ίδιο σημείο. Το Side by Side τους τοποθετεί δίπλα-δίπλα στην ίδια κλίμακα. Το Pixel Density οπτικοποιεί πόσο πυκνά είναι συσκευασμένα τα pixel."
         },
         "Resolution": {
-          "term": "Resolution",
-          "definition": "The total megapixel count used to calculate pixel pitch in pixel density mode. Higher megapixels on the same sensor size means smaller individual pixels."
+          "term": "Ανάλυση",
+          "definition": "Ο συνολικός αριθμός megapixel που χρησιμοποιείται για τον υπολογισμό του pixel pitch σε λειτουργία pixel density. Περισσότερα megapixel στον ίδιο αισθητήρα σημαίνει μικρότερα μεμονωμένα pixel."
         },
         "Crop Factor": {
-          "term": "Crop Factor",
-          "definition": "The ratio of the 35mm full-frame diagonal to this sensor diagonal. A 1.5x crop factor means a 50mm lens frames like a 75mm lens on full frame."
+          "term": "Συντελεστής crop",
+          "definition": "Η αναλογία της διαγωνίου full-frame 35mm προς τη διαγώνιο αυτού του αισθητήρα. Ένας συντελεστής crop 1.5x σημαίνει ότι ένας φακός 50mm κάνει κάδρο σαν 75mm σε full-frame."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "A full-frame sensor measures 36\u00d724mm. An APS-C sensor has a 1.5x crop factor. What is the approximate width of an APS-C sensor?",
-          "hint": "Divide the full-frame width by the crop factor.",
-          "successMessage": "Correct! 36mm \u00f7 1.5 \u2248 24mm. The APS-C sensor is about 24\u00d716mm, giving it roughly 44% of the full-frame area.",
-          "failureMessage": "Divide the full-frame width (36mm) by the crop factor (1.5x): 36 \u00f7 1.5 = 24mm.",
+          "scenario": "Ένας full-frame αισθητήρας μετράει 36×24mm. Ένας APS-C αισθητήρας έχει συντελεστή crop 1.5x. Ποιο είναι το κατά προσέγγιση πλάτος ενός APS-C αισθητήρα;",
+          "hint": "Διαίρεσε το πλάτος full-frame με τον συντελεστή crop.",
+          "successMessage": "Σωστά! 36mm ÷ 1.5 ≈ 24mm. Ο APS-C αισθητήρας είναι περίπου 24×16mm, δίνοντάς του περίπου 44% της επιφάνειας full-frame.",
+          "failureMessage": "Διαίρεσε το πλάτος full-frame (36mm) με τον συντελεστή crop (1.5x): 36 ÷ 1.5 = 24mm.",
           "options": {
             "0": { "label": "24mm" },
             "1": { "label": "30mm" },
@@ -76,10 +76,10 @@
           }
         },
         "1": {
-          "scenario": "You mount a 50mm lens on a camera with a 2.0x crop factor sensor. What full-frame equivalent focal length do you get?",
-          "hint": "Multiply the focal length by the crop factor.",
-          "successMessage": "Right! 50mm \u00d7 2.0 = 100mm equivalent. This is why Micro Four Thirds cameras are popular for telephoto work — you get extra reach from every lens.",
-          "failureMessage": "Multiply the lens focal length by the crop factor: 50mm \u00d7 2.0 = 100mm equivalent.",
+          "scenario": "Τοποθετείς έναν φακό 50mm σε κάμερα με αισθητήρα 2.0x crop. Ποια ισοδύναμη εστιακή απόσταση full-frame παίρνεις;",
+          "hint": "Πολλαπλασίασε την εστιακή απόσταση με τον συντελεστή crop.",
+          "successMessage": "Σωστά! 50mm × 2.0 = ισοδύναμο 100mm. Γι' αυτό οι κάμερες Micro Four Thirds είναι δημοφιλείς για τηλεφωτογραφία — παίρνεις επιπλέον εμβέλεια από κάθε φακό.",
+          "failureMessage": "Πολλαπλασίασε την εστιακή απόσταση του φακού με τον συντελεστή crop: 50mm × 2.0 = ισοδύναμο 100mm.",
           "options": {
             "0": { "label": "25mm" },
             "1": { "label": "75mm" },
@@ -87,36 +87,36 @@
           }
         },
         "2": {
-          "scenario": "Two cameras both have 24 megapixels — one full-frame (36\u00d724mm) and one APS-C (24\u00d716mm). Which has better high-ISO noise performance, and why?",
-          "hint": "Think about how the same number of pixels spread across different sensor areas affects individual pixel size.",
-          "successMessage": "Exactly! The full-frame sensor spreads 24MP over a larger area, so each pixel is physically bigger (~6\u00b5m vs ~4\u00b5m pitch) and captures more photons, resulting in less noise.",
-          "failureMessage": "The full-frame sensor wins — same megapixel count on a larger area means bigger pixels that gather more light, producing less noise at high ISO.",
+          "scenario": "Δύο κάμερες έχουν 24 megapixel — η μία είναι full-frame (36×24mm) και η άλλη APS-C (24×16mm). Ποια έχει καλύτερη απόδοση θορύβου σε υψηλό ISO και γιατί;",
+          "hint": "Σκέψου πώς ο ίδιος αριθμός pixel απλωμένος σε διαφορετικές επιφάνειες αισθητήρα επηρεάζει το μέγεθος του κάθε pixel.",
+          "successMessage": "Ακριβώς! Ο full-frame αισθητήρας απλώνει τα 24MP σε μεγαλύτερη επιφάνεια, άρα κάθε pixel είναι φυσικά μεγαλύτερο (~6μm έναντι ~4μm pitch) και συλλαμβάνει περισσότερα φωτόνια, με αποτέλεσμα λιγότερο θόρυβο.",
+          "failureMessage": "Κερδίζει ο full-frame — ίδιος αριθμός megapixel σε μεγαλύτερη επιφάνεια σημαίνει μεγαλύτερα pixel που συλλέγουν περισσότερο φως, παράγοντας λιγότερο θόρυβο σε υψηλό ISO.",
           "options": {
-            "0": { "label": "Full frame — larger pixels gather more light" },
-            "1": { "label": "APS-C — smaller sensors are more efficient" },
-            "2": { "label": "Same noise — megapixel count is what matters" }
+            "0": { "label": "Full frame — τα μεγαλύτερα pixel συλλέγουν περισσότερο φως" },
+            "1": { "label": "APS-C — οι μικρότεροι αισθητήρες είναι πιο αποδοτικοί" },
+            "2": { "label": "Ίδιος θόρυβος — αυτό που μετράει είναι τα megapixel" }
           }
         },
         "3": {
-          "scenario": "Looking at the comparison table, which sensor format has a crop factor closest to 2.0x?",
-          "hint": "Crop factor is the full-frame diagonal divided by the sensor diagonal.",
-          "successMessage": "Correct! Micro Four Thirds has a crop factor of 2.0x, which is why a 25mm M43 lens frames like a 50mm on full frame.",
-          "failureMessage": "Micro Four Thirds has a 2.0x crop factor. Check the table — its diagonal is exactly half the full-frame diagonal.",
+          "scenario": "Κοιτώντας τον πίνακα σύγκρισης, ποιο φορμά αισθητήρα έχει συντελεστή crop πιο κοντά στο 2.0x;",
+          "hint": "Ο συντελεστής crop είναι η διαγώνιος full-frame διαιρεμένη με τη διαγώνιο του αισθητήρα.",
+          "successMessage": "Σωστά! Το Micro Four Thirds έχει συντελεστή crop 2.0x, γι' αυτό ένας φακός 25mm M43 κάνει κάδρο σαν 50mm σε full-frame.",
+          "failureMessage": "Το Micro Four Thirds έχει συντελεστή crop 2.0x. Έλεγξε τον πίνακα — η διαγώνιός του είναι ακριβώς η μισή της διαγωνίου full-frame.",
           "options": {
             "0": { "label": "APS-C (Canon)" },
             "1": { "label": "Micro Four Thirds" },
-            "2": { "label": "1\" Sensor" }
+            "2": { "label": "Αισθητήρας 1\"" }
           }
         },
         "4": {
-          "scenario": "You are comparing a 50MP medium format camera to a 50MP full-frame camera using pixel density mode. Both have the same megapixel count. Which camera has the larger pixel pitch, and what practical advantage does that give?",
-          "hint": "Pixel pitch depends on sensor width divided by the number of horizontal pixels.",
-          "successMessage": "Right! The medium format sensor is physically larger, so at 50MP its pixels are bigger (higher pitch). This gives it about 1/3 stop better light gathering per pixel, plus slightly later diffraction onset.",
-          "failureMessage": "The medium format sensor is larger, so at the same resolution each pixel is physically bigger. Larger pixels collect more photons, giving better dynamic range and slightly later diffraction limits.",
+          "scenario": "Συγκρίνεις μια medium format κάμερα 50MP με μια full-frame 50MP σε pixel density mode. Και οι δύο έχουν τον ίδιο αριθμό megapixel. Ποια κάμερα έχει μεγαλύτερο pixel pitch, και τι πρακτικό πλεονέκτημα δίνει αυτό;",
+          "hint": "Το pixel pitch εξαρτάται από το πλάτος του αισθητήρα διαιρεμένο με τον αριθμό των οριζόντιων pixel.",
+          "successMessage": "Σωστά! Ο medium format αισθητήρας είναι φυσικά μεγαλύτερος, άρα στα 50MP τα pixel του είναι μεγαλύτερα (μεγαλύτερο pitch). Αυτό του δίνει περίπου 1/3 stop καλύτερη συλλογή φωτός ανά pixel, συν ελαφρώς καθυστερημένη εμφάνιση περίθλασης.",
+          "failureMessage": "Ο medium format αισθητήρας είναι μεγαλύτερος, άρα στην ίδια ανάλυση κάθε pixel είναι φυσικά μεγαλύτερο. Τα μεγαλύτερα pixel συλλέγουν περισσότερα φωτόνια, δίνοντας καλύτερο δυναμικό εύρος και ελαφρώς καθυστερημένα όρια περίθλασης.",
           "options": {
-            "0": { "label": "Medium Format — better per-pixel light gathering and dynamic range" },
-            "1": { "label": "Full Frame — smaller pixels are more efficient" },
-            "2": { "label": "Both are identical since they have the same megapixel count" }
+            "0": { "label": "Medium Format — καλύτερη συλλογή φωτός ανά pixel και δυναμικό εύρος" },
+            "1": { "label": "Full Frame — τα μικρότερα pixel είναι πιο αποδοτικά" },
+            "2": { "label": "Και οι δύο είναι πανομοιότυποι αφού έχουν τον ίδιο αριθμό megapixel" }
           }
         }
       }

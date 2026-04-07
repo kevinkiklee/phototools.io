@@ -1,67 +1,67 @@
 {
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Zásady ochrany soukromí",
+    "effectiveDate": "Účinnost: 3. dubna 2026",
     "sections": {
       "overview": {
-        "title": "Overview",
-        "body": "PhotoTools operates www.phototools.io, a free educational photography resource offering interactive calculators, simulators, and reference tools. This Privacy Policy describes how we collect, use, and handle information when you visit or use our site. By using PhotoTools, you agree to the practices described in this policy."
+        "title": "Přehled",
+        "body": "PhotoTools provozuje web www.phototools.io, bezplatný vzdělávací zdroj pro fotografy s interaktivními kalkulačkami, simulátory a referenčními nástroji. Tyto zásady popisují, jak shromažďujeme, používáme a zacházíme s informacemi při návštěvě a používání webu. Používáním PhotoTools souhlasíš s postupy popsanými v těchto zásadách."
       },
       "informationWeCollect": {
-        "title": "Information We Collect",
-        "intro": "We collect minimal information to operate and improve the site:",
-        "analytics": "<strong>Analytics:</strong> We use Google Analytics to understand how visitors use the site (e.g. pages visited, time on page, device type). Analytics data is anonymized — we do not collect personally identifiable information through analytics. IP addresses are anonymized before storage.",
-        "contactForm": "<strong>Contact form:</strong> If you submit the contact form, we collect your name, email address, subject, and message. This information is used solely to respond to your inquiry and is not stored beyond email delivery — it is not saved to a database or retained long-term.",
-        "noAccounts": "<strong>No accounts:</strong> PhotoTools does not require user registration or accounts. We do not collect passwords or payment information."
+        "title": "Jaké informace sbíráme",
+        "intro": "Sbíráme jen minimum informací nutných k provozu a vylepšování webu:",
+        "analytics": "<strong>Analytika:</strong> Používáme Google Analytics, abychom věděli, jak návštěvníci web používají (navštívené stránky, čas strávený na stránce, typ zařízení). Analytická data jsou anonymizovaná — osobní údaje přes analytiku nesbíráme. IP adresy se před uložením anonymizují.",
+        "contactForm": "<strong>Kontaktní formulář:</strong> Pokud odešleš kontaktní formulář, sbíráme tvoje jméno, e-mail, předmět a zprávu. Tyto údaje používáme pouze k odpovědi a po doručení e-mailu je neukládáme do žádné databáze ani dlouhodobě neuchováváme.",
+        "noAccounts": "<strong>Žádné účty:</strong> PhotoTools nevyžaduje registraci ani uživatelské účty. Nesbíráme hesla ani platební údaje."
       },
       "cookies": {
         "title": "Cookies",
-        "intro": "PhotoTools uses cookies to support analytics and advertising functionality. Specifically:",
-        "analyticsCookies": "<strong>Google Analytics cookies</strong> track site usage in aggregate and anonymized form. These cookies help us understand which tools are most used and how to improve the site.",
-        "adCookies": "<strong>Third-party advertising cookies</strong> may be set by our ad network partners to serve relevant advertisements and measure ad performance.",
-        "control": "You can control or disable cookies through your browser settings. Note that disabling cookies may affect the functionality of some features."
+        "intro": "PhotoTools používá cookies pro analytiku a reklamu. Konkrétně:",
+        "analyticsCookies": "<strong>Cookies Google Analytics</strong> sledují používání webu v souhrnné a anonymizované podobě. Pomáhají nám pochopit, které nástroje se používají nejvíc a jak web zlepšit.",
+        "adCookies": "<strong>Reklamní cookies třetích stran</strong> mohou nastavovat naši reklamní partneři pro zobrazování relevantních reklam a měření jejich výkonu.",
+        "control": "Cookies můžeš kontrolovat nebo zakázat v nastavení prohlížeče. Jejich vypnutí může ovlivnit funkčnost některých částí webu."
       },
       "thirdPartyAdvertising": {
-        "title": "Third-Party Advertising",
-        "body": "PhotoTools displays advertisements served by third-party ad networks. These networks may use cookies and similar tracking technologies to serve ads based on your browsing history and interests (interest-based advertising). We do not control the data practices of these third-party ad networks. For more information, please review the privacy policies of those networks or visit the <naiLink>Network Advertising Initiative opt-out page</naiLink>."
+        "title": "Reklama třetích stran",
+        "body": "PhotoTools zobrazuje reklamy dodávané reklamními sítěmi třetích stran. Tyto sítě mohou používat cookies a podobné technologie ke sledování a zobrazování reklam na základě historie prohlížení a zájmů (zájmově cílená reklama). Nekontrolujeme, jak tyto sítě s daty nakládají. Další informace najdeš v zásadách konkrétních sítí nebo na <naiLink>stránce pro odhlášení Network Advertising Initiative</naiLink>."
       },
       "googleAdSense": {
         "title": "Google AdSense",
-        "body1": "PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies and web beacons to serve ads based on your prior visits to this site or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your browsing patterns.",
-        "body2": "You may opt out of personalized advertising by visiting <adsSettingsLink>Google Ads Settings</adsSettingsLink>. For more information about how Google uses data, see <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
+        "body1": "PhotoTools používá Google AdSense pro zobrazování reklam. Google AdSense může používat cookies a web beacons k zobrazování reklam na základě tvých předchozích návštěv tohoto nebo jiných webů. Díky reklamním cookies může Google a jeho partneři zobrazovat reklamy podle tvých návyků při prohlížení.",
+        "body2": "Z personalizované reklamy se můžeš odhlásit na stránce <adsSettingsLink>Nastavení reklam Google</adsSettingsLink>. Další informace o tom, jak Google používá data, najdeš v dokumentu <partnerSitesLink>Jak Google používá data, když používáš weby našich partnerů</partnerSitesLink>."
       },
       "cookieConsent": {
-        "title": "Cookie Consent",
-        "body1": "When you first visit PhotoTools, a cookie consent banner is displayed allowing you to accept or reject non-essential cookies. This banner is powered by CookieYes, a Google-certified Consent Management Platform that supports the IAB Transparency and Consent Framework (TCF) v2.3.",
-        "body2": "You can change your consent preferences at any time by clicking the cookie settings link in the footer. If you reject advertising cookies, you will still see ads, but they will not be personalized to your browsing history."
+        "title": "Souhlas s cookies",
+        "body1": "Při první návštěvě PhotoTools se zobrazí banner pro souhlas s cookies, kde můžeš přijmout nebo odmítnout nepodstatné cookies. Banner zajišťuje služba CookieYes — platforma pro správu souhlasu certifikovaná Googlem, která podporuje IAB Transparency and Consent Framework (TCF) v2.3.",
+        "body2": "Své preference souhlasu můžeš kdykoli změnit kliknutím na nastavení cookies v patičce. Pokud odmítneš reklamní cookies, reklamy uvidíš dál, ale nebudou personalizované podle tvé historie prohlížení."
       },
       "ccpa": {
-        "title": "California Residents (CCPA)",
-        "body": "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request its deletion, and opt out of its sale. PhotoTools does not sell personal information. Advertising cookies used by our ad partners may constitute a \"sale\" under the CCPA — you can opt out via the cookie consent banner or by contacting us through our <contactLink>contact page</contactLink>."
+        "title": "Obyvatelé Kalifornie (CCPA)",
+        "body": "Podle kalifornského zákona California Consumer Privacy Act (CCPA) mají obyvatelé Kalifornie právo vědět, jaké osobní údaje se sbírají, žádat jejich smazání a odmítnout jejich prodej. PhotoTools osobní údaje neprodává. Reklamní cookies používané našimi partnery mohou podle CCPA představovat „prodej\" — odhlásit se můžeš přes banner pro souhlas s cookies nebo přes naši <contactLink>kontaktní stránku</contactLink>."
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "intro": "We do not sell, trade, or rent your personal information to third parties. We share data only in the following limited circumstances:",
-        "analytics": "With <strong>Google Analytics</strong> to analyze site traffic and usage patterns, subject to Google's privacy policy.",
-        "advertising": "With <strong>advertising partners</strong> as described above under Third-Party Advertising.",
-        "contactForm": "We do not share contact form submissions with any third party."
+        "title": "Sdílení dat",
+        "intro": "Osobní údaje neprodáváme, neměníme ani nepronajímáme třetím stranám. Data sdílíme pouze v těchto omezených případech:",
+        "analytics": "Se službou <strong>Google Analytics</strong> pro analýzu návštěvnosti a chování uživatelů, a to podle zásad ochrany soukromí Googlu.",
+        "advertising": "S <strong>reklamními partnery</strong>, jak je popsáno výše v části Reklama třetích stran.",
+        "contactForm": "Zprávy z kontaktního formuláře nesdílíme s nikým."
       },
       "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "body": "PhotoTools is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can remove it."
+        "title": "Ochrana soukromí dětí",
+        "body": "PhotoTools není určen dětem mladším 13 let. Vědomě nesbíráme osobní údaje od dětí do 13 let. Pokud se domníváš, že nám dítě mladší 13 let poskytlo osobní údaje, kontaktuj nás, abychom je mohli smazat."
       },
       "yourRights": {
-        "title": "Your Rights",
-        "body1": "Depending on your location, you may have rights under laws such as the GDPR (European Union) or CCPA (California) regarding your personal data.",
-        "body2": "Because PhotoTools collects minimal personal data — and does not store contact form submissions long-term — most requests can be addressed simply. You can clear cookies at any time through your browser settings. To exercise any data rights or submit a privacy request, please use our <contactLink>contact page</contactLink>."
+        "title": "Tvá práva",
+        "body1": "V závislosti na tom, kde žiješ, můžeš mít práva podle zákonů jako GDPR (Evropská unie) nebo CCPA (Kalifornie) týkající se tvých osobních údajů.",
+        "body2": "Protože PhotoTools sbírá jen minimum osobních dat — a zprávy z kontaktního formuláře neuchovává dlouhodobě — většinu žádostí lze vyřídit jednoduše. Cookies si můžeš kdykoli smazat v nastavení prohlížeče. Pro uplatnění jakýchkoli práv nebo žádostí o soukromí použij prosím naši <contactLink>kontaktní stránku</contactLink>."
       },
       "changesToPolicy": {
-        "title": "Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. When we do, the updated policy will be posted on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of PhotoTools after any changes constitutes your acceptance of the updated policy."
+        "title": "Změny těchto zásad",
+        "body": "Tyto zásady ochrany soukromí můžeme čas od času aktualizovat. Aktualizovaná verze bude zveřejněna na této stránce s novým datem účinnosti. Doporučujeme tyto zásady pravidelně kontrolovat. Další používání PhotoTools po změnách znamená, že s aktualizovanými zásadami souhlasíš."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about this Privacy Policy or how we handle your data, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Kontakt",
+        "body": "Pokud máš otázky k těmto zásadám nebo ke zpracování tvých dat, ozvi se přes naši <contactLink>kontaktní stránku</contactLink>."
       }
     }
   }

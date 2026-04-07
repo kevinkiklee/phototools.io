@@ -1,65 +1,65 @@
 {
   "education": {
     "shutter-speed-visualizer": {
-      "beginner": "The shutter speed guide helps you find the slowest shutter speed you can use while still getting a sharp handheld photo. If your shutter speed is too slow, camera shake from your hands will blur the image. The minimum safe speed depends on your focal length, whether you have image stabilization, and how steady your hands are.",
-      "deeper": "The classic \"reciprocal rule\" states that for sharp handheld photos, your shutter speed should be at least 1/(focal length) seconds — so a 200mm lens needs at least 1/200s. On crop-sensor cameras, you should use the equivalent focal length (e.g., 200mm on a 1.5x crop = 1/300s). Modern in-body stabilization (IBIS) and optical stabilization (OIS) can buy you 3-7 extra stops of handheld leeway, meaning that stabilized 200mm lens might be sharp at 1/15s or even slower. However, stabilization only compensates for camera shake, not subject motion. A person walking toward you at 1/15s will still be blurred regardless of stabilization. For moving subjects, you must select a shutter speed based on the subject's speed and distance, not just the focal length.",
+      "beginner": "Ο οδηγός ταχύτητας κλείστρου σε βοηθάει να βρεις την πιο αργή ταχύτητα κλείστρου που μπορείς να χρησιμοποιήσεις διατηρώντας ευκρινή φωτογραφία με το χέρι. Αν η ταχύτητα κλείστρου είναι πολύ αργή, το κούνημα από τα χέρια σου θα θολώσει την εικόνα. Η ελάχιστη ασφαλής ταχύτητα εξαρτάται από την εστιακή απόσταση, αν έχεις σταθεροποίηση εικόνας, και πόσο σταθερά είναι τα χέρια σου.",
+      "deeper": "Ο κλασικός «κανόνας αντιστροφής» λέει ότι για ευκρινείς λήψεις με το χέρι, η ταχύτητα κλείστρου πρέπει να είναι τουλάχιστον 1/(εστιακή απόσταση) δευτερόλεπτα — οπότε ένας φακός 200mm χρειάζεται τουλάχιστον 1/200s. Σε crop-sensor κάμερες, πρέπει να χρησιμοποιείς την ισοδύναμη εστιακή απόσταση (π.χ. 200mm σε crop 1.5x = 1/300s). Η σύγχρονη σταθεροποίηση στο σώμα (IBIS) και η οπτική σταθεροποίηση (OIS) μπορούν να σου δώσουν 3-7 επιπλέον stops ανοχής με το χέρι, πράγμα που σημαίνει ότι ένας σταθεροποιημένος φακός 200mm μπορεί να είναι ευκρινής στα 1/15s ή και πιο αργά. Ωστόσο, η σταθεροποίηση αντισταθμίζει μόνο το κούνημα της κάμερας, όχι την κίνηση του θέματος. Ένα άτομο που περπατάει προς εσένα στα 1/15s θα βγει θολό ανεξάρτητα από τη σταθεροποίηση. Για κινούμενα θέματα, πρέπει να επιλέξεις ταχύτητα κλείστρου βάσει της ταχύτητας και της απόστασης του θέματος, όχι μόνο της εστιακής απόστασης.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify camera shake. The reciprocal rule (1/focal length) is the starting point for determining minimum shutter speed."
+          "label": "Εστιακή απόσταση",
+          "description": "Οι μεγαλύτερες εστιακές αποστάσεις μεγεθύνουν το κούνημα της κάμερας. Ο κανόνας αντιστροφής (1/εστιακή απόσταση) είναι το σημείο εκκίνησης για τον προσδιορισμό της ελάχιστης ταχύτητας κλείστρου."
         },
         "1": {
-          "label": "Image Stabilization",
-          "description": "OIS (lens-based) typically provides 2-4 stops of benefit. IBIS (body-based) provides 3-5 stops. Combined OIS+IBIS can achieve 5-7 stops on some systems."
+          "label": "Σταθεροποίηση εικόνας",
+          "description": "Το OIS (στον φακό) συνήθως δίνει 2-4 stops όφελος. Το IBIS (στο σώμα) δίνει 3-5 stops. Το συνδυασμένο OIS+IBIS μπορεί να φτάσει τα 5-7 stops σε ορισμένα συστήματα."
         },
         "2": {
-          "label": "Subject Motion",
-          "description": "Still subjects require only enough speed to counter camera shake. Moving subjects need faster speeds regardless of stabilization: walking (~1/125s), running (~1/500s), vehicles (~1/1000s+)."
+          "label": "Κίνηση θέματος",
+          "description": "Ακίνητα θέματα χρειάζονται μόνο αρκετή ταχύτητα για να αντισταθμίσουν το κούνημα της κάμερας. Τα κινούμενα θέματα χρειάζονται γρηγορότερες ταχύτητες ανεξάρτητα από τη σταθεροποίηση: περπάτημα (~1/125s), τρέξιμο (~1/500s), οχήματα (~1/1000s+)."
         },
         "3": {
-          "label": "Sensor Size (Crop Factor)",
-          "description": "Crop-sensor cameras effectively multiply the focal length for the reciprocal rule. A 50mm lens on a 1.5x crop behaves like 75mm, so you need at least 1/75s."
+          "label": "Μέγεθος αισθητήρα (συντελεστής crop)",
+          "description": "Οι κάμερες crop sensor πολλαπλασιάζουν την εστιακή απόσταση για τον κανόνα αντιστροφής. Ένας φακός 50mm σε crop 1.5x συμπεριφέρεται σαν 75mm, άρα χρειάζεσαι τουλάχιστον 1/75s."
         }
       },
       "tips": {
         "0": {
-          "text": "Brace yourself against a wall, tuck your elbows in, and exhale slowly before pressing the shutter. Good technique can give you 1-2 extra stops of steadiness beyond the reciprocal rule."
+          "text": "Στήριξε τον εαυτό σου σε έναν τοίχο, μάζεψε τους αγκώνες σου και εκπνεύσε αργά πριν πατήσεις το κλείστρο. Η καλή τεχνική μπορεί να σου δώσει 1-2 επιπλέον stops σταθερότητας πέρα από τον κανόνα αντιστροφής."
         },
         "1": {
-          "text": "When shooting people, the subject's motion usually dictates your minimum speed, not your focal length. Even with a wide-angle lens and stabilization, a child running requires at least 1/500s."
+          "text": "Όταν φωτογραφίζεις ανθρώπους, η κίνηση του θέματος συνήθως καθορίζει την ελάχιστη ταχύτητά σου, όχι η εστιακή απόσταση. Ακόμα και με ευρυγώνιο φακό και σταθεροποίηση, ένα παιδί που τρέχει χρειάζεται τουλάχιστον 1/500s."
         },
         "2": {
-          "text": "If you are consistently shooting in low light, invest in a camera body with IBIS. The ability to shoot handheld at 1/2s with a wide-angle lens opens up possibilities that no amount of high-ISO performance can match."
+          "text": "Αν φωτογραφίζεις συστηματικά σε χαμηλό φωτισμό, επένδυσε σε σώμα κάμερας με IBIS. Η δυνατότητα να τραβάς με το χέρι στα 1/2s με ευρυγώνιο φακό ανοίγει δυνατότητες που δεν μπορεί να ταιριάξει καμία απόδοση υψηλού ISO."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Directly affects the minimum safe shutter speed through the reciprocal rule: 1/(focal length) for full-frame, adjusted by crop factor for smaller sensors."
+          "term": "Εστιακή απόσταση",
+          "definition": "Η εστιακή απόσταση του φακού σε χιλιοστά. Επηρεάζει άμεσα την ελάχιστη ασφαλή ταχύτητα κλείστρου μέσω του κανόνα αντιστροφής: 1/(εστιακή απόσταση) για full-frame, προσαρμοσμένο με τον συντελεστή crop για μικρότερους αισθητήρες."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The camera sensor size, which determines the crop factor. APS-C (1.5x) and Micro Four Thirds (2x) multiply the effective focal length, requiring faster shutter speeds for the same lens."
+          "term": "Μέγεθος αισθητήρα",
+          "definition": "Το μέγεθος του αισθητήρα της κάμερας, που καθορίζει τον συντελεστή crop. Το APS-C (1.5x) και το Micro Four Thirds (2x) πολλαπλασιάζουν την ενεργή εστιακή απόσταση, απαιτώντας γρηγορότερες ταχύτητες κλείστρου για τον ίδιο φακό."
         },
         "stabilization": {
-          "term": "Image Stabilization",
-          "definition": "Technology that compensates for camera shake. OIS (Optical Image Stabilization) is in the lens, IBIS (In-Body Image Stabilization) is in the camera body. They can work together for maximum benefit."
+          "term": "Σταθεροποίηση εικόνας",
+          "definition": "Τεχνολογία που αντισταθμίζει το κούνημα της κάμερας. Το OIS (Optical Image Stabilization) βρίσκεται στον φακό, το IBIS (In-Body Image Stabilization) στο σώμα της κάμερας. Μπορούν να δουλέψουν μαζί για μέγιστο όφελος."
         },
         "subjectMotion": {
-          "term": "Subject Motion",
-          "definition": "How fast your subject is moving. Still subjects only need enough shutter speed to counteract camera shake. Moving subjects need faster speeds based on their velocity and direction relative to the camera."
+          "term": "Κίνηση θέματος",
+          "definition": "Πόσο γρήγορα κινείται το θέμα σου. Τα ακίνητα θέματα χρειάζονται μόνο αρκετή ταχύτητα κλείστρου για να αντισταθμίσουν το κούνημα της κάμερας. Τα κινούμενα θέματα χρειάζονται γρηγορότερες ταχύτητες βάσει της ταχύτητας και της κατεύθυνσής τους σε σχέση με την κάμερα."
         },
         "recommendedShutterSpeed": {
-          "term": "Recommended Shutter Speed",
-          "definition": "The minimum shutter speed calculated for your specific combination of focal length, stabilization, sensor, and subject motion. Shooting at this speed or faster should produce sharp results."
+          "term": "Προτεινόμενη ταχύτητα κλείστρου",
+          "definition": "Η ελάχιστη ταχύτητα κλείστρου υπολογισμένη για τον συγκεκριμένο συνδυασμό εστιακής απόστασης, σταθεροποίησης, αισθητήρα και κίνησης θέματος. Η λήψη σε αυτή την ταχύτητα ή γρηγορότερα θα δώσει ευκρινή αποτελέσματα."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting with a 100mm lens on a full-frame camera with no image stabilization. Your subject is standing still. What is the minimum recommended shutter speed?",
-          "hint": "The reciprocal rule: minimum shutter speed = 1 / focal length.",
-          "successMessage": "Correct! The reciprocal rule says 1/100s for a 100mm lens on full frame. This is the classic starting point for handheld sharpness.",
-          "failureMessage": "For a 100mm lens on full frame with no stabilization, the reciprocal rule gives you 1/100s as the minimum safe shutter speed for static subjects.",
+          "scenario": "Τραβάς με φακό 100mm σε full-frame κάμερα χωρίς σταθεροποίηση εικόνας. Το θέμα σου στέκεται ακίνητο. Ποια είναι η ελάχιστη προτεινόμενη ταχύτητα κλείστρου;",
+          "hint": "Ο κανόνας αντιστροφής: ελάχιστη ταχύτητα κλείστρου = 1 / εστιακή απόσταση.",
+          "successMessage": "Σωστά! Ο κανόνας αντιστροφής λέει 1/100s για φακό 100mm σε full-frame. Αυτό είναι το κλασικό σημείο εκκίνησης για ευκρίνεια με το χέρι.",
+          "failureMessage": "Για φακό 100mm σε full-frame χωρίς σταθεροποίηση, ο κανόνας αντιστροφής δίνει 1/100s ως ελάχιστη ασφαλή ταχύτητα κλείστρου για στατικά θέματα.",
           "options": {
             "0": { "label": "1/50s" },
             "1": { "label": "1/100s" },
@@ -68,51 +68,51 @@
           }
         },
         "1": {
-          "scenario": "You are using a 50mm lens on an APS-C camera (1.5x crop factor) with no stabilization. What minimum shutter speed should you use for a still subject?",
-          "hint": "Multiply the focal length by the crop factor before applying the reciprocal rule.",
-          "successMessage": "Right! 50mm x 1.5 = 75mm equivalent, so you need at least 1/75s. In practice, rounding up to 1/80s is the safe choice.",
-          "failureMessage": "On APS-C, the crop factor (1.5x) means a 50mm lens behaves like a 75mm lens. The reciprocal rule gives 1/75s as the minimum speed.",
+          "scenario": "Χρησιμοποιείς φακό 50mm σε APS-C κάμερα (συντελεστής crop 1.5x) χωρίς σταθεροποίηση. Ποια ελάχιστη ταχύτητα κλείστρου πρέπει να χρησιμοποιήσεις για στατικό θέμα;",
+          "hint": "Πολλαπλασίασε την εστιακή απόσταση με τον συντελεστή crop πριν εφαρμόσεις τον κανόνα αντιστροφής.",
+          "successMessage": "Σωστά! 50mm x 1.5 = ισοδύναμο 75mm, άρα χρειάζεσαι τουλάχιστον 1/75s. Στην πράξη, η στρογγυλοποίηση στο 1/80s είναι η ασφαλής επιλογή.",
+          "failureMessage": "Σε APS-C, ο συντελεστής crop (1.5x) σημαίνει ότι ένας φακός 50mm συμπεριφέρεται σαν 75mm. Ο κανόνας αντιστροφής δίνει 1/75s ως ελάχιστη ταχύτητα.",
           "options": {
             "0": { "label": "1/50s" },
-            "1": { "label": "1/75s (round to 1/80s)" },
+            "1": { "label": "1/75s (στρογγυλοποίηση στο 1/80s)" },
             "2": { "label": "1/100s" },
             "3": { "label": "1/125s" }
           }
         },
         "2": {
-          "scenario": "You have a 200mm lens with OIS (4 stops of stabilization) on a full-frame body with IBIS (5 stops). Together they provide about 6 stops of combined stabilization. For a still subject, what is the approximate minimum shutter speed?",
-          "hint": "Start with the reciprocal rule (1/200s) and then apply 6 stops of stabilization benefit.",
-          "successMessage": "Correct! Starting at 1/200s and gaining 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. About 1/3 second handheld with a 200mm lens — impressive but achievable with modern stabilization!",
-          "failureMessage": "From 1/200s, each stop of stabilization doubles the usable time: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Six stops of stabilization with a 200mm lens gives approximately 1/3s.",
+          "scenario": "Έχεις φακό 200mm με OIS (4 stops σταθεροποίησης) σε full-frame σώμα με IBIS (5 stops). Μαζί δίνουν περίπου 6 stops συνδυασμένης σταθεροποίησης. Για στατικό θέμα, ποια είναι η κατά προσέγγιση ελάχιστη ταχύτητα κλείστρου;",
+          "hint": "Ξεκίνα με τον κανόνα αντιστροφής (1/200s) και μετά εφάρμοσε 6 stops οφέλους σταθεροποίησης.",
+          "successMessage": "Σωστά! Ξεκινώντας από 1/200s και κερδίζοντας 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Περίπου 1/3 δευτερόλεπτο με το χέρι με φακό 200mm — εντυπωσιακό αλλά εφικτό με τη σύγχρονη σταθεροποίηση!",
+          "failureMessage": "Από 1/200s, κάθε stop σταθεροποίησης διπλασιάζει τον χρησιμοποιήσιμο χρόνο: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Τα 6 stops σταθεροποίησης με φακό 200mm δίνουν περίπου 1/3s.",
           "options": {
             "0": { "label": "1/30s" },
             "1": { "label": "1/8s" },
             "2": { "label": "~1/3s" },
-            "3": { "label": "1 second" }
+            "3": { "label": "1 δευτερόλεπτο" }
           }
         },
         "3": {
-          "scenario": "You are photographing a friend jogging in a park using a 35mm lens on a full-frame camera with IBIS. Your IBIS gives you 5 stops of stabilization, so the reciprocal rule alone would let you shoot at about 1 second. Should you use 1 second?",
-          "hint": "Stabilization compensates for camera shake, not subject motion.",
-          "successMessage": "Correct! Stabilization only counters camera shake. A jogging person needs at least 1/250s to freeze their motion, regardless of how good your stabilization is.",
-          "failureMessage": "Stabilization cannot freeze a moving subject. For a person jogging, you need at least 1/250s to prevent motion blur, even if your camera could hold steady at 1 second.",
+          "scenario": "Φωτογραφίζεις έναν φίλο που κάνει τζόκινγκ σε πάρκο με φακό 35mm σε full-frame κάμερα με IBIS. Το IBIS σου δίνει 5 stops σταθεροποίησης, οπότε ο κανόνας αντιστροφής μόνος του θα σου επέτρεπε να τραβάς στα περίπου 1 δευτερόλεπτο. Πρέπει να χρησιμοποιήσεις 1 δευτερόλεπτο;",
+          "hint": "Η σταθεροποίηση αντισταθμίζει το κούνημα της κάμερας, όχι την κίνηση του θέματος.",
+          "successMessage": "Σωστά! Η σταθεροποίηση αντιμετωπίζει μόνο το κούνημα της κάμερας. Ένα άτομο που κάνει τζόκινγκ χρειάζεται τουλάχιστον 1/250s για να παγώσει η κίνησή του, ανεξάρτητα από το πόσο καλή είναι η σταθεροποίησή σου.",
+          "failureMessage": "Η σταθεροποίηση δεν μπορεί να παγώσει ένα κινούμενο θέμα. Για άτομο που τρέχει, χρειάζεσαι τουλάχιστον 1/250s για να αποφύγεις το motion blur, ακόμα κι αν η κάμερά σου μπορούσε να κρατηθεί σταθερή στο 1 δευτερόλεπτο.",
           "options": {
-            "0": { "label": "Yes — IBIS handles all the motion" },
-            "1": { "label": "No — use at least 1/250s to freeze the jogger" },
-            "2": { "label": "No — use 1/60s as a compromise" },
-            "3": { "label": "It depends on the ISO setting" }
+            "0": { "label": "Ναι — το IBIS χειρίζεται όλη την κίνηση" },
+            "1": { "label": "Όχι — χρησιμοποίησε τουλάχιστον 1/250s για να παγώσεις τον δρομέα" },
+            "2": { "label": "Όχι — χρησιμοποίησε 1/60s ως συμβιβασμό" },
+            "3": { "label": "Εξαρτάται από τη ρύθμιση ISO" }
           }
         },
         "4": {
-          "scenario": "You want to create a panning shot of a cyclist — the rider should be sharp while the background shows motion blur streaks. You are using a 70mm lens on full frame. What shutter speed range should you try?",
-          "hint": "Panning intentionally uses a slow shutter speed while tracking the subject. Too fast freezes everything; too slow blurs even the subject.",
-          "successMessage": "Correct! For panning a cyclist, 1/30s to 1/60s is the sweet spot. This is slow enough to blur the background into streaks while your tracking motion keeps the rider relatively sharp. It takes practice — shoot in burst mode and expect many rejects.",
-          "failureMessage": "Panning requires a shutter speed slow enough to blur the background but fast enough that your tracking keeps the subject sharp. For a cyclist, 1/30s to 1/60s is the typical range.",
+          "scenario": "Θέλεις να δημιουργήσεις panning shot ενός ποδηλάτη — ο αναβάτης πρέπει να είναι ευκρινής ενώ το φόντο δείχνει λωρίδες motion blur. Χρησιμοποιείς φακό 70mm σε full-frame. Τι εύρος ταχύτητας κλείστρου πρέπει να δοκιμάσεις;",
+          "hint": "Το panning χρησιμοποιεί σκόπιμα αργή ταχύτητα κλείστρου ενώ παρακολουθείς το θέμα. Πολύ γρήγορα παγώνει τα πάντα, πολύ αργά θολώνει ακόμα και το θέμα.",
+          "successMessage": "Σωστά! Για panning ενός ποδηλάτη, το 1/30s έως 1/60s είναι το sweet spot. Αυτό είναι αρκετά αργό για να θολώσει το φόντο σε λωρίδες ενώ η κίνηση παρακολούθησής σου κρατάει τον αναβάτη σχετικά ευκρινή. Χρειάζεται εξάσκηση — τράβα σε burst και περίμενε πολλά άχρηστα καρέ.",
+          "failureMessage": "Το panning χρειάζεται ταχύτητα κλείστρου αρκετά αργή για να θολώσει το φόντο αλλά αρκετά γρήγορη ώστε η παρακολούθησή σου να κρατά το θέμα ευκρινές. Για ποδηλάτη, το 1/30s έως 1/60s είναι το τυπικό εύρος.",
           "options": {
-            "0": { "label": "1/1000s to 1/2000s" },
-            "1": { "label": "1/250s to 1/500s" },
-            "2": { "label": "1/30s to 1/60s" },
-            "3": { "label": "1s to 2s" }
+            "0": { "label": "1/1000s έως 1/2000s" },
+            "1": { "label": "1/250s έως 1/500s" },
+            "2": { "label": "1/30s έως 1/60s" },
+            "3": { "label": "1s έως 2s" }
           }
         }
       }

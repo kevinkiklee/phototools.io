@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "Adâncimea câmpului (DoF) este intervalul de distanță din fotografia ta care apare acceptabil de clar. O adâncime mică blurează fundalul din spatele subiectului, în timp ce o adâncime mare menține totul clar, de la prim-plan până la orizont. Controlul DoF este unul dintre cele mai puternice instrumente creative din fotografie.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Cum funcționează DoF-ul",
+          "text": "Adâncimea câmpului este guvernată de cercul de confuzie (CoC) — cel mai mare punct de neclaritate de pe senzor care mai pare încă clar ochiului uman. Trei factori fizici determină DoF-ul: distanța focală, diafragma și distanța față de subiect. O diafragmă mai largă (cifră f mai mică) produce o adâncime mai mică pentru că obiectivul converge lumina în unghiuri mai ascuțite, făcând punctele neclare să se împrăștie în cercuri mai mari pe senzor."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Distanță focală și distanță",
+          "text": "Distanțele focale mai lungi măresc imaginea, ceea ce amplifică și cercurile de neclaritate, îngustând DoF-ul. Apropierea de subiect reduce DoF-ul din același motiv — diferența relativă de distanță dintre subiect și fundal devine mai mare. Distanța hiperfocală este distanța de focalizare la care DoF-ul se extinde de la jumătate din acea distanță până la infinit, maximizând claritatea pe toată scena."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Bokeh și difracție",
+          "text": "Bokeh-ul se referă la calitatea zonelor neclare. Numărul și forma lamelelor diafragmei influențează caracterul bokeh-ului — lamelele mai rotunjite produc lumini mai netede și mai circulare. La diafragme foarte mici (f/16 și mai mult), difracția face ca lumina să se împrăștie când trece pe lângă marginile diafragmei, înmuind întreaga imagine, chiar și în zona DoF-ului. Există întotdeauna un punct dulce — de obicei în jur de f/5.6-f/8 pe full frame — unde claritatea și adâncimea câmpului sunt echilibrate optim."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "Diafragmă",
+          "description": "Diafragmele largi (f/1.4-f/2.8) creează DoF mic cu bokeh cremos. Diafragmele înguste (f/8-f/16) cresc claritatea pe toată scena."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "Distanță focală",
+          "description": "Obiectivele mai lungi comprimă perspectiva și îngustează DoF-ul la aceeași diafragmă și încadrare. Un 200mm la f/4 are mult mai puțin DoF decât un 35mm la f/4."
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "Distanța față de subiect",
+          "description": "Cu cât focalizezi mai aproape, cu atât DoF-ul e mai mic. Fotografii macro lucrează adesea cu DoF-uri măsurate în milimetri."
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "Dimensiunea senzorului",
+          "description": "Senzorii mai mari cer distanțe focale mai lungi pentru aceeași încadrare, ceea ce îngustează indirect DoF-ul. O cameră full frame produce DoF mai mic decât una Micro Four Thirds la încadrare echivalentă."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "Pentru portrete de grup, folosește f/5.6 sau mai îngustă și așază toată lumea în același plan focal. Chiar și o persoană cu o jumătate de pas înainte poate ieși din focalizare la diafragme largi."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "Când fotografiezi peisaje, focalizează la distanța hiperfocală, nu la infinit. Asta maximizează zona de claritate de la prim-planul apropiat până la fundalul îndepărtat."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Dacă vrei blur maxim pe fundal pentru un portret, crește distanța focală și apropie-te cât permite încadrarea — ambele schimbări se cumulează, reducând dramatic DoF-ul."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "Distanță focală",
+          "definition": "Distanța în milimetri de la centrul optic al obiectivului până la senzor, când este focalizat la infinit. Distanțele focale mai lungi măresc imaginea și îngustează adâncimea câmpului."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "Diafragmă",
+          "definition": "Mărimea deschiderii obiectivului, exprimată ca un număr f (de exemplu, f/2.8). Cifrele f mai mici înseamnă o deschidere mai largă, lăsând să intre mai multă lumină și producând o adâncime a câmpului mai mică."
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "Distanța față de subiect",
+          "definition": "Distanța de la senzorul camerei la punctul de focalizare. Distanțele mici de focalizare duc la o adâncime a câmpului mai mică."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "Dimensiunea senzorului",
+          "definition": "Dimensiunile fizice ale senzorului camerei. Senzorii mai mari (full-frame, format mediu) produc o adâncime a câmpului mai mică la încadrare echivalentă, comparativ cu senzorii mai mici (APS-C, Micro Four Thirds)."
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "Orientare",
+          "definition": "Comută între orientarea landscape (orizontală) și portrait (verticală). Asta afectează referința de încadrare pentru calculul distanței față de subiect."
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "Limita apropiată de focalizare",
+          "definition": "Cea mai apropiată distanță de cameră care apare acceptabil de clară. Tot ce este mai aproape de atât va apărea neclar."
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "Limita îndepărtată de focalizare",
+          "definition": "Cea mai îndepărtată distanță de cameră care apare acceptabil de clară. Când ajunge la infinit, tot ce e dincolo de limita apropiată este în focalizare."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Adâncime totală a câmpului",
+          "definition": "Distanța completă între limita apropiată și cea îndepărtată — întreaga zonă care apare clară în imagine."
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "Distanță hiperfocală",
+          "definition": "Distanța de focalizare care maximizează adâncimea câmpului. Când focalizezi la această distanță, totul de la jumătatea distanței hiperfocale până la infinit apare clar."
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "Blur de fundal",
+          "definition": "O măsură a cât de blurat apare fundalul din spatele subiectului. Valorile mai mari înseamnă blur mai puternic și mai multă izolare a subiectului."
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "Cerc de confuzie",
+          "definition": "Diametrul maxim al unui punct de neclaritate de pe senzor care încă apare ca un punct pentru ochiul uman. Determină limita clarității acceptabile în calculele de adâncime a câmpului."
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "Scor de izolare",
+          "definition": "Un rating compus (0-100) care indică cât de bine este separat subiectul de fundal, pe baza cantității de blur din fundal raportată la mărimea subiectului."
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "Forma bokeh-ului",
+          "definition": "Forma luminilor neclare, determinată de numărul și curbura lamelelor diafragmei. Mai multe lamele produc un bokeh mai rotund și mai neted."
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "Difracție",
+          "definition": "La diafragme foarte mici, lumina se curbează în jurul marginilor diafragmei, înmuind imaginea. Pe senzori full-frame devine în general vizibilă dincolo de f/16."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Faci un portret și vrei un fundal frumos blurat. Ce diafragmă ar trebui să alegi?",
+          "hint": "Cifrele f mai mici înseamnă o deschidere mai largă a obiectivului și mai mult blur pe fundal.",
+          "successMessage": "Corect! O diafragmă largă, ca f/1.8 sau f/2.8, creează o adâncime a câmpului mică, separând subiectul de fundal cu un bokeh plăcut.",
+          "failureMessage": "Nu chiar. Diafragmele înguste, precum f/11 sau f/16, țin mai multă parte din scenă în focalizare. Pentru blur pe fundal, alege o diafragmă largă (cifră f mică).",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Fotografiezi un grup de 8 persoane așezate pe două rânduri la o nuntă. Ce diafragmă te va ajuta să ai pe toată lumea în focalizare?",
+          "hint": "Cu oameni la distanțe ușor diferite, ai nevoie de suficientă adâncime a câmpului cât să acoperi ambele rânduri.",
+          "successMessage": "Alegere bună! f/5.6 oferă destulă adâncime a câmpului ca să menții ambele rânduri clare, păstrând totodată timpi de expunere rezonabili în interior.",
+          "failureMessage": "Acea diafragmă poate lăsa rândul din spate în afara focalizării sau poate fi inutil de îngustă. Pentru două rânduri de oameni, f/5.6 este un punct de plecare de încredere.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Fotografiezi un peisaj cu flori sălbatice la 2 metri distanță și munți în fundal. Folosești un obiectiv de 24mm pe o cameră full-frame. Ce tehnică îți va maximiza claritatea din prim-plan până în fundal?",
+          "hint": "Există o distanță anume la care poți focaliza pentru a maximiza zona clară de la prim-plan până la infinit.",
+          "successMessage": "Exact! Focalizarea la distanța hiperfocală la f/11 asigură claritate acceptabilă de la aproximativ 1 metru până la infinit — perfect pentru această scenă.",
+          "failureMessage": "Focalizarea la infinit ar lăsa florile din prim-plan neclare. Folosește distanța hiperfocală ca să extinzi claritatea de la prim-planul apropiat până la infinit.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Focalizează pe flori (2m)" },
+            "1": { "label": "Focalizează pe munți (infinit)" },
+            "2": { "label": "Focalizează la distanța hiperfocală" },
+            "3": { "label": "Focalizează la jumătatea drumului dintre flori și munți" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Faci fotografie macro cu o floare și observi că doar petalele din față sunt clare. Restul florii se pierde în blur. Ești la f/5.6. Ce ar trebui să faci ca să ai mai mult din floare în focalizare?",
+          "hint": "La distanțe mici de focalizare, DoF-ul devine extrem de subțire. Gândește-te la diafragmă.",
+          "successMessage": "Corect! Închizând la f/11 sau f/16 crești DoF-ul extrem de subțire specific macro-ului. Atenție doar la înmuierea prin difracție la diafragme foarte mici.",
+          "failureMessage": "Deschizând diafragma și mai mult ar face DoF-ul și mai subțire. În fotografia macro, închiderea diafragmei (cifră f mai mare) este modul principal de a câștiga mai multă adâncime.",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Deschide la f/2.8 pentru mai multă lumină" },
+            "1": { "label": "Închide la f/11" },
+            "2": { "label": "Treci pe un obiectiv mai larg" },
+            "3": { "label": "Depărtează-te de floare" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Compari două camere pentru portret: o full-frame cu un obiectiv de 85mm f/1.8 și o Micro Four Thirds cu un 42.5mm f/1.8. Ambele produc aceeași încadrare. Care produce o adâncime a câmpului mai mică?",
+          "hint": "Gândește-te la distanțele focale echivalente și la cum afectează dimensiunea senzorului calculul DoF la aceeași cifră f.",
+          "successMessage": "Corect! Camera full-frame produce un DoF cu aproximativ 2 stopuri mai mic. Chiar dacă obiectivul MFT are aceeași cifră f, distanța focală reală mai scurtă (42.5mm vs 85mm) duce la o adâncime a câmpului mai mare la încadrare echivalentă.",
+          "failureMessage": "Deși ambele obiective sunt f/1.8, camera full-frame folosește o distanță focală reală mai lungă pentru aceeași încadrare, producând un DoF semnificativ mai mic.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Full-frame cu 85mm f/1.8" },
+            "1": { "label": "Micro Four Thirds cu 42.5mm f/1.8" },
+            "2": { "label": "Ambele produc DoF identic" }
           }
         }
       }

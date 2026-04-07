@@ -1,49 +1,49 @@
 {
   "education": {
     "hyperfocal-simulator": {
-      "beginner": "The hyperfocal distance is the closest point you can focus on while still keeping everything at infinity acceptably sharp. When you focus at the hyperfocal distance, your depth of field extends from half that distance all the way to infinity. Landscape photographers use this technique to maximize sharpness from foreground to horizon.",
-      "deeper": "Hyperfocal distance is derived from the thin-lens equation and the concept of the circle of confusion (CoC). It equals the focal length squared divided by the product of the f-number and the CoC diameter: H = f\u00b2 / (N \u00d7 c). Anything from H/2 to infinity falls within acceptable sharpness. The CoC depends on sensor size — smaller sensors have a smaller acceptable CoC, which pushes the hyperfocal distance farther away for the same focal length and aperture. This is why crop-sensor cameras appear to have greater depth of field: the CoC standard is tighter relative to the image area. In practice, diffraction softening at very small apertures (f/16 and beyond on most sensors) means there is a trade-off between maximizing depth of field and maintaining per-pixel sharpness.",
+      "beginner": "Hyperfokaalietäisyys on lähin piste, johon voit tarkentaa ja silti pitää kaiken äärettömyydessä hyväksyttävän terävänä. Kun tarkennat hyperfokaalietäisyydelle, syväterävyytesi ulottuu puolesta tuosta etäisyydestä aina äärettömyyteen. Maisemakuvaajat käyttävät tätä tekniikkaa maksimoidakseen terävyyden etualasta horisonttiin.",
+      "deeper": "Hyperfokaalietäisyys on johdettu ohuen linssin yhtälöstä ja hajapisteen (CoC) käsitteestä. Se on yhtä kuin polttoväli neliöön jaettuna f-luvun ja CoC:n halkaisijan tulolla: H = f² / (N × c). Kaikki H/2:sta äärettömyyteen kuuluu hyväksyttävään terävyyteen. CoC riippuu kennokoosta — pienemmillä kennoilla on pienempi hyväksyttävä CoC, mikä työntää hyperfokaalietäisyyden kauemmas samalla polttovälillä ja aukolla. Tämän vuoksi rajaavat kennot näyttävät tarjoavan suuremman syväterävyyden: CoC-standardi on tiukempi suhteessa kuva-alueeseen. Käytännössä diffraktion aiheuttama pehmentyminen hyvin pienillä aukoilla (f/16 ja sitä pienemmät useimmilla kennoilla) tarkoittaa, että syväterävyyden maksimoimisen ja pikselikohtaisen terävyyden säilyttämisen välillä on kompromissi.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths dramatically increase hyperfocal distance — it scales with the square of focal length."
+          "label": "Polttoväli",
+          "description": "Pidemmät polttovälit kasvattavat hyperfokaalietäisyyttä voimakkaasti — se skaalautuu polttovälin neliön mukaan."
         },
         "1": {
-          "label": "Aperture",
-          "description": "Smaller apertures (higher f-numbers) reduce hyperfocal distance, extending depth of field."
+          "label": "Aukko",
+          "description": "Pienemmät aukot (suuremmat f-luvut) pienentävät hyperfokaalietäisyyttä ja laajentavat syväterävyyttä."
         },
         "2": {
-          "label": "Sensor Size",
-          "description": "Smaller sensors use a smaller circle of confusion, which increases hyperfocal distance for equivalent framing."
+          "label": "Kennokoko",
+          "description": "Pienemmät kennot käyttävät pienempää hajapistettä, mikä kasvattaa hyperfokaalietäisyyttä vastaavalla rajauksella."
         },
         "3": {
-          "label": "Circle of Confusion",
-          "description": "The maximum blur spot diameter considered \"acceptably sharp\" — typically 0.03mm for full frame."
+          "label": "Hajapiste",
+          "description": "Suurin sumennuspisteen halkaisija, jota pidetään \"hyväksyttävän teräväksi\" — tyypillisesti 0,03 mm täyskennolle."
         }
       },
       "tips": {
         "0": {
-          "text": "For quick landscape work, focus roughly one-third into the scene — it approximates the hyperfocal point for most wide-angle setups."
+          "text": "Nopeaan maisematyöhön tarkenna noin kolmanneksen sisään näkymästä — se lähentelee hyperfokaalipistettä useimmissa laajakulmakokoonpanoissa."
         },
         "1": {
-          "text": "Avoid stopping down past f/16 on full-frame or f/11 on APS-C. Diffraction will undo the depth-of-field gains you are chasing."
+          "text": "Vältä sulkemista f/16:n yli täyskennolla tai f/11:n yli APS-C:llä. Diffraktio kumoaa tavoittelemasi syväterävyyshyödyt."
         },
         "2": {
-          "text": "Use live view magnification to nail focus precisely at the hyperfocal distance rather than relying on the lens distance scale, which is often imprecise on modern autofocus lenses."
+          "text": "Käytä live view -suurennusta tarkentaaksesi täsmälleen hyperfokaalietäisyydelle sen sijaan että luottaisit objektiivin etäisyysasteikkoon, joka on usein epätarkka moderneissa automaattitarkennusobjektiiveissa."
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "The camera sensor format. Smaller sensors have a tighter circle of confusion standard, which shifts all hyperfocal distances farther away."
+          "term": "Kenno",
+          "definition": "Kameran kennoformaatti. Pienemmillä kennoilla on tiukempi hajapistestandardi, mikä siirtää kaikkia hyperfokaalietäisyyksiä kauemmas."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a landscape with a 24mm lens on a full-frame camera. Which sensor format should you select to see full-frame hyperfocal distances?",
-          "hint": "Full frame is the standard 35mm sensor size.",
-          "successMessage": "Correct! Full Frame is the right choice for a standard 35mm sensor.",
-          "failureMessage": "Not quite — select the Full Frame sensor to match a standard 35mm camera body.",
+          "scenario": "Kuvaat maisemaa 24 mm:n objektiivilla täyskennolla. Minkä kennomuodon valitset nähdäksesi täyskennon hyperfokaalietäisyydet?",
+          "hint": "Täyskenno on vakio 35 mm:n kennokoko.",
+          "successMessage": "Oikein! Full Frame on oikea valinta vakio 35 mm:n kennolle.",
+          "failureMessage": "Ei aivan — valitse Full Frame -kenno vastaamaan vakio 35 mm:n kamerarunkoa.",
           "options": {
             "0": { "label": "Full Frame" },
             "1": { "label": "APS-C (Nikon/Sony)" },
@@ -51,20 +51,20 @@
           }
         },
         "1": {
-          "scenario": "Looking at the table for full frame, which has a shorter hyperfocal distance: 24mm at f/8, or 50mm at f/8?",
-          "hint": "Hyperfocal distance increases with the square of the focal length.",
-          "successMessage": "Right! The 24mm lens has a much shorter hyperfocal distance because focal length has a squared relationship.",
-          "failureMessage": "Actually, shorter focal lengths always yield shorter hyperfocal distances. The 24mm wins here.",
+          "scenario": "Kun katsot täyskennon taulukkoa, kummalla on lyhyempi hyperfokaalietäisyys: 24 mm f/8:lla vai 50 mm f/8:lla?",
+          "hint": "Hyperfokaalietäisyys kasvaa polttovälin neliössä.",
+          "successMessage": "Aivan! 24 mm:n objektiivilla on paljon lyhyempi hyperfokaalietäisyys, koska polttoväli on neliömäisessä suhteessa.",
+          "failureMessage": "Itse asiassa lyhyemmät polttovälit tuottavat aina lyhyemmät hyperfokaalietäisyydet. 24 mm voittaa tässä.",
           "options": {
-            "0": { "label": "24mm at f/8" },
-            "1": { "label": "50mm at f/8" }
+            "0": { "label": "24 mm f/8:lla" },
+            "1": { "label": "50 mm f/8:lla" }
           }
         },
         "2": {
-          "scenario": "You are hiking with an APS-C camera and a 35mm lens. You want everything from about 3 meters to infinity sharp. Which aperture range should you look at in the table to find a hyperfocal distance near 6 meters (so that half of it — 3m — is your near-focus limit)?",
-          "hint": "Remember: near focus = hyperfocal / 2. Look for an aperture that gives a hyperfocal around 6m.",
-          "successMessage": "Great thinking! You correctly identified that you need a hyperfocal distance of about 6m, and found the right aperture range.",
-          "failureMessage": "Remember, near focus equals half the hyperfocal distance. You need the hyperfocal to be around 6m to get a near-focus limit of 3m.",
+          "scenario": "Vaellat APS-C-kameran ja 35 mm:n objektiivin kanssa. Haluat kaiken noin 3 metristä äärettömyyteen terävänä. Mikä aukkoalue taulukossa kannattaa etsiä löytääksesi hyperfokaalietäisyyden lähellä 6 metriä (jotta sen puolikas — 3 m — on lähirajasi)?",
+          "hint": "Muista: lähiraja = hyperfokaali / 2. Etsi aukkoa, joka antaa hyperfokaalin noin 6 metriin.",
+          "successMessage": "Hieno pohdinta! Tunnistit oikein, että tarvitset hyperfokaalietäisyyden noin 6 m ja löysit oikean aukkoalueen.",
+          "failureMessage": "Muista, lähiraja on puolet hyperfokaalietäisyydestä. Hyperfokaalin tulee olla noin 6 m, jotta lähiraja on 3 m.",
           "options": {
             "0": { "label": "f/2.8 — f/4" },
             "1": { "label": "f/5.6 — f/8" },
@@ -72,24 +72,24 @@
           }
         },
         "3": {
-          "scenario": "A friend switches from a full-frame camera to Micro Four Thirds but keeps shooting the same focal lengths. They complain that the hyperfocal distances seem different. Why?",
-          "hint": "The circle of confusion is calculated based on sensor size.",
-          "successMessage": "Exactly! The smaller M43 sensor uses a smaller CoC (about 0.015mm vs 0.03mm), which increases hyperfocal distances for the same focal length and aperture.",
-          "failureMessage": "The key factor is the circle of confusion. Smaller sensors require a tighter CoC standard, which pushes hyperfocal distances farther out.",
+          "scenario": "Ystäväsi vaihtaa täyskennosta Micro Four Thirdsiin mutta jatkaa samojen polttovälien kuvaamista. Hän valittaa, että hyperfokaalietäisyydet vaikuttavat erilaisilta. Miksi?",
+          "hint": "Hajapiste lasketaan kennokoon perusteella.",
+          "successMessage": "Juuri niin! Pienempi M43-kenno käyttää pienempää CoC:tä (noin 0,015 mm vs. 0,03 mm), mikä kasvattaa hyperfokaalietäisyyksiä samalla polttovälillä ja aukolla.",
+          "failureMessage": "Avaintekijä on hajapiste. Pienemmät kennot vaativat tiukempaa CoC-standardia, mikä työntää hyperfokaalietäisyyksiä kauemmas.",
           "options": {
-            "0": { "label": "The lens focal length changes on crop sensors" },
-            "1": { "label": "Smaller sensors use a smaller circle of confusion" },
-            "2": { "label": "Micro Four Thirds cameras have less accurate autofocus" }
+            "0": { "label": "Objektiivin polttoväli muuttuu rajaavilla kennoilla" },
+            "1": { "label": "Pienemmät kennot käyttävät pienempää hajapistettä" },
+            "2": { "label": "Micro Four Thirds -kameroilla on epätarkempi automaattitarkennus" }
           }
         },
         "4": {
-          "scenario": "You are shooting architecture at 14mm f/11 on full frame. The table shows a very short hyperfocal distance. Should you stop down further to f/22 for even more depth of field, or is f/11 the better choice?",
-          "hint": "Consider what happens to image sharpness at very small apertures.",
-          "successMessage": "Excellent! At f/11, diffraction is minimal on full frame, and the hyperfocal distance at 14mm is already very short. Stopping down to f/22 would soften the image due to diffraction without meaningful DoF benefit.",
-          "failureMessage": "While f/22 gives a shorter hyperfocal distance on paper, diffraction softening at f/22 on full frame actually reduces overall image sharpness. At 14mm f/11, the hyperfocal distance is already so short that the extra DoF is not worth the diffraction penalty.",
+          "scenario": "Kuvaat arkkitehtuuria 14 mm f/11:llä täyskennolla. Taulukko näyttää hyvin lyhyen hyperfokaalietäisyyden. Kannattaako sulkea vielä pidemmälle f/22:een saadaksesi vielä enemmän syväterävyyttä, vai onko f/11 parempi valinta?",
+          "hint": "Mieti, mitä kuvan terävyydelle tapahtuu hyvin pienillä aukoilla.",
+          "successMessage": "Erinomaista! f/11:llä diffraktio on minimaalista täyskennolla, ja 14 mm:n hyperfokaalietäisyys on jo hyvin lyhyt. f/22:een sulkeminen pehmentäisi kuvaa diffraktion vuoksi ilman merkittävää syväterävyyshyötyä.",
+          "failureMessage": "Vaikka f/22 antaa lyhyemmän hyperfokaalietäisyyden paperilla, diffraktion pehmentyminen f/22:lla täyskennolla itse asiassa vähentää kuvan yleistä terävyyttä. 14 mm f/11:llä hyperfokaalietäisyys on jo niin lyhyt, että ylimääräinen syväterävyys ei ole diffraktiorangaistuksen arvoinen.",
           "options": {
-            "0": { "label": "Stop down to f/22 for maximum depth of field" },
-            "1": { "label": "Stay at f/11 — diffraction at f/22 will reduce sharpness" }
+            "0": { "label": "Sulje f/22:een maksimaalisen syväterävyyden saamiseksi" },
+            "1": { "label": "Pysy f/11:ssä — diffraktio f/22:lla vähentää terävyyttä" }
           }
         }
       }

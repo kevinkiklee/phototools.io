@@ -1,50 +1,50 @@
 {
   "terms": {
-    "title": "Terms of Service",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Умови використання",
+    "effectiveDate": "Діє з: 3 квітня 2026 року",
     "sections": {
       "acceptance": {
-        "title": "Acceptance of Terms",
-        "body": "By accessing or using www.phototools.io (\"PhotoTools\" or \"the Site\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Site. These terms apply to all visitors and users of PhotoTools."
+        "title": "Прийняття умов",
+        "body": "Заходячи на www.phototools.io (\"PhotoTools\" або \"Сайт\") чи користуючись ним, ти погоджуєшся з цими умовами використання. Якщо ти не згоден з ними, не користуйся сайтом. Ці умови діють для всіх відвідувачів і користувачів PhotoTools."
       },
       "descriptionOfService": {
-        "title": "Description of Service",
-        "body": "PhotoTools provides free educational photography tools, including interactive calculators, simulators, and reference materials. The Site is intended for informational and educational purposes only. All tools are provided at no cost to users and are designed to help photographers learn and understand photographic concepts."
+        "title": "Опис сервісу",
+        "body": "PhotoTools надає безкоштовні навчальні інструменти для фотографії — інтерактивні калькулятори, симулятори й довідкові матеріали. Сайт призначений виключно для інформаційних і навчальних цілей. Усі інструменти надаються безкоштовно і створені, щоб допомогти фотографам вивчати і розуміти фотографічні концепції."
       },
       "noWarranty": {
-        "title": "No Warranty",
-        "body": "PhotoTools is provided \"as is\" without any warranty of any kind, express or implied. We make no guarantee that the tools, calculators, or information on this site are accurate, complete, or suitable for any particular purpose. Results from our tools are approximations and should not be relied upon for critical decisions, professional work, or situations where precision is essential. Always verify important calculations with qualified professionals or authoritative sources."
+        "title": "Без гарантій",
+        "body": "PhotoTools надається \"як є\", без будь-яких гарантій, прямих чи непрямих. Ми не гарантуємо, що інструменти, калькулятори чи інформація на сайті є точними, повними або придатними для якоїсь конкретної мети. Результати наших інструментів — це наближення, і на них не можна покладатися в критично важливих рішеннях, професійній роботі або там, де потрібна висока точність. Завжди перевіряй важливі розрахунки у кваліфікованих фахівців або авторитетних джерелах."
       },
       "intellectualProperty": {
-        "title": "Intellectual Property",
-        "body": "All content on PhotoTools — including text, graphics, tool designs, code, and educational materials — is the property of PhotoTools unless otherwise noted. You are welcome to use the tools and reference materials for personal and educational purposes. Reproduction, redistribution, or commercial use of site content without prior written permission is prohibited."
+        "title": "Інтелектуальна власність",
+        "body": "Увесь вміст PhotoTools — текст, графіка, дизайн інструментів, код і навчальні матеріали — є власністю PhotoTools, якщо не зазначено інше. Ти можеш вільно користуватися інструментами й довідковими матеріалами для особистих і навчальних цілей. Відтворення, поширення або комерційне використання матеріалів сайту без попередньої письмової згоди заборонене."
       },
       "acceptableUse": {
-        "title": "Acceptable Use",
-        "intro": "When using PhotoTools, you agree not to:",
+        "title": "Допустиме використання",
+        "intro": "Користуючись PhotoTools, ти погоджуєшся не:",
         "items": {
-          "laws": "Violate any applicable local, national, or international laws or regulations",
-          "disrupt": "Disrupt or interfere with the site's operation, servers, or networks",
-          "scrape": "Scrape, crawl, or systematically extract data from the site without prior written permission",
-          "misrepresent": "Misrepresent your identity or affiliation in communications with PhotoTools",
-          "commercial": "Use the site for any commercial purpose beyond personal reference without permission"
+          "laws": "порушувати будь-які місцеві, національні чи міжнародні закони й правила",
+          "disrupt": "перешкоджати роботі сайту, його серверів або мереж",
+          "scrape": "скрейпити, сканувати або систематично витягувати дані з сайту без попередньої письмової згоди",
+          "misrepresent": "спотворювати свою особу чи приналежність у спілкуванні з PhotoTools",
+          "commercial": "використовувати сайт у будь-яких комерційних цілях, окрім особистого користування, без дозволу"
         }
       },
       "thirdPartyContent": {
-        "title": "Third-Party Content",
-        "body": "PhotoTools displays third-party advertisements and may include links to external websites. We are not responsible for the content, accuracy, or practices of third-party advertisers or linked sites. The inclusion of any advertisement or external link does not constitute an endorsement by PhotoTools. Your interactions with third-party services are governed by their own terms and privacy policies."
+        "title": "Сторонні матеріали",
+        "body": "PhotoTools показує рекламу сторонніх мереж і може містити посилання на зовнішні сайти. Ми не відповідаємо за зміст, точність чи практики сторонніх рекламодавців і сайтів, на які є посилання. Наявність реклами чи зовнішнього посилання не означає схвалення з боку PhotoTools. Твоя взаємодія зі сторонніми сервісами регулюється їхніми власними умовами й політиками конфіденційності."
       },
       "limitationOfLiability": {
-        "title": "Limitation of Liability",
-        "body": "To the fullest extent permitted by law, PhotoTools and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of — or inability to use — the Site or its tools. This includes, without limitation, damages resulting from reliance on information or calculations provided by PhotoTools. Your use of the Site is entirely at your own risk."
+        "title": "Обмеження відповідальності",
+        "body": "У межах, дозволених законом, PhotoTools і його оператори не несуть відповідальності за будь-які прямі, непрямі, випадкові, особливі чи наслідкові збитки, що виникли у зв'язку з використанням — або неможливістю використання — Сайту чи його інструментів. Це включає, без обмежень, збитки, що виникли через покладання на інформацію чи розрахунки PhotoTools. Ти користуєшся Сайтом на свій власний ризик."
       },
       "changesToTerms": {
-        "title": "Changes to Terms",
-        "body": "We may modify these Terms of Service at any time. Updated terms will be posted on this page with a revised effective date. Continued use of PhotoTools after changes are posted constitutes your acceptance of the revised terms. We encourage you to review these terms periodically."
+        "title": "Зміни умов",
+        "body": "Ми можемо в будь-який час змінити ці умови використання. Оновлені умови будуть опубліковані на цій сторінці з новою датою набрання чинності. Продовження користування PhotoTools після публікації змін означає, що ти приймаєш оновлені умови. Радимо періодично переглядати їх."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about these Terms of Service, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Контакти",
+        "body": "Якщо маєш запитання щодо цих умов використання, напиши через <contactLink>сторінку контактів</contactLink>."
       }
     }
   }

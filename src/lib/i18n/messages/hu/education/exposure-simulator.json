@@ -1,109 +1,109 @@
 {
   "education": {
     "exposure-simulator": {
-      "beginner": "The exposure triangle describes how three camera settings — aperture, shutter speed, and ISO — work together to control how bright your photo is. Changing one setting requires adjusting at least one of the others to maintain the same brightness. Each setting also has its own creative side effect: aperture controls background blur, shutter speed controls motion blur, and ISO controls image noise.",
-      "deeper": "Exposure is measured in Exposure Value (EV), where each whole EV step represents a doubling or halving of light. An increase of 1 EV (one \"stop\") means twice as much light is reaching the sensor. Aperture follows a geometric progression (f/1.4, f/2, f/2.8, f/4...) where each full stop halves the light entering the lens because the area of the opening is inversely proportional to the square of the f-number. Shutter speed is more intuitive: doubling the time doubles the light. ISO amplifies the signal from the sensor — doubling the ISO doubles the effective brightness but also amplifies noise. In practice, you typically set the parameter that matters most for your creative intent first (aperture for DoF control, shutter for motion), then balance the others. Modern cameras meter in 1/3-stop increments for finer control.",
+      "beginner": "Az expozíciós háromszög azt írja le, hogyan működik együtt három kamerabeállítás — a rekesz, a záridő és az ISO —, hogy szabályozza a fotód fényességét. Ha az egyiket változtatod, legalább egy másikat is módosítanod kell a fényesség megőrzéséhez. Mindegyiknek megvan a saját kreatív mellékhatása: a rekesz a háttérelmosódást, a záridő a bemozdulást, az ISO pedig a zajt szabályozza.",
+      "deeper": "Az expozíciót fényértékben (EV) mérjük, ahol minden egész EV lépés a fény megduplázását vagy felezését jelenti. 1 EV növekedés (egy „stop”) azt jelenti, hogy kétszer annyi fény éri az érzékelőt. A rekesz mértani haladványt követ (f/1.4, f/2, f/2.8, f/4...), ahol minden teljes stop felezi az objektíven bejutó fényt, mert a nyílás területe az f-szám négyzetével fordítottan arányos. A záridő intuitívabb: az idő megduplázása megduplázza a fényt. Az ISO felerősíti az érzékelő jelét — az ISO duplázása duplázza az effektív fényességet, de a zajt is. A gyakorlatban először azt a paramétert állítod be, ami a kreatív szándékod szempontjából a legfontosabb (rekesz a DoF-hez, záridő a mozgáshoz), majd a többit ehhez igazítod. A modern kamerák 1/3 stop-os lépésekkel mérnek a finomabb beállításhoz.",
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Controls the size of the lens opening. Each full stop (e.g., f/2.8 to f/4) halves the light. Also affects depth of field — wider apertures blur the background more."
+          "label": "Rekesz",
+          "description": "Az objektívnyílás méretét szabályozza. Minden teljes stop (pl. f/2.8-ról f/4-re) felezi a fényt. A mélységélességet is befolyásolja — a tágabb rekesz jobban elmossa a hátteret."
         },
         "1": {
-          "label": "Shutter Speed",
-          "description": "Controls how long the sensor is exposed to light. Faster speeds freeze motion; slower speeds introduce motion blur. Doubling the time doubles the light."
+          "label": "Záridő",
+          "description": "Az érzékelő expozíciós idejét szabályozza. A gyorsabb záridők lefagyasztják a mozgást, a lassabbak bemozdulást engednek. Az idő duplázása duplázza a fényt."
         },
         "2": {
           "label": "ISO",
-          "description": "Controls the sensor's sensitivity to light. Higher ISO brightens the image but adds grain/noise. Always use the lowest ISO that gives you the exposure you need."
+          "description": "Az érzékelő fényérzékenységét szabályozza. A magasabb ISO világosítja a képet, de szemcsét/zajt ad hozzá. Mindig a legalacsonyabb ISO-t használd, ami még megadja a kívánt expozíciót."
         },
         "3": {
-          "label": "Exposure Value (EV)",
-          "description": "A single number that represents the overall brightness. EV 0 corresponds to a 1-second exposure at f/1.0. Each +1 EV halves the light."
+          "label": "Fényérték (EV)",
+          "description": "Egyetlen szám, ami a teljes fényességet jelöli. Az EV 0 egy 1 másodperces expozíciónak felel meg f/1.0-án. Minden +1 EV felezi a fényt."
         }
       },
       "tips": {
         "0": {
-          "text": "Start with Aperture Priority mode: set the aperture for your desired depth of field, and let the camera choose the shutter speed. Only raise ISO when the shutter speed drops too low for sharp handheld shots."
+          "text": "Kezdd rekesz-elsőbbségi módban (Av/A): állítsd a rekeszt a kívánt mélységélességhez, a záridőt a kamera válassza. Csak akkor emeld az ISO-t, ha a záridő túl lassúvá válik az éles kézi felvételhez."
         },
         "1": {
-          "text": "For sports and action, switch to Shutter Priority: pick a fast shutter speed (1/500s or faster) and let the camera adjust aperture and ISO to match."
+          "text": "Sport és akció esetén válts záridő-elsőbbségre: válassz gyors záridőt (1/500s vagy gyorsabb), és hagyd, hogy a kamera állítsa a rekeszt és az ISO-t."
         },
         "2": {
-          "text": "The \"Sunny 16\" rule is a quick mental shortcut: on a bright sunny day, set aperture to f/16, shutter speed to 1/ISO (e.g., 1/100s at ISO 100), and you will get a well-exposed image without metering."
+          "text": "A „Sunny 16” szabály egy gyors fejszámolás: napos időben állíts rekeszt f/16-ra, záridőt 1/ISO-ra (pl. 1/100s ISO 100-on), és a kép fénymérés nélkül is jól exponált lesz."
         }
       },
       "tooltips": {
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening size expressed as an f-number. Lower numbers (f/1.4) let in more light and blur the background. Higher numbers (f/16) let in less light but keep more of the scene sharp."
+          "term": "Rekesz",
+          "definition": "Az objektívnyílás mérete f-számban kifejezve. Az alacsonyabb szám (f/1.4) több fényt enged be és elmossa a hátteret. A magasabb szám (f/16) kevesebb fényt enged, de több marad élesen a jelenetből."
         },
         "shutterSpeed": {
-          "term": "Shutter Speed",
-          "definition": "The duration the sensor is exposed to light, typically measured in fractions of a second (1/250s) or full seconds (2s). Faster speeds freeze motion; slower speeds create motion blur."
+          "term": "Záridő",
+          "definition": "Az az időtartam, ameddig az érzékelő a fénynek ki van téve, jellemzően másodperc törtrészeiben (1/250s) vagy egész másodpercben (2s). A gyorsabb záridő lefagyasztja a mozgást, a lassabb bemozdulást ad."
         },
         "iso": {
           "term": "ISO",
-          "definition": "A measure of sensor sensitivity. ISO 100 is the base (cleanest image). Each doubling (200, 400, 800...) brightens the image by one stop but progressively adds noise."
+          "definition": "Az érzékelő érzékenységének mértéke. Az ISO 100 az alap (legtisztább kép). Minden duplázás (200, 400, 800...) egy stoppal világosítja a képet, de egyre több zajt ad."
         },
         "ev": {
-          "term": "Exposure Value (EV)",
-          "definition": "A single number summarizing the overall exposure. Higher EV means brighter conditions or more light captured. Each +1 EV is double the light."
+          "term": "Fényérték (EV)",
+          "definition": "Egyetlen szám, ami összefoglalja a teljes expozíciót. A magasabb EV erősebb fényt vagy több rögzített fényt jelent. Minden +1 EV duplázza a fényt."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing your dog running in the park on a sunny day. The image keeps coming out blurry. Which setting should you prioritize to freeze the motion?",
-          "hint": "Motion blur is caused by the subject moving during the exposure.",
-          "successMessage": "Correct! A fast shutter speed like 1/1000s will freeze your dog mid-stride. On a sunny day, you have plenty of light to support this.",
-          "failureMessage": "That setting won't directly freeze motion. To stop a moving subject, you need a fast shutter speed — the shorter the exposure, the less time the subject has to blur.",
+          "scenario": "A kutyádat fotózod, ahogy fut a parkban egy napos napon. A kép folyamatosan bemozdul. Melyik beállítást priorizáljad a mozgás lefagyasztásához?",
+          "hint": "A bemozdulást a téma mozgása okozza az expozíció alatt.",
+          "successMessage": "Jó! Egy gyors záridő, mint az 1/1000s, lefagyasztja a kutyát ugrás közben. Napos időben bőven van fény ehhez.",
+          "failureMessage": "Az a beállítás nem fagyasztja le közvetlenül a mozgást. A mozgó téma megállításához gyors záridő kell — minél rövidebb az expozíció, annál kevesebb ideje van bemozdulni.",
           "options": {
-            "0": { "label": "Widen the aperture to f/2.8" },
-            "1": { "label": "Use a fast shutter speed (1/1000s)" },
-            "2": { "label": "Increase ISO to 3200" },
-            "3": { "label": "Use a longer focal length" }
+            "0": { "label": "Rekesz tágítása f/2.8-ra" },
+            "1": { "label": "Gyors záridő (1/1000s)" },
+            "2": { "label": "ISO emelése 3200-ra" },
+            "3": { "label": "Hosszabb gyújtótávolság" }
           }
         },
         "1": {
-          "scenario": "You are taking photos at an indoor birthday party. Your images are too dark at f/3.5, 1/60s, ISO 400. You cannot use a flash. What is the best next step?",
-          "hint": "You need more light reaching the sensor or more amplification of the signal.",
-          "successMessage": "Good thinking! Raising ISO to 1600 gives you two extra stops of brightness while keeping your shutter speed fast enough for handheld shots.",
-          "failureMessage": "That change might cause other issues. Since the aperture is already near its widest and you need a shutter speed fast enough for handheld use, raising ISO is the most practical adjustment.",
+          "scenario": "Egy beltéri születésnapon fotózol. A képeid túl sötétek f/3.5, 1/60s, ISO 400-on. Vaku nem használható. Mi a legjobb következő lépés?",
+          "hint": "Több fényre van szükséged az érzékelőn, vagy erősebb jelfelerősítésre.",
+          "successMessage": "Jó gondolkodás! Az ISO 1600-ra emelése két stopnyi extra fényességet ad, miközben a záridő elég gyors marad a kézi fotózáshoz.",
+          "failureMessage": "Az a változtatás más problémákat okozhat. Mivel a rekesz már majdnem teljesen nyitva van, és elég gyors záridő kell a kézi fotózáshoz, az ISO emelése a legpraktikusabb lépés.",
           "options": {
-            "0": { "label": "Raise ISO to 1600" },
-            "1": { "label": "Slow shutter to 1/4s" },
-            "2": { "label": "Close aperture to f/8" },
-            "3": { "label": "Switch to a smaller sensor camera" }
+            "0": { "label": "ISO-t 1600-ra emelni" },
+            "1": { "label": "Záridőt lassítani 1/4s-ra" },
+            "2": { "label": "Rekeszt zárni f/8-ra" },
+            "3": { "label": "Áttérni kisebb érzékelőjű kamerára" }
           }
         },
         "2": {
-          "scenario": "You want to capture a waterfall with a silky smooth water effect on a bright day. Your current settings are f/8, 1/250s, ISO 100. What should you change to get the silky look?",
-          "hint": "Silky water requires a long exposure, but it is very bright outside.",
-          "successMessage": "Exactly! Using a slow shutter speed (1/2s or longer) and compensating by narrowing the aperture to f/22 (and possibly adding an ND filter) will give you that silky water effect.",
-          "failureMessage": "To get silky water, you need a slow shutter speed — around 1/2s to several seconds. On a bright day, you will also need to reduce the light entering the lens to avoid overexposure.",
+          "scenario": "Egy vízesést szeretnél selymes hatással megörökíteni egy napos napon. A jelenlegi beállításod f/8, 1/250s, ISO 100. Mit változtass a selymes hatásért?",
+          "hint": "A selymes víz hosszú expozíciót igényel, de kint nagyon világos van.",
+          "successMessage": "Pontosan! Egy lassú záridő (1/2s vagy hosszabb) és a rekesz f/22-re szűkítése (esetleg ND szűrő hozzáadása) megadja a selymes vízeffektet.",
+          "failureMessage": "A selymes vízhez lassú záridő kell — 1/2s és több másodperc között. Napos időben csökkentened kell az objektívbe jutó fényt a túlexponálás elkerülésére.",
           "options": {
-            "0": { "label": "Use 1/2s shutter and narrow to f/22" },
-            "1": { "label": "Use 1/1000s shutter at f/2.8" },
-            "2": { "label": "Raise ISO to 6400" },
-            "3": { "label": "Keep 1/250s but open to f/1.4" }
+            "0": { "label": "1/2s záridő és rekesz f/22-re szűkítve" },
+            "1": { "label": "1/1000s záridő f/2.8-on" },
+            "2": { "label": "ISO-t 6400-ra emelni" },
+            "3": { "label": "Maradni 1/250s-on, de nyitni f/1.4-re" }
           }
         },
         "3": {
-          "scenario": "Your properly exposed photo is at f/5.6, 1/125s, ISO 200. You want to switch to f/2.8 for more background blur. How should you adjust the other settings to maintain the same exposure?",
-          "hint": "Going from f/5.6 to f/2.8 is 2 stops more light. You need to remove 2 stops somewhere else.",
-          "successMessage": "Perfect! Opening from f/5.6 to f/2.8 adds 2 stops of light. Changing shutter speed from 1/125s to 1/500s removes exactly 2 stops, keeping the exposure identical.",
-          "failureMessage": "The math needs to balance. f/5.6 to f/2.8 is +2 stops. You need to compensate by removing exactly 2 stops through faster shutter speed, lower ISO, or a combination.",
+          "scenario": "A helyesen exponált fotód f/5.6, 1/125s, ISO 200. Át akarsz váltani f/2.8-ra a nagyobb háttérelmosódáshoz. Hogyan állítsd be a többi beállítást, hogy az expozíció ugyanaz maradjon?",
+          "hint": "f/5.6-ról f/2.8-ra 2 stoppal több fény. Máshol 2 stopot el kell venned.",
+          "successMessage": "Tökéletes! f/5.6-ról f/2.8-ra nyitás 2 stop plusz fény. A záridő 1/125s-ről 1/500s-ra változtatása pont 2 stopot vesz el, és az expozíció változatlan marad.",
+          "failureMessage": "A számításnak ki kell egyenlítődnie. f/5.6-ról f/2.8-ra +2 stop. Kompenzáld pontosan 2 stop levonásával: gyorsabb záridő, alacsonyabb ISO vagy a kettő kombinációja.",
           "options": {
-            "0": { "label": "1/500s at ISO 200" },
-            "1": { "label": "1/250s at ISO 200" },
-            "2": { "label": "1/125s at ISO 100" },
-            "3": { "label": "1/60s at ISO 100" }
+            "0": { "label": "1/500s ISO 200-on" },
+            "1": { "label": "1/250s ISO 200-on" },
+            "2": { "label": "1/125s ISO 100-on" },
+            "3": { "label": "1/60s ISO 100-on" }
           }
         },
         "4": {
-          "scenario": "You are photographing a concert in a dark venue. The performers are moving quickly under colored stage lights. You need at least 1/250s to freeze motion. Your fastest lens is f/2.8. What ISO do you likely need if the scene meters at EV 6?",
-          "hint": "At EV 6, f/2.8, calculate the ISO needed to achieve 1/250s. Each full stop of ISO doubles the brightness.",
-          "successMessage": "Correct! At EV 6 with f/2.8 and 1/250s, you need ISO 3200. Concert photography often demands high ISO — knowing your camera's usable ISO limit is critical for these situations.",
-          "failureMessage": "At EV 6, the combination of f/2.8 and 1/250s requires ISO 3200 to achieve proper exposure. The exposure formula balances aperture, shutter speed, and ISO against the available light.",
+          "scenario": "Sötét koncerthelyszínen fotózol. Az előadók gyorsan mozognak színes színpadi fények alatt. Legalább 1/250s kell a mozgás lefagyasztásához. A leggyorsabb objektíved f/2.8. Milyen ISO-ra lesz szükséged, ha a jelenetet EV 6-ra méri a fénymérő?",
+          "hint": "EV 6-on f/2.8 mellett számold ki, milyen ISO kell az 1/250s-hoz. Minden teljes ISO-stop duplázza a fényességet.",
+          "successMessage": "Jó! EV 6-on f/2.8 és 1/250s mellett ISO 3200 kell. A koncertfotózás gyakran magas ISO-t igényel — ilyen helyzetekhez tudnod kell, meddig használható a kamerád ISO-ja.",
+          "failureMessage": "EV 6-on az f/2.8 és az 1/250s kombinációja ISO 3200-at igényel a helyes expozícióhoz. Az expozíciós képlet kiegyensúlyozza a rekeszt, a záridőt és az ISO-t a rendelkezésre álló fénnyel.",
           "options": {
             "0": { "label": "ISO 400" },
             "1": { "label": "ISO 800" },

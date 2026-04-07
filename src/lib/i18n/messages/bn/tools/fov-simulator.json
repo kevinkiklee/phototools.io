@@ -31,16 +31,16 @@
       "loadingScene": "Loading scene...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "ফটোগ্রাফিতে দৃষ্টিক্ষেত্র কী?",
+          "answer": "দৃষ্টিক্ষেত্র (FOV) হলো তোমার লেন্স ও ক্যামেরা সেন্সরের মধ্য দিয়ে দৃশ্যের যে অংশটি দেখা যায় তার কৌণিক পরিসর। এটি ঠিক করে ছবিতে দৃশ্যের কতটুকু ধরা পড়বে, এবং ফোকাল দৈর্ঘ্য ও সেন্সর সাইজ অনুযায়ী এটি পরিবর্তিত হয়।"
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "ক্রপ ফ্যাক্টর কীভাবে দৃষ্টিক্ষেত্রকে প্রভাবিত করে?",
+          "answer": "একই ফোকাল দৈর্ঘ্যে ছোট সেন্সর (বড় ক্রপ ফ্যাক্টর) ফুল-ফ্রেম সেন্সরের তুলনায় সরু দৃষ্টিক্ষেত্র ধরে। উদাহরণস্বরূপ, 1.5x ক্রপ ফ্যাক্টরের APS-C সেন্সরে 50mm লেন্স দৃষ্টিক্ষেত্রের দিক থেকে একটি 75mm লেন্সের মতো আচরণ করে।"
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "দৃষ্টিক্ষেত্র ও ফোকাল দৈর্ঘ্যের মধ্যে সম্পর্ক কী?",
+          "answer": "দৃষ্টিক্ষেত্র আর ফোকাল দৈর্ঘ্য বিপরীতভাবে সম্পর্কিত। ছোট ফোকাল দৈর্ঘ্য (ওয়াইড-অ্যাঙ্গেল) বড় দৃষ্টিক্ষেত্র দেয়, আর বড় ফোকাল দৈর্ঘ্য (টেলিফটো) সরু দৃষ্টিক্ষেত্র দেয়। সঠিক FOV সেন্সর সাইজের উপরও নির্ভর করে।"
         }
       }
     }

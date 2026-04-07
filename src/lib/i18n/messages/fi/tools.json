@@ -2,63 +2,63 @@
   "tools": {
     "fov-simulator": {
       "name": "FOV Simulator",
-      "description": "Compare field of view across focal lengths and sensor sizes"
+      "description": "Vertaa kuvakulmia eri polttoväleillä ja kennokokoilla"
     },
     "color-scheme-generator": {
       "name": "Color Scheme Generator",
-      "description": "Build color palettes for photography shoots"
+      "description": "Rakenna väripaletteja kuvauksia varten"
     },
     "exposure-simulator": {
-      "name": "Exposure Triangle Simulator",
-      "description": "See how aperture, shutter speed, and ISO interact"
+      "name": "Valotuskolmion simulaattori",
+      "description": "Näe, miten aukko, suljinaika ja ISO vaikuttavat toisiinsa"
     },
     "dof-simulator": {
       "name": "Depth-of-Field Simulator",
-      "description": "Visualize how aperture, focal length, and distance affect background blur"
+      "description": "Visualisoi, miten aukko, polttoväli ja etäisyys vaikuttavat taustan sumentumiseen"
     },
     "focus-stacking-calculator": {
       "name": "Focus Stacking Calculator",
-      "description": "Calculate optimal focus distances for front-to-back sharpness"
+      "description": "Laske optimaaliset tarkennusetäisyydet läpiterävään lopputulokseen"
     },
     "equivalent-settings-calculator": {
-      "name": "Equivalent Settings Calculator",
-      "description": "Find equivalent aperture and focal length across sensor formats"
+      "name": "Ekvivalenttien asetusten laskuri",
+      "description": "Etsi ekvivalentti aukko ja polttoväli eri kennoformaattien välillä"
     },
     "hyperfocal-simulator": {
-      "name": "Hyperfocal Distance Simulator",
-      "description": "Learn where to focus for maximum sharpness from foreground to infinity"
+      "name": "Hyperfokaalietäisyyden simulaattori",
+      "description": "Opi, mihin tarkennat saadaksesi maksimiterävyyden etualasta äärettömyyteen"
     },
     "shutter-speed-visualizer": {
       "name": "Shutter Speed Visualizer",
-      "description": "Find the minimum safe shutter speed for sharp handheld shots"
+      "description": "Etsi turvallinen minimisuljinaika teräviin käsivarakuviin"
     },
     "nd-filter-calculator": {
       "name": "ND Filter Calculator",
-      "description": "Calculate exposure time with any ND filter"
+      "description": "Laske valotusaika millä tahansa ND-suotimella"
     },
     "star-trail-calculator": {
       "name": "Star Trail Calculator",
-      "description": "Calculate max exposure for sharp stars or plan star trail shots"
+      "description": "Laske maksimivalotus teräville tähdille tai suunnittele tähtiratakuvaus"
     },
     "perspective-compression-simulator": {
-      "name": "Perspective Compression Simulator",
-      "description": "See how focal length affects background compression"
+      "name": "Perspektiivin pakkautumisen simulaattori",
+      "description": "Näe, miten polttoväli vaikuttaa taustan pakkautumiseen"
     },
     "white-balance-visualizer": {
       "name": "White Balance Visualizer",
-      "description": "See how color temperature affects your photos"
+      "description": "Näe, miten värilämpötila vaikuttaa kuviisi"
     },
     "sensor-size-comparison": {
       "name": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes visually"
+      "description": "Vertaa kameroiden kennokokoja visuaalisesti"
     },
     "frame-studio": {
       "name": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays"
+      "description": "Rajaa, kehystä ja sommittele kuvia apuviivoilla"
     },
     "exif-viewer": {
       "name": "EXIF Viewer",
-      "description": "View EXIF metadata and histogram for any photo — 100% client-side"
+      "description": "Tarkastele minkä tahansa kuvan EXIF-tietoja ja histogrammia — 100 % selaimessa"
     }
   }
 }

@@ -1,239 +1,239 @@
 {
   "glossary": {
-    "title": "Photography Glossary",
-    "subtitle": "Searchable reference of photography terms. Click any term to see its definition.",
-    "searchPlaceholder": "Search terms...",
-    "searchAriaLabel": "Search glossary terms",
-    "noResults": "No terms match your search.",
-    "tryTool": "Try the {toolName}",
+    "title": "ফটোগ্রাফি শব্দকোষ",
+    "subtitle": "ফটোগ্রাফির শব্দাবলীর অনুসন্ধানযোগ্য রেফারেন্স। সংজ্ঞা দেখতে যেকোনো শব্দে ক্লিক করো।",
+    "searchPlaceholder": "শব্দ খোঁজো...",
+    "searchAriaLabel": "শব্দকোষে শব্দ খোঁজো",
+    "noResults": "তোমার সার্চের সাথে কোনো শব্দ মেলেনি।",
+    "tryTool": "{toolName} ব্যবহার করে দেখো",
     "entries": {
       "aperture": {
-        "term": "Aperture",
-        "definition": "The opening in a lens through which light passes. A wider aperture (lower f-number) lets in more light and creates a shallower depth of field."
+        "term": "অ্যাপারচার",
+        "definition": "লেন্সের সেই খোলা অংশ যার মধ্য দিয়ে আলো প্রবেশ করে। প্রশস্ত অ্যাপারচার (কম f-নম্বর) বেশি আলো ঢুকতে দেয় এবং কম ক্ষেত্রের গভীরতা তৈরি করে।"
       },
       "aspect-ratio": {
-        "term": "Aspect Ratio",
-        "definition": "The proportional relationship between an image's width and height. Common ratios include 3:2 (standard DSLR), 4:3 (Micro Four Thirds), and 16:9 (widescreen)."
+        "term": "অ্যাসপেক্ট রেশিও",
+        "definition": "ছবির প্রস্থ ও উচ্চতার আনুপাতিক সম্পর্ক। সাধারণ অনুপাতগুলো হলো 3:2 (স্ট্যান্ডার্ড DSLR), 4:3 (Micro Four Thirds), এবং 16:9 (ওয়াইডস্ক্রিন)।"
       },
       "autofocus": {
-        "term": "Autofocus",
-        "definition": "A camera system that automatically adjusts the lens to bring a subject into sharp focus. Modern systems use phase-detection or contrast-detection methods."
+        "term": "অটোফোকাস",
+        "definition": "একটি ক্যামেরা সিস্টেম যা স্বয়ংক্রিয়ভাবে লেন্স সামঞ্জস্য করে বিষয়কে তীক্ষ্ণ ফোকাসে আনে। আধুনিক সিস্টেমগুলো ফেজ-ডিটেকশন বা কনট্রাস্ট-ডিটেকশন পদ্ধতি ব্যবহার করে।"
       },
       "bokeh": {
-        "term": "Bokeh",
-        "definition": "The aesthetic quality of out-of-focus areas in an image, especially highlights. Smooth, circular bokeh is generally preferred and is influenced by lens design and aperture shape."
+        "term": "বোকে",
+        "definition": "ছবির আউট-অফ-ফোকাস অংশের নান্দনিক গুণমান, বিশেষ করে হাইলাইটগুলোর। মসৃণ, বৃত্তাকার বোকে সাধারণত পছন্দনীয় এবং এটি লেন্সের ডিজাইন ও অ্যাপারচারের আকৃতির উপর নির্ভর করে।"
       },
       "bracketing": {
-        "term": "Bracketing",
-        "definition": "Taking multiple shots of the same scene at different exposure settings. Used for HDR photography or to ensure at least one correctly exposed frame."
+        "term": "ব্র্যাকেটিং",
+        "definition": "একই দৃশ্যের একাধিক শট বিভিন্ন এক্সপোজার সেটিংসে তোলা। HDR ফটোগ্রাফির জন্য বা কমপক্ষে একটি সঠিকভাবে এক্সপোজড ফ্রেম নিশ্চিত করতে ব্যবহৃত হয়।"
       },
       "bulb-mode": {
-        "term": "Bulb Mode",
-        "definition": "A shutter setting where the shutter stays open for as long as the shutter button is held down. Used for very long exposures beyond the camera's timed settings."
+        "term": "বাল্ব মোড",
+        "definition": "এমন একটি শাটার সেটিং যেখানে শাটার বাটন চেপে রাখা পর্যন্ত শাটার খোলা থাকে। ক্যামেরার টাইমড সেটিংসের বাইরে অতি দীর্ঘ এক্সপোজারের জন্য ব্যবহৃত হয়।"
       },
       "burst-mode": {
-        "term": "Burst Mode",
-        "definition": "A shooting mode where the camera takes multiple frames per second in rapid succession. Useful for capturing fast action or selecting the best moment."
+        "term": "বার্স্ট মোড",
+        "definition": "এমন একটি শুটিং মোড যেখানে ক্যামেরা প্রতি সেকেন্ডে দ্রুত পরপর একাধিক ফ্রেম তোলে। দ্রুতগতির অ্যাকশন ধরতে বা সেরা মুহূর্ত বাছাই করতে কার্যকর।"
       },
       "chromatic-aberration": {
-        "term": "Chromatic Aberration",
-        "definition": "A lens defect where different wavelengths of light focus at slightly different points, causing color fringing along high-contrast edges. More common in cheaper lenses and at wide apertures."
+        "term": "ক্রোম্যাটিক অ্যাবারেশন",
+        "definition": "লেন্সের একটি ত্রুটি যেখানে আলোর বিভিন্ন তরঙ্গদৈর্ঘ্য সামান্য ভিন্ন বিন্দুতে ফোকাস করে, ফলে উচ্চ কনট্রাস্টযুক্ত প্রান্তে রঙের ফ্রিঞ্জ দেখা যায়। সস্তা লেন্স এবং প্রশস্ত অ্যাপারচারে এটি বেশি দেখা যায়।"
       },
       "circle-of-confusion": {
-        "term": "Circle of Confusion",
-        "definition": "The largest blur circle that still appears as a point to the human eye. It determines the boundaries of acceptable sharpness and is used in depth of field calculations."
+        "term": "সার্কেল অফ কনফিউশন",
+        "definition": "সবচেয়ে বড় ব্লার সার্কেল যা এখনো মানুষের চোখে একটি বিন্দু হিসেবে দেখায়। এটি গ্রহণযোগ্য শার্পনেসের সীমা নির্ধারণ করে এবং ক্ষেত্রের গভীরতার হিসাবে ব্যবহৃত হয়।"
       },
       "color-temperature": {
-        "term": "Color Temperature",
-        "definition": "A measurement in Kelvin that describes the warmth or coolness of a light source. Lower values (2700K) appear warm/orange; higher values (6500K+) appear cool/blue."
+        "term": "রঙের তাপমাত্রা",
+        "definition": "কেলভিনে পরিমাপ করা একটি মান যা আলোর উৎসের উষ্ণতা বা শীতলতা বর্ণনা করে। কম মান (2700K) উষ্ণ/কমলা; বেশি মান (6500K+) শীতল/নীল।"
       },
       "crop-factor": {
-        "term": "Crop Factor",
-        "definition": "The ratio of a camera sensor's diagonal to that of a 35mm full-frame sensor. It affects the effective focal length and field of view."
+        "term": "ক্রপ ফ্যাক্টর",
+        "definition": "একটি ক্যামেরা সেন্সরের কর্ণের সাথে একটি 35mm ফুল-ফ্রেম সেন্সরের কর্ণের অনুপাত। এটি কার্যকর ফোকাল দৈর্ঘ্য ও দৃষ্টিক্ষেত্রকে প্রভাবিত করে।"
       },
       "depth-of-field": {
-        "term": "Depth of Field",
-        "definition": "The range of distance in a scene that appears acceptably sharp. Controlled by aperture, focal length, and subject distance."
+        "term": "ক্ষেত্রের গভীরতা",
+        "definition": "একটি দৃশ্যের সেই দূরত্বের পরিসর যা গ্রহণযোগ্যভাবে তীক্ষ্ণ দেখায়। অ্যাপারচার, ফোকাল দৈর্ঘ্য এবং বিষয়ের দূরত্ব দ্বারা নিয়ন্ত্রিত।"
       },
       "diffraction": {
-        "term": "Diffraction",
-        "definition": "The bending of light as it passes through a small aperture, which softens the image. It sets a practical limit on how far you can stop down a lens."
+        "term": "বিবর্তন",
+        "definition": "একটি ছোট অ্যাপারচারের মধ্য দিয়ে আলো যাওয়ার সময় তার বেঁকে যাওয়া, যা ছবিকে নরম করে দেয়। এটি একটি লেন্স কতটা ছোট অ্যাপারচার পর্যন্ত ব্যবহার করা যায় তার একটা কার্যকর সীমা নির্ধারণ করে।"
       },
       "dynamic-range": {
-        "term": "Dynamic Range",
-        "definition": "The range between the darkest shadows and brightest highlights a camera can capture in a single exposure. Measured in stops (EV)."
+        "term": "ডায়নামিক রেঞ্জ",
+        "definition": "একটি ক্যামেরা একক এক্সপোজারে সবচেয়ে গাঢ় ছায়া থেকে সবচেয়ে উজ্জ্বল হাইলাইট পর্যন্ত যে পরিসর ধরতে পারে। স্টপে (EV) পরিমাপ করা হয়।"
       },
       "ev": {
-        "term": "EV (Exposure Value)",
-        "definition": "A number representing a combination of shutter speed and aperture that produces the same exposure. Each increment of 1 EV doubles or halves the light."
+        "term": "EV (এক্সপোজার ভ্যালু)",
+        "definition": "একটি সংখ্যা যা একই এক্সপোজার তৈরি করে এমন শাটার স্পিড ও অ্যাপারচারের সংমিশ্রণকে প্রতিনিধিত্ব করে। প্রতি 1 EV বৃদ্ধি আলোকে দ্বিগুণ বা অর্ধেক করে।"
       },
       "exposure-compensation": {
-        "term": "Exposure Compensation",
-        "definition": "A camera control that overrides the metered exposure, typically in 1/3-stop increments. Positive values brighten the image; negative values darken it."
+        "term": "এক্সপোজার কম্পেনসেশন",
+        "definition": "একটি ক্যামেরা নিয়ন্ত্রণ যা মিটারড এক্সপোজারকে ওভাররাইড করে, সাধারণত 1/3-স্টপ বৃদ্ধিতে। পজিটিভ মান ছবিকে উজ্জ্বল করে; নেগেটিভ মান কালো করে।"
       },
       "exposure-triangle": {
-        "term": "Exposure Triangle",
-        "definition": "The relationship between aperture, shutter speed, and ISO. Changing one requires adjusting the others to maintain the same exposure."
+        "term": "এক্সপোজার ট্রায়াঙ্গেল",
+        "definition": "অ্যাপারচার, শাটার স্পিড ও ISO-এর সম্পর্ক। একটি পরিবর্তন করলে একই এক্সপোজার বজায় রাখতে অন্যগুলো সামঞ্জস্য করতে হয়।"
       },
       "f-stop": {
-        "term": "F-Stop",
-        "definition": "A unit of measurement for lens aperture. Each full stop (f/1.4, f/2, f/2.8, f/4...) halves the amount of light passing through the lens."
+        "term": "F-স্টপ",
+        "definition": "লেন্সের অ্যাপারচার পরিমাপের একটি একক। প্রতিটি পূর্ণ স্টপ (f/1.4, f/2, f/2.8, f/4...) লেন্সের মধ্য দিয়ে আসা আলোর পরিমাণ অর্ধেক করে।"
       },
       "focal-length": {
-        "term": "Focal Length",
-        "definition": "The distance in millimeters from the optical center of a lens to the sensor when focused at infinity. It determines the angle of view and magnification."
+        "term": "ফোকাল দৈর্ঘ্য",
+        "definition": "অসীমে ফোকাস করা অবস্থায় লেন্সের অপটিক্যাল কেন্দ্র থেকে সেন্সর পর্যন্ত মিলিমিটারে দূরত্ব। এটি দৃষ্টিকোণ ও ম্যাগনিফিকেশন নির্ধারণ করে।"
       },
       "focus-stacking": {
-        "term": "Focus Stacking",
-        "definition": "A technique where multiple images focused at different distances are combined in post-processing to achieve greater depth of field than a single exposure allows."
+        "term": "ফোকাস স্ট্যাকিং",
+        "definition": "একটি কৌশল যেখানে বিভিন্ন দূরত্বে ফোকাস করা একাধিক ছবি পোস্ট-প্রসেসিংয়ে একত্রিত করে একক এক্সপোজারের চেয়ে বেশি ক্ষেত্রের গভীরতা অর্জন করা হয়।"
       },
       "full-frame": {
-        "term": "Full Frame",
-        "definition": "A sensor size equivalent to 35mm film (36 x 24mm). It is the reference standard for focal length and crop factor calculations."
+        "term": "ফুল ফ্রেম",
+        "definition": "35mm ফিল্মের (36 x 24mm) সমতুল্য একটি সেন্সর সাইজ। ফোকাল দৈর্ঘ্য ও ক্রপ ফ্যাক্টর হিসাবের জন্য এটি রেফারেন্স স্ট্যান্ডার্ড।"
       },
       "golden-hour": {
-        "term": "Golden Hour",
-        "definition": "The period shortly after sunrise or before sunset when sunlight is warm, soft, and directional. Highly prized for landscape and portrait photography."
+        "term": "গোল্ডেন আওয়ার",
+        "definition": "সূর্যোদয়ের কিছু পরে বা সূর্যাস্তের কিছু আগের সময় যখন সূর্যের আলো উষ্ণ, নরম ও দিকনির্দেশিত হয়। ল্যান্ডস্কেপ ও পোর্ট্রেট ফটোগ্রাফির জন্য সবচেয়ে পছন্দনীয়।"
       },
       "histogram": {
-        "term": "Histogram",
-        "definition": "A graph showing the distribution of brightness values in an image. The left side represents shadows, the right side highlights."
+        "term": "হিস্টোগ্রাম",
+        "definition": "একটি গ্রাফ যা ছবিতে উজ্জ্বলতার মানের বণ্টন দেখায়। বাম দিক ছায়া, ডান দিক হাইলাইট প্রতিনিধিত্ব করে।"
       },
       "hyperfocal-distance": {
-        "term": "Hyperfocal Distance",
-        "definition": "The closest focusing distance at which everything from half that distance to infinity is acceptably sharp. Maximizes depth of field for a given aperture."
+        "term": "হাইপারফোকাল দূরত্ব",
+        "definition": "সবচেয়ে নিকটতম ফোকাসিং দূরত্ব যেখানে ফোকাস করলে সেই দূরত্বের অর্ধেক থেকে অসীম পর্যন্ত সবকিছু গ্রহণযোগ্যভাবে তীক্ষ্ণ থাকে। একটি নির্দিষ্ট অ্যাপারচারের জন্য ক্ষেত্রের গভীরতা সর্বাধিক করে।"
       },
       "image-stabilization": {
-        "term": "Image Stabilization",
-        "definition": "A system that reduces camera shake blur, either in the lens (OIS) or the camera body (IBIS). Typically provides 3-7 stops of handheld shooting advantage."
+        "term": "ইমেজ স্টেবিলাইজেশন",
+        "definition": "একটি সিস্টেম যা ক্যামেরা শেক থেকে ঝাপসা কমায়, লেন্সে (OIS) বা ক্যামেরা বডিতে (IBIS)। সাধারণত 3-7 স্টপ হ্যান্ডহেল্ড শুটিংয়ের সুবিধা দেয়।"
       },
       "iso": {
         "term": "ISO",
-        "definition": "A measure of the camera sensor's sensitivity to light. Higher ISO values brighten the image but introduce more noise."
+        "definition": "ক্যামেরা সেন্সরের আলোর প্রতি সংবেদনশীলতার পরিমাপ। উচ্চ ISO ছবিকে উজ্জ্বল করে কিন্তু বেশি নয়েজ যোগ করে।"
       },
       "jpeg": {
         "term": "JPEG",
-        "definition": "A compressed image file format that applies lossy compression. Smaller file sizes but less editing flexibility compared to RAW."
+        "definition": "একটি কমপ্রেসড ইমেজ ফাইল ফরম্যাট যা ক্ষতিকর কম্প্রেশন প্রয়োগ করে। RAW-এর তুলনায় ছোট ফাইল সাইজ কিন্তু কম এডিটিং নমনীয়তা।"
       },
       "kelvin": {
-        "term": "Kelvin",
-        "definition": "The unit used to measure color temperature of light. Photographers use Kelvin values to set white balance and match the color of ambient lighting."
+        "term": "কেলভিন",
+        "definition": "আলোর রঙের তাপমাত্রা পরিমাপের একক। ফটোগ্রাফাররা কেলভিন মান ব্যবহার করে হোয়াইট ব্যালেন্স সেট করে এবং পরিবেশের আলোর রঙ মেলায়।"
       },
       "lens-compression": {
-        "term": "Lens Compression",
-        "definition": "The visual effect of a telephoto lens making distant objects appear closer to foreground subjects. It is caused by the long shooting distance, not the lens itself."
+        "term": "লেন্স কমপ্রেশন",
+        "definition": "টেলিফটো লেন্স ব্যবহার করলে দূরের বস্তু ফোরগ্রাউন্ডের বিষয়ের কাছাকাছি মনে হওয়ার দৃশ্যমান প্রভাব। এটি আসলে দীর্ঘ শুটিং দূরত্বের কারণে হয়, লেন্সের নিজের কারণে নয়।"
       },
       "light-meter": {
-        "term": "Light Meter",
-        "definition": "A device or camera system that measures the intensity of light to determine proper exposure settings. Cameras use reflected light metering; handheld meters can measure incident light."
+        "term": "লাইট মিটার",
+        "definition": "একটি ডিভাইস বা ক্যামেরা সিস্টেম যা আলোর তীব্রতা পরিমাপ করে সঠিক এক্সপোজার সেটিং নির্ধারণ করে। ক্যামেরাগুলো প্রতিফলিত আলো মিটারিং ব্যবহার করে; হ্যান্ডহেল্ড মিটার ইনসিডেন্ট আলো পরিমাপ করতে পারে।"
       },
       "long-exposure": {
-        "term": "Long Exposure",
-        "definition": "A photograph taken with a slow shutter speed, typically seconds or minutes. Used for light trails, smooth water, star trails, and low-light scenes."
+        "term": "লং এক্সপোজার",
+        "definition": "স্লো শাটার স্পিডে তোলা একটি ছবি, সাধারণত সেকেন্ড বা মিনিটে। লাইট ট্রেইল, মসৃণ পানি, স্টার ট্রেইল ও কম আলোর দৃশ্যের জন্য ব্যবহৃত।"
       },
       "macro": {
-        "term": "Macro",
-        "definition": "Photography that reproduces subjects at or near life-size magnification (1:1 ratio). Requires specialized macro lenses or extension tubes."
+        "term": "ম্যাক্রো",
+        "definition": "ফটোগ্রাফি যা বিষয়কে জীবন-আকার বা তার কাছাকাছি ম্যাগনিফিকেশনে (1:1 অনুপাত) পুনরুৎপাদন করে। বিশেষায়িত ম্যাক্রো লেন্স বা এক্সটেনশন টিউব দরকার হয়।"
       },
       "medium-format": {
-        "term": "Medium Format",
-        "definition": "A sensor size larger than full frame, typically around 44 x 33mm or 54 x 40mm. Offers higher resolution, shallower depth of field, and greater dynamic range."
+        "term": "মিডিয়াম ফরম্যাট",
+        "definition": "ফুল ফ্রেমের চেয়ে বড় একটি সেন্সর সাইজ, সাধারণত প্রায় 44 x 33mm বা 54 x 40mm। উচ্চতর রেজোলিউশন, কম ক্ষেত্রের গভীরতা ও বেশি ডায়নামিক রেঞ্জ দেয়।"
       },
       "megapixel": {
-        "term": "Megapixel",
-        "definition": "One million pixels. The megapixel count of a sensor determines the maximum resolution of images it can capture."
+        "term": "মেগাপিক্সেল",
+        "definition": "দশ লক্ষ পিক্সেল। একটি সেন্সরের মেগাপিক্সেল সংখ্যা ছবি ধরার সর্বোচ্চ রেজোলিউশন নির্ধারণ করে।"
       },
       "micro-four-thirds": {
         "term": "Micro Four Thirds",
-        "definition": "A mirrorless camera system with a sensor measuring 17.3 x 13mm, giving a 2x crop factor. Offers compact bodies and lenses with good image quality."
+        "definition": "17.3 x 13mm সেন্সরবিশিষ্ট একটি মিররলেস ক্যামেরা সিস্টেম, যা 2x ক্রপ ফ্যাক্টর দেয়। ভালো ইমেজ কোয়ালিটি সহ কমপ্যাক্ট বডি ও লেন্স।"
       },
       "mirror-lock-up": {
-        "term": "Mirror Lock-Up",
-        "definition": "A DSLR feature that flips the mirror up before the shutter fires, reducing vibration. Used for sharp tripod-mounted shots, especially at slow shutter speeds."
+        "term": "মিরর লক-আপ",
+        "definition": "একটি DSLR ফিচার যা শাটার ফায়ার হওয়ার আগে মিরর উপরে তুলে দেয়, কম্পন কমাতে। ট্রাইপড মাউন্টেড শটে, বিশেষত স্লো শাটার স্পিডে, তীক্ষ্ণ ছবির জন্য ব্যবহৃত।"
       },
       "nd-filter": {
-        "term": "ND Filter",
-        "definition": "A neutral density filter that reduces the amount of light entering the lens without affecting color. Allows longer exposures or wider apertures in bright conditions."
+        "term": "ND ফিল্টার",
+        "definition": "একটি নিউট্রাল ডেনসিটি ফিল্টার যা রঙ প্রভাবিত না করে লেন্সে ঢোকা আলোর পরিমাণ কমায়। উজ্জ্বল পরিস্থিতিতে দীর্ঘ এক্সপোজার বা প্রশস্ত অ্যাপারচার ব্যবহার করতে দেয়।"
       },
       "noise": {
-        "term": "Noise",
-        "definition": "Random variation in brightness and color in digital images, most visible in shadow areas and at high ISO settings. Can be reduced with noise reduction software."
+        "term": "নয়েজ",
+        "definition": "ডিজিটাল ছবিতে উজ্জ্বলতা ও রঙের এলোমেলো পরিবর্তন, ছায়া অংশে ও উচ্চ ISO সেটিংসে সবচেয়ে দৃশ্যমান। নয়েজ রিডাকশন সফটওয়্যার দিয়ে কমানো যায়।"
       },
       "overexposure": {
-        "term": "Overexposure",
-        "definition": "When an image receives too much light, causing highlights to clip to pure white and lose detail. The opposite of underexposure."
+        "term": "ওভারএক্সপোজার",
+        "definition": "যখন একটি ছবি অতিরিক্ত আলো পায়, যার ফলে হাইলাইটগুলো বিশুদ্ধ সাদায় ক্লিপ হয় এবং ডিটেইল হারায়। আন্ডারএক্সপোজারের বিপরীত।"
       },
       "panorama": {
-        "term": "Panorama",
-        "definition": "A wide-angle image created by stitching multiple overlapping photographs together. Can cover up to 360 degrees of a scene."
+        "term": "প্যানোরামা",
+        "definition": "একটি প্রশস্ত-কোণ ছবি যা একাধিক ওভারল্যাপিং ছবি জোড়া লাগিয়ে তৈরি করা হয়। একটি দৃশ্যের 360 ডিগ্রি পর্যন্ত কভার করতে পারে।"
       },
       "pixel-pitch": {
-        "term": "Pixel Pitch",
-        "definition": "The distance in micrometers between the centers of adjacent pixels on a sensor. Larger pixel pitch generally means better low-light performance."
+        "term": "পিক্সেল পিচ",
+        "definition": "একটি সেন্সরের পাশাপাশি পিক্সেলগুলোর কেন্দ্রের মধ্যকার দূরত্ব মাইক্রোমিটারে। বড় পিক্সেল পিচ সাধারণত ভালো কম আলোর পারফরম্যান্স বোঝায়।"
       },
       "polarizer": {
-        "term": "Polarizer",
-        "definition": "A filter that reduces reflections and glare from non-metallic surfaces and can deepen blue skies. It works by blocking light waves oscillating in a specific direction."
+        "term": "পোলারাইজার",
+        "definition": "একটি ফিল্টার যা অধাতব পৃষ্ঠ থেকে প্রতিফলন ও চকচকে কমায় এবং নীল আকাশ গভীর করতে পারে। এটি একটি নির্দিষ্ট দিকে কম্পিত আলোক তরঙ্গ আটকে কাজ করে।"
       },
       "prime-lens": {
-        "term": "Prime Lens",
-        "definition": "A lens with a fixed focal length (no zoom). Primes are typically sharper, faster (wider aperture), and lighter than comparable zoom lenses."
+        "term": "প্রাইম লেন্স",
+        "definition": "একটি স্থির ফোকাল দৈর্ঘ্যের লেন্স (জুম নেই)। প্রাইম লেন্স সাধারণত তুলনীয় জুম লেন্সের চেয়ে বেশি তীক্ষ্ণ, দ্রুত (প্রশস্ত অ্যাপারচার) ও হালকা।"
       },
       "raw": {
         "term": "RAW",
-        "definition": "An uncompressed or losslessly compressed file format that preserves all sensor data. Offers maximum flexibility in post-processing at the cost of larger file sizes."
+        "definition": "একটি অসংকুচিত বা ক্ষতিহীনভাবে সংকুচিত ফাইল ফরম্যাট যা সমস্ত সেন্সর ডেটা সংরক্ষণ করে। পোস্ট-প্রসেসিংয়ে সর্বাধিক নমনীয়তা দেয়, বিনিময়ে বড় ফাইল সাইজ।"
       },
       "reciprocal-rule": {
-        "term": "Reciprocal Rule",
-        "definition": "A guideline stating that the minimum handheld shutter speed should be 1/(focal length) to avoid camera shake. For a 200mm lens, use at least 1/200s."
+        "term": "রেসিপ্রোকাল রুল",
+        "definition": "একটি গাইডলাইন যা বলে যে ক্যামেরা শেক এড়াতে সর্বনিম্ন হ্যান্ডহেল্ড শাটার স্পিড 1/(ফোকাল দৈর্ঘ্য) সেকেন্ড হওয়া উচিত। 200mm লেন্সের জন্য কমপক্ষে 1/200s ব্যবহার করো।"
       },
       "rule-of-thirds": {
-        "term": "Rule of Thirds",
-        "definition": "A composition guideline that divides the frame into a 3x3 grid. Placing subjects along the lines or at their intersections often creates a more balanced image."
+        "term": "রুল অফ থার্ডস",
+        "definition": "একটি কম্পোজিশন গাইডলাইন যা ফ্রেমকে 3x3 গ্রিডে ভাগ করে। লাইন বরাবর বা তাদের ছেদবিন্দুতে বিষয় রাখলে সাধারণত আরো ভারসাম্যপূর্ণ ছবি তৈরি হয়।"
       },
       "sensor-size": {
-        "term": "Sensor Size",
-        "definition": "The physical dimensions of a camera's image sensor. Larger sensors capture more light, offer shallower depth of field, and generally produce less noise."
+        "term": "সেন্সর সাইজ",
+        "definition": "ক্যামেরার ইমেজ সেন্সরের দৈহিক পরিমাপ। বড় সেন্সর বেশি আলো ধরে, কম ক্ষেত্রের গভীরতা দেয় এবং সাধারণত কম নয়েজ তৈরি করে।"
       },
       "shutter-speed": {
-        "term": "Shutter Speed",
-        "definition": "The length of time the camera's shutter is open during an exposure. Faster speeds freeze motion; slower speeds allow motion blur."
+        "term": "শাটার স্পিড",
+        "definition": "এক্সপোজারের সময় ক্যামেরার শাটার কতক্ষণ খোলা থাকে তার সময়কাল। দ্রুত স্পিড গতি স্থির করে; ধীর স্পিড মোশন ব্লার দেয়।"
       },
       "star-trails": {
-        "term": "Star Trails",
-        "definition": "Streaks of light created by the apparent motion of stars during a long exposure. Can be captured in a single very long exposure or by stacking multiple shorter frames."
+        "term": "স্টার ট্রেইল",
+        "definition": "একটি দীর্ঘ এক্সপোজারের সময় তারার আপাত গতি থেকে তৈরি আলোর রেখা। একটি দীর্ঘ এক্সপোজারে বা একাধিক ছোট ফ্রেম স্ট্যাক করে ধরা যায়।"
       },
       "stop": {
-        "term": "Stop",
-        "definition": "A unit of exposure change representing a doubling or halving of light. Applies to aperture, shutter speed, and ISO equally."
+        "term": "স্টপ",
+        "definition": "এক্সপোজার পরিবর্তনের একটি একক যা আলোর দ্বিগুণ বা অর্ধেক হওয়াকে প্রতিনিধিত্ব করে। অ্যাপারচার, শাটার স্পিড ও ISO-এর জন্য সমানভাবে প্রযোজ্য।"
       },
       "telephoto": {
-        "term": "Telephoto",
-        "definition": "A lens with a focal length longer than about 70mm (full frame equivalent). Telephoto lenses magnify distant subjects and compress perspective."
+        "term": "টেলিফটো",
+        "definition": "প্রায় 70mm (ফুল ফ্রেম সমতুল্য) এর চেয়ে বেশি ফোকাল দৈর্ঘ্যের একটি লেন্স। টেলিফটো লেন্স দূরের বিষয়কে বড় করে দেখায় এবং পরিপ্রেক্ষিত সংকুচিত করে।"
       },
       "tilt-shift": {
-        "term": "Tilt-Shift",
-        "definition": "A lens that can tilt the plane of focus and shift the image circle relative to the sensor. Used for architecture photography and selective focus effects."
+        "term": "টিল্ট-শিফট",
+        "definition": "একটি লেন্স যা ফোকাসের সমতল কাত করতে এবং সেন্সরের সাপেক্ষে ইমেজ সার্কেল সরাতে পারে। স্থাপত্য ফটোগ্রাফি এবং সিলেক্টিভ ফোকাস ইফেক্টের জন্য ব্যবহৃত হয়।"
       },
       "underexposure": {
-        "term": "Underexposure",
-        "definition": "When an image receives too little light, causing shadow areas to lose detail and appear noisy. The opposite of overexposure."
+        "term": "আন্ডারএক্সপোজার",
+        "definition": "যখন একটি ছবি খুব কম আলো পায়, যার ফলে ছায়া অংশগুলো ডিটেইল হারায় ও নয়েজি দেখায়। ওভারএক্সপোজারের বিপরীত।"
       },
       "vignetting": {
-        "term": "Vignetting",
-        "definition": "A darkening of the corners and edges of an image relative to the center. Can be caused by lens design, filters, or lens hoods, and is sometimes added intentionally in post."
+        "term": "ভিগনেটিং",
+        "definition": "কেন্দ্রের তুলনায় ছবির কোণা ও প্রান্তের অন্ধকার হয়ে যাওয়া। লেন্সের ডিজাইন, ফিল্টার বা লেন্স হুডের কারণে হতে পারে এবং কখনো কখনো পোস্টে ইচ্ছাকৃতভাবে যোগ করা হয়।"
       },
       "white-balance": {
-        "term": "White Balance",
-        "definition": "A camera setting that adjusts colors so that white objects appear neutral under different lighting conditions. Can be set automatically or manually using Kelvin values."
+        "term": "হোয়াইট ব্যালেন্স",
+        "definition": "একটি ক্যামেরা সেটিং যা রঙ সামঞ্জস্য করে যাতে বিভিন্ন আলোর পরিস্থিতিতে সাদা বস্তু নিরপেক্ষ দেখায়। স্বয়ংক্রিয়ভাবে বা কেলভিন মান ব্যবহার করে ম্যানুয়ালি সেট করা যায়।"
       },
       "wide-angle": {
-        "term": "Wide-Angle",
-        "definition": "A lens with a short focal length (typically below 35mm on full frame) that captures a broader field of view. Often used for landscapes, architecture, and interiors."
+        "term": "ওয়াইড-অ্যাঙ্গেল",
+        "definition": "একটি ছোট ফোকাল দৈর্ঘ্যের লেন্স (সাধারণত ফুল ফ্রেমে 35mm এর নিচে) যা বিস্তৃত দৃষ্টিক্ষেত্র ধরে। ল্যান্ডস্কেপ, স্থাপত্য ও অভ্যন্তরীণ ছবির জন্য প্রায়ই ব্যবহৃত।"
       },
       "zoom-lens": {
-        "term": "Zoom Lens",
-        "definition": "A lens with a variable focal length range, allowing the photographer to change framing without moving. Offers versatility at the cost of size, weight, and sometimes sharpness."
+        "term": "জুম লেন্স",
+        "definition": "পরিবর্তনশীল ফোকাল দৈর্ঘ্যের পরিসরবিশিষ্ট একটি লেন্স, যা ফটোগ্রাফারকে না নড়ে ফ্রেমিং পরিবর্তন করতে দেয়। সাইজ, ওজন ও কখনো কখনো শার্পনেসের বিনিময়ে বহুমুখিতা দেয়।"
       }
     }
   }

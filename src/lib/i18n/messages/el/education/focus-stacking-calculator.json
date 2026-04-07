@@ -1,110 +1,110 @@
 {
   "education": {
     "focus-stacking-calculator": {
-      "beginner": "Focus stacking is a technique where you take multiple photos at different focus distances and merge them in software to create an image with front-to-back sharpness. It is essential for macro photography, where depth of field is razor-thin, and useful in landscape photography when you need both near foreground and distant background in sharp focus.",
+      "beginner": "Το focus stacking είναι μια τεχνική όπου τραβάς πολλαπλές φωτογραφίες σε διαφορετικές αποστάσεις εστίασης και τις συγχωνεύεις σε software για να δημιουργήσεις μια εικόνα με ευκρίνεια από μπροστά έως πίσω. Είναι απαραίτητο στη macro φωτογραφία, όπου το βάθος πεδίου είναι εξαιρετικά λεπτό, και χρήσιμο στη φωτογραφία τοπίου όταν θέλεις και το κοντινό προσκήνιο και το μακρινό φόντο σε ευκρινή εστίαση.",
       "deeper": {
         "0": {
-          "heading": "Why Stacking Is Necessary",
-          "text": "At macro magnifications, even f/16 may yield only a few millimeters of depth of field. Stopping down further introduces diffraction softening that degrades the image. Focus stacking lets you shoot at the lens's sharpest aperture (typically f/5.6-f/8) and combine the sharp slices. Each frame shifts focus slightly forward, covering a new slice of the subject."
+          "heading": "Γιατί χρειάζεται το stacking",
+          "text": "Σε macro μεγεθύνσεις, ακόμα και το f/16 μπορεί να δώσει μόνο λίγα χιλιοστά βάθους πεδίου. Κλείνοντας περισσότερο το διάφραγμα εισάγει μαλάκωμα από περίθλαση που υποβαθμίζει την εικόνα. Το focus stacking σου επιτρέπει να τραβήξεις στο πιο ευκρινές διάφραγμα του φακού (συνήθως f/5.6-f/8) και να συνδυάσεις τις ευκρινείς «φέτες». Κάθε καρέ μετατοπίζει την εστίαση λίγο προς τα μπροστά, καλύπτοντας μια νέα φέτα του θέματος."
         },
         "1": {
-          "heading": "Planning the Stack",
-          "text": "The key to a successful stack is ensuring each shot's depth of field overlaps the next by 20-30%. Too little overlap creates gaps where nothing is sharp; too much wastes frames without benefit. The calculator determines the per-shot DoF using the circle of confusion formula, subtracts the overlap margin, and divides the total depth range by the effective step to compute the number of shots."
+          "heading": "Σχεδιασμός του stack",
+          "text": "Το κλειδί για ένα επιτυχημένο stack είναι να διασφαλίσεις ότι το βάθος πεδίου κάθε λήψης επικαλύπτει το επόμενο κατά 20-30%. Πολύ μικρή επικάλυψη δημιουργεί κενά όπου τίποτα δεν είναι ευκρινές, πολύ μεγάλη σπαταλάει καρέ χωρίς όφελος. Ο υπολογιστής προσδιορίζει το DoF ανά λήψη χρησιμοποιώντας τον τύπο του κύκλου σύγχυσης, αφαιρεί το περιθώριο επικάλυψης και διαιρεί το συνολικό εύρος βάθους με το ενεργό βήμα για να υπολογίσει τον αριθμό των λήψεων."
         },
         "2": {
-          "heading": "Merging & Alignment",
-          "text": "Software like Photoshop, Helicon Focus, or Zerene Stacker aligns the frames (slight magnification shifts occur as focus changes), then selects the sharpest pixels from each layer. Shooting on a sturdy tripod with consistent lighting and using a focus rail for precise increments produces the cleanest results."
+          "heading": "Συγχώνευση & ευθυγράμμιση",
+          "text": "Λογισμικό όπως το Photoshop, το Helicon Focus ή το Zerene Stacker ευθυγραμμίζει τα καρέ (μικρές μεταβολές μεγέθυνσης συμβαίνουν καθώς αλλάζει η εστίαση) και μετά επιλέγει τα πιο ευκρινή pixel από κάθε επίπεδο. Η λήψη σε σταθερό τρίποδο με σταθερό φωτισμό και χρήση ράγας εστίασης για ακριβή βήματα δίνει τα πιο καθαρά αποτελέσματα."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Determines per-shot depth of field. A moderate aperture (f/5.6-f/8) balances sharpness and DoF per frame. Avoid very small apertures — diffraction reduces the sharpness you are stacking for."
+          "label": "Διάφραγμα",
+          "description": "Καθορίζει το βάθος πεδίου ανά λήψη. Ένα μέτριο διάφραγμα (f/5.6-f/8) ισορροπεί την ευκρίνεια και το DoF ανά καρέ. Απόφυγε πολύ κλειστά διαφράγματα — η περίθλαση μειώνει την ευκρίνεια για την οποία κάνεις το stacking."
         },
         "1": {
-          "label": "Depth Range",
-          "description": "The distance from the nearest to farthest point you want sharp. Wider ranges require more shots. In macro work this may be just centimeters; in landscapes it can span meters to infinity."
+          "label": "Εύρος βάθους",
+          "description": "Η απόσταση από το πιο κοντινό έως το πιο μακρινό σημείο που θέλεις ευκρινές. Μεγαλύτερα εύρη απαιτούν περισσότερες λήψεις. Σε macro μπορεί να είναι μόνο εκατοστά, σε τοπία μπορεί να φτάσει από μέτρα έως το άπειρο."
         },
         "2": {
-          "label": "Overlap",
-          "description": "The percentage of each shot's DoF that overlaps the adjacent shots. 20-30% is standard. Less risks gaps; more wastes frames."
+          "label": "Επικάλυψη",
+          "description": "Το ποσοστό του DoF κάθε λήψης που επικαλύπτει τις γειτονικές. Το 20-30% είναι τυπικό. Λιγότερο ρισκάρει κενά, περισσότερο σπαταλά καρέ."
         }
       },
       "tips": {
         "0": {
-          "text": "Use a focus rail instead of the lens's focus ring for macro stacking. A rail moves the entire camera forward in precise increments, avoiding the slight magnification changes that occur when refocusing the lens."
+          "text": "Χρησιμοποίησε ράγα εστίασης αντί για τον δακτύλιο εστίασης του φακού για macro stacking. Η ράγα μετακινεί ολόκληρη την κάμερα προς τα μπροστά σε ακριβή βήματα, αποφεύγοντας τις μικρές μεταβολές μεγέθυνσης που συμβαίνουν όταν εστιάζεις ξανά τον φακό."
         },
         "1": {
-          "text": "Keep your aperture at the lens's sweet spot (typically f/5.6-f/8). The point of stacking is to avoid stopping down to f/16+, so use the sharpest aperture and let the stack handle depth."
+          "text": "Κράτα το διάφραγμά σου στο sweet spot του φακού (συνήθως f/5.6-f/8). Ο σκοπός του stacking είναι να αποφύγεις να κλείσεις πέρα από το f/16+, οπότε χρησιμοποίησε το πιο ευκρινές διάφραγμα και άσε το stack να χειριστεί το βάθος."
         },
         "2": {
-          "text": "For landscape stacks, shoot front-to-back: focus on the nearest element first, then step focus toward infinity. This makes alignment easier since the foreground (with the most parallax) is captured first."
+          "text": "Για τοπία, τράβα από μπροστά προς τα πίσω: εστίασε πρώτα στο πιο κοντινό στοιχείο, μετά προχώρα την εστίαση προς το άπειρο. Αυτό κάνει την ευθυγράμμιση ευκολότερη, αφού το προσκήνιο (με τη μεγαλύτερη παράλλαξη) αποτυπώνεται πρώτο."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths reduce per-shot depth of field, requiring more frames to cover the same depth range."
+          "term": "Εστιακή απόσταση",
+          "definition": "Η εστιακή απόσταση του φακού σε χιλιοστά. Μεγαλύτερες εστιακές αποστάσεις μειώνουν το βάθος πεδίου ανά λήψη, απαιτώντας περισσότερα καρέ για να καλύψεις το ίδιο εύρος βάθους."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening (f-number). For stacking, use the lens's sharpest aperture rather than stopping down — the stack provides the depth."
+          "term": "Διάφραγμα",
+          "definition": "Το άνοιγμα του φακού (αριθμός f). Για stacking, χρησιμοποίησε το πιο ευκρινές διάφραγμα του φακού αντί να το κλείσεις — το stack παρέχει το βάθος."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "Larger sensors have a shallower per-shot depth of field at equivalent framing, which may increase the number of required stack frames."
+          "term": "Μέγεθος αισθητήρα",
+          "definition": "Οι μεγαλύτεροι αισθητήρες έχουν πιο ρηχό βάθος πεδίου ανά λήψη σε ισοδύναμο κάδρο, πράγμα που μπορεί να αυξήσει τον αριθμό των απαιτούμενων καρέ του stack."
         },
         "nearLimit": {
-          "term": "Near Limit",
-          "definition": "The closest point in the scene that you want sharp. This is where the first shot in the stack will be focused."
+          "term": "Κοντινό όριο",
+          "definition": "Το πιο κοντινό σημείο στη σκηνή που θέλεις ευκρινές. Εδώ θα εστιάσει η πρώτη λήψη του stack."
         },
         "farLimit": {
-          "term": "Far Limit",
-          "definition": "The farthest point in the scene that you want sharp. The last shot in the stack will cover this distance."
+          "term": "Μακρινό όριο",
+          "definition": "Το πιο μακρινό σημείο στη σκηνή που θέλεις ευκρινές. Η τελευταία λήψη του stack θα καλύψει αυτή την απόσταση."
         },
         "overlap": {
-          "term": "Overlap",
-          "definition": "The percentage of depth-of-field overlap between consecutive shots. 20-30% ensures no gaps after software alignment and merging."
+          "term": "Επικάλυψη",
+          "definition": "Το ποσοστό επικάλυψης βάθους πεδίου μεταξύ διαδοχικών λήψεων. Το 20-30% διασφαλίζει ότι δεν θα υπάρχουν κενά μετά την ευθυγράμμιση και συγχώνευση στο software."
         },
         "shotCount": {
-          "term": "Shot Count",
-          "definition": "The total number of frames needed to cover the depth range with the specified overlap. More shots = more processing but smoother results."
+          "term": "Αριθμός λήψεων",
+          "definition": "Ο συνολικός αριθμός καρέ που χρειάζονται για να καλυφθεί το εύρος βάθους με τη συγκεκριμένη επικάλυψη. Περισσότερες λήψεις = περισσότερη επεξεργασία αλλά πιο ομαλά αποτελέσματα."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing a small flower that is 3cm deep from front petal to back stem. Your macro lens at f/8 gives about 4mm of DoF per shot. Roughly how many frames do you need with 25% overlap?",
-          "hint": "Each shot covers 4mm, but 25% overlap means the effective step is 3mm per frame. Divide 30mm by 3mm.",
-          "successMessage": "Correct! With 4mm DoF and 25% overlap, each step advances 3mm. 30mm / 3mm = 10 shots to cover the entire flower.",
-          "failureMessage": "With 25% overlap, each frame's effective step is 75% of the DoF: 4mm × 0.75 = 3mm. You need 30mm / 3mm = 10 shots.",
+          "scenario": "Φωτογραφίζεις ένα μικρό λουλούδι που είναι 3cm βαθύ από τα μπροστινά πέταλα μέχρι το πίσω στέλεχος. Ο macro φακός σου στο f/8 δίνει περίπου 4mm DoF ανά λήψη. Πόσα καρέ χρειάζεσαι περίπου με 25% επικάλυψη;",
+          "hint": "Κάθε λήψη καλύπτει 4mm, αλλά η επικάλυψη 25% σημαίνει ότι το ενεργό βήμα είναι 3mm ανά καρέ. Διαίρεσε 30mm με 3mm.",
+          "successMessage": "Σωστά! Με DoF 4mm και επικάλυψη 25%, κάθε βήμα προχωρά 3mm. 30mm / 3mm = 10 λήψεις για να καλύψεις όλο το λουλούδι.",
+          "failureMessage": "Με επικάλυψη 25%, το ενεργό βήμα κάθε καρέ είναι το 75% του DoF: 4mm × 0.75 = 3mm. Χρειάζεσαι 30mm / 3mm = 10 λήψεις.",
           "options": {
-            "0": { "label": "5 shots" },
-            "1": { "label": "10 shots" },
-            "2": { "label": "20 shots" },
-            "3": { "label": "30 shots" }
+            "0": { "label": "5 λήψεις" },
+            "1": { "label": "10 λήψεις" },
+            "2": { "label": "20 λήψεις" },
+            "3": { "label": "30 λήψεις" }
           }
         },
         "1": {
-          "scenario": "You want the sharpest possible result from your focus stack. Should you shoot each frame at f/2.8, f/8, or f/22?",
-          "hint": "Consider the lens's sharpest aperture and how diffraction affects small apertures.",
-          "successMessage": "Right! f/8 is typically the sharpest aperture for most lenses. f/2.8 has too little DoF per shot (wasting frames) and f/22 suffers from diffraction softening.",
-          "failureMessage": "f/8 is the best choice. f/2.8 gives very thin per-shot DoF (requiring many more frames), and f/22 introduces diffraction softening that defeats the purpose of stacking for sharpness.",
+          "scenario": "Θέλεις το πιο ευκρινές δυνατό αποτέλεσμα από το focus stack σου. Πρέπει να τραβήξεις κάθε καρέ στο f/2.8, f/8 ή f/22;",
+          "hint": "Σκέψου το πιο ευκρινές διάφραγμα του φακού και πώς η περίθλαση επηρεάζει τα μικρά διαφράγματα.",
+          "successMessage": "Σωστά! Το f/8 είναι συνήθως το πιο ευκρινές διάφραγμα για τους περισσότερους φακούς. Το f/2.8 έχει πολύ μικρό DoF ανά λήψη (σπαταλά καρέ) και το f/22 υποφέρει από μαλάκωμα περίθλασης.",
+          "failureMessage": "Το f/8 είναι η καλύτερη επιλογή. Το f/2.8 δίνει πολύ λεπτό DoF ανά λήψη (απαιτώντας πολλά παραπάνω καρέ), και το f/22 εισάγει μαλάκωμα από περίθλαση που αναιρεί τον σκοπό του stacking για ευκρίνεια.",
           "options": {
-            "0": { "label": "f/2.8 — widest for fastest shutter" },
-            "1": { "label": "f/8 — lens sweet spot" },
-            "2": { "label": "f/22 — maximum per-shot DoF" }
+            "0": { "label": "f/2.8 — το πιο ανοιχτό για το γρηγορότερο κλείστρο" },
+            "1": { "label": "f/8 — sweet spot του φακού" },
+            "2": { "label": "f/22 — μέγιστο DoF ανά λήψη" }
           }
         },
         "2": {
-          "scenario": "After merging your focus stack, you notice a soft band across the middle of the image where nothing is sharp. What most likely went wrong?",
-          "hint": "Think about what connects one frame's sharp zone to the next.",
-          "successMessage": "Exactly! Insufficient overlap between adjacent frames creates a gap where neither shot is sharp. Increase overlap to 25-30% and reshoot.",
-          "failureMessage": "A soft band usually means the gap between focus steps was too large — the DoF of adjacent frames did not overlap enough. Increase the overlap percentage.",
+          "scenario": "Μετά τη συγχώνευση του focus stack, παρατηρείς μια απαλή ζώνη στη μέση της εικόνας όπου τίποτα δεν είναι ευκρινές. Τι πιθανότατα πήγε στραβά;",
+          "hint": "Σκέψου τι συνδέει την ευκρινή ζώνη του ενός καρέ με το επόμενο.",
+          "successMessage": "Ακριβώς! Η ανεπαρκής επικάλυψη μεταξύ γειτονικών καρέ δημιουργεί ένα κενό όπου καμία λήψη δεν είναι ευκρινής. Αύξησε την επικάλυψη στο 25-30% και επανέλαβε τη λήψη.",
+          "failureMessage": "Μια απαλή ζώνη συνήθως σημαίνει ότι το κενό μεταξύ των βημάτων εστίασης ήταν πολύ μεγάλο — το DoF των γειτονικών καρέ δεν επικαλύπτεται αρκετά. Αύξησε το ποσοστό επικάλυψης.",
           "options": {
-            "0": { "label": "The aperture was too wide" },
-            "1": { "label": "Insufficient overlap between focus steps" },
-            "2": { "label": "The tripod moved during the sequence" },
-            "3": { "label": "The ISO was too high" }
+            "0": { "label": "Το διάφραγμα ήταν πολύ ανοιχτό" },
+            "1": { "label": "Ανεπαρκής επικάλυψη μεταξύ βημάτων εστίασης" },
+            "2": { "label": "Το τρίποδο μετακινήθηκε κατά τη σειρά" },
+            "3": { "label": "Το ISO ήταν πολύ υψηλό" }
           }
         }
       }

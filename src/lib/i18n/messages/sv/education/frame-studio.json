@@ -1,104 +1,104 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helps you crop, frame, and compose your photos right in the browser. Use composition grids to improve your framing, crop to popular aspect ratios, and add professional-looking borders — all without losing any image quality.",
+      "beginner": "Frame Studio hjälper dig beskära, rama in och komponera dina foton direkt i webbläsaren. Använd kompositionsrutnät för att förbättra bildutsnittet, beskär till populära bildförhållanden och lägg till professionella ramar — allt utan att förlora bildkvalitet.",
       "deeper": {
         "0": {
-          "heading": "Composition Grids",
-          "text": "The Rule of Thirds divides the frame into a 3\u00d73 grid — placing subjects along lines or at intersections creates natural visual balance. The Golden Ratio (approximately 1.618:1) provides a mathematically harmonious division used in art and architecture for centuries. The Golden Spiral guides the eye along a logarithmic curve derived from the Fibonacci sequence, useful for leading the viewer through the image."
+          "heading": "Kompositionsrutnät",
+          "text": "Tredjedelsregeln delar bilden i ett 3×3-rutnät — genom att placera motiv längs linjerna eller i skärningspunkterna skapar du naturlig visuell balans. Det gyllene snittet (cirka 1,618:1) ger en matematiskt harmonisk uppdelning som använts i konst och arkitektur i århundraden. Den gyllene spiralen leder blicken längs en logaritmisk kurva baserad på Fibonacci-serien och är användbar för att föra betraktaren genom bilden."
         },
         "1": {
-          "heading": "Aspect Ratios",
-          "text": "Different aspect ratios serve different purposes. 1:1 (square) works well for social media and symmetrical compositions. 3:2 is the classic 35mm film ratio. 4:3 is common in micro four-thirds and older digital cameras. 16:9 is the standard widescreen ratio for video and cinematic compositions. 5:4 is traditional for 8\u00d710 prints."
+          "heading": "Bildförhållanden",
+          "text": "Olika bildförhållanden har olika syften. 1:1 (kvadrat) fungerar bra för sociala medier och symmetriska kompositioner. 3:2 är det klassiska 35 mm-filmförhållandet. 4:3 är vanligt i Micro Four Thirds och äldre digitalkameror. 16:9 är standard widescreen för video och filmiska kompositioner. 5:4 är traditionellt för 8×10-utskrifter."
         },
         "2": {
-          "heading": "Framing and Borders",
-          "text": "Adding a border around a photograph mimics the effect of a physical mat and frame. A white mat provides visual breathing room and directs focus inward. The width of the border relative to the image affects the perceived \"weight\" of the photograph. Gallery-style presentations typically use wider mats. A subtle shadow creates depth, simulating how a framed print sits on a wall."
+          "heading": "Inramning och kanter",
+          "text": "Att lägga till en kant runt ett foto efterliknar en fysisk passepartout och ram. En vit passepartout ger visuell andningsyta och riktar fokus inåt. Kantens bredd relativt bilden påverkar den upplevda \"tyngden\". Galleripresentationer använder oftast bredare passepartout. En subtil skugga skapar djup och ger känslan av att en inramad bild hänger på en vägg."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Composition Grid",
-          "description": "Overlay guides help you evaluate and improve subject placement within the frame."
+          "label": "Kompositionsrutnät",
+          "description": "Överlagrade hjälplinjer gör det lättare att bedöma och förbättra var motivet placeras i bilden."
         },
         "1": {
-          "label": "Aspect Ratio",
-          "description": "The width-to-height proportion affects how the image feels — wider ratios feel cinematic, square feels balanced."
+          "label": "Bildförhållande",
+          "description": "Förhållandet bredd till höjd påverkar hur bilden känns — bredare förhållanden känns filmiska, kvadrat känns balanserat."
         },
         "2": {
-          "label": "Border Width",
-          "description": "Wider borders add gravitas and focus; narrow borders feel modern and minimal."
+          "label": "Kantbredd",
+          "description": "Bredare kanter ger tyngd och fokus; smala kanter känns moderna och minimala."
         },
         "3": {
-          "label": "Mat Color",
-          "description": "White mats are classic for art photography. Dark mats emphasize lighter images. Color mats can complement or contrast."
+          "label": "Passepartoutfärg",
+          "description": "Vit passepartout är klassisk för konstfoto. Mörk passepartout framhäver ljusare bilder. Färgade passepartouer kan komplettera eller kontrastera."
         }
       },
       "tips": {
         "0": {
-          "text": "For Instagram posts, crop to 4:5 (portrait) to take up maximum screen space in the feed."
+          "text": "För Instagram-inlägg: beskär till 4:5 (stående) för att ta maximal skärmplats i flödet."
         },
         "1": {
-          "text": "When adding a border for print, use a mat width of at least 10% of the image's shorter dimension for a professional look."
+          "text": "När du lägger till en kant inför utskrift: använd en passepartoutbredd på minst 10 % av bildens kortaste sida för ett proffsigt utseende."
         },
         "2": {
-          "text": "The Golden Spiral is most effective for images with a natural flow — water, roads, or curved architecture."
+          "text": "Den gyllene spiralen fungerar bäst för bilder med ett naturligt flöde — vatten, vägar eller böjda arkitekturlinjer."
         }
       },
       "tooltips": {
         "Aspect Ratio": {
-          "term": "Aspect Ratio",
-          "definition": "The proportional relationship between width and height. Common ratios include 3:2 (35mm), 4:3 (M43), and 16:9 (widescreen)."
+          "term": "Bildförhållande",
+          "definition": "Förhållandet mellan bredd och höjd. Vanliga förhållanden är 3:2 (35 mm), 4:3 (M43) och 16:9 (widescreen)."
         },
         "Rule of Thirds": {
-          "term": "Rule of Thirds",
-          "definition": "A composition guideline that divides the frame into 9 equal parts. Placing subjects at intersection points creates visual interest."
+          "term": "Tredjedelsregeln",
+          "definition": "En kompositionsprincip som delar bilden i 9 lika delar. Att placera motiv vid skärningspunkterna skapar visuellt intresse."
         },
         "Golden Ratio": {
-          "term": "Golden Ratio",
-          "definition": "A mathematical proportion (~1.618:1) found in nature and art. Creates aesthetically pleasing divisions of space."
+          "term": "Gyllene snittet",
+          "definition": "En matematisk proportion (~1,618:1) som återfinns i naturen och konsten. Skapar estetiskt tilltalande uppdelningar."
         },
         "Border Width": {
-          "term": "Border Width",
-          "definition": "The thickness of the frame border in pixels. Goes outside the image, increasing total dimensions without cropping."
+          "term": "Kantbredd",
+          "definition": "Rambordens tjocklek i pixlar. Läggs utanför bilden och ökar totala måtten utan att beskära."
         },
         "Inner Mat": {
-          "term": "Inner Mat",
-          "definition": "A second, thinner border between the outer frame and the image — mimics the beveled inner mat of a physical picture frame."
+          "term": "Inre passepartout",
+          "definition": "En andra, smalare kant mellan den yttre ramen och bilden — efterliknar den fasade inre passepartouten i en fysisk ram."
         },
         "Corner Radius": {
-          "term": "Corner Radius",
-          "definition": "Rounds the corners of the frame border. Zero gives sharp corners, higher values give a softer, rounded look."
+          "term": "Hörnradie",
+          "definition": "Rundar hörnen på ramen. Noll ger skarpa hörn, högre värden ger en mjukare, rundare look."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to post a portrait photo on Instagram for maximum feed presence. Which aspect ratio should you use?",
-          "hint": "Instagram portrait posts use a taller-than-wide ratio.",
-          "successMessage": "Correct! 4:5 gives you the maximum vertical space in the Instagram feed.",
-          "failureMessage": "Instagram portrait posts use 4:5 (flip 5:4 to portrait orientation) for maximum feed real estate.",
+          "scenario": "Du vill posta ett stående foto på Instagram för maximal synlighet i flödet. Vilket bildförhållande bör du använda?",
+          "hint": "Instagrams stående inlägg använder ett högre-än-brett förhållande.",
+          "successMessage": "Rätt! 4:5 ger dig maximal vertikal yta i Instagram-flödet.",
+          "failureMessage": "Instagrams stående inlägg använder 4:5 (5:4 vänt till stående orientering) för maximal plats i flödet.",
           "options": {
-            "0": { "label": "1:1 (Square)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": { "label": "1:1 (kvadrat)" },
+            "1": { "label": "4:5 (stående)" },
+            "2": { "label": "16:9 (widescreen)" }
           }
         },
         "1": {
-          "scenario": "Which composition grid is the most widely taught starting point for beginners?",
-          "hint": "It divides the frame into 9 equal sections.",
-          "successMessage": "Right! The Rule of Thirds is the foundational composition guide.",
-          "failureMessage": "The Rule of Thirds (3\u00d73 grid) is the most common starting point for learning composition.",
+          "scenario": "Vilket kompositionsrutnät lärs oftast ut som utgångspunkt för nybörjare?",
+          "hint": "Det delar bilden i 9 lika delar.",
+          "successMessage": "Rätt! Tredjedelsregeln är den grundläggande kompositionsprincipen.",
+          "failureMessage": "Tredjedelsregeln (3×3-rutnät) är den vanligaste utgångspunkten när man lär sig komposition.",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Diagonal Lines" }
+            "0": { "label": "Tredjedelsregeln" },
+            "1": { "label": "Gyllene spiralen" },
+            "2": { "label": "Diagonallinjer" }
           }
         },
         "2": {
-          "scenario": "You are preparing a photo for gallery printing on 8\u00d710 paper. Which aspect ratio matches this print size?",
-          "hint": "8\u00f710 simplifies to a well-known ratio.",
-          "successMessage": "Correct! 5:4 matches 8\u00d710 print dimensions perfectly.",
-          "failureMessage": "8\u00d710 simplifies to 4:5, which is the portrait version of 5:4.",
+          "scenario": "Du förbereder ett foto för galleriprint på 8×10-papper. Vilket bildförhållande matchar detta utskriftsformat?",
+          "hint": "8×10 förenklas till ett välkänt förhållande.",
+          "successMessage": "Rätt! 5:4 matchar 8×10-måtten exakt.",
+          "failureMessage": "8×10 förenklas till 4:5, som är den stående versionen av 5:4.",
           "options": {
             "0": { "label": "3:2" },
             "1": { "label": "5:4" },
@@ -106,25 +106,25 @@
           }
         },
         "3": {
-          "scenario": "A landscape photo features a winding river leading from the foreground to mountains in the background. Which grid overlay best matches this natural flow?",
-          "hint": "One grid type follows a natural curved path.",
-          "successMessage": "Great choice! The Golden Spiral follows curves and leading lines perfectly.",
-          "failureMessage": "The Golden Spiral is ideal for images with natural curved elements like rivers, roads, or coastlines.",
+          "scenario": "Ett landskapsfoto visar en slingrande flod som leder från förgrunden till berg i bakgrunden. Vilket rutnät passar bäst detta naturliga flöde?",
+          "hint": "Ett av rutnäten följer en naturligt böjd bana.",
+          "successMessage": "Fint val! Gyllene spiralen följer kurvor och ledande linjer perfekt.",
+          "failureMessage": "Gyllene spiralen är idealisk för bilder med naturligt böjda element som floder, vägar eller kustlinjer.",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Square Grid" }
+            "0": { "label": "Centrumkors" },
+            "1": { "label": "Gyllene spiralen" },
+            "2": { "label": "Kvadratrutnät" }
           }
         },
         "4": {
-          "scenario": "You want a clean white border to present your photo on social media. Which frame preset should you use?",
-          "hint": "Think about which preset gives you a simple white border.",
-          "successMessage": "Correct! The White preset adds a 100px white border around your photo.",
-          "failureMessage": "The White preset is designed for a clean, simple white border presentation.",
+          "scenario": "Du vill ha en ren vit ram runt ditt foto för sociala medier. Vilket rampresetet ska du välja?",
+          "hint": "Fundera på vilket preset som ger en enkel vit ram.",
+          "successMessage": "Rätt! Preset \"Vit\" lägger till en 100 px vit ram runt bilden.",
+          "failureMessage": "Preset \"Vit\" är utformat för en ren, enkel vit ram.",
           "options": {
-            "0": { "label": "None" },
-            "1": { "label": "White" },
-            "2": { "label": "Black" }
+            "0": { "label": "Ingen" },
+            "1": { "label": "Vit" },
+            "2": { "label": "Svart" }
           }
         }
       }

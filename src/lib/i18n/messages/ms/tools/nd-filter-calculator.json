@@ -1,12 +1,12 @@
 {
   "toolUI": {
     "nd-filter-calculator": {
-      "baseShutterSpeed": "Base Shutter Speed",
-      "ndFilter": "ND Filter",
-      "resultingShutterSpeed": "Resulting Shutter Speed",
-      "stopsAdded": "Stops Added",
-      "quickReference": "Quick Reference",
-      "tableBase": "Base"
+      "baseShutterSpeed": "Kelajuan Pengatup Asas",
+      "ndFilter": "Penapis ND",
+      "resultingShutterSpeed": "Kelajuan Pengatup Terhasil",
+      "stopsAdded": "Stop Ditambah",
+      "quickReference": "Rujukan Pantas",
+      "tableBase": "Asas"
     }
   }
 }

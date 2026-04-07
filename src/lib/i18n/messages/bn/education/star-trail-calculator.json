@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "পৃথিবী ঘোরার কারণে তারাগুলোকে আকাশ জুড়ে চলতে দেখা যায়। তোমার শাটার যদি যথেষ্ট দীর্ঘ সময় খোলা থাকে, তারাগুলো তোমার ছবিতে রেখায় পরিণত হবে। স্টার ট্রেইল ক্যালকুলেটর তোমাকে শার্প বিন্দু তারার জন্য সর্বোচ্চ এক্সপোজার টাইম বের করতে বা সুন্দর বৃত্তাকার স্টার ট্রেইল আর্ক তৈরির জন্য দীর্ঘ এক্সপোজার পরিকল্পনা করতে সাহায্য করে।",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "তারা কীভাবে চলে",
+          "text": "পৃথিবী প্রায় 23 ঘন্টা 56 মিনিটে (একটি সাইডেরিয়াল দিন) 360° ঘোরে, তাই খ-নিরক্ষরেখায় তারাগুলো প্রতি সেকেন্ডে প্রায় 15 আর্কসেকেন্ড গতিতে চলে। মেরুর কাছাকাছি তারা (উত্তরে পোলারিস) ছোট বৃত্ত অনুসরণ করে এবং আরো ধীরে চলে বলে মনে হয়।"
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "500 নিয়ম বনাম NPF নিয়ম",
+          "text": "ক্লাসিক \"500 নিয়ম\" ট্রেইলিং দৃশ্যমান হওয়ার আগে সর্বোচ্চ এক্সপোজার অনুমান করতে 500-কে তোমার কার্যকর ফোকাল দৈর্ঘ্য দিয়ে ভাগ করে — কিন্তু এটি কম-রেজোলিউশনের সেন্সরের জন্য ডিজাইন করা হয়েছিল। NPF নিয়ম পিক্সেল পিচ, ফোকাল দৈর্ঘ্য, অ্যাপারচার ও ডিক্লিনেশন বিবেচনা করে, আধুনিক উচ্চ-রেজোলিউশন ক্যামেরার জন্য আরো ছোট ও সঠিক সীমা তৈরি করে।"
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "স্টার ট্রেইলের জন্য স্ট্যাকিং",
+          "text": "ইচ্ছাকৃত স্টার ট্রেইলের জন্য, ফটোগ্রাফাররা অনেকগুলো ছোট এক্সপোজার (সাধারণত 30s প্রতিটি) শুট করে সফটওয়্যারে স্ট্যাক করেন। এটি নয়েজ তৈরি হওয়া এড়ায়, গ্যাপ-ফ্রি ট্রেইলের অনুমতি দেয়, এবং মানে একটি খারাপ ফ্রেম পুরো শট নষ্ট করে না।"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "ফোকাল দৈর্ঘ্য",
+          "description": "দীর্ঘ ফোকাল দৈর্ঘ্য তারার গতি বড় করে, বিন্দু তারার জন্য ছোট এক্সপোজার দরকার হয়। একটি 14mm লেন্স 200mm লেন্সের চেয়ে 5-10 গুণ দীর্ঘ এক্সপোজ করতে পারে।"
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "সেন্সর রেজোলিউশন",
+          "description": "উচ্চ-রেজোলিউশনের সেন্সর ছোট এক্সপোজার সময়েই তারার ট্রেইলিং প্রকাশ করে। 500 নিয়ম আধুনিক 40MP+ ক্যামেরার জন্য অতিরিক্ত উদার।"
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "অক্ষাংশ ও ডিক্লিনেশন",
+          "description": "খ-মেরুর কাছাকাছি তারা প্রতি সেকেন্ডে কম চলে। পোলারিসের দিকে ইশারা করলে ট্রেইল আসার আগে দীর্ঘ এক্সপোজার সম্ভব।"
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "স্ট্যাকিং বনাম একক এক্সপোজার",
+          "description": "স্টার ট্রেইলের জন্য, অনেকগুলো ছোট এক্সপোজার স্ট্যাক করা একটি অত্যন্ত দীর্ঘ এক্সপোজারের চেয়ে পরিষ্কার ফলাফল দেয় এবং বাধা থেকে পুনরুদ্ধারের অনুমতি দেয়।"
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "আধুনিক ক্যামেরার জন্য 500 নিয়মের পরিবর্তে NPF নিয়ম ব্যবহার করো। এটি সেন্সর রেজোলিউশন বিবেচনা করে এবং আরো সঠিক সর্বোচ্চ এক্সপোজার টাইম তৈরি করে, বিশেষত উচ্চ-মেগাপিক্সেল বডিতে।"
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "স্টার ট্রেইল স্ট্যাকিংয়ের জন্য, ওয়্যারড রিমোট বা ইন্টারভ্যালোমিটার ব্যবহার করে ফ্রেমের মধ্যে গ্যাপ 2-3 সেকেন্ডের নিচে রাখো। লম্বা গ্যাপ মসৃণ ট্রেইলের বদলে বিন্দুযুক্ত ট্রেইল তৈরি করে।"
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "নাটকীয় কেন্দ্রীভূত বৃত্তাকার ট্রেইলের জন্য তোমার কম্পোজিশনে পোলারিস (বা দক্ষিণ খ-মেরু) অন্তর্ভুক্ত করো। মেরুর কাছাকাছি তারা আরো সংকীর্ণ আর্ক অনুসরণ করে।"
         }
       },
       "tooltips": {
         "mode": {
           "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "definition": "বিন্দু তারার জন্য সর্বোচ্চ এক্সপোজার টাইম হিসাব করতে \"Sharp Stars\" বেছে নাও, অথবা ইচ্ছাকৃত ট্রেইল ইফেক্টের জন্য এক্সপোজার সিকোয়েন্স পরিকল্পনা করতে \"Star Trails\" বেছে নাও।"
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "ফোকাল দৈর্ঘ্য",
+          "definition": "মিলিমিটারে লেন্সের ফোকাল দৈর্ঘ্য। দীর্ঘ ফোকাল দৈর্ঘ্য আপাত তারার গতি বড় করে, ছোট পৃথক এক্সপোজার দরকার হয়।"
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "সেন্সর সাইজ",
+          "definition": "শারীরিক সেন্সর মাত্রা। রেজোলিউশনের সাথে মিলে পিক্সেল পিচ নির্ধারণ করে, যা তারার ট্রেইলিং কত দ্রুত দৃশ্যমান হয় তা প্রভাবিত করে।"
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "রেজোলিউশন",
+          "definition": "মেগাপিক্সেলে সেন্সর রেজোলিউশন। উচ্চ রেজোলিউশন ক্যামেরা তারার গতি আগে প্রকাশ করে কারণ প্রতিটি পিক্সেল আকাশের একটি ছোট কৌণিক এলাকা কভার করে।"
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "term": "অ্যাপারচার",
+          "definition": "লেন্সের খোলা অংশ। অ্যাস্ট্রোফটোগ্রাফির জন্য, প্রতিটি ফ্রেমে সর্বাধিক তারার আলো ধরতে উপলব্ধ সবচেয়ে প্রশস্ত অ্যাপারচার (কম f-নম্বর) ব্যবহার করো।"
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "অক্ষাংশ",
+          "definition": "তোমার ভৌগোলিক অক্ষাংশ। তারার আপাত গতি হারকে প্রভাবিত করে — উচ্চ অক্ষাংশে, মেরুর কাছাকাছি তারা ফ্রেম জুড়ে আরো ধীরে চলে।"
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "ফ্রেম প্রতি এক্সপোজার",
+          "definition": "স্টার ট্রেইল সিকোয়েন্সে প্রতিটি পৃথক ফ্রেমের শাটার স্পিড। সাধারণত 15-30 সেকেন্ড যথেষ্ট আলো ধরতে যখন অতিরিক্ত নয়েজ এড়ানো হয়।"
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "ফ্রেম সংখ্যা",
+          "definition": "কতগুলো পৃথক এক্সপোজার নিতে হবে। বেশি ফ্রেম মানে দীর্ঘ, আরো নাটকীয় স্টার ট্রেইল। 30 সেকেন্ডে 120 ফ্রেম এক ঘন্টার ট্রেইল তৈরি করে।"
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "ফ্রেমের মধ্যে গ্যাপ",
+          "definition": "ক্যামেরা ফাইল সেভ করার জন্য এক্সপোজারের মধ্যকার সময়। বিন্দুযুক্ত ট্রেইল এড়াতে এটি যতটা সম্ভব ছোট রাখো (1-3 সেকেন্ড)।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "তুমি ফুল-ফ্রেম 24MP ক্যামেরায় 24mm লেন্স দিয়ে ছায়াপথ শুট করছো। 500 নিয়ম ব্যবহার করে, তারা ট্রেইল শুরু হওয়ার আগে প্রায় কতক্ষণ এক্সপোজ করতে পারো?",
+          "hint": "500 নিয়ম: সর্বোচ্চ সেকেন্ড = 500 / ফোকাল দৈর্ঘ্য।",
+          "successMessage": "ঠিক! 500 / 24 = প্রায় 20 সেকেন্ড। এটি একটি ভালো শুরুর বিন্দু, যদিও NPF নিয়ম সূক্ষ্ম শার্পনেসের জন্য সামান্য ছোট সময় পরামর্শ দিতে পারে।",
+          "failureMessage": "500 নিয়ম প্রয়োগ করো: তোমার ফোকাল দৈর্ঘ্য (24mm) দিয়ে 500 ভাগ করো। এটি তোমাকে প্রায় 20 সেকেন্ড দেয়।",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 সেকেন্ড" },
+            "1": { "label": "10 সেকেন্ড" },
+            "2": { "label": "20 সেকেন্ড" },
+            "3": { "label": "60 সেকেন্ড" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "তুমি ক্রপ-সেন্সর ক্যামেরায় (1.5x ক্রপ ফ্যাক্টর) 200mm লেন্স দিয়ে ওরিয়ন নেবুলা শুট করতে চাও। 500 নিয়ম ব্যবহার করে আনুমানিক সর্বোচ্চ এক্সপোজার কী?",
+          "hint": "ক্রপ সেন্সরের সাথে, প্রথমে ফোকাল দৈর্ঘ্যকে ক্রপ ফ্যাক্টর দিয়ে গুণ করো, তারপর নিয়ম প্রয়োগ করো।",
+          "successMessage": "সঠিক! কার্যকর ফোকাল দৈর্ঘ্য 200mm x 1.5 = 300mm। 500 / 300 = ~1.7 সেকেন্ড। ক্রপ সেন্সরে টেলিফটো দৈর্ঘ্যে, ট্রেইল আসার আগে তোমার খুব কম সময় আছে।",
+          "failureMessage": "ক্রপ ফ্যাক্টর বিবেচনা করতে মনে রাখো: 200mm x 1.5 = 300mm কার্যকর। তারপর 500 / 300 প্রায় 1.7 সেকেন্ড দেয়।",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1.7 সেকেন্ড" },
+            "1": { "label": "~2.5 সেকেন্ড" },
+            "2": { "label": "~5 সেকেন্ড" },
+            "3": { "label": "~10 সেকেন্ড" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "তুমি একটি 2-ঘন্টার স্টার ট্রেইল ছবি তৈরি করতে চাও। তুমি 2-সেকেন্ড গ্যাপ সহ 30-সেকেন্ডের এক্সপোজার শুট করার পরিকল্পনা করছো। কতগুলো ফ্রেম দরকার?",
+          "hint": "2 ঘন্টায় (7200 সেকেন্ড) কতগুলো 32-সেকেন্ড ব্যবধান (30s এক্সপোজার + 2s গ্যাপ) ফিট করে হিসাব করো।",
+          "successMessage": "সঠিক! 7200 সেকেন্ড / প্রতি ফ্রেমে 32 সেকেন্ড = 225 ফ্রেম। তুমি 2 ঘন্টার পৃথিবী ঘূর্ণন জুড়ে মসৃণ, অবিচ্ছিন্ন ট্রেইল পাবে।",
+          "failureMessage": "দুই ঘন্টা = 7200 সেকেন্ড। প্রতিটি ফ্রেম চক্র 30s + 2s = 32s। দরকারি ফ্রেম সংখ্যা পেতে 7200-কে 32 দিয়ে ভাগ করো।",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 ফ্রেম" },
+            "1": { "label": "180 ফ্রেম" },
+            "2": { "label": "225 ফ্রেম" },
+            "3": { "label": "240 ফ্রেম" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "তোমার বন্ধু একটি 50MP ফুল-ফ্রেম ক্যামেরা ব্যবহার করে এবং 20mm লেন্স দিয়ে 500 নিয়ম অনুসরণ করে, 25-সেকেন্ড এক্সপোজার পেয়েছে। তারা অভিযোগ করছে জুম করলে তারা ছোট রেখার মতো দেখাচ্ছে। কেন?",
+          "hint": "500 নিয়ম পুরানো, কম-রেজোলিউশনের সেন্সরের জন্য ডিজাইন করা হয়েছিল।",
+          "successMessage": "ঠিক! 500 নিয়ম উচ্চ-রেজোলিউশন সেন্সরের জন্য অতিরিক্ত উদার। একটি 50MP ফুল-ফ্রেম সেন্সরের পিক্সেল পিচ প্রায় 4.4 মাইক্রোমিটার, এবং NPF নিয়ম সত্যিকারের শার্প তারার জন্য প্রায় 10-12 সেকেন্ডের সুপারিশ করবে।",
+          "failureMessage": "500 নিয়ম তৈরি হয়েছিল যখন সেন্সরে অনেক কম মেগাপিক্সেল ছিল। 50MP-এ, প্রতিটি পিক্সেল আকাশের অনেক ছোট অংশ কভার করে, তারার গতি প্রকাশ করে যা পুরানো ক্যামেরায় অদৃশ্য ছিল।",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "লেন্স ফোকাসের বাইরে ছিল" },
+            "1": { "label": "500 নিয়ম উচ্চ-রেজোলিউশনের সেন্সরের জন্য অতিরিক্ত উদার" },
+            "2": { "label": "বাতাসে ক্যামেরা কাঁপছিল" },
+            "3": { "label": "অ্যাস্ট্রোফটোগ্রাফির জন্য 20mm খুব প্রশস্ত" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "তুমি একটি 1-ঘন্টার স্টার ট্রেইল ছবি চাও। অভিজ্ঞ অ্যাস্ট্রোফটোগ্রাফাররা কেন একটি 1-ঘন্টার একক এক্সপোজার নেওয়ার বদলে অনেকগুলো ছোট এক্সপোজার (যেমন 240 x 15s) স্ট্যাক করেন?",
+          "hint": "অত্যন্ত দীর্ঘ একক এক্সপোজারের সময় সেন্সর নয়েজ, ব্যাটারি লাইফ ও পুনরুদ্ধারযোগ্যতার কী হয় চিন্তা করো।",
+          "successMessage": "সঠিক! একটি একক ঘন্টা-দীর্ঘ এক্সপোজার বিশাল থার্মাল নয়েজ জমা করে, ব্যাটারি শেষ করে, এবং কিছু ভুল হলে (কম্পন, শিশির, গাড়ির হেডলাইট) পুরো শট নষ্ট হয়। ছোট ফ্রেম স্ট্যাকিং নয়েজ কম রাখে, তোমাকে খারাপ ফ্রেম সরাতে দেয়, এবং অনেক বেশি ক্ষমাশীল।",
+          "failureMessage": "দীর্ঘ একক এক্সপোজার গুরুতর থার্মাল নয়েজ তৈরি করে এবং যেকোনো বাধা থেকে সম্পূর্ণ ক্ষতির ঝুঁকি। ছোট ফ্রেম স্ট্যাকিং নয়েজ নিয়ন্ত্রণযোগ্য রাখে, তোমাকে নষ্ট হওয়া ফ্রেম বাদ দিতে দেয়, এবং পরিষ্কার ফলাফল তৈরি করে।",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "স্ট্যাকিং একক এক্সপোজারের চেয়ে লম্বা ট্রেইল তৈরি করে" },
+            "1": { "label": "একক এক্সপোজার তারার গতি রেকর্ড করতে পারে না" },
+            "2": { "label": "স্ট্যাকিং নয়েজ কমায়, বাধা থেকে পুনরুদ্ধারের অনুমতি দেয়, এবং ব্যাটারি সাশ্রয় করে" },
+            "3": { "label": "কোনো ব্যবহারিক পার্থক্য নেই — এটি সম্পূর্ণ ব্যক্তিগত পছন্দ" }
           }
         }
       }

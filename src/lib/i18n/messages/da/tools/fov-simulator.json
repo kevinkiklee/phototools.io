@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "Rotér",
+      "center": "Centrér",
+      "switchToPortrait": "Skift til portræt",
+      "switchToLandscape": "Skift til landskab",
+      "centerOverlays": "Centrér overlays",
+      "addLens": "+ Tilføj linse",
       "fovSimulator": "FOV Simulator",
       "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
-      "embed": "Embed",
-      "reset": "Reset",
-      "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
-      "wide": "wide",
-      "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
+      "copyImage": "Kopiér billede",
+      "copyLink": "Kopiér link",
+      "embed": "Indlejr",
+      "reset": "Nulstil",
+      "frameInfo": "Udsnitsinfo",
+      "distance": "Afstand",
+      "showFramingGuides": "Vis udsnitsguides",
+      "wide": "bred",
+      "embedTitle": "Indlejr",
+      "closeEmbedModal": "Luk indlejringsvindue",
       "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
-      "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
-      "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "bbcodeLabel": "BBCode (fora)",
+      "htmlEmbedLabel": "HTML-indlejring",
+      "copied": "Kopieret",
+      "copy": "Kopiér",
+      "cropView": "Crop-visning:",
+      "collapse": "Luk",
+      "expand": "Åbn",
+      "fovComparison": "FOV-sammenligning",
+      "loadingScene": "Indlæser motiv...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Hvad er billedvinkel i fotografi?",
+          "answer": "Billedvinkel (FOV) er den vinklede udstrækning af motivet, der er synlig gennem din linse og kamerasensor. Den afgør, hvor meget af et motiv der fanges i billedet, og påvirkes af brændvidde og sensorstørrelse."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Hvordan påvirker cropfaktor billedvinklen?",
+          "answer": "En mindre sensor (højere cropfaktor) fanger en smallere billedvinkel end en fuldformatsensor ved samme brændvidde. En APS-C-sensor med 1,5x cropfaktor får en 50mm linse til at opføre sig som en 75mm linse, hvad angår billedvinkel."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Hvad er sammenhængen mellem billedvinkel og brændvidde?",
+          "answer": "Billedvinkel og brændvidde er omvendt proportionale. Korte brændvidder (vidvinkel) giver bred billedvinkel, mens lange brændvidder (tele) giver smal billedvinkel. Den præcise FOV afhænger også af sensorstørrelsen."
         }
       }
     }

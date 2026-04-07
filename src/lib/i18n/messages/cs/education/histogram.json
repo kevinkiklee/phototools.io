@@ -1,117 +1,117 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "Histogram je graf, který ukazuje, jak světlé nebo tmavé jsou pixely tvé fotky. Levá strana představuje stíny (tmavé oblasti), střed střední tóny a pravá strana světla (jasné oblasti). Když je graf nahuštěný na jedné straně, fotka může být podexponovaná nebo přeexponovaná.",
+      "deeper": "Histogram vynáší počet pixelů (svislá osa) proti úrovni jasu (vodorovná osa, 0–255 u 8bitových snímků). V režimu jasu se jas každého pixelu počítá jako vážený průměr kanálů červené, zelené a modré (typicky 0,299R + 0,587G + 0,114B, což odpovídá lidskému vnímání). RGB režim ukazuje tři samostatná rozložení a odhaluje, které barevné kanály se můžou samostatně ořezávat — červený kanál přetlačený na 255, zatímco modrý je v pohodě, ukazuje na oříznutí ve světlech v teplých tónech, například na obloze při západu slunce. „Oříznutí\" nastává, když hodnoty pixelů dosáhnou hranice 0 nebo 255, což znamená, že detail ve stínech nebo světlech je nenávratně ztracený. Oříznutí v černé (pixely na 0) ztrácí detail ve stínech; oříznutí v bílé (pixely na 255) ztrácí detail ve světlech. RAW ti dává zhruba 2–3 stopy navíc prostoru pro záchranu světel oproti tomu, co ukazuje histogram z JPEGu, a proto mnoho fotografů „exponuje doprava\" (ETTR) — tlačí expozici co nejsvětlejší, aniž by ořezali data v RAWu.",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "Rozložení tónů",
+          "description": "Celkový tvar ti říká, jestli je snímek tmavý (naklopený doleva), světlý (naklopený doprava), nebo vyvážený (rozložený přes celý rozsah)."
         },
         "1": {
-          "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "label": "Oříznutí",
+          "description": "Špičky na krajích grafu značí ztracený detail ve stínech nebo světlech."
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "Oddělení kanálů",
+          "description": "RGB režim odhaluje chování jednotlivých barevných kanálů — užitečné pro detekci oříznutí konkrétních barev v sytých scénách."
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "Dynamický rozsah",
+          "description": "Histogram, který využívá celou šířku bez oříznutí, znamená dobré využití dostupného dynamického rozsahu."
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "Neexistuje žádný „ideální\" tvar histogramu. Fotka černé kočky na tmavé pohovce má být posunutá doleva. Histogram posuzuj podle svého kreativního záměru, ne podle nějaké ideální křivky."
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "U fotek západu slunce a neonových světel se podívej na RGB překryv. Červený kanál se často ořezává mnohem dřív než modrý, takže o detail v teplých světlech přijdeš, i když jasový histogram vypadá v pořádku."
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "Když vidíš upozornění na oříznutí na obou koncích zároveň, scéna nejspíš překračuje dynamický rozsah tvého fotoaparátu. Uvaž bracketing pro HDR nebo přechodové ND filtry."
         }
       },
       "tooltips": {
         "View Mode": {
-          "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "term": "Režim zobrazení",
+          "definition": "Jas ukazuje celkový jas. RGB překryv ukazuje všechny tři barevné kanály přes sebe. Všechny kanály kombinuje RGB a jas dohromady."
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "Stíny",
+          "definition": "Nejlevnější oblast histogramu (zhruba 0–85), která reprezentuje nejtmavší tóny snímku."
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "Střední tóny",
+          "definition": "Střední oblast (zhruba 86–170), která reprezentuje střední jas — tóny pleti a většina přirozených textur spadá sem."
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "Světla",
+          "definition": "Nejpravější oblast (zhruba 171–255) reprezentující nejjasnější tóny: oblohu, odrazy a světelné zdroje."
         },
         "Black Clipping": {
-          "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "term": "Oříznutí ve stínech",
+          "definition": "Procento pixelů s jasem 0 (čistá černá). Vysoké hodnoty znamenají ztrátu detailu ve stínech, který už nelze vrátit."
         },
         "White Clipping": {
-          "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "term": "Oříznutí ve světlech",
+          "definition": "Procento pixelů s jasem 255 (čistá bílá). Vysoké hodnoty znamenají, že detail ve světlech je vypálený."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "Nahraješ fotku a histogram je silně posunutý doleva, na pravé straně skoro nic. Co ti to o snímku říká?",
+          "hint": "Vlevo = tmavé, vpravo = světlé.",
+          "successMessage": "Správně! Histogram posunutý doleva znamená, že snímek tvoří převážně tmavé tóny — může být podexponovaný, nebo záměrně tmavý/low-key.",
+          "failureMessage": "Histogram nahuštěný doleva znamená, že snímek je převážně tmavý. Často to naznačuje podexponování.",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "Snímek je podexponovaný nebo velmi tmavý" },
+            "1": { "label": "Snímek je přeexponovaný nebo velmi světlý" },
+            "2": { "label": "Snímek má dokonalou expozici" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "Jaký režim zobrazení použiješ, když chceš vidět celkové rozložení jasu na jednom grafu?",
+          "hint": "Jeden režim spojuje všechny barevné informace do jediné jasové křivky.",
+          "successMessage": "Správně! Režim jasu ukazuje jednu křivku reprezentující celkový vnímaný jas.",
+          "failureMessage": "Režim jasu je nejjednodušší pohled — spojuje R, G, B do jedné jasové křivky.",
           "options": {
-            "0": { "label": "Luminance" },
-            "1": { "label": "RGB Overlay" },
-            "2": { "label": "All Channels" }
+            "0": { "label": "Jas" },
+            "1": { "label": "RGB překryv" },
+            "2": { "label": "Všechny kanály" }
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "Fotil jsi výrazný západ slunce a jasový histogram vypadá dobře, ale když přepneš na RGB překryv, vidíš, že červený kanál je nahoře na pravé straně. Co se děje?",
+          "hint": "Jednotlivé barevné kanály se můžou ořezávat, i když celkový jas zůstává v pořádku.",
+          "successMessage": "Přesně! Červený kanál se ořezává — světla západu slunce ztratila detail v červených tónech, i když celkový jas vypadá přijatelně. Ztrácíš nuance teplých barev.",
+          "failureMessage": "Červený kanál se ořezává samostatně. Syté teplé světlo (západy slunce, oheň) často tlačí červenou na 255, zatímco zelená a modrá jsou v pořádku, a detail v těchto tónech je pryč.",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "Ořezává se červený kanál — detail v teplých světlech je pryč" },
+            "1": { "label": "Snímek je celkově přeexponovaný" },
+            "2": { "label": "Vyvážení bílé je špatné" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "Nástroj hlásí 2,3 % oříznutí v černé a 0,1 % oříznutí v bílé. Máš upravit expozici?",
+          "hint": "Malé množství oříznutí je normální — čistě černé stíny a bodové odlesky se dají očekávat.",
+          "successMessage": "Dobrý úsudek! 2,3 % oříznutí v černé je skromné a často to jsou jen hluboké stíny nebo tmavé okraje. 0,1 % oříznutí v bílé budou nejspíš bodové odlesky (odrazy slunce). Tahle expozice je pro většinu účelů v pořádku.",
+          "failureMessage": "Tyto hodnoty oříznutí jsou docela malé. Drobné oříznutí v hlubokých stínech a nepatrné oříznutí z bodových odlesků je normální a očekávané. Žádná úprava není potřeba.",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "Zvýšit expozici a snížit oříznutí v černé" },
+            "1": { "label": "V pořádku — drobné oříznutí ve stínech i z bodových odlesků je normální" },
+            "2": { "label": "Snížit expozici a odstranit oříznutí v bílé" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "Fotíš vysoce kontrastní scénu: nevěsta v bílých šatech stojící v tmavé katedrále. Histogram ukazuje silné vrcholy na obou koncích s mezerou ve středních tónech. Jak to řešit?",
+          "hint": "Když dynamický rozsah scény překračuje rozsah snímače, potřebuješ techniku více expozic.",
+          "successMessage": "Perfektní! Bimodální histogram ukazuje, že scéna překračuje dynamický rozsah tvého snímače. Bracketing expozice (HDR) zachytí jak tmavý interiér, tak detail světlých šatů. Alternativně můžeš použít doplňkový blesk, který rozjasní stíny.",
+          "failureMessage": "Bimodální histogram (vrcholy na obou koncích, prázdný střed) znamená, že scéna má větší dynamický rozsah, než dokáže snímač zachytit na jeden snímek. Použij bracketing pro HDR nebo doplňkový blesk pro snížení kontrastu.",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "Bracketing pro HDR nebo doplňkový blesk" },
+            "1": { "label": "Měřit na střední tóny a doufat v nejlepší" },
+            "2": { "label": "Přepnout na černobílou a skrýt problém" }
           }
         }
       }

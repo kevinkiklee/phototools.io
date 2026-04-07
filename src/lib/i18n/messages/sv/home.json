@@ -1,13 +1,13 @@
 {
   "home": {
-    "heroTitle": "PhotoTools — Free Photography Tools",
-    "heroDesc": "Free photography calculators, simulators, and references. No sign-up required — your photos never leave your browser.",
-    "comingSoon": "Coming Soon",
+    "heroTitle": "PhotoTools — Gratis fotoverktyg",
+    "heroDesc": "Gratis kalkylatorer, simulatorer och referensverktyg för fotografer. Ingen registrering behövs — dina foton lämnar aldrig webbläsaren.",
+    "comingSoon": "Kommer snart",
     "categories": {
-      "visualizer": "Visualizers",
-      "calculator": "Calculators",
-      "reference": "Reference",
-      "file-tool": "File Tools"
+      "visualizer": "Visualiserare",
+      "calculator": "Kalkylatorer",
+      "reference": "Referens",
+      "file-tool": "Filverktyg"
     }
   }
 }

@@ -1,77 +1,77 @@
 {
   "education": {
     "exif-viewer": {
-      "beginner": "EXIF data is hidden information embedded in every photo your camera takes. It records what camera and lens you used, the exact settings (aperture, shutter speed, ISO), the date and time, and sometimes even GPS coordinates. This tool reads that data without uploading your photo anywhere — everything happens in your browser.",
-      "deeper": "EXIF (Exchangeable Image File Format) is a standard defined by JEITA/CIPA that stores metadata in JPEG, TIFF, and some RAW files. The data is written into specific segments of the file header as tagged key-value pairs using a TIFF-based IFD (Image File Directory) structure. There are several IFD sections: IFD0 for basic image info, the EXIF sub-IFD for camera settings, the GPS IFD for geolocation, and the Interop IFD for compatibility data. Camera manufacturers also write proprietary \"MakerNote\" data containing lens corrections, focus points, shutter count, and other model-specific details. Social media platforms often strip EXIF data on upload for privacy, but the original file on your memory card always retains it. Understanding EXIF helps you learn from your own shooting patterns and reverse-engineer the settings behind photos you admire.",
+      "beginner": "Ang EXIF data ay nakatagong impormasyon na naka-embed sa bawat litrato na kinukunan ng camera mo. Nire-record nito kung anong camera at lens ang ginamit mo, ang eksaktong settings (aperture, shutter speed, ISO), ang petsa at oras, at minsan ang GPS coordinates. Binabasa ng tool na ito ang data na iyon nang hindi nag-u-upload ng litrato mo kahit saan — lahat ay nangyayari sa browser mo.",
+      "deeper": "Ang EXIF (Exchangeable Image File Format) ay isang standard na tinukoy ng JEITA/CIPA na nag-iimbak ng metadata sa JPEG, TIFF, at ilang RAW files. Ang data ay nakasulat sa mga partikular na segment ng file header bilang tagged key-value pairs gamit ang TIFF-based IFD (Image File Directory) structure. Mayroong ilang IFD sections: IFD0 para sa basic image info, ang EXIF sub-IFD para sa camera settings, ang GPS IFD para sa geolocation, at ang Interop IFD para sa compatibility data. Ang mga camera manufacturer ay nagsusulat din ng proprietary \"MakerNote\" data na naglalaman ng lens corrections, focus points, shutter count, at iba pang model-specific details. Madalas tinatanggal ng mga social media platform ang EXIF data sa pag-upload para sa privacy, pero ang orihinal na file sa memory card mo ay palaging nananatili ito. Ang pag-unawa sa EXIF ay tumutulong sa iyo na matuto mula sa sarili mong shooting patterns at i-reverse-engineer ang settings sa likod ng mga litratong hinahangaan mo.",
       "keyFactors": {
         "0": {
-          "label": "Camera & Lens",
-          "description": "Make, model, lens name, and lens manufacturer — useful for identifying gear in photos you find online."
+          "label": "Camera at Lens",
+          "description": "Make, model, pangalan ng lens, at manufacturer ng lens — kapaki-pakinabang para sa pagkilala ng gear sa mga litrato na nakikita mo online."
         },
         "1": {
           "label": "Exposure Settings",
-          "description": "Aperture, shutter speed, ISO, and focal length — the core shooting parameters recorded for every frame."
+          "description": "Aperture, shutter speed, ISO, at focal length — ang pangunahing shooting parameters na nire-record para sa bawat frame."
         },
         "2": {
-          "label": "Date & GPS",
-          "description": "When and where the photo was taken. Be mindful that GPS data reveals your location when sharing files."
+          "label": "Petsa at GPS",
+          "description": "Kailan at saan kinunan ang litrato. Mag-ingat dahil inilalantad ng GPS data ang iyong lokasyon kapag nagsha-share ng mga file."
         },
         "3": {
           "label": "Software",
-          "description": "Shows which editing software last saved the file. Useful for checking if an image has been processed."
+          "description": "Ipinapakita kung anong editing software ang huling nag-save ng file. Kapaki-pakinabang para sa pagsuri kung na-process na ang imahe."
         }
       },
       "tips": {
         "0": {
-          "text": "Check the focal length and 35mm equivalent to understand whether the photographer used a wide, normal, or telephoto perspective — this teaches composition more than any rule of thirds."
+          "text": "Tingnan ang focal length at 35mm equivalent para maunawaan kung ang photographer ay gumamit ng wide, normal, o telephoto na perspective — mas maraming itinuturo ito tungkol sa composition kaysa sa rule of thirds."
         },
         "1": {
-          "text": "If a photo you admire was shot at high ISO with a wide aperture, that tells you it was a low-light situation. Use EXIF to understand the constraints the photographer faced."
+          "text": "Kung ang litratong hinahangaan mo ay kinunan sa mataas na ISO na may malawak na aperture, sinasabi nito sa iyo na ito ay isang low-light na sitwasyon. Gamitin ang EXIF para maunawaan ang mga limitasyon na hinarap ng photographer."
         },
         "2": {
-          "text": "Before sharing photos online, be aware that EXIF may contain your GPS location. Strip metadata using your editing software export settings if privacy is a concern."
+          "text": "Bago mag-share ng mga litrato online, alamin na maaaring naglalaman ang EXIF ng iyong GPS location. I-strip ang metadata gamit ang editing software export settings kung privacy ang isyu."
         }
       },
       "tooltips": {
         "Make": {
           "term": "Make",
-          "definition": "The camera manufacturer name (e.g., Canon, Nikon, Sony) stored in the EXIF header."
+          "definition": "Ang pangalan ng camera manufacturer (hal. Canon, Nikon, Sony) na naka-store sa EXIF header."
         },
         "Model": {
           "term": "Model",
-          "definition": "The specific camera model (e.g., \"EOS R5\", \"Z 9\") that captured the image."
+          "definition": "Ang partikular na camera model (hal. \"EOS R5\", \"Z 9\") na kumuha ng imahe."
         },
         "Aperture": {
           "term": "Aperture",
-          "definition": "The f-number the lens was set to. Lower numbers mean wider aperture and more light."
+          "definition": "Ang f-number kung saan naka-set ang lens. Ang mas mababang numero ay nangangahulugan ng mas malawak na aperture at mas maraming liwanag."
         },
         "Shutter Speed": {
           "term": "Shutter Speed",
-          "definition": "How long the sensor was exposed. Expressed as a fraction (e.g., 1/250s) or whole seconds for long exposures."
+          "definition": "Kung gaano katagal na-expose ang sensor. Ipinapakita bilang fraction (hal. 1/250s) o buong segundo para sa mga long exposure."
         },
         "ISO": {
           "term": "ISO",
-          "definition": "The sensor sensitivity setting. Higher ISO brightens the image but adds noise."
+          "definition": "Ang sensor sensitivity setting. Ang mas mataas na ISO ay nagpapaliwanag sa imahe pero nagdadagdag ng noise."
         },
         "Focal Length": {
           "term": "Focal Length",
-          "definition": "The actual focal length of the lens in millimeters."
+          "definition": "Ang aktwal na focal length ng lens sa millimeters."
         },
         "Focal Length (35mm equiv)": {
-          "term": "Focal Length (35mm equiv.)",
-          "definition": "The equivalent focal length as if shot on a full-frame 35mm sensor. Useful for comparing field of view across sensor sizes."
+          "term": "Focal Length (katumbas sa 35mm)",
+          "definition": "Ang equivalent focal length na parang kinunan sa full-frame 35mm sensor. Kapaki-pakinabang para sa paghahambing ng field of view sa iba't ibang sensor size."
         },
         "GPS": {
           "term": "GPS",
-          "definition": "Latitude and longitude coordinates embedded by cameras with GPS modules. Reveals where the photo was taken."
+          "definition": "Ang latitude at longitude coordinates na naka-embed ng mga camera na may GPS module. Inilalantad kung saan kinunan ang litrato."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You found a stunning photo online and want to know what lens was used. Which EXIF section would tell you?",
-          "hint": "Camera and lens info are in different sections.",
-          "successMessage": "Correct! The Lens section shows the lens model and manufacturer.",
-          "failureMessage": "The Lens section contains the lens model — check there to identify the glass used.",
+          "scenario": "Nakahanap ka ng nakamamanghang litrato online at gusto mong malaman kung anong lens ang ginamit. Aling EXIF section ang magsasabi sa iyo?",
+          "hint": "Ang camera at lens info ay nasa iba't ibang section.",
+          "successMessage": "Tama! Ipinapakita ng Lens section ang lens model at manufacturer.",
+          "failureMessage": "Ang Lens section ay naglalaman ng lens model — tingnan doon para kilalanin ang baso na ginamit.",
           "options": {
             "0": { "label": "Camera" },
             "1": { "label": "Lens" },
@@ -79,45 +79,45 @@
           }
         },
         "1": {
-          "scenario": "You uploaded a photo and see Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Was this likely shot in bright or dim light?",
-          "hint": "A very fast shutter speed at low ISO suggests lots of available light.",
-          "successMessage": "Right! The fast shutter speed (1/4000s) at base ISO (100) tells you there was plenty of light — likely bright outdoors.",
-          "failureMessage": "A shutter speed of 1/4000s at ISO 100 means the camera needed very little sensitivity and very short exposure. That is a bright outdoor scene.",
+          "scenario": "Nag-upload ka ng litrato at nakita mo ang Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Kinunan ba ito sa maliwanag o madilim na liwanag?",
+          "hint": "Ang napakabilis na shutter speed sa mababang ISO ay nagpapahiwatig ng maraming available na liwanag.",
+          "successMessage": "Tama! Ang mabilis na shutter speed (1/4000s) sa base ISO (100) ay nagsasabi sa iyo na marami ang liwanag — malamang maliwanag sa labas.",
+          "failureMessage": "Ang shutter speed na 1/4000s sa ISO 100 ay nangangahulugang ang camera ay nangangailangan ng kaunting sensitivity at napakaikli na exposure. Iyon ay isang maliwanag na outdoor na eksena.",
           "options": {
-            "0": { "label": "Bright light — fast shutter at low ISO" },
-            "1": { "label": "Dim light — the wide aperture compensates" }
+            "0": { "label": "Maliwanag — mabilis na shutter sa mababang ISO" },
+            "1": { "label": "Madilim — ang malawak na aperture ay nagko-compensate" }
           }
         },
         "2": {
-          "scenario": "A photo shows Focal Length: 50mm and Focal Length (35mm equiv.): 75mm. What sensor was the camera using?",
-          "hint": "The 35mm equivalent is the focal length multiplied by the crop factor.",
-          "successMessage": "Correct! 75 / 50 = 1.5x crop factor, which is an APS-C sensor (Nikon/Sony variant).",
-          "failureMessage": "Divide the 35mm equivalent by the actual focal length: 75 / 50 = 1.5x. That crop factor matches APS-C (Nikon/Sony).",
+          "scenario": "May litratong nagpapakita ng Focal Length: 50mm at Focal Length (35mm equiv.): 75mm. Anong sensor ang ginagamit ng camera?",
+          "hint": "Ang 35mm equivalent ay ang focal length na na-multiply sa crop factor.",
+          "successMessage": "Tama! 75 / 50 = 1.5x crop factor, na isang APS-C sensor (variant ng Nikon/Sony).",
+          "failureMessage": "Hatiin ang 35mm equivalent sa aktwal na focal length: 75 / 50 = 1.5x. Ang crop factor na iyon ay tumutugma sa APS-C (Nikon/Sony).",
           "options": {
             "0": { "label": "Full Frame (1.0x crop)" },
             "1": { "label": "APS-C (1.5x crop)" },
-            "2": { "label": "Micro Four Thirds (2.0x crop)" }
+            "2": { "label": "Micro Four Thirds (2.0x na crop)" }
           }
         },
         "3": {
-          "scenario": "You see two photos of the same scene. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Which photo was taken in brighter light?",
-          "hint": "Higher ISO compensates for less light.",
-          "successMessage": "Exactly! Photo B at ISO 200 had much more ambient light. Photo A needed ISO 3200 (4 stops more sensitivity) to achieve the same exposure, meaning the scene was much darker.",
-          "failureMessage": "Photo B was in brighter light. Same aperture and shutter speed, but ISO 200 vs 3200 means Photo A was in a much darker environment and needed 4 stops more sensor sensitivity.",
+          "scenario": "Nakakita ka ng dalawang litrato ng parehong eksena. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Aling litrato ang kinunan sa mas maliwanag na liwanag?",
+          "hint": "Ang mas mataas na ISO ay nagko-compensate para sa mas kaunting liwanag.",
+          "successMessage": "Eksakto! Ang Photo B sa ISO 200 ay may mas maraming ambient na liwanag. Ang Photo A ay nangangailangan ng ISO 3200 (4 stops na mas maraming sensitivity) para makamit ang parehong exposure, na nangangahulugang mas madilim ang eksena.",
+          "failureMessage": "Ang Photo B ay nasa mas maliwanag na liwanag. Parehong aperture at shutter speed, pero ang ISO 200 kumpara sa 3200 ay nangangahulugang ang Photo A ay nasa mas madilim na environment at nangangailangan ng 4 stops na mas maraming sensor sensitivity.",
           "options": {
             "0": { "label": "Photo A (ISO 3200)" },
             "1": { "label": "Photo B (ISO 200)" }
           }
         },
         "4": {
-          "scenario": "You are analyzing a wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. The EXIF shows the software field is \"Adobe Lightroom Classic 13.1\". What can you infer about the photographer and the shooting conditions?",
-          "hint": "Consider the long focal length, wide-open aperture, fast shutter, and elevated ISO together.",
-          "successMessage": "Great analysis! The 400mm at f/5.6 (likely wide open for that lens) with a fast 1/2000s shutter suggests a fast-moving subject (birds or wildlife in action). ISO 1600 indicates it was not bright sunlight — probably overcast or in shade. The Lightroom field confirms post-processing was done.",
-          "failureMessage": "The settings reveal a lot: 400mm f/5.6 is a typical wildlife telephoto wide open, 1/2000s freezes fast animal movement, and ISO 1600 means light was limited (not bright sun). The Lightroom entry confirms the file was processed.",
+          "scenario": "Sinusuri mo ang isang wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. Ipinapakita ng EXIF na ang software field ay \"Adobe Lightroom Classic 13.1\". Ano ang masasabi mo tungkol sa photographer at shooting conditions?",
+          "hint": "Isaalang-alang nang sabay ang mahabang focal length, wide-open na aperture, mabilis na shutter, at mataas na ISO.",
+          "successMessage": "Magaling na pagsusuri! Ang 400mm sa f/5.6 (malamang wide open para sa lens na iyon) na may mabilis na 1/2000s shutter ay nagpapahiwatig ng mabilis na gumagalaw na subject (mga ibon o wildlife in action). Ang ISO 1600 ay nagpapahiwatig na hindi ito maliwanag na sikat ng araw — malamang maulap o nasa lilim. Ang Lightroom field ay nagkukumpirma na nagawa ang post-processing.",
+          "failureMessage": "Marami ang inihayag ng settings: ang 400mm f/5.6 ay karaniwang wildlife telephoto na wide open, ang 1/2000s ay nagyeyelo ng mabilis na galaw ng hayop, at ang ISO 1600 ay nangangahulugang limitado ang liwanag (hindi maliwanag na araw). Ang Lightroom entry ay nagkukumpirma na na-process ang file.",
           "options": {
-            "0": { "label": "Fast subject in moderate light, post-processed in Lightroom" },
-            "1": { "label": "Slow subject in bright light, straight from camera" },
-            "2": { "label": "Landscape shot with motion blur, heavily edited" }
+            "0": { "label": "Mabilis na subject sa katamtamang liwanag, na-process sa Lightroom" },
+            "1": { "label": "Mabagal na subject sa maliwanag na liwanag, diretso mula sa camera" },
+            "2": { "label": "Landscape shot na may motion blur, malakas na na-edit" }
           }
         }
       }

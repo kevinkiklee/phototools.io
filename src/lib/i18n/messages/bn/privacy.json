@@ -1,67 +1,67 @@
 {
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "গোপনীয়তা নীতি",
+    "effectiveDate": "কার্যকর তারিখ: ৩ এপ্রিল, ২০২৬",
     "sections": {
       "overview": {
-        "title": "Overview",
-        "body": "PhotoTools operates www.phototools.io, a free educational photography resource offering interactive calculators, simulators, and reference tools. This Privacy Policy describes how we collect, use, and handle information when you visit or use our site. By using PhotoTools, you agree to the practices described in this policy."
+        "title": "সংক্ষিপ্ত বিবরণ",
+        "body": "PhotoTools www.phototools.io পরিচালনা করে, যা একটি ফ্রি শিক্ষামূলক ফটোগ্রাফি রিসোর্স যেখানে ইন্টারঅ্যাক্টিভ ক্যালকুলেটর, সিমুলেটর ও রেফারেন্স টুলস রয়েছে। এই গোপনীয়তা নীতিতে ব্যাখ্যা করা হয়েছে যে তুমি আমাদের সাইট ব্যবহার করলে আমরা কীভাবে তথ্য সংগ্রহ, ব্যবহার ও পরিচালনা করি। PhotoTools ব্যবহার করলে তুমি এই নীতিতে বর্ণিত নিয়মাবলীতে সম্মত হচ্ছো।"
       },
       "informationWeCollect": {
-        "title": "Information We Collect",
-        "intro": "We collect minimal information to operate and improve the site:",
-        "analytics": "<strong>Analytics:</strong> We use Google Analytics to understand how visitors use the site (e.g. pages visited, time on page, device type). Analytics data is anonymized — we do not collect personally identifiable information through analytics. IP addresses are anonymized before storage.",
-        "contactForm": "<strong>Contact form:</strong> If you submit the contact form, we collect your name, email address, subject, and message. This information is used solely to respond to your inquiry and is not stored beyond email delivery — it is not saved to a database or retained long-term.",
-        "noAccounts": "<strong>No accounts:</strong> PhotoTools does not require user registration or accounts. We do not collect passwords or payment information."
+        "title": "আমরা যে তথ্য সংগ্রহ করি",
+        "intro": "সাইট চালানো এবং উন্নত করার জন্য আমরা ন্যূনতম তথ্য সংগ্রহ করি:",
+        "analytics": "<strong>অ্যানালিটিক্স:</strong> ভিজিটররা সাইটটি কীভাবে ব্যবহার করে তা বোঝার জন্য আমরা Google Analytics ব্যবহার করি (যেমন: কোন পেজে গিয়েছে, পেজে কতক্ষণ ছিল, ডিভাইসের ধরন)। অ্যানালিটিক্স ডেটা অজ্ঞাত রাখা হয় — এর মাধ্যমে আমরা কোনো ব্যক্তিগতভাবে শনাক্তযোগ্য তথ্য সংগ্রহ করি না। স্টোরেজের আগে IP অ্যাড্রেস অজ্ঞাত করা হয়।",
+        "contactForm": "<strong>যোগাযোগ ফর্ম:</strong> তুমি যদি যোগাযোগ ফর্ম জমা দাও, আমরা তোমার নাম, ইমেইল, বিষয় ও বার্তা সংগ্রহ করি। এই তথ্য শুধু তোমার প্রশ্নের উত্তর দিতে ব্যবহৃত হয় এবং ইমেইল ডেলিভারির পর আর রাখা হয় না — এটি কোনো ডাটাবেসে সংরক্ষণ করা হয় না বা দীর্ঘমেয়াদে ধরে রাখা হয় না।",
+        "noAccounts": "<strong>কোনো অ্যাকাউন্ট নেই:</strong> PhotoTools-এ রেজিস্ট্রেশন বা অ্যাকাউন্ট দরকার নেই। আমরা কোনো পাসওয়ার্ড বা পেমেন্ট তথ্য সংগ্রহ করি না।"
       },
       "cookies": {
-        "title": "Cookies",
-        "intro": "PhotoTools uses cookies to support analytics and advertising functionality. Specifically:",
-        "analyticsCookies": "<strong>Google Analytics cookies</strong> track site usage in aggregate and anonymized form. These cookies help us understand which tools are most used and how to improve the site.",
-        "adCookies": "<strong>Third-party advertising cookies</strong> may be set by our ad network partners to serve relevant advertisements and measure ad performance.",
-        "control": "You can control or disable cookies through your browser settings. Note that disabling cookies may affect the functionality of some features."
+        "title": "কুকি",
+        "intro": "PhotoTools অ্যানালিটিক্স ও বিজ্ঞাপন ফাংশনালিটি সাপোর্ট করতে কুকি ব্যবহার করে। বিশেষভাবে:",
+        "analyticsCookies": "<strong>Google Analytics কুকি</strong> সাইটের ব্যবহার সামগ্রিক ও অজ্ঞাতভাবে ট্র্যাক করে। এই কুকিগুলো আমাদের বুঝতে সাহায্য করে কোন টুলস সবচেয়ে বেশি ব্যবহৃত হয় এবং কীভাবে সাইটটি উন্নত করা যায়।",
+        "adCookies": "<strong>তৃতীয় পক্ষের বিজ্ঞাপন কুকি</strong> আমাদের বিজ্ঞাপন নেটওয়ার্ক পার্টনাররা প্রাসঙ্গিক বিজ্ঞাপন দেখাতে ও বিজ্ঞাপনের পারফরম্যান্স মাপতে সেট করতে পারে।",
+        "control": "তুমি তোমার ব্রাউজার সেটিংস থেকে কুকি নিয়ন্ত্রণ বা বন্ধ করতে পারো। মনে রেখো, কুকি বন্ধ করলে কিছু ফিচারের কাজ প্রভাবিত হতে পারে।"
       },
       "thirdPartyAdvertising": {
-        "title": "Third-Party Advertising",
-        "body": "PhotoTools displays advertisements served by third-party ad networks. These networks may use cookies and similar tracking technologies to serve ads based on your browsing history and interests (interest-based advertising). We do not control the data practices of these third-party ad networks. For more information, please review the privacy policies of those networks or visit the <naiLink>Network Advertising Initiative opt-out page</naiLink>."
+        "title": "তৃতীয় পক্ষের বিজ্ঞাপন",
+        "body": "PhotoTools-এ তৃতীয় পক্ষের বিজ্ঞাপন নেটওয়ার্ক দ্বারা প্রদর্শিত বিজ্ঞাপন দেখানো হয়। এই নেটওয়ার্কগুলো তোমার ব্রাউজিং ইতিহাস ও আগ্রহের ভিত্তিতে বিজ্ঞাপন দেখাতে (আগ্রহ-ভিত্তিক বিজ্ঞাপন) কুকি ও অনুরূপ ট্র্যাকিং প্রযুক্তি ব্যবহার করতে পারে। এই তৃতীয় পক্ষের নেটওয়ার্কগুলোর ডেটা ব্যবহারের উপর আমাদের নিয়ন্ত্রণ নেই। আরো জানতে, এই নেটওয়ার্কগুলোর গোপনীয়তা নীতি পড়ো বা <naiLink>Network Advertising Initiative opt-out পেজ</naiLink> দেখো।"
       },
       "googleAdSense": {
         "title": "Google AdSense",
-        "body1": "PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies and web beacons to serve ads based on your prior visits to this site or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your browsing patterns.",
-        "body2": "You may opt out of personalized advertising by visiting <adsSettingsLink>Google Ads Settings</adsSettingsLink>. For more information about how Google uses data, see <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
+        "body1": "PhotoTools বিজ্ঞাপন দেখাতে Google AdSense ব্যবহার করে। Google AdSense এই সাইট বা অন্যান্য ওয়েবসাইটে তোমার আগের ভিজিটের উপর ভিত্তি করে বিজ্ঞাপন দেখাতে কুকি ও ওয়েব বিকন ব্যবহার করতে পারে। Google-এর বিজ্ঞাপন কুকির ব্যবহার তাদের ও তাদের পার্টনারদের তোমার ব্রাউজিং প্যাটার্নের ভিত্তিতে বিজ্ঞাপন দেখাতে সক্ষম করে।",
+        "body2": "তুমি <adsSettingsLink>Google Ads Settings</adsSettingsLink> ভিজিট করে ব্যক্তিগতকৃত বিজ্ঞাপন থেকে opt out করতে পারো। Google কীভাবে ডেটা ব্যবহার করে তা জানতে <partnerSitesLink>Google কীভাবে পার্টনার সাইটে ডেটা ব্যবহার করে</partnerSitesLink> দেখো।"
       },
       "cookieConsent": {
-        "title": "Cookie Consent",
-        "body1": "When you first visit PhotoTools, a cookie consent banner is displayed allowing you to accept or reject non-essential cookies. This banner is powered by CookieYes, a Google-certified Consent Management Platform that supports the IAB Transparency and Consent Framework (TCF) v2.3.",
-        "body2": "You can change your consent preferences at any time by clicking the cookie settings link in the footer. If you reject advertising cookies, you will still see ads, but they will not be personalized to your browsing history."
+        "title": "কুকি সম্মতি",
+        "body1": "তুমি যখন প্রথম PhotoTools ভিজিট করো, একটি কুকি সম্মতি ব্যানার দেখানো হয় যেখানে তুমি অপ্রয়োজনীয় কুকি গ্রহণ বা প্রত্যাখ্যান করতে পারো। এই ব্যানার CookieYes দ্বারা চালিত, যা একটি Google-সনদপ্রাপ্ত Consent Management Platform এবং IAB Transparency and Consent Framework (TCF) v2.3 সাপোর্ট করে।",
+        "body2": "তুমি যেকোনো সময় ফুটারে কুকি সেটিংস লিংকে ক্লিক করে তোমার সম্মতির পছন্দ পরিবর্তন করতে পারো। বিজ্ঞাপন কুকি প্রত্যাখ্যান করলেও তুমি বিজ্ঞাপন দেখবে, তবে সেগুলো তোমার ব্রাউজিং ইতিহাসের ভিত্তিতে ব্যক্তিগতকৃত হবে না।"
       },
       "ccpa": {
-        "title": "California Residents (CCPA)",
-        "body": "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request its deletion, and opt out of its sale. PhotoTools does not sell personal information. Advertising cookies used by our ad partners may constitute a \"sale\" under the CCPA — you can opt out via the cookie consent banner or by contacting us through our <contactLink>contact page</contactLink>."
+        "title": "ক্যালিফোর্নিয়ার বাসিন্দারা (CCPA)",
+        "body": "California Consumer Privacy Act (CCPA) অনুযায়ী ক্যালিফোর্নিয়ার বাসিন্দাদের অধিকার আছে জানার কোন ব্যক্তিগত তথ্য সংগ্রহ করা হয়েছে, তা মুছে ফেলার অনুরোধ করার এবং এর বিক্রি থেকে opt out করার। PhotoTools ব্যক্তিগত তথ্য বিক্রি করে না। আমাদের বিজ্ঞাপন পার্টনারদের ব্যবহৃত বিজ্ঞাপন কুকি CCPA অনুযায়ী \"বিক্রয়\" হিসেবে গণ্য হতে পারে — তুমি কুকি সম্মতি ব্যানার থেকে বা আমাদের <contactLink>যোগাযোগ পেজ</contactLink>-এর মাধ্যমে opt out করতে পারো।"
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "intro": "We do not sell, trade, or rent your personal information to third parties. We share data only in the following limited circumstances:",
-        "analytics": "With <strong>Google Analytics</strong> to analyze site traffic and usage patterns, subject to Google's privacy policy.",
-        "advertising": "With <strong>advertising partners</strong> as described above under Third-Party Advertising.",
-        "contactForm": "We do not share contact form submissions with any third party."
+        "title": "ডেটা শেয়ারিং",
+        "intro": "আমরা তোমার ব্যক্তিগত তথ্য তৃতীয় পক্ষের কাছে বিক্রি, বিনিময় বা ভাড়া দিই না। আমরা শুধু নিম্নলিখিত সীমিত ক্ষেত্রে ডেটা শেয়ার করি:",
+        "analytics": "সাইট ট্রাফিক ও ব্যবহারের প্যাটার্ন বিশ্লেষণের জন্য <strong>Google Analytics</strong>-এর সাথে, যা Google-এর গোপনীয়তা নীতির অধীনস্থ।",
+        "advertising": "উপরে তৃতীয় পক্ষের বিজ্ঞাপন অংশে বর্ণিতভাবে <strong>বিজ্ঞাপন পার্টনারদের</strong> সাথে।",
+        "contactForm": "আমরা যোগাযোগ ফর্মের জমা কোনো তৃতীয় পক্ষের সাথে শেয়ার করি না।"
       },
       "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "body": "PhotoTools is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can remove it."
+        "title": "শিশুদের গোপনীয়তা",
+        "body": "PhotoTools ১৩ বছরের নিচের শিশুদের উদ্দেশ্যে তৈরি নয়। আমরা জেনেশুনে ১৩ বছরের নিচের শিশুদের কাছ থেকে ব্যক্তিগত তথ্য সংগ্রহ করি না। তুমি যদি মনে করো কোনো ১৩ বছরের নিচের শিশু আমাদের ব্যক্তিগত তথ্য দিয়েছে, দয়া করে আমাদের সাথে যোগাযোগ করো যাতে আমরা তা মুছে দিতে পারি।"
       },
       "yourRights": {
-        "title": "Your Rights",
-        "body1": "Depending on your location, you may have rights under laws such as the GDPR (European Union) or CCPA (California) regarding your personal data.",
-        "body2": "Because PhotoTools collects minimal personal data — and does not store contact form submissions long-term — most requests can be addressed simply. You can clear cookies at any time through your browser settings. To exercise any data rights or submit a privacy request, please use our <contactLink>contact page</contactLink>."
+        "title": "তোমার অধিকার",
+        "body1": "তোমার অবস্থান অনুযায়ী, GDPR (ইউরোপীয় ইউনিয়ন) বা CCPA (ক্যালিফোর্নিয়া)-এর মতো আইনের অধীনে তোমার ব্যক্তিগত ডেটা সম্পর্কিত অধিকার থাকতে পারে।",
+        "body2": "যেহেতু PhotoTools ন্যূনতম ব্যক্তিগত ডেটা সংগ্রহ করে — এবং যোগাযোগ ফর্মের জমা দীর্ঘমেয়াদে সংরক্ষণ করে না — বেশিরভাগ অনুরোধ সহজে মেটানো যায়। তুমি যেকোনো সময় তোমার ব্রাউজার সেটিংস থেকে কুকি ক্লিয়ার করতে পারো। কোনো ডেটা অধিকার প্রয়োগ করতে বা গোপনীয়তা সংক্রান্ত অনুরোধ জমা দিতে আমাদের <contactLink>যোগাযোগ পেজ</contactLink> ব্যবহার করো।"
       },
       "changesToPolicy": {
-        "title": "Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. When we do, the updated policy will be posted on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of PhotoTools after any changes constitutes your acceptance of the updated policy."
+        "title": "এই নীতিতে পরিবর্তন",
+        "body": "আমরা সময়ে সময়ে এই গোপনীয়তা নীতি আপডেট করতে পারি। যখন করবো, আপডেট করা নীতি একটি নতুন কার্যকর তারিখ সহ এই পেজে পোস্ট করা হবে। আমরা তোমাকে পর্যায়ক্রমে এই নীতি পর্যালোচনা করতে উৎসাহিত করি। পরিবর্তনের পর PhotoTools ব্যবহার অব্যাহত রাখা মানে তুমি আপডেট হওয়া নীতিতে সম্মত।"
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about this Privacy Policy or how we handle your data, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "যোগাযোগ",
+        "body": "এই গোপনীয়তা নীতি বা আমরা কীভাবে তোমার ডেটা পরিচালনা করি সে সম্পর্কে কোনো প্রশ্ন থাকলে আমাদের <contactLink>যোগাযোগ পেজ</contactLink>-এর মাধ্যমে যোগাযোগ করো।"
       }
     }
   }

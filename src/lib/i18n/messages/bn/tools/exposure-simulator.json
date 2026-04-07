@@ -36,7 +36,7 @@
       "sceneLandscape": "Landscape",
       "scenePortrait": "Portrait",
       "sceneLowLight": "Low Light",
-      "imageEffectsUnavailable": "Image effects preview is unavailable.",
+      "imageEffectsUnavailable": "ইমেজ ইফেক্ট প্রিভিউ এখন পাওয়া যাচ্ছে না।",
       "loadingScene": "Loading scene..."
     }
   }

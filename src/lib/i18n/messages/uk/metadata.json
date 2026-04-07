@@ -1,90 +1,90 @@
 {
   "metadata": {
     "site": {
-      "defaultTitle": "PhotoTools — Photography Tools",
+      "defaultTitle": "PhotoTools — інструменти для фотографа",
       "titleTemplate": "%s | PhotoTools",
-      "description": "Free photography tools: FOV simulator, Color scheme generator, EXIF viewer, Crop and frame photos, and more.",
-      "ogTitle": "PhotoTools — Free Photography Tools"
+      "description": "Безкоштовні інструменти для фотографів: симулятор кута огляду, генератор кольорових палітр, переглядач EXIF, кадрування й обрамлення фото та інше.",
+      "ogTitle": "PhotoTools — безкоштовні інструменти для фотографа"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compare Focal Lengths",
-      "description": "Compare field of view across different focal lengths and sensor sizes. Free, interactive, shareable."
+      "title": "FOV Simulator — порівняння фокусних відстаней",
+      "description": "Порівнюй кут огляду для різних фокусних відстаней і розмірів матриці. Безкоштовно, інтерактивно, з можливістю поділитися."
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator | PhotoTools",
-      "description": "Visualize how aperture, focal length, and distance affect background blur with real-time WebGL simulation"
+      "title": "Симулятор глибини різкості | PhotoTools",
+      "description": "Візуалізуй, як діафрагма, фокусна відстань і дистанція впливають на розмиття фону — у реальному часі на WebGL"
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator | PhotoTools",
-      "description": "Calculate optimal focus distances for front-to-back sharpness in macro and landscape photography"
+      "title": "Калькулятор фокус-стекінгу | PhotoTools",
+      "description": "Порахуй оптимальні дистанції фокусування для наскрізної різкості в макро- і пейзажній фотографії"
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator | PhotoTools",
-      "description": "Find equivalent aperture and focal length across sensor formats to match depth of field"
+      "title": "Калькулятор еквівалентних налаштувань | PhotoTools",
+      "description": "Знайди еквівалентну діафрагму і фокусну відстань між різними форматами матриць, щоб отримати однакову глибину різкості"
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator",
-      "description": "Interactive exposure triangle simulator — see how aperture, shutter speed, and ISO affect your image in real time with live preview."
+      "title": "Симулятор експозиційного трикутника",
+      "description": "Інтерактивний симулятор трикутника експозиції — подивись, як діафрагма, витримка й ISO впливають на кадр у реальному часі з живим переглядом."
     },
     "star-trail-calculator": {
       "title": "Star Trail Calculator",
-      "description": "Calculate the maximum exposure time for pinpoint stars using the 500, NPF, and other rules. Plan star trail stacking shots for any location."
+      "description": "Порахуй максимальну витримку для різких зірок за правилом 500, NPF та іншими. Сплануй стекінг зоряних треків для будь-якої локації."
     },
     "white-balance-visualizer": {
       "title": "White Balance Visualizer",
-      "description": "See how white balance and color temperature affect your photos. Visualize changes from 2000K to 10000K with real-time preview."
+      "description": "Побач, як баланс білого і колірна температура впливають на фото. Візуалізація від 2000K до 10000K у реальному часі."
     },
     "sensor-size-comparison": {
       "title": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models."
+      "description": "Порівняння розмірів матриць камер — від середнього формату до смартфонів. Режими накладання, поруч і щільності пікселів для реальних моделей."
     },
     "color-scheme-generator": {
       "title": "Color Scheme Generator",
-      "description": "Generate color palettes for photography using complementary, analogous, triadic, and tetradic color harmonies. Interactive color wheel with photo picker."
+      "description": "Генератор кольорових палітр для фотографії: комплементарні, аналогові, тріадні й тетрадичні схеми. Інтерактивне колірне коло з вибором кольору з фото."
     },
     "frame-studio": {
       "title": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays. 100% client-side — your photos never leave your device."
+      "description": "Обрізай, обрамлюй і компонуй фото з накладанням сіток. 100% у браузері — твої фото не залишають пристрій."
     },
     "exif-viewer": {
       "title": "EXIF Viewer",
-      "description": "View EXIF metadata, histogram, and image preview for any photo. 100% client-side — your photos never leave your device."
+      "description": "Переглядай EXIF-метадані, гістограму і прев'ю будь-якого фото. 100% у браузері — твої фото не залишають пристрій."
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator",
-      "description": "Visualize hyperfocal distance for any lens and sensor. See exactly where to focus for maximum sharpness from foreground to infinity."
+      "title": "Симулятор гіперфокальної відстані",
+      "description": "Візуалізуй гіперфокальну відстань для будь-якого об'єктива й матриці. Побач, куди фокусуватися для максимальної різкості від переднього плану до нескінченності."
     },
     "shutter-speed-visualizer": {
       "title": "Shutter Speed Visualizer",
-      "description": "Find the minimum shutter speed for sharp handheld photos. Accounts for focal length, sensor size, and image stabilization."
+      "description": "Знайди мінімальну витримку для різких фото з рук. Враховує фокусну відстань, розмір матриці й стабілізацію зображення."
     },
     "nd-filter-calculator": {
       "title": "ND Filter Calculator",
-      "description": "Calculate the correct shutter speed when using ND filters. Supports any filter strength from ND2 to ND1000000 with a quick-reference table."
+      "description": "Порахуй правильну витримку при використанні ND-фільтрів. Підтримка фільтрів від ND2 до ND1000000 з таблицею для швидкого перегляду."
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator",
-      "description": "Interactive 3D simulator showing how focal length and distance affect perspective compression. See background compression change in real time."
+      "title": "Симулятор перспективного стиснення",
+      "description": "Інтерактивний 3D-симулятор того, як фокусна відстань і дистанція впливають на перспективне стиснення. Дивись, як фон стискається в реальному часі."
     },
     "about": {
-      "title": "About",
-      "description": "PhotoTools is a free collection of browser-based photography calculators, simulators, and references for photographers of all skill levels."
+      "title": "Про проєкт",
+      "description": "PhotoTools — безкоштовна збірка браузерних калькуляторів, симуляторів і довідників для фотографів будь-якого рівня."
     },
     "contact": {
-      "title": "Contact | PhotoTools",
-      "description": "Get in touch with the PhotoTools team — questions, feedback, or suggestions about our photography tools."
+      "title": "Контакти | PhotoTools",
+      "description": "Зв'яжись із командою PhotoTools — запитання, відгуки чи пропозиції щодо наших інструментів для фотографії."
     },
     "privacy": {
-      "title": "Privacy Policy | PhotoTools",
-      "description": "Learn how PhotoTools handles your data, including analytics, cookies, and contact form submissions at www.phototools.io."
+      "title": "Політика конфіденційності | PhotoTools",
+      "description": "Як PhotoTools обробляє твої дані: аналітика, cookie та повідомлення з форми зворотного зв'язку на www.phototools.io."
     },
     "terms": {
-      "title": "Terms of Service | PhotoTools",
-      "description": "Terms of Service for PhotoTools — learn about acceptable use, intellectual property, disclaimers, and limitations of liability for www.phototools.io."
+      "title": "Умови використання | PhotoTools",
+      "description": "Умови використання PhotoTools — допустиме використання, інтелектуальна власність, застереження й обмеження відповідальності для www.phototools.io."
     },
     "glossary": {
-      "title": "Photography Glossary",
-      "description": "Searchable glossary of 50+ photography terms with definitions and links to interactive tools."
+      "title": "Глосарій фотографа",
+      "description": "Пошуковий глосарій із 50+ термінами фотографії, визначеннями і посиланнями на інтерактивні інструменти."
     }
   }
 }

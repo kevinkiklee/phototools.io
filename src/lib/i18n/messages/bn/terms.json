@@ -1,50 +1,50 @@
 {
   "terms": {
-    "title": "Terms of Service",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "সেবার শর্তাবলী",
+    "effectiveDate": "কার্যকর তারিখ: ৩ এপ্রিল, ২০২৬",
     "sections": {
       "acceptance": {
-        "title": "Acceptance of Terms",
-        "body": "By accessing or using www.phototools.io (\"PhotoTools\" or \"the Site\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Site. These terms apply to all visitors and users of PhotoTools."
+        "title": "শর্তাবলী গ্রহণ",
+        "body": "www.phototools.io (\"PhotoTools\" বা \"সাইট\") অ্যাক্সেস বা ব্যবহার করে তুমি এই সেবার শর্তাবলীতে আবদ্ধ হতে সম্মত হচ্ছো। যদি তুমি এই শর্তাবলীতে সম্মত না হও, তাহলে সাইট ব্যবহার কোরো না। এই শর্তাবলী PhotoTools-এর সকল ভিজিটর ও ব্যবহারকারীর জন্য প্রযোজ্য।"
       },
       "descriptionOfService": {
-        "title": "Description of Service",
-        "body": "PhotoTools provides free educational photography tools, including interactive calculators, simulators, and reference materials. The Site is intended for informational and educational purposes only. All tools are provided at no cost to users and are designed to help photographers learn and understand photographic concepts."
+        "title": "সেবার বিবরণ",
+        "body": "PhotoTools বিনামূল্যে শিক্ষামূলক ফটোগ্রাফি টুলস প্রদান করে, যার মধ্যে রয়েছে ইন্টারঅ্যাক্টিভ ক্যালকুলেটর, সিমুলেটর ও রেফারেন্স উপকরণ। সাইটটি শুধুমাত্র তথ্যমূলক ও শিক্ষামূলক উদ্দেশ্যে তৈরি। সমস্ত টুলস ব্যবহারকারীদের জন্য বিনামূল্যে প্রদান করা হয় এবং ফটোগ্রাফারদের ফটোগ্রাফির ধারণা শেখাতে ও বুঝতে সাহায্য করার জন্য ডিজাইন করা হয়েছে।"
       },
       "noWarranty": {
-        "title": "No Warranty",
-        "body": "PhotoTools is provided \"as is\" without any warranty of any kind, express or implied. We make no guarantee that the tools, calculators, or information on this site are accurate, complete, or suitable for any particular purpose. Results from our tools are approximations and should not be relied upon for critical decisions, professional work, or situations where precision is essential. Always verify important calculations with qualified professionals or authoritative sources."
+        "title": "কোনো ওয়ারেন্টি নেই",
+        "body": "PhotoTools \"যেমন আছে\" তেমনভাবে প্রদান করা হয়, কোনো প্রকার সুস্পষ্ট বা উহ্য ওয়ারেন্টি ছাড়াই। আমরা এই সাইটের টুলস, ক্যালকুলেটর বা তথ্য সঠিক, সম্পূর্ণ বা কোনো নির্দিষ্ট উদ্দেশ্যের জন্য উপযুক্ত তা গ্যারান্টি দিই না। আমাদের টুলসের ফলাফল আনুমানিক এবং গুরুত্বপূর্ণ সিদ্ধান্ত, পেশাদার কাজ বা যেসব পরিস্থিতিতে নির্ভুলতা জরুরি সেখানে এর উপর নির্ভর করা উচিত নয়। গুরুত্বপূর্ণ হিসাবগুলো সবসময় দক্ষ পেশাদার বা কর্তৃপক্ষের মাধ্যমে যাচাই করে নাও।"
       },
       "intellectualProperty": {
-        "title": "Intellectual Property",
-        "body": "All content on PhotoTools — including text, graphics, tool designs, code, and educational materials — is the property of PhotoTools unless otherwise noted. You are welcome to use the tools and reference materials for personal and educational purposes. Reproduction, redistribution, or commercial use of site content without prior written permission is prohibited."
+        "title": "মেধাস্বত্ব",
+        "body": "PhotoTools-এর সমস্ত কন্টেন্ট — টেক্সট, গ্রাফিক্স, টুল ডিজাইন, কোড ও শিক্ষামূলক উপকরণসহ — অন্যথা উল্লেখ না থাকলে PhotoTools-এর সম্পত্তি। ব্যক্তিগত ও শিক্ষামূলক উদ্দেশ্যে তুমি টুলস ও রেফারেন্স উপকরণ ব্যবহার করতে স্বাগত। পূর্ব লিখিত অনুমতি ছাড়া সাইটের কন্টেন্টের পুনরুৎপাদন, পুনর্বিতরণ বা বাণিজ্যিক ব্যবহার নিষিদ্ধ।"
       },
       "acceptableUse": {
-        "title": "Acceptable Use",
-        "intro": "When using PhotoTools, you agree not to:",
+        "title": "গ্রহণযোগ্য ব্যবহার",
+        "intro": "PhotoTools ব্যবহারের সময় তুমি সম্মত হচ্ছো নিম্নলিখিত কাজগুলো না করতে:",
         "items": {
-          "laws": "Violate any applicable local, national, or international laws or regulations",
-          "disrupt": "Disrupt or interfere with the site's operation, servers, or networks",
-          "scrape": "Scrape, crawl, or systematically extract data from the site without prior written permission",
-          "misrepresent": "Misrepresent your identity or affiliation in communications with PhotoTools",
-          "commercial": "Use the site for any commercial purpose beyond personal reference without permission"
+          "laws": "কোনো প্রযোজ্য স্থানীয়, জাতীয় বা আন্তর্জাতিক আইন বা নিয়ম লঙ্ঘন করা",
+          "disrupt": "সাইটের কার্যক্রম, সার্ভার বা নেটওয়ার্কে বিঘ্ন ঘটানো বা হস্তক্ষেপ করা",
+          "scrape": "পূর্ব লিখিত অনুমতি ছাড়া সাইট থেকে ডেটা স্ক্র্যাপ, ক্রল বা পদ্ধতিগতভাবে বের করা",
+          "misrepresent": "PhotoTools-এর সাথে যোগাযোগে তোমার পরিচয় বা সংযোগ সম্পর্কে ভুল তথ্য দেওয়া",
+          "commercial": "অনুমতি ছাড়া ব্যক্তিগত রেফারেন্সের বাইরে কোনো বাণিজ্যিক উদ্দেশ্যে সাইট ব্যবহার করা"
         }
       },
       "thirdPartyContent": {
-        "title": "Third-Party Content",
-        "body": "PhotoTools displays third-party advertisements and may include links to external websites. We are not responsible for the content, accuracy, or practices of third-party advertisers or linked sites. The inclusion of any advertisement or external link does not constitute an endorsement by PhotoTools. Your interactions with third-party services are governed by their own terms and privacy policies."
+        "title": "তৃতীয় পক্ষের কন্টেন্ট",
+        "body": "PhotoTools তৃতীয় পক্ষের বিজ্ঞাপন দেখায় এবং বাহ্যিক ওয়েবসাইটের লিংক অন্তর্ভুক্ত করতে পারে। তৃতীয় পক্ষের বিজ্ঞাপনদাতা বা লিংকড সাইটগুলোর কন্টেন্ট, সঠিকতা বা কার্যক্রমের জন্য আমরা দায়ী নই। কোনো বিজ্ঞাপন বা বাহ্যিক লিংক অন্তর্ভুক্ত করা PhotoTools-এর পক্ষ থেকে সমর্থন গণ্য হবে না। তৃতীয় পক্ষের সেবাগুলোর সাথে তোমার যোগাযোগ তাদের নিজস্ব শর্তাবলী ও গোপনীয়তা নীতি দ্বারা পরিচালিত।"
       },
       "limitationOfLiability": {
-        "title": "Limitation of Liability",
-        "body": "To the fullest extent permitted by law, PhotoTools and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of — or inability to use — the Site or its tools. This includes, without limitation, damages resulting from reliance on information or calculations provided by PhotoTools. Your use of the Site is entirely at your own risk."
+        "title": "দায়বদ্ধতার সীমাবদ্ধতা",
+        "body": "আইনের অনুমোদিত সর্বোচ্চ পরিসরে, PhotoTools ও তার পরিচালকরা সাইট বা এর টুলস ব্যবহার — বা ব্যবহারে অক্ষমতা — থেকে উদ্ভূত কোনো প্রত্যক্ষ, পরোক্ষ, আনুষঙ্গিক, বিশেষ বা ফলাফলগত ক্ষতির জন্য দায়ী থাকবে না। এর মধ্যে, সীমাবদ্ধতা ছাড়া, PhotoTools-এর দেওয়া তথ্য বা হিসাবের উপর নির্ভরতা থেকে উদ্ভূত ক্ষতি অন্তর্ভুক্ত। সাইট ব্যবহার সম্পূর্ণভাবে তোমার নিজের ঝুঁকিতে।"
       },
       "changesToTerms": {
-        "title": "Changes to Terms",
-        "body": "We may modify these Terms of Service at any time. Updated terms will be posted on this page with a revised effective date. Continued use of PhotoTools after changes are posted constitutes your acceptance of the revised terms. We encourage you to review these terms periodically."
+        "title": "শর্তাবলী পরিবর্তন",
+        "body": "আমরা যেকোনো সময় এই সেবার শর্তাবলী পরিবর্তন করতে পারি। আপডেট হওয়া শর্তাবলী একটি নতুন কার্যকর তারিখ সহ এই পেজে পোস্ট করা হবে। পরিবর্তনের পর PhotoTools ব্যবহার অব্যাহত রাখা মানে তুমি সংশোধিত শর্তাবলীতে সম্মত। আমরা তোমাকে পর্যায়ক্রমে এই শর্তাবলী পর্যালোচনা করতে উৎসাহিত করি।"
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about these Terms of Service, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "যোগাযোগ",
+        "body": "এই সেবার শর্তাবলী সম্পর্কে কোনো প্রশ্ন থাকলে আমাদের <contactLink>যোগাযোগ পেজ</contactLink>-এর মাধ্যমে যোগাযোগ করো।"
       }
     }
   }

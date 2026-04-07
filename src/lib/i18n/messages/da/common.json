@@ -1,128 +1,128 @@
 {
   "common": {
-    "skipToContent": "Skip to content",
+    "skipToContent": "Spring til indhold",
     "nav": {
-      "tools": "Tools",
-      "glossary": "Glossary",
-      "closeMenu": "Close menu",
-      "comingSoon": "Soon",
+      "tools": "Værktøjer",
+      "glossary": "Ordliste",
+      "closeMenu": "Luk menu",
+      "comingSoon": "Snart",
       "categories": {
-        "visualizer": "Visualizers",
-        "calculator": "Calculators",
+        "visualizer": "Visualiseringer",
+        "calculator": "Beregnere",
         "reference": "Reference",
-        "file-tool": "File Tools"
+        "file-tool": "Filværktøjer"
       }
     },
     "footer": {
-      "glossary": "Glossary",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "cookieSettings": "Cookie Settings"
+      "glossary": "Ordliste",
+      "about": "Om",
+      "contact": "Kontakt",
+      "privacy": "Privatlivspolitik",
+      "terms": "Vilkår",
+      "cookieSettings": "Cookie-indstillinger"
     },
     "theme": {
-      "switchToLight": "Switch to light mode",
-      "switchToDark": "Switch to dark mode"
+      "switchToLight": "Skift til lys tilstand",
+      "switchToDark": "Skift til mørk tilstand"
     },
     "actions": {
-      "copyImage": "Copy image",
-      "reset": "Reset",
-      "copyLink": "Copy link",
-      "share": "Share",
-      "embed": "Embed"
+      "copyImage": "Kopiér billede",
+      "reset": "Nulstil",
+      "copyLink": "Kopiér link",
+      "share": "Del",
+      "embed": "Indlejr"
     },
     "toast": {
-      "linkCopied": "Link copied!",
-      "imageCopied": "Copied image!",
-      "failedToCopy": "Failed to copy",
-      "copied": "Copied!"
+      "linkCopied": "Link kopieret!",
+      "imageCopied": "Billede kopieret!",
+      "failedToCopy": "Kunne ikke kopiere",
+      "copied": "Kopieret!"
     },
     "learn": {
-      "title": "Learn",
-      "openPanel": "Open learn panel",
-      "collapsePanel": "Collapse learn panel",
-      "whatIsThis": "What is this?",
-      "howItWorks": "How it works",
-      "keyFactors": "Key factors",
-      "proTip": "Pro Tip",
-      "challenge": "Challenge",
-      "hint": "Hint: {hint}",
-      "completed": "Completed",
-      "checkAnswer": "Check Answer",
-      "nextChallenge": "Next Challenge",
-      "tryAgain": "Try Again",
-      "resetAll": "Reset all",
-      "resetAllChallenges": "Reset all challenges",
-      "challengeNumber": "Challenge {number}"
+      "title": "Lær",
+      "openPanel": "Åbn lærepanel",
+      "collapsePanel": "Luk lærepanel",
+      "whatIsThis": "Hvad er det her?",
+      "howItWorks": "Sådan virker det",
+      "keyFactors": "Nøglefaktorer",
+      "proTip": "Proftip",
+      "challenge": "Udfordring",
+      "hint": "Tip: {hint}",
+      "completed": "Gennemført",
+      "checkAnswer": "Tjek svar",
+      "nextChallenge": "Næste udfordring",
+      "tryAgain": "Prøv igen",
+      "resetAll": "Nulstil alt",
+      "resetAllChallenges": "Nulstil alle udfordringer",
+      "challengeNumber": "Udfordring {number}"
     },
     "share": {
-      "title": "Share & Embed",
-      "closeModal": "Close share modal",
-      "directLink": "Direct Link",
+      "title": "Del og indlejr",
+      "closeModal": "Luk delingsvindue",
+      "directLink": "Direkte link",
       "markdown": "Markdown (Reddit, GitHub)",
-      "bbcode": "BBCode (Forums)",
-      "htmlEmbed": "HTML Embed",
-      "copy": "Copy",
-      "copied": "Copied"
+      "bbcode": "BBCode (fora)",
+      "htmlEmbed": "HTML-indlejring",
+      "copy": "Kopiér",
+      "copied": "Kopieret"
     },
     "draft": {
-      "banner": "Preview — This tool is not yet public"
+      "banner": "Forhåndsvisning — dette værktøj er endnu ikke offentligt"
     },
     "fileUpload": {
-      "dropPrompt": "Drop an image here or click to browse",
-      "tapPrompt": "Tap to choose a photo",
-      "privacy": "Your photos never leave your device",
-      "selectedFile": "Selected file: {fileName}. Click to choose a different image",
-      "defaultLabel": "Your Photo"
+      "dropPrompt": "Træk et billede hertil eller klik for at vælge",
+      "tapPrompt": "Tryk for at vælge et foto",
+      "privacy": "Dine billeder forlader aldrig din enhed",
+      "selectedFile": "Valgt fil: {fileName}. Klik for at vælge et andet billede",
+      "defaultLabel": "Dit billede"
     },
     "scene": {
-      "label": "Scene:",
-      "yourPhoto": "Your photo",
-      "removePhoto": "Remove photo",
-      "uploadPhoto": "Upload photo"
+      "label": "Motiv:",
+      "yourPhoto": "Dit foto",
+      "removePhoto": "Fjern foto",
+      "uploadPhoto": "Upload foto"
     },
     "controls": {
-      "focalLength": "Focal length",
-      "aperture": "Aperture",
-      "distance": "Distance",
-      "clickToEnterValue": "Click to enter a value",
-      "decrease": "Decrease",
-      "increase": "Increase"
+      "focalLength": "Brændvidde",
+      "aperture": "Blænde",
+      "distance": "Afstand",
+      "clickToEnterValue": "Klik for at indtaste værdi",
+      "decrease": "Formindsk",
+      "increase": "Forøg"
     },
     "dof": {
-      "depthOfField": "Depth of field: {totalDoF} from {nearFocus} to {farFocus}",
-      "infinity": "Infinity"
+      "depthOfField": "Dybdeskarphed: {totalDoF} fra {nearFocus} til {farFocus}",
+      "infinity": "Uendelig"
     },
     "ad": {
-      "closeAd": "Close advertisement"
+      "closeAd": "Luk annonce"
     },
     "tooltip": {
       "infoLabel": "Info: {term}"
     },
     "notFound": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist or has been moved.",
-      "backHome": "Back to Home",
-      "popularTools": "Popular Tools"
+      "title": "Siden blev ikke fundet",
+      "message": "Den side, du leder efter, findes ikke eller er blevet flyttet.",
+      "backHome": "Tilbage til forsiden",
+      "popularTools": "Populære værktøjer"
     },
     "breadcrumb": {
-      "home": "Home"
+      "home": "Forside"
     },
     "relatedTools": {
-      "title": "Related Tools"
+      "title": "Relaterede værktøjer"
     },
     "sensors": {
-      "mf_645": "Medium Format (54x40)",
-      "mf": "Medium Format (44x33)",
-      "mf_leica": "Medium Format (45x30)",
-      "ff": "Full Frame",
-      "apsc_n": "APS-C (1.5x)",
+      "mf_645": "Mellemformat (54x40)",
+      "mf": "Mellemformat (44x33)",
+      "mf_leica": "Mellemformat (45x30)",
+      "ff": "Fuldformat",
+      "apsc_n": "APS-C (1,5x)",
       "apsc_c": "APS-C (Canon)",
       "m43": "Micro Four Thirds",
-      "1in": "1\" Sensor",
-      "phone": "Smartphone Flagship (1/1.3\")"
+      "1in": "1\"-sensor",
+      "phone": "Smartphone-flagskib (1/1,3\")"
     },
-    "legalTranslationDisclaimer": "This page is shown in its original language."
+    "legalTranslationDisclaimer": "Dette er en oversættelse til vejledende brug. Den engelske version er den juridisk bindende. Se /en/privacy."
   }
 }

@@ -1,123 +1,123 @@
 {
   "education": {
     "exif-viewer": {
-      "beginner": "EXIF data is hidden information embedded in every photo your camera takes. It records what camera and lens you used, the exact settings (aperture, shutter speed, ISO), the date and time, and sometimes even GPS coordinates. This tool reads that data without uploading your photo anywhere — everything happens in your browser.",
-      "deeper": "EXIF (Exchangeable Image File Format) is a standard defined by JEITA/CIPA that stores metadata in JPEG, TIFF, and some RAW files. The data is written into specific segments of the file header as tagged key-value pairs using a TIFF-based IFD (Image File Directory) structure. There are several IFD sections: IFD0 for basic image info, the EXIF sub-IFD for camera settings, the GPS IFD for geolocation, and the Interop IFD for compatibility data. Camera manufacturers also write proprietary \"MakerNote\" data containing lens corrections, focus points, shutter count, and other model-specific details. Social media platforms often strip EXIF data on upload for privacy, but the original file on your memory card always retains it. Understanding EXIF helps you learn from your own shooting patterns and reverse-engineer the settings behind photos you admire.",
+      "beginner": "EXIF-data er skjult informasjon som ligger i hvert bilde kameraet tar. Det forteller hvilket kamera og objektiv du brukte, de nøyaktige innstillingene (blender, lukkertid, ISO), dato og klokkeslett, og noen ganger til og med GPS-koordinater. Dette verktøyet leser EXIF uten å laste opp bildet — alt skjer i nettleseren din.",
+      "deeper": "EXIF (Exchangeable Image File Format) er en standard fra JEITA/CIPA som lagrer metadata i JPEG-, TIFF- og enkelte RAW-filer. Dataene skrives inn i bestemte segmenter av filheaderen som tag-baserte nøkkel/verdi-par i en TIFF-basert IFD-struktur (Image File Directory). Det finnes flere IFD-seksjoner: IFD0 for grunnleggende bildeinfo, EXIF-sub-IFD for kamerainnstillinger, GPS-IFD for posisjonsdata og Interop-IFD for kompatibilitet. Kameraprodusenter skriver også proprietær «MakerNote»-data som inneholder objektivkorrigeringer, fokuspunkter, antall lukkerutløsninger og annen modellspesifikk informasjon. Sosiale medier fjerner ofte EXIF ved opplasting av personvernhensyn, men originalfilen på minnekortet har dem alltid. Å forstå EXIF hjelper deg å lære av dine egne mønstre og å spore settings bak bilder du beundrer.",
       "keyFactors": {
         "0": {
-          "label": "Camera & Lens",
-          "description": "Make, model, lens name, and lens manufacturer — useful for identifying gear in photos you find online."
+          "label": "Kamera og objektiv",
+          "description": "Merke, modell, objektivnavn og objektivprodusent — nyttig for å identifisere utstyr i bilder du finner på nett."
         },
         "1": {
-          "label": "Exposure Settings",
-          "description": "Aperture, shutter speed, ISO, and focal length — the core shooting parameters recorded for every frame."
+          "label": "Eksponeringsinnstillinger",
+          "description": "Blender, lukkertid, ISO og brennvidde — de grunnleggende fotoparametrene som registreres for hvert bilde."
         },
         "2": {
-          "label": "Date & GPS",
-          "description": "When and where the photo was taken. Be mindful that GPS data reveals your location when sharing files."
+          "label": "Dato og GPS",
+          "description": "Når og hvor bildet ble tatt. Vær oppmerksom på at GPS-data avslører posisjonen din når du deler filer."
         },
         "3": {
-          "label": "Software",
-          "description": "Shows which editing software last saved the file. Useful for checking if an image has been processed."
+          "label": "Programvare",
+          "description": "Viser hvilken redigeringsprogramvare som sist lagret filen. Nyttig for å sjekke om et bilde er bearbeidet."
         }
       },
       "tips": {
         "0": {
-          "text": "Check the focal length and 35mm equivalent to understand whether the photographer used a wide, normal, or telephoto perspective — this teaches composition more than any rule of thirds."
+          "text": "Sjekk brennvidde og 35 mm-ekvivalent for å forstå om fotografen brukte vidvinkel, normal eller tele — det lærer deg mer om komposisjon enn noen tredjedelsregel."
         },
         "1": {
-          "text": "If a photo you admire was shot at high ISO with a wide aperture, that tells you it was a low-light situation. Use EXIF to understand the constraints the photographer faced."
+          "text": "Hvis et bilde du beundrer er tatt på høy ISO med stor blenderåpning, forteller det at det var svakt lys. Bruk EXIF til å forstå begrensningene fotografen jobbet under."
         },
         "2": {
-          "text": "Before sharing photos online, be aware that EXIF may contain your GPS location. Strip metadata using your editing software export settings if privacy is a concern."
+          "text": "Før du deler bilder på nett, husk at EXIF kan inneholde GPS-posisjonen din. Fjern metadata via eksportinnstillingene i redigeringsprogrammet hvis personvern er viktig."
         }
       },
       "tooltips": {
         "Make": {
-          "term": "Make",
-          "definition": "The camera manufacturer name (e.g., Canon, Nikon, Sony) stored in the EXIF header."
+          "term": "Merke",
+          "definition": "Navnet på kameraprodusenten (for eksempel Canon, Nikon, Sony) lagret i EXIF-headeren."
         },
         "Model": {
-          "term": "Model",
-          "definition": "The specific camera model (e.g., \"EOS R5\", \"Z 9\") that captured the image."
+          "term": "Modell",
+          "definition": "Den konkrete kameramodellen (for eksempel «EOS R5», «Z 9») som tok bildet."
         },
         "Aperture": {
-          "term": "Aperture",
-          "definition": "The f-number the lens was set to. Lower numbers mean wider aperture and more light."
+          "term": "Blender",
+          "definition": "F-tallet objektivet var satt til. Lavere tall betyr større blenderåpning og mer lys."
         },
         "Shutter Speed": {
-          "term": "Shutter Speed",
-          "definition": "How long the sensor was exposed. Expressed as a fraction (e.g., 1/250s) or whole seconds for long exposures."
+          "term": "Lukkertid",
+          "definition": "Hvor lenge sensoren var eksponert. Oppgis som brøk (for eksempel 1/250 s) eller hele sekunder for lange eksponeringer."
         },
         "ISO": {
           "term": "ISO",
-          "definition": "The sensor sensitivity setting. Higher ISO brightens the image but adds noise."
+          "definition": "Sensorens lysfølsomhet. Høyere ISO gir lysere bilde, men mer støy."
         },
         "Focal Length": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens in millimeters."
+          "term": "Brennvidde",
+          "definition": "Objektivets faktiske brennvidde i millimeter."
         },
         "Focal Length (35mm equiv)": {
-          "term": "Focal Length (35mm equiv.)",
-          "definition": "The equivalent focal length as if shot on a full-frame 35mm sensor. Useful for comparing field of view across sensor sizes."
+          "term": "Brennvidde (35 mm-ekv.)",
+          "definition": "Den ekvivalente brennvidden som om bildet ble tatt på en 35 mm fullformatsensor. Nyttig for å sammenligne synsfelt på tvers av sensorstørrelser."
         },
         "GPS": {
           "term": "GPS",
-          "definition": "Latitude and longitude coordinates embedded by cameras with GPS modules. Reveals where the photo was taken."
+          "definition": "Bredde- og lengdegradskoordinater lagret av kameraer med GPS-modul. Avslører hvor bildet ble tatt."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You found a stunning photo online and want to know what lens was used. Which EXIF section would tell you?",
-          "hint": "Camera and lens info are in different sections.",
-          "successMessage": "Correct! The Lens section shows the lens model and manufacturer.",
-          "failureMessage": "The Lens section contains the lens model — check there to identify the glass used.",
+          "scenario": "Du har funnet et fantastisk bilde på nett og vil vite hvilket objektiv som ble brukt. Hvilken EXIF-seksjon forteller deg det?",
+          "hint": "Kamera- og objektivinfo ligger i ulike seksjoner.",
+          "successMessage": "Riktig! Objektiv-seksjonen viser objektivmodell og produsent.",
+          "failureMessage": "Objektiv-seksjonen inneholder objektivmodellen — sjekk der for å finne ut hvilket glass som ble brukt.",
           "options": {
-            "0": { "label": "Camera" },
-            "1": { "label": "Lens" },
-            "2": { "label": "Settings" }
+            "0": { "label": "Kamera" },
+            "1": { "label": "Objektiv" },
+            "2": { "label": "Innstillinger" }
           }
         },
         "1": {
-          "scenario": "You uploaded a photo and see Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Was this likely shot in bright or dim light?",
-          "hint": "A very fast shutter speed at low ISO suggests lots of available light.",
-          "successMessage": "Right! The fast shutter speed (1/4000s) at base ISO (100) tells you there was plenty of light — likely bright outdoors.",
-          "failureMessage": "A shutter speed of 1/4000s at ISO 100 means the camera needed very little sensitivity and very short exposure. That is a bright outdoor scene.",
+          "scenario": "Du laster opp et bilde og ser: Blender f/1.8, Lukkertid 1/4000 s, ISO 100. Ble dette trolig tatt i sterkt eller svakt lys?",
+          "hint": "Svært rask lukkertid på lav ISO tyder på mye tilgjengelig lys.",
+          "successMessage": "Riktig! Den raske lukkertiden (1/4000 s) på grunn-ISO (100) forteller at det var mye lys — sannsynligvis sterkt dagslys ute.",
+          "failureMessage": "En lukkertid på 1/4000 s på ISO 100 betyr at kameraet trengte svært lite sensorfølsomhet og svært kort eksponering. Det er en lys utendørsscene.",
           "options": {
-            "0": { "label": "Bright light — fast shutter at low ISO" },
-            "1": { "label": "Dim light — the wide aperture compensates" }
+            "0": { "label": "Sterkt lys — rask lukker på lav ISO" },
+            "1": { "label": "Svakt lys — den store blenderen kompenserer" }
           }
         },
         "2": {
-          "scenario": "A photo shows Focal Length: 50mm and Focal Length (35mm equiv.): 75mm. What sensor was the camera using?",
-          "hint": "The 35mm equivalent is the focal length multiplied by the crop factor.",
-          "successMessage": "Correct! 75 / 50 = 1.5x crop factor, which is an APS-C sensor (Nikon/Sony variant).",
-          "failureMessage": "Divide the 35mm equivalent by the actual focal length: 75 / 50 = 1.5x. That crop factor matches APS-C (Nikon/Sony).",
+          "scenario": "Et bilde viser Brennvidde: 50 mm og Brennvidde (35 mm-ekv.): 75 mm. Hvilken sensor brukte kameraet?",
+          "hint": "35 mm-ekvivalenten er den faktiske brennvidden multiplisert med cropfaktoren.",
+          "successMessage": "Riktig! 75 / 50 = 1,5x cropfaktor, altså en APS-C-sensor (Nikon/Sony-varianten).",
+          "failureMessage": "Del 35 mm-ekvivalenten på den faktiske brennvidden: 75 / 50 = 1,5x. Den cropfaktoren matcher APS-C (Nikon/Sony).",
           "options": {
-            "0": { "label": "Full Frame (1.0x crop)" },
-            "1": { "label": "APS-C (1.5x crop)" },
-            "2": { "label": "Micro Four Thirds (2.0x crop)" }
+            "0": { "label": "Fullformat (1,0x crop)" },
+            "1": { "label": "APS-C (1,5x crop)" },
+            "2": { "label": "Micro Four Thirds (2,0x crop)" }
           }
         },
         "3": {
-          "scenario": "You see two photos of the same scene. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Which photo was taken in brighter light?",
-          "hint": "Higher ISO compensates for less light.",
-          "successMessage": "Exactly! Photo B at ISO 200 had much more ambient light. Photo A needed ISO 3200 (4 stops more sensitivity) to achieve the same exposure, meaning the scene was much darker.",
-          "failureMessage": "Photo B was in brighter light. Same aperture and shutter speed, but ISO 200 vs 3200 means Photo A was in a much darker environment and needed 4 stops more sensor sensitivity.",
+          "scenario": "Du ser to bilder av samme motiv. Bilde A: f/2.8, 1/60 s, ISO 3200. Bilde B: f/2.8, 1/60 s, ISO 200. Hvilket bilde ble tatt i mest lys?",
+          "hint": "Høyere ISO kompenserer for mindre lys.",
+          "successMessage": "Akkurat! Bilde B på ISO 200 hadde mye mer omgivelseslys. Bilde A trengte ISO 3200 (4 trinn mer følsomhet) for å få samme eksponering, altså var scenen mye mørkere.",
+          "failureMessage": "Bilde B ble tatt i mer lys. Samme blender og lukkertid, men ISO 200 mot 3200 betyr at Bilde A var i et mye mørkere miljø og trengte 4 trinn mer sensorfølsomhet.",
           "options": {
-            "0": { "label": "Photo A (ISO 3200)" },
-            "1": { "label": "Photo B (ISO 200)" }
+            "0": { "label": "Bilde A (ISO 3200)" },
+            "1": { "label": "Bilde B (ISO 200)" }
           }
         },
         "4": {
-          "scenario": "You are analyzing a wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. The EXIF shows the software field is \"Adobe Lightroom Classic 13.1\". What can you infer about the photographer and the shooting conditions?",
-          "hint": "Consider the long focal length, wide-open aperture, fast shutter, and elevated ISO together.",
-          "successMessage": "Great analysis! The 400mm at f/5.6 (likely wide open for that lens) with a fast 1/2000s shutter suggests a fast-moving subject (birds or wildlife in action). ISO 1600 indicates it was not bright sunlight — probably overcast or in shade. The Lightroom field confirms post-processing was done.",
-          "failureMessage": "The settings reveal a lot: 400mm f/5.6 is a typical wildlife telephoto wide open, 1/2000s freezes fast animal movement, and ISO 1600 means light was limited (not bright sun). The Lightroom entry confirms the file was processed.",
+          "scenario": "Du analyserer et viltbilde: 400 mm, f/5.6, 1/2000 s, ISO 1600. EXIF viser at programvarefeltet er «Adobe Lightroom Classic 13.1». Hva kan du utlede om fotografen og lysforholdene?",
+          "hint": "Tenk på kombinasjonen av lang brennvidde, vidåpen blender, rask lukker og høy ISO.",
+          "successMessage": "Flott analyse! 400 mm på f/5.6 (sannsynligvis vidåpent for det objektivet) med rask 1/2000 s tyder på et motiv i rask bevegelse (fugler eller vilt i aksjon). ISO 1600 forteller at det ikke var sterkt sollys — trolig overskyet eller i skygge. Lightroom-feltet bekrefter at bildet er bearbeidet.",
+          "failureMessage": "Innstillingene avslører mye: 400 mm f/5.6 er et typisk vilttele vidåpent, 1/2000 s fryser rask dyrebevegelse, og ISO 1600 betyr at lyset var begrenset (ikke sterkt sollys). Lightroom-feltet bekrefter at filen er bearbeidet.",
           "options": {
-            "0": { "label": "Fast subject in moderate light, post-processed in Lightroom" },
-            "1": { "label": "Slow subject in bright light, straight from camera" },
-            "2": { "label": "Landscape shot with motion blur, heavily edited" }
+            "0": { "label": "Rask motiv i moderat lys, bearbeidet i Lightroom" },
+            "1": { "label": "Sakte motiv i sterkt lys, rett fra kameraet" },
+            "2": { "label": "Landskap med bevegelsesuskarphet, kraftig redigert" }
           }
         }
       }

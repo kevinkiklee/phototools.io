@@ -1,90 +1,90 @@
 {
   "metadata": {
     "site": {
-      "defaultTitle": "PhotoTools — Photography Tools",
+      "defaultTitle": "PhotoTools — Nástroje pro fotografy",
       "titleTemplate": "%s | PhotoTools",
-      "description": "Free photography tools: FOV simulator, Color scheme generator, EXIF viewer, Crop and frame photos, and more.",
-      "ogTitle": "PhotoTools — Free Photography Tools"
+      "description": "Bezplatné nástroje pro fotografy: simulátor zorného úhlu, generátor barevných palet, prohlížeč EXIF, ořez a rámování fotek a další.",
+      "ogTitle": "PhotoTools — Bezplatné nástroje pro fotografy"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compare Focal Lengths",
-      "description": "Compare field of view across different focal lengths and sensor sizes. Free, interactive, shareable."
+      "title": "FOV Simulator — Porovnání ohniskových vzdáleností",
+      "description": "Porovnej zorný úhel napříč ohnisky a velikostmi snímače. Zdarma, interaktivně, se sdílením."
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator | PhotoTools",
-      "description": "Visualize how aperture, focal length, and distance affect background blur with real-time WebGL simulation"
+      "title": "Simulátor hloubky ostrosti | PhotoTools",
+      "description": "Sleduj v reálném čase, jak clona, ohnisko a vzdálenost ovlivňují rozostření pozadí — simulace běží na WebGL."
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator | PhotoTools",
-      "description": "Calculate optimal focus distances for front-to-back sharpness in macro and landscape photography"
+      "title": "Kalkulačka focus stackingu | PhotoTools",
+      "description": "Spočítej optimální zaostření pro ostrost od popředí po pozadí v makru a krajinářské fotografii."
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator | PhotoTools",
-      "description": "Find equivalent aperture and focal length across sensor formats to match depth of field"
+      "title": "Kalkulačka ekvivalentního nastavení | PhotoTools",
+      "description": "Najdi ekvivalentní clonu a ohniskovou vzdálenost napříč formáty snímačů pro shodnou hloubku ostrosti."
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator",
-      "description": "Interactive exposure triangle simulator — see how aperture, shutter speed, and ISO affect your image in real time with live preview."
+      "title": "Simulátor expozičního trojúhelníku | PhotoTools",
+      "description": "Interaktivní simulátor expozičního trojúhelníku — uvidíš v reálném čase, jak clona, expoziční čas a ISO ovlivňují snímek."
     },
     "star-trail-calculator": {
       "title": "Star Trail Calculator",
-      "description": "Calculate the maximum exposure time for pinpoint stars using the 500, NPF, and other rules. Plan star trail stacking shots for any location."
+      "description": "Spočítej maximální expoziční čas pro bodové hvězdy podle pravidla 500, NPF a dalších. Naplánuj stackování pro hvězdné stopy kdekoli na světě."
     },
     "white-balance-visualizer": {
       "title": "White Balance Visualizer",
-      "description": "See how white balance and color temperature affect your photos. Visualize changes from 2000K to 10000K with real-time preview."
+      "description": "Zjisti, jak vyvážení bílé a teplota barev mění tvoje fotky. Sleduj změny od 2000 K do 10000 K v živém náhledu."
     },
     "sensor-size-comparison": {
       "title": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models."
+      "description": "Porovnej velikosti snímačů od středního formátu po smartphone. Překrytí, vedle sebe, hustota pixelů a reálné modely fotoaparátů."
     },
     "color-scheme-generator": {
       "title": "Color Scheme Generator",
-      "description": "Generate color palettes for photography using complementary, analogous, triadic, and tetradic color harmonies. Interactive color wheel with photo picker."
+      "description": "Generuj barevné palety pro fotografy pomocí komplementárních, analogických, triadických a tetradických harmonií. Interaktivní barevné kolo s výběrem z fotky."
     },
     "frame-studio": {
       "title": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays. 100% client-side — your photos never leave your device."
+      "description": "Ořízni, orámuj a komponuj fotky s pomocnými mřížkami. Vše běží v prohlížeči — tvoje fotky nikdy neopustí zařízení."
     },
     "exif-viewer": {
       "title": "EXIF Viewer",
-      "description": "View EXIF metadata, histogram, and image preview for any photo. 100% client-side — your photos never leave your device."
+      "description": "Prohlédni si EXIF metadata, histogram a náhled libovolné fotky. Vše probíhá v prohlížeči — fotky nikdy neopouští tvoje zařízení."
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator",
-      "description": "Visualize hyperfocal distance for any lens and sensor. See exactly where to focus for maximum sharpness from foreground to infinity."
+      "title": "Simulátor hyperfokální vzdálenosti | PhotoTools",
+      "description": "Vizualizuj hyperfokální vzdálenost pro libovolný objektiv a snímač. Zjisti, kam přesně zaostřit pro maximální ostrost od popředí do nekonečna."
     },
     "shutter-speed-visualizer": {
       "title": "Shutter Speed Visualizer",
-      "description": "Find the minimum shutter speed for sharp handheld photos. Accounts for focal length, sensor size, and image stabilization."
+      "description": "Najdi minimální expoziční čas pro ostré fotky z ruky. Počítá s ohniskem, velikostí snímače i stabilizací obrazu."
     },
     "nd-filter-calculator": {
       "title": "ND Filter Calculator",
-      "description": "Calculate the correct shutter speed when using ND filters. Supports any filter strength from ND2 to ND1000000 with a quick-reference table."
+      "description": "Spočítej správný expoziční čas s ND filtry. Podporuje libovolnou hustotu od ND2 po ND1000000 včetně rychlé tabulky."
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator",
-      "description": "Interactive 3D simulator showing how focal length and distance affect perspective compression. See background compression change in real time."
+      "title": "Simulátor perspektivní komprese | PhotoTools",
+      "description": "Interaktivní 3D simulátor ukazuje, jak ohnisková vzdálenost a odstup mění perspektivní kompresi. Sleduj změnu komprese pozadí v reálném čase."
     },
     "about": {
-      "title": "About",
-      "description": "PhotoTools is a free collection of browser-based photography calculators, simulators, and references for photographers of all skill levels."
+      "title": "O projektu",
+      "description": "PhotoTools je bezplatná sbírka kalkulaček, simulátorů a referencí pro fotografy všech úrovní, která běží přímo v prohlížeči."
     },
     "contact": {
-      "title": "Contact | PhotoTools",
-      "description": "Get in touch with the PhotoTools team — questions, feedback, or suggestions about our photography tools."
+      "title": "Kontakt | PhotoTools",
+      "description": "Kontaktuj tým PhotoTools — dotazy, zpětná vazba nebo nápady k našim fotografickým nástrojům."
     },
     "privacy": {
-      "title": "Privacy Policy | PhotoTools",
-      "description": "Learn how PhotoTools handles your data, including analytics, cookies, and contact form submissions at www.phototools.io."
+      "title": "Zásady ochrany soukromí | PhotoTools",
+      "description": "Přečti si, jak PhotoTools nakládá s tvými daty včetně analytiky, cookies a kontaktního formuláře na www.phototools.io."
     },
     "terms": {
-      "title": "Terms of Service | PhotoTools",
-      "description": "Terms of Service for PhotoTools — learn about acceptable use, intellectual property, disclaimers, and limitations of liability for www.phototools.io."
+      "title": "Podmínky použití | PhotoTools",
+      "description": "Podmínky použití PhotoTools — přípustné užívání, duševní vlastnictví, omezení odpovědnosti a další informace pro www.phototools.io."
     },
     "glossary": {
-      "title": "Photography Glossary",
-      "description": "Searchable glossary of 50+ photography terms with definitions and links to interactive tools."
+      "title": "Slovníček fotografických pojmů",
+      "description": "Vyhledávací slovníček 50+ fotografických pojmů s definicemi a odkazy na interaktivní nástroje."
     }
   }
 }

@@ -1,49 +1,49 @@
 {
   "education": {
     "hyperfocal-simulator": {
-      "beginner": "The hyperfocal distance is the closest point you can focus on while still keeping everything at infinity acceptably sharp. When you focus at the hyperfocal distance, your depth of field extends from half that distance all the way to infinity. Landscape photographers use this technique to maximize sharpness from foreground to horizon.",
-      "deeper": "Hyperfocal distance is derived from the thin-lens equation and the concept of the circle of confusion (CoC). It equals the focal length squared divided by the product of the f-number and the CoC diameter: H = f\u00b2 / (N \u00d7 c). Anything from H/2 to infinity falls within acceptable sharpness. The CoC depends on sensor size — smaller sensors have a smaller acceptable CoC, which pushes the hyperfocal distance farther away for the same focal length and aperture. This is why crop-sensor cameras appear to have greater depth of field: the CoC standard is tighter relative to the image area. In practice, diffraction softening at very small apertures (f/16 and beyond on most sensors) means there is a trade-off between maximizing depth of field and maintaining per-pixel sharpness.",
+      "beginner": "হাইপারফোকাল দূরত্ব হলো সবচেয়ে কাছের বিন্দু যেখানে ফোকাস করলে অসীমের সবকিছু এখনো গ্রহণযোগ্যভাবে তীক্ষ্ণ থাকে। যখন তুমি হাইপারফোকাল দূরত্বে ফোকাস করো, তোমার ক্ষেত্রের গভীরতা সেই দূরত্বের অর্ধেক থেকে অসীম পর্যন্ত বিস্তৃত হয়। ল্যান্ডস্কেপ ফটোগ্রাফাররা এই কৌশল ব্যবহার করে ফোরগ্রাউন্ড থেকে দিগন্ত পর্যন্ত শার্পনেস সর্বোচ্চ করে।",
+      "deeper": "হাইপারফোকাল দূরত্ব থিন-লেন্স সমীকরণ ও সার্কেল অফ কনফিউশন (CoC)-এর ধারণা থেকে উদ্ভূত। এটি ফোকাল দৈর্ঘ্যের বর্গকে f-নম্বর ও CoC ব্যাসের গুণফল দিয়ে ভাগ করার সমান: H = f² / (N × c)। H/2 থেকে অসীম পর্যন্ত সবকিছু গ্রহণযোগ্য শার্পনেসের মধ্যে পড়ে। CoC সেন্সর সাইজের উপর নির্ভর করে — ছোট সেন্সরের গ্রহণযোগ্য CoC ছোট, যা একই ফোকাল দৈর্ঘ্য ও অ্যাপারচারের জন্য হাইপারফোকাল দূরত্বকে আরো দূরে ঠেলে দেয়। এজন্যই ক্রপ-সেন্সর ক্যামেরার বেশি ক্ষেত্রের গভীরতা বলে মনে হয়: ইমেজ এলাকার সাপেক্ষে CoC স্ট্যান্ডার্ড কঠোর। বাস্তবে, খুব ছোট অ্যাপারচারে (বেশিরভাগ সেন্সরে f/16 ও এর বাইরে) বিবর্তন নরমতা মানে ক্ষেত্রের গভীরতা সর্বাধিক করা এবং প্রতি-পিক্সেল শার্পনেস বজায় রাখার মধ্যে একটি ট্রেড-অফ আছে।",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths dramatically increase hyperfocal distance — it scales with the square of focal length."
+          "label": "ফোকাল দৈর্ঘ্য",
+          "description": "দীর্ঘ ফোকাল দৈর্ঘ্য নাটকীয়ভাবে হাইপারফোকাল দূরত্ব বাড়ায় — এটি ফোকাল দৈর্ঘ্যের বর্গের সাথে স্কেল করে।"
         },
         "1": {
-          "label": "Aperture",
-          "description": "Smaller apertures (higher f-numbers) reduce hyperfocal distance, extending depth of field."
+          "label": "অ্যাপারচার",
+          "description": "ছোট অ্যাপারচার (বেশি f-নম্বর) হাইপারফোকাল দূরত্ব কমায়, ক্ষেত্রের গভীরতা বাড়ায়।"
         },
         "2": {
-          "label": "Sensor Size",
-          "description": "Smaller sensors use a smaller circle of confusion, which increases hyperfocal distance for equivalent framing."
+          "label": "সেন্সর সাইজ",
+          "description": "ছোট সেন্সর ছোট সার্কেল অফ কনফিউশন ব্যবহার করে, যা সমতুল্য ফ্রেমিংয়ের জন্য হাইপারফোকাল দূরত্ব বাড়ায়।"
         },
         "3": {
-          "label": "Circle of Confusion",
-          "description": "The maximum blur spot diameter considered \"acceptably sharp\" — typically 0.03mm for full frame."
+          "label": "সার্কেল অফ কনফিউশন",
+          "description": "\"গ্রহণযোগ্যভাবে তীক্ষ্ণ\" হিসেবে বিবেচিত সর্বোচ্চ ব্লার স্পট ব্যাস — ফুল ফ্রেমের জন্য সাধারণত 0.03mm।"
         }
       },
       "tips": {
         "0": {
-          "text": "For quick landscape work, focus roughly one-third into the scene — it approximates the hyperfocal point for most wide-angle setups."
+          "text": "দ্রুত ল্যান্ডস্কেপ কাজের জন্য দৃশ্যের প্রায় এক-তৃতীয়াংশ ভেতরে ফোকাস করো — এটি বেশিরভাগ ওয়াইড-অ্যাঙ্গেল সেটআপের জন্য হাইপারফোকাল পয়েন্টের কাছাকাছি।"
         },
         "1": {
-          "text": "Avoid stopping down past f/16 on full-frame or f/11 on APS-C. Diffraction will undo the depth-of-field gains you are chasing."
+          "text": "ফুল-ফ্রেমে f/16 বা APS-C-তে f/11-এর বেশি স্টপ ডাউন এড়াও। বিবর্তন তোমার খোঁজা ক্ষেত্রের গভীরতার লাভ নষ্ট করে দেবে।"
         },
         "2": {
-          "text": "Use live view magnification to nail focus precisely at the hyperfocal distance rather than relying on the lens distance scale, which is often imprecise on modern autofocus lenses."
+          "text": "হাইপারফোকাল দূরত্বে সঠিকভাবে ফোকাস মেলাতে লেন্স ডিস্ট্যান্স স্কেলের বদলে লাইভ ভিউ ম্যাগনিফিকেশন ব্যবহার করো, যা আধুনিক অটোফোকাস লেন্সে প্রায়ই অসঠিক।"
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "The camera sensor format. Smaller sensors have a tighter circle of confusion standard, which shifts all hyperfocal distances farther away."
+          "term": "সেন্সর",
+          "definition": "ক্যামেরা সেন্সর ফরম্যাট। ছোট সেন্সরের কঠোর সার্কেল অফ কনফিউশন স্ট্যান্ডার্ড থাকে, যা সমস্ত হাইপারফোকাল দূরত্ব আরো দূরে ঠেলে দেয়।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a landscape with a 24mm lens on a full-frame camera. Which sensor format should you select to see full-frame hyperfocal distances?",
-          "hint": "Full frame is the standard 35mm sensor size.",
-          "successMessage": "Correct! Full Frame is the right choice for a standard 35mm sensor.",
-          "failureMessage": "Not quite — select the Full Frame sensor to match a standard 35mm camera body.",
+          "scenario": "তুমি ফুল-ফ্রেম ক্যামেরায় 24mm লেন্স দিয়ে একটি ল্যান্ডস্কেপ শুট করছো। ফুল-ফ্রেম হাইপারফোকাল দূরত্ব দেখতে কোন সেন্সর ফরম্যাট নির্বাচন করবে?",
+          "hint": "ফুল ফ্রেম হলো স্ট্যান্ডার্ড 35mm সেন্সর সাইজ।",
+          "successMessage": "সঠিক! স্ট্যান্ডার্ড 35mm সেন্সরের জন্য Full Frame সঠিক পছন্দ।",
+          "failureMessage": "ঠিক না — স্ট্যান্ডার্ড 35mm ক্যামেরা বডি মেলাতে Full Frame সেন্সর নির্বাচন করো।",
           "options": {
             "0": { "label": "Full Frame" },
             "1": { "label": "APS-C (Nikon/Sony)" },
@@ -51,20 +51,20 @@
           }
         },
         "1": {
-          "scenario": "Looking at the table for full frame, which has a shorter hyperfocal distance: 24mm at f/8, or 50mm at f/8?",
-          "hint": "Hyperfocal distance increases with the square of the focal length.",
-          "successMessage": "Right! The 24mm lens has a much shorter hyperfocal distance because focal length has a squared relationship.",
-          "failureMessage": "Actually, shorter focal lengths always yield shorter hyperfocal distances. The 24mm wins here.",
+          "scenario": "ফুল ফ্রেমের জন্য টেবিল দেখে, কোনটির হাইপারফোকাল দূরত্ব ছোট: f/8-এ 24mm, নাকি f/8-এ 50mm?",
+          "hint": "হাইপারফোকাল দূরত্ব ফোকাল দৈর্ঘ্যের বর্গের সাথে বাড়ে।",
+          "successMessage": "ঠিক! 24mm লেন্সের হাইপারফোকাল দূরত্ব অনেক ছোট কারণ ফোকাল দৈর্ঘ্যের বর্গ সম্পর্ক আছে।",
+          "failureMessage": "আসলে, ছোট ফোকাল দৈর্ঘ্য সবসময় ছোট হাইপারফোকাল দূরত্ব দেয়। এখানে 24mm জিতে।",
           "options": {
-            "0": { "label": "24mm at f/8" },
-            "1": { "label": "50mm at f/8" }
+            "0": { "label": "f/8-এ 24mm" },
+            "1": { "label": "f/8-এ 50mm" }
           }
         },
         "2": {
-          "scenario": "You are hiking with an APS-C camera and a 35mm lens. You want everything from about 3 meters to infinity sharp. Which aperture range should you look at in the table to find a hyperfocal distance near 6 meters (so that half of it — 3m — is your near-focus limit)?",
-          "hint": "Remember: near focus = hyperfocal / 2. Look for an aperture that gives a hyperfocal around 6m.",
-          "successMessage": "Great thinking! You correctly identified that you need a hyperfocal distance of about 6m, and found the right aperture range.",
-          "failureMessage": "Remember, near focus equals half the hyperfocal distance. You need the hyperfocal to be around 6m to get a near-focus limit of 3m.",
+          "scenario": "তুমি APS-C ক্যামেরা এবং 35mm লেন্স নিয়ে হাইকিং করছো। প্রায় 3 মিটার থেকে অসীম পর্যন্ত সবকিছু তীক্ষ্ণ চাও। টেবিলে কোন অ্যাপারচার পরিসরে দেখবে 6 মিটারের কাছাকাছি হাইপারফোকাল দূরত্ব পেতে (যাতে এর অর্ধেক — 3m — তোমার নিকট-ফোকাস সীমা হয়)?",
+          "hint": "মনে রেখো: নিকট ফোকাস = হাইপারফোকাল / 2। প্রায় 6m হাইপারফোকাল দেয় এমন অ্যাপারচার খোঁজো।",
+          "successMessage": "দারুণ চিন্তা! তুমি সঠিকভাবে চিহ্নিত করেছো যে তোমার প্রায় 6m হাইপারফোকাল দূরত্ব দরকার এবং সঠিক অ্যাপারচার পরিসর খুঁজে পেয়েছো।",
+          "failureMessage": "মনে রেখো, নিকট ফোকাস হাইপারফোকাল দূরত্বের অর্ধেকের সমান। 3m নিকট-ফোকাস সীমা পেতে তোমার হাইপারফোকাল প্রায় 6m হতে হবে।",
           "options": {
             "0": { "label": "f/2.8 — f/4" },
             "1": { "label": "f/5.6 — f/8" },
@@ -72,24 +72,24 @@
           }
         },
         "3": {
-          "scenario": "A friend switches from a full-frame camera to Micro Four Thirds but keeps shooting the same focal lengths. They complain that the hyperfocal distances seem different. Why?",
-          "hint": "The circle of confusion is calculated based on sensor size.",
-          "successMessage": "Exactly! The smaller M43 sensor uses a smaller CoC (about 0.015mm vs 0.03mm), which increases hyperfocal distances for the same focal length and aperture.",
-          "failureMessage": "The key factor is the circle of confusion. Smaller sensors require a tighter CoC standard, which pushes hyperfocal distances farther out.",
+          "scenario": "এক বন্ধু ফুল-ফ্রেম ক্যামেরা থেকে Micro Four Thirds-এ চলে গেছে কিন্তু একই ফোকাল দৈর্ঘ্য শুট করছে। তারা অভিযোগ করছে হাইপারফোকাল দূরত্ব ভিন্ন মনে হচ্ছে। কেন?",
+          "hint": "সার্কেল অফ কনফিউশন সেন্সর সাইজের ভিত্তিতে হিসাব করা হয়।",
+          "successMessage": "ঠিক! ছোট M43 সেন্সর ছোট CoC ব্যবহার করে (প্রায় 0.015mm বনাম 0.03mm), যা একই ফোকাল দৈর্ঘ্য ও অ্যাপারচারের জন্য হাইপারফোকাল দূরত্ব বাড়ায়।",
+          "failureMessage": "মূল কারণ হলো সার্কেল অফ কনফিউশন। ছোট সেন্সরের জন্য কঠোর CoC স্ট্যান্ডার্ড দরকার, যা হাইপারফোকাল দূরত্বকে আরো দূরে ঠেলে দেয়।",
           "options": {
-            "0": { "label": "The lens focal length changes on crop sensors" },
-            "1": { "label": "Smaller sensors use a smaller circle of confusion" },
-            "2": { "label": "Micro Four Thirds cameras have less accurate autofocus" }
+            "0": { "label": "ক্রপ সেন্সরে লেন্স ফোকাল দৈর্ঘ্য পরিবর্তন হয়" },
+            "1": { "label": "ছোট সেন্সর ছোট সার্কেল অফ কনফিউশন ব্যবহার করে" },
+            "2": { "label": "Micro Four Thirds ক্যামেরার অটোফোকাস কম সঠিক" }
           }
         },
         "4": {
-          "scenario": "You are shooting architecture at 14mm f/11 on full frame. The table shows a very short hyperfocal distance. Should you stop down further to f/22 for even more depth of field, or is f/11 the better choice?",
-          "hint": "Consider what happens to image sharpness at very small apertures.",
-          "successMessage": "Excellent! At f/11, diffraction is minimal on full frame, and the hyperfocal distance at 14mm is already very short. Stopping down to f/22 would soften the image due to diffraction without meaningful DoF benefit.",
-          "failureMessage": "While f/22 gives a shorter hyperfocal distance on paper, diffraction softening at f/22 on full frame actually reduces overall image sharpness. At 14mm f/11, the hyperfocal distance is already so short that the extra DoF is not worth the diffraction penalty.",
+          "scenario": "তুমি ফুল ফ্রেমে 14mm f/11-এ স্থাপত্য শুট করছো। টেবিল খুব ছোট হাইপারফোকাল দূরত্ব দেখাচ্ছে। আরো বেশি ক্ষেত্রের গভীরতার জন্য কি f/22-এ আরো স্টপ ডাউন করবে, নাকি f/11 ভালো পছন্দ?",
+          "hint": "খুব ছোট অ্যাপারচারে ছবির শার্পনেসের কী হয় বিবেচনা করো।",
+          "successMessage": "চমৎকার! f/11-এ ফুল ফ্রেমে বিবর্তন ন্যূনতম, এবং 14mm-এ হাইপারফোকাল দূরত্ব ইতিমধ্যে খুব ছোট। f/22-এ স্টপ ডাউন করলে বিবর্তনের কারণে ছবি নরম হবে, কোনো অর্থপূর্ণ DoF সুবিধা ছাড়াই।",
+          "failureMessage": "যদিও f/22 কাগজে-কলমে ছোট হাইপারফোকাল দূরত্ব দেয়, ফুল ফ্রেমে f/22-এ বিবর্তন নরমতা আসলে সামগ্রিক ছবির শার্পনেস কমায়। 14mm f/11-এ হাইপারফোকাল দূরত্ব ইতিমধ্যে এত ছোট যে অতিরিক্ত DoF বিবর্তনের দণ্ডের মূল্য নেই।",
           "options": {
-            "0": { "label": "Stop down to f/22 for maximum depth of field" },
-            "1": { "label": "Stay at f/11 — diffraction at f/22 will reduce sharpness" }
+            "0": { "label": "সর্বাধিক ক্ষেত্রের গভীরতার জন্য f/22-এ স্টপ ডাউন করো" },
+            "1": { "label": "f/11-এ থাকো — f/22-এ বিবর্তন শার্পনেস কমাবে" }
           }
         }
       }

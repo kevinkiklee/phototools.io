@@ -1,12 +1,12 @@
 {
   "toolUI": {
     "nd-filter-calculator": {
-      "baseShutterSpeed": "Base Shutter Speed",
-      "ndFilter": "ND Filter",
-      "resultingShutterSpeed": "Resulting Shutter Speed",
-      "stopsAdded": "Stops Added",
-      "quickReference": "Quick Reference",
-      "tableBase": "Base"
+      "baseShutterSpeed": "Базова витримка",
+      "ndFilter": "ND-фільтр",
+      "resultingShutterSpeed": "Результуюча витримка",
+      "stopsAdded": "Додані стопи",
+      "quickReference": "Швидкий довідник",
+      "tableBase": "База"
     }
   }
 }

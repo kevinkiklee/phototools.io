@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "景深（DoF）指的是照片中看起來清晰的距離範圍。淺景深會把主體後方的背景虛化掉，深景深則讓從前景到地平線一切都保持清晰。掌握景深，是攝影中最強大的創作工具之一。",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "景深的原理",
+          "text": "景深由「容許彌散圓」（CoC）決定 — 也就是感光元件上人眼仍能視為清晰點的最大模糊圓。三個物理因素會影響景深：焦距、光圈與主體距離。光圈越大（f 值越小），景深越淺，因為鏡頭以較大的角度會聚光線，使失焦點在感光元件上形成更大的光斑。"
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "焦距與距離",
+          "text": "較長的焦距會放大影像，也同時放大模糊圈，讓景深變得更淺。靠近主體拍攝也會縮減景深，原理相同 — 因為主體與背景之間的相對距離差異變大。超焦距則是指讓景深從一半超焦距處一直延伸到無限遠的對焦距離，可在全場景取得最大清晰範圍。"
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "散景與繞射",
+          "text": "散景指的是失焦區域的品質。光圈葉片的數量與形狀會影響散景的形態 — 葉片越圓，光點越柔順越趨近圓形。在極小光圈（f/16 以上）下，光線經過光圈邊緣時會產生繞射，使整張影像變得柔軟，甚至連景深範圍內的區域也不例外。每顆鏡頭通常都有個甜蜜點 — 全片幅常見於 f/5.6 到 f/8 之間 — 在銳利度與景深之間取得最佳平衡。"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "光圈",
+          "description": "大光圈（f/1.4–f/2.8）可產生淺景深與柔順散景。小光圈（f/8–f/16）則讓場景整體更加清晰。"
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "焦距",
+          "description": "在相同光圈與取景下，長焦鏡頭會壓縮透視並縮小景深。200mm f/4 的景深遠淺於 35mm f/4。"
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "主體距離",
+          "description": "對焦越近，景深越淺。微距攝影的景深常常只以毫米計算。"
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "感光元件尺寸",
+          "description": "較大的感光元件需要較長的焦距才能取得相同取景，間接使景深變淺。同樣取景下，全片幅的景深比微型四三更淺。"
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "拍團體人像時，建議使用 f/5.6 或更小的光圈，並讓大家站在同一對焦平面。在大光圈下，只要有人往前半步都可能脫焦。"
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "拍攝風景時，請對焦於超焦距而非無限遠。這樣能從近處前景一路延伸到遠方背景都保持清晰。"
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "想把人像背景虛化到極致，請拉長焦距並在構圖允許範圍內盡量靠近主體 — 這兩項同時進行，景深會戲劇性地變淺。"
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "焦距",
+          "definition": "鏡頭光學中心到感光元件的距離（mm），在對焦於無限遠時測量。焦距越長，影像放大率越高，景深也越淺。"
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "光圈",
+          "definition": "鏡頭開口的大小，以 f 值表示（例如 f/2.8）。f 值越低表示開口越大，進光量越多，景深也越淺。"
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "主體距離",
+          "definition": "從感光元件到對焦點的距離。對焦距離越近，景深越淺。"
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "感光元件尺寸",
+          "definition": "相機感光元件的實際物理尺寸。在相同取景下，較大的感光元件（全片幅、中片幅）景深比較小的（APS-C、微型四三）更淺。"
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "拍攝方向",
+          "definition": "切換橫幅或直幅拍攝方向。這會影響主體距離計算時的構圖參考。"
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "近端清晰界限",
+          "definition": "自相機方向起算，仍可視為清晰的最近距離。比這更近的區域都會顯得模糊。"
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "遠端清晰界限",
+          "definition": "自相機方向起算，仍可視為清晰的最遠距離。當此值達到無限遠時，近端界限以後的一切都清晰。"
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "總景深",
+          "definition": "近端與遠端清晰界限之間的完整距離 — 也就是影像中看起來清晰的整個區段。"
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "超焦距",
+          "definition": "能取得最大景深的對焦距離。對焦於此距離時，從半個超焦距處直到無限遠都保持清晰。"
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "背景虛化程度",
+          "definition": "衡量主體後方背景被虛化的程度。數值越高，背景越模糊，主體分離感越強。"
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "容許彌散圓",
+          "definition": "感光元件上人眼仍可視為一點的最大模糊圓直徑。決定景深計算中可接受清晰度的界線。"
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "主體分離度",
+          "definition": "0 到 100 的綜合分數，代表主體從背景中分離的程度，依背景虛化量與主體大小比例計算。"
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "散景形狀",
+          "definition": "失焦光點的形狀，由光圈葉片的數量與弧度決定。葉片越多，散景越圓越柔順。"
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "繞射",
+          "definition": "光圈極小時，光線會在光圈邊緣彎折，使影像變得柔軟。在全片幅上，這通常會在 f/16 之後開始明顯。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "您正在拍人像，希望背景能漂亮地虛化。應該選哪個光圈？",
+          "hint": "f 值越低代表鏡頭開口越大，背景虛化也越明顯。",
+          "successMessage": "答對了！像 f/1.8 或 f/2.8 這類大光圈會產生淺景深，用柔美的散景把主體從背景中分離出來。",
+          "failureMessage": "不太對。像 f/11 或 f/16 這類小光圈會讓場景大部分保持清晰。想要虛化背景，請選擇大光圈（低 f 值）。",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "您要在婚禮上拍一組 8 人分成兩排的團體照。哪個光圈比較能確保每個人都清晰？",
+          "hint": "人物距離略有差異，需要足夠的景深涵蓋兩排。",
+          "successMessage": "好選擇！f/5.6 的景深足以讓兩排都保持銳利，同時室內還能維持合理的快門速度。",
+          "failureMessage": "那個光圈可能讓後排失焦，或反而縮得太小。對於兩排人物，f/5.6 是可靠的起點。",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "您正在拍一張風景照：2 公尺外有野花，背景是遠方的山。使用全片幅配 24mm 鏡頭。哪種技巧可以讓前後景都清晰？",
+          "hint": "有一個特定的對焦距離，可以將景深從前景延伸到無限遠。",
+          "successMessage": "完全正確！在 f/11 下對焦於超焦距，大約從 1 公尺一直到無限遠都能保持可接受的清晰度 — 非常適合這個場景。",
+          "failureMessage": "如果對焦於無限遠，前景的花會糊掉。請使用超焦距，讓清晰範圍從近前景一路延伸到無限遠。",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "對焦於花（2m）" },
+            "1": { "label": "對焦於山（無限遠）" },
+            "2": { "label": "對焦於超焦距" },
+            "3": { "label": "對焦於花和山的中間距離" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "您在拍微距花卉，但只有最前面的花瓣清晰，其餘漸漸糊掉。光圈是 f/5.6。該怎麼做才能讓更多花體入焦？",
+          "hint": "近距離對焦時，景深會變得極薄。請考慮調整光圈。",
+          "successMessage": "沒錯！縮光圈到 f/11 或 f/16 能在微距拍攝中有效擴大原本極薄的景深。但要留意極小光圈下的繞射會使影像柔化。",
+          "failureMessage": "把光圈開得更大只會讓景深更薄。在微距攝影中，縮小光圈（提高 f 值）才是增加景深的主要方法。",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "把光圈開到 f/2.8 以取得更多光" },
+            "1": { "label": "縮光圈到 f/11" },
+            "2": { "label": "換一顆更廣角的鏡頭" },
+            "3": { "label": "離花遠一點" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "您在比較兩台相機的人像表現：一台是全片幅配 85mm f/1.8，另一台是微型四三配 42.5mm f/1.8。兩者取景相同。哪一台的景深較淺？",
+          "hint": "思考等效焦距，以及感光元件尺寸如何在相同 f 值下影響景深計算。",
+          "successMessage": "答對了！全片幅的景深大約淺了 2 級。雖然 MFT 鏡頭光圈相同，但因實際焦距較短（42.5mm vs 85mm），在相同取景下景深反而更深。",
+          "failureMessage": "雖然兩顆鏡頭都是 f/1.8，但全片幅為了相同取景必須使用較長的實際焦距，景深因此明顯更淺。",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "全片幅配 85mm f/1.8" },
+            "1": { "label": "微型四三配 42.5mm f/1.8" },
+            "2": { "label": "兩者景深相同" }
           }
         }
       }

@@ -1,90 +1,90 @@
 {
   "metadata": {
     "site": {
-      "defaultTitle": "PhotoTools — Photography Tools",
+      "defaultTitle": "PhotoTools — Εργαλεία φωτογραφίας",
       "titleTemplate": "%s | PhotoTools",
-      "description": "Free photography tools: FOV simulator, Color scheme generator, EXIF viewer, Crop and frame photos, and more.",
-      "ogTitle": "PhotoTools — Free Photography Tools"
+      "description": "Δωρεάν εργαλεία φωτογραφίας: FOV simulator, δημιουργία χρωματικών παλετών, EXIF viewer, κοπή και πλαισίωση φωτογραφιών, και άλλα.",
+      "ogTitle": "PhotoTools — Δωρεάν εργαλεία φωτογραφίας"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compare Focal Lengths",
-      "description": "Compare field of view across different focal lengths and sensor sizes. Free, interactive, shareable."
+      "title": "FOV Simulator — Σύγκριση εστιακών αποστάσεων",
+      "description": "Σύγκρινε το οπτικό πεδίο σε διαφορετικές εστιακές αποστάσεις και μεγέθη αισθητήρα. Δωρεάν, διαδραστικό, με δυνατότητα κοινοποίησης."
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator | PhotoTools",
-      "description": "Visualize how aperture, focal length, and distance affect background blur with real-time WebGL simulation"
+      "title": "Προσομοιωτής βάθους πεδίου | PhotoTools",
+      "description": "Οπτικοποίησε πώς διάφραγμα, εστιακή απόσταση και απόσταση επηρεάζουν το θόλωμα του φόντου με προσομοίωση WebGL σε πραγματικό χρόνο"
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator | PhotoTools",
-      "description": "Calculate optimal focus distances for front-to-back sharpness in macro and landscape photography"
+      "title": "Υπολογιστής focus stacking | PhotoTools",
+      "description": "Υπολόγισε τις βέλτιστες αποστάσεις εστίασης για ευκρίνεια από μπροστά έως πίσω σε macro και φωτογραφία τοπίου"
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator | PhotoTools",
-      "description": "Find equivalent aperture and focal length across sensor formats to match depth of field"
+      "title": "Υπολογιστής ισοδύναμων ρυθμίσεων | PhotoTools",
+      "description": "Βρες ισοδύναμο διάφραγμα και εστιακή απόσταση σε διαφορετικά φορμά αισθητήρα για να ταιριάξεις το βάθος πεδίου"
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator",
-      "description": "Interactive exposure triangle simulator — see how aperture, shutter speed, and ISO affect your image in real time with live preview."
+      "title": "Προσομοιωτής τριγώνου έκθεσης",
+      "description": "Διαδραστικός προσομοιωτής τριγώνου έκθεσης — δες πώς το διάφραγμα, η ταχύτητα κλείστρου και το ISO επηρεάζουν την εικόνα σε πραγματικό χρόνο με ζωντανή προεπισκόπηση."
     },
     "star-trail-calculator": {
       "title": "Star Trail Calculator",
-      "description": "Calculate the maximum exposure time for pinpoint stars using the 500, NPF, and other rules. Plan star trail stacking shots for any location."
+      "description": "Υπολόγισε τον μέγιστο χρόνο έκθεσης για σημειακά αστέρια με τους κανόνες 500, NPF και άλλους. Σχεδίασε λήψεις star trail για οποιαδήποτε τοποθεσία."
     },
     "white-balance-visualizer": {
       "title": "White Balance Visualizer",
-      "description": "See how white balance and color temperature affect your photos. Visualize changes from 2000K to 10000K with real-time preview."
+      "description": "Δες πώς η ισορροπία λευκού και η θερμοκρασία χρώματος επηρεάζουν τις φωτογραφίες σου. Οπτικοποίησε αλλαγές από 2000K έως 10000K σε πραγματικό χρόνο."
     },
     "sensor-size-comparison": {
       "title": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models."
+      "description": "Σύγκρινε μεγέθη αισθητήρων από medium format μέχρι smartphone. Δες overlay, side-by-side και πυκνότητα pixel με πραγματικά μοντέλα κάμερας."
     },
     "color-scheme-generator": {
       "title": "Color Scheme Generator",
-      "description": "Generate color palettes for photography using complementary, analogous, triadic, and tetradic color harmonies. Interactive color wheel with photo picker."
+      "description": "Δημιούργησε χρωματικές παλέτες για φωτογραφία με συμπληρωματικούς, ανάλογους, τριαδικούς και τετραδικούς συνδυασμούς. Διαδραστικός χρωματικός κύκλος με επιλογέα από φωτογραφία."
     },
     "frame-studio": {
       "title": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays. 100% client-side — your photos never leave your device."
+      "description": "Κόψε, πλαισίωσε και σύνθεσε φωτογραφίες με πλέγματα σύνθεσης. 100% στον browser σου — οι φωτογραφίες σου δεν φεύγουν από τη συσκευή."
     },
     "exif-viewer": {
       "title": "EXIF Viewer",
-      "description": "View EXIF metadata, histogram, and image preview for any photo. 100% client-side — your photos never leave your device."
+      "description": "Δες EXIF metadata, ιστόγραμμα και προεπισκόπηση εικόνας για οποιαδήποτε φωτογραφία. 100% στον browser σου — οι φωτογραφίες σου δεν φεύγουν από τη συσκευή."
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator",
-      "description": "Visualize hyperfocal distance for any lens and sensor. See exactly where to focus for maximum sharpness from foreground to infinity."
+      "title": "Προσομοιωτής υπερεστιακής απόστασης",
+      "description": "Οπτικοποίησε την υπερεστιακή απόσταση για οποιονδήποτε φακό και αισθητήρα. Δες ακριβώς πού να εστιάσεις για μέγιστη ευκρίνεια από το προσκήνιο μέχρι το άπειρο."
     },
     "shutter-speed-visualizer": {
       "title": "Shutter Speed Visualizer",
-      "description": "Find the minimum shutter speed for sharp handheld photos. Accounts for focal length, sensor size, and image stabilization."
+      "description": "Βρες την ελάχιστη ταχύτητα κλείστρου για ευκρινείς λήψεις με το χέρι. Συνυπολογίζει εστιακή απόσταση, μέγεθος αισθητήρα και σταθεροποίηση εικόνας."
     },
     "nd-filter-calculator": {
       "title": "ND Filter Calculator",
-      "description": "Calculate the correct shutter speed when using ND filters. Supports any filter strength from ND2 to ND1000000 with a quick-reference table."
+      "description": "Υπολόγισε τη σωστή ταχύτητα κλείστρου όταν χρησιμοποιείς φίλτρα ND. Υποστηρίζει οποιαδήποτε ισχύ φίλτρου από ND2 έως ND1000000 με πίνακα γρήγορης αναφοράς."
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator",
-      "description": "Interactive 3D simulator showing how focal length and distance affect perspective compression. See background compression change in real time."
+      "title": "Προσομοιωτής συμπίεσης προοπτικής",
+      "description": "Διαδραστικός 3D προσομοιωτής που δείχνει πώς η εστιακή απόσταση και η απόσταση επηρεάζουν τη συμπίεση προοπτικής. Δες τη συμπίεση του φόντου να αλλάζει σε πραγματικό χρόνο."
     },
     "about": {
-      "title": "About",
-      "description": "PhotoTools is a free collection of browser-based photography calculators, simulators, and references for photographers of all skill levels."
+      "title": "Σχετικά",
+      "description": "Το PhotoTools είναι μια δωρεάν συλλογή από υπολογιστές, προσομοιωτές και αναφορές φωτογραφίας για φωτογράφους κάθε επιπέδου, μέσα στον browser."
     },
     "contact": {
-      "title": "Contact | PhotoTools",
-      "description": "Get in touch with the PhotoTools team — questions, feedback, or suggestions about our photography tools."
+      "title": "Επικοινωνία | PhotoTools",
+      "description": "Επικοινώνησε με την ομάδα του PhotoTools — ερωτήσεις, σχόλια ή προτάσεις για τα εργαλεία φωτογραφίας μας."
     },
     "privacy": {
-      "title": "Privacy Policy | PhotoTools",
-      "description": "Learn how PhotoTools handles your data, including analytics, cookies, and contact form submissions at www.phototools.io."
+      "title": "Πολιτική απορρήτου | PhotoTools",
+      "description": "Μάθε πώς το PhotoTools διαχειρίζεται τα δεδομένα σου, συμπεριλαμβανομένων analytics, cookies και φόρμας επικοινωνίας στο www.phototools.io."
     },
     "terms": {
-      "title": "Terms of Service | PhotoTools",
-      "description": "Terms of Service for PhotoTools — learn about acceptable use, intellectual property, disclaimers, and limitations of liability for www.phototools.io."
+      "title": "Όροι χρήσης | PhotoTools",
+      "description": "Όροι χρήσης για το PhotoTools — μάθε για την αποδεκτή χρήση, τα πνευματικά δικαιώματα, τις αποποιήσεις και τους περιορισμούς ευθύνης για το www.phototools.io."
     },
     "glossary": {
-      "title": "Photography Glossary",
-      "description": "Searchable glossary of 50+ photography terms with definitions and links to interactive tools."
+      "title": "Γλωσσάρι φωτογραφίας",
+      "description": "Γλωσσάρι με αναζήτηση για πάνω από 50 όρους φωτογραφίας, με ορισμούς και συνδέσμους σε διαδραστικά εργαλεία."
     }
   }
 }

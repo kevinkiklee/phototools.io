@@ -1,50 +1,50 @@
 {
   "terms": {
-    "title": "Terms of Service",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Termes del servei",
+    "effectiveDate": "Data d'entrada en vigor: 3 d'abril de 2026",
     "sections": {
       "acceptance": {
-        "title": "Acceptance of Terms",
-        "body": "By accessing or using www.phototools.io (\"PhotoTools\" or \"the Site\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Site. These terms apply to all visitors and users of PhotoTools."
+        "title": "Acceptació dels termes",
+        "body": "En accedir o utilitzar www.phototools.io (\"PhotoTools\" o \"el Lloc\"), acceptes vincular-te a aquests termes del servei. Si no hi estàs d'acord, si us plau, no facis servir el Lloc. Aquests termes s'apliquen a tots els visitants i usuaris de PhotoTools."
       },
       "descriptionOfService": {
-        "title": "Description of Service",
-        "body": "PhotoTools provides free educational photography tools, including interactive calculators, simulators, and reference materials. The Site is intended for informational and educational purposes only. All tools are provided at no cost to users and are designed to help photographers learn and understand photographic concepts."
+        "title": "Descripció del servei",
+        "body": "PhotoTools ofereix eines de fotografia educatives gratuïtes, incloses calculadores, simuladors i materials de referència interactius. El Lloc és només amb finalitats informatives i educatives. Totes les eines es proporcionen sense cost per als usuaris i estan pensades per ajudar els fotògrafs a aprendre i entendre conceptes fotogràfics."
       },
       "noWarranty": {
-        "title": "No Warranty",
-        "body": "PhotoTools is provided \"as is\" without any warranty of any kind, express or implied. We make no guarantee that the tools, calculators, or information on this site are accurate, complete, or suitable for any particular purpose. Results from our tools are approximations and should not be relied upon for critical decisions, professional work, or situations where precision is essential. Always verify important calculations with qualified professionals or authoritative sources."
+        "title": "Sense garantia",
+        "body": "PhotoTools es proporciona \"tal com és\" sense cap mena de garantia, expressa o implícita. No garantim que les eines, calculadores o informació del lloc siguin exactes, completes o adequades per a cap finalitat concreta. Els resultats de les nostres eines són aproximacions i no s'haurien de fer servir per a decisions crítiques, treball professional o situacions on la precisió sigui essencial. Verifica sempre els càlculs importants amb professionals qualificats o fonts oficials."
       },
       "intellectualProperty": {
-        "title": "Intellectual Property",
-        "body": "All content on PhotoTools — including text, graphics, tool designs, code, and educational materials — is the property of PhotoTools unless otherwise noted. You are welcome to use the tools and reference materials for personal and educational purposes. Reproduction, redistribution, or commercial use of site content without prior written permission is prohibited."
+        "title": "Propietat intel·lectual",
+        "body": "Tot el contingut de PhotoTools — text, gràfics, disseny de les eines, codi i materials educatius — és propietat de PhotoTools llevat que s'indiqui el contrari. Pots utilitzar les eines i els materials de referència per a ús personal i educatiu. Queda prohibida la reproducció, redistribució o ús comercial del contingut del lloc sense permís escrit previ."
       },
       "acceptableUse": {
-        "title": "Acceptable Use",
-        "intro": "When using PhotoTools, you agree not to:",
+        "title": "Ús acceptable",
+        "intro": "En utilitzar PhotoTools, acceptes no:",
         "items": {
-          "laws": "Violate any applicable local, national, or international laws or regulations",
-          "disrupt": "Disrupt or interfere with the site's operation, servers, or networks",
-          "scrape": "Scrape, crawl, or systematically extract data from the site without prior written permission",
-          "misrepresent": "Misrepresent your identity or affiliation in communications with PhotoTools",
-          "commercial": "Use the site for any commercial purpose beyond personal reference without permission"
+          "laws": "Infringir cap llei o reglamentació local, nacional o internacional aplicable",
+          "disrupt": "Interrompre o interferir amb el funcionament del lloc, els servidors o les xarxes",
+          "scrape": "Extreure, rastrejar o recollir dades del lloc de manera sistemàtica sense permís escrit previ",
+          "misrepresent": "Falsejar la teva identitat o afiliació en les comunicacions amb PhotoTools",
+          "commercial": "Utilitzar el lloc amb cap finalitat comercial més enllà de la referència personal sense permís"
         }
       },
       "thirdPartyContent": {
-        "title": "Third-Party Content",
-        "body": "PhotoTools displays third-party advertisements and may include links to external websites. We are not responsible for the content, accuracy, or practices of third-party advertisers or linked sites. The inclusion of any advertisement or external link does not constitute an endorsement by PhotoTools. Your interactions with third-party services are governed by their own terms and privacy policies."
+        "title": "Contingut de tercers",
+        "body": "PhotoTools mostra anuncis de tercers i pot incloure enllaços a llocs externs. No som responsables del contingut, l'exactitud o les pràctiques dels anunciants de tercers ni dels llocs enllaçats. La inclusió d'un anunci o enllaç extern no suposa el nostre suport. Les teves interaccions amb serveis de tercers es regeixen pels seus propis termes i polítiques de privacitat."
       },
       "limitationOfLiability": {
-        "title": "Limitation of Liability",
-        "body": "To the fullest extent permitted by law, PhotoTools and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of — or inability to use — the Site or its tools. This includes, without limitation, damages resulting from reliance on information or calculations provided by PhotoTools. Your use of the Site is entirely at your own risk."
+        "title": "Limitació de responsabilitat",
+        "body": "En la màxima mesura permesa per la llei, PhotoTools i els seus responsables no seran responsables de cap dany directe, indirecte, incidental, especial o conseqüent derivat de l'ús — o de la impossibilitat d'ús — del Lloc o de les seves eines. Això inclou, sense limitació, els danys derivats de confiar en la informació o els càlculs proporcionats per PhotoTools. L'ús del Lloc és enterament sota la teva responsabilitat."
       },
       "changesToTerms": {
-        "title": "Changes to Terms",
-        "body": "We may modify these Terms of Service at any time. Updated terms will be posted on this page with a revised effective date. Continued use of PhotoTools after changes are posted constitutes your acceptance of the revised terms. We encourage you to review these terms periodically."
+        "title": "Canvis en els termes",
+        "body": "Podem modificar aquests termes del servei en qualsevol moment. Els termes actualitzats es publicaran en aquesta pàgina amb una nova data d'entrada en vigor. L'ús continuat de PhotoTools després de la publicació dels canvis suposa l'acceptació dels termes revisats. Et recomanem revisar aquests termes periòdicament."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about these Terms of Service, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Contacte",
+        "body": "Si tens preguntes sobre aquests termes del servei, escriu-nos a través de la nostra <contactLink>pàgina de contacte</contactLink>."
       }
     }
   }

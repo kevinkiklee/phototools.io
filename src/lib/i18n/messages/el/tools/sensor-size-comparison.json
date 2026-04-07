@@ -5,7 +5,7 @@
       "modeOverlay": "Overlay",
       "modeSideBySide": "Side by Side",
       "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
+      "pixelDensityDescription": "Εμφανίζονται τυπικές τιμές megapixel για κάθε αισθητήρα. Τα μεγαλύτερα pixels (μεγαλύτερα κελιά) αποτυπώνουν περισσότερο φως.",
       "sensors": "Sensors",
       "customSensors": "Custom Sensors",
       "placeholderName": "Name",
@@ -13,7 +13,7 @@
       "placeholderH": "H (mm)",
       "placeholderMP": "Megapixels (optional)",
       "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
+      "maxDimensionWarning": "Η μέγιστη διάσταση αισθητήρα είναι 99 mm",
       "addSensor": "Add Sensor",
       "save": "Save",
       "cancelEdit": "Cancel",
@@ -27,19 +27,19 @@
       "tableArea": "Area (mm\u00b2)",
       "tableCropFactor": "Crop Factor",
       "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "canvasAriaLabel": "Σύγκριση μεγέθους αισθητήρα σε λειτουργία {mode}",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "Τι είναι ο συντελεστής crop και γιατί έχει σημασία;",
+          "answer": "Ο συντελεστής crop περιγράφει τη διαφορά μεγέθους μεταξύ του αισθητήρα μιας κάμερας και ενός full-frame (35mm) αισθητήρα. Επηρεάζει την πραγματική εστιακή απόσταση, το βάθος πεδίου και την απόδοση σε χαμηλό φωτισμό. Συντελεστής crop 1.5× σημαίνει ότι ο αισθητήρας είναι 1.5 φορές μικρότερος από το full frame."
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "Ποια είναι τα πλεονεκτήματα των full-frame σε σχέση με τους APS-C αισθητήρες;",
+          "answer": "Οι full-frame αισθητήρες προσφέρουν καλύτερη απόδοση σε χαμηλό φωτισμό, μικρότερο βάθος πεδίου και ευρύτερο οπτικό πεδίο σε οποιαδήποτε εστιακή απόσταση. Οι αισθητήρες APS-C είναι πιο οικονομικοί, πιο ελαφριοί και δίνουν επιπλέον εμβέλεια για φωτογραφία άγριας ζωής και αθλημάτων."
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "Πώς επηρεάζει το μέγεθος του αισθητήρα το βάθος πεδίου;",
+          "answer": "Οι μεγαλύτεροι αισθητήρες δίνουν μικρότερο βάθος πεδίου στην ίδια κάδρωση. Για να πετύχεις το ίδιο κάδρο με μικρότερο αισθητήρα, είτε χρησιμοποιείς μικρότερη εστιακή απόσταση (μεγαλύτερο βάθος πεδίου), είτε απομακρύνεσαι (μεγαλύτερο βάθος πεδίου) — και στις δύο περιπτώσεις μειώνεται το θόλωμα του φόντου."
         }
       }
     }

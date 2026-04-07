@@ -2,63 +2,63 @@
   "tools": {
     "fov-simulator": {
       "name": "FOV Simulator",
-      "description": "Compare field of view across focal lengths and sensor sizes"
+      "description": "Compara l'angle de visió entre distàncies focals i mides de sensor"
     },
     "color-scheme-generator": {
       "name": "Color Scheme Generator",
-      "description": "Build color palettes for photography shoots"
+      "description": "Crea paletes de colors per a les teves sessions fotogràfiques"
     },
     "exposure-simulator": {
-      "name": "Exposure Triangle Simulator",
-      "description": "See how aperture, shutter speed, and ISO interact"
+      "name": "Simulador del triangle d'exposició",
+      "description": "Mira com interactuen el diafragma, la velocitat d'obturació i l'ISO"
     },
     "dof-simulator": {
       "name": "Depth-of-Field Simulator",
-      "description": "Visualize how aperture, focal length, and distance affect background blur"
+      "description": "Visualitza com el diafragma, la distància focal i la distància afecten el desenfocament del fons"
     },
     "focus-stacking-calculator": {
       "name": "Focus Stacking Calculator",
-      "description": "Calculate optimal focus distances for front-to-back sharpness"
+      "description": "Calcula distàncies d'enfocament òptimes per a una nitidesa de davant a darrere"
     },
     "equivalent-settings-calculator": {
-      "name": "Equivalent Settings Calculator",
-      "description": "Find equivalent aperture and focal length across sensor formats"
+      "name": "Calculadora d'ajustos equivalents",
+      "description": "Troba el diafragma i la distància focal equivalents entre formats de sensor"
     },
     "hyperfocal-simulator": {
-      "name": "Hyperfocal Distance Simulator",
-      "description": "Learn where to focus for maximum sharpness from foreground to infinity"
+      "name": "Simulador de distància hiperfocal",
+      "description": "Descobreix on enfocar per obtenir la màxima nitidesa des del primer pla fins a l'infinit"
     },
     "shutter-speed-visualizer": {
       "name": "Shutter Speed Visualizer",
-      "description": "Find the minimum safe shutter speed for sharp handheld shots"
+      "description": "Troba la velocitat d'obturació mínima per a fotos nítides a pols"
     },
     "nd-filter-calculator": {
       "name": "ND Filter Calculator",
-      "description": "Calculate exposure time with any ND filter"
+      "description": "Calcula el temps d'exposició amb qualsevol filtre ND"
     },
     "star-trail-calculator": {
       "name": "Star Trail Calculator",
-      "description": "Calculate max exposure for sharp stars or plan star trail shots"
+      "description": "Calcula l'exposició màxima per a estrelles nítides o planifica fotos de rastres d'estrelles"
     },
     "perspective-compression-simulator": {
-      "name": "Perspective Compression Simulator",
-      "description": "See how focal length affects background compression"
+      "name": "Simulador de compressió de perspectiva",
+      "description": "Mira com la distància focal afecta la compressió del fons"
     },
     "white-balance-visualizer": {
       "name": "White Balance Visualizer",
-      "description": "See how color temperature affects your photos"
+      "description": "Mira com la temperatura de color afecta les teves fotos"
     },
     "sensor-size-comparison": {
       "name": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes visually"
+      "description": "Compara visualment les mides dels sensors de càmera"
     },
     "frame-studio": {
       "name": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays"
+      "description": "Retalla, emmarca i composa fotos amb graelles superposades"
     },
     "exif-viewer": {
       "name": "EXIF Viewer",
-      "description": "View EXIF metadata and histogram for any photo — 100% client-side"
+      "description": "Consulta les metadades EXIF i l'histograma de qualsevol foto — 100% al navegador"
     }
   }
 }

@@ -1,27 +1,27 @@
 {
   "toolUI": {
     "shutter-speed-visualizer": {
-      "description": "See how shutter speed affects motion blur for different subjects.",
-      "shutterSpeed": "Shutter Speed",
-      "shutterSpeedAriaLabel": "Shutter speed",
-      "sliderSlow": "Slow (2s)",
-      "sliderFast": "Fast (1/4000)",
-      "selectedSpeed": "Selected Speed",
-      "motionBlurAriaLabel": "Motion blur visualization for different subjects",
-      "verdictFrozen": "Frozen",
-      "verdictMostlySharp": "Mostly sharp",
-      "verdictSlightBlur": "Slight blur",
-      "verdictMotionBlur": "Motion blur",
-      "standingPerson": "Standing person",
-      "slowWalk": "Slow walk",
-      "jogging": "Jogging",
-      "running": "Running",
-      "cyclist": "Cyclist",
-      "birdsInFlight": "Birds in flight",
-      "carCity": "Car (city)",
-      "f1Car": "F1 car",
-      "airplaneLanding": "Airplane (landing)",
-      "stationary": "stationary"
+      "description": "Mira com la velocitat d'obturació afecta el rastre de moviment per a diferents subjectes.",
+      "shutterSpeed": "Velocitat d'obturació",
+      "shutterSpeedAriaLabel": "Velocitat d'obturació",
+      "sliderSlow": "Lenta (2s)",
+      "sliderFast": "Ràpida (1/4000)",
+      "selectedSpeed": "Velocitat seleccionada",
+      "motionBlurAriaLabel": "Visualització del rastre de moviment per a diferents subjectes",
+      "verdictFrozen": "Congelat",
+      "verdictMostlySharp": "Majoritàriament nítid",
+      "verdictSlightBlur": "Lleuger rastre",
+      "verdictMotionBlur": "Rastre de moviment",
+      "standingPerson": "Persona dreta",
+      "slowWalk": "Caminar lent",
+      "jogging": "Footing",
+      "running": "Corrent",
+      "cyclist": "Ciclista",
+      "birdsInFlight": "Ocells en vol",
+      "carCity": "Cotxe (ciutat)",
+      "f1Car": "Cotxe de F1",
+      "airplaneLanding": "Avió (aterrant)",
+      "stationary": "quiet"
     }
   }
 }

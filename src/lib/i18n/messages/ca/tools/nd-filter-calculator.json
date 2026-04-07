@@ -1,11 +1,11 @@
 {
   "toolUI": {
     "nd-filter-calculator": {
-      "baseShutterSpeed": "Base Shutter Speed",
-      "ndFilter": "ND Filter",
-      "resultingShutterSpeed": "Resulting Shutter Speed",
-      "stopsAdded": "Stops Added",
-      "quickReference": "Quick Reference",
+      "baseShutterSpeed": "Velocitat d'obturació base",
+      "ndFilter": "Filtre ND",
+      "resultingShutterSpeed": "Velocitat d'obturació resultant",
+      "stopsAdded": "Passos afegits",
+      "quickReference": "Referència ràpida",
       "tableBase": "Base"
     }
   }

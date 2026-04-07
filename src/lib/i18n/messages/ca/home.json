@@ -1,13 +1,13 @@
 {
   "home": {
-    "heroTitle": "PhotoTools — Free Photography Tools",
-    "heroDesc": "Free photography calculators, simulators, and references. No sign-up required — your photos never leave your browser.",
-    "comingSoon": "Coming Soon",
+    "heroTitle": "PhotoTools — Eines de fotografia gratuïtes",
+    "heroDesc": "Calculadores, simuladors i referències de fotografia gratuïtes. Sense registre — les teves fotos no surten mai del navegador.",
+    "comingSoon": "Aviat",
     "categories": {
-      "visualizer": "Visualizers",
-      "calculator": "Calculators",
-      "reference": "Reference",
-      "file-tool": "File Tools"
+      "visualizer": "Visualitzadors",
+      "calculator": "Calculadores",
+      "reference": "Referència",
+      "file-tool": "Eines de fitxers"
     }
   }
 }

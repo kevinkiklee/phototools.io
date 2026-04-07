@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "sensor-size-comparison": {
-      "displayMode": "Display Mode",
+      "displayMode": "Visningsläge",
       "modeOverlay": "Overlay",
-      "modeSideBySide": "Side by Side",
-      "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
-      "sensors": "Sensors",
-      "customSensors": "Custom Sensors",
-      "placeholderName": "Name",
-      "placeholderW": "W (mm)",
+      "modeSideBySide": "Sida vid sida",
+      "modePixelDensity": "Pixeltäthet",
+      "pixelDensityDescription": "Visar vanliga megapixelantal för varje sensor. Större pixlar (större celler) samlar mer ljus.",
+      "sensors": "Sensorer",
+      "customSensors": "Anpassade sensorer",
+      "placeholderName": "Namn",
+      "placeholderW": "B (mm)",
       "placeholderH": "H (mm)",
-      "placeholderMP": "Megapixels (optional)",
+      "placeholderMP": "Megapixel (valfritt)",
       "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
-      "addSensor": "Add Sensor",
-      "save": "Save",
-      "cancelEdit": "Cancel",
-      "edit": "Edit",
-      "remove": "Remove",
-      "deleteAllCustom": "Delete All Custom Sensors",
+      "maxDimensionWarning": "Maximal sensorstorlek är 99 mm",
+      "addSensor": "Lägg till sensor",
+      "save": "Spara",
+      "cancelEdit": "Avbryt",
+      "edit": "Redigera",
+      "remove": "Ta bort",
+      "deleteAllCustom": "Ta bort alla anpassade sensorer",
       "tableSensor": "Sensor",
-      "tableWidth": "Width (mm)",
-      "tableHeight": "Height (mm)",
-      "tableAspectRatio": "Aspect Ratio",
-      "tableArea": "Area (mm\u00b2)",
-      "tableCropFactor": "Crop Factor",
-      "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "tableWidth": "Bredd (mm)",
+      "tableHeight": "Höjd (mm)",
+      "tableAspectRatio": "Bildförhållande",
+      "tableArea": "Yta (mm²)",
+      "tableCropFactor": "Cropfaktor",
+      "tableAspectCrop": "Aspect crop",
+      "canvasAriaLabel": "Jämförelse av sensorstorlek i läge {mode}",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "Vad är cropfaktor och varför spelar den roll?",
+          "answer": "Cropfaktorn beskriver storleksskillnaden mellan en kameras sensor och en fullformatssensor (35 mm). Den påverkar den effektiva brännvidden, skärpedjupet och prestandan i svagt ljus. En cropfaktor på 1,5× betyder att sensorn är 1,5 gånger mindre än fullformat."
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "Vilka är fördelarna med fullformat kontra APS-C?",
+          "answer": "Fullformatssensorer har bättre prestanda i svagt ljus, grundare skärpedjup och bredare bildvinkel vid given brännvidd. APS-C-sensorer är billigare, lättare och ger extra räckvidd för vilt- och sportfoto."
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "Hur påverkar sensorstorleken skärpedjupet?",
+          "answer": "Större sensorer ger grundare skärpedjup vid ekvivalent bildutsnitt. För att få samma bildutsnitt med en mindre sensor använder du antingen en kortare brännvidd (större skärpedjup) eller går längre bort (större skärpedjup) — båda minskar bakgrundsoskärpan."
         }
       }
     }

@@ -1,13 +1,13 @@
 {
   "toolUI": {
     "perspective-compression-simulator": {
-      "cameraSettings": "Camera Settings",
-      "focalLength": "Focal Length",
+      "cameraSettings": "Ajustos de càmera",
+      "focalLength": "Distància focal",
       "equivalent35mm": "Equivalent (35mm)",
-      "perspectiveDistance": "Perspective & Distance",
-      "subjectDistance": "Subject Distance",
-      "maintainSubjectSize": "Maintain Subject Size",
-      "resetAll": "Reset All"
+      "perspectiveDistance": "Perspectiva i distància",
+      "subjectDistance": "Distància al subjecte",
+      "maintainSubjectSize": "Mantén la mida del subjecte",
+      "resetAll": "Restableix-ho tot"
     }
   }
 }

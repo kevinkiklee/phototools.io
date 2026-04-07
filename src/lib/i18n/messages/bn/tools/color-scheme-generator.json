@@ -1,69 +1,69 @@
 {
   "toolUI": {
     "color-scheme-generator": {
-      "colorScheme": "Color Scheme",
-      "complementary": "Complementary",
-      "analogous": "Analogous",
-      "triadic": "Triadic",
-      "splitComplementary": "Split Complementary",
-      "tetradic": "Tetradic",
-      "keyColor": "Key Color",
+      "colorScheme": "রঙের স্কিম",
+      "complementary": "কমপ্লিমেন্টারি",
+      "analogous": "অ্যানালগাস",
+      "triadic": "ট্রায়াডিক",
+      "splitComplementary": "স্প্লিট কমপ্লিমেন্টারি",
+      "tetradic": "টেট্রাডিক",
+      "keyColor": "মূল রঙ",
       "hue": "Hue:",
       "saturation": "Saturation:",
       "lightness": "Lightness:",
-      "splitAngle": "Split angle:",
+      "splitAngle": "স্প্লিট কোণ:",
       "spread": "Spread:",
-      "rectangleWidth": "Rectangle width:",
-      "square": "(square)",
-      "pickFromPhoto": "Pick from Photo",
-      "dropPhotoPrompt": "Drop a photo here or click to browse",
-      "keyColorLabel": "Key color — click to copy hex",
-      "clickToCopyHex": "Click to copy hex",
-      "copiedExcl": "Copied!",
-      "copyColors": "Copy colors",
+      "rectangleWidth": "আয়তক্ষেত্রের প্রস্থ:",
+      "square": "(বর্গ)",
+      "pickFromPhoto": "ছবি থেকে বাছাই করো",
+      "dropPhotoPrompt": "এখানে একটি ছবি ড্রপ করো বা ব্রাউজ করতে ক্লিক করো",
+      "keyColorLabel": "মূল রঙ — hex কপি করতে ক্লিক করো",
+      "clickToCopyHex": "hex কপি করতে ক্লিক করো",
+      "copiedExcl": "কপি হয়েছে!",
+      "copyColors": "রঙ কপি করো",
       "hexFormat": "Hex",
       "cssFormat": "CSS",
       "rgbFormat": "RGB",
-      "copyHexCodes": "Copy hex codes",
-      "copyCssVariables": "Copy CSS variables",
-      "copyRgbValues": "Copy RGB values",
-      "pickColorFromPhoto": "Pick color from photo",
-      "close": "Close",
-      "dropPhotoOrBrowse": "Drop a photo here or click to browse",
-      "tapToChoose": "Tap to choose a photo",
-      "tapToSample": "Tap anywhere on the photo to sample that color",
-      "changePhoto": "Change photo",
-      "privacyNote": "Your photo stays in your browser — nothing is uploaded",
+      "copyHexCodes": "hex কোড কপি করো",
+      "copyCssVariables": "CSS ভ্যারিয়েবল কপি করো",
+      "copyRgbValues": "RGB মান কপি করো",
+      "pickColorFromPhoto": "ছবি থেকে রঙ বাছাই করো",
+      "close": "বন্ধ করো",
+      "dropPhotoOrBrowse": "এখানে একটি ছবি ড্রপ করো বা ব্রাউজ করতে ক্লিক করো",
+      "tapToChoose": "ছবি বাছাই করতে ট্যাপ করো",
+      "tapToSample": "সেই রঙের নমুনা নিতে ছবিতে যেকোনো জায়গায় ট্যাপ করো",
+      "changePhoto": "ছবি পরিবর্তন করো",
+      "privacyNote": "তোমার ছবি তোমার ব্রাউজারেই থাকে — কিছুই আপলোড হয় না",
       "suggestions": {
         "complementary": {
-          "warm": "Great for: warm sunset portraits with cool shadow contrast",
-          "cool": "Great for: moody blue-hour shots with warm accent lighting",
-          "default": "Great for: high-contrast compositions with strong visual tension"
+          "warm": "উপযুক্ত: উষ্ণ সূর্যাস্তের পোর্ট্রেট শীতল ছায়ার কনট্রাস্ট সহ",
+          "cool": "উপযুক্ত: মুডি ব্লু-আওয়ার শট উষ্ণ অ্যাকসেন্ট লাইটিং সহ",
+          "default": "উপযুক্ত: শক্তিশালী ভিজ্যুয়াল উত্তেজনাসহ উচ্চ-কনট্রাস্ট কম্পোজিশন"
         },
         "analogous": {
-          "warm": "Great for: golden hour landscapes with unified warm tones",
-          "cool": "Great for: serene water scenes and twilight photography",
-          "default": "Great for: harmonious nature shots with smooth color transitions"
+          "warm": "উপযুক্ত: সংহত উষ্ণ টোনসহ গোল্ডেন আওয়ার ল্যান্ডস্কেপ",
+          "cool": "উপযুক্ত: প্রশান্ত জলের দৃশ্য ও গোধূলি ফটোগ্রাফি",
+          "default": "উপযুক্ত: মসৃণ রঙের রূপান্তরসহ সুরেলা প্রকৃতির শট"
         },
-        "triadic": "Use for: vibrant editorial work and bold creative portraits",
+        "triadic": "ব্যবহার করো: প্রাণবন্ত এডিটোরিয়াল কাজ ও সাহসী সৃজনশীল পোর্ট্রেটে",
         "splitComplementary": {
-          "warm": "Use for: contrasting wardrobe against a natural backdrop",
-          "default": "Use for: balanced product photography with visual variety"
+          "warm": "ব্যবহার করো: প্রাকৃতিক ব্যাকড্রপের বিপরীতে কনট্রাস্টিং পোশাকে",
+          "default": "ব্যবহার করো: ভিজ্যুয়াল বৈচিত্র্যসহ ভারসাম্যপূর্ণ প্রোডাক্ট ফটোগ্রাফিতে"
         },
-        "tetradic": "Use for: rich editorial layouts and complex multi-subject compositions"
+        "tetradic": "ব্যবহার করো: সমৃদ্ধ এডিটোরিয়াল লেআউট ও জটিল মাল্টি-সাবজেক্ট কম্পোজিশনে"
       },
       "faq": {
         "what-is-color-harmony": {
-          "question": "What is color harmony in photography?",
-          "answer": "Color harmony refers to aesthetically pleasing color combinations based on their positions on the color wheel. Harmonious colors create visual balance and can evoke specific moods in your photographs."
+          "question": "ফটোগ্রাফিতে রঙের হারমোনি কী?",
+          "answer": "রঙের হারমোনি মানে রঙের চাকায় অবস্থানের ভিত্তিতে নান্দনিকভাবে মনোরম রঙের সংমিশ্রণ। সুরেলা রঙ ভিজ্যুয়াল ভারসাম্য তৈরি করে এবং তোমার ছবিতে নির্দিষ্ট মুড জাগিয়ে তুলতে পারে।"
         },
         "complementary-vs-analogous": {
-          "question": "What is the difference between complementary and analogous colors?",
-          "answer": "Complementary colors sit opposite each other on the color wheel (like blue and orange) and create high contrast. Analogous colors sit next to each other (like blue, blue-green, and green) and create a more harmonious, unified feel."
+          "question": "কমপ্লিমেন্টারি ও অ্যানালগাস রঙের মধ্যে পার্থক্য কী?",
+          "answer": "কমপ্লিমেন্টারি রঙ কালার হুইলে একে অপরের বিপরীতে থাকে (যেমন নীল ও কমলা) এবং উচ্চ কনট্রাস্ট তৈরি করে। অ্যানালগাস রঙ পাশাপাশি বসে (যেমন নীল, নীল-সবুজ ও সবুজ) এবং আরো সুরেলা, সংহত অনুভূতি তৈরি করে।"
         },
         "how-to-use-color-schemes-photography": {
-          "question": "How do I use color schemes in photography?",
-          "answer": "Plan your shoots around a color palette — choose wardrobe, locations, and props that match your scheme. In post-processing, use color grading to emphasize your chosen palette. Color schemes help create a consistent visual identity across a photo series."
+          "question": "ফটোগ্রাফিতে রঙের স্কিম কীভাবে ব্যবহার করবো?",
+          "answer": "একটি রঙের প্যালেটের চারপাশে তোমার শুট পরিকল্পনা করো — তোমার স্কিমের সাথে মেলে এমন পোশাক, লোকেশন ও প্রপ বেছে নাও। পোস্ট-প্রসেসিংয়ে, তোমার নির্বাচিত প্যালেটকে জোর দিতে কালার গ্রেডিং ব্যবহার করো। রঙের স্কিম একটি ছবির সিরিজ জুড়ে ধারাবাহিক ভিজ্যুয়াল পরিচয় তৈরি করতে সাহায্য করে।"
         }
       }
     }

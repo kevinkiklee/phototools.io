@@ -1,82 +1,82 @@
 {
   "education": {
     "equivalent-settings-calculator": {
-      "beginner": "Different sensor sizes produce different depth of field and field of view even at the same focal length and aperture. Equivalent settings let you find the lens and aperture combination on a second camera that reproduces the same framing and background blur. This is essential when comparing gear across formats or switching between camera systems.",
+      "beginner": "Διαφορετικά μεγέθη αισθητήρα δίνουν διαφορετικό βάθος πεδίου και οπτικό πεδίο ακόμα και με την ίδια εστιακή απόσταση και διάφραγμα. Οι ισοδύναμες ρυθμίσεις σου επιτρέπουν να βρεις τον συνδυασμό φακού και διαφράγματος σε μια δεύτερη κάμερα που αναπαράγει το ίδιο κάδρο και θόλωμα φόντου. Είναι απαραίτητο όταν συγκρίνεις εξοπλισμό μεταξύ φορμά ή όταν αλλάζεις σύστημα κάμερας.",
       "deeper": {
         "0": {
-          "heading": "The Crop Factor",
-          "text": "Every sensor has a crop factor relative to the 35mm full-frame standard. APS-C sensors have a factor around 1.5×, Micro Four Thirds 2×, and medium format around 0.79×. Multiplying the actual focal length by the crop factor gives the full-frame equivalent field of view. A 35mm lens on APS-C frames like a 52.5mm on full frame."
+          "heading": "Ο συντελεστής crop",
+          "text": "Κάθε αισθητήρας έχει έναν συντελεστή crop σε σχέση με το πρότυπο full-frame 35mm. Οι αισθητήρες APS-C έχουν συντελεστή γύρω στο 1.5×, οι Micro Four Thirds 2×, και οι medium format γύρω στο 0.79×. Πολλαπλασιάζοντας την πραγματική εστιακή απόσταση με τον συντελεστή crop παίρνεις το ισοδύναμο οπτικό πεδίο σε full-frame. Ένας φακός 35mm σε APS-C κάνει κάδρο σαν 52.5mm σε full-frame."
         },
         "1": {
-          "heading": "Equivalent Aperture & DoF",
-          "text": "To match depth of field across formats, multiply the f-number by the same crop factor. An f/1.4 lens on Micro Four Thirds produces DoF equivalent to f/2.8 on full frame (1.4 × 2 = 2.8). This is why full-frame cameras are prized for shallow DoF — you can use physically faster lenses at wider actual apertures to achieve blur that smaller sensors cannot replicate."
+          "heading": "Ισοδύναμο διάφραγμα & DoF",
+          "text": "Για να ταιριάξεις το βάθος πεδίου μεταξύ φορμά, πολλαπλασίασε το f με τον ίδιο συντελεστή crop. Ένας φακός f/1.4 σε Micro Four Thirds δίνει DoF ισοδύναμο με f/2.8 σε full-frame (1.4 × 2 = 2.8). Γι' αυτό οι full-frame κάμερες εκτιμώνται τόσο για το ρηχό DoF — μπορείς να χρησιμοποιήσεις φυσικά ταχύτερους φακούς σε μεγαλύτερα πραγματικά διαφράγματα για θόλωμα που οι μικρότεροι αισθητήρες δεν μπορούν να αναπαράγουν."
         },
         "2": {
-          "heading": "Equivalent ISO & Total Light",
-          "text": "Matching exposure brightness across formats requires adjusting ISO by the crop factor squared. The larger sensor collects more total light for the same scene, which means it can use a lower ISO for equivalent noise performance. A full-frame sensor at ISO 800 produces similar noise to an APS-C sensor at ISO 356 and a Micro Four Thirds sensor at ISO 200."
+          "heading": "Ισοδύναμο ISO & συνολικό φως",
+          "text": "Για να ταιριάξεις τη φωτεινότητα έκθεσης μεταξύ φορμά, χρειάζεται να προσαρμόσεις το ISO με τον συντελεστή crop υψωμένο στο τετράγωνο. Ο μεγαλύτερος αισθητήρας συλλέγει περισσότερο συνολικό φως για την ίδια σκηνή, δηλαδή μπορεί να χρησιμοποιήσει χαμηλότερο ISO για ισοδύναμη απόδοση στον θόρυβο. Ένας full-frame αισθητήρας στο ISO 800 δίνει παρόμοιο θόρυβο με έναν APS-C στο ISO 356 και έναν Micro Four Thirds στο ISO 200."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame sensor diagonal to the target sensor diagonal. This single number drives all equivalence calculations for focal length, aperture, and ISO."
+          "label": "Συντελεστής crop",
+          "description": "Η αναλογία της διαγωνίου του full-frame αισθητήρα προς τη διαγώνιο του αισθητήρα στόχου. Αυτός ο μοναδικός αριθμός καθορίζει όλους τους υπολογισμούς ισοδυναμίας για εστιακή απόσταση, διάφραγμα και ISO."
         },
         "1": {
-          "label": "Sensor Size",
-          "description": "Physically larger sensors capture more light and produce shallower DoF at equivalent framing. The equivalence calculator reveals exactly how much difference each format makes."
+          "label": "Μέγεθος αισθητήρα",
+          "description": "Οι φυσικά μεγαλύτεροι αισθητήρες συλλαμβάνουν περισσότερο φως και δίνουν πιο ρηχό DoF σε ισοδύναμο κάδρο. Ο υπολογιστής ισοδυναμίας αποκαλύπτει ακριβώς πόση διαφορά κάνει κάθε φορμά."
         },
         "2": {
-          "label": "Available Lenses",
-          "description": "Equivalence math may call for a lens that does not exist. A 17mm f/0.7 is the equivalent of 35mm f/1.4 on MFT — but no such lens is made. Real-world gear limits what is achievable."
+          "label": "Διαθέσιμοι φακοί",
+          "description": "Τα μαθηματικά της ισοδυναμίας μπορεί να απαιτούν έναν φακό που δεν υπάρχει. Ένας 17mm f/0.7 είναι το ισοδύναμο του 35mm f/1.4 σε MFT — αλλά τέτοιος φακός δεν κατασκευάζεται. Ο πραγματικός εξοπλισμός θέτει τα όρια."
         }
       },
       "tips": {
         "0": {
-          "text": "When comparing camera systems, always compare at equivalent settings rather than matching f-numbers. An f/2.8 lens on Micro Four Thirds does not give the same background blur as f/2.8 on full frame — you need f/1.4 on MFT to match."
+          "text": "Όταν συγκρίνεις συστήματα κάμερας, πάντα σύγκρινε σε ισοδύναμες ρυθμίσεις, όχι απλά σε ίδιους αριθμούς f. Ένας φακός f/2.8 σε Micro Four Thirds δεν δίνει το ίδιο θόλωμα φόντου με f/2.8 σε full-frame — χρειάζεσαι f/1.4 σε MFT για να ταιριάξει."
         },
         "1": {
-          "text": "Use equivalence to plan lens purchases when switching systems. If you love the look of 85mm f/1.8 on full frame, look for a 56mm f/1.2 on APS-C or a 42.5mm f/0.95 on MFT for a similar rendering."
+          "text": "Χρησιμοποίησε την ισοδυναμία για να σχεδιάσεις αγορές φακών όταν αλλάζεις σύστημα. Αν σου αρέσει το look του 85mm f/1.8 σε full-frame, ψάξε για 56mm f/1.2 σε APS-C ή 42.5mm f/0.95 σε MFT για παρόμοια απόδοση."
         },
         "2": {
-          "text": "Remember that equivalence applies to depth of field and field of view, not to lens speed for exposure. An f/2.8 lens on any format still lets in the same amount of light per unit area — the larger sensor just collects more total light because of its greater area."
+          "text": "Θυμήσου ότι η ισοδυναμία ισχύει για το βάθος πεδίου και το οπτικό πεδίο, όχι για την ταχύτητα φακού ως προς την έκθεση. Ένας φακός f/2.8 σε οποιοδήποτε φορμά αφήνει την ίδια ποσότητα φωτός ανά μονάδα επιφάνειας — απλώς ο μεγαλύτερος αισθητήρας συλλέγει περισσότερο συνολικό φως λόγω της μεγαλύτερης επιφάνειάς του."
         }
       },
       "tooltips": {
         "sourceSensor": {
-          "term": "Source Sensor",
-          "definition": "The sensor format of the camera whose settings you want to match. All equivalence calculations are relative to this starting point."
+          "term": "Αισθητήρας πηγής",
+          "definition": "Το φορμά αισθητήρα της κάμερας της οποίας τις ρυθμίσεις θέλεις να ταιριάξεις. Όλοι οι υπολογισμοί ισοδυναμίας γίνονται σε σχέση με αυτό το σημείο εκκίνησης."
         },
         "sourceFocalLength": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens on your source camera. This will be converted to equivalent focal lengths on target formats."
+          "term": "Εστιακή απόσταση",
+          "definition": "Η πραγματική εστιακή απόσταση του φακού στην κάμερα πηγής. Θα μετατραπεί σε ισοδύναμες εστιακές αποστάσεις στα φορμά στόχου."
         },
         "sourceAperture": {
-          "term": "Aperture",
-          "definition": "The f-number on your source camera. The equivalent aperture on each target format determines matching depth of field."
+          "term": "Διάφραγμα",
+          "definition": "Ο αριθμός f στην κάμερα πηγής. Το ισοδύναμο διάφραγμα σε κάθε φορμά στόχου καθορίζει το ταιριαστό βάθος πεδίου."
         },
         "targetSensor": {
-          "term": "Target Sensor",
-          "definition": "The sensor format you want to find equivalent settings for. The calculator applies the relative crop factor to compute matching focal length and aperture."
+          "term": "Αισθητήρας στόχου",
+          "definition": "Το φορμά αισθητήρα για το οποίο θέλεις να βρεις ισοδύναμες ρυθμίσεις. Ο υπολογιστής εφαρμόζει τον σχετικό συντελεστή crop για να βρει την αντίστοιχη εστιακή απόσταση και διάφραγμα."
         },
         "cropFactor": {
-          "term": "Crop Factor",
-          "definition": "The ratio between the diagonal of a 35mm full-frame sensor and the target sensor. Multiply focal length by crop factor for equivalent FOV; multiply aperture by crop factor for equivalent DoF."
+          "term": "Συντελεστής crop",
+          "definition": "Η αναλογία μεταξύ της διαγωνίου ενός full-frame 35mm αισθητήρα και του αισθητήρα στόχου. Πολλαπλασίασε την εστιακή απόσταση με τον συντελεστή crop για ισοδύναμο FOV, πολλαπλασίασε το διάφραγμα με τον συντελεστή crop για ισοδύναμο DoF."
         },
         "equivalentFL": {
-          "term": "Equivalent Focal Length",
-          "definition": "The focal length on the target format that produces the same field of view as the source setup."
+          "term": "Ισοδύναμη εστιακή απόσταση",
+          "definition": "Η εστιακή απόσταση στο φορμά στόχου που δίνει το ίδιο οπτικό πεδίο με τη διάταξη πηγής."
         },
         "equivalentAperture": {
-          "term": "Equivalent Aperture",
-          "definition": "The f-number on the target format that produces the same depth of field as the source setup. May be faster than any real lens."
+          "term": "Ισοδύναμο διάφραγμα",
+          "definition": "Ο αριθμός f στο φορμά στόχου που δίνει το ίδιο βάθος πεδίου με τη διάταξη πηγής. Μπορεί να είναι πιο γρήγορος από οποιονδήποτε πραγματικό φακό."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You shoot portraits with an 85mm f/1.8 lens on a full-frame camera. A friend uses Micro Four Thirds (2× crop). What focal length does your friend need to match your field of view?",
-          "hint": "Divide the full-frame focal length by the MFT crop factor to find the actual lens needed.",
-          "successMessage": "Correct! 85mm / 2 = 42.5mm. Your friend needs a 42.5mm lens on Micro Four Thirds to get the same framing as your 85mm on full frame.",
-          "failureMessage": "To match the field of view, divide by the crop factor: 85mm / 2 = 42.5mm. That is the actual focal length needed on the MFT body.",
+          "scenario": "Τραβάς πορτραίτα με φακό 85mm f/1.8 σε full-frame κάμερα. Ένας φίλος χρησιμοποιεί Micro Four Thirds (crop 2×). Ποια εστιακή απόσταση χρειάζεται για να ταιριάξει το δικό σου οπτικό πεδίο;",
+          "hint": "Διαίρεσε την εστιακή απόσταση full-frame με τον συντελεστή crop του MFT για να βρεις τον πραγματικό φακό που χρειάζεται.",
+          "successMessage": "Σωστά! 85mm / 2 = 42.5mm. Ο φίλος σου χρειάζεται φακό 42.5mm σε Micro Four Thirds για να πετύχει το ίδιο κάδρο με τα δικά σου 85mm σε full-frame.",
+          "failureMessage": "Για να ταιριάξεις το οπτικό πεδίο, διαίρεσε με τον συντελεστή crop: 85mm / 2 = 42.5mm. Αυτή είναι η πραγματική εστιακή απόσταση που χρειάζεται στο σώμα MFT.",
           "options": {
             "0": { "label": "42.5mm" },
             "1": { "label": "85mm" },
@@ -85,25 +85,25 @@
           }
         },
         "1": {
-          "scenario": "Your friend found a 42.5mm f/1.8 lens for their MFT camera. Will the background blur match your 85mm f/1.8 on full frame?",
-          "hint": "Apply the crop factor to the aperture as well to find the equivalent DoF.",
-          "successMessage": "Right! The 42.5mm f/1.8 on MFT gives equivalent DoF to 85mm f/3.6 on full frame (1.8 × 2 = 3.6). Your f/1.8 full-frame shot produces significantly more blur.",
-          "failureMessage": "No — the MFT f/1.8 gives DoF equivalent to f/3.6 on full frame (1.8 × 2× crop = 3.6). To match your full-frame f/1.8 blur, your friend would need f/0.9 on MFT, which does not exist.",
+          "scenario": "Ο φίλος σου βρήκε έναν φακό 42.5mm f/1.8 για την MFT κάμερά του. Θα ταιριάξει το θόλωμα του φόντου με το δικό σου 85mm f/1.8 σε full-frame;",
+          "hint": "Εφάρμοσε τον συντελεστή crop και στο διάφραγμα για να βρεις το ισοδύναμο DoF.",
+          "successMessage": "Σωστά! Το 42.5mm f/1.8 σε MFT δίνει DoF ισοδύναμο με 85mm f/3.6 σε full-frame (1.8 × 2 = 3.6). Η δική σου λήψη full-frame στο f/1.8 παράγει σημαντικά περισσότερο θόλωμα.",
+          "failureMessage": "Όχι — το f/1.8 σε MFT δίνει DoF ισοδύναμο με f/3.6 σε full-frame (1.8 × 2 crop = 3.6). Για να ταιριάξεις το δικό σου full-frame f/1.8 θόλωμα, ο φίλος σου θα χρειαζόταν f/0.9 σε MFT, που δεν υπάρχει.",
           "options": {
-            "0": { "label": "Yes — same f/1.8 means same blur" },
-            "1": { "label": "No — MFT f/1.8 equals full-frame f/3.6 depth of field" },
-            "2": { "label": "No — MFT produces more blur because the sensor is smaller" }
+            "0": { "label": "Ναι — το ίδιο f/1.8 σημαίνει ίδιο θόλωμα" },
+            "1": { "label": "Όχι — MFT f/1.8 ισοδυναμεί με full-frame f/3.6 βάθος πεδίου" },
+            "2": { "label": "Όχι — η MFT παράγει περισσότερο θόλωμα γιατί ο αισθητήρας είναι μικρότερος" }
           }
         },
         "2": {
-          "scenario": "A photographer switching from full frame to APS-C (1.5× crop) wants to match the look of a 50mm f/1.4 on full frame. What equivalent lens and aperture do they need on APS-C?",
-          "hint": "Divide focal length by the crop factor for equivalent FOV. Divide aperture by the crop factor for equivalent DoF.",
-          "successMessage": "Exactly! 50 / 1.5 = 33mm for field of view, and f/1.4 / 1.5 = f/0.93 for matching DoF. Since no f/0.93 lens exists, the APS-C camera cannot fully replicate the full-frame look.",
-          "failureMessage": "The correct answer is ~33mm f/0.93. Since 50 / 1.5 = 33.3mm and 1.4 / 1.5 = 0.93. No f/0.93 lens exists, so the full-frame look cannot be fully matched on APS-C.",
+          "scenario": "Ένας φωτογράφος που αλλάζει από full-frame σε APS-C (crop 1.5×) θέλει να ταιριάξει το look ενός 50mm f/1.4 σε full-frame. Τι ισοδύναμο φακό και διάφραγμα χρειάζεται σε APS-C;",
+          "hint": "Διαίρεσε την εστιακή απόσταση με τον συντελεστή crop για ισοδύναμο FOV. Διαίρεσε το διάφραγμα με τον συντελεστή crop για ισοδύναμο DoF.",
+          "successMessage": "Ακριβώς! 50 / 1.5 = 33mm για το οπτικό πεδίο, και f/1.4 / 1.5 = f/0.93 για να ταιριάξει το DoF. Αφού δεν υπάρχει φακός f/0.93, η κάμερα APS-C δεν μπορεί να αναπαράγει πλήρως το look της full-frame.",
+          "failureMessage": "Η σωστή απάντηση είναι ~33mm f/0.93. Αφού 50 / 1.5 = 33.3mm και 1.4 / 1.5 = 0.93. Φακός f/0.93 δεν υπάρχει, οπότε το look της full-frame δεν ταιριάζεται πλήρως σε APS-C.",
           "options": {
-            "0": { "label": "35mm f/1.4 — close enough" },
-            "1": { "label": "33mm f/0.93 — exact match, but no such lens exists" },
-            "2": { "label": "75mm f/2.1 — multiply by crop factor" }
+            "0": { "label": "35mm f/1.4 — αρκετά κοντά" },
+            "1": { "label": "33mm f/0.93 — ακριβής αντιστοιχία, αλλά τέτοιος φακός δεν υπάρχει" },
+            "2": { "label": "75mm f/2.1 — πολλαπλασιάζουμε με τον συντελεστή crop" }
           }
         }
       }

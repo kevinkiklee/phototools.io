@@ -1,239 +1,239 @@
 {
   "glossary": {
-    "title": "Photography Glossary",
-    "subtitle": "Searchable reference of photography terms. Click any term to see its definition.",
-    "searchPlaceholder": "Search terms...",
-    "searchAriaLabel": "Search glossary terms",
-    "noResults": "No terms match your search.",
-    "tryTool": "Try the {toolName}",
+    "title": "Γλωσσάρι φωτογραφίας",
+    "subtitle": "Αναφορά όρων φωτογραφίας με αναζήτηση. Κάνε κλικ σε οποιονδήποτε όρο για να δεις τον ορισμό του.",
+    "searchPlaceholder": "Αναζήτηση όρων...",
+    "searchAriaLabel": "Αναζήτηση στο γλωσσάρι",
+    "noResults": "Κανένας όρος δεν ταιριάζει στην αναζήτησή σου.",
+    "tryTool": "Δοκίμασε το {toolName}",
     "entries": {
       "aperture": {
-        "term": "Aperture",
-        "definition": "The opening in a lens through which light passes. A wider aperture (lower f-number) lets in more light and creates a shallower depth of field."
+        "term": "Διάφραγμα",
+        "definition": "Το άνοιγμα του φακού από όπου περνά το φως. Μεγαλύτερο διάφραγμα (χαμηλότερος αριθμός f) αφήνει περισσότερο φως και δημιουργεί πιο ρηχό βάθος πεδίου."
       },
       "aspect-ratio": {
-        "term": "Aspect Ratio",
-        "definition": "The proportional relationship between an image's width and height. Common ratios include 3:2 (standard DSLR), 4:3 (Micro Four Thirds), and 16:9 (widescreen)."
+        "term": "Αναλογία πλευρών",
+        "definition": "Η αναλογία μεταξύ του πλάτους και του ύψους μιας εικόνας. Συνηθισμένες αναλογίες είναι το 3:2 (κλασική DSLR), το 4:3 (Micro Four Thirds) και το 16:9 (widescreen)."
       },
       "autofocus": {
-        "term": "Autofocus",
-        "definition": "A camera system that automatically adjusts the lens to bring a subject into sharp focus. Modern systems use phase-detection or contrast-detection methods."
+        "term": "Αυτόματη εστίαση",
+        "definition": "Σύστημα της κάμερας που ρυθμίζει αυτόματα τον φακό για να φέρει το θέμα σε ευκρινή εστίαση. Τα σύγχρονα συστήματα χρησιμοποιούν phase-detection ή contrast-detection."
       },
       "bokeh": {
         "term": "Bokeh",
-        "definition": "The aesthetic quality of out-of-focus areas in an image, especially highlights. Smooth, circular bokeh is generally preferred and is influenced by lens design and aperture shape."
+        "definition": "Η αισθητική ποιότητα των εκτός εστίασης περιοχών της εικόνας, ιδίως των φωτεινών σημείων. Το απαλό, κυκλικό bokeh προτιμάται γενικά και εξαρτάται από τον σχεδιασμό του φακού και το σχήμα του διαφράγματος."
       },
       "bracketing": {
         "term": "Bracketing",
-        "definition": "Taking multiple shots of the same scene at different exposure settings. Used for HDR photography or to ensure at least one correctly exposed frame."
+        "definition": "Η λήψη πολλαπλών λήψεων της ίδιας σκηνής με διαφορετικές τιμές έκθεσης. Χρησιμοποιείται για HDR φωτογραφία ή για να εξασφαλιστεί τουλάχιστον μία σωστά εκτεθειμένη λήψη."
       },
       "bulb-mode": {
-        "term": "Bulb Mode",
-        "definition": "A shutter setting where the shutter stays open for as long as the shutter button is held down. Used for very long exposures beyond the camera's timed settings."
+        "term": "Λειτουργία Bulb",
+        "definition": "Ρύθμιση κλείστρου όπου το κλείστρο παραμένει ανοιχτό όσο κρατάς πατημένο το κουμπί της λήψης. Χρησιμοποιείται για πολύ μεγάλες εκθέσεις πέραν των προκαθορισμένων ρυθμίσεων της κάμερας."
       },
       "burst-mode": {
-        "term": "Burst Mode",
-        "definition": "A shooting mode where the camera takes multiple frames per second in rapid succession. Useful for capturing fast action or selecting the best moment."
+        "term": "Λειτουργία ριπής",
+        "definition": "Λειτουργία λήψης όπου η κάμερα βγάζει πολλές εικόνες ανά δευτερόλεπτο σε γρήγορη διαδοχή. Χρήσιμη για να αποτυπώσεις γρήγορη δράση ή να επιλέξεις την καλύτερη στιγμή."
       },
       "chromatic-aberration": {
-        "term": "Chromatic Aberration",
-        "definition": "A lens defect where different wavelengths of light focus at slightly different points, causing color fringing along high-contrast edges. More common in cheaper lenses and at wide apertures."
+        "term": "Χρωματική εκτροπή",
+        "definition": "Ελάττωμα του φακού όπου διαφορετικά μήκη κύματος του φωτός εστιάζουν σε ελαφρώς διαφορετικά σημεία, προκαλώντας έγχρωμες αποκλίσεις στις ακμές υψηλής αντίθεσης. Πιο συχνή σε φθηνότερους φακούς και σε μεγάλα διαφράγματα."
       },
       "circle-of-confusion": {
-        "term": "Circle of Confusion",
-        "definition": "The largest blur circle that still appears as a point to the human eye. It determines the boundaries of acceptable sharpness and is used in depth of field calculations."
+        "term": "Κύκλος σύγχυσης",
+        "definition": "Ο μεγαλύτερος κύκλος θολώματος που εξακολουθεί να φαίνεται σαν σημείο για το ανθρώπινο μάτι. Καθορίζει τα όρια της αποδεκτής ευκρίνειας και χρησιμοποιείται στους υπολογισμούς του βάθους πεδίου."
       },
       "color-temperature": {
-        "term": "Color Temperature",
-        "definition": "A measurement in Kelvin that describes the warmth or coolness of a light source. Lower values (2700K) appear warm/orange; higher values (6500K+) appear cool/blue."
+        "term": "Θερμοκρασία χρώματος",
+        "definition": "Μέτρηση σε Kelvin που περιγράφει τη θερμότητα ή την ψυχρότητα μιας πηγής φωτός. Χαμηλότερες τιμές (2700K) φαίνονται θερμές/πορτοκαλί, υψηλότερες (6500K+) ψυχρές/μπλε."
       },
       "crop-factor": {
-        "term": "Crop Factor",
-        "definition": "The ratio of a camera sensor's diagonal to that of a 35mm full-frame sensor. It affects the effective focal length and field of view."
+        "term": "Συντελεστής crop",
+        "definition": "Η αναλογία της διαγωνίου ενός αισθητήρα προς αυτήν ενός full-frame αισθητήρα 35mm. Επηρεάζει την ενεργή εστιακή απόσταση και το οπτικό πεδίο."
       },
       "depth-of-field": {
-        "term": "Depth of Field",
-        "definition": "The range of distance in a scene that appears acceptably sharp. Controlled by aperture, focal length, and subject distance."
+        "term": "Βάθος πεδίου",
+        "definition": "Το εύρος αποστάσεων σε μια σκηνή που φαίνεται αποδεκτά ευκρινές. Ελέγχεται από το διάφραγμα, την εστιακή απόσταση και την απόσταση του θέματος."
       },
       "diffraction": {
-        "term": "Diffraction",
-        "definition": "The bending of light as it passes through a small aperture, which softens the image. It sets a practical limit on how far you can stop down a lens."
+        "term": "Περίθλαση",
+        "definition": "Η κάμψη του φωτός καθώς περνά από ένα μικρό διάφραγμα, η οποία μαλακώνει την εικόνα. Θέτει ένα πρακτικό όριο στο πόσο μπορείς να κλείσεις το διάφραγμα."
       },
       "dynamic-range": {
-        "term": "Dynamic Range",
-        "definition": "The range between the darkest shadows and brightest highlights a camera can capture in a single exposure. Measured in stops (EV)."
+        "term": "Δυναμικό εύρος",
+        "definition": "Το εύρος μεταξύ των πιο σκοτεινών σκιών και των πιο φωτεινών φώτων που μπορεί να καταγράψει μια κάμερα σε μία λήψη. Μετριέται σε stops (EV)."
       },
       "ev": {
         "term": "EV (Exposure Value)",
-        "definition": "A number representing a combination of shutter speed and aperture that produces the same exposure. Each increment of 1 EV doubles or halves the light."
+        "definition": "Αριθμός που αντιπροσωπεύει έναν συνδυασμό ταχύτητας κλείστρου και διαφράγματος που παράγει την ίδια έκθεση. Κάθε βήμα 1 EV διπλασιάζει ή μισεί το φως."
       },
       "exposure-compensation": {
-        "term": "Exposure Compensation",
-        "definition": "A camera control that overrides the metered exposure, typically in 1/3-stop increments. Positive values brighten the image; negative values darken it."
+        "term": "Αντιστάθμιση έκθεσης",
+        "definition": "Έλεγχος της κάμερας που παρακάμπτει τη μετρημένη έκθεση, συνήθως σε βήματα 1/3 stop. Θετικές τιμές φωτίζουν την εικόνα, αρνητικές τη σκοτεινιάζουν."
       },
       "exposure-triangle": {
-        "term": "Exposure Triangle",
-        "definition": "The relationship between aperture, shutter speed, and ISO. Changing one requires adjusting the others to maintain the same exposure."
+        "term": "Τρίγωνο έκθεσης",
+        "definition": "Η σχέση μεταξύ διαφράγματος, ταχύτητας κλείστρου και ISO. Η αλλαγή μίας παραμέτρου απαιτεί προσαρμογή των άλλων για να διατηρηθεί η ίδια έκθεση."
       },
       "f-stop": {
         "term": "F-Stop",
-        "definition": "A unit of measurement for lens aperture. Each full stop (f/1.4, f/2, f/2.8, f/4...) halves the amount of light passing through the lens."
+        "definition": "Μονάδα μέτρησης του διαφράγματος του φακού. Κάθε ολόκληρο stop (f/1.4, f/2, f/2.8, f/4...) μισεί την ποσότητα του φωτός που περνά από τον φακό."
       },
       "focal-length": {
-        "term": "Focal Length",
-        "definition": "The distance in millimeters from the optical center of a lens to the sensor when focused at infinity. It determines the angle of view and magnification."
+        "term": "Εστιακή απόσταση",
+        "definition": "Η απόσταση σε χιλιοστά από το οπτικό κέντρο του φακού μέχρι τον αισθητήρα όταν η εστίαση είναι στο άπειρο. Καθορίζει τη γωνία λήψης και τη μεγέθυνση."
       },
       "focus-stacking": {
-        "term": "Focus Stacking",
-        "definition": "A technique where multiple images focused at different distances are combined in post-processing to achieve greater depth of field than a single exposure allows."
+        "term": "Focus stacking",
+        "definition": "Τεχνική όπου πολλαπλές εικόνες εστιασμένες σε διαφορετικές αποστάσεις συνδυάζονται στην επεξεργασία για να επιτευχθεί μεγαλύτερο βάθος πεδίου από όσο επιτρέπει μία μόνο λήψη."
       },
       "full-frame": {
         "term": "Full Frame",
-        "definition": "A sensor size equivalent to 35mm film (36 x 24mm). It is the reference standard for focal length and crop factor calculations."
+        "definition": "Μέγεθος αισθητήρα ισοδύναμο με φιλμ 35mm (36 x 24mm). Αποτελεί το πρότυπο αναφοράς για τους υπολογισμούς εστιακής απόστασης και συντελεστή crop."
       },
       "golden-hour": {
-        "term": "Golden Hour",
-        "definition": "The period shortly after sunrise or before sunset when sunlight is warm, soft, and directional. Highly prized for landscape and portrait photography."
+        "term": "Χρυσή ώρα",
+        "definition": "Το διάστημα λίγο μετά την ανατολή ή λίγο πριν τη δύση, όταν το φως του ήλιου είναι ζεστό, απαλό και κατευθυντικό. Ιδιαίτερα αγαπητό στη φωτογραφία τοπίου και πορτραίτου."
       },
       "histogram": {
-        "term": "Histogram",
-        "definition": "A graph showing the distribution of brightness values in an image. The left side represents shadows, the right side highlights."
+        "term": "Ιστόγραμμα",
+        "definition": "Γράφημα που δείχνει την κατανομή των τιμών φωτεινότητας σε μια εικόνα. Η αριστερή πλευρά αντιπροσωπεύει τις σκιές, η δεξιά τα φώτα."
       },
       "hyperfocal-distance": {
-        "term": "Hyperfocal Distance",
-        "definition": "The closest focusing distance at which everything from half that distance to infinity is acceptably sharp. Maximizes depth of field for a given aperture."
+        "term": "Υπερεστιακή απόσταση",
+        "definition": "Η πιο κοντινή απόσταση εστίασης όπου τα πάντα από τη μισή αυτής της απόστασης μέχρι το άπειρο είναι αποδεκτά ευκρινή. Μεγιστοποιεί το βάθος πεδίου για ένα δεδομένο διάφραγμα."
       },
       "image-stabilization": {
-        "term": "Image Stabilization",
-        "definition": "A system that reduces camera shake blur, either in the lens (OIS) or the camera body (IBIS). Typically provides 3-7 stops of handheld shooting advantage."
+        "term": "Σταθεροποίηση εικόνας",
+        "definition": "Σύστημα που μειώνει το θόλωμα από το κούνημα της κάμερας, είτε στον φακό (OIS) είτε στο σώμα (IBIS). Συνήθως προσφέρει 3-7 stops πλεονεκτήματος σε λήψεις με το χέρι."
       },
       "iso": {
         "term": "ISO",
-        "definition": "A measure of the camera sensor's sensitivity to light. Higher ISO values brighten the image but introduce more noise."
+        "definition": "Μέτρηση της ευαισθησίας του αισθητήρα στο φως. Υψηλότερες τιμές ISO φωτίζουν την εικόνα αλλά εισάγουν περισσότερο θόρυβο."
       },
       "jpeg": {
         "term": "JPEG",
-        "definition": "A compressed image file format that applies lossy compression. Smaller file sizes but less editing flexibility compared to RAW."
+        "definition": "Συμπιεσμένη μορφή αρχείου εικόνας που εφαρμόζει απωλεστική συμπίεση. Μικρότερα αρχεία αλλά λιγότερη ευελιξία επεξεργασίας σε σύγκριση με RAW."
       },
       "kelvin": {
         "term": "Kelvin",
-        "definition": "The unit used to measure color temperature of light. Photographers use Kelvin values to set white balance and match the color of ambient lighting."
+        "definition": "Η μονάδα μέτρησης της θερμοκρασίας χρώματος του φωτός. Οι φωτογράφοι χρησιμοποιούν τιμές Kelvin για να ρυθμίσουν την ισορροπία λευκού και να ταιριάξουν το χρώμα του περιβάλλοντος φωτισμού."
       },
       "lens-compression": {
-        "term": "Lens Compression",
-        "definition": "The visual effect of a telephoto lens making distant objects appear closer to foreground subjects. It is caused by the long shooting distance, not the lens itself."
+        "term": "Συμπίεση φακού",
+        "definition": "Το οπτικό αποτέλεσμα ενός τηλεφακού που κάνει τα μακρινά αντικείμενα να φαίνονται πιο κοντά στα θέματα του προσκηνίου. Προκαλείται από τη μεγάλη απόσταση λήψης, όχι από τον ίδιο τον φακό."
       },
       "light-meter": {
-        "term": "Light Meter",
-        "definition": "A device or camera system that measures the intensity of light to determine proper exposure settings. Cameras use reflected light metering; handheld meters can measure incident light."
+        "term": "Φωτόμετρο",
+        "definition": "Συσκευή ή σύστημα κάμερας που μετρά την ένταση του φωτός για να καθορίσει τις σωστές ρυθμίσεις έκθεσης. Οι κάμερες μετρούν το ανακλώμενο φως, ενώ τα φορητά φωτόμετρα μπορούν να μετρήσουν το προσπίπτον."
       },
       "long-exposure": {
-        "term": "Long Exposure",
-        "definition": "A photograph taken with a slow shutter speed, typically seconds or minutes. Used for light trails, smooth water, star trails, and low-light scenes."
+        "term": "Μεγάλη έκθεση",
+        "definition": "Φωτογραφία που λαμβάνεται με αργή ταχύτητα κλείστρου, συνήθως δευτερολέπτων ή λεπτών. Χρησιμοποιείται για ίχνη φωτός, απαλό νερό, ίχνη αστεριών και σκηνές χαμηλού φωτισμού."
       },
       "macro": {
         "term": "Macro",
-        "definition": "Photography that reproduces subjects at or near life-size magnification (1:1 ratio). Requires specialized macro lenses or extension tubes."
+        "definition": "Φωτογραφία που αναπαράγει θέματα σε μεγέθυνση κοντά ή στο φυσικό τους μέγεθος (αναλογία 1:1). Απαιτεί εξειδικευμένους macro φακούς ή δακτυλίους επέκτασης."
       },
       "medium-format": {
         "term": "Medium Format",
-        "definition": "A sensor size larger than full frame, typically around 44 x 33mm or 54 x 40mm. Offers higher resolution, shallower depth of field, and greater dynamic range."
+        "definition": "Μέγεθος αισθητήρα μεγαλύτερο από full frame, συνήθως γύρω στα 44 x 33mm ή 54 x 40mm. Προσφέρει υψηλότερη ανάλυση, πιο ρηχό βάθος πεδίου και μεγαλύτερο δυναμικό εύρος."
       },
       "megapixel": {
         "term": "Megapixel",
-        "definition": "One million pixels. The megapixel count of a sensor determines the maximum resolution of images it can capture."
+        "definition": "Ένα εκατομμύριο pixel. Ο αριθμός megapixel ενός αισθητήρα καθορίζει τη μέγιστη ανάλυση των εικόνων που μπορεί να αποτυπώσει."
       },
       "micro-four-thirds": {
         "term": "Micro Four Thirds",
-        "definition": "A mirrorless camera system with a sensor measuring 17.3 x 13mm, giving a 2x crop factor. Offers compact bodies and lenses with good image quality."
+        "definition": "Σύστημα κάμερας mirrorless με αισθητήρα 17.3 x 13mm, που δίνει συντελεστή crop 2x. Προσφέρει συμπαγή σώματα και φακούς με καλή ποιότητα εικόνας."
       },
       "mirror-lock-up": {
         "term": "Mirror Lock-Up",
-        "definition": "A DSLR feature that flips the mirror up before the shutter fires, reducing vibration. Used for sharp tripod-mounted shots, especially at slow shutter speeds."
+        "definition": "Λειτουργία DSLR που σηκώνει τον καθρέφτη πριν πυροδοτηθεί το κλείστρο, μειώνοντας τους κραδασμούς. Χρησιμοποιείται για ευκρινείς λήψεις σε τρίποδο, ειδικά σε αργές ταχύτητες κλείστρου."
       },
       "nd-filter": {
-        "term": "ND Filter",
-        "definition": "A neutral density filter that reduces the amount of light entering the lens without affecting color. Allows longer exposures or wider apertures in bright conditions."
+        "term": "Φίλτρο ND",
+        "definition": "Φίλτρο ουδέτερης πυκνότητας που μειώνει την ποσότητα του φωτός που εισέρχεται στον φακό χωρίς να επηρεάζει το χρώμα. Επιτρέπει μεγαλύτερες εκθέσεις ή μεγαλύτερα διαφράγματα σε φωτεινές συνθήκες."
       },
       "noise": {
-        "term": "Noise",
-        "definition": "Random variation in brightness and color in digital images, most visible in shadow areas and at high ISO settings. Can be reduced with noise reduction software."
+        "term": "Θόρυβος",
+        "definition": "Τυχαία διακύμανση φωτεινότητας και χρώματος στις ψηφιακές εικόνες, πιο εμφανής στις σκιές και σε υψηλές τιμές ISO. Μπορεί να μειωθεί με λογισμικό μείωσης θορύβου."
       },
       "overexposure": {
-        "term": "Overexposure",
-        "definition": "When an image receives too much light, causing highlights to clip to pure white and lose detail. The opposite of underexposure."
+        "term": "Υπερέκθεση",
+        "definition": "Όταν η εικόνα δέχεται πάρα πολύ φως, με αποτέλεσμα τα φώτα να καίγονται στο καθαρό λευκό και να χάνουν λεπτομέρεια. Το αντίθετο της υποέκθεσης."
       },
       "panorama": {
-        "term": "Panorama",
-        "definition": "A wide-angle image created by stitching multiple overlapping photographs together. Can cover up to 360 degrees of a scene."
+        "term": "Πανόραμα",
+        "definition": "Ευρυγώνια εικόνα που δημιουργείται με τη συρραφή πολλαπλών φωτογραφιών που επικαλύπτονται. Μπορεί να καλύψει έως και 360 μοίρες μιας σκηνής."
       },
       "pixel-pitch": {
         "term": "Pixel Pitch",
-        "definition": "The distance in micrometers between the centers of adjacent pixels on a sensor. Larger pixel pitch generally means better low-light performance."
+        "definition": "Η απόσταση σε μικρόμετρα μεταξύ των κέντρων γειτονικών pixel σε έναν αισθητήρα. Μεγαλύτερο pixel pitch συνήθως σημαίνει καλύτερη απόδοση σε χαμηλό φωτισμό."
       },
       "polarizer": {
-        "term": "Polarizer",
-        "definition": "A filter that reduces reflections and glare from non-metallic surfaces and can deepen blue skies. It works by blocking light waves oscillating in a specific direction."
+        "term": "Πολωτικό φίλτρο",
+        "definition": "Φίλτρο που μειώνει τις αντανακλάσεις και τις λάμψεις από μη μεταλλικές επιφάνειες και μπορεί να βαθύνει τον μπλε ουρανό. Λειτουργεί μπλοκάροντας τα κύματα φωτός που ταλαντώνονται σε συγκεκριμένη κατεύθυνση."
       },
       "prime-lens": {
-        "term": "Prime Lens",
-        "definition": "A lens with a fixed focal length (no zoom). Primes are typically sharper, faster (wider aperture), and lighter than comparable zoom lenses."
+        "term": "Σταθερός φακός",
+        "definition": "Φακός με σταθερή εστιακή απόσταση (χωρίς zoom). Οι σταθεροί φακοί είναι συνήθως πιο ευκρινείς, πιο γρήγοροι (μεγαλύτερο διάφραγμα) και ελαφρύτεροι από τους συγκρίσιμους zoom."
       },
       "raw": {
         "term": "RAW",
-        "definition": "An uncompressed or losslessly compressed file format that preserves all sensor data. Offers maximum flexibility in post-processing at the cost of larger file sizes."
+        "definition": "Μη συμπιεσμένη ή χωρίς απώλειες συμπιεσμένη μορφή αρχείου που διατηρεί όλα τα δεδομένα του αισθητήρα. Προσφέρει μέγιστη ευελιξία στην επεξεργασία με κόστος τα μεγαλύτερα αρχεία."
       },
       "reciprocal-rule": {
-        "term": "Reciprocal Rule",
-        "definition": "A guideline stating that the minimum handheld shutter speed should be 1/(focal length) to avoid camera shake. For a 200mm lens, use at least 1/200s."
+        "term": "Κανόνας αντιστροφής",
+        "definition": "Οδηγία που λέει ότι η ελάχιστη ταχύτητα κλείστρου με το χέρι πρέπει να είναι 1/(εστιακή απόσταση) για να αποφύγεις το κούνημα. Για φακό 200mm, χρησιμοποίησε τουλάχιστον 1/200s."
       },
       "rule-of-thirds": {
-        "term": "Rule of Thirds",
-        "definition": "A composition guideline that divides the frame into a 3x3 grid. Placing subjects along the lines or at their intersections often creates a more balanced image."
+        "term": "Κανόνας των τρίτων",
+        "definition": "Οδηγία σύνθεσης που χωρίζει το κάδρο σε πλέγμα 3x3. Η τοποθέτηση θεμάτων κατά μήκος των γραμμών ή στις διασταυρώσεις τους δημιουργεί συνήθως πιο ισορροπημένη εικόνα."
       },
       "sensor-size": {
-        "term": "Sensor Size",
-        "definition": "The physical dimensions of a camera's image sensor. Larger sensors capture more light, offer shallower depth of field, and generally produce less noise."
+        "term": "Μέγεθος αισθητήρα",
+        "definition": "Οι φυσικές διαστάσεις του αισθητήρα εικόνας μιας κάμερας. Οι μεγαλύτεροι αισθητήρες συλλαμβάνουν περισσότερο φως, προσφέρουν πιο ρηχό βάθος πεδίου και γενικά παράγουν λιγότερο θόρυβο."
       },
       "shutter-speed": {
-        "term": "Shutter Speed",
-        "definition": "The length of time the camera's shutter is open during an exposure. Faster speeds freeze motion; slower speeds allow motion blur."
+        "term": "Ταχύτητα κλείστρου",
+        "definition": "Ο χρόνος για τον οποίο το κλείστρο της κάμερας είναι ανοιχτό κατά την έκθεση. Οι γρήγορες ταχύτητες παγώνουν την κίνηση, οι αργές επιτρέπουν θόλωμα κίνησης."
       },
       "star-trails": {
-        "term": "Star Trails",
-        "definition": "Streaks of light created by the apparent motion of stars during a long exposure. Can be captured in a single very long exposure or by stacking multiple shorter frames."
+        "term": "Ίχνη αστεριών",
+        "definition": "Λωρίδες φωτός που δημιουργούνται από τη φαινόμενη κίνηση των αστεριών κατά τη διάρκεια μιας μεγάλης έκθεσης. Μπορούν να αποτυπωθούν σε μία πολύ μεγάλη έκθεση ή με τη συνένωση πολλών μικρότερων λήψεων."
       },
       "stop": {
         "term": "Stop",
-        "definition": "A unit of exposure change representing a doubling or halving of light. Applies to aperture, shutter speed, and ISO equally."
+        "definition": "Μονάδα αλλαγής έκθεσης που αντιπροσωπεύει διπλασιασμό ή μείωση του φωτός στο μισό. Εφαρμόζεται εξίσου στο διάφραγμα, την ταχύτητα κλείστρου και το ISO."
       },
       "telephoto": {
-        "term": "Telephoto",
-        "definition": "A lens with a focal length longer than about 70mm (full frame equivalent). Telephoto lenses magnify distant subjects and compress perspective."
+        "term": "Τηλεφακός",
+        "definition": "Φακός με εστιακή απόσταση μεγαλύτερη από περίπου 70mm (ισοδύναμο full frame). Οι τηλεφακοί μεγεθύνουν μακρινά θέματα και συμπιέζουν την προοπτική."
       },
       "tilt-shift": {
         "term": "Tilt-Shift",
-        "definition": "A lens that can tilt the plane of focus and shift the image circle relative to the sensor. Used for architecture photography and selective focus effects."
+        "definition": "Φακός που μπορεί να γέρνει το επίπεδο εστίασης και να μετατοπίζει τον κύκλο της εικόνας σε σχέση με τον αισθητήρα. Χρησιμοποιείται στη φωτογραφία αρχιτεκτονικής και για εφέ επιλεκτικής εστίασης."
       },
       "underexposure": {
-        "term": "Underexposure",
-        "definition": "When an image receives too little light, causing shadow areas to lose detail and appear noisy. The opposite of overexposure."
+        "term": "Υποέκθεση",
+        "definition": "Όταν η εικόνα δέχεται πολύ λίγο φως, με αποτέλεσμα οι σκιές να χάνουν λεπτομέρεια και να εμφανίζουν θόρυβο. Το αντίθετο της υπερέκθεσης."
       },
       "vignetting": {
-        "term": "Vignetting",
-        "definition": "A darkening of the corners and edges of an image relative to the center. Can be caused by lens design, filters, or lens hoods, and is sometimes added intentionally in post."
+        "term": "Βινιετάρισμα",
+        "definition": "Σκοτείνιασμα των γωνιών και των άκρων μιας εικόνας σε σχέση με το κέντρο. Μπορεί να προκληθεί από τον σχεδιασμό του φακού, τα φίλτρα ή τα παρασόλ, και ορισμένες φορές προστίθεται σκόπιμα στην επεξεργασία."
       },
       "white-balance": {
-        "term": "White Balance",
-        "definition": "A camera setting that adjusts colors so that white objects appear neutral under different lighting conditions. Can be set automatically or manually using Kelvin values."
+        "term": "Ισορροπία λευκού",
+        "definition": "Ρύθμιση της κάμερας που προσαρμόζει τα χρώματα ώστε τα λευκά αντικείμενα να φαίνονται ουδέτερα κάτω από διαφορετικές συνθήκες φωτισμού. Μπορεί να ρυθμιστεί αυτόματα ή χειροκίνητα με τιμές Kelvin."
       },
       "wide-angle": {
-        "term": "Wide-Angle",
-        "definition": "A lens with a short focal length (typically below 35mm on full frame) that captures a broader field of view. Often used for landscapes, architecture, and interiors."
+        "term": "Ευρυγώνιος",
+        "definition": "Φακός με μικρή εστιακή απόσταση (συνήθως κάτω από 35mm σε full frame) που αποτυπώνει πιο ευρύ οπτικό πεδίο. Χρησιμοποιείται συχνά για τοπία, αρχιτεκτονική και εσωτερικούς χώρους."
       },
       "zoom-lens": {
-        "term": "Zoom Lens",
-        "definition": "A lens with a variable focal length range, allowing the photographer to change framing without moving. Offers versatility at the cost of size, weight, and sometimes sharpness."
+        "term": "Φακός zoom",
+        "definition": "Φακός με μεταβλητό εύρος εστιακής απόστασης, που επιτρέπει στον φωτογράφο να αλλάζει το κάδρο χωρίς να μετακινείται. Προσφέρει ευελιξία με κόστος το μέγεθος, το βάρος και ενίοτε την ευκρίνεια."
       }
     }
   }

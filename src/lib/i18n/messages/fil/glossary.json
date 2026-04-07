@@ -1,239 +1,239 @@
 {
   "glossary": {
     "title": "Photography Glossary",
-    "subtitle": "Searchable reference of photography terms. Click any term to see its definition.",
-    "searchPlaceholder": "Search terms...",
-    "searchAriaLabel": "Search glossary terms",
-    "noResults": "No terms match your search.",
-    "tryTool": "Try the {toolName}",
+    "subtitle": "Naghahanap na sanggunian ng mga termino sa photography. I-click ang kahit anong termino para makita ang depinisyon.",
+    "searchPlaceholder": "Maghanap ng termino...",
+    "searchAriaLabel": "Maghanap sa mga termino ng glossary",
+    "noResults": "Walang terminong tumutugma sa paghahanap mo.",
+    "tryTool": "Subukan ang {toolName}",
     "entries": {
       "aperture": {
         "term": "Aperture",
-        "definition": "The opening in a lens through which light passes. A wider aperture (lower f-number) lets in more light and creates a shallower depth of field."
+        "definition": "Ang butas sa lens kung saan dumadaan ang liwanag. Ang mas malawak na aperture (mas mababang f-number) ay nagpapapasok ng mas maraming liwanag at gumagawa ng mas mababaw na depth of field."
       },
       "aspect-ratio": {
         "term": "Aspect Ratio",
-        "definition": "The proportional relationship between an image's width and height. Common ratios include 3:2 (standard DSLR), 4:3 (Micro Four Thirds), and 16:9 (widescreen)."
+        "definition": "Ang proporsyonal na ugnayan ng lapad at taas ng isang larawan. Kabilang sa mga karaniwang ratio ay 3:2 (standard DSLR), 4:3 (Micro Four Thirds), at 16:9 (widescreen)."
       },
       "autofocus": {
         "term": "Autofocus",
-        "definition": "A camera system that automatically adjusts the lens to bring a subject into sharp focus. Modern systems use phase-detection or contrast-detection methods."
+        "definition": "Isang camera system na automatic na nag-aadjust ng lens para ma-focus nang matalas ang subject. Gumagamit ang mga modernong sistema ng phase-detection o contrast-detection."
       },
       "bokeh": {
         "term": "Bokeh",
-        "definition": "The aesthetic quality of out-of-focus areas in an image, especially highlights. Smooth, circular bokeh is generally preferred and is influenced by lens design and aperture shape."
+        "definition": "Ang aesthetic na kalidad ng mga out-of-focus na bahagi ng larawan, lalo na ang mga highlights. Ang smooth at bilog na bokeh ay karaniwang mas gusto at naaapektuhan ng disenyo ng lens at hugis ng aperture."
       },
       "bracketing": {
         "term": "Bracketing",
-        "definition": "Taking multiple shots of the same scene at different exposure settings. Used for HDR photography or to ensure at least one correctly exposed frame."
+        "definition": "Ang pagkuha ng maraming shot ng parehong eksena sa iba't ibang exposure settings. Ginagamit sa HDR photography o para masiguro na may kahit isang tamang expose na frame."
       },
       "bulb-mode": {
         "term": "Bulb Mode",
-        "definition": "A shutter setting where the shutter stays open for as long as the shutter button is held down. Used for very long exposures beyond the camera's timed settings."
+        "definition": "Isang shutter setting kung saan nananatiling bukas ang shutter habang pinipindot ang shutter button. Ginagamit para sa napakahabang exposure na lumalampas sa mga timed setting ng camera."
       },
       "burst-mode": {
         "term": "Burst Mode",
-        "definition": "A shooting mode where the camera takes multiple frames per second in rapid succession. Useful for capturing fast action or selecting the best moment."
+        "definition": "Isang shooting mode kung saan kumukuha ng maraming frame ang camera bawat segundo nang mabilis. Kapaki-pakinabang para kumuha ng mabilis na aksyon o para pumili ng pinakamagandang sandali."
       },
       "chromatic-aberration": {
         "term": "Chromatic Aberration",
-        "definition": "A lens defect where different wavelengths of light focus at slightly different points, causing color fringing along high-contrast edges. More common in cheaper lenses and at wide apertures."
+        "definition": "Isang depekto ng lens kung saan ang iba't ibang wavelength ng liwanag ay nag-fo-focus sa bahagyang magkakaibang punto, na nagdudulot ng color fringing sa mga high-contrast na gilid. Mas karaniwan sa mas murang lens at sa mga wide na aperture."
       },
       "circle-of-confusion": {
         "term": "Circle of Confusion",
-        "definition": "The largest blur circle that still appears as a point to the human eye. It determines the boundaries of acceptable sharpness and is used in depth of field calculations."
+        "definition": "Ang pinakamalaking blur circle na mukhang isang puntong pa rin sa mata ng tao. Dito nagbabatay ang hangganan ng katanggap-tanggap na katalasan at ginagamit sa depth of field calculations."
       },
       "color-temperature": {
         "term": "Color Temperature",
-        "definition": "A measurement in Kelvin that describes the warmth or coolness of a light source. Lower values (2700K) appear warm/orange; higher values (6500K+) appear cool/blue."
+        "definition": "Isang sukat sa Kelvin na naglalarawan ng init o lamig ng isang light source. Ang mas mababang values (2700K) ay mainit/orange; ang mas mataas (6500K+) ay malamig/asul."
       },
       "crop-factor": {
         "term": "Crop Factor",
-        "definition": "The ratio of a camera sensor's diagonal to that of a 35mm full-frame sensor. It affects the effective focal length and field of view."
+        "definition": "Ang ratio ng diagonal ng camera sensor sa isang 35mm full-frame sensor. Nakakaapekto ito sa effective focal length at field of view."
       },
       "depth-of-field": {
         "term": "Depth of Field",
-        "definition": "The range of distance in a scene that appears acceptably sharp. Controlled by aperture, focal length, and subject distance."
+        "definition": "Ang range ng distansya sa eksena na mukhang katanggap-tanggap na matalas. Kinokontrol ng aperture, focal length, at subject distance."
       },
       "diffraction": {
         "term": "Diffraction",
-        "definition": "The bending of light as it passes through a small aperture, which softens the image. It sets a practical limit on how far you can stop down a lens."
+        "definition": "Ang pagbaluktot ng liwanag habang dumadaan ito sa maliit na aperture, na nagpapa-soft ng imahe. Naglalagay ito ng praktikal na limit sa kung gaano kalayo mo pwedeng i-stop down ang lens."
       },
       "dynamic-range": {
         "term": "Dynamic Range",
-        "definition": "The range between the darkest shadows and brightest highlights a camera can capture in a single exposure. Measured in stops (EV)."
+        "definition": "Ang range sa pagitan ng pinakamadilim na shadow at pinakamaliwanag na highlight na kayang makuha ng camera sa isang exposure. Sinusukat sa stops (EV)."
       },
       "ev": {
         "term": "EV (Exposure Value)",
-        "definition": "A number representing a combination of shutter speed and aperture that produces the same exposure. Each increment of 1 EV doubles or halves the light."
+        "definition": "Isang numerong kumakatawan sa kombinasyon ng shutter speed at aperture na gumagawa ng parehong exposure. Bawat pagtaas ng 1 EV ay dinodoble o hinahati ang liwanag."
       },
       "exposure-compensation": {
         "term": "Exposure Compensation",
-        "definition": "A camera control that overrides the metered exposure, typically in 1/3-stop increments. Positive values brighten the image; negative values darken it."
+        "definition": "Isang camera control na nag-o-override sa metered exposure, karaniwang sa 1/3-stop increments. Ang positibong values ay nagpapaliwanag ng imahe; ang negatibo ay nagpapadilim."
       },
       "exposure-triangle": {
         "term": "Exposure Triangle",
-        "definition": "The relationship between aperture, shutter speed, and ISO. Changing one requires adjusting the others to maintain the same exposure."
+        "definition": "Ang ugnayan ng aperture, shutter speed, at ISO. Kapag binago ang isa, kailangan i-adjust ang iba para mapanatili ang parehong exposure."
       },
       "f-stop": {
         "term": "F-Stop",
-        "definition": "A unit of measurement for lens aperture. Each full stop (f/1.4, f/2, f/2.8, f/4...) halves the amount of light passing through the lens."
+        "definition": "Isang unit ng sukat para sa lens aperture. Bawat full stop (f/1.4, f/2, f/2.8, f/4...) ay hinahati ng kalahati ang dami ng liwanag na dumadaan sa lens."
       },
       "focal-length": {
         "term": "Focal Length",
-        "definition": "The distance in millimeters from the optical center of a lens to the sensor when focused at infinity. It determines the angle of view and magnification."
+        "definition": "Ang distansya sa millimeters mula sa optical center ng lens hanggang sa sensor kapag naka-focus sa infinity. Dito nagbabatay ang angle of view at magnification."
       },
       "focus-stacking": {
         "term": "Focus Stacking",
-        "definition": "A technique where multiple images focused at different distances are combined in post-processing to achieve greater depth of field than a single exposure allows."
+        "definition": "Isang teknik kung saan ang maraming imahe na naka-focus sa iba't ibang distansya ay pinagsasama sa post-processing para makamit ang mas malalim na depth of field kaysa sa isang exposure."
       },
       "full-frame": {
         "term": "Full Frame",
-        "definition": "A sensor size equivalent to 35mm film (36 x 24mm). It is the reference standard for focal length and crop factor calculations."
+        "definition": "Isang sensor size na katumbas ng 35mm film (36 x 24mm). Ito ang reference standard para sa focal length at crop factor calculations."
       },
       "golden-hour": {
         "term": "Golden Hour",
-        "definition": "The period shortly after sunrise or before sunset when sunlight is warm, soft, and directional. Highly prized for landscape and portrait photography."
+        "definition": "Ang panahon pagkatapos ng pagsikat ng araw o bago lumubog kung kailan ang sikat ng araw ay mainit, malambot, at directional. Napakahalaga para sa landscape at portrait photography."
       },
       "histogram": {
         "term": "Histogram",
-        "definition": "A graph showing the distribution of brightness values in an image. The left side represents shadows, the right side highlights."
+        "definition": "Isang graph na nagpapakita ng distribusyon ng brightness values sa isang imahe. Ang kaliwa ay kumakatawan sa shadows, ang kanan sa highlights."
       },
       "hyperfocal-distance": {
         "term": "Hyperfocal Distance",
-        "definition": "The closest focusing distance at which everything from half that distance to infinity is acceptably sharp. Maximizes depth of field for a given aperture."
+        "definition": "Ang pinakamalapit na focusing distance kung saan lahat ng bagay mula sa kalahati ng distansyang iyon hanggang infinity ay katanggap-tanggap na matalas. Pina-maximize ang depth of field para sa isang aperture."
       },
       "image-stabilization": {
         "term": "Image Stabilization",
-        "definition": "A system that reduces camera shake blur, either in the lens (OIS) or the camera body (IBIS). Typically provides 3-7 stops of handheld shooting advantage."
+        "definition": "Isang sistema na binabawasan ang blur mula sa camera shake, nasa lens (OIS) o nasa camera body (IBIS). Karaniwang nagbibigay ng 3-7 stops na advantage sa handheld shooting."
       },
       "iso": {
         "term": "ISO",
-        "definition": "A measure of the camera sensor's sensitivity to light. Higher ISO values brighten the image but introduce more noise."
+        "definition": "Isang sukat ng sensitivity ng camera sensor sa liwanag. Ang mas mataas na ISO values ay nagpapaliwanag ng imahe pero nag-iintroduce ng mas maraming noise."
       },
       "jpeg": {
         "term": "JPEG",
-        "definition": "A compressed image file format that applies lossy compression. Smaller file sizes but less editing flexibility compared to RAW."
+        "definition": "Isang compressed image file format na gumagamit ng lossy compression. Mas maliit na file size pero mas kaunting editing flexibility kumpara sa RAW."
       },
       "kelvin": {
         "term": "Kelvin",
-        "definition": "The unit used to measure color temperature of light. Photographers use Kelvin values to set white balance and match the color of ambient lighting."
+        "definition": "Ang unit na ginagamit para sukatin ang color temperature ng liwanag. Ginagamit ng mga photographer ang Kelvin values para mag-set ng white balance at para tumugma sa kulay ng ambient lighting."
       },
       "lens-compression": {
         "term": "Lens Compression",
-        "definition": "The visual effect of a telephoto lens making distant objects appear closer to foreground subjects. It is caused by the long shooting distance, not the lens itself."
+        "definition": "Ang visual effect ng telephoto lens na nagpapakita ng malalayong bagay na mukhang mas malapit sa foreground subject. Dahil ito sa mahabang shooting distance, hindi sa lens mismo."
       },
       "light-meter": {
         "term": "Light Meter",
-        "definition": "A device or camera system that measures the intensity of light to determine proper exposure settings. Cameras use reflected light metering; handheld meters can measure incident light."
+        "definition": "Isang device o camera system na nagsusukat ng intensity ng liwanag para matukoy ang tamang exposure settings. Ang mga camera ay gumagamit ng reflected light metering; ang handheld meters ay kayang mag-measure ng incident light."
       },
       "long-exposure": {
         "term": "Long Exposure",
-        "definition": "A photograph taken with a slow shutter speed, typically seconds or minutes. Used for light trails, smooth water, star trails, and low-light scenes."
+        "definition": "Isang litrato na kinuha gamit ang mabagal na shutter speed, karaniwang segundo o minuto. Ginagamit para sa light trails, smooth na tubig, star trails, at mga low-light na eksena."
       },
       "macro": {
         "term": "Macro",
-        "definition": "Photography that reproduces subjects at or near life-size magnification (1:1 ratio). Requires specialized macro lenses or extension tubes."
+        "definition": "Photography na nagri-reproduce ng mga subject sa o malapit sa life-size magnification (1:1 ratio). Nangangailangan ng specialized macro lens o extension tubes."
       },
       "medium-format": {
         "term": "Medium Format",
-        "definition": "A sensor size larger than full frame, typically around 44 x 33mm or 54 x 40mm. Offers higher resolution, shallower depth of field, and greater dynamic range."
+        "definition": "Isang sensor size na mas malaki kaysa sa full frame, karaniwang mga 44 x 33mm o 54 x 40mm. Nag-aalok ng mas mataas na resolution, mas mababaw na depth of field, at mas malaking dynamic range."
       },
       "megapixel": {
         "term": "Megapixel",
-        "definition": "One million pixels. The megapixel count of a sensor determines the maximum resolution of images it can capture."
+        "definition": "Isang milyong pixel. Ang megapixel count ng sensor ay nagtatakda ng maximum resolution ng mga imaheng kaya nitong kunan."
       },
       "micro-four-thirds": {
         "term": "Micro Four Thirds",
-        "definition": "A mirrorless camera system with a sensor measuring 17.3 x 13mm, giving a 2x crop factor. Offers compact bodies and lenses with good image quality."
+        "definition": "Isang mirrorless camera system na may sensor na 17.3 x 13mm, nagbibigay ng 2x crop factor. Nag-aalok ng maliliit na body at lens na may magandang image quality."
       },
       "mirror-lock-up": {
         "term": "Mirror Lock-Up",
-        "definition": "A DSLR feature that flips the mirror up before the shutter fires, reducing vibration. Used for sharp tripod-mounted shots, especially at slow shutter speeds."
+        "definition": "Isang feature ng DSLR na nag-a-flip ng mirror bago mag-shutter, binabawasan ang vibration. Ginagamit para sa matatalas na tripod-mounted shots, lalo na sa mabagal na shutter speeds."
       },
       "nd-filter": {
         "term": "ND Filter",
-        "definition": "A neutral density filter that reduces the amount of light entering the lens without affecting color. Allows longer exposures or wider apertures in bright conditions."
+        "definition": "Isang neutral density filter na binabawasan ang dami ng liwanag na pumapasok sa lens nang hindi apektado ang kulay. Nagbibigay ng mas mahabang exposure o mas malawak na aperture sa maliliwanag na kondisyon."
       },
       "noise": {
         "term": "Noise",
-        "definition": "Random variation in brightness and color in digital images, most visible in shadow areas and at high ISO settings. Can be reduced with noise reduction software."
+        "definition": "Random na pagbabago sa brightness at kulay sa digital images, pinaka-nakikita sa shadow areas at sa mataas na ISO settings. Pwedeng bawasan gamit ang noise reduction software."
       },
       "overexposure": {
         "term": "Overexposure",
-        "definition": "When an image receives too much light, causing highlights to clip to pure white and lose detail. The opposite of underexposure."
+        "definition": "Kapag nakakakuha ng sobrang liwanag ang imahe, na nagiging dahilan ng pag-clip ng mga highlight sa purong puti at mawawalan ng detalye. Kabaligtaran ng underexposure."
       },
       "panorama": {
         "term": "Panorama",
-        "definition": "A wide-angle image created by stitching multiple overlapping photographs together. Can cover up to 360 degrees of a scene."
+        "definition": "Isang wide-angle na imahe na gawa sa pag-stitch ng maraming overlapping na litrato. Kayang masakop ang hanggang 360 degrees ng eksena."
       },
       "pixel-pitch": {
         "term": "Pixel Pitch",
-        "definition": "The distance in micrometers between the centers of adjacent pixels on a sensor. Larger pixel pitch generally means better low-light performance."
+        "definition": "Ang distansya sa micrometers sa pagitan ng mga sentro ng katabing pixel sa sensor. Ang mas malaking pixel pitch ay karaniwang nangangahulugan ng mas magandang low-light performance."
       },
       "polarizer": {
         "term": "Polarizer",
-        "definition": "A filter that reduces reflections and glare from non-metallic surfaces and can deepen blue skies. It works by blocking light waves oscillating in a specific direction."
+        "definition": "Isang filter na binabawasan ang reflection at glare mula sa mga non-metallic surface at kayang palalimin ang asul na langit. Gumagana ito sa pamamagitan ng pagharang sa mga light wave na umuukay sa isang partikular na direksyon."
       },
       "prime-lens": {
         "term": "Prime Lens",
-        "definition": "A lens with a fixed focal length (no zoom). Primes are typically sharper, faster (wider aperture), and lighter than comparable zoom lenses."
+        "definition": "Isang lens na may fixed focal length (walang zoom). Ang mga prime ay karaniwang mas matalas, mas mabilis (mas malawak na aperture), at mas magaan kaysa sa katumbas na zoom lens."
       },
       "raw": {
         "term": "RAW",
-        "definition": "An uncompressed or losslessly compressed file format that preserves all sensor data. Offers maximum flexibility in post-processing at the cost of larger file sizes."
+        "definition": "Isang uncompressed o losslessly compressed na file format na nagpepreserba ng lahat ng sensor data. Nag-aalok ng maximum flexibility sa post-processing sa halagang mas malalaking file size."
       },
       "reciprocal-rule": {
         "term": "Reciprocal Rule",
-        "definition": "A guideline stating that the minimum handheld shutter speed should be 1/(focal length) to avoid camera shake. For a 200mm lens, use at least 1/200s."
+        "definition": "Isang guideline na nagsasabing ang minimum handheld shutter speed ay dapat 1/(focal length) para maiwasan ang camera shake. Para sa 200mm lens, gumamit ng kahit 1/200s."
       },
       "rule-of-thirds": {
         "term": "Rule of Thirds",
-        "definition": "A composition guideline that divides the frame into a 3x3 grid. Placing subjects along the lines or at their intersections often creates a more balanced image."
+        "definition": "Isang composition guideline na naghahati ng frame sa 3x3 grid. Ang paglalagay ng mga subject sa mga linya o sa kanilang intersection ay karaniwang gumagawa ng mas balanseng imahe."
       },
       "sensor-size": {
         "term": "Sensor Size",
-        "definition": "The physical dimensions of a camera's image sensor. Larger sensors capture more light, offer shallower depth of field, and generally produce less noise."
+        "definition": "Ang pisikal na sukat ng image sensor ng camera. Ang mas malalaking sensor ay kumukuha ng mas maraming liwanag, nag-aalok ng mas mababaw na depth of field, at karaniwang gumagawa ng mas kaunting noise."
       },
       "shutter-speed": {
         "term": "Shutter Speed",
-        "definition": "The length of time the camera's shutter is open during an exposure. Faster speeds freeze motion; slower speeds allow motion blur."
+        "definition": "Ang haba ng panahong bukas ang shutter ng camera sa isang exposure. Ang mas mabilis na speed ay nagyeyelo ng galaw; ang mas mabagal ay nagpapahintulot ng motion blur."
       },
       "star-trails": {
         "term": "Star Trails",
-        "definition": "Streaks of light created by the apparent motion of stars during a long exposure. Can be captured in a single very long exposure or by stacking multiple shorter frames."
+        "definition": "Mga guhit ng liwanag na ginawa ng nakikitang galaw ng mga bituin sa isang long exposure. Pwedeng makuha sa isang napakahabang exposure o sa pag-stack ng maraming mas maikling frame."
       },
       "stop": {
         "term": "Stop",
-        "definition": "A unit of exposure change representing a doubling or halving of light. Applies to aperture, shutter speed, and ISO equally."
+        "definition": "Isang unit ng exposure change na kumakatawan sa pagdodoble o paghahati ng liwanag. Naaangkop sa aperture, shutter speed, at ISO nang pantay-pantay."
       },
       "telephoto": {
         "term": "Telephoto",
-        "definition": "A lens with a focal length longer than about 70mm (full frame equivalent). Telephoto lenses magnify distant subjects and compress perspective."
+        "definition": "Isang lens na may focal length na mas mahaba kaysa sa mga 70mm (full frame equivalent). Ang mga telephoto lens ay nagpapalaki ng malalayong subject at nag-co-compress ng perspective."
       },
       "tilt-shift": {
         "term": "Tilt-Shift",
-        "definition": "A lens that can tilt the plane of focus and shift the image circle relative to the sensor. Used for architecture photography and selective focus effects."
+        "definition": "Isang lens na kayang i-tilt ang plane of focus at i-shift ang image circle relative sa sensor. Ginagamit para sa architecture photography at selective focus effects."
       },
       "underexposure": {
         "term": "Underexposure",
-        "definition": "When an image receives too little light, causing shadow areas to lose detail and appear noisy. The opposite of overexposure."
+        "definition": "Kapag nakakakuha ng sobrang kaunting liwanag ang imahe, na nagiging dahilan ng pagkawala ng detalye sa shadow areas at nagkakaroon ng noise. Kabaligtaran ng overexposure."
       },
       "vignetting": {
         "term": "Vignetting",
-        "definition": "A darkening of the corners and edges of an image relative to the center. Can be caused by lens design, filters, or lens hoods, and is sometimes added intentionally in post."
+        "definition": "Ang pagdidilim ng mga sulok at gilid ng imahe relative sa sentro. Maaaring sanhi ng disenyo ng lens, filter, o lens hood, at minsan sinasadyang idagdag sa post."
       },
       "white-balance": {
         "term": "White Balance",
-        "definition": "A camera setting that adjusts colors so that white objects appear neutral under different lighting conditions. Can be set automatically or manually using Kelvin values."
+        "definition": "Isang camera setting na nag-a-adjust ng mga kulay para ang mga puting bagay ay mukhang neutral sa iba't ibang lighting condition. Pwedeng i-set nang automatic o manually gamit ang Kelvin values."
       },
       "wide-angle": {
         "term": "Wide-Angle",
-        "definition": "A lens with a short focal length (typically below 35mm on full frame) that captures a broader field of view. Often used for landscapes, architecture, and interiors."
+        "definition": "Isang lens na may maikling focal length (karaniwang mas mababa sa 35mm sa full frame) na kumukuha ng mas malawak na field of view. Madalas gamitin para sa landscape, architecture, at mga interior."
       },
       "zoom-lens": {
         "term": "Zoom Lens",
-        "definition": "A lens with a variable focal length range, allowing the photographer to change framing without moving. Offers versatility at the cost of size, weight, and sometimes sharpness."
+        "definition": "Isang lens na may variable focal length range, nagpapahintulot sa photographer na baguhin ang framing nang hindi gumagalaw. Nag-aalok ng versatility sa halagang size, bigat, at minsan ay sharpness."
       }
     }
   }

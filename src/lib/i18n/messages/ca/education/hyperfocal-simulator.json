@@ -1,70 +1,70 @@
 {
   "education": {
     "hyperfocal-simulator": {
-      "beginner": "The hyperfocal distance is the closest point you can focus on while still keeping everything at infinity acceptably sharp. When you focus at the hyperfocal distance, your depth of field extends from half that distance all the way to infinity. Landscape photographers use this technique to maximize sharpness from foreground to horizon.",
-      "deeper": "Hyperfocal distance is derived from the thin-lens equation and the concept of the circle of confusion (CoC). It equals the focal length squared divided by the product of the f-number and the CoC diameter: H = f\u00b2 / (N \u00d7 c). Anything from H/2 to infinity falls within acceptable sharpness. The CoC depends on sensor size — smaller sensors have a smaller acceptable CoC, which pushes the hyperfocal distance farther away for the same focal length and aperture. This is why crop-sensor cameras appear to have greater depth of field: the CoC standard is tighter relative to the image area. In practice, diffraction softening at very small apertures (f/16 and beyond on most sensors) means there is a trade-off between maximizing depth of field and maintaining per-pixel sharpness.",
+      "beginner": "La distància hiperfocal és el punt més proper on pots enfocar mantenint tot el que hi ha a l'infinit acceptablement nítid. Quan enfoques a la distància hiperfocal, la teva profunditat de camp s'estén des de la meitat d'aquesta distància fins a l'infinit. Els fotògrafs de paisatge fan servir aquesta tècnica per maximitzar la nitidesa del primer pla a l'horitzó.",
+      "deeper": "La distància hiperfocal es deriva de l'equació de la lent prima i del concepte del cercle de confusió (CoC). És igual al quadrat de la distància focal dividit pel producte de l'f-stop i el diàmetre del CoC: H = f² / (N × c). Tot el que hi ha entre H/2 i l'infinit cau dins la nitidesa acceptable. El CoC depèn de la mida del sensor — els sensors més petits tenen un CoC acceptable més petit, cosa que empeny la distància hiperfocal més lluny per a la mateixa distància focal i diafragma. Per això les càmeres amb sensor de retall semblen tenir més profunditat de camp: l'estàndard del CoC és més estricte en relació amb l'àrea de la imatge. A la pràctica, la difracció amb diafragmes molt tancats (f/16 i més enllà a la majoria de sensors) crea un compromís entre maximitzar la profunditat de camp i mantenir la nitidesa per píxel.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths dramatically increase hyperfocal distance — it scales with the square of focal length."
+          "label": "Distància focal",
+          "description": "Les distàncies focals més llargues augmenten dràsticament la distància hiperfocal — escala amb el quadrat de la distància focal."
         },
         "1": {
-          "label": "Aperture",
-          "description": "Smaller apertures (higher f-numbers) reduce hyperfocal distance, extending depth of field."
+          "label": "Diafragma",
+          "description": "Els diafragmes més tancats (f-stop més alt) redueixen la distància hiperfocal, estenent la profunditat de camp."
         },
         "2": {
-          "label": "Sensor Size",
-          "description": "Smaller sensors use a smaller circle of confusion, which increases hyperfocal distance for equivalent framing."
+          "label": "Mida del sensor",
+          "description": "Els sensors més petits fan servir un cercle de confusió més petit, cosa que augmenta la distància hiperfocal per a un enquadrament equivalent."
         },
         "3": {
-          "label": "Circle of Confusion",
-          "description": "The maximum blur spot diameter considered \"acceptably sharp\" — typically 0.03mm for full frame."
+          "label": "Cercle de confusió",
+          "description": "El diàmetre màxim de la taca de desenfocament considerada \"acceptablement nítida\" — normalment 0,03mm per a full frame."
         }
       },
       "tips": {
         "0": {
-          "text": "For quick landscape work, focus roughly one-third into the scene — it approximates the hyperfocal point for most wide-angle setups."
+          "text": "Per a treball de paisatge ràpid, enfoca aproximadament a un terç de l'escena — s'aproxima al punt hiperfocal per a la majoria de configuracions amb gran angular."
         },
         "1": {
-          "text": "Avoid stopping down past f/16 on full-frame or f/11 on APS-C. Diffraction will undo the depth-of-field gains you are chasing."
+          "text": "Evita tancar més enllà de f/16 en full frame o f/11 en APS-C. La difracció anul·larà els guanys de profunditat de camp que busques."
         },
         "2": {
-          "text": "Use live view magnification to nail focus precisely at the hyperfocal distance rather than relying on the lens distance scale, which is often imprecise on modern autofocus lenses."
+          "text": "Fes servir l'ampliació del live view per enfocar amb precisió a la distància hiperfocal en comptes de confiar en l'escala de distàncies de l'objectiu, que sovint és imprecisa en els objectius moderns d'autofocus."
         }
       },
       "tooltips": {
         "Sensor": {
           "term": "Sensor",
-          "definition": "The camera sensor format. Smaller sensors have a tighter circle of confusion standard, which shifts all hyperfocal distances farther away."
+          "definition": "El format del sensor de la càmera. Els sensors més petits tenen un estàndard de cercle de confusió més estricte, cosa que desplaça totes les distàncies hiperfocals més lluny."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a landscape with a 24mm lens on a full-frame camera. Which sensor format should you select to see full-frame hyperfocal distances?",
-          "hint": "Full frame is the standard 35mm sensor size.",
-          "successMessage": "Correct! Full Frame is the right choice for a standard 35mm sensor.",
-          "failureMessage": "Not quite — select the Full Frame sensor to match a standard 35mm camera body.",
+          "scenario": "Estàs fent un paisatge amb un 24mm en una full frame. Quin format de sensor hauries de seleccionar per veure les distàncies hiperfocals de full frame?",
+          "hint": "Full frame és la mida de sensor estàndard de 35mm.",
+          "successMessage": "Correcte! Full Frame és la tria correcta per a un sensor 35mm estàndard.",
+          "failureMessage": "No del tot — selecciona el sensor Full Frame per coincidir amb un cos de càmera 35mm estàndard.",
           "options": {
             "0": { "label": "Full Frame" },
             "1": { "label": "APS-C (Nikon/Sony)" },
-            "2": { "label": "Micro Four Thirds" }
+            "2": { "label": "Micro Quatre Terços" }
           }
         },
         "1": {
-          "scenario": "Looking at the table for full frame, which has a shorter hyperfocal distance: 24mm at f/8, or 50mm at f/8?",
-          "hint": "Hyperfocal distance increases with the square of the focal length.",
-          "successMessage": "Right! The 24mm lens has a much shorter hyperfocal distance because focal length has a squared relationship.",
-          "failureMessage": "Actually, shorter focal lengths always yield shorter hyperfocal distances. The 24mm wins here.",
+          "scenario": "Mirant la taula per a full frame, quin té una distància hiperfocal més curta: 24mm a f/8 o 50mm a f/8?",
+          "hint": "La distància hiperfocal augmenta amb el quadrat de la distància focal.",
+          "successMessage": "Exacte! El 24mm té una distància hiperfocal molt més curta perquè la distància focal té una relació al quadrat.",
+          "failureMessage": "En realitat, les distàncies focals més curtes sempre donen hiperfocals més curtes. El 24mm guanya aquí.",
           "options": {
-            "0": { "label": "24mm at f/8" },
-            "1": { "label": "50mm at f/8" }
+            "0": { "label": "24mm a f/8" },
+            "1": { "label": "50mm a f/8" }
           }
         },
         "2": {
-          "scenario": "You are hiking with an APS-C camera and a 35mm lens. You want everything from about 3 meters to infinity sharp. Which aperture range should you look at in the table to find a hyperfocal distance near 6 meters (so that half of it — 3m — is your near-focus limit)?",
-          "hint": "Remember: near focus = hyperfocal / 2. Look for an aperture that gives a hyperfocal around 6m.",
-          "successMessage": "Great thinking! You correctly identified that you need a hyperfocal distance of about 6m, and found the right aperture range.",
-          "failureMessage": "Remember, near focus equals half the hyperfocal distance. You need the hyperfocal to be around 6m to get a near-focus limit of 3m.",
+          "scenario": "Fas senderisme amb una càmera APS-C i un 35mm. Vols que tot, des d'uns 3 metres fins a l'infinit, sigui nítid. Quin rang de diafragma hauries de mirar a la taula per trobar una distància hiperfocal al voltant de 6 metres (perquè la meitat — 3m — sigui el teu límit d'enfocament proper)?",
+          "hint": "Recorda: enfocament proper = hiperfocal / 2. Busca un diafragma que doni una hiperfocal al voltant de 6m.",
+          "successMessage": "Ben pensat! Has identificat correctament que necessites una distància hiperfocal d'uns 6m i has trobat el rang de diafragma adequat.",
+          "failureMessage": "Recorda, l'enfocament proper és igual a la meitat de la distància hiperfocal. Necessites que la hiperfocal sigui al voltant de 6m per obtenir un límit d'enfocament proper de 3m.",
           "options": {
             "0": { "label": "f/2.8 — f/4" },
             "1": { "label": "f/5.6 — f/8" },
@@ -72,24 +72,24 @@
           }
         },
         "3": {
-          "scenario": "A friend switches from a full-frame camera to Micro Four Thirds but keeps shooting the same focal lengths. They complain that the hyperfocal distances seem different. Why?",
-          "hint": "The circle of confusion is calculated based on sensor size.",
-          "successMessage": "Exactly! The smaller M43 sensor uses a smaller CoC (about 0.015mm vs 0.03mm), which increases hyperfocal distances for the same focal length and aperture.",
-          "failureMessage": "The key factor is the circle of confusion. Smaller sensors require a tighter CoC standard, which pushes hyperfocal distances farther out.",
+          "scenario": "Un amic passa d'una càmera full frame a Micro Quatre Terços però segueix disparant les mateixes distàncies focals. Es queixa que les distàncies hiperfocals semblen diferents. Per què?",
+          "hint": "El cercle de confusió es calcula segons la mida del sensor.",
+          "successMessage": "Exacte! El sensor M43 més petit fa servir un CoC més petit (aproximadament 0,015mm vs 0,03mm), cosa que augmenta les distàncies hiperfocals per a la mateixa distància focal i diafragma.",
+          "failureMessage": "El factor clau és el cercle de confusió. Els sensors més petits requereixen un estàndard de CoC més estricte, cosa que empeny les distàncies hiperfocals més lluny.",
           "options": {
-            "0": { "label": "The lens focal length changes on crop sensors" },
-            "1": { "label": "Smaller sensors use a smaller circle of confusion" },
-            "2": { "label": "Micro Four Thirds cameras have less accurate autofocus" }
+            "0": { "label": "La distància focal de l'objectiu canvia en sensors de retall" },
+            "1": { "label": "Els sensors més petits fan servir un cercle de confusió més petit" },
+            "2": { "label": "Les càmeres Micro Quatre Terços tenen un autofocus menys precís" }
           }
         },
         "4": {
-          "scenario": "You are shooting architecture at 14mm f/11 on full frame. The table shows a very short hyperfocal distance. Should you stop down further to f/22 for even more depth of field, or is f/11 the better choice?",
-          "hint": "Consider what happens to image sharpness at very small apertures.",
-          "successMessage": "Excellent! At f/11, diffraction is minimal on full frame, and the hyperfocal distance at 14mm is already very short. Stopping down to f/22 would soften the image due to diffraction without meaningful DoF benefit.",
-          "failureMessage": "While f/22 gives a shorter hyperfocal distance on paper, diffraction softening at f/22 on full frame actually reduces overall image sharpness. At 14mm f/11, the hyperfocal distance is already so short that the extra DoF is not worth the diffraction penalty.",
+          "scenario": "Estàs fotografiant arquitectura a 14mm f/11 en full frame. La taula mostra una distància hiperfocal molt curta. Hauries de tancar més a f/22 per a encara més profunditat de camp, o f/11 és la millor tria?",
+          "hint": "Pensa què passa amb la nitidesa de la imatge amb diafragmes molt tancats.",
+          "successMessage": "Excel·lent! A f/11, la difracció és mínima en full frame, i la distància hiperfocal a 14mm ja és molt curta. Tancar a f/22 suavitzaria la imatge per difracció sense un benefici significatiu en profunditat de camp.",
+          "failureMessage": "Tot i que f/22 dona una hiperfocal més curta sobre el paper, la difracció a f/22 en full frame redueix la nitidesa global. A 14mm f/11 la distància hiperfocal ja és tan curta que la profunditat de camp extra no val la pena pel cost en difracció.",
           "options": {
-            "0": { "label": "Stop down to f/22 for maximum depth of field" },
-            "1": { "label": "Stay at f/11 — diffraction at f/22 will reduce sharpness" }
+            "0": { "label": "Tancar a f/22 per a la màxima profunditat de camp" },
+            "1": { "label": "Quedar-se a f/11 — la difracció a f/22 reduirà la nitidesa" }
           }
         }
       }

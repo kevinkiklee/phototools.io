@@ -1,57 +1,57 @@
 {
   "education": {
     "nd-filter-calculator": {
-      "beginner": "An ND (neutral density) filter is like sunglasses for your camera lens. It reduces the amount of light entering the lens without changing the colors, allowing you to use slower shutter speeds or wider apertures in bright conditions. This is how photographers create silky waterfalls, smooth oceans, or blurred clouds during the day.",
-      "deeper": "ND filters are rated by how many stops of light they block. An ND2 filter (1 stop) halves the light, an ND8 (3 stops) reduces it to 1/8th, and an ND1000 (10 stops) reduces light by a factor of 1024. The naming conventions can be confusing: \"ND8\" means the filter factor is 8 (3 stops), while \"ND 0.9\" uses optical density notation (each 0.3 = 1 stop, so 0.9 = 3 stops). The resulting shutter speed is simply the base speed multiplied by the filter factor. For example, if your unfiltered exposure is 1/125s and you add a 10-stop ND (ND1000), the new shutter speed is 1/125 x 1024 = approximately 8 seconds. Stacking multiple ND filters adds their stop values together but can introduce vignetting and color casts, especially with wide-angle lenses.",
+      "beginner": "ND（中性密度）濾鏡就像相機鏡頭的墨鏡。它能減少進入鏡頭的光量，又不改變色彩，讓您在明亮環境下仍能使用慢速快門或大光圈。這就是攝影師在白天拍出絲滑瀑布、平靜海面或流動雲層的關鍵。",
+      "deeper": "ND 濾鏡以能阻擋多少級的光線來區分強度。ND2 濾鏡（1 級）讓光量減半、ND8（3 級）降到 1/8、ND1000（10 級）則減到 1/1024。命名慣例容易讓人混淆：「ND8」代表濾鏡係數為 8（3 級），而「ND 0.9」則採用光學密度記法（每 0.3 等於 1 級，因此 0.9 = 3 級）。加上濾鏡後的新快門速度，只要把原本的快門速度乘以濾鏡係數即可。例如未加濾鏡的曝光是 1/125s，裝上 10 級的 ND（ND1000）後，新的快門速度為 1/125 × 1024 ≈ 8 秒。堆疊多片 ND 可將級數相加，但也可能帶來暗角與色偏，尤其是廣角鏡頭。",
       "keyFactors": {
         "0": {
-          "label": "Base Shutter Speed",
-          "description": "The correct exposure time without any filter. Meter the scene first, then calculate the filtered exposure from this starting point."
+          "label": "基準快門速度",
+          "description": "無濾鏡時的正確曝光時間。先為現場測光，再以此為基準計算加裝濾鏡後的曝光。"
         },
         "1": {
-          "label": "Filter Strength",
-          "description": "Measured in stops. Each stop doubles the exposure time. Common strengths: 3-stop (ND8), 6-stop (ND64), and 10-stop (ND1000)."
+          "label": "濾鏡強度",
+          "description": "以級數計算。每一級代表曝光時間加倍。常見強度：3 級（ND8）、6 級（ND64）與 10 級（ND1000）。"
         },
         "2": {
-          "label": "Stacking Filters",
-          "description": "You can combine filters by adding their stop values. A 3-stop + 6-stop stack gives 9 stops of reduction. Beware of vignetting on wide-angle lenses."
+          "label": "堆疊濾鏡",
+          "description": "您可以將多片濾鏡疊加，級數相加即可。3 級 + 6 級堆疊即為 9 級減光。但要留意廣角鏡頭上的暗角問題。"
         }
       },
       "tips": {
         "0": {
-          "text": "Compose and focus before attaching a strong ND filter. With 10 stops of light reduction, your viewfinder and autofocus will struggle in the dark."
+          "text": "裝上強 ND 濾鏡之前，先完成構圖與對焦。減光 10 級後，觀景窗與自動對焦在昏暗中都會很吃力。"
         },
         "1": {
-          "text": "For seascapes, 1-2 second exposures smooth small ripples into texture while retaining wave structure. Exposures of 30 seconds or more create completely flat, misty water."
+          "text": "拍海景時，1–2 秒的曝光能把小波紋平滑成紋理，同時保留海浪結構。30 秒以上的曝光則會讓海面完全平坦、帶出霧狀質感。"
         },
         "2": {
-          "text": "Cheap ND filters often add a color cast (usually magenta or brown). Invest in quality glass from reputable brands, or learn to correct the cast in post-processing using a gray card reference."
+          "text": "便宜的 ND 濾鏡常會帶點色偏（通常是洋紅或褐色）。投資知名品牌的優質玻璃，或學會在後製中使用灰卡做為基準校正色偏。"
         }
       },
       "tooltips": {
         "baseShutterSpeed": {
-          "term": "Base Shutter Speed",
-          "definition": "The shutter speed for a correct exposure without any ND filter attached. This is your starting point — the calculator multiplies it by the filter factor."
+          "term": "基準快門速度",
+          "definition": "未加 ND 濾鏡時的正確曝光快門速度。這是您的起點 — 計算機會將它乘以濾鏡係數。"
         },
         "ndFilter": {
-          "term": "ND Filter",
-          "definition": "A neutral density filter that uniformly reduces light transmission. Rated by filter factor (ND2, ND4, ND8...) or stops of light reduction. ND2 = 1 stop, ND4 = 2 stops, ND8 = 3 stops, and so on."
+          "term": "ND 濾鏡",
+          "definition": "能均勻減少光線通過量的中性密度濾鏡。以濾鏡係數（ND2、ND4、ND8...）或減光級數表示。ND2 = 1 級、ND4 = 2 級、ND8 = 3 級，以此類推。"
         },
         "resultingShutterSpeed": {
-          "term": "Resulting Shutter Speed",
-          "definition": "The new shutter speed after accounting for the ND filter. Calculated by multiplying the base shutter speed by the filter factor (e.g., 1/125s x 1024 for a 10-stop ND)."
+          "term": "換算後快門速度",
+          "definition": "加入 ND 濾鏡後的新快門速度。以基準快門速度乘以濾鏡係數計算（例如 10 級 ND 為 1/125s × 1024）。"
         },
         "stopsAdded": {
-          "term": "Stops Added",
-          "definition": "The number of stops of light reduction the ND filter provides. Each stop doubles the required exposure time. 10 stops means the exposure is 1024 times longer."
+          "term": "增加的級數",
+          "definition": "ND 濾鏡所提供的減光級數。每一級讓所需曝光時間加倍。10 級代表曝光時間是原本的 1024 倍。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are at a waterfall and your camera meters a correct exposure at 1/125s without any filter. You attach a 3-stop ND filter (ND8). What is the new shutter speed?",
-          "hint": "Each stop doubles the exposure time. 3 stops means 2 x 2 x 2 = 8 times longer.",
-          "successMessage": "Correct! 1/125s x 8 = 1/15s. This is a good start for motion blur in the water, though you might want an even stronger filter for silky smooth results.",
-          "failureMessage": "A 3-stop ND filter multiplies the exposure time by 8 (2^3 = 8). So 1/125s becomes 1/15s.",
+          "scenario": "您在瀑布旁，未加濾鏡時相機測光得出正確曝光為 1/125s。裝上 3 級 ND 濾鏡（ND8）後，新的快門速度是多少？",
+          "hint": "每一級讓曝光時間加倍。3 級代表 2 × 2 × 2 = 8 倍。",
+          "successMessage": "答對了！1/125s × 8 = 1/15s。這是拍攝水流模糊的好起點，但若想拍出絲滑效果可能還需要更強的濾鏡。",
+          "failureMessage": "3 級 ND 濾鏡讓曝光時間乘以 8（2^3 = 8）。因此 1/125s 變為 1/15s。",
           "options": {
             "0": { "label": "1/60s" },
             "1": { "label": "1/30s" },
@@ -60,50 +60,50 @@
           }
         },
         "1": {
-          "scenario": "You want to create a 30-second exposure of clouds moving across the sky. Without a filter, the correct exposure is 1/30s. How many stops of ND filtration do you need?",
-          "hint": "You need to go from 1/30s to 30s — that is 1/30 x factor = 30, so factor = 900. Find the nearest power of 2.",
-          "successMessage": "Correct! Going from 1/30s to 30s is roughly a 1000x increase, which is about 10 stops. An ND1000 (10-stop) filter gets you to approximately 33 seconds.",
-          "failureMessage": "The ratio is 30 / (1/30) = 900. The nearest power of 2 is 1024 (2^10), so you need a 10-stop ND filter.",
+          "scenario": "您想拍攝雲層流動的 30 秒曝光。未加濾鏡時的正確曝光是 1/30s。需要多少級 ND 濾鏡？",
+          "hint": "從 1/30s 變成 30s 是 1/30 × 係數 = 30，所以係數 = 900。找最接近的 2 的冪次。",
+          "successMessage": "答對了！從 1/30s 到 30s 約為 1000 倍的增加，大約等於 10 級。ND1000（10 級）濾鏡會讓您大約達到 33 秒。",
+          "failureMessage": "比例為 30 / (1/30) = 900。最接近的 2 的冪次為 1024（2^10），所以需要 10 級 ND 濾鏡。",
           "options": {
-            "0": { "label": "6 stops (ND64)" },
-            "1": { "label": "8 stops (ND256)" },
-            "2": { "label": "10 stops (ND1000)" },
-            "3": { "label": "15 stops (ND32768)" }
+            "0": { "label": "6 級（ND64）" },
+            "1": { "label": "8 級（ND256）" },
+            "2": { "label": "10 級（ND1000）" },
+            "3": { "label": "15 級（ND32768）" }
           }
         },
         "2": {
-          "scenario": "You are shooting a seascape at sunset. The light is fading and your base exposure (no filter) is now 1/4s at f/11, ISO 100. You want 2-minute exposures for ultra-smooth water. What ND filter strength do you need?",
-          "hint": "From 1/4s to 120s is a factor of 480. Find the closest stop value.",
-          "successMessage": "A 9-stop ND would give you 1/4 x 512 = 128 seconds, or just over 2 minutes. Perfect for that misty, ethereal seascape look at sunset.",
-          "failureMessage": "From 0.25s to 120s is about a 480x increase. 2^9 = 512, which is close to 480, so a 9-stop filter gets you to approximately 128 seconds.",
+          "scenario": "您在黃昏時拍海景。光線漸暗，目前的基準曝光（無濾鏡）為 f/11、1/4s、ISO 100。您想要 2 分鐘的曝光來取得極度平滑的水面。需要多少級的 ND 濾鏡？",
+          "hint": "從 1/4s 到 120s 是 480 倍。找最接近的級數。",
+          "successMessage": "9 級 ND 會讓曝光變成 1/4 × 512 = 128 秒，略多於 2 分鐘。非常適合黃昏時那種夢幻、迷霧的海景風格。",
+          "failureMessage": "從 0.25s 到 120s 約為 480 倍。2^9 = 512，接近 480，因此 9 級濾鏡讓曝光達到約 128 秒。",
           "options": {
-            "0": { "label": "6 stops" },
-            "1": { "label": "9 stops" },
-            "2": { "label": "10 stops" },
-            "3": { "label": "13 stops" }
+            "0": { "label": "6 級" },
+            "1": { "label": "9 級" },
+            "2": { "label": "10 級" },
+            "3": { "label": "13 級" }
           }
         },
         "3": {
-          "scenario": "You want to shoot a portrait at f/1.4 in bright sunlight (base exposure: f/1.4, 1/8000s, ISO 100). Your camera's maximum shutter speed is 1/8000s. Can you shoot at f/1.4 without an ND filter?",
-          "hint": "Check if 1/8000s at f/1.4 and ISO 100 is achievable, or if the scene is still overexposed.",
-          "successMessage": "Correct! On a very bright day (EV 15+), f/1.4 at ISO 100 often needs shutter speeds faster than 1/8000s, which most cameras cannot achieve. A 2-3 stop ND filter lets you shoot wide open without overexposure.",
-          "failureMessage": "In bright sunlight, f/1.4 at ISO 100 may require shutter speeds beyond the camera's 1/8000s limit. An ND filter is essential for wide-aperture shooting in bright conditions.",
+          "scenario": "您想在大太陽下以 f/1.4 拍人像（基準曝光為 f/1.4、1/8000s、ISO 100）。相機的最高快門速度是 1/8000s。不用 ND 濾鏡能以 f/1.4 拍攝嗎？",
+          "hint": "確認 1/8000s、f/1.4、ISO 100 是否可行，還是場景仍然過曝。",
+          "successMessage": "答對了！在極亮的日子（EV 15 以上），ISO 100 下的 f/1.4 常需要比 1/8000s 更快的快門，多數相機都達不到。加 2–3 級的 ND 濾鏡能讓您全開光圈拍攝而不過曝。",
+          "failureMessage": "在大晴天下，ISO 100 的 f/1.4 可能需要超過 1/8000s 的快門速度，超出相機上限。ND 濾鏡對於明亮環境下的大光圈拍攝至關重要。",
           "options": {
-            "0": { "label": "Yes — 1/8000s is fast enough" },
-            "1": { "label": "No — you likely need a 2-3 stop ND filter" },
-            "2": { "label": "Just raise ISO to compensate" }
+            "0": { "label": "可以 — 1/8000s 已足夠" },
+            "1": { "label": "不行 — 您大概需要 2–3 級 ND 濾鏡" },
+            "2": { "label": "直接提高 ISO 補償即可" }
           }
         },
         "4": {
-          "scenario": "You own a 6-stop and a 3-stop ND filter. You stack them on your lens with a base exposure of 1/250s. What is the resulting shutter speed, and what should you watch for with this setup?",
-          "hint": "Add the stop values together, then calculate the new exposure. Think about optical side effects of stacking.",
-          "successMessage": "Correct! 6 + 3 = 9 stops. 1/250 x 512 = approximately 2 seconds. Watch for vignetting (dark corners) on wide-angle lenses and potential color casts from cheap glass.",
-          "failureMessage": "Stacking adds the stop values: 6 + 3 = 9 stops total. 2^9 = 512, so 1/250 x 512 = ~2 seconds. Stacking can also cause vignetting and color casts.",
+          "scenario": "您手上有 6 級與 3 級兩片 ND 濾鏡。將它們疊在一起，基準曝光為 1/250s。換算後的快門速度是多少？使用這種組合時要注意什麼？",
+          "hint": "把級數相加，再計算新的曝光。並思考堆疊在光學上可能的副作用。",
+          "successMessage": "答對了！6 + 3 = 9 級。1/250 × 512 ≈ 2 秒。要留意廣角鏡上的暗角（四角變暗），以及便宜濾鏡可能產生的色偏。",
+          "failureMessage": "堆疊會把級數相加：6 + 3 = 9 級。2^9 = 512，因此 1/250 × 512 ≈ 2 秒。堆疊也可能帶來暗角與色偏。",
           "options": {
-            "0": { "label": "~0.5s, watch for lens flare" },
-            "1": { "label": "~2s, watch for vignetting and color casts" },
-            "2": { "label": "~4s, watch for sensor overheating" },
-            "3": { "label": "~8s, no concerns with stacking" }
+            "0": { "label": "約 0.5s，小心鏡頭耀光" },
+            "1": { "label": "約 2s，小心暗角與色偏" },
+            "2": { "label": "約 4s，小心感光元件過熱" },
+            "3": { "label": "約 8s，堆疊沒有任何副作用" }
           }
         }
       }

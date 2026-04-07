@@ -1,28 +1,28 @@
 {
   "toolUI": {
     "white-balance-visualizer": {
-      "colorTemperature": "Color Temperature:",
-      "warm": "Warm",
-      "neutral": "Neutral",
-      "cool": "Cool",
-      "presets": "Presets",
-      "red": "Red",
-      "green": "Green",
-      "blue": "Blue",
+      "colorTemperature": "Цветовая температура:",
+      "warm": "Тёплый",
+      "neutral": "Нейтральный",
+      "cool": "Холодный",
+      "presets": "Пресеты",
+      "red": "Красный",
+      "green": "Зелёный",
+      "blue": "Синий",
       "hex": "Hex",
-      "loadingScene": "Loading scene...",
+      "loadingScene": "Загрузка сцены...",
       "faq": {
         "what-is-white-balance": {
-          "question": "What is white balance in photography?",
-          "answer": "White balance adjusts colors in your photo so that objects that appear white in person also appear white in the image. Different light sources emit different color temperatures, and white balance compensates for these variations."
+          "question": "Что такое баланс белого в фотографии?",
+          "answer": "Баланс белого подстраивает цвета в кадре так, чтобы белые объекты выглядели белыми и на снимке. Разные источники света имеют разную цветовую температуру — баланс белого компенсирует эти различия."
         },
         "kelvin-vs-presets": {
-          "question": "Should I use Kelvin values or white balance presets?",
-          "answer": "Presets (Daylight, Cloudy, Tungsten) are convenient starting points, but setting a specific Kelvin value gives more precise control. Shoot in RAW format to adjust white balance non-destructively in post-processing."
+          "question": "Что использовать — значения в Кельвинах или пресеты баланса белого?",
+          "answer": "Пресеты (Daylight, Cloudy, Tungsten) — удобные отправные точки, но конкретное значение в Кельвинах даёт более точный контроль. Снимай в RAW, чтобы менять баланс белого на посте без потерь качества."
         },
         "when-to-use-manual-white-balance": {
-          "question": "When should I use manual white balance?",
-          "answer": "Use manual white balance for mixed lighting (combining natural and artificial), studio setups requiring exact color accuracy, product photography, and any time auto white balance produces inconsistent results across a series of shots."
+          "question": "Когда использовать ручной баланс белого?",
+          "answer": "Ручной баланс белого нужен в смешанном освещении (естественный + искусственный свет), студийной съёмке с требованиями к точной передаче цвета, предметной фотографии и везде, где авто-ББ даёт нестабильный результат в серии кадров."
         }
       }
     }

@@ -1,122 +1,122 @@
 {
   "education": {
     "sensor-size-comparison": {
-      "beginner": "Camera sensors come in many different physical sizes, from the large medium-format chips used in studio cameras down to the tiny sensors in smartphones. A larger sensor captures more light, produces less noise, and makes it easier to blur backgrounds. Sensor size is one of the biggest factors separating camera categories.",
+      "beginner": "Kamerasensorer finns i många olika fysiska storlekar, från de stora mellanformatschippen i studiokameror ner till de pyttesmå sensorerna i smartphones. En större sensor fångar mer ljus, producerar mindre brus och gör det lättare att sudda bakgrunder. Sensorstorleken är en av de största faktorerna som skiljer kamerakategorier åt.",
       "deeper": {
         "0": {
-          "heading": "How it works",
-          "text": "Sensor size affects photography in several interconnected ways. A larger sensor has a bigger area to collect photons, improving signal-to-noise ratio and dynamic range. Sensor size is one of the most important differences between camera categories — from medium format studio cameras to smartphone sensors."
+          "heading": "Så fungerar det",
+          "text": "Sensorstorleken påverkar fotograferingen på flera sammanlänkade sätt. En större sensor har större yta att samla fotoner på, vilket förbättrar signal-brus-förhållandet och det dynamiska omfånget. Sensorstorleken är en av de viktigaste skillnaderna mellan kamerakategorier — från mellanformat i studio till smartphonesensorer."
         },
         "1": {
-          "heading": "Crop factor",
-          "text": "The \"crop factor\" describes how a sensor compares to the 35mm full-frame standard. An APS-C sensor with a 1.5x crop factor gives the same field of view with a 35mm lens as a full-frame camera would with a 52.5mm lens. This crop factor also multiplies the effective depth of field — a smaller sensor appears to give more depth of field at the same framing because you need a wider (shorter) lens to match the field of view."
+          "heading": "Cropfaktor",
+          "text": "\"Cropfaktorn\" beskriver hur en sensor står sig mot 35 mm fullformat. En APS-C-sensor med cropfaktor 1,5x ger samma bildvinkel med ett 35 mm-objektiv som en fullformatskamera skulle ge med ett 52,5 mm. Den cropfaktorn multiplicerar också det upplevda skärpedjupet — en mindre sensor verkar ge större skärpedjup vid samma bildutsnitt eftersom du måste använda ett kortare (vidare) objektiv för att matcha bildvinkeln."
         },
         "2": {
-          "heading": "Pixel density",
-          "text": "Pixel density (pixel pitch) measures how tightly pixels are packed on the sensor. Packing more megapixels onto a smaller sensor shrinks each photosite, reducing per-pixel light gathering. A 24MP full-frame sensor has ~6\u00b5m pixels while a 24MP APS-C sensor has ~4\u00b5m pixels, which is why the full-frame sensor typically performs better at high ISO."
+          "heading": "Pixeltäthet",
+          "text": "Pixeltäthet (pixelavstånd) mäter hur tätt pixlarna är packade på sensorn. Att packa fler megapixel på en mindre sensor krymper varje fotocell och minskar ljusinsamlingen per pixel. En 24 MP fullformatssensor har ~6 µm pixlar medan en 24 MP APS-C-sensor har ~4 µm pixlar, vilket är varför fullformatssensorn oftast presterar bättre vid höga ISO."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Physical Dimensions",
-          "description": "Width and height in millimeters determine the total light-gathering area and the field of view for a given lens."
+          "label": "Fysiska mått",
+          "description": "Bredd och höjd i millimeter bestämmer den totala ljusinsamlingsytan och bildvinkeln för ett givet objektiv."
         },
         "1": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame diagonal to the sensor diagonal. Multiplied by focal length, it gives the \"equivalent\" focal length."
+          "label": "Cropfaktor",
+          "description": "Förhållandet mellan fullformatets diagonal och sensorns diagonal. Multiplicerat med brännvidden ger det den \"ekvivalenta\" brännvidden."
         },
         "2": {
-          "label": "Pixel Density",
-          "description": "How tightly pixels are packed. Smaller pixel pitch means more detail but less light per pixel, affecting noise performance."
+          "label": "Pixeltäthet",
+          "description": "Hur tätt pixlarna är packade. Mindre pixelavstånd ger mer detalj men mindre ljus per pixel, vilket påverkar brusprestandan."
         },
         "3": {
-          "label": "Sensor Area",
-          "description": "Total area in mm\u00b2. A 44x33mm medium format sensor (Fujifilm GFX, Hasselblad X) has roughly 1.7x the area of full frame, while a larger 54x40mm medium format chip is about 2.5x. Full frame is roughly 13x the area of a flagship smartphone sensor."
+          "label": "Sensoryta",
+          "description": "Total yta i mm². En 44x33 mm mellanformatssensor (Fujifilm GFX, Hasselblad X) har ungefär 1,7x ytan av fullformat, medan ett större 54x40 mm mellanformatschip har cirka 2,5x. Fullformat har ungefär 13x ytan av en smartphone-flaggskeppssensor."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the overlay mode to see exactly how much bigger one sensor is than another — the area difference is often more dramatic than the numbers suggest."
+          "text": "Använd overlayläget för att se exakt hur mycket större en sensor är än en annan — ytskillnaden är ofta mer dramatisk än siffrorna antyder."
         },
         "1": {
-          "text": "Switch to pixel density mode and enter your camera resolution to compare pixel pitch. If your camera has very high pixel density, you may hit diffraction limits at wider apertures than expected."
+          "text": "Växla till pixeldensitetsläget och mata in din kameras upplösning för att jämföra pixelavstånd. Har din kamera mycket hög pixeltäthet kan du nå diffraktionsgränser vid större bländare än du förväntar dig."
         },
         "2": {
-          "text": "When comparing cameras, sensor area matters more than megapixel count for noise performance. A 20MP full-frame sensor will typically outperform a 40MP APS-C sensor at high ISO."
+          "text": "Vid jämförelse av kameror spelar sensorytan större roll än megapixelantalet för brusprestandan. En 20 MP fullformatssensor presterar oftast bättre än en 40 MP APS-C-sensor vid hög ISO."
         }
       },
       "tooltips": {
         "Sensor": {
           "term": "Sensor",
-          "definition": "Toggle individual sensor formats on or off to include them in the visual comparison and data table."
+          "definition": "Slå på eller av enskilda sensorformat för att ta med dem i den visuella jämförelsen och datatabellen."
         },
         "Display Mode": {
-          "term": "Display Mode",
-          "definition": "Overlay shows all sensors centered on the same point. Side by Side places them next to each other at the same scale. Pixel Density visualizes how tightly pixels are packed."
+          "term": "Visningsläge",
+          "definition": "Overlay visar alla sensorer centrerade på samma punkt. Sida vid sida placerar dem bredvid varandra i samma skala. Pixeltäthet visualiserar hur tätt pixlarna är packade."
         },
         "Resolution": {
-          "term": "Resolution",
-          "definition": "The total megapixel count used to calculate pixel pitch in pixel density mode. Higher megapixels on the same sensor size means smaller individual pixels."
+          "term": "Upplösning",
+          "definition": "Totalt antal megapixel som används för att räkna ut pixelavstånd i pixeldensitetsläget. Fler megapixel på samma sensorstorlek betyder mindre pixlar."
         },
         "Crop Factor": {
-          "term": "Crop Factor",
-          "definition": "The ratio of the 35mm full-frame diagonal to this sensor diagonal. A 1.5x crop factor means a 50mm lens frames like a 75mm lens on full frame."
+          "term": "Cropfaktor",
+          "definition": "Förhållandet mellan 35 mm fullformatsdiagonalen och sensorns diagonal. En cropfaktor på 1,5x betyder att ett 50 mm-objektiv ger samma bildutsnitt som ett 75 mm på fullformat."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "A full-frame sensor measures 36\u00d724mm. An APS-C sensor has a 1.5x crop factor. What is the approximate width of an APS-C sensor?",
-          "hint": "Divide the full-frame width by the crop factor.",
-          "successMessage": "Correct! 36mm \u00f7 1.5 \u2248 24mm. The APS-C sensor is about 24\u00d716mm, giving it roughly 44% of the full-frame area.",
-          "failureMessage": "Divide the full-frame width (36mm) by the crop factor (1.5x): 36 \u00f7 1.5 = 24mm.",
+          "scenario": "En fullformatssensor mäter 36x24 mm. En APS-C-sensor har en cropfaktor på 1,5x. Vad är ungefär bredden på en APS-C-sensor?",
+          "hint": "Dividera fullformatsbredden med cropfaktorn.",
+          "successMessage": "Rätt! 36 mm ÷ 1,5 ≈ 24 mm. APS-C-sensorn är ungefär 24x16 mm, vilket ger den cirka 44 % av fullformatets yta.",
+          "failureMessage": "Dividera fullformatsbredden (36 mm) med cropfaktorn (1,5x): 36 ÷ 1,5 = 24 mm.",
           "options": {
-            "0": { "label": "24mm" },
-            "1": { "label": "30mm" },
-            "2": { "label": "18mm" }
+            "0": { "label": "24 mm" },
+            "1": { "label": "30 mm" },
+            "2": { "label": "18 mm" }
           }
         },
         "1": {
-          "scenario": "You mount a 50mm lens on a camera with a 2.0x crop factor sensor. What full-frame equivalent focal length do you get?",
-          "hint": "Multiply the focal length by the crop factor.",
-          "successMessage": "Right! 50mm \u00d7 2.0 = 100mm equivalent. This is why Micro Four Thirds cameras are popular for telephoto work — you get extra reach from every lens.",
-          "failureMessage": "Multiply the lens focal length by the crop factor: 50mm \u00d7 2.0 = 100mm equivalent.",
+          "scenario": "Du monterar ett 50 mm-objektiv på en kamera med en sensor med 2,0x cropfaktor. Vilken fullformatsekvivalent brännvidd får du?",
+          "hint": "Multiplicera brännvidden med cropfaktorn.",
+          "successMessage": "Rätt! 50 mm × 2,0 = 100 mm ekvivalent. Det är därför Micro Four Thirds-kameror är populära för telefoto — du får extra räckvidd från varje objektiv.",
+          "failureMessage": "Multiplicera objektivets brännvidd med cropfaktorn: 50 mm × 2,0 = 100 mm ekvivalent.",
           "options": {
-            "0": { "label": "25mm" },
-            "1": { "label": "75mm" },
-            "2": { "label": "100mm" }
+            "0": { "label": "25 mm" },
+            "1": { "label": "75 mm" },
+            "2": { "label": "100 mm" }
           }
         },
         "2": {
-          "scenario": "Two cameras both have 24 megapixels — one full-frame (36\u00d724mm) and one APS-C (24\u00d716mm). Which has better high-ISO noise performance, and why?",
-          "hint": "Think about how the same number of pixels spread across different sensor areas affects individual pixel size.",
-          "successMessage": "Exactly! The full-frame sensor spreads 24MP over a larger area, so each pixel is physically bigger (~6\u00b5m vs ~4\u00b5m pitch) and captures more photons, resulting in less noise.",
-          "failureMessage": "The full-frame sensor wins — same megapixel count on a larger area means bigger pixels that gather more light, producing less noise at high ISO.",
+          "scenario": "Två kameror har båda 24 megapixel — en fullformat (36x24 mm) och en APS-C (24x16 mm). Vilken har bättre hög-ISO-prestanda och varför?",
+          "hint": "Tänk på hur samma antal pixlar fördelat på olika sensorytor påverkar pixelstorleken.",
+          "successMessage": "Precis! Fullformatssensorn sprider 24 MP över en större yta, så varje pixel är fysiskt större (~6 µm mot ~4 µm pitch) och fångar fler fotoner — vilket ger mindre brus.",
+          "failureMessage": "Fullformat vinner — samma megapixelantal på större yta betyder större pixlar som samlar mer ljus, vilket ger mindre brus vid hög ISO.",
           "options": {
-            "0": { "label": "Full frame — larger pixels gather more light" },
-            "1": { "label": "APS-C — smaller sensors are more efficient" },
-            "2": { "label": "Same noise — megapixel count is what matters" }
+            "0": { "label": "Fullformat — större pixlar samlar mer ljus" },
+            "1": { "label": "APS-C — mindre sensorer är effektivare" },
+            "2": { "label": "Samma brus — megapixelantalet är det som räknas" }
           }
         },
         "3": {
-          "scenario": "Looking at the comparison table, which sensor format has a crop factor closest to 2.0x?",
-          "hint": "Crop factor is the full-frame diagonal divided by the sensor diagonal.",
-          "successMessage": "Correct! Micro Four Thirds has a crop factor of 2.0x, which is why a 25mm M43 lens frames like a 50mm on full frame.",
-          "failureMessage": "Micro Four Thirds has a 2.0x crop factor. Check the table — its diagonal is exactly half the full-frame diagonal.",
+          "scenario": "Tittar man i jämförelsetabellen, vilket sensorformat har en cropfaktor närmast 2,0x?",
+          "hint": "Cropfaktor är fullformatets diagonal dividerat med sensorns diagonal.",
+          "successMessage": "Rätt! Micro Four Thirds har en cropfaktor på 2,0x, vilket är varför ett 25 mm M43-objektiv ger samma bildutsnitt som ett 50 mm på fullformat.",
+          "failureMessage": "Micro Four Thirds har cropfaktor 2,0x. Kolla tabellen — dess diagonal är exakt halva fullformatets diagonal.",
           "options": {
             "0": { "label": "APS-C (Canon)" },
             "1": { "label": "Micro Four Thirds" },
-            "2": { "label": "1\" Sensor" }
+            "2": { "label": "1\"-sensor" }
           }
         },
         "4": {
-          "scenario": "You are comparing a 50MP medium format camera to a 50MP full-frame camera using pixel density mode. Both have the same megapixel count. Which camera has the larger pixel pitch, and what practical advantage does that give?",
-          "hint": "Pixel pitch depends on sensor width divided by the number of horizontal pixels.",
-          "successMessage": "Right! The medium format sensor is physically larger, so at 50MP its pixels are bigger (higher pitch). This gives it about 1/3 stop better light gathering per pixel, plus slightly later diffraction onset.",
-          "failureMessage": "The medium format sensor is larger, so at the same resolution each pixel is physically bigger. Larger pixels collect more photons, giving better dynamic range and slightly later diffraction limits.",
+          "scenario": "Du jämför en 50 MP mellanformatskamera med en 50 MP fullformatskamera i pixeldensitetsläget. Båda har samma megapixelantal. Vilken kamera har större pixelavstånd, och vilken praktisk fördel ger det?",
+          "hint": "Pixelavståndet beror på sensorbredden dividerat med antalet horisontella pixlar.",
+          "successMessage": "Rätt! Mellanformatssensorn är fysiskt större, så vid 50 MP är dess pixlar större (större pitch). Det ger ungefär 1/3 stegs bättre ljusinsamling per pixel, plus att diffraktionen slår till något senare.",
+          "failureMessage": "Mellanformatssensorn är större, så vid samma upplösning är varje pixel fysiskt större. Större pixlar samlar fler fotoner, vilket ger bättre dynamiskt omfång och något senare diffraktionsgränser.",
           "options": {
-            "0": { "label": "Medium Format — better per-pixel light gathering and dynamic range" },
-            "1": { "label": "Full Frame — smaller pixels are more efficient" },
-            "2": { "label": "Both are identical since they have the same megapixel count" }
+            "0": { "label": "Mellanformat — bättre ljusinsamling per pixel och dynamiskt omfång" },
+            "1": { "label": "Fullformat — mindre pixlar är effektivare" },
+            "2": { "label": "Båda är identiska eftersom de har samma megapixelantal" }
           }
         }
       }

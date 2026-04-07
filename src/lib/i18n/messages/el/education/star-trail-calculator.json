@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "Τα αστέρια φαίνονται να κινούνται στον ουρανό επειδή η Γη περιστρέφεται. Αν το κλείστρο σου είναι ανοιχτό αρκετή ώρα, τα αστέρια θα αφήσουν ίχνη στη φωτογραφία σου. Ο υπολογιστής ιχνών αστεριών σε βοηθάει να βρεις τον μέγιστο χρόνο έκθεσης για σημειακά αστέρια, ή να σχεδιάσεις μεγάλες εκθέσεις για να δημιουργήσεις όμορφα κυκλικά τόξα από ίχνη αστεριών.",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "Πώς κινούνται τα αστέρια",
+          "text": "Η Γη περιστρέφεται 360° σε περίπου 23 ώρες και 56 λεπτά (μία αστρική ημέρα), οπότε τα αστέρια κινούνται με περίπου 15 δευτερόλεπτα τόξου ανά δευτερόλεπτο στον ουράνιο ισημερινό. Τα αστέρια κοντά στους πόλους (ο Πολικός Αστέρας στον βορρά) διαγράφουν μικρότερους κύκλους και φαίνεται να κινούνται πιο αργά."
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "Ο κανόνας των 500 έναντι του NPF",
+          "text": "Ο κλασικός «κανόνας των 500» διαιρεί το 500 με την ενεργή εστιακή απόσταση για να εκτιμήσει τη μέγιστη έκθεση πριν γίνουν ορατά ίχνη — αλλά σχεδιάστηκε για αισθητήρες χαμηλότερης ανάλυσης. Ο κανόνας NPF συνυπολογίζει το pixel pitch, την εστιακή απόσταση, το διάφραγμα και την απόκλιση, παράγοντας πιο σύντομα και ακριβή όρια για τις σύγχρονες κάμερες υψηλής ανάλυσης."
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "Στοίβαξη για ίχνη αστεριών",
+          "text": "Για σκόπιμα ίχνη αστεριών, οι φωτογράφοι τραβούν πολλές μικρότερες εκθέσεις (συνήθως 30s η καθεμία) και τις στοιβάζουν σε software. Αυτό αποφεύγει τη συσσώρευση θορύβου, επιτρέπει συνεχή ίχνη χωρίς κενά, και σημαίνει ότι ένα κακό καρέ δεν καταστρέφει ολόκληρη τη λήψη."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "Εστιακή απόσταση",
+          "description": "Οι μεγαλύτερες εστιακές αποστάσεις μεγεθύνουν την κίνηση των αστεριών, απαιτώντας μικρότερες εκθέσεις για σημειακά αστέρια. Ένας φακός 14mm μπορεί να εκθέσει 5-10 φορές περισσότερο από έναν 200mm."
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "Ανάλυση αισθητήρα",
+          "description": "Οι αισθητήρες υψηλότερης ανάλυσης αποκαλύπτουν ίχνη αστεριών σε μικρότερους χρόνους έκθεσης. Ο κανόνας των 500 είναι πολύ γενναιόδωρος για σύγχρονες κάμερες 40MP+."
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "Γεωγραφικό πλάτος & απόκλιση",
+          "description": "Τα αστέρια κοντά στους ουράνιους πόλους κινούνται λιγότερο ανά δευτερόλεπτο. Η σκόπευση προς τον Πολικό Αστέρα επιτρέπει μεγαλύτερες εκθέσεις πριν εμφανιστούν ίχνη."
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "Στοίβαξη έναντι μοναδικής έκθεσης",
+          "description": "Για ίχνη αστεριών, η στοίβαξη πολλών σύντομων εκθέσεων δίνει καθαρότερα αποτελέσματα από μία εξαιρετικά μεγάλη έκθεση, και επιτρέπει ανάκτηση από διακοπές."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "Χρησιμοποίησε τον κανόνα NPF αντί του κανόνα των 500 για σύγχρονες κάμερες. Συνυπολογίζει την ανάλυση του αισθητήρα και δίνει πιο ακριβείς μέγιστους χρόνους έκθεσης, ειδικά με σώματα υψηλών megapixel."
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "Για στοίβαξη ιχνών αστεριών, κράτα τα κενά μεταξύ των καρέ κάτω από 2-3 δευτερόλεπτα χρησιμοποιώντας ενσύρματο τηλεχειριστήριο ή intervalometer. Μεγαλύτερα κενά δημιουργούν διακεκομμένα αντί για ομαλά ίχνη."
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "Περιέλαβε τον Πολικό Αστέρα (ή τον Νότιο Ουράνιο Πόλο) στη σύνθεσή σου για δραματικούς ομόκεντρους κύκλους. Τα αστέρια που είναι πιο κοντά στον πόλο διαγράφουν πιο στενά τόξα."
         }
       },
       "tooltips": {
         "mode": {
-          "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "term": "Λειτουργία",
+          "definition": "Διάλεξε «Sharp Stars» για να υπολογίσεις τον μέγιστο χρόνο έκθεσης για σημειακά αστέρια, ή «Star Trails» για να σχεδιάσεις αλληλουχίες έκθεσης για σκόπιμα εφέ ιχνών."
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "Εστιακή απόσταση",
+          "definition": "Η εστιακή απόσταση του φακού σε χιλιοστά. Οι μεγαλύτερες εστιακές αποστάσεις μεγεθύνουν τη φαινόμενη κίνηση των αστεριών, απαιτώντας μικρότερες μεμονωμένες εκθέσεις."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "Μέγεθος αισθητήρα",
+          "definition": "Οι φυσικές διαστάσεις του αισθητήρα. Σε συνδυασμό με την ανάλυση, καθορίζει το pixel pitch, που επηρεάζει το πόσο γρήγορα γίνονται ορατά τα ίχνη αστεριών."
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "Ανάλυση",
+          "definition": "Η ανάλυση του αισθητήρα σε megapixel. Οι κάμερες υψηλότερης ανάλυσης αποκαλύπτουν ίχνη αστεριών νωρίτερα επειδή κάθε pixel καλύπτει μια μικρότερη γωνιακή περιοχή ουρανού."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "term": "Διάφραγμα",
+          "definition": "Το άνοιγμα του φακού. Για αστροφωτογραφία, χρησιμοποίησε το μεγαλύτερο διαθέσιμο διάφραγμα (χαμηλότερος αριθμός f) για να συλλάβεις το μέγιστο φως αστεριών σε κάθε καρέ."
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "Γεωγραφικό πλάτος",
+          "definition": "Το γεωγραφικό σου πλάτος. Επηρεάζει τον φαινόμενο ρυθμό κίνησης των αστεριών — σε υψηλότερα γεωγραφικά πλάτη, τα αστέρια κοντά στον πόλο κινούνται πιο αργά στο κάδρο."
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "Έκθεση ανά καρέ",
+          "definition": "Η ταχύτητα κλείστρου για κάθε μεμονωμένο καρέ σε μια αλληλουχία ιχνών αστεριών. Συνήθως 15-30 δευτερόλεπτα για να συλλάβεις αρκετό φως αποφεύγοντας τον υπερβολικό θόρυβο."
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "Αριθμός καρέ",
+          "definition": "Πόσες μεμονωμένες εκθέσεις θα τραβήξεις. Περισσότερα καρέ σημαίνει μακρύτερα, πιο δραματικά ίχνη αστεριών. 120 καρέ των 30 δευτερολέπτων παράγουν μία ώρα ιχνών."
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "Κενό μεταξύ καρέ",
+          "definition": "Ο χρόνος μεταξύ εκθέσεων για να αποθηκεύσει η κάμερα το αρχείο. Κράτα τον όσο το δυνατόν πιο σύντομο (1-3 δευτερόλεπτα) για να αποφύγεις διακεκομμένα ίχνη."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "Φωτογραφίζεις τον Γαλαξία με φακό 24mm σε full-frame κάμερα 24MP. Χρησιμοποιώντας τον κανόνα των 500, περίπου πόσο χρόνο μπορείς να εκθέσεις πριν τα αστέρια αρχίσουν να αφήνουν ίχνη;",
+          "hint": "Ο κανόνας των 500: μέγιστα δευτερόλεπτα = 500 / εστιακή απόσταση.",
+          "successMessage": "Σωστά! 500 / 24 = περίπου 20 δευτερόλεπτα. Καλή αρχή, αν και ο κανόνας NPF μπορεί να προτείνει ελαφρώς μικρότερο χρόνο για κρίσιμη ευκρίνεια.",
+          "failureMessage": "Εφάρμοσε τον κανόνα των 500: διαίρεσε το 500 με την εστιακή απόσταση (24mm). Αυτό δίνει περίπου 20 δευτερόλεπτα.",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 δευτερόλεπτα" },
+            "1": { "label": "10 δευτερόλεπτα" },
+            "2": { "label": "20 δευτερόλεπτα" },
+            "3": { "label": "60 δευτερόλεπτα" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "Θέλεις να φωτογραφίσεις το νεφέλωμα του Ωρίωνα με φακό 200mm σε crop-sensor κάμερα (συντελεστής crop 1.5x). Ποια είναι η κατά προσέγγιση μέγιστη έκθεση με τον κανόνα των 500;",
+          "hint": "Με crop αισθητήρα, πολλαπλασίασε πρώτα την εστιακή απόσταση με τον συντελεστή crop, μετά εφάρμοσε τον κανόνα.",
+          "successMessage": "Σωστά! Η ενεργή εστιακή απόσταση είναι 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 δευτερόλεπτα. Σε τηλεφωτογραφικές αποστάσεις σε crop αισθητήρες, έχεις πολύ λίγο χρόνο πριν εμφανιστούν ίχνη.",
+          "failureMessage": "Θυμήσου να υπολογίσεις τον συντελεστή crop: 200mm x 1.5 = ενεργά 300mm. Μετά 500 / 300 δίνει περίπου 1.7 δευτερόλεπτα.",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1.7 δευτερόλεπτα" },
+            "1": { "label": "~2.5 δευτερόλεπτα" },
+            "2": { "label": "~5 δευτερόλεπτα" },
+            "3": { "label": "~10 δευτερόλεπτα" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "Θέλεις να δημιουργήσεις μια φωτογραφία ιχνών αστεριών 2 ωρών. Σχεδιάζεις να τραβήξεις εκθέσεις 30 δευτερολέπτων με κενά 2 δευτερολέπτων. Πόσα καρέ θα χρειαστείς;",
+          "hint": "Υπολόγισε πόσα διαστήματα των 32 δευτερολέπτων (30s έκθεση + 2s κενό) χωράνε σε 2 ώρες (7200 δευτερόλεπτα).",
+          "successMessage": "Σωστά! 7200 δευτερόλεπτα / 32 δευτερόλεπτα ανά καρέ = 225 καρέ. Θα πάρεις ομαλά, συνεχή ίχνη κατά τη διάρκεια 2 ωρών περιστροφής της Γης.",
+          "failureMessage": "Δύο ώρες = 7200 δευτερόλεπτα. Κάθε κύκλος καρέ είναι 30s + 2s = 32s. Διαίρεσε 7200 με 32 για να βρεις τον αριθμό των απαιτούμενων καρέ.",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 καρέ" },
+            "1": { "label": "180 καρέ" },
+            "2": { "label": "225 καρέ" },
+            "3": { "label": "240 καρέ" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "Ο φίλος σου χρησιμοποιεί full-frame κάμερα 50MP και ακολούθησε τον κανόνα των 500 με φακό 20mm, παίρνοντας έκθεση 25 δευτερολέπτων. Παραπονιέται ότι τα αστέρια φαίνονται σαν κοντά ίχνη όταν κάνει zoom. Γιατί;",
+          "hint": "Ο κανόνας των 500 σχεδιάστηκε για παλιότερους αισθητήρες χαμηλότερης ανάλυσης.",
+          "successMessage": "Ακριβώς! Ο κανόνας των 500 είναι πολύ γενναιόδωρος για αισθητήρες υψηλής ανάλυσης. Ένας full-frame αισθητήρας 50MP έχει pixel pitch περίπου 4.4 μικρόμετρα, και ο κανόνας NPF θα συνιστούσε περίπου 10-12 δευτερόλεπτα για πραγματικά ευκρινή αστέρια.",
+          "failureMessage": "Ο κανόνας των 500 δημιουργήθηκε όταν οι αισθητήρες είχαν πολύ λιγότερα megapixel. Με 50MP, κάθε pixel καλύπτει μια πολύ μικρότερη φέτα του ουρανού, αποκαλύπτοντας κίνηση αστεριών που ήταν αόρατη σε παλιότερες κάμερες.",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "Ο φακός ήταν εκτός εστίασης" },
+            "1": { "label": "Ο κανόνας των 500 είναι πολύ γενναιόδωρος για αισθητήρες υψηλής ανάλυσης" },
+            "2": { "label": "Η κάμερα κουνιόταν από τον άνεμο" },
+            "3": { "label": "Τα 20mm είναι πολύ ευρυγώνια για αστροφωτογραφία" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "Θέλεις μια εικόνα ιχνών αστεριών 1 ώρας. Γιατί οι έμπειροι αστροφωτογράφοι στοιβάζουν πολλές σύντομες εκθέσεις (π.χ. 240 x 15s) αντί να τραβούν μία έκθεση 1 ώρας;",
+          "hint": "Σκέψου τι συμβαίνει στον θόρυβο του αισθητήρα, τη διάρκεια της μπαταρίας και την ανακτησιμότητα κατά τη διάρκεια μιας εξαιρετικά μεγάλης μοναδικής έκθεσης.",
+          "successMessage": "Σωστά! Μια μοναδική έκθεση μιας ώρας συσσωρεύει τεράστιο θερμικό θόρυβο, αδειάζει την μπαταρία, και αν κάτι πάει στραβά (κραδασμοί, δροσιά, φως αυτοκινήτου) ολόκληρη η λήψη καταστρέφεται. Η στοίβαξη σύντομων καρέ κρατάει τον θόρυβο χαμηλό, σου επιτρέπει να αφαιρείς κακά καρέ, και είναι πολύ πιο επιεικής.",
+          "failureMessage": "Οι μεγάλες μοναδικές εκθέσεις συσσωρεύουν σοβαρό θερμικό θόρυβο και κινδυνεύουν να χαθούν τελείως από οποιαδήποτε διακοπή. Η στοίβαξη σύντομων καρέ κρατάει τον θόρυβο διαχειρίσιμο, σου επιτρέπει να πετάξεις καταστραμμένα καρέ, και δίνει καθαρότερα αποτελέσματα.",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "Η στοίβαξη παράγει μακρύτερα ίχνη από μία μοναδική έκθεση" },
+            "1": { "label": "Οι μοναδικές εκθέσεις δεν μπορούν να καταγράψουν κίνηση αστεριών" },
+            "2": { "label": "Η στοίβαξη μειώνει τον θόρυβο, επιτρέπει ανάκτηση από διακοπές και εξοικονομεί μπαταρία" },
+            "3": { "label": "Δεν υπάρχει πρακτική διαφορά — είναι καθαρά θέμα προσωπικής προτίμησης" }
           }
         }
       }

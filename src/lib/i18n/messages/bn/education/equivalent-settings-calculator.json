@@ -1,82 +1,82 @@
 {
   "education": {
     "equivalent-settings-calculator": {
-      "beginner": "Different sensor sizes produce different depth of field and field of view even at the same focal length and aperture. Equivalent settings let you find the lens and aperture combination on a second camera that reproduces the same framing and background blur. This is essential when comparing gear across formats or switching between camera systems.",
+      "beginner": "একই ফোকাল দৈর্ঘ্য ও অ্যাপারচারে বিভিন্ন সেন্সর সাইজ ভিন্ন ক্ষেত্রের গভীরতা ও দৃষ্টিক্ষেত্র তৈরি করে। সমতুল্য সেটিংস তোমাকে দ্বিতীয় একটি ক্যামেরায় সেই লেন্স ও অ্যাপারচার কম্বিনেশন বের করতে সাহায্য করে যা একই ফ্রেমিং ও ব্যাকগ্রাউন্ড ব্লার তৈরি করবে। ফরম্যাট জুড়ে গিয়ার তুলনা বা ক্যামেরা সিস্টেম পরিবর্তন করার সময় এটি অপরিহার্য।",
       "deeper": {
         "0": {
-          "heading": "The Crop Factor",
-          "text": "Every sensor has a crop factor relative to the 35mm full-frame standard. APS-C sensors have a factor around 1.5×, Micro Four Thirds 2×, and medium format around 0.79×. Multiplying the actual focal length by the crop factor gives the full-frame equivalent field of view. A 35mm lens on APS-C frames like a 52.5mm on full frame."
+          "heading": "ক্রপ ফ্যাক্টর",
+          "text": "প্রতিটি সেন্সরের 35mm ফুল-ফ্রেম স্ট্যান্ডার্ডের সাপেক্ষে একটি ক্রপ ফ্যাক্টর আছে। APS-C সেন্সরের ফ্যাক্টর প্রায় 1.5×, Micro Four Thirds 2×, এবং মিডিয়াম ফরম্যাট প্রায় 0.79×। আসল ফোকাল দৈর্ঘ্যকে ক্রপ ফ্যাক্টর দিয়ে গুণ করলে ফুল-ফ্রেম সমতুল্য দৃষ্টিক্ষেত্র পাওয়া যায়। APS-C-তে 35mm লেন্স ফুল ফ্রেমে 52.5mm-এর মতো ফ্রেমিং দেয়।"
         },
         "1": {
-          "heading": "Equivalent Aperture & DoF",
-          "text": "To match depth of field across formats, multiply the f-number by the same crop factor. An f/1.4 lens on Micro Four Thirds produces DoF equivalent to f/2.8 on full frame (1.4 × 2 = 2.8). This is why full-frame cameras are prized for shallow DoF — you can use physically faster lenses at wider actual apertures to achieve blur that smaller sensors cannot replicate."
+          "heading": "সমতুল্য অ্যাপারচার ও DoF",
+          "text": "ফরম্যাট জুড়ে ক্ষেত্রের গভীরতা মেলাতে f-নম্বরকে একই ক্রপ ফ্যাক্টর দিয়ে গুণ করো। Micro Four Thirds-এ f/1.4 লেন্স ফুল ফ্রেমে f/2.8-এর সমতুল্য DoF তৈরি করে (1.4 × 2 = 2.8)। এজন্যই ফুল-ফ্রেম ক্যামেরা কম DoF-এর জন্য মূল্যবান — তুমি শারীরিকভাবে দ্রুত লেন্স প্রশস্ত আসল অ্যাপারচারে ব্যবহার করতে পারো যা ছোট সেন্সর অনুকরণ করতে পারে না।"
         },
         "2": {
-          "heading": "Equivalent ISO & Total Light",
-          "text": "Matching exposure brightness across formats requires adjusting ISO by the crop factor squared. The larger sensor collects more total light for the same scene, which means it can use a lower ISO for equivalent noise performance. A full-frame sensor at ISO 800 produces similar noise to an APS-C sensor at ISO 356 and a Micro Four Thirds sensor at ISO 200."
+          "heading": "সমতুল্য ISO ও মোট আলো",
+          "text": "ফরম্যাট জুড়ে এক্সপোজার উজ্জ্বলতা মেলাতে ক্রপ ফ্যাক্টরের বর্গ দিয়ে ISO সামঞ্জস্য করতে হয়। বড় সেন্সর একই দৃশ্যের জন্য বেশি মোট আলো সংগ্রহ করে, তাই সমতুল্য নয়েজ পারফরম্যান্সের জন্য কম ISO ব্যবহার করতে পারে। ফুল-ফ্রেম সেন্সর ISO 800-এ APS-C সেন্সর ISO 356 এবং Micro Four Thirds সেন্সর ISO 200-এর মতো নয়েজ তৈরি করে।"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame sensor diagonal to the target sensor diagonal. This single number drives all equivalence calculations for focal length, aperture, and ISO."
+          "label": "ক্রপ ফ্যাক্টর",
+          "description": "ফুল-ফ্রেম সেন্সরের কর্ণ এবং টার্গেট সেন্সরের কর্ণের অনুপাত। এই একটিই সংখ্যা ফোকাল দৈর্ঘ্য, অ্যাপারচার এবং ISO-এর সমতুল্যতার সমস্ত হিসাব চালায়।"
         },
         "1": {
-          "label": "Sensor Size",
-          "description": "Physically larger sensors capture more light and produce shallower DoF at equivalent framing. The equivalence calculator reveals exactly how much difference each format makes."
+          "label": "সেন্সর সাইজ",
+          "description": "শারীরিকভাবে বড় সেন্সর বেশি আলো ধরে এবং সমতুল্য ফ্রেমিংয়ে কম DoF তৈরি করে। সমতুল্যতা ক্যালকুলেটর দেখায় প্রতিটি ফরম্যাট ঠিক কতটা পার্থক্য করে।"
         },
         "2": {
-          "label": "Available Lenses",
-          "description": "Equivalence math may call for a lens that does not exist. A 17mm f/0.7 is the equivalent of 35mm f/1.4 on MFT — but no such lens is made. Real-world gear limits what is achievable."
+          "label": "উপলব্ধ লেন্স",
+          "description": "সমতুল্যতার গণিত এমন লেন্স চাইতে পারে যা বাস্তবে নেই। 17mm f/0.7 হলো MFT-এ 35mm f/1.4-এর সমতুল্য — কিন্তু এমন লেন্স তৈরি হয় না। বাস্তব গিয়ারের সীমা কী সম্ভব তা নির্ধারণ করে।"
         }
       },
       "tips": {
         "0": {
-          "text": "When comparing camera systems, always compare at equivalent settings rather than matching f-numbers. An f/2.8 lens on Micro Four Thirds does not give the same background blur as f/2.8 on full frame — you need f/1.4 on MFT to match."
+          "text": "ক্যামেরা সিস্টেম তুলনা করার সময় সবসময় f-নম্বর মেলানোর বদলে সমতুল্য সেটিংসে তুলনা করো। Micro Four Thirds-এ f/2.8 লেন্স ফুল ফ্রেমে f/2.8-এর মতো ব্যাকগ্রাউন্ড ব্লার দেয় না — মেলাতে MFT-এ f/1.4 লাগবে।"
         },
         "1": {
-          "text": "Use equivalence to plan lens purchases when switching systems. If you love the look of 85mm f/1.8 on full frame, look for a 56mm f/1.2 on APS-C or a 42.5mm f/0.95 on MFT for a similar rendering."
+          "text": "সিস্টেম পরিবর্তন করার সময় লেন্স কেনার পরিকল্পনা করতে সমতুল্যতা ব্যবহার করো। ফুল ফ্রেমে 85mm f/1.8-এর লুক পছন্দ হলে, অনুরূপ রেন্ডারিংয়ের জন্য APS-C-তে 56mm f/1.2 বা MFT-এ 42.5mm f/0.95 খোঁজো।"
         },
         "2": {
-          "text": "Remember that equivalence applies to depth of field and field of view, not to lens speed for exposure. An f/2.8 lens on any format still lets in the same amount of light per unit area — the larger sensor just collects more total light because of its greater area."
+          "text": "মনে রেখো, সমতুল্যতা ক্ষেত্রের গভীরতা ও দৃষ্টিক্ষেত্রের জন্য প্রযোজ্য, এক্সপোজারের জন্য লেন্স স্পিডের জন্য নয়। যেকোনো ফরম্যাটে f/2.8 লেন্স প্রতি ইউনিট এলাকায় একই পরিমাণ আলো দেয় — বড় সেন্সর শুধু বেশি এলাকা থাকার কারণে বেশি মোট আলো সংগ্রহ করে।"
         }
       },
       "tooltips": {
         "sourceSensor": {
-          "term": "Source Sensor",
-          "definition": "The sensor format of the camera whose settings you want to match. All equivalence calculations are relative to this starting point."
+          "term": "সোর্স সেন্সর",
+          "definition": "যে ক্যামেরার সেটিংস তুমি মেলাতে চাও তার সেন্সর ফরম্যাট। সমতুল্যতার সমস্ত হিসাব এই শুরুর বিন্দুর সাপেক্ষে।"
         },
         "sourceFocalLength": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens on your source camera. This will be converted to equivalent focal lengths on target formats."
+          "term": "ফোকাল দৈর্ঘ্য",
+          "definition": "তোমার সোর্স ক্যামেরায় লেন্সের আসল ফোকাল দৈর্ঘ্য। এটি টার্গেট ফরম্যাটের সমতুল্য ফোকাল দৈর্ঘ্যে রূপান্তরিত হবে।"
         },
         "sourceAperture": {
-          "term": "Aperture",
-          "definition": "The f-number on your source camera. The equivalent aperture on each target format determines matching depth of field."
+          "term": "অ্যাপারচার",
+          "definition": "তোমার সোর্স ক্যামেরায় f-নম্বর। প্রতিটি টার্গেট ফরম্যাটে সমতুল্য অ্যাপারচার মিলানো ক্ষেত্রের গভীরতা নির্ধারণ করে।"
         },
         "targetSensor": {
-          "term": "Target Sensor",
-          "definition": "The sensor format you want to find equivalent settings for. The calculator applies the relative crop factor to compute matching focal length and aperture."
+          "term": "টার্গেট সেন্সর",
+          "definition": "যে সেন্সর ফরম্যাটের জন্য তুমি সমতুল্য সেটিংস খুঁজছো। ক্যালকুলেটর আপেক্ষিক ক্রপ ফ্যাক্টর প্রয়োগ করে মিলানো ফোকাল দৈর্ঘ্য ও অ্যাপারচার হিসাব করে।"
         },
         "cropFactor": {
-          "term": "Crop Factor",
-          "definition": "The ratio between the diagonal of a 35mm full-frame sensor and the target sensor. Multiply focal length by crop factor for equivalent FOV; multiply aperture by crop factor for equivalent DoF."
+          "term": "ক্রপ ফ্যাক্টর",
+          "definition": "35mm ফুল-ফ্রেম সেন্সরের কর্ণ এবং টার্গেট সেন্সরের কর্ণের অনুপাত। সমতুল্য FOV-এর জন্য ফোকাল দৈর্ঘ্যকে ক্রপ ফ্যাক্টর দিয়ে গুণ করো; সমতুল্য DoF-এর জন্য অ্যাপারচারকে ক্রপ ফ্যাক্টর দিয়ে গুণ করো।"
         },
         "equivalentFL": {
-          "term": "Equivalent Focal Length",
-          "definition": "The focal length on the target format that produces the same field of view as the source setup."
+          "term": "সমতুল্য ফোকাল দৈর্ঘ্য",
+          "definition": "টার্গেট ফরম্যাটে সেই ফোকাল দৈর্ঘ্য যা সোর্স সেটআপের মতো একই দৃষ্টিক্ষেত্র তৈরি করে।"
         },
         "equivalentAperture": {
-          "term": "Equivalent Aperture",
-          "definition": "The f-number on the target format that produces the same depth of field as the source setup. May be faster than any real lens."
+          "term": "সমতুল্য অ্যাপারচার",
+          "definition": "টার্গেট ফরম্যাটে সেই f-নম্বর যা সোর্স সেটআপের মতো একই ক্ষেত্রের গভীরতা তৈরি করে। বাস্তব লেন্সের চেয়ে দ্রুত হতে পারে।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You shoot portraits with an 85mm f/1.8 lens on a full-frame camera. A friend uses Micro Four Thirds (2× crop). What focal length does your friend need to match your field of view?",
-          "hint": "Divide the full-frame focal length by the MFT crop factor to find the actual lens needed.",
-          "successMessage": "Correct! 85mm / 2 = 42.5mm. Your friend needs a 42.5mm lens on Micro Four Thirds to get the same framing as your 85mm on full frame.",
-          "failureMessage": "To match the field of view, divide by the crop factor: 85mm / 2 = 42.5mm. That is the actual focal length needed on the MFT body.",
+          "scenario": "তুমি ফুল-ফ্রেম ক্যামেরায় 85mm f/1.8 লেন্স দিয়ে পোর্ট্রেট শুট করো। তোমার বন্ধু Micro Four Thirds (2× ক্রপ) ব্যবহার করে। তোমার দৃষ্টিক্ষেত্র মেলাতে তোমার বন্ধুর কোন ফোকাল দৈর্ঘ্য দরকার?",
+          "hint": "MFT ক্রপ ফ্যাক্টর দিয়ে ফুল-ফ্রেম ফোকাল দৈর্ঘ্যকে ভাগ করে দরকারি আসল লেন্স বের করো।",
+          "successMessage": "সঠিক! 85mm / 2 = 42.5mm। ফুল ফ্রেমে তোমার 85mm-এর মতো একই ফ্রেমিং পেতে তোমার বন্ধুর Micro Four Thirds-এ 42.5mm লেন্স দরকার।",
+          "failureMessage": "দৃষ্টিক্ষেত্র মেলাতে, ক্রপ ফ্যাক্টর দিয়ে ভাগ করো: 85mm / 2 = 42.5mm। এটাই MFT বডিতে দরকারি আসল ফোকাল দৈর্ঘ্য।",
           "options": {
             "0": { "label": "42.5mm" },
             "1": { "label": "85mm" },
@@ -85,25 +85,25 @@
           }
         },
         "1": {
-          "scenario": "Your friend found a 42.5mm f/1.8 lens for their MFT camera. Will the background blur match your 85mm f/1.8 on full frame?",
-          "hint": "Apply the crop factor to the aperture as well to find the equivalent DoF.",
-          "successMessage": "Right! The 42.5mm f/1.8 on MFT gives equivalent DoF to 85mm f/3.6 on full frame (1.8 × 2 = 3.6). Your f/1.8 full-frame shot produces significantly more blur.",
-          "failureMessage": "No — the MFT f/1.8 gives DoF equivalent to f/3.6 on full frame (1.8 × 2× crop = 3.6). To match your full-frame f/1.8 blur, your friend would need f/0.9 on MFT, which does not exist.",
+          "scenario": "তোমার বন্ধু তাদের MFT ক্যামেরার জন্য একটি 42.5mm f/1.8 লেন্স পেয়েছে। ব্যাকগ্রাউন্ড ব্লার কি ফুল ফ্রেমে তোমার 85mm f/1.8-এর সাথে মিলবে?",
+          "hint": "সমতুল্য DoF বের করতে অ্যাপারচারেও ক্রপ ফ্যাক্টর প্রয়োগ করো।",
+          "successMessage": "ঠিক! MFT-এ 42.5mm f/1.8 ফুল ফ্রেমে 85mm f/3.6-এর সমতুল্য DoF দেয় (1.8 × 2 = 3.6)। তোমার ফুল-ফ্রেম f/1.8 শট উল্লেখযোগ্যভাবে বেশি ব্লার তৈরি করে।",
+          "failureMessage": "না — MFT f/1.8 ফুল ফ্রেমে f/3.6-এর সমতুল্য DoF দেয় (1.8 × 2× ক্রপ = 3.6)। তোমার ফুল-ফ্রেম f/1.8 ব্লার মেলাতে তোমার বন্ধুর MFT-এ f/0.9 লাগবে, যা বাস্তবে নেই।",
           "options": {
-            "0": { "label": "Yes — same f/1.8 means same blur" },
-            "1": { "label": "No — MFT f/1.8 equals full-frame f/3.6 depth of field" },
-            "2": { "label": "No — MFT produces more blur because the sensor is smaller" }
+            "0": { "label": "হ্যাঁ — একই f/1.8 মানে একই ব্লার" },
+            "1": { "label": "না — MFT f/1.8 ফুল-ফ্রেম f/3.6 ক্ষেত্রের গভীরতার সমান" },
+            "2": { "label": "না — সেন্সর ছোট হওয়ায় MFT বেশি ব্লার তৈরি করে" }
           }
         },
         "2": {
-          "scenario": "A photographer switching from full frame to APS-C (1.5× crop) wants to match the look of a 50mm f/1.4 on full frame. What equivalent lens and aperture do they need on APS-C?",
-          "hint": "Divide focal length by the crop factor for equivalent FOV. Divide aperture by the crop factor for equivalent DoF.",
-          "successMessage": "Exactly! 50 / 1.5 = 33mm for field of view, and f/1.4 / 1.5 = f/0.93 for matching DoF. Since no f/0.93 lens exists, the APS-C camera cannot fully replicate the full-frame look.",
-          "failureMessage": "The correct answer is ~33mm f/0.93. Since 50 / 1.5 = 33.3mm and 1.4 / 1.5 = 0.93. No f/0.93 lens exists, so the full-frame look cannot be fully matched on APS-C.",
+          "scenario": "ফুল ফ্রেম থেকে APS-C (1.5× ক্রপ) এ যাওয়া এক ফটোগ্রাফার ফুল ফ্রেমে 50mm f/1.4-এর লুক মেলাতে চান। APS-C-তে কোন সমতুল্য লেন্স ও অ্যাপারচার লাগবে?",
+          "hint": "সমতুল্য FOV-এর জন্য ফোকাল দৈর্ঘ্যকে ক্রপ ফ্যাক্টর দিয়ে ভাগ করো। সমতুল্য DoF-এর জন্য অ্যাপারচারকে ক্রপ ফ্যাক্টর দিয়ে ভাগ করো।",
+          "successMessage": "ঠিক! দৃষ্টিক্ষেত্রের জন্য 50 / 1.5 = 33mm, এবং মেলানো DoF-এর জন্য f/1.4 / 1.5 = f/0.93। যেহেতু f/0.93 লেন্স নেই, APS-C ক্যামেরা ফুল-ফ্রেম লুক পুরোপুরি অনুকরণ করতে পারে না।",
+          "failureMessage": "সঠিক উত্তর ~33mm f/0.93। কারণ 50 / 1.5 = 33.3mm এবং 1.4 / 1.5 = 0.93। f/0.93 লেন্স নেই, তাই ফুল-ফ্রেম লুক APS-C-তে পুরোপুরি মেলানো যায় না।",
           "options": {
-            "0": { "label": "35mm f/1.4 — close enough" },
-            "1": { "label": "33mm f/0.93 — exact match, but no such lens exists" },
-            "2": { "label": "75mm f/2.1 — multiply by crop factor" }
+            "0": { "label": "35mm f/1.4 — যথেষ্ট কাছাকাছি" },
+            "1": { "label": "33mm f/0.93 — সঠিক মিল, কিন্তু এমন লেন্স নেই" },
+            "2": { "label": "75mm f/2.1 — ক্রপ ফ্যাক্টর দিয়ে গুণ করো" }
           }
         }
       }

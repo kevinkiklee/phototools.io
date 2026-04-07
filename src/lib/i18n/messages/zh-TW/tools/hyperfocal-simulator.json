@@ -1,21 +1,21 @@
 {
   "toolUI": {
     "hyperfocal-simulator": {
-      "settings": "Settings",
-      "focalLength": "Focal Length",
-      "aperture": "Aperture",
-      "focusDistance": "Focus Distance:",
-      "sensor": "Sensor",
-      "scene": "Scene:",
-      "sceneLandscape": "Landscape",
-      "sceneStreet": "Street",
-      "hyperfocalDistance": "Hyperfocal Distance",
-      "nearLimit": "Near Limit",
-      "farLimit": "Far Limit",
-      "focusDistanceResult": "Focus Distance",
-      "hyperfocalReference": "Hyperfocal Reference",
-      "sharpToInfinity": "Sharp to infinity",
-      "nearLimitBadge": "Near limit:"
+      "settings": "設定",
+      "focalLength": "焦距",
+      "aperture": "光圈",
+      "focusDistance": "對焦距離：",
+      "sensor": "感光元件",
+      "scene": "場景：",
+      "sceneLandscape": "風景",
+      "sceneStreet": "街拍",
+      "hyperfocalDistance": "超焦距",
+      "nearLimit": "近端",
+      "farLimit": "遠端",
+      "focusDistanceResult": "對焦距離",
+      "hyperfocalReference": "超焦距參考",
+      "sharpToInfinity": "清晰至無限遠",
+      "nearLimitBadge": "近端："
     }
   }
 }

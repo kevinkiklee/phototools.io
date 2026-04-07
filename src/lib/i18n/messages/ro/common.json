@@ -1,128 +1,128 @@
 {
   "common": {
-    "skipToContent": "Skip to content",
+    "skipToContent": "Sari la conținut",
     "nav": {
-      "tools": "Tools",
-      "glossary": "Glossary",
-      "closeMenu": "Close menu",
-      "comingSoon": "Soon",
+      "tools": "Unelte",
+      "glossary": "Glosar",
+      "closeMenu": "Închide meniul",
+      "comingSoon": "În curând",
       "categories": {
-        "visualizer": "Visualizers",
-        "calculator": "Calculators",
-        "reference": "Reference",
-        "file-tool": "File Tools"
+        "visualizer": "Vizualizatoare",
+        "calculator": "Calculatoare",
+        "reference": "Referință",
+        "file-tool": "Unelte pentru fișiere"
       }
     },
     "footer": {
-      "glossary": "Glossary",
-      "about": "About",
+      "glossary": "Glosar",
+      "about": "Despre",
       "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "cookieSettings": "Cookie Settings"
+      "privacy": "Politica de confidențialitate",
+      "terms": "Termeni și condiții",
+      "cookieSettings": "Setări cookie"
     },
     "theme": {
-      "switchToLight": "Switch to light mode",
-      "switchToDark": "Switch to dark mode"
+      "switchToLight": "Comută la modul luminos",
+      "switchToDark": "Comută la modul întunecat"
     },
     "actions": {
-      "copyImage": "Copy image",
-      "reset": "Reset",
-      "copyLink": "Copy link",
-      "share": "Share",
-      "embed": "Embed"
+      "copyImage": "Copiază imaginea",
+      "reset": "Resetează",
+      "copyLink": "Copiază linkul",
+      "share": "Distribuie",
+      "embed": "Încorporează"
     },
     "toast": {
-      "linkCopied": "Link copied!",
-      "imageCopied": "Copied image!",
-      "failedToCopy": "Failed to copy",
-      "copied": "Copied!"
+      "linkCopied": "Link copiat!",
+      "imageCopied": "Imagine copiată!",
+      "failedToCopy": "Copierea a eșuat",
+      "copied": "Copiat!"
     },
     "learn": {
-      "title": "Learn",
-      "openPanel": "Open learn panel",
-      "collapsePanel": "Collapse learn panel",
-      "whatIsThis": "What is this?",
-      "howItWorks": "How it works",
-      "keyFactors": "Key factors",
-      "proTip": "Pro Tip",
-      "challenge": "Challenge",
-      "hint": "Hint: {hint}",
-      "completed": "Completed",
-      "checkAnswer": "Check Answer",
-      "nextChallenge": "Next Challenge",
-      "tryAgain": "Try Again",
-      "resetAll": "Reset all",
-      "resetAllChallenges": "Reset all challenges",
-      "challengeNumber": "Challenge {number}"
+      "title": "Învață",
+      "openPanel": "Deschide panoul de învățare",
+      "collapsePanel": "Restrânge panoul de învățare",
+      "whatIsThis": "Ce este asta?",
+      "howItWorks": "Cum funcționează",
+      "keyFactors": "Factori cheie",
+      "proTip": "Sfat de pro",
+      "challenge": "Provocare",
+      "hint": "Indiciu: {hint}",
+      "completed": "Finalizat",
+      "checkAnswer": "Verifică răspunsul",
+      "nextChallenge": "Următoarea provocare",
+      "tryAgain": "Mai încearcă",
+      "resetAll": "Resetează tot",
+      "resetAllChallenges": "Resetează toate provocările",
+      "challengeNumber": "Provocarea {number}"
     },
     "share": {
-      "title": "Share & Embed",
-      "closeModal": "Close share modal",
-      "directLink": "Direct Link",
+      "title": "Distribuie și încorporează",
+      "closeModal": "Închide fereastra de distribuire",
+      "directLink": "Link direct",
       "markdown": "Markdown (Reddit, GitHub)",
-      "bbcode": "BBCode (Forums)",
-      "htmlEmbed": "HTML Embed",
-      "copy": "Copy",
-      "copied": "Copied"
+      "bbcode": "BBCode (forumuri)",
+      "htmlEmbed": "Încorporare HTML",
+      "copy": "Copiază",
+      "copied": "Copiat"
     },
     "draft": {
-      "banner": "Preview — This tool is not yet public"
+      "banner": "Previzualizare — această unealtă nu este încă publică"
     },
     "fileUpload": {
-      "dropPrompt": "Drop an image here or click to browse",
-      "tapPrompt": "Tap to choose a photo",
-      "privacy": "Your photos never leave your device",
-      "selectedFile": "Selected file: {fileName}. Click to choose a different image",
-      "defaultLabel": "Your Photo"
+      "dropPrompt": "Trage o imagine aici sau apasă pentru a răsfoi",
+      "tapPrompt": "Atinge pentru a alege o fotografie",
+      "privacy": "Fotografiile tale nu părăsesc niciodată dispozitivul",
+      "selectedFile": "Fișier selectat: {fileName}. Apasă pentru a alege altă imagine",
+      "defaultLabel": "Fotografia ta"
     },
     "scene": {
-      "label": "Scene:",
-      "yourPhoto": "Your photo",
-      "removePhoto": "Remove photo",
-      "uploadPhoto": "Upload photo"
+      "label": "Scenă:",
+      "yourPhoto": "Fotografia ta",
+      "removePhoto": "Șterge fotografia",
+      "uploadPhoto": "Încarcă fotografia"
     },
     "controls": {
-      "focalLength": "Focal length",
-      "aperture": "Aperture",
-      "distance": "Distance",
-      "clickToEnterValue": "Click to enter a value",
-      "decrease": "Decrease",
-      "increase": "Increase"
+      "focalLength": "Distanță focală",
+      "aperture": "Diafragmă",
+      "distance": "Distanță",
+      "clickToEnterValue": "Apasă pentru a introduce o valoare",
+      "decrease": "Scade",
+      "increase": "Crește"
     },
     "dof": {
-      "depthOfField": "Depth of field: {totalDoF} from {nearFocus} to {farFocus}",
-      "infinity": "Infinity"
+      "depthOfField": "Adâncimea câmpului: {totalDoF} de la {nearFocus} până la {farFocus}",
+      "infinity": "Infinit"
     },
     "ad": {
-      "closeAd": "Close advertisement"
+      "closeAd": "Închide reclama"
     },
     "tooltip": {
       "infoLabel": "Info: {term}"
     },
     "notFound": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist or has been moved.",
-      "backHome": "Back to Home",
-      "popularTools": "Popular Tools"
+      "title": "Pagina nu a fost găsită",
+      "message": "Pagina pe care o cauți nu există sau a fost mutată.",
+      "backHome": "Înapoi la pagina principală",
+      "popularTools": "Unelte populare"
     },
     "breadcrumb": {
-      "home": "Home"
+      "home": "Acasă"
     },
     "relatedTools": {
-      "title": "Related Tools"
+      "title": "Unelte înrudite"
     },
     "sensors": {
-      "mf_645": "Medium Format (54x40)",
-      "mf": "Medium Format (44x33)",
-      "mf_leica": "Medium Format (45x30)",
+      "mf_645": "Format mediu (54x40)",
+      "mf": "Format mediu (44x33)",
+      "mf_leica": "Format mediu (45x30)",
       "ff": "Full Frame",
       "apsc_n": "APS-C (1.5x)",
       "apsc_c": "APS-C (Canon)",
       "m43": "Micro Four Thirds",
-      "1in": "1\" Sensor",
-      "phone": "Smartphone Flagship (1/1.3\")"
+      "1in": "Senzor 1\"",
+      "phone": "Smartphone flagship (1/1.3\")"
     },
-    "legalTranslationDisclaimer": "This page is shown in its original language."
+    "legalTranslationDisclaimer": "Aceasta este o traducere de conveniență. Versiunea în limba engleză este cea obligatorie din punct de vedere juridic. Vezi /en/privacy."
   }
 }

@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "Kapcsolat",
+    "description": "Van kérdésed, találtál egy hibát, vagy javasolnál egy új eszközt? Örömmel hallunk felőled.",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email",
-      "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "nameLabel": "Név",
+      "namePlaceholder": "A neved",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "a.te@email.hu",
+      "subjectLabel": "Tárgy",
+      "subjectPlaceholder": "Miről szól az üzenet?",
+      "messageLabel": "Üzenet",
+      "messagePlaceholder": "Az üzeneted...",
+      "submit": "Üzenet küldése",
+      "sending": "Küldés...",
+      "honeypotLabel": "Weboldal",
+      "successToast": "Üzenet elküldve! Hamarosan jelentkezünk.",
+      "errorToast": "Valami elromlott. Kérjük, próbáld újra.",
+      "networkErrorToast": "Hálózati hiba. Ellenőrizd a kapcsolatot, és próbáld újra.",
+      "sentTitle": "Köszönjük, hogy írtál!",
+      "sentMessage": "Amint lehet, visszajelzünk.",
+      "sendAnother": "Új üzenet küldése"
     }
   }
 }

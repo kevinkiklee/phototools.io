@@ -1,69 +1,69 @@
 {
   "toolUI": {
     "color-scheme-generator": {
-      "colorScheme": "Color Scheme",
+      "colorScheme": "Skema Warna",
       "complementary": "Complementary",
       "analogous": "Analogous",
       "triadic": "Triadic",
       "splitComplementary": "Split Complementary",
       "tetradic": "Tetradic",
-      "keyColor": "Key Color",
+      "keyColor": "Warna Utama",
       "hue": "Hue:",
       "saturation": "Saturation:",
       "lightness": "Lightness:",
-      "splitAngle": "Split angle:",
-      "spread": "Spread:",
-      "rectangleWidth": "Rectangle width:",
-      "square": "(square)",
-      "pickFromPhoto": "Pick from Photo",
-      "dropPhotoPrompt": "Drop a photo here or click to browse",
-      "keyColorLabel": "Key color — click to copy hex",
-      "clickToCopyHex": "Click to copy hex",
-      "copiedExcl": "Copied!",
-      "copyColors": "Copy colors",
+      "splitAngle": "Sudut split:",
+      "spread": "Sebaran:",
+      "rectangleWidth": "Lebar segi empat tepat:",
+      "square": "(segi empat sama)",
+      "pickFromPhoto": "Pilih dari Foto",
+      "dropPhotoPrompt": "Lepaskan foto di sini atau klik untuk melayari",
+      "keyColorLabel": "Warna utama — klik untuk salin hex",
+      "clickToCopyHex": "Klik untuk salin hex",
+      "copiedExcl": "Disalin!",
+      "copyColors": "Salin warna",
       "hexFormat": "Hex",
       "cssFormat": "CSS",
       "rgbFormat": "RGB",
-      "copyHexCodes": "Copy hex codes",
-      "copyCssVariables": "Copy CSS variables",
-      "copyRgbValues": "Copy RGB values",
-      "pickColorFromPhoto": "Pick color from photo",
-      "close": "Close",
-      "dropPhotoOrBrowse": "Drop a photo here or click to browse",
-      "tapToChoose": "Tap to choose a photo",
-      "tapToSample": "Tap anywhere on the photo to sample that color",
-      "changePhoto": "Change photo",
-      "privacyNote": "Your photo stays in your browser — nothing is uploaded",
+      "copyHexCodes": "Salin kod hex",
+      "copyCssVariables": "Salin pemboleh ubah CSS",
+      "copyRgbValues": "Salin nilai RGB",
+      "pickColorFromPhoto": "Pilih warna dari foto",
+      "close": "Tutup",
+      "dropPhotoOrBrowse": "Lepaskan foto di sini atau klik untuk melayari",
+      "tapToChoose": "Ketuk untuk memilih foto",
+      "tapToSample": "Ketuk di mana-mana pada foto untuk mengambil sampel warna itu",
+      "changePhoto": "Tukar foto",
+      "privacyNote": "Foto anda kekal dalam pelayar anda — tiada apa dimuat naik",
       "suggestions": {
         "complementary": {
-          "warm": "Great for: warm sunset portraits with cool shadow contrast",
-          "cool": "Great for: moody blue-hour shots with warm accent lighting",
-          "default": "Great for: high-contrast compositions with strong visual tension"
+          "warm": "Sesuai untuk: potret matahari terbenam yang hangat dengan kontras bayang sejuk",
+          "cool": "Sesuai untuk: tangkapan blue hour bermoody dengan pencahayaan aksen hangat",
+          "default": "Sesuai untuk: komposisi kontras tinggi dengan ketegangan visual yang kuat"
         },
         "analogous": {
-          "warm": "Great for: golden hour landscapes with unified warm tones",
-          "cool": "Great for: serene water scenes and twilight photography",
-          "default": "Great for: harmonious nature shots with smooth color transitions"
+          "warm": "Sesuai untuk: landskap golden hour dengan rona hangat yang padu",
+          "cool": "Sesuai untuk: adegan air tenang dan fotografi waktu senja",
+          "default": "Sesuai untuk: tangkapan alam yang harmoni dengan peralihan warna yang lancar"
         },
-        "triadic": "Use for: vibrant editorial work and bold creative portraits",
+        "triadic": "Gunakan untuk: kerja editorial yang rancak dan potret kreatif yang berani",
         "splitComplementary": {
-          "warm": "Use for: contrasting wardrobe against a natural backdrop",
-          "default": "Use for: balanced product photography with visual variety"
+          "warm": "Gunakan untuk: pakaian yang berkontras dengan latar belakang semula jadi",
+          "default": "Gunakan untuk: fotografi produk yang seimbang dengan variasi visual"
         },
-        "tetradic": "Use for: rich editorial layouts and complex multi-subject compositions"
+        "tetradic": "Gunakan untuk: susun atur editorial yang kaya dan komposisi pelbagai subjek yang kompleks"
       },
       "faq": {
         "what-is-color-harmony": {
-          "question": "What is color harmony in photography?",
-          "answer": "Color harmony refers to aesthetically pleasing color combinations based on their positions on the color wheel. Harmonious colors create visual balance and can evoke specific moods in your photographs."
+          "question": "Apa itu harmoni warna dalam fotografi?",
+          "answer": "Harmoni warna merujuk kepada gabungan warna yang menyenangkan dari segi estetika berdasarkan kedudukannya pada roda warna. Warna yang harmoni mencipta keseimbangan visual dan boleh membangkitkan mood tertentu dalam foto anda."
         },
         "complementary-vs-analogous": {
-          "question": "What is the difference between complementary and analogous colors?",
-          "answer": "Complementary colors sit opposite each other on the color wheel (like blue and orange) and create high contrast. Analogous colors sit next to each other (like blue, blue-green, and green) and create a more harmonious, unified feel."
+          "question": "Apakah perbezaan antara warna complementary dan analogous?",
+          "answer": "Warna complementary duduk bertentangan antara satu sama lain pada roda warna (seperti biru dan jingga) dan mencipta kontras tinggi. Warna analogous duduk bersebelahan (seperti biru, hijau-biru dan hijau) dan mencipta rasa yang lebih harmoni dan bersatu."
         },
         "how-to-use-color-schemes-photography": {
-          "question": "How do I use color schemes in photography?",
-          "answer": "Plan your shoots around a color palette — choose wardrobe, locations, and props that match your scheme. In post-processing, use color grading to emphasize your chosen palette. Color schemes help create a consistent visual identity across a photo series."
+          "question": "Bagaimana saya menggunakan skema warna dalam fotografi?",
+          "answer": "Rancang sesi anda berdasarkan palet warna — pilih pakaian, lokasi dan prop yang sepadan dengan skema anda. Dalam pasca-pemprosesan, gunakan color grading untuk menekankan palet pilihan anda. Skema warna membantu mencipta identiti visual yang konsisten merentasi siri foto."
         }
       }
     }

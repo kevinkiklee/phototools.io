@@ -1,13 +1,13 @@
 {
   "home": {
-    "heroTitle": "PhotoTools — Free Photography Tools",
-    "heroDesc": "Free photography calculators, simulators, and references. No sign-up required — your photos never leave your browser.",
-    "comingSoon": "Coming Soon",
+    "heroTitle": "PhotoTools — Libreng Photography Tools",
+    "heroDesc": "Libreng photography calculators, simulators, at mga sanggunian. Walang kailangang mag-sign up — hindi umaalis ang mga litrato mo sa browser.",
+    "comingSoon": "Malapit na",
     "categories": {
-      "visualizer": "Visualizers",
-      "calculator": "Calculators",
-      "reference": "Reference",
-      "file-tool": "File Tools"
+      "visualizer": "Mga Visualizer",
+      "calculator": "Mga Calculator",
+      "reference": "Sanggunian",
+      "file-tool": "Mga File Tool"
     }
   }
 }

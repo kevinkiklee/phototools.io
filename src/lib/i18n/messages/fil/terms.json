@@ -1,50 +1,50 @@
 {
   "terms": {
-    "title": "Terms of Service",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Mga Tuntunin ng Serbisyo",
+    "effectiveDate": "Petsa ng pagkakaroon ng bisa: Abril 3, 2026",
     "sections": {
       "acceptance": {
-        "title": "Acceptance of Terms",
-        "body": "By accessing or using www.phototools.io (\"PhotoTools\" or \"the Site\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Site. These terms apply to all visitors and users of PhotoTools."
+        "title": "Pagtanggap ng mga Tuntunin",
+        "body": "Sa pag-access o paggamit ng www.phototools.io (\"PhotoTools\" o \"ang Site\"), sumasang-ayon kang sumunod sa mga Terms of Service na ito. Kung hindi ka sumasang-ayon sa mga tuntuning ito, huwag gamitin ang Site. Ang mga tuntuning ito ay nalalapat sa lahat ng bisita at user ng PhotoTools."
       },
       "descriptionOfService": {
-        "title": "Description of Service",
-        "body": "PhotoTools provides free educational photography tools, including interactive calculators, simulators, and reference materials. The Site is intended for informational and educational purposes only. All tools are provided at no cost to users and are designed to help photographers learn and understand photographic concepts."
+        "title": "Paglalarawan ng Serbisyo",
+        "body": "Nagbibigay ang PhotoTools ng libreng educational photography tools, kabilang ang interactive calculators, simulators, at reference materials. Ang Site ay para lang sa informational at educational na layunin. Lahat ng tools ay ibinibigay nang libre sa mga user at idinisenyo para tulungan ang mga photographer na matuto at maunawaan ang mga konsepto sa photography."
       },
       "noWarranty": {
-        "title": "No Warranty",
-        "body": "PhotoTools is provided \"as is\" without any warranty of any kind, express or implied. We make no guarantee that the tools, calculators, or information on this site are accurate, complete, or suitable for any particular purpose. Results from our tools are approximations and should not be relied upon for critical decisions, professional work, or situations where precision is essential. Always verify important calculations with qualified professionals or authoritative sources."
+        "title": "Walang Warranty",
+        "body": "Ang PhotoTools ay ibinibigay \"as is\" nang walang anumang warranty ng anumang uri, express o implied. Hindi kami nagbibigay ng garantiya na ang tools, calculators, o impormasyon sa site na ito ay tumpak, kompleto, o angkop para sa anumang partikular na layunin. Ang mga resulta mula sa aming tools ay mga approximation at hindi dapat pagtibayan para sa mga kritikal na desisyon, propesyonal na trabaho, o mga sitwasyon kung saan mahalaga ang eksaktong sukat. Palaging i-verify ang mahahalagang kalkulasyon sa mga kwalipikadong propesyonal o authoritative sources."
       },
       "intellectualProperty": {
         "title": "Intellectual Property",
-        "body": "All content on PhotoTools — including text, graphics, tool designs, code, and educational materials — is the property of PhotoTools unless otherwise noted. You are welcome to use the tools and reference materials for personal and educational purposes. Reproduction, redistribution, or commercial use of site content without prior written permission is prohibited."
+        "body": "Lahat ng content sa PhotoTools — kabilang ang mga teksto, graphics, tool designs, code, at educational materials — ay pag-aari ng PhotoTools maliban kung iba ang nabanggit. Malugod kang tinatanggap na gamitin ang mga tool at reference materials para sa personal at educational na layunin. Ang reproduction, redistribution, o commercial use ng site content nang walang paunang pahintulot na nakasulat ay ipinagbabawal."
       },
       "acceptableUse": {
-        "title": "Acceptable Use",
-        "intro": "When using PhotoTools, you agree not to:",
+        "title": "Katanggap-tanggap na Paggamit",
+        "intro": "Sa paggamit ng PhotoTools, sumasang-ayon ka na huwag:",
         "items": {
-          "laws": "Violate any applicable local, national, or international laws or regulations",
-          "disrupt": "Disrupt or interfere with the site's operation, servers, or networks",
-          "scrape": "Scrape, crawl, or systematically extract data from the site without prior written permission",
-          "misrepresent": "Misrepresent your identity or affiliation in communications with PhotoTools",
-          "commercial": "Use the site for any commercial purpose beyond personal reference without permission"
+          "laws": "Labagin ang anumang applicable na lokal, pambansa, o international na batas o regulasyon",
+          "disrupt": "Guluhin o makialam sa operasyon, server, o network ng site",
+          "scrape": "Mag-scrape, mag-crawl, o sistematikong kumuha ng data mula sa site nang walang paunang pahintulot na nakasulat",
+          "misrepresent": "Mag-misrepresent ng iyong pagkakakilanlan o affiliation sa mga komunikasyon sa PhotoTools",
+          "commercial": "Gamitin ang site para sa anumang commercial na layunin lampas sa personal na sanggunian nang walang pahintulot"
         }
       },
       "thirdPartyContent": {
         "title": "Third-Party Content",
-        "body": "PhotoTools displays third-party advertisements and may include links to external websites. We are not responsible for the content, accuracy, or practices of third-party advertisers or linked sites. The inclusion of any advertisement or external link does not constitute an endorsement by PhotoTools. Your interactions with third-party services are governed by their own terms and privacy policies."
+        "body": "Nagpapakita ang PhotoTools ng mga third-party advertisement at maaaring may mga link sa mga external na website. Hindi kami responsable sa content, katumpakan, o kasanayan ng mga third-party advertiser o linked site. Ang pagsali ng anumang advertisement o external link ay hindi isang endorsement ng PhotoTools. Ang iyong mga pakikipag-ugnayan sa mga third-party na serbisyo ay pinamamahalaan ng kanilang sariling mga tuntunin at patakaran sa privacy."
       },
       "limitationOfLiability": {
-        "title": "Limitation of Liability",
-        "body": "To the fullest extent permitted by law, PhotoTools and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of — or inability to use — the Site or its tools. This includes, without limitation, damages resulting from reliance on information or calculations provided by PhotoTools. Your use of the Site is entirely at your own risk."
+        "title": "Limitasyon ng Pananagutan",
+        "body": "Sa pinakamalawak na sukat na pinahihintulutan ng batas, ang PhotoTools at ang mga operator nito ay hindi mananagot para sa anumang direktang, indirekta, incidental, special, o consequential damages na nagmula sa iyong paggamit — o kawalan ng kakayahang gumamit — ng Site o mga tool nito. Kabilang dito, nang walang limitasyon, ang mga pinsalang nagmula sa pagtitiwala sa impormasyon o kalkulasyon na ibinigay ng PhotoTools. Ang iyong paggamit ng Site ay buong-buo sa sarili mong panganib."
       },
       "changesToTerms": {
-        "title": "Changes to Terms",
-        "body": "We may modify these Terms of Service at any time. Updated terms will be posted on this page with a revised effective date. Continued use of PhotoTools after changes are posted constitutes your acceptance of the revised terms. We encourage you to review these terms periodically."
+        "title": "Mga Pagbabago sa mga Tuntunin",
+        "body": "Maaari naming baguhin ang Terms of Service na ito anumang oras. Ang mga na-update na tuntunin ay ipi-post sa page na ito na may binagong effective date. Ang patuloy na paggamit ng PhotoTools pagkatapos na ma-post ang mga pagbabago ay katumbas ng iyong pagtanggap sa mga binagong tuntunin. Hinihikayat ka naming basahin ang mga tuntuning ito paminsan-minsan."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about these Terms of Service, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Makipag-ugnayan",
+        "body": "Kung may tanong ka tungkol sa Terms of Service na ito, makipag-ugnayan sa amin sa aming <contactLink>contact page</contactLink>."
       }
     }
   }

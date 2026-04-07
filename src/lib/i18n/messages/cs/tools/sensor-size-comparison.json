@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "sensor-size-comparison": {
-      "displayMode": "Display Mode",
-      "modeOverlay": "Overlay",
-      "modeSideBySide": "Side by Side",
-      "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
-      "sensors": "Sensors",
-      "customSensors": "Custom Sensors",
-      "placeholderName": "Name",
-      "placeholderW": "W (mm)",
-      "placeholderH": "H (mm)",
-      "placeholderMP": "Megapixels (optional)",
+      "displayMode": "Režim zobrazení",
+      "modeOverlay": "Překryv",
+      "modeSideBySide": "Vedle sebe",
+      "modePixelDensity": "Hustota pixelů",
+      "pixelDensityDescription": "Zobrazuje běžné počty megapixelů pro každý snímač. Větší pixely (větší buňky) zachytí víc světla.",
+      "sensors": "Snímače",
+      "customSensors": "Vlastní snímače",
+      "placeholderName": "Název",
+      "placeholderW": "Š (mm)",
+      "placeholderH": "V (mm)",
+      "placeholderMP": "Megapixely (volitelné)",
       "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
-      "addSensor": "Add Sensor",
-      "save": "Save",
-      "cancelEdit": "Cancel",
-      "edit": "Edit",
-      "remove": "Remove",
-      "deleteAllCustom": "Delete All Custom Sensors",
-      "tableSensor": "Sensor",
-      "tableWidth": "Width (mm)",
-      "tableHeight": "Height (mm)",
-      "tableAspectRatio": "Aspect Ratio",
-      "tableArea": "Area (mm\u00b2)",
-      "tableCropFactor": "Crop Factor",
-      "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "maxDimensionWarning": "Maximální rozměr snímače je 99 mm",
+      "addSensor": "Přidat snímač",
+      "save": "Uložit",
+      "cancelEdit": "Zrušit",
+      "edit": "Upravit",
+      "remove": "Odebrat",
+      "deleteAllCustom": "Smazat všechny vlastní snímače",
+      "tableSensor": "Snímač",
+      "tableWidth": "Šířka (mm)",
+      "tableHeight": "Výška (mm)",
+      "tableAspectRatio": "Poměr stran",
+      "tableArea": "Plocha (mm²)",
+      "tableCropFactor": "Crop faktor",
+      "tableAspectCrop": "Crop podle poměru",
+      "canvasAriaLabel": "Porovnání velikostí snímačů v režimu {mode}",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "Co je crop faktor a proč na něm záleží?",
+          "answer": "Crop faktor popisuje rozdíl velikosti mezi snímačem fotoaparátu a full frame (35 mm) snímačem. Ovlivňuje efektivní ohniskovou vzdálenost, hloubku ostrosti a výkon ve slabém světle. Crop faktor 1,5× znamená, že snímač je 1,5× menší než full frame."
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "Jaké jsou výhody full frame oproti APS-C?",
+          "answer": "Full frame nabízí lepší výkon ve slabém světle, menší hloubku ostrosti a širší zorný úhel při dané ohniskové vzdálenosti. APS-C je cenově dostupnější, lehčí a dává ti větší dosah pro wildlife a sportovní fotografii."
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "Jak velikost snímače ovlivňuje hloubku ostrosti?",
+          "answer": "Větší snímače mají při stejné kompozici menší hloubku ostrosti. Abys s menším snímačem dostal stejný výřez, musíš použít kratší ohniskovou vzdálenost (větší hloubka ostrosti) nebo se vzdálit (také větší hloubka ostrosti) — v obou případech se pozadí rozmaže méně."
         }
       }
     }

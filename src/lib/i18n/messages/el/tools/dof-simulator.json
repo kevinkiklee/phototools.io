@@ -46,7 +46,7 @@
       "modeSplit": "Split Compare",
       "blurReadout": "Blur: {value}",
       "simulateDiffraction": "Simulate diffraction",
-      "diffractionWarning": "Diffraction softening may reduce sharpness at this aperture",
+      "diffractionWarning": "Η περίθλαση μπορεί να μειώσει την ευκρίνεια σε αυτό το διάφραγμα",
       "depthRulerNear": "Near",
       "depthRulerFar": "Far",
       "depthRulerInFocus": "In Focus",

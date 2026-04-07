@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "Глибина різкості (DoF) — це діапазон відстані у кадрі, який виглядає прийнятно різким. Мала глибина різкості розмиває фон за об'єктом, велика — тримає різким все від переднього плану до горизонту. Керувати нею — один із найпотужніших творчих інструментів фотографії.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Як працює DoF",
+          "text": "Глибина різкості визначається колом нерізкості (CoC) — найбільшою плямою розмиття на матриці, яка ще виглядає різкою для ока. На неї впливають три фізичні чинники: фокусна відстань, діафрагма і дистанція до об'єкта. Ширша діафрагма (менше f-число) дає меншу глибину різкості, бо об'єктив зводить світло крутішими кутами, і точки поза фокусом розпливаються у більші кола на матриці."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Фокусна відстань і дистанція",
+          "text": "Довші фокусні відстані збільшують зображення — а разом з ним і кола розмиття, тому глибина різкості звужується. Наближення до об'єкта зменшує глибину різкості з тієї ж причини: відносна різниця у відстані між об'єктом і фоном стає більшою. Гіперфокальна відстань — це дистанція фокусування, на якій глибина різкості тягнеться від половини цієї відстані до нескінченності, даючи максимальну різкість по всій сцені."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Боке й дифракція",
+          "text": "Боке — це якість розмитих ділянок. На нього впливають кількість і форма пелюсток діафрагми: більше округлих пелюсток — плавніші, круглі блики. На дуже закритих діафрагмах (f/16+) дифракція розсіює світло на краях отвору і розмиває весь кадр, навіть у зоні різкості. Завжди є sweet spot — зазвичай десь між f/5.6 і f/8 на повному кадрі — де різкість і глибина різкості оптимально збалансовані."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "Діафрагма",
+          "description": "Ширші діафрагми (f/1.4–f/2.8) дають малу глибину різкості з вершковим боке. Вужчі (f/8–f/16) збільшують різкість по всій сцені."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "Фокусна відстань",
+          "description": "Довші об'єктиви стискають перспективу і звужують глибину різкості за тієї ж діафрагми й кадрування. У 200 мм f/4 глибина різкості значно менша, ніж у 35 мм f/4."
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "Дистанція до об'єкта",
+          "description": "Що ближче фокусування, то менша глибина різкості. Макрофотографи часто працюють із глибиною різкості в міліметрах."
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "Розмір матриці",
+          "description": "Більші матриці потребують довших фокусних відстаней для того самого кадрування, що непрямо звужує глибину різкості. Повнокадрова камера дає меншу глибину різкості, ніж Micro Four Thirds при еквівалентному кадруванні."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "Для групових портретів знімай на f/5.6 або вужче і постав усіх в одну площину фокусу. Навіть один крок уперед на відкритій діафрагмі — і людина вже не в різкості."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "У пейзажах фокусуйся на гіперфокальній відстані, а не на нескінченності. Так зона різкості тягнеться від близького переднього плану до далекого фону."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Якщо хочеш максимально розмити фон для портрета, збільш фокусну відстань і підійди до об'єкта так близько, як дозволяє кадрування — обидві зміни множаться і дають різке падіння глибини різкості."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "Фокусна відстань",
+          "definition": "Відстань у міліметрах від оптичного центру об'єктива до матриці при фокусуванні на нескінченність. Довші фокусні відстані збільшують зображення і звужують глибину різкості."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "Діафрагма",
+          "definition": "Розмір отвору об'єктива, виражений через f-число (наприклад, f/2.8). Менші f-числа — ширший отвір, більше світла і менша глибина різкості."
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "Дистанція до об'єкта",
+          "definition": "Відстань від матриці камери до точки фокусування. Що ближче — то менша глибина різкості."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "Розмір матриці",
+          "definition": "Фізичні розміри сенсора камери. Більші матриці (повний кадр, середній формат) дають меншу глибину різкості при еквівалентному кадруванні порівняно з меншими (APS-C, Micro Four Thirds)."
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "Орієнтація",
+          "definition": "Перемикач між горизонтальною (landscape) і вертикальною (portrait) орієнтацією зйомки. Впливає на систему відліку при розрахунку дистанції до об'єкта."
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "Передня межа різкості",
+          "definition": "Найближча до камери дистанція, яка ще виглядає прийнятно різкою. Все ближче буде розмитим."
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "Задня межа різкості",
+          "definition": "Найдальша від камери дистанція, яка ще виглядає прийнятно різкою. Коли вона сягає нескінченності, все за передньою межею в фокусі."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Загальна глибина різкості",
+          "definition": "Повна відстань між передньою і задньою межами різкості — вся зона, яка виглядає різкою у кадрі."
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "Гіперфокальна відстань",
+          "definition": "Дистанція фокусування, що дає максимальну глибину різкості. Сфокусувавшись на ній, отримаєш різкість від половини цієї відстані до нескінченності."
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "Розмиття фону",
+          "definition": "Міра того, наскільки розмитим виглядає фон за об'єктом. Вищі значення — сильніше розмиття і кращий відрив об'єкта."
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "Коло нерізкості",
+          "definition": "Максимальний діаметр плями розмиття на матриці, яка ще сприймається оком як точка. Визначає межу прийнятної різкості для розрахунків глибини різкості."
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "Оцінка відриву",
+          "definition": "Комплексна оцінка (0–100), яка показує, наскільки добре об'єкт відділений від фону — залежить від сили розмиття фону відносно розміру об'єкта."
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "Форма боке",
+          "definition": "Форма розмитих бліків, що визначається кількістю і кривизною пелюсток діафрагми. Більше пелюсток — округліше і плавніше боке."
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "Дифракція",
+          "definition": "На дуже малих діафрагмах світло огинає краї отвору й розмиває зображення. На повному кадрі це зазвичай стає помітним за f/16."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Знімаєш портрет і хочеш гарно розмитий фон. Яку діафрагму вибрати?",
+          "hint": "Менше f-число — ширший отвір об'єктива і сильніше розмиття фону.",
+          "successMessage": "Правильно! Широка діафрагма на кшталт f/1.8 або f/2.8 дає малу глибину різкості й відділяє об'єкт від фону приємним боке.",
+          "failureMessage": "Не зовсім. Вужчі діафрагми — f/11 або f/16 — тримають більше сцени в різкості. Для розмиття фону бери широку діафрагму (мале f-число).",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Знімаєш групу з 8 людей у два ряди на весіллі. Яка діафрагма допоможе тримати всіх у різкості?",
+          "hint": "Люди стоять на трохи різних відстанях — потрібна глибина різкості, щоб накрити обидва ряди.",
+          "successMessage": "Гарний вибір! f/5.6 дає достатню глибину різкості, щоб обидва ряди були різкими, і водночас лишає нормальну витримку в приміщенні.",
+          "failureMessage": "Ця діафрагма або лишить задній ряд не в фокусі, або буде без потреби вужчою. Для двох рядів f/5.6 — надійна стартова точка.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Знімаєш пейзаж: польові квіти за 2 метри й гори вдалині. На повному кадрі, об'єктив 24 мм. Що зробить різкість від переднього плану до фону максимальною?",
+          "hint": "Є конкретна дистанція фокусування, що максимізує зону різкості від переднього плану до нескінченності.",
+          "successMessage": "Саме так! Фокусування на гіперфокальній відстані при f/11 тримає все від ~1 метра до нескінченності прийнятно різким — ідеально для цієї сцени.",
+          "failureMessage": "Фокус на нескінченності лишить квіти м'якими. Фокусуйся на гіперфокальній відстані, щоб тягнути різкість від близького переднього плану до нескінченності.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Фокус на квітах (2 м)" },
+            "1": { "label": "Фокус на горах (нескінченність)" },
+            "2": { "label": "Фокус на гіперфокальній відстані" },
+            "3": { "label": "Фокус посередині між квітами і горами" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Робиш макро квітки і бачиш, що різкі лише передні пелюстки, а решта розмита. Знімаєш на f/5.6. Що зробити, щоб у фокусі була більша частина квітки?",
+          "hint": "На близькому фокусуванні глибина різкості стає дуже тонкою. Подумай про діафрагму.",
+          "successMessage": "Саме так! Закриваючись до f/11 або f/16, ти збільшуєш тонюсіньку макро DoF. Тільки стеж за дифракцією на дуже закритих діафрагмах.",
+          "failureMessage": "Відкривати діафрагму ще ширше — робити DoF ще тоншою. У макро закривання діафрагми (більше f-число) — головний спосіб додати глибини різкості.",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Відкрити до f/2.8 для більше світла" },
+            "1": { "label": "Закритися до f/11" },
+            "2": { "label": "Перейти на ширший об'єктив" },
+            "3": { "label": "Відійти далі від квітки" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Порівнюєш дві камери для портретів: повний кадр з 85 мм f/1.8 і Micro Four Thirds з 42.5 мм f/1.8. Кадрування однакове. Яка дасть меншу глибину різкості?",
+          "hint": "Подумай про еквівалентні фокусні відстані і як розмір матриці впливає на DoF при тому самому f-числі.",
+          "successMessage": "Правильно! Повний кадр дає приблизно на 2 стопи меншу DoF. У MFT те саме f-число, але коротша реальна фокусна відстань (42.5 мм проти 85 мм) означає більшу глибину різкості при еквівалентному кадруванні.",
+          "failureMessage": "Хоча обидва об'єктиви f/1.8, повнокадрова камера використовує довшу реальну фокусну відстань для того самого кадрування — і це дає значно меншу DoF.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Повний кадр з 85 мм f/1.8" },
+            "1": { "label": "Micro Four Thirds з 42.5 мм f/1.8" },
+            "2": { "label": "Обидві дають однакову DoF" }
           }
         }
       }

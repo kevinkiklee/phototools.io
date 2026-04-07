@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "Hloubka ostrosti (DoF) je rozsah vzdáleností na fotce, který vypadá přijatelně ostře. Malá hloubka ostrosti rozmaže pozadí za subjektem, zatímco velká udrží ostré všechno od popředí po horizont. Ovládnutí hloubky ostrosti je jeden z nejsilnějších kreativních nástrojů ve fotografii.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Jak hloubka ostrosti funguje",
+          "text": "Hloubka ostrosti je řízena rozptylovým kroužkem (CoC) — největším rozmazaným bodem na snímači, který lidskému oku ještě připadá ostrý. Určují ji tři fyzikální faktory: ohnisková vzdálenost, clona a vzdálenost k subjektu. Širší clona (nižší clonové číslo) dává menší hloubku ostrosti, protože objektiv stahuje světlo pod strmějším úhlem, a neostré body se tak roztáhnou do větších kroužků na snímači."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Ohnisková vzdálenost a odstup",
+          "text": "Delší ohniska zvětšují obraz, a tím pádem i kroužky rozptylu, což hloubku ostrosti zužuje. Přiblížení k subjektu snižuje hloubku ostrosti ze stejného důvodu — relativní rozdíl ve vzdálenosti mezi subjektem a pozadím se zvětší. Hyperfokální vzdálenost je taková vzdálenost zaostření, při níž se hloubka ostrosti rozprostírá od poloviny této vzdálenosti až do nekonečna a maximalizuje ostrost napříč celou scénou."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Bokeh a difrakce",
+          "text": "Bokeh označuje kvalitu neostrých ploch. Počet a tvar clonových lamel ovlivňuje charakter bokehu — zaoblenější lamely dávají hladší, kulatější světelné body. Při velmi malých clonách (od f/16) difrakce rozptyluje světlo na okrajích clony a změkčuje celý snímek i v zóně ostrosti. Vždycky existuje nějaký sweet spot — typicky kolem f/5.6–f/8 na full frame — kde je ostrost a hloubka ostrosti optimálně vyvážená."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "Clona",
+          "description": "Širší clony (f/1.4–f/2.8) dávají malou hloubku ostrosti a krémový bokeh. Užší clony (f/8–f/16) zvyšují ostrost v celé scéně."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "Ohnisková vzdálenost",
+          "description": "Delší objektivy stlačují perspektivu a při stejné cloně a výřezu dávají menší hloubku ostrosti. 200mm objektiv má při f/4 mnohem menší hloubku ostrosti než 35mm při f/4."
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "Vzdálenost k subjektu",
+          "description": "Čím blíž zaostřuješ, tím menší hloubku ostrosti dostaneš. Makrofotografové často pracují s hloubkou ostrosti měřenou v milimetrech."
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "Velikost snímače",
+          "description": "Větší snímače vyžadují pro stejný výřez delší ohniska, což nepřímo zužuje hloubku ostrosti. Full frame dává při srovnatelné kompozici menší hloubku ostrosti než Micro Four Thirds."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "Na skupinové portréty použij f/5.6 nebo užší a nech všechny stát ve stejné rovině zaostření. I jediný člověk o půl kroku napřed může při široké cloně vypadnout z ostrosti."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "Při focení krajiny zaostřuj raději na hyperfokální vzdálenost než na nekonečno. Maximalizuje se tím zóna ostrosti od blízkého popředí až po pozadí."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Pokud chceš u portrétu maximální rozmazání pozadí, prodluž ohniskovou vzdálenost a přistup co nejblíž, jak ti výřez dovolí — obě změny se sčítají a výrazně zmenší hloubku ostrosti."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "Ohnisková vzdálenost",
+          "definition": "Vzdálenost v milimetrech od optického středu objektivu ke snímači při zaostření na nekonečno. Delší ohniska zvětšují obraz a zužují hloubku ostrosti."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "Clona",
+          "definition": "Velikost otvoru v objektivu vyjádřená jako clonové číslo (například f/2.8). Nižší čísla znamenají širší otvor, víc světla a menší hloubku ostrosti."
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "Vzdálenost k subjektu",
+          "definition": "Vzdálenost od snímače ke bodu zaostření. Bližší vzdálenosti dávají menší hloubku ostrosti."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "Velikost snímače",
+          "definition": "Fyzické rozměry snímače. Větší snímače (full frame, střední formát) dávají při srovnatelném výřezu menší hloubku ostrosti než menší (APS-C, Micro Four Thirds)."
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "Orientace",
+          "definition": "Přepínání mezi horizontální (na šířku) a vertikální (na výšku) orientací snímání. Ovlivňuje referenční výřez pro výpočty vzdálenosti k subjektu."
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "Přední hranice ostrosti",
+          "definition": "Nejbližší vzdálenost od fotoaparátu, která vypadá přijatelně ostře. Všechno bližší bude rozmazané."
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "Zadní hranice ostrosti",
+          "definition": "Nejvzdálenější bod od fotoaparátu, který je přijatelně ostrý. Když dosáhne nekonečna, je ostré všechno za přední hranicí."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Celková hloubka ostrosti",
+          "definition": "Plná vzdálenost mezi přední a zadní hranicí ostrosti — celá zóna, která na snímku vypadá ostře."
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "Hyperfokální vzdálenost",
+          "definition": "Vzdálenost zaostření, která maximalizuje hloubku ostrosti. Když zaostříš na tuto vzdálenost, bude vše od její poloviny po nekonečno vypadat ostře."
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "Rozostření pozadí",
+          "definition": "Míra toho, jak rozmazané je pozadí za subjektem. Vyšší hodnoty znamenají silnější rozmazání a větší izolaci subjektu."
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "Rozptylový kroužek",
+          "definition": "Maximální průměr rozmazaného bodu na snímači, který lidské oko ještě vnímá jako bod. Určuje hranici přijatelné ostrosti pro výpočty hloubky ostrosti."
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "Míra izolace",
+          "definition": "Souhrnné skóre (0–100) ukazující, jak dobře je subjekt oddělený od pozadí, na základě míry rozostření pozadí vzhledem k velikosti subjektu."
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "Tvar bokehu",
+          "definition": "Tvar neostrých světelných bodů, daný počtem a zakřivením clonových lamel. Víc lamel dává kulatější a hladší bokeh."
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "Difrakce",
+          "definition": "Při velmi malých clonách se světlo ohýbá na okrajích clony a snímek měkne. Na full frame je tento jev obvykle patrný od f/16."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Fotíš portrét a chceš krásně rozmazané pozadí. Jakou clonu zvolíš?",
+          "hint": "Nižší clonové číslo znamená širší otvor objektivu a větší rozmazání pozadí.",
+          "successMessage": "Správně! Široká clona jako f/1.8 nebo f/2.8 vytvoří malou hloubku ostrosti a oddělí subjekt od pozadí s příjemným bokehem.",
+          "failureMessage": "Ne úplně. Úzké clony jako f/11 nebo f/16 udrží ostrou větší část scény. Pro rozmazané pozadí zvol širokou clonu (nízké clonové číslo).",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Fotíš na svatbě skupinu 8 lidí rozestavěných ve dvou řadách. Jaká clona ti pomůže udržet všechny ostré?",
+          "hint": "Lidé jsou v mírně odlišných vzdálenostech — potřebuješ dost hloubky ostrosti pro obě řady.",
+          "successMessage": "Dobrá volba! f/5.6 poskytuje dost hloubky ostrosti, aby obě řady byly ostré, a zároveň v interiéru udrží slušný expoziční čas.",
+          "failureMessage": "Ta clona může nechat zadní řadu mimo zaostření nebo být zbytečně úzká. Pro dvě řady lidí je f/5.6 spolehlivý výchozí bod.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Fotíš krajinu s lučními květy 2 metry od sebe a horami v pozadí. Máš 24mm objektiv na full frame. Jaká technika maximálně prodlouží ostrost od popředí po pozadí?",
+          "hint": "Existuje konkrétní vzdálenost zaostření, která maximalizuje ostrou zónu od popředí do nekonečna.",
+          "successMessage": "Přesně tak! Zaostření na hyperfokální vzdálenost při f/11 ti zajistí přijatelnou ostrost od zhruba 1 metru do nekonečna — ideální pro tuto scénu.",
+          "failureMessage": "Zaostření na nekonečno by nechalo květy v popředí měkké. Pro prodloužení ostrosti od blízkého popředí po nekonečno použij hyperfokální vzdálenost.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Zaostřit na květy (2 m)" },
+            "1": { "label": "Zaostřit na hory (nekonečno)" },
+            "2": { "label": "Zaostřit na hyperfokální vzdálenost" },
+            "3": { "label": "Zaostřit na půlku mezi květy a horami" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Při makrofotografii květiny si všimneš, že ostré jsou jen přední okvětní lístky a zbytek mizí v rozmazání. Máš f/5.6. Co uděláš, abys měl ostrou větší část květu?",
+          "hint": "Na krátkou vzdálenost je hloubka ostrosti extrémně malá. Zvaž clonu.",
+          "successMessage": "Správně! Přiclonění na f/11 nebo f/16 ti v makru rozšíří ultratenkou hloubku ostrosti. Dávej si ale pozor na difrakci při velmi malých clonách.",
+          "failureMessage": "Širší clona by hloubku ostrosti ještě zmenšila. V makrofotografii je cesta k větší hloubce přiclonění (vyšší clonové číslo).",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Otevřít na f/2.8 pro víc světla" },
+            "1": { "label": "Přiclonit na f/11" },
+            "2": { "label": "Přejít na širší objektiv" },
+            "3": { "label": "Odstoupit od květu" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Porovnáváš dva fotoaparáty na portréty: full frame s 85mm f/1.8 a Micro Four Thirds s 42,5mm f/1.8. Oba dávají stejný výřez. Který z nich má menší hloubku ostrosti?",
+          "hint": "Přemýšlej o ekvivalentních ohniscích a o tom, jak velikost snímače ovlivňuje výpočet hloubky ostrosti při stejném clonovém čísle.",
+          "successMessage": "Správně! Full frame má hloubku ostrosti menší zhruba o 2 clony. Objektiv na MFT má sice stejné clonové číslo, ale kratší skutečná ohnisková vzdálenost (42,5 mm vs. 85 mm) dává při stejném výřezu větší hloubku ostrosti.",
+          "failureMessage": "I když jsou oba objektivy f/1.8, full frame používá pro stejný výřez delší skutečné ohnisko, a tak dává výrazně menší hloubku ostrosti.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Full frame s 85mm f/1.8" },
+            "1": { "label": "Micro Four Thirds s 42,5mm f/1.8" },
+            "2": { "label": "Oba mají stejnou hloubku ostrosti" }
           }
         }
       }

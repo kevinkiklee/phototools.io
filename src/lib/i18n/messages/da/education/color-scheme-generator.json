@@ -1,146 +1,146 @@
 {
   "education": {
     "color-scheme-generator": {
-      "beginner": "Color harmony is about choosing colors that look good together. Just like musical chords, certain color combinations create pleasing visual relationships. Photographers use color harmony to plan wardrobe, set design, and even timing of outdoor shoots to get the right palette from nature.",
+      "beginner": "Farveharmoni handler om at vælge farver, der ser godt ud sammen. Ligesom musikalske akkorder skaber visse farvekombinationer behagelige visuelle sammenhænge. Fotografer bruger farveharmoni til at planlægge tøj, scenografi og tidspunktet for udendørs optagelser, så paletten bliver den rigtige.",
       "deeper": {
         "0": {
-          "heading": "The Color Wheel",
-          "text": "Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle (0\u2013360\u00b0), saturation is the distance from center, and lightness controls brightness. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary."
+          "heading": "Farvecirklen",
+          "text": "Farveharmoni bygger på farvecirklen, som arrangerer kulører i en cirkel ud fra deres bølgelængder. HSL-modellen (hue, saturation, lightness) kan mappes direkte til cirklen: hue er vinklen (0–360°), saturation er afstanden fra centrum, og lightness styrer lysstyrken. I fotografi opstår disse sammenhænge naturligt — den gyldne time giver analoge varme toner, mens en rød lade foran grønne marker er komplementær."
         },
         "1": {
-          "heading": "Complementary",
-          "text": "Two colors that sit directly opposite each other on the wheel (180\u00b0 apart), such as blue and orange or red and green. This creates maximum contrast and visual energy. Great for making a subject pop against a background — think golden-hour portraits where warm skin tones contrast with a cool blue sky."
+          "heading": "Komplementær",
+          "text": "To farver, der sidder lige overfor hinanden på cirklen (180° fra hinanden), som blå og orange eller rød og grøn. Det giver maksimal kontrast og visuel energi. Perfekt til at få motivet til at springe frem — tænk på portrætter i den gyldne time, hvor varme hudtoner står mod en kølig blå himmel."
         },
         "2": {
-          "heading": "Analogous",
-          "text": "Three colors that are neighbors on the wheel, typically within a 30\u201360\u00b0 spread. They produce smooth, cohesive palettes with low contrast. Ideal for landscapes and mood-driven work — autumn foliage is a natural analogous palette of reds, oranges, and yellows."
+          "heading": "Analog",
+          "text": "Tre farver, der er naboer på cirklen, typisk inden for 30–60°. De giver bløde, sammenhængende paletter med lav kontrast. Ideelt til landskaber og stemningsbilleder — efterårsløvet er en naturlig analog palet af rødt, orange og gult."
         },
         "3": {
-          "heading": "Triadic",
-          "text": "Three colors evenly spaced at 120\u00b0 intervals around the wheel, such as red, yellow, and blue. Triadic schemes feel balanced and vibrant without the tension of complementary contrast. Use one dominant color and the other two as accents for the strongest results."
+          "heading": "Triadisk",
+          "text": "Tre farver placeret med 120° mellemrum rundt på cirklen, f.eks. rød, gul og blå. Triadiske skemaer virker balancerede og livfulde uden spændingen fra komplementær kontrast. Lad én farve dominere og brug de to andre som accenter for det stærkeste resultat."
         },
         "4": {
-          "heading": "Split Complementary",
-          "text": "A variation of complementary that uses the two neighbors of the opposite color instead of the opposite itself. This keeps the high contrast of complementary but reduces the visual tension, making it more versatile and forgiving. A popular choice for styled portrait sessions."
+          "heading": "Split-komplementær",
+          "text": "En variation af komplementær, hvor man bruger de to naboer til den modsatte farve i stedet for den modsatte selv. Det bevarer den høje kontrast fra komplementær, men dæmper den visuelle spænding, så det bliver mere alsidigt og tilgivende. Et populært valg til styled portrætsessioner."
         },
         "5": {
-          "heading": "Tetradic (Double Complementary)",
-          "text": "Four colors forming a rectangle on the wheel — essentially two complementary pairs. This offers the richest, most complex palette but requires careful balance. Let one color dominate and use the others as supporting accents to avoid a chaotic look."
+          "heading": "Tetradisk (dobbelt-komplementær)",
+          "text": "Fire farver, der danner et rektangel på cirklen — reelt to komplementære par. Det giver den rigeste og mest komplekse palet, men kræver omhyggelig balance. Lad én farve dominere og brug de andre som støttende accenter, så billedet ikke bliver kaotisk."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Harmony Type",
-          "description": "The geometric relationship between colors on the wheel: complementary, analogous, triadic, split-complementary, or tetradic."
+          "label": "Harmonitype",
+          "description": "Den geometriske sammenhæng mellem farverne på cirklen: komplementær, analog, triadisk, split-komplementær eller tetradisk."
         },
         "1": {
           "label": "Hue",
-          "description": "The base color angle on the wheel (0-360 degrees). This is the starting point for all harmony calculations."
+          "description": "Grundfarvens vinkel på cirklen (0–360 grader). Det er udgangspunktet for alle harmoniberegninger."
         },
         "2": {
           "label": "Saturation",
-          "description": "How vivid or muted the colors are. Lower saturation produces pastels and earth tones; higher saturation gives bold, vibrant palettes."
+          "description": "Hvor mættede eller afdæmpede farverne er. Lavere saturation giver pastel- og jordfarver; højere saturation giver kraftige, livlige paletter."
         },
         "3": {
           "label": "Lightness",
-          "description": "Controls brightness. Adjusting lightness can make the same hue feel completely different — dark navy vs. sky blue are the same hue at different lightness."
+          "description": "Styrer lysstyrken. Den samme hue kan føles helt anderledes alt efter lightness — mørk marineblå og himmelblå er samme hue i forskellig lysstyrke."
         }
       },
       "tips": {
         "0": {
-          "text": "For portrait sessions, pick a complementary or split-complementary palette, then have your subject wear the key color while the background provides the contrasting hue. Blue/orange (golden hour portraits) is a classic example."
+          "text": "Til portrætter: vælg en komplementær eller split-komplementær palet og lad motivet bære hovedfarven, mens baggrunden giver den modsatte. Blå/orange (portrætter i den gyldne time) er et klassisk eksempel."
         },
         "1": {
-          "text": "Use analogous harmony for landscapes — nature already works in analogous palettes. Match your wardrobe advice or prop choices to the dominant natural hues."
+          "text": "Brug analog harmoni til landskaber — naturen arbejder allerede i analoge paletter. Match tøjvalg eller props til de dominerende naturtoner."
         },
         "2": {
-          "text": "Reduce saturation to 30-50% to preview how colors will look in a more muted, editorial style. High saturation works for commercial and fashion, but lower saturation often feels more sophisticated."
+          "text": "Skru saturation ned til 30–50 % for at se, hvordan farverne ser ud i en mere afdæmpet, redaktionel stil. Høj saturation virker til kommerciel og mode, men lavere saturation føles ofte mere forfinet."
         }
       },
       "tooltips": {
         "Harmony Type": {
-          "term": "Harmony Type",
-          "definition": "The color relationship pattern: Complementary (opposite), Analogous (neighbors), Triadic (three-way), Split Complementary (offset opposites), or Tetradic (four-way rectangle)."
+          "term": "Harmonitype",
+          "definition": "Farvesammenhængens mønster: Komplementær (modsatte), Analog (naboer), Triadisk (tre-vejs), Split-komplementær (forskudte modsatte) eller Tetradisk (fire-vejs rektangel)."
         },
         "Key Color": {
-          "term": "Key Color",
-          "definition": "The dominant color in your palette. All other harmony colors are calculated relative to this starting hue."
+          "term": "Nøglefarve",
+          "definition": "Paletternes dominerende farve. Alle øvrige harmonifarver beregnes ud fra denne start-hue."
         },
         "Hue": {
           "term": "Hue",
-          "definition": "The color angle on the wheel in degrees: 0\u00b0 is red, 120\u00b0 is green, 240\u00b0 is blue."
+          "definition": "Farvens vinkel på cirklen i grader: 0° er rød, 120° er grøn, 240° er blå."
         },
         "Saturation": {
           "term": "Saturation",
-          "definition": "Color intensity from 0% (gray) to 100% (fully vivid). Controls how bold or muted the entire palette appears."
+          "definition": "Farvens intensitet fra 0 % (grå) til 100 % (fuldt mættet). Styrer hvor kraftig eller afdæmpet hele paletten virker."
         },
         "Lightness": {
           "term": "Lightness",
-          "definition": "Brightness from 0% (black) to 100% (white). At 50% you see the pure color; below is darker, above is lighter."
+          "definition": "Lysstyrke fra 0 % (sort) til 100 % (hvid). Ved 50 % ser du den rene farve; under er mørkere, over er lysere."
         },
         "Split Angle": {
-          "term": "Split Angle",
-          "definition": "How far apart the two split-complementary colors are from the direct opposite. Wider angles give more contrast."
+          "term": "Split-vinkel",
+          "definition": "Hvor langt de to split-komplementære farver ligger fra den direkte modsatte. Bredere vinkler giver mere kontrast."
         },
         "Spread": {
-          "term": "Spread",
-          "definition": "How far apart the analogous colors are from the key hue. Narrow spread gives subtle variation; wide spread increases diversity."
+          "term": "Spredning",
+          "definition": "Hvor langt de analoge farver ligger fra nøglefarven. Smal spredning giver subtile variationer; bred spredning øger forskellen."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want maximum contrast between two colors for a bold graphic portrait. Which harmony type gives you the most visual tension?",
-          "hint": "Colors directly across from each other on the wheel create the strongest contrast.",
-          "successMessage": "Correct! Complementary colors sit 180 degrees apart and produce the highest contrast — perfect for bold, eye-catching compositions.",
-          "failureMessage": "Complementary harmony places colors directly opposite on the wheel, creating maximum visual contrast.",
+          "scenario": "Du vil have maksimal kontrast mellem to farver til et markant grafisk portræt. Hvilken harmonitype giver mest visuel spænding?",
+          "hint": "Farver, der ligger direkte overfor hinanden på cirklen, skaber den stærkeste kontrast.",
+          "successMessage": "Rigtigt! Komplementære farver ligger 180 grader fra hinanden og giver den højeste kontrast — perfekt til markante, iøjnefaldende kompositioner.",
+          "failureMessage": "Komplementær harmoni placerer farverne direkte overfor hinanden på cirklen og skaber maksimal visuel kontrast.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Triadic" }
+            "0": { "label": "Komplementær" },
+            "1": { "label": "Analog" },
+            "2": { "label": "Triadisk" }
           }
         },
         "1": {
-          "scenario": "You are planning a golden hour shoot and want warm, cohesive tones. Which harmony type keeps colors close together on the wheel?",
-          "hint": "This type uses neighboring hues for a smooth, unified feel.",
-          "successMessage": "Right! Analogous harmony uses adjacent colors, giving you a warm, cohesive palette perfect for golden hour.",
-          "failureMessage": "Analogous harmony keeps all colors as neighbors on the wheel — ideal for unified warm or cool palettes.",
+          "scenario": "Du planlægger en optagelse i den gyldne time og vil have varme, sammenhængende toner. Hvilken harmonitype holder farverne tæt sammen på cirklen?",
+          "hint": "Denne type bruger nabohues for et glat og samlet udtryk.",
+          "successMessage": "Præcis! Analog harmoni bruger nabofarver og giver dig en varm, sammenhængende palet, der passer perfekt til den gyldne time.",
+          "failureMessage": "Analog harmoni holder alle farver som naboer på cirklen — ideelt til samlede varme eller kølige paletter.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Tetradic" }
+            "0": { "label": "Komplementær" },
+            "1": { "label": "Analog" },
+            "2": { "label": "Tetradisk" }
           }
         },
         "2": {
-          "scenario": "A client wants a portrait with contrast but not as intense as pure complementary. Which harmony type softens the opposition while keeping visual interest?",
-          "hint": "This type uses two colors near the complement instead of the direct opposite.",
-          "successMessage": "Excellent! Split complementary keeps the contrast of complementary but splits the opposing color into two flanking hues, producing a less jarring but still dynamic palette.",
-          "failureMessage": "Split Complementary is the answer — it replaces the single opposite color with two neighbors of the opposite, softening the contrast while maintaining visual energy.",
+          "scenario": "En kunde ønsker et portræt med kontrast, men ikke så intens som rent komplementær. Hvilken harmonitype dæmper kontrasten uden at miste visuel interesse?",
+          "hint": "Denne type bruger to farver tæt på komplementet i stedet for den direkte modsatte.",
+          "successMessage": "Flot! Split-komplementær bevarer kontrasten fra komplementær, men deler den modsatte farve op i to flankerende hues, hvilket giver en mindre skinger, men stadig dynamisk palet.",
+          "failureMessage": "Split-komplementær er svaret — den erstatter den enkelte modsatte farve med to naboer til den modsatte og dæmper kontrasten uden at miste energien.",
           "options": {
-            "0": { "label": "Split Complementary" },
-            "1": { "label": "Triadic" },
-            "2": { "label": "Analogous" }
+            "0": { "label": "Split-komplementær" },
+            "1": { "label": "Triadisk" },
+            "2": { "label": "Analog" }
           }
         },
         "3": {
-          "scenario": "You set the key color to orange (hue ~30 degrees) with complementary harmony. What color will the complement be?",
-          "hint": "Complementary means 180 degrees opposite on the wheel.",
-          "successMessage": "Correct! 30\u00b0 + 180\u00b0 = 210\u00b0, which falls in the blue range. Orange and blue is one of photography most beloved complementary pairs.",
-          "failureMessage": "Adding 180\u00b0 to orange (30\u00b0) gives 210\u00b0, which is blue. The orange-blue complementary pair is a photography staple.",
+          "scenario": "Du sætter nøglefarven til orange (hue ~30 grader) med komplementær harmoni. Hvilken farve bliver komplementet?",
+          "hint": "Komplementær betyder 180 grader modsat på cirklen.",
+          "successMessage": "Rigtigt! 30° + 180° = 210°, som ligger i det blå område. Orange og blå er et af fotografiets mest elskede komplementære par.",
+          "failureMessage": "Lægger du 180° til orange (30°), får du 210°, som er blå. Orange-blå er en klassiker i fotografi.",
           "options": {
-            "0": { "label": "Blue (~210\u00b0)" },
-            "1": { "label": "Green (~150\u00b0)" },
-            "2": { "label": "Red (~0\u00b0)" }
+            "0": { "label": "Blå (~210°)" },
+            "1": { "label": "Grøn (~150°)" },
+            "2": { "label": "Rød (~0°)" }
           }
         },
         "4": {
-          "scenario": "You are art-directing a fashion editorial and need a four-color palette that provides both warm and cool tones with high visual richness. Which harmony type gives you four colors, and what is the main challenge when using it?",
-          "hint": "The four-color harmony forms a rectangle on the wheel.",
-          "successMessage": "Right! Tetradic harmony gives four colors forming a rectangle on the wheel. The main challenge is balance — with four distinct hues, one should dominate while the others accent. Without hierarchy, the image feels chaotic.",
-          "failureMessage": "Tetradic (double-complementary) provides four colors in a rectangular arrangement. The challenge is that four strong hues compete for attention — you need to designate one dominant color and use the others as accents.",
+          "scenario": "Du art-direkter en mode-editorial og har brug for en palet med fire farver, der både har varme og kølige toner samt høj visuel rigdom. Hvilken harmonitype giver dig fire farver, og hvad er den største udfordring ved at bruge den?",
+          "hint": "Harmonien med fire farver danner et rektangel på cirklen.",
+          "successMessage": "Rigtigt! Tetradisk harmoni giver fire farver, der danner et rektangel på cirklen. Den største udfordring er balance — med fire forskellige hues skal én dominere, mens de andre accenterer. Uden hierarki virker billedet kaotisk.",
+          "failureMessage": "Tetradisk (dobbelt-komplementær) giver fire farver i en rektangulær opstilling. Udfordringen er, at fire stærke hues kæmper om opmærksomheden — du skal udpege én dominerende farve og bruge de andre som accenter.",
           "options": {
-            "0": { "label": "Tetradic — challenge is maintaining visual hierarchy among four hues" },
-            "1": { "label": "Triadic — challenge is having too few colors" },
-            "2": { "label": "Analogous — challenge is lack of contrast" }
+            "0": { "label": "Tetradisk — udfordringen er at holde visuelt hierarki mellem fire hues" },
+            "1": { "label": "Triadisk — udfordringen er for få farver" },
+            "2": { "label": "Analog — udfordringen er manglende kontrast" }
           }
         }
       }

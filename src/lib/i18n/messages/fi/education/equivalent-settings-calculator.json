@@ -1,109 +1,109 @@
 {
   "education": {
     "equivalent-settings-calculator": {
-      "beginner": "Different sensor sizes produce different depth of field and field of view even at the same focal length and aperture. Equivalent settings let you find the lens and aperture combination on a second camera that reproduces the same framing and background blur. This is essential when comparing gear across formats or switching between camera systems.",
+      "beginner": "Eri kennokoot tuottavat erilaisen syväterävyyden ja kuvakulman jopa samalla polttovälillä ja aukolla. Ekvivalenttiasetukset auttavat sinua löytämään objektiivin ja aukon yhdistelmän toisella kameralla, joka toistaa saman rajauksen ja taustan sumennuksen. Tämä on olennaista, kun vertailet eri formaattien välineitä tai vaihdat kamerajärjestelmästä toiseen.",
       "deeper": {
         "0": {
-          "heading": "The Crop Factor",
-          "text": "Every sensor has a crop factor relative to the 35mm full-frame standard. APS-C sensors have a factor around 1.5×, Micro Four Thirds 2×, and medium format around 0.79×. Multiplying the actual focal length by the crop factor gives the full-frame equivalent field of view. A 35mm lens on APS-C frames like a 52.5mm on full frame."
+          "heading": "Kerroin",
+          "text": "Jokaisella kennolla on kerroin suhteessa 35 mm:n täyskennostandardiin. APS-C-kennojen kerroin on noin 1,5×, Micro Four Thirdsin 2× ja keskiformaatin noin 0,79×. Kertomalla todellinen polttoväli kertoimella saat täyskennoekvivalentin kuvakulman. 35 mm:n objektiivi APS-C:llä rajaa kuin 52,5 mm täyskennolla."
         },
         "1": {
-          "heading": "Equivalent Aperture & DoF",
-          "text": "To match depth of field across formats, multiply the f-number by the same crop factor. An f/1.4 lens on Micro Four Thirds produces DoF equivalent to f/2.8 on full frame (1.4 × 2 = 2.8). This is why full-frame cameras are prized for shallow DoF — you can use physically faster lenses at wider actual apertures to achieve blur that smaller sensors cannot replicate."
+          "heading": "Ekvivalentti aukko ja syväterävyys",
+          "text": "Jotta syväterävyys vastaa eri formaateilla, kerro f-luku samalla kertoimella. f/1.4-objektiivi Micro Four Thirdsillä tuottaa syväterävyyden, joka vastaa f/2.8:aa täyskennolla (1,4 × 2 = 2,8). Tästä syystä täyskennoisia kameroita arvostetaan matalasta syväterävyydestä — voit käyttää fyysisesti valovoimaisempia objektiiveja laajemmilla todellisilla aukoilla ja saavuttaa sumennuksen, jota pienemmät kennot eivät voi toistaa."
         },
         "2": {
-          "heading": "Equivalent ISO & Total Light",
-          "text": "Matching exposure brightness across formats requires adjusting ISO by the crop factor squared. The larger sensor collects more total light for the same scene, which means it can use a lower ISO for equivalent noise performance. A full-frame sensor at ISO 800 produces similar noise to an APS-C sensor at ISO 356 and a Micro Four Thirds sensor at ISO 200."
+          "heading": "Ekvivalentti ISO ja kokonaisvalomäärä",
+          "text": "Valotuksen kirkkauden sovittaminen eri formaattien välillä vaatii ISO:n säätämistä kertoimen neliöllä. Suurempi kenno kerää enemmän kokonaisvaloa samasta näkymästä, mikä tarkoittaa että se voi käyttää matalampaa ISO:a vastaavalla kohinatasolla. Täyskennoinen kenno ISO 800:ssa tuottaa samaa kohinaa kuin APS-C-kenno ISO 356:ssa ja Micro Four Thirds -kenno ISO 200:ssa."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame sensor diagonal to the target sensor diagonal. This single number drives all equivalence calculations for focal length, aperture, and ISO."
+          "label": "Kerroin",
+          "description": "Täyskennon diagonaalin suhde kohdekennon diagonaaliin. Tämä yksi luku ohjaa kaikkia polttovälin, aukon ja ISO:n ekvivalenssilaskelmia."
         },
         "1": {
-          "label": "Sensor Size",
-          "description": "Physically larger sensors capture more light and produce shallower DoF at equivalent framing. The equivalence calculator reveals exactly how much difference each format makes."
+          "label": "Kennokoko",
+          "description": "Fyysisesti suuremmat kennot keräävät enemmän valoa ja tuottavat matalamman syväterävyyden vastaavalla rajauksella. Ekvivalenssilaskuri paljastaa tarkasti, kuinka paljon eroa kukin formaatti tekee."
         },
         "2": {
-          "label": "Available Lenses",
-          "description": "Equivalence math may call for a lens that does not exist. A 17mm f/0.7 is the equivalent of 35mm f/1.4 on MFT — but no such lens is made. Real-world gear limits what is achievable."
+          "label": "Saatavilla olevat objektiivit",
+          "description": "Ekvivalenssimatematiikka voi vaatia objektiivia, jota ei ole olemassa. 17 mm f/0.7 on ekvivalentti 35 mm f/1.4:lle MFT:llä — mutta sellaista ei valmisteta. Todellinen kalusto rajoittaa sitä, mikä on saavutettavissa."
         }
       },
       "tips": {
         "0": {
-          "text": "When comparing camera systems, always compare at equivalent settings rather than matching f-numbers. An f/2.8 lens on Micro Four Thirds does not give the same background blur as f/2.8 on full frame — you need f/1.4 on MFT to match."
+          "text": "Kun vertaat kamerajärjestelmiä, vertaa aina ekvivalenttiasetuksilla äläkä pelkästään f-lukujen mukaan. f/2.8-objektiivi Micro Four Thirdsillä ei anna samaa taustan sumennusta kuin f/2.8 täyskennolla — tarvitset f/1.4:n MFT:llä vastaavuuteen."
         },
         "1": {
-          "text": "Use equivalence to plan lens purchases when switching systems. If you love the look of 85mm f/1.8 on full frame, look for a 56mm f/1.2 on APS-C or a 42.5mm f/0.95 on MFT for a similar rendering."
+          "text": "Käytä ekvivalenssia suunnitellessasi objektiivihankintoja järjestelmää vaihdettaessa. Jos rakastat 85 mm f/1.8:n ulkonäköä täyskennolla, etsi 56 mm f/1.2 APS-C:lle tai 42,5 mm f/0.95 MFT:lle saadaksesi vastaavan rendauksen."
         },
         "2": {
-          "text": "Remember that equivalence applies to depth of field and field of view, not to lens speed for exposure. An f/2.8 lens on any format still lets in the same amount of light per unit area — the larger sensor just collects more total light because of its greater area."
+          "text": "Muista, että ekvivalenssi pätee syväterävyyteen ja kuvakulmaan, ei objektiivin valovoimaan valotuksessa. f/2.8-objektiivi millä tahansa formaatilla päästää läpi saman valomäärän pinta-alaa kohti — suurempi kenno vain kerää enemmän kokonaisvaloa suuremman pinta-alansa ansiosta."
         }
       },
       "tooltips": {
         "sourceSensor": {
-          "term": "Source Sensor",
-          "definition": "The sensor format of the camera whose settings you want to match. All equivalence calculations are relative to this starting point."
+          "term": "Lähdekenno",
+          "definition": "Sen kameran kennoformaatti, jonka asetukset haluat sovittaa. Kaikki ekvivalenssilaskelmat ovat suhteellisia tähän lähtöpisteeseen."
         },
         "sourceFocalLength": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens on your source camera. This will be converted to equivalent focal lengths on target formats."
+          "term": "Polttoväli",
+          "definition": "Lähdekamerasi objektiivin todellinen polttoväli. Tämä muunnetaan ekvivalentiksi polttoväleiksi kohdemuodoille."
         },
         "sourceAperture": {
-          "term": "Aperture",
-          "definition": "The f-number on your source camera. The equivalent aperture on each target format determines matching depth of field."
+          "term": "Aukko",
+          "definition": "Lähdekamerasi f-luku. Kunkin kohdemuodon ekvivalentti aukko määrittää vastaavan syväterävyyden."
         },
         "targetSensor": {
-          "term": "Target Sensor",
-          "definition": "The sensor format you want to find equivalent settings for. The calculator applies the relative crop factor to compute matching focal length and aperture."
+          "term": "Kohdekenno",
+          "definition": "Kennoformaatti, jolle haluat löytää ekvivalenttiasetukset. Laskuri soveltaa suhteellista kerrointa laskiessaan vastaavan polttovälin ja aukon."
         },
         "cropFactor": {
-          "term": "Crop Factor",
-          "definition": "The ratio between the diagonal of a 35mm full-frame sensor and the target sensor. Multiply focal length by crop factor for equivalent FOV; multiply aperture by crop factor for equivalent DoF."
+          "term": "Kerroin",
+          "definition": "35 mm:n täyskennon diagonaalin ja kohdekennon välinen suhde. Kerro polttoväli kertoimella saadaksesi ekvivalentin kuvakulman; kerro aukko kertoimella saadaksesi ekvivalentin syväterävyyden."
         },
         "equivalentFL": {
-          "term": "Equivalent Focal Length",
-          "definition": "The focal length on the target format that produces the same field of view as the source setup."
+          "term": "Ekvivalentti polttoväli",
+          "definition": "Polttoväli kohdemuodolla, joka tuottaa saman kuvakulman kuin lähdekokoonpano."
         },
         "equivalentAperture": {
-          "term": "Equivalent Aperture",
-          "definition": "The f-number on the target format that produces the same depth of field as the source setup. May be faster than any real lens."
+          "term": "Ekvivalentti aukko",
+          "definition": "Kohdemuodon f-luku, joka tuottaa saman syväterävyyden kuin lähdekokoonpano. Voi olla valovoimaisempi kuin mikään todellinen objektiivi."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You shoot portraits with an 85mm f/1.8 lens on a full-frame camera. A friend uses Micro Four Thirds (2× crop). What focal length does your friend need to match your field of view?",
-          "hint": "Divide the full-frame focal length by the MFT crop factor to find the actual lens needed.",
-          "successMessage": "Correct! 85mm / 2 = 42.5mm. Your friend needs a 42.5mm lens on Micro Four Thirds to get the same framing as your 85mm on full frame.",
-          "failureMessage": "To match the field of view, divide by the crop factor: 85mm / 2 = 42.5mm. That is the actual focal length needed on the MFT body.",
+          "scenario": "Kuvaat muotokuvia 85 mm f/1.8:lla täyskennolla. Kaverisi käyttää Micro Four Thirdsiä (2× kerroin). Mitä polttoväliä kaverisi tarvitsee sovittaakseen kuvakulmasi?",
+          "hint": "Jaa täyskennon polttoväli MFT:n kertoimella löytääksesi tarvittavan todellisen objektiivin.",
+          "successMessage": "Oikein! 85 mm / 2 = 42,5 mm. Kaverisi tarvitsee 42,5 mm:n objektiivin Micro Four Thirdsille saadakseen saman rajauksen kuin sinun 85 mm täyskennolla.",
+          "failureMessage": "Sovittaaksesi kuvakulman, jaa kertoimella: 85 mm / 2 = 42,5 mm. Se on tarvittava todellinen polttoväli MFT-rungolla.",
           "options": {
-            "0": { "label": "42.5mm" },
-            "1": { "label": "85mm" },
-            "2": { "label": "170mm" },
-            "3": { "label": "56mm" }
+            "0": { "label": "42,5 mm" },
+            "1": { "label": "85 mm" },
+            "2": { "label": "170 mm" },
+            "3": { "label": "56 mm" }
           }
         },
         "1": {
-          "scenario": "Your friend found a 42.5mm f/1.8 lens for their MFT camera. Will the background blur match your 85mm f/1.8 on full frame?",
-          "hint": "Apply the crop factor to the aperture as well to find the equivalent DoF.",
-          "successMessage": "Right! The 42.5mm f/1.8 on MFT gives equivalent DoF to 85mm f/3.6 on full frame (1.8 × 2 = 3.6). Your f/1.8 full-frame shot produces significantly more blur.",
-          "failureMessage": "No — the MFT f/1.8 gives DoF equivalent to f/3.6 on full frame (1.8 × 2× crop = 3.6). To match your full-frame f/1.8 blur, your friend would need f/0.9 on MFT, which does not exist.",
+          "scenario": "Kaverisi löysi 42,5 mm f/1.8:n objektiivin MFT-kameraansa. Vastaako taustan sumennus sinun 85 mm f/1.8:ta täyskennolla?",
+          "hint": "Kerro kerroin myös aukolla löytääksesi ekvivalentin syväterävyyden.",
+          "successMessage": "Aivan! 42,5 mm f/1.8 MFT:llä vastaa syväterävyydeltään 85 mm f/3.6:ta täyskennolla (1,8 × 2 = 3,6). Sinun täyskennoinen f/1.8-kuvasi tuottaa huomattavasti enemmän sumennusta.",
+          "failureMessage": "Ei — MFT:n f/1.8 vastaa syväterävyydeltään f/3.6:ta täyskennolla (1,8 × 2× kerroin = 3,6). Sovittaaksesi täyskennon f/1.8-sumennuksen, kaverisi tarvitsisi f/0.9:n MFT:llä, jota ei ole olemassa.",
           "options": {
-            "0": { "label": "Yes — same f/1.8 means same blur" },
-            "1": { "label": "No — MFT f/1.8 equals full-frame f/3.6 depth of field" },
-            "2": { "label": "No — MFT produces more blur because the sensor is smaller" }
+            "0": { "label": "Kyllä — sama f/1.8 tarkoittaa samaa sumennusta" },
+            "1": { "label": "Ei — MFT f/1.8 vastaa täyskennon f/3.6-syväterävyyttä" },
+            "2": { "label": "Ei — MFT tuottaa enemmän sumennusta, koska kenno on pienempi" }
           }
         },
         "2": {
-          "scenario": "A photographer switching from full frame to APS-C (1.5× crop) wants to match the look of a 50mm f/1.4 on full frame. What equivalent lens and aperture do they need on APS-C?",
-          "hint": "Divide focal length by the crop factor for equivalent FOV. Divide aperture by the crop factor for equivalent DoF.",
-          "successMessage": "Exactly! 50 / 1.5 = 33mm for field of view, and f/1.4 / 1.5 = f/0.93 for matching DoF. Since no f/0.93 lens exists, the APS-C camera cannot fully replicate the full-frame look.",
-          "failureMessage": "The correct answer is ~33mm f/0.93. Since 50 / 1.5 = 33.3mm and 1.4 / 1.5 = 0.93. No f/0.93 lens exists, so the full-frame look cannot be fully matched on APS-C.",
+          "scenario": "Valokuvaaja vaihtaa täyskennosta APS-C:hen (1,5× kerroin) ja haluaa sovittaa 50 mm f/1.4:n ulkonäön täyskennolla. Mitä ekvivalenttia objektiivia ja aukkoa hän tarvitsee APS-C:llä?",
+          "hint": "Jaa polttoväli kertoimella saadaksesi ekvivalentin kuvakulman. Jaa aukko kertoimella saadaksesi ekvivalentin syväterävyyden.",
+          "successMessage": "Juuri niin! 50 / 1,5 = 33 mm kuvakulmalle ja f/1.4 / 1,5 = f/0.93 vastaavalle syväterävyydelle. Koska f/0.93-objektiivia ei ole, APS-C-kamera ei voi täysin toistaa täyskennon ulkonäköä.",
+          "failureMessage": "Oikea vastaus on ~33 mm f/0.93. Koska 50 / 1,5 = 33,3 mm ja 1,4 / 1,5 = 0,93. f/0.93-objektiivia ei ole olemassa, joten täyskennon ulkonäköä ei voida täysin sovittaa APS-C:llä.",
           "options": {
-            "0": { "label": "35mm f/1.4 — close enough" },
-            "1": { "label": "33mm f/0.93 — exact match, but no such lens exists" },
-            "2": { "label": "75mm f/2.1 — multiply by crop factor" }
+            "0": { "label": "35 mm f/1.4 — riittävän lähellä" },
+            "1": { "label": "33 mm f/0.93 — tarkka vastaavuus, mutta sellaista objektiivia ei ole" },
+            "2": { "label": "75 mm f/2.1 — kerro kertoimella" }
           }
         }
       }

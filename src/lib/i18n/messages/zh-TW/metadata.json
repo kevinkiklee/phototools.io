@@ -1,90 +1,90 @@
 {
   "metadata": {
     "site": {
-      "defaultTitle": "PhotoTools — Photography Tools",
+      "defaultTitle": "PhotoTools — 攝影工具箱",
       "titleTemplate": "%s | PhotoTools",
-      "description": "Free photography tools: FOV simulator, Color scheme generator, EXIF viewer, Crop and frame photos, and more.",
-      "ogTitle": "PhotoTools — Free Photography Tools"
+      "description": "免費攝影工具：視角模擬、配色方案產生器、EXIF 檢視器、照片裁切加框等多款實用工具。",
+      "ogTitle": "PhotoTools — 免費攝影工具"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compare Focal Lengths",
-      "description": "Compare field of view across different focal lengths and sensor sizes. Free, interactive, shareable."
+      "title": "FOV Simulator — 比較不同焦距",
+      "description": "比較不同焦距與感光元件尺寸下的視角差異。免費、互動、可分享。"
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator | PhotoTools",
-      "description": "Visualize how aperture, focal length, and distance affect background blur with real-time WebGL simulation"
+      "title": "景深模擬器 | PhotoTools",
+      "description": "透過即時 WebGL 模擬，視覺化光圈、焦距與距離如何影響背景虛化效果"
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator | PhotoTools",
-      "description": "Calculate optimal focus distances for front-to-back sharpness in macro and landscape photography"
+      "title": "焦點堆疊計算機 | PhotoTools",
+      "description": "計算微距與風景攝影中，前後景皆清晰所需的最佳對焦距離"
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator | PhotoTools",
-      "description": "Find equivalent aperture and focal length across sensor formats to match depth of field"
+      "title": "等效設定計算機 | PhotoTools",
+      "description": "跨不同感光元件格式找出可匹配景深的等效光圈與焦距"
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator",
-      "description": "Interactive exposure triangle simulator — see how aperture, shutter speed, and ISO affect your image in real time with live preview."
+      "title": "Exposure Triangle Simulator 曝光三角模擬器",
+      "description": "互動式曝光三角模擬器 — 透過即時預覽，見證光圈、快門速度與 ISO 如何影響影像。"
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator",
-      "description": "Calculate the maximum exposure time for pinpoint stars using the 500, NPF, and other rules. Plan star trail stacking shots for any location."
+      "title": "Star Trail Calculator 星軌計算機",
+      "description": "使用 500 法則、NPF 法則等公式計算點狀星空的最長曝光時間。支援任何地點的星軌堆疊拍攝規劃。"
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer",
-      "description": "See how white balance and color temperature affect your photos. Visualize changes from 2000K to 10000K with real-time preview."
+      "title": "White Balance Visualizer 白平衡視覺化工具",
+      "description": "親眼見證白平衡與色溫如何改變照片風貌。以即時預覽從 2000K 到 10000K 的變化。"
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models."
+      "title": "Sensor Size Comparison 感光元件尺寸比較",
+      "description": "比較從中片幅到智慧型手機的各種相機感光元件。支援疊合、並排與畫素密度三種檢視模式，並內建真實機型資料。"
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator",
-      "description": "Generate color palettes for photography using complementary, analogous, triadic, and tetradic color harmonies. Interactive color wheel with photo picker."
+      "title": "Color Scheme Generator 配色方案產生器",
+      "description": "以互補、類比、三等分、四等分等色彩和諧法則產生攝影配色方案。內建互動式色環與照片取色工具。"
     },
     "frame-studio": {
       "title": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays. 100% client-side — your photos never leave your device."
+      "description": "使用構圖格線為照片裁切、加框與構圖。完全於瀏覽器端處理 — 您的照片絕不會離開您的裝置。"
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
-      "description": "View EXIF metadata, histogram, and image preview for any photo. 100% client-side — your photos never leave your device."
+      "title": "EXIF Viewer EXIF 檢視器",
+      "description": "檢視任何照片的 EXIF 資訊、直方圖與預覽。完全於瀏覽器端處理 — 您的照片絕不會離開您的裝置。"
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator",
-      "description": "Visualize hyperfocal distance for any lens and sensor. See exactly where to focus for maximum sharpness from foreground to infinity."
+      "title": "Hyperfocal Distance Simulator 超焦距模擬器",
+      "description": "視覺化任意鏡頭與感光元件的超焦距。明確指出從前景到無限遠都清晰的對焦位置。"
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer",
-      "description": "Find the minimum shutter speed for sharp handheld photos. Accounts for focal length, sensor size, and image stabilization."
+      "title": "Shutter Speed Visualizer 快門速度視覺化工具",
+      "description": "找出手持拍攝不模糊的最慢快門速度。自動納入焦距、感光元件尺寸與影像穩定器等因素。"
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator",
-      "description": "Calculate the correct shutter speed when using ND filters. Supports any filter strength from ND2 to ND1000000 with a quick-reference table."
+      "title": "ND Filter Calculator ND 減光鏡計算機",
+      "description": "裝上 ND 濾鏡後，快速計算正確的快門速度。支援 ND2 到 ND1000000 任意減光強度，並提供速查表。"
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator",
-      "description": "Interactive 3D simulator showing how focal length and distance affect perspective compression. See background compression change in real time."
+      "title": "Perspective Compression Simulator 透視壓縮模擬器",
+      "description": "互動式 3D 模擬，展示焦距與距離如何影響透視壓縮。即時觀察背景壓縮感的變化。"
     },
     "about": {
-      "title": "About",
-      "description": "PhotoTools is a free collection of browser-based photography calculators, simulators, and references for photographers of all skill levels."
+      "title": "關於",
+      "description": "PhotoTools 是一套在瀏覽器上執行的免費攝影工具集，包含互動式計算機、模擬器與參考資料，適合所有程度的攝影愛好者。"
     },
     "contact": {
-      "title": "Contact | PhotoTools",
-      "description": "Get in touch with the PhotoTools team — questions, feedback, or suggestions about our photography tools."
+      "title": "聯絡我們 | PhotoTools",
+      "description": "與 PhotoTools 團隊聯繫 — 歡迎提出關於攝影工具的問題、意見或建議。"
     },
     "privacy": {
-      "title": "Privacy Policy | PhotoTools",
-      "description": "Learn how PhotoTools handles your data, including analytics, cookies, and contact form submissions at www.phototools.io."
+      "title": "隱私權政策 | PhotoTools",
+      "description": "了解 PhotoTools 如何處理您的資料，包含分析、Cookie 與 www.phototools.io 聯絡表單的使用方式。"
     },
     "terms": {
-      "title": "Terms of Service | PhotoTools",
-      "description": "Terms of Service for PhotoTools — learn about acceptable use, intellectual property, disclaimers, and limitations of liability for www.phototools.io."
+      "title": "服務條款 | PhotoTools",
+      "description": "PhotoTools 服務條款 — 說明 www.phototools.io 的可接受使用規範、智慧財產權、免責聲明與責任限制。"
     },
     "glossary": {
-      "title": "Photography Glossary",
-      "description": "Searchable glossary of 50+ photography terms with definitions and links to interactive tools."
+      "title": "攝影術語表",
+      "description": "收錄超過 50 個攝影術語的可搜尋術語表，包含詳細解釋與相關互動工具連結。"
     }
   }
 }

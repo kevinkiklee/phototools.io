@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "A csillagok mozogni látszanak az égen, mert a Föld forog. Ha elég sokáig marad nyitva a zár, a csillagok csíkokká nyúlnak a fotón. A csillagív-kalkulátor segít megtalálni a maximális expozíciós időt a pontszerű csillagokhoz, vagy megtervezni a hosszú expozíciókat a gyönyörű körkörös csillagívekhez.",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "Hogyan mozognak a csillagok",
+          "text": "A Föld 360°-ot fordul körülbelül 23 óra 56 perc alatt (sziderikus nap), így a csillagok nagyjából 15 ívmásodperccel mozognak másodpercenként az égi egyenlítőnél. A pólusokhoz közeli csillagok (északon a Sarkcsillag) kisebb köröket rajzolnak és látszólag lassabban mozognak."
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "Az 500-as szabály vs. NPF szabály",
+          "text": "A klasszikus „500-as szabály” 500-at oszt az effektív gyújtótávolsággal, hogy megbecsülje a maximális expozíciót, mielőtt a csíkozódás láthatóvá válik — de alacsonyabb felbontású érzékelőkhöz tervezték. Az NPF szabály figyelembe veszi a pixel pitch-et, a gyújtótávolságot, a rekeszt és a deklinációt, rövidebb és pontosabb határokat adva a modern nagyfelbontású kamerákhoz."
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "Stackelés a csillagívekhez",
+          "text": "A szándékos csillagívekhez a fotósok sok rövidebb expozíciót (tipikusan 30s-t) készítenek, és szoftverrel egyesítik őket. Ez elkerüli a zajfelhalmozódást, biztosítja a folyamatos íveket, és egyetlen rossz kocka sem teszi tönkre az egész felvételt."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "Gyújtótávolság",
+          "description": "A hosszabb gyújtótávolság nagyítja a csillagmozgást, így rövidebb expozíciók kellenek a pontszerű csillagokhoz. Egy 14mm-es objektív 5-10-szer hosszabban exponálhat, mint egy 200mm-es."
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "Érzékelőfelbontás",
+          "description": "A nagyobb felbontású érzékelők rövidebb expozíciós időn is felfedik a csillagcsíkozódást. Az 500-as szabály túl engedékeny a modern 40MP+ kamerákhoz."
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "Szélesség és deklináció",
+          "description": "Az égi pólusok közelében a csillagok kevesebbet mozognak másodpercenként. Ha a Sarkcsillag felé mutatsz, hosszabb expozíciót engedhetsz meg, mielőtt csíkok jelennének meg."
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "Stackelés vs. egyetlen expozíció",
+          "description": "Csillagívekhez sok rövid expozíció stackelése tisztább eredményt ad, mint egyetlen nagyon hosszú, és megszakítások után is megmenthető."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "Használd az NPF szabályt az 500-as helyett modern kamerákhoz. Figyelembe veszi az érzékelőfelbontást, és pontosabb maximális expozíciós időt ad, különösen nagy megapixeles vázakkal."
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "Csillagív-stackhez tartsd a kockák közötti réseket 2-3 másodperc alatt vezetékes távkioldóval vagy intervalometerrel. Hosszabb rés pöttyözött ívet ad sima helyett."
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "Vedd be a Sarkcsillagot (vagy a Déli Égi Pólust) a kompozícióba drámai koncentrikus kör-ívekért. A pólushoz közelebbi csillagok szorosabb íveket rajzolnak."
         }
       },
       "tooltips": {
         "mode": {
-          "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "term": "Mód",
+          "definition": "Válaszd a „Sharp Stars” módot a pontszerű csillagok maximális expozíciós idejéhez, vagy a „Star Trails” módot a szándékos íves hatásokhoz tartozó expozíciós sorozat tervezéséhez."
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "Gyújtótávolság",
+          "definition": "Az objektív gyújtótávolsága milliméterben. A hosszabb gyújtótávolság nagyítja a látszólagos csillagmozgást, és rövidebb egyedi expozíciókat igényel."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "Érzékelőméret",
+          "definition": "Az érzékelő fizikai méretei. A felbontással együtt meghatározza a pixel pitch-et, ami befolyásolja, milyen gyorsan válik láthatóvá a csillagcsíkozódás."
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "Felbontás",
+          "definition": "Az érzékelő felbontása megapixelben. A nagyobb felbontású kamerák hamarabb felfedik a csillagcsíkozódást, mert minden pixel az ég kisebb szögterületét fedi le."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "term": "Rekesz",
+          "definition": "Az objektív nyílása. Asztrofotózáshoz a legtágabb elérhető rekeszt (legalacsonyabb f-szám) használd, hogy a lehető legtöbb csillagfényt rögzítsd kockánként."
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "Földrajzi szélesség",
+          "definition": "A földrajzi szélességed. Befolyásolja a csillagok látszólagos mozgási sebességét — magasabb szélességeken a pólushoz közeli csillagok lassabban mozognak a képen."
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "Expozíció kockánként",
+          "definition": "Az egyes kockák záridője egy csillagív-sorozatban. Jellemzően 15-30 másodperc, hogy elég fényt rögzíts, de elkerüld a zajfelhalmozódást."
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "Kockák száma",
+          "definition": "Hány egyedi expozíció készüljön. Több kocka hosszabb, drámaibb csillagíveket ad. 120 kocka 30 másodpercenként egy órányi ívet ad."
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "Rés a kockák között",
+          "definition": "A kockák közötti idő, amíg a kamera elmenti a fájlt. Tartsd a lehető legrövidebben (1-3 másodperc), hogy elkerüld a pöttyözött íveket."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "A Tejutat fotózod egy 24mm-es objektívvel Full Frame 24MP kamerán. Az 500-as szabály szerint körülbelül milyen hosszan exponálhatsz, mielőtt a csillagok csíkozódni kezdenének?",
+          "hint": "500-as szabály: maximum másodperc = 500 / gyújtótávolság.",
+          "successMessage": "Jó! 500 / 24 = körülbelül 20 másodperc. Ez jó kiindulópont, bár az NPF szabály a kritikus éleséghez kicsit rövidebb időt javasolhat.",
+          "failureMessage": "Alkalmazd az 500-as szabályt: oszd el az 500-at a gyújtótávolsággal (24mm). Ez kb. 20 másodpercet ad.",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 másodperc" },
+            "1": { "label": "10 másodperc" },
+            "2": { "label": "20 másodperc" },
+            "3": { "label": "60 másodperc" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "Az Orion-ködöt akarod fotózni 200mm-es objektívvel egy crop érzékelős (1,5×) kamerán. Mi az 500-as szabály szerinti hozzávetőleges maximális expozíció?",
+          "hint": "Crop érzékelőnél először szorozd meg a gyújtótávolságot a crop faktorral, aztán alkalmazd a szabályt.",
+          "successMessage": "Jó! Az effektív gyújtótávolság 200mm × 1,5 = 300mm. 500 / 300 = ~1,7 másodperc. Teleobjektíven crop érzékelőn nagyon kevés időd marad, mielőtt megjelennének a csíkok.",
+          "failureMessage": "Ne feledd figyelembe venni a crop faktort: 200mm × 1,5 = 300mm effektív. Aztán 500 / 300 kb. 1,7 másodpercet ad.",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1,7 másodperc" },
+            "1": { "label": "~2,5 másodperc" },
+            "2": { "label": "~5 másodperc" },
+            "3": { "label": "~10 másodperc" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "2 órás csillagív-fotót akarsz készíteni. 30 másodperces expozíciókat tervezel 2 másodperces résekkel. Hány kocka kell?",
+          "hint": "Számold ki, hány 32 másodperces intervallum (30s expozíció + 2s rés) fér be 2 órába (7200 másodperc).",
+          "successMessage": "Jó! 7200 másodperc / 32 másodperc kockánként = 225 kocka. Sima, folyamatos íveket kapsz 2 órán át a Föld forgásából.",
+          "failureMessage": "Két óra = 7200 másodperc. Minden kockaciklus 30s + 2s = 32s. Oszd el a 7200-at 32-vel, hogy megkapd a szükséges kockák számát.",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 kocka" },
+            "1": { "label": "180 kocka" },
+            "2": { "label": "225 kocka" },
+            "3": { "label": "240 kocka" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "A barátod 50MP Full Frame kamerát használ, és az 500-as szabályt követte 20mm-es objektívvel, 25 másodperces expozíciót kapva. Panaszkodik, hogy a csillagok rövid csíkoknak tűnnek nagyításkor. Miért?",
+          "hint": "Az 500-as szabályt régebbi, alacsonyabb felbontású érzékelőkhöz tervezték.",
+          "successMessage": "Pontosan! Az 500-as szabály túl engedékeny a nagyfelbontású érzékelőkhöz. Egy 50MP Full Frame érzékelő pixel pitch-e kb. 4,4 mikrométer, és az NPF szabály nagyjából 10-12 másodpercet javasolna igazán éles csillagokhoz.",
+          "failureMessage": "Az 500-as szabály akkor készült, amikor az érzékelőknek sokkal kevesebb megapixelük volt. 50MP-nél minden pixel sokkal kisebb szelet eget fed le, és felfedi azt a csillagmozgást, ami régebbi kamerákon láthatatlan volt.",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "Az objektív nem volt fókuszban" },
+            "1": { "label": "Az 500-as szabály túl engedékeny a nagyfelbontású érzékelőkhöz" },
+            "2": { "label": "A kamera bemozdult a szélben" },
+            "3": { "label": "A 20mm túl széles asztrofotózáshoz" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "1 órás csillagív-képet akarsz. Miért stackelnek a tapasztalt asztrofotósok sok rövid expozíciót (pl. 240 × 15s) egyetlen 1 órás expozíció helyett?",
+          "hint": "Gondold át, mi történik az érzékelőzajjal, az akkumulátorral és a menthetőséggel egy extrém hosszú egyetlen expozíció során.",
+          "successMessage": "Jó! Egyetlen órás expozíció hatalmas termikus zajt halmoz fel, lemeríti az akkumulátort, és ha bármi elromlik (rezgés, pára, egy autó fényszórója), az egész felvétel tönkremegy. A rövid kockák stackelése alacsonyan tartja a zajt, engedi a rossz kockák kidobását, és sokkal megbocsátóbb.",
+          "failureMessage": "A hosszú egyetlen expozíciók súlyos termikus zajt gyűjtenek, és bármelyik megszakítás az egész felvétel elvesztését okozhatja. A rövid kockák stackelése kezelhető szinten tartja a zajt, engedi a tönkrement kockák eldobását, és tisztább eredményt ad.",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "A stackelés hosszabb íveket ad, mint egyetlen expozíció" },
+            "1": { "label": "Egyetlen expozíció nem tud csillagmozgást rögzíteni" },
+            "2": { "label": "A stackelés csökkenti a zajt, megmenti a megszakítások utáni felvételt, és akkumulátort spórol" },
+            "3": { "label": "Nincs gyakorlati különbség — ez csak ízlés kérdése" }
           }
         }
       }

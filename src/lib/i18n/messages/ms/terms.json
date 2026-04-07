@@ -1,50 +1,50 @@
 {
   "terms": {
-    "title": "Terms of Service",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Terma Perkhidmatan",
+    "effectiveDate": "Tarikh berkuat kuasa: 3 April 2026",
     "sections": {
       "acceptance": {
-        "title": "Acceptance of Terms",
-        "body": "By accessing or using www.phototools.io (\"PhotoTools\" or \"the Site\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Site. These terms apply to all visitors and users of PhotoTools."
+        "title": "Penerimaan Terma",
+        "body": "Dengan mengakses atau menggunakan www.phototools.io (\"PhotoTools\" atau \"Laman\"), anda bersetuju untuk terikat dengan Terma Perkhidmatan ini. Jika anda tidak bersetuju dengan terma ini, sila jangan gunakan Laman ini. Terma ini terpakai kepada semua pelawat dan pengguna PhotoTools."
       },
       "descriptionOfService": {
-        "title": "Description of Service",
-        "body": "PhotoTools provides free educational photography tools, including interactive calculators, simulators, and reference materials. The Site is intended for informational and educational purposes only. All tools are provided at no cost to users and are designed to help photographers learn and understand photographic concepts."
+        "title": "Penerangan Perkhidmatan",
+        "body": "PhotoTools menyediakan alat pendidikan fotografi percuma, termasuk kalkulator interaktif, simulator dan bahan rujukan. Laman ini bertujuan untuk tujuan maklumat dan pendidikan sahaja. Semua alat disediakan tanpa kos kepada pengguna dan direka untuk membantu jurugambar mempelajari dan memahami konsep fotografi."
       },
       "noWarranty": {
-        "title": "No Warranty",
-        "body": "PhotoTools is provided \"as is\" without any warranty of any kind, express or implied. We make no guarantee that the tools, calculators, or information on this site are accurate, complete, or suitable for any particular purpose. Results from our tools are approximations and should not be relied upon for critical decisions, professional work, or situations where precision is essential. Always verify important calculations with qualified professionals or authoritative sources."
+        "title": "Tiada Waranti",
+        "body": "PhotoTools disediakan \"sebagaimana adanya\" tanpa sebarang jaminan dalam apa jua bentuk, dinyatakan atau tersirat. Kami tidak menjamin bahawa alat, kalkulator atau maklumat di laman ini adalah tepat, lengkap atau sesuai untuk sebarang tujuan tertentu. Hasil daripada alat kami adalah anggaran dan tidak seharusnya digunakan sebagai asas untuk keputusan kritikal, kerja profesional atau situasi di mana ketepatan adalah penting. Sentiasa sahkan pengiraan penting dengan profesional yang berkelayakan atau sumber berwibawa."
       },
       "intellectualProperty": {
-        "title": "Intellectual Property",
-        "body": "All content on PhotoTools — including text, graphics, tool designs, code, and educational materials — is the property of PhotoTools unless otherwise noted. You are welcome to use the tools and reference materials for personal and educational purposes. Reproduction, redistribution, or commercial use of site content without prior written permission is prohibited."
+        "title": "Harta Intelek",
+        "body": "Semua kandungan di PhotoTools — termasuk teks, grafik, reka bentuk alat, kod dan bahan pendidikan — adalah hak milik PhotoTools kecuali dinyatakan sebaliknya. Anda dialu-alukan untuk menggunakan alat dan bahan rujukan untuk tujuan peribadi dan pendidikan. Penghasilan semula, pengedaran semula atau penggunaan komersial kandungan laman tanpa kebenaran bertulis terlebih dahulu adalah dilarang."
       },
       "acceptableUse": {
-        "title": "Acceptable Use",
-        "intro": "When using PhotoTools, you agree not to:",
+        "title": "Penggunaan Yang Dibenarkan",
+        "intro": "Apabila menggunakan PhotoTools, anda bersetuju untuk tidak:",
         "items": {
-          "laws": "Violate any applicable local, national, or international laws or regulations",
-          "disrupt": "Disrupt or interfere with the site's operation, servers, or networks",
-          "scrape": "Scrape, crawl, or systematically extract data from the site without prior written permission",
-          "misrepresent": "Misrepresent your identity or affiliation in communications with PhotoTools",
-          "commercial": "Use the site for any commercial purpose beyond personal reference without permission"
+          "laws": "Melanggar undang-undang atau peraturan tempatan, kebangsaan atau antarabangsa yang berkenaan",
+          "disrupt": "Mengganggu atau menjejaskan operasi laman, pelayan atau rangkaian",
+          "scrape": "Mengikis, merangkak atau mengekstrak data secara sistematik dari laman tanpa kebenaran bertulis terlebih dahulu",
+          "misrepresent": "Memberi gambaran palsu mengenai identiti atau gabungan anda dalam komunikasi dengan PhotoTools",
+          "commercial": "Menggunakan laman untuk sebarang tujuan komersial melebihi rujukan peribadi tanpa kebenaran"
         }
       },
       "thirdPartyContent": {
-        "title": "Third-Party Content",
-        "body": "PhotoTools displays third-party advertisements and may include links to external websites. We are not responsible for the content, accuracy, or practices of third-party advertisers or linked sites. The inclusion of any advertisement or external link does not constitute an endorsement by PhotoTools. Your interactions with third-party services are governed by their own terms and privacy policies."
+        "title": "Kandungan Pihak Ketiga",
+        "body": "PhotoTools memaparkan iklan pihak ketiga dan mungkin menyertakan pautan ke laman web luaran. Kami tidak bertanggungjawab atas kandungan, ketepatan atau amalan pengiklan pihak ketiga atau laman yang dipautkan. Kemasukan sebarang iklan atau pautan luaran tidak dianggap sebagai sokongan oleh PhotoTools. Interaksi anda dengan perkhidmatan pihak ketiga tertakluk kepada terma dan dasar privasi mereka sendiri."
       },
       "limitationOfLiability": {
-        "title": "Limitation of Liability",
-        "body": "To the fullest extent permitted by law, PhotoTools and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of — or inability to use — the Site or its tools. This includes, without limitation, damages resulting from reliance on information or calculations provided by PhotoTools. Your use of the Site is entirely at your own risk."
+        "title": "Had Liabiliti",
+        "body": "Setakat yang dibenarkan sepenuhnya oleh undang-undang, PhotoTools dan pengendalinya tidak akan bertanggungjawab atas sebarang kerosakan langsung, tidak langsung, sampingan, khas atau berbangkit yang timbul daripada penggunaan — atau ketidakupayaan untuk menggunakan — Laman atau alat-alatnya. Ini termasuk, tanpa had, kerosakan yang terhasil daripada kebergantungan kepada maklumat atau pengiraan yang disediakan oleh PhotoTools. Penggunaan Laman ini adalah sepenuhnya atas risiko anda sendiri."
       },
       "changesToTerms": {
-        "title": "Changes to Terms",
-        "body": "We may modify these Terms of Service at any time. Updated terms will be posted on this page with a revised effective date. Continued use of PhotoTools after changes are posted constitutes your acceptance of the revised terms. We encourage you to review these terms periodically."
+        "title": "Perubahan Kepada Terma",
+        "body": "Kami mungkin mengubah Terma Perkhidmatan ini pada bila-bila masa. Terma yang dikemas kini akan disiarkan di halaman ini dengan tarikh berkuat kuasa yang disemak. Penggunaan berterusan PhotoTools selepas perubahan disiarkan dianggap sebagai penerimaan anda terhadap terma yang disemak. Kami menggalakkan anda menyemak terma ini secara berkala."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about these Terms of Service, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Hubungi",
+        "body": "Jika anda mempunyai soalan tentang Terma Perkhidmatan ini, sila hubungi melalui <contactLink>halaman hubungi</contactLink> kami."
       }
     }
   }

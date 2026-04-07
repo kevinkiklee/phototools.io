@@ -13,16 +13,16 @@
       "loadingScene": "Loading scene...",
       "faq": {
         "what-is-white-balance": {
-          "question": "What is white balance in photography?",
-          "answer": "White balance adjusts colors in your photo so that objects that appear white in person also appear white in the image. Different light sources emit different color temperatures, and white balance compensates for these variations."
+          "question": "ফটোগ্রাফিতে হোয়াইট ব্যালেন্স কী?",
+          "answer": "হোয়াইট ব্যালেন্স তোমার ছবির রঙ এমনভাবে ঠিক করে যাতে বাস্তবে যে বস্তুগুলো সাদা দেখায়, সেগুলো ছবিতেও সাদা দেখায়। বিভিন্ন আলোর উৎস বিভিন্ন রঙের তাপমাত্রার আলো ছাড়ে, এবং হোয়াইট ব্যালেন্স এই পার্থক্যগুলো পূরণ করে।"
         },
         "kelvin-vs-presets": {
-          "question": "Should I use Kelvin values or white balance presets?",
-          "answer": "Presets (Daylight, Cloudy, Tungsten) are convenient starting points, but setting a specific Kelvin value gives more precise control. Shoot in RAW format to adjust white balance non-destructively in post-processing."
+          "question": "কেলভিন মান ব্যবহার করব নাকি হোয়াইট ব্যালেন্স প্রিসেট?",
+          "answer": "প্রিসেট (ডেলাইট, ক্লাউডি, টাংস্টেন) শুরু করার জন্য সুবিধাজনক, কিন্তু নির্দিষ্ট কেলভিন মান সেট করলে আরও নিখুঁত নিয়ন্ত্রণ পাওয়া যায়। পোস্ট-প্রসেসিংয়ে হোয়াইট ব্যালেন্স নষ্ট না করে বদলাতে চাইলে RAW ফরম্যাটে শ্যুট করো।"
         },
         "when-to-use-manual-white-balance": {
-          "question": "When should I use manual white balance?",
-          "answer": "Use manual white balance for mixed lighting (combining natural and artificial), studio setups requiring exact color accuracy, product photography, and any time auto white balance produces inconsistent results across a series of shots."
+          "question": "ম্যানুয়াল হোয়াইট ব্যালেন্স কখন ব্যবহার করব?",
+          "answer": "মিশ্র আলোয় (প্রাকৃতিক ও কৃত্রিম আলো একসাথে), নির্ভুল রঙের দরকার এমন স্টুডিও সেটআপে, প্রোডাক্ট ফটোগ্রাফিতে, এবং যখন অটো হোয়াইট ব্যালেন্স একই সিরিজের শটে আলাদা আলাদা ফল দেয় — এসব ক্ষেত্রে ম্যানুয়াল হোয়াইট ব্যালেন্স ব্যবহার করো।"
         }
       }
     }

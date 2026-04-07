@@ -1,50 +1,50 @@
 {
   "terms": {
-    "title": "Terms of Service",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Användarvillkor",
+    "effectiveDate": "Gäller från: 3 april 2026",
     "sections": {
       "acceptance": {
-        "title": "Acceptance of Terms",
-        "body": "By accessing or using www.phototools.io (\"PhotoTools\" or \"the Site\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Site. These terms apply to all visitors and users of PhotoTools."
+        "title": "Godkännande av villkoren",
+        "body": "Genom att besöka eller använda www.phototools.io (\"PhotoTools\" eller \"sajten\") accepterar du dessa användarvillkor. Om du inte accepterar villkoren ska du inte använda sajten. Villkoren gäller för alla besökare och användare av PhotoTools."
       },
       "descriptionOfService": {
-        "title": "Description of Service",
-        "body": "PhotoTools provides free educational photography tools, including interactive calculators, simulators, and reference materials. The Site is intended for informational and educational purposes only. All tools are provided at no cost to users and are designed to help photographers learn and understand photographic concepts."
+        "title": "Beskrivning av tjänsten",
+        "body": "PhotoTools erbjuder gratis utbildningsverktyg för fotografi — interaktiva kalkylatorer, simulatorer och referensmaterial. Sajten är avsedd för informations- och utbildningssyfte. Alla verktyg är kostnadsfria för användarna och är utformade för att hjälpa fotografer att förstå och lära sig tekniska fotokoncept."
       },
       "noWarranty": {
-        "title": "No Warranty",
-        "body": "PhotoTools is provided \"as is\" without any warranty of any kind, express or implied. We make no guarantee that the tools, calculators, or information on this site are accurate, complete, or suitable for any particular purpose. Results from our tools are approximations and should not be relied upon for critical decisions, professional work, or situations where precision is essential. Always verify important calculations with qualified professionals or authoritative sources."
+        "title": "Ingen garanti",
+        "body": "PhotoTools tillhandahålls \"i befintligt skick\" utan någon form av garanti, vare sig uttrycklig eller underförstådd. Vi garanterar inte att verktygen, kalkylatorerna eller informationen på sajten är korrekta, fullständiga eller lämpade för något särskilt ändamål. Resultat från verktygen är approximationer och ska inte ligga till grund för kritiska beslut, professionellt arbete eller situationer där exakthet är avgörande. Verifiera alltid viktiga beräkningar med kvalificerade yrkespersoner eller auktoritativa källor."
       },
       "intellectualProperty": {
-        "title": "Intellectual Property",
-        "body": "All content on PhotoTools — including text, graphics, tool designs, code, and educational materials — is the property of PhotoTools unless otherwise noted. You are welcome to use the tools and reference materials for personal and educational purposes. Reproduction, redistribution, or commercial use of site content without prior written permission is prohibited."
+        "title": "Immateriella rättigheter",
+        "body": "Allt innehåll på PhotoTools — text, grafik, verktygsdesign, kod och utbildningsmaterial — tillhör PhotoTools om inget annat anges. Du får gärna använda verktygen och referensmaterialet för personligt och utbildningssyfte. Reproduktion, vidaredistribution eller kommersiell användning av innehållet utan skriftligt tillstånd är förbjuden."
       },
       "acceptableUse": {
-        "title": "Acceptable Use",
-        "intro": "When using PhotoTools, you agree not to:",
+        "title": "Acceptabel användning",
+        "intro": "När du använder PhotoTools förbinder du dig att inte:",
         "items": {
-          "laws": "Violate any applicable local, national, or international laws or regulations",
-          "disrupt": "Disrupt or interfere with the site's operation, servers, or networks",
-          "scrape": "Scrape, crawl, or systematically extract data from the site without prior written permission",
-          "misrepresent": "Misrepresent your identity or affiliation in communications with PhotoTools",
-          "commercial": "Use the site for any commercial purpose beyond personal reference without permission"
+          "laws": "Bryta mot tillämplig lokal, nationell eller internationell lagstiftning eller förordning",
+          "disrupt": "Störa eller påverka sajtens drift, servrar eller nätverk",
+          "scrape": "Skrapa, crawla eller systematiskt extrahera data från sajten utan skriftligt tillstånd",
+          "misrepresent": "Uppge felaktig identitet eller tillhörighet i kommunikation med PhotoTools",
+          "commercial": "Använda sajten för kommersiella syften utöver personligt referensbruk utan tillstånd"
         }
       },
       "thirdPartyContent": {
-        "title": "Third-Party Content",
-        "body": "PhotoTools displays third-party advertisements and may include links to external websites. We are not responsible for the content, accuracy, or practices of third-party advertisers or linked sites. The inclusion of any advertisement or external link does not constitute an endorsement by PhotoTools. Your interactions with third-party services are governed by their own terms and privacy policies."
+        "title": "Tredjepartsinnehåll",
+        "body": "PhotoTools visar annonser från tredje part och kan innehålla länkar till externa webbplatser. Vi ansvarar inte för innehåll, korrekthet eller rutiner hos annonsörer eller länkade sajter. Att en annons eller extern länk visas innebär inte att PhotoTools rekommenderar den. Dina interaktioner med tredjepartstjänster regleras av deras egna villkor och integritetspolicyer."
       },
       "limitationOfLiability": {
-        "title": "Limitation of Liability",
-        "body": "To the fullest extent permitted by law, PhotoTools and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of — or inability to use — the Site or its tools. This includes, without limitation, damages resulting from reliance on information or calculations provided by PhotoTools. Your use of the Site is entirely at your own risk."
+        "title": "Ansvarsbegränsning",
+        "body": "I den utsträckning lagen tillåter ansvarar PhotoTools och dess operatörer inte för direkta, indirekta, tillfälliga, särskilda eller följdskador som uppstår till följd av att du använder — eller inte kan använda — sajten eller dess verktyg. Det gäller bland annat skador som uppstått på grund av att någon förlitat sig på information eller beräkningar från PhotoTools. Du använder sajten helt på egen risk."
       },
       "changesToTerms": {
-        "title": "Changes to Terms",
-        "body": "We may modify these Terms of Service at any time. Updated terms will be posted on this page with a revised effective date. Continued use of PhotoTools after changes are posted constitutes your acceptance of the revised terms. We encourage you to review these terms periodically."
+        "title": "Ändringar av villkoren",
+        "body": "Vi kan ändra dessa användarvillkor när som helst. Uppdaterade villkor publiceras på denna sida med ett nytt ikraftträdandedatum. Fortsatt användning av PhotoTools efter att ändringar publicerats innebär att du accepterar de nya villkoren. Vi rekommenderar att du läser igenom villkoren regelbundet."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about these Terms of Service, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Kontakt",
+        "body": "Om du har frågor om dessa användarvillkor, hör av dig via vår <contactLink>kontaktsida</contactLink>."
       }
     }
   }

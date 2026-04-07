@@ -1,90 +1,90 @@
 {
   "metadata": {
     "site": {
-      "defaultTitle": "PhotoTools — Photography Tools",
+      "defaultTitle": "PhotoTools — fotografiværktøjer",
       "titleTemplate": "%s | PhotoTools",
-      "description": "Free photography tools: FOV simulator, Color scheme generator, EXIF viewer, Crop and frame photos, and more.",
-      "ogTitle": "PhotoTools — Free Photography Tools"
+      "description": "Gratis fotografiværktøjer: FOV-simulator, farvepaletgenerator, EXIF-viewer, beskær og indram billeder og meget mere.",
+      "ogTitle": "PhotoTools — gratis fotografiværktøjer"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compare Focal Lengths",
-      "description": "Compare field of view across different focal lengths and sensor sizes. Free, interactive, shareable."
+      "title": "FOV Simulator — sammenlign brændvidder",
+      "description": "Sammenlign billedvinkel på tværs af brændvidder og sensorstørrelser. Gratis, interaktivt og kan deles."
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator | PhotoTools",
-      "description": "Visualize how aperture, focal length, and distance affect background blur with real-time WebGL simulation"
+      "title": "Dybdeskarphedssimulator | PhotoTools",
+      "description": "Visualisér hvordan blænde, brændvidde og afstand påvirker baggrundsuskarpheden med live WebGL-simulation"
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator | PhotoTools",
-      "description": "Calculate optimal focus distances for front-to-back sharpness in macro and landscape photography"
+      "title": "Focus stacking-beregner | PhotoTools",
+      "description": "Beregn optimale fokusafstande for skarphed fra forgrund til baggrund i makro- og landskabsfotografi"
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator | PhotoTools",
-      "description": "Find equivalent aperture and focal length across sensor formats to match depth of field"
+      "title": "Beregner for ækvivalente indstillinger | PhotoTools",
+      "description": "Find ækvivalent blænde og brændvidde på tværs af sensorformater for samme dybdeskarphed"
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator",
-      "description": "Interactive exposure triangle simulator — see how aperture, shutter speed, and ISO affect your image in real time with live preview."
+      "title": "Eksponeringstrekantsimulator | PhotoTools",
+      "description": "Interaktiv eksponeringstrekant — se i realtid hvordan blænde, lukkertid og ISO påvirker billedet med live preview."
     },
     "star-trail-calculator": {
       "title": "Star Trail Calculator",
-      "description": "Calculate the maximum exposure time for pinpoint stars using the 500, NPF, and other rules. Plan star trail stacking shots for any location."
+      "description": "Beregn maks eksponeringstid for knivskarpe stjerner med 500-reglen, NPF-reglen og andre regler. Planlæg star trails for ethvert sted."
     },
     "white-balance-visualizer": {
       "title": "White Balance Visualizer",
-      "description": "See how white balance and color temperature affect your photos. Visualize changes from 2000K to 10000K with real-time preview."
+      "description": "Se hvordan hvidbalance og farvetemperatur påvirker dine billeder. Visualisér ændringer fra 2000K til 10000K i realtid."
     },
     "sensor-size-comparison": {
       "title": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models."
+      "description": "Sammenlign kamerasensorer fra mellemformat til smartphone. Se overlay, side om side og pixeltæthed med rigtige kameramodeller."
     },
     "color-scheme-generator": {
       "title": "Color Scheme Generator",
-      "description": "Generate color palettes for photography using complementary, analogous, triadic, and tetradic color harmonies. Interactive color wheel with photo picker."
+      "description": "Generér farvepaletter til fotografering med komplementære, analoge, triadiske og tetradiske farveharmonier. Interaktiv farvecirkel med billedfarvevælger."
     },
     "frame-studio": {
       "title": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays. 100% client-side — your photos never leave your device."
+      "description": "Beskær, indram og komponér fotos med gitterguider. 100 % i browseren — dine billeder forlader aldrig din enhed."
     },
     "exif-viewer": {
       "title": "EXIF Viewer",
-      "description": "View EXIF metadata, histogram, and image preview for any photo. 100% client-side — your photos never leave your device."
+      "description": "Se EXIF-metadata, histogram og preview for ethvert foto. 100 % i browseren — dine billeder forlader aldrig din enhed."
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator",
-      "description": "Visualize hyperfocal distance for any lens and sensor. See exactly where to focus for maximum sharpness from foreground to infinity."
+      "title": "Hyperfokal afstandssimulator | PhotoTools",
+      "description": "Visualisér hyperfokal afstand for enhver linse og sensor. Se præcis hvor du skal fokusere for maksimal skarphed fra forgrund til uendelig."
     },
     "shutter-speed-visualizer": {
       "title": "Shutter Speed Visualizer",
-      "description": "Find the minimum shutter speed for sharp handheld photos. Accounts for focal length, sensor size, and image stabilization."
+      "description": "Find den laveste lukkertid til skarpe håndholdte billeder. Tager højde for brændvidde, sensorstørrelse og billedstabilisering."
     },
     "nd-filter-calculator": {
       "title": "ND Filter Calculator",
-      "description": "Calculate the correct shutter speed when using ND filters. Supports any filter strength from ND2 to ND1000000 with a quick-reference table."
+      "description": "Beregn den korrekte lukkertid ved brug af ND-filtre. Understøtter enhver filterstyrke fra ND2 til ND1000000 med hurtigoversigt."
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator",
-      "description": "Interactive 3D simulator showing how focal length and distance affect perspective compression. See background compression change in real time."
+      "title": "Perspektivkompressionssimulator | PhotoTools",
+      "description": "Interaktiv 3D-simulator der viser hvordan brændvidde og afstand påvirker perspektivkompression. Se baggrundskompressionen ændre sig i realtid."
     },
     "about": {
-      "title": "About",
-      "description": "PhotoTools is a free collection of browser-based photography calculators, simulators, and references for photographers of all skill levels."
+      "title": "Om",
+      "description": "PhotoTools er en gratis samling af browserbaserede fotografiberegnere, simulatorer og referencer til fotografer på alle niveauer."
     },
     "contact": {
-      "title": "Contact | PhotoTools",
-      "description": "Get in touch with the PhotoTools team — questions, feedback, or suggestions about our photography tools."
+      "title": "Kontakt | PhotoTools",
+      "description": "Kom i kontakt med PhotoTools-teamet — spørgsmål, feedback eller forslag til vores fotografiværktøjer."
     },
     "privacy": {
-      "title": "Privacy Policy | PhotoTools",
-      "description": "Learn how PhotoTools handles your data, including analytics, cookies, and contact form submissions at www.phototools.io."
+      "title": "Privatlivspolitik | PhotoTools",
+      "description": "Læs hvordan PhotoTools håndterer dine data, herunder analytics, cookies og kontaktformularer på www.phototools.io."
     },
     "terms": {
-      "title": "Terms of Service | PhotoTools",
-      "description": "Terms of Service for PhotoTools — learn about acceptable use, intellectual property, disclaimers, and limitations of liability for www.phototools.io."
+      "title": "Vilkår for brug | PhotoTools",
+      "description": "Vilkår for brug af PhotoTools — acceptabel brug, immaterielle rettigheder, ansvarsfraskrivelser og begrænsning af ansvar for www.phototools.io."
     },
     "glossary": {
-      "title": "Photography Glossary",
-      "description": "Searchable glossary of 50+ photography terms with definitions and links to interactive tools."
+      "title": "Fotografiordliste",
+      "description": "Søgbar ordliste med 50+ fotografibegreber med forklaringer og links til interaktive værktøjer."
     }
   }
 }

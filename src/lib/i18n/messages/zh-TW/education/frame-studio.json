@@ -1,104 +1,104 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helps you crop, frame, and compose your photos right in the browser. Use composition grids to improve your framing, crop to popular aspect ratios, and add professional-looking borders — all without losing any image quality.",
+      "beginner": "Frame Studio 讓您直接在瀏覽器裡為照片裁切、加框與構圖。透過構圖格線改善取景、裁切成熱門的長寬比，還能加上專業級邊框 — 全程不會損失畫質。",
       "deeper": {
         "0": {
-          "heading": "Composition Grids",
-          "text": "The Rule of Thirds divides the frame into a 3\u00d73 grid — placing subjects along lines or at intersections creates natural visual balance. The Golden Ratio (approximately 1.618:1) provides a mathematically harmonious division used in art and architecture for centuries. The Golden Spiral guides the eye along a logarithmic curve derived from the Fibonacci sequence, useful for leading the viewer through the image."
+          "heading": "構圖格線",
+          "text": "三分法將畫面分成 3×3 的格線，將主體安排在線條或交叉點上，可創造自然的視覺平衡。黃金比例（約 1.618:1）提供了數學上和諧的空間分割，數百年來廣泛運用於藝術與建築。黃金螺旋則沿著由費波那契數列推導而來的對數曲線引導視線，非常適合帶領觀者逐步穿過整張影像。"
         },
         "1": {
-          "heading": "Aspect Ratios",
-          "text": "Different aspect ratios serve different purposes. 1:1 (square) works well for social media and symmetrical compositions. 3:2 is the classic 35mm film ratio. 4:3 is common in micro four-thirds and older digital cameras. 16:9 is the standard widescreen ratio for video and cinematic compositions. 5:4 is traditional for 8\u00d710 prints."
+          "heading": "長寬比",
+          "text": "不同長寬比有不同用途。1:1（正方形）適合社群媒體與對稱構圖；3:2 是經典的 35mm 底片比例；4:3 常見於微型四三與早期數位相機；16:9 是影片與電影構圖的標準寬螢幕比例；5:4 則是傳統 8×10 沖印的比例。"
         },
         "2": {
-          "heading": "Framing and Borders",
-          "text": "Adding a border around a photograph mimics the effect of a physical mat and frame. A white mat provides visual breathing room and directs focus inward. The width of the border relative to the image affects the perceived \"weight\" of the photograph. Gallery-style presentations typically use wider mats. A subtle shadow creates depth, simulating how a framed print sits on a wall."
+          "heading": "加框與邊界",
+          "text": "在照片周圍加上邊框，可以模擬實體卡紙與畫框的效果。白色卡紙提供視覺呼吸空間，引導視線向內。邊框相對於影像的寬度會影響照片的「分量感」。畫廊等級的呈現通常會使用較寬的卡紙。一點細緻的陰影能營造出立體感，像是畫框掛在牆上的感覺。"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Composition Grid",
-          "description": "Overlay guides help you evaluate and improve subject placement within the frame."
+          "label": "構圖格線",
+          "description": "覆加的引導線能協助您評估並改善主體在畫面中的位置。"
         },
         "1": {
-          "label": "Aspect Ratio",
-          "description": "The width-to-height proportion affects how the image feels — wider ratios feel cinematic, square feels balanced."
+          "label": "長寬比",
+          "description": "寬高比例影響影像的感受 — 寬型比例較具電影感，正方形則顯得平衡。"
         },
         "2": {
-          "label": "Border Width",
-          "description": "Wider borders add gravitas and focus; narrow borders feel modern and minimal."
+          "label": "邊框寬度",
+          "description": "寬邊框增添份量與聚焦感；窄邊框則顯得現代簡約。"
         },
         "3": {
-          "label": "Mat Color",
-          "description": "White mats are classic for art photography. Dark mats emphasize lighter images. Color mats can complement or contrast."
+          "label": "卡紙顏色",
+          "description": "白色卡紙是藝術攝影的經典選擇。深色卡紙能突顯明亮影像。彩色卡紙可用於呼應或對比主題。"
         }
       },
       "tips": {
         "0": {
-          "text": "For Instagram posts, crop to 4:5 (portrait) to take up maximum screen space in the feed."
+          "text": "發布到 Instagram 時裁成 4:5（直幅），在動態消息中能佔用最多螢幕空間。"
         },
         "1": {
-          "text": "When adding a border for print, use a mat width of at least 10% of the image's shorter dimension for a professional look."
+          "text": "為沖印照片加邊框時，卡紙寬度至少應為影像短邊的 10%，視覺上較為專業。"
         },
         "2": {
-          "text": "The Golden Spiral is most effective for images with a natural flow — water, roads, or curved architecture."
+          "text": "黃金螺旋最適合帶有自然流動感的影像 — 流水、道路或弧形建築。"
         }
       },
       "tooltips": {
         "Aspect Ratio": {
-          "term": "Aspect Ratio",
-          "definition": "The proportional relationship between width and height. Common ratios include 3:2 (35mm), 4:3 (M43), and 16:9 (widescreen)."
+          "term": "長寬比",
+          "definition": "寬度與高度之間的比例關係。常見比例包括 3:2（35mm）、4:3（M43）與 16:9（寬螢幕）。"
         },
         "Rule of Thirds": {
-          "term": "Rule of Thirds",
-          "definition": "A composition guideline that divides the frame into 9 equal parts. Placing subjects at intersection points creates visual interest."
+          "term": "三分法",
+          "definition": "將畫面切分成 9 等份的構圖法則。把主體安排在交叉點上能帶來視覺趣味。"
         },
         "Golden Ratio": {
-          "term": "Golden Ratio",
-          "definition": "A mathematical proportion (~1.618:1) found in nature and art. Creates aesthetically pleasing divisions of space."
+          "term": "黃金比例",
+          "definition": "一個自然與藝術中常見的數學比例（約 1.618:1）。能創造令人愉悅的空間分割。"
         },
         "Border Width": {
-          "term": "Border Width",
-          "definition": "The thickness of the frame border in pixels. Goes outside the image, increasing total dimensions without cropping."
+          "term": "邊框寬度",
+          "definition": "邊框的厚度，以像素為單位。位於影像之外，會增加整體尺寸但不會裁切原圖。"
         },
         "Inner Mat": {
-          "term": "Inner Mat",
-          "definition": "A second, thinner border between the outer frame and the image — mimics the beveled inner mat of a physical picture frame."
+          "term": "內襯卡紙",
+          "definition": "外框與影像之間較細的第二道邊框 — 模擬實體畫框中帶斜面的內襯卡紙。"
         },
         "Corner Radius": {
-          "term": "Corner Radius",
-          "definition": "Rounds the corners of the frame border. Zero gives sharp corners, higher values give a softer, rounded look."
+          "term": "圓角半徑",
+          "definition": "將邊框轉角做成圓弧。零為直角，數值越大圓角越柔和。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to post a portrait photo on Instagram for maximum feed presence. Which aspect ratio should you use?",
-          "hint": "Instagram portrait posts use a taller-than-wide ratio.",
-          "successMessage": "Correct! 4:5 gives you the maximum vertical space in the Instagram feed.",
-          "failureMessage": "Instagram portrait posts use 4:5 (flip 5:4 to portrait orientation) for maximum feed real estate.",
+          "scenario": "您想把直幅人像發到 Instagram，希望在動態上占最多版面。應該用哪個長寬比？",
+          "hint": "Instagram 直幅貼文使用高比寬更長的比例。",
+          "successMessage": "答對了！4:5 能讓您在 Instagram 動態上占用最多的垂直空間。",
+          "failureMessage": "Instagram 直幅貼文使用 4:5（5:4 轉為直幅）以取得最大畫面。",
           "options": {
-            "0": { "label": "1:1 (Square)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": { "label": "1:1（正方形）" },
+            "1": { "label": "4:5（直幅）" },
+            "2": { "label": "16:9（寬螢幕）" }
           }
         },
         "1": {
-          "scenario": "Which composition grid is the most widely taught starting point for beginners?",
-          "hint": "It divides the frame into 9 equal sections.",
-          "successMessage": "Right! The Rule of Thirds is the foundational composition guide.",
-          "failureMessage": "The Rule of Thirds (3\u00d73 grid) is the most common starting point for learning composition.",
+          "scenario": "對初學者而言，最常被教到、最基本的構圖格線是哪一種？",
+          "hint": "它把畫面分成九個相等區塊。",
+          "successMessage": "沒錯！三分法是最入門也最基礎的構圖原則。",
+          "failureMessage": "三分法（3×3 格線）是學習構圖最常見的起點。",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Diagonal Lines" }
+            "0": { "label": "三分法" },
+            "1": { "label": "黃金螺旋" },
+            "2": { "label": "對角線構圖" }
           }
         },
         "2": {
-          "scenario": "You are preparing a photo for gallery printing on 8\u00d710 paper. Which aspect ratio matches this print size?",
-          "hint": "8\u00f710 simplifies to a well-known ratio.",
-          "successMessage": "Correct! 5:4 matches 8\u00d710 print dimensions perfectly.",
-          "failureMessage": "8\u00d710 simplifies to 4:5, which is the portrait version of 5:4.",
+          "scenario": "您要準備一張畫廊用的 8×10 沖印照片。這個尺寸對應哪個長寬比？",
+          "hint": "8÷10 可以化簡為一個熟悉的比例。",
+          "successMessage": "答對了！5:4 完全符合 8×10 沖印尺寸。",
+          "failureMessage": "8×10 可化簡為 4:5，也就是 5:4 的直幅版本。",
           "options": {
             "0": { "label": "3:2" },
             "1": { "label": "5:4" },
@@ -106,25 +106,25 @@
           }
         },
         "3": {
-          "scenario": "A landscape photo features a winding river leading from the foreground to mountains in the background. Which grid overlay best matches this natural flow?",
-          "hint": "One grid type follows a natural curved path.",
-          "successMessage": "Great choice! The Golden Spiral follows curves and leading lines perfectly.",
-          "failureMessage": "The Golden Spiral is ideal for images with natural curved elements like rivers, roads, or coastlines.",
+          "scenario": "一張風景照中，蜿蜒的河流從前景延伸到遠處的山脈。哪種格線最適合這種自然流動的構圖？",
+          "hint": "有一種格線會沿著自然的曲線走。",
+          "successMessage": "好選擇！黃金螺旋能完美沿著曲線與引導線。",
+          "failureMessage": "黃金螺旋非常適合像河流、道路或海岸線這種帶有自然曲線元素的影像。",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Square Grid" }
+            "0": { "label": "中心十字" },
+            "1": { "label": "黃金螺旋" },
+            "2": { "label": "正方格線" }
           }
         },
         "4": {
-          "scenario": "You want a clean white border to present your photo on social media. Which frame preset should you use?",
-          "hint": "Think about which preset gives you a simple white border.",
-          "successMessage": "Correct! The White preset adds a 100px white border around your photo.",
-          "failureMessage": "The White preset is designed for a clean, simple white border presentation.",
+          "scenario": "您想在社群媒體上以乾淨的白色邊框呈現照片。該用哪個預設邊框？",
+          "hint": "想想哪個預設能提供簡潔的白色邊框。",
+          "successMessage": "答對了！「白色」預設會為照片加上 100px 的白色邊框。",
+          "failureMessage": "「白色」預設專為簡潔的白色邊框呈現而設計。",
           "options": {
-            "0": { "label": "None" },
-            "1": { "label": "White" },
-            "2": { "label": "Black" }
+            "0": { "label": "無" },
+            "1": { "label": "白色" },
+            "2": { "label": "黑色" }
           }
         }
       }

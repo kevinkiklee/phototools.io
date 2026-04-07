@@ -1,12 +1,12 @@
 {
   "toolUI": {
     "nd-filter-calculator": {
-      "baseShutterSpeed": "Base Shutter Speed",
-      "ndFilter": "ND Filter",
-      "resultingShutterSpeed": "Resulting Shutter Speed",
-      "stopsAdded": "Stops Added",
-      "quickReference": "Quick Reference",
-      "tableBase": "Base"
+      "baseShutterSpeed": "基準快門速度",
+      "ndFilter": "ND 濾鏡",
+      "resultingShutterSpeed": "換算後快門速度",
+      "stopsAdded": "增加的級數",
+      "quickReference": "速查表",
+      "tableBase": "基準"
     }
   }
 }

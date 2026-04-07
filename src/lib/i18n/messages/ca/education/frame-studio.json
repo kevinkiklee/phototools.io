@@ -1,104 +1,104 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helps you crop, frame, and compose your photos right in the browser. Use composition grids to improve your framing, crop to popular aspect ratios, and add professional-looking borders — all without losing any image quality.",
+      "beginner": "Frame Studio t'ajuda a retallar, emmarcar i compondre les teves fotos directament al navegador. Fes servir graelles de composició per millorar l'enquadrament, retalla a relacions d'aspecte populars i afegeix vores amb aspecte professional — tot sense perdre qualitat d'imatge.",
       "deeper": {
         "0": {
-          "heading": "Composition Grids",
-          "text": "The Rule of Thirds divides the frame into a 3\u00d73 grid — placing subjects along lines or at intersections creates natural visual balance. The Golden Ratio (approximately 1.618:1) provides a mathematically harmonious division used in art and architecture for centuries. The Golden Spiral guides the eye along a logarithmic curve derived from the Fibonacci sequence, useful for leading the viewer through the image."
+          "heading": "Graelles de composició",
+          "text": "La regla dels terços divideix el fotograma en una graella 3×3 — col·locar els subjectes sobre les línies o a les interseccions crea un equilibri visual natural. La proporció àuria (aproximadament 1,618:1) ofereix una divisió matemàticament harmoniosa utilitzada en art i arquitectura durant segles. L'espiral àuria guia l'ull per una corba logarítmica derivada de la seqüència de Fibonacci, útil per portar l'observador a través de la imatge."
         },
         "1": {
-          "heading": "Aspect Ratios",
-          "text": "Different aspect ratios serve different purposes. 1:1 (square) works well for social media and symmetrical compositions. 3:2 is the classic 35mm film ratio. 4:3 is common in micro four-thirds and older digital cameras. 16:9 is the standard widescreen ratio for video and cinematic compositions. 5:4 is traditional for 8\u00d710 prints."
+          "heading": "Relacions d'aspecte",
+          "text": "Diferents relacions d'aspecte serveixen a propòsits diferents. 1:1 (quadrat) funciona bé per a xarxes socials i composicions simètriques. 3:2 és la relació clàssica del film de 35mm. 4:3 és habitual en micro quatre terços i càmeres digitals antigues. 16:9 és la relació panoràmica estàndard per a vídeo i composicions cinematogràfiques. 5:4 és tradicional per a impressions 8×10."
         },
         "2": {
-          "heading": "Framing and Borders",
-          "text": "Adding a border around a photograph mimics the effect of a physical mat and frame. A white mat provides visual breathing room and directs focus inward. The width of the border relative to the image affects the perceived \"weight\" of the photograph. Gallery-style presentations typically use wider mats. A subtle shadow creates depth, simulating how a framed print sits on a wall."
+          "heading": "Marcs i vores",
+          "text": "Afegir una vora al voltant d'una fotografia imita l'efecte d'una passe-partout i un marc físic. Una passe-partout blanca dona respiració visual i dirigeix el focus cap a dins. L'amplada de la vora respecte a la imatge afecta el \"pes\" percebut de la fotografia. Les presentacions d'estil galeria fan servir habitualment passe-partouts més amples. Una ombra subtil crea profunditat, simulant com una còpia emmarcada penja de la paret."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Composition Grid",
-          "description": "Overlay guides help you evaluate and improve subject placement within the frame."
+          "label": "Graella de composició",
+          "description": "Les guies superposades t'ajuden a avaluar i millorar la col·locació del subjecte dins del fotograma."
         },
         "1": {
-          "label": "Aspect Ratio",
-          "description": "The width-to-height proportion affects how the image feels — wider ratios feel cinematic, square feels balanced."
+          "label": "Relació d'aspecte",
+          "description": "La proporció amplada/alçada afecta com se sent la imatge — les relacions més amples se senten cinematogràfiques, el quadrat se sent equilibrat."
         },
         "2": {
-          "label": "Border Width",
-          "description": "Wider borders add gravitas and focus; narrow borders feel modern and minimal."
+          "label": "Amplada de la vora",
+          "description": "Les vores amples donen gravetat i concentració; les estretes se senten modernes i minimalistes."
         },
         "3": {
-          "label": "Mat Color",
-          "description": "White mats are classic for art photography. Dark mats emphasize lighter images. Color mats can complement or contrast."
+          "label": "Color de la passe-partout",
+          "description": "Les passe-partouts blanques són clàssiques per a fotografia artística. Les fosques destaquen imatges més clares. Les de color poden complementar o contrastar."
         }
       },
       "tips": {
         "0": {
-          "text": "For Instagram posts, crop to 4:5 (portrait) to take up maximum screen space in the feed."
+          "text": "Per a publicacions d'Instagram, retalla a 4:5 (vertical) per ocupar el màxim espai a la pantalla al feed."
         },
         "1": {
-          "text": "When adding a border for print, use a mat width of at least 10% of the image's shorter dimension for a professional look."
+          "text": "Quan afegeixis una vora per imprimir, fes servir un gruix d'almenys el 10% de la dimensió més curta de la imatge per a un aspecte professional."
         },
         "2": {
-          "text": "The Golden Spiral is most effective for images with a natural flow — water, roads, or curved architecture."
+          "text": "L'espiral àuria és més efectiva en imatges amb un flux natural — aigua, carreteres o arquitectura corba."
         }
       },
       "tooltips": {
         "Aspect Ratio": {
-          "term": "Aspect Ratio",
-          "definition": "The proportional relationship between width and height. Common ratios include 3:2 (35mm), 4:3 (M43), and 16:9 (widescreen)."
+          "term": "Relació d'aspecte",
+          "definition": "La proporció entre amplada i alçada. Les relacions habituals inclouen 3:2 (35mm), 4:3 (M43) i 16:9 (panoràmic)."
         },
         "Rule of Thirds": {
-          "term": "Rule of Thirds",
-          "definition": "A composition guideline that divides the frame into 9 equal parts. Placing subjects at intersection points creates visual interest."
+          "term": "Regla dels terços",
+          "definition": "Una guia de composició que divideix el fotograma en 9 parts iguals. Col·locar els subjectes als punts d'intersecció crea interès visual."
         },
         "Golden Ratio": {
-          "term": "Golden Ratio",
-          "definition": "A mathematical proportion (~1.618:1) found in nature and art. Creates aesthetically pleasing divisions of space."
+          "term": "Proporció àuria",
+          "definition": "Una proporció matemàtica (~1,618:1) trobada a la natura i l'art. Crea divisions de l'espai estèticament agradables."
         },
         "Border Width": {
-          "term": "Border Width",
-          "definition": "The thickness of the frame border in pixels. Goes outside the image, increasing total dimensions without cropping."
+          "term": "Amplada de la vora",
+          "definition": "El gruix de la vora del marc en píxels. Va per fora de la imatge, augmentant les dimensions totals sense retallar."
         },
         "Inner Mat": {
-          "term": "Inner Mat",
-          "definition": "A second, thinner border between the outer frame and the image — mimics the beveled inner mat of a physical picture frame."
+          "term": "Passe-partout interior",
+          "definition": "Una segona vora més prima entre el marc exterior i la imatge — imita la passe-partout interior bisellada d'un marc físic."
         },
         "Corner Radius": {
-          "term": "Corner Radius",
-          "definition": "Rounds the corners of the frame border. Zero gives sharp corners, higher values give a softer, rounded look."
+          "term": "Radi de les cantonades",
+          "definition": "Arrodoneix les cantonades de la vora del marc. Zero dona cantonades rectes, valors més alts donen un aspecte més suau i arrodonit."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to post a portrait photo on Instagram for maximum feed presence. Which aspect ratio should you use?",
-          "hint": "Instagram portrait posts use a taller-than-wide ratio.",
-          "successMessage": "Correct! 4:5 gives you the maximum vertical space in the Instagram feed.",
-          "failureMessage": "Instagram portrait posts use 4:5 (flip 5:4 to portrait orientation) for maximum feed real estate.",
+          "scenario": "Vols publicar una foto vertical a Instagram amb la màxima presència al feed. Quina relació d'aspecte hauries de fer servir?",
+          "hint": "Les publicacions verticals d'Instagram utilitzen una relació més alta que ampla.",
+          "successMessage": "Correcte! 4:5 et dona el màxim espai vertical al feed d'Instagram.",
+          "failureMessage": "Les publicacions verticals d'Instagram fan servir 4:5 (5:4 girat a vertical) per al màxim espai al feed.",
           "options": {
-            "0": { "label": "1:1 (Square)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": { "label": "1:1 (quadrat)" },
+            "1": { "label": "4:5 (vertical)" },
+            "2": { "label": "16:9 (panoràmic)" }
           }
         },
         "1": {
-          "scenario": "Which composition grid is the most widely taught starting point for beginners?",
-          "hint": "It divides the frame into 9 equal sections.",
-          "successMessage": "Right! The Rule of Thirds is the foundational composition guide.",
-          "failureMessage": "The Rule of Thirds (3\u00d73 grid) is the most common starting point for learning composition.",
+          "scenario": "Quina graella de composició és el punt de partida més ensenyat per a principiants?",
+          "hint": "Divideix el fotograma en 9 seccions iguals.",
+          "successMessage": "Exacte! La regla dels terços és la guia de composició fonamental.",
+          "failureMessage": "La regla dels terços (graella 3×3) és el punt de partida més habitual per aprendre composició.",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Diagonal Lines" }
+            "0": { "label": "Regla dels terços" },
+            "1": { "label": "Espiral àuria" },
+            "2": { "label": "Línies diagonals" }
           }
         },
         "2": {
-          "scenario": "You are preparing a photo for gallery printing on 8\u00d710 paper. Which aspect ratio matches this print size?",
-          "hint": "8\u00f710 simplifies to a well-known ratio.",
-          "successMessage": "Correct! 5:4 matches 8\u00d710 print dimensions perfectly.",
-          "failureMessage": "8\u00d710 simplifies to 4:5, which is the portrait version of 5:4.",
+          "scenario": "Estàs preparant una foto per imprimir en format 8×10 per a galeria. Quina relació d'aspecte coincideix amb aquesta mida d'impressió?",
+          "hint": "8×10 es simplifica a una relació coneguda.",
+          "successMessage": "Correcte! 5:4 coincideix perfectament amb les dimensions d'una còpia 8×10.",
+          "failureMessage": "8×10 es simplifica a 4:5, que és la versió vertical de 5:4.",
           "options": {
             "0": { "label": "3:2" },
             "1": { "label": "5:4" },
@@ -106,23 +106,23 @@
           }
         },
         "3": {
-          "scenario": "A landscape photo features a winding river leading from the foreground to mountains in the background. Which grid overlay best matches this natural flow?",
-          "hint": "One grid type follows a natural curved path.",
-          "successMessage": "Great choice! The Golden Spiral follows curves and leading lines perfectly.",
-          "failureMessage": "The Golden Spiral is ideal for images with natural curved elements like rivers, roads, or coastlines.",
+          "scenario": "Una foto de paisatge mostra un riu serpentejant des del primer pla fins a les muntanyes del fons. Quina graella superposada s'adapta millor a aquest flux natural?",
+          "hint": "Un tipus de graella segueix un camí corbat natural.",
+          "successMessage": "Bona tria! L'espiral àuria segueix corbes i línies guia a la perfecció.",
+          "failureMessage": "L'espiral àuria és ideal per a imatges amb elements corbats naturals com rius, carreteres o costes.",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Square Grid" }
+            "0": { "label": "Creu central" },
+            "1": { "label": "Espiral àuria" },
+            "2": { "label": "Graella quadrada" }
           }
         },
         "4": {
-          "scenario": "You want a clean white border to present your photo on social media. Which frame preset should you use?",
-          "hint": "Think about which preset gives you a simple white border.",
-          "successMessage": "Correct! The White preset adds a 100px white border around your photo.",
-          "failureMessage": "The White preset is designed for a clean, simple white border presentation.",
+          "scenario": "Vols una vora blanca neta per presentar la teva foto a les xarxes socials. Quin preajust de marc hauries de fer servir?",
+          "hint": "Pensa quin preajust dona una vora blanca senzilla.",
+          "successMessage": "Correcte! El preajust White afegeix una vora blanca de 100px al voltant de la foto.",
+          "failureMessage": "El preajust White està dissenyat per a una presentació de vora blanca neta i senzilla.",
           "options": {
-            "0": { "label": "None" },
+            "0": { "label": "Cap" },
             "1": { "label": "White" },
             "2": { "label": "Black" }
           }

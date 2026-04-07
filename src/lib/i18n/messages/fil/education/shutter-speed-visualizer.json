@@ -1,65 +1,65 @@
 {
   "education": {
     "shutter-speed-visualizer": {
-      "beginner": "The shutter speed guide helps you find the slowest shutter speed you can use while still getting a sharp handheld photo. If your shutter speed is too slow, camera shake from your hands will blur the image. The minimum safe speed depends on your focal length, whether you have image stabilization, and how steady your hands are.",
-      "deeper": "The classic \"reciprocal rule\" states that for sharp handheld photos, your shutter speed should be at least 1/(focal length) seconds — so a 200mm lens needs at least 1/200s. On crop-sensor cameras, you should use the equivalent focal length (e.g., 200mm on a 1.5x crop = 1/300s). Modern in-body stabilization (IBIS) and optical stabilization (OIS) can buy you 3-7 extra stops of handheld leeway, meaning that stabilized 200mm lens might be sharp at 1/15s or even slower. However, stabilization only compensates for camera shake, not subject motion. A person walking toward you at 1/15s will still be blurred regardless of stabilization. For moving subjects, you must select a shutter speed based on the subject's speed and distance, not just the focal length.",
+      "beginner": "Ang shutter speed guide ay tumutulong sa iyo na mahanap ang pinakamabagal na shutter speed na pwede mong gamitin habang nakakakuha pa rin ng matalas na handheld na litrato. Kung masyadong mabagal ang shutter speed mo, ang camera shake mula sa mga kamay mo ay magbo-blur sa imahe. Ang minimum safe speed ay nakadepende sa focal length mo, kung meron kang image stabilization, at kung gaano katatag ang mga kamay mo.",
+      "deeper": "Sinasabi ng klasikong \"reciprocal rule\" na para sa matatalas na handheld na litrato, ang shutter speed mo ay dapat hindi bababa sa 1/(focal length) na segundo — kaya ang 200mm lens ay nangangailangan ng hindi bababa sa 1/200s. Sa mga crop-sensor camera, dapat mong gamitin ang equivalent focal length (hal. 200mm sa 1.5x crop = 1/300s). Ang modernong in-body stabilization (IBIS) at optical stabilization (OIS) ay kayang magbigay sa iyo ng 3-7 dagdag na stops ng handheld leeway, na nangangahulugang ang stabilized 200mm lens ay maaaring maging matalas sa 1/15s o mas mabagal pa. Gayunpaman, ang stabilization ay nag-co-compensate lamang para sa camera shake, hindi para sa subject motion. Ang taong naglalakad papalapit sa iyo sa 1/15s ay magiging blurred pa rin anuman ang stabilization. Para sa gumagalaw na subject, kailangan mong pumili ng shutter speed batay sa bilis at distansya ng subject, hindi lamang sa focal length.",
       "keyFactors": {
         "0": {
           "label": "Focal Length",
-          "description": "Longer focal lengths magnify camera shake. The reciprocal rule (1/focal length) is the starting point for determining minimum shutter speed."
+          "description": "Ang mas mahabang focal length ay nagpapalaki sa camera shake. Ang reciprocal rule (1/focal length) ang panimulang punto para sa pagtukoy ng minimum shutter speed."
         },
         "1": {
           "label": "Image Stabilization",
-          "description": "OIS (lens-based) typically provides 2-4 stops of benefit. IBIS (body-based) provides 3-5 stops. Combined OIS+IBIS can achieve 5-7 stops on some systems."
+          "description": "Ang OIS (nasa lens) ay karaniwang nagbibigay ng 2-4 stops na benepisyo. Ang IBIS (nasa body) ay nagbibigay ng 3-5 stops. Ang pinagsamang OIS+IBIS ay makakamit ng 5-7 stops sa ilang sistema."
         },
         "2": {
           "label": "Subject Motion",
-          "description": "Still subjects require only enough speed to counter camera shake. Moving subjects need faster speeds regardless of stabilization: walking (~1/125s), running (~1/500s), vehicles (~1/1000s+)."
+          "description": "Ang nakapirmi na subject ay nangangailangan lamang ng sapat na speed para labanan ang camera shake. Ang gumagalaw na subject ay nangangailangan ng mas mabibilis na speed anuman ang stabilization: lakad (~1/125s), takbo (~1/500s), sasakyan (~1/1000s+)."
         },
         "3": {
           "label": "Sensor Size (Crop Factor)",
-          "description": "Crop-sensor cameras effectively multiply the focal length for the reciprocal rule. A 50mm lens on a 1.5x crop behaves like 75mm, so you need at least 1/75s."
+          "description": "Ang mga crop-sensor camera ay effectively nag-mu-multiply sa focal length para sa reciprocal rule. Ang 50mm lens sa 1.5x crop ay umuugali na parang 75mm, kaya kailangan mo ng hindi bababa sa 1/75s."
         }
       },
       "tips": {
         "0": {
-          "text": "Brace yourself against a wall, tuck your elbows in, and exhale slowly before pressing the shutter. Good technique can give you 1-2 extra stops of steadiness beyond the reciprocal rule."
+          "text": "Isandal ang sarili mo sa dingding, isiksik ang mga siko mo, at huminga nang mabagal bago pindutin ang shutter. Ang magandang teknik ay maaaring magbigay sa iyo ng 1-2 dagdag na stops ng katatagan lampas sa reciprocal rule."
         },
         "1": {
-          "text": "When shooting people, the subject's motion usually dictates your minimum speed, not your focal length. Even with a wide-angle lens and stabilization, a child running requires at least 1/500s."
+          "text": "Kapag kumukuha ng mga tao, ang galaw ng subject ang karaniwang nag-di-dictate ng minimum speed mo, hindi ang focal length. Kahit na may wide-angle lens at stabilization, ang batang tumatakbo ay nangangailangan ng hindi bababa sa 1/500s."
         },
         "2": {
-          "text": "If you are consistently shooting in low light, invest in a camera body with IBIS. The ability to shoot handheld at 1/2s with a wide-angle lens opens up possibilities that no amount of high-ISO performance can match."
+          "text": "Kung patuloy kang kumukuha sa mababang liwanag, mamuhunan sa camera body na may IBIS. Ang kakayahang kumuha ng handheld sa 1/2s gamit ang wide-angle lens ay nagbubukas ng mga posibilidad na hindi kayang itugma ng dami ng high-ISO performance."
         }
       },
       "tooltips": {
         "focalLength": {
           "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Directly affects the minimum safe shutter speed through the reciprocal rule: 1/(focal length) for full-frame, adjusted by crop factor for smaller sensors."
+          "definition": "Ang focal length ng lens sa millimeters. Direktang nakakaapekto sa minimum safe shutter speed sa pamamagitan ng reciprocal rule: 1/(focal length) para sa full-frame, ina-adjust sa crop factor para sa mas maliliit na sensor."
         },
         "sensor": {
           "term": "Sensor Size",
-          "definition": "The camera sensor size, which determines the crop factor. APS-C (1.5x) and Micro Four Thirds (2x) multiply the effective focal length, requiring faster shutter speeds for the same lens."
+          "definition": "Ang sukat ng camera sensor, na tumutukoy sa crop factor. Ang APS-C (1.5x) at Micro Four Thirds (2x) ay nagmu-multiply sa effective focal length, nangangailangan ng mas mabibilis na shutter speed para sa parehong lens."
         },
         "stabilization": {
           "term": "Image Stabilization",
-          "definition": "Technology that compensates for camera shake. OIS (Optical Image Stabilization) is in the lens, IBIS (In-Body Image Stabilization) is in the camera body. They can work together for maximum benefit."
+          "definition": "Teknolohiyang nag-co-compensate para sa camera shake. Ang OIS (Optical Image Stabilization) ay nasa lens, ang IBIS (In-Body Image Stabilization) ay nasa camera body. Pwedeng magtrabaho sila nang sabay para sa maximum na benepisyo."
         },
         "subjectMotion": {
           "term": "Subject Motion",
-          "definition": "How fast your subject is moving. Still subjects only need enough shutter speed to counteract camera shake. Moving subjects need faster speeds based on their velocity and direction relative to the camera."
+          "definition": "Kung gaano kabilis ang galaw ng subject mo. Ang nakapirmi na subject ay nangangailangan lamang ng sapat na shutter speed para labanan ang camera shake. Ang gumagalaw na subject ay nangangailangan ng mas mabibilis na speed batay sa velocity at direksyon nila relative sa camera."
         },
         "recommendedShutterSpeed": {
           "term": "Recommended Shutter Speed",
-          "definition": "The minimum shutter speed calculated for your specific combination of focal length, stabilization, sensor, and subject motion. Shooting at this speed or faster should produce sharp results."
+          "definition": "Ang minimum shutter speed na kinalkula para sa iyong partikular na kombinasyon ng focal length, stabilization, sensor, at subject motion. Ang pagkuha sa speed na ito o mas mabilis ay dapat magbigay ng matatalas na resulta."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting with a 100mm lens on a full-frame camera with no image stabilization. Your subject is standing still. What is the minimum recommended shutter speed?",
-          "hint": "The reciprocal rule: minimum shutter speed = 1 / focal length.",
-          "successMessage": "Correct! The reciprocal rule says 1/100s for a 100mm lens on full frame. This is the classic starting point for handheld sharpness.",
-          "failureMessage": "For a 100mm lens on full frame with no stabilization, the reciprocal rule gives you 1/100s as the minimum safe shutter speed for static subjects.",
+          "scenario": "Kumukuha ka gamit ang 100mm lens sa full-frame camera nang walang image stabilization. Ang subject mo ay nakatayo lang. Ano ang minimum recommended shutter speed?",
+          "hint": "Ang reciprocal rule: minimum shutter speed = 1 / focal length.",
+          "successMessage": "Tama! Sabi ng reciprocal rule ay 1/100s para sa 100mm lens sa full frame. Ito ang klasikong panimulang punto para sa handheld sharpness.",
+          "failureMessage": "Para sa 100mm lens sa full frame nang walang stabilization, ang reciprocal rule ay nagbibigay sa iyo ng 1/100s bilang minimum safe shutter speed para sa nakapirmi na subject.",
           "options": {
             "0": { "label": "1/50s" },
             "1": { "label": "1/100s" },
@@ -68,51 +68,51 @@
           }
         },
         "1": {
-          "scenario": "You are using a 50mm lens on an APS-C camera (1.5x crop factor) with no stabilization. What minimum shutter speed should you use for a still subject?",
-          "hint": "Multiply the focal length by the crop factor before applying the reciprocal rule.",
-          "successMessage": "Right! 50mm x 1.5 = 75mm equivalent, so you need at least 1/75s. In practice, rounding up to 1/80s is the safe choice.",
-          "failureMessage": "On APS-C, the crop factor (1.5x) means a 50mm lens behaves like a 75mm lens. The reciprocal rule gives 1/75s as the minimum speed.",
+          "scenario": "Gumagamit ka ng 50mm lens sa APS-C camera (1.5x crop factor) nang walang stabilization. Anong minimum shutter speed ang dapat mong gamitin para sa nakapirmi na subject?",
+          "hint": "I-multiply ang focal length sa crop factor bago i-apply ang reciprocal rule.",
+          "successMessage": "Tama! 50mm x 1.5 = 75mm equivalent, kaya kailangan mo ng hindi bababa sa 1/75s. Sa praktika, ang pag-round up sa 1/80s ay ligtas na pagpipilian.",
+          "failureMessage": "Sa APS-C, ang crop factor (1.5x) ay nangangahulugang ang 50mm lens ay umuugali na parang 75mm. Ang reciprocal rule ay nagbibigay ng 1/75s bilang minimum speed.",
           "options": {
             "0": { "label": "1/50s" },
-            "1": { "label": "1/75s (round to 1/80s)" },
+            "1": { "label": "1/75s (i-round sa 1/80s)" },
             "2": { "label": "1/100s" },
             "3": { "label": "1/125s" }
           }
         },
         "2": {
-          "scenario": "You have a 200mm lens with OIS (4 stops of stabilization) on a full-frame body with IBIS (5 stops). Together they provide about 6 stops of combined stabilization. For a still subject, what is the approximate minimum shutter speed?",
-          "hint": "Start with the reciprocal rule (1/200s) and then apply 6 stops of stabilization benefit.",
-          "successMessage": "Correct! Starting at 1/200s and gaining 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. About 1/3 second handheld with a 200mm lens — impressive but achievable with modern stabilization!",
-          "failureMessage": "From 1/200s, each stop of stabilization doubles the usable time: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Six stops of stabilization with a 200mm lens gives approximately 1/3s.",
+          "scenario": "May 200mm lens kang may OIS (4 stops ng stabilization) sa full-frame body na may IBIS (5 stops). Magkasama, nagbibigay sila ng mga 6 stops ng pinagsamang stabilization. Para sa nakapirmi na subject, ano ang tinatayang minimum shutter speed?",
+          "hint": "Magsimula sa reciprocal rule (1/200s) at tapos i-apply ang 6 stops ng stabilization benepisyo.",
+          "successMessage": "Tama! Mula sa 1/200s at nadagdagan ng 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Mga 1/3 segundo ng handheld gamit ang 200mm lens — kamangha-mangha pero maaabot sa modernong stabilization!",
+          "failureMessage": "Mula sa 1/200s, bawat stop ng stabilization ay dinodoble ang usable na oras: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Ang anim na stops ng stabilization gamit ang 200mm lens ay nagbibigay ng humigit-kumulang 1/3s.",
           "options": {
             "0": { "label": "1/30s" },
             "1": { "label": "1/8s" },
             "2": { "label": "~1/3s" },
-            "3": { "label": "1 second" }
+            "3": { "label": "1 segundo" }
           }
         },
         "3": {
-          "scenario": "You are photographing a friend jogging in a park using a 35mm lens on a full-frame camera with IBIS. Your IBIS gives you 5 stops of stabilization, so the reciprocal rule alone would let you shoot at about 1 second. Should you use 1 second?",
-          "hint": "Stabilization compensates for camera shake, not subject motion.",
-          "successMessage": "Correct! Stabilization only counters camera shake. A jogging person needs at least 1/250s to freeze their motion, regardless of how good your stabilization is.",
-          "failureMessage": "Stabilization cannot freeze a moving subject. For a person jogging, you need at least 1/250s to prevent motion blur, even if your camera could hold steady at 1 second.",
+          "scenario": "Kinukunan mo ang kaibigan mo na nagja-jogging sa parke gamit ang 35mm lens sa full-frame camera na may IBIS. Ang IBIS mo ay nagbibigay ng 5 stops ng stabilization, kaya ang reciprocal rule lamang ay magpapahintulot sa iyo na kumuha sa mga 1 segundo. Dapat mo bang gamitin ang 1 segundo?",
+          "hint": "Ang stabilization ay nag-co-compensate para sa camera shake, hindi para sa subject motion.",
+          "successMessage": "Tama! Ang stabilization ay lumalaban lamang sa camera shake. Ang taong nagja-jogging ay nangangailangan ng hindi bababa sa 1/250s para ma-freeze ang kanilang galaw, anuman ang husay ng stabilization mo.",
+          "failureMessage": "Ang stabilization ay hindi kayang mag-freeze ng gumagalaw na subject. Para sa taong nagja-jogging, kailangan mo ng hindi bababa sa 1/250s para maiwasan ang motion blur, kahit na ang camera mo ay kayang magpanatili nang matatag sa 1 segundo.",
           "options": {
-            "0": { "label": "Yes — IBIS handles all the motion" },
-            "1": { "label": "No — use at least 1/250s to freeze the jogger" },
-            "2": { "label": "No — use 1/60s as a compromise" },
-            "3": { "label": "It depends on the ISO setting" }
+            "0": { "label": "Oo — hawak ng IBIS lahat ng galaw" },
+            "1": { "label": "Hindi — gumamit ng hindi bababa sa 1/250s para ma-freeze ang jogger" },
+            "2": { "label": "Hindi — gumamit ng 1/60s bilang kompromiso" },
+            "3": { "label": "Nakadepende sa ISO setting" }
           }
         },
         "4": {
-          "scenario": "You want to create a panning shot of a cyclist — the rider should be sharp while the background shows motion blur streaks. You are using a 70mm lens on full frame. What shutter speed range should you try?",
-          "hint": "Panning intentionally uses a slow shutter speed while tracking the subject. Too fast freezes everything; too slow blurs even the subject.",
-          "successMessage": "Correct! For panning a cyclist, 1/30s to 1/60s is the sweet spot. This is slow enough to blur the background into streaks while your tracking motion keeps the rider relatively sharp. It takes practice — shoot in burst mode and expect many rejects.",
-          "failureMessage": "Panning requires a shutter speed slow enough to blur the background but fast enough that your tracking keeps the subject sharp. For a cyclist, 1/30s to 1/60s is the typical range.",
+          "scenario": "Gusto mong gumawa ng panning shot ng cyclist — ang rider ay dapat matalas habang ang background ay nagpapakita ng motion blur streaks. Gumagamit ka ng 70mm lens sa full frame. Anong shutter speed range ang dapat mong subukan?",
+          "hint": "Ang panning ay sadyang gumagamit ng mabagal na shutter speed habang nagta-track ng subject. Masyadong mabilis ay nagyeyelo sa lahat; masyadong mabagal ay nagbo-blur kahit sa subject.",
+          "successMessage": "Tama! Para sa panning ng cyclist, ang 1/30s hanggang 1/60s ang sweet spot. Ito ay sapat na mabagal para i-blur ang background sa streaks habang ang tracking motion mo ay nagpapanatili sa rider na medyo matalas. Nangangailangan ito ng praktis — kumuha sa burst mode at asahan ang maraming reject.",
+          "failureMessage": "Ang panning ay nangangailangan ng shutter speed na sapat mabagal para i-blur ang background pero sapat mabilis para ang tracking mo ay mapanatili ang subject na matalas. Para sa cyclist, ang 1/30s hanggang 1/60s ang karaniwang range.",
           "options": {
-            "0": { "label": "1/1000s to 1/2000s" },
-            "1": { "label": "1/250s to 1/500s" },
-            "2": { "label": "1/30s to 1/60s" },
-            "3": { "label": "1s to 2s" }
+            "0": { "label": "1/1000s hanggang 1/2000s" },
+            "1": { "label": "1/250s hanggang 1/500s" },
+            "2": { "label": "1/30s hanggang 1/60s" },
+            "3": { "label": "1s hanggang 2s" }
           }
         }
       }

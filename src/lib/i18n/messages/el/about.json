@@ -1,27 +1,27 @@
 {
   "about": {
-    "title": "About PhotoTools",
-    "subtitle": "Free photography education, right in your browser.",
+    "title": "Σχετικά με το PhotoTools",
+    "subtitle": "Δωρεάν φωτογραφική εκπαίδευση, μέσα στον browser σου.",
     "sections": {
       "whatIs": {
-        "title": "What is PhotoTools?",
-        "body": "PhotoTools is a free collection of interactive photography calculators, simulators, and reference tools. Whether you're learning the exposure triangle for the first time or calculating hyperfocal distance for a landscape shoot, PhotoTools gives you hands-on visual tools to deepen your understanding of photography."
+        "title": "Τι είναι το PhotoTools;",
+        "body": "Το PhotoTools είναι μια δωρεάν συλλογή από διαδραστικούς υπολογιστές, προσομοιωτές και εργαλεία αναφοράς για τη φωτογραφία. Είτε μαθαίνεις το τρίγωνο έκθεσης για πρώτη φορά είτε υπολογίζεις την υπερεστιακή απόσταση για μια λήψη τοπίου, το PhotoTools σου δίνει οπτικά εργαλεία για να εμβαθύνεις στη γνώση σου για τη φωτογραφία."
       },
       "whoIsItFor": {
-        "title": "Who is it for?",
-        "body": "Photographers of all skill levels — from beginners exploring how aperture affects depth of field to experienced shooters planning a star trail session. Every tool includes a learning panel with explanations, key factors, pro tips, and interactive challenges to test your knowledge."
+        "title": "Σε ποιον απευθύνεται;",
+        "body": "Σε φωτογράφους κάθε επιπέδου — από αρχάριους που εξερευνούν πώς το διάφραγμα επηρεάζει το βάθος πεδίου μέχρι έμπειρους που σχεδιάζουν μια νυχτερινή λήψη με ίχνη αστεριών. Κάθε εργαλείο περιλαμβάνει ένα πάνελ εκμάθησης με εξηγήσεις, βασικούς παράγοντες, pro tips και διαδραστικές προκλήσεις για να δοκιμάσεις τις γνώσεις σου."
       },
       "privacyFirst": {
-        "title": "Privacy first",
-        "body": "All calculations and simulations run entirely in your browser. Your photos never leave your device — the EXIF Viewer, for example, processes images 100% client-side. No sign-up is required, and no personal data is collected beyond anonymous analytics."
+        "title": "Πρώτα το απόρρητο",
+        "body": "Όλοι οι υπολογισμοί και οι προσομοιώσεις τρέχουν εξ ολοκλήρου στον browser σου. Οι φωτογραφίες σου δεν φεύγουν ποτέ από τη συσκευή σου — το EXIF Viewer, για παράδειγμα, επεξεργάζεται εικόνες 100% στον browser. Δεν απαιτείται εγγραφή και δεν συλλέγονται προσωπικά δεδομένα πέρα από ανώνυμα analytics."
       },
       "builtBy": {
-        "title": "Built by photographers",
-        "body": "PhotoTools is built and maintained by a photographer and software engineer who wanted better visual tools for understanding the technical side of photography. The tools are grounded in real optics and physics — not approximations — so you can trust the results in the field."
+        "title": "Φτιαγμένο από φωτογράφους",
+        "body": "Το PhotoTools χτίζεται και συντηρείται από έναν φωτογράφο και μηχανικό λογισμικού που ήθελε καλύτερα οπτικά εργαλεία για να κατανοήσει την τεχνική πλευρά της φωτογραφίας. Τα εργαλεία βασίζονται σε πραγματικούς νόμους οπτικής και φυσικής — όχι σε προσεγγίσεις — ώστε να μπορείς να εμπιστεύεσαι τα αποτελέσματα στην πράξη."
       },
       "getInTouch": {
-        "title": "Get in touch",
-        "body": "Have a suggestion, bug report, or tool idea? Reach out via the <contactLink>contact page</contactLink>."
+        "title": "Επικοινώνησε",
+        "body": "Έχεις πρόταση, αναφορά bug ή ιδέα για νέο εργαλείο; Γράψε μας μέσω της <contactLink>σελίδας επικοινωνίας</contactLink>."
       }
     }
   }

@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "旋轉",
+      "center": "置中",
+      "switchToPortrait": "切換為直幅",
+      "switchToLandscape": "切換為橫幅",
+      "centerOverlays": "將覆圖置中",
+      "addLens": "+ 新增鏡頭",
       "fovSimulator": "FOV Simulator",
-      "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
-      "embed": "Embed",
-      "reset": "Reset",
-      "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
-      "wide": "wide",
-      "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
-      "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
-      "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
-      "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "sensor": "感光元件",
+      "copyImage": "複製圖片",
+      "copyLink": "複製連結",
+      "embed": "嵌入",
+      "reset": "重設",
+      "frameInfo": "取景資訊",
+      "distance": "距離",
+      "showFramingGuides": "顯示構圖參考線",
+      "wide": "廣角",
+      "embedTitle": "嵌入",
+      "closeEmbedModal": "關閉嵌入視窗",
+      "markdownLabel": "Markdown（Reddit、GitHub）",
+      "bbcodeLabel": "BBCode（論壇）",
+      "htmlEmbedLabel": "HTML 嵌入",
+      "copied": "已複製",
+      "copy": "複製",
+      "cropView": "裁切檢視：",
+      "collapse": "收合",
+      "expand": "展開",
+      "fovComparison": "視角比較",
+      "loadingScene": "正在載入場景...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "攝影中的視角（FOV）是什麼？",
+          "answer": "視角（Field of View）指的是透過鏡頭與相機感光元件所能看到的場景角度範圍，決定了一張照片能捕捉多廣的場景，主要受焦距與感光元件尺寸影響。"
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "裁切係數如何影響視角？",
+          "answer": "在相同焦距下，較小的感光元件（裁切係數較高）比全片幅感光元件的視角更窄。舉例來說，裁切係數 1.5x 的 APS-C 感光元件會讓 50mm 鏡頭的視角等效於全片幅的 75mm。"
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "視角與焦距之間有什麼關係？",
+          "answer": "視角與焦距成反比。較短的焦距（廣角）視角越寬；較長的焦距（望遠）視角越窄。實際視角還會受到感光元件尺寸影響。"
         }
       }
     }

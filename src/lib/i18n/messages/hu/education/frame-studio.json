@@ -1,104 +1,104 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helps you crop, frame, and compose your photos right in the browser. Use composition grids to improve your framing, crop to popular aspect ratios, and add professional-looking borders — all without losing any image quality.",
+      "beginner": "A Frame Studio segít vágni, keretezni és komponálni a fotóidat, egyenesen a böngészőben. Használj kompozíciós rácsokat a jobb keretezéshez, vágj népszerű képarányokra, és adj professzionális megjelenésű kereteket — mindezt képminőség-veszteség nélkül.",
       "deeper": {
         "0": {
-          "heading": "Composition Grids",
-          "text": "The Rule of Thirds divides the frame into a 3\u00d73 grid — placing subjects along lines or at intersections creates natural visual balance. The Golden Ratio (approximately 1.618:1) provides a mathematically harmonious division used in art and architecture for centuries. The Golden Spiral guides the eye along a logarithmic curve derived from the Fibonacci sequence, useful for leading the viewer through the image."
+          "heading": "Kompozíciós rácsok",
+          "text": "A harmadolás szabálya 3×3-as rácsra osztja a képet — ha a témát a vonalak mentén vagy metszéspontokra helyezed, természetes vizuális egyensúly jön létre. Az aranymetszés (nagyjából 1,618:1) matematikailag harmonikus felosztást ad, amit a művészetben és az építészetben évszázadok óta használnak. Az aranyspirál egy logaritmikus görbét követ a Fibonacci-sorozatból, ami a szemet átvezeti a képen."
         },
         "1": {
-          "heading": "Aspect Ratios",
-          "text": "Different aspect ratios serve different purposes. 1:1 (square) works well for social media and symmetrical compositions. 3:2 is the classic 35mm film ratio. 4:3 is common in micro four-thirds and older digital cameras. 16:9 is the standard widescreen ratio for video and cinematic compositions. 5:4 is traditional for 8\u00d710 prints."
+          "heading": "Képarányok",
+          "text": "Különböző képarányok különböző célokat szolgálnak. A 1:1 (négyzet) jól működik közösségi médián és szimmetrikus kompozíciókban. A 3:2 a klasszikus 35mm filmes arány. A 4:3 gyakori Micro Four Thirds és régebbi digitális gépeknél. A 16:9 a szélesvásznú szabvány videóhoz és filmes kompozíciókhoz. A 5:4 hagyományos a 8×10-es nyomatokhoz."
         },
         "2": {
-          "heading": "Framing and Borders",
-          "text": "Adding a border around a photograph mimics the effect of a physical mat and frame. A white mat provides visual breathing room and directs focus inward. The width of the border relative to the image affects the perceived \"weight\" of the photograph. Gallery-style presentations typically use wider mats. A subtle shadow creates depth, simulating how a framed print sits on a wall."
+          "heading": "Keretezés és paszpartu",
+          "text": "Egy keret hozzáadása a fotóhoz utánozza a fizikai paszpartut és keretet. A fehér paszpartu vizuális levegőt ad, és befelé irányítja a figyelmet. A keret szélességének aránya a képhez befolyásolja a fotó érzékelt „súlyát”. A galériás bemutatáshoz jellemzően szélesebb paszpartu illik. Egy finom árnyék mélységet ad, ahogy egy keretezett nyomat is ül a falon."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Composition Grid",
-          "description": "Overlay guides help you evaluate and improve subject placement within the frame."
+          "label": "Kompozíciós rács",
+          "description": "A segédvonalak átfedése segít értékelni és javítani a téma elhelyezését a képben."
         },
         "1": {
-          "label": "Aspect Ratio",
-          "description": "The width-to-height proportion affects how the image feels — wider ratios feel cinematic, square feels balanced."
+          "label": "Képarány",
+          "description": "A szélesség-magasság arány befolyásolja a kép érzését — a szélesebb arányok filmesebbek, a négyzet kiegyensúlyozott."
         },
         "2": {
-          "label": "Border Width",
-          "description": "Wider borders add gravitas and focus; narrow borders feel modern and minimal."
+          "label": "Keretszélesség",
+          "description": "A szélesebb keretek súlyt és fókuszt adnak; a keskenyek modernek és minimalisták."
         },
         "3": {
-          "label": "Mat Color",
-          "description": "White mats are classic for art photography. Dark mats emphasize lighter images. Color mats can complement or contrast."
+          "label": "Paszpartu színe",
+          "description": "A fehér paszpartu klasszikus a művészi fotóhoz. A sötét paszpartu a világosabb képeket emeli ki. A színes paszpartu kiegészíthet vagy kontrasztot adhat."
         }
       },
       "tips": {
         "0": {
-          "text": "For Instagram posts, crop to 4:5 (portrait) to take up maximum screen space in the feed."
+          "text": "Instagram posztokhoz vágj 4:5-re (álló), hogy maximális képernyőterületet foglalj el a feedben."
         },
         "1": {
-          "text": "When adding a border for print, use a mat width of at least 10% of the image's shorter dimension for a professional look."
+          "text": "Nyomathoz használt keretnél a paszpartu szélessége legyen legalább a kép rövidebb oldalának 10%-a a profi hatásért."
         },
         "2": {
-          "text": "The Golden Spiral is most effective for images with a natural flow — water, roads, or curved architecture."
+          "text": "Az aranyspirál akkor a leghatékonyabb, ha a képnek természetes íve van — víz, utak vagy íves építészet."
         }
       },
       "tooltips": {
         "Aspect Ratio": {
-          "term": "Aspect Ratio",
-          "definition": "The proportional relationship between width and height. Common ratios include 3:2 (35mm), 4:3 (M43), and 16:9 (widescreen)."
+          "term": "Képarány",
+          "definition": "A szélesség és a magasság arányának viszonya. Gyakori arányok: 3:2 (35mm), 4:3 (M43), 16:9 (szélesvásznú)."
         },
         "Rule of Thirds": {
-          "term": "Rule of Thirds",
-          "definition": "A composition guideline that divides the frame into 9 equal parts. Placing subjects at intersection points creates visual interest."
+          "term": "Harmadolás szabálya",
+          "definition": "Kompozíciós irányelv, ami a képet 9 egyenlő részre osztja. Ha a témát a metszéspontokra helyezed, vizuálisan érdekesebbé teszed."
         },
         "Golden Ratio": {
-          "term": "Golden Ratio",
-          "definition": "A mathematical proportion (~1.618:1) found in nature and art. Creates aesthetically pleasing divisions of space."
+          "term": "Aranymetszés",
+          "definition": "Matematikai arány (~1,618:1), ami a természetben és a művészetben is megjelenik. Esztétikailag kellemes térosztást ad."
         },
         "Border Width": {
-          "term": "Border Width",
-          "definition": "The thickness of the frame border in pixels. Goes outside the image, increasing total dimensions without cropping."
+          "term": "Keretszélesség",
+          "definition": "A keret vastagsága pixelben. A képen kívül helyezkedik el, növelve a teljes méretet vágás nélkül."
         },
         "Inner Mat": {
-          "term": "Inner Mat",
-          "definition": "A second, thinner border between the outer frame and the image — mimics the beveled inner mat of a physical picture frame."
+          "term": "Belső paszpartu",
+          "definition": "Egy második, vékonyabb keret a külső keret és a kép között — a fizikai képkeretek ferdevágású belső paszpartuját utánozza."
         },
         "Corner Radius": {
-          "term": "Corner Radius",
-          "definition": "Rounds the corners of the frame border. Zero gives sharp corners, higher values give a softer, rounded look."
+          "term": "Sarokkerekítés",
+          "definition": "A keret sarkait kerekíti. A nulla éles sarkokat ad, a magasabb érték lágyabb, kerekített megjelenést."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to post a portrait photo on Instagram for maximum feed presence. Which aspect ratio should you use?",
-          "hint": "Instagram portrait posts use a taller-than-wide ratio.",
-          "successMessage": "Correct! 4:5 gives you the maximum vertical space in the Instagram feed.",
-          "failureMessage": "Instagram portrait posts use 4:5 (flip 5:4 to portrait orientation) for maximum feed real estate.",
+          "scenario": "Egy álló portré fotót szeretnél posztolni Instagramra maximális feed-jelenlétért. Melyik képarányt használd?",
+          "hint": "Az Instagram álló posztok magasabb arányt használnak.",
+          "successMessage": "Jó! A 4:5 maximális függőleges helyet ad az Instagram feedben.",
+          "failureMessage": "Az Instagram álló posztok 4:5-t használnak (az 5:4 álló verzióját) a maximális feedhelyért.",
           "options": {
-            "0": { "label": "1:1 (Square)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": { "label": "1:1 (négyzet)" },
+            "1": { "label": "4:5 (álló)" },
+            "2": { "label": "16:9 (szélesvásznú)" }
           }
         },
         "1": {
-          "scenario": "Which composition grid is the most widely taught starting point for beginners?",
-          "hint": "It divides the frame into 9 equal sections.",
-          "successMessage": "Right! The Rule of Thirds is the foundational composition guide.",
-          "failureMessage": "The Rule of Thirds (3\u00d73 grid) is the most common starting point for learning composition.",
+          "scenario": "Melyik a legszélesebb körben tanított kompozíciós rács kezdőknek?",
+          "hint": "Ez a rács 9 egyenlő részre osztja a képet.",
+          "successMessage": "Jó! A harmadolás szabálya a kompozíció alapja.",
+          "failureMessage": "A harmadolás szabálya (3×3-as rács) a legelterjedtebb kiindulópont a kompozíció tanulásához.",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Diagonal Lines" }
+            "0": { "label": "Harmadolás szabálya" },
+            "1": { "label": "Aranyspirál" },
+            "2": { "label": "Átlós vonalak" }
           }
         },
         "2": {
-          "scenario": "You are preparing a photo for gallery printing on 8\u00d710 paper. Which aspect ratio matches this print size?",
-          "hint": "8\u00f710 simplifies to a well-known ratio.",
-          "successMessage": "Correct! 5:4 matches 8\u00d710 print dimensions perfectly.",
-          "failureMessage": "8\u00d710 simplifies to 4:5, which is the portrait version of 5:4.",
+          "scenario": "Egy fotót készítesz elő galériás nyomtatásra 8×10 papíron. Melyik képarány illik ehhez a méretű nyomathoz?",
+          "hint": "A 8÷10 egy jól ismert arányra egyszerűsödik.",
+          "successMessage": "Jó! Az 5:4 pontosan illeszkedik a 8×10 nyomat méreteihez.",
+          "failureMessage": "A 8×10 a 4:5-re egyszerűsödik, ami az 5:4 álló változata.",
           "options": {
             "0": { "label": "3:2" },
             "1": { "label": "5:4" },
@@ -106,21 +106,21 @@
           }
         },
         "3": {
-          "scenario": "A landscape photo features a winding river leading from the foreground to mountains in the background. Which grid overlay best matches this natural flow?",
-          "hint": "One grid type follows a natural curved path.",
-          "successMessage": "Great choice! The Golden Spiral follows curves and leading lines perfectly.",
-          "failureMessage": "The Golden Spiral is ideal for images with natural curved elements like rivers, roads, or coastlines.",
+          "scenario": "Egy tájkép fotón egy kanyargós folyó vezet az előtértől a hegyekig a háttérben. Melyik rács illik a legjobban ehhez a természetes vonalvezetéshez?",
+          "hint": "Az egyik rács egy természetes, íves pályát követ.",
+          "successMessage": "Jó választás! Az aranyspirál tökéletesen követi az íveket és vezetővonalakat.",
+          "failureMessage": "Az aranyspirál ideális olyan képekhez, ahol természetes íves elemek vannak: folyók, utak vagy partvonalak.",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Square Grid" }
+            "0": { "label": "Középkereszt" },
+            "1": { "label": "Aranyspirál" },
+            "2": { "label": "Négyzetrács" }
           }
         },
         "4": {
-          "scenario": "You want a clean white border to present your photo on social media. Which frame preset should you use?",
-          "hint": "Think about which preset gives you a simple white border.",
-          "successMessage": "Correct! The White preset adds a 100px white border around your photo.",
-          "failureMessage": "The White preset is designed for a clean, simple white border presentation.",
+          "scenario": "Tiszta fehér keretet szeretnél, hogy bemutasd a fotódat közösségi médián. Melyik keret-beállítást használd?",
+          "hint": "Gondolj arra, melyik beállítás ad egyszerű, fehér keretet.",
+          "successMessage": "Jó! A White beállítás 100 pixeles fehér keretet ad a fotód köré.",
+          "failureMessage": "A White beállítás egyszerű, tiszta fehér kerethez lett tervezve.",
           "options": {
             "0": { "label": "None" },
             "1": { "label": "White" },

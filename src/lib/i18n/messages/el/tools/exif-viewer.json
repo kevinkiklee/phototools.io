@@ -2,7 +2,7 @@
   "toolUI": {
     "exif-viewer": {
       "loadExamplePhoto": "Load example photo",
-      "couldNotReadExif": "Could not read EXIF data from this image.",
+      "couldNotReadExif": "Δεν ήταν δυνατή η ανάγνωση δεδομένων EXIF από αυτή την εικόνα.",
       "failedToReadFile": "Failed to read the file.",
       "uploadedPhoto": "Uploaded photo",
       "analysis": "Analysis",
@@ -38,7 +38,7 @@
       "latitudeLabel": "Latitude",
       "longitudeLabel": "Longitude",
       "softwareLabel": "Software",
-      "gpsWarning": "This photo contains location data. Be careful when sharing the original file.",
+      "gpsWarning": "Αυτή η φωτογραφία περιέχει δεδομένα τοποθεσίας. Να είσαι προσεκτικός όταν μοιράζεσαι το αρχικό αρχείο.",
       "luminance": "Luminance",
       "red": "Red",
       "green": "Green",
@@ -56,16 +56,16 @@
       "evVeryDark": "Very dark",
       "faq": {
         "what-is-exif-data": {
-          "question": "What is EXIF data in a photo?",
-          "answer": "EXIF (Exchangeable Image File Format) data is metadata embedded in your photo by the camera. It includes camera settings (aperture, shutter speed, ISO), the camera and lens model, date and time, and sometimes GPS location."
+          "question": "Τι είναι τα δεδομένα EXIF σε μια φωτογραφία;",
+          "answer": "Τα δεδομένα EXIF (Exchangeable Image File Format) είναι metadata που ενσωματώνονται στη φωτογραφία σου από την κάμερα. Περιλαμβάνουν τις ρυθμίσεις της κάμερας (διάφραγμα, ταχύτητα κλείστρου, ISO), το μοντέλο της κάμερας και του φακού, την ημερομηνία και ώρα, και μερικές φορές την τοποθεσία GPS."
         },
         "how-to-read-histogram": {
-          "question": "How do I read a photo histogram?",
-          "answer": "A histogram shows the distribution of brightness in your image from shadows (left) to highlights (right). A well-exposed photo typically has data spread across the range without clipping at either end, though the ideal shape depends on the scene."
+          "question": "Πώς διαβάζω το ιστόγραμμα μιας φωτογραφίας;",
+          "answer": "Το ιστόγραμμα δείχνει την κατανομή της φωτεινότητας στην εικόνα σου, από τις σκιές (αριστερά) μέχρι τα φωτεινά σημεία (δεξιά). Μια καλά εκτεθειμένη φωτογραφία συνήθως έχει δεδομένα απλωμένα σε όλο το εύρος χωρίς clipping στα άκρα, αν και το ιδανικό σχήμα εξαρτάται από τη σκηνή."
         },
         "does-exif-contain-location": {
-          "question": "Does EXIF data contain my location?",
-          "answer": "If your camera or phone has GPS enabled, EXIF data can include precise GPS coordinates where the photo was taken. Be aware of this when sharing photos online — many social platforms strip EXIF data, but not all do."
+          "question": "Τα δεδομένα EXIF περιέχουν την τοποθεσία μου;",
+          "answer": "Αν η κάμερα ή το τηλέφωνό σου έχει ενεργοποιημένο το GPS, τα δεδομένα EXIF μπορεί να περιλαμβάνουν ακριβείς συντεταγμένες GPS από το σημείο που τραβήχτηκε η φωτογραφία. Έχε το υπόψη όταν μοιράζεσαι φωτογραφίες online — πολλές πλατφόρμες social media αφαιρούν τα EXIF, αλλά όχι όλες."
         }
       }
     }

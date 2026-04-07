@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "Bintang kelihatan bergerak melintasi langit kerana Bumi berputar. Jika pengatup anda terbuka cukup lama, bintang akan bergaris menjadi jejak dalam foto anda. Kalkulator jejak bintang membantu anda mencari masa pendedahan maksimum untuk bintang titik, atau merancang pendedahan panjang untuk mencipta arka jejak bintang bulat yang cantik.",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "Cara Bintang Bergerak",
+          "text": "Bumi berputar 360° dalam kira-kira 23 jam 56 minit (sehari sidereal), jadi bintang bergerak pada kira-kira 15 saat arka sesaat pada khatulistiwa angkasa. Bintang berhampiran kutub (Polaris di utara) mengesan bulatan yang lebih kecil dan kelihatan bergerak lebih perlahan."
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "Peraturan 500 lawan Peraturan NPF",
+          "text": "\"Peraturan 500\" klasik membahagikan 500 dengan panjang fokus berkesan anda untuk menganggarkan pendedahan maksimum sebelum jejak kelihatan — tetapi ia direka untuk sensor resolusi lebih rendah. Peraturan NPF mengambil kira pitch piksel, panjang fokus, aperture dan deklinasi, menghasilkan had yang lebih pendek dan lebih tepat untuk kamera resolusi tinggi moden."
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "Stacking untuk Jejak Bintang",
+          "text": "Untuk jejak bintang yang disengajakan, jurugambar menangkap banyak pendedahan lebih pendek (biasanya 30s setiap satu) dan menyusunnya dalam perisian. Ini mengelakkan pembinaan noise, membolehkan jejak tanpa jurang, dan bermakna satu bingkai buruk tidak merosakkan keseluruhan tangkapan."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "Panjang Fokus",
+          "description": "Panjang fokus lebih panjang membesarkan pergerakan bintang, memerlukan pendedahan lebih pendek untuk bintang titik. Lensa 14mm boleh mendedah 5-10 kali lebih lama daripada lensa 200mm."
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "Resolusi Sensor",
+          "description": "Sensor resolusi lebih tinggi mendedahkan jejak bintang pada masa pendedahan yang lebih pendek. Peraturan 500 terlalu murah hati untuk kamera 40MP+ moden."
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "Latitud & Deklinasi",
+          "description": "Bintang berhampiran kutub angkasa bergerak kurang sesaat. Menunjuk ke arah Polaris membenarkan pendedahan lebih lama sebelum jejak muncul."
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "Stacking lawan Pendedahan Tunggal",
+          "description": "Untuk jejak bintang, menyusun banyak pendedahan pendek menghasilkan hasil lebih bersih daripada satu pendedahan yang sangat panjang, dan membolehkan pemulihan daripada gangguan."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "Gunakan Peraturan NPF dan bukan Peraturan 500 untuk kamera moden. Ia mengambil kira resolusi sensor dan menghasilkan masa pendedahan maksimum yang lebih tepat, terutamanya dengan badan berbilang megapiksel tinggi."
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "Untuk stacking jejak bintang, kekalkan jurang antara bingkai di bawah 2-3 saat menggunakan jauh kawalan berwayar atau intervalometer. Jurang yang lebih panjang mencipta jejak berbintik dan bukan lancar."
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "Masukkan Polaris (atau Kutub Angkasa Selatan) dalam komposisi anda untuk jejak bulatan sepusat yang dramatik. Bintang lebih dekat dengan kutub mengesan arka lebih ketat."
         }
       },
       "tooltips": {
         "mode": {
-          "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "term": "Mod",
+          "definition": "Pilih \"Sharp Stars\" untuk mengira masa pendedahan maksimum untuk bintang titik, atau \"Star Trails\" untuk merancang urutan pendedahan bagi kesan jejak yang disengajakan."
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "Panjang Fokus",
+          "definition": "Panjang fokus lensa dalam milimeter. Panjang fokus lebih panjang membesarkan pergerakan bintang yang nampak, memerlukan pendedahan individu lebih pendek."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "Saiz Sensor",
+          "definition": "Dimensi sensor fizikal. Digabungkan dengan resolusi, menentukan pitch piksel, yang mempengaruhi betapa cepatnya jejak bintang menjadi kelihatan."
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "Resolusi",
+          "definition": "Resolusi sensor dalam megapiksel. Kamera resolusi lebih tinggi mendedahkan jejak bintang lebih awal kerana setiap piksel meliputi kawasan sudut langit yang lebih kecil."
         },
         "aperture": {
           "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "definition": "Bukaan lensa. Untuk astrofotografi, gunakan aperture paling luas yang tersedia (nombor-f paling rendah) untuk menangkap cahaya bintang paling banyak dalam setiap bingkai."
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "Latitud",
+          "definition": "Latitud geografi anda. Mempengaruhi kadar pergerakan bintang yang nampak — pada latitud lebih tinggi, bintang berhampiran kutub bergerak lebih perlahan melintasi bingkai."
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "Pendedahan Setiap Bingkai",
+          "definition": "Kelajuan pengatup untuk setiap bingkai individu dalam urutan jejak bintang. Biasanya 15-30 saat untuk menangkap cukup cahaya sambil mengelakkan noise berlebihan."
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "Bilangan Bingkai",
+          "definition": "Berapa banyak pendedahan individu untuk diambil. Lebih banyak bingkai bermakna jejak bintang lebih panjang dan lebih dramatik. 120 bingkai pada 30 saat setiap satu menghasilkan satu jam jejak."
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "Jurang Antara Bingkai",
+          "definition": "Masa antara pendedahan untuk kamera menyimpan fail. Kekalkan ini seterpendek mungkin (1-3 saat) untuk mengelakkan jejak berbintik."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "Anda sedang menangkap Bima Sakti dengan lensa 24mm pada kamera full-frame 24MP. Menggunakan Peraturan 500, kira-kira berapa lama anda boleh mendedah sebelum bintang mula berjejak?",
+          "hint": "Peraturan 500: saat maksimum = 500 / panjang fokus.",
+          "successMessage": "Betul! 500 / 24 = kira-kira 20 saat. Ini adalah titik permulaan yang baik, walaupun Peraturan NPF mungkin mencadangkan masa yang sedikit lebih pendek untuk ketajaman kritikal.",
+          "failureMessage": "Gunakan Peraturan 500: bahagikan 500 dengan panjang fokus anda (24mm). Itu memberi anda kira-kira 20 saat.",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 saat" },
+            "1": { "label": "10 saat" },
+            "2": { "label": "20 saat" },
+            "3": { "label": "60 saat" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "Anda ingin menangkap Nebula Orion dengan lensa 200mm pada kamera sensor crop (faktor crop 1.5x). Apakah pendedahan maksimum anggaran menggunakan Peraturan 500?",
+          "hint": "Dengan sensor crop, darabkan panjang fokus dengan faktor crop dahulu, kemudian gunakan peraturan tersebut.",
+          "successMessage": "Betul! Panjang fokus berkesan ialah 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 saat. Pada panjang telefoto pada sensor crop, anda mempunyai sangat sedikit masa sebelum jejak muncul.",
+          "failureMessage": "Ingat untuk mengambil kira faktor crop: 200mm x 1.5 = 300mm berkesan. Kemudian 500 / 300 memberi kira-kira 1.7 saat.",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1.7 saat" },
+            "1": { "label": "~2.5 saat" },
+            "2": { "label": "~5 saat" },
+            "3": { "label": "~10 saat" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "Anda ingin mencipta foto jejak bintang 2 jam. Anda bercadang untuk menangkap pendedahan 30-saat dengan jurang 2-saat. Berapa banyak bingkai yang anda perlukan?",
+          "hint": "Kira berapa banyak selang 32-saat (pendedahan 30s + jurang 2s) muat dalam 2 jam (7200 saat).",
+          "successMessage": "Betul! 7200 saat / 32 saat per bingkai = 225 bingkai. Anda akan mendapat jejak yang lancar dan berterusan merentasi 2 jam putaran Bumi.",
+          "failureMessage": "Dua jam = 7200 saat. Setiap kitaran bingkai ialah 30s + 2s = 32s. Bahagikan 7200 dengan 32 untuk mendapatkan bilangan bingkai yang diperlukan.",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 bingkai" },
+            "1": { "label": "180 bingkai" },
+            "2": { "label": "225 bingkai" },
+            "3": { "label": "240 bingkai" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "Kawan anda menggunakan kamera full-frame 50MP dan mengikut Peraturan 500 dengan lensa 20mm, mendapat pendedahan 25-saat. Mereka mengadu bintang kelihatan seperti jalur pendek apabila diperbesar. Mengapa?",
+          "hint": "Peraturan 500 direka untuk sensor lama, resolusi lebih rendah.",
+          "successMessage": "Tepat sekali! Peraturan 500 terlalu murah hati untuk sensor resolusi tinggi. Sensor full-frame 50MP mempunyai pitch piksel kira-kira 4.4 mikrometer, dan Peraturan NPF akan mencadangkan kira-kira 10-12 saat untuk bintang yang benar-benar tajam.",
+          "failureMessage": "Peraturan 500 dicipta apabila sensor mempunyai megapiksel yang jauh lebih sedikit. Dengan 50MP, setiap piksel meliputi hirisan langit yang jauh lebih kecil, mendedahkan pergerakan bintang yang tidak kelihatan pada kamera lama.",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "Lensa tidak fokus" },
+            "1": { "label": "Peraturan 500 terlalu murah hati untuk sensor resolusi tinggi" },
+            "2": { "label": "Kamera bergegar dalam angin" },
+            "3": { "label": "20mm terlalu lebar untuk astrofotografi" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "Anda mahukan imej jejak bintang 1-jam. Mengapa astrofotografer berpengalaman menyusun banyak pendedahan pendek (contoh 240 x 15s) dan bukannya mengambil satu pendedahan 1-jam?",
+          "hint": "Fikirkan tentang apa yang berlaku kepada noise sensor, jangka hayat bateri, dan kebolehpulihan semasa pendedahan tunggal yang sangat panjang.",
+          "successMessage": "Betul! Satu pendedahan selama sejam mengumpul noise termal yang besar-besaran, menguras bateri, dan jika ada yang tidak kena (gegaran, embun, lampu kereta) keseluruhan tangkapan akan musnah. Menyusun bingkai pendek mengekalkan noise rendah, membolehkan anda mengalih keluar bingkai buruk, dan jauh lebih memaafkan.",
+          "failureMessage": "Pendedahan tunggal yang panjang membina noise termal yang teruk dan berisiko kehilangan sepenuhnya daripada sebarang gangguan. Menyusun bingkai pendek mengekalkan noise yang boleh diurus, membolehkan anda membuang bingkai rosak, dan menghasilkan hasil yang lebih bersih.",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "Stacking menghasilkan jejak lebih panjang daripada pendedahan tunggal" },
+            "1": { "label": "Pendedahan tunggal tidak boleh merakam pergerakan bintang" },
+            "2": { "label": "Stacking mengurangkan noise, membolehkan pemulihan daripada gangguan, dan menjimatkan bateri" },
+            "3": { "label": "Tiada perbezaan praktikal — ia hanya keutamaan peribadi" }
           }
         }
       }

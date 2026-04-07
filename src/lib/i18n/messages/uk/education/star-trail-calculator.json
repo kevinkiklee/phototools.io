@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "Зорі здаються такими, що рухаються небом, бо обертається сама Земля. Якщо твій затвор відкритий досить довго, зірки перетворяться на смуги на знімку. Star Trail Calculator допомагає знайти максимальну витримку для точкових зірок або сплануй довгу експозицію, щоб намалювати красиві дугоподібні зоряні треки.",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "Як рухаються зірки",
+          "text": "Земля обертається на 360° приблизно за 23 години 56 хвилин (зоряна доба), тож на небесному екваторі зірки рухаються приблизно на 15 кутових секунд за секунду. Зорі біля полюсів (Полярна на півночі) малюють менші кола і видимо рухаються повільніше."
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "Правило 500 проти правила NPF",
+          "text": "Класичне \"правило 500\" ділить 500 на ефективну фокусну відстань, щоб оцінити максимальну витримку до появи треків — але воно було створене для матриць з нижчою роздільністю. Правило NPF враховує піксель-пітч, фокусну відстань, діафрагму й схилення і дає коротші, точніші значення для сучасних високороздільних камер."
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "Стекінг для зоряних треків",
+          "text": "Для свідомих зоряних треків фотографи роблять багато коротших експозицій (зазвичай по 30 секунд) і стекують їх у програмі. Це уникає накопичення шуму, дає треки без проміжків і означає, що один невдалий кадр не вбиває весь знімок."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "Фокусна відстань",
+          "description": "Довші фокусні відстані підсилюють рух зірок і вимагають коротших експозицій для точкових зірок. На 14 мм можна експонувати у 5–10 разів довше, ніж на 200 мм."
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "Роздільність матриці",
+          "description": "Матриці з вищою роздільністю видають зоряні треки вже на коротших експозиціях. Правило 500 занадто поблажливе для сучасних 40+ МП камер."
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "Широта і схилення",
+          "description": "Зорі біля небесних полюсів рухаються повільніше за секунду. Якщо наводити камеру на Полярну, можна робити довші експозиції до появи треків."
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "Стек проти одного кадру",
+          "description": "Для зоряних треків стек з багатьох коротких експозицій дає чистіший результат, ніж одна дуже довга, і дозволяє відновитися після збоїв."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "Бери правило NPF замість правила 500 для сучасних камер. Воно враховує роздільність матриці й дає точніші значення максимальної витримки — особливо на високомегапіксельних тушках."
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "Для стекінгу зоряних треків тримай проміжки між кадрами в межах 2–3 секунд — використовуй дротовий пульт або інтервалометр. Довші проміжки дають пунктирні треки замість суцільних."
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "Включи в композицію Полярну (або південний полюс світу), щоб отримати драматичні концентричні кола. Зорі ближче до полюсу малюють тугіші дуги."
         }
       },
       "tooltips": {
         "mode": {
-          "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "term": "Режим",
+          "definition": "Вибирай \"Sharp Stars\", щоб порахувати максимальну витримку для точкових зірок, або \"Star Trails\", щоб спланувати послідовність експозицій для свідомих треків."
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "Фокусна відстань",
+          "definition": "Фокусна відстань об'єктива в міліметрах. Довші фокусні підсилюють видимий рух зірок і вимагають коротших окремих експозицій."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "Розмір матриці",
+          "definition": "Фізичні розміри матриці. Разом із роздільністю визначає піксель-пітч, що впливає на те, як швидко з'являється зоряний трек."
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "Роздільність",
+          "definition": "Роздільність матриці в мегапікселях. Камери з вищою роздільністю видають треки швидше, бо кожен піксель покриває меншу кутову ділянку неба."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "term": "Діафрагма",
+          "definition": "Отвір об'єктива. Для астрофото бери найширшу доступну діафрагму (найменше f-число), щоб захопити якнайбільше світла зірок у кожному кадрі."
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "Широта",
+          "definition": "Твоя географічна широта. Впливає на швидкість видимого руху зірок — на вищих широтах зорі біля полюса рухаються кадром повільніше."
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "Експозиція на кадр",
+          "definition": "Витримка для кожного окремого кадру в послідовності зоряних треків. Зазвичай 15–30 секунд, щоб захопити достатньо світла, не набираючи зайвого шуму."
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "Кількість кадрів",
+          "definition": "Скільки окремих експозицій знімати. Більше кадрів — довші й драматичніші треки. 120 кадрів по 30 секунд дають годину треків."
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "Проміжок між кадрами",
+          "definition": "Час між експозиціями, поки камера зберігає файл. Тримай його якомога коротшим (1–3 секунди), щоб треки не виходили пунктирними."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "Знімаєш Молочний Шлях на 24 мм на повнокадровій 24-мегапіксельній камері. За правилом 500 — скільки приблизно можна експонувати, перш ніж зірки почнуть залишати треки?",
+          "hint": "Правило 500: максимум секунд = 500 / фокусна відстань.",
+          "successMessage": "Так! 500 / 24 ≈ 20 секунд. Це гарна стартова точка, хоча NPF може порадити трохи коротшу витримку для критично точкових зірок.",
+          "failureMessage": "Застосуй правило 500: поділи 500 на фокусну (24 мм). Отримуєш приблизно 20 секунд.",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 секунд" },
+            "1": { "label": "10 секунд" },
+            "2": { "label": "20 секунд" },
+            "3": { "label": "60 секунд" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "Хочеш зняти туманність Оріона на 200 мм на кроп-камері (кроп 1.5×). Яка приблизно максимальна витримка за правилом 500?",
+          "hint": "На кроп-камері спершу помнож фокусну на кроп-фактор, тоді застосуй правило.",
+          "successMessage": "Правильно! Ефективна фокусна — 200 мм × 1.5 = 300 мм. 500 / 300 = ~1.7 секунди. На телевитягу на кроп-матриці часу до появи треку дуже мало.",
+          "failureMessage": "Не забудь про кроп-фактор: 200 мм × 1.5 = 300 мм ефективної. Далі 500 / 300 ≈ 1.7 секунди.",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1.7 секунди" },
+            "1": { "label": "~2.5 секунди" },
+            "2": { "label": "~5 секунд" },
+            "3": { "label": "~10 секунд" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "Хочеш зняти 2-годинне фото зоряних треків. Плануєш 30-секундні експозиції з 2-секундними проміжками. Скільки кадрів потрібно?",
+          "hint": "Порахуй, скільки 32-секундних інтервалів (30s + 2s) вкладається у 2 години (7200 секунд).",
+          "successMessage": "Правильно! 7200 секунд / 32 секунди на цикл = 225 кадрів. Отримаєш плавні безперервні треки на 2 години обертання Землі.",
+          "failureMessage": "Дві години = 7200 секунд. Кожен цикл — 30s + 2s = 32s. Поділи 7200 на 32 — отримаєш кількість кадрів.",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 кадрів" },
+            "1": { "label": "180 кадрів" },
+            "2": { "label": "225 кадрів" },
+            "3": { "label": "240 кадрів" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "Друг має 50-мегапіксельну повнокадрову камеру і знімав за правилом 500 з 20 мм на 25 секунд. Скаржиться, що зорі виглядають як короткі смужки при перегляді з наближенням. Чому?",
+          "hint": "Правило 500 створювалося для старіших матриць з нижчою роздільністю.",
+          "successMessage": "Саме так! Правило 500 занадто поблажливе до матриць з високою роздільністю. 50-мегапіксельний повний кадр має піксель-пітч близько 4.4 мкм, і правило NPF порадило б приблизно 10–12 секунд для дійсно точкових зірок.",
+          "failureMessage": "Правило 500 створювали, коли матриці мали значно менше мегапікселів. На 50 МП кожен піксель покриває набагато меншу ділянку неба і виявляє рух зірок, який раніше був непомітний.",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "Об'єктив був не у фокусі" },
+            "1": { "label": "Правило 500 занадто поблажливе для матриць з високою роздільністю" },
+            "2": { "label": "Камеру хитало вітром" },
+            "3": { "label": "20 мм занадто широкий для астрофото" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "Хочеш 1-годинне фото зоряних треків. Чому досвідчені астрофотографи стекують багато коротких експозицій (наприклад, 240 × 15s) замість одного 1-годинного кадру?",
+          "hint": "Подумай про шум матриці, ресурс батареї і можливість відновитися під час надзвичайно довгої експозиції.",
+          "successMessage": "Правильно! Одна годинна експозиція накопичує величезний термошум, висушує батарею, а якщо щось піде не так (вібрація, роса, автомобільні фари) — увесь кадр знищено. Стек із коротких кадрів тримає шум низьким, дає вибити зіпсовані кадри і набагато терпиміший до помилок.",
+          "failureMessage": "Довгі одиночні експозиції накопичують сильний термошум і ризикують повною втратою при будь-якому зриві. Стекінг коротких кадрів тримає шум керованим, дозволяє відкидати зіпсовані й дає чистіший результат.",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "Стекінг дає довші треки, ніж один кадр" },
+            "1": { "label": "Один кадр не може записати рух зірок" },
+            "2": { "label": "Стекінг зменшує шум, дозволяє відновитися після збоїв і зберігає батарею" },
+            "3": { "label": "Різниці нема — це суто справа смаку" }
           }
         }
       }

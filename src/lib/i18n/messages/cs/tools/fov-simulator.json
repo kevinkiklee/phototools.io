@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "Otočit",
+      "center": "Vycentrovat",
+      "switchToPortrait": "Přepnout na na výšku",
+      "switchToLandscape": "Přepnout na na šířku",
+      "centerOverlays": "Vycentrovat překryvy",
+      "addLens": "+ Přidat objektiv",
       "fovSimulator": "FOV Simulator",
-      "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
-      "embed": "Embed",
-      "reset": "Reset",
-      "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
-      "wide": "wide",
-      "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
+      "sensor": "Snímač",
+      "copyImage": "Kopírovat obrázek",
+      "copyLink": "Kopírovat odkaz",
+      "embed": "Vložit",
+      "reset": "Resetovat",
+      "frameInfo": "Informace o snímku",
+      "distance": "Vzdálenost",
+      "showFramingGuides": "Zobrazit kompoziční vodítka",
+      "wide": "široký",
+      "embedTitle": "Vložit",
+      "closeEmbedModal": "Zavřít dialog vložení",
       "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
-      "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
-      "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "bbcodeLabel": "BBCode (fóra)",
+      "htmlEmbedLabel": "HTML vložení",
+      "copied": "Zkopírováno",
+      "copy": "Kopírovat",
+      "cropView": "Zobrazit výřez:",
+      "collapse": "Sbalit",
+      "expand": "Rozbalit",
+      "fovComparison": "Porovnání zorných úhlů",
+      "loadingScene": "Načítám scénu...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Co je zorný úhel ve fotografii?",
+          "answer": "Zorný úhel (FOV) je úhlový rozsah scény, který je vidět skrz objektiv a snímač fotoaparátu. Určuje, kolik ze scény se do snímku vejde, a závisí na ohniskové vzdálenosti a velikosti snímače."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Jak crop faktor ovlivňuje zorný úhel?",
+          "answer": "Menší snímač (vyšší crop faktor) zachytí při stejné ohniskové vzdálenosti užší zorný úhel než full frame. Například APS-C s crop faktorem 1,5× způsobí, že se 50mm objektiv chová jako 75mm z hlediska zorného úhlu."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Jaký je vztah mezi FOV a ohniskovou vzdáleností?",
+          "answer": "Zorný úhel a ohnisková vzdálenost jsou nepřímo úměrné. Kratší ohniska (širokoúhlé) nabízejí širší zorný úhel, delší ohniska (teleobjektivy) užší. Přesná hodnota FOV navíc závisí na velikosti snímače."
         }
       }
     }

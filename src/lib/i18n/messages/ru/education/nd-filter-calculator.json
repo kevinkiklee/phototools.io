@@ -1,109 +1,109 @@
 {
   "education": {
     "nd-filter-calculator": {
-      "beginner": "An ND (neutral density) filter is like sunglasses for your camera lens. It reduces the amount of light entering the lens without changing the colors, allowing you to use slower shutter speeds or wider apertures in bright conditions. This is how photographers create silky waterfalls, smooth oceans, or blurred clouds during the day.",
-      "deeper": "ND filters are rated by how many stops of light they block. An ND2 filter (1 stop) halves the light, an ND8 (3 stops) reduces it to 1/8th, and an ND1000 (10 stops) reduces light by a factor of 1024. The naming conventions can be confusing: \"ND8\" means the filter factor is 8 (3 stops), while \"ND 0.9\" uses optical density notation (each 0.3 = 1 stop, so 0.9 = 3 stops). The resulting shutter speed is simply the base speed multiplied by the filter factor. For example, if your unfiltered exposure is 1/125s and you add a 10-stop ND (ND1000), the new shutter speed is 1/125 x 1024 = approximately 8 seconds. Stacking multiple ND filters adds their stop values together but can introduce vignetting and color casts, especially with wide-angle lenses.",
+      "beginner": "ND-фильтр (нейтрально-серый) — это как солнцезащитные очки для объектива. Он уменьшает количество света, попадающего на матрицу, не меняя цветов, и позволяет использовать более длинные выдержки или более открытые диафрагмы в ярких условиях. Так фотографы делают «шелковистые» водопады, гладкое море и смазанные облака днём.",
+      "deeper": "ND-фильтры маркируются по количеству ступеней, на которое они ослабляют свет. ND2 (1 ступень) уменьшает свет вдвое, ND8 (3 ступени) — до 1/8, ND1000 (10 ступеней) — в 1024 раза. В названиях легко запутаться: «ND8» значит «множитель 8» (3 ступени), а «ND 0.9» — запись в оптической плотности (каждые 0.3 = 1 ступень, то есть 0.9 = 3 ступени). Итоговая выдержка — это базовая выдержка, умноженная на множитель фильтра. Например, если без фильтра правильная экспозиция 1/125 с и ты ставишь 10-ступенчатый ND (ND1000), новая выдержка — 1/125 × 1024 ≈ 8 секунд. Несколько ND-фильтров можно складывать, добавляя их ступени, но появляется риск виньетирования и цветовых сдвигов, особенно на широкоугольных объективах.",
       "keyFactors": {
         "0": {
-          "label": "Base Shutter Speed",
-          "description": "The correct exposure time without any filter. Meter the scene first, then calculate the filtered exposure from this starting point."
+          "label": "Базовая выдержка",
+          "description": "Правильная выдержка без фильтра. Сначала замеряй сцену, затем уже считай выдержку с фильтром от неё."
         },
         "1": {
-          "label": "Filter Strength",
-          "description": "Measured in stops. Each stop doubles the exposure time. Common strengths: 3-stop (ND8), 6-stop (ND64), and 10-stop (ND1000)."
+          "label": "Плотность фильтра",
+          "description": "Измеряется в ступенях. Каждая ступень удваивает выдержку. Популярные плотности: 3 ступени (ND8), 6 ступеней (ND64) и 10 ступеней (ND1000)."
         },
         "2": {
-          "label": "Stacking Filters",
-          "description": "You can combine filters by adding their stop values. A 3-stop + 6-stop stack gives 9 stops of reduction. Beware of vignetting on wide-angle lenses."
+          "label": "Сложение фильтров",
+          "description": "Можно складывать фильтры: ступени просто суммируются. 3-ступенчатый + 6-ступенчатый = 9 ступеней. Помни про виньетирование на широкоугольниках."
         }
       },
       "tips": {
         "0": {
-          "text": "Compose and focus before attaching a strong ND filter. With 10 stops of light reduction, your viewfinder and autofocus will struggle in the dark."
+          "text": "Выстраивай кадр и наводи фокус до того, как накрутишь сильный ND. На 10 ступенях видоискатель и автофокус будут с трудом работать в темноте."
         },
         "1": {
-          "text": "For seascapes, 1-2 second exposures smooth small ripples into texture while retaining wave structure. Exposures of 30 seconds or more create completely flat, misty water."
+          "text": "Для морских пейзажей выдержка в 1–2 секунды размывает мелкие волны в мягкую фактуру, но сохраняет рисунок волны. 30+ секунд дают полностью плоскую, туманную воду."
         },
         "2": {
-          "text": "Cheap ND filters often add a color cast (usually magenta or brown). Invest in quality glass from reputable brands, or learn to correct the cast in post-processing using a gray card reference."
+          "text": "Дешёвые ND-фильтры часто дают цветовой оттенок (обычно пурпурный или коричневый). Или бери качественное стекло проверенных брендов, или учись корректировать цвет на посте по серой карте."
         }
       },
       "tooltips": {
         "baseShutterSpeed": {
-          "term": "Base Shutter Speed",
-          "definition": "The shutter speed for a correct exposure without any ND filter attached. This is your starting point — the calculator multiplies it by the filter factor."
+          "term": "Базовая выдержка",
+          "definition": "Выдержка для правильной экспозиции без ND-фильтра. Это отправная точка — калькулятор умножает её на множитель фильтра."
         },
         "ndFilter": {
-          "term": "ND Filter",
-          "definition": "A neutral density filter that uniformly reduces light transmission. Rated by filter factor (ND2, ND4, ND8...) or stops of light reduction. ND2 = 1 stop, ND4 = 2 stops, ND8 = 3 stops, and so on."
+          "term": "ND-фильтр",
+          "definition": "Нейтрально-серый фильтр, равномерно уменьшающий пропускание света. Измеряется множителем (ND2, ND4, ND8...) или ступенями. ND2 = 1 ступень, ND4 = 2, ND8 = 3 и так далее."
         },
         "resultingShutterSpeed": {
-          "term": "Resulting Shutter Speed",
-          "definition": "The new shutter speed after accounting for the ND filter. Calculated by multiplying the base shutter speed by the filter factor (e.g., 1/125s x 1024 for a 10-stop ND)."
+          "term": "Итоговая выдержка",
+          "definition": "Новая выдержка с учётом ND-фильтра. Считается умножением базовой выдержки на множитель фильтра (например, 1/125 с × 1024 для 10-ступенчатого ND)."
         },
         "stopsAdded": {
-          "term": "Stops Added",
-          "definition": "The number of stops of light reduction the ND filter provides. Each stop doubles the required exposure time. 10 stops means the exposure is 1024 times longer."
+          "term": "Добавлено ступеней",
+          "definition": "Количество ступеней, на которое ND-фильтр ослабляет свет. Каждая ступень удваивает нужную выдержку. 10 ступеней — выдержка в 1024 раза длиннее."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are at a waterfall and your camera meters a correct exposure at 1/125s without any filter. You attach a 3-stop ND filter (ND8). What is the new shutter speed?",
-          "hint": "Each stop doubles the exposure time. 3 stops means 2 x 2 x 2 = 8 times longer.",
-          "successMessage": "Correct! 1/125s x 8 = 1/15s. This is a good start for motion blur in the water, though you might want an even stronger filter for silky smooth results.",
-          "failureMessage": "A 3-stop ND filter multiplies the exposure time by 8 (2^3 = 8). So 1/125s becomes 1/15s.",
+          "scenario": "Ты у водопада. Без фильтра камера замеряет правильную экспозицию на 1/125 с. Ты ставишь 3-ступенчатый ND (ND8). Какая новая выдержка?",
+          "hint": "Каждая ступень удваивает время. 3 ступени = 2 × 2 × 2 = 8 раз.",
+          "successMessage": "Верно! 1/125 с × 8 = 1/15 с. Хорошее начало для лёгкого смаза воды, хотя для совсем шелковистой воды можно взять фильтр и посильнее.",
+          "failureMessage": "3-ступенчатый ND умножает выдержку на 8 (2^3 = 8). 1/125 с превращается в 1/15 с.",
           "options": {
-            "0": { "label": "1/60s" },
-            "1": { "label": "1/30s" },
-            "2": { "label": "1/15s" },
-            "3": { "label": "1/8s" }
+            "0": { "label": "1/60 с" },
+            "1": { "label": "1/30 с" },
+            "2": { "label": "1/15 с" },
+            "3": { "label": "1/8 с" }
           }
         },
         "1": {
-          "scenario": "You want to create a 30-second exposure of clouds moving across the sky. Without a filter, the correct exposure is 1/30s. How many stops of ND filtration do you need?",
-          "hint": "You need to go from 1/30s to 30s — that is 1/30 x factor = 30, so factor = 900. Find the nearest power of 2.",
-          "successMessage": "Correct! Going from 1/30s to 30s is roughly a 1000x increase, which is about 10 stops. An ND1000 (10-stop) filter gets you to approximately 33 seconds.",
-          "failureMessage": "The ratio is 30 / (1/30) = 900. The nearest power of 2 is 1024 (2^10), so you need a 10-stop ND filter.",
+          "scenario": "Ты хочешь снять 30-секундную выдержку облаков, плывущих по небу. Без фильтра правильная экспозиция — 1/30 с. Сколько ступеней ND нужно?",
+          "hint": "Нужно перейти от 1/30 с к 30 с — то есть 1/30 × множитель = 30, значит множитель = 900. Ищи ближайшую степень двойки.",
+          "successMessage": "Верно! Переход с 1/30 с на 30 с — примерно в 1000 раз, это около 10 ступеней. ND1000 (10 ступеней) даст примерно 33 секунды.",
+          "failureMessage": "Отношение — 30 / (1/30) = 900. Ближайшая степень двойки — 1024 (2^10), то есть нужен 10-ступенчатый ND.",
           "options": {
-            "0": { "label": "6 stops (ND64)" },
-            "1": { "label": "8 stops (ND256)" },
-            "2": { "label": "10 stops (ND1000)" },
-            "3": { "label": "15 stops (ND32768)" }
+            "0": { "label": "6 ступеней (ND64)" },
+            "1": { "label": "8 ступеней (ND256)" },
+            "2": { "label": "10 ступеней (ND1000)" },
+            "3": { "label": "15 ступеней (ND32768)" }
           }
         },
         "2": {
-          "scenario": "You are shooting a seascape at sunset. The light is fading and your base exposure (no filter) is now 1/4s at f/11, ISO 100. You want 2-minute exposures for ultra-smooth water. What ND filter strength do you need?",
-          "hint": "From 1/4s to 120s is a factor of 480. Find the closest stop value.",
-          "successMessage": "A 9-stop ND would give you 1/4 x 512 = 128 seconds, or just over 2 minutes. Perfect for that misty, ethereal seascape look at sunset.",
-          "failureMessage": "From 0.25s to 120s is about a 480x increase. 2^9 = 512, which is close to 480, so a 9-stop filter gets you to approximately 128 seconds.",
+          "scenario": "Ты снимаешь морской пейзаж на закате. Свет уходит, базовая экспозиция (без фильтра) теперь 1/4 с, f/11, ISO 100. Нужна выдержка 2 минуты ради максимально гладкой воды. Какая плотность ND нужна?",
+          "hint": "Переход от 1/4 с к 120 с — множитель 480. Подбери ближайшую ступень.",
+          "successMessage": "9-ступенчатый ND даст 1/4 × 512 = 128 секунд, чуть больше 2 минут. Идеально для этого туманного, эфемерного эффекта на закате.",
+          "failureMessage": "Переход от 0.25 с к 120 с — примерно в 480 раз. 2^9 = 512 — это близко к 480, так что 9 ступеней приведут к примерно 128 секундам.",
           "options": {
-            "0": { "label": "6 stops" },
-            "1": { "label": "9 stops" },
-            "2": { "label": "10 stops" },
-            "3": { "label": "13 stops" }
+            "0": { "label": "6 ступеней" },
+            "1": { "label": "9 ступеней" },
+            "2": { "label": "10 ступеней" },
+            "3": { "label": "13 ступеней" }
           }
         },
         "3": {
-          "scenario": "You want to shoot a portrait at f/1.4 in bright sunlight (base exposure: f/1.4, 1/8000s, ISO 100). Your camera's maximum shutter speed is 1/8000s. Can you shoot at f/1.4 without an ND filter?",
-          "hint": "Check if 1/8000s at f/1.4 and ISO 100 is achievable, or if the scene is still overexposed.",
-          "successMessage": "Correct! On a very bright day (EV 15+), f/1.4 at ISO 100 often needs shutter speeds faster than 1/8000s, which most cameras cannot achieve. A 2-3 stop ND filter lets you shoot wide open without overexposure.",
-          "failureMessage": "In bright sunlight, f/1.4 at ISO 100 may require shutter speeds beyond the camera's 1/8000s limit. An ND filter is essential for wide-aperture shooting in bright conditions.",
+          "scenario": "Ты хочешь снять портрет на f/1.4 в яркий солнечный день (базовая экспозиция: f/1.4, 1/8000 с, ISO 100). Максимальная выдержка камеры — 1/8000 с. Можно ли снимать на f/1.4 без ND-фильтра?",
+          "hint": "Посмотри, достаточно ли 1/8000 с при f/1.4 и ISO 100, или сцена всё ещё переэкспонирована.",
+          "successMessage": "Верно! В очень ярком свете (EV 15+) f/1.4 при ISO 100 часто требует выдержек короче 1/8000 с, а это предел большинства камер. ND на 2–3 ступени даёт снимать на открытой диафрагме без пересвета.",
+          "failureMessage": "На ярком солнце f/1.4 при ISO 100 может требовать выдержек быстрее 1/8000 с — это за пределом камеры. Без ND-фильтра на открытой диафрагме в таких условиях не обойтись.",
           "options": {
-            "0": { "label": "Yes — 1/8000s is fast enough" },
-            "1": { "label": "No — you likely need a 2-3 stop ND filter" },
-            "2": { "label": "Just raise ISO to compensate" }
+            "0": { "label": "Да — 1/8000 с достаточно" },
+            "1": { "label": "Нет — скорее всего, нужен ND на 2–3 ступени" },
+            "2": { "label": "Просто поднять ISO" }
           }
         },
         "4": {
-          "scenario": "You own a 6-stop and a 3-stop ND filter. You stack them on your lens with a base exposure of 1/250s. What is the resulting shutter speed, and what should you watch for with this setup?",
-          "hint": "Add the stop values together, then calculate the new exposure. Think about optical side effects of stacking.",
-          "successMessage": "Correct! 6 + 3 = 9 stops. 1/250 x 512 = approximately 2 seconds. Watch for vignetting (dark corners) on wide-angle lenses and potential color casts from cheap glass.",
-          "failureMessage": "Stacking adds the stop values: 6 + 3 = 9 stops total. 2^9 = 512, so 1/250 x 512 = ~2 seconds. Stacking can also cause vignetting and color casts.",
+          "scenario": "У тебя есть 6-ступенчатый и 3-ступенчатый ND. Ты накручиваешь их вместе на базовой экспозиции 1/250 с. Какая итоговая выдержка и на что обращать внимание?",
+          "hint": "Сложи ступени, посчитай новую выдержку и подумай про оптические побочные эффекты стекинга.",
+          "successMessage": "Верно! 6 + 3 = 9 ступеней. 1/250 × 512 ≈ 2 секунды. На широкоугольнике следи за виньетированием (тёмные углы) и возможным цветовым оттенком от дешёвого стекла.",
+          "failureMessage": "При стекинге ступени суммируются: 6 + 3 = 9. 2^9 = 512, значит 1/250 × 512 ≈ 2 секунды. Плюс риски виньетирования и цветовых сдвигов.",
           "options": {
-            "0": { "label": "~0.5s, watch for lens flare" },
-            "1": { "label": "~2s, watch for vignetting and color casts" },
-            "2": { "label": "~4s, watch for sensor overheating" },
-            "3": { "label": "~8s, no concerns with stacking" }
+            "0": { "label": "~0.5 с, следить за бликами" },
+            "1": { "label": "~2 с, следить за виньетированием и цветовыми сдвигами" },
+            "2": { "label": "~4 с, следить за перегревом матрицы" },
+            "3": { "label": "~8 с, никаких проблем со стекингом" }
           }
         }
       }

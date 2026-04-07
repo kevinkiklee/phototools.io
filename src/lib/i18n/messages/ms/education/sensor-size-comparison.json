@@ -1,74 +1,74 @@
 {
   "education": {
     "sensor-size-comparison": {
-      "beginner": "Camera sensors come in many different physical sizes, from the large medium-format chips used in studio cameras down to the tiny sensors in smartphones. A larger sensor captures more light, produces less noise, and makes it easier to blur backgrounds. Sensor size is one of the biggest factors separating camera categories.",
+      "beginner": "Sensor kamera datang dalam pelbagai saiz fizikal, daripada cip format sederhana besar yang digunakan dalam kamera studio hingga sensor kecil dalam telefon pintar. Sensor yang lebih besar menangkap lebih banyak cahaya, menghasilkan kurang noise, dan memudahkan untuk mengaburkan latar belakang. Saiz sensor ialah salah satu faktor terbesar yang memisahkan kategori kamera.",
       "deeper": {
         "0": {
-          "heading": "How it works",
-          "text": "Sensor size affects photography in several interconnected ways. A larger sensor has a bigger area to collect photons, improving signal-to-noise ratio and dynamic range. Sensor size is one of the most important differences between camera categories — from medium format studio cameras to smartphone sensors."
+          "heading": "Cara ia berfungsi",
+          "text": "Saiz sensor mempengaruhi fotografi dalam beberapa cara yang saling berkaitan. Sensor lebih besar mempunyai kawasan yang lebih besar untuk mengumpul foton, meningkatkan nisbah isyarat kepada noise dan julat dinamik. Saiz sensor ialah salah satu perbezaan paling penting antara kategori kamera — dari kamera studio format sederhana hingga sensor telefon pintar."
         },
         "1": {
-          "heading": "Crop factor",
-          "text": "The \"crop factor\" describes how a sensor compares to the 35mm full-frame standard. An APS-C sensor with a 1.5x crop factor gives the same field of view with a 35mm lens as a full-frame camera would with a 52.5mm lens. This crop factor also multiplies the effective depth of field — a smaller sensor appears to give more depth of field at the same framing because you need a wider (shorter) lens to match the field of view."
+          "heading": "Faktor crop",
+          "text": "\"Faktor crop\" menerangkan bagaimana sensor dibandingkan dengan standard full-frame 35mm. Sensor APS-C dengan faktor crop 1.5x memberikan medan pandangan yang sama dengan lensa 35mm sebagaimana kamera full-frame dengan lensa 52.5mm. Faktor crop ini juga mendarab kedalaman medan berkesan — sensor yang lebih kecil kelihatan memberikan kedalaman medan lebih banyak pada bingkai yang sama kerana anda memerlukan lensa lebih lebar (lebih pendek) untuk memadankan medan pandangan."
         },
         "2": {
-          "heading": "Pixel density",
-          "text": "Pixel density (pixel pitch) measures how tightly pixels are packed on the sensor. Packing more megapixels onto a smaller sensor shrinks each photosite, reducing per-pixel light gathering. A 24MP full-frame sensor has ~6\u00b5m pixels while a 24MP APS-C sensor has ~4\u00b5m pixels, which is why the full-frame sensor typically performs better at high ISO."
+          "heading": "Ketumpatan piksel",
+          "text": "Ketumpatan piksel (pitch piksel) mengukur betapa rapatnya piksel dibungkus pada sensor. Memadat lebih banyak megapiksel ke sensor yang lebih kecil mengecilkan setiap photosite, mengurangkan pengumpulan cahaya per-piksel. Sensor full-frame 24MP mempunyai piksel ~6µm manakala sensor APS-C 24MP mempunyai piksel ~4µm, itulah sebabnya sensor full-frame biasanya lebih baik pada ISO tinggi."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Physical Dimensions",
-          "description": "Width and height in millimeters determine the total light-gathering area and the field of view for a given lens."
+          "label": "Dimensi Fizikal",
+          "description": "Lebar dan tinggi dalam milimeter menentukan jumlah kawasan pengumpulan cahaya dan medan pandangan untuk lensa tertentu."
         },
         "1": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame diagonal to the sensor diagonal. Multiplied by focal length, it gives the \"equivalent\" focal length."
+          "label": "Faktor Crop",
+          "description": "Nisbah pepenjuru full-frame kepada pepenjuru sensor. Didarab dengan panjang fokus, ia memberikan panjang fokus \"setara\"."
         },
         "2": {
-          "label": "Pixel Density",
-          "description": "How tightly pixels are packed. Smaller pixel pitch means more detail but less light per pixel, affecting noise performance."
+          "label": "Ketumpatan Piksel",
+          "description": "Betapa rapatnya piksel dibungkus. Pitch piksel lebih kecil bermakna lebih banyak butiran tetapi kurang cahaya per piksel, mempengaruhi prestasi noise."
         },
         "3": {
-          "label": "Sensor Area",
-          "description": "Total area in mm\u00b2. A 44x33mm medium format sensor (Fujifilm GFX, Hasselblad X) has roughly 1.7x the area of full frame, while a larger 54x40mm medium format chip is about 2.5x. Full frame is roughly 13x the area of a flagship smartphone sensor."
+          "label": "Kawasan Sensor",
+          "description": "Jumlah kawasan dalam mm². Sensor format sederhana 44x33mm (Fujifilm GFX, Hasselblad X) mempunyai kira-kira 1.7x kawasan full frame, manakala cip format sederhana 54x40mm lebih besar adalah kira-kira 2.5x. Full frame adalah kira-kira 13x kawasan sensor telefon pintar unggulan."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the overlay mode to see exactly how much bigger one sensor is than another — the area difference is often more dramatic than the numbers suggest."
+          "text": "Gunakan mod tindihan untuk melihat dengan tepat berapa banyak sebuah sensor lebih besar daripada yang lain — perbezaan kawasan sering lebih dramatik daripada apa yang dicadangkan nombor."
         },
         "1": {
-          "text": "Switch to pixel density mode and enter your camera resolution to compare pixel pitch. If your camera has very high pixel density, you may hit diffraction limits at wider apertures than expected."
+          "text": "Tukar ke mod ketumpatan piksel dan masukkan resolusi kamera anda untuk membandingkan pitch piksel. Jika kamera anda mempunyai ketumpatan piksel yang sangat tinggi, anda mungkin mencecah had pembelauan pada aperture yang lebih luas daripada jangkaan."
         },
         "2": {
-          "text": "When comparing cameras, sensor area matters more than megapixel count for noise performance. A 20MP full-frame sensor will typically outperform a 40MP APS-C sensor at high ISO."
+          "text": "Apabila membandingkan kamera, kawasan sensor lebih penting daripada kiraan megapiksel untuk prestasi noise. Sensor full-frame 20MP biasanya akan mengatasi sensor APS-C 40MP pada ISO tinggi."
         }
       },
       "tooltips": {
         "Sensor": {
           "term": "Sensor",
-          "definition": "Toggle individual sensor formats on or off to include them in the visual comparison and data table."
+          "definition": "Togol format sensor individu hidup atau mati untuk memasukkannya ke dalam perbandingan visual dan jadual data."
         },
         "Display Mode": {
-          "term": "Display Mode",
-          "definition": "Overlay shows all sensors centered on the same point. Side by Side places them next to each other at the same scale. Pixel Density visualizes how tightly pixels are packed."
+          "term": "Mod Paparan",
+          "definition": "Overlay menunjukkan semua sensor berpusat pada titik yang sama. Side by Side meletakkannya bersebelahan pada skala yang sama. Pixel Density memvisualkan betapa rapatnya piksel dibungkus."
         },
         "Resolution": {
-          "term": "Resolution",
-          "definition": "The total megapixel count used to calculate pixel pitch in pixel density mode. Higher megapixels on the same sensor size means smaller individual pixels."
+          "term": "Resolusi",
+          "definition": "Jumlah kiraan megapiksel yang digunakan untuk mengira pitch piksel dalam mod ketumpatan piksel. Megapiksel lebih tinggi pada saiz sensor yang sama bermakna piksel individu lebih kecil."
         },
         "Crop Factor": {
-          "term": "Crop Factor",
-          "definition": "The ratio of the 35mm full-frame diagonal to this sensor diagonal. A 1.5x crop factor means a 50mm lens frames like a 75mm lens on full frame."
+          "term": "Faktor Crop",
+          "definition": "Nisbah pepenjuru full-frame 35mm kepada pepenjuru sensor ini. Faktor crop 1.5x bermakna lensa 50mm membingkaikan seperti lensa 75mm pada full frame."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "A full-frame sensor measures 36\u00d724mm. An APS-C sensor has a 1.5x crop factor. What is the approximate width of an APS-C sensor?",
-          "hint": "Divide the full-frame width by the crop factor.",
-          "successMessage": "Correct! 36mm \u00f7 1.5 \u2248 24mm. The APS-C sensor is about 24\u00d716mm, giving it roughly 44% of the full-frame area.",
-          "failureMessage": "Divide the full-frame width (36mm) by the crop factor (1.5x): 36 \u00f7 1.5 = 24mm.",
+          "scenario": "Sensor full-frame mengukur 36×24mm. Sensor APS-C mempunyai faktor crop 1.5x. Apakah lebar anggaran sensor APS-C?",
+          "hint": "Bahagikan lebar full-frame dengan faktor crop.",
+          "successMessage": "Betul! 36mm ÷ 1.5 ≈ 24mm. Sensor APS-C adalah kira-kira 24×16mm, memberikannya kira-kira 44% daripada kawasan full-frame.",
+          "failureMessage": "Bahagikan lebar full-frame (36mm) dengan faktor crop (1.5x): 36 ÷ 1.5 = 24mm.",
           "options": {
             "0": { "label": "24mm" },
             "1": { "label": "30mm" },
@@ -76,10 +76,10 @@
           }
         },
         "1": {
-          "scenario": "You mount a 50mm lens on a camera with a 2.0x crop factor sensor. What full-frame equivalent focal length do you get?",
-          "hint": "Multiply the focal length by the crop factor.",
-          "successMessage": "Right! 50mm \u00d7 2.0 = 100mm equivalent. This is why Micro Four Thirds cameras are popular for telephoto work — you get extra reach from every lens.",
-          "failureMessage": "Multiply the lens focal length by the crop factor: 50mm \u00d7 2.0 = 100mm equivalent.",
+          "scenario": "Anda memasang lensa 50mm pada kamera dengan sensor faktor crop 2.0x. Apakah panjang fokus setara full-frame yang anda dapat?",
+          "hint": "Darabkan panjang fokus dengan faktor crop.",
+          "successMessage": "Betul! 50mm × 2.0 = 100mm setara. Inilah sebabnya kamera Micro Four Thirds popular untuk kerja telefoto — anda mendapat jangkauan tambahan dari setiap lensa.",
+          "failureMessage": "Darabkan panjang fokus lensa dengan faktor crop: 50mm × 2.0 = 100mm setara.",
           "options": {
             "0": { "label": "25mm" },
             "1": { "label": "75mm" },
@@ -87,36 +87,36 @@
           }
         },
         "2": {
-          "scenario": "Two cameras both have 24 megapixels — one full-frame (36\u00d724mm) and one APS-C (24\u00d716mm). Which has better high-ISO noise performance, and why?",
-          "hint": "Think about how the same number of pixels spread across different sensor areas affects individual pixel size.",
-          "successMessage": "Exactly! The full-frame sensor spreads 24MP over a larger area, so each pixel is physically bigger (~6\u00b5m vs ~4\u00b5m pitch) and captures more photons, resulting in less noise.",
-          "failureMessage": "The full-frame sensor wins — same megapixel count on a larger area means bigger pixels that gather more light, producing less noise at high ISO.",
+          "scenario": "Dua kamera kedua-duanya mempunyai 24 megapiksel — satu full-frame (36×24mm) dan satu APS-C (24×16mm). Yang manakah mempunyai prestasi noise ISO tinggi yang lebih baik, dan mengapa?",
+          "hint": "Fikirkan tentang bagaimana bilangan piksel yang sama tersebar merentasi kawasan sensor yang berbeza mempengaruhi saiz piksel individu.",
+          "successMessage": "Tepat sekali! Sensor full-frame menyebarkan 24MP merentasi kawasan yang lebih besar, jadi setiap piksel secara fizikal lebih besar (pitch ~6µm lawan ~4µm) dan menangkap lebih banyak foton, menghasilkan kurang noise.",
+          "failureMessage": "Sensor full-frame menang — kiraan megapiksel yang sama pada kawasan yang lebih besar bermakna piksel yang lebih besar yang mengumpul lebih banyak cahaya, menghasilkan kurang noise pada ISO tinggi.",
           "options": {
-            "0": { "label": "Full frame — larger pixels gather more light" },
-            "1": { "label": "APS-C — smaller sensors are more efficient" },
-            "2": { "label": "Same noise — megapixel count is what matters" }
+            "0": { "label": "Full frame — piksel lebih besar mengumpul lebih banyak cahaya" },
+            "1": { "label": "APS-C — sensor lebih kecil lebih cekap" },
+            "2": { "label": "Noise yang sama — kiraan megapiksel yang penting" }
           }
         },
         "3": {
-          "scenario": "Looking at the comparison table, which sensor format has a crop factor closest to 2.0x?",
-          "hint": "Crop factor is the full-frame diagonal divided by the sensor diagonal.",
-          "successMessage": "Correct! Micro Four Thirds has a crop factor of 2.0x, which is why a 25mm M43 lens frames like a 50mm on full frame.",
-          "failureMessage": "Micro Four Thirds has a 2.0x crop factor. Check the table — its diagonal is exactly half the full-frame diagonal.",
+          "scenario": "Melihat jadual perbandingan, format sensor manakah mempunyai faktor crop yang paling dekat dengan 2.0x?",
+          "hint": "Faktor crop ialah pepenjuru full-frame dibahagikan dengan pepenjuru sensor.",
+          "successMessage": "Betul! Micro Four Thirds mempunyai faktor crop 2.0x, itulah sebabnya lensa M43 25mm membingkaikan seperti 50mm pada full frame.",
+          "failureMessage": "Micro Four Thirds mempunyai faktor crop 2.0x. Semak jadual — pepenjurunya adalah tepat separuh daripada pepenjuru full-frame.",
           "options": {
             "0": { "label": "APS-C (Canon)" },
             "1": { "label": "Micro Four Thirds" },
-            "2": { "label": "1\" Sensor" }
+            "2": { "label": "Sensor 1\"" }
           }
         },
         "4": {
-          "scenario": "You are comparing a 50MP medium format camera to a 50MP full-frame camera using pixel density mode. Both have the same megapixel count. Which camera has the larger pixel pitch, and what practical advantage does that give?",
-          "hint": "Pixel pitch depends on sensor width divided by the number of horizontal pixels.",
-          "successMessage": "Right! The medium format sensor is physically larger, so at 50MP its pixels are bigger (higher pitch). This gives it about 1/3 stop better light gathering per pixel, plus slightly later diffraction onset.",
-          "failureMessage": "The medium format sensor is larger, so at the same resolution each pixel is physically bigger. Larger pixels collect more photons, giving better dynamic range and slightly later diffraction limits.",
+          "scenario": "Anda membandingkan kamera format sederhana 50MP dengan kamera full-frame 50MP menggunakan mod ketumpatan piksel. Kedua-duanya mempunyai kiraan megapiksel yang sama. Kamera mana mempunyai pitch piksel yang lebih besar, dan apakah kelebihan praktikal yang diberikan?",
+          "hint": "Pitch piksel bergantung kepada lebar sensor dibahagikan dengan bilangan piksel mendatar.",
+          "successMessage": "Betul! Sensor format sederhana secara fizikal lebih besar, jadi pada 50MP pikselnya lebih besar (pitch lebih tinggi). Ini memberikannya kira-kira 1/3 stop pengumpulan cahaya per piksel yang lebih baik, serta permulaan pembelauan yang sedikit kemudian.",
+          "failureMessage": "Sensor format sederhana lebih besar, jadi pada resolusi yang sama setiap piksel secara fizikal lebih besar. Piksel lebih besar mengumpul lebih banyak foton, memberikan julat dinamik yang lebih baik dan had pembelauan yang sedikit kemudian.",
           "options": {
-            "0": { "label": "Medium Format — better per-pixel light gathering and dynamic range" },
-            "1": { "label": "Full Frame — smaller pixels are more efficient" },
-            "2": { "label": "Both are identical since they have the same megapixel count" }
+            "0": { "label": "Format Sederhana — pengumpulan cahaya per-piksel dan julat dinamik yang lebih baik" },
+            "1": { "label": "Full Frame — piksel lebih kecil lebih cekap" },
+            "2": { "label": "Kedua-duanya sama kerana mempunyai kiraan megapiksel yang sama" }
           }
         }
       }

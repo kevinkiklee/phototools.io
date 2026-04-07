@@ -1,49 +1,49 @@
 {
   "education": {
     "hyperfocal-simulator": {
-      "beginner": "The hyperfocal distance is the closest point you can focus on while still keeping everything at infinity acceptably sharp. When you focus at the hyperfocal distance, your depth of field extends from half that distance all the way to infinity. Landscape photographers use this technique to maximize sharpness from foreground to horizon.",
-      "deeper": "Hyperfocal distance is derived from the thin-lens equation and the concept of the circle of confusion (CoC). It equals the focal length squared divided by the product of the f-number and the CoC diameter: H = f\u00b2 / (N \u00d7 c). Anything from H/2 to infinity falls within acceptable sharpness. The CoC depends on sensor size — smaller sensors have a smaller acceptable CoC, which pushes the hyperfocal distance farther away for the same focal length and aperture. This is why crop-sensor cameras appear to have greater depth of field: the CoC standard is tighter relative to the image area. In practice, diffraction softening at very small apertures (f/16 and beyond on most sensors) means there is a trade-off between maximizing depth of field and maintaining per-pixel sharpness.",
+      "beginner": "Ang hyperfocal distance ay ang pinakamalapit na puntong pwede kang mag-focus habang pinapanatili ang lahat sa infinity na katanggap-tanggap na matalas. Kapag nag-focus ka sa hyperfocal distance, ang depth of field mo ay umaabot mula sa kalahati ng distansyang iyon hanggang sa infinity. Ginagamit ng mga landscape photographer ang teknik na ito para i-maximize ang katalasan mula foreground hanggang horizon.",
+      "deeper": "Ang hyperfocal distance ay hinango sa thin-lens equation at sa konsepto ng circle of confusion (CoC). Katumbas ito ng focal length na squared na hinati sa produkto ng f-number at ng CoC diameter: H = f² / (N × c). Anumang nasa H/2 hanggang infinity ay nahuhulog sa katanggap-tanggap na katalasan. Ang CoC ay nakadepende sa sensor size — ang mas maliit na sensor ay may mas maliit na katanggap-tanggap na CoC, na nagtutulak sa hyperfocal distance na mas malayo para sa parehong focal length at aperture. Ito ang dahilan kung bakit ang mga crop-sensor camera ay mukhang may mas malaking depth of field: ang CoC standard ay mas masikip relative sa image area. Sa praktika, ang diffraction softening sa napakaliit na aperture (f/16 at higit pa sa karamihan ng sensor) ay nangangahulugang may trade-off sa pagitan ng pag-ma-maximize ng depth of field at pagpapanatili ng per-pixel sharpness.",
       "keyFactors": {
         "0": {
           "label": "Focal Length",
-          "description": "Longer focal lengths dramatically increase hyperfocal distance — it scales with the square of focal length."
+          "description": "Ang mas mahabang focal length ay dramatikong nagpapataas ng hyperfocal distance — ini-scale ito sa square ng focal length."
         },
         "1": {
           "label": "Aperture",
-          "description": "Smaller apertures (higher f-numbers) reduce hyperfocal distance, extending depth of field."
+          "description": "Ang mas maliit na aperture (mas mataas na f-number) ay nagbabawas sa hyperfocal distance, pinapalawak ang depth of field."
         },
         "2": {
           "label": "Sensor Size",
-          "description": "Smaller sensors use a smaller circle of confusion, which increases hyperfocal distance for equivalent framing."
+          "description": "Ang mas maliit na sensor ay gumagamit ng mas maliit na circle of confusion, na nagpapataas ng hyperfocal distance para sa equivalent framing."
         },
         "3": {
           "label": "Circle of Confusion",
-          "description": "The maximum blur spot diameter considered \"acceptably sharp\" — typically 0.03mm for full frame."
+          "description": "Ang maximum blur spot diameter na itinuturing na \"katanggap-tanggap na matalas\" — karaniwan 0.03mm para sa full frame."
         }
       },
       "tips": {
         "0": {
-          "text": "For quick landscape work, focus roughly one-third into the scene — it approximates the hyperfocal point for most wide-angle setups."
+          "text": "Para sa mabilisang landscape work, mag-focus sa halos isang-katlo papasok sa eksena — nila-approximate nito ang hyperfocal point para sa karamihan ng wide-angle setup."
         },
         "1": {
-          "text": "Avoid stopping down past f/16 on full-frame or f/11 on APS-C. Diffraction will undo the depth-of-field gains you are chasing."
+          "text": "Iwasan ang pag-stop down lampas sa f/16 sa full-frame o f/11 sa APS-C. Ang diffraction ay sisira sa depth-of-field gains na iyong hinahabol."
         },
         "2": {
-          "text": "Use live view magnification to nail focus precisely at the hyperfocal distance rather than relying on the lens distance scale, which is often imprecise on modern autofocus lenses."
+          "text": "Gamitin ang live view magnification para eksaktong makuha ang focus sa hyperfocal distance sa halip na umasa sa lens distance scale, na madalas hindi tumpak sa mga modernong autofocus lens."
         }
       },
       "tooltips": {
         "Sensor": {
           "term": "Sensor",
-          "definition": "The camera sensor format. Smaller sensors have a tighter circle of confusion standard, which shifts all hyperfocal distances farther away."
+          "definition": "Ang camera sensor format. Ang mas maliliit na sensor ay may mas masikip na circle of confusion standard, na naglilipat sa lahat ng hyperfocal distances na mas malayo."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a landscape with a 24mm lens on a full-frame camera. Which sensor format should you select to see full-frame hyperfocal distances?",
-          "hint": "Full frame is the standard 35mm sensor size.",
-          "successMessage": "Correct! Full Frame is the right choice for a standard 35mm sensor.",
-          "failureMessage": "Not quite — select the Full Frame sensor to match a standard 35mm camera body.",
+          "scenario": "Kumukuha ka ng landscape gamit ang 24mm lens sa full-frame camera. Aling sensor format ang dapat mong piliin para makita ang full-frame hyperfocal distances?",
+          "hint": "Ang Full frame ay ang standard na 35mm sensor size.",
+          "successMessage": "Tama! Ang Full Frame ang tamang pagpipilian para sa standard na 35mm sensor.",
+          "failureMessage": "Hindi tama — piliin ang Full Frame sensor para tumugma sa standard na 35mm camera body.",
           "options": {
             "0": { "label": "Full Frame" },
             "1": { "label": "APS-C (Nikon/Sony)" },
@@ -51,20 +51,20 @@
           }
         },
         "1": {
-          "scenario": "Looking at the table for full frame, which has a shorter hyperfocal distance: 24mm at f/8, or 50mm at f/8?",
-          "hint": "Hyperfocal distance increases with the square of the focal length.",
-          "successMessage": "Right! The 24mm lens has a much shorter hyperfocal distance because focal length has a squared relationship.",
-          "failureMessage": "Actually, shorter focal lengths always yield shorter hyperfocal distances. The 24mm wins here.",
+          "scenario": "Tingnan ang table para sa full frame, alin ang may mas maikling hyperfocal distance: 24mm sa f/8, o 50mm sa f/8?",
+          "hint": "Ang hyperfocal distance ay tumataas sa square ng focal length.",
+          "successMessage": "Tama! Ang 24mm lens ay may mas maikling hyperfocal distance dahil may squared na relasyon ang focal length.",
+          "failureMessage": "Sa katunayan, ang mas maikling focal length ay laging nagbibigay ng mas maikling hyperfocal distance. Panalo ang 24mm dito.",
           "options": {
-            "0": { "label": "24mm at f/8" },
-            "1": { "label": "50mm at f/8" }
+            "0": { "label": "24mm sa f/8" },
+            "1": { "label": "50mm sa f/8" }
           }
         },
         "2": {
-          "scenario": "You are hiking with an APS-C camera and a 35mm lens. You want everything from about 3 meters to infinity sharp. Which aperture range should you look at in the table to find a hyperfocal distance near 6 meters (so that half of it — 3m — is your near-focus limit)?",
-          "hint": "Remember: near focus = hyperfocal / 2. Look for an aperture that gives a hyperfocal around 6m.",
-          "successMessage": "Great thinking! You correctly identified that you need a hyperfocal distance of about 6m, and found the right aperture range.",
-          "failureMessage": "Remember, near focus equals half the hyperfocal distance. You need the hyperfocal to be around 6m to get a near-focus limit of 3m.",
+          "scenario": "Nagha-hiking ka gamit ang APS-C camera at 35mm lens. Gusto mong lahat mula mga 3 metro hanggang infinity ay matalas. Anong aperture range ang dapat mong tingnan sa table para mahanap ang hyperfocal distance na malapit sa 6 metro (para ang kalahati nito — 3m — ay ang near-focus limit mo)?",
+          "hint": "Tandaan: near focus = hyperfocal / 2. Maghanap ng aperture na nagbibigay ng hyperfocal na mga 6m.",
+          "successMessage": "Magaling! Tama mong na-identify na kailangan mo ng hyperfocal distance na mga 6m, at nakita mo ang tamang aperture range.",
+          "failureMessage": "Tandaan, ang near focus ay katumbas ng kalahati ng hyperfocal distance. Kailangan ng hyperfocal na nasa mga 6m para makakuha ng near-focus limit na 3m.",
           "options": {
             "0": { "label": "f/2.8 — f/4" },
             "1": { "label": "f/5.6 — f/8" },
@@ -72,24 +72,24 @@
           }
         },
         "3": {
-          "scenario": "A friend switches from a full-frame camera to Micro Four Thirds but keeps shooting the same focal lengths. They complain that the hyperfocal distances seem different. Why?",
-          "hint": "The circle of confusion is calculated based on sensor size.",
-          "successMessage": "Exactly! The smaller M43 sensor uses a smaller CoC (about 0.015mm vs 0.03mm), which increases hyperfocal distances for the same focal length and aperture.",
-          "failureMessage": "The key factor is the circle of confusion. Smaller sensors require a tighter CoC standard, which pushes hyperfocal distances farther out.",
+          "scenario": "May kaibigan kang lumipat mula sa full-frame camera sa Micro Four Thirds pero pinapanatili ang parehong focal lengths na kinukuha. Reklamo niya na mukhang iba ang hyperfocal distances. Bakit?",
+          "hint": "Ang circle of confusion ay kinakalkula batay sa sensor size.",
+          "successMessage": "Eksakto! Ang mas maliit na M43 sensor ay gumagamit ng mas maliit na CoC (mga 0.015mm kumpara sa 0.03mm), na nagpapataas ng hyperfocal distances para sa parehong focal length at aperture.",
+          "failureMessage": "Ang pangunahing salik ay ang circle of confusion. Ang mas maliit na sensor ay nangangailangan ng mas masikip na CoC standard, na nagtutulak sa hyperfocal distances nang mas malayo.",
           "options": {
-            "0": { "label": "The lens focal length changes on crop sensors" },
-            "1": { "label": "Smaller sensors use a smaller circle of confusion" },
-            "2": { "label": "Micro Four Thirds cameras have less accurate autofocus" }
+            "0": { "label": "Ang focal length ng lens ay nagbabago sa crop sensor" },
+            "1": { "label": "Ang mas maliit na sensor ay gumagamit ng mas maliit na circle of confusion" },
+            "2": { "label": "Ang Micro Four Thirds camera ay may mas kaunting tumpak na autofocus" }
           }
         },
         "4": {
-          "scenario": "You are shooting architecture at 14mm f/11 on full frame. The table shows a very short hyperfocal distance. Should you stop down further to f/22 for even more depth of field, or is f/11 the better choice?",
-          "hint": "Consider what happens to image sharpness at very small apertures.",
-          "successMessage": "Excellent! At f/11, diffraction is minimal on full frame, and the hyperfocal distance at 14mm is already very short. Stopping down to f/22 would soften the image due to diffraction without meaningful DoF benefit.",
-          "failureMessage": "While f/22 gives a shorter hyperfocal distance on paper, diffraction softening at f/22 on full frame actually reduces overall image sharpness. At 14mm f/11, the hyperfocal distance is already so short that the extra DoF is not worth the diffraction penalty.",
+          "scenario": "Kumukuha ka ng architecture sa 14mm f/11 sa full frame. Ipinapakita ng table ang isang napakaikling hyperfocal distance. Dapat ka bang mag-stop down pa sa f/22 para sa mas malalim na depth of field, o mas maganda ba ang f/11?",
+          "hint": "Isaalang-alang kung ano ang nangyayari sa image sharpness sa napakaliit na aperture.",
+          "successMessage": "Magaling! Sa f/11, ang diffraction ay minimal sa full frame, at ang hyperfocal distance sa 14mm ay napakaikli na. Ang pag-stop down sa f/22 ay magpapasama ng imahe dahil sa diffraction nang walang makabuluhang DoF benepisyo.",
+          "failureMessage": "Kahit ang f/22 ay nagbibigay ng mas maikling hyperfocal distance sa papel, ang diffraction softening sa f/22 sa full frame ay talagang nagpapababa ng kabuuang image sharpness. Sa 14mm f/11, ang hyperfocal distance ay napakaikli na, kaya ang dagdag na DoF ay hindi katumbas ng diffraction penalty.",
           "options": {
-            "0": { "label": "Stop down to f/22 for maximum depth of field" },
-            "1": { "label": "Stay at f/11 — diffraction at f/22 will reduce sharpness" }
+            "0": { "label": "Mag-stop down sa f/22 para sa maximum depth of field" },
+            "1": { "label": "Manatili sa f/11 — ang diffraction sa f/22 ay magbabawas sa sharpness" }
           }
         }
       }

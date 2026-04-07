@@ -1,117 +1,117 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "Un histograma és un gràfic que mostra com de brillants o foscos són els píxels de la teva foto. El costat esquerre representa les ombres (zones fosques), el centre els mitjos tons, i el costat dret les altes llums (zones brillants). Si el gràfic està amuntegat a un costat, la teva foto pot estar subexposada o sobreexposada.",
+      "deeper": "Un histograma representa el nombre de píxels (eix vertical) en funció del nivell de brillantor (eix horitzontal, 0-255 per a imatges de 8 bits). En mode luminància, la brillantor de cada píxel es calcula com una mitjana ponderada dels canals vermell, verd i blau (normalment 0,299R + 0,587G + 0,114B, coincidint amb la percepció humana). El mode RGB mostra tres distribucions separades, revelant quins canals de color es poden saturar de manera independent — un canal vermell empès a 255 mentre el blau està bé indica saturació en tons càlids, com un cel de posta. La \"saturació\" (clipping) passa quan els valors dels píxels toquen el límit 0 o 255, cosa que vol dir que s'ha perdut irrecuperablement detall a les ombres o a les altes llums. La saturació a negre (píxels a 0) perd detall d'ombra; la saturació a blanc (píxels a 255) perd detall d'altes llums. Disparar en RAW dona aproximadament 2-3 passos addicionals de marge recuperable a les altes llums més enllà del que mostra l'histograma JPEG, raó per la qual molts fotògrafs \"exposen cap a la dreta\" (ETTR) — empenyent l'exposició tan a la dreta com sigui possible sense saturar les dades RAW.",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "Distribució tonal",
+          "description": "La forma global et diu si la imatge és fosca (pesada a l'esquerra), brillant (pesada a la dreta) o equilibrada (repartida per tot el rang)."
         },
         "1": {
-          "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "label": "Saturació",
+          "description": "Pics a l'extrem esquerre o dret indiquen pèrdua de detall en ombres o altes llums."
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "Separació per canals",
+          "description": "El mode RGB revela el comportament individual de cada canal de color — útil per detectar saturació específica de color en escenes saturades."
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "Rang dinàmic",
+          "description": "Un histograma que abasta tota l'amplada sense saturació indica un bon ús del rang dinàmic disponible."
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "No hi ha una forma d'histograma \"perfecta\". Una foto d'un gat negre en un sofà fosc ha de ser pesada a l'esquerra. Jutja l'histograma segons la teva intenció creativa, no segons una corba ideal."
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "Comprova el mode RGB per a fotos de posta de sol i llums de neó. El canal vermell sovint es satura molt abans que el blau, provocant pèrdua de detall als tons càlids brillants fins i tot quan l'histograma de luminància sembla bé."
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "Si veus avisos de saturació als dos extrems alhora, probablement l'escena excedeix el rang dinàmic de la càmera. Considera fer bràcketing per a HDR o utilitzar filtres ND graduats."
         }
       },
       "tooltips": {
         "View Mode": {
-          "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "term": "Mode de visualització",
+          "definition": "Luminància mostra la brillantor global. RGB superposat mostra els tres canals de color superposats. Tots els canals mostra RGB més luminància junts."
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "Ombres",
+          "definition": "La regió més a l'esquerra de l'histograma (aproximadament 0-85), que representa els tons més foscos de la imatge."
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "Mitjos tons",
+          "definition": "La regió central (aproximadament 86-170), que representa la brillantor mitjana — els tons de pell i la majoria de textures naturals hi cauen."
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "Altes llums",
+          "definition": "La regió més a la dreta (aproximadament 171-255), que representa els tons més brillants: cels, reflexos i fonts de llum."
         },
         "Black Clipping": {
-          "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "term": "Saturació a negre",
+          "definition": "El percentatge de píxels a brillantor 0 (negre pur). Valors alts signifiquen que s'ha perdut detall d'ombra i no es pot recuperar."
         },
         "White Clipping": {
-          "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "term": "Saturació a blanc",
+          "definition": "El percentatge de píxels a brillantor 255 (blanc pur). Valors alts signifiquen que s'ha perdut detall d'altes llums."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "Puges una foto i l'histograma està fortament empès cap a l'esquerra, amb gairebé res al costat dret. Què et diu això de la imatge?",
+          "hint": "Esquerra = fosc, dreta = brillant.",
+          "successMessage": "Correcte! Un histograma pesat a l'esquerra vol dir que la imatge té principalment tons foscos — pot estar subexposada, o pot ser una imatge fosca intencionada/low-key.",
+          "failureMessage": "Un histograma amuntegat a l'esquerra indica que la imatge és predominantment fosca. Sovint vol dir subexposició.",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "La imatge està subexposada o és molt fosca" },
+            "1": { "label": "La imatge està sobreexposada o és molt brillant" },
+            "2": { "label": "La imatge té una exposició perfecta" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "Quin mode de visualització hauries de fer servir per veure la distribució global de brillantor de la teva foto en un sol gràfic?",
+          "hint": "Un mode combina tota la informació de color en una sola corba de brillantor.",
+          "successMessage": "Exacte! El mode luminància mostra una sola corba que representa la brillantor global percebuda.",
+          "failureMessage": "El mode luminància és la vista més senzilla — combina R, G i B en una sola corba de brillantor.",
           "options": {
-            "0": { "label": "Luminance" },
-            "1": { "label": "RGB Overlay" },
-            "2": { "label": "All Channels" }
+            "0": { "label": "Luminància" },
+            "1": { "label": "RGB superposat" },
+            "2": { "label": "Tots els canals" }
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "Has fet una posta de sol vibrant i l'histograma de luminància sembla bé, però quan canvies a RGB superposat veus el canal vermell fent un pic a l'extrem dret. Què està passant?",
+          "hint": "Els canals de color individuals es poden saturar fins i tot quan la luminància general no ho fa.",
+          "successMessage": "Exacte! El canal vermell s'està saturant — les altes llums de la posta han perdut detall en els tons vermells tot i que la brillantor general sembla acceptable. Estàs perdent matisos de color càlid.",
+          "failureMessage": "El canal vermell s'està saturant de manera independent. Les altes llums càlides saturades (postes de sol, foc) sovint empenyen el vermell a 255 mentre que verd i blau estan bé, perdent detall de color en aquests tons.",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "Saturació del canal vermell — detall d'altes llums càlides perdut" },
+            "1": { "label": "La imatge està sobreexposada globalment" },
+            "2": { "label": "El balanç de blancs és incorrecte" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "L'eina informa d'un 2,3% de saturació a negre i un 0,1% de saturació a blanc. Hauries d'ajustar l'exposició?",
+          "hint": "Les petites quantitats de saturació són normals — les ombres negre pur i les altes llums especulars són esperades.",
+          "successMessage": "Bon criteri! Un 2,3% de saturació a negre és modest i sovint són només ombres profundes o vores fosques. Un 0,1% de saturació a blanc és probablement per reflexos especulars (reflexos del sol). Aquesta exposició està bé per a la majoria de casos.",
+          "failureMessage": "Aquests percentatges de saturació són força petits. Una mica de saturació a negre en ombres profundes i una saturació a blanc molt petita dels reflexos especulars és normal i esperat. No cal ajust.",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "Augmentar l'exposició per reduir la saturació a negre" },
+            "1": { "label": "Està bé — una petita saturació a ombres i altes llums especulars és normal" },
+            "2": { "label": "Disminuir l'exposició per eliminar la saturació a blanc" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "Estàs fotografiant una escena d'alt contrast: una núvia amb vestit blanc en una catedral fosca. L'histograma mostra pics forts als dos extrems amb un buit als mitjos tons. Com ho gestionaries?",
+          "hint": "Quan el rang dinàmic de l'escena excedeix el del sensor, cal una tècnica multi-exposició.",
+          "successMessage": "Perfecte! Aquest histograma bimodal indica que l'escena excedeix el rang dinàmic del teu sensor. El bràcketing d'exposició (HDR) captura tant el detall de l'interior fosc com el del vestit brillant. Alternativament, fes servir un flaix de farciment per aixecar les ombres.",
+          "failureMessage": "Un histograma bimodal (pics als dos extrems, mig buit) vol dir que l'escena té més rang dinàmic del que el teu sensor pot capturar en una sola presa. Fes bràcketing d'exposicions per a HDR, o fes servir flaix de farciment per reduir la ràtio de contrast.",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "Fer bràcketing d'exposicions per a HDR o usar flaix de farciment" },
+            "1": { "label": "Exposar per als mitjos tons i creuar els dits" },
+            "2": { "label": "Canviar a blanc i negre per amagar el problema" }
           }
         }
       }

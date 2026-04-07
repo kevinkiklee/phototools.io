@@ -2,63 +2,63 @@
   "tools": {
     "fov-simulator": {
       "name": "FOV Simulator",
-      "description": "Compare field of view across focal lengths and sensor sizes"
+      "description": "Porovnej zorný úhel u různých ohniskových vzdáleností a velikostí snímače"
     },
     "color-scheme-generator": {
       "name": "Color Scheme Generator",
-      "description": "Build color palettes for photography shoots"
+      "description": "Sestav si barevné palety pro focení"
     },
     "exposure-simulator": {
-      "name": "Exposure Triangle Simulator",
-      "description": "See how aperture, shutter speed, and ISO interact"
+      "name": "Simulátor expozičního trojúhelníku",
+      "description": "Uvidíš, jak spolu souvisí clona, expoziční čas a ISO"
     },
     "dof-simulator": {
       "name": "Depth-of-Field Simulator",
-      "description": "Visualize how aperture, focal length, and distance affect background blur"
+      "description": "Sleduj, jak clona, ohnisko a vzdálenost ovlivňují rozostření pozadí"
     },
     "focus-stacking-calculator": {
       "name": "Focus Stacking Calculator",
-      "description": "Calculate optimal focus distances for front-to-back sharpness"
+      "description": "Spočítej optimální zaostření pro ostrost od popředí po pozadí"
     },
     "equivalent-settings-calculator": {
-      "name": "Equivalent Settings Calculator",
-      "description": "Find equivalent aperture and focal length across sensor formats"
+      "name": "Kalkulačka ekvivalentního nastavení",
+      "description": "Najdi ekvivalentní clonu a ohnisko napříč formáty snímačů"
     },
     "hyperfocal-simulator": {
-      "name": "Hyperfocal Distance Simulator",
-      "description": "Learn where to focus for maximum sharpness from foreground to infinity"
+      "name": "Simulátor hyperfokální vzdálenosti",
+      "description": "Zjisti, kam zaostřit pro maximální ostrost od popředí do nekonečna"
     },
     "shutter-speed-visualizer": {
       "name": "Shutter Speed Visualizer",
-      "description": "Find the minimum safe shutter speed for sharp handheld shots"
+      "description": "Najdi minimální bezpečný čas pro ostré snímky z ruky"
     },
     "nd-filter-calculator": {
       "name": "ND Filter Calculator",
-      "description": "Calculate exposure time with any ND filter"
+      "description": "Spočítej expoziční čas s libovolným ND filtrem"
     },
     "star-trail-calculator": {
       "name": "Star Trail Calculator",
-      "description": "Calculate max exposure for sharp stars or plan star trail shots"
+      "description": "Spočítej maximální expozici pro ostré hvězdy nebo naplánuj hvězdné stopy"
     },
     "perspective-compression-simulator": {
-      "name": "Perspective Compression Simulator",
-      "description": "See how focal length affects background compression"
+      "name": "Simulátor perspektivní komprese",
+      "description": "Sleduj, jak ohnisková vzdálenost mění kompresi pozadí"
     },
     "white-balance-visualizer": {
       "name": "White Balance Visualizer",
-      "description": "See how color temperature affects your photos"
+      "description": "Uvidíš, jak teplota barev ovlivňuje tvoje fotky"
     },
     "sensor-size-comparison": {
       "name": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes visually"
+      "description": "Porovnej velikosti snímačů fotoaparátů vizuálně"
     },
     "frame-studio": {
       "name": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays"
+      "description": "Ořízni, orámuj a komponuj fotky s pomocnými mřížkami"
     },
     "exif-viewer": {
       "name": "EXIF Viewer",
-      "description": "View EXIF metadata and histogram for any photo — 100% client-side"
+      "description": "Zobraz EXIF metadata a histogram libovolné fotky — vše běží u tebe v prohlížeči"
     }
   }
 }

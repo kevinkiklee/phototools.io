@@ -1,118 +1,118 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "Ang mga bituin ay mukhang gumagalaw sa langit dahil umiikot ang Earth. Kung sapat na ang pagkakabukas ng shutter mo, mag-s-streak sa trails ang mga bituin sa litrato mo. Tinutulungan ka ng star trail calculator na mahanap ang maximum exposure time para sa pinpoint stars, o magplano ng long exposure para gumawa ng magagandang bilog na star trail arcs.",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "Paano Gumagalaw ang mga Bituin",
+          "text": "Umiikot ang Earth ng 360° sa humigit-kumulang 23 oras at 56 minuto (isang sidereal day), kaya gumagalaw ang mga bituin sa mga 15 arcseconds bawat segundo sa celestial equator. Ang mga bituin na malapit sa mga pole (Polaris sa hilaga) ay bumabakas ng mas maliliit na bilog at mukhang mas mabagal ang galaw."
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "Ang 500 Rule kumpara sa NPF Rule",
+          "text": "Ang klasikong \"500 Rule\" ay naghahati ng 500 sa iyong effective focal length para i-estimate ang maximum exposure bago makita ang trailing — pero dinisenyo ito para sa mas mababang-resolution na sensor. Isinasaalang-alang ng NPF Rule ang pixel pitch, focal length, aperture, at declination, gumagawa ng mas maikli at mas tumpak na limit para sa mga modernong high-resolution na camera."
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "Pag-stack para sa Star Trails",
+          "text": "Para sa mga sadya na star trail, kumukuha ang mga photographer ng maraming mas maikling exposure (karaniwang 30s bawat isa) at inistack sa software. Iniiwasan nito ang noise buildup, nagpapahintulot ng gap-free trails, at nangangahulugang ang isang masamang frame ay hindi sumisira sa buong shot."
         }
       },
       "keyFactors": {
         "0": {
           "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "description": "Ang mas mahabang focal length ay nagpapalaki sa star movement, nangangailangan ng mas maiikling exposure para sa pinpoint stars. Ang 14mm lens ay kayang mag-expose ng 5-10 beses na mas matagal kaysa 200mm lens."
         },
         "1": {
           "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "description": "Ang mga higher-resolution na sensor ay inilalantad ang star trailing sa mas maiikling exposure time. Ang 500 Rule ay masyadong magaan para sa modernong 40MP+ na camera."
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "Latitude at Declination",
+          "description": "Ang mga bituin na malapit sa celestial poles ay mas mabagal gumalaw bawat segundo. Ang pagturo patungo sa Polaris ay nagpapahintulot ng mas mahabang exposure bago lumitaw ang trails."
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "Pag-stack kumpara sa Single Exposure",
+          "description": "Para sa star trails, ang pag-stack ng maraming maiikling exposure ay gumagawa ng mas malinis na resulta kaysa sa isang napakahabang exposure, at nagpapahintulot ng recovery mula sa mga pagkagambala."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "Gamitin ang NPF Rule sa halip na ang 500 Rule para sa modernong camera. Isinasaalang-alang nito ang sensor resolution at gumagawa ng mas tumpak na maximum exposure times, lalo na sa mga high-megapixel na body."
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "Para sa star trail stacking, panatilihin ang mga gap sa pagitan ng frame sa ilalim ng 2-3 segundo gamit ang wired remote o intervalometer. Ang mas mahahabang gap ay gumagawa ng mga tuldok sa halip na smooth na trails."
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "Isama ang Polaris (o ang South Celestial Pole) sa komposisyon mo para sa mga dramatikong concentric circle trails. Ang mga bituin na mas malapit sa pole ay bumabakas ng mas masasikip na arcs."
         }
       },
       "tooltips": {
         "mode": {
           "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "definition": "Piliin ang \"Sharp Stars\" para kalkulahin ang maximum exposure time para sa pinpoint stars, o \"Star Trails\" para magplano ng exposure sequences para sa sadya na trail effects."
         },
         "focalLength": {
           "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "definition": "Ang focal length ng lens sa millimeters. Ang mas mahabang focal length ay nagpapalaki sa nakikitang galaw ng bituin, na nangangailangan ng mas maiikling individual na exposure."
         },
         "sensor": {
           "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "definition": "Ang pisikal na sukat ng sensor. Kasama ang resolution, tumutukoy sa pixel pitch, na nakakaapekto sa kung gaano kabilis nakikita ang star trailing."
         },
         "resolution": {
           "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "definition": "Ang sensor resolution sa megapixels. Ang higher-resolution na camera ay nag-i-reveal ng star trailing nang mas maaga dahil ang bawat pixel ay sumasakop sa mas maliit na angular area ng langit."
         },
         "aperture": {
           "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "definition": "Ang lens opening. Para sa astrophotography, gamitin ang pinakamalawak na aperture na available (pinakamababang f-number) para kumuha ng pinakamaraming starlight sa bawat frame."
         },
         "latitude": {
           "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "definition": "Ang iyong geographic latitude. Nakakaapekto sa nakikitang motion rate ng mga bituin — sa mas mataas na latitude, ang mga bituin na malapit sa pole ay mas mabagal gumalaw sa buong frame."
         },
         "exposurePerFrame": {
           "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "definition": "Ang shutter speed para sa bawat individual na frame sa star trail sequence. Karaniwan 15-30 segundo para kumuha ng sapat na liwanag habang iniiwasan ang labis na noise."
         },
         "numberOfFrames": {
           "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "definition": "Ilang individual na exposure ang kukuhanin. Ang mas maraming frame ay nangangahulugan ng mas mahaba, mas dramatikong star trails. Ang 120 frames sa 30 segundo bawat isa ay gumagawa ng isang oras ng trails."
         },
         "gapBetweenFrames": {
           "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "definition": "Ang oras sa pagitan ng exposures para mag-save ang camera ng file. Panatilihin itong maikli hangga't maaari (1-3 segundo) para maiwasan ang mga tuldok na trails."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "Kumukuha ka ng litrato ng Milky Way gamit ang 24mm lens sa full-frame 24MP camera. Gamit ang 500 Rule, humigit-kumulang ilang oras ka pwedeng mag-expose bago magsimulang mag-trail ang mga bituin?",
+          "hint": "Ang 500 Rule: maximum seconds = 500 / focal length.",
+          "successMessage": "Tama! 500 / 24 = humigit-kumulang 20 segundo. Magandang panimulang punto ito, bagaman maaaring magmungkahi ang NPF Rule ng bahagyang mas maikling oras para sa kritikal na sharpness.",
+          "failureMessage": "I-apply ang 500 Rule: hatiin ang 500 sa focal length mo (24mm). Iyon ay nagbibigay ng humigit-kumulang 20 segundo.",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 segundo" },
+            "1": { "label": "10 segundo" },
+            "2": { "label": "20 segundo" },
+            "3": { "label": "60 segundo" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "Gusto mong kumuha ng litrato ng Orion Nebula gamit ang 200mm lens sa crop-sensor camera (1.5x crop factor). Ano ang tinatayang max exposure gamit ang 500 Rule?",
+          "hint": "Sa crop sensor, i-multiply muna ang focal length sa crop factor, tapos i-apply ang rule.",
+          "successMessage": "Tama! Ang effective focal length ay 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 segundo. Sa telephoto lengths sa crop sensor, napakakaunti ng oras mo bago lumitaw ang trailing.",
+          "failureMessage": "Tandaang isaalang-alang ang crop factor: 200mm x 1.5 = 300mm effective. Tapos 500 / 300 ay nagbibigay ng mga 1.7 segundo.",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1.7 segundo" },
+            "1": { "label": "~2.5 segundo" },
+            "2": { "label": "~5 segundo" },
+            "3": { "label": "~10 segundo" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "Gusto mong gumawa ng 2-oras na star trail photo. Pinaplano mong kumuha ng 30-segundo na exposure na may 2-segundo na gap. Ilang frame ang kakailanganin mo?",
+          "hint": "Kalkulahin kung ilang 32-segundo na interval (30s exposure + 2s gap) ang kasya sa 2 oras (7200 segundo).",
+          "successMessage": "Tama! 7200 segundo / 32 segundo bawat frame = 225 frames. Makakakuha ka ng smooth at tuloy-tuloy na trails sa loob ng 2 oras ng pag-ikot ng Earth.",
+          "failureMessage": "Dalawang oras = 7200 segundo. Bawat frame cycle ay 30s + 2s = 32s. Hatiin ang 7200 sa 32 para makuha ang bilang ng frames na kailangan.",
           "options": {
             "0": { "label": "120 frames" },
             "1": { "label": "180 frames" },
@@ -121,27 +121,27 @@
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "Ang kaibigan mo ay gumagamit ng 50MP full-frame camera at sumunod sa 500 Rule gamit ang 20mm lens, nakakakuha ng 25-segundo na exposure. Reklamo nila na ang mga bituin ay mukhang maiikling streaks kapag nag-zoom in. Bakit?",
+          "hint": "Ang 500 Rule ay dinisenyo para sa mas luma, mas mababang-resolution na sensor.",
+          "successMessage": "Eksakto! Ang 500 Rule ay masyadong magaan para sa mga high-resolution na sensor. Ang 50MP full-frame sensor ay may pixel pitch na mga 4.4 micrometers, at ang NPF Rule ay magrerekomenda ng mga 10-12 segundo para sa tunay na matatalas na bituin.",
+          "failureMessage": "Ang 500 Rule ay ginawa noong ang mga sensor ay may mas kaunting megapixels. Sa 50MP, ang bawat pixel ay sumasakop sa mas maliit na slice ng langit, inilalantad ang star motion na hindi nakikita sa mga mas lumang camera.",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "Out of focus ang lens" },
+            "1": { "label": "Masyadong magaan ang 500 Rule para sa mga high-resolution na sensor" },
+            "2": { "label": "Nayayanig ang camera sa hangin" },
+            "3": { "label": "Masyadong malawak ang 20mm para sa astrophotography" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "Gusto mo ng 1-oras na star trail image. Bakit ang mga experienced astrophotographer ay nag-s-stack ng maraming maiikling exposure (hal. 240 x 15s) sa halip na kumuha ng isang 1-oras na exposure?",
+          "hint": "Isipin kung ano ang nangyayari sa sensor noise, battery life, at recoverability habang may napakahabang single exposure.",
+          "successMessage": "Tama! Ang isang oras na exposure ay nag-iipon ng napakaraming thermal noise, nag-d-drain ng baterya, at kung may mali (vibration, hamog, car headlight) sisira ang buong shot. Ang pag-stack ng maiikling frame ay nagpapanatili ng mababang noise, nagpapahintulot na alisin mo ang mga masamang frame, at mas mapagpatawad.",
+          "failureMessage": "Ang mahahabang single exposure ay nag-bu-build up ng matinding thermal noise at may panganib ng kabuuang pagkawala mula sa anumang pagkagambala. Ang pag-stack ng maiikling frame ay nagpapanatiling manageable ang noise, nagpapahintulot na itapon mo ang mga nasirang frame, at gumagawa ng mas malinis na resulta.",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "Ang pag-stack ay gumagawa ng mas mahabang trails kaysa sa single exposure" },
+            "1": { "label": "Ang single exposures ay hindi kayang mag-record ng star movement" },
+            "2": { "label": "Ang pag-stack ay nagbabawas ng noise, nagpapahintulot ng recovery mula sa pagkagambala, at nagtitipid sa baterya" },
+            "3": { "label": "Walang praktikal na pagkakaiba — puro personal na kagustuhan" }
           }
         }
       }

@@ -1,50 +1,50 @@
 {
   "terms": {
-    "title": "Terms of Service",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Όροι χρήσης",
+    "effectiveDate": "Ημερομηνία ισχύος: 3 Απριλίου 2026",
     "sections": {
       "acceptance": {
-        "title": "Acceptance of Terms",
-        "body": "By accessing or using www.phototools.io (\"PhotoTools\" or \"the Site\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Site. These terms apply to all visitors and users of PhotoTools."
+        "title": "Αποδοχή των όρων",
+        "body": "Με την πρόσβαση ή τη χρήση του www.phototools.io («PhotoTools» ή «ο ιστότοπος»), συμφωνείς να δεσμεύεσαι από αυτούς τους Όρους Χρήσης. Αν δεν συμφωνείς με αυτούς τους όρους, μη χρησιμοποιείς τον ιστότοπο. Αυτοί οι όροι ισχύουν για όλους τους επισκέπτες και χρήστες του PhotoTools."
       },
       "descriptionOfService": {
-        "title": "Description of Service",
-        "body": "PhotoTools provides free educational photography tools, including interactive calculators, simulators, and reference materials. The Site is intended for informational and educational purposes only. All tools are provided at no cost to users and are designed to help photographers learn and understand photographic concepts."
+        "title": "Περιγραφή υπηρεσίας",
+        "body": "Το PhotoTools παρέχει δωρεάν εκπαιδευτικά εργαλεία φωτογραφίας, συμπεριλαμβανομένων διαδραστικών υπολογιστών, προσομοιωτών και υλικού αναφοράς. Ο ιστότοπος προορίζεται μόνο για ενημερωτικούς και εκπαιδευτικούς σκοπούς. Όλα τα εργαλεία παρέχονται δωρεάν στους χρήστες και έχουν σχεδιαστεί για να βοηθήσουν τους φωτογράφους να μάθουν και να κατανοήσουν τις φωτογραφικές έννοιες."
       },
       "noWarranty": {
-        "title": "No Warranty",
-        "body": "PhotoTools is provided \"as is\" without any warranty of any kind, express or implied. We make no guarantee that the tools, calculators, or information on this site are accurate, complete, or suitable for any particular purpose. Results from our tools are approximations and should not be relied upon for critical decisions, professional work, or situations where precision is essential. Always verify important calculations with qualified professionals or authoritative sources."
+        "title": "Χωρίς εγγύηση",
+        "body": "Το PhotoTools παρέχεται «ως έχει» χωρίς καμία εγγύηση οποιουδήποτε είδους, ρητή ή σιωπηρή. Δεν εγγυόμαστε ότι τα εργαλεία, οι υπολογιστές ή οι πληροφορίες σε αυτόν τον ιστότοπο είναι ακριβή, πλήρη ή κατάλληλα για οποιονδήποτε συγκεκριμένο σκοπό. Τα αποτελέσματα από τα εργαλεία μας είναι προσεγγίσεις και δεν πρέπει να χρησιμοποιούνται για κρίσιμες αποφάσεις, επαγγελματική εργασία ή καταστάσεις όπου η ακρίβεια είναι απαραίτητη. Πάντα να επαληθεύεις σημαντικούς υπολογισμούς με εξειδικευμένους επαγγελματίες ή αξιόπιστες πηγές."
       },
       "intellectualProperty": {
-        "title": "Intellectual Property",
-        "body": "All content on PhotoTools — including text, graphics, tool designs, code, and educational materials — is the property of PhotoTools unless otherwise noted. You are welcome to use the tools and reference materials for personal and educational purposes. Reproduction, redistribution, or commercial use of site content without prior written permission is prohibited."
+        "title": "Πνευματική ιδιοκτησία",
+        "body": "Όλο το περιεχόμενο στο PhotoTools — κείμενα, γραφικά, σχεδιασμός εργαλείων, κώδικας και εκπαιδευτικό υλικό — αποτελεί ιδιοκτησία του PhotoTools, εκτός αν αναφέρεται διαφορετικά. Μπορείς να χρησιμοποιείς τα εργαλεία και το υλικό αναφοράς για προσωπική και εκπαιδευτική χρήση. Η αναπαραγωγή, αναδιανομή ή εμπορική χρήση του περιεχομένου του ιστότοπου χωρίς προηγούμενη γραπτή άδεια απαγορεύεται."
       },
       "acceptableUse": {
-        "title": "Acceptable Use",
-        "intro": "When using PhotoTools, you agree not to:",
+        "title": "Αποδεκτή χρήση",
+        "intro": "Χρησιμοποιώντας το PhotoTools, συμφωνείς να μην:",
         "items": {
-          "laws": "Violate any applicable local, national, or international laws or regulations",
-          "disrupt": "Disrupt or interfere with the site's operation, servers, or networks",
-          "scrape": "Scrape, crawl, or systematically extract data from the site without prior written permission",
-          "misrepresent": "Misrepresent your identity or affiliation in communications with PhotoTools",
-          "commercial": "Use the site for any commercial purpose beyond personal reference without permission"
+          "laws": "Παραβιάζεις τοπικούς, εθνικούς ή διεθνείς νόμους ή κανονισμούς",
+          "disrupt": "Διαταράσσεις ή παρεμβαίνεις στη λειτουργία του ιστότοπου, τους servers ή τα δίκτυα",
+          "scrape": "Κάνεις scraping, crawling ή συστηματική εξαγωγή δεδομένων από τον ιστότοπο χωρίς προηγούμενη γραπτή άδεια",
+          "misrepresent": "Παραπλανάς σχετικά με την ταυτότητα ή τη σχέση σου στις επικοινωνίες με το PhotoTools",
+          "commercial": "Χρησιμοποιείς τον ιστότοπο για εμπορικό σκοπό πέρα από την προσωπική αναφορά χωρίς άδεια"
         }
       },
       "thirdPartyContent": {
-        "title": "Third-Party Content",
-        "body": "PhotoTools displays third-party advertisements and may include links to external websites. We are not responsible for the content, accuracy, or practices of third-party advertisers or linked sites. The inclusion of any advertisement or external link does not constitute an endorsement by PhotoTools. Your interactions with third-party services are governed by their own terms and privacy policies."
+        "title": "Περιεχόμενο τρίτων",
+        "body": "Το PhotoTools προβάλλει διαφημίσεις τρίτων και μπορεί να περιλαμβάνει συνδέσμους προς εξωτερικούς ιστότοπους. Δεν είμαστε υπεύθυνοι για το περιεχόμενο, την ακρίβεια ή τις πρακτικές των διαφημιστών τρίτων ή των συνδεδεμένων ιστότοπων. Η συμπερίληψη μιας διαφήμισης ή εξωτερικού συνδέσμου δεν συνιστά υποστήριξη από το PhotoTools. Οι αλληλεπιδράσεις σου με υπηρεσίες τρίτων διέπονται από τους δικούς τους όρους και πολιτικές απορρήτου."
       },
       "limitationOfLiability": {
-        "title": "Limitation of Liability",
-        "body": "To the fullest extent permitted by law, PhotoTools and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of — or inability to use — the Site or its tools. This includes, without limitation, damages resulting from reliance on information or calculations provided by PhotoTools. Your use of the Site is entirely at your own risk."
+        "title": "Περιορισμός ευθύνης",
+        "body": "Στον μέγιστο βαθμό που επιτρέπεται από τον νόμο, το PhotoTools και οι διαχειριστές του δεν φέρουν ευθύνη για οποιαδήποτε άμεση, έμμεση, παρεπόμενη, ειδική ή επακόλουθη ζημία που προκύπτει από τη χρήση — ή αδυναμία χρήσης — του ιστότοπου ή των εργαλείων του. Αυτό περιλαμβάνει, ενδεικτικά, ζημίες που προκύπτουν από την εξάρτηση από πληροφορίες ή υπολογισμούς που παρέχει το PhotoTools. Η χρήση του ιστότοπου γίνεται εξ ολοκλήρου με δική σου ευθύνη."
       },
       "changesToTerms": {
-        "title": "Changes to Terms",
-        "body": "We may modify these Terms of Service at any time. Updated terms will be posted on this page with a revised effective date. Continued use of PhotoTools after changes are posted constitutes your acceptance of the revised terms. We encourage you to review these terms periodically."
+        "title": "Αλλαγές στους όρους",
+        "body": "Ενδέχεται να τροποποιούμε αυτούς τους Όρους Χρήσης οποιαδήποτε στιγμή. Οι ενημερωμένοι όροι θα αναρτώνται σε αυτή τη σελίδα με νέα ημερομηνία ισχύος. Η συνεχιζόμενη χρήση του PhotoTools μετά την ανάρτηση αλλαγών συνιστά αποδοχή των αναθεωρημένων όρων. Σε ενθαρρύνουμε να ελέγχεις αυτούς τους όρους περιοδικά."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about these Terms of Service, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Επικοινωνία",
+        "body": "Αν έχεις ερωτήσεις σχετικά με αυτούς τους Όρους Χρήσης, γράψε μας μέσω της <contactLink>σελίδας επικοινωνίας</contactLink>."
       }
     }
   }

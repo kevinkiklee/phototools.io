@@ -1,239 +1,239 @@
 {
   "glossary": {
-    "title": "Photography Glossary",
-    "subtitle": "Searchable reference of photography terms. Click any term to see its definition.",
-    "searchPlaceholder": "Search terms...",
-    "searchAriaLabel": "Search glossary terms",
-    "noResults": "No terms match your search.",
-    "tryTool": "Try the {toolName}",
+    "title": "Glossari de fotografia",
+    "subtitle": "Referència cercable de termes de fotografia. Clica qualsevol terme per veure'n la definició.",
+    "searchPlaceholder": "Cerca termes...",
+    "searchAriaLabel": "Cerca termes del glossari",
+    "noResults": "Cap terme coincideix amb la teva cerca.",
+    "tryTool": "Prova {toolName}",
     "entries": {
       "aperture": {
-        "term": "Aperture",
-        "definition": "The opening in a lens through which light passes. A wider aperture (lower f-number) lets in more light and creates a shallower depth of field."
+        "term": "Diafragma",
+        "definition": "L'obertura de l'objectiu per on passa la llum. Un diafragma més obert (f-stop més baix) deixa entrar més llum i crea una profunditat de camp més reduïda."
       },
       "aspect-ratio": {
-        "term": "Aspect Ratio",
-        "definition": "The proportional relationship between an image's width and height. Common ratios include 3:2 (standard DSLR), 4:3 (Micro Four Thirds), and 16:9 (widescreen)."
+        "term": "Relació d'aspecte",
+        "definition": "La proporció entre l'amplada i l'alçada d'una imatge. Les relacions habituals són 3:2 (DSLR estàndard), 4:3 (Micro Quatre Terços) i 16:9 (panoràmic)."
       },
       "autofocus": {
         "term": "Autofocus",
-        "definition": "A camera system that automatically adjusts the lens to bring a subject into sharp focus. Modern systems use phase-detection or contrast-detection methods."
+        "definition": "El sistema de la càmera que ajusta automàticament l'objectiu per posar el subjecte en enfocament nítid. Els sistemes moderns utilitzen detecció de fase o de contrast."
       },
       "bokeh": {
         "term": "Bokeh",
-        "definition": "The aesthetic quality of out-of-focus areas in an image, especially highlights. Smooth, circular bokeh is generally preferred and is influenced by lens design and aperture shape."
+        "definition": "La qualitat estètica de les zones desenfocades d'una imatge, especialment de les altes llums. Un bokeh suau i circular és generalment preferit i depèn del disseny de l'objectiu i de la forma del diafragma."
       },
       "bracketing": {
-        "term": "Bracketing",
-        "definition": "Taking multiple shots of the same scene at different exposure settings. Used for HDR photography or to ensure at least one correctly exposed frame."
+        "term": "Bràcketing",
+        "definition": "Fer diverses preses de la mateixa escena amb diferents ajustos d'exposició. S'utilitza per a HDR o per assegurar-se com a mínim una exposició ben feta."
       },
       "bulb-mode": {
-        "term": "Bulb Mode",
-        "definition": "A shutter setting where the shutter stays open for as long as the shutter button is held down. Used for very long exposures beyond the camera's timed settings."
+        "term": "Mode Bulb",
+        "definition": "Un ajust d'obturador en què l'obturador roman obert mentre mantinguis premut el disparador. S'utilitza per a exposicions molt llargues, més enllà dels temps programats de la càmera."
       },
       "burst-mode": {
-        "term": "Burst Mode",
-        "definition": "A shooting mode where the camera takes multiple frames per second in rapid succession. Useful for capturing fast action or selecting the best moment."
+        "term": "Mode ràfega",
+        "definition": "Un mode de disparament en què la càmera fa diverses preses per segon en ràpida successió. Útil per capturar acció ràpida o triar el millor moment."
       },
       "chromatic-aberration": {
-        "term": "Chromatic Aberration",
-        "definition": "A lens defect where different wavelengths of light focus at slightly different points, causing color fringing along high-contrast edges. More common in cheaper lenses and at wide apertures."
+        "term": "Aberració cromàtica",
+        "definition": "Un defecte de l'objectiu en què diferents longituds d'ona de la llum s'enfoquen en punts lleugerament diferents, creant vores de color en les zones d'alt contrast. És més habitual en objectius econòmics i amb el diafragma obert."
       },
       "circle-of-confusion": {
-        "term": "Circle of Confusion",
-        "definition": "The largest blur circle that still appears as a point to the human eye. It determines the boundaries of acceptable sharpness and is used in depth of field calculations."
+        "term": "Cercle de confusió",
+        "definition": "El cercle de desenfocament més gran que encara sembla un punt a l'ull humà. Determina els límits de la nitidesa acceptable i s'utilitza en els càlculs de profunditat de camp."
       },
       "color-temperature": {
-        "term": "Color Temperature",
-        "definition": "A measurement in Kelvin that describes the warmth or coolness of a light source. Lower values (2700K) appear warm/orange; higher values (6500K+) appear cool/blue."
+        "term": "Temperatura de color",
+        "definition": "Una mesura en Kelvin que descriu la calidesa o fredor d'una font de llum. Els valors baixos (2700K) semblen càlids/taronges; els valors alts (6500K+) semblen freds/blaus."
       },
       "crop-factor": {
-        "term": "Crop Factor",
-        "definition": "The ratio of a camera sensor's diagonal to that of a 35mm full-frame sensor. It affects the effective focal length and field of view."
+        "term": "Factor de retall",
+        "definition": "La proporció entre la diagonal del sensor d'una càmera i la d'un sensor full frame de 35mm. Afecta la distància focal efectiva i l'angle de visió."
       },
       "depth-of-field": {
-        "term": "Depth of Field",
-        "definition": "The range of distance in a scene that appears acceptably sharp. Controlled by aperture, focal length, and subject distance."
+        "term": "Profunditat de camp",
+        "definition": "El rang de distàncies d'una escena que apareix acceptablement nítid. Es controla amb el diafragma, la distància focal i la distància al subjecte."
       },
       "diffraction": {
-        "term": "Diffraction",
-        "definition": "The bending of light as it passes through a small aperture, which softens the image. It sets a practical limit on how far you can stop down a lens."
+        "term": "Difracció",
+        "definition": "La desviació de la llum quan passa per una obertura petita, que suavitza la imatge. Estableix un límit pràctic a quant pots tancar un objectiu."
       },
       "dynamic-range": {
-        "term": "Dynamic Range",
-        "definition": "The range between the darkest shadows and brightest highlights a camera can capture in a single exposure. Measured in stops (EV)."
+        "term": "Rang dinàmic",
+        "definition": "El rang entre les ombres més fosques i les altes llums més brillants que una càmera pot capturar en una sola exposició. Es mesura en passos (EV)."
       },
       "ev": {
-        "term": "EV (Exposure Value)",
-        "definition": "A number representing a combination of shutter speed and aperture that produces the same exposure. Each increment of 1 EV doubles or halves the light."
+        "term": "EV (valor d'exposició)",
+        "definition": "Un número que representa una combinació de velocitat d'obturació i diafragma que produeix la mateixa exposició. Cada increment d'1 EV dobla o redueix a la meitat la llum."
       },
       "exposure-compensation": {
-        "term": "Exposure Compensation",
-        "definition": "A camera control that overrides the metered exposure, typically in 1/3-stop increments. Positive values brighten the image; negative values darken it."
+        "term": "Compensació d'exposició",
+        "definition": "Un control de la càmera que anul·la l'exposició del fotòmetre, generalment en increments de 1/3 de pas. Els valors positius aclareixen la imatge; els negatius la enfosqueixen."
       },
       "exposure-triangle": {
-        "term": "Exposure Triangle",
-        "definition": "The relationship between aperture, shutter speed, and ISO. Changing one requires adjusting the others to maintain the same exposure."
+        "term": "Triangle d'exposició",
+        "definition": "La relació entre el diafragma, la velocitat d'obturació i l'ISO. Canviar-ne un requereix ajustar els altres per mantenir la mateixa exposició."
       },
       "f-stop": {
-        "term": "F-Stop",
-        "definition": "A unit of measurement for lens aperture. Each full stop (f/1.4, f/2, f/2.8, f/4...) halves the amount of light passing through the lens."
+        "term": "Pas de diafragma",
+        "definition": "Una unitat de mesura per al diafragma de l'objectiu. Cada pas complet (f/1.4, f/2, f/2.8, f/4...) redueix a la meitat la quantitat de llum que passa per l'objectiu."
       },
       "focal-length": {
-        "term": "Focal Length",
-        "definition": "The distance in millimeters from the optical center of a lens to the sensor when focused at infinity. It determines the angle of view and magnification."
+        "term": "Distància focal",
+        "definition": "La distància en mil·límetres des del centre òptic d'un objectiu fins al sensor quan es enfoca a l'infinit. Determina l'angle de visió i l'ampliació."
       },
       "focus-stacking": {
-        "term": "Focus Stacking",
-        "definition": "A technique where multiple images focused at different distances are combined in post-processing to achieve greater depth of field than a single exposure allows."
+        "term": "Focus stacking",
+        "definition": "Una tècnica en què diverses imatges enfocades a distàncies diferents es combinen en postproducció per aconseguir més profunditat de camp de la que permet una sola exposició."
       },
       "full-frame": {
         "term": "Full Frame",
-        "definition": "A sensor size equivalent to 35mm film (36 x 24mm). It is the reference standard for focal length and crop factor calculations."
+        "definition": "Una mida de sensor equivalent al film de 35mm (36 x 24mm). És l'estàndard de referència per als càlculs de distància focal i factor de retall."
       },
       "golden-hour": {
-        "term": "Golden Hour",
-        "definition": "The period shortly after sunrise or before sunset when sunlight is warm, soft, and directional. Highly prized for landscape and portrait photography."
+        "term": "Hora daurada",
+        "definition": "El període poc després de la sortida del sol o just abans de la posta, quan la llum del sol és càlida, suau i direccional. Molt valorada en paisatge i retrat."
       },
       "histogram": {
-        "term": "Histogram",
-        "definition": "A graph showing the distribution of brightness values in an image. The left side represents shadows, the right side highlights."
+        "term": "Histograma",
+        "definition": "Un gràfic que mostra la distribució dels valors de brillantor d'una imatge. El costat esquerre representa les ombres i el dret les altes llums."
       },
       "hyperfocal-distance": {
-        "term": "Hyperfocal Distance",
-        "definition": "The closest focusing distance at which everything from half that distance to infinity is acceptably sharp. Maximizes depth of field for a given aperture."
+        "term": "Distància hiperfocal",
+        "definition": "La distància d'enfocament més propera a la qual tot, des de la meitat d'aquesta distància fins a l'infinit, apareix acceptablement nítid. Maximitza la profunditat de camp per a un diafragma determinat."
       },
       "image-stabilization": {
-        "term": "Image Stabilization",
-        "definition": "A system that reduces camera shake blur, either in the lens (OIS) or the camera body (IBIS). Typically provides 3-7 stops of handheld shooting advantage."
+        "term": "Estabilització d'imatge",
+        "definition": "Un sistema que redueix la trepidació de la càmera, ja sigui a l'objectiu (OIS) o al cos de la càmera (IBIS). Normalment aporta entre 3 i 7 passos d'avantatge en disparament a pols."
       },
       "iso": {
         "term": "ISO",
-        "definition": "A measure of the camera sensor's sensitivity to light. Higher ISO values brighten the image but introduce more noise."
+        "definition": "Una mesura de la sensibilitat del sensor de la càmera a la llum. Els valors d'ISO més alts aclareixen la imatge però introdueixen més soroll."
       },
       "jpeg": {
         "term": "JPEG",
-        "definition": "A compressed image file format that applies lossy compression. Smaller file sizes but less editing flexibility compared to RAW."
+        "definition": "Un format de fitxer d'imatge comprimit que aplica compressió amb pèrdues. Fitxers més petits però menys flexibilitat d'edició en comparació amb RAW."
       },
       "kelvin": {
         "term": "Kelvin",
-        "definition": "The unit used to measure color temperature of light. Photographers use Kelvin values to set white balance and match the color of ambient lighting."
+        "definition": "La unitat utilitzada per mesurar la temperatura de color de la llum. Els fotògrafs fan servir els valors Kelvin per ajustar el balanç de blancs i igualar el color de la il·luminació ambient."
       },
       "lens-compression": {
-        "term": "Lens Compression",
-        "definition": "The visual effect of a telephoto lens making distant objects appear closer to foreground subjects. It is caused by the long shooting distance, not the lens itself."
+        "term": "Compressió de l'objectiu",
+        "definition": "L'efecte visual d'un teleobjectiu que fa que els objectes llunyans semblin més a prop dels subjectes en primer pla. El causa la distància gran de presa, no l'objectiu en si."
       },
       "light-meter": {
-        "term": "Light Meter",
-        "definition": "A device or camera system that measures the intensity of light to determine proper exposure settings. Cameras use reflected light metering; handheld meters can measure incident light."
+        "term": "Fotòmetre",
+        "definition": "Un dispositiu o sistema de la càmera que mesura la intensitat de la llum per determinar els ajustos d'exposició adequats. Les càmeres fan medició de llum reflectida; els fotòmetres de mà poden mesurar la llum incident."
       },
       "long-exposure": {
-        "term": "Long Exposure",
-        "definition": "A photograph taken with a slow shutter speed, typically seconds or minutes. Used for light trails, smooth water, star trails, and low-light scenes."
+        "term": "Exposició llarga",
+        "definition": "Una fotografia feta amb una velocitat d'obturació lenta, normalment de segons o minuts. S'utilitza per a rastres de llum, aigua suau, rastres d'estrelles i escenes amb poca llum."
       },
       "macro": {
         "term": "Macro",
-        "definition": "Photography that reproduces subjects at or near life-size magnification (1:1 ratio). Requires specialized macro lenses or extension tubes."
+        "definition": "Fotografia que reprodueix els subjectes a mida natural o propera (relació 1:1). Requereix objectius macro especialitzats o tubs d'extensió."
       },
       "medium-format": {
-        "term": "Medium Format",
-        "definition": "A sensor size larger than full frame, typically around 44 x 33mm or 54 x 40mm. Offers higher resolution, shallower depth of field, and greater dynamic range."
+        "term": "Mitjà format",
+        "definition": "Una mida de sensor més gran que el full frame, normalment al voltant de 44 x 33mm o 54 x 40mm. Ofereix més resolució, menys profunditat de camp i més rang dinàmic."
       },
       "megapixel": {
-        "term": "Megapixel",
-        "definition": "One million pixels. The megapixel count of a sensor determines the maximum resolution of images it can capture."
+        "term": "Megapíxel",
+        "definition": "Un milió de píxels. El nombre de megapíxels d'un sensor determina la resolució màxima de les imatges que pot capturar."
       },
       "micro-four-thirds": {
-        "term": "Micro Four Thirds",
-        "definition": "A mirrorless camera system with a sensor measuring 17.3 x 13mm, giving a 2x crop factor. Offers compact bodies and lenses with good image quality."
+        "term": "Micro Quatre Terços",
+        "definition": "Un sistema de càmera sense mirall amb un sensor que mesura 17,3 x 13mm, donant un factor de retall de 2x. Ofereix cossos i objectius compactes amb bona qualitat d'imatge."
       },
       "mirror-lock-up": {
-        "term": "Mirror Lock-Up",
-        "definition": "A DSLR feature that flips the mirror up before the shutter fires, reducing vibration. Used for sharp tripod-mounted shots, especially at slow shutter speeds."
+        "term": "Bloqueig del mirall",
+        "definition": "Una característica de les DSLR que aixeca el mirall abans que dispari l'obturador, reduint les vibracions. S'utilitza per a preses nítides amb trípode, especialment a velocitats lentes."
       },
       "nd-filter": {
-        "term": "ND Filter",
-        "definition": "A neutral density filter that reduces the amount of light entering the lens without affecting color. Allows longer exposures or wider apertures in bright conditions."
+        "term": "Filtre ND",
+        "definition": "Un filtre de densitat neutra que redueix la quantitat de llum que entra a l'objectiu sense afectar el color. Permet exposicions més llargues o diafragmes més oberts en condicions de molta llum."
       },
       "noise": {
-        "term": "Noise",
-        "definition": "Random variation in brightness and color in digital images, most visible in shadow areas and at high ISO settings. Can be reduced with noise reduction software."
+        "term": "Soroll",
+        "definition": "Variació aleatòria de brillantor i color en imatges digitals, més visible a les zones d'ombra i amb valors alts d'ISO. Es pot reduir amb programari de reducció de soroll."
       },
       "overexposure": {
-        "term": "Overexposure",
-        "definition": "When an image receives too much light, causing highlights to clip to pure white and lose detail. The opposite of underexposure."
+        "term": "Sobreexposició",
+        "definition": "Quan una imatge rep massa llum i les altes llums es saturen en blanc pur i perden detall. El contrari de la subexposició."
       },
       "panorama": {
         "term": "Panorama",
-        "definition": "A wide-angle image created by stitching multiple overlapping photographs together. Can cover up to 360 degrees of a scene."
+        "definition": "Una imatge de gran angle creada cosint diverses fotografies superposades. Pot cobrir fins a 360 graus d'una escena."
       },
       "pixel-pitch": {
-        "term": "Pixel Pitch",
-        "definition": "The distance in micrometers between the centers of adjacent pixels on a sensor. Larger pixel pitch generally means better low-light performance."
+        "term": "Pitch de píxel",
+        "definition": "La distància en micròmetres entre els centres de píxels adjacents d'un sensor. Un pitch de píxel més gran significa generalment un millor comportament amb poca llum."
       },
       "polarizer": {
-        "term": "Polarizer",
-        "definition": "A filter that reduces reflections and glare from non-metallic surfaces and can deepen blue skies. It works by blocking light waves oscillating in a specific direction."
+        "term": "Polaritzador",
+        "definition": "Un filtre que redueix reflexos i enlluernaments de superfícies no metàl·liques i pot intensificar els blaus del cel. Funciona bloquejant les ones de llum que oscil·len en una direcció concreta."
       },
       "prime-lens": {
-        "term": "Prime Lens",
-        "definition": "A lens with a fixed focal length (no zoom). Primes are typically sharper, faster (wider aperture), and lighter than comparable zoom lenses."
+        "term": "Objectiu fix",
+        "definition": "Un objectiu amb una distància focal fixa (sense zoom). Els objectius fixos solen ser més nítids, més ràpids (diafragma més obert) i més lleugers que els zooms comparables."
       },
       "raw": {
         "term": "RAW",
-        "definition": "An uncompressed or losslessly compressed file format that preserves all sensor data. Offers maximum flexibility in post-processing at the cost of larger file sizes."
+        "definition": "Un format de fitxer no comprimit o comprimit sense pèrdues que preserva totes les dades del sensor. Ofereix la màxima flexibilitat en postproducció a canvi d'un fitxer més gran."
       },
       "reciprocal-rule": {
-        "term": "Reciprocal Rule",
-        "definition": "A guideline stating that the minimum handheld shutter speed should be 1/(focal length) to avoid camera shake. For a 200mm lens, use at least 1/200s."
+        "term": "Regla del recíproc",
+        "definition": "Una regla pràctica que diu que la velocitat d'obturació mínima a pols hauria de ser 1/(distància focal) per evitar trepidacions. Per a un 200mm, com a mínim 1/200s."
       },
       "rule-of-thirds": {
-        "term": "Rule of Thirds",
-        "definition": "A composition guideline that divides the frame into a 3x3 grid. Placing subjects along the lines or at their intersections often creates a more balanced image."
+        "term": "Regla dels terços",
+        "definition": "Una guia de composició que divideix el fotograma en una graella 3x3. Col·locar els subjectes sobre les línies o a les interseccions sovint crea una imatge més equilibrada."
       },
       "sensor-size": {
-        "term": "Sensor Size",
-        "definition": "The physical dimensions of a camera's image sensor. Larger sensors capture more light, offer shallower depth of field, and generally produce less noise."
+        "term": "Mida del sensor",
+        "definition": "Les dimensions físiques del sensor d'imatge d'una càmera. Els sensors més grans capturen més llum, ofereixen menys profunditat de camp i en general produeixen menys soroll."
       },
       "shutter-speed": {
-        "term": "Shutter Speed",
-        "definition": "The length of time the camera's shutter is open during an exposure. Faster speeds freeze motion; slower speeds allow motion blur."
+        "term": "Velocitat d'obturació",
+        "definition": "El temps que l'obturador de la càmera està obert durant una exposició. Les velocitats ràpides congelen el moviment; les lentes permeten el rastre de moviment."
       },
       "star-trails": {
-        "term": "Star Trails",
-        "definition": "Streaks of light created by the apparent motion of stars during a long exposure. Can be captured in a single very long exposure or by stacking multiple shorter frames."
+        "term": "Rastres d'estrelles",
+        "definition": "Les traces de llum creades pel moviment aparent de les estrelles durant una exposició llarga. Es poden capturar amb una sola exposició molt llarga o apilant diverses més curtes."
       },
       "stop": {
-        "term": "Stop",
-        "definition": "A unit of exposure change representing a doubling or halving of light. Applies to aperture, shutter speed, and ISO equally."
+        "term": "Pas",
+        "definition": "Una unitat de canvi d'exposició que representa el doble o la meitat de llum. S'aplica igualment al diafragma, la velocitat d'obturació i l'ISO."
       },
       "telephoto": {
-        "term": "Telephoto",
-        "definition": "A lens with a focal length longer than about 70mm (full frame equivalent). Telephoto lenses magnify distant subjects and compress perspective."
+        "term": "Teleobjectiu",
+        "definition": "Un objectiu amb una distància focal superior a uns 70mm (equivalent a full frame). Els teleobjectius amplien els subjectes llunyans i comprimeixen la perspectiva."
       },
       "tilt-shift": {
-        "term": "Tilt-Shift",
-        "definition": "A lens that can tilt the plane of focus and shift the image circle relative to the sensor. Used for architecture photography and selective focus effects."
+        "term": "Tilt-shift",
+        "definition": "Un objectiu que pot inclinar el pla d'enfocament i desplaçar el cercle d'imatge respecte al sensor. S'utilitza per a fotografia d'arquitectura i efectes d'enfocament selectiu."
       },
       "underexposure": {
-        "term": "Underexposure",
-        "definition": "When an image receives too little light, causing shadow areas to lose detail and appear noisy. The opposite of overexposure."
+        "term": "Subexposició",
+        "definition": "Quan una imatge rep massa poca llum i les zones d'ombra perden detall i apareixen amb soroll. El contrari de la sobreexposició."
       },
       "vignetting": {
-        "term": "Vignetting",
-        "definition": "A darkening of the corners and edges of an image relative to the center. Can be caused by lens design, filters, or lens hoods, and is sometimes added intentionally in post."
+        "term": "Vinyetatge",
+        "definition": "Un enfosquiment dels cantons i les vores d'una imatge respecte al centre. Pot ser causat pel disseny de l'objectiu, els filtres o els parasols, i de vegades s'afegeix intencionadament en postproducció."
       },
       "white-balance": {
-        "term": "White Balance",
-        "definition": "A camera setting that adjusts colors so that white objects appear neutral under different lighting conditions. Can be set automatically or manually using Kelvin values."
+        "term": "Balanç de blancs",
+        "definition": "Un ajust de la càmera que modifica els colors perquè els objectes blancs apareguin neutres sota diferents condicions de llum. Es pot configurar automàticament o manualment amb valors Kelvin."
       },
       "wide-angle": {
-        "term": "Wide-Angle",
-        "definition": "A lens with a short focal length (typically below 35mm on full frame) that captures a broader field of view. Often used for landscapes, architecture, and interiors."
+        "term": "Gran angular",
+        "definition": "Un objectiu amb una distància focal curta (normalment per sota de 35mm en full frame) que captura un angle de visió més ampli. S'utilitza sovint per a paisatges, arquitectura i interiors."
       },
       "zoom-lens": {
-        "term": "Zoom Lens",
-        "definition": "A lens with a variable focal length range, allowing the photographer to change framing without moving. Offers versatility at the cost of size, weight, and sometimes sharpness."
+        "term": "Objectiu zoom",
+        "definition": "Un objectiu amb un rang de distàncies focals variable, que permet al fotògraf canviar l'enquadrament sense moure's. Ofereix versatilitat a canvi de mida, pes i, de vegades, nitidesa."
       }
     }
   }

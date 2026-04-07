@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "Kedalaman medan (DoF) ialah julat jarak dalam foto anda yang kelihatan tajam dengan boleh diterima. DoF cetek mengaburkan latar belakang di belakang subjek anda, manakala DoF dalam mengekalkan semuanya dari latar depan ke ufuk dalam fokus. Mengawal DoF ialah salah satu alat kreatif paling berkuasa dalam fotografi.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Cara DoF Berfungsi",
+          "text": "Kedalaman medan ditadbir oleh bulatan kekeliruan (CoC) — titik kabur terbesar pada sensor yang masih kelihatan tajam kepada mata manusia. Tiga faktor fizikal menentukan DoF: panjang fokus, aperture dan jarak subjek. Aperture lebih luas (nombor-f rendah) menghasilkan DoF lebih cetek kerana lensa menumpukan cahaya pada sudut yang lebih curam, menyebabkan titik tidak fokus tersebar menjadi bulatan lebih besar pada sensor."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Panjang Fokus & Jarak",
+          "text": "Panjang fokus lebih panjang membesarkan imej, yang turut membesarkan bulatan kabur, menyempitkan DoF. Bergerak lebih dekat ke subjek anda mengurangkan DoF atas sebab yang sama — perbezaan relatif jarak antara subjek dan latar belakang menjadi lebih besar. Jarak hiperfokal ialah jarak fokus di mana DoF memanjang dari separuh jarak itu hingga ke infiniti, memaksimumkan ketajaman merentasi seluruh adegan."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Bokeh & Pembelauan",
+          "text": "Bokeh merujuk kepada kualiti kawasan tidak fokus. Bilangan dan bentuk bilah aperture mempengaruhi watak bokeh — bilah yang lebih bulat menghasilkan highlight yang lebih licin dan lebih bulat. Pada aperture yang sangat kecil (f/16+), pembelauan menyebabkan cahaya tersebar semasa ia melalui tepi aperture, melembutkan keseluruhan imej walaupun dalam zon DoF. Sentiasa ada sweet spot — biasanya sekitar f/5.6-f/8 pada full-frame — di mana ketajaman dan kedalaman medan seimbang secara optimum."
         }
       },
       "keyFactors": {
         "0": {
           "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "description": "Aperture lebih luas (f/1.4-f/2.8) mencipta DoF cetek dengan bokeh halus. Aperture lebih sempit (f/8-f/16) meningkatkan ketajaman merentasi adegan."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "Panjang Fokus",
+          "description": "Lensa lebih panjang memampatkan perspektif dan menyempitkan DoF pada aperture dan bingkai yang sama. Lensa 200mm pada f/4 mempunyai DoF yang jauh lebih sedikit daripada lensa 35mm pada f/4."
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "Jarak Subjek",
+          "description": "Semakin dekat anda memfokus, semakin cetek DoF. Jurugambar makro sering bekerja dengan DoF yang diukur dalam milimeter."
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "Saiz Sensor",
+          "description": "Sensor lebih besar memerlukan panjang fokus lebih panjang untuk bingkai yang sama, yang secara tidak langsung menyempitkan DoF. Kamera full-frame menghasilkan DoF lebih cetek daripada kamera Micro Four Thirds pada bingkai yang setara."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "Untuk potret kumpulan, gunakan f/5.6 atau lebih sempit dan minta semua orang berdiri dalam satah fokus yang sama. Walaupun seorang separuh langkah ke hadapan boleh terkeluar fokus pada aperture luas."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "Apabila menangkap landskap, fokus pada jarak hiperfokal dan bukan pada infiniti. Ini memaksimumkan zon ketajaman dari latar depan terdekat ke latar belakang jauh."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Jika anda mahukan kekaburan latar belakang maksimum untuk potret, tingkatkan panjang fokus anda dan dapatkan sedekat mungkin kepada subjek anda mengikut bingkai — kedua-dua perubahan berganda untuk mengurangkan DoF secara drastik."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "Panjang Fokus",
+          "definition": "Jarak dalam milimeter dari pusat optik lensa ke sensor apabila difokus pada infiniti. Panjang fokus lebih panjang membesarkan imej dan menyempitkan kedalaman medan."
         },
         "aperture": {
           "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "definition": "Saiz bukaan lensa, dinyatakan sebagai nombor-f (contoh f/2.8). Nombor-f rendah bermakna bukaan lebih luas, membenarkan lebih banyak cahaya masuk dan menghasilkan kedalaman medan yang lebih cetek."
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "Jarak Subjek",
+          "definition": "Jarak dari sensor kamera ke titik fokus. Jarak fokus lebih dekat menghasilkan kedalaman medan lebih cetek."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "Saiz Sensor",
+          "definition": "Dimensi fizikal sensor kamera. Sensor lebih besar (full-frame, format sederhana) menghasilkan kedalaman medan lebih cetek pada bingkai setara berbanding sensor lebih kecil (APS-C, Micro Four Thirds)."
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "Orientasi",
+          "definition": "Togol antara orientasi landskap (mendatar) dan potret (menegak). Ini mempengaruhi rujukan bingkai untuk pengiraan jarak subjek."
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "Had Fokus Dekat",
+          "definition": "Jarak terdekat dari kamera yang kelihatan tajam dengan boleh diterima. Apa sahaja yang lebih dekat daripada ini akan kelihatan kabur."
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "Had Fokus Jauh",
+          "definition": "Jarak terjauh dari kamera yang kelihatan tajam dengan boleh diterima. Apabila ini mencapai infiniti, segalanya melebihi had dekat berada dalam fokus."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Jumlah Kedalaman Medan",
+          "definition": "Jarak penuh antara had fokus dekat dan jauh — keseluruhan zon yang kelihatan tajam dalam imej."
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "Jarak Hiperfokal",
+          "definition": "Jarak fokus yang memaksimumkan kedalaman medan. Apabila anda memfokus pada jarak ini, segalanya dari separuh jarak hiperfokal hingga ke infiniti kelihatan tajam."
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "Kekaburan Latar Belakang",
+          "definition": "Ukuran sejauh mana kabur latar belakang kelihatan di belakang subjek anda. Nilai lebih tinggi bermakna kekaburan lebih kuat dan pengasingan subjek yang lebih besar."
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "Bulatan Kekeliruan",
+          "definition": "Diameter maksimum titik kabur pada sensor yang masih kelihatan sebagai titik kepada mata manusia. Menentukan sempadan ketajaman yang boleh diterima untuk pengiraan kedalaman medan."
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "Skor Pengasingan",
+          "definition": "Penilaian komposit (0-100) yang menunjukkan sejauh mana baik subjek diasingkan daripada latar belakang, berdasarkan jumlah kekaburan latar belakang berbanding saiz subjek."
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "Bentuk Bokeh",
+          "definition": "Bentuk highlight tidak fokus, ditentukan oleh bilangan dan kelengkungan bilah aperture. Lebih banyak bilah menghasilkan bokeh yang lebih bulat dan lebih halus."
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "Pembelauan",
+          "definition": "Pada aperture yang sangat kecil, cahaya membengkok di sekitar tepi aperture, melembutkan imej. Pada sensor full-frame, ini biasanya menjadi ketara melebihi f/16."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Anda sedang menangkap potret dan mahukan latar belakang yang kabur dengan cantik. Aperture yang manakah patut anda pilih?",
+          "hint": "Nombor-f rendah bermakna bukaan lensa lebih luas dan lebih banyak kekaburan latar belakang.",
+          "successMessage": "Betul! Aperture luas seperti f/1.8 atau f/2.8 mencipta kedalaman medan cetek, mengasingkan subjek anda dari latar belakang dengan bokeh yang menyenangkan.",
+          "failureMessage": "Tidak begitu. Aperture sempit seperti f/11 atau f/16 mengekalkan lebih banyak adegan dalam fokus. Untuk kekaburan latar belakang, pilih aperture luas (nombor-f rendah).",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Anda sedang mengambil gambar sekumpulan 8 orang yang disusun dalam dua baris di majlis perkahwinan. Aperture apa yang akan membantu memastikan semua orang berada dalam fokus?",
+          "hint": "Dengan orang ramai pada jarak yang sedikit berbeza, anda memerlukan kedalaman medan yang cukup untuk meliputi kedua-dua baris.",
+          "successMessage": "Pilihan bagus! f/5.6 menyediakan kedalaman medan yang mencukupi untuk mengekalkan kedua-dua baris tajam sambil masih mengekalkan kelajuan pengatup yang baik di dalam bangunan.",
+          "failureMessage": "Aperture itu mungkin meninggalkan baris belakang di luar fokus atau terlalu sempit. Untuk dua baris orang, f/5.6 adalah titik permulaan yang boleh dipercayai.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Anda sedang menangkap landskap dengan bunga liar 2 meter jauh dan pergunungan di latar belakang. Anda menggunakan lensa 24mm pada kamera full-frame. Teknik apa yang akan memaksimumkan ketajaman dari depan ke belakang?",
+          "hint": "Ada jarak khusus yang anda boleh fokus untuk memaksimumkan zon tajam dari latar depan ke infiniti.",
+          "successMessage": "Tepat sekali! Memfokus pada jarak hiperfokal di f/11 memastikan segalanya dari kira-kira 1 meter hingga infiniti adalah tajam dengan boleh diterima — sempurna untuk adegan ini.",
+          "failureMessage": "Memfokus pada infiniti akan meninggalkan bunga latar depan lembut. Gunakan jarak hiperfokal untuk memanjangkan ketajaman dari latar depan terdekat hingga ke infiniti.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Fokus pada bunga (2m)" },
+            "1": { "label": "Fokus pada gunung (infiniti)" },
+            "2": { "label": "Fokus pada jarak hiperfokal" },
+            "3": { "label": "Fokus di separuh jalan antara bunga dan gunung" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Anda sedang melakukan fotografi makro sebuah bunga dan perasan hanya kelopak depan yang tajam. Selebihnya bunga memudar menjadi kabur. Anda berada di f/5.6. Apa yang patut anda lakukan untuk mendapatkan lebih banyak bunga dalam fokus?",
+          "hint": "Pada jarak fokus dekat, DoF menjadi sangat nipis. Pertimbangkan aperture anda.",
+          "successMessage": "Betul! Mengecilkan ke f/11 atau f/16 meningkatkan DoF yang nipis dalam kerja makro. Tetapi berhati-hati dengan pelembutan pembelauan pada aperture yang sangat kecil.",
+          "failureMessage": "Membuka aperture lebih luas akan menjadikan DoF lebih nipis. Dalam fotografi makro, mengecilkan (nombor-f tinggi) ialah cara utama untuk mendapatkan lebih banyak kedalaman.",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Buka ke f/2.8 untuk lebih banyak cahaya" },
+            "1": { "label": "Kecilkan ke f/11" },
+            "2": { "label": "Tukar ke lensa lebih lebar" },
+            "3": { "label": "Bergerak lebih jauh dari bunga" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Anda membandingkan dua kamera untuk kerja potret: kamera full-frame dengan lensa 85mm f/1.8 dan kamera Micro Four Thirds dengan lensa 42.5mm f/1.8. Kedua-duanya menghasilkan bingkai yang setara. Kamera mana menghasilkan kedalaman medan yang lebih cetek?",
+          "hint": "Fikirkan tentang panjang fokus setara dan cara saiz sensor mempengaruhi pengiraan DoF pada nombor-f yang sama.",
+          "successMessage": "Betul! Kamera full-frame menghasilkan DoF kira-kira 2 stop lebih cetek. Walaupun lensa MFT mempunyai nombor-f yang sama, panjang fokus sebenar yang lebih pendek (42.5mm lawan 85mm) menghasilkan kedalaman medan lebih dalam pada bingkai setara.",
+          "failureMessage": "Walaupun kedua-dua lensa adalah f/1.8, kamera full-frame menggunakan panjang fokus sebenar lebih panjang untuk bingkai yang sama, menghasilkan DoF yang jauh lebih cetek.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Full-frame dengan 85mm f/1.8" },
+            "1": { "label": "Micro Four Thirds dengan 42.5mm f/1.8" },
+            "2": { "label": "Kedua-duanya menghasilkan DoF yang sama" }
           }
         }
       }

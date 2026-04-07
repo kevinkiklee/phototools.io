@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "Iikot",
+      "center": "Gitna",
+      "switchToPortrait": "Lumipat sa portrait",
+      "switchToLandscape": "Lumipat sa landscape",
+      "centerOverlays": "I-center ang mga overlay",
+      "addLens": "+ Magdagdag ng lens",
       "fovSimulator": "FOV Simulator",
       "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
+      "copyImage": "Kopyahin ang larawan",
+      "copyLink": "Kopyahin ang link",
       "embed": "Embed",
-      "reset": "Reset",
+      "reset": "I-reset",
       "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
+      "distance": "Distansya",
+      "showFramingGuides": "Ipakita ang framing guides",
       "wide": "wide",
       "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
+      "closeEmbedModal": "Isara ang embed modal",
       "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
+      "bbcodeLabel": "BBCode (Mga Forum)",
       "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
+      "copied": "Nakopya",
+      "copy": "Kopyahin",
       "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
+      "collapse": "Isara",
+      "expand": "Palawakin",
       "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "loadingScene": "Nilo-load ang eksena...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Ano ang field of view sa photography?",
+          "answer": "Ang field of view (FOV) ay ang angular na lawak ng eksena na nakikita sa pamamagitan ng lens at camera sensor mo. Tumutukoy ito kung gaano karami sa eksena ang nakukuha sa isang litrato at naaapektuhan ng focal length at sensor size."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Paano nakakaapekto ang crop factor sa field of view?",
+          "answer": "Ang mas maliit na sensor (mas mataas na crop factor) ay kumukuha ng mas makitid na field of view kumpara sa full-frame sensor sa parehong focal length. Halimbawa, ang APS-C sensor na may 1.5x crop factor ay gumagawa sa 50mm lens na umugali na parang 75mm lens pagdating sa field of view."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Ano ang relasyon ng FOV at focal length?",
+          "answer": "Ang field of view at focal length ay inversely related. Ang mas maikling focal length (wide-angle) ay nagbibigay ng mas malawak na field of view, habang ang mas mahabang focal length (telephoto) ay nagbibigay ng mas makitid na field of view. Ang eksaktong FOV ay nakadepende rin sa sensor size."
         }
       }
     }

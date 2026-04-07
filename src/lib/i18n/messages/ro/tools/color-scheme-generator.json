@@ -1,69 +1,69 @@
 {
   "toolUI": {
     "color-scheme-generator": {
-      "colorScheme": "Color Scheme",
-      "complementary": "Complementary",
-      "analogous": "Analogous",
+      "colorScheme": "Schemă de culori",
+      "complementary": "Complementar",
+      "analogous": "Analog",
       "triadic": "Triadic",
-      "splitComplementary": "Split Complementary",
+      "splitComplementary": "Complementar divizat",
       "tetradic": "Tetradic",
-      "keyColor": "Key Color",
+      "keyColor": "Culoare principală",
       "hue": "Hue:",
-      "saturation": "Saturation:",
+      "saturation": "Saturație:",
       "lightness": "Lightness:",
-      "splitAngle": "Split angle:",
-      "spread": "Spread:",
-      "rectangleWidth": "Rectangle width:",
-      "square": "(square)",
-      "pickFromPhoto": "Pick from Photo",
-      "dropPhotoPrompt": "Drop a photo here or click to browse",
-      "keyColorLabel": "Key color — click to copy hex",
-      "clickToCopyHex": "Click to copy hex",
-      "copiedExcl": "Copied!",
-      "copyColors": "Copy colors",
+      "splitAngle": "Unghi de divizare:",
+      "spread": "Distanță:",
+      "rectangleWidth": "Lățime dreptunghi:",
+      "square": "(pătrat)",
+      "pickFromPhoto": "Alege din fotografie",
+      "dropPhotoPrompt": "Trage o fotografie aici sau apasă pentru a răsfoi",
+      "keyColorLabel": "Culoare principală — apasă pentru a copia hex",
+      "clickToCopyHex": "Apasă pentru a copia hex",
+      "copiedExcl": "Copiat!",
+      "copyColors": "Copiază culorile",
       "hexFormat": "Hex",
       "cssFormat": "CSS",
       "rgbFormat": "RGB",
-      "copyHexCodes": "Copy hex codes",
-      "copyCssVariables": "Copy CSS variables",
-      "copyRgbValues": "Copy RGB values",
-      "pickColorFromPhoto": "Pick color from photo",
-      "close": "Close",
-      "dropPhotoOrBrowse": "Drop a photo here or click to browse",
-      "tapToChoose": "Tap to choose a photo",
-      "tapToSample": "Tap anywhere on the photo to sample that color",
-      "changePhoto": "Change photo",
-      "privacyNote": "Your photo stays in your browser — nothing is uploaded",
+      "copyHexCodes": "Copiază codurile hex",
+      "copyCssVariables": "Copiază variabilele CSS",
+      "copyRgbValues": "Copiază valorile RGB",
+      "pickColorFromPhoto": "Alege culoare din fotografie",
+      "close": "Închide",
+      "dropPhotoOrBrowse": "Trage o fotografie aici sau apasă pentru a răsfoi",
+      "tapToChoose": "Atinge pentru a alege o fotografie",
+      "tapToSample": "Atinge oriunde pe fotografie pentru a preleva culoarea",
+      "changePhoto": "Schimbă fotografia",
+      "privacyNote": "Fotografia ta rămâne în browser — nimic nu este încărcat",
       "suggestions": {
         "complementary": {
-          "warm": "Great for: warm sunset portraits with cool shadow contrast",
-          "cool": "Great for: moody blue-hour shots with warm accent lighting",
-          "default": "Great for: high-contrast compositions with strong visual tension"
+          "warm": "Excelent pentru: portrete calde la apus, cu contrast de umbre reci",
+          "cool": "Excelent pentru: cadre în ora albastră cu lumini calde de accent",
+          "default": "Excelent pentru: compoziții cu contrast ridicat și tensiune vizuală puternică"
         },
         "analogous": {
-          "warm": "Great for: golden hour landscapes with unified warm tones",
-          "cool": "Great for: serene water scenes and twilight photography",
-          "default": "Great for: harmonious nature shots with smooth color transitions"
+          "warm": "Excelent pentru: peisaje în ora de aur cu tonuri calde unitare",
+          "cool": "Excelent pentru: scene liniștite cu apă și fotografie la amurg",
+          "default": "Excelent pentru: cadre armonioase din natură, cu tranziții cromatice line"
         },
-        "triadic": "Use for: vibrant editorial work and bold creative portraits",
+        "triadic": "Folosește pentru: lucrări editoriale vibrante și portrete creative îndrăznețe",
         "splitComplementary": {
-          "warm": "Use for: contrasting wardrobe against a natural backdrop",
-          "default": "Use for: balanced product photography with visual variety"
+          "warm": "Folosește pentru: garderobă contrastantă pe un fundal natural",
+          "default": "Folosește pentru: fotografie de produs echilibrată, cu varietate vizuală"
         },
-        "tetradic": "Use for: rich editorial layouts and complex multi-subject compositions"
+        "tetradic": "Folosește pentru: layout-uri editoriale bogate și compoziții complexe, cu mai multe subiecte"
       },
       "faq": {
         "what-is-color-harmony": {
-          "question": "What is color harmony in photography?",
-          "answer": "Color harmony refers to aesthetically pleasing color combinations based on their positions on the color wheel. Harmonious colors create visual balance and can evoke specific moods in your photographs."
+          "question": "Ce este armonia culorilor în fotografie?",
+          "answer": "Armonia culorilor se referă la combinațiile cromatice plăcute estetic, bazate pe pozițiile lor pe roata culorilor. Culorile armonioase creează echilibru vizual și pot evoca stări specifice în fotografiile tale."
         },
         "complementary-vs-analogous": {
-          "question": "What is the difference between complementary and analogous colors?",
-          "answer": "Complementary colors sit opposite each other on the color wheel (like blue and orange) and create high contrast. Analogous colors sit next to each other (like blue, blue-green, and green) and create a more harmonious, unified feel."
+          "question": "Care este diferența dintre culorile complementare și cele analoge?",
+          "answer": "Culorile complementare stau opus una față de alta pe roata culorilor (ca albastrul și portocaliul) și creează contrast ridicat. Culorile analoge stau una lângă alta (ca albastru, albastru-verzui și verde) și creează un sentiment mai armonios, unitar."
         },
         "how-to-use-color-schemes-photography": {
-          "question": "How do I use color schemes in photography?",
-          "answer": "Plan your shoots around a color palette — choose wardrobe, locations, and props that match your scheme. In post-processing, use color grading to emphasize your chosen palette. Color schemes help create a consistent visual identity across a photo series."
+          "question": "Cum folosesc schemele de culori în fotografie?",
+          "answer": "Planifică-ți sesiunile în jurul unei palete — alege garderoba, locațiile și recuzita care se potrivesc cu schema ta. În post-procesare, folosește color grading pentru a accentua paleta aleasă. Schemele de culori ajută la crearea unei identități vizuale consistente într-o serie de fotografii."
         }
       }
     }

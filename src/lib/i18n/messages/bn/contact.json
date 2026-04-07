@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "আমাদের সাথে যোগাযোগ করো",
+    "description": "কোনো প্রশ্ন আছে, বাগ পেয়েছো, নাকি নতুন টুলের পরামর্শ দিতে চাও? আমরা তোমার কথা শুনতে আগ্রহী।",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email",
+      "nameLabel": "নাম",
+      "namePlaceholder": "তোমার নাম",
+      "emailLabel": "ইমেইল",
       "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "subjectLabel": "বিষয়",
+      "subjectPlaceholder": "কী নিয়ে?",
+      "messageLabel": "বার্তা",
+      "messagePlaceholder": "তোমার বার্তা...",
+      "submit": "বার্তা পাঠাও",
+      "sending": "পাঠানো হচ্ছে...",
+      "honeypotLabel": "ওয়েবসাইট",
+      "successToast": "বার্তা পাঠানো হয়েছে! আমরা শীঘ্রই উত্তর দেবো।",
+      "errorToast": "কিছু একটা ভুল হয়েছে। আবার চেষ্টা করো।",
+      "networkErrorToast": "নেটওয়ার্ক এরর। তোমার কানেকশন চেক করে আবার চেষ্টা করো।",
+      "sentTitle": "যোগাযোগের জন্য ধন্যবাদ!",
+      "sentMessage": "আমরা যত দ্রুত সম্ভব উত্তর দেবো।",
+      "sendAnother": "আরেকটি বার্তা পাঠাও"
     }
   }
 }

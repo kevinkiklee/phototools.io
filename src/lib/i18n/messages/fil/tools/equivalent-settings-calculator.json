@@ -1,16 +1,16 @@
 {
   "toolUI": {
     "equivalent-settings-calculator": {
-      "settings": "Settings",
-      "sourceCamera": "Your Camera",
+      "settings": "Mga Setting",
+      "sourceCamera": "Iyong Camera",
       "sourceSensor": "Sensor",
       "sourceFocalLength": "Focal Length",
       "sourceAperture": "Aperture",
       "sourceISO": "ISO",
       "sourceDistance": "Subject Distance",
-      "targetSensors": "Compare With",
-      "addSensor": "+ Add Sensor",
-      "removeSensor": "Remove",
+      "targetSensors": "Ikumpara Sa",
+      "addSensor": "+ Magdagdag ng Sensor",
+      "removeSensor": "Alisin",
       "equivalenceCard": "Equivalent Settings",
       "equivalentFL": "Equivalent Focal Length",
       "equivalentAperture": "Equivalent Aperture",
@@ -19,20 +19,20 @@
       "equivalentDoF": "Equivalent DoF",
       "cropFactor": "Crop Factor",
       "fieldOfView": "Field of View",
-      "warningUnrealisticAperture": "This equivalent aperture ({value}) is faster than any real lens. The target sensor cannot match the source depth of field.",
-      "warningUnrealisticFL": "This equivalent focal length ({value}mm) is uncommon. You may not find a real lens at this length.",
-      "warningClosestReal": "Closest real lens: {value}mm f/{aperture}",
-      "diagramTitle": "Sensor & FOV Comparison",
+      "warningUnrealisticAperture": "Ang equivalent aperture na ito ({value}) ay mas mabilis kaysa sa kahit anong tunay na lens. Hindi kayang tugmain ng target sensor ang source depth of field.",
+      "warningUnrealisticFL": "Ang equivalent focal length na ito ({value}mm) ay bihira. Maaaring hindi ka makahanap ng tunay na lens sa haba na ito.",
+      "warningClosestReal": "Pinakamalapit na tunay na lens: {value}mm f/{aperture}",
+      "diagramTitle": "Sensor at FOV Comparison",
       "diagramSource": "Source",
       "diagramTarget": "Target",
       "diagramFovAngle": "FOV: {angle}°",
       "diagramCropFactor": "{factor}× crop",
-      "matchDoF": "Match Depth of Field",
-      "matchFoV": "Match Field of View",
-      "matchExposure": "Match Exposure",
-      "sameFOV": "Same field of view",
-      "sameDoF": "Same depth of field",
-      "sameExposure": "Same exposure brightness"
+      "matchDoF": "Itugma ang Depth of Field",
+      "matchFoV": "Itugma ang Field of View",
+      "matchExposure": "Itugma ang Exposure",
+      "sameFOV": "Parehong field of view",
+      "sameDoF": "Parehong depth of field",
+      "sameExposure": "Parehong liwanag ng exposure"
     }
   }
 }

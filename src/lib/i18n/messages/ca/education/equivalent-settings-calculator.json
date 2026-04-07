@@ -1,109 +1,109 @@
 {
   "education": {
     "equivalent-settings-calculator": {
-      "beginner": "Different sensor sizes produce different depth of field and field of view even at the same focal length and aperture. Equivalent settings let you find the lens and aperture combination on a second camera that reproduces the same framing and background blur. This is essential when comparing gear across formats or switching between camera systems.",
+      "beginner": "Els sensors de mides diferents produeixen profunditats de camp i angles de visió diferents, fins i tot amb la mateixa distància focal i diafragma. Els ajustos equivalents et permeten trobar la combinació d'objectiu i diafragma en una segona càmera que reprodueix el mateix enquadrament i desenfocament de fons. És essencial quan compares equipament entre formats o canvies de sistema.",
       "deeper": {
         "0": {
-          "heading": "The Crop Factor",
-          "text": "Every sensor has a crop factor relative to the 35mm full-frame standard. APS-C sensors have a factor around 1.5×, Micro Four Thirds 2×, and medium format around 0.79×. Multiplying the actual focal length by the crop factor gives the full-frame equivalent field of view. A 35mm lens on APS-C frames like a 52.5mm on full frame."
+          "heading": "El factor de retall",
+          "text": "Cada sensor té un factor de retall relatiu a l'estàndard full frame de 35mm. Els sensors APS-C tenen un factor al voltant d'1,5×, els Micro Quatre Terços 2×, i el mitjà format al voltant de 0,79×. Multiplicar la distància focal real pel factor de retall dona l'angle de visió equivalent en full frame. Un objectiu de 35mm en APS-C enquadra com un 52,5mm en full frame."
         },
         "1": {
-          "heading": "Equivalent Aperture & DoF",
-          "text": "To match depth of field across formats, multiply the f-number by the same crop factor. An f/1.4 lens on Micro Four Thirds produces DoF equivalent to f/2.8 on full frame (1.4 × 2 = 2.8). This is why full-frame cameras are prized for shallow DoF — you can use physically faster lenses at wider actual apertures to achieve blur that smaller sensors cannot replicate."
+          "heading": "Diafragma equivalent i profunditat de camp",
+          "text": "Per igualar la profunditat de camp entre formats, multiplica l'f-stop pel mateix factor de retall. Un objectiu f/1.4 en Micro Quatre Terços produeix una profunditat de camp equivalent a f/2.8 en full frame (1,4 × 2 = 2,8). És per això que el full frame és apreciat per la profunditat de camp reduïda — pots fer servir objectius físicament més lluminosos amb diafragmes reals més oberts per aconseguir un desenfocament que els sensors més petits no poden replicar."
         },
         "2": {
-          "heading": "Equivalent ISO & Total Light",
-          "text": "Matching exposure brightness across formats requires adjusting ISO by the crop factor squared. The larger sensor collects more total light for the same scene, which means it can use a lower ISO for equivalent noise performance. A full-frame sensor at ISO 800 produces similar noise to an APS-C sensor at ISO 356 and a Micro Four Thirds sensor at ISO 200."
+          "heading": "ISO equivalent i llum total",
+          "text": "Igualar la lluminositat de l'exposició entre formats requereix ajustar l'ISO pel factor de retall al quadrat. El sensor més gran recull més llum total per a la mateixa escena, cosa que significa que pot fer servir un ISO més baix amb un rendiment de soroll equivalent. Un sensor full frame a ISO 800 produeix un soroll similar al d'un APS-C a ISO 356 i al d'un Micro Quatre Terços a ISO 200."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame sensor diagonal to the target sensor diagonal. This single number drives all equivalence calculations for focal length, aperture, and ISO."
+          "label": "Factor de retall",
+          "description": "La proporció entre la diagonal del sensor full frame i la del sensor de destí. Aquest número impulsa tots els càlculs d'equivalència per a distància focal, diafragma i ISO."
         },
         "1": {
-          "label": "Sensor Size",
-          "description": "Physically larger sensors capture more light and produce shallower DoF at equivalent framing. The equivalence calculator reveals exactly how much difference each format makes."
+          "label": "Mida del sensor",
+          "description": "Els sensors físicament més grans capturen més llum i produeixen menys profunditat de camp amb enquadrament equivalent. La calculadora d'equivalències et mostra exactament quina diferència marca cada format."
         },
         "2": {
-          "label": "Available Lenses",
-          "description": "Equivalence math may call for a lens that does not exist. A 17mm f/0.7 is the equivalent of 35mm f/1.4 on MFT — but no such lens is made. Real-world gear limits what is achievable."
+          "label": "Objectius disponibles",
+          "description": "Les matemàtiques d'equivalència poden demanar un objectiu que no existeix. Un 17mm f/0.7 seria l'equivalent d'un 35mm f/1.4 en MFT — però cap fabricant en fa cap. L'equipament real limita el que es pot aconseguir."
         }
       },
       "tips": {
         "0": {
-          "text": "When comparing camera systems, always compare at equivalent settings rather than matching f-numbers. An f/2.8 lens on Micro Four Thirds does not give the same background blur as f/2.8 on full frame — you need f/1.4 on MFT to match."
+          "text": "Quan compares sistemes de càmera, sempre compara amb ajustos equivalents en comptes de fer coincidir els f-stops. Un objectiu f/2.8 en Micro Quatre Terços no dona el mateix desenfocament de fons que un f/2.8 en full frame — necessites un f/1.4 en MFT per igualar-lo."
         },
         "1": {
-          "text": "Use equivalence to plan lens purchases when switching systems. If you love the look of 85mm f/1.8 on full frame, look for a 56mm f/1.2 on APS-C or a 42.5mm f/0.95 on MFT for a similar rendering."
+          "text": "Fes servir l'equivalència per planificar compres d'objectius en canviar de sistema. Si t'agrada el look d'un 85mm f/1.8 en full frame, busca un 56mm f/1.2 en APS-C o un 42.5mm f/0.95 en MFT per obtenir un resultat similar."
         },
         "2": {
-          "text": "Remember that equivalence applies to depth of field and field of view, not to lens speed for exposure. An f/2.8 lens on any format still lets in the same amount of light per unit area — the larger sensor just collects more total light because of its greater area."
+          "text": "Recorda que l'equivalència s'aplica a la profunditat de camp i a l'angle de visió, no a la lluminositat de l'objectiu per a l'exposició. Un objectiu f/2.8 a qualsevol format deixa passar la mateixa llum per unitat d'àrea — el sensor més gran només recull més llum total per la seva àrea més gran."
         }
       },
       "tooltips": {
         "sourceSensor": {
-          "term": "Source Sensor",
-          "definition": "The sensor format of the camera whose settings you want to match. All equivalence calculations are relative to this starting point."
+          "term": "Sensor d'origen",
+          "definition": "El format de sensor de la càmera amb què vols igualar els ajustos. Tots els càlculs d'equivalència es fan respecte a aquest punt de partida."
         },
         "sourceFocalLength": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens on your source camera. This will be converted to equivalent focal lengths on target formats."
+          "term": "Distància focal",
+          "definition": "La distància focal real de l'objectiu a la càmera d'origen. Es convertirà a distàncies focals equivalents en els formats de destí."
         },
         "sourceAperture": {
-          "term": "Aperture",
-          "definition": "The f-number on your source camera. The equivalent aperture on each target format determines matching depth of field."
+          "term": "Diafragma",
+          "definition": "L'f-stop a la càmera d'origen. El diafragma equivalent en cada format de destí determina la profunditat de camp que coincideix."
         },
         "targetSensor": {
-          "term": "Target Sensor",
-          "definition": "The sensor format you want to find equivalent settings for. The calculator applies the relative crop factor to compute matching focal length and aperture."
+          "term": "Sensor de destí",
+          "definition": "El format de sensor per al qual vols trobar ajustos equivalents. La calculadora aplica el factor de retall relatiu per obtenir la distància focal i el diafragma equivalents."
         },
         "cropFactor": {
-          "term": "Crop Factor",
-          "definition": "The ratio between the diagonal of a 35mm full-frame sensor and the target sensor. Multiply focal length by crop factor for equivalent FOV; multiply aperture by crop factor for equivalent DoF."
+          "term": "Factor de retall",
+          "definition": "La proporció entre la diagonal d'un sensor full frame de 35mm i la del sensor de destí. Multiplica la distància focal pel factor de retall per obtenir l'angle de visió equivalent; multiplica el diafragma pel factor de retall per obtenir la profunditat de camp equivalent."
         },
         "equivalentFL": {
-          "term": "Equivalent Focal Length",
-          "definition": "The focal length on the target format that produces the same field of view as the source setup."
+          "term": "Distància focal equivalent",
+          "definition": "La distància focal al format de destí que produeix el mateix angle de visió que la configuració d'origen."
         },
         "equivalentAperture": {
-          "term": "Equivalent Aperture",
-          "definition": "The f-number on the target format that produces the same depth of field as the source setup. May be faster than any real lens."
+          "term": "Diafragma equivalent",
+          "definition": "L'f-stop al format de destí que produeix la mateixa profunditat de camp que la configuració d'origen. Pot ser més lluminós que cap objectiu real."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You shoot portraits with an 85mm f/1.8 lens on a full-frame camera. A friend uses Micro Four Thirds (2× crop). What focal length does your friend need to match your field of view?",
-          "hint": "Divide the full-frame focal length by the MFT crop factor to find the actual lens needed.",
-          "successMessage": "Correct! 85mm / 2 = 42.5mm. Your friend needs a 42.5mm lens on Micro Four Thirds to get the same framing as your 85mm on full frame.",
-          "failureMessage": "To match the field of view, divide by the crop factor: 85mm / 2 = 42.5mm. That is the actual focal length needed on the MFT body.",
+          "scenario": "Fas retrats amb un 85mm f/1.8 en una càmera full frame. Un amic fa servir Micro Quatre Terços (retall 2×). Quina distància focal necessita per igualar el teu angle de visió?",
+          "hint": "Divideix la distància focal del full frame pel factor de retall del MFT per trobar l'objectiu real que necessita.",
+          "successMessage": "Correcte! 85mm / 2 = 42,5mm. El teu amic necessita un objectiu de 42,5mm en Micro Quatre Terços per obtenir el mateix enquadrament que el teu 85mm en full frame.",
+          "failureMessage": "Per igualar l'angle de visió, divideix pel factor de retall: 85mm / 2 = 42,5mm. Aquesta és la distància focal real necessària al cos MFT.",
           "options": {
-            "0": { "label": "42.5mm" },
+            "0": { "label": "42,5mm" },
             "1": { "label": "85mm" },
             "2": { "label": "170mm" },
             "3": { "label": "56mm" }
           }
         },
         "1": {
-          "scenario": "Your friend found a 42.5mm f/1.8 lens for their MFT camera. Will the background blur match your 85mm f/1.8 on full frame?",
-          "hint": "Apply the crop factor to the aperture as well to find the equivalent DoF.",
-          "successMessage": "Right! The 42.5mm f/1.8 on MFT gives equivalent DoF to 85mm f/3.6 on full frame (1.8 × 2 = 3.6). Your f/1.8 full-frame shot produces significantly more blur.",
-          "failureMessage": "No — the MFT f/1.8 gives DoF equivalent to f/3.6 on full frame (1.8 × 2× crop = 3.6). To match your full-frame f/1.8 blur, your friend would need f/0.9 on MFT, which does not exist.",
+          "scenario": "El teu amic ha trobat un 42,5mm f/1.8 per a la seva càmera MFT. El desenfocament del fons coincidirà amb el teu 85mm f/1.8 en full frame?",
+          "hint": "Aplica el factor de retall també al diafragma per trobar la profunditat de camp equivalent.",
+          "successMessage": "Exacte! El 42,5mm f/1.8 en MFT dona una profunditat de camp equivalent a 85mm f/3.6 en full frame (1,8 × 2 = 3,6). La teva presa a f/1.8 en full frame produeix significativament més desenfocament.",
+          "failureMessage": "No — el f/1.8 en MFT equival a f/3.6 en full frame (1,8 × 2× de retall = 3,6). Per igualar el teu desenfocament de full frame a f/1.8, el teu amic necessitaria un f/0.9 en MFT, que no existeix.",
           "options": {
-            "0": { "label": "Yes — same f/1.8 means same blur" },
-            "1": { "label": "No — MFT f/1.8 equals full-frame f/3.6 depth of field" },
-            "2": { "label": "No — MFT produces more blur because the sensor is smaller" }
+            "0": { "label": "Sí — mateix f/1.8 vol dir mateix desenfocament" },
+            "1": { "label": "No — f/1.8 en MFT equival a f/3.6 en full frame" },
+            "2": { "label": "No — MFT produeix més desenfocament perquè el sensor és més petit" }
           }
         },
         "2": {
-          "scenario": "A photographer switching from full frame to APS-C (1.5× crop) wants to match the look of a 50mm f/1.4 on full frame. What equivalent lens and aperture do they need on APS-C?",
-          "hint": "Divide focal length by the crop factor for equivalent FOV. Divide aperture by the crop factor for equivalent DoF.",
-          "successMessage": "Exactly! 50 / 1.5 = 33mm for field of view, and f/1.4 / 1.5 = f/0.93 for matching DoF. Since no f/0.93 lens exists, the APS-C camera cannot fully replicate the full-frame look.",
-          "failureMessage": "The correct answer is ~33mm f/0.93. Since 50 / 1.5 = 33.3mm and 1.4 / 1.5 = 0.93. No f/0.93 lens exists, so the full-frame look cannot be fully matched on APS-C.",
+          "scenario": "Un fotògraf que passa de full frame a APS-C (retall 1,5×) vol igualar el look d'un 50mm f/1.4 en full frame. Quin objectiu i diafragma equivalents necessita en APS-C?",
+          "hint": "Divideix la distància focal pel factor de retall per a l'angle de visió equivalent. Divideix el diafragma pel factor de retall per a la profunditat de camp equivalent.",
+          "successMessage": "Exacte! 50 / 1,5 = 33mm per a l'angle de visió, i f/1.4 / 1,5 = f/0.93 per igualar la profunditat de camp. Com que no existeix cap objectiu f/0.93, la càmera APS-C no pot replicar completament el look de full frame.",
+          "failureMessage": "La resposta correcta és ~33mm f/0.93. Com que 50 / 1,5 = 33,3mm i 1,4 / 1,5 = 0,93. Cap objectiu f/0.93 existeix, de manera que el look de full frame no es pot igualar del tot en APS-C.",
           "options": {
-            "0": { "label": "35mm f/1.4 — close enough" },
-            "1": { "label": "33mm f/0.93 — exact match, but no such lens exists" },
-            "2": { "label": "75mm f/2.1 — multiply by crop factor" }
+            "0": { "label": "35mm f/1.4 — prou a prop" },
+            "1": { "label": "33mm f/0.93 — igualació exacta, però no existeix cap objectiu així" },
+            "2": { "label": "75mm f/2.1 — multiplicat pel factor de retall" }
           }
         }
       }

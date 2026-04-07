@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "sensor-size-comparison": {
-      "displayMode": "Display Mode",
-      "modeOverlay": "Overlay",
-      "modeSideBySide": "Side by Side",
-      "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
-      "sensors": "Sensors",
-      "customSensors": "Custom Sensors",
-      "placeholderName": "Name",
-      "placeholderW": "W (mm)",
-      "placeholderH": "H (mm)",
-      "placeholderMP": "Megapixels (optional)",
+      "displayMode": "Mod Paparan",
+      "modeOverlay": "Tindihan",
+      "modeSideBySide": "Bersebelahan",
+      "modePixelDensity": "Ketumpatan Piksel",
+      "pixelDensityDescription": "Menunjukkan kiraan megapiksel biasa untuk setiap sensor. Piksel yang lebih besar (sel lebih besar) menangkap lebih banyak cahaya.",
+      "sensors": "Sensor",
+      "customSensors": "Sensor Tersuai",
+      "placeholderName": "Nama",
+      "placeholderW": "L (mm)",
+      "placeholderH": "T (mm)",
+      "placeholderMP": "Megapiksel (pilihan)",
       "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
-      "addSensor": "Add Sensor",
-      "save": "Save",
-      "cancelEdit": "Cancel",
+      "maxDimensionWarning": "Dimensi sensor maksimum ialah 99 mm",
+      "addSensor": "Tambah Sensor",
+      "save": "Simpan",
+      "cancelEdit": "Batal",
       "edit": "Edit",
-      "remove": "Remove",
-      "deleteAllCustom": "Delete All Custom Sensors",
+      "remove": "Buang",
+      "deleteAllCustom": "Padam Semua Sensor Tersuai",
       "tableSensor": "Sensor",
-      "tableWidth": "Width (mm)",
-      "tableHeight": "Height (mm)",
-      "tableAspectRatio": "Aspect Ratio",
-      "tableArea": "Area (mm\u00b2)",
-      "tableCropFactor": "Crop Factor",
-      "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "tableWidth": "Lebar (mm)",
+      "tableHeight": "Tinggi (mm)",
+      "tableAspectRatio": "Nisbah Aspek",
+      "tableArea": "Kawasan (mm²)",
+      "tableCropFactor": "Faktor Crop",
+      "tableAspectCrop": "Crop Aspek",
+      "canvasAriaLabel": "Perbandingan saiz sensor dalam mod {mode}",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "Apa itu faktor crop dan mengapa ia penting?",
+          "answer": "Faktor crop menggambarkan perbezaan saiz antara sensor kamera dan sensor full-frame (35mm). Ia mempengaruhi panjang fokus berkesan, kedalaman medan, dan prestasi cahaya rendah. Faktor crop 1.5x bermakna sensor adalah 1.5 kali lebih kecil daripada full frame."
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "Apakah kelebihan sensor full frame berbanding APS-C?",
+          "answer": "Sensor full-frame menawarkan prestasi cahaya rendah yang lebih baik, kedalaman medan lebih cetek, dan medan pandangan lebih luas pada panjang fokus tertentu. Sensor APS-C lebih berpatutan, lebih ringan, dan memberikan jangkauan tambahan untuk fotografi hidupan liar dan sukan."
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "Bagaimanakah saiz sensor mempengaruhi kedalaman medan?",
+          "answer": "Sensor lebih besar menghasilkan kedalaman medan lebih cetek pada bingkai setara. Untuk mendapatkan bingkai yang sama dengan sensor lebih kecil, anda sama ada menggunakan panjang fokus lebih pendek (DoF lebih dalam) atau bergerak lebih jauh (DoF lebih dalam), kedua-duanya mengurangkan kekaburan latar belakang."
         }
       }
     }

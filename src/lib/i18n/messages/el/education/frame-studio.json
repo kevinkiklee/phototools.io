@@ -1,104 +1,104 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helps you crop, frame, and compose your photos right in the browser. Use composition grids to improve your framing, crop to popular aspect ratios, and add professional-looking borders — all without losing any image quality.",
+      "beginner": "Το Frame Studio σε βοηθάει να κόψεις, να πλαισιώσεις και να συνθέσεις τις φωτογραφίες σου μέσα στον browser. Χρησιμοποίησε πλέγματα σύνθεσης για να βελτιώσεις το κάδρο σου, κόψε σε δημοφιλείς αναλογίες πλευρών και πρόσθεσε επαγγελματικά περιγράμματα — όλα χωρίς να χάσεις ποιότητα εικόνας.",
       "deeper": {
         "0": {
-          "heading": "Composition Grids",
-          "text": "The Rule of Thirds divides the frame into a 3\u00d73 grid — placing subjects along lines or at intersections creates natural visual balance. The Golden Ratio (approximately 1.618:1) provides a mathematically harmonious division used in art and architecture for centuries. The Golden Spiral guides the eye along a logarithmic curve derived from the Fibonacci sequence, useful for leading the viewer through the image."
+          "heading": "Πλέγματα σύνθεσης",
+          "text": "Ο κανόνας των τρίτων χωρίζει το κάδρο σε πλέγμα 3×3 — η τοποθέτηση θεμάτων κατά μήκος των γραμμών ή στις διασταυρώσεις δημιουργεί φυσική οπτική ισορροπία. Η χρυσή αναλογία (περίπου 1.618:1) παρέχει μια μαθηματικά αρμονική διαίρεση που χρησιμοποιείται σε τέχνη και αρχιτεκτονική για αιώνες. Η χρυσή σπείρα οδηγεί το μάτι κατά μήκος μιας λογαριθμικής καμπύλης που προέρχεται από την ακολουθία Fibonacci, χρήσιμη για να καθοδηγήσεις τον θεατή μέσα στην εικόνα."
         },
         "1": {
-          "heading": "Aspect Ratios",
-          "text": "Different aspect ratios serve different purposes. 1:1 (square) works well for social media and symmetrical compositions. 3:2 is the classic 35mm film ratio. 4:3 is common in micro four-thirds and older digital cameras. 16:9 is the standard widescreen ratio for video and cinematic compositions. 5:4 is traditional for 8\u00d710 prints."
+          "heading": "Αναλογίες πλευρών",
+          "text": "Διαφορετικές αναλογίες πλευρών εξυπηρετούν διαφορετικούς σκοπούς. Το 1:1 (τετράγωνο) ταιριάζει σε social media και συμμετρικές συνθέσεις. Το 3:2 είναι η κλασική αναλογία φιλμ 35mm. Το 4:3 είναι συνηθισμένο σε micro four-thirds και παλιότερες ψηφιακές κάμερες. Το 16:9 είναι η πρότυπη widescreen αναλογία για βίντεο και κινηματογραφικές συνθέσεις. Το 5:4 είναι παραδοσιακό για εκτυπώσεις 8×10."
         },
         "2": {
-          "heading": "Framing and Borders",
-          "text": "Adding a border around a photograph mimics the effect of a physical mat and frame. A white mat provides visual breathing room and directs focus inward. The width of the border relative to the image affects the perceived \"weight\" of the photograph. Gallery-style presentations typically use wider mats. A subtle shadow creates depth, simulating how a framed print sits on a wall."
+          "heading": "Πλαισίωση και περιγράμματα",
+          "text": "Η προσθήκη περιγράμματος γύρω από μια φωτογραφία μιμείται το αποτέλεσμα ενός φυσικού passe-partout και κορνίζας. Το λευκό passe-partout παρέχει οπτικό αέρα και κατευθύνει την εστίαση προς τα μέσα. Το πλάτος του περιγράμματος σε σχέση με την εικόνα επηρεάζει το αντιληπτό «βάρος» της φωτογραφίας. Οι παρουσιάσεις galerie χρησιμοποιούν συνήθως πιο φαρδιά passe-partout. Μια διακριτική σκιά δημιουργεί βάθος, προσομοιώνοντας το πώς μια κορνιζαρισμένη εκτύπωση κρέμεται σε έναν τοίχο."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Composition Grid",
-          "description": "Overlay guides help you evaluate and improve subject placement within the frame."
+          "label": "Πλέγμα σύνθεσης",
+          "description": "Οι οδηγοί υπέρθεσης σε βοηθούν να αξιολογήσεις και να βελτιώσεις την τοποθέτηση του θέματος μέσα στο κάδρο."
         },
         "1": {
-          "label": "Aspect Ratio",
-          "description": "The width-to-height proportion affects how the image feels — wider ratios feel cinematic, square feels balanced."
+          "label": "Αναλογία πλευρών",
+          "description": "Η αναλογία πλάτους προς ύψος επηρεάζει την αίσθηση της εικόνας — ευρύτερες αναλογίες έχουν κινηματογραφικό χαρακτήρα, το τετράγωνο δίνει ισορροπία."
         },
         "2": {
-          "label": "Border Width",
-          "description": "Wider borders add gravitas and focus; narrow borders feel modern and minimal."
+          "label": "Πλάτος περιγράμματος",
+          "description": "Φαρδύτερα περιγράμματα προσθέτουν βαρύτητα και εστίαση, στενά δίνουν μοντέρνα και μινιμαλιστική αίσθηση."
         },
         "3": {
-          "label": "Mat Color",
-          "description": "White mats are classic for art photography. Dark mats emphasize lighter images. Color mats can complement or contrast."
+          "label": "Χρώμα passe-partout",
+          "description": "Τα λευκά passe-partout είναι κλασικά για την καλλιτεχνική φωτογραφία. Τα σκούρα τονίζουν τις πιο φωτεινές εικόνες. Τα έγχρωμα μπορούν να συμπληρώνουν ή να αντιπαραθέτουν."
         }
       },
       "tips": {
         "0": {
-          "text": "For Instagram posts, crop to 4:5 (portrait) to take up maximum screen space in the feed."
+          "text": "Για posts στο Instagram, κόψε σε 4:5 (κάθετο) για να καταλάβεις το μέγιστο χώρο της οθόνης στο feed."
         },
         "1": {
-          "text": "When adding a border for print, use a mat width of at least 10% of the image's shorter dimension for a professional look."
+          "text": "Όταν προσθέτεις περίγραμμα για εκτύπωση, χρησιμοποίησε πλάτος passe-partout τουλάχιστον 10% της μικρότερης διάστασης της εικόνας για επαγγελματικό look."
         },
         "2": {
-          "text": "The Golden Spiral is most effective for images with a natural flow — water, roads, or curved architecture."
+          "text": "Η χρυσή σπείρα είναι πιο αποτελεσματική για εικόνες με φυσική ροή — νερό, δρόμοι ή καμπυλωτή αρχιτεκτονική."
         }
       },
       "tooltips": {
         "Aspect Ratio": {
-          "term": "Aspect Ratio",
-          "definition": "The proportional relationship between width and height. Common ratios include 3:2 (35mm), 4:3 (M43), and 16:9 (widescreen)."
+          "term": "Αναλογία πλευρών",
+          "definition": "Η αναλογία μεταξύ πλάτους και ύψους. Συνηθισμένες αναλογίες περιλαμβάνουν το 3:2 (35mm), το 4:3 (M43) και το 16:9 (widescreen)."
         },
         "Rule of Thirds": {
-          "term": "Rule of Thirds",
-          "definition": "A composition guideline that divides the frame into 9 equal parts. Placing subjects at intersection points creates visual interest."
+          "term": "Κανόνας των τρίτων",
+          "definition": "Οδηγία σύνθεσης που χωρίζει το κάδρο σε 9 ίσα μέρη. Η τοποθέτηση θεμάτων στα σημεία διασταύρωσης δημιουργεί οπτικό ενδιαφέρον."
         },
         "Golden Ratio": {
-          "term": "Golden Ratio",
-          "definition": "A mathematical proportion (~1.618:1) found in nature and art. Creates aesthetically pleasing divisions of space."
+          "term": "Χρυσή αναλογία",
+          "definition": "Μαθηματική αναλογία (~1.618:1) που βρίσκεται στη φύση και την τέχνη. Δημιουργεί αισθητικά ευχάριστες διαιρέσεις του χώρου."
         },
         "Border Width": {
-          "term": "Border Width",
-          "definition": "The thickness of the frame border in pixels. Goes outside the image, increasing total dimensions without cropping."
+          "term": "Πλάτος περιγράμματος",
+          "definition": "Το πάχος του περιγράμματος της κορνίζας σε pixel. Πηγαίνει έξω από την εικόνα, αυξάνοντας τις συνολικές διαστάσεις χωρίς να κόβει."
         },
         "Inner Mat": {
-          "term": "Inner Mat",
-          "definition": "A second, thinner border between the outer frame and the image — mimics the beveled inner mat of a physical picture frame."
+          "term": "Εσωτερικό passe-partout",
+          "definition": "Ένα δεύτερο, πιο λεπτό περίγραμμα μεταξύ της εξωτερικής κορνίζας και της εικόνας — μιμείται το εσωτερικό passe-partout μιας πραγματικής κορνίζας."
         },
         "Corner Radius": {
-          "term": "Corner Radius",
-          "definition": "Rounds the corners of the frame border. Zero gives sharp corners, higher values give a softer, rounded look."
+          "term": "Ακτίνα γωνίας",
+          "definition": "Στρογγυλεύει τις γωνίες του περιγράμματος της κορνίζας. Το μηδέν δίνει κοφτερές γωνίες, υψηλότερες τιμές δίνουν πιο απαλό, στρογγυλεμένο look."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to post a portrait photo on Instagram for maximum feed presence. Which aspect ratio should you use?",
-          "hint": "Instagram portrait posts use a taller-than-wide ratio.",
-          "successMessage": "Correct! 4:5 gives you the maximum vertical space in the Instagram feed.",
-          "failureMessage": "Instagram portrait posts use 4:5 (flip 5:4 to portrait orientation) for maximum feed real estate.",
+          "scenario": "Θέλεις να ανεβάσεις μια κάθετη φωτογραφία στο Instagram για μέγιστη παρουσία στο feed. Ποια αναλογία πλευρών πρέπει να χρησιμοποιήσεις;",
+          "hint": "Τα κάθετα post στο Instagram χρησιμοποιούν αναλογία ψηλότερη από φαρδιά.",
+          "successMessage": "Σωστά! Το 4:5 σου δίνει τον μέγιστο κάθετο χώρο στο feed του Instagram.",
+          "failureMessage": "Τα κάθετα post στο Instagram χρησιμοποιούν 4:5 (το 5:4 γυρισμένο σε κάθετο προσανατολισμό) για μέγιστο χώρο στο feed.",
           "options": {
-            "0": { "label": "1:1 (Square)" },
-            "1": { "label": "4:5 (Portrait)" },
+            "0": { "label": "1:1 (Τετράγωνο)" },
+            "1": { "label": "4:5 (Κάθετο)" },
             "2": { "label": "16:9 (Widescreen)" }
           }
         },
         "1": {
-          "scenario": "Which composition grid is the most widely taught starting point for beginners?",
-          "hint": "It divides the frame into 9 equal sections.",
-          "successMessage": "Right! The Rule of Thirds is the foundational composition guide.",
-          "failureMessage": "The Rule of Thirds (3\u00d73 grid) is the most common starting point for learning composition.",
+          "scenario": "Ποιο πλέγμα σύνθεσης είναι το πιο διαδεδομένο σημείο εκκίνησης για αρχάριους;",
+          "hint": "Χωρίζει το κάδρο σε 9 ίσα μέρη.",
+          "successMessage": "Σωστά! Ο κανόνας των τρίτων είναι η θεμελιώδης οδηγία σύνθεσης.",
+          "failureMessage": "Ο κανόνας των τρίτων (πλέγμα 3×3) είναι το πιο συνηθισμένο σημείο εκκίνησης για την εκμάθηση της σύνθεσης.",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Diagonal Lines" }
+            "0": { "label": "Κανόνας των τρίτων" },
+            "1": { "label": "Χρυσή σπείρα" },
+            "2": { "label": "Διαγώνιες γραμμές" }
           }
         },
         "2": {
-          "scenario": "You are preparing a photo for gallery printing on 8\u00d710 paper. Which aspect ratio matches this print size?",
-          "hint": "8\u00f710 simplifies to a well-known ratio.",
-          "successMessage": "Correct! 5:4 matches 8\u00d710 print dimensions perfectly.",
-          "failureMessage": "8\u00d710 simplifies to 4:5, which is the portrait version of 5:4.",
+          "scenario": "Ετοιμάζεις μια φωτογραφία για εκτύπωση σε galerie σε χαρτί 8×10. Ποια αναλογία πλευρών ταιριάζει σε αυτό το μέγεθος εκτύπωσης;",
+          "hint": "Το 8×10 απλοποιείται σε μια γνωστή αναλογία.",
+          "successMessage": "Σωστά! Το 5:4 ταιριάζει τέλεια με τις διαστάσεις εκτύπωσης 8×10.",
+          "failureMessage": "Το 8×10 απλοποιείται σε 4:5, που είναι η κάθετη εκδοχή του 5:4.",
           "options": {
             "0": { "label": "3:2" },
             "1": { "label": "5:4" },
@@ -106,21 +106,21 @@
           }
         },
         "3": {
-          "scenario": "A landscape photo features a winding river leading from the foreground to mountains in the background. Which grid overlay best matches this natural flow?",
-          "hint": "One grid type follows a natural curved path.",
-          "successMessage": "Great choice! The Golden Spiral follows curves and leading lines perfectly.",
-          "failureMessage": "The Golden Spiral is ideal for images with natural curved elements like rivers, roads, or coastlines.",
+          "scenario": "Μια φωτογραφία τοπίου δείχνει ένα ποτάμι που ελίσσεται από το προσκήνιο προς τα βουνά στο φόντο. Ποιο πλέγμα υπέρθεσης ταιριάζει καλύτερα με αυτή τη φυσική ροή;",
+          "hint": "Ένας τύπος πλέγματος ακολουθεί φυσική καμπυλωτή διαδρομή.",
+          "successMessage": "Καλή επιλογή! Η χρυσή σπείρα ακολουθεί τέλεια καμπύλες και οδηγητικές γραμμές.",
+          "failureMessage": "Η χρυσή σπείρα είναι ιδανική για εικόνες με φυσικά καμπυλωτά στοιχεία όπως ποτάμια, δρόμοι ή ακτογραμμές.",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Square Grid" }
+            "0": { "label": "Κεντρικός σταυρός" },
+            "1": { "label": "Χρυσή σπείρα" },
+            "2": { "label": "Τετράγωνο πλέγμα" }
           }
         },
         "4": {
-          "scenario": "You want a clean white border to present your photo on social media. Which frame preset should you use?",
-          "hint": "Think about which preset gives you a simple white border.",
-          "successMessage": "Correct! The White preset adds a 100px white border around your photo.",
-          "failureMessage": "The White preset is designed for a clean, simple white border presentation.",
+          "scenario": "Θέλεις ένα καθαρό λευκό περίγραμμα για να παρουσιάσεις τη φωτογραφία σου στα social media. Ποιο προκαθορισμένο frame πρέπει να χρησιμοποιήσεις;",
+          "hint": "Σκέψου ποιο preset σου δίνει ένα απλό λευκό περίγραμμα.",
+          "successMessage": "Σωστά! Το preset White προσθέτει ένα λευκό περίγραμμα 100px γύρω από τη φωτογραφία σου.",
+          "failureMessage": "Το preset White είναι σχεδιασμένο για μια καθαρή, απλή παρουσίαση με λευκό περίγραμμα.",
           "options": {
             "0": { "label": "None" },
             "1": { "label": "White" },

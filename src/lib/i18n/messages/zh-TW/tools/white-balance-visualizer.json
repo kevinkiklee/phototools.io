@@ -1,28 +1,28 @@
 {
   "toolUI": {
     "white-balance-visualizer": {
-      "colorTemperature": "Color Temperature:",
-      "warm": "Warm",
-      "neutral": "Neutral",
-      "cool": "Cool",
-      "presets": "Presets",
-      "red": "Red",
-      "green": "Green",
-      "blue": "Blue",
+      "colorTemperature": "色溫：",
+      "warm": "暖",
+      "neutral": "中性",
+      "cool": "冷",
+      "presets": "預設",
+      "red": "紅",
+      "green": "綠",
+      "blue": "藍",
       "hex": "Hex",
-      "loadingScene": "Loading scene...",
+      "loadingScene": "正在載入場景...",
       "faq": {
         "what-is-white-balance": {
-          "question": "What is white balance in photography?",
-          "answer": "White balance adjusts colors in your photo so that objects that appear white in person also appear white in the image. Different light sources emit different color temperatures, and white balance compensates for these variations."
+          "question": "攝影中的白平衡是什麼？",
+          "answer": "白平衡會調整照片色彩，讓現場看起來是白色的物體在影像中也呈現白色。不同光源會發出不同的色溫，白平衡就是用來補償這些差異。"
         },
         "kelvin-vs-presets": {
-          "question": "Should I use Kelvin values or white balance presets?",
-          "answer": "Presets (Daylight, Cloudy, Tungsten) are convenient starting points, but setting a specific Kelvin value gives more precise control. Shoot in RAW format to adjust white balance non-destructively in post-processing."
+          "question": "該用 Kelvin 數值還是白平衡預設？",
+          "answer": "預設（日光、陰天、鎢絲燈）是方便好用的起點，但設定特定的 Kelvin 值可提供更精確的控制。建議以 RAW 拍攝，這樣就能在後製中無損地調整白平衡。"
         },
         "when-to-use-manual-white-balance": {
-          "question": "When should I use manual white balance?",
-          "answer": "Use manual white balance for mixed lighting (combining natural and artificial), studio setups requiring exact color accuracy, product photography, and any time auto white balance produces inconsistent results across a series of shots."
+          "question": "什麼時候應該使用手動白平衡？",
+          "answer": "遇到混合光源（自然光與人工光並存）、需要精確色彩的棚拍、商品攝影，或在同一組作品中自動白平衡結果不穩定時，都建議手動設定白平衡。"
         }
       }
     }

@@ -1,13 +1,13 @@
 {
   "toolUI": {
     "perspective-compression-simulator": {
-      "cameraSettings": "Camera Settings",
-      "focalLength": "Focal Length",
-      "equivalent35mm": "Equivalent (35mm)",
-      "perspectiveDistance": "Perspective & Distance",
-      "subjectDistance": "Subject Distance",
-      "maintainSubjectSize": "Maintain Subject Size",
-      "resetAll": "Reset All"
+      "cameraSettings": "Setări cameră",
+      "focalLength": "Distanță focală",
+      "equivalent35mm": "Echivalent (35mm)",
+      "perspectiveDistance": "Perspectivă și distanță",
+      "subjectDistance": "Distanța față de subiect",
+      "maintainSubjectSize": "Menține mărimea subiectului",
+      "resetAll": "Resetează tot"
     }
   }
 }

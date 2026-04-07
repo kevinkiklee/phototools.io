@@ -1,239 +1,239 @@
 {
   "glossary": {
-    "title": "Photography Glossary",
-    "subtitle": "Searchable reference of photography terms. Click any term to see its definition.",
-    "searchPlaceholder": "Search terms...",
-    "searchAriaLabel": "Search glossary terms",
-    "noResults": "No terms match your search.",
-    "tryTool": "Try the {toolName}",
+    "title": "Фотографический глоссарий",
+    "subtitle": "Поисковый справочник по терминам фотографии. Нажми на любой термин, чтобы увидеть определение.",
+    "searchPlaceholder": "Искать термин...",
+    "searchAriaLabel": "Поиск по глоссарию",
+    "noResults": "По запросу ничего не найдено.",
+    "tryTool": "Попробуй «{toolName}»",
     "entries": {
       "aperture": {
-        "term": "Aperture",
-        "definition": "The opening in a lens through which light passes. A wider aperture (lower f-number) lets in more light and creates a shallower depth of field."
+        "term": "Диафрагма",
+        "definition": "Отверстие в объективе, через которое проходит свет. Более открытая диафрагма (меньшее f-число) пропускает больше света и даёт меньшую глубину резкости."
       },
       "aspect-ratio": {
-        "term": "Aspect Ratio",
-        "definition": "The proportional relationship between an image's width and height. Common ratios include 3:2 (standard DSLR), 4:3 (Micro Four Thirds), and 16:9 (widescreen)."
+        "term": "Соотношение сторон",
+        "definition": "Пропорция между шириной и высотой кадра. Распространённые соотношения: 3:2 (классика зеркалок), 4:3 (Micro Four Thirds), 16:9 (широкоэкранное)."
       },
       "autofocus": {
-        "term": "Autofocus",
-        "definition": "A camera system that automatically adjusts the lens to bring a subject into sharp focus. Modern systems use phase-detection or contrast-detection methods."
+        "term": "Автофокус",
+        "definition": "Система, которая автоматически наводит объектив на резкость. Современные системы используют фазовую или контрастную детекцию."
       },
       "bokeh": {
-        "term": "Bokeh",
-        "definition": "The aesthetic quality of out-of-focus areas in an image, especially highlights. Smooth, circular bokeh is generally preferred and is influenced by lens design and aperture shape."
+        "term": "Боке",
+        "definition": "Эстетическое качество размытых областей кадра, особенно светлых точек. Обычно ценится мягкое и округлое боке; зависит от конструкции объектива и формы диафрагмы."
       },
       "bracketing": {
-        "term": "Bracketing",
-        "definition": "Taking multiple shots of the same scene at different exposure settings. Used for HDR photography or to ensure at least one correctly exposed frame."
+        "term": "Брекетинг",
+        "definition": "Серия снимков одной сцены с разной экспозицией. Используется для HDR или чтобы гарантированно получить хотя бы один правильно экспонированный кадр."
       },
       "bulb-mode": {
-        "term": "Bulb Mode",
-        "definition": "A shutter setting where the shutter stays open for as long as the shutter button is held down. Used for very long exposures beyond the camera's timed settings."
+        "term": "Режим Bulb",
+        "definition": "Режим затвора, в котором затвор открыт всё время, пока нажата кнопка спуска. Применяется для очень длинных выдержек, превышающих встроенные значения камеры."
       },
       "burst-mode": {
-        "term": "Burst Mode",
-        "definition": "A shooting mode where the camera takes multiple frames per second in rapid succession. Useful for capturing fast action or selecting the best moment."
+        "term": "Серийная съёмка",
+        "definition": "Режим, в котором камера делает несколько кадров в секунду подряд. Помогает поймать быстрое движение или выбрать лучший момент."
       },
       "chromatic-aberration": {
-        "term": "Chromatic Aberration",
-        "definition": "A lens defect where different wavelengths of light focus at slightly different points, causing color fringing along high-contrast edges. More common in cheaper lenses and at wide apertures."
+        "term": "Хроматическая аберрация",
+        "definition": "Оптический дефект, при котором волны разной длины фокусируются в немного разных точках, вызывая цветные ободки на контрастных границах. Чаще встречается на дешёвых объективах и открытых диафрагмах."
       },
       "circle-of-confusion": {
-        "term": "Circle of Confusion",
-        "definition": "The largest blur circle that still appears as a point to the human eye. It determines the boundaries of acceptable sharpness and is used in depth of field calculations."
+        "term": "Кружок нерезкости",
+        "definition": "Наибольшее пятно размытия, которое глаз ещё воспринимает как точку. Определяет границу приемлемой резкости и используется при расчёте глубины резкости."
       },
       "color-temperature": {
-        "term": "Color Temperature",
-        "definition": "A measurement in Kelvin that describes the warmth or coolness of a light source. Lower values (2700K) appear warm/orange; higher values (6500K+) appear cool/blue."
+        "term": "Цветовая температура",
+        "definition": "Характеристика «тёплоты» или «холодности» источника света, измеряется в Кельвинах. Низкие значения (2700K) — тёплые/оранжевые; высокие (6500K+) — холодные/синие."
       },
       "crop-factor": {
-        "term": "Crop Factor",
-        "definition": "The ratio of a camera sensor's diagonal to that of a 35mm full-frame sensor. It affects the effective focal length and field of view."
+        "term": "Кроп-фактор",
+        "definition": "Отношение диагонали полного кадра (35 мм) к диагонали матрицы камеры. Влияет на эффективное фокусное расстояние и угол обзора."
       },
       "depth-of-field": {
-        "term": "Depth of Field",
-        "definition": "The range of distance in a scene that appears acceptably sharp. Controlled by aperture, focal length, and subject distance."
+        "term": "Глубина резкости",
+        "definition": "Диапазон расстояний в сцене, который выглядит приемлемо резким. Регулируется диафрагмой, фокусным расстоянием и дистанцией до объекта."
       },
       "diffraction": {
-        "term": "Diffraction",
-        "definition": "The bending of light as it passes through a small aperture, which softens the image. It sets a practical limit on how far you can stop down a lens."
+        "term": "Дифракция",
+        "definition": "Огибание светом краёв малого отверстия диафрагмы, из-за чего изображение становится мягче. Задаёт практический предел того, насколько сильно можно зажимать диафрагму."
       },
       "dynamic-range": {
-        "term": "Dynamic Range",
-        "definition": "The range between the darkest shadows and brightest highlights a camera can capture in a single exposure. Measured in stops (EV)."
+        "term": "Динамический диапазон",
+        "definition": "Диапазон между самыми тёмными тенями и самыми яркими светами, который камера способна захватить за один кадр. Измеряется в ступенях (EV)."
       },
       "ev": {
-        "term": "EV (Exposure Value)",
-        "definition": "A number representing a combination of shutter speed and aperture that produces the same exposure. Each increment of 1 EV doubles or halves the light."
+        "term": "EV (экспозиционное значение)",
+        "definition": "Число, описывающее комбинацию выдержки и диафрагмы, дающую одинаковую экспозицию. Изменение на 1 EV удваивает или уменьшает вдвое количество света."
       },
       "exposure-compensation": {
-        "term": "Exposure Compensation",
-        "definition": "A camera control that overrides the metered exposure, typically in 1/3-stop increments. Positive values brighten the image; negative values darken it."
+        "term": "Экспокоррекция",
+        "definition": "Поправка замеренной экспозиции, обычно с шагом в 1/3 ступени. Положительные значения осветляют кадр, отрицательные — затемняют."
       },
       "exposure-triangle": {
-        "term": "Exposure Triangle",
-        "definition": "The relationship between aperture, shutter speed, and ISO. Changing one requires adjusting the others to maintain the same exposure."
+        "term": "Экспозиционный треугольник",
+        "definition": "Взаимосвязь между диафрагмой, выдержкой и ISO. Изменение одной величины требует компенсации другими для сохранения той же экспозиции."
       },
       "f-stop": {
-        "term": "F-Stop",
-        "definition": "A unit of measurement for lens aperture. Each full stop (f/1.4, f/2, f/2.8, f/4...) halves the amount of light passing through the lens."
+        "term": "Диафрагменное число (f-stop)",
+        "definition": "Единица измерения диафрагмы объектива. Каждая полная ступень (f/1.4, f/2, f/2.8, f/4...) уменьшает количество света через объектив вдвое."
       },
       "focal-length": {
-        "term": "Focal Length",
-        "definition": "The distance in millimeters from the optical center of a lens to the sensor when focused at infinity. It determines the angle of view and magnification."
+        "term": "Фокусное расстояние",
+        "definition": "Расстояние в миллиметрах от оптического центра объектива до матрицы при фокусировке на бесконечность. Определяет угол обзора и увеличение."
       },
       "focus-stacking": {
-        "term": "Focus Stacking",
-        "definition": "A technique where multiple images focused at different distances are combined in post-processing to achieve greater depth of field than a single exposure allows."
+        "term": "Фокус-стекинг",
+        "definition": "Техника, при которой несколько кадров с разной точкой фокусировки объединяются на посте для получения большей глубины резкости, чем даёт один кадр."
       },
       "full-frame": {
-        "term": "Full Frame",
-        "definition": "A sensor size equivalent to 35mm film (36 x 24mm). It is the reference standard for focal length and crop factor calculations."
+        "term": "Полный кадр",
+        "definition": "Размер матрицы, эквивалентный плёнке 35 мм (36×24 мм). Используется как эталон при расчёте фокусных расстояний и кроп-фактора."
       },
       "golden-hour": {
-        "term": "Golden Hour",
-        "definition": "The period shortly after sunrise or before sunset when sunlight is warm, soft, and directional. Highly prized for landscape and portrait photography."
+        "term": "Золотой час",
+        "definition": "Период вскоре после восхода или перед закатом, когда солнечный свет тёплый, мягкий и направленный. Любимое время для пейзажей и портретов."
       },
       "histogram": {
-        "term": "Histogram",
-        "definition": "A graph showing the distribution of brightness values in an image. The left side represents shadows, the right side highlights."
+        "term": "Гистограмма",
+        "definition": "График распределения яркости пикселей в кадре. Слева — тени, справа — света."
       },
       "hyperfocal-distance": {
-        "term": "Hyperfocal Distance",
-        "definition": "The closest focusing distance at which everything from half that distance to infinity is acceptably sharp. Maximizes depth of field for a given aperture."
+        "term": "Гиперфокальное расстояние",
+        "definition": "Ближайшая дистанция фокусировки, при которой всё от половины этого расстояния до бесконечности выглядит приемлемо резким. Максимизирует глубину резкости при данной диафрагме."
       },
       "image-stabilization": {
-        "term": "Image Stabilization",
-        "definition": "A system that reduces camera shake blur, either in the lens (OIS) or the camera body (IBIS). Typically provides 3-7 stops of handheld shooting advantage."
+        "term": "Стабилизация изображения",
+        "definition": "Система, уменьшающая смаз от дрожания камеры, — в объективе (OIS) или в тушке (IBIS). Обычно даёт выигрыш в 3–7 ступеней при съёмке с рук."
       },
       "iso": {
         "term": "ISO",
-        "definition": "A measure of the camera sensor's sensitivity to light. Higher ISO values brighten the image but introduce more noise."
+        "definition": "Показатель чувствительности матрицы к свету. Более высокие значения осветляют кадр, но добавляют шум."
       },
       "jpeg": {
         "term": "JPEG",
-        "definition": "A compressed image file format that applies lossy compression. Smaller file sizes but less editing flexibility compared to RAW."
+        "definition": "Сжатый формат изображений с потерями. Файлы меньше, но возможностей для обработки меньше, чем у RAW."
       },
       "kelvin": {
-        "term": "Kelvin",
-        "definition": "The unit used to measure color temperature of light. Photographers use Kelvin values to set white balance and match the color of ambient lighting."
+        "term": "Кельвин",
+        "definition": "Единица измерения цветовой температуры света. Фотографы используют значения в Кельвинах для установки баланса белого под окружающее освещение."
       },
       "lens-compression": {
-        "term": "Lens Compression",
-        "definition": "The visual effect of a telephoto lens making distant objects appear closer to foreground subjects. It is caused by the long shooting distance, not the lens itself."
+        "term": "Сжатие перспективы объективом",
+        "definition": "Визуальный эффект, при котором телеобъектив делает далёкие объекты ближе к переднему плану. На самом деле это следствие дальности съёмки, а не самого объектива."
       },
       "light-meter": {
-        "term": "Light Meter",
-        "definition": "A device or camera system that measures the intensity of light to determine proper exposure settings. Cameras use reflected light metering; handheld meters can measure incident light."
+        "term": "Экспонометр",
+        "definition": "Прибор или система камеры, измеряющая интенсивность света для расчёта правильной экспозиции. Камеры измеряют отражённый свет; ручные экспонометры могут измерять падающий."
       },
       "long-exposure": {
-        "term": "Long Exposure",
-        "definition": "A photograph taken with a slow shutter speed, typically seconds or minutes. Used for light trails, smooth water, star trails, and low-light scenes."
+        "term": "Длинная выдержка",
+        "definition": "Снимок с медленной выдержкой — обычно секунды или минуты. Используется для световых следов, гладкой воды, звёздных треков и слабоосвещённых сцен."
       },
       "macro": {
-        "term": "Macro",
-        "definition": "Photography that reproduces subjects at or near life-size magnification (1:1 ratio). Requires specialized macro lenses or extension tubes."
+        "term": "Макросъёмка",
+        "definition": "Фотография, в которой объект воспроизводится с увеличением около натурального размера (1:1). Требует специальных макрообъективов или удлинительных колец."
       },
       "medium-format": {
-        "term": "Medium Format",
-        "definition": "A sensor size larger than full frame, typically around 44 x 33mm or 54 x 40mm. Offers higher resolution, shallower depth of field, and greater dynamic range."
+        "term": "Средний формат",
+        "definition": "Размер матрицы, больше полного кадра — обычно около 44×33 мм или 54×40 мм. Даёт более высокое разрешение, меньшую глубину резкости и больший динамический диапазон."
       },
       "megapixel": {
-        "term": "Megapixel",
-        "definition": "One million pixels. The megapixel count of a sensor determines the maximum resolution of images it can capture."
+        "term": "Мегапиксель",
+        "definition": "Один миллион пикселей. Количество мегапикселей матрицы определяет максимальное разрешение снимков."
       },
       "micro-four-thirds": {
         "term": "Micro Four Thirds",
-        "definition": "A mirrorless camera system with a sensor measuring 17.3 x 13mm, giving a 2x crop factor. Offers compact bodies and lenses with good image quality."
+        "definition": "Беззеркальная система с матрицей 17.3×13 мм и кроп-фактором 2×. Позволяет делать компактные тушки и объективы при хорошем качестве изображения."
       },
       "mirror-lock-up": {
-        "term": "Mirror Lock-Up",
-        "definition": "A DSLR feature that flips the mirror up before the shutter fires, reducing vibration. Used for sharp tripod-mounted shots, especially at slow shutter speeds."
+        "term": "Предварительный подъём зеркала",
+        "definition": "Функция зеркалок, поднимающая зеркало до срабатывания затвора, чтобы уменьшить вибрацию. Используется для резких штативных кадров, особенно на длинных выдержках."
       },
       "nd-filter": {
-        "term": "ND Filter",
-        "definition": "A neutral density filter that reduces the amount of light entering the lens without affecting color. Allows longer exposures or wider apertures in bright conditions."
+        "term": "ND-фильтр",
+        "definition": "Нейтрально-серый фильтр, уменьшающий количество света на входе в объектив без влияния на цвет. Позволяет снимать на длинных выдержках или открытых диафрагмах при ярком свете."
       },
       "noise": {
-        "term": "Noise",
-        "definition": "Random variation in brightness and color in digital images, most visible in shadow areas and at high ISO settings. Can be reduced with noise reduction software."
+        "term": "Шум",
+        "definition": "Случайные колебания яркости и цвета в цифровом изображении, сильнее всего заметные в тенях и на высоких ISO. Можно уменьшить шумоподавлением."
       },
       "overexposure": {
-        "term": "Overexposure",
-        "definition": "When an image receives too much light, causing highlights to clip to pure white and lose detail. The opposite of underexposure."
+        "term": "Переэкспозиция",
+        "definition": "Когда в кадр попадает слишком много света: света «выбиваются» в чистый белый и теряют детали. Противоположность недоэкспозиции."
       },
       "panorama": {
-        "term": "Panorama",
-        "definition": "A wide-angle image created by stitching multiple overlapping photographs together. Can cover up to 360 degrees of a scene."
+        "term": "Панорама",
+        "definition": "Широкоугольный снимок, составленный сшиванием нескольких перекрывающихся кадров. Может охватывать вплоть до 360° сцены."
       },
       "pixel-pitch": {
-        "term": "Pixel Pitch",
-        "definition": "The distance in micrometers between the centers of adjacent pixels on a sensor. Larger pixel pitch generally means better low-light performance."
+        "term": "Размер пикселя (pixel pitch)",
+        "definition": "Расстояние в микрометрах между центрами соседних пикселей матрицы. Чем больше размер пикселя, тем обычно лучше работа при слабом освещении."
       },
       "polarizer": {
-        "term": "Polarizer",
-        "definition": "A filter that reduces reflections and glare from non-metallic surfaces and can deepen blue skies. It works by blocking light waves oscillating in a specific direction."
+        "term": "Поляризационный фильтр",
+        "definition": "Фильтр, уменьшающий блики и отражения от неметаллических поверхностей и усиливающий синеву неба. Работает, блокируя свет, колеблющийся в определённом направлении."
       },
       "prime-lens": {
-        "term": "Prime Lens",
-        "definition": "A lens with a fixed focal length (no zoom). Primes are typically sharper, faster (wider aperture), and lighter than comparable zoom lenses."
+        "term": "Фикс-объектив",
+        "definition": "Объектив с фиксированным фокусным расстоянием (без зума). Обычно резче, светосильнее и легче сопоставимых зумов."
       },
       "raw": {
         "term": "RAW",
-        "definition": "An uncompressed or losslessly compressed file format that preserves all sensor data. Offers maximum flexibility in post-processing at the cost of larger file sizes."
+        "definition": "Несжатый или сжатый без потерь формат, сохраняющий все данные с матрицы. Даёт максимум свободы при обработке ценой большего размера файлов."
       },
       "reciprocal-rule": {
-        "term": "Reciprocal Rule",
-        "definition": "A guideline stating that the minimum handheld shutter speed should be 1/(focal length) to avoid camera shake. For a 200mm lens, use at least 1/200s."
+        "term": "Правило обратной величины",
+        "definition": "Рекомендация: минимальная выдержка для съёмки с рук — 1/(фокусное расстояние). Для объектива 200 мм — не длиннее 1/200 с."
       },
       "rule-of-thirds": {
-        "term": "Rule of Thirds",
-        "definition": "A composition guideline that divides the frame into a 3x3 grid. Placing subjects along the lines or at their intersections often creates a more balanced image."
+        "term": "Правило третей",
+        "definition": "Композиционный приём: кадр делится сеткой 3×3, а ключевые объекты размещаются вдоль линий или в точках их пересечения для более сбалансированного кадра."
       },
       "sensor-size": {
-        "term": "Sensor Size",
-        "definition": "The physical dimensions of a camera's image sensor. Larger sensors capture more light, offer shallower depth of field, and generally produce less noise."
+        "term": "Размер матрицы",
+        "definition": "Физические размеры сенсора камеры. Большие матрицы собирают больше света, дают меньшую глубину резкости и обычно меньше шума."
       },
       "shutter-speed": {
-        "term": "Shutter Speed",
-        "definition": "The length of time the camera's shutter is open during an exposure. Faster speeds freeze motion; slower speeds allow motion blur."
+        "term": "Выдержка",
+        "definition": "Время, в течение которого затвор камеры открыт при съёмке. Короткие выдержки замораживают движение, длинные дают смаз."
       },
       "star-trails": {
-        "term": "Star Trails",
-        "definition": "Streaks of light created by the apparent motion of stars during a long exposure. Can be captured in a single very long exposure or by stacking multiple shorter frames."
+        "term": "Звёздные треки",
+        "definition": "Светящиеся полосы, возникающие из-за видимого движения звёзд на длинной выдержке. Снимаются одним очень длинным кадром или сложением нескольких более коротких."
       },
       "stop": {
-        "term": "Stop",
-        "definition": "A unit of exposure change representing a doubling or halving of light. Applies to aperture, shutter speed, and ISO equally."
+        "term": "Ступень (stop)",
+        "definition": "Единица изменения экспозиции, соответствующая удвоению или уменьшению вдвое количества света. Применяется к диафрагме, выдержке и ISO одинаково."
       },
       "telephoto": {
-        "term": "Telephoto",
-        "definition": "A lens with a focal length longer than about 70mm (full frame equivalent). Telephoto lenses magnify distant subjects and compress perspective."
+        "term": "Телеобъектив",
+        "definition": "Объектив с фокусным расстоянием больше ~70 мм в эквиваленте полного кадра. Телеобъективы увеличивают далёкие объекты и сжимают перспективу."
       },
       "tilt-shift": {
-        "term": "Tilt-Shift",
-        "definition": "A lens that can tilt the plane of focus and shift the image circle relative to the sensor. Used for architecture photography and selective focus effects."
+        "term": "Tilt-shift (тилт-шифт)",
+        "definition": "Объектив, способный наклонять плоскость фокуса и сдвигать изображение относительно матрицы. Используется для архитектурной съёмки и эффектов выборочного фокуса."
       },
       "underexposure": {
-        "term": "Underexposure",
-        "definition": "When an image receives too little light, causing shadow areas to lose detail and appear noisy. The opposite of overexposure."
+        "term": "Недоэкспозиция",
+        "definition": "Когда в кадр попадает слишком мало света: в тенях теряются детали и появляется шум. Противоположность переэкспозиции."
       },
       "vignetting": {
-        "term": "Vignetting",
-        "definition": "A darkening of the corners and edges of an image relative to the center. Can be caused by lens design, filters, or lens hoods, and is sometimes added intentionally in post."
+        "term": "Виньетирование",
+        "definition": "Затемнение углов и краёв кадра относительно центра. Может быть вызвано конструкцией объектива, фильтрами или блендами, а иногда добавляется намеренно на постобработке."
       },
       "white-balance": {
-        "term": "White Balance",
-        "definition": "A camera setting that adjusts colors so that white objects appear neutral under different lighting conditions. Can be set automatically or manually using Kelvin values."
+        "term": "Баланс белого",
+        "definition": "Настройка камеры, которая подгоняет цвета так, чтобы белые объекты выглядели нейтральными при разном освещении. Задаётся автоматически или вручную через значения в Кельвинах."
       },
       "wide-angle": {
-        "term": "Wide-Angle",
-        "definition": "A lens with a short focal length (typically below 35mm on full frame) that captures a broader field of view. Often used for landscapes, architecture, and interiors."
+        "term": "Широкоугольный объектив",
+        "definition": "Объектив с коротким фокусным расстоянием (обычно короче 35 мм на полном кадре), захватывающий широкий угол обзора. Часто применяется для пейзажей, архитектуры и интерьеров."
       },
       "zoom-lens": {
-        "term": "Zoom Lens",
-        "definition": "A lens with a variable focal length range, allowing the photographer to change framing without moving. Offers versatility at the cost of size, weight, and sometimes sharpness."
+        "term": "Зум-объектив",
+        "definition": "Объектив с переменным фокусным расстоянием, позволяющий менять кадр без перемещения. Универсален, но обычно крупнее, тяжелее и иногда менее резок, чем фиксы."
       }
     }
   }

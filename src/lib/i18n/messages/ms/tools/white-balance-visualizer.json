@@ -1,28 +1,28 @@
 {
   "toolUI": {
     "white-balance-visualizer": {
-      "colorTemperature": "Color Temperature:",
-      "warm": "Warm",
+      "colorTemperature": "Suhu Warna:",
+      "warm": "Hangat",
       "neutral": "Neutral",
-      "cool": "Cool",
-      "presets": "Presets",
-      "red": "Red",
-      "green": "Green",
-      "blue": "Blue",
+      "cool": "Sejuk",
+      "presets": "Preset",
+      "red": "Merah",
+      "green": "Hijau",
+      "blue": "Biru",
       "hex": "Hex",
-      "loadingScene": "Loading scene...",
+      "loadingScene": "Memuatkan adegan...",
       "faq": {
         "what-is-white-balance": {
-          "question": "What is white balance in photography?",
-          "answer": "White balance adjusts colors in your photo so that objects that appear white in person also appear white in the image. Different light sources emit different color temperatures, and white balance compensates for these variations."
+          "question": "Apa itu imbangan putih dalam fotografi?",
+          "answer": "Imbangan putih melaraskan warna dalam foto anda supaya objek yang kelihatan putih secara fizikal juga kelihatan putih dalam imej. Sumber cahaya berbeza memancarkan suhu warna yang berbeza, dan imbangan putih mengimbangi variasi ini."
         },
         "kelvin-vs-presets": {
-          "question": "Should I use Kelvin values or white balance presets?",
-          "answer": "Presets (Daylight, Cloudy, Tungsten) are convenient starting points, but setting a specific Kelvin value gives more precise control. Shoot in RAW format to adjust white balance non-destructively in post-processing."
+          "question": "Patutkah saya menggunakan nilai Kelvin atau preset imbangan putih?",
+          "answer": "Preset (Daylight, Cloudy, Tungsten) adalah titik permulaan yang memudahkan, tetapi menetapkan nilai Kelvin tertentu memberi kawalan yang lebih tepat. Tangkap dalam format RAW untuk melaraskan imbangan putih tanpa kehilangan kualiti dalam pasca-pemprosesan."
         },
         "when-to-use-manual-white-balance": {
-          "question": "When should I use manual white balance?",
-          "answer": "Use manual white balance for mixed lighting (combining natural and artificial), studio setups requiring exact color accuracy, product photography, and any time auto white balance produces inconsistent results across a series of shots."
+          "question": "Bila saya patut menggunakan imbangan putih manual?",
+          "answer": "Gunakan imbangan putih manual untuk pencahayaan campuran (menggabungkan semula jadi dan buatan), persediaan studio yang memerlukan ketepatan warna yang tepat, fotografi produk, dan pada bila-bila masa imbangan putih auto menghasilkan hasil yang tidak konsisten merentasi satu siri tangkapan."
         }
       }
     }

@@ -1,74 +1,74 @@
 {
   "education": {
     "sensor-size-comparison": {
-      "beginner": "Camera sensors come in many different physical sizes, from the large medium-format chips used in studio cameras down to the tiny sensors in smartphones. A larger sensor captures more light, produces less noise, and makes it easier to blur backgrounds. Sensor size is one of the biggest factors separating camera categories.",
+      "beginner": "相機感光元件有許多不同尺寸，從棚拍使用的中片幅大晶片，到智慧型手機中的小小感光元件。感光元件越大，進光量越多、雜訊越少，也更容易虛化背景。感光元件尺寸是區分相機等級的最大因素之一。",
       "deeper": {
         "0": {
-          "heading": "How it works",
-          "text": "Sensor size affects photography in several interconnected ways. A larger sensor has a bigger area to collect photons, improving signal-to-noise ratio and dynamic range. Sensor size is one of the most important differences between camera categories — from medium format studio cameras to smartphone sensors."
+          "heading": "運作原理",
+          "text": "感光元件尺寸在幾個相互關聯的面向上影響攝影。感光元件越大，收集光子的面積也越大，訊噪比與動態範圍都隨之提升。感光元件尺寸是區分相機等級最重要的差異之一 — 從棚拍中片幅相機到智慧型手機感光元件皆是。"
         },
         "1": {
-          "heading": "Crop factor",
-          "text": "The \"crop factor\" describes how a sensor compares to the 35mm full-frame standard. An APS-C sensor with a 1.5x crop factor gives the same field of view with a 35mm lens as a full-frame camera would with a 52.5mm lens. This crop factor also multiplies the effective depth of field — a smaller sensor appears to give more depth of field at the same framing because you need a wider (shorter) lens to match the field of view."
+          "heading": "裁切係數",
+          "text": "「裁切係數」說明某感光元件與 35mm 全片幅的比例。APS-C 感光元件的裁切係數為 1.5x，代表 35mm 鏡頭所呈現的視角，相當於全片幅上 52.5mm 鏡頭的視角。這個裁切係數也會影響有效景深 — 較小的感光元件在相同取景下看起來景深更深，因為需要較短焦距的鏡頭才能匹配視角。"
         },
         "2": {
-          "heading": "Pixel density",
-          "text": "Pixel density (pixel pitch) measures how tightly pixels are packed on the sensor. Packing more megapixels onto a smaller sensor shrinks each photosite, reducing per-pixel light gathering. A 24MP full-frame sensor has ~6\u00b5m pixels while a 24MP APS-C sensor has ~4\u00b5m pixels, which is why the full-frame sensor typically performs better at high ISO."
+          "heading": "畫素密度",
+          "text": "畫素密度（畫素間距）衡量畫素在感光元件上排列的緊密程度。把更多畫素塞進較小的感光元件，會縮小每個感光井的尺寸，每像素的收光量也跟著減少。24MP 全片幅感光元件的畫素間距約 6µm，而 24MP APS-C 約 4µm — 這就是為什麼全片幅在高 ISO 下通常表現較佳。"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Physical Dimensions",
-          "description": "Width and height in millimeters determine the total light-gathering area and the field of view for a given lens."
+          "label": "實體尺寸",
+          "description": "寬度與高度（mm）決定了總收光面積，以及特定鏡頭下的視角。"
         },
         "1": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame diagonal to the sensor diagonal. Multiplied by focal length, it gives the \"equivalent\" focal length."
+          "label": "裁切係數",
+          "description": "全片幅對角線與感光元件對角線的比例。乘上焦距即得到「等效」焦距。"
         },
         "2": {
-          "label": "Pixel Density",
-          "description": "How tightly pixels are packed. Smaller pixel pitch means more detail but less light per pixel, affecting noise performance."
+          "label": "畫素密度",
+          "description": "畫素排列的緊密程度。畫素間距越小，細節越多，但每像素收光量越少，也影響雜訊表現。"
         },
         "3": {
-          "label": "Sensor Area",
-          "description": "Total area in mm\u00b2. A 44x33mm medium format sensor (Fujifilm GFX, Hasselblad X) has roughly 1.7x the area of full frame, while a larger 54x40mm medium format chip is about 2.5x. Full frame is roughly 13x the area of a flagship smartphone sensor."
+          "label": "感光元件面積",
+          "description": "總面積（mm²）。44x33mm 的中片幅感光元件（Fujifilm GFX、Hasselblad X）面積約是全片幅的 1.7 倍，而 54x40mm 的中片幅晶片則約為 2.5 倍。全片幅的面積約為旗艦手機感光元件的 13 倍。"
         }
       },
       "tips": {
         "0": {
-          "text": "Use the overlay mode to see exactly how much bigger one sensor is than another — the area difference is often more dramatic than the numbers suggest."
+          "text": "使用疊合模式就能直觀看出一顆感光元件比另一顆大多少 — 面積差距往往比數字看起來更誇張。"
         },
         "1": {
-          "text": "Switch to pixel density mode and enter your camera resolution to compare pixel pitch. If your camera has very high pixel density, you may hit diffraction limits at wider apertures than expected."
+          "text": "切換到畫素密度模式並輸入相機解析度，就能比較畫素間距。若畫素密度很高，您可能比預期更早撞上繞射極限。"
         },
         "2": {
-          "text": "When comparing cameras, sensor area matters more than megapixel count for noise performance. A 20MP full-frame sensor will typically outperform a 40MP APS-C sensor at high ISO."
+          "text": "比較相機時，感光元件面積對雜訊表現的重要性高過畫素數。20MP 全片幅通常在高 ISO 下勝過 40MP APS-C。"
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "Toggle individual sensor formats on or off to include them in the visual comparison and data table."
+          "term": "感光元件",
+          "definition": "可切換個別感光元件格式的開關，用以決定是否納入視覺比較與資料表。"
         },
         "Display Mode": {
-          "term": "Display Mode",
-          "definition": "Overlay shows all sensors centered on the same point. Side by Side places them next to each other at the same scale. Pixel Density visualizes how tightly pixels are packed."
+          "term": "顯示模式",
+          "definition": "「疊合」將所有感光元件以同一中心點疊合顯示。「並排」則以相同比例並列呈現。「畫素密度」則視覺化畫素排列的緊密度。"
         },
         "Resolution": {
-          "term": "Resolution",
-          "definition": "The total megapixel count used to calculate pixel pitch in pixel density mode. Higher megapixels on the same sensor size means smaller individual pixels."
+          "term": "解析度",
+          "definition": "用於計算畫素密度模式中畫素間距的總畫素數（MP）。同樣感光元件尺寸下，畫素越多，單一畫素就越小。"
         },
         "Crop Factor": {
-          "term": "Crop Factor",
-          "definition": "The ratio of the 35mm full-frame diagonal to this sensor diagonal. A 1.5x crop factor means a 50mm lens frames like a 75mm lens on full frame."
+          "term": "裁切係數",
+          "definition": "35mm 全片幅對角線與本感光元件對角線的比例。1.5x 裁切代表 50mm 鏡頭在此感光元件上的取景相當於全片幅 75mm。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "A full-frame sensor measures 36\u00d724mm. An APS-C sensor has a 1.5x crop factor. What is the approximate width of an APS-C sensor?",
-          "hint": "Divide the full-frame width by the crop factor.",
-          "successMessage": "Correct! 36mm \u00f7 1.5 \u2248 24mm. The APS-C sensor is about 24\u00d716mm, giving it roughly 44% of the full-frame area.",
-          "failureMessage": "Divide the full-frame width (36mm) by the crop factor (1.5x): 36 \u00f7 1.5 = 24mm.",
+          "scenario": "全片幅感光元件的尺寸為 36×24mm。APS-C 的裁切係數為 1.5x。APS-C 感光元件的寬度約為多少？",
+          "hint": "把全片幅寬度除以裁切係數。",
+          "successMessage": "答對了！36mm ÷ 1.5 ≈ 24mm。APS-C 感光元件約為 24×16mm，面積大約是全片幅的 44%。",
+          "failureMessage": "把全片幅寬度（36mm）除以裁切係數（1.5x）：36 ÷ 1.5 = 24mm。",
           "options": {
             "0": { "label": "24mm" },
             "1": { "label": "30mm" },
@@ -76,10 +76,10 @@
           }
         },
         "1": {
-          "scenario": "You mount a 50mm lens on a camera with a 2.0x crop factor sensor. What full-frame equivalent focal length do you get?",
-          "hint": "Multiply the focal length by the crop factor.",
-          "successMessage": "Right! 50mm \u00d7 2.0 = 100mm equivalent. This is why Micro Four Thirds cameras are popular for telephoto work — you get extra reach from every lens.",
-          "failureMessage": "Multiply the lens focal length by the crop factor: 50mm \u00d7 2.0 = 100mm equivalent.",
+          "scenario": "您在裁切係數 2.0x 的相機上裝上 50mm 鏡頭。全片幅等效焦距是多少？",
+          "hint": "把焦距乘上裁切係數。",
+          "successMessage": "沒錯！50mm × 2.0 = 100mm 等效。這就是為什麼微型四三廣受望遠用途的青睞 — 每顆鏡頭都能多出額外焦段。",
+          "failureMessage": "把鏡頭焦距乘上裁切係數：50mm × 2.0 = 100mm 等效。",
           "options": {
             "0": { "label": "25mm" },
             "1": { "label": "75mm" },
@@ -87,36 +87,36 @@
           }
         },
         "2": {
-          "scenario": "Two cameras both have 24 megapixels — one full-frame (36\u00d724mm) and one APS-C (24\u00d716mm). Which has better high-ISO noise performance, and why?",
-          "hint": "Think about how the same number of pixels spread across different sensor areas affects individual pixel size.",
-          "successMessage": "Exactly! The full-frame sensor spreads 24MP over a larger area, so each pixel is physically bigger (~6\u00b5m vs ~4\u00b5m pitch) and captures more photons, resulting in less noise.",
-          "failureMessage": "The full-frame sensor wins — same megapixel count on a larger area means bigger pixels that gather more light, producing less noise at high ISO.",
+          "scenario": "兩台相機都是 24MP — 一台是全片幅（36×24mm），一台是 APS-C（24×16mm）。哪台的高 ISO 雜訊表現較佳？為什麼？",
+          "hint": "想想同樣的畫素數分散到不同面積上，對單一畫素大小的影響。",
+          "successMessage": "完全正確！全片幅把 24MP 分散到更大的面積，每個畫素的物理尺寸也更大（約 6µm vs 4µm 間距），能捕捉更多光子，雜訊自然更少。",
+          "failureMessage": "全片幅勝出 — 相同畫素數分散到更大面積，代表每個畫素都更大，能收集更多光線，在高 ISO 下雜訊更少。",
           "options": {
-            "0": { "label": "Full frame — larger pixels gather more light" },
-            "1": { "label": "APS-C — smaller sensors are more efficient" },
-            "2": { "label": "Same noise — megapixel count is what matters" }
+            "0": { "label": "全片幅 — 畫素較大，收光量更多" },
+            "1": { "label": "APS-C — 感光元件越小越有效率" },
+            "2": { "label": "雜訊相同 — 關鍵在於畫素數" }
           }
         },
         "3": {
-          "scenario": "Looking at the comparison table, which sensor format has a crop factor closest to 2.0x?",
-          "hint": "Crop factor is the full-frame diagonal divided by the sensor diagonal.",
-          "successMessage": "Correct! Micro Four Thirds has a crop factor of 2.0x, which is why a 25mm M43 lens frames like a 50mm on full frame.",
-          "failureMessage": "Micro Four Thirds has a 2.0x crop factor. Check the table — its diagonal is exactly half the full-frame diagonal.",
+          "scenario": "看比較表，哪個感光元件格式的裁切係數最接近 2.0x？",
+          "hint": "裁切係數是全片幅對角線除以感光元件對角線。",
+          "successMessage": "答對了！微型四三的裁切係數為 2.0x，因此 25mm M43 鏡頭的取景相當於全片幅的 50mm。",
+          "failureMessage": "微型四三的裁切係數為 2.0x。請比對表格 — 它的對角線剛好是全片幅的一半。",
           "options": {
-            "0": { "label": "APS-C (Canon)" },
-            "1": { "label": "Micro Four Thirds" },
-            "2": { "label": "1\" Sensor" }
+            "0": { "label": "APS-C（Canon）" },
+            "1": { "label": "微型四三" },
+            "2": { "label": "1 吋感光元件" }
           }
         },
         "4": {
-          "scenario": "You are comparing a 50MP medium format camera to a 50MP full-frame camera using pixel density mode. Both have the same megapixel count. Which camera has the larger pixel pitch, and what practical advantage does that give?",
-          "hint": "Pixel pitch depends on sensor width divided by the number of horizontal pixels.",
-          "successMessage": "Right! The medium format sensor is physically larger, so at 50MP its pixels are bigger (higher pitch). This gives it about 1/3 stop better light gathering per pixel, plus slightly later diffraction onset.",
-          "failureMessage": "The medium format sensor is larger, so at the same resolution each pixel is physically bigger. Larger pixels collect more photons, giving better dynamic range and slightly later diffraction limits.",
+          "scenario": "您在畫素密度模式下比較 50MP 中片幅與 50MP 全片幅相機，兩者畫素數相同。哪台的畫素間距較大？實際上有什麼優勢？",
+          "hint": "畫素間距等於感光元件寬度除以水平畫素數。",
+          "successMessage": "沒錯！中片幅感光元件更大，相同 50MP 下每個畫素自然更大（間距更寬）。這讓它每像素的收光量多了約 1/3 級，繞射出現的光圈也稍微較小。",
+          "failureMessage": "中片幅感光元件較大，相同解析度下每個畫素物理上更大。較大的畫素收集更多光子，帶來更佳的動態範圍與稍晚出現的繞射極限。",
           "options": {
-            "0": { "label": "Medium Format — better per-pixel light gathering and dynamic range" },
-            "1": { "label": "Full Frame — smaller pixels are more efficient" },
-            "2": { "label": "Both are identical since they have the same megapixel count" }
+            "0": { "label": "中片幅 — 每像素收光量與動態範圍更佳" },
+            "1": { "label": "全片幅 — 較小畫素更有效率" },
+            "2": { "label": "兩者相同，畫素數一樣" }
           }
         }
       }

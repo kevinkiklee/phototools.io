@@ -1,12 +1,12 @@
 {
   "toolUI": {
     "nd-filter-calculator": {
-      "baseShutterSpeed": "Base Shutter Speed",
-      "ndFilter": "ND Filter",
-      "resultingShutterSpeed": "Resulting Shutter Speed",
-      "stopsAdded": "Stops Added",
-      "quickReference": "Quick Reference",
-      "tableBase": "Base"
+      "baseShutterSpeed": "Základní expoziční čas",
+      "ndFilter": "ND filtr",
+      "resultingShutterSpeed": "Výsledný expoziční čas",
+      "stopsAdded": "Přidané clony",
+      "quickReference": "Rychlá tabulka",
+      "tableBase": "Základ"
     }
   }
 }

@@ -2,63 +2,63 @@
   "tools": {
     "fov-simulator": {
       "name": "FOV Simulator",
-      "description": "Compare field of view across focal lengths and sensor sizes"
+      "description": "Jämför bildvinkel mellan brännvidder och sensorstorlekar"
     },
     "color-scheme-generator": {
       "name": "Color Scheme Generator",
-      "description": "Build color palettes for photography shoots"
+      "description": "Bygg färgpaletter för dina fotograferingar"
     },
     "exposure-simulator": {
-      "name": "Exposure Triangle Simulator",
-      "description": "See how aperture, shutter speed, and ISO interact"
+      "name": "Exponeringstriangelsimulator",
+      "description": "Se hur bländare, slutartid och ISO samspelar"
     },
     "dof-simulator": {
       "name": "Depth-of-Field Simulator",
-      "description": "Visualize how aperture, focal length, and distance affect background blur"
+      "description": "Visualisera hur bländare, brännvidd och avstånd påverkar bakgrundsoskärpan"
     },
     "focus-stacking-calculator": {
       "name": "Focus Stacking Calculator",
-      "description": "Calculate optimal focus distances for front-to-back sharpness"
+      "description": "Räkna ut optimala fokusavstånd för skärpa från främst till bakåt"
     },
     "equivalent-settings-calculator": {
-      "name": "Equivalent Settings Calculator",
-      "description": "Find equivalent aperture and focal length across sensor formats"
+      "name": "Kalkylator för ekvivalenta inställningar",
+      "description": "Hitta ekvivalent bländare och brännvidd mellan sensorformat"
     },
     "hyperfocal-simulator": {
-      "name": "Hyperfocal Distance Simulator",
-      "description": "Learn where to focus for maximum sharpness from foreground to infinity"
+      "name": "Hyperfokalavståndssimulator",
+      "description": "Lär dig var du ska fokusera för maximal skärpa från förgrund till oändlighet"
     },
     "shutter-speed-visualizer": {
       "name": "Shutter Speed Visualizer",
-      "description": "Find the minimum safe shutter speed for sharp handheld shots"
+      "description": "Hitta kortaste säkra slutartid för skarpa handhållna bilder"
     },
     "nd-filter-calculator": {
       "name": "ND Filter Calculator",
-      "description": "Calculate exposure time with any ND filter"
+      "description": "Räkna ut exponeringstid med vilket ND-filter som helst"
     },
     "star-trail-calculator": {
       "name": "Star Trail Calculator",
-      "description": "Calculate max exposure for sharp stars or plan star trail shots"
+      "description": "Räkna ut maxexponering för skarpa stjärnor eller planera star trails"
     },
     "perspective-compression-simulator": {
-      "name": "Perspective Compression Simulator",
-      "description": "See how focal length affects background compression"
+      "name": "Perspektivkompressionssimulator",
+      "description": "Se hur brännvidden påverkar bakgrundskompressionen"
     },
     "white-balance-visualizer": {
       "name": "White Balance Visualizer",
-      "description": "See how color temperature affects your photos"
+      "description": "Se hur färgtemperaturen påverkar dina foton"
     },
     "sensor-size-comparison": {
       "name": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes visually"
+      "description": "Jämför sensorstorlekar visuellt"
     },
     "frame-studio": {
       "name": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays"
+      "description": "Beskär, rama in och komponera foton med kompositionsrutnät"
     },
     "exif-viewer": {
       "name": "EXIF Viewer",
-      "description": "View EXIF metadata and histogram for any photo — 100% client-side"
+      "description": "Se EXIF-metadata och histogram för vilket foto som helst — 100 % i webbläsaren"
     }
   }
 }

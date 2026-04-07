@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "Rotera",
+      "center": "Centrera",
+      "switchToPortrait": "Byt till stående",
+      "switchToLandscape": "Byt till liggande",
+      "centerOverlays": "Centrera överlägg",
+      "addLens": "+ Lägg till objektiv",
       "fovSimulator": "FOV Simulator",
       "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
-      "embed": "Embed",
-      "reset": "Reset",
-      "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
-      "wide": "wide",
-      "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
+      "copyImage": "Kopiera bild",
+      "copyLink": "Kopiera länk",
+      "embed": "Bädda in",
+      "reset": "Återställ",
+      "frameInfo": "Bildinfo",
+      "distance": "Avstånd",
+      "showFramingGuides": "Visa kompositionsguider",
+      "wide": "vid",
+      "embedTitle": "Bädda in",
+      "closeEmbedModal": "Stäng inbäddningsfönstret",
       "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
-      "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
-      "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "bbcodeLabel": "BBCode (forum)",
+      "htmlEmbedLabel": "HTML-inbäddning",
+      "copied": "Kopierat",
+      "copy": "Kopiera",
+      "cropView": "Beskärningsvy:",
+      "collapse": "Fäll ihop",
+      "expand": "Fäll ut",
+      "fovComparison": "FOV-jämförelse",
+      "loadingScene": "Laddar scen ...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Vad är bildvinkel i fotografi?",
+          "answer": "Bildvinkel (FOV) är det vinkelområde av scenen som syns genom objektivet och sensorn. Den avgör hur mycket av en scen som fångas i ett foto och påverkas av brännvidd och sensorstorlek."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Hur påverkar cropfaktorn bildvinkeln?",
+          "answer": "En mindre sensor (högre cropfaktor) fångar en smalare bildvinkel än en fullformatssensor vid samma brännvidd. Till exempel gör APS-C-sensorer med 1,5× cropfaktor att ett 50 mm-objektiv beter sig som ett 75 mm sett till bildvinkeln."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Vad är sambandet mellan bildvinkel och brännvidd?",
+          "answer": "Bildvinkel och brännvidd är omvänt relaterade. Kortare brännvidder (vidvinkel) ger bredare bildvinkel, medan längre brännvidder (tele) ger smalare bildvinkel. Den exakta bildvinkeln beror också på sensorstorleken."
         }
       }
     }

@@ -31,16 +31,16 @@
       "loadingScene": "Loading scene...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Τι είναι το οπτικό πεδίο στη φωτογραφία;",
+          "answer": "Το οπτικό πεδίο (FOV) είναι η γωνιακή έκταση της σκηνής που είναι ορατή μέσω του φακού και του αισθητήρα της κάμεράς σου. Καθορίζει πόση από τη σκηνή αποτυπώνεται σε μια φωτογραφία και επηρεάζεται από την εστιακή απόσταση και το μέγεθος του αισθητήρα."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Πώς επηρεάζει ο συντελεστής crop το οπτικό πεδίο;",
+          "answer": "Ένας μικρότερος αισθητήρας (μεγαλύτερος συντελεστής crop) αποτυπώνει στενότερο οπτικό πεδίο από έναν full-frame αισθητήρα στην ίδια εστιακή απόσταση. Για παράδειγμα, οι αισθητήρες APS-C με συντελεστή crop 1.5× κάνουν έναν φακό 50mm να συμπεριφέρεται σαν 75mm ως προς το οπτικό πεδίο."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Ποια είναι η σχέση μεταξύ οπτικού πεδίου και εστιακής απόστασης;",
+          "answer": "Το οπτικό πεδίο και η εστιακή απόσταση έχουν αντιστρόφως ανάλογη σχέση. Οι μικρότερες εστιακές αποστάσεις (ευρυγώνιες) δίνουν πιο ευρύ οπτικό πεδίο, ενώ οι μεγαλύτερες (τηλεφωτογραφικές) δίνουν πιο στενό. Το ακριβές οπτικό πεδίο εξαρτάται επίσης από το μέγεθος του αισθητήρα."
         }
       }
     }

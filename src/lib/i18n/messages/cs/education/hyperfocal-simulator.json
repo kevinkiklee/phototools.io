@@ -1,70 +1,70 @@
 {
   "education": {
     "hyperfocal-simulator": {
-      "beginner": "The hyperfocal distance is the closest point you can focus on while still keeping everything at infinity acceptably sharp. When you focus at the hyperfocal distance, your depth of field extends from half that distance all the way to infinity. Landscape photographers use this technique to maximize sharpness from foreground to horizon.",
-      "deeper": "Hyperfocal distance is derived from the thin-lens equation and the concept of the circle of confusion (CoC). It equals the focal length squared divided by the product of the f-number and the CoC diameter: H = f\u00b2 / (N \u00d7 c). Anything from H/2 to infinity falls within acceptable sharpness. The CoC depends on sensor size — smaller sensors have a smaller acceptable CoC, which pushes the hyperfocal distance farther away for the same focal length and aperture. This is why crop-sensor cameras appear to have greater depth of field: the CoC standard is tighter relative to the image area. In practice, diffraction softening at very small apertures (f/16 and beyond on most sensors) means there is a trade-off between maximizing depth of field and maintaining per-pixel sharpness.",
+      "beginner": "Hyperfokální vzdálenost je nejbližší bod, na který můžeš zaostřit a zároveň si nechat všechno až do nekonečna přijatelně ostré. Když zaostříš na hyperfokální vzdálenost, hloubka ostrosti se rozprostře od poloviny této vzdálenosti až do nekonečna. Krajinářští fotografové tuto techniku používají k maximalizaci ostrosti od popředí po horizont.",
+      "deeper": "Hyperfokální vzdálenost se odvozuje z rovnice tenké čočky a z konceptu rozptylového kroužku (CoC). Rovná se druhé mocnině ohniskové vzdálenosti dělené součinem clonového čísla a průměru CoC: H = f² / (N × c). Všechno od H/2 do nekonečna spadá do přijatelné ostrosti. CoC závisí na velikosti snímače — menší snímače mají menší přípustný CoC, což posouvá hyperfokální vzdálenost dál pro stejné ohnisko a clonu. Proto se může zdát, že crop snímače mají větší hloubku ostrosti: standard CoC je těsnější vůči ploše obrazu. V praxi difrakční změkčení při velmi malých clonách (od f/16 u většiny snímačů) znamená, že existuje kompromis mezi maximalizací hloubky ostrosti a udržením ostrosti na úrovni pixelu.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths dramatically increase hyperfocal distance — it scales with the square of focal length."
+          "label": "Ohnisková vzdálenost",
+          "description": "Delší ohniska dramaticky zvětšují hyperfokální vzdálenost — ta roste s druhou mocninou ohniska."
         },
         "1": {
-          "label": "Aperture",
-          "description": "Smaller apertures (higher f-numbers) reduce hyperfocal distance, extending depth of field."
+          "label": "Clona",
+          "description": "Menší clony (vyšší clonová čísla) zkracují hyperfokální vzdálenost a zvětšují hloubku ostrosti."
         },
         "2": {
-          "label": "Sensor Size",
-          "description": "Smaller sensors use a smaller circle of confusion, which increases hyperfocal distance for equivalent framing."
+          "label": "Velikost snímače",
+          "description": "Menší snímače používají menší rozptylový kroužek, což pro srovnatelný výřez zvětšuje hyperfokální vzdálenost."
         },
         "3": {
-          "label": "Circle of Confusion",
-          "description": "The maximum blur spot diameter considered \"acceptably sharp\" — typically 0.03mm for full frame."
+          "label": "Rozptylový kroužek",
+          "description": "Maximální průměr rozmazaného bodu ještě považovaný za „přijatelně ostrý\" — typicky 0,03 mm pro full frame."
         }
       },
       "tips": {
         "0": {
-          "text": "For quick landscape work, focus roughly one-third into the scene — it approximates the hyperfocal point for most wide-angle setups."
+          "text": "U rychlé krajinářské práce zaostři přibližně do první třetiny scény — pro většinu širokoúhlých sestav se to blíží hyperfokálnímu bodu."
         },
         "1": {
-          "text": "Avoid stopping down past f/16 on full-frame or f/11 on APS-C. Diffraction will undo the depth-of-field gains you are chasing."
+          "text": "Nepřekračuj f/16 na full frame ani f/11 na APS-C. Difrakce by ti zničila zisk hloubky ostrosti, po kterém jdeš."
         },
         "2": {
-          "text": "Use live view magnification to nail focus precisely at the hyperfocal distance rather than relying on the lens distance scale, which is often imprecise on modern autofocus lenses."
+          "text": "Pro přesné zaostření na hyperfokální vzdálenost použij zvětšený Live View místo stupnice na objektivu, která je u moderních autofokusových objektivů často nepřesná."
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "The camera sensor format. Smaller sensors have a tighter circle of confusion standard, which shifts all hyperfocal distances farther away."
+          "term": "Snímač",
+          "definition": "Formát snímače. Menší snímače mají přísnější standard rozptylového kroužku, což posouvá všechny hyperfokální vzdálenosti dál."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a landscape with a 24mm lens on a full-frame camera. Which sensor format should you select to see full-frame hyperfocal distances?",
-          "hint": "Full frame is the standard 35mm sensor size.",
-          "successMessage": "Correct! Full Frame is the right choice for a standard 35mm sensor.",
-          "failureMessage": "Not quite — select the Full Frame sensor to match a standard 35mm camera body.",
+          "scenario": "Fotíš krajinu 24mm objektivem na full frame fotoaparátu. Jaký formát snímače máš zvolit, abys viděl hyperfokální vzdálenosti pro full frame?",
+          "hint": "Full frame je standardní 35mm snímač.",
+          "successMessage": "Správně! Full frame je správná volba pro standardní 35mm tělo.",
+          "failureMessage": "Ne úplně — vyber full frame, aby odpovídal standardnímu 35mm tělu.",
           "options": {
-            "0": { "label": "Full Frame" },
+            "0": { "label": "Full frame" },
             "1": { "label": "APS-C (Nikon/Sony)" },
             "2": { "label": "Micro Four Thirds" }
           }
         },
         "1": {
-          "scenario": "Looking at the table for full frame, which has a shorter hyperfocal distance: 24mm at f/8, or 50mm at f/8?",
-          "hint": "Hyperfocal distance increases with the square of the focal length.",
-          "successMessage": "Right! The 24mm lens has a much shorter hyperfocal distance because focal length has a squared relationship.",
-          "failureMessage": "Actually, shorter focal lengths always yield shorter hyperfocal distances. The 24mm wins here.",
+          "scenario": "Podívej se do tabulky pro full frame. Který má kratší hyperfokální vzdálenost: 24 mm při f/8, nebo 50 mm při f/8?",
+          "hint": "Hyperfokální vzdálenost roste s druhou mocninou ohniska.",
+          "successMessage": "Správně! 24mm objektiv má mnohem kratší hyperfokální vzdálenost, protože ohnisko má kvadratický vztah.",
+          "failureMessage": "Vlastně kratší ohniska vždy dávají kratší hyperfokální vzdálenost. 24 mm tady vyhrává.",
           "options": {
-            "0": { "label": "24mm at f/8" },
-            "1": { "label": "50mm at f/8" }
+            "0": { "label": "24 mm při f/8" },
+            "1": { "label": "50 mm při f/8" }
           }
         },
         "2": {
-          "scenario": "You are hiking with an APS-C camera and a 35mm lens. You want everything from about 3 meters to infinity sharp. Which aperture range should you look at in the table to find a hyperfocal distance near 6 meters (so that half of it — 3m — is your near-focus limit)?",
-          "hint": "Remember: near focus = hyperfocal / 2. Look for an aperture that gives a hyperfocal around 6m.",
-          "successMessage": "Great thinking! You correctly identified that you need a hyperfocal distance of about 6m, and found the right aperture range.",
-          "failureMessage": "Remember, near focus equals half the hyperfocal distance. You need the hyperfocal to be around 6m to get a near-focus limit of 3m.",
+          "scenario": "Jsi na túře s APS-C fotoaparátem a 35mm objektivem. Chceš mít všechno od zhruba 3 metrů do nekonečna ostré. Jaké clonové rozpětí hledat v tabulce, aby hyperfokální vzdálenost byla okolo 6 metrů (takže její polovina — 3 m — je tvoje přední hranice)?",
+          "hint": "Pamatuj: přední hranice = hyperfokální / 2. Hledej clonu, která dá hyperfokální kolem 6 m.",
+          "successMessage": "Výborná úvaha! Správně jsi poznal, že potřebuješ hyperfokální vzdálenost asi 6 m, a našel správné clonové rozpětí.",
+          "failureMessage": "Pamatuj, přední hranice se rovná polovině hyperfokální vzdálenosti. Pro přední hranici 3 m potřebuješ hyperfokální kolem 6 m.",
           "options": {
             "0": { "label": "f/2.8 — f/4" },
             "1": { "label": "f/5.6 — f/8" },
@@ -72,24 +72,24 @@
           }
         },
         "3": {
-          "scenario": "A friend switches from a full-frame camera to Micro Four Thirds but keeps shooting the same focal lengths. They complain that the hyperfocal distances seem different. Why?",
-          "hint": "The circle of confusion is calculated based on sensor size.",
-          "successMessage": "Exactly! The smaller M43 sensor uses a smaller CoC (about 0.015mm vs 0.03mm), which increases hyperfocal distances for the same focal length and aperture.",
-          "failureMessage": "The key factor is the circle of confusion. Smaller sensors require a tighter CoC standard, which pushes hyperfocal distances farther out.",
+          "scenario": "Kamarád přechází z full frame na Micro Four Thirds, ale fotí pořád stejná ohniska. Stěžuje si, že hyperfokální vzdálenosti vycházejí jinak. Proč?",
+          "hint": "Rozptylový kroužek se počítá podle velikosti snímače.",
+          "successMessage": "Přesně! Menší snímač M43 používá menší CoC (kolem 0,015 mm oproti 0,03 mm), což pro stejné ohnisko a clonu zvyšuje hyperfokální vzdálenosti.",
+          "failureMessage": "Klíčový faktor je rozptylový kroužek. Menší snímače vyžadují přísnější standard CoC, což hyperfokální vzdálenosti posouvá dál.",
           "options": {
-            "0": { "label": "The lens focal length changes on crop sensors" },
-            "1": { "label": "Smaller sensors use a smaller circle of confusion" },
-            "2": { "label": "Micro Four Thirds cameras have less accurate autofocus" }
+            "0": { "label": "Ohnisková vzdálenost se na crop snímačích mění" },
+            "1": { "label": "Menší snímače používají menší rozptylový kroužek" },
+            "2": { "label": "Micro Four Thirds fotoaparáty mají méně přesný autofokus" }
           }
         },
         "4": {
-          "scenario": "You are shooting architecture at 14mm f/11 on full frame. The table shows a very short hyperfocal distance. Should you stop down further to f/22 for even more depth of field, or is f/11 the better choice?",
-          "hint": "Consider what happens to image sharpness at very small apertures.",
-          "successMessage": "Excellent! At f/11, diffraction is minimal on full frame, and the hyperfocal distance at 14mm is already very short. Stopping down to f/22 would soften the image due to diffraction without meaningful DoF benefit.",
-          "failureMessage": "While f/22 gives a shorter hyperfocal distance on paper, diffraction softening at f/22 on full frame actually reduces overall image sharpness. At 14mm f/11, the hyperfocal distance is already so short that the extra DoF is not worth the diffraction penalty.",
+          "scenario": "Fotíš architekturu na 14 mm f/11 na full frame. Tabulka ukazuje velmi krátkou hyperfokální vzdálenost. Máš ještě přiclonit na f/22 kvůli větší hloubce ostrosti, nebo je lepší zůstat na f/11?",
+          "hint": "Uvaž, co se s ostrostí děje při velmi malých clonách.",
+          "successMessage": "Výborně! Při f/11 je na full frame difrakce minimální a hyperfokální vzdálenost při 14 mm je už tak velmi krátká. Přiclonit na f/22 by snímek kvůli difrakci změkčilo bez smysluplného zisku hloubky.",
+          "failureMessage": "f/22 sice na papíře dává kratší hyperfokální vzdálenost, ale difrakční změkčení při f/22 na full frame ve skutečnosti sníží celkovou ostrost. Při 14 mm f/11 je hyperfokální vzdálenost už tak krátká, že zisk hloubky nestojí za ztrátu ostrosti.",
           "options": {
-            "0": { "label": "Stop down to f/22 for maximum depth of field" },
-            "1": { "label": "Stay at f/11 — diffraction at f/22 will reduce sharpness" }
+            "0": { "label": "Přiclonit na f/22 pro maximální hloubku ostrosti" },
+            "1": { "label": "Zůstat na f/11 — difrakce při f/22 sníží ostrost" }
           }
         }
       }

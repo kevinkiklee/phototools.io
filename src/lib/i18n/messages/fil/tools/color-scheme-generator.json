@@ -13,57 +13,57 @@
       "lightness": "Lightness:",
       "splitAngle": "Split angle:",
       "spread": "Spread:",
-      "rectangleWidth": "Rectangle width:",
+      "rectangleWidth": "Lapad ng rektanggulo:",
       "square": "(square)",
-      "pickFromPhoto": "Pick from Photo",
-      "dropPhotoPrompt": "Drop a photo here or click to browse",
-      "keyColorLabel": "Key color — click to copy hex",
-      "clickToCopyHex": "Click to copy hex",
-      "copiedExcl": "Copied!",
-      "copyColors": "Copy colors",
+      "pickFromPhoto": "Kunin mula sa Litrato",
+      "dropPhotoPrompt": "I-drop ang litrato dito o i-click para mag-browse",
+      "keyColorLabel": "Key color — i-click para kopyahin ang hex",
+      "clickToCopyHex": "I-click para kopyahin ang hex",
+      "copiedExcl": "Nakopya!",
+      "copyColors": "Kopyahin ang mga kulay",
       "hexFormat": "Hex",
       "cssFormat": "CSS",
       "rgbFormat": "RGB",
-      "copyHexCodes": "Copy hex codes",
-      "copyCssVariables": "Copy CSS variables",
-      "copyRgbValues": "Copy RGB values",
-      "pickColorFromPhoto": "Pick color from photo",
-      "close": "Close",
-      "dropPhotoOrBrowse": "Drop a photo here or click to browse",
-      "tapToChoose": "Tap to choose a photo",
-      "tapToSample": "Tap anywhere on the photo to sample that color",
-      "changePhoto": "Change photo",
-      "privacyNote": "Your photo stays in your browser — nothing is uploaded",
+      "copyHexCodes": "Kopyahin ang mga hex code",
+      "copyCssVariables": "Kopyahin ang CSS variables",
+      "copyRgbValues": "Kopyahin ang RGB values",
+      "pickColorFromPhoto": "Kumuha ng kulay mula sa litrato",
+      "close": "Isara",
+      "dropPhotoOrBrowse": "I-drop ang litrato dito o i-click para mag-browse",
+      "tapToChoose": "I-tap para pumili ng litrato",
+      "tapToSample": "I-tap kahit saan sa litrato para kunin ang kulay na iyon",
+      "changePhoto": "Palitan ang litrato",
+      "privacyNote": "Nananatili ang litrato mo sa browser — walang ina-upload",
       "suggestions": {
         "complementary": {
-          "warm": "Great for: warm sunset portraits with cool shadow contrast",
-          "cool": "Great for: moody blue-hour shots with warm accent lighting",
-          "default": "Great for: high-contrast compositions with strong visual tension"
+          "warm": "Maganda para sa: mainit na sunset portraits na may malamig na shadow contrast",
+          "cool": "Maganda para sa: moody blue-hour shots na may mainit na accent lighting",
+          "default": "Maganda para sa: high-contrast na komposisyon na may malakas na visual tension"
         },
         "analogous": {
-          "warm": "Great for: golden hour landscapes with unified warm tones",
-          "cool": "Great for: serene water scenes and twilight photography",
-          "default": "Great for: harmonious nature shots with smooth color transitions"
+          "warm": "Maganda para sa: golden hour landscapes na may pinag-isang mainit na tones",
+          "cool": "Maganda para sa: tahimik na water scenes at twilight photography",
+          "default": "Maganda para sa: harmonious nature shots na may smooth na color transitions"
         },
-        "triadic": "Use for: vibrant editorial work and bold creative portraits",
+        "triadic": "Gamitin para sa: vibrant editorial work at bold creative portraits",
         "splitComplementary": {
-          "warm": "Use for: contrasting wardrobe against a natural backdrop",
-          "default": "Use for: balanced product photography with visual variety"
+          "warm": "Gamitin para sa: contrasting wardrobe laban sa natural na backdrop",
+          "default": "Gamitin para sa: balanseng product photography na may visual variety"
         },
-        "tetradic": "Use for: rich editorial layouts and complex multi-subject compositions"
+        "tetradic": "Gamitin para sa: masaganang editorial layouts at masalimuot na multi-subject komposisyon"
       },
       "faq": {
         "what-is-color-harmony": {
-          "question": "What is color harmony in photography?",
-          "answer": "Color harmony refers to aesthetically pleasing color combinations based on their positions on the color wheel. Harmonious colors create visual balance and can evoke specific moods in your photographs."
+          "question": "Ano ang color harmony sa photography?",
+          "answer": "Ang color harmony ay tumutukoy sa mga kaaya-ayang kombinasyon ng kulay batay sa kanilang posisyon sa color wheel. Ang mga harmonious na kulay ay gumagawa ng visual na balanse at kayang magdulot ng partikular na mood sa mga litrato mo."
         },
         "complementary-vs-analogous": {
-          "question": "What is the difference between complementary and analogous colors?",
-          "answer": "Complementary colors sit opposite each other on the color wheel (like blue and orange) and create high contrast. Analogous colors sit next to each other (like blue, blue-green, and green) and create a more harmonious, unified feel."
+          "question": "Ano ang pagkakaiba ng complementary at analogous colors?",
+          "answer": "Ang mga complementary colors ay magkasalungat sa isa't isa sa color wheel (tulad ng asul at orange) at gumagawa ng mataas na contrast. Ang mga analogous colors ay magkakatabi (tulad ng asul, blue-green, at berde) at gumagawa ng mas harmonious at pinag-isang pakiramdam."
         },
         "how-to-use-color-schemes-photography": {
-          "question": "How do I use color schemes in photography?",
-          "answer": "Plan your shoots around a color palette — choose wardrobe, locations, and props that match your scheme. In post-processing, use color grading to emphasize your chosen palette. Color schemes help create a consistent visual identity across a photo series."
+          "question": "Paano ako gagamit ng color schemes sa photography?",
+          "answer": "Magplano ng shoot mo sa paligid ng color palette — pumili ng wardrobe, lokasyon, at props na tumutugma sa scheme mo. Sa post-processing, gumamit ng color grading para bigyang-diin ang napili mong palette. Ang color schemes ay tumutulong na lumikha ng pare-parehong visual na identity sa isang photo series."
         }
       }
     }

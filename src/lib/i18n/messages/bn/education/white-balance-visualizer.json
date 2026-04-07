@@ -1,74 +1,74 @@
 {
   "education": {
     "white-balance-visualizer": {
-      "beginner": "White balance adjusts the colors in your photo so that white objects actually appear white under any lighting. Different light sources have different color temperatures — a candle is warm and orange, while shade is cool and blue. Your camera's white balance setting compensates for these differences so colors look natural.",
+      "beginner": "হোয়াইট ব্যালেন্স তোমার ছবির রঙ সামঞ্জস্য করে যাতে সাদা বস্তু যেকোনো আলোতে সত্যিই সাদা দেখায়। বিভিন্ন আলোর উৎসের বিভিন্ন রঙের তাপমাত্রা থাকে — একটি মোমবাতি উষ্ণ ও কমলা, আর ছায়া শীতল ও নীল। তোমার ক্যামেরার হোয়াইট ব্যালেন্স সেটিং এই পার্থক্যগুলো ক্ষতিপূরণ দেয় যাতে রঙগুলো স্বাভাবিক দেখায়।",
       "deeper": {
         "0": {
-          "heading": "Color temperature",
-          "text": "Color temperature is measured in Kelvin (K) and corresponds to the color of light emitted by an ideal \"black body\" heated to that temperature. Lower values (2000\u20133500K) produce warm, reddish-orange light (incandescent bulbs, candles), while higher values (6500\u201310000K) produce cool, bluish light (shade, overcast sky)."
+          "heading": "রঙের তাপমাত্রা",
+          "text": "রঙের তাপমাত্রা কেলভিনে (K) পরিমাপ করা হয় এবং একটি আদর্শ \"ব্ল্যাক বডি\" সেই তাপমাত্রায় উত্তপ্ত হলে যে রঙের আলো নির্গত করে তার সাথে মেলে। কম মান (2000–3500K) উষ্ণ, লালচে-কমলা আলো তৈরি করে (ইনক্যান্ডেসেন্ট বাল্ব, মোমবাতি), যখন বেশি মান (6500–10000K) শীতল, নীলচে আলো তৈরি করে (ছায়া, মেঘলা আকাশ)।"
         },
         "1": {
-          "heading": "How white balance works",
-          "text": "The camera's white balance system applies the inverse color shift to neutralize the ambient color cast. When you set white balance to \"Tungsten\" (~3200K), the camera adds blue to counteract the orange cast from incandescent lights. In digital photography, white balance is applied as a multiplier to the red and blue channels relative to green."
+          "heading": "হোয়াইট ব্যালেন্স কীভাবে কাজ করে",
+          "text": "ক্যামেরার হোয়াইট ব্যালেন্স সিস্টেম পরিবেশের রঙের কাস্ট নিরপেক্ষ করতে বিপরীত রঙের শিফট প্রয়োগ করে। যখন তুমি হোয়াইট ব্যালেন্স \"Tungsten\"-এ (~3200K) সেট করো, ক্যামেরা ইনক্যান্ডেসেন্ট লাইটের কমলা কাস্টকে মোকাবেলা করতে নীল যোগ করে। ডিজিটাল ফটোগ্রাফিতে, হোয়াইট ব্যালেন্স সবুজের সাপেক্ষে লাল ও নীল চ্যানেলে একটি গুণক হিসেবে প্রয়োগ করা হয়।"
         },
         "2": {
-          "heading": "RAW advantage",
-          "text": "Shooting in RAW format preserves all color data and allows you to change white balance freely in post-processing with zero quality loss — it is simply a metadata tag applied during conversion."
+          "heading": "RAW-এর সুবিধা",
+          "text": "RAW ফরম্যাটে শুট করলে সমস্ত রঙের ডেটা সংরক্ষিত থাকে এবং তুমি পোস্ট-প্রসেসিংয়ে হোয়াইট ব্যালেন্স স্বাধীনভাবে পরিবর্তন করতে পারো শূন্য মানের ক্ষতি ছাড়া — এটি শুধু কনভার্সনের সময় প্রয়োগ করা একটি মেটাডেটা ট্যাগ।"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Color Temperature (Kelvin)",
-          "description": "The numerical measure of light color. Low Kelvin = warm/orange light. High Kelvin = cool/blue light. Daylight is approximately 5500K."
+          "label": "রঙের তাপমাত্রা (কেলভিন)",
+          "description": "আলোর রঙের সংখ্যাগত পরিমাপ। কম কেলভিন = উষ্ণ/কমলা আলো। বেশি কেলভিন = শীতল/নীল আলো। দিনের আলো প্রায় 5500K।"
         },
         "1": {
-          "label": "Light Source",
-          "description": "Different sources emit different color temperatures: candles (~1800K), tungsten bulbs (~2800K), fluorescent tubes (~4000K), midday sun (~5500K), cloudy sky (~6500K), shade (~7500K)."
+          "label": "আলোর উৎস",
+          "description": "বিভিন্ন উৎস বিভিন্ন রঙের তাপমাত্রা নির্গত করে: মোমবাতি (~1800K), টাংস্টেন বাল্ব (~2800K), ফ্লুরোসেন্ট টিউব (~4000K), দুপুরের সূর্য (~5500K), মেঘলা আকাশ (~6500K), ছায়া (~7500K)।"
         },
         "2": {
-          "label": "RAW vs JPEG",
-          "description": "Shooting RAW lets you change white balance in post with no quality loss. JPEG bakes in the white balance permanently, so getting it right in-camera matters more."
+          "label": "RAW বনাম JPEG",
+          "description": "RAW শুটিং তোমাকে পোস্টে কোনো মানের ক্ষতি ছাড়াই হোয়াইট ব্যালেন্স পরিবর্তন করতে দেয়। JPEG স্থায়ীভাবে হোয়াইট ব্যালেন্স বেক করে, তাই ক্যামেরায় সঠিক করা বেশি গুরুত্বপূর্ণ।"
         },
         "3": {
-          "label": "Mixed Lighting",
-          "description": "Scenes with multiple light sources at different temperatures (e.g., window daylight + tungsten lamps) make it impossible to perfectly neutralize all colors simultaneously."
+          "label": "মিশ্র আলো",
+          "description": "বিভিন্ন তাপমাত্রার একাধিক আলোর উৎসবিশিষ্ট দৃশ্য (যেমন জানালার দিনের আলো + টাংস্টেন ল্যাম্প) একসাথে সমস্ত রঙ নিখুঁতভাবে নিরপেক্ষ করা অসম্ভব করে তোলে।"
         }
       },
       "tips": {
         "0": {
-          "text": "Always shoot RAW if you want full flexibility to adjust white balance later. RAW files store the unprocessed sensor data, so white balance changes are lossless."
+          "text": "পরে হোয়াইট ব্যালেন্স সামঞ্জস্য করার পূর্ণ নমনীয়তা চাইলে সবসময় RAW শুট করো। RAW ফাইল আনপ্রসেসড সেন্সর ডেটা সংরক্ষণ করে, তাই হোয়াইট ব্যালেন্স পরিবর্তন ক্ষতিহীন।"
         },
         "1": {
-          "text": "For creative effect, try intentionally \"mismatching\" white balance. Setting a daylight WB during golden hour makes sunsets even warmer, while a tungsten WB outdoors creates a dramatic cold blue look."
+          "text": "সৃজনশীল প্রভাবের জন্য, ইচ্ছাকৃতভাবে হোয়াইট ব্যালেন্স \"মিসম্যাচ\" করার চেষ্টা করো। গোল্ডেন আওয়ারে Daylight WB সেট করলে সূর্যাস্ত আরো উষ্ণ হয়, যখন বাইরে Tungsten WB নাটকীয় শীতল নীল লুক তৈরি করে।"
         },
         "2": {
-          "text": "In mixed lighting situations (e.g., a room lit by both window light and tungsten lamps), use a gray card to set a custom white balance, or gel your flash to match the ambient light source."
+          "text": "মিশ্র আলোর পরিস্থিতিতে (যেমন একটি কক্ষ যা জানালার আলো ও টাংস্টেন ল্যাম্প উভয় দ্বারা আলোকিত), কাস্টম হোয়াইট ব্যালেন্স সেট করতে গ্রে কার্ড ব্যবহার করো, বা পরিবেশের আলোর উৎসের সাথে মেলাতে তোমার ফ্ল্যাশে জেল লাগাও।"
         }
       },
       "tooltips": {
         "colorTemperature": {
-          "term": "Color Temperature",
-          "definition": "A measure of light color in Kelvin (K). Based on the theoretical color of a heated black body. Lower values are warmer (orange/red), higher values are cooler (blue)."
+          "term": "রঙের তাপমাত্রা",
+          "definition": "কেলভিনে (K) আলোর রঙের পরিমাপ। একটি উত্তপ্ত ব্ল্যাক বডির তাত্ত্বিক রঙের ভিত্তিতে। কম মান উষ্ণ (কমলা/লাল), বেশি মান শীতল (নীল)।"
         },
         "preset": {
-          "term": "White Balance Preset",
-          "definition": "A predefined white balance setting calibrated for a common light source. Presets include Tungsten (~3200K), Fluorescent (~4000K), Daylight (~5500K), Cloudy (~6500K), and Shade (~7500K)."
+          "term": "হোয়াইট ব্যালেন্স প্রিসেট",
+          "definition": "একটি সাধারণ আলোর উৎসের জন্য ক্যালিব্রেট করা পূর্বনির্ধারিত হোয়াইট ব্যালেন্স সেটিং। প্রিসেটগুলোর মধ্যে আছে Tungsten (~3200K), Fluorescent (~4000K), Daylight (~5500K), Cloudy (~6500K), এবং Shade (~7500K)।"
         },
         "rgbValues": {
-          "term": "RGB Values",
-          "definition": "The red, green, and blue channel values (0-255 each) that represent the color of light at the selected temperature. Used to visualize how the light source tints the scene."
+          "term": "RGB মান",
+          "definition": "নির্বাচিত তাপমাত্রায় আলোর রঙ প্রতিনিধিত্ব করা লাল, সবুজ ও নীল চ্যানেলের মান (প্রতিটি 0-255)। আলোর উৎস দৃশ্যকে কীভাবে রঙিন করে তা ভিজ্যুয়ালাইজ করতে ব্যবহৃত।"
         },
         "hexCode": {
-          "term": "Hex Code",
-          "definition": "A six-character hexadecimal representation of the color (e.g., #FF8C00). Useful for referencing the exact color in design software or web development."
+          "term": "Hex কোড",
+          "definition": "রঙের একটি ছয়-অক্ষরের হেক্সাডেসিমাল উপস্থাপনা (যেমন #FF8C00)। ডিজাইন সফটওয়্যার বা ওয়েব ডেভেলপমেন্টে সঠিক রঙ রেফারেন্স করতে কাজে আসে।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "Your indoor photos under regular household light bulbs look very orange/yellow. Which white balance preset should you use to fix this?",
-          "hint": "Household incandescent bulbs emit warm, orange-toned light around 2800-3200K.",
-          "successMessage": "Correct! The Tungsten preset adds blue to counteract the orange cast of incandescent bulbs, bringing colors back to neutral.",
-          "failureMessage": "Incandescent/tungsten bulbs emit warm orange light. The Tungsten white balance preset is specifically designed to neutralize this cast by adding blue.",
+          "scenario": "সাধারণ ঘরোয়া লাইট বাল্বের নিচে তোমার ইনডোর ছবি খুব কমলা/হলুদ দেখাচ্ছে। এটি ঠিক করতে কোন হোয়াইট ব্যালেন্স প্রিসেট ব্যবহার করবে?",
+          "hint": "ঘরোয়া ইনক্যান্ডেসেন্ট বাল্ব 2800-3200K এর কাছাকাছি উষ্ণ, কমলা-টোনের আলো নির্গত করে।",
+          "successMessage": "সঠিক! Tungsten প্রিসেট ইনক্যান্ডেসেন্ট বাল্বের কমলা কাস্টকে মোকাবেলা করতে নীল যোগ করে, রঙগুলোকে নিরপেক্ষে ফিরিয়ে আনে।",
+          "failureMessage": "ইনক্যান্ডেসেন্ট/টাংস্টেন বাল্ব উষ্ণ কমলা আলো নির্গত করে। Tungsten হোয়াইট ব্যালেন্স প্রিসেট বিশেষভাবে এই কাস্টকে নীল যোগ করে নিরপেক্ষ করার জন্য ডিজাইন করা।",
           "options": {
             "0": { "label": "Daylight" },
             "1": { "label": "Tungsten" },
@@ -77,50 +77,50 @@
           }
         },
         "1": {
-          "scenario": "You are shooting portraits during golden hour and want to keep the beautiful warm glow of the sunset. Which white balance setting should you use?",
-          "hint": "If you set the \"correct\" WB for golden hour, it would neutralize the warm tones you want to keep.",
-          "successMessage": "Correct! Using the Daylight preset (or even Cloudy/Shade) during golden hour preserves and enhances the warm tones instead of neutralizing them.",
-          "failureMessage": "To preserve the warm glow of golden hour, use a WB that does not compensate for warm light. Daylight or higher presets will keep (and even enhance) the warmth.",
+          "scenario": "তুমি গোল্ডেন আওয়ারে পোর্ট্রেট শুট করছো এবং সূর্যাস্তের সুন্দর উষ্ণ আভা রাখতে চাও। কোন হোয়াইট ব্যালেন্স সেটিং ব্যবহার করবে?",
+          "hint": "তুমি যদি গোল্ডেন আওয়ারের জন্য \"সঠিক\" WB সেট করো, এটি তোমার রাখতে চাওয়া উষ্ণ টোনগুলোকে নিরপেক্ষ করবে।",
+          "successMessage": "সঠিক! গোল্ডেন আওয়ারে Daylight প্রিসেট (বা এমনকি Cloudy/Shade) ব্যবহার করা উষ্ণ টোনগুলোকে নিরপেক্ষ করার বদলে সংরক্ষণ ও উন্নত করে।",
+          "failureMessage": "গোল্ডেন আওয়ারের উষ্ণ আভা সংরক্ষণ করতে, এমন একটি WB ব্যবহার করো যা উষ্ণ আলোকে ক্ষতিপূরণ দেয় না। Daylight বা উচ্চতর প্রিসেট উষ্ণতা রাখবে (এবং এমনকি বাড়াবে)।",
           "options": {
             "0": { "label": "Auto White Balance" },
-            "1": { "label": "Tungsten (to neutralize the warmth)" },
-            "2": { "label": "Daylight (to preserve the warmth)" },
+            "1": { "label": "Tungsten (উষ্ণতা নিরপেক্ষ করতে)" },
+            "2": { "label": "Daylight (উষ্ণতা সংরক্ষণ করতে)" },
             "3": { "label": "Flash" }
           }
         },
         "2": {
-          "scenario": "You are manually adjusting white balance in Kelvin. Your photo looks too blue/cold. Should you increase or decrease the Kelvin value to warm it up?",
-          "hint": "The Kelvin WB setting tells the camera what color temperature the light source is. Setting a higher Kelvin value makes the camera add more warmth.",
-          "successMessage": "Right! Increasing the Kelvin value tells the camera the light is cooler than it actually is, so the camera compensates by adding warmth. Set a higher K to warm up a cold-looking image.",
-          "failureMessage": "When you increase the Kelvin value, the camera adds more warmth to compensate. So to fix a cold/blue image, raise the Kelvin number.",
+          "scenario": "তুমি কেলভিনে ম্যানুয়ালি হোয়াইট ব্যালেন্স সামঞ্জস্য করছো। তোমার ছবি খুব নীল/শীতল দেখাচ্ছে। উষ্ণ করতে কেলভিন মান বাড়াবে নাকি কমাবে?",
+          "hint": "কেলভিন WB সেটিং ক্যামেরাকে বলে আলোর উৎসের রঙের তাপমাত্রা কী। উচ্চতর কেলভিন মান সেট করলে ক্যামেরা বেশি উষ্ণতা যোগ করে।",
+          "successMessage": "ঠিক! কেলভিন মান বাড়ানো ক্যামেরাকে বলে আলো আসলে যতটা তার চেয়ে শীতল, তাই ক্যামেরা উষ্ণতা যোগ করে ক্ষতিপূরণ দেয়। ঠান্ডা দেখানো ছবি উষ্ণ করতে উচ্চতর K সেট করো।",
+          "failureMessage": "যখন তুমি কেলভিন মান বাড়াও, ক্যামেরা ক্ষতিপূরণ হিসেবে বেশি উষ্ণতা যোগ করে। তাই একটি শীতল/নীল ছবি ঠিক করতে, কেলভিন নম্বর বাড়াও।",
           "options": {
-            "0": { "label": "Increase Kelvin (e.g., 5500K to 7500K)" },
-            "1": { "label": "Decrease Kelvin (e.g., 5500K to 3200K)" },
-            "2": { "label": "Kelvin direction does not affect warmth" }
+            "0": { "label": "কেলভিন বাড়াও (যেমন 5500K থেকে 7500K)" },
+            "1": { "label": "কেলভিন কমাও (যেমন 5500K থেকে 3200K)" },
+            "2": { "label": "কেলভিন দিক উষ্ণতা প্রভাবিত করে না" }
           }
         },
         "3": {
-          "scenario": "You are photographing a restaurant interior that has warm tungsten pendant lights overhead and cool blue daylight streaming through large windows. People near the windows look blue, and people under the lamps look orange. What is the best approach?",
-          "hint": "No single white balance setting can correct two very different color temperatures simultaneously.",
-          "successMessage": "Exactly! Gelling the flash or additional lights to match one dominant source, or choosing a compromise WB and correcting selectively in post, are the best approaches for mixed lighting.",
-          "failureMessage": "Mixed lighting is one of the hardest WB challenges. A single WB cannot correct both sources simultaneously. You need to either match the sources with gels or fix it selectively in post.",
+          "scenario": "তুমি একটি রেস্তোরাঁর অভ্যন্তর শুট করছো যেখানে উপরে উষ্ণ টাংস্টেন পেন্ড্যান্ট লাইট এবং বড় জানালা দিয়ে শীতল নীল দিনের আলো আসছে। জানালার কাছের লোকেরা নীল দেখাচ্ছে, আর ল্যাম্পের নিচের লোকেরা কমলা দেখাচ্ছে। সবচেয়ে ভালো পদ্ধতি কী?",
+          "hint": "কোনো একক হোয়াইট ব্যালেন্স সেটিং একসাথে দুটি খুব ভিন্ন রঙের তাপমাত্রা সংশোধন করতে পারে না।",
+          "successMessage": "ঠিক! একটি প্রধান উৎসের সাথে মেলাতে ফ্ল্যাশ বা অতিরিক্ত আলোতে জেল লাগানো, অথবা একটি আপস WB বেছে নিয়ে পোস্টে নির্বাচিতভাবে সংশোধন করা — মিশ্র আলোর জন্য সেরা পদ্ধতি।",
+          "failureMessage": "মিশ্র আলো সবচেয়ে কঠিন WB চ্যালেঞ্জগুলোর একটি। একটি একক WB দুটি উৎস একসাথে সংশোধন করতে পারে না। তোমাকে হয় জেল দিয়ে উৎস মেলাতে হবে বা পোস্টে নির্বাচিতভাবে ঠিক করতে হবে।",
           "options": {
-            "0": { "label": "Set WB to Tungsten — it will fix everything" },
-            "1": { "label": "Set WB to Daylight — windows are more important" },
-            "2": { "label": "Use Auto WB and shoot RAW, then correct each zone in post" },
-            "3": { "label": "Raise ISO to make colors more accurate" }
+            "0": { "label": "WB Tungsten-এ সেট করো — এটি সব ঠিক করবে" },
+            "1": { "label": "WB Daylight-এ সেট করো — জানালা বেশি গুরুত্বপূর্ণ" },
+            "2": { "label": "Auto WB ব্যবহার করো এবং RAW শুট করো, তারপর পোস্টে প্রতিটি জোন সংশোধন করো" },
+            "3": { "label": "রঙ আরো সঠিক করতে ISO বাড়াও" }
           }
         },
         "4": {
-          "scenario": "You are shooting a moody, cinematic night scene in a city and want an intentional cold blue tone. The streetlights are sodium vapor (~2200K). What Kelvin white balance setting would give you the strongest blue shift?",
-          "hint": "Setting WB much lower than the actual light source temperature will shift the image toward blue.",
-          "successMessage": "Correct! Setting WB to 7500K (Shade preset) tells the camera the light source is very cool/blue — so it compensates by adding heavy warmth-correction. But since the actual sodium lights are only 2200K (very warm), this overcorrection swings past neutral into a strong blue cast. The higher you set the WB Kelvin above the actual light temperature, the stronger the blue shift.",
-          "failureMessage": "Setting a WB Kelvin value much higher than the actual light source temperature makes the camera overcorrect toward blue. With 2200K sodium lights, setting WB to 7500K+ creates the strongest cold blue look.",
+          "scenario": "তুমি একটি শহরে মুডি, সিনেমাটিক রাতের দৃশ্য শুট করছো এবং ইচ্ছাকৃত ঠান্ডা নীল টোন চাও। রাস্তার আলোগুলো সোডিয়াম ভ্যাপর (~2200K)। কোন কেলভিন হোয়াইট ব্যালেন্স সেটিং তোমাকে সবচেয়ে শক্তিশালী নীল শিফট দেবে?",
+          "hint": "WB-কে আসল আলোর উৎসের তাপমাত্রার চেয়ে অনেক কম সেট করলে ছবিটি নীলের দিকে সরবে।",
+          "successMessage": "সঠিক! WB 7500K (Shade প্রিসেট)-এ সেট করা ক্যামেরাকে বলে আলোর উৎস খুব শীতল/নীল — তাই এটি ভারী উষ্ণতা-সংশোধন যোগ করে ক্ষতিপূরণ দেয়। কিন্তু যেহেতু আসল সোডিয়াম লাইট মাত্র 2200K (খুব উষ্ণ), এই অতিসংশোধন নিরপেক্ষের বাইরে গিয়ে শক্তিশালী নীল কাস্টে পৌঁছায়। তুমি আসল আলোর তাপমাত্রার তুলনায় WB কেলভিন যত বেশি সেট করবে, নীল শিফট তত শক্তিশালী হবে।",
+          "failureMessage": "আসল আলোর উৎসের তাপমাত্রার চেয়ে অনেক বেশি WB কেলভিন মান সেট করলে ক্যামেরা নীলের দিকে অতিসংশোধন করে। 2200K সোডিয়াম লাইটের সাথে, WB 7500K+ সেট করা সবচেয়ে শক্তিশালী ঠান্ডা নীল লুক তৈরি করে।",
           "options": {
-            "0": { "label": "2200K (matching the sodium lights)" },
-            "1": { "label": "3200K (Tungsten preset)" },
-            "2": { "label": "7500K or higher (Shade preset)" },
-            "3": { "label": "5500K (Daylight preset)" }
+            "0": { "label": "2200K (সোডিয়াম লাইট মেলানো)" },
+            "1": { "label": "3200K (Tungsten প্রিসেট)" },
+            "2": { "label": "7500K বা উচ্চতর (Shade প্রিসেট)" },
+            "3": { "label": "5500K (Daylight প্রিসেট)" }
           }
         }
       }

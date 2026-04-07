@@ -1,21 +1,21 @@
 {
   "toolUI": {
     "hyperfocal-simulator": {
-      "settings": "Settings",
-      "focalLength": "Focal Length",
-      "aperture": "Aperture",
-      "focusDistance": "Focus Distance:",
+      "settings": "Inställningar",
+      "focalLength": "Brännvidd",
+      "aperture": "Bländare",
+      "focusDistance": "Fokusavstånd:",
       "sensor": "Sensor",
-      "scene": "Scene:",
-      "sceneLandscape": "Landscape",
-      "sceneStreet": "Street",
-      "hyperfocalDistance": "Hyperfocal Distance",
-      "nearLimit": "Near Limit",
-      "farLimit": "Far Limit",
-      "focusDistanceResult": "Focus Distance",
-      "hyperfocalReference": "Hyperfocal Reference",
-      "sharpToInfinity": "Sharp to infinity",
-      "nearLimitBadge": "Near limit:"
+      "scene": "Scen:",
+      "sceneLandscape": "Landskap",
+      "sceneStreet": "Gata",
+      "hyperfocalDistance": "Hyperfokalavstånd",
+      "nearLimit": "Närgräns",
+      "farLimit": "Bortre gräns",
+      "focusDistanceResult": "Fokusavstånd",
+      "hyperfocalReference": "Hyperfokalreferens",
+      "sharpToInfinity": "Skarp till oändligheten",
+      "nearLimitBadge": "Närgräns:"
     }
   }
 }

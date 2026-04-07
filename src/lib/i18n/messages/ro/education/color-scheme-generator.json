@@ -1,146 +1,146 @@
 {
   "education": {
     "color-scheme-generator": {
-      "beginner": "Color harmony is about choosing colors that look good together. Just like musical chords, certain color combinations create pleasing visual relationships. Photographers use color harmony to plan wardrobe, set design, and even timing of outdoor shoots to get the right palette from nature.",
+      "beginner": "Armonia culorilor înseamnă să alegi culori care arată bine împreună. La fel ca acordurile muzicale, anumite combinații cromatice creează relații vizuale plăcute. Fotografii folosesc armonia culorilor pentru a planifica garderoba, decorul și chiar momentul sesiunilor în exterior, ca să obțină paleta potrivită din natură.",
       "deeper": {
         "0": {
-          "heading": "The Color Wheel",
-          "text": "Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle (0\u2013360\u00b0), saturation is the distance from center, and lightness controls brightness. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary."
+          "heading": "Roata culorilor",
+          "text": "Teoria armoniei culorilor pornește de la roata culorilor, care așază nuanțele în cerc după relațiile dintre lungimile lor de undă. Modelul HSL (Hue, Saturation, Lightness) se mapează direct pe roată: hue-ul este unghiul (0\u2013360\u00b0), saturația este distanța față de centru, iar lightness-ul controlează luminozitatea. În fotografie aceste relații apar natural — ora de aur produce tonuri calde analoge, iar un hambar roșu pe un câmp verde este o combinație complementară."
         },
         "1": {
-          "heading": "Complementary",
-          "text": "Two colors that sit directly opposite each other on the wheel (180\u00b0 apart), such as blue and orange or red and green. This creates maximum contrast and visual energy. Great for making a subject pop against a background — think golden-hour portraits where warm skin tones contrast with a cool blue sky."
+          "heading": "Complementar",
+          "text": "Două culori care stau direct opus pe roată (la 180\u00b0), cum ar fi albastrul și portocaliul sau roșul și verdele. Asta creează contrastul maxim și energie vizuală. Perfect pentru a face subiectul să iasă în evidență pe fundal — gândește-te la portrete în ora de aur, unde tonurile calde ale pielii contrastează cu cerul rece albastru."
         },
         "2": {
-          "heading": "Analogous",
-          "text": "Three colors that are neighbors on the wheel, typically within a 30\u201360\u00b0 spread. They produce smooth, cohesive palettes with low contrast. Ideal for landscapes and mood-driven work — autumn foliage is a natural analogous palette of reds, oranges, and yellows."
+          "heading": "Analog",
+          "text": "Trei culori care sunt vecine pe roată, de obicei pe un interval de 30\u201360\u00b0. Produc palete fluide, coerente, cu contrast redus. Ideale pentru peisaje și lucrări atmosferice — frunzele de toamnă formează o paletă analogă naturală, de roșu, portocaliu și galben."
         },
         "3": {
           "heading": "Triadic",
-          "text": "Three colors evenly spaced at 120\u00b0 intervals around the wheel, such as red, yellow, and blue. Triadic schemes feel balanced and vibrant without the tension of complementary contrast. Use one dominant color and the other two as accents for the strongest results."
+          "text": "Trei culori distanțate uniform la 120\u00b0 în jurul roții, de exemplu roșu, galben și albastru. Schemele triadice par echilibrate și vibrante, fără tensiunea contrastului complementar. Folosește o culoare dominantă și pe celelalte două ca accente pentru rezultatele cele mai puternice."
         },
         "4": {
-          "heading": "Split Complementary",
-          "text": "A variation of complementary that uses the two neighbors of the opposite color instead of the opposite itself. This keeps the high contrast of complementary but reduces the visual tension, making it more versatile and forgiving. A popular choice for styled portrait sessions."
+          "heading": "Complementar divizat",
+          "text": "O variantă a schemei complementare care folosește cele două culori vecine opusului, în loc de opusul direct. Păstrează contrastul ridicat al complementarei, dar reduce tensiunea vizuală, devenind mai versatilă și mai iertătoare. O alegere populară pentru sesiuni de portret stilizate."
         },
         "5": {
-          "heading": "Tetradic (Double Complementary)",
-          "text": "Four colors forming a rectangle on the wheel — essentially two complementary pairs. This offers the richest, most complex palette but requires careful balance. Let one color dominate and use the others as supporting accents to avoid a chaotic look."
+          "heading": "Tetradic (dublu complementar)",
+          "text": "Patru culori care formează un dreptunghi pe roată — practic două perechi complementare. Oferă cea mai bogată și complexă paletă, dar cere un echilibru atent. Lasă o culoare să domine și folosește-le pe celelalte ca accente, ca să eviți un aspect haotic."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Harmony Type",
-          "description": "The geometric relationship between colors on the wheel: complementary, analogous, triadic, split-complementary, or tetradic."
+          "label": "Tip de armonie",
+          "description": "Relația geometrică dintre culorile de pe roată: complementar, analog, triadic, complementar divizat sau tetradic."
         },
         "1": {
           "label": "Hue",
-          "description": "The base color angle on the wheel (0-360 degrees). This is the starting point for all harmony calculations."
+          "description": "Unghiul de bază al culorii pe roată (0-360 grade). Este punctul de plecare pentru toate calculele de armonie."
         },
         "2": {
-          "label": "Saturation",
-          "description": "How vivid or muted the colors are. Lower saturation produces pastels and earth tones; higher saturation gives bold, vibrant palettes."
+          "label": "Saturație",
+          "description": "Cât de vii sau de stinse sunt culorile. Saturația joasă dă pasteluri și tonuri pământii; saturația mare dă palete îndrăznețe și vibrante."
         },
         "3": {
           "label": "Lightness",
-          "description": "Controls brightness. Adjusting lightness can make the same hue feel completely different — dark navy vs. sky blue are the same hue at different lightness."
+          "description": "Controlează luminozitatea. Modificarea lightness-ului poate face ca aceeași nuanță să pară complet diferită — bleumarinul întunecat și albastrul de cer sunt același hue la lightness diferit."
         }
       },
       "tips": {
         "0": {
-          "text": "For portrait sessions, pick a complementary or split-complementary palette, then have your subject wear the key color while the background provides the contrasting hue. Blue/orange (golden hour portraits) is a classic example."
+          "text": "Pentru sesiuni de portret, alege o paletă complementară sau complementar divizată, apoi îmbracă subiectul în culoarea principală, iar fundalul să aducă nuanța contrastantă. Albastru/portocaliu (portrete în ora de aur) este exemplul clasic."
         },
         "1": {
-          "text": "Use analogous harmony for landscapes — nature already works in analogous palettes. Match your wardrobe advice or prop choices to the dominant natural hues."
+          "text": "Folosește armonia analogă pentru peisaje — natura lucrează deja în palete analoge. Potrivește sugestiile de garderobă sau recuzita cu nuanțele naturale dominante."
         },
         "2": {
-          "text": "Reduce saturation to 30-50% to preview how colors will look in a more muted, editorial style. High saturation works for commercial and fashion, but lower saturation often feels more sophisticated."
+          "text": "Scade saturația la 30-50% ca să previzualizezi cum vor arăta culorile într-un stil editorial, mai stins. Saturația mare merge pentru comercial și fashion, dar saturația joasă pare adesea mai rafinată."
         }
       },
       "tooltips": {
         "Harmony Type": {
-          "term": "Harmony Type",
-          "definition": "The color relationship pattern: Complementary (opposite), Analogous (neighbors), Triadic (three-way), Split Complementary (offset opposites), or Tetradic (four-way rectangle)."
+          "term": "Tip de armonie",
+          "definition": "Tiparul relației cromatice: Complementar (opus), Analog (vecini), Triadic (trei căi), Complementar divizat (opuse decalate) sau Tetradic (dreptunghi cu patru culori)."
         },
         "Key Color": {
-          "term": "Key Color",
-          "definition": "The dominant color in your palette. All other harmony colors are calculated relative to this starting hue."
+          "term": "Culoare principală",
+          "definition": "Culoarea dominantă din paletă. Toate celelalte culori ale armoniei sunt calculate în raport cu acest hue de pornire."
         },
         "Hue": {
           "term": "Hue",
-          "definition": "The color angle on the wheel in degrees: 0\u00b0 is red, 120\u00b0 is green, 240\u00b0 is blue."
+          "definition": "Unghiul culorii pe roată, în grade: 0\u00b0 este roșu, 120\u00b0 este verde, 240\u00b0 este albastru."
         },
         "Saturation": {
-          "term": "Saturation",
-          "definition": "Color intensity from 0% (gray) to 100% (fully vivid). Controls how bold or muted the entire palette appears."
+          "term": "Saturație",
+          "definition": "Intensitatea culorii, de la 0% (gri) la 100% (plină). Controlează cât de îndrăzneață sau de stinsă pare întreaga paletă."
         },
         "Lightness": {
           "term": "Lightness",
-          "definition": "Brightness from 0% (black) to 100% (white). At 50% you see the pure color; below is darker, above is lighter."
+          "definition": "Luminozitate, de la 0% (negru) la 100% (alb). La 50% vezi culoarea pură; sub este mai închis, peste este mai deschis."
         },
         "Split Angle": {
-          "term": "Split Angle",
-          "definition": "How far apart the two split-complementary colors are from the direct opposite. Wider angles give more contrast."
+          "term": "Unghi de divizare",
+          "definition": "Cât de departe sunt cele două culori complementar divizate față de opusul direct. Unghiurile mai mari dau mai mult contrast."
         },
         "Spread": {
-          "term": "Spread",
-          "definition": "How far apart the analogous colors are from the key hue. Narrow spread gives subtle variation; wide spread increases diversity."
+          "term": "Distanță",
+          "definition": "Cât de depărtate sunt culorile analoge față de hue-ul principal. Distanțe mici dau variații subtile; distanțe mari cresc diversitatea."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want maximum contrast between two colors for a bold graphic portrait. Which harmony type gives you the most visual tension?",
-          "hint": "Colors directly across from each other on the wheel create the strongest contrast.",
-          "successMessage": "Correct! Complementary colors sit 180 degrees apart and produce the highest contrast — perfect for bold, eye-catching compositions.",
-          "failureMessage": "Complementary harmony places colors directly opposite on the wheel, creating maximum visual contrast.",
+          "scenario": "Vrei contrast maxim între două culori pentru un portret grafic, îndrăzneț. Ce tip de armonie îți dă cea mai multă tensiune vizuală?",
+          "hint": "Culorile direct opuse pe roată creează cel mai puternic contrast.",
+          "successMessage": "Corect! Culorile complementare stau la 180 de grade una față de alta și produc cel mai mare contrast — perfect pentru compoziții îndrăznețe, care atrag privirea.",
+          "failureMessage": "Armonia complementară așază culorile direct opus pe roată, creând contrastul vizual maxim.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
+            "0": { "label": "Complementar" },
+            "1": { "label": "Analog" },
             "2": { "label": "Triadic" }
           }
         },
         "1": {
-          "scenario": "You are planning a golden hour shoot and want warm, cohesive tones. Which harmony type keeps colors close together on the wheel?",
-          "hint": "This type uses neighboring hues for a smooth, unified feel.",
-          "successMessage": "Right! Analogous harmony uses adjacent colors, giving you a warm, cohesive palette perfect for golden hour.",
-          "failureMessage": "Analogous harmony keeps all colors as neighbors on the wheel — ideal for unified warm or cool palettes.",
+          "scenario": "Planifici o sesiune în ora de aur și vrei tonuri calde, coerente. Ce tip de armonie ține culorile aproape unele de altele pe roată?",
+          "hint": "Acest tip folosește nuanțe vecine pentru un aspect fluid, unitar.",
+          "successMessage": "Exact! Armonia analogă folosește culori adiacente, oferind o paletă caldă și coerentă, perfectă pentru ora de aur.",
+          "failureMessage": "Armonia analogă păstrează toate culorile ca vecine pe roată — ideală pentru palete unitare, calde sau reci.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
+            "0": { "label": "Complementar" },
+            "1": { "label": "Analog" },
             "2": { "label": "Tetradic" }
           }
         },
         "2": {
-          "scenario": "A client wants a portrait with contrast but not as intense as pure complementary. Which harmony type softens the opposition while keeping visual interest?",
-          "hint": "This type uses two colors near the complement instead of the direct opposite.",
-          "successMessage": "Excellent! Split complementary keeps the contrast of complementary but splits the opposing color into two flanking hues, producing a less jarring but still dynamic palette.",
-          "failureMessage": "Split Complementary is the answer — it replaces the single opposite color with two neighbors of the opposite, softening the contrast while maintaining visual energy.",
+          "scenario": "Un client vrea un portret cu contrast, dar nu la fel de intens ca al unei armonii complementare pure. Ce tip de armonie atenuează opoziția păstrând interesul vizual?",
+          "hint": "Acest tip folosește două culori apropiate complementarei, în loc de opusul direct.",
+          "successMessage": "Excelent! Complementar divizat păstrează contrastul complementarei, dar împarte culoarea opusă în două nuanțe flancatoare, producând o paletă mai puțin agresivă, dar încă dinamică.",
+          "failureMessage": "Complementar divizat este răspunsul — înlocuiește singura culoare opusă cu două vecine ale opusului, atenuând contrastul, dar menținând energia vizuală.",
           "options": {
-            "0": { "label": "Split Complementary" },
+            "0": { "label": "Complementar divizat" },
             "1": { "label": "Triadic" },
-            "2": { "label": "Analogous" }
+            "2": { "label": "Analog" }
           }
         },
         "3": {
-          "scenario": "You set the key color to orange (hue ~30 degrees) with complementary harmony. What color will the complement be?",
-          "hint": "Complementary means 180 degrees opposite on the wheel.",
-          "successMessage": "Correct! 30\u00b0 + 180\u00b0 = 210\u00b0, which falls in the blue range. Orange and blue is one of photography most beloved complementary pairs.",
-          "failureMessage": "Adding 180\u00b0 to orange (30\u00b0) gives 210\u00b0, which is blue. The orange-blue complementary pair is a photography staple.",
+          "scenario": "Setezi culoarea principală pe portocaliu (hue ~30 grade) cu armonie complementară. Care va fi culoarea complementară?",
+          "hint": "Complementar înseamnă la 180 de grade opus pe roată.",
+          "successMessage": "Corect! 30\u00b0 + 180\u00b0 = 210\u00b0, care cade în zona albastrului. Portocaliu și albastru este una dintre cele mai îndrăgite perechi complementare din fotografie.",
+          "failureMessage": "Adunând 180\u00b0 la portocaliu (30\u00b0) obții 210\u00b0, adică albastru. Perechea portocaliu-albastru este un clasic al fotografiei.",
           "options": {
-            "0": { "label": "Blue (~210\u00b0)" },
-            "1": { "label": "Green (~150\u00b0)" },
-            "2": { "label": "Red (~0\u00b0)" }
+            "0": { "label": "Albastru (~210\u00b0)" },
+            "1": { "label": "Verde (~150\u00b0)" },
+            "2": { "label": "Roșu (~0\u00b0)" }
           }
         },
         "4": {
-          "scenario": "You are art-directing a fashion editorial and need a four-color palette that provides both warm and cool tones with high visual richness. Which harmony type gives you four colors, and what is the main challenge when using it?",
-          "hint": "The four-color harmony forms a rectangle on the wheel.",
-          "successMessage": "Right! Tetradic harmony gives four colors forming a rectangle on the wheel. The main challenge is balance — with four distinct hues, one should dominate while the others accent. Without hierarchy, the image feels chaotic.",
-          "failureMessage": "Tetradic (double-complementary) provides four colors in a rectangular arrangement. The challenge is that four strong hues compete for attention — you need to designate one dominant color and use the others as accents.",
+          "scenario": "Ești art director pentru un editorial de modă și ai nevoie de o paletă de patru culori care să ofere atât tonuri calde, cât și reci, cu bogăție vizuală. Ce tip de armonie îți dă patru culori și care este provocarea principală când o folosești?",
+          "hint": "Armonia cu patru culori formează un dreptunghi pe roată.",
+          "successMessage": "Exact! Armonia tetradică îți dă patru culori care formează un dreptunghi pe roată. Provocarea principală este echilibrul — cu patru nuanțe distincte, una ar trebui să domine, iar celelalte să accentueze. Fără ierarhie, imaginea pare haotică.",
+          "failureMessage": "Tetradic (dublu complementar) oferă patru culori într-un aranjament dreptunghiular. Provocarea este că patru nuanțe puternice concurează pentru atenție — trebuie să desemnezi o culoare dominantă și să le folosești pe celelalte ca accente.",
           "options": {
-            "0": { "label": "Tetradic — challenge is maintaining visual hierarchy among four hues" },
-            "1": { "label": "Triadic — challenge is having too few colors" },
-            "2": { "label": "Analogous — challenge is lack of contrast" }
+            "0": { "label": "Tetradic — provocarea este menținerea ierarhiei vizuale între patru nuanțe" },
+            "1": { "label": "Triadic — provocarea este că are prea puține culori" },
+            "2": { "label": "Analog — provocarea este lipsa de contrast" }
           }
         }
       }

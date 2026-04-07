@@ -1,67 +1,67 @@
 {
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Política de privacitat",
+    "effectiveDate": "Data d'entrada en vigor: 3 d'abril de 2026",
     "sections": {
       "overview": {
-        "title": "Overview",
-        "body": "PhotoTools operates www.phototools.io, a free educational photography resource offering interactive calculators, simulators, and reference tools. This Privacy Policy describes how we collect, use, and handle information when you visit or use our site. By using PhotoTools, you agree to the practices described in this policy."
+        "title": "Visió general",
+        "body": "PhotoTools gestiona www.phototools.io, un recurs educatiu gratuït de fotografia amb calculadores, simuladors i eines de referència interactives. Aquesta política de privacitat explica com recollim, utilitzem i tractem la informació quan visites o utilitzes el lloc. En utilitzar PhotoTools, acceptes les pràctiques descrites en aquesta política."
       },
       "informationWeCollect": {
-        "title": "Information We Collect",
-        "intro": "We collect minimal information to operate and improve the site:",
-        "analytics": "<strong>Analytics:</strong> We use Google Analytics to understand how visitors use the site (e.g. pages visited, time on page, device type). Analytics data is anonymized — we do not collect personally identifiable information through analytics. IP addresses are anonymized before storage.",
-        "contactForm": "<strong>Contact form:</strong> If you submit the contact form, we collect your name, email address, subject, and message. This information is used solely to respond to your inquiry and is not stored beyond email delivery — it is not saved to a database or retained long-term.",
-        "noAccounts": "<strong>No accounts:</strong> PhotoTools does not require user registration or accounts. We do not collect passwords or payment information."
+        "title": "Informació que recollim",
+        "intro": "Recollim el mínim d'informació possible per operar i millorar el lloc:",
+        "analytics": "<strong>Analítica:</strong> Fem servir Google Analytics per entendre com utilitzen el lloc els visitants (per exemple, pàgines visitades, temps a la pàgina, tipus de dispositiu). Les dades analítiques són anonimitzades — no recollim informació que identifiqui personalment mitjançant l'analítica. Les adreces IP s'anonimitzen abans de desar-se.",
+        "contactForm": "<strong>Formulari de contacte:</strong> Si envies el formulari de contacte, recollim el teu nom, adreça electrònica, assumpte i missatge. Aquesta informació s'utilitza únicament per respondre't i no es desa més enllà del lliurament per correu — no s'emmagatzema en cap base de dades ni es conserva a llarg termini.",
+        "noAccounts": "<strong>Sense comptes:</strong> PhotoTools no requereix registre ni comptes d'usuari. No recollim contrasenyes ni dades de pagament."
       },
       "cookies": {
-        "title": "Cookies",
-        "intro": "PhotoTools uses cookies to support analytics and advertising functionality. Specifically:",
-        "analyticsCookies": "<strong>Google Analytics cookies</strong> track site usage in aggregate and anonymized form. These cookies help us understand which tools are most used and how to improve the site.",
-        "adCookies": "<strong>Third-party advertising cookies</strong> may be set by our ad network partners to serve relevant advertisements and measure ad performance.",
-        "control": "You can control or disable cookies through your browser settings. Note that disabling cookies may affect the functionality of some features."
+        "title": "Galetes",
+        "intro": "PhotoTools utilitza galetes per donar suport a l'analítica i a la funcionalitat publicitària. En concret:",
+        "analyticsCookies": "<strong>Les galetes de Google Analytics</strong> fan el seguiment de l'ús del lloc de manera agregada i anonimitzada. Ens ajuden a entendre quines eines són més utilitzades i com millorar el lloc.",
+        "adCookies": "<strong>Les galetes publicitàries de tercers</strong> poden ser configurades pels nostres socis de publicitat per oferir anuncis rellevants i mesurar-ne el rendiment.",
+        "control": "Pots controlar o desactivar les galetes des de la configuració del teu navegador. Tingues en compte que desactivar-les pot afectar algunes funcionalitats."
       },
       "thirdPartyAdvertising": {
-        "title": "Third-Party Advertising",
-        "body": "PhotoTools displays advertisements served by third-party ad networks. These networks may use cookies and similar tracking technologies to serve ads based on your browsing history and interests (interest-based advertising). We do not control the data practices of these third-party ad networks. For more information, please review the privacy policies of those networks or visit the <naiLink>Network Advertising Initiative opt-out page</naiLink>."
+        "title": "Publicitat de tercers",
+        "body": "PhotoTools mostra anuncis servits per xarxes publicitàries de tercers. Aquestes xarxes poden fer servir galetes i tecnologies de seguiment similars per oferir anuncis basats en el teu historial de navegació i interessos (publicitat basada en interessos). No controlem les pràctiques de dades d'aquestes xarxes publicitàries. Per a més informació, consulta les polítiques de privacitat d'aquestes xarxes o visita la <naiLink>pàgina d'exclusió de la Network Advertising Initiative</naiLink>."
       },
       "googleAdSense": {
         "title": "Google AdSense",
-        "body1": "PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies and web beacons to serve ads based on your prior visits to this site or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your browsing patterns.",
-        "body2": "You may opt out of personalized advertising by visiting <adsSettingsLink>Google Ads Settings</adsSettingsLink>. For more information about how Google uses data, see <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
+        "body1": "PhotoTools utilitza Google AdSense per mostrar anuncis. Google AdSense pot fer servir galetes i web beacons per oferir anuncis basats en les teves visites anteriors a aquest lloc o a altres. L'ús que fa Google de les galetes de publicitat li permet, a ell i als seus socis, oferir anuncis basats en els teus patrons de navegació.",
+        "body2": "Pots rebutjar la publicitat personalitzada visitant la <adsSettingsLink>configuració d'anuncis de Google</adsSettingsLink>. Per a més informació sobre com fa servir Google les dades, consulta <partnerSitesLink>Com fa servir Google les dades quan utilitzes els llocs dels nostres socis</partnerSitesLink>."
       },
       "cookieConsent": {
-        "title": "Cookie Consent",
-        "body1": "When you first visit PhotoTools, a cookie consent banner is displayed allowing you to accept or reject non-essential cookies. This banner is powered by CookieYes, a Google-certified Consent Management Platform that supports the IAB Transparency and Consent Framework (TCF) v2.3.",
-        "body2": "You can change your consent preferences at any time by clicking the cookie settings link in the footer. If you reject advertising cookies, you will still see ads, but they will not be personalized to your browsing history."
+        "title": "Consentiment de galetes",
+        "body1": "Quan visites PhotoTools per primera vegada, es mostra un bàner de consentiment de galetes que et permet acceptar o rebutjar les galetes no essencials. Aquest bàner funciona amb CookieYes, una plataforma de gestió del consentiment certificada per Google compatible amb el Transparency and Consent Framework (TCF) v2.3 de l'IAB.",
+        "body2": "Pots canviar les teves preferències de consentiment en qualsevol moment clicant l'enllaç de configuració de galetes al peu de pàgina. Si rebutges les galetes publicitàries, continuaràs veient anuncis, però no estaran personalitzats segons el teu historial de navegació."
       },
       "ccpa": {
-        "title": "California Residents (CCPA)",
-        "body": "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request its deletion, and opt out of its sale. PhotoTools does not sell personal information. Advertising cookies used by our ad partners may constitute a \"sale\" under the CCPA — you can opt out via the cookie consent banner or by contacting us through our <contactLink>contact page</contactLink>."
+        "title": "Residents a Califòrnia (CCPA)",
+        "body": "Segons la California Consumer Privacy Act (CCPA), els residents a Califòrnia tenen dret a saber quina informació personal es recull, sol·licitar-ne la supressió i oposar-se'n a la venda. PhotoTools no ven informació personal. Les galetes publicitàries utilitzades pels nostres socis poden considerar-se una \"venda\" segons la CCPA — pots oposar-t'hi a través del bàner de consentiment de galetes o contactant-nos a la <contactLink>pàgina de contacte</contactLink>."
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "intro": "We do not sell, trade, or rent your personal information to third parties. We share data only in the following limited circumstances:",
-        "analytics": "With <strong>Google Analytics</strong> to analyze site traffic and usage patterns, subject to Google's privacy policy.",
-        "advertising": "With <strong>advertising partners</strong> as described above under Third-Party Advertising.",
-        "contactForm": "We do not share contact form submissions with any third party."
+        "title": "Compartició de dades",
+        "intro": "No venem, intercanviem ni lloguem la teva informació personal a tercers. Només compartim dades en aquests casos limitats:",
+        "analytics": "Amb <strong>Google Analytics</strong> per analitzar el trànsit i els patrons d'ús del lloc, subjecte a la política de privacitat de Google.",
+        "advertising": "Amb <strong>els socis publicitaris</strong> tal com es descriu a l'apartat de Publicitat de tercers.",
+        "contactForm": "No compartim els missatges del formulari de contacte amb cap tercer."
       },
       "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "body": "PhotoTools is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can remove it."
+        "title": "Privacitat dels menors",
+        "body": "PhotoTools no està dirigit a menors de 13 anys. No recollim informació personal de menors de 13 anys de manera conscient. Si creus que un menor ens ha proporcionat dades personals, contacta'ns perquè les puguem eliminar."
       },
       "yourRights": {
-        "title": "Your Rights",
-        "body1": "Depending on your location, you may have rights under laws such as the GDPR (European Union) or CCPA (California) regarding your personal data.",
-        "body2": "Because PhotoTools collects minimal personal data — and does not store contact form submissions long-term — most requests can be addressed simply. You can clear cookies at any time through your browser settings. To exercise any data rights or submit a privacy request, please use our <contactLink>contact page</contactLink>."
+        "title": "Els teus drets",
+        "body1": "Segons on visquis, pots tenir drets sobre les teves dades personals basats en lleis com el RGPD (Unió Europea) o la CCPA (Califòrnia).",
+        "body2": "Com que PhotoTools recull un mínim de dades personals — i no desa els missatges del formulari de contacte a llarg termini — la majoria de sol·licituds es poden atendre de manera senzilla. Pots esborrar les galetes en qualsevol moment des del navegador. Per exercir qualsevol dret sobre les teves dades o enviar una sol·licitud de privacitat, fes servir la nostra <contactLink>pàgina de contacte</contactLink>."
       },
       "changesToPolicy": {
-        "title": "Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. When we do, the updated policy will be posted on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of PhotoTools after any changes constitutes your acceptance of the updated policy."
+        "title": "Canvis en aquesta política",
+        "body": "Podem actualitzar aquesta política de privacitat de tant en tant. Quan ho fem, publicarem la versió actualitzada en aquesta pàgina amb una nova data d'entrada en vigor. Et recomanem revisar-la periòdicament. L'ús continuat de PhotoTools després dels canvis suposa l'acceptació de la política actualitzada."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about this Privacy Policy or how we handle your data, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Contacte",
+        "body": "Si tens preguntes sobre aquesta política de privacitat o sobre com tractem les teves dades, escriu-nos a través de la nostra <contactLink>pàgina de contacte</contactLink>."
       }
     }
   }

@@ -1,117 +1,117 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "Гистограмма — это график, который показывает, насколько светлые или тёмные пиксели в твоём снимке. Слева — тени (тёмные области), по центру — средние тона, справа — света (яркие области). Если график прижат к одному краю, кадр может быть недо- или переэкспонирован.",
+      "deeper": "Гистограмма показывает количество пикселей (по вертикали) относительно уровня яркости (по горизонтали, 0–255 для 8-битных изображений). В режиме яркости яркость каждого пикселя считается как взвешенное среднее каналов R, G и B (обычно 0.299R + 0.587G + 0.114B — это соответствует восприятию человека). В режиме RGB видно три отдельных распределения — можно понять, какой цветовой канал «клиппится» сам по себе: если красный уходит в 255, а синий ещё нормальный, значит в тёплых светах теряется детализация (например, на закатном небе). «Клиппинг» происходит, когда пиксели упираются в границу 0 или 255 — это значит, что детали в тенях или светах необратимо потеряны. Чёрный клиппинг (пиксели на 0) убивает детали в тенях; белый клиппинг (на 255) — в светах. RAW даёт примерно 2–3 дополнительные ступени восстановимых светов сверх того, что показывает гистограмма JPEG — поэтому многие фотографы «экспонируют вправо» (ETTR), максимально смещая экспозицию в яркую сторону, не клиппа RAW-данные.",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "Распределение тонов",
+          "description": "Общая форма говорит, тёмный кадр (смещён влево), светлый (смещён вправо) или сбалансированный (распределён по всему диапазону)."
         },
         "1": {
-          "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "label": "Клиппинг",
+          "description": "Пики у крайнего левого или правого края означают потерю деталей в тенях или светах."
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "Разделение каналов",
+          "description": "Режим RGB показывает поведение каждого канала — полезно для отлова цвет-специфичного клиппинга в насыщенных сценах."
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "Динамический диапазон",
+          "description": "Гистограмма, занимающая всю ширину без клиппинга, говорит о грамотном использовании доступного динамического диапазона."
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "«Идеальной» формы гистограммы не существует. Фото чёрного кота на тёмном диване должно быть смещено влево. Оценивай гистограмму относительно своего замысла, а не по некой эталонной кривой."
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "Для закатов и неоновых кадров проверяй RGB-оверлей. Красный канал часто клиппится задолго до синего — детали в тёплых светах могут теряться, даже когда график яркости выглядит нормально."
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "Если видишь предупреждения о клиппинге с обоих концов одновременно — сцена, скорее всего, превышает динамический диапазон камеры. Подумай про брекетинг под HDR или про градиентные ND-фильтры."
         }
       },
       "tooltips": {
         "View Mode": {
-          "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "term": "Режим отображения",
+          "definition": "Яркость показывает общую светлоту. RGB-оверлей накладывает три цветовых канала. All Channels показывает R, G, B и яркость одновременно."
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "Тени",
+          "definition": "Левая область гистограммы (примерно 0–85) — самые тёмные тона кадра."
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "Средние тона",
+          "definition": "Центральная область (примерно 86–170) — средние значения яркости: тон кожи и большинство природных фактур."
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "Света",
+          "definition": "Правая область (примерно 171–255) — самые яркие тона: небо, отражения и источники света."
         },
         "Black Clipping": {
-          "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "term": "Чёрный клиппинг",
+          "definition": "Доля пикселей со значением 0 (чистый чёрный). Высокие значения означают, что детали в тенях потеряны безвозвратно."
         },
         "White Clipping": {
-          "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "term": "Белый клиппинг",
+          "definition": "Доля пикселей со значением 255 (чистый белый). Высокие значения означают, что детали в светах выбиты."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "Ты загружаешь фото, и гистограмма сильно смещена влево, а справа почти пусто. Что это говорит о снимке?",
+          "hint": "Слева = тёмное, справа = светлое.",
+          "successMessage": "Верно! Гистограмма, смещённая влево, означает, что в кадре преобладают тёмные тона — возможно, недоэкспозиция, а может быть специально тёмная/low-key работа.",
+          "failureMessage": "Гистограмма, прижатая к левому краю, говорит, что кадр в основном тёмный. Часто это признак недоэкспозиции.",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "Кадр недоэкспонирован или просто очень тёмный" },
+            "1": { "label": "Кадр переэкспонирован или очень светлый" },
+            "2": { "label": "Экспозиция идеальна" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "Какой режим лучше всего использовать, чтобы увидеть общее распределение яркости кадра одной кривой?",
+          "hint": "Один из режимов объединяет информацию о цвете в единую кривую яркости.",
+          "successMessage": "Точно! Режим яркости показывает одну кривую, отражающую общее воспринимаемое освещение.",
+          "failureMessage": "Режим яркости — самый простой: он объединяет R, G, B в одну кривую яркости.",
           "options": {
-            "0": { "label": "Luminance" },
-            "1": { "label": "RGB Overlay" },
+            "0": { "label": "Яркость (Luminance)" },
+            "1": { "label": "RGB-оверлей" },
             "2": { "label": "All Channels" }
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "Ты снял яркий закат. Гистограмма яркости выглядит нормально, но в RGB-оверлее красный канал упирается в правый край. Что происходит?",
+          "hint": "Отдельные каналы могут клиппиться, даже если общая яркость нормальна.",
+          "successMessage": "Именно! Красный клиппится — закатные света потеряли детализацию в красных тонах, хотя по общей яркости всё выглядит прилично. Ты теряешь нюансы тёплого цвета.",
+          "failureMessage": "Красный канал клиппится сам по себе. Насыщенные тёплые света (закаты, огонь) часто выбивают красный до 255, а зелёный и синий ещё нормальные — детали в этих тонах теряются.",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "Клиппинг красного канала — детали тёплых светов потеряны" },
+            "1": { "label": "Кадр переэкспонирован в целом" },
+            "2": { "label": "Неверный баланс белого" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "Инструмент показывает 2.3% чёрного клиппинга и 0.1% белого. Надо менять экспозицию?",
+          "hint": "Небольшой клиппинг — норма: чистые чёрные тени и блики всегда есть.",
+          "successMessage": "Здравый подход! 2.3% чёрного клиппинга — это просто глубокие тени или тёмные края. 0.1% белого — это, скорее всего, блики (отражения солнца). Для большинства задач экспозиция в норме.",
+          "failureMessage": "Такие значения клиппинга совсем небольшие. Немного чёрного клиппинга в глубоких тенях и чуть белого клиппинга от бликов — нормально и ожидаемо. Ничего менять не надо.",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "Поднять экспозицию, чтобы уменьшить чёрный клиппинг" },
+            "1": { "label": "Всё ок — небольшой клиппинг в тенях и бликах нормален" },
+            "2": { "label": "Снизить экспозицию, чтобы убрать белый клиппинг" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "Ты снимаешь сцену с высоким контрастом: невеста в белом платье в тёмном соборе. Гистограмма показывает сильные пики на обоих концах и провал в средних тонах. Как поступить?",
+          "hint": "Когда динамический диапазон сцены превышает возможности матрицы, нужна многокадровая техника.",
+          "successMessage": "Отлично! Двумодальная гистограмма говорит, что динамический диапазон сцены превышает возможности матрицы. Брекетинг (HDR) позволит удержать и тёмный интерьер, и детали платья. Альтернатива — подсветка вспышкой, чтобы приподнять тени.",
+          "failureMessage": "Двумодальная гистограмма (пики с двух сторон, пустая середина) означает, что сцена шире динамического диапазона матрицы. Делай брекетинг под HDR или используй заполняющую вспышку, чтобы уменьшить разницу.",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "Брекетинг под HDR или заполняющая вспышка" },
+            "1": { "label": "Экспонировать по средним тонам и надеяться на лучшее" },
+            "2": { "label": "Перевести в ч/б, чтобы спрятать проблему" }
           }
         }
       }

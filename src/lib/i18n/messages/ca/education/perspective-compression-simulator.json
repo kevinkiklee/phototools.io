@@ -1,57 +1,57 @@
 {
   "education": {
     "perspective-compression-simulator": {
-      "beginner": "Perspective compression is an optical effect where objects at different distances appear closer to each other than they actually are. It is most commonly seen when using long telephoto lenses (like 200mm or 400mm) from a far distance. Contrary to popular belief, it is not the lens itself that causes compression, but rather the distance between the camera and the scene.",
-      "deeper": "Compression happens because at large distances, the relative difference in distance between the foreground subject and the background objects becomes small. For example, if you are 100 feet from your subject and the background is another 20 feet behind them, the background is only 20% farther away than the subject. From 5 feet away, that same 20-foot gap makes the background 500% farther away. By moving far away and using a telephoto lens to \"fill the frame\" with the subject, you reduce the relative depth, making the background appear larger and \"compressed\" against the subject.",
+      "beginner": "La compressió de perspectiva és un efecte òptic en què objectes a distàncies diferents semblen més a prop els uns dels altres del que realment estan. Es veu més habitualment amb teleobjectius llargs (com 200mm o 400mm) des d'una distància gran. Contràriament al que es creu, no és l'objectiu mateix el que causa la compressió, sinó la distància entre la càmera i l'escena.",
+      "deeper": "La compressió passa perquè a distàncies grans, la diferència relativa de distància entre el subjecte en primer pla i els objectes del fons es fa petita. Per exemple, si estàs a 30 metres del subjecte i el fons és a 6 metres més enllà, el fons és només un 20% més lluny que el subjecte. Des d'1,5 metres, aquest mateix interval de 6 metres fa que el fons sigui un 500% més lluny. Allunyant-te i fent servir un teleobjectiu per \"omplir l'enquadrament\" amb el subjecte, redueixes la profunditat relativa i fas que el fons aparegui més gran i \"comprimit\" contra el subjecte.",
       "keyFactors": {
         "0": {
-          "label": "Shooting Distance",
-          "description": "The primary cause of compression. The farther you are from the subject, the more compressed the background will appear relative to the subject."
+          "label": "Distància de presa",
+          "description": "La causa principal de la compressió. Com més lluny ets del subjecte, més comprimit semblarà el fons respecte al subjecte."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Telephoto lenses magnify the image, allowing you to fill the frame with your subject from a distance where compression is visible. Wide-angle lenses require you to be close, which expands perceived depth."
+          "label": "Distància focal",
+          "description": "Els teleobjectius amplien la imatge, cosa que et permet omplir l'enquadrament amb el subjecte des d'una distància on la compressió és visible. Els gran angulars et fan acostar-te, cosa que expandeix la profunditat percebuda."
         },
         "2": {
-          "label": "Relative Depth",
-          "description": "Compression is most apparent when the distance between the subject and the background is small compared to the distance between the camera and the subject."
+          "label": "Profunditat relativa",
+          "description": "La compressió és més evident quan la distància entre el subjecte i el fons és petita en comparació amb la distància entre la càmera i el subjecte."
         }
       },
       "tips": {
         "0": {
-          "text": "To make mountains look massive behind a subject, move as far back as possible and use your longest telephoto lens. This \"pulls\" the background closer to the foreground."
+          "text": "Per fer que les muntanyes semblin massives darrere d'un subjecte, allunya't tant com puguis i fes servir el teleobjectiu més llarg que tinguis. Això \"atrau\" el fons cap al primer pla."
         },
         "1": {
-          "text": "In portrait photography, an 85mm or 135mm lens is often preferred because the slight compression produces a more flattering representation of facial features compared to wide-angle lenses."
+          "text": "En retrat, un 85mm o 135mm sol ser preferit perquè la lleugera compressió produeix una representació més afavoridora dels trets facials en comparació amb els gran angulars."
         },
         "2": {
-          "text": "Use perspective expansion (wide-angle close up) to emphasize the lead-in lines of a foreground and make a space feel more vast and open."
+          "text": "Fes servir l'expansió de perspectiva (gran angular de prop) per destacar les línies guia del primer pla i fer que un espai se senti més vast i obert."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The magnification power of the lens. Longer focal lengths (telephoto) allow you to shoot from farther away, which is what actually causes perspective compression."
+          "term": "Distància focal",
+          "definition": "La capacitat d'ampliació de l'objectiu. Les distàncies focals més llargues (teleobjectiu) et permeten disparar des de més lluny, cosa que és el que realment causa la compressió de perspectiva."
         },
         "distance": {
-          "term": "Subject Distance",
-          "definition": "The distance between the camera and the main subject. Increasing this distance is the physical cause of perspective compression."
+          "term": "Distància al subjecte",
+          "definition": "La distància entre la càmera i el subjecte principal. Augmentar aquesta distància és la causa física de la compressió de perspectiva."
         },
         "maintainSize": {
-          "term": "Maintain Subject Size",
-          "definition": "Automatically adjusts the camera distance when changing focal length to keep the main subject the same size in the frame. This demonstrates the \"Dolly Zoom\" effect."
+          "term": "Mantén la mida del subjecte",
+          "definition": "Ajusta automàticament la distància de la càmera en canviar la distància focal per mantenir el subjecte principal de la mateixa mida a l'enquadrament. Això demostra l'efecte \"Dolly Zoom\"."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to take a photo of a friend in front of a mountain, and you want the mountain to look as large as possible behind them. What should you do?",
-          "hint": "Compression is caused by distance, and telephoto lenses let you fill the frame from far away.",
-          "successMessage": "Exactly! By moving far away and using a telephoto lens, you compress the distance between your friend and the mountain, making the mountain appear much larger.",
-          "failureMessage": "Not quite. Getting closer with a wide-angle lens would make the mountain look smaller and farther away. Move back and zoom in!",
+          "scenario": "Vols fer una foto d'un amic davant d'una muntanya, i vols que la muntanya sembli el més gran possible darrere seu. Què has de fer?",
+          "hint": "La compressió es causa per la distància, i els teleobjectius et permeten omplir l'enquadrament des de lluny.",
+          "successMessage": "Exacte! Allunyant-te i fent servir un teleobjectiu, comprimeixes la distància entre el teu amic i la muntanya, fent que la muntanya sembli molt més gran.",
+          "failureMessage": "No del tot. Acostar-te amb un gran angular faria que la muntanya semblés més petita i més lluny. Allunya't i fes zoom!",
           "options": {
-            "0": { "label": "Move back and use a 200mm lens" },
-            "1": { "label": "Move closer and use a 24mm lens" },
-            "2": { "label": "Stay put and use a 50mm lens" }
+            "0": { "label": "Allunyar-te i fer servir un 200mm" },
+            "1": { "label": "Acostar-te i fer servir un 24mm" },
+            "2": { "label": "Quedar-te al lloc i fer servir un 50mm" }
           }
         }
       }

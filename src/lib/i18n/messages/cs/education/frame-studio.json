@@ -1,104 +1,104 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helps you crop, frame, and compose your photos right in the browser. Use composition grids to improve your framing, crop to popular aspect ratios, and add professional-looking borders — all without losing any image quality.",
+      "beginner": "Frame Studio ti pomůže ořezávat, rámovat a komponovat fotky přímo v prohlížeči. Kompoziční mřížky ti pomohou vylepšit výřez, můžeš oříznout na populární poměry stran a přidat profesionálně vypadající rámečky — to vše bez ztráty kvality obrazu.",
       "deeper": {
         "0": {
-          "heading": "Composition Grids",
-          "text": "The Rule of Thirds divides the frame into a 3\u00d73 grid — placing subjects along lines or at intersections creates natural visual balance. The Golden Ratio (approximately 1.618:1) provides a mathematically harmonious division used in art and architecture for centuries. The Golden Spiral guides the eye along a logarithmic curve derived from the Fibonacci sequence, useful for leading the viewer through the image."
+          "heading": "Kompoziční mřížky",
+          "text": "Pravidlo třetin rozděluje snímek na mřížku 3×3 — umístění subjektů na linie nebo do průsečíků vytváří přirozenou vizuální rovnováhu. Zlatý řez (přibližně 1,618:1) je matematicky harmonické rozdělení používané v umění a architektuře po staletí. Zlatá spirála vede oko po logaritmické křivce odvozené z Fibonacciho posloupnosti a je užitečná pro provázání pohledu snímkem."
         },
         "1": {
-          "heading": "Aspect Ratios",
-          "text": "Different aspect ratios serve different purposes. 1:1 (square) works well for social media and symmetrical compositions. 3:2 is the classic 35mm film ratio. 4:3 is common in micro four-thirds and older digital cameras. 16:9 is the standard widescreen ratio for video and cinematic compositions. 5:4 is traditional for 8\u00d710 prints."
+          "heading": "Poměry stran",
+          "text": "Různé poměry stran slouží různým účelům. 1:1 (čtverec) se hodí pro sociální sítě a symetrické kompozice. 3:2 je klasický poměr 35mm filmu. 4:3 je běžný u Micro Four Thirds a starších digitálů. 16:9 je standardní širokoúhlý poměr pro video a filmové kompozice. 5:4 je tradiční pro tisk 8×10 palců."
         },
         "2": {
-          "heading": "Framing and Borders",
-          "text": "Adding a border around a photograph mimics the effect of a physical mat and frame. A white mat provides visual breathing room and directs focus inward. The width of the border relative to the image affects the perceived \"weight\" of the photograph. Gallery-style presentations typically use wider mats. A subtle shadow creates depth, simulating how a framed print sits on a wall."
+          "heading": "Rámování a okraje",
+          "text": "Přidání okraje okolo fotky napodobuje efekt fyzického pasparty a rámu. Bílý paspart dává snímku vizuální prostor a směřuje pozornost dovnitř. Šířka okraje vůči snímku ovlivňuje vnímanou „váhu\" fotografie. Galerijní prezentace obvykle používají širší paspartu. Jemný stín vytváří hloubku a napodobuje, jak orámovaný tisk visí na zdi."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Composition Grid",
-          "description": "Overlay guides help you evaluate and improve subject placement within the frame."
+          "label": "Kompoziční mřížka",
+          "description": "Překryvná vodítka ti pomohou posoudit a zlepšit umístění subjektu v rámu."
         },
         "1": {
-          "label": "Aspect Ratio",
-          "description": "The width-to-height proportion affects how the image feels — wider ratios feel cinematic, square feels balanced."
+          "label": "Poměr stran",
+          "description": "Poměr šířky k výšce ovlivňuje, jak snímek působí — širší poměry vyvolávají filmový dojem, čtverec působí vyváženě."
         },
         "2": {
-          "label": "Border Width",
-          "description": "Wider borders add gravitas and focus; narrow borders feel modern and minimal."
+          "label": "Šířka okraje",
+          "description": "Širší okraje dodávají vážnost a fokus, úzké působí moderně a minimalisticky."
         },
         "3": {
-          "label": "Mat Color",
-          "description": "White mats are classic for art photography. Dark mats emphasize lighter images. Color mats can complement or contrast."
+          "label": "Barva pasparty",
+          "description": "Bílé pasparty jsou pro uměleckou fotografii klasikou. Tmavé zvýrazňují světlé snímky. Barevné mohou doplňovat nebo kontrastovat."
         }
       },
       "tips": {
         "0": {
-          "text": "For Instagram posts, crop to 4:5 (portrait) to take up maximum screen space in the feed."
+          "text": "Pro Instagram oříznuj na 4:5 (na výšku) — ve feedu zabereš maximum obrazovky."
         },
         "1": {
-          "text": "When adding a border for print, use a mat width of at least 10% of the image's shorter dimension for a professional look."
+          "text": "Při přidávání okraje pro tisk použij paspartu širokou alespoň 10 % kratší strany snímku, aby to působilo profesionálně."
         },
         "2": {
-          "text": "The Golden Spiral is most effective for images with a natural flow — water, roads, or curved architecture."
+          "text": "Zlatá spirála funguje nejlíp u snímků s přirozeným tokem — voda, silnice nebo zakřivená architektura."
         }
       },
       "tooltips": {
         "Aspect Ratio": {
-          "term": "Aspect Ratio",
-          "definition": "The proportional relationship between width and height. Common ratios include 3:2 (35mm), 4:3 (M43), and 16:9 (widescreen)."
+          "term": "Poměr stran",
+          "definition": "Poměr mezi šířkou a výškou. Běžné poměry jsou 3:2 (35 mm), 4:3 (M43) a 16:9 (širokoúhlý)."
         },
         "Rule of Thirds": {
-          "term": "Rule of Thirds",
-          "definition": "A composition guideline that divides the frame into 9 equal parts. Placing subjects at intersection points creates visual interest."
+          "term": "Pravidlo třetin",
+          "definition": "Kompoziční vodítko, které dělí snímek na 9 stejných částí. Umístění subjektu do průsečíků vytváří vizuální zajímavost."
         },
         "Golden Ratio": {
-          "term": "Golden Ratio",
-          "definition": "A mathematical proportion (~1.618:1) found in nature and art. Creates aesthetically pleasing divisions of space."
+          "term": "Zlatý řez",
+          "definition": "Matematický poměr (~1,618:1) vyskytující se v přírodě a umění. Vytváří esteticky příjemné rozdělení prostoru."
         },
         "Border Width": {
-          "term": "Border Width",
-          "definition": "The thickness of the frame border in pixels. Goes outside the image, increasing total dimensions without cropping."
+          "term": "Šířka okraje",
+          "definition": "Tloušťka okraje v pixelech. Okraj je mimo obrázek a zvětšuje celkové rozměry, aniž by ořezával."
         },
         "Inner Mat": {
-          "term": "Inner Mat",
-          "definition": "A second, thinner border between the outer frame and the image — mimics the beveled inner mat of a physical picture frame."
+          "term": "Vnitřní paspart",
+          "definition": "Druhý, tenčí okraj mezi vnějším rámem a obrázkem — napodobuje zkosený vnitřní paspart fyzického rámu."
         },
         "Corner Radius": {
-          "term": "Corner Radius",
-          "definition": "Rounds the corners of the frame border. Zero gives sharp corners, higher values give a softer, rounded look."
+          "term": "Zaoblení rohů",
+          "definition": "Zaobluje rohy okraje. Nula dává ostré rohy, vyšší hodnoty měkčí zaoblený vzhled."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to post a portrait photo on Instagram for maximum feed presence. Which aspect ratio should you use?",
-          "hint": "Instagram portrait posts use a taller-than-wide ratio.",
-          "successMessage": "Correct! 4:5 gives you the maximum vertical space in the Instagram feed.",
-          "failureMessage": "Instagram portrait posts use 4:5 (flip 5:4 to portrait orientation) for maximum feed real estate.",
+          "scenario": "Chceš publikovat portrétní fotku na Instagramu, aby ve feedu zabírala maximum prostoru. Jaký poměr stran zvolíš?",
+          "hint": "Portrétní posty na Instagramu používají poměr vyšší než širší.",
+          "successMessage": "Správně! 4:5 ti dává maximální vertikální prostor ve feedu Instagramu.",
+          "failureMessage": "Portrétní posty na Instagramu používají 4:5 (5:4 otočené na výšku) pro maximální využití prostoru ve feedu.",
           "options": {
-            "0": { "label": "1:1 (Square)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": { "label": "1:1 (Čtverec)" },
+            "1": { "label": "4:5 (Na výšku)" },
+            "2": { "label": "16:9 (Širokoúhlý)" }
           }
         },
         "1": {
-          "scenario": "Which composition grid is the most widely taught starting point for beginners?",
-          "hint": "It divides the frame into 9 equal sections.",
-          "successMessage": "Right! The Rule of Thirds is the foundational composition guide.",
-          "failureMessage": "The Rule of Thirds (3\u00d73 grid) is the most common starting point for learning composition.",
+          "scenario": "Která kompoziční mřížka je nejčastějším výchozím bodem pro začátečníky?",
+          "hint": "Dělí snímek na 9 stejných částí.",
+          "successMessage": "Správně! Pravidlo třetin je základním průvodcem kompozice.",
+          "failureMessage": "Pravidlo třetin (mřížka 3×3) je nejčastějším výchozím bodem pro učení kompozice.",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Diagonal Lines" }
+            "0": { "label": "Pravidlo třetin" },
+            "1": { "label": "Zlatá spirála" },
+            "2": { "label": "Diagonální linie" }
           }
         },
         "2": {
-          "scenario": "You are preparing a photo for gallery printing on 8\u00d710 paper. Which aspect ratio matches this print size?",
-          "hint": "8\u00f710 simplifies to a well-known ratio.",
-          "successMessage": "Correct! 5:4 matches 8\u00d710 print dimensions perfectly.",
-          "failureMessage": "8\u00d710 simplifies to 4:5, which is the portrait version of 5:4.",
+          "scenario": "Připravuješ fotku k tisku do galerie na papír 8×10 palců. Který poměr stran odpovídá této velikosti?",
+          "hint": "8 × 10 se zjednoduší na známý poměr.",
+          "successMessage": "Správně! 5:4 dokonale odpovídá rozměrům tisku 8×10.",
+          "failureMessage": "8×10 se zjednoduší na 4:5, což je 5:4 otočené na výšku.",
           "options": {
             "0": { "label": "3:2" },
             "1": { "label": "5:4" },
@@ -106,25 +106,25 @@
           }
         },
         "3": {
-          "scenario": "A landscape photo features a winding river leading from the foreground to mountains in the background. Which grid overlay best matches this natural flow?",
-          "hint": "One grid type follows a natural curved path.",
-          "successMessage": "Great choice! The Golden Spiral follows curves and leading lines perfectly.",
-          "failureMessage": "The Golden Spiral is ideal for images with natural curved elements like rivers, roads, or coastlines.",
+          "scenario": "Krajinářská fotka ukazuje klikatou řeku vedoucí od popředí k horám v pozadí. Která mřížka nejlíp odpovídá tomuto přirozenému toku?",
+          "hint": "Jeden typ mřížky sleduje přirozenou křivku.",
+          "successMessage": "Výborná volba! Zlatá spirála dokonale sleduje křivky a vodicí linie.",
+          "failureMessage": "Zlatá spirála je ideální pro snímky s přirozenými zakřivenými prvky, jako jsou řeky, silnice nebo pobřeží.",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Square Grid" }
+            "0": { "label": "Středový kříž" },
+            "1": { "label": "Zlatá spirála" },
+            "2": { "label": "Čtvercová mřížka" }
           }
         },
         "4": {
-          "scenario": "You want a clean white border to present your photo on social media. Which frame preset should you use?",
-          "hint": "Think about which preset gives you a simple white border.",
-          "successMessage": "Correct! The White preset adds a 100px white border around your photo.",
-          "failureMessage": "The White preset is designed for a clean, simple white border presentation.",
+          "scenario": "Chceš fotku prezentovat na sociálních sítích s čistým bílým okrajem. Které přednastavení rámečku použiješ?",
+          "hint": "Přemýšlej o tom, které přednastavení dává jednoduchý bílý okraj.",
+          "successMessage": "Správně! Přednastavení Bílý přidá 100px bílý okraj okolo fotky.",
+          "failureMessage": "Přednastavení Bílý je určené pro čistou, jednoduchou prezentaci s bílým okrajem.",
           "options": {
-            "0": { "label": "None" },
-            "1": { "label": "White" },
-            "2": { "label": "Black" }
+            "0": { "label": "Žádný" },
+            "1": { "label": "Bílý" },
+            "2": { "label": "Černý" }
           }
         }
       }

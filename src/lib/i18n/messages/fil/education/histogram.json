@@ -1,80 +1,80 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "Ang histogram ay isang graph na nagpapakita kung gaano kaliwanag o kadilim ang mga pixel sa litrato mo. Ang kaliwang bahagi ay kumakatawan sa shadows (madilim na bahagi), ang gitna ay kumakatawan sa midtones, at ang kanang bahagi ay kumakatawan sa highlights (maliwanag na bahagi). Kung ang graph ay magkakapatong sa isang gilid, maaaring underexposed o overexposed ang litrato mo.",
+      "deeper": "Ang histogram ay nag-pplot ng pixel count (vertical axis) kumpara sa brightness level (horizontal axis, 0-255 para sa 8-bit na imahe). Sa luminance mode, ang bawat pixel brightness ay kinakalkula bilang weighted average ng red, green, at blue channels (karaniwan 0.299R + 0.587G + 0.114B, tumutugma sa paningin ng tao). Ang RGB mode ay nagpapakita ng tatlong magkahiwalay na distribusyon, inilalantad kung aling color channel ang maaaring nag-c-clip nang independyente — ang red channel na pinahirad sa 255 habang okay ang blue ay nagpapahiwatig ng highlight clipping sa mainit na tones, tulad ng langit sa sunset. Ang \"clipping\" ay nangyayari kapag ang pixel values ay umaabot sa 0 o 255 na hangganan, na nangangahulugang ang shadow o highlight detail ay hindi na maibabalik. Ang black clipping (mga pixel sa 0) ay naglolose ng shadow detail; ang white clipping (mga pixel sa 255) ay naglolose ng highlight detail. Ang pagkuha sa RAW ay nagbibigay ng humigit-kumulang 2-3 karagdagang stops ng recoverable highlight headroom lampas sa ipinapakita ng JPEG histogram, kaya maraming photographer ang \"expose to the right\" (ETTR) — pinipilit ang exposure nang maliwanag hangga't maaari nang hindi nag-c-clip ng RAW data.",
       "keyFactors": {
         "0": {
           "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "description": "Ang kabuuang hugis ay nagsasabi sa iyo kung ang imahe ay madilim (kaliwang-bigat), maliwanag (kanang-bigat), o balanse (nakapalaganap sa buong range)."
         },
         "1": {
           "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "description": "Ang mga spike sa pinakakaliwang o pinakakanang gilid ay nagpapahiwatig ng nawalang detalye sa shadows o highlights."
         },
         "2": {
           "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "description": "Ang RGB mode ay naglalantad sa individual na pag-uugali ng color channel — kapaki-pakinabang para matukoy ang color-specific clipping sa mga saturated na eksena."
         },
         "3": {
           "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "description": "Ang histogram na sumasaklaw sa buong lapad nang walang clipping ay nagpapahiwatig ng magandang paggamit ng available na dynamic range."
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "Walang \"perpektong\" histogram shape. Ang litrato ng itim na pusa sa madilim na sopa ay dapat kaliwang-bigat. Suriin ang histogram laban sa iyong creative intent, hindi sa ideal na curve."
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "Tingnan ang RGB overlay mode para sa sunset at neon-light na litrato. Ang red channel ay madalas nag-c-clip bago pa ang blue, na nagdudulot ng pagkawala ng detalye sa mainit na highlights kahit mukhang okay ang luminance histogram."
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "Kung nakikita mo ang clipping warnings sa dalawang dulo nang sabay, ang eksena ay malamang lumalampas sa dynamic range ng camera mo. Isaalang-alang ang bracketing para sa HDR o paggamit ng graduated ND filters."
         }
       },
       "tooltips": {
         "View Mode": {
           "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "definition": "Ang Luminance ay nagpapakita ng kabuuang liwanag. Ang RGB Overlay ay nagpapakita ng tatlong color channel na naka-overlay. Ang All Channels ay nagpapakita ng RGB kasama ang luminance."
         },
         "Shadows": {
           "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "definition": "Ang pinakakaliwang rehiyon ng histogram (humigit-kumulang 0-85), kumakatawan sa pinakamadilim na tones sa imahe."
         },
         "Midtones": {
           "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "definition": "Ang gitnang rehiyon (humigit-kumulang 86-170), kumakatawan sa katamtamang liwanag — ang mga skin tone at karamihan ng natural na texture ay nandito."
         },
         "Highlights": {
           "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "definition": "Ang pinakakanang rehiyon (humigit-kumulang 171-255), kumakatawan sa pinakamaliwanag na tones: langit, reflection, at light sources."
         },
         "Black Clipping": {
           "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "definition": "Ang porsyento ng pixels sa brightness 0 (purong itim). Ang mataas na values ay nangangahulugang nawala ang shadow detail at hindi na mababawi."
         },
         "White Clipping": {
           "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "definition": "Ang porsyento ng pixels sa brightness 255 (purong puti). Ang mataas na values ay nangangahulugang ang highlight detail ay blown out."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "Nag-upload ka ng litrato at ang histogram ay malakas na naitulak sa kaliwa na halos walang laman sa kanan. Ano ang sinasabi nito tungkol sa imahe?",
+          "hint": "Kaliwa = madilim, kanan = maliwanag.",
+          "successMessage": "Tama! Ang kaliwang-bigat na histogram ay nangangahulugang karamihan ng imahe ay madilim na tones — maaaring underexposed, o maaaring isang sadya na dark/low-key na imahe.",
+          "failureMessage": "Ang histogram na nakapon sa kaliwa ay nagpapahiwatig na karamihan ng imahe ay madilim. Madalas itong nangangahulugang underexposure.",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "Ang imahe ay underexposed o napakadilim" },
+            "1": { "label": "Ang imahe ay overexposed o napakaliwanag" },
+            "2": { "label": "Ang imahe ay may perpektong exposure" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "Anong view mode ang dapat mong gamitin para makita ang kabuuang brightness distribution ng litrato mo sa isang graph?",
+          "hint": "Isang mode ay pinagsasama ang lahat ng color information sa isang brightness curve.",
+          "successMessage": "Tama! Ang Luminance mode ay nagpapakita ng isang curve na kumakatawan sa kabuuang nararamdamang liwanag.",
+          "failureMessage": "Ang Luminance mode ang pinakasimpleng tingin — pinagsasama nito ang R, G, B sa isang brightness curve.",
           "options": {
             "0": { "label": "Luminance" },
             "1": { "label": "RGB Overlay" },
@@ -82,36 +82,36 @@
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "Kinunan mo ang isang matingkad na sunset at okay ang tingin ng luminance histogram, pero kapag lumipat ka sa RGB Overlay, nakikita mo ang red channel na nag-s-spike sa pinakakanan. Ano ang nangyayari?",
+          "hint": "Ang mga individual na color channel ay pwedeng mag-clip kahit hindi nag-c-clip ang kabuuang luminance.",
+          "successMessage": "Eksakto! Ang red channel ay nag-c-clip — ang mga sunset highlight ay nawalan ng detalye sa pulang tones kahit mukhang katanggap-tanggap ang kabuuang liwanag. Nawawala ka ng warm color nuances.",
+          "failureMessage": "Ang red channel ay nag-c-clip nang independyente. Ang mga saturated na mainit na highlights (sunsets, apoy) ay madalas nagpipilit sa red sa 255 habang okay ang green at blue, na nawawalan ng color detail sa mga ganoong tones.",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "Red channel clipping — nawalang mainit na highlight detail" },
+            "1": { "label": "Ang imahe ay overexposed sa kabuuan" },
+            "2": { "label": "Mali ang white balance" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "Ang tool ay nag-ulat ng 2.3% black clipping at 0.1% white clipping. Dapat mo bang i-adjust ang exposure mo?",
+          "hint": "Ang mga maliit na dami ng clipping ay normal — ang purong itim na shadow at specular highlights ay inaasahan.",
+          "successMessage": "Magandang paghatol! Ang 2.3% black clipping ay katamtaman at madalas lang malalim na shadow o madidilim na gilid. Ang 0.1% white clipping ay malamang specular highlights (repleksyon ng araw). Ang exposure na ito ay okay para sa karamihan ng layunin.",
+          "failureMessage": "Ang mga clipping percentages na ito ay medyo maliit. Ang kaunting black clipping sa malalim na shadow at maliit na white clipping mula sa specular highlights ay normal at inaasahan. Hindi na kailangan ng adjustment.",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "Taasan ang exposure para bawasan ang black clipping" },
+            "1": { "label": "Okay na ito — ang maliit na clipping sa shadow at specular highlights ay normal" },
+            "2": { "label": "Babaan ang exposure para alisin ang white clipping" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "Kumukuha ka ng litrato ng high-contrast na eksena: isang bride na may puting damit na nakatayo sa madilim na katedral. Ang histogram ay nagpapakita ng malakas na peaks sa parehong dulo na may gap sa midtones. Paano mo ito dapat hawakan?",
+          "hint": "Kapag ang dynamic range ng eksena ay lumalampas sa range ng camera sensor, kailangan mo ng multi-exposure na teknik.",
+          "successMessage": "Perpekto! Ang bimodal histogram na ito ay nagpapahiwatig na ang eksena ay lumalampas sa dynamic range ng sensor mo. Ang exposure bracketing (HDR) ay kumukuha ng parehong madilim na interior at maliwanag na dress detail. Bilang kahalili, gumamit ng fill flash para itaas ang shadows.",
+          "failureMessage": "Ang bimodal histogram (peaks sa parehong dulo, walang laman na gitna) ay nangangahulugang ang eksena ay may mas maraming dynamic range kaysa sa kayang kunan ng sensor mo sa isang shot. I-bracket ang exposure para sa HDR, o gumamit ng fill flash para bawasan ang contrast ratio.",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "I-bracket ang exposure para sa HDR o gumamit ng fill flash" },
+            "1": { "label": "I-expose para sa midtones at umasa sa pinakamagaling" },
+            "2": { "label": "Lumipat sa black and white para itago ang problema" }
           }
         }
       }

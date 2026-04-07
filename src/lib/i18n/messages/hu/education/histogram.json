@@ -1,117 +1,117 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "A hisztogram egy grafikon, ami megmutatja, mennyire világosak vagy sötétek a pixelek a fotódon. A bal oldal az árnyékokat (sötét részeket), a közép a féltónusokat, a jobb oldal a fénypontokat (világos részeket) jelöli. Ha a grafikon egy oldalra tömörül, a fotó lehet, hogy alul- vagy túlexponált.",
+      "deeper": "A hisztogram a pixelszámot (függőleges tengely) ábrázolja a fényesség függvényében (vízszintes tengely, 0–255 8 bites képnél). Luminancia módban minden pixel fényessége a vörös, zöld és kék csatorna súlyozott átlaga (jellemzően 0,299R + 0,587G + 0,114B, ami illeszkedik az emberi észleléshez). RGB módban három külön eloszlás látszik, felfedve, melyik csatorna vág be önmagában — egy 255-ig felnyomott vörös, miközben a kék rendben van, meleg tónusú (pl. naplementés ég) fénypontvágást jelent. A „clipping” akkor történik, amikor a pixelérték eléri a 0 vagy 255 határt, és a részlet helyrehozhatatlanul elveszik. A fekete clipping (0-s pixelek) árnyékrészletet veszít; a fehér clipping (255-ös pixelek) fénypontrészletet. A RAW fotózás nagyjából 2-3 stop extra visszaszerezhető fénypont-tartalékot ad a JPEG-hisztogramhoz képest, ezért „exponálnak jobbra” (ETTR) sok fotósok — a lehető legvilágosabban anélkül, hogy a RAW-adatot clippelné.",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "Tónuseloszlás",
+          "description": "Az általános alak megmutatja, sötét (balra tolt), világos (jobbra tolt) vagy kiegyensúlyozott (a teljes tartományra szétterül) a kép."
         },
         "1": {
           "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "description": "A bal vagy jobb szélen lévő tüskék elveszett részleteket jelölnek az árnyékokban vagy a fénypontokban."
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "Csatorna-szétválasztás",
+          "description": "Az RGB mód feltárja az egyes színcsatornák viselkedését — hasznos a színspecifikus clipping észleléséhez telített jelenetekben."
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "Dinamikatartomány",
+          "description": "A teljes szélességet clipping nélkül kitöltő hisztogram a rendelkezésre álló dinamikatartomány jó kihasználását jelzi."
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "Nincs „tökéletes” hisztogramforma. Egy sötét kanapén ülő fekete macska képe jogosan balra tolt. A hisztogramot a kreatív szándékod alapján ítéld meg, ne egy ideális görbe alapján."
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "Naplementés és neonfényes fotóknál nézd meg az RGB-módot. A vörös csatorna gyakran sokkal előbb clippel, mint a kék, így a meleg fénypontok részletei a luminancia-hisztogram szerinti rendben ellenére is elveszhetnek."
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "Ha clipping-figyelmeztetést látsz egyszerre mindkét szélen, a jelenet valószínűleg túllépi a kamerád dinamikatartományát. Fontold meg a bracketinget HDR-hez vagy átmenetes ND szűrő használatát."
         }
       },
       "tooltips": {
         "View Mode": {
-          "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "term": "Nézet mód",
+          "definition": "A luminancia az általános fényességet mutatja. Az RGB-átfedés mindhárom színcsatornát egymásra helyezve. Az All Channels az RGB-t és a luminanciát együtt."
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "Árnyékok",
+          "definition": "A hisztogram bal oldala (nagyjából 0–85), ami a kép legsötétebb tónusait jelöli."
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "Féltónusok",
+          "definition": "A középső rész (nagyjából 86–170), ami a közepes fényességű tónusokat jelöli — a bőrtónus és a legtöbb természetes textúra ide esik."
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "Fénypontok",
+          "definition": "A jobb oldal (nagyjából 171–255), ami a legvilágosabb tónusokat jelöli: eget, tükröződéseket, fényforrásokat."
         },
         "Black Clipping": {
-          "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "term": "Fekete clipping",
+          "definition": "A 0 fényességű (tiszta fekete) pixelek százaléka. A magas érték azt jelenti, hogy az árnyékrészlet elveszett és nem állítható helyre."
         },
         "White Clipping": {
-          "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "term": "Fehér clipping",
+          "definition": "A 255 fényességű (tiszta fehér) pixelek százaléka. A magas érték azt jelenti, hogy a fénypontrészlet kiégett."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "Feltöltesz egy fotót, és a hisztogram erősen balra van tolva, a jobb oldalon szinte semmi sincs. Mit mond ez a képről?",
+          "hint": "Bal = sötét, jobb = világos.",
+          "successMessage": "Jó! A balra tolt hisztogram azt jelenti, hogy a kép főleg sötét tónusokból áll — lehet, hogy alulexponált, vagy szándékoltan sötét, low-key kép.",
+          "failureMessage": "A balra tolt hisztogram azt jelzi, hogy a kép túlnyomóan sötét. Ez gyakran alulexponáltságra utal.",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "A kép alulexponált vagy nagyon sötét" },
+            "1": { "label": "A kép túlexponált vagy nagyon világos" },
+            "2": { "label": "A kép tökéletes expozíciójú" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "Melyik nézet módot használd, ha a fotód általános fényesség-eloszlását akarod látni egyetlen grafikonon?",
+          "hint": "Az egyik mód az összes színinformációt egyetlen fényességgörbévé fűzi.",
+          "successMessage": "Jó! A luminancia mód egyetlen görbét mutat, ami az általános érzékelt fényességet jelenti.",
+          "failureMessage": "A luminancia mód a legegyszerűbb nézet — az R, G, B csatornákat egyetlen fényességgörbébe kombinálja.",
           "options": {
-            "0": { "label": "Luminance" },
+            "0": { "label": "Luminancia" },
             "1": { "label": "RGB Overlay" },
             "2": { "label": "All Channels" }
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "Egy élénk naplementét fotóztál. A luminancia-hisztogram rendben van, de RGB Overlay nézetben látod, hogy a vörös csatorna a jobb szélen tüskét üt. Mi történik?",
+          "hint": "Az egyes színcsatornák akkor is clippelhetnek, ha az általános luminancia nem.",
+          "successMessage": "Pontosan! A vörös csatorna clippel — a naplemente fénypontjai elvesztették a részletet a vörös tónusokban, pedig az általános fényesség még elfogadhatónak tűnik. Elveszted a meleg színek árnyalatait.",
+          "failureMessage": "A vörös csatorna önmagában clippel. A telített meleg fénypontok (naplementék, tűz) gyakran 255-ig nyomják a vörösöt, miközben a zöld és a kék rendben van, elvesztve a színrészletet ezekben a tónusokban.",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "A vörös csatorna clippel — a meleg fénypontok részletei elvesztek" },
+            "1": { "label": "A kép túlexponált az egészében" },
+            "2": { "label": "A fehéregyensúly rossz" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "Az eszköz 2,3% fekete clippinget és 0,1% fehér clippinget jelent. Módosítsd az expozíciót?",
+          "hint": "Egy kis clipping normális — a mély fekete árnyékok és a tükröződéses fénypontok természetesek.",
+          "successMessage": "Jó ítélet! A 2,3% fekete clipping szerény, és gyakran csak mély árnyékot vagy sötét sarkot jelent. A 0,1% fehér clipping valószínűleg tükröződéses fénypont (pl. napcsillogás). Az expozíció a legtöbb célra rendben van.",
+          "failureMessage": "Ezek a clipping százalékok elég kicsik. Egy kis fekete clipping a mély árnyékokban és egy pici fehér clipping a tükröződésekben normális és elvárt. Nincs szükség módosításra.",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "Növelni az expozíciót a fekete clipping csökkentésére" },
+            "1": { "label": "Ez rendben van — a kis clipping árnyékokban és tükröződésekben normális" },
+            "2": { "label": "Csökkenteni az expozíciót a fehér clipping megszüntetésére" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "Nagy kontrasztú jelenetet fotózol: menyasszony fehér ruhában egy sötét katedrálisban. A hisztogram erős csúcsokat mutat mindkét végen, a féltónusok között réssel. Hogyan kezeld ezt?",
+          "hint": "Ha a jelenet dinamikatartománya meghaladja az érzékelőét, többexpozíciós technika kell.",
+          "successMessage": "Tökéletes! A kétcsúcsú hisztogram azt jelzi, hogy a jelenet túllépi az érzékelő dinamikatartományát. Expozíció-bracketing (HDR) mind a sötét belsőt, mind a világos ruharészletet megragadja. Alternatívaként derítővakuval világítsd meg az árnyékokat.",
+          "failureMessage": "A kétcsúcsú hisztogram (mindkét szélen csúcsok, üres közép) azt jelenti, hogy a jelenet dinamikatartománya nagyobb, mint amit az érzékelő egy kockában rögzíteni tud. Bracketelj HDR-hez, vagy használj derítővakut a kontrasztarány csökkentésére.",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "Expozíciós bracketing HDR-hez vagy derítővaku" },
+            "1": { "label": "Exponálj a féltónusokra, és reméld a legjobbat" },
+            "2": { "label": "Válts fekete-fehérre, hogy elrejtsd a problémát" }
           }
         }
       }

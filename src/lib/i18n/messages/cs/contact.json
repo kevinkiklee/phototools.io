@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "Napiš nám",
+    "description": "Máš dotaz, našel jsi chybu nebo chceš navrhnout nový nástroj? Rádi si poslechneme zpětnou vazbu.",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email",
-      "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "nameLabel": "Jméno",
+      "namePlaceholder": "Tvoje jméno",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "tvuj@email.cz",
+      "subjectLabel": "Předmět",
+      "subjectPlaceholder": "O co jde?",
+      "messageLabel": "Zpráva",
+      "messagePlaceholder": "Tvoje zpráva...",
+      "submit": "Odeslat zprávu",
+      "sending": "Odesílám...",
+      "honeypotLabel": "Web",
+      "successToast": "Zpráva odeslána! Brzy se ti ozveme.",
+      "errorToast": "Něco se nepovedlo. Zkus to prosím znovu.",
+      "networkErrorToast": "Chyba sítě. Zkontroluj připojení a zkus to znovu.",
+      "sentTitle": "Díky, že ses nám ozval!",
+      "sentMessage": "Ozveme se, jakmile to bude možné.",
+      "sendAnother": "Poslat další zprávu"
     }
   }
 }

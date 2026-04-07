@@ -5,7 +5,7 @@
       "modeOverlay": "Overlay",
       "modeSideBySide": "Side by Side",
       "modePixelDensity": "Pixel Density",
-      "pixelDensityDescription": "Showing common megapixel counts for each sensor. Larger pixels (bigger cells) capture more light.",
+      "pixelDensityDescription": "প্রতিটি সেন্সরের জন্য সাধারণ মেগাপিক্সেল সংখ্যা দেখানো হচ্ছে। বড় পিক্সেল (বড় সেল) বেশি আলো ধারণ করে।",
       "sensors": "Sensors",
       "customSensors": "Custom Sensors",
       "placeholderName": "Name",
@@ -13,7 +13,7 @@
       "placeholderH": "H (mm)",
       "placeholderMP": "Megapixels (optional)",
       "placeholderMPShort": "MP",
-      "maxDimensionWarning": "Max sensor dimension is 99 mm",
+      "maxDimensionWarning": "সেন্সরের সর্বোচ্চ মাত্রা 99 mm",
       "addSensor": "Add Sensor",
       "save": "Save",
       "cancelEdit": "Cancel",
@@ -27,19 +27,19 @@
       "tableArea": "Area (mm\u00b2)",
       "tableCropFactor": "Crop Factor",
       "tableAspectCrop": "Aspect Crop",
-      "canvasAriaLabel": "Sensor size comparison in {mode} mode",
+      "canvasAriaLabel": "{mode} মোডে সেন্সর সাইজ তুলনা",
       "faq": {
         "what-is-crop-factor": {
-          "question": "What is crop factor and why does it matter?",
-          "answer": "Crop factor describes the size difference between a camera's sensor and a full-frame (35mm) sensor. It affects the effective focal length, depth of field, and low-light performance. A 1.5x crop factor means the sensor is 1.5 times smaller than full frame."
+          "question": "ক্রপ ফ্যাক্টর কী এবং কেন এটা গুরুত্বপূর্ণ?",
+          "answer": "ক্রপ ফ্যাক্টর হলো ক্যামেরার সেন্সর আর ফুল-ফ্রেম (35mm) সেন্সরের মধ্যে সাইজের পার্থক্য। এটি কার্যকর ফোকাল দৈর্ঘ্য, ক্ষেত্রের গভীরতা এবং কম আলোয় পারফরম্যান্সকে প্রভাবিত করে। 1.5x ক্রপ ফ্যাক্টর মানে সেন্সরটি ফুল-ফ্রেমের চেয়ে 1.5 গুণ ছোট।"
         },
         "full-frame-vs-aps-c": {
-          "question": "What are the advantages of full frame vs APS-C sensors?",
-          "answer": "Full-frame sensors offer better low-light performance, shallower depth of field, and wider field of view at any given focal length. APS-C sensors are more affordable, lighter, and give extra reach for wildlife and sports photography."
+          "question": "ফুল-ফ্রেম বনাম APS-C সেন্সরের সুবিধা কী কী?",
+          "answer": "ফুল-ফ্রেম সেন্সর কম আলোয় ভালো পারফরম্যান্স, কম গভীরতার ক্ষেত্র এবং একই ফোকাল দৈর্ঘ্যে বড় দৃষ্টিক্ষেত্র দেয়। APS-C সেন্সর তুলনামূলক সস্তা, হালকা, এবং বন্যপ্রাণী ও স্পোর্টস ফটোগ্রাফির জন্য বাড়তি রিচ দেয়।"
         },
         "sensor-size-and-depth-of-field": {
-          "question": "How does sensor size affect depth of field?",
-          "answer": "Larger sensors produce shallower depth of field at equivalent framing. To get the same framing with a smaller sensor, you either use a shorter focal length (deeper DOF) or move farther away (deeper DOF), both reducing background blur."
+          "question": "সেন্সর সাইজ কীভাবে ক্ষেত্রের গভীরতাকে প্রভাবিত করে?",
+          "answer": "একই ফ্রেমিংয়ে বড় সেন্সর কম গভীরতার ক্ষেত্র তৈরি করে। ছোট সেন্সর দিয়ে একই ফ্রেমিং পেতে হলে তোমাকে হয় ছোট ফোকাল দৈর্ঘ্য ব্যবহার করতে হবে (বেশি DoF), অথবা আরও দূরে সরতে হবে (বেশি DoF) — দুটোই ব্যাকগ্রাউন্ড ব্লার কমিয়ে দেয়।"
         }
       }
     }

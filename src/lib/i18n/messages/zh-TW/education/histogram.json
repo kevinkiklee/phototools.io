@@ -1,117 +1,117 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "直方圖是一張圖表，顯示您照片中像素的明暗分布。左側代表陰影（暗部），中間代表中間調，右側則代表高光（亮部）。如果分布擠在某一側，您的照片可能曝光不足或過曝。",
+      "deeper": "直方圖以像素數（垂直軸）對應亮度值（水平軸，8 位元影像為 0–255）作圖。亮度模式下，每個像素的亮度以紅、綠、藍三通道的加權平均計算（典型為 0.299R + 0.587G + 0.114B，對應人眼感知）。RGB 模式則顯示三條獨立分布，可揭露單一色通道的溢出 — 例如紅通道已推到 255，但藍通道仍正常，代表暖色高光（如夕陽天空）在紅色上已失去細節。「溢出」指的是像素值觸及 0 或 255 邊界，代表陰影或高光細節已無法挽回。黑色溢出（像素為 0）會失去陰影細節；白色溢出（像素為 255）則失去高光細節。以 RAW 拍攝時，JPEG 直方圖顯示之外還保留約 2–3 級可救援的高光空間，這就是許多攝影師採用「向右曝光」（ETTR）的原因 — 盡可能把曝光推亮但又不讓 RAW 資料溢出。",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "色調分布",
+          "description": "整體形狀能告訴您影像偏暗（左傾）、偏亮（右傾）或均衡（橫跨整個範圍）。"
         },
         "1": {
-          "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "label": "溢出",
+          "description": "左端或右端的尖峰代表陰影或高光細節已經流失。"
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "通道分離",
+          "description": "RGB 模式揭露各色通道的表現 — 有助於偵測飽和場景中單一顏色的溢出。"
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "動態範圍",
+          "description": "橫跨整個寬度又未溢出的直方圖，代表動態範圍運用得當。"
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "並沒有「完美」的直方圖形狀。一隻黑貓躺在深色沙發上的照片，自然會左傾。請以創作意圖來衡量直方圖，而不是追求某條理想曲線。"
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "拍攝夕陽或霓虹燈場景時，請檢查 RGB 疊合模式。紅通道經常會比藍通道更早溢出，使得即使亮度直方圖看起來正常，暖色高光依然失去細節。"
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "如果兩端同時出現溢出警告，通常代表場景的動態範圍已超出相機所能記錄。可考慮使用包圍曝光合成 HDR，或使用漸層 ND 濾鏡。"
         }
       },
       "tooltips": {
         "View Mode": {
-          "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "term": "檢視模式",
+          "definition": "「亮度」顯示整體明暗。「RGB 疊合」將三色通道疊在一起。「所有通道」則同時呈現 RGB 與亮度。"
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "陰影",
+          "definition": "直方圖最左側的區域（約 0–85），代表影像中最暗的色調。"
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "中間調",
+          "definition": "中央區域（約 86–170），代表中等亮度 — 膚色與大多數自然紋理都落在這裡。"
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "高光",
+          "definition": "最右側的區域（約 171–255），代表最亮的色調：天空、反光與光源。"
         },
         "Black Clipping": {
-          "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "term": "黑色溢出",
+          "definition": "亮度為 0（純黑）的像素比例。數值高代表陰影細節已無法救援。"
         },
         "White Clipping": {
-          "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "term": "白色溢出",
+          "definition": "亮度為 255（純白）的像素比例。數值高代表高光細節已爆掉。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "您上傳一張照片，看到直方圖嚴重偏向左側，右邊幾乎沒有資料。這告訴您什麼？",
+          "hint": "左側 = 暗，右側 = 亮。",
+          "successMessage": "答對了！左傾的直方圖代表影像以暗色調為主 — 可能曝光不足，也可能是刻意的低調影像。",
+          "failureMessage": "直方圖擠在左側代表影像以暗調為主，通常意味著曝光不足。",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "影像曝光不足或非常暗" },
+            "1": { "label": "影像過曝或非常亮" },
+            "2": { "label": "影像曝光完美" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "想在一張圖中看到整張照片的整體亮度分布，該用哪種檢視模式？",
+          "hint": "有一種模式會把所有色彩資訊合併成單一亮度曲線。",
+          "successMessage": "沒錯！亮度模式以單一曲線呈現整體感知亮度。",
+          "failureMessage": "亮度模式最簡潔 — 把 R、G、B 合併為一條亮度曲線。",
           "options": {
-            "0": { "label": "Luminance" },
-            "1": { "label": "RGB Overlay" },
-            "2": { "label": "All Channels" }
+            "0": { "label": "亮度" },
+            "1": { "label": "RGB 疊合" },
+            "2": { "label": "所有通道" }
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "您拍了一張鮮豔的夕陽，亮度直方圖看起來沒問題，但切到 RGB 疊合模式時，紅通道在最右側形成尖峰。發生了什麼事？",
+          "hint": "整體亮度沒溢出，個別色通道仍可能溢出。",
+          "successMessage": "完全正確！紅通道已經溢出 — 夕陽高光在紅色上失去細節，儘管整體亮度看起來仍可接受。您正在損失暖色的色彩層次。",
+          "failureMessage": "紅通道單獨溢出了。飽和的暖色高光（夕陽、火焰）經常在綠與藍仍正常時就把紅推到 255，失去暖色細節。",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "紅通道溢出 — 暖色高光細節流失" },
+            "1": { "label": "整張影像過曝" },
+            "2": { "label": "白平衡錯誤" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "工具顯示 2.3% 的黑色溢出與 0.1% 的白色溢出。需要調整曝光嗎？",
+          "hint": "少量溢出很正常 — 純黑陰影與鏡面反射式高光本來就會存在。",
+          "successMessage": "好判斷！2.3% 的黑色溢出並不多，通常只是深陰影或暗邊。0.1% 的白色溢出很可能只是鏡面反射（陽光倒影）。這個曝光對大多數用途都沒問題。",
+          "failureMessage": "這些溢出比例其實很小。深陰影中少量的黑色溢出與鏡面高光產生的微量白色溢出都是正常現象，不需要調整。",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "增加曝光以減少黑色溢出" },
+            "1": { "label": "沒問題 — 陰影與鏡面反射的少量溢出是正常現象" },
+            "2": { "label": "降低曝光以消除白色溢出" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "您正在拍攝一個高對比場景：身穿白色禮服的新娘站在昏暗的教堂裡。直方圖在兩端都呈現強尖峰，中間卻是空的。該怎麼處理？",
+          "hint": "當場景動態範圍超過相機的感光元件範圍時，您需要多重曝光技巧。",
+          "successMessage": "完美！這種雙峰直方圖表示場景的動態範圍超出感光元件所能記錄。用包圍曝光合成 HDR 可同時記錄教堂陰暗內部與禮服高光。另一個選擇是用補光燈抬升陰影。",
+          "failureMessage": "雙峰直方圖（兩端尖峰、中間空）代表場景動態範圍超出單次曝光能記錄。請用包圍曝光合成 HDR，或使用補光燈降低對比比率。",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "包圍曝光合成 HDR 或用補光燈" },
+            "1": { "label": "對中間調測光然後聽天由命" },
+            "2": { "label": "改拍黑白以掩飾問題" }
           }
         }
       }

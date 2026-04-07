@@ -1,28 +1,28 @@
 {
   "toolUI": {
     "white-balance-visualizer": {
-      "colorTemperature": "Color Temperature:",
-      "warm": "Warm",
-      "neutral": "Neutral",
-      "cool": "Cool",
-      "presets": "Presets",
-      "red": "Red",
-      "green": "Green",
-      "blue": "Blue",
+      "colorTemperature": "Temperatura culorii:",
+      "warm": "Cald",
+      "neutral": "Neutru",
+      "cool": "Rece",
+      "presets": "Presete",
+      "red": "Roșu",
+      "green": "Verde",
+      "blue": "Albastru",
       "hex": "Hex",
-      "loadingScene": "Loading scene...",
+      "loadingScene": "Se încarcă scena...",
       "faq": {
         "what-is-white-balance": {
-          "question": "What is white balance in photography?",
-          "answer": "White balance adjusts colors in your photo so that objects that appear white in person also appear white in the image. Different light sources emit different color temperatures, and white balance compensates for these variations."
+          "question": "Ce este balansul de alb în fotografie?",
+          "answer": "Balansul de alb ajustează culorile în fotografia ta astfel încât obiectele care apar albe în realitate să apară albe și în imagine. Sursele de lumină diferite emit temperaturi de culoare diferite, iar balansul de alb compensează aceste variații."
         },
         "kelvin-vs-presets": {
-          "question": "Should I use Kelvin values or white balance presets?",
-          "answer": "Presets (Daylight, Cloudy, Tungsten) are convenient starting points, but setting a specific Kelvin value gives more precise control. Shoot in RAW format to adjust white balance non-destructively in post-processing."
+          "question": "Să folosesc valori Kelvin sau presete de balans de alb?",
+          "answer": "Presetele (Daylight, Cloudy, Tungsten) sunt puncte de plecare convenabile, dar setarea unei valori Kelvin specifice oferă control mai precis. Fotografiază în format RAW pentru a ajusta balansul de alb fără pierderi în post-procesare."
         },
         "when-to-use-manual-white-balance": {
-          "question": "When should I use manual white balance?",
-          "answer": "Use manual white balance for mixed lighting (combining natural and artificial), studio setups requiring exact color accuracy, product photography, and any time auto white balance produces inconsistent results across a series of shots."
+          "question": "Când să folosesc balansul de alb manual?",
+          "answer": "Folosește balans de alb manual pentru iluminare mixtă (combinând lumină naturală și artificială), setări de studio care cer acuratețe cromatică exactă, fotografie de produs și oricând balansul automat produce rezultate inconsistente într-o serie de cadre."
         }
       }
     }

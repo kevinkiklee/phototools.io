@@ -1,104 +1,104 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helps you crop, frame, and compose your photos right in the browser. Use composition grids to improve your framing, crop to popular aspect ratios, and add professional-looking borders — all without losing any image quality.",
+      "beginner": "Frame Studio তোমাকে সরাসরি ব্রাউজারে তোমার ছবি ক্রপ, ফ্রেম ও কম্পোজ করতে সাহায্য করে। তোমার ফ্রেমিং উন্নত করতে কম্পোজিশন গ্রিড ব্যবহার করো, জনপ্রিয় অ্যাসপেক্ট রেশিওতে ক্রপ করো, এবং পেশাদার মানের বর্ডার যোগ করো — সবকিছুই ছবির মান না হারিয়ে।",
       "deeper": {
         "0": {
-          "heading": "Composition Grids",
-          "text": "The Rule of Thirds divides the frame into a 3\u00d73 grid — placing subjects along lines or at intersections creates natural visual balance. The Golden Ratio (approximately 1.618:1) provides a mathematically harmonious division used in art and architecture for centuries. The Golden Spiral guides the eye along a logarithmic curve derived from the Fibonacci sequence, useful for leading the viewer through the image."
+          "heading": "কম্পোজিশন গ্রিড",
+          "text": "রুল অফ থার্ডস ফ্রেমকে 3×3 গ্রিডে ভাগ করে — লাইন বরাবর বা ছেদবিন্দুতে সাবজেক্ট রাখলে স্বাভাবিক ভিজ্যুয়াল ভারসাম্য তৈরি হয়। গোল্ডেন রেশিও (প্রায় 1.618:1) একটি গাণিতিকভাবে সুরেলা ভাগ দেয় যা শত শত বছর ধরে শিল্প ও স্থাপত্যে ব্যবহৃত হয়ে আসছে। গোল্ডেন স্পাইরাল ফিবোনাচি সিকোয়েন্স থেকে উৎপন্ন একটি লগারিদমিক বক্ররেখা বরাবর চোখকে গাইড করে, দর্শকের দৃষ্টিকে ছবির মধ্য দিয়ে পরিচালনা করতে কাজে আসে।"
         },
         "1": {
-          "heading": "Aspect Ratios",
-          "text": "Different aspect ratios serve different purposes. 1:1 (square) works well for social media and symmetrical compositions. 3:2 is the classic 35mm film ratio. 4:3 is common in micro four-thirds and older digital cameras. 16:9 is the standard widescreen ratio for video and cinematic compositions. 5:4 is traditional for 8\u00d710 prints."
+          "heading": "অ্যাসপেক্ট রেশিও",
+          "text": "বিভিন্ন অ্যাসপেক্ট রেশিও বিভিন্ন উদ্দেশ্যে কাজ করে। 1:1 (স্কোয়ার) সোশ্যাল মিডিয়া ও সিমেট্রিক্যাল কম্পোজিশনের জন্য ভালো কাজ করে। 3:2 হলো ক্লাসিক 35mm ফিল্ম রেশিও। 4:3 মাইক্রো ফোর-থার্ডস ও পুরানো ডিজিটাল ক্যামেরায় সাধারণ। 16:9 হলো ভিডিও ও সিনেমাটিক কম্পোজিশনের জন্য স্ট্যান্ডার্ড ওয়াইডস্ক্রিন রেশিও। 5:4 ঐতিহ্যগতভাবে 8×10 প্রিন্টের জন্য।"
         },
         "2": {
-          "heading": "Framing and Borders",
-          "text": "Adding a border around a photograph mimics the effect of a physical mat and frame. A white mat provides visual breathing room and directs focus inward. The width of the border relative to the image affects the perceived \"weight\" of the photograph. Gallery-style presentations typically use wider mats. A subtle shadow creates depth, simulating how a framed print sits on a wall."
+          "heading": "ফ্রেমিং ও বর্ডার",
+          "text": "একটি ছবির চারপাশে বর্ডার যোগ করা শারীরিক ম্যাট ও ফ্রেমের প্রভাব অনুকরণ করে। সাদা ম্যাট ভিজ্যুয়াল শ্বাস নেওয়ার জায়গা দেয় এবং ফোকাসকে ভেতরের দিকে পরিচালিত করে। ছবির সাপেক্ষে বর্ডারের প্রস্থ ছবির অনুভূত \"ওজন\" প্রভাবিত করে। গ্যালারি-স্টাইল উপস্থাপনা সাধারণত প্রশস্ত ম্যাট ব্যবহার করে। একটি সূক্ষ্ম ছায়া গভীরতা তৈরি করে, দেয়ালে ফ্রেম করা প্রিন্ট কেমন বসে তা অনুকরণ করে।"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Composition Grid",
-          "description": "Overlay guides help you evaluate and improve subject placement within the frame."
+          "label": "কম্পোজিশন গ্রিড",
+          "description": "ওভারলে গাইড ফ্রেমের মধ্যে সাবজেক্টের অবস্থান মূল্যায়ন ও উন্নত করতে সাহায্য করে।"
         },
         "1": {
-          "label": "Aspect Ratio",
-          "description": "The width-to-height proportion affects how the image feels — wider ratios feel cinematic, square feels balanced."
+          "label": "অ্যাসপেক্ট রেশিও",
+          "description": "প্রস্থ-উচ্চতা অনুপাত ছবির অনুভূতিকে প্রভাবিত করে — প্রশস্ত অনুপাত সিনেমাটিক মনে হয়, স্কোয়ার ভারসাম্যপূর্ণ মনে হয়।"
         },
         "2": {
-          "label": "Border Width",
-          "description": "Wider borders add gravitas and focus; narrow borders feel modern and minimal."
+          "label": "বর্ডার প্রস্থ",
+          "description": "প্রশস্ত বর্ডার গাম্ভীর্য ও ফোকাস যোগ করে; সংকীর্ণ বর্ডার আধুনিক ও ন্যূনতম মনে হয়।"
         },
         "3": {
-          "label": "Mat Color",
-          "description": "White mats are classic for art photography. Dark mats emphasize lighter images. Color mats can complement or contrast."
+          "label": "ম্যাট রঙ",
+          "description": "আর্ট ফটোগ্রাফির জন্য সাদা ম্যাট ক্লাসিক। গাঢ় ম্যাট হালকা ছবিকে গুরুত্ব দেয়। রঙিন ম্যাট পরিপূরক বা বিপরীত হতে পারে।"
         }
       },
       "tips": {
         "0": {
-          "text": "For Instagram posts, crop to 4:5 (portrait) to take up maximum screen space in the feed."
+          "text": "Instagram পোস্টের জন্য 4:5 (পোর্ট্রেট)-এ ক্রপ করো যাতে ফিডে সর্বোচ্চ স্ক্রিন স্পেস নিতে পারে।"
         },
         "1": {
-          "text": "When adding a border for print, use a mat width of at least 10% of the image's shorter dimension for a professional look."
+          "text": "প্রিন্টের জন্য বর্ডার যোগ করার সময় পেশাদার লুকের জন্য ছবির ছোট মাত্রার কমপক্ষে 10% ম্যাট প্রস্থ ব্যবহার করো।"
         },
         "2": {
-          "text": "The Golden Spiral is most effective for images with a natural flow — water, roads, or curved architecture."
+          "text": "গোল্ডেন স্পাইরাল প্রাকৃতিক প্রবাহযুক্ত ছবির জন্য সবচেয়ে কার্যকর — পানি, রাস্তা বা বাঁকানো স্থাপত্য।"
         }
       },
       "tooltips": {
         "Aspect Ratio": {
-          "term": "Aspect Ratio",
-          "definition": "The proportional relationship between width and height. Common ratios include 3:2 (35mm), 4:3 (M43), and 16:9 (widescreen)."
+          "term": "অ্যাসপেক্ট রেশিও",
+          "definition": "প্রস্থ ও উচ্চতার আনুপাতিক সম্পর্ক। সাধারণ অনুপাত 3:2 (35mm), 4:3 (M43), এবং 16:9 (ওয়াইডস্ক্রিন)।"
         },
         "Rule of Thirds": {
-          "term": "Rule of Thirds",
-          "definition": "A composition guideline that divides the frame into 9 equal parts. Placing subjects at intersection points creates visual interest."
+          "term": "রুল অফ থার্ডস",
+          "definition": "একটি কম্পোজিশন গাইডলাইন যা ফ্রেমকে 9টি সমান অংশে ভাগ করে। ছেদ বিন্দুতে সাবজেক্ট রাখলে ভিজ্যুয়াল আগ্রহ তৈরি হয়।"
         },
         "Golden Ratio": {
-          "term": "Golden Ratio",
-          "definition": "A mathematical proportion (~1.618:1) found in nature and art. Creates aesthetically pleasing divisions of space."
+          "term": "গোল্ডেন রেশিও",
+          "definition": "একটি গাণিতিক অনুপাত (~1.618:1) যা প্রকৃতি ও শিল্পে পাওয়া যায়। স্থানের নান্দনিকভাবে মনোরম ভাগ তৈরি করে।"
         },
         "Border Width": {
-          "term": "Border Width",
-          "definition": "The thickness of the frame border in pixels. Goes outside the image, increasing total dimensions without cropping."
+          "term": "বর্ডার প্রস্থ",
+          "definition": "পিক্সেলে ফ্রেম বর্ডারের পুরুত্ব। ছবির বাইরে যায়, ক্রপ না করেই মোট মাত্রা বাড়ায়।"
         },
         "Inner Mat": {
-          "term": "Inner Mat",
-          "definition": "A second, thinner border between the outer frame and the image — mimics the beveled inner mat of a physical picture frame."
+          "term": "ভেতরের ম্যাট",
+          "definition": "বাইরের ফ্রেম ও ছবির মধ্যে দ্বিতীয়, পাতলা একটি বর্ডার — শারীরিক পিকচার ফ্রেমের বেভেলড ভেতরের ম্যাট অনুকরণ করে।"
         },
         "Corner Radius": {
-          "term": "Corner Radius",
-          "definition": "Rounds the corners of the frame border. Zero gives sharp corners, higher values give a softer, rounded look."
+          "term": "কর্নার রেডিয়াস",
+          "definition": "ফ্রেম বর্ডারের কোনাগুলো গোলাকার করে। শূন্য মান তীক্ষ্ণ কোনা দেয়, বেশি মান নরম, গোলাকার লুক দেয়।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to post a portrait photo on Instagram for maximum feed presence. Which aspect ratio should you use?",
-          "hint": "Instagram portrait posts use a taller-than-wide ratio.",
-          "successMessage": "Correct! 4:5 gives you the maximum vertical space in the Instagram feed.",
-          "failureMessage": "Instagram portrait posts use 4:5 (flip 5:4 to portrait orientation) for maximum feed real estate.",
+          "scenario": "তুমি সর্বোচ্চ ফিড উপস্থিতির জন্য Instagram-এ একটি পোর্ট্রেট ছবি পোস্ট করতে চাও। কোন অ্যাসপেক্ট রেশিও ব্যবহার করবে?",
+          "hint": "Instagram পোর্ট্রেট পোস্ট প্রস্থের চেয়ে উচ্চতর অনুপাত ব্যবহার করে।",
+          "successMessage": "সঠিক! 4:5 তোমাকে Instagram ফিডে সর্বোচ্চ উলম্ব স্পেস দেয়।",
+          "failureMessage": "Instagram পোর্ট্রেট পোস্ট সর্বোচ্চ ফিড রিয়েল এস্টেটের জন্য 4:5 (5:4-কে পোর্ট্রেট অরিয়েন্টেশনে ফ্লিপ) ব্যবহার করে।",
           "options": {
-            "0": { "label": "1:1 (Square)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": { "label": "1:1 (স্কোয়ার)" },
+            "1": { "label": "4:5 (পোর্ট্রেট)" },
+            "2": { "label": "16:9 (ওয়াইডস্ক্রিন)" }
           }
         },
         "1": {
-          "scenario": "Which composition grid is the most widely taught starting point for beginners?",
-          "hint": "It divides the frame into 9 equal sections.",
-          "successMessage": "Right! The Rule of Thirds is the foundational composition guide.",
-          "failureMessage": "The Rule of Thirds (3\u00d73 grid) is the most common starting point for learning composition.",
+          "scenario": "নতুনদের জন্য সবচেয়ে বেশি শেখানো শুরুর কম্পোজিশন গ্রিড কোনটি?",
+          "hint": "এটি ফ্রেমকে 9টি সমান অংশে ভাগ করে।",
+          "successMessage": "ঠিক! রুল অফ থার্ডস হলো মৌলিক কম্পোজিশন গাইড।",
+          "failureMessage": "রুল অফ থার্ডস (3×3 গ্রিড) কম্পোজিশন শেখার জন্য সবচেয়ে সাধারণ শুরুর বিন্দু।",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Diagonal Lines" }
+            "0": { "label": "রুল অফ থার্ডস" },
+            "1": { "label": "গোল্ডেন স্পাইরাল" },
+            "2": { "label": "ডায়াগোনাল লাইনস" }
           }
         },
         "2": {
-          "scenario": "You are preparing a photo for gallery printing on 8\u00d710 paper. Which aspect ratio matches this print size?",
-          "hint": "8\u00f710 simplifies to a well-known ratio.",
-          "successMessage": "Correct! 5:4 matches 8\u00d710 print dimensions perfectly.",
-          "failureMessage": "8\u00d710 simplifies to 4:5, which is the portrait version of 5:4.",
+          "scenario": "তুমি 8×10 কাগজে গ্যালারি প্রিন্টের জন্য একটি ছবি প্রস্তুত করছো। কোন অ্যাসপেক্ট রেশিও এই প্রিন্ট সাইজের সাথে মেলে?",
+          "hint": "8÷10 একটি পরিচিত অনুপাতে সরলীকৃত হয়।",
+          "successMessage": "সঠিক! 5:4 8×10 প্রিন্ট মাত্রার সাথে নিখুঁতভাবে মেলে।",
+          "failureMessage": "8×10 সরলীকৃত হয়ে 4:5 হয়, যা 5:4-এর পোর্ট্রেট সংস্করণ।",
           "options": {
             "0": { "label": "3:2" },
             "1": { "label": "5:4" },
@@ -106,21 +106,21 @@
           }
         },
         "3": {
-          "scenario": "A landscape photo features a winding river leading from the foreground to mountains in the background. Which grid overlay best matches this natural flow?",
-          "hint": "One grid type follows a natural curved path.",
-          "successMessage": "Great choice! The Golden Spiral follows curves and leading lines perfectly.",
-          "failureMessage": "The Golden Spiral is ideal for images with natural curved elements like rivers, roads, or coastlines.",
+          "scenario": "একটি ল্যান্ডস্কেপ ছবিতে ফোরগ্রাউন্ড থেকে ব্যাকগ্রাউন্ডের পাহাড় পর্যন্ত একটি বাঁকানো নদী। কোন গ্রিড ওভারলে এই প্রাকৃতিক প্রবাহের সাথে সবচেয়ে ভালো মেলে?",
+          "hint": "একটি গ্রিড ধরন প্রাকৃতিক বাঁকানো পথ অনুসরণ করে।",
+          "successMessage": "দারুণ পছন্দ! গোল্ডেন স্পাইরাল নিখুঁতভাবে বাঁকানো ও লিডিং লাইন অনুসরণ করে।",
+          "failureMessage": "গোল্ডেন স্পাইরাল নদী, রাস্তা বা উপকূলরেখার মতো প্রাকৃতিক বাঁকানো উপাদানযুক্ত ছবির জন্য আদর্শ।",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Square Grid" }
+            "0": { "label": "সেন্টার ক্রস" },
+            "1": { "label": "গোল্ডেন স্পাইরাল" },
+            "2": { "label": "স্কোয়ার গ্রিড" }
           }
         },
         "4": {
-          "scenario": "You want a clean white border to present your photo on social media. Which frame preset should you use?",
-          "hint": "Think about which preset gives you a simple white border.",
-          "successMessage": "Correct! The White preset adds a 100px white border around your photo.",
-          "failureMessage": "The White preset is designed for a clean, simple white border presentation.",
+          "scenario": "তুমি সোশ্যাল মিডিয়ায় তোমার ছবি উপস্থাপনের জন্য একটি পরিষ্কার সাদা বর্ডার চাও। কোন ফ্রেম প্রিসেট ব্যবহার করবে?",
+          "hint": "কোন প্রিসেট তোমাকে একটি সাধারণ সাদা বর্ডার দেয় সে সম্পর্কে চিন্তা করো।",
+          "successMessage": "সঠিক! White প্রিসেট তোমার ছবির চারপাশে একটি 100px সাদা বর্ডার যোগ করে।",
+          "failureMessage": "White প্রিসেট একটি পরিষ্কার, সরল সাদা বর্ডার উপস্থাপনার জন্য ডিজাইন করা।",
           "options": {
             "0": { "label": "None" },
             "1": { "label": "White" },

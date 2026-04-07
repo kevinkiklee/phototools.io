@@ -2,27 +2,27 @@
   "toolUI": {
     "white-balance-visualizer": {
       "colorTemperature": "Color Temperature:",
-      "warm": "Warm",
+      "warm": "Mainit",
       "neutral": "Neutral",
-      "cool": "Cool",
-      "presets": "Presets",
-      "red": "Red",
-      "green": "Green",
-      "blue": "Blue",
+      "cool": "Malamig",
+      "presets": "Mga Preset",
+      "red": "Pula",
+      "green": "Berde",
+      "blue": "Asul",
       "hex": "Hex",
-      "loadingScene": "Loading scene...",
+      "loadingScene": "Nilo-load ang eksena...",
       "faq": {
         "what-is-white-balance": {
-          "question": "What is white balance in photography?",
-          "answer": "White balance adjusts colors in your photo so that objects that appear white in person also appear white in the image. Different light sources emit different color temperatures, and white balance compensates for these variations."
+          "question": "Ano ang white balance sa photography?",
+          "answer": "Ina-adjust ng white balance ang mga kulay sa litrato mo para ang mga bagay na mukhang puti sa totoo ay mukhang puti din sa imahe. Ang iba't ibang light source ay naglalabas ng iba't ibang color temperature, at ang white balance ay nag-co-compensate para sa mga ganitong pagkakaiba."
         },
         "kelvin-vs-presets": {
-          "question": "Should I use Kelvin values or white balance presets?",
-          "answer": "Presets (Daylight, Cloudy, Tungsten) are convenient starting points, but setting a specific Kelvin value gives more precise control. Shoot in RAW format to adjust white balance non-destructively in post-processing."
+          "question": "Dapat ba akong gumamit ng Kelvin values o mga white balance preset?",
+          "answer": "Ang mga preset (Daylight, Cloudy, Tungsten) ay maginhawang panimulang punto, pero ang pag-set ng partikular na Kelvin value ay nagbibigay ng mas tumpak na kontrol. Kumuha sa RAW format para i-adjust ang white balance nang hindi destructive sa post-processing."
         },
         "when-to-use-manual-white-balance": {
-          "question": "When should I use manual white balance?",
-          "answer": "Use manual white balance for mixed lighting (combining natural and artificial), studio setups requiring exact color accuracy, product photography, and any time auto white balance produces inconsistent results across a series of shots."
+          "question": "Kailan ako dapat gumamit ng manual white balance?",
+          "answer": "Gumamit ng manual white balance para sa mixed lighting (pinagsama ang natural at artificial), studio setup na nangangailangan ng tumpak na color accuracy, product photography, at sa kahit anong oras na ang auto white balance ay gumagawa ng hindi pare-parehong resulta sa isang series ng shot."
         }
       }
     }

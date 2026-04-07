@@ -1,82 +1,82 @@
 {
   "education": {
     "equivalent-settings-calculator": {
-      "beginner": "Different sensor sizes produce different depth of field and field of view even at the same focal length and aperture. Equivalent settings let you find the lens and aperture combination on a second camera that reproduces the same framing and background blur. This is essential when comparing gear across formats or switching between camera systems.",
+      "beginner": "不同的感光元件尺寸，即使焦距與光圈相同，也會產生不同的景深與視角。等效設定讓您在另一台相機上找出能重現相同取景與背景虛化的鏡頭與光圈組合。這在跨格式比較器材或切換系統時至關重要。",
       "deeper": {
         "0": {
-          "heading": "The Crop Factor",
-          "text": "Every sensor has a crop factor relative to the 35mm full-frame standard. APS-C sensors have a factor around 1.5×, Micro Four Thirds 2×, and medium format around 0.79×. Multiplying the actual focal length by the crop factor gives the full-frame equivalent field of view. A 35mm lens on APS-C frames like a 52.5mm on full frame."
+          "heading": "裁切係數",
+          "text": "每種感光元件相對於 35mm 全片幅都有一個裁切係數。APS-C 約為 1.5×、微型四三為 2×、中片幅約為 0.79×。將實際焦距乘以裁切係數，即可得到全片幅等效視角。APS-C 上的 35mm 鏡頭取景相當於全片幅上的 52.5mm。"
         },
         "1": {
-          "heading": "Equivalent Aperture & DoF",
-          "text": "To match depth of field across formats, multiply the f-number by the same crop factor. An f/1.4 lens on Micro Four Thirds produces DoF equivalent to f/2.8 on full frame (1.4 × 2 = 2.8). This is why full-frame cameras are prized for shallow DoF — you can use physically faster lenses at wider actual apertures to achieve blur that smaller sensors cannot replicate."
+          "heading": "等效光圈與景深",
+          "text": "要跨格式匹配景深，只需將 f 值乘以相同的裁切係數。微型四三上的 f/1.4 鏡頭，景深相當於全片幅的 f/2.8（1.4 × 2 = 2.8）。這就是為什麼全片幅相機廣受青睞 — 實際上可以用更大的光圈取得較小片幅無法複製的背景虛化效果。"
         },
         "2": {
-          "heading": "Equivalent ISO & Total Light",
-          "text": "Matching exposure brightness across formats requires adjusting ISO by the crop factor squared. The larger sensor collects more total light for the same scene, which means it can use a lower ISO for equivalent noise performance. A full-frame sensor at ISO 800 produces similar noise to an APS-C sensor at ISO 356 and a Micro Four Thirds sensor at ISO 200."
+          "heading": "等效 ISO 與總收光量",
+          "text": "跨格式匹配曝光亮度，ISO 要以裁切係數的平方來調整。較大的感光元件在同一場景中收進更多總光量，因此可以用較低的 ISO 取得相同的雜訊表現。全片幅 ISO 800 的雜訊表現，約等於 APS-C 的 ISO 356 與微型四三的 ISO 200。"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame sensor diagonal to the target sensor diagonal. This single number drives all equivalence calculations for focal length, aperture, and ISO."
+          "label": "裁切係數",
+          "description": "全片幅對角線與目標感光元件對角線的比例。此單一數字主導焦距、光圈與 ISO 的所有等效計算。"
         },
         "1": {
-          "label": "Sensor Size",
-          "description": "Physically larger sensors capture more light and produce shallower DoF at equivalent framing. The equivalence calculator reveals exactly how much difference each format makes."
+          "label": "感光元件尺寸",
+          "description": "物理上更大的感光元件在相同取景下收進更多光線，也具備更淺的景深。等效計算機能精確呈現各格式之間的差距。"
         },
         "2": {
-          "label": "Available Lenses",
-          "description": "Equivalence math may call for a lens that does not exist. A 17mm f/0.7 is the equivalent of 35mm f/1.4 on MFT — but no such lens is made. Real-world gear limits what is achievable."
+          "label": "可用鏡頭",
+          "description": "等效運算得出的結果可能根本沒有實體鏡頭。M4/3 上對應 35mm f/1.4 的等效為 17mm f/0.7 — 但這樣的鏡頭根本不存在。實際器材的限制決定了能達成的目標。"
         }
       },
       "tips": {
         "0": {
-          "text": "When comparing camera systems, always compare at equivalent settings rather than matching f-numbers. An f/2.8 lens on Micro Four Thirds does not give the same background blur as f/2.8 on full frame — you need f/1.4 on MFT to match."
+          "text": "比較相機系統時，請以等效設定而非同樣的 f 值做比較。微型四三的 f/2.8 鏡頭不會帶來和全片幅 f/2.8 相同的背景虛化 — 要在 MFT 上用 f/1.4 才能匹配。"
         },
         "1": {
-          "text": "Use equivalence to plan lens purchases when switching systems. If you love the look of 85mm f/1.8 on full frame, look for a 56mm f/1.2 on APS-C or a 42.5mm f/0.95 on MFT for a similar rendering."
+          "text": "切換系統時用等效關係來規劃鏡頭採購。若您喜歡全片幅 85mm f/1.8 的風格，就可在 APS-C 找 56mm f/1.2，或在 MFT 找 42.5mm f/0.95 來取得相似的呈現。"
         },
         "2": {
-          "text": "Remember that equivalence applies to depth of field and field of view, not to lens speed for exposure. An f/2.8 lens on any format still lets in the same amount of light per unit area — the larger sensor just collects more total light because of its greater area."
+          "text": "請記住：等效關係只適用於景深與視角，不包括曝光。任何格式下的 f/2.8 每單位面積的進光量都相同 — 只是較大的感光元件因為面積更大，收進的總光量也更多。"
         }
       },
       "tooltips": {
         "sourceSensor": {
-          "term": "Source Sensor",
-          "definition": "The sensor format of the camera whose settings you want to match. All equivalence calculations are relative to this starting point."
+          "term": "來源感光元件",
+          "definition": "您想參照設定的相機感光元件格式。所有等效計算都以此為起點。"
         },
         "sourceFocalLength": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens on your source camera. This will be converted to equivalent focal lengths on target formats."
+          "term": "焦距",
+          "definition": "您來源相機上鏡頭的實際焦距。此值會被換算為目標格式的等效焦距。"
         },
         "sourceAperture": {
-          "term": "Aperture",
-          "definition": "The f-number on your source camera. The equivalent aperture on each target format determines matching depth of field."
+          "term": "光圈",
+          "definition": "您來源相機上的 f 值。每個目標格式的等效光圈可決定相符的景深。"
         },
         "targetSensor": {
-          "term": "Target Sensor",
-          "definition": "The sensor format you want to find equivalent settings for. The calculator applies the relative crop factor to compute matching focal length and aperture."
+          "term": "目標感光元件",
+          "definition": "您想找出等效設定的感光元件格式。計算機會套用相對裁切係數來計算匹配的焦距與光圈。"
         },
         "cropFactor": {
-          "term": "Crop Factor",
-          "definition": "The ratio between the diagonal of a 35mm full-frame sensor and the target sensor. Multiply focal length by crop factor for equivalent FOV; multiply aperture by crop factor for equivalent DoF."
+          "term": "裁切係數",
+          "definition": "35mm 全片幅對角線與目標感光元件對角線的比例。焦距乘以裁切係數得到等效視角；光圈乘以裁切係數得到等效景深。"
         },
         "equivalentFL": {
-          "term": "Equivalent Focal Length",
-          "definition": "The focal length on the target format that produces the same field of view as the source setup."
+          "term": "等效焦距",
+          "definition": "目標格式上能產生與來源設定相同視角的焦距。"
         },
         "equivalentAperture": {
-          "term": "Equivalent Aperture",
-          "definition": "The f-number on the target format that produces the same depth of field as the source setup. May be faster than any real lens."
+          "term": "等效光圈",
+          "definition": "目標格式上能產生與來源設定相同景深的 f 值。可能比任何實體鏡頭都還要大。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You shoot portraits with an 85mm f/1.8 lens on a full-frame camera. A friend uses Micro Four Thirds (2× crop). What focal length does your friend need to match your field of view?",
-          "hint": "Divide the full-frame focal length by the MFT crop factor to find the actual lens needed.",
-          "successMessage": "Correct! 85mm / 2 = 42.5mm. Your friend needs a 42.5mm lens on Micro Four Thirds to get the same framing as your 85mm on full frame.",
-          "failureMessage": "To match the field of view, divide by the crop factor: 85mm / 2 = 42.5mm. That is the actual focal length needed on the MFT body.",
+          "scenario": "您用全片幅相機搭配 85mm f/1.8 拍人像。朋友用的是微型四三（2× 裁切）。他需要多少焦距才能拍出相同視角？",
+          "hint": "用全片幅焦距除以 MFT 的裁切係數，就能得到所需的實際鏡頭焦距。",
+          "successMessage": "答對了！85mm / 2 = 42.5mm。您朋友需要 42.5mm 鏡頭，才能在微型四三上取得與您 85mm 全片幅相同的取景。",
+          "failureMessage": "要匹配視角，請用焦距除以裁切係數：85mm / 2 = 42.5mm。這就是 MFT 機身所需的實際焦距。",
           "options": {
             "0": { "label": "42.5mm" },
             "1": { "label": "85mm" },
@@ -85,25 +85,25 @@
           }
         },
         "1": {
-          "scenario": "Your friend found a 42.5mm f/1.8 lens for their MFT camera. Will the background blur match your 85mm f/1.8 on full frame?",
-          "hint": "Apply the crop factor to the aperture as well to find the equivalent DoF.",
-          "successMessage": "Right! The 42.5mm f/1.8 on MFT gives equivalent DoF to 85mm f/3.6 on full frame (1.8 × 2 = 3.6). Your f/1.8 full-frame shot produces significantly more blur.",
-          "failureMessage": "No — the MFT f/1.8 gives DoF equivalent to f/3.6 on full frame (1.8 × 2× crop = 3.6). To match your full-frame f/1.8 blur, your friend would need f/0.9 on MFT, which does not exist.",
+          "scenario": "朋友找到了一顆 42.5mm f/1.8 鏡頭給他的 MFT 相機。背景虛化會與您全片幅 85mm f/1.8 相同嗎？",
+          "hint": "把裁切係數也套用到光圈上，就能得到等效景深。",
+          "successMessage": "沒錯！MFT 上的 42.5mm f/1.8 等效於全片幅 85mm f/3.6 的景深（1.8 × 2 = 3.6）。您全片幅 f/1.8 的虛化明顯更強。",
+          "failureMessage": "不會 — MFT 的 f/1.8 等效於全片幅 f/3.6 的景深（1.8 × 2× 裁切 = 3.6）。若要在 MFT 上匹配您全片幅 f/1.8 的虛化量，需要 f/0.9 — 實際上並不存在。",
           "options": {
-            "0": { "label": "Yes — same f/1.8 means same blur" },
-            "1": { "label": "No — MFT f/1.8 equals full-frame f/3.6 depth of field" },
-            "2": { "label": "No — MFT produces more blur because the sensor is smaller" }
+            "0": { "label": "會 — 同樣是 f/1.8，虛化相同" },
+            "1": { "label": "不會 — MFT f/1.8 等效於全片幅 f/3.6 景深" },
+            "2": { "label": "不會 — MFT 感光元件較小，虛化反而更強" }
           }
         },
         "2": {
-          "scenario": "A photographer switching from full frame to APS-C (1.5× crop) wants to match the look of a 50mm f/1.4 on full frame. What equivalent lens and aperture do they need on APS-C?",
-          "hint": "Divide focal length by the crop factor for equivalent FOV. Divide aperture by the crop factor for equivalent DoF.",
-          "successMessage": "Exactly! 50 / 1.5 = 33mm for field of view, and f/1.4 / 1.5 = f/0.93 for matching DoF. Since no f/0.93 lens exists, the APS-C camera cannot fully replicate the full-frame look.",
-          "failureMessage": "The correct answer is ~33mm f/0.93. Since 50 / 1.5 = 33.3mm and 1.4 / 1.5 = 0.93. No f/0.93 lens exists, so the full-frame look cannot be fully matched on APS-C.",
+          "scenario": "一位從全片幅轉到 APS-C（1.5× 裁切）的攝影師，想在新機身上重現全片幅 50mm f/1.4 的風格。他需要什麼等效鏡頭與光圈？",
+          "hint": "焦距除以裁切係數可得等效視角；光圈除以裁切係數可得等效景深。",
+          "successMessage": "正是如此！50 / 1.5 = 33mm 等效視角，f/1.4 / 1.5 = f/0.93 等效景深。由於沒有 f/0.93 的鏡頭，APS-C 無法完全複製全片幅的風格。",
+          "failureMessage": "正確答案是約 33mm f/0.93。50 / 1.5 = 33.3mm，1.4 / 1.5 = 0.93。f/0.93 的鏡頭並不存在，所以 APS-C 無法完全重現全片幅的風格。",
           "options": {
-            "0": { "label": "35mm f/1.4 — close enough" },
-            "1": { "label": "33mm f/0.93 — exact match, but no such lens exists" },
-            "2": { "label": "75mm f/2.1 — multiply by crop factor" }
+            "0": { "label": "35mm f/1.4 — 差不多就好" },
+            "1": { "label": "33mm f/0.93 — 精確匹配，但沒有這種鏡頭" },
+            "2": { "label": "75mm f/2.1 — 乘以裁切係數" }
           }
         }
       }

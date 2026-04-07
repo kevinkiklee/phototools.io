@@ -1,110 +1,110 @@
 {
   "education": {
     "focus-stacking-calculator": {
-      "beginner": "Focus stacking is a technique where you take multiple photos at different focus distances and merge them in software to create an image with front-to-back sharpness. It is essential for macro photography, where depth of field is razor-thin, and useful in landscape photography when you need both near foreground and distant background in sharp focus.",
+      "beginner": "A focus stacking egy olyan technika, amikor több fotót készítesz különböző fókusztávolságokon, majd szoftverrel egyesíted őket, hogy elölről hátulig éles képet kapj. Elengedhetetlen makrófotózáshoz, ahol a mélységélesség borotvavékony, és hasznos tájképekhez is, amikor a közeli előtér és a távoli háttér is éles kell, hogy legyen.",
       "deeper": {
         "0": {
-          "heading": "Why Stacking Is Necessary",
-          "text": "At macro magnifications, even f/16 may yield only a few millimeters of depth of field. Stopping down further introduces diffraction softening that degrades the image. Focus stacking lets you shoot at the lens's sharpest aperture (typically f/5.6-f/8) and combine the sharp slices. Each frame shifts focus slightly forward, covering a new slice of the subject."
+          "heading": "Miért kell stackelni",
+          "text": "Makrónagyításnál még az f/16 is csak néhány milliméter mélységélességet adhat. Ha tovább szűkítesz, a diffrakció lágyítja a képet, és rontja a minőséget. A focus stackinggel az objektív legélesebb rekeszén fotózhatsz (jellemzően f/5.6–f/8), és az éles szeleteket egyesíted. Minden kocka egy kicsit előrébb fókuszál, és új szeletet fed le a témából."
         },
         "1": {
-          "heading": "Planning the Stack",
-          "text": "The key to a successful stack is ensuring each shot's depth of field overlaps the next by 20-30%. Too little overlap creates gaps where nothing is sharp; too much wastes frames without benefit. The calculator determines the per-shot DoF using the circle of confusion formula, subtracts the overlap margin, and divides the total depth range by the effective step to compute the number of shots."
+          "heading": "A stack tervezése",
+          "text": "A sikeres stack kulcsa, hogy minden kép mélységélessége 20-30%-ban átfedje a következőt. Túl kevés átfedésnél rések maradnak, ahol nincs éles rész; túl sok esetén feleslegesen sok kockát használsz el. A kalkulátor a szóráskör képletéből számolja a kockánkénti DoF-et, levonja az átfedést, majd a teljes mélységet elosztja az effektív lépéssel, hogy megkapja a szükséges kockaszámot."
         },
         "2": {
-          "heading": "Merging & Alignment",
-          "text": "Software like Photoshop, Helicon Focus, or Zerene Stacker aligns the frames (slight magnification shifts occur as focus changes), then selects the sharpest pixels from each layer. Shooting on a sturdy tripod with consistent lighting and using a focus rail for precise increments produces the cleanest results."
+          "heading": "Összevonás és igazítás",
+          "text": "A Photoshop, Helicon Focus vagy Zerene Stacker egymáshoz igazítja a kockákat (a fókusz változásakor enyhe nagyításbeli eltolódás lép fel), majd kiválasztja az éles pixeleket minden rétegből. Erős állvány, állandó fény és fókussín a pontos lépésekhez — így kapod a legtisztább eredményt."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Determines per-shot depth of field. A moderate aperture (f/5.6-f/8) balances sharpness and DoF per frame. Avoid very small apertures — diffraction reduces the sharpness you are stacking for."
+          "label": "Rekesz",
+          "description": "Meghatározza a kockánkénti mélységélességet. A közepes rekesz (f/5.6–f/8) egyensúlyozza az élességet és a DoF-et. Kerüld a nagyon szűk rekeszt — a diffrakció lerontja az élességet, amiért stackelsz."
         },
         "1": {
-          "label": "Depth Range",
-          "description": "The distance from the nearest to farthest point you want sharp. Wider ranges require more shots. In macro work this may be just centimeters; in landscapes it can span meters to infinity."
+          "label": "Mélységtartomány",
+          "description": "A legközelebbi és legtávolabbi pont közötti távolság, amit élesen akarsz. Szélesebb tartományhoz több kocka kell. Makrónál ez lehet pár centi, tájképnél akár méterek a végtelenig."
         },
         "2": {
-          "label": "Overlap",
-          "description": "The percentage of each shot's DoF that overlaps the adjacent shots. 20-30% is standard. Less risks gaps; more wastes frames."
+          "label": "Átfedés",
+          "description": "A szomszédos képek DoF-ének átfedési aránya. A 20-30% a szokásos. Kevesebb réseket kockáztat, több feleslegesen használja el a kockákat."
         }
       },
       "tips": {
         "0": {
-          "text": "Use a focus rail instead of the lens's focus ring for macro stacking. A rail moves the entire camera forward in precise increments, avoiding the slight magnification changes that occur when refocusing the lens."
+          "text": "Makróhoz használj fókussínt az objektív fókuszgyűrűje helyett. A sín a teljes kamerát mozgatja előre pontos lépésekkel, elkerülve az enyhe nagyításbeli eltolódásokat, amiket a fókusz állítása okozna."
         },
         "1": {
-          "text": "Keep your aperture at the lens's sweet spot (typically f/5.6-f/8). The point of stacking is to avoid stopping down to f/16+, so use the sharpest aperture and let the stack handle depth."
+          "text": "Állítsd az objektívet a legélesebb rekeszre (jellemzően f/5.6–f/8). A stack értelme éppen az, hogy ne kelljen f/16-ig leszűkíteni — használd a legélesebb rekeszt, a mélységet pedig a stack oldja meg."
         },
         "2": {
-          "text": "For landscape stacks, shoot front-to-back: focus on the nearest element first, then step focus toward infinity. This makes alignment easier since the foreground (with the most parallax) is captured first."
+          "text": "Tájképnél elölről hátrafelé haladj: először a legközelebbi pontra fókuszálj, majd lépésenként a végtelen felé. Így az igazítás könnyebb, mert a legtöbb parallaxissal bíró előteret fogod elsőnek."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths reduce per-shot depth of field, requiring more frames to cover the same depth range."
+          "term": "Gyújtótávolság",
+          "definition": "Az objektív gyújtótávolsága milliméterben. A hosszabb gyújtótávolság csökkenti a kockánkénti mélységélességet, ezért több kocka kell ugyanahhoz a mélységtartományhoz."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening (f-number). For stacking, use the lens's sharpest aperture rather than stopping down — the stack provides the depth."
+          "term": "Rekesz",
+          "definition": "Az objektív nyílása (f-szám). Stackelésnél az objektív legélesebb rekeszét használd, ne szűkíts le — a stack adja a mélységet."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "Larger sensors have a shallower per-shot depth of field at equivalent framing, which may increase the number of required stack frames."
+          "term": "Érzékelőméret",
+          "definition": "A nagyobb érzékelőknek ekvivalens kompozíción kisebb a kockánkénti mélységélessége, ami több kockát igényelhet a stackhez."
         },
         "nearLimit": {
-          "term": "Near Limit",
-          "definition": "The closest point in the scene that you want sharp. This is where the first shot in the stack will be focused."
+          "term": "Közeli határ",
+          "definition": "A jelenet legközelebbi pontja, amit élesen akarsz. Itt lesz az első kocka fókusza."
         },
         "farLimit": {
-          "term": "Far Limit",
-          "definition": "The farthest point in the scene that you want sharp. The last shot in the stack will cover this distance."
+          "term": "Távoli határ",
+          "definition": "A jelenet legtávolabbi pontja, amit élesen akarsz. Az utolsó kocka erre a távolságra fog fókuszálni."
         },
         "overlap": {
-          "term": "Overlap",
-          "definition": "The percentage of depth-of-field overlap between consecutive shots. 20-30% ensures no gaps after software alignment and merging."
+          "term": "Átfedés",
+          "definition": "A szomszédos képek közötti mélységélesség átfedésének százaléka. 20-30% biztosítja, hogy nem lesznek rések szoftveres igazítás és egyesítés után."
         },
         "shotCount": {
-          "term": "Shot Count",
-          "definition": "The total number of frames needed to cover the depth range with the specified overlap. More shots = more processing but smoother results."
+          "term": "Kockaszám",
+          "definition": "A mélységtartomány lefedéséhez szükséges kockák száma a megadott átfedéssel. Több kocka = több feldolgozás, de simább eredmény."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing a small flower that is 3cm deep from front petal to back stem. Your macro lens at f/8 gives about 4mm of DoF per shot. Roughly how many frames do you need with 25% overlap?",
-          "hint": "Each shot covers 4mm, but 25% overlap means the effective step is 3mm per frame. Divide 30mm by 3mm.",
-          "successMessage": "Correct! With 4mm DoF and 25% overlap, each step advances 3mm. 30mm / 3mm = 10 shots to cover the entire flower.",
-          "failureMessage": "With 25% overlap, each frame's effective step is 75% of the DoF: 4mm × 0.75 = 3mm. You need 30mm / 3mm = 10 shots.",
+          "scenario": "Egy kis virágot fotózol, ami 3 cm mély a legelülső szirmától a hátsó szárig. A makróobjektíved f/8-on kb. 4 mm DoF-et ad kockánként. Durván hány kocka kell 25%-os átfedéssel?",
+          "hint": "Minden kocka 4 mm-t fed le, de 25% átfedéssel az effektív lépés 3 mm kockánként. Oszd el a 30 mm-t 3 mm-rel.",
+          "successMessage": "Jó! 4 mm DoF és 25% átfedés esetén minden lépés 3 mm-t halad. 30 mm / 3 mm = 10 kocka a teljes virág lefedéséhez.",
+          "failureMessage": "25%-os átfedéssel a kockánkénti effektív lépés a DoF 75%-a: 4 mm × 0,75 = 3 mm. 30 mm / 3 mm = 10 kocka kell.",
           "options": {
-            "0": { "label": "5 shots" },
-            "1": { "label": "10 shots" },
-            "2": { "label": "20 shots" },
-            "3": { "label": "30 shots" }
+            "0": { "label": "5 kocka" },
+            "1": { "label": "10 kocka" },
+            "2": { "label": "20 kocka" },
+            "3": { "label": "30 kocka" }
           }
         },
         "1": {
-          "scenario": "You want the sharpest possible result from your focus stack. Should you shoot each frame at f/2.8, f/8, or f/22?",
-          "hint": "Consider the lens's sharpest aperture and how diffraction affects small apertures.",
-          "successMessage": "Right! f/8 is typically the sharpest aperture for most lenses. f/2.8 has too little DoF per shot (wasting frames) and f/22 suffers from diffraction softening.",
-          "failureMessage": "f/8 is the best choice. f/2.8 gives very thin per-shot DoF (requiring many more frames), and f/22 introduces diffraction softening that defeats the purpose of stacking for sharpness.",
+          "scenario": "A legélesebb lehető eredményt akarod a stackből. Kockánként f/2.8-on, f/8-on vagy f/22-n fotózz?",
+          "hint": "Gondold át az objektív legélesebb rekeszét, és hogyan hat a diffrakció a kis rekeszre.",
+          "successMessage": "Jó! Az f/8 a legtöbb objektív legélesebb rekesze. Az f/2.8 túl kevés DoF-et ad kockánként (feleslegesen sok kocka), az f/22 pedig a diffrakció miatt lágyít.",
+          "failureMessage": "Az f/8 a jó választás. Az f/2.8 nagyon vékony kockánkénti DoF-et ad (sokkal több kocka kellene), az f/22 pedig diffrakciós lágyítást hoz, ami pont az ellenkezőjét éri el, mint amiért stackelsz.",
           "options": {
-            "0": { "label": "f/2.8 — widest for fastest shutter" },
-            "1": { "label": "f/8 — lens sweet spot" },
-            "2": { "label": "f/22 — maximum per-shot DoF" }
+            "0": { "label": "f/2.8 — legtágabb a leggyorsabb záridőhöz" },
+            "1": { "label": "f/8 — az objektív legjobb rekesze" },
+            "2": { "label": "f/22 — maximális kockánkénti DoF" }
           }
         },
         "2": {
-          "scenario": "After merging your focus stack, you notice a soft band across the middle of the image where nothing is sharp. What most likely went wrong?",
-          "hint": "Think about what connects one frame's sharp zone to the next.",
-          "successMessage": "Exactly! Insufficient overlap between adjacent frames creates a gap where neither shot is sharp. Increase overlap to 25-30% and reshoot.",
-          "failureMessage": "A soft band usually means the gap between focus steps was too large — the DoF of adjacent frames did not overlap enough. Increase the overlap percentage.",
+          "scenario": "A stack egyesítése után egy lágy sávot látsz a kép közepén, ahol semmi sem éles. Mi mehetett félre?",
+          "hint": "Gondolj arra, mi köti össze az egyik kocka éles zónáját a következővel.",
+          "successMessage": "Pontosan! A szomszédos kockák közötti túl kevés átfedés miatt keletkezik egy rés, ahol egyik kép sem éles. Növeld az átfedést 25-30%-ra, és fotózd újra.",
+          "failureMessage": "A lágy sáv általában azt jelenti, hogy a fókuszlépések közötti rés túl nagy volt — a szomszédos kockák DoF-je nem fedte át egymást eléggé. Növeld az átfedés százalékát.",
           "options": {
-            "0": { "label": "The aperture was too wide" },
-            "1": { "label": "Insufficient overlap between focus steps" },
-            "2": { "label": "The tripod moved during the sequence" },
-            "3": { "label": "The ISO was too high" }
+            "0": { "label": "A rekesz túl tág volt" },
+            "1": { "label": "Túl kevés átfedés a fókuszlépések között" },
+            "2": { "label": "Az állvány elmozdult a sorozat közben" },
+            "3": { "label": "Az ISO túl magas volt" }
           }
         }
       }

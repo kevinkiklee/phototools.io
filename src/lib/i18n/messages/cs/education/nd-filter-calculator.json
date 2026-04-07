@@ -1,109 +1,109 @@
 {
   "education": {
     "nd-filter-calculator": {
-      "beginner": "An ND (neutral density) filter is like sunglasses for your camera lens. It reduces the amount of light entering the lens without changing the colors, allowing you to use slower shutter speeds or wider apertures in bright conditions. This is how photographers create silky waterfalls, smooth oceans, or blurred clouds during the day.",
-      "deeper": "ND filters are rated by how many stops of light they block. An ND2 filter (1 stop) halves the light, an ND8 (3 stops) reduces it to 1/8th, and an ND1000 (10 stops) reduces light by a factor of 1024. The naming conventions can be confusing: \"ND8\" means the filter factor is 8 (3 stops), while \"ND 0.9\" uses optical density notation (each 0.3 = 1 stop, so 0.9 = 3 stops). The resulting shutter speed is simply the base speed multiplied by the filter factor. For example, if your unfiltered exposure is 1/125s and you add a 10-stop ND (ND1000), the new shutter speed is 1/125 x 1024 = approximately 8 seconds. Stacking multiple ND filters adds their stop values together but can introduce vignetting and color casts, especially with wide-angle lenses.",
+      "beginner": "ND filtr (neutrálně šedý) je jako sluneční brýle pro objektiv. Snižuje množství světla vstupujícího do objektivu bez toho, aby měnil barvy, takže si za jasného dne můžeš dovolit pomalejší časy nebo širší clonu. Takhle fotografové tvoří hedvábné vodopády, hladké oceány nebo rozmazané mraky během dne.",
+      "deeper": "ND filtry se označují podle toho, o kolik clon světlo blokují. ND2 (1 stop) ubere půlku světla, ND8 (3 stopy) ho sníží na osminu a ND1000 (10 stopů) zmenší světlo 1024×. Značení bývá matoucí: „ND8\" znamená faktor filtru 8 (3 stopy), zatímco „ND 0,9\" používá optickou hustotu (každých 0,3 = 1 stop, takže 0,9 = 3 stopy). Výsledný čas je prostě základní čas vynásobený faktorem filtru. Například když je tvoje neutrální expozice 1/125 s a nasadíš 10stopový ND (ND1000), nový čas je 1/125 × 1024 ≈ 8 sekund. Kombinování víc ND filtrů sčítá jejich stopy, ale může zavést vinětaci a barevný nádech, zejména u širokoúhlých objektivů.",
       "keyFactors": {
         "0": {
-          "label": "Base Shutter Speed",
-          "description": "The correct exposure time without any filter. Meter the scene first, then calculate the filtered exposure from this starting point."
+          "label": "Základní expoziční čas",
+          "description": "Správná expozice bez filtru. Nejdřív změř scénu a od toho počítej filtrovanou expozici."
         },
         "1": {
-          "label": "Filter Strength",
-          "description": "Measured in stops. Each stop doubles the exposure time. Common strengths: 3-stop (ND8), 6-stop (ND64), and 10-stop (ND1000)."
+          "label": "Hustota filtru",
+          "description": "Měří se ve stopech. Každý stop zdvojnásobí expoziční čas. Běžné hustoty: 3 stopy (ND8), 6 stopů (ND64) a 10 stopů (ND1000)."
         },
         "2": {
-          "label": "Stacking Filters",
-          "description": "You can combine filters by adding their stop values. A 3-stop + 6-stop stack gives 9 stops of reduction. Beware of vignetting on wide-angle lenses."
+          "label": "Kombinace filtrů",
+          "description": "Filtry se dají kombinovat sečtením stopů. 3stopový + 6stopový dává 9 stopů redukce. U širokoúhlých objektivů pozor na vinětaci."
         }
       },
       "tips": {
         "0": {
-          "text": "Compose and focus before attaching a strong ND filter. With 10 stops of light reduction, your viewfinder and autofocus will struggle in the dark."
+          "text": "Zkomponuj a zaostři ještě před nasazením silného ND filtru. S 10 stopy redukce bude mít hledáček i autofokus ve tmě problém."
         },
         "1": {
-          "text": "For seascapes, 1-2 second exposures smooth small ripples into texture while retaining wave structure. Exposures of 30 seconds or more create completely flat, misty water."
+          "text": "U pobřežních scén 1–2 sekundové expozice vyhladí drobné vlnky do struktury a nechají vlny čitelné. Expozice 30 sekund a víc vytvoří úplně plochou, mlžnou vodu."
         },
         "2": {
-          "text": "Cheap ND filters often add a color cast (usually magenta or brown). Invest in quality glass from reputable brands, or learn to correct the cast in post-processing using a gray card reference."
+          "text": "Levné ND filtry často přidávají barevný nádech (obvykle do fialova nebo hněda). Investuj do kvalitního skla od renomovaných značek nebo se nauč nádech opravit v postprodukci pomocí šedé karty."
         }
       },
       "tooltips": {
         "baseShutterSpeed": {
-          "term": "Base Shutter Speed",
-          "definition": "The shutter speed for a correct exposure without any ND filter attached. This is your starting point — the calculator multiplies it by the filter factor."
+          "term": "Základní expoziční čas",
+          "definition": "Expoziční čas pro správnou expozici bez ND filtru. To je tvůj výchozí bod — kalkulačka ho vynásobí faktorem filtru."
         },
         "ndFilter": {
-          "term": "ND Filter",
-          "definition": "A neutral density filter that uniformly reduces light transmission. Rated by filter factor (ND2, ND4, ND8...) or stops of light reduction. ND2 = 1 stop, ND4 = 2 stops, ND8 = 3 stops, and so on."
+          "term": "ND filtr",
+          "definition": "Neutrálně šedý filtr, který rovnoměrně snižuje prostupnost světla. Označuje se faktorem (ND2, ND4, ND8...) nebo počtem stopů redukce. ND2 = 1 stop, ND4 = 2 stopy, ND8 = 3 stopy a tak dál."
         },
         "resultingShutterSpeed": {
-          "term": "Resulting Shutter Speed",
-          "definition": "The new shutter speed after accounting for the ND filter. Calculated by multiplying the base shutter speed by the filter factor (e.g., 1/125s x 1024 for a 10-stop ND)."
+          "term": "Výsledný expoziční čas",
+          "definition": "Nový čas po započtení ND filtru. Spočítá se vynásobením základního času faktorem filtru (například 1/125 s × 1024 pro 10stopový ND)."
         },
         "stopsAdded": {
-          "term": "Stops Added",
-          "definition": "The number of stops of light reduction the ND filter provides. Each stop doubles the required exposure time. 10 stops means the exposure is 1024 times longer."
+          "term": "Přidané clony",
+          "definition": "Počet stopů redukce světla, které filtr přidává. Každý stop zdvojnásobí potřebný čas. 10 stopů znamená 1024× delší expozici."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are at a waterfall and your camera meters a correct exposure at 1/125s without any filter. You attach a 3-stop ND filter (ND8). What is the new shutter speed?",
-          "hint": "Each stop doubles the exposure time. 3 stops means 2 x 2 x 2 = 8 times longer.",
-          "successMessage": "Correct! 1/125s x 8 = 1/15s. This is a good start for motion blur in the water, though you might want an even stronger filter for silky smooth results.",
-          "failureMessage": "A 3-stop ND filter multiplies the exposure time by 8 (2^3 = 8). So 1/125s becomes 1/15s.",
+          "scenario": "Jsi u vodopádu a fotoaparát bez filtru měří správnou expozici při 1/125 s. Nasadíš 3stopový ND filtr (ND8). Jaký bude nový expoziční čas?",
+          "hint": "Každý stop zdvojnásobí čas. 3 stopy znamenají 2 × 2 × 2 = 8× delší.",
+          "successMessage": "Správně! 1/125 s × 8 = 1/15 s. To je dobrý začátek pro rozmazání vody, i když na hedvábně hladký výsledek by se hodil ještě silnější filtr.",
+          "failureMessage": "3stopový ND filtr vynásobí čas osmi (2^3 = 8). 1/125 s se tedy změní na 1/15 s.",
           "options": {
-            "0": { "label": "1/60s" },
-            "1": { "label": "1/30s" },
-            "2": { "label": "1/15s" },
-            "3": { "label": "1/8s" }
+            "0": { "label": "1/60 s" },
+            "1": { "label": "1/30 s" },
+            "2": { "label": "1/15 s" },
+            "3": { "label": "1/8 s" }
           }
         },
         "1": {
-          "scenario": "You want to create a 30-second exposure of clouds moving across the sky. Without a filter, the correct exposure is 1/30s. How many stops of ND filtration do you need?",
-          "hint": "You need to go from 1/30s to 30s — that is 1/30 x factor = 30, so factor = 900. Find the nearest power of 2.",
-          "successMessage": "Correct! Going from 1/30s to 30s is roughly a 1000x increase, which is about 10 stops. An ND1000 (10-stop) filter gets you to approximately 33 seconds.",
-          "failureMessage": "The ratio is 30 / (1/30) = 900. The nearest power of 2 is 1024 (2^10), so you need a 10-stop ND filter.",
+          "scenario": "Chceš 30sekundovou expozici mraků plujících po obloze. Bez filtru je správná expozice 1/30 s. Kolik stopů ND filtrace potřebuješ?",
+          "hint": "Musíš se dostat z 1/30 s na 30 s — to je 1/30 × faktor = 30, takže faktor = 900. Najdi nejbližší mocninu dvou.",
+          "successMessage": "Správně! Přechod z 1/30 s na 30 s je zhruba 1000× nárůst, což je asi 10 stopů. ND1000 (10stopový) tě dostane přibližně na 33 sekund.",
+          "failureMessage": "Poměr je 30 / (1/30) = 900. Nejbližší mocnina dvou je 1024 (2^10), takže potřebuješ 10stopový ND filtr.",
           "options": {
-            "0": { "label": "6 stops (ND64)" },
-            "1": { "label": "8 stops (ND256)" },
-            "2": { "label": "10 stops (ND1000)" },
-            "3": { "label": "15 stops (ND32768)" }
+            "0": { "label": "6 stopů (ND64)" },
+            "1": { "label": "8 stopů (ND256)" },
+            "2": { "label": "10 stopů (ND1000)" },
+            "3": { "label": "15 stopů (ND32768)" }
           }
         },
         "2": {
-          "scenario": "You are shooting a seascape at sunset. The light is fading and your base exposure (no filter) is now 1/4s at f/11, ISO 100. You want 2-minute exposures for ultra-smooth water. What ND filter strength do you need?",
-          "hint": "From 1/4s to 120s is a factor of 480. Find the closest stop value.",
-          "successMessage": "A 9-stop ND would give you 1/4 x 512 = 128 seconds, or just over 2 minutes. Perfect for that misty, ethereal seascape look at sunset.",
-          "failureMessage": "From 0.25s to 120s is about a 480x increase. 2^9 = 512, which is close to 480, so a 9-stop filter gets you to approximately 128 seconds.",
+          "scenario": "Fotíš pobřeží při západu slunce. Světla ubývá a tvoje základní expozice (bez filtru) je teď 1/4 s při f/11, ISO 100. Chceš dvouminutové expozice pro ultra hladkou vodu. Jakou hustotu ND filtru potřebuješ?",
+          "hint": "Z 1/4 s na 120 s je faktor 480. Najdi nejbližší hodnotu ve stopech.",
+          "successMessage": "9stopový ND ti dá 1/4 × 512 = 128 sekund, tedy o něco víc než 2 minuty. Ideální pro éterický vzhled pobřeží za soumraku.",
+          "failureMessage": "Z 0,25 s na 120 s je asi 480× nárůst. 2^9 = 512, což je blízko 480, takže 9stopový filtr tě dostane přibližně na 128 sekund.",
           "options": {
-            "0": { "label": "6 stops" },
-            "1": { "label": "9 stops" },
-            "2": { "label": "10 stops" },
-            "3": { "label": "13 stops" }
+            "0": { "label": "6 stopů" },
+            "1": { "label": "9 stopů" },
+            "2": { "label": "10 stopů" },
+            "3": { "label": "13 stopů" }
           }
         },
         "3": {
-          "scenario": "You want to shoot a portrait at f/1.4 in bright sunlight (base exposure: f/1.4, 1/8000s, ISO 100). Your camera's maximum shutter speed is 1/8000s. Can you shoot at f/1.4 without an ND filter?",
-          "hint": "Check if 1/8000s at f/1.4 and ISO 100 is achievable, or if the scene is still overexposed.",
-          "successMessage": "Correct! On a very bright day (EV 15+), f/1.4 at ISO 100 often needs shutter speeds faster than 1/8000s, which most cameras cannot achieve. A 2-3 stop ND filter lets you shoot wide open without overexposure.",
-          "failureMessage": "In bright sunlight, f/1.4 at ISO 100 may require shutter speeds beyond the camera's 1/8000s limit. An ND filter is essential for wide-aperture shooting in bright conditions.",
+          "scenario": "Chceš fotit portrét na f/1.4 v jasném slunci (základní expozice: f/1.4, 1/8000 s, ISO 100). Maximální čas tvého fotoaparátu je 1/8000 s. Dá se fotit na f/1.4 bez ND filtru?",
+          "hint": "Ověř, jestli je 1/8000 s při f/1.4 a ISO 100 dosažitelné, nebo jestli je scéna pořád přeexponovaná.",
+          "successMessage": "Správně! V jasném slunci (EV 15+) vyžaduje f/1.4 při ISO 100 často časy rychlejší než 1/8000 s, což většina fotoaparátů nezvládne. 2–3stopový ND ti umožní fotit naplno bez přepálení.",
+          "failureMessage": "V jasném slunci může f/1.4 při ISO 100 vyžadovat časy rychlejší než 1/8000 s. ND filtr je pro focení s širokou clonou za jasna nezbytný.",
           "options": {
-            "0": { "label": "Yes — 1/8000s is fast enough" },
-            "1": { "label": "No — you likely need a 2-3 stop ND filter" },
-            "2": { "label": "Just raise ISO to compensate" }
+            "0": { "label": "Ano — 1/8000 s stačí" },
+            "1": { "label": "Ne — nejspíš potřebuješ 2–3stopový ND filtr" },
+            "2": { "label": "Stačí zvýšit ISO" }
           }
         },
         "4": {
-          "scenario": "You own a 6-stop and a 3-stop ND filter. You stack them on your lens with a base exposure of 1/250s. What is the resulting shutter speed, and what should you watch for with this setup?",
-          "hint": "Add the stop values together, then calculate the new exposure. Think about optical side effects of stacking.",
-          "successMessage": "Correct! 6 + 3 = 9 stops. 1/250 x 512 = approximately 2 seconds. Watch for vignetting (dark corners) on wide-angle lenses and potential color casts from cheap glass.",
-          "failureMessage": "Stacking adds the stop values: 6 + 3 = 9 stops total. 2^9 = 512, so 1/250 x 512 = ~2 seconds. Stacking can also cause vignetting and color casts.",
+          "scenario": "Máš 6stopový a 3stopový ND filtr. Nasadíš je oba zároveň na objektiv, základní expozice je 1/250 s. Jaký bude výsledný čas a na co u této sestavy dát pozor?",
+          "hint": "Sečti stopy a spočítej novou expozici. Zamysli se nad optickými vedlejšími efekty kombinování.",
+          "successMessage": "Správně! 6 + 3 = 9 stopů. 1/250 × 512 = přibližně 2 sekundy. Pozor na vinětaci (tmavé rohy) u širokoúhlých objektivů a možný barevný nádech z levnějšího skla.",
+          "failureMessage": "Kombinování sčítá stopy: 6 + 3 = 9 stopů celkem. 2^9 = 512, takže 1/250 × 512 = ~2 s. Kombinování může také způsobit vinětaci a barevný nádech.",
           "options": {
-            "0": { "label": "~0.5s, watch for lens flare" },
-            "1": { "label": "~2s, watch for vignetting and color casts" },
-            "2": { "label": "~4s, watch for sensor overheating" },
-            "3": { "label": "~8s, no concerns with stacking" }
+            "0": { "label": "~0,5 s, pozor na odlesky" },
+            "1": { "label": "~2 s, pozor na vinětaci a barevný nádech" },
+            "2": { "label": "~4 s, pozor na přehřátí snímače" },
+            "3": { "label": "~8 s, kombinování nic neznamená" }
           }
         }
       }

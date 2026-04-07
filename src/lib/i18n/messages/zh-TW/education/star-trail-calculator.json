@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "星星看起來會橫越夜空，其實是因為地球在自轉。若快門開得夠久，星星在照片上就會拉出軌跡。星軌計算機能幫您找到拍攝點狀星空的最長曝光時間，或規劃長曝以捕捉美麗的圓形星軌。",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "星星如何移動",
+          "text": "地球大約以 23 小時 56 分鐘（恆星日）完成 360° 自轉，因此赤道上的星星每秒移動約 15 角秒。靠近天極的星星（北方的北極星）畫的圓較小，看起來移動較慢。"
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "500 法則 vs NPF 法則",
+          "text": "經典的「500 法則」用 500 除以有效焦距，估算星軌出現前的最長曝光時間 — 但它是為低解析度感光元件設計的。NPF 法則則納入畫素間距、焦距、光圈與赤緯，為現代高解析度相機提供更短也更精確的極限值。"
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "堆疊拍星軌",
+          "text": "拍刻意的星軌時，攝影師會拍攝許多較短的曝光（通常每張 30 秒）再於軟體中堆疊。這樣可避免雜訊累積、取得無斷裂的星軌，即使單張廢掉也不會毀掉整張作品。"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "焦距",
+          "description": "長焦距會放大星星移動，需要更短的曝光才能維持點狀。14mm 鏡頭的曝光時間可以是 200mm 的 5 到 10 倍。"
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "感光元件解析度",
+          "description": "解析度越高的感光元件在更短的曝光時間就能看出拖尾。500 法則對現代 40MP 以上的相機過於寬鬆。"
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "緯度與赤緯",
+          "description": "靠近天極的星星每秒移動較少。朝北極星方向拍攝可以使用較長的曝光而不出現拖尾。"
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "堆疊 vs 單次曝光",
+          "description": "拍星軌時，堆疊許多短曝光比單次極長曝光更乾淨，也能在中斷後救回作品。"
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "現代相機請使用 NPF 法則而非 500 法則。它會納入感光元件解析度，對於高畫素機身能提供更準確的最長曝光時間。"
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "拍攝星軌堆疊時，幀與幀之間的間隔請控制在 2–3 秒以內，可使用線控或間隔計時器。間隔太長會使星軌變成虛線而非連續線條。"
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "將北極星（或南天極）納入構圖，可拍出戲劇性的同心圓星軌。越靠近極點的星星畫出的弧線越緊密。"
         }
       },
       "tooltips": {
         "mode": {
-          "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "term": "模式",
+          "definition": "選擇「點狀星空」可計算星星維持點狀的最長曝光時間；選「星軌」則可規劃刻意拍攝星軌的曝光序列。"
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "焦距",
+          "definition": "鏡頭焦距（mm）。長焦距會放大星星視覺上的移動速度，需要更短的單張曝光時間。"
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "感光元件尺寸",
+          "definition": "感光元件的實際尺寸。與解析度一起決定畫素間距，進而影響星軌拖尾出現的速度。"
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "解析度",
+          "definition": "感光元件解析度（MP）。高解析度相機更早就能看出星軌拖尾，因為每個畫素涵蓋的天空角度更小。"
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "term": "光圈",
+          "definition": "鏡頭開口。天文攝影請使用最大光圈（最低 f 值），讓每張能捕捉更多星光。"
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "緯度",
+          "definition": "您的地理緯度。影響星星視覺上的移動速率 — 緯度越高，靠近極點的星星在畫面上移動得越慢。"
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "每張曝光時間",
+          "definition": "星軌序列中每一張的快門速度。通常為 15–30 秒，以收集足夠光線又避免過多雜訊。"
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "張數",
+          "definition": "要拍攝的總張數。張數越多，星軌越長越戲劇性。120 張 30 秒可記錄 1 小時的星軌。"
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "幀間隔",
+          "definition": "相機儲存檔案所需的曝光間隔。盡可能控制在 1–3 秒內，以避免星軌變成虛線。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "您用全片幅 24MP 相機搭配 24mm 鏡頭拍銀河。按照 500 法則，大約可以曝光多久才會出現星軌？",
+          "hint": "500 法則：最長秒數 = 500 / 焦距。",
+          "successMessage": "沒錯！500 / 24 ≈ 20 秒。這是個好起點，不過 NPF 法則可能會建議略短的時間以確保嚴格銳利度。",
+          "failureMessage": "套用 500 法則：500 除以焦距（24mm）。大約是 20 秒。",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 秒" },
+            "1": { "label": "10 秒" },
+            "2": { "label": "20 秒" },
+            "3": { "label": "60 秒" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "您想用裁切感光元件相機（1.5x 裁切係數）搭配 200mm 鏡頭拍獵戶座大星雲。依照 500 法則，最長曝光大約是多少？",
+          "hint": "裁切感光元件要先把焦距乘上裁切係數，再套用法則。",
+          "successMessage": "答對了！有效焦距為 200mm × 1.5 = 300mm。500 / 300 ≈ 1.7 秒。裁切機身上的望遠焦段，星軌出現前的時間非常短。",
+          "failureMessage": "別忘了算上裁切係數：200mm × 1.5 = 300mm 等效。500 / 300 ≈ 1.7 秒。",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "約 1.7 秒" },
+            "1": { "label": "約 2.5 秒" },
+            "2": { "label": "約 5 秒" },
+            "3": { "label": "約 10 秒" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "您想拍一張 2 小時的星軌照。計畫以 30 秒曝光、2 秒間隔拍攝。需要多少張？",
+          "hint": "計算 2 小時（7200 秒）中能放進多少個 32 秒（30s 曝光 + 2s 間隔）的週期。",
+          "successMessage": "答對了！7200 秒 / 32 秒每張 = 225 張。您將取得 2 小時地球自轉下連續平順的星軌。",
+          "failureMessage": "2 小時 = 7200 秒。每張週期為 30s + 2s = 32s。將 7200 除以 32 得到所需張數。",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 張" },
+            "1": { "label": "180 張" },
+            "2": { "label": "225 張" },
+            "3": { "label": "240 張" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "朋友用 50MP 全片幅相機搭配 20mm 鏡頭，按照 500 法則曝光 25 秒，卻抱怨放大後星星變成短線。為什麼？",
+          "hint": "500 法則是為解析度較低的舊感光元件所設計。",
+          "successMessage": "完全正確！500 法則對高解析度感光元件過於寬鬆。50MP 全片幅的畫素間距約 4.4 微米，NPF 法則建議大約 10–12 秒才能取得真正銳利的星星。",
+          "failureMessage": "500 法則是在感光元件畫素還不多的時代制定的。50MP 下每個畫素涵蓋的天空區域小得多，能看到舊相機完全偵測不到的星星位移。",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "鏡頭沒對焦" },
+            "1": { "label": "500 法則對高解析度感光元件過於寬鬆" },
+            "2": { "label": "風吹得相機晃動" },
+            "3": { "label": "20mm 對天文攝影太廣角" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "您想拍一張 1 小時的星軌作品。為什麼有經驗的天文攝影師會堆疊許多短曝光（例如 240 張 15 秒），而不是直接曝光 1 小時？",
+          "hint": "想想極長單張曝光下感光元件的雜訊、電池續航與可救援性。",
+          "successMessage": "答對了！單張 1 小時的曝光會累積大量熱雜訊、耗盡電池，而且只要一個意外（震動、結露、車燈）整張就毀了。堆疊短幀能控制雜訊、可剔除壞幀，也寬容得多。",
+          "failureMessage": "極長單次曝光會累積嚴重熱雜訊，也無法從任何中斷中救回來。堆疊短幀能把雜訊控制在可接受範圍，還能丟掉廢幀，成果更乾淨。",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "堆疊能拍出比單張更長的星軌" },
+            "1": { "label": "單張曝光無法記錄星星移動" },
+            "2": { "label": "堆疊能降低雜訊、從中斷救回、並節省電力" },
+            "3": { "label": "實際上沒有差別 — 純粹是個人偏好" }
           }
         }
       }

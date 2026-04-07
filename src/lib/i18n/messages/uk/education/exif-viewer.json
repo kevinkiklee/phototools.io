@@ -1,123 +1,123 @@
 {
   "education": {
     "exif-viewer": {
-      "beginner": "EXIF data is hidden information embedded in every photo your camera takes. It records what camera and lens you used, the exact settings (aperture, shutter speed, ISO), the date and time, and sometimes even GPS coordinates. This tool reads that data without uploading your photo anywhere — everything happens in your browser.",
-      "deeper": "EXIF (Exchangeable Image File Format) is a standard defined by JEITA/CIPA that stores metadata in JPEG, TIFF, and some RAW files. The data is written into specific segments of the file header as tagged key-value pairs using a TIFF-based IFD (Image File Directory) structure. There are several IFD sections: IFD0 for basic image info, the EXIF sub-IFD for camera settings, the GPS IFD for geolocation, and the Interop IFD for compatibility data. Camera manufacturers also write proprietary \"MakerNote\" data containing lens corrections, focus points, shutter count, and other model-specific details. Social media platforms often strip EXIF data on upload for privacy, but the original file on your memory card always retains it. Understanding EXIF helps you learn from your own shooting patterns and reverse-engineer the settings behind photos you admire.",
+      "beginner": "EXIF — це прихована інформація, яка записується в кожне фото з твоєї камери. Там зафіксовано, якою камерою й об'єктивом ти знімав, точні параметри (діафрагма, витримка, ISO), дата й час, а іноді навіть GPS-координати. Цей інструмент читає ці дані, нічого нікуди не завантажуючи — все відбувається у твоєму браузері.",
+      "deeper": "EXIF (Exchangeable Image File Format) — це стандарт JEITA/CIPA, який зберігає метадані у файлах JPEG, TIFF і деяких RAW. Дані записуються у певні сегменти заголовка файлу як пари ключ-значення через TIFF-структуру IFD (Image File Directory). Є кілька секцій IFD: IFD0 для базової інформації про зображення, EXIF sub-IFD для параметрів камери, GPS IFD для геолокації й Interop IFD для сумісності. Виробники камер також пишуть власні дані в \"MakerNote\" — корекції об'єктивів, точки фокусування, кількість спрацювань затвора й інші специфічні деталі. Соцмережі часто вирізають EXIF при завантаженні з міркувань приватності, але оригінал на карті пам'яті завжди його зберігає. Розуміння EXIF допомагає вчитися на власних кадрах і розбиратися у налаштуваннях тих фото, якими захоплюєшся.",
       "keyFactors": {
         "0": {
-          "label": "Camera & Lens",
-          "description": "Make, model, lens name, and lens manufacturer — useful for identifying gear in photos you find online."
+          "label": "Камера й об'єктив",
+          "description": "Виробник, модель, назва й виробник об'єктива — зручно, щоб розпізнати техніку на фото з інтернету."
         },
         "1": {
-          "label": "Exposure Settings",
-          "description": "Aperture, shutter speed, ISO, and focal length — the core shooting parameters recorded for every frame."
+          "label": "Параметри експозиції",
+          "description": "Діафрагма, витримка, ISO і фокусна відстань — основні параметри зйомки, які пишуться у кожен кадр."
         },
         "2": {
-          "label": "Date & GPS",
-          "description": "When and where the photo was taken. Be mindful that GPS data reveals your location when sharing files."
+          "label": "Дата і GPS",
+          "description": "Коли і де зроблено фото. Май на увазі, що GPS-дані розкривають твоє місцеперебування, коли ти ділишся файлом."
         },
         "3": {
-          "label": "Software",
-          "description": "Shows which editing software last saved the file. Useful for checking if an image has been processed."
+          "label": "Програмне забезпечення",
+          "description": "Показує, яким редактором файл був збережений востаннє. Корисно, щоб перевірити, чи зображення оброблялося."
         }
       },
       "tips": {
         "0": {
-          "text": "Check the focal length and 35mm equivalent to understand whether the photographer used a wide, normal, or telephoto perspective — this teaches composition more than any rule of thirds."
+          "text": "Подивись на фокусну відстань і її 35 мм еквівалент, щоб зрозуміти, знімав фотограф у ширококутній, нормальній чи телеоптиці — це вчить композиції краще за будь-яке правило третин."
         },
         "1": {
-          "text": "If a photo you admire was shot at high ISO with a wide aperture, that tells you it was a low-light situation. Use EXIF to understand the constraints the photographer faced."
+          "text": "Якщо фото, яким ти захоплюєшся, зняте на високому ISO з широкою діафрагмою — це означає, що світла було обмаль. EXIF допомагає зрозуміти, з якими обмеженнями працював фотограф."
         },
         "2": {
-          "text": "Before sharing photos online, be aware that EXIF may contain your GPS location. Strip metadata using your editing software export settings if privacy is a concern."
+          "text": "Перед тим як викласти фото в мережу, пам'ятай, що EXIF може містити твої GPS-координати. Якщо приватність важлива — вирізай метадані в налаштуваннях експорту редактора."
         }
       },
       "tooltips": {
         "Make": {
-          "term": "Make",
-          "definition": "The camera manufacturer name (e.g., Canon, Nikon, Sony) stored in the EXIF header."
+          "term": "Виробник",
+          "definition": "Назва виробника камери (Canon, Nikon, Sony тощо), записана в заголовку EXIF."
         },
         "Model": {
-          "term": "Model",
-          "definition": "The specific camera model (e.g., \"EOS R5\", \"Z 9\") that captured the image."
+          "term": "Модель",
+          "definition": "Конкретна модель камери (наприклад, \"EOS R5\", \"Z 9\"), якою зняли кадр."
         },
         "Aperture": {
-          "term": "Aperture",
-          "definition": "The f-number the lens was set to. Lower numbers mean wider aperture and more light."
+          "term": "Діафрагма",
+          "definition": "f-число, на якому стояв об'єктив. Менші значення — ширший отвір і більше світла."
         },
         "Shutter Speed": {
-          "term": "Shutter Speed",
-          "definition": "How long the sensor was exposed. Expressed as a fraction (e.g., 1/250s) or whole seconds for long exposures."
+          "term": "Витримка",
+          "definition": "Скільки часу сенсор був відкритий світлу. Записується як дріб (наприклад, 1/250s) або цілі секунди для довгих експозицій."
         },
         "ISO": {
           "term": "ISO",
-          "definition": "The sensor sensitivity setting. Higher ISO brightens the image but adds noise."
+          "definition": "Чутливість сенсора. Вище ISO освітлює кадр, але додає шум."
         },
         "Focal Length": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens in millimeters."
+          "term": "Фокусна відстань",
+          "definition": "Реальна фокусна відстань об'єктива в міліметрах."
         },
         "Focal Length (35mm equiv)": {
-          "term": "Focal Length (35mm equiv.)",
-          "definition": "The equivalent focal length as if shot on a full-frame 35mm sensor. Useful for comparing field of view across sensor sizes."
+          "term": "Фокусна відстань (еквівалент 35 мм)",
+          "definition": "Еквівалентна фокусна відстань, якби кадр був зроблений на повнокадровій матриці 35 мм. Зручно для порівняння кута огляду між різними форматами."
         },
         "GPS": {
           "term": "GPS",
-          "definition": "Latitude and longitude coordinates embedded by cameras with GPS modules. Reveals where the photo was taken."
+          "definition": "Координати широти і довготи, записані камерами з GPS. Показують, де зроблено фото."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You found a stunning photo online and want to know what lens was used. Which EXIF section would tell you?",
-          "hint": "Camera and lens info are in different sections.",
-          "successMessage": "Correct! The Lens section shows the lens model and manufacturer.",
-          "failureMessage": "The Lens section contains the lens model — check there to identify the glass used.",
+          "scenario": "Знайшов крутий кадр в інтернеті і хочеш дізнатися, яким об'єктивом його зняли. У якій секції EXIF шукати?",
+          "hint": "Інформація про камеру і про об'єктив — у різних секціях.",
+          "successMessage": "Правильно! Секція \"Об'єктив\" показує модель і виробника.",
+          "failureMessage": "Секція \"Об'єктив\" містить модель — саме там шукай, щоб розпізнати оптику.",
           "options": {
-            "0": { "label": "Camera" },
-            "1": { "label": "Lens" },
-            "2": { "label": "Settings" }
+            "0": { "label": "Камера" },
+            "1": { "label": "Об'єктив" },
+            "2": { "label": "Параметри" }
           }
         },
         "1": {
-          "scenario": "You uploaded a photo and see Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Was this likely shot in bright or dim light?",
-          "hint": "A very fast shutter speed at low ISO suggests lots of available light.",
-          "successMessage": "Right! The fast shutter speed (1/4000s) at base ISO (100) tells you there was plenty of light — likely bright outdoors.",
-          "failureMessage": "A shutter speed of 1/4000s at ISO 100 means the camera needed very little sensitivity and very short exposure. That is a bright outdoor scene.",
+          "scenario": "Завантажуєш фото і бачиш: діафрагма f/1.8, витримка 1/4000s, ISO 100. У яскравому чи тьмяному світлі це, імовірно, знято?",
+          "hint": "Дуже коротка витримка при низькому ISO підказує, що світла було багато.",
+          "successMessage": "Так! Коротка витримка (1/4000s) на базовому ISO (100) означає, що світла було в надлишку — імовірно, яскрава вулиця.",
+          "failureMessage": "Витримка 1/4000s на ISO 100 означає, що камері вистачало і мінімальної чутливості, і дуже короткої експозиції. Це яскрава сцена на вулиці.",
           "options": {
-            "0": { "label": "Bright light — fast shutter at low ISO" },
-            "1": { "label": "Dim light — the wide aperture compensates" }
+            "0": { "label": "Яскраве світло — коротка витримка на низькому ISO" },
+            "1": { "label": "Тьмяне світло — компенсує широка діафрагма" }
           }
         },
         "2": {
-          "scenario": "A photo shows Focal Length: 50mm and Focal Length (35mm equiv.): 75mm. What sensor was the camera using?",
-          "hint": "The 35mm equivalent is the focal length multiplied by the crop factor.",
-          "successMessage": "Correct! 75 / 50 = 1.5x crop factor, which is an APS-C sensor (Nikon/Sony variant).",
-          "failureMessage": "Divide the 35mm equivalent by the actual focal length: 75 / 50 = 1.5x. That crop factor matches APS-C (Nikon/Sony).",
+          "scenario": "Фото показує фокусну відстань 50 мм і фокусну відстань (еквівалент 35 мм) 75 мм. Яка матриця була в камері?",
+          "hint": "Еквівалент 35 мм — це реальна фокусна відстань, помножена на кроп-фактор.",
+          "successMessage": "Правильно! 75 / 50 = 1.5× кроп-фактор — це APS-C (варіант Nikon/Sony).",
+          "failureMessage": "Ділимо еквівалент 35 мм на реальну фокусну: 75 / 50 = 1.5×. Такий кроп-фактор відповідає APS-C (Nikon/Sony).",
           "options": {
-            "0": { "label": "Full Frame (1.0x crop)" },
-            "1": { "label": "APS-C (1.5x crop)" },
-            "2": { "label": "Micro Four Thirds (2.0x crop)" }
+            "0": { "label": "Повний кадр (кроп 1.0×)" },
+            "1": { "label": "APS-C (кроп 1.5×)" },
+            "2": { "label": "Micro Four Thirds (кроп 2.0×)" }
           }
         },
         "3": {
-          "scenario": "You see two photos of the same scene. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Which photo was taken in brighter light?",
-          "hint": "Higher ISO compensates for less light.",
-          "successMessage": "Exactly! Photo B at ISO 200 had much more ambient light. Photo A needed ISO 3200 (4 stops more sensitivity) to achieve the same exposure, meaning the scene was much darker.",
-          "failureMessage": "Photo B was in brighter light. Same aperture and shutter speed, but ISO 200 vs 3200 means Photo A was in a much darker environment and needed 4 stops more sensor sensitivity.",
+          "scenario": "Бачиш два кадри однієї сцени. Кадр A: f/2.8, 1/60s, ISO 3200. Кадр B: f/2.8, 1/60s, ISO 200. Який зроблений у яскравішому світлі?",
+          "hint": "Вище ISO компенсує брак світла.",
+          "successMessage": "Саме так! Кадр B на ISO 200 зроблено при значно більшому світлі. Кадр A потребував ISO 3200 (на 4 стопи чутливіше), щоб отримати ту саму експозицію — сцена була набагато темнішою.",
+          "failureMessage": "Яскравіше — кадр B. Та сама діафрагма і витримка, але ISO 200 проти 3200 означає, що кадр A знімався в набагато темнішому середовищі і потребував на 4 стопи більшої чутливості.",
           "options": {
-            "0": { "label": "Photo A (ISO 3200)" },
-            "1": { "label": "Photo B (ISO 200)" }
+            "0": { "label": "Кадр A (ISO 3200)" },
+            "1": { "label": "Кадр B (ISO 200)" }
           }
         },
         "4": {
-          "scenario": "You are analyzing a wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. The EXIF shows the software field is \"Adobe Lightroom Classic 13.1\". What can you infer about the photographer and the shooting conditions?",
-          "hint": "Consider the long focal length, wide-open aperture, fast shutter, and elevated ISO together.",
-          "successMessage": "Great analysis! The 400mm at f/5.6 (likely wide open for that lens) with a fast 1/2000s shutter suggests a fast-moving subject (birds or wildlife in action). ISO 1600 indicates it was not bright sunlight — probably overcast or in shade. The Lightroom field confirms post-processing was done.",
-          "failureMessage": "The settings reveal a lot: 400mm f/5.6 is a typical wildlife telephoto wide open, 1/2000s freezes fast animal movement, and ISO 1600 means light was limited (not bright sun). The Lightroom entry confirms the file was processed.",
+          "scenario": "Аналізуєш кадр із дикою природою: 400 мм, f/5.6, 1/2000s, ISO 1600. У EXIF у полі software стоїть \"Adobe Lightroom Classic 13.1\". Що можна сказати про фотографа й умови зйомки?",
+          "hint": "Розглянь разом довгу фокусну відстань, відкриту діафрагму, коротку витримку й підняте ISO.",
+          "successMessage": "Гарний аналіз! 400 мм f/5.6 (імовірно, на відкритій для цього об'єктива) із короткою 1/2000s підказує швидкий об'єкт (птахи або тварини в русі). ISO 1600 означає, що яскравого сонця не було — радше похмуро або в затінку. Поле Lightroom підтверджує, що файл проходив постобробку.",
+          "failureMessage": "Параметри розкривають багато: 400 мм f/5.6 — типовий телеоб'єктив для дикої природи на відкритій, 1/2000s заморожує швидкий рух тварини, а ISO 1600 означає, що світла було мало (не яскраве сонце). Запис Lightroom підтверджує, що файл оброблявся.",
           "options": {
-            "0": { "label": "Fast subject in moderate light, post-processed in Lightroom" },
-            "1": { "label": "Slow subject in bright light, straight from camera" },
-            "2": { "label": "Landscape shot with motion blur, heavily edited" }
+            "0": { "label": "Швидкий об'єкт у помірному світлі, оброблено в Lightroom" },
+            "1": { "label": "Повільний об'єкт у яскравому світлі, прямо з камери" },
+            "2": { "label": "Пейзажний кадр зі змазом у русі, сильно відредагований" }
           }
         }
       }

@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "Ang depth of field (DoF) ay ang range ng distansya sa litrato mo na mukhang katanggap-tanggap na matalas. Ang mababaw na DoF ay nagbo-blur sa background sa likod ng subject mo, habang ang malalim na DoF ay pinapanatili ang lahat mula foreground hanggang horizon na in-focus. Ang pagkontrol sa DoF ay isa sa pinakamakapangyarihang creative tool sa photography.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Paano Gumagana ang DoF",
+          "text": "Ang depth of field ay pinamumunuan ng circle of confusion (CoC) — ang pinakamalaking blur spot sa sensor na mukhang matalas pa rin sa mata ng tao. Tatlong pisikal na salik ang tumutukoy sa DoF: focal length, aperture, at subject distance. Ang mas malawak na aperture (mas mababang f-number) ay gumagawa ng mas mababaw na DoF dahil pinag-co-converge ng lens ang liwanag sa mas matatarik na anggulo, kaya kumakalat ang mga out-of-focus points sa mas malalaking bilog sa sensor."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Focal Length at Distansya",
+          "text": "Ang mas mahabang focal length ay nagpapalaki ng imahe, na nagpapalaki rin ng mga blur circle at nagpapababaw ng DoF. Ang pagpalapit sa subject ay nagpapababaw din ng DoF para sa parehong dahilan — lumalaki ang relatibong pagkakaiba ng distansya sa pagitan ng subject at background. Ang hyperfocal distance ay ang focus distance kung saan umaabot ang DoF mula sa kalahati ng distansyang iyon hanggang infinity, pina-maximize ang katalasan sa buong eksena."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Bokeh at Diffraction",
+          "text": "Ang bokeh ay tumutukoy sa kalidad ng out-of-focus areas. Ang bilang at hugis ng aperture blades ay nakakaapekto sa character ng bokeh — ang mas bilog na blades ay gumagawa ng mas smooth at mas bilog na highlights. Sa napakaliit na aperture (f/16+), ang diffraction ay nagpapakalat sa liwanag habang dumadaan ito sa mga gilid ng aperture, na nagpapa-soft sa buong imahe kahit sa loob ng DoF zone. Palaging may sweet spot — karaniwan sa f/5.6-f/8 sa full-frame — kung saan optimal na nababalanse ang sharpness at depth of field."
         }
       },
       "keyFactors": {
         "0": {
           "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "description": "Ang mas malawak na aperture (f/1.4-f/2.8) ay gumagawa ng mababaw na DoF na may creamy bokeh. Ang mas makitid na aperture (f/8-f/16) ay nagdadagdag ng katalasan sa buong eksena."
         },
         "1": {
           "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "description": "Ang mas mahabang lens ay nag-co-compress ng perspective at nagpapababaw ng DoF sa parehong aperture at framing. Ang 200mm lens sa f/4 ay may mas mababaw na DoF kaysa sa 35mm lens sa f/4."
         },
         "2": {
           "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "description": "Mas malapit kang naka-focus, mas mababaw ang DoF. Ang mga macro photographer ay madalas nagtatrabaho gamit ang DoF na sinusukat sa millimeters."
         },
         "3": {
           "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "description": "Ang mas malalaking sensor ay nangangailangan ng mas mahabang focal length para sa parehong framing, na indirectly nagpapababaw ng DoF. Ang full-frame camera ay gumagawa ng mas mababaw na DoF kaysa sa Micro Four Thirds camera sa equivalent framing."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "Para sa group portrait, gumamit ng f/5.6 o mas makitid at pasuyuin ang lahat na tumayo sa parehong focal plane. Kahit isang tao lang na half-step forward ay maaaring ma-out of focus sa malalawak na aperture."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "Kapag kumukuha ng landscape, mag-focus sa hyperfocal distance sa halip na sa infinity. Pina-maximize nito ang zone ng katalasan mula sa malapit na foreground hanggang sa malayong background."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Kung gusto mo ng maximum background blur para sa portrait, dagdagan ang focal length mo at lumapit hangga't pinapayagan ng framing — parehong pagbabago ay nag-i-stack para dramatikong bawasan ang DoF."
         }
       },
       "tooltips": {
         "focalLength": {
           "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "definition": "Ang distansya sa millimeters mula sa optical center ng lens hanggang sa sensor kapag naka-focus sa infinity. Ang mas mahabang focal length ay nagpapalaki ng imahe at nagpapababaw ng depth of field."
         },
         "aperture": {
           "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "definition": "Ang sukat ng butas ng lens, ipinapahayag bilang f-number (hal. f/2.8). Ang mas mababang f-number ay nangangahulugan ng mas malawak na butas, nagpapapasok ng mas maraming liwanag at gumagawa ng mas mababaw na depth of field."
         },
         "subjectDistance": {
           "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "definition": "Ang distansya mula sa camera sensor hanggang sa punto ng focus. Ang mas malalapit na focus distance ay nagreresulta sa mas mababaw na depth of field."
         },
         "sensor": {
           "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "definition": "Ang pisikal na sukat ng camera sensor. Ang mas malalaking sensor (full-frame, medium format) ay gumagawa ng mas mababaw na depth of field sa equivalent framing kumpara sa mas maliliit na sensor (APS-C, Micro Four Thirds)."
         },
         "orientation": {
           "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "definition": "I-toggle sa pagitan ng landscape (horizontal) at portrait (vertical) na shooting orientation. Nakakaapekto ito sa framing reference para sa subject distance calculations."
         },
         "nearFocus": {
           "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "definition": "Ang pinakamalapit na distansya mula sa camera na mukhang katanggap-tanggap na matalas. Ang lahat ng mas malapit kaysa dito ay magmumukhang blurred."
         },
         "farFocus": {
           "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "definition": "Ang pinakamalayong distansya mula sa camera na mukhang katanggap-tanggap na matalas. Kapag naabot nito ang infinity, lahat ng higit sa near limit ay in-focus."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Kabuuang Depth of Field",
+          "definition": "Ang buong distansya sa pagitan ng near at far focus limits — ang buong zone na mukhang matalas sa imahe."
         },
         "hyperfocal": {
           "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "definition": "Ang focus distance na nag-ma-maximize sa depth of field. Kapag nag-focus ka sa distansyang ito, ang lahat mula sa kalahati ng hyperfocal distance hanggang infinity ay mukhang matalas."
         },
         "backgroundBlur": {
           "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "definition": "Isang sukat kung gaano kablur ang background sa likod ng subject mo. Ang mas mataas na values ay nangangahulugan ng mas malakas na blur at mas maraming subject isolation."
         },
         "coc": {
           "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "definition": "Ang maximum diameter ng blur spot sa sensor na mukha pa rin sa puntong sa mata ng tao. Tumutukoy sa hangganan ng katanggap-tanggap na katalasan para sa depth-of-field calculations."
         },
         "isolationScore": {
           "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "definition": "Isang composite rating (0-100) na nagpapahiwatig kung gaano kahusay na napaghiwalay ang subject mula sa background, batay sa dami ng background blur relative sa sukat ng subject."
         },
         "bokehShape": {
           "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "definition": "Ang hugis ng out-of-focus highlights, tinutukoy ng bilang at curvature ng aperture blades. Ang mas maraming blades ay gumagawa ng mas bilog at smoother na bokeh."
         },
         "diffractionWarning": {
           "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "definition": "Sa napakaliit na aperture, nakakabaluktot ang liwanag sa mga gilid ng aperture, na nagpapa-soft ng imahe. Sa full-frame sensors, nakikita ito karaniwan sa higit pa sa f/16."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Kumukuha ka ng portrait at gusto mo ng magandang blurred background. Aling aperture ang pipiliin mo?",
+          "hint": "Ang mas mababang f-number ay nangangahulugan ng mas malawak na lens opening at mas maraming background blur.",
+          "successMessage": "Tama! Ang malawak na aperture tulad ng f/1.8 o f/2.8 ay gumagawa ng mababaw na depth of field, pinaghiwalay ang subject mo sa background na may nakakaaliw na bokeh.",
+          "failureMessage": "Hindi tama. Ang mga makitid na aperture tulad ng f/11 o f/16 ay pinapanatili ang mas malaking bahagi ng eksena na in-focus. Para sa background blur, pumili ng malawak na aperture (mababang f-number).",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Kinukunan mo ang grupo ng 8 tao na nakahanay sa dalawang linya sa kasal. Anong aperture ang makakatulong para masiguradong lahat ay in-focus?",
+          "hint": "Sa mga taong may bahagyang magkaibang distansya, kailangan mo ng sapat na depth of field para masakop ang parehong linya.",
+          "successMessage": "Magandang pili! Ang f/5.6 ay nagbibigay ng sapat na depth of field para maging matalas ang parehong linya habang nagpapanatili pa ng disenteng shutter speed sa loob.",
+          "failureMessage": "Ang aperture na iyon ay maaaring mag-iwan ng likurang linya na hindi in-focus o hindi kailangang makitid. Para sa dalawang linya ng tao, ang f/5.6 ay isang maaasahang panimulang punto.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Kumukuha ka ng landscape na may wildflowers na 2 meters ang layo at mga bundok sa background. Gumagamit ka ng 24mm lens sa full-frame camera. Anong teknik ang maximum sharpness mula sa harap hanggang likod?",
+          "hint": "May specific na distansya kung saan pwede kang mag-focus na nag-ma-maximize ng sharp zone mula foreground hanggang infinity.",
+          "successMessage": "Eksakto! Ang pag-focus sa hyperfocal distance sa f/11 ay nagsisiguro na ang lahat mula mga 1 meter hanggang infinity ay katanggap-tanggap na matalas — perpekto para sa eksenang ito.",
+          "failureMessage": "Ang pag-focus sa infinity ay mag-iiwan sa mga bulaklak sa foreground na malambot. Gamitin ang hyperfocal distance para palawakin ang katalasan mula sa malapit na foreground hanggang sa infinity.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Mag-focus sa mga bulaklak (2m)" },
+            "1": { "label": "Mag-focus sa mga bundok (infinity)" },
+            "2": { "label": "Mag-focus sa hyperfocal distance" },
+            "3": { "label": "Mag-focus sa kalagitnaan ng mga bulaklak at bundok" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Gumagawa ka ng macro photography ng bulaklak at napansin mo na ang front petals lang ang matalas. Ang iba pang bahagi ng bulaklak ay nawawala sa blur. Nasa f/5.6 ka. Ano ang dapat mong gawin para mas marami sa bulaklak ang in-focus?",
+          "hint": "Sa malapit na focus distance, nagiging napakanipis ng DoF. Isaalang-alang ang aperture mo.",
+          "successMessage": "Tama! Ang pag-stop down sa f/11 o f/16 ay nagdadagdag ng iyong manipis na DoF sa macro work. Magbantay lang sa diffraction softening sa napakaliit na aperture.",
+          "failureMessage": "Ang pagpapalawak ng aperture ay lalong magpapapayat ng DoF. Sa macro photography, ang pag-stop down (mas mataas na f-number) ay ang pangunahing paraan para makakuha ng mas maraming lalim.",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Bumuksan sa f/2.8 para sa mas maraming liwanag" },
+            "1": { "label": "Mag-stop down sa f/11" },
+            "2": { "label": "Lumipat sa mas malawak na lens" },
+            "3": { "label": "Lumayo sa bulaklak" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Pinapaghahambing mo ang dalawang camera para sa portrait work: isang full-frame camera na may 85mm f/1.8 lens at isang Micro Four Thirds camera na may 42.5mm f/1.8 lens. Parehong gumagawa ng equivalent framing. Aling camera ang gumagawa ng mas mababaw na depth of field?",
+          "hint": "Isipin ang equivalent focal lengths at kung paano nakakaapekto ang sensor size sa DoF calculation sa parehong f-number.",
+          "successMessage": "Tama! Ang full-frame camera ay gumagawa ng mga 2 stops na mas mababaw na DoF. Kahit pareho ang f-number ng MFT lens, ang mas maikling aktwal na focal length (42.5mm kumpara sa 85mm) ay nagreresulta sa mas malalim na depth of field sa equivalent framing.",
+          "failureMessage": "Kahit parehong f/1.8 ang dalawang lens, ang full-frame camera ay gumagamit ng mas mahabang aktwal na focal length para sa parehong framing, na gumagawa ng mas mababaw na DoF.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Full-frame na may 85mm f/1.8" },
+            "1": { "label": "Micro Four Thirds na may 42.5mm f/1.8" },
+            "2": { "label": "Parehong gumagawa ng magkaparehong DoF" }
           }
         }
       }

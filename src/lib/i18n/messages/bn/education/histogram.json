@@ -1,80 +1,80 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "হিস্টোগ্রাম একটি গ্রাফ যা তোমার ছবির পিক্সেলগুলো কতটা উজ্জ্বল বা গাঢ় তা দেখায়। বাম দিক ছায়া (গাঢ় অংশ), মাঝখান মিডটোন এবং ডান দিক হাইলাইট (উজ্জ্বল অংশ) প্রতিনিধিত্ব করে। যদি গ্রাফটি এক দিকে জড়ো হয়ে থাকে, তোমার ছবি হয়তো আন্ডারএক্সপোজড বা ওভারএক্সপোজড।",
+      "deeper": "হিস্টোগ্রাম পিক্সেল সংখ্যা (উলম্ব অক্ষ) বনাম উজ্জ্বলতার মাত্রা (অনুভূমিক অক্ষ, 8-bit ছবির জন্য 0-255) প্লট করে। লুমিন্যান্স মোডে, প্রতিটি পিক্সেলের উজ্জ্বলতা লাল, সবুজ ও নীল চ্যানেলের ভারিত গড় হিসেবে হিসাব করা হয় (সাধারণত 0.299R + 0.587G + 0.114B, মানুষের উপলব্ধির সাথে মেলে)। RGB মোড তিনটি পৃথক বণ্টন দেখায়, কোন রঙের চ্যানেল স্বাধীনভাবে ক্লিপ করছে তা প্রকাশ করে — লাল চ্যানেল 255-এ পৌঁছালে কিন্তু নীল ঠিক থাকলে উষ্ণ টোনে হাইলাইট ক্লিপিং বোঝায়, যেমন সূর্যাস্তের আকাশ। \"ক্লিপিং\" ঘটে যখন পিক্সেল মান 0 বা 255 সীমায় আঘাত করে, মানে ছায়া বা হাইলাইট ডিটেইল অপূরণীয়ভাবে হারিয়ে গেছে। কালো ক্লিপিং (0-এ পিক্সেল) ছায়া ডিটেইল হারায়; সাদা ক্লিপিং (255-এ পিক্সেল) হাইলাইট ডিটেইল হারায়। RAW শুট করলে JPEG হিস্টোগ্রামের চেয়ে প্রায় 2-3 অতিরিক্ত স্টপ পুনরুদ্ধারযোগ্য হাইলাইট হেডরুম পাওয়া যায়, যে কারণে অনেক ফটোগ্রাফার \"expose to the right\" (ETTR) করেন — RAW ডেটা ক্লিপ না করে যতটা সম্ভব উজ্জ্বল এক্সপোজ করা।",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "টোনাল বণ্টন",
+          "description": "সামগ্রিক আকৃতি তোমাকে বলে ছবিটি গাঢ় (বাম-ভারী), উজ্জ্বল (ডান-ভারী) নাকি ভারসাম্যপূর্ণ (পুরো পরিসরে ছড়ানো)।"
         },
         "1": {
-          "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "label": "ক্লিপিং",
+          "description": "সবচেয়ে বাম বা ডান প্রান্তে স্পাইক ছায়া বা হাইলাইটে হারানো ডিটেইল নির্দেশ করে।"
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "চ্যানেল বিচ্ছেদ",
+          "description": "RGB মোড পৃথক রঙের চ্যানেলের আচরণ প্রকাশ করে — স্যাচুরেটেড দৃশ্যে রঙ-নির্দিষ্ট ক্লিপিং শনাক্ত করতে কাজে আসে।"
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "ডায়নামিক রেঞ্জ",
+          "description": "ক্লিপিং ছাড়া পুরো প্রস্থ জুড়ে বিস্তৃত একটি হিস্টোগ্রাম উপলব্ধ ডায়নামিক রেঞ্জের ভালো ব্যবহার নির্দেশ করে।"
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "কোনো \"নিখুঁত\" হিস্টোগ্রাম আকৃতি নেই। গাঢ় সোফার উপর কালো বিড়ালের ছবি বাম-ভারী হওয়া উচিত। তোমার সৃজনশীল উদ্দেশ্যের বিপরীতে হিস্টোগ্রাম বিচার করো, আদর্শ বক্ররেখার বিপরীতে নয়।"
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "সূর্যাস্ত ও নিয়ন লাইটের ছবির জন্য RGB ওভারলে মোড চেক করো। লাল চ্যানেল প্রায়ই নীলের অনেক আগে ক্লিপ করে, উষ্ণ হাইলাইটে ডিটেইল হারিয়ে যায় এমনকি যখন লুমিন্যান্স হিস্টোগ্রাম ঠিক দেখায়।"
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "যদি দুই দিকেই একসাথে ক্লিপিং ওয়ার্নিং দেখো, দৃশ্যটি সম্ভবত তোমার ক্যামেরার ডায়নামিক রেঞ্জ ছাড়িয়ে গেছে। HDR-এর জন্য ব্র্যাকেটিং বা গ্র্যাজুয়েটেড ND ফিল্টার বিবেচনা করো।"
         }
       },
       "tooltips": {
         "View Mode": {
           "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "definition": "লুমিন্যান্স সামগ্রিক উজ্জ্বলতা দেখায়। RGB ওভারলে তিনটি রঙের চ্যানেল ওভারলে করে দেখায়। All Channels RGB ও লুমিন্যান্স একসাথে দেখায়।"
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "ছায়া",
+          "definition": "হিস্টোগ্রামের সবচেয়ে বাম অঞ্চল (প্রায় 0-85), ছবির সবচেয়ে গাঢ় টোন প্রতিনিধিত্ব করে।"
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "মিডটোন",
+          "definition": "কেন্দ্রীয় অঞ্চল (প্রায় 86-170), মাঝারি উজ্জ্বলতা প্রতিনিধিত্ব করে — ত্বকের টোন ও বেশিরভাগ প্রাকৃতিক টেক্সচার এখানে পড়ে।"
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "হাইলাইট",
+          "definition": "সবচেয়ে ডান অঞ্চল (প্রায় 171-255), সবচেয়ে উজ্জ্বল টোন প্রতিনিধিত্ব করে: আকাশ, প্রতিফলন ও আলোর উৎস।"
         },
         "Black Clipping": {
-          "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "term": "কালো ক্লিপিং",
+          "definition": "0 উজ্জ্বলতায় (বিশুদ্ধ কালো) পিক্সেলের শতাংশ। উচ্চ মান মানে ছায়া ডিটেইল হারিয়ে গেছে এবং পুনরুদ্ধার করা যাবে না।"
         },
         "White Clipping": {
-          "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "term": "সাদা ক্লিপিং",
+          "definition": "255 উজ্জ্বলতায় (বিশুদ্ধ সাদা) পিক্সেলের শতাংশ। উচ্চ মান মানে হাইলাইট ডিটেইল উড়ে গেছে।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "তুমি একটি ছবি আপলোড করেছো এবং হিস্টোগ্রাম ভারীভাবে বাম দিকে ধাক্কা খাচ্ছে, ডান দিকে প্রায় কিছুই নেই। এটি ছবির সম্পর্কে তোমাকে কী বলে?",
+          "hint": "বাম = গাঢ়, ডান = উজ্জ্বল।",
+          "successMessage": "সঠিক! বাম-ভারী হিস্টোগ্রাম মানে ছবিটি বেশিরভাগ গাঢ় টোনের — এটি আন্ডারএক্সপোজড হতে পারে, বা এটি একটি ইচ্ছাকৃতভাবে গাঢ়/লো-কী ছবিও হতে পারে।",
+          "failureMessage": "বাম দিকে জড়ো হওয়া হিস্টোগ্রাম নির্দেশ করে ছবিটি প্রধানত গাঢ়। এটি প্রায়ই আন্ডারএক্সপোজার বোঝায়।",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "ছবিটি আন্ডারএক্সপোজড বা খুব গাঢ়" },
+            "1": { "label": "ছবিটি ওভারএক্সপোজড বা খুব উজ্জ্বল" },
+            "2": { "label": "ছবিটির নিখুঁত এক্সপোজার আছে" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "একটি গ্রাফে তোমার ছবির সামগ্রিক উজ্জ্বলতা বণ্টন দেখতে কোন view মোড ব্যবহার করবে?",
+          "hint": "একটি মোড সমস্ত রঙের তথ্যকে একটি একক উজ্জ্বলতা বক্ররেখায় একত্রিত করে।",
+          "successMessage": "ঠিক! লুমিন্যান্স মোড সামগ্রিক অনুভূত উজ্জ্বলতা প্রতিনিধিত্ব করা একটি একক বক্ররেখা দেখায়।",
+          "failureMessage": "লুমিন্যান্স মোড হলো সবচেয়ে সহজ view — এটি R, G, B-কে একটি উজ্জ্বলতা বক্ররেখায় একত্রিত করে।",
           "options": {
             "0": { "label": "Luminance" },
             "1": { "label": "RGB Overlay" },
@@ -82,36 +82,36 @@
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "তুমি একটি প্রাণবন্ত সূর্যাস্ত শুট করেছো এবং লুমিন্যান্স হিস্টোগ্রাম ঠিক দেখাচ্ছে, কিন্তু RGB ওভারলেতে স্যুইচ করলে দেখছো লাল চ্যানেল ডান দিকে স্পাইক করছে। কী হচ্ছে?",
+          "hint": "পৃথক রঙের চ্যানেল ক্লিপ করতে পারে এমনকি যখন সামগ্রিক লুমিন্যান্স ক্লিপ করে না।",
+          "successMessage": "ঠিক! লাল চ্যানেল ক্লিপ করছে — সূর্যাস্তের হাইলাইটগুলো লাল টোনে ডিটেইল হারিয়েছে, যদিও সামগ্রিক উজ্জ্বলতা গ্রহণযোগ্য দেখাচ্ছে। তুমি উষ্ণ রঙের সূক্ষ্মতা হারাচ্ছো।",
+          "failureMessage": "লাল চ্যানেল স্বাধীনভাবে ক্লিপ করছে। স্যাচুরেটেড উষ্ণ হাইলাইট (সূর্যাস্ত, আগুন) প্রায়ই লালকে 255-এ ঠেলে দেয় যখন সবুজ ও নীল ঠিক থাকে, সেই টোনে রঙের ডিটেইল হারায়।",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "লাল চ্যানেল ক্লিপিং — উষ্ণ হাইলাইট ডিটেইল হারিয়েছে" },
+            "1": { "label": "ছবিটি সামগ্রিকভাবে ওভারএক্সপোজড" },
+            "2": { "label": "হোয়াইট ব্যালেন্স ভুল" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "টুল রিপোর্ট করছে 2.3% কালো ক্লিপিং এবং 0.1% সাদা ক্লিপিং। তোমার কি এক্সপোজার সামঞ্জস্য করা উচিত?",
+          "hint": "সামান্য পরিমাণ ক্লিপিং স্বাভাবিক — বিশুদ্ধ কালো ছায়া ও স্পেকুলার হাইলাইট প্রত্যাশিত।",
+          "successMessage": "ভালো বিচার! 2.3% কালো ক্লিপিং পরিমিত এবং প্রায়ই শুধুমাত্র গভীর ছায়া বা গাঢ় প্রান্ত। 0.1% সাদা ক্লিপিং সম্ভবত স্পেকুলার হাইলাইট (সূর্যের প্রতিফলন)। এই এক্সপোজার বেশিরভাগ উদ্দেশ্যের জন্য ঠিক।",
+          "failureMessage": "এই ক্লিপিং শতাংশগুলো বেশ ছোট। গভীর ছায়ায় সামান্য কালো ক্লিপিং এবং স্পেকুলার হাইলাইট থেকে সামান্য সাদা ক্লিপিং স্বাভাবিক ও প্রত্যাশিত। কোনো সামঞ্জস্যের দরকার নেই।",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "কালো ক্লিপিং কমাতে এক্সপোজার বাড়াও" },
+            "1": { "label": "এটি ঠিক — ছায়া ও স্পেকুলার হাইলাইটে সামান্য ক্লিপিং স্বাভাবিক" },
+            "2": { "label": "সাদা ক্লিপিং দূর করতে এক্সপোজার কমাও" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "তুমি একটি উচ্চ-কনট্রাস্ট দৃশ্য শুট করছো: একটি গাঢ় ক্যাথেড্রালে একটি সাদা পোশাকের কনে। হিস্টোগ্রাম দুই প্রান্তে শক্তিশালী পিক দেখাচ্ছে, মিডটোনে একটি গ্যাপ। তুমি এটি কীভাবে সামলাবে?",
+          "hint": "যখন দৃশ্যের ডায়নামিক রেঞ্জ ক্যামেরা সেন্সরের রেঞ্জ ছাড়িয়ে যায়, তোমাকে একটি মাল্টি-এক্সপোজার কৌশল দরকার।",
+          "successMessage": "নিখুঁত! এই বাইমডাল হিস্টোগ্রাম নির্দেশ করে দৃশ্যটি তোমার সেন্সরের ডায়নামিক রেঞ্জ ছাড়িয়ে গেছে। এক্সপোজার ব্র্যাকেটিং (HDR) গাঢ় ভেতর ও উজ্জ্বল পোশাকের ডিটেইল দুটোই ধরে। বিকল্পভাবে, ছায়া তুলতে ফিল ফ্ল্যাশ ব্যবহার করো।",
+          "failureMessage": "একটি বাইমডাল হিস্টোগ্রাম (দুই প্রান্তে পিক, মাঝখানে খালি) মানে দৃশ্যে তোমার সেন্সর এক শটে ধরতে পারার চেয়ে বেশি ডায়নামিক রেঞ্জ আছে। HDR-এর জন্য এক্সপোজার ব্র্যাকেট করো, বা কনট্রাস্ট অনুপাত কমাতে ফিল ফ্ল্যাশ ব্যবহার করো।",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "HDR-এর জন্য এক্সপোজার ব্র্যাকেট করো বা ফিল ফ্ল্যাশ ব্যবহার করো" },
+            "1": { "label": "মিডটোনের জন্য এক্সপোজ করো এবং সেরার জন্য আশা করো" },
+            "2": { "label": "সমস্যা লুকাতে কালো-সাদায় স্যুইচ করো" }
           }
         }
       }

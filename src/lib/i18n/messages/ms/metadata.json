@@ -1,90 +1,90 @@
 {
   "metadata": {
     "site": {
-      "defaultTitle": "PhotoTools — Photography Tools",
+      "defaultTitle": "PhotoTools — Alat Fotografi",
       "titleTemplate": "%s | PhotoTools",
-      "description": "Free photography tools: FOV simulator, Color scheme generator, EXIF viewer, Crop and frame photos, and more.",
-      "ogTitle": "PhotoTools — Free Photography Tools"
+      "description": "Alat fotografi percuma: simulator FOV, penjana skema warna, pembaca EXIF, potong dan bingkai foto, dan banyak lagi.",
+      "ogTitle": "PhotoTools — Alat Fotografi Percuma"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compare Focal Lengths",
-      "description": "Compare field of view across different focal lengths and sensor sizes. Free, interactive, shareable."
+      "title": "FOV Simulator — Bandingkan Panjang Fokus",
+      "description": "Bandingkan medan pandangan merentasi pelbagai panjang fokus dan saiz sensor. Percuma, interaktif dan boleh dikongsi."
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator | PhotoTools",
-      "description": "Visualize how aperture, focal length, and distance affect background blur with real-time WebGL simulation"
+      "title": "Simulator Kedalaman Medan | PhotoTools",
+      "description": "Visualkan cara aperture, panjang fokus dan jarak mempengaruhi kekaburan latar belakang dengan simulasi WebGL masa nyata"
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator | PhotoTools",
-      "description": "Calculate optimal focus distances for front-to-back sharpness in macro and landscape photography"
+      "title": "Kalkulator Focus Stacking | PhotoTools",
+      "description": "Kira jarak fokus optimum untuk ketajaman dari depan ke belakang dalam fotografi makro dan landskap"
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator | PhotoTools",
-      "description": "Find equivalent aperture and focal length across sensor formats to match depth of field"
+      "title": "Kalkulator Tetapan Setara | PhotoTools",
+      "description": "Cari aperture dan panjang fokus setara merentasi format sensor untuk memadankan kedalaman medan"
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator",
-      "description": "Interactive exposure triangle simulator — see how aperture, shutter speed, and ISO affect your image in real time with live preview."
+      "title": "Simulator Segi Tiga Pendedahan",
+      "description": "Simulator segi tiga pendedahan interaktif — lihat cara aperture, kelajuan pengatup dan ISO mempengaruhi imej anda secara masa nyata dengan pratonton langsung."
     },
     "star-trail-calculator": {
       "title": "Star Trail Calculator",
-      "description": "Calculate the maximum exposure time for pinpoint stars using the 500, NPF, and other rules. Plan star trail stacking shots for any location."
+      "description": "Kira masa pendedahan maksimum untuk bintang titik menggunakan peraturan 500, NPF dan lain-lain. Rancang tangkapan stacking jejak bintang untuk mana-mana lokasi."
     },
     "white-balance-visualizer": {
       "title": "White Balance Visualizer",
-      "description": "See how white balance and color temperature affect your photos. Visualize changes from 2000K to 10000K with real-time preview."
+      "description": "Lihat cara imbangan putih dan suhu warna mempengaruhi foto anda. Visualkan perubahan dari 2000K hingga 10000K dengan pratonton masa nyata."
     },
     "sensor-size-comparison": {
       "title": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models."
+      "description": "Bandingkan saiz sensor kamera dari format sederhana hingga telefon pintar. Lihat paparan tindanan, bersebelahan dan ketumpatan piksel dengan model kamera sebenar."
     },
     "color-scheme-generator": {
       "title": "Color Scheme Generator",
-      "description": "Generate color palettes for photography using complementary, analogous, triadic, and tetradic color harmonies. Interactive color wheel with photo picker."
+      "description": "Jana palet warna untuk fotografi menggunakan harmoni warna komplementari, analogus, triadik dan tetradik. Roda warna interaktif dengan pemilih foto."
     },
     "frame-studio": {
       "title": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays. 100% client-side — your photos never leave your device."
+      "description": "Potong, bingkai dan susun foto dengan tindanan grid. 100% di sebelah klien — foto anda tidak pernah meninggalkan peranti anda."
     },
     "exif-viewer": {
       "title": "EXIF Viewer",
-      "description": "View EXIF metadata, histogram, and image preview for any photo. 100% client-side — your photos never leave your device."
+      "description": "Lihat metadata EXIF, histogram dan pratonton imej untuk mana-mana foto. 100% di sebelah klien — foto anda tidak pernah meninggalkan peranti anda."
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator",
-      "description": "Visualize hyperfocal distance for any lens and sensor. See exactly where to focus for maximum sharpness from foreground to infinity."
+      "title": "Simulator Jarak Hiperfokal",
+      "description": "Visualkan jarak hiperfokal untuk mana-mana lensa dan sensor. Lihat dengan tepat tempat untuk memfokus bagi ketajaman maksimum dari latar depan ke infiniti."
     },
     "shutter-speed-visualizer": {
       "title": "Shutter Speed Visualizer",
-      "description": "Find the minimum shutter speed for sharp handheld photos. Accounts for focal length, sensor size, and image stabilization."
+      "description": "Cari kelajuan pengatup minimum untuk foto tangan yang tajam. Mengambil kira panjang fokus, saiz sensor dan penstabilan imej."
     },
     "nd-filter-calculator": {
       "title": "ND Filter Calculator",
-      "description": "Calculate the correct shutter speed when using ND filters. Supports any filter strength from ND2 to ND1000000 with a quick-reference table."
+      "description": "Kira kelajuan pengatup yang betul apabila menggunakan penapis ND. Menyokong sebarang kekuatan penapis dari ND2 hingga ND1000000 dengan jadual rujukan pantas."
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator",
-      "description": "Interactive 3D simulator showing how focal length and distance affect perspective compression. See background compression change in real time."
+      "title": "Simulator Mampatan Perspektif",
+      "description": "Simulator 3D interaktif yang menunjukkan cara panjang fokus dan jarak mempengaruhi mampatan perspektif. Lihat perubahan mampatan latar belakang secara masa nyata."
     },
     "about": {
-      "title": "About",
-      "description": "PhotoTools is a free collection of browser-based photography calculators, simulators, and references for photographers of all skill levels."
+      "title": "Mengenai",
+      "description": "PhotoTools ialah koleksi kalkulator, simulator dan rujukan fotografi percuma berasaskan pelayar untuk jurugambar semua peringkat kemahiran."
     },
     "contact": {
-      "title": "Contact | PhotoTools",
-      "description": "Get in touch with the PhotoTools team — questions, feedback, or suggestions about our photography tools."
+      "title": "Hubungi | PhotoTools",
+      "description": "Hubungi pasukan PhotoTools — soalan, maklum balas atau cadangan tentang alat fotografi kami."
     },
     "privacy": {
-      "title": "Privacy Policy | PhotoTools",
-      "description": "Learn how PhotoTools handles your data, including analytics, cookies, and contact form submissions at www.phototools.io."
+      "title": "Dasar Privasi | PhotoTools",
+      "description": "Pelajari cara PhotoTools mengendalikan data anda, termasuk analitik, kuki dan hantaran borang hubungi di www.phototools.io."
     },
     "terms": {
-      "title": "Terms of Service | PhotoTools",
-      "description": "Terms of Service for PhotoTools — learn about acceptable use, intellectual property, disclaimers, and limitations of liability for www.phototools.io."
+      "title": "Terma Perkhidmatan | PhotoTools",
+      "description": "Terma Perkhidmatan untuk PhotoTools — ketahui tentang penggunaan yang dibenarkan, harta intelek, penafian dan had liabiliti untuk www.phototools.io."
     },
     "glossary": {
-      "title": "Photography Glossary",
-      "description": "Searchable glossary of 50+ photography terms with definitions and links to interactive tools."
+      "title": "Glosari Fotografi",
+      "description": "Glosari boleh cari dengan lebih 50 istilah fotografi beserta definisi dan pautan ke alat interaktif."
     }
   }
 }

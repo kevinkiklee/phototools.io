@@ -1,90 +1,90 @@
 {
   "metadata": {
     "site": {
-      "defaultTitle": "PhotoTools — Photography Tools",
+      "defaultTitle": "PhotoTools — valokuvaustyökalut",
       "titleTemplate": "%s | PhotoTools",
-      "description": "Free photography tools: FOV simulator, Color scheme generator, EXIF viewer, Crop and frame photos, and more.",
-      "ogTitle": "PhotoTools — Free Photography Tools"
+      "description": "Ilmaisia valokuvaustyökaluja: FOV-simulaattori, värimallien generaattori, EXIF-lukija, kuvien rajaus ja kehystys sekä paljon muuta.",
+      "ogTitle": "PhotoTools — ilmaiset valokuvaustyökalut"
     },
     "fov-simulator": {
-      "title": "FOV Simulator — Compare Focal Lengths",
-      "description": "Compare field of view across different focal lengths and sensor sizes. Free, interactive, shareable."
+      "title": "FOV Simulator — vertaa polttovälejä",
+      "description": "Vertaa kuvakulmaa eri polttoväleillä ja kennokokoilla. Ilmainen, interaktiivinen ja jaettava."
     },
     "dof-simulator": {
-      "title": "Depth-of-Field Simulator | PhotoTools",
-      "description": "Visualize how aperture, focal length, and distance affect background blur with real-time WebGL simulation"
+      "title": "Syväterävyyden simulaattori | PhotoTools",
+      "description": "Visualisoi reaaliajassa WebGL-simulaatiolla, miten aukko, polttoväli ja etäisyys vaikuttavat taustan sumennukseen."
     },
     "focus-stacking-calculator": {
-      "title": "Focus Stacking Calculator | PhotoTools",
-      "description": "Calculate optimal focus distances for front-to-back sharpness in macro and landscape photography"
+      "title": "Tarkennuspinoamisen laskuri | PhotoTools",
+      "description": "Laske optimaaliset tarkennusetäisyydet läpiterävään lopputulokseen makro- ja maisemakuvauksessa."
     },
     "equivalent-settings-calculator": {
-      "title": "Equivalent Settings Calculator | PhotoTools",
-      "description": "Find equivalent aperture and focal length across sensor formats to match depth of field"
+      "title": "Ekvivalenttiasetusten laskuri | PhotoTools",
+      "description": "Etsi ekvivalentti aukko ja polttoväli eri kennoformaattien välillä ja sovita syväterävyys."
     },
     "exposure-simulator": {
-      "title": "Exposure Triangle Simulator",
-      "description": "Interactive exposure triangle simulator — see how aperture, shutter speed, and ISO affect your image in real time with live preview."
+      "title": "Valotuskolmion simulaattori",
+      "description": "Interaktiivinen valotuskolmion simulaattori — näe reaaliajassa, miten aukko, suljinaika ja ISO vaikuttavat kuvaasi."
     },
     "star-trail-calculator": {
-      "title": "Star Trail Calculator",
-      "description": "Calculate the maximum exposure time for pinpoint stars using the 500, NPF, and other rules. Plan star trail stacking shots for any location."
+      "title": "Tähtirataa laskuri",
+      "description": "Laske maksimivalotusaika pistemäisille tähdille 500-sääntöä, NPF-sääntöä ja muita sääntöjä käyttäen. Suunnittele tähtiratakuvausten pinoaminen mihin tahansa sijaintiin."
     },
     "white-balance-visualizer": {
-      "title": "White Balance Visualizer",
-      "description": "See how white balance and color temperature affect your photos. Visualize changes from 2000K to 10000K with real-time preview."
+      "title": "Valkotasapainon visualisoija",
+      "description": "Näe, miten valkotasapaino ja värilämpötila vaikuttavat kuviisi. Visualisoi muutokset 2000 K:stä 10000 K:hon reaaliaikaisella esikatselulla."
     },
     "sensor-size-comparison": {
-      "title": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes from medium format to smartphone. See overlay, side-by-side, and pixel density views with real camera models."
+      "title": "Kennokokojen vertailu",
+      "description": "Vertaa kameroiden kennokokoja keskiformaatista älypuhelimeen. Näe päällekkäis-, rinnakkais- ja pikselitiheysnäkymät oikeilla kameramalleilla."
     },
     "color-scheme-generator": {
-      "title": "Color Scheme Generator",
-      "description": "Generate color palettes for photography using complementary, analogous, triadic, and tetradic color harmonies. Interactive color wheel with photo picker."
+      "title": "Värimallien generaattori",
+      "description": "Luo valokuvaukseen väripaletteja komplementti-, analogisen, triadisen ja tetradisen väriharmonian avulla. Interaktiivinen väripyörä ja kuvan värinpoiminta."
     },
     "frame-studio": {
       "title": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays. 100% client-side — your photos never leave your device."
+      "description": "Rajaa, kehystä ja sommittele kuvia apuviivoilla. 100 % selaimessa — kuvasi eivät poistu laitteeltasi."
     },
     "exif-viewer": {
-      "title": "EXIF Viewer",
-      "description": "View EXIF metadata, histogram, and image preview for any photo. 100% client-side — your photos never leave your device."
+      "title": "EXIF-lukija",
+      "description": "Tarkastele minkä tahansa kuvan EXIF-tietoja, histogrammia ja esikatselua. 100 % selaimessa — kuvasi eivät poistu laitteeltasi."
     },
     "hyperfocal-simulator": {
-      "title": "Hyperfocal Distance Simulator",
-      "description": "Visualize hyperfocal distance for any lens and sensor. See exactly where to focus for maximum sharpness from foreground to infinity."
+      "title": "Hyperfokaalietäisyyden simulaattori",
+      "description": "Visualisoi hyperfokaalietäisyys mille tahansa objektiiville ja kennolle. Näe tarkalleen, mihin tarkentaa saadaksesi maksimiterävyyden etualasta äärettömyyteen."
     },
     "shutter-speed-visualizer": {
-      "title": "Shutter Speed Visualizer",
-      "description": "Find the minimum shutter speed for sharp handheld photos. Accounts for focal length, sensor size, and image stabilization."
+      "title": "Suljinajan visualisoija",
+      "description": "Etsi minimisuljinaika teräviin käsivarakuviin. Huomioi polttovälin, kennokoon ja kuvanvakaimen."
     },
     "nd-filter-calculator": {
-      "title": "ND Filter Calculator",
-      "description": "Calculate the correct shutter speed when using ND filters. Supports any filter strength from ND2 to ND1000000 with a quick-reference table."
+      "title": "ND-suotimen laskuri",
+      "description": "Laske oikea suljinaika ND-suodinta käytettäessä. Tukee mitä tahansa suodinvahvuutta ND2:sta ND1000000:aan pikahakutaulukon kanssa."
     },
     "perspective-compression-simulator": {
-      "title": "Perspective Compression Simulator",
-      "description": "Interactive 3D simulator showing how focal length and distance affect perspective compression. See background compression change in real time."
+      "title": "Perspektiivin pakkautumisen simulaattori",
+      "description": "Interaktiivinen 3D-simulaattori, joka näyttää miten polttoväli ja etäisyys vaikuttavat perspektiivin pakkautumiseen. Näe taustan pakkautumisen muutos reaaliajassa."
     },
     "about": {
-      "title": "About",
-      "description": "PhotoTools is a free collection of browser-based photography calculators, simulators, and references for photographers of all skill levels."
+      "title": "Tietoja",
+      "description": "PhotoTools on ilmainen kokoelma selainpohjaisia valokuvauslaskureita, simulaattoreita ja hakuteoksia kaikentasoisille kuvaajille."
     },
     "contact": {
-      "title": "Contact | PhotoTools",
-      "description": "Get in touch with the PhotoTools team — questions, feedback, or suggestions about our photography tools."
+      "title": "Yhteystiedot | PhotoTools",
+      "description": "Ota yhteyttä PhotoToolsin tiimiin — kysymykset, palaute tai ehdotukset valokuvaustyökaluistamme."
     },
     "privacy": {
-      "title": "Privacy Policy | PhotoTools",
-      "description": "Learn how PhotoTools handles your data, including analytics, cookies, and contact form submissions at www.phototools.io."
+      "title": "Tietosuojaseloste | PhotoTools",
+      "description": "Lue miten PhotoTools käsittelee tietojasi, mukaan lukien analytiikka, evästeet ja yhteydenottolomakkeen lähetykset osoitteessa www.phototools.io."
     },
     "terms": {
-      "title": "Terms of Service | PhotoTools",
-      "description": "Terms of Service for PhotoTools — learn about acceptable use, intellectual property, disclaimers, and limitations of liability for www.phototools.io."
+      "title": "Käyttöehdot | PhotoTools",
+      "description": "PhotoToolsin käyttöehdot — tutustu hyväksyttävään käyttöön, immateriaalioikeuksiin, vastuuvapausilmoituksiin ja vastuunrajoituksiin osoitteessa www.phototools.io."
     },
     "glossary": {
-      "title": "Photography Glossary",
-      "description": "Searchable glossary of 50+ photography terms with definitions and links to interactive tools."
+      "title": "Valokuvauksen sanasto",
+      "description": "Haettava sanasto yli 50 valokuvauksen termille määritelmineen ja linkkeineen interaktiivisiin työkaluihin."
     }
   }
 }

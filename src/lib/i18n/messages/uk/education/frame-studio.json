@@ -1,104 +1,104 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helps you crop, frame, and compose your photos right in the browser. Use composition grids to improve your framing, crop to popular aspect ratios, and add professional-looking borders — all without losing any image quality.",
+      "beginner": "Frame Studio допомагає кадрувати, обрамлювати й компонувати фото прямо в браузері. Використовуй композиційні сітки, щоб поліпшити кадр, обрізай під популярні співвідношення сторін і додавай професійні рамки — без жодних втрат якості.",
       "deeper": {
         "0": {
-          "heading": "Composition Grids",
-          "text": "The Rule of Thirds divides the frame into a 3\u00d73 grid — placing subjects along lines or at intersections creates natural visual balance. The Golden Ratio (approximately 1.618:1) provides a mathematically harmonious division used in art and architecture for centuries. The Golden Spiral guides the eye along a logarithmic curve derived from the Fibonacci sequence, useful for leading the viewer through the image."
+          "heading": "Композиційні сітки",
+          "text": "Правило третин ділить кадр на сітку 3×3 — розміщення об'єктів уздовж ліній або в перетинах створює природний візуальний баланс. Золотий перетин (приблизно 1.618:1) дає математично гармонійне ділення, яке використовують у мистецтві й архітектурі століттями. Золота спіраль веде око по логарифмічній кривій, похідній від послідовності Фібоначчі, і зручна для провідних ліній."
         },
         "1": {
-          "heading": "Aspect Ratios",
-          "text": "Different aspect ratios serve different purposes. 1:1 (square) works well for social media and symmetrical compositions. 3:2 is the classic 35mm film ratio. 4:3 is common in micro four-thirds and older digital cameras. 16:9 is the standard widescreen ratio for video and cinematic compositions. 5:4 is traditional for 8\u00d710 prints."
+          "heading": "Співвідношення сторін",
+          "text": "Різні співвідношення мають різне призначення. 1:1 (квадрат) добре працює для соцмереж і симетричних композицій. 3:2 — класичне плівкове 35 мм. 4:3 поширене в Micro Four Thirds і старих цифрових камерах. 16:9 — стандарт широкоформатного відео й кінокадрів. 5:4 — традиційне для друку 8×10."
         },
         "2": {
-          "heading": "Framing and Borders",
-          "text": "Adding a border around a photograph mimics the effect of a physical mat and frame. A white mat provides visual breathing room and directs focus inward. The width of the border relative to the image affects the perceived \"weight\" of the photograph. Gallery-style presentations typically use wider mats. A subtle shadow creates depth, simulating how a framed print sits on a wall."
+          "heading": "Рамка й паспарту",
+          "text": "Рамка навколо фото імітує ефект фізичного паспарту з багетом. Біле паспарту дає простір і спрямовує погляд усередину. Ширина рамки відносно зображення впливає на \"вагу\" кадру. У галерейному стилі паспарту зазвичай ширше. Легка тінь додає глибини, імітуючи, як друкований кадр висить на стіні."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Composition Grid",
-          "description": "Overlay guides help you evaluate and improve subject placement within the frame."
+          "label": "Композиційна сітка",
+          "description": "Накладення допомагає оцінити й поправити розміщення об'єктів у кадрі."
         },
         "1": {
-          "label": "Aspect Ratio",
-          "description": "The width-to-height proportion affects how the image feels — wider ratios feel cinematic, square feels balanced."
+          "label": "Співвідношення сторін",
+          "description": "Пропорції ширини і висоти впливають на відчуття кадру — ширші виглядають кінематографічно, квадратні збалансовано."
         },
         "2": {
-          "label": "Border Width",
-          "description": "Wider borders add gravitas and focus; narrow borders feel modern and minimal."
+          "label": "Ширина рамки",
+          "description": "Ширші рамки додають ваги й фокусу, вужчі — сучасний, мінімалістичний вигляд."
         },
         "3": {
-          "label": "Mat Color",
-          "description": "White mats are classic for art photography. Dark mats emphasize lighter images. Color mats can complement or contrast."
+          "label": "Колір паспарту",
+          "description": "Біле паспарту — класика для арт-фотографії. Темне виділяє світліші кадри. Кольорове може підкреслювати або контрастувати."
         }
       },
       "tips": {
         "0": {
-          "text": "For Instagram posts, crop to 4:5 (portrait) to take up maximum screen space in the feed."
+          "text": "Для постів в Instagram обрізай під 4:5 (вертикальне) — так пост займе максимум місця у стрічці."
         },
         "1": {
-          "text": "When adding a border for print, use a mat width of at least 10% of the image's shorter dimension for a professional look."
+          "text": "Коли додаєш рамку під друк, зроби паспарту щонайменше 10% від коротшої сторони зображення — вийде професійний вигляд."
         },
         "2": {
-          "text": "The Golden Spiral is most effective for images with a natural flow — water, roads, or curved architecture."
+          "text": "Золота спіраль найкраще працює для кадрів із природним потоком — вода, дороги, зігнуті архітектурні форми."
         }
       },
       "tooltips": {
         "Aspect Ratio": {
-          "term": "Aspect Ratio",
-          "definition": "The proportional relationship between width and height. Common ratios include 3:2 (35mm), 4:3 (M43), and 16:9 (widescreen)."
+          "term": "Співвідношення сторін",
+          "definition": "Пропорції ширини і висоти. Серед поширених: 3:2 (35 мм), 4:3 (M43) і 16:9 (широкоекранне)."
         },
         "Rule of Thirds": {
-          "term": "Rule of Thirds",
-          "definition": "A composition guideline that divides the frame into 9 equal parts. Placing subjects at intersection points creates visual interest."
+          "term": "Правило третин",
+          "definition": "Композиційне правило, що ділить кадр на 9 рівних частин. Розміщення об'єктів у точках перетину додає візуального інтересу."
         },
         "Golden Ratio": {
-          "term": "Golden Ratio",
-          "definition": "A mathematical proportion (~1.618:1) found in nature and art. Creates aesthetically pleasing divisions of space."
+          "term": "Золотий перетин",
+          "definition": "Математична пропорція (~1.618:1), яка зустрічається в природі й мистецтві. Дає естетично приємне ділення простору."
         },
         "Border Width": {
-          "term": "Border Width",
-          "definition": "The thickness of the frame border in pixels. Goes outside the image, increasing total dimensions without cropping."
+          "term": "Ширина рамки",
+          "definition": "Товщина рамки у пікселях. Додається зовні від зображення — збільшує загальні розміри без кропу."
         },
         "Inner Mat": {
-          "term": "Inner Mat",
-          "definition": "A second, thinner border between the outer frame and the image — mimics the beveled inner mat of a physical picture frame."
+          "term": "Внутрішнє паспарту",
+          "definition": "Другий, тонший бордюр між зовнішньою рамкою і зображенням — імітує скошене внутрішнє паспарту фізичного багета."
         },
         "Corner Radius": {
-          "term": "Corner Radius",
-          "definition": "Rounds the corners of the frame border. Zero gives sharp corners, higher values give a softer, rounded look."
+          "term": "Радіус кутів",
+          "definition": "Заокруглює кути рамки. Нуль — гострі кути, більше — м'якший, округлий вигляд."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to post a portrait photo on Instagram for maximum feed presence. Which aspect ratio should you use?",
-          "hint": "Instagram portrait posts use a taller-than-wide ratio.",
-          "successMessage": "Correct! 4:5 gives you the maximum vertical space in the Instagram feed.",
-          "failureMessage": "Instagram portrait posts use 4:5 (flip 5:4 to portrait orientation) for maximum feed real estate.",
+          "scenario": "Плануєш викласти вертикальне фото в Instagram так, щоб воно займало максимум стрічки. Яке співвідношення взяти?",
+          "hint": "Для вертикальних постів Instagram використовує співвідношення, у якому висота більша за ширину.",
+          "successMessage": "Правильно! 4:5 дає максимум вертикального простору в стрічці Instagram.",
+          "failureMessage": "Вертикальні пости в Instagram беруть 4:5 (5:4 у вертикальній орієнтації), щоб зайняти якомога більше площі стрічки.",
           "options": {
-            "0": { "label": "1:1 (Square)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": { "label": "1:1 (квадрат)" },
+            "1": { "label": "4:5 (вертикальне)" },
+            "2": { "label": "16:9 (широкоформатне)" }
           }
         },
         "1": {
-          "scenario": "Which composition grid is the most widely taught starting point for beginners?",
-          "hint": "It divides the frame into 9 equal sections.",
-          "successMessage": "Right! The Rule of Thirds is the foundational composition guide.",
-          "failureMessage": "The Rule of Thirds (3\u00d73 grid) is the most common starting point for learning composition.",
+          "scenario": "Яку композиційну сітку найчастіше показують новачкам як відправну точку?",
+          "hint": "Вона ділить кадр на 9 рівних секцій.",
+          "successMessage": "Так! Правило третин — базовий композиційний орієнтир.",
+          "failureMessage": "Правило третин (сітка 3×3) — найпоширеніша стартова точка для вивчення композиції.",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Diagonal Lines" }
+            "0": { "label": "Правило третин" },
+            "1": { "label": "Золота спіраль" },
+            "2": { "label": "Діагональні лінії" }
           }
         },
         "2": {
-          "scenario": "You are preparing a photo for gallery printing on 8\u00d710 paper. Which aspect ratio matches this print size?",
-          "hint": "8\u00f710 simplifies to a well-known ratio.",
-          "successMessage": "Correct! 5:4 matches 8\u00d710 print dimensions perfectly.",
-          "failureMessage": "8\u00d710 simplifies to 4:5, which is the portrait version of 5:4.",
+          "scenario": "Готуєш фото до галерейного друку на папері 8×10. Яке співвідношення сторін підходить під цей формат?",
+          "hint": "8×10 зводиться до відомого співвідношення.",
+          "successMessage": "Правильно! 5:4 точно відповідає розмірам друку 8×10.",
+          "failureMessage": "8×10 зводиться до 4:5, що є вертикальною версією 5:4.",
           "options": {
             "0": { "label": "3:2" },
             "1": { "label": "5:4" },
@@ -106,23 +106,23 @@
           }
         },
         "3": {
-          "scenario": "A landscape photo features a winding river leading from the foreground to mountains in the background. Which grid overlay best matches this natural flow?",
-          "hint": "One grid type follows a natural curved path.",
-          "successMessage": "Great choice! The Golden Spiral follows curves and leading lines perfectly.",
-          "failureMessage": "The Golden Spiral is ideal for images with natural curved elements like rivers, roads, or coastlines.",
+          "scenario": "Пейзаж із річкою, що звивається від переднього плану до гір у фоні. Яка сітка найкраще пасує до цього природного потоку?",
+          "hint": "Одна зі сіток повторює природну зігнуту траєкторію.",
+          "successMessage": "Гарний вибір! Золота спіраль ідеально йде вздовж кривих і провідних ліній.",
+          "failureMessage": "Золота спіраль підходить кадрам із природними зігнутими елементами — річками, дорогами, береговими лініями.",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Square Grid" }
+            "0": { "label": "Центральний хрест" },
+            "1": { "label": "Золота спіраль" },
+            "2": { "label": "Квадратна сітка" }
           }
         },
         "4": {
-          "scenario": "You want a clean white border to present your photo on social media. Which frame preset should you use?",
-          "hint": "Think about which preset gives you a simple white border.",
-          "successMessage": "Correct! The White preset adds a 100px white border around your photo.",
-          "failureMessage": "The White preset is designed for a clean, simple white border presentation.",
+          "scenario": "Хочеш чисту білу рамку, щоб викласти фото в соцмережі. Який пресет рамки взяти?",
+          "hint": "Подумай, який пресет дає просту білу рамку.",
+          "successMessage": "Правильно! Пресет \"White\" додає навколо фото білу рамку 100 px.",
+          "failureMessage": "Пресет \"White\" якраз і створює чисту, просту білу рамку.",
           "options": {
-            "0": { "label": "None" },
+            "0": { "label": "Без рамки" },
             "1": { "label": "White" },
             "2": { "label": "Black" }
           }

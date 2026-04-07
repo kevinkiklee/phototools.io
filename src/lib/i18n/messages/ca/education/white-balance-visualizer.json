@@ -1,74 +1,74 @@
 {
   "education": {
     "white-balance-visualizer": {
-      "beginner": "White balance adjusts the colors in your photo so that white objects actually appear white under any lighting. Different light sources have different color temperatures — a candle is warm and orange, while shade is cool and blue. Your camera's white balance setting compensates for these differences so colors look natural.",
+      "beginner": "El balanç de blancs ajusta els colors de la teva foto perquè els objectes blancs apareguin realment blancs sota qualsevol il·luminació. Les diferents fonts de llum tenen temperatures de color diferents — una espelma és càlida i taronja, mentre que l'ombra és freda i blava. L'ajust de balanç de blancs de la càmera compensa aquestes diferències perquè els colors semblin naturals.",
       "deeper": {
         "0": {
-          "heading": "Color temperature",
-          "text": "Color temperature is measured in Kelvin (K) and corresponds to the color of light emitted by an ideal \"black body\" heated to that temperature. Lower values (2000\u20133500K) produce warm, reddish-orange light (incandescent bulbs, candles), while higher values (6500\u201310000K) produce cool, bluish light (shade, overcast sky)."
+          "heading": "Temperatura de color",
+          "text": "La temperatura de color es mesura en Kelvin (K) i correspon al color de la llum emesa per un \"cos negre\" ideal escalfat a aquesta temperatura. Els valors baixos (2000–3500K) produeixen llum càlida, vermellosa i taronja (bombetes incandescents, espelmes), mentre que els valors alts (6500–10000K) produeixen llum freda i blavosa (ombra, cel ennuvolat)."
         },
         "1": {
-          "heading": "How white balance works",
-          "text": "The camera's white balance system applies the inverse color shift to neutralize the ambient color cast. When you set white balance to \"Tungsten\" (~3200K), the camera adds blue to counteract the orange cast from incandescent lights. In digital photography, white balance is applied as a multiplier to the red and blue channels relative to green."
+          "heading": "Com funciona el balanç de blancs",
+          "text": "El sistema de balanç de blancs de la càmera aplica el desplaçament de color invers per neutralitzar la dominant de la llum ambient. Quan ajustes el balanç de blancs a \"Tungsten\" (~3200K), la càmera afegeix blau per contrarestar la dominant taronja de la llum incandescent. En fotografia digital, el balanç de blancs s'aplica com un multiplicador als canals vermell i blau respecte al verd."
         },
         "2": {
-          "heading": "RAW advantage",
-          "text": "Shooting in RAW format preserves all color data and allows you to change white balance freely in post-processing with zero quality loss — it is simply a metadata tag applied during conversion."
+          "heading": "L'avantatge del RAW",
+          "text": "Disparar en format RAW preserva totes les dades de color i et permet canviar el balanç de blancs lliurement en postprocessament sense cap pèrdua de qualitat — simplement és una etiqueta de metadades aplicada durant la conversió."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Color Temperature (Kelvin)",
-          "description": "The numerical measure of light color. Low Kelvin = warm/orange light. High Kelvin = cool/blue light. Daylight is approximately 5500K."
+          "label": "Temperatura de color (Kelvin)",
+          "description": "La mesura numèrica del color de la llum. Kelvin baix = llum càlida/taronja. Kelvin alt = llum freda/blava. La llum de dia és aproximadament 5500K."
         },
         "1": {
-          "label": "Light Source",
-          "description": "Different sources emit different color temperatures: candles (~1800K), tungsten bulbs (~2800K), fluorescent tubes (~4000K), midday sun (~5500K), cloudy sky (~6500K), shade (~7500K)."
+          "label": "Font de llum",
+          "description": "Diferents fonts emeten diferents temperatures de color: espelmes (~1800K), bombetes tungsten (~2800K), tubs fluorescents (~4000K), sol al migdia (~5500K), cel ennuvolat (~6500K), ombra (~7500K)."
         },
         "2": {
           "label": "RAW vs JPEG",
-          "description": "Shooting RAW lets you change white balance in post with no quality loss. JPEG bakes in the white balance permanently, so getting it right in-camera matters more."
+          "description": "Disparar RAW et permet canviar el balanç de blancs en post sense pèrdua de qualitat. El JPEG fixa el balanç de blancs permanentment, per tant encertar-lo a la càmera importa més."
         },
         "3": {
-          "label": "Mixed Lighting",
-          "description": "Scenes with multiple light sources at different temperatures (e.g., window daylight + tungsten lamps) make it impossible to perfectly neutralize all colors simultaneously."
+          "label": "Il·luminació mixta",
+          "description": "Les escenes amb diverses fonts de llum a temperatures diferents (p. ex., llum de finestra + làmpades incandescents) fan impossible neutralitzar tots els colors simultàniament."
         }
       },
       "tips": {
         "0": {
-          "text": "Always shoot RAW if you want full flexibility to adjust white balance later. RAW files store the unprocessed sensor data, so white balance changes are lossless."
+          "text": "Dispara sempre en RAW si vols plena flexibilitat per ajustar el balanç de blancs més tard. Els fitxers RAW desen les dades del sensor sense processar, de manera que els canvis de balanç de blancs són sense pèrdues."
         },
         "1": {
-          "text": "For creative effect, try intentionally \"mismatching\" white balance. Setting a daylight WB during golden hour makes sunsets even warmer, while a tungsten WB outdoors creates a dramatic cold blue look."
+          "text": "Per a efectes creatius, prova de \"desajustar\" intencionadament el balanç de blancs. Ajustar un balanç de blancs de dia durant l'hora daurada fa les postes encara més càlides, mentre que un balanç de blancs de tungsten a exterior crea un look blau fred i dramàtic."
         },
         "2": {
-          "text": "In mixed lighting situations (e.g., a room lit by both window light and tungsten lamps), use a gray card to set a custom white balance, or gel your flash to match the ambient light source."
+          "text": "En situacions d'il·luminació mixta (p. ex., una habitació il·luminada per llum de finestra i làmpades de tungsten), fes servir una carta de grisos per ajustar un balanç de blancs personalitzat, o posa gels al flaix perquè coincideixi amb la llum ambient."
         }
       },
       "tooltips": {
         "colorTemperature": {
-          "term": "Color Temperature",
-          "definition": "A measure of light color in Kelvin (K). Based on the theoretical color of a heated black body. Lower values are warmer (orange/red), higher values are cooler (blue)."
+          "term": "Temperatura de color",
+          "definition": "Una mesura del color de la llum en Kelvin (K). Basada en el color teòric d'un cos negre escalfat. Els valors baixos són més càlids (taronja/vermell), els alts més freds (blau)."
         },
         "preset": {
-          "term": "White Balance Preset",
-          "definition": "A predefined white balance setting calibrated for a common light source. Presets include Tungsten (~3200K), Fluorescent (~4000K), Daylight (~5500K), Cloudy (~6500K), and Shade (~7500K)."
+          "term": "Preajust de balanç de blancs",
+          "definition": "Un ajust de balanç de blancs predefinit i calibrat per a una font de llum habitual. Els preajustos inclouen Tungsten (~3200K), Fluorescent (~4000K), Daylight (~5500K), Cloudy (~6500K) i Shade (~7500K)."
         },
         "rgbValues": {
-          "term": "RGB Values",
-          "definition": "The red, green, and blue channel values (0-255 each) that represent the color of light at the selected temperature. Used to visualize how the light source tints the scene."
+          "term": "Valors RGB",
+          "definition": "Els valors dels canals vermell, verd i blau (0-255 cadascun) que representen el color de la llum a la temperatura seleccionada. Útils per visualitzar com la font de llum tenyeix l'escena."
         },
         "hexCode": {
-          "term": "Hex Code",
-          "definition": "A six-character hexadecimal representation of the color (e.g., #FF8C00). Useful for referencing the exact color in design software or web development."
+          "term": "Codi hex",
+          "definition": "Una representació hexadecimal de sis caràcters del color (p. ex., #FF8C00). Útil per referenciar el color exacte en programari de disseny o desenvolupament web."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "Your indoor photos under regular household light bulbs look very orange/yellow. Which white balance preset should you use to fix this?",
-          "hint": "Household incandescent bulbs emit warm, orange-toned light around 2800-3200K.",
-          "successMessage": "Correct! The Tungsten preset adds blue to counteract the orange cast of incandescent bulbs, bringing colors back to neutral.",
-          "failureMessage": "Incandescent/tungsten bulbs emit warm orange light. The Tungsten white balance preset is specifically designed to neutralize this cast by adding blue.",
+          "scenario": "Les teves fotos d'interior sota bombetes domèstiques surten molt taronges/grogues. Quin preajust de balanç de blancs hauries de fer servir per arreglar-ho?",
+          "hint": "Les bombetes incandescents domèstiques emeten llum càlida i taronja al voltant de 2800-3200K.",
+          "successMessage": "Correcte! El preajust Tungsten afegeix blau per contrarestar la dominant taronja de les bombetes incandescents, tornant els colors a un to neutre.",
+          "failureMessage": "Les bombetes incandescents/tungsten emeten llum taronja càlida. El preajust de balanç de blancs Tungsten està dissenyat específicament per neutralitzar aquesta dominant afegint blau.",
           "options": {
             "0": { "label": "Daylight" },
             "1": { "label": "Tungsten" },
@@ -77,50 +77,50 @@
           }
         },
         "1": {
-          "scenario": "You are shooting portraits during golden hour and want to keep the beautiful warm glow of the sunset. Which white balance setting should you use?",
-          "hint": "If you set the \"correct\" WB for golden hour, it would neutralize the warm tones you want to keep.",
-          "successMessage": "Correct! Using the Daylight preset (or even Cloudy/Shade) during golden hour preserves and enhances the warm tones instead of neutralizing them.",
-          "failureMessage": "To preserve the warm glow of golden hour, use a WB that does not compensate for warm light. Daylight or higher presets will keep (and even enhance) the warmth.",
+          "scenario": "Fas retrats durant l'hora daurada i vols conservar aquest preciós to càlid de la posta de sol. Quin ajust de balanç de blancs hauries de fer servir?",
+          "hint": "Si fas servir el balanç de blancs \"correcte\" per a l'hora daurada, neutralitzaràs els tons càlids que vols conservar.",
+          "successMessage": "Correcte! Fer servir el preajust Daylight (o fins i tot Cloudy/Shade) durant l'hora daurada preserva i intensifica els tons càlids en comptes de neutralitzar-los.",
+          "failureMessage": "Per preservar el to càlid de l'hora daurada, fes servir un balanç de blancs que no compensi la llum càlida. Daylight o preajustos més alts mantindran (i fins i tot intensificaran) la calidesa.",
           "options": {
-            "0": { "label": "Auto White Balance" },
-            "1": { "label": "Tungsten (to neutralize the warmth)" },
-            "2": { "label": "Daylight (to preserve the warmth)" },
-            "3": { "label": "Flash" }
+            "0": { "label": "Balanç de blancs automàtic" },
+            "1": { "label": "Tungsten (per neutralitzar la calidesa)" },
+            "2": { "label": "Daylight (per preservar la calidesa)" },
+            "3": { "label": "Flaix" }
           }
         },
         "2": {
-          "scenario": "You are manually adjusting white balance in Kelvin. Your photo looks too blue/cold. Should you increase or decrease the Kelvin value to warm it up?",
-          "hint": "The Kelvin WB setting tells the camera what color temperature the light source is. Setting a higher Kelvin value makes the camera add more warmth.",
-          "successMessage": "Right! Increasing the Kelvin value tells the camera the light is cooler than it actually is, so the camera compensates by adding warmth. Set a higher K to warm up a cold-looking image.",
-          "failureMessage": "When you increase the Kelvin value, the camera adds more warmth to compensate. So to fix a cold/blue image, raise the Kelvin number.",
+          "scenario": "Ajustes el balanç de blancs manualment en Kelvin. La teva foto es veu massa blava/freda. Hauries d'augmentar o disminuir el valor Kelvin per escalfar-la?",
+          "hint": "L'ajust Kelvin diu a la càmera quina temperatura té la font de llum. Ajustar un valor Kelvin més alt fa que la càmera afegeixi més calidesa.",
+          "successMessage": "Exacte! Augmentar el valor Kelvin diu a la càmera que la llum és més freda del que realment és, de manera que la càmera compensa afegint calidesa. Ajusta un K més alt per escalfar una imatge freda.",
+          "failureMessage": "Quan augmentes el valor Kelvin, la càmera afegeix més calidesa per compensar. Per arreglar una imatge freda/blava, apuja el número Kelvin.",
           "options": {
-            "0": { "label": "Increase Kelvin (e.g., 5500K to 7500K)" },
-            "1": { "label": "Decrease Kelvin (e.g., 5500K to 3200K)" },
-            "2": { "label": "Kelvin direction does not affect warmth" }
+            "0": { "label": "Augmentar el Kelvin (p. ex., de 5500K a 7500K)" },
+            "1": { "label": "Disminuir el Kelvin (p. ex., de 5500K a 3200K)" },
+            "2": { "label": "La direcció del Kelvin no afecta la calidesa" }
           }
         },
         "3": {
-          "scenario": "You are photographing a restaurant interior that has warm tungsten pendant lights overhead and cool blue daylight streaming through large windows. People near the windows look blue, and people under the lamps look orange. What is the best approach?",
-          "hint": "No single white balance setting can correct two very different color temperatures simultaneously.",
-          "successMessage": "Exactly! Gelling the flash or additional lights to match one dominant source, or choosing a compromise WB and correcting selectively in post, are the best approaches for mixed lighting.",
-          "failureMessage": "Mixed lighting is one of the hardest WB challenges. A single WB cannot correct both sources simultaneously. You need to either match the sources with gels or fix it selectively in post.",
+          "scenario": "Fotografies l'interior d'un restaurant que té làmpades pendants de tungsten càlides al sostre i llum de dia freda i blava que entra per finestrals grans. Les persones a prop de les finestres es veuen blaves, i les que hi ha sota les làmpades surten taronja. Quin és el millor enfocament?",
+          "hint": "Cap ajust de balanç de blancs pot corregir dues temperatures de color molt diferents simultàniament.",
+          "successMessage": "Exacte! Posar gels al flaix o a les llums addicionals perquè coincideixin amb una font dominant, o triar un balanç de blancs de compromís i corregir selectivament en postproducció, són els millors enfocaments per a il·luminació mixta.",
+          "failureMessage": "La il·luminació mixta és un dels reptes més difícils del balanç de blancs. Un sol ajust no pot corregir les dues fonts alhora. Has de fer coincidir les fonts amb gels o corregir selectivament en post.",
           "options": {
-            "0": { "label": "Set WB to Tungsten — it will fix everything" },
-            "1": { "label": "Set WB to Daylight — windows are more important" },
-            "2": { "label": "Use Auto WB and shoot RAW, then correct each zone in post" },
-            "3": { "label": "Raise ISO to make colors more accurate" }
+            "0": { "label": "Ajusta el balanç de blancs a Tungsten — ho arreglarà tot" },
+            "1": { "label": "Ajusta el balanç de blancs a Daylight — les finestres són més importants" },
+            "2": { "label": "Fes servir balanç de blancs automàtic i dispara RAW, després corregeix cada zona en post" },
+            "3": { "label": "Apujar l'ISO per fer els colors més precisos" }
           }
         },
         "4": {
-          "scenario": "You are shooting a moody, cinematic night scene in a city and want an intentional cold blue tone. The streetlights are sodium vapor (~2200K). What Kelvin white balance setting would give you the strongest blue shift?",
-          "hint": "Setting WB much lower than the actual light source temperature will shift the image toward blue.",
-          "successMessage": "Correct! Setting WB to 7500K (Shade preset) tells the camera the light source is very cool/blue — so it compensates by adding heavy warmth-correction. But since the actual sodium lights are only 2200K (very warm), this overcorrection swings past neutral into a strong blue cast. The higher you set the WB Kelvin above the actual light temperature, the stronger the blue shift.",
-          "failureMessage": "Setting a WB Kelvin value much higher than the actual light source temperature makes the camera overcorrect toward blue. With 2200K sodium lights, setting WB to 7500K+ creates the strongest cold blue look.",
+          "scenario": "Fas una escena nocturna urbana, cinematogràfica i amb un to blau fred intencional. Els fanals de vapor de sodi del carrer són de ~2200K. Quin ajust de balanç de blancs Kelvin et donaria el desplaçament blau més fort?",
+          "hint": "Ajustar un balanç de blancs molt més baix que la temperatura real de la font de llum desplaça la imatge cap al blau.",
+          "successMessage": "Correcte! Ajustar el balanç de blancs a 7500K (preajust Shade) diu a la càmera que la font de llum és molt freda/blava — per tant compensa afegint una correcció càlida forta. Però com que els llums de sodi reals són només 2200K (molt càlids), aquesta sobrecorrecció passa més enllà del neutre i cau en una forta dominant blava. Com més alt ajustis el balanç de blancs Kelvin per sobre de la temperatura real de la llum, més fort serà el desplaçament blau.",
+          "failureMessage": "Ajustar un valor Kelvin de balanç de blancs molt més alt que la temperatura real de la font de llum fa que la càmera sobrecorregeixi cap al blau. Amb llums de sodi de 2200K, ajustar el balanç de blancs a 7500K+ crea el look blau fred més fort.",
           "options": {
-            "0": { "label": "2200K (matching the sodium lights)" },
-            "1": { "label": "3200K (Tungsten preset)" },
-            "2": { "label": "7500K or higher (Shade preset)" },
-            "3": { "label": "5500K (Daylight preset)" }
+            "0": { "label": "2200K (coincidint amb els llums de sodi)" },
+            "1": { "label": "3200K (preajust Tungsten)" },
+            "2": { "label": "7500K o superior (preajust Shade)" },
+            "3": { "label": "5500K (preajust Daylight)" }
           }
         }
       }

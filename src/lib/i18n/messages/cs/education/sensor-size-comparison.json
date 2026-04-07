@@ -1,122 +1,122 @@
 {
   "education": {
     "sensor-size-comparison": {
-      "beginner": "Camera sensors come in many different physical sizes, from the large medium-format chips used in studio cameras down to the tiny sensors in smartphones. A larger sensor captures more light, produces less noise, and makes it easier to blur backgrounds. Sensor size is one of the biggest factors separating camera categories.",
+      "beginner": "Snímače fotoaparátů se vyrábějí v mnoha fyzických velikostech — od velkých středoformátových čipů pro studiové fotoaparáty až po drobné snímače v mobilech. Větší snímač zachytí víc světla, produkuje méně šumu a líp rozmazává pozadí. Velikost snímače je jeden z největších faktorů rozdělujících kategorie fotoaparátů.",
       "deeper": {
         "0": {
-          "heading": "How it works",
-          "text": "Sensor size affects photography in several interconnected ways. A larger sensor has a bigger area to collect photons, improving signal-to-noise ratio and dynamic range. Sensor size is one of the most important differences between camera categories — from medium format studio cameras to smartphone sensors."
+          "heading": "Jak to funguje",
+          "text": "Velikost snímače ovlivňuje fotografii v několika propojených ohledech. Větší snímač má větší plochu pro sběr fotonů, což zlepšuje poměr signálu k šumu i dynamický rozsah. Velikost snímače je jedním z nejdůležitějších rozdílů mezi kategoriemi fotoaparátů — od středoformátových studiových přes full frame až po snímače mobilů."
         },
         "1": {
-          "heading": "Crop factor",
-          "text": "The \"crop factor\" describes how a sensor compares to the 35mm full-frame standard. An APS-C sensor with a 1.5x crop factor gives the same field of view with a 35mm lens as a full-frame camera would with a 52.5mm lens. This crop factor also multiplies the effective depth of field — a smaller sensor appears to give more depth of field at the same framing because you need a wider (shorter) lens to match the field of view."
+          "heading": "Crop faktor",
+          "text": "Crop faktor popisuje, jak se snímač liší od full frame standardu 35 mm. APS-C s crop faktorem 1,5× dává s 35mm objektivem stejný zorný úhel, jaký by na full frame dal 52,5mm objektiv. Crop faktor také efektivně násobí hloubku ostrosti — menší snímač zdánlivě dává větší hloubku ostrosti při stejné kompozici, protože k dorovnání výřezu potřebuješ širší (kratší) objektiv."
         },
         "2": {
-          "heading": "Pixel density",
-          "text": "Pixel density (pixel pitch) measures how tightly pixels are packed on the sensor. Packing more megapixels onto a smaller sensor shrinks each photosite, reducing per-pixel light gathering. A 24MP full-frame sensor has ~6\u00b5m pixels while a 24MP APS-C sensor has ~4\u00b5m pixels, which is why the full-frame sensor typically performs better at high ISO."
+          "heading": "Hustota pixelů",
+          "text": "Hustota pixelů (rozteč pixelů) měří, jak hustě jsou pixely naskládané na snímači. Narvat víc megapixelů do menšího snímače zmenší každý fotosite, což sníží sběr světla na jeden pixel. 24MP full frame snímač má rozteč kolem 6 µm, zatímco 24MP APS-C snímač má kolem 4 µm — proto má full frame obvykle lepší výkon při vysokém ISO."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Physical Dimensions",
-          "description": "Width and height in millimeters determine the total light-gathering area and the field of view for a given lens."
+          "label": "Fyzické rozměry",
+          "description": "Šířka a výška v milimetrech určují celkovou plochu pro sběr světla a zorný úhel pro daný objektiv."
         },
         "1": {
-          "label": "Crop Factor",
-          "description": "The ratio of the full-frame diagonal to the sensor diagonal. Multiplied by focal length, it gives the \"equivalent\" focal length."
+          "label": "Crop faktor",
+          "description": "Poměr úhlopříčky full frame k úhlopříčce snímače. Vynásobený ohniskem dává „ekvivalentní\" ohnisko."
         },
         "2": {
-          "label": "Pixel Density",
-          "description": "How tightly pixels are packed. Smaller pixel pitch means more detail but less light per pixel, affecting noise performance."
+          "label": "Hustota pixelů",
+          "description": "Jak hustě jsou pixely naskládané. Menší rozteč pixelů znamená víc detailu, ale míň světla na pixel, což ovlivňuje výkon šumu."
         },
         "3": {
-          "label": "Sensor Area",
-          "description": "Total area in mm\u00b2. A 44x33mm medium format sensor (Fujifilm GFX, Hasselblad X) has roughly 1.7x the area of full frame, while a larger 54x40mm medium format chip is about 2.5x. Full frame is roughly 13x the area of a flagship smartphone sensor."
+          "label": "Plocha snímače",
+          "description": "Celková plocha v mm². Středoformátový snímač 44 × 33 mm (Fujifilm GFX, Hasselblad X) má zhruba 1,7× plochu full frame, zatímco větší 54 × 40 mm je asi 2,5×. Full frame má zhruba 13× plochu vlajkového smartphonového snímače."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the overlay mode to see exactly how much bigger one sensor is than another — the area difference is often more dramatic than the numbers suggest."
+          "text": "Použij režim překryvu, abys přesně viděl, o kolik je jeden snímač větší než druhý — plocha bývá dramatičtější, než čísla napovídají."
         },
         "1": {
-          "text": "Switch to pixel density mode and enter your camera resolution to compare pixel pitch. If your camera has very high pixel density, you may hit diffraction limits at wider apertures than expected."
+          "text": "Přepni do režimu hustoty pixelů a zadej rozlišení svého fotoaparátu pro porovnání rozteče pixelů. Pokud má fotoaparát velmi vysokou hustotu pixelů, můžeš na difrakci narazit při širších clonách, než bys čekal."
         },
         "2": {
-          "text": "When comparing cameras, sensor area matters more than megapixel count for noise performance. A 20MP full-frame sensor will typically outperform a 40MP APS-C sensor at high ISO."
+          "text": "Při porovnávání fotoaparátů je pro šum důležitější plocha snímače než počet megapixelů. 20MP full frame snímač obvykle překoná 40MP APS-C při vysokém ISO."
         }
       },
       "tooltips": {
         "Sensor": {
-          "term": "Sensor",
-          "definition": "Toggle individual sensor formats on or off to include them in the visual comparison and data table."
+          "term": "Snímač",
+          "definition": "Zapínej a vypínej jednotlivé formáty snímačů, aby se objevily ve vizuálním porovnání a tabulce."
         },
         "Display Mode": {
-          "term": "Display Mode",
-          "definition": "Overlay shows all sensors centered on the same point. Side by Side places them next to each other at the same scale. Pixel Density visualizes how tightly pixels are packed."
+          "term": "Režim zobrazení",
+          "definition": "Překryv ukazuje všechny snímače vycentrované ve stejném bodě. Vedle sebe je položí ve stejném měřítku. Hustota pixelů ukazuje, jak hustě jsou pixely naskládané."
         },
         "Resolution": {
-          "term": "Resolution",
-          "definition": "The total megapixel count used to calculate pixel pitch in pixel density mode. Higher megapixels on the same sensor size means smaller individual pixels."
+          "term": "Rozlišení",
+          "definition": "Celkový počet megapixelů použitý k výpočtu rozteče pixelů v režimu hustoty. Víc megapixelů na stejné velikosti snímače znamená menší jednotlivé pixely."
         },
         "Crop Factor": {
-          "term": "Crop Factor",
-          "definition": "The ratio of the 35mm full-frame diagonal to this sensor diagonal. A 1.5x crop factor means a 50mm lens frames like a 75mm lens on full frame."
+          "term": "Crop faktor",
+          "definition": "Poměr úhlopříčky 35mm full frame k úhlopříčce tohoto snímače. Crop faktor 1,5× znamená, že 50mm objektiv komponuje jako 75mm na full frame."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "A full-frame sensor measures 36\u00d724mm. An APS-C sensor has a 1.5x crop factor. What is the approximate width of an APS-C sensor?",
-          "hint": "Divide the full-frame width by the crop factor.",
-          "successMessage": "Correct! 36mm \u00f7 1.5 \u2248 24mm. The APS-C sensor is about 24\u00d716mm, giving it roughly 44% of the full-frame area.",
-          "failureMessage": "Divide the full-frame width (36mm) by the crop factor (1.5x): 36 \u00f7 1.5 = 24mm.",
+          "scenario": "Full frame snímač měří 36 × 24 mm. APS-C snímač má crop faktor 1,5×. Jaká je přibližná šířka APS-C snímače?",
+          "hint": "Vyděl šířku full frame crop faktorem.",
+          "successMessage": "Správně! 36 mm ÷ 1,5 ≈ 24 mm. APS-C snímač má rozměry asi 24 × 16 mm, což je zhruba 44 % plochy full frame.",
+          "failureMessage": "Vyděl šířku full frame (36 mm) crop faktorem (1,5×): 36 ÷ 1,5 = 24 mm.",
           "options": {
-            "0": { "label": "24mm" },
-            "1": { "label": "30mm" },
-            "2": { "label": "18mm" }
+            "0": { "label": "24 mm" },
+            "1": { "label": "30 mm" },
+            "2": { "label": "18 mm" }
           }
         },
         "1": {
-          "scenario": "You mount a 50mm lens on a camera with a 2.0x crop factor sensor. What full-frame equivalent focal length do you get?",
-          "hint": "Multiply the focal length by the crop factor.",
-          "successMessage": "Right! 50mm \u00d7 2.0 = 100mm equivalent. This is why Micro Four Thirds cameras are popular for telephoto work — you get extra reach from every lens.",
-          "failureMessage": "Multiply the lens focal length by the crop factor: 50mm \u00d7 2.0 = 100mm equivalent.",
+          "scenario": "Nasadíš 50mm objektiv na fotoaparát s crop faktorem 2,0×. Jaký full frame ekvivalent ohniska dostaneš?",
+          "hint": "Vynásob ohnisko crop faktorem.",
+          "successMessage": "Správně! 50 mm × 2,0 = ekvivalent 100 mm. Proto jsou Micro Four Thirds fotoaparáty oblíbené pro teleobjektivy — z každého objektivu máš dosah navíc.",
+          "failureMessage": "Vynásob ohnisko objektivu crop faktorem: 50 mm × 2,0 = ekvivalent 100 mm.",
           "options": {
-            "0": { "label": "25mm" },
-            "1": { "label": "75mm" },
-            "2": { "label": "100mm" }
+            "0": { "label": "25 mm" },
+            "1": { "label": "75 mm" },
+            "2": { "label": "100 mm" }
           }
         },
         "2": {
-          "scenario": "Two cameras both have 24 megapixels — one full-frame (36\u00d724mm) and one APS-C (24\u00d716mm). Which has better high-ISO noise performance, and why?",
-          "hint": "Think about how the same number of pixels spread across different sensor areas affects individual pixel size.",
-          "successMessage": "Exactly! The full-frame sensor spreads 24MP over a larger area, so each pixel is physically bigger (~6\u00b5m vs ~4\u00b5m pitch) and captures more photons, resulting in less noise.",
-          "failureMessage": "The full-frame sensor wins — same megapixel count on a larger area means bigger pixels that gather more light, producing less noise at high ISO.",
+          "scenario": "Dva fotoaparáty mají oba 24 megapixelů — jeden full frame (36 × 24 mm) a druhý APS-C (24 × 16 mm). Který má lepší výkon šumu při vysokém ISO, a proč?",
+          "hint": "Zamysli se nad tím, jak stejný počet pixelů rozprostřený na různé ploše mění velikost jednotlivých pixelů.",
+          "successMessage": "Přesně! Full frame snímač rozprostírá 24 MP na větší plochu, takže každý pixel je fyzicky větší (rozteč ~6 µm vs. ~4 µm) a zachytí víc fotonů, což znamená menší šum.",
+          "failureMessage": "Vítězí full frame — stejný počet megapixelů na větší ploše znamená větší pixely, které sbírají víc světla a produkují méně šumu při vysokém ISO.",
           "options": {
-            "0": { "label": "Full frame — larger pixels gather more light" },
-            "1": { "label": "APS-C — smaller sensors are more efficient" },
-            "2": { "label": "Same noise — megapixel count is what matters" }
+            "0": { "label": "Full frame — větší pixely sbírají víc světla" },
+            "1": { "label": "APS-C — menší snímače jsou efektivnější" },
+            "2": { "label": "Stejný šum — rozhodují jen megapixely" }
           }
         },
         "3": {
-          "scenario": "Looking at the comparison table, which sensor format has a crop factor closest to 2.0x?",
-          "hint": "Crop factor is the full-frame diagonal divided by the sensor diagonal.",
-          "successMessage": "Correct! Micro Four Thirds has a crop factor of 2.0x, which is why a 25mm M43 lens frames like a 50mm on full frame.",
-          "failureMessage": "Micro Four Thirds has a 2.0x crop factor. Check the table — its diagonal is exactly half the full-frame diagonal.",
+          "scenario": "Podívej se na srovnávací tabulku. Který formát má crop faktor nejblíž 2,0×?",
+          "hint": "Crop faktor je úhlopříčka full frame dělená úhlopříčkou snímače.",
+          "successMessage": "Správně! Micro Four Thirds má crop faktor 2,0×, proto se 25mm MFT objektiv chová jako 50 mm na full frame.",
+          "failureMessage": "Micro Four Thirds má crop faktor 2,0×. Podívej se do tabulky — jeho úhlopříčka je přesně poloviční oproti full frame.",
           "options": {
             "0": { "label": "APS-C (Canon)" },
             "1": { "label": "Micro Four Thirds" },
-            "2": { "label": "1\" Sensor" }
+            "2": { "label": "1\" snímač" }
           }
         },
         "4": {
-          "scenario": "You are comparing a 50MP medium format camera to a 50MP full-frame camera using pixel density mode. Both have the same megapixel count. Which camera has the larger pixel pitch, and what practical advantage does that give?",
-          "hint": "Pixel pitch depends on sensor width divided by the number of horizontal pixels.",
-          "successMessage": "Right! The medium format sensor is physically larger, so at 50MP its pixels are bigger (higher pitch). This gives it about 1/3 stop better light gathering per pixel, plus slightly later diffraction onset.",
-          "failureMessage": "The medium format sensor is larger, so at the same resolution each pixel is physically bigger. Larger pixels collect more photons, giving better dynamic range and slightly later diffraction limits.",
+          "scenario": "Porovnáváš 50MP středoformátový fotoaparát s 50MP full frame v režimu hustoty pixelů. Oba mají stejný počet megapixelů. Který má větší rozteč pixelů a co ti to prakticky přinese?",
+          "hint": "Rozteč pixelů závisí na šířce snímače dělené počtem vodorovných pixelů.",
+          "successMessage": "Správně! Středoformátový snímač je fyzicky větší, takže při 50 MP má větší pixely (vyšší rozteč). To znamená asi o 1/3 stopu lepší sběr světla na pixel a mírně pozdější nástup difrakce.",
+          "failureMessage": "Středoformátový snímač je větší, takže při stejném rozlišení je každý pixel fyzicky větší. Větší pixely zachytí víc fotonů, což dává lepší dynamický rozsah a posune difrakční limit.",
           "options": {
-            "0": { "label": "Medium Format — better per-pixel light gathering and dynamic range" },
-            "1": { "label": "Full Frame — smaller pixels are more efficient" },
-            "2": { "label": "Both are identical since they have the same megapixel count" }
+            "0": { "label": "Střední formát — lepší sběr světla na pixel a dynamický rozsah" },
+            "1": { "label": "Full frame — menší pixely jsou efektivnější" },
+            "2": { "label": "Oba jsou identické, protože mají stejný počet megapixelů" }
           }
         }
       }

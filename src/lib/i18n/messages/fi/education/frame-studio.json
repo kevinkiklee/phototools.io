@@ -1,104 +1,104 @@
 {
   "education": {
     "frame-studio": {
-      "beginner": "Frame Studio helps you crop, frame, and compose your photos right in the browser. Use composition grids to improve your framing, crop to popular aspect ratios, and add professional-looking borders — all without losing any image quality.",
+      "beginner": "Frame Studio auttaa sinua rajaamaan, kehystämään ja sommittelemaan kuviasi suoraan selaimessa. Käytä sommitteluruudukkoja rajauksesi parantamiseen, rajaa suosittuihin kuvasuhteisiin ja lisää ammattimaisen näköisiä reunoja — kaikki ilman kuvanlaadun menetystä.",
       "deeper": {
         "0": {
-          "heading": "Composition Grids",
-          "text": "The Rule of Thirds divides the frame into a 3\u00d73 grid — placing subjects along lines or at intersections creates natural visual balance. The Golden Ratio (approximately 1.618:1) provides a mathematically harmonious division used in art and architecture for centuries. The Golden Spiral guides the eye along a logarithmic curve derived from the Fibonacci sequence, useful for leading the viewer through the image."
+          "heading": "Sommitteluruudukot",
+          "text": "Kolmanneksen sääntö jakaa kuvan 3×3-ruudukkoon — kohteiden asettaminen viivoille tai risteyksiin luo luonnollisen visuaalisen tasapainon. Kultainen leikkaus (noin 1,618:1) tarjoaa matemaattisesti sopusointuisen jaon, jota on käytetty taiteessa ja arkkitehtuurissa vuosisatoja. Kultainen spiraali ohjaa katsetta logaritmista kaarta pitkin, joka on johdettu Fibonaccin sarjasta, ja on hyödyllinen katsojan ohjaamiseen kuvan läpi."
         },
         "1": {
-          "heading": "Aspect Ratios",
-          "text": "Different aspect ratios serve different purposes. 1:1 (square) works well for social media and symmetrical compositions. 3:2 is the classic 35mm film ratio. 4:3 is common in micro four-thirds and older digital cameras. 16:9 is the standard widescreen ratio for video and cinematic compositions. 5:4 is traditional for 8\u00d710 prints."
+          "heading": "Kuvasuhteet",
+          "text": "Eri kuvasuhteet palvelevat eri tarkoituksia. 1:1 (neliö) toimii hyvin sosiaalisessa mediassa ja symmetrisissä sommitelmissa. 3:2 on klassinen 35 mm:n filmisuhde. 4:3 on yleinen Micro Four Thirdsissä ja vanhemmissa digikameroissa. 16:9 on videon ja elokuvallisten sommitelmien standardi laajakuvasuhde. 5:4 on perinteinen 8×10-vedoksille."
         },
         "2": {
-          "heading": "Framing and Borders",
-          "text": "Adding a border around a photograph mimics the effect of a physical mat and frame. A white mat provides visual breathing room and directs focus inward. The width of the border relative to the image affects the perceived \"weight\" of the photograph. Gallery-style presentations typically use wider mats. A subtle shadow creates depth, simulating how a framed print sits on a wall."
+          "heading": "Kehystys ja reunat",
+          "text": "Reunan lisääminen kuvan ympärille jäljittelee fyysisen passepartoutin ja kehyksen vaikutusta. Valkoinen passepartout tuo visuaalista hengittelytilaa ja ohjaa huomion sisäänpäin. Reunan leveys suhteessa kuvaan vaikuttaa valokuvan koettuun \"painoon\". Galleriatyyliset esitykset käyttävät tyypillisesti leveämpiä passepartoutteja. Hienovarainen varjo luo syvyyttä ja simuloi sitä, miltä kehystetty vedos näyttää seinällä."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Composition Grid",
-          "description": "Overlay guides help you evaluate and improve subject placement within the frame."
+          "label": "Sommitteluruudukko",
+          "description": "Apuviivat auttavat sinua arvioimaan ja parantamaan kohteen sijoittelua rajauksessa."
         },
         "1": {
-          "label": "Aspect Ratio",
-          "description": "The width-to-height proportion affects how the image feels — wider ratios feel cinematic, square feels balanced."
+          "label": "Kuvasuhde",
+          "description": "Leveyden ja korkeuden suhde vaikuttaa siihen, miltä kuva tuntuu — leveämmät suhteet tuntuvat elokuvallisilta, neliö tasapainoiselta."
         },
         "2": {
-          "label": "Border Width",
-          "description": "Wider borders add gravitas and focus; narrow borders feel modern and minimal."
+          "label": "Reunan leveys",
+          "description": "Leveämmät reunat tuovat arvokkuutta ja fokuksen; kapeat tuntuvat moderneilta ja minimalistisilta."
         },
         "3": {
-          "label": "Mat Color",
-          "description": "White mats are classic for art photography. Dark mats emphasize lighter images. Color mats can complement or contrast."
+          "label": "Passepartoutin väri",
+          "description": "Valkoiset passepartoutit ovat klassisia taidekuvauksessa. Tummat passepartoutit korostavat vaaleampia kuvia. Värilliset passepartoutit voivat täydentää tai kontrastoida."
         }
       },
       "tips": {
         "0": {
-          "text": "For Instagram posts, crop to 4:5 (portrait) to take up maximum screen space in the feed."
+          "text": "Instagram-julkaisuihin rajaa 4:5 (pystysuora) varataksesi maksimaalisen näyttötilan feedissä."
         },
         "1": {
-          "text": "When adding a border for print, use a mat width of at least 10% of the image's shorter dimension for a professional look."
+          "text": "Kun lisäät reunan tulostusta varten, käytä passepartoutin leveyttä, joka on vähintään 10 % kuvan lyhyemmästä ulottuvuudesta saadaksesi ammattimaisen ilmeen."
         },
         "2": {
-          "text": "The Golden Spiral is most effective for images with a natural flow — water, roads, or curved architecture."
+          "text": "Kultainen spiraali on tehokkain kuvissa, joissa on luonnollista virtausta — vettä, teitä tai kaarevia rakenteita."
         }
       },
       "tooltips": {
         "Aspect Ratio": {
-          "term": "Aspect Ratio",
-          "definition": "The proportional relationship between width and height. Common ratios include 3:2 (35mm), 4:3 (M43), and 16:9 (widescreen)."
+          "term": "Kuvasuhde",
+          "definition": "Leveyden ja korkeuden suhdeluku. Yleisiä suhteita ovat 3:2 (35 mm), 4:3 (M43) ja 16:9 (laajakuva)."
         },
         "Rule of Thirds": {
-          "term": "Rule of Thirds",
-          "definition": "A composition guideline that divides the frame into 9 equal parts. Placing subjects at intersection points creates visual interest."
+          "term": "Kolmanneksen sääntö",
+          "definition": "Sommitteluohje, joka jakaa kuvan 9 yhtä suureen osaan. Kohteiden asettaminen risteyspisteisiin luo visuaalista kiinnostavuutta."
         },
         "Golden Ratio": {
-          "term": "Golden Ratio",
-          "definition": "A mathematical proportion (~1.618:1) found in nature and art. Creates aesthetically pleasing divisions of space."
+          "term": "Kultainen leikkaus",
+          "definition": "Matemaattinen suhde (~1,618:1), jota löytyy luonnosta ja taiteesta. Luo esteettisesti miellyttäviä tilajakoja."
         },
         "Border Width": {
-          "term": "Border Width",
-          "definition": "The thickness of the frame border in pixels. Goes outside the image, increasing total dimensions without cropping."
+          "term": "Reunan leveys",
+          "definition": "Kehyksen reunan paksuus pikseleinä. Menee kuvan ulkopuolelle, kasvattaen kokonaismittoja rajaamatta."
         },
         "Inner Mat": {
-          "term": "Inner Mat",
-          "definition": "A second, thinner border between the outer frame and the image — mimics the beveled inner mat of a physical picture frame."
+          "term": "Sisempi passepartout",
+          "definition": "Toinen, ohuempi reuna ulkokehyksen ja kuvan välissä — jäljittelee fyysisen tauluhyvityskehyksen viistettyä sisäpassepartoutia."
         },
         "Corner Radius": {
-          "term": "Corner Radius",
-          "definition": "Rounds the corners of the frame border. Zero gives sharp corners, higher values give a softer, rounded look."
+          "term": "Kulmapyöristys",
+          "definition": "Pyöristää kehyksen reunan kulmia. Nolla antaa terävät kulmat, suuremmat arvot pehmeämmän, pyöristetyn ilmeen."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to post a portrait photo on Instagram for maximum feed presence. Which aspect ratio should you use?",
-          "hint": "Instagram portrait posts use a taller-than-wide ratio.",
-          "successMessage": "Correct! 4:5 gives you the maximum vertical space in the Instagram feed.",
-          "failureMessage": "Instagram portrait posts use 4:5 (flip 5:4 to portrait orientation) for maximum feed real estate.",
+          "scenario": "Haluat julkaista pystymuotokuvan Instagramissa maksimaalisella feed-näkyvyydellä. Mitä kuvasuhdetta käytät?",
+          "hint": "Instagramin pystyjulkaisut käyttävät korkeampaa kuin leveää suhdetta.",
+          "successMessage": "Oikein! 4:5 antaa maksimaalisen pystytilan Instagram-feedissä.",
+          "failureMessage": "Instagramin pystyjulkaisut käyttävät 4:5 (käännä 5:4 pystyasentoon) maksimoidakseen feed-tilan.",
           "options": {
-            "0": { "label": "1:1 (Square)" },
-            "1": { "label": "4:5 (Portrait)" },
-            "2": { "label": "16:9 (Widescreen)" }
+            "0": { "label": "1:1 (Neliö)" },
+            "1": { "label": "4:5 (Pysty)" },
+            "2": { "label": "16:9 (Laajakuva)" }
           }
         },
         "1": {
-          "scenario": "Which composition grid is the most widely taught starting point for beginners?",
-          "hint": "It divides the frame into 9 equal sections.",
-          "successMessage": "Right! The Rule of Thirds is the foundational composition guide.",
-          "failureMessage": "The Rule of Thirds (3\u00d73 grid) is the most common starting point for learning composition.",
+          "scenario": "Mikä sommitteluruudukko on eniten opetettu lähtökohta aloittelijoille?",
+          "hint": "Se jakaa kuvan 9 yhtä suureen osaan.",
+          "successMessage": "Aivan! Kolmanneksen sääntö on sommittelun perusta.",
+          "failureMessage": "Kolmanneksen sääntö (3×3-ruudukko) on yleisin lähtökohta sommittelun oppimiseen.",
           "options": {
-            "0": { "label": "Rule of Thirds" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Diagonal Lines" }
+            "0": { "label": "Kolmanneksen sääntö" },
+            "1": { "label": "Kultainen spiraali" },
+            "2": { "label": "Diagonaaliviivat" }
           }
         },
         "2": {
-          "scenario": "You are preparing a photo for gallery printing on 8\u00d710 paper. Which aspect ratio matches this print size?",
-          "hint": "8\u00f710 simplifies to a well-known ratio.",
-          "successMessage": "Correct! 5:4 matches 8\u00d710 print dimensions perfectly.",
-          "failureMessage": "8\u00d710 simplifies to 4:5, which is the portrait version of 5:4.",
+          "scenario": "Valmistelet kuvaa gallerian tulostusta varten 8×10-paperille. Mikä kuvasuhde vastaa tätä tulostuskokoa?",
+          "hint": "8×10 yksinkertaistuu tunnettuun suhteeseen.",
+          "successMessage": "Oikein! 5:4 vastaa tarkalleen 8×10-tulostuksen mittoja.",
+          "failureMessage": "8×10 yksinkertaistuu 4:5:ksi, joka on 5:4:n pystyversio.",
           "options": {
             "0": { "label": "3:2" },
             "1": { "label": "5:4" },
@@ -106,21 +106,21 @@
           }
         },
         "3": {
-          "scenario": "A landscape photo features a winding river leading from the foreground to mountains in the background. Which grid overlay best matches this natural flow?",
-          "hint": "One grid type follows a natural curved path.",
-          "successMessage": "Great choice! The Golden Spiral follows curves and leading lines perfectly.",
-          "failureMessage": "The Golden Spiral is ideal for images with natural curved elements like rivers, roads, or coastlines.",
+          "scenario": "Maisemakuvassa on mutkitteleva joki, joka johtaa etualasta vuorille taustalle. Mikä ruudukkokerros sopii parhaiten tähän luonnolliseen virtaukseen?",
+          "hint": "Yksi ruudukkotyyppi seuraa luonnollista kaarevaa polkua.",
+          "successMessage": "Hieno valinta! Kultainen spiraali seuraa kaaria ja johtolinjoja täydellisesti.",
+          "failureMessage": "Kultainen spiraali on ihanteellinen kuviin, joissa on luonnollisia kaaria, kuten joet, tiet tai rantaviivat.",
           "options": {
-            "0": { "label": "Center Cross" },
-            "1": { "label": "Golden Spiral" },
-            "2": { "label": "Square Grid" }
+            "0": { "label": "Keskiristi" },
+            "1": { "label": "Kultainen spiraali" },
+            "2": { "label": "Neliöruudukko" }
           }
         },
         "4": {
-          "scenario": "You want a clean white border to present your photo on social media. Which frame preset should you use?",
-          "hint": "Think about which preset gives you a simple white border.",
-          "successMessage": "Correct! The White preset adds a 100px white border around your photo.",
-          "failureMessage": "The White preset is designed for a clean, simple white border presentation.",
+          "scenario": "Haluat puhtaan valkoisen reunan esittääksesi kuvasi sosiaalisessa mediassa. Mitä kehysesiasetusta käytät?",
+          "hint": "Mieti, mikä esiasetus antaa yksinkertaisen valkoisen reunan.",
+          "successMessage": "Oikein! White-esiasetus lisää 100 pikselin valkoisen reunan kuvasi ympärille.",
+          "failureMessage": "White-esiasetus on suunniteltu puhtaan, yksinkertaisen valkoisen reunan esittämiseen.",
           "options": {
             "0": { "label": "None" },
             "1": { "label": "White" },

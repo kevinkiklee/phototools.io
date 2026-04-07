@@ -2,63 +2,63 @@
   "tools": {
     "fov-simulator": {
       "name": "FOV Simulator",
-      "description": "Compare field of view across focal lengths and sensor sizes"
+      "description": "Bandingkan medan pandangan merentasi panjang fokus dan saiz sensor"
     },
     "color-scheme-generator": {
       "name": "Color Scheme Generator",
-      "description": "Build color palettes for photography shoots"
+      "description": "Bina palet warna untuk sesi fotografi anda"
     },
     "exposure-simulator": {
-      "name": "Exposure Triangle Simulator",
-      "description": "See how aperture, shutter speed, and ISO interact"
+      "name": "Simulator Segi Tiga Pendedahan",
+      "description": "Lihat bagaimana aperture, kelajuan pengatup dan ISO saling berinteraksi"
     },
     "dof-simulator": {
       "name": "Depth-of-Field Simulator",
-      "description": "Visualize how aperture, focal length, and distance affect background blur"
+      "description": "Visualkan cara aperture, panjang fokus dan jarak mempengaruhi kekaburan latar belakang"
     },
     "focus-stacking-calculator": {
       "name": "Focus Stacking Calculator",
-      "description": "Calculate optimal focus distances for front-to-back sharpness"
+      "description": "Kira jarak fokus optimum untuk ketajaman dari depan ke belakang"
     },
     "equivalent-settings-calculator": {
-      "name": "Equivalent Settings Calculator",
-      "description": "Find equivalent aperture and focal length across sensor formats"
+      "name": "Kalkulator Tetapan Setara",
+      "description": "Cari aperture dan panjang fokus setara merentasi format sensor"
     },
     "hyperfocal-simulator": {
-      "name": "Hyperfocal Distance Simulator",
-      "description": "Learn where to focus for maximum sharpness from foreground to infinity"
+      "name": "Simulator Jarak Hiperfokal",
+      "description": "Pelajari tempat untuk memfokus bagi ketajaman maksimum dari latar depan ke infiniti"
     },
     "shutter-speed-visualizer": {
       "name": "Shutter Speed Visualizer",
-      "description": "Find the minimum safe shutter speed for sharp handheld shots"
+      "description": "Cari kelajuan pengatup minimum yang selamat untuk tangkapan tangan yang tajam"
     },
     "nd-filter-calculator": {
       "name": "ND Filter Calculator",
-      "description": "Calculate exposure time with any ND filter"
+      "description": "Kira masa pendedahan dengan sebarang penapis ND"
     },
     "star-trail-calculator": {
       "name": "Star Trail Calculator",
-      "description": "Calculate max exposure for sharp stars or plan star trail shots"
+      "description": "Kira pendedahan maksimum untuk bintang tajam atau rancang tangkapan jejak bintang"
     },
     "perspective-compression-simulator": {
-      "name": "Perspective Compression Simulator",
-      "description": "See how focal length affects background compression"
+      "name": "Simulator Mampatan Perspektif",
+      "description": "Lihat cara panjang fokus mempengaruhi mampatan latar belakang"
     },
     "white-balance-visualizer": {
       "name": "White Balance Visualizer",
-      "description": "See how color temperature affects your photos"
+      "description": "Lihat cara suhu warna mempengaruhi foto anda"
     },
     "sensor-size-comparison": {
       "name": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes visually"
+      "description": "Bandingkan saiz sensor kamera secara visual"
     },
     "frame-studio": {
       "name": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays"
+      "description": "Potong, bingkaikan dan susun foto dengan tindanan grid"
     },
     "exif-viewer": {
       "name": "EXIF Viewer",
-      "description": "View EXIF metadata and histogram for any photo — 100% client-side"
+      "description": "Lihat metadata EXIF dan histogram mana-mana foto — 100% di sebelah klien"
     }
   }
 }

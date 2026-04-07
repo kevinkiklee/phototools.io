@@ -1,110 +1,110 @@
 {
   "education": {
     "focus-stacking-calculator": {
-      "beginner": "Focus stacking is a technique where you take multiple photos at different focus distances and merge them in software to create an image with front-to-back sharpness. It is essential for macro photography, where depth of field is razor-thin, and useful in landscape photography when you need both near foreground and distant background in sharp focus.",
+      "beginner": "El focus stacking és una tècnica en què fas diverses fotos a distàncies d'enfocament diferents i les combines amb programari per crear una imatge nítida de davant a darrere. És essencial en macro, on la profunditat de camp és extremament prima, i útil en paisatge quan necessites tant el primer pla com el fons nítids.",
       "deeper": {
         "0": {
-          "heading": "Why Stacking Is Necessary",
-          "text": "At macro magnifications, even f/16 may yield only a few millimeters of depth of field. Stopping down further introduces diffraction softening that degrades the image. Focus stacking lets you shoot at the lens's sharpest aperture (typically f/5.6-f/8) and combine the sharp slices. Each frame shifts focus slightly forward, covering a new slice of the subject."
+          "heading": "Per què cal apilar",
+          "text": "A ampliacions macro, fins i tot f/16 pot donar només uns mil·límetres de profunditat de camp. Tancar encara més introdueix difracció que degrada la imatge. El focus stacking et permet disparar amb el diafragma més nítid de l'objectiu (normalment f/5.6-f/8) i combinar-ne les parts nítides. Cada fotograma desplaça l'enfocament lleugerament cap endavant, cobrint una nova part del subjecte."
         },
         "1": {
-          "heading": "Planning the Stack",
-          "text": "The key to a successful stack is ensuring each shot's depth of field overlaps the next by 20-30%. Too little overlap creates gaps where nothing is sharp; too much wastes frames without benefit. The calculator determines the per-shot DoF using the circle of confusion formula, subtracts the overlap margin, and divides the total depth range by the effective step to compute the number of shots."
+          "heading": "Planificar l'apilament",
+          "text": "La clau d'un bon apilament és assegurar que la profunditat de camp de cada presa se solapi amb la següent entre un 20-30%. Massa poc solapament crea espais on res no és nítid; massa solapament malgasta fotogrames sense benefici. La calculadora determina la profunditat de camp per presa amb la fórmula del cercle de confusió, resta el marge de solapament i divideix el rang total de profunditat pel pas efectiu per calcular el nombre de preses."
         },
         "2": {
-          "heading": "Merging & Alignment",
-          "text": "Software like Photoshop, Helicon Focus, or Zerene Stacker aligns the frames (slight magnification shifts occur as focus changes), then selects the sharpest pixels from each layer. Shooting on a sturdy tripod with consistent lighting and using a focus rail for precise increments produces the cleanest results."
+          "heading": "Combinació i alineació",
+          "text": "Programari com Photoshop, Helicon Focus o Zerene Stacker alinea els fotogrames (es produeixen petits desplaçaments d'ampliació quan canvia l'enfocament), i després selecciona els píxels més nítids de cada capa. Disparar amb trípode robust i il·luminació consistent, fent servir un carril d'enfocament per increments precisos, dona els resultats més nets."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Determines per-shot depth of field. A moderate aperture (f/5.6-f/8) balances sharpness and DoF per frame. Avoid very small apertures — diffraction reduces the sharpness you are stacking for."
+          "label": "Diafragma",
+          "description": "Determina la profunditat de camp per presa. Un diafragma moderat (f/5.6-f/8) equilibra nitidesa i profunditat de camp per fotograma. Evita els diafragmes molt tancats — la difracció redueix la nitidesa que vols assolir."
         },
         "1": {
-          "label": "Depth Range",
-          "description": "The distance from the nearest to farthest point you want sharp. Wider ranges require more shots. In macro work this may be just centimeters; in landscapes it can span meters to infinity."
+          "label": "Rang de profunditat",
+          "description": "La distància des del punt més proper fins al més llunyà que vols nítid. Rangs més amples necessiten més preses. En macro pot ser de només centímetres; en paisatge pot anar de metres fins a l'infinit."
         },
         "2": {
-          "label": "Overlap",
-          "description": "The percentage of each shot's DoF that overlaps the adjacent shots. 20-30% is standard. Less risks gaps; more wastes frames."
+          "label": "Solapament",
+          "description": "El percentatge de profunditat de camp de cada presa que se solapa amb les adjacents. El 20-30% és l'estàndard. Menys arrisca espais buits; més malgasta fotogrames."
         }
       },
       "tips": {
         "0": {
-          "text": "Use a focus rail instead of the lens's focus ring for macro stacking. A rail moves the entire camera forward in precise increments, avoiding the slight magnification changes that occur when refocusing the lens."
+          "text": "Fes servir un carril d'enfocament en comptes de l'anell d'enfocament de l'objectiu per a l'apilament macro. Un carril desplaça tota la càmera cap endavant en increments precisos, evitant els petits canvis d'ampliació que es produeixen en reenfocar l'objectiu."
         },
         "1": {
-          "text": "Keep your aperture at the lens's sweet spot (typically f/5.6-f/8). The point of stacking is to avoid stopping down to f/16+, so use the sharpest aperture and let the stack handle depth."
+          "text": "Mantingues el diafragma al punt dolç de l'objectiu (normalment f/5.6-f/8). La idea de l'apilament és evitar haver de tancar fins a f/16+, de manera que fa servir el diafragma més nítid i deixa que l'apilament aporti la profunditat."
         },
         "2": {
-          "text": "For landscape stacks, shoot front-to-back: focus on the nearest element first, then step focus toward infinity. This makes alignment easier since the foreground (with the most parallax) is captured first."
+          "text": "Per a apilaments de paisatge, dispara de davant a darrere: enfoca primer a l'element més proper i després fes passos cap a l'infinit. Això facilita l'alineació perquè el primer pla (amb més paral·laxi) es captura primer."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths reduce per-shot depth of field, requiring more frames to cover the same depth range."
+          "term": "Distància focal",
+          "definition": "La distància focal de l'objectiu en mil·límetres. Les distàncies focals més llargues redueixen la profunditat de camp per presa, requerint més fotogrames per cobrir el mateix rang."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening (f-number). For stacking, use the lens's sharpest aperture rather than stopping down — the stack provides the depth."
+          "term": "Diafragma",
+          "definition": "L'obertura de l'objectiu (f-stop). Per a l'apilament, fes servir el diafragma més nítid de l'objectiu en comptes de tancar — l'apilament aporta la profunditat."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "Larger sensors have a shallower per-shot depth of field at equivalent framing, which may increase the number of required stack frames."
+          "term": "Mida del sensor",
+          "definition": "Els sensors més grans tenen menys profunditat de camp per presa amb enquadrament equivalent, cosa que pot augmentar el nombre de fotogrames necessaris."
         },
         "nearLimit": {
-          "term": "Near Limit",
-          "definition": "The closest point in the scene that you want sharp. This is where the first shot in the stack will be focused."
+          "term": "Límit proper",
+          "definition": "El punt més proper de l'escena que vols nítid. És on s'enfocarà la primera presa de la seqüència."
         },
         "farLimit": {
-          "term": "Far Limit",
-          "definition": "The farthest point in the scene that you want sharp. The last shot in the stack will cover this distance."
+          "term": "Límit llunyà",
+          "definition": "El punt més llunyà de l'escena que vols nítid. L'última presa de la seqüència cobrirà aquesta distància."
         },
         "overlap": {
-          "term": "Overlap",
-          "definition": "The percentage of depth-of-field overlap between consecutive shots. 20-30% ensures no gaps after software alignment and merging."
+          "term": "Solapament",
+          "definition": "El percentatge de solapament de profunditat de camp entre preses consecutives. El 20-30% assegura que no hi hagi espais després de l'alineació i la combinació per programari."
         },
         "shotCount": {
-          "term": "Shot Count",
-          "definition": "The total number of frames needed to cover the depth range with the specified overlap. More shots = more processing but smoother results."
+          "term": "Nombre de preses",
+          "definition": "El total de fotogrames necessaris per cobrir el rang de profunditat amb el solapament especificat. Més preses = més processament però resultats més suaus."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing a small flower that is 3cm deep from front petal to back stem. Your macro lens at f/8 gives about 4mm of DoF per shot. Roughly how many frames do you need with 25% overlap?",
-          "hint": "Each shot covers 4mm, but 25% overlap means the effective step is 3mm per frame. Divide 30mm by 3mm.",
-          "successMessage": "Correct! With 4mm DoF and 25% overlap, each step advances 3mm. 30mm / 3mm = 10 shots to cover the entire flower.",
-          "failureMessage": "With 25% overlap, each frame's effective step is 75% of the DoF: 4mm × 0.75 = 3mm. You need 30mm / 3mm = 10 shots.",
+          "scenario": "Estàs fotografiant una flor petita de 3cm de profunditat des del pètal davanter fins a la tija del darrere. El teu objectiu macro a f/8 dona uns 4mm de profunditat de camp per presa. Aproximadament quants fotogrames necessites amb un 25% de solapament?",
+          "hint": "Cada presa cobreix 4mm, però un solapament del 25% vol dir que el pas efectiu és de 3mm per fotograma. Divideix 30mm per 3mm.",
+          "successMessage": "Correcte! Amb 4mm de profunditat de camp i un 25% de solapament, cada pas avança 3mm. 30mm / 3mm = 10 preses per cobrir tota la flor.",
+          "failureMessage": "Amb un 25% de solapament, el pas efectiu de cada fotograma és el 75% de la profunditat de camp: 4mm × 0,75 = 3mm. Necessites 30mm / 3mm = 10 preses.",
           "options": {
-            "0": { "label": "5 shots" },
-            "1": { "label": "10 shots" },
-            "2": { "label": "20 shots" },
-            "3": { "label": "30 shots" }
+            "0": { "label": "5 preses" },
+            "1": { "label": "10 preses" },
+            "2": { "label": "20 preses" },
+            "3": { "label": "30 preses" }
           }
         },
         "1": {
-          "scenario": "You want the sharpest possible result from your focus stack. Should you shoot each frame at f/2.8, f/8, or f/22?",
-          "hint": "Consider the lens's sharpest aperture and how diffraction affects small apertures.",
-          "successMessage": "Right! f/8 is typically the sharpest aperture for most lenses. f/2.8 has too little DoF per shot (wasting frames) and f/22 suffers from diffraction softening.",
-          "failureMessage": "f/8 is the best choice. f/2.8 gives very thin per-shot DoF (requiring many more frames), and f/22 introduces diffraction softening that defeats the purpose of stacking for sharpness.",
+          "scenario": "Vols el resultat més nítid possible del teu apilament d'enfocament. Hauries de disparar cada fotograma a f/2.8, f/8 o f/22?",
+          "hint": "Considera el diafragma més nítid de l'objectiu i com afecta la difracció als diafragmes petits.",
+          "successMessage": "Exacte! f/8 és normalment el diafragma més nítid per a la majoria d'objectius. f/2.8 té massa poca profunditat de camp per presa (malgastant fotogrames) i f/22 pateix de difracció.",
+          "failureMessage": "f/8 és la millor tria. f/2.8 dona una profunditat de camp per presa molt prima (requerint molts més fotogrames), i f/22 introdueix difracció que anul·la el propòsit d'apilar per a nitidesa.",
           "options": {
-            "0": { "label": "f/2.8 — widest for fastest shutter" },
-            "1": { "label": "f/8 — lens sweet spot" },
-            "2": { "label": "f/22 — maximum per-shot DoF" }
+            "0": { "label": "f/2.8 — el més obert per a una obturació ràpida" },
+            "1": { "label": "f/8 — el punt dolç de l'objectiu" },
+            "2": { "label": "f/22 — màxima profunditat de camp per presa" }
           }
         },
         "2": {
-          "scenario": "After merging your focus stack, you notice a soft band across the middle of the image where nothing is sharp. What most likely went wrong?",
-          "hint": "Think about what connects one frame's sharp zone to the next.",
-          "successMessage": "Exactly! Insufficient overlap between adjacent frames creates a gap where neither shot is sharp. Increase overlap to 25-30% and reshoot.",
-          "failureMessage": "A soft band usually means the gap between focus steps was too large — the DoF of adjacent frames did not overlap enough. Increase the overlap percentage.",
+          "scenario": "Després de combinar l'apilament d'enfocament, veus una franja suau al mig de la imatge on res no és nítid. Què és més probable que hagi anat malament?",
+          "hint": "Pensa què connecta la zona nítida d'un fotograma amb la del següent.",
+          "successMessage": "Exacte! Un solapament insuficient entre fotogrames adjacents crea un espai on cap de les dues preses és nítida. Augmenta el solapament al 25-30% i torna a disparar.",
+          "failureMessage": "Una franja suau normalment vol dir que el salt entre passos d'enfocament era massa gran — la profunditat de camp dels fotogrames adjacents no se solapava prou. Augmenta el percentatge de solapament.",
           "options": {
-            "0": { "label": "The aperture was too wide" },
-            "1": { "label": "Insufficient overlap between focus steps" },
-            "2": { "label": "The tripod moved during the sequence" },
-            "3": { "label": "The ISO was too high" }
+            "0": { "label": "El diafragma era massa obert" },
+            "1": { "label": "Solapament insuficient entre passos d'enfocament" },
+            "2": { "label": "El trípode es va moure durant la seqüència" },
+            "3": { "label": "L'ISO era massa alt" }
           }
         }
       }

@@ -1,109 +1,109 @@
 {
   "education": {
     "exposure-simulator": {
-      "beginner": "The exposure triangle describes how three camera settings — aperture, shutter speed, and ISO — work together to control how bright your photo is. Changing one setting requires adjusting at least one of the others to maintain the same brightness. Each setting also has its own creative side effect: aperture controls background blur, shutter speed controls motion blur, and ISO controls image noise.",
-      "deeper": "Exposure is measured in Exposure Value (EV), where each whole EV step represents a doubling or halving of light. An increase of 1 EV (one \"stop\") means twice as much light is reaching the sensor. Aperture follows a geometric progression (f/1.4, f/2, f/2.8, f/4...) where each full stop halves the light entering the lens because the area of the opening is inversely proportional to the square of the f-number. Shutter speed is more intuitive: doubling the time doubles the light. ISO amplifies the signal from the sensor — doubling the ISO doubles the effective brightness but also amplifies noise. In practice, you typically set the parameter that matters most for your creative intent first (aperture for DoF control, shutter for motion), then balance the others. Modern cameras meter in 1/3-stop increments for finer control.",
+      "beginner": "Трикутник експозиції описує, як три параметри камери — діафрагма, витримка й ISO — разом керують яскравістю знімка. Зміниш один — доведеться підлаштувати щонайменше один з інших, щоб лишитися з тією самою яскравістю. У кожного параметра є ще й свій творчий побічний ефект: діафрагма керує розмиттям фону, витримка — розмиттям руху, ISO — шумом.",
+      "deeper": "Експозиція вимірюється у значеннях EV (Exposure Value), де кожна ціла одиниця — це подвоєння або зменшення вдвічі кількості світла. Зростання на 1 EV (один \"стоп\") означає, що на матрицю потрапляє удвічі більше світла. Діафрагма йде геометричною прогресією (f/1.4, f/2, f/2.8, f/4...), де кожен повний стоп зменшує вдвічі кількість світла, бо площа отвору обернено пропорційна до квадрата f-числа. Витримка інтуїтивніша: подвоюєш час — подвоюєш світло. ISO підсилює сигнал із матриці — подвоєння ISO подвоює яскравість, але разом підсилює й шум. На практиці спочатку виставляєш те, що найважливіше для твого творчого наміру (діафрагму — якщо йдеться про DoF, витримку — якщо йдеться про рух), а потім балансуєш решту. Сучасні камери міряють експозицію з кроком 1/3 стопа для точнішого контролю.",
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Controls the size of the lens opening. Each full stop (e.g., f/2.8 to f/4) halves the light. Also affects depth of field — wider apertures blur the background more."
+          "label": "Діафрагма",
+          "description": "Керує розміром отвору в об'єктиві. Кожен повний стоп (наприклад, із f/2.8 до f/4) зменшує світло вдвічі. Також впливає на глибину різкості — ширші діафрагми сильніше розмивають фон."
         },
         "1": {
-          "label": "Shutter Speed",
-          "description": "Controls how long the sensor is exposed to light. Faster speeds freeze motion; slower speeds introduce motion blur. Doubling the time doubles the light."
+          "label": "Витримка",
+          "description": "Керує тривалістю експонування матриці. Коротші витримки заморожують рух, довші — дають змаз у русі. Подвоєння часу подвоює світло."
         },
         "2": {
           "label": "ISO",
-          "description": "Controls the sensor's sensitivity to light. Higher ISO brightens the image but adds grain/noise. Always use the lowest ISO that gives you the exposure you need."
+          "description": "Керує чутливістю матриці до світла. Вище ISO освітлює кадр, але додає зерно/шум. Завжди використовуй найнижче ISO, яке забезпечує потрібну експозицію."
         },
         "3": {
-          "label": "Exposure Value (EV)",
-          "description": "A single number that represents the overall brightness. EV 0 corresponds to a 1-second exposure at f/1.0. Each +1 EV halves the light."
+          "label": "Значення експозиції (EV)",
+          "description": "Одне число, що описує загальну яскравість. EV 0 відповідає витримці 1 секунда при f/1.0. Кожне +1 EV зменшує світло вдвічі."
         }
       },
       "tips": {
         "0": {
-          "text": "Start with Aperture Priority mode: set the aperture for your desired depth of field, and let the camera choose the shutter speed. Only raise ISO when the shutter speed drops too low for sharp handheld shots."
+          "text": "Почни з режиму пріоритету діафрагми: вибери діафрагму під бажану глибину різкості, а витримку нехай підбирає камера. Піднімай ISO тільки коли витримка падає нижче за безпечну для зйомки з рук."
         },
         "1": {
-          "text": "For sports and action, switch to Shutter Priority: pick a fast shutter speed (1/500s or faster) and let the camera adjust aperture and ISO to match."
+          "text": "Для спорту й дії переходь у пріоритет витримки: виставляй коротку витримку (1/500s або швидше), а камера сама підлаштує діафрагму й ISO."
         },
         "2": {
-          "text": "The \"Sunny 16\" rule is a quick mental shortcut: on a bright sunny day, set aperture to f/16, shutter speed to 1/ISO (e.g., 1/100s at ISO 100), and you will get a well-exposed image without metering."
+          "text": "Правило \"сонячних f/16\" — швидка розумова підказка: у яскравий сонячний день постав діафрагму f/16, витримку 1/ISO (наприклад, 1/100s при ISO 100) — і отримаєш нормально експонований кадр взагалі без вимірювання."
         }
       },
       "tooltips": {
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening size expressed as an f-number. Lower numbers (f/1.4) let in more light and blur the background. Higher numbers (f/16) let in less light but keep more of the scene sharp."
+          "term": "Діафрагма",
+          "definition": "Розмір отвору об'єктива, виражений через f-число. Менші значення (f/1.4) пропускають більше світла й розмивають фон. Більші (f/16) пропускають менше, але тримають більше сцени різкою."
         },
         "shutterSpeed": {
-          "term": "Shutter Speed",
-          "definition": "The duration the sensor is exposed to light, typically measured in fractions of a second (1/250s) or full seconds (2s). Faster speeds freeze motion; slower speeds create motion blur."
+          "term": "Витримка",
+          "definition": "Тривалість експонування матриці, зазвичай у частках секунди (1/250s) або цілих секундах (2s). Коротші витримки заморожують рух, довші — дають змаз."
         },
         "iso": {
           "term": "ISO",
-          "definition": "A measure of sensor sensitivity. ISO 100 is the base (cleanest image). Each doubling (200, 400, 800...) brightens the image by one stop but progressively adds noise."
+          "definition": "Показник чутливості матриці. ISO 100 — базове (найчистіший кадр). Кожне подвоєння (200, 400, 800...) освітлює кадр на один стоп, але поступово додає шум."
         },
         "ev": {
-          "term": "Exposure Value (EV)",
-          "definition": "A single number summarizing the overall exposure. Higher EV means brighter conditions or more light captured. Each +1 EV is double the light."
+          "term": "Значення експозиції (EV)",
+          "definition": "Одне число, що підсумовує загальну експозицію. Вище EV — яскравіші умови або більше зібраного світла. Кожне +1 EV — це вдвічі більше світла."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing your dog running in the park on a sunny day. The image keeps coming out blurry. Which setting should you prioritize to freeze the motion?",
-          "hint": "Motion blur is caused by the subject moving during the exposure.",
-          "successMessage": "Correct! A fast shutter speed like 1/1000s will freeze your dog mid-stride. On a sunny day, you have plenty of light to support this.",
-          "failureMessage": "That setting won't directly freeze motion. To stop a moving subject, you need a fast shutter speed — the shorter the exposure, the less time the subject has to blur.",
+          "scenario": "Знімаєш, як твій пес бігає парком у сонячний день. Кадри виходять змазаними. Який параметр головний, щоб заморозити рух?",
+          "hint": "Змаз у русі — це коли об'єкт рухається під час експозиції.",
+          "successMessage": "Правильно! Коротка витримка на кшталт 1/1000s заморозить пса на бігу. У сонячний день світла на це вистачить.",
+          "failureMessage": "Цей параметр напряму не заморожує рух. Щоб зупинити рухомий об'єкт, потрібна коротка витримка — чим коротша експозиція, тим менше часу об'єкт має на змаз.",
           "options": {
-            "0": { "label": "Widen the aperture to f/2.8" },
-            "1": { "label": "Use a fast shutter speed (1/1000s)" },
-            "2": { "label": "Increase ISO to 3200" },
-            "3": { "label": "Use a longer focal length" }
+            "0": { "label": "Відкрити діафрагму до f/2.8" },
+            "1": { "label": "Коротка витримка (1/1000s)" },
+            "2": { "label": "Підняти ISO до 3200" },
+            "3": { "label": "Взяти довшу фокусну відстань" }
           }
         },
         "1": {
-          "scenario": "You are taking photos at an indoor birthday party. Your images are too dark at f/3.5, 1/60s, ISO 400. You cannot use a flash. What is the best next step?",
-          "hint": "You need more light reaching the sensor or more amplification of the signal.",
-          "successMessage": "Good thinking! Raising ISO to 1600 gives you two extra stops of brightness while keeping your shutter speed fast enough for handheld shots.",
-          "failureMessage": "That change might cause other issues. Since the aperture is already near its widest and you need a shutter speed fast enough for handheld use, raising ISO is the most practical adjustment.",
+          "scenario": "Знімаєш фото на дитячому дні народження в приміщенні. Кадри на f/3.5, 1/60s, ISO 400 виходять темними. Спалахом користуватися не можна. Який найкращий наступний крок?",
+          "hint": "Потрібно або більше світла на матрицю, або сильніше посилення сигналу.",
+          "successMessage": "Чудово! Підняття ISO до 1600 додає два стопи яскравості й лишає витримку досить швидкою для зйомки з рук.",
+          "failureMessage": "Цей варіант може створити інші проблеми. Діафрагма вже майже на максимумі, а витримка потрібна коротка для зйомки з рук — тож найпрактичніше підняти ISO.",
           "options": {
-            "0": { "label": "Raise ISO to 1600" },
-            "1": { "label": "Slow shutter to 1/4s" },
-            "2": { "label": "Close aperture to f/8" },
-            "3": { "label": "Switch to a smaller sensor camera" }
+            "0": { "label": "Підняти ISO до 1600" },
+            "1": { "label": "Витримку до 1/4s" },
+            "2": { "label": "Закрити діафрагму до f/8" },
+            "3": { "label": "Перейти на камеру з меншою матрицею" }
           }
         },
         "2": {
-          "scenario": "You want to capture a waterfall with a silky smooth water effect on a bright day. Your current settings are f/8, 1/250s, ISO 100. What should you change to get the silky look?",
-          "hint": "Silky water requires a long exposure, but it is very bright outside.",
-          "successMessage": "Exactly! Using a slow shutter speed (1/2s or longer) and compensating by narrowing the aperture to f/22 (and possibly adding an ND filter) will give you that silky water effect.",
-          "failureMessage": "To get silky water, you need a slow shutter speed — around 1/2s to several seconds. On a bright day, you will also need to reduce the light entering the lens to avoid overexposure.",
+          "scenario": "Хочеш зняти водоспад із шовковою водою в яскравий день. Зараз у тебе f/8, 1/250s, ISO 100. Що змінити для шовкового ефекту?",
+          "hint": "Шовкова вода потребує довгої витримки, але на вулиці дуже світло.",
+          "successMessage": "Саме так! Довга витримка (1/2s або довше) із компенсацією через закриту діафрагму до f/22 (а можливо ще й ND-фільтр) дає шовковий ефект.",
+          "failureMessage": "Для шовкової води потрібна довга витримка — від ~1/2s до кількох секунд. У яскравий день доведеться ще й зменшити кількість світла, що заходить у об'єктив, щоб не перетримати.",
           "options": {
-            "0": { "label": "Use 1/2s shutter and narrow to f/22" },
-            "1": { "label": "Use 1/1000s shutter at f/2.8" },
-            "2": { "label": "Raise ISO to 6400" },
-            "3": { "label": "Keep 1/250s but open to f/1.4" }
+            "0": { "label": "Витримка 1/2s і закрити до f/22" },
+            "1": { "label": "Витримка 1/1000s при f/2.8" },
+            "2": { "label": "Підняти ISO до 6400" },
+            "3": { "label": "Лишити 1/250s, але відкрити до f/1.4" }
           }
         },
         "3": {
-          "scenario": "Your properly exposed photo is at f/5.6, 1/125s, ISO 200. You want to switch to f/2.8 for more background blur. How should you adjust the other settings to maintain the same exposure?",
-          "hint": "Going from f/5.6 to f/2.8 is 2 stops more light. You need to remove 2 stops somewhere else.",
-          "successMessage": "Perfect! Opening from f/5.6 to f/2.8 adds 2 stops of light. Changing shutter speed from 1/125s to 1/500s removes exactly 2 stops, keeping the exposure identical.",
-          "failureMessage": "The math needs to balance. f/5.6 to f/2.8 is +2 stops. You need to compensate by removing exactly 2 stops through faster shutter speed, lower ISO, or a combination.",
+          "scenario": "Правильно експонований кадр — f/5.6, 1/125s, ISO 200. Хочеш перейти на f/2.8 заради більшого розмиття фону. Як змінити решту, щоб лишитися на тій самій експозиції?",
+          "hint": "Від f/5.6 до f/2.8 — це +2 стопи світла. Треба прибрати 2 стопи в іншому параметрі.",
+          "successMessage": "Чудово! Відкривання з f/5.6 до f/2.8 додає 2 стопи світла. Зміна витримки з 1/125s на 1/500s прибирає рівно 2 стопи — експозиція лишається тією самою.",
+          "failureMessage": "Математика має збігатися. f/5.6 → f/2.8 — це +2 стопи. Треба компенсувати, прибравши рівно 2 стопи: коротшою витримкою, нижчим ISO або їх комбінацією.",
           "options": {
-            "0": { "label": "1/500s at ISO 200" },
-            "1": { "label": "1/250s at ISO 200" },
-            "2": { "label": "1/125s at ISO 100" },
-            "3": { "label": "1/60s at ISO 100" }
+            "0": { "label": "1/500s при ISO 200" },
+            "1": { "label": "1/250s при ISO 200" },
+            "2": { "label": "1/125s при ISO 100" },
+            "3": { "label": "1/60s при ISO 100" }
           }
         },
         "4": {
-          "scenario": "You are photographing a concert in a dark venue. The performers are moving quickly under colored stage lights. You need at least 1/250s to freeze motion. Your fastest lens is f/2.8. What ISO do you likely need if the scene meters at EV 6?",
-          "hint": "At EV 6, f/2.8, calculate the ISO needed to achieve 1/250s. Each full stop of ISO doubles the brightness.",
-          "successMessage": "Correct! At EV 6 with f/2.8 and 1/250s, you need ISO 3200. Concert photography often demands high ISO — knowing your camera's usable ISO limit is critical for these situations.",
-          "failureMessage": "At EV 6, the combination of f/2.8 and 1/250s requires ISO 3200 to achieve proper exposure. The exposure formula balances aperture, shutter speed, and ISO against the available light.",
+          "scenario": "Знімаєш концерт у темному залі. Виконавці швидко рухаються під кольоровим сценічним світлом. Потрібна витримка щонайменше 1/250s, щоб заморозити рух. Найсвітліший твій об'єктив — f/2.8. Яке ISO знадобиться, якщо сцена міряється як EV 6?",
+          "hint": "При EV 6, f/2.8 порахуй ISO, потрібне для 1/250s. Кожен повний стоп ISO подвоює яскравість.",
+          "successMessage": "Правильно! При EV 6 з f/2.8 і 1/250s потрібне ISO 3200. Концертна зйомка часто вимагає високого ISO — знати межу робочого ISO своєї камери тут критично.",
+          "failureMessage": "При EV 6 комбінація f/2.8 і 1/250s вимагає ISO 3200 для правильної експозиції. Формула експозиції балансує діафрагму, витримку й ISO з наявним світлом.",
           "options": {
             "0": { "label": "ISO 400" },
             "1": { "label": "ISO 800" },

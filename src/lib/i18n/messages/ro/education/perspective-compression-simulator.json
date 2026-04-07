@@ -1,57 +1,57 @@
 {
   "education": {
     "perspective-compression-simulator": {
-      "beginner": "Perspective compression is an optical effect where objects at different distances appear closer to each other than they actually are. It is most commonly seen when using long telephoto lenses (like 200mm or 400mm) from a far distance. Contrary to popular belief, it is not the lens itself that causes compression, but rather the distance between the camera and the scene.",
-      "deeper": "Compression happens because at large distances, the relative difference in distance between the foreground subject and the background objects becomes small. For example, if you are 100 feet from your subject and the background is another 20 feet behind them, the background is only 20% farther away than the subject. From 5 feet away, that same 20-foot gap makes the background 500% farther away. By moving far away and using a telephoto lens to \"fill the frame\" with the subject, you reduce the relative depth, making the background appear larger and \"compressed\" against the subject.",
+      "beginner": "Compresia de perspectivă este un efect optic prin care obiectele aflate la distanțe diferite par mai apropiate unele de altele decât sunt în realitate. Este cel mai des întâlnită când folosești teleobiective lungi (precum 200mm sau 400mm) de la o distanță mare. Contrar credinței populare, nu obiectivul în sine cauzează compresia, ci distanța dintre cameră și scenă.",
+      "deeper": "Compresia apare pentru că, la distanțe mari, diferența relativă de distanță dintre subiectul din prim-plan și obiectele din fundal devine mică. De exemplu, dacă ești la 30 de metri de subiect, iar fundalul este la alți 6 metri în spatele lui, fundalul este cu doar 20% mai departe decât subiectul. De la 1.5 metri distanță, aceeași diferență de 6 metri face fundalul să fie cu 400% mai departe. Îndepărtându-te mult și folosind un teleobiectiv ca să \"umpli cadrul\" cu subiectul, reduci adâncimea relativă, făcând fundalul să pară mai mare și \"comprimat\" în spatele subiectului.",
       "keyFactors": {
         "0": {
-          "label": "Shooting Distance",
-          "description": "The primary cause of compression. The farther you are from the subject, the more compressed the background will appear relative to the subject."
+          "label": "Distanța de fotografiere",
+          "description": "Cauza principală a compresiei. Cu cât ești mai departe de subiect, cu atât fundalul va apărea mai comprimat în raport cu subiectul."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Telephoto lenses magnify the image, allowing you to fill the frame with your subject from a distance where compression is visible. Wide-angle lenses require you to be close, which expands perceived depth."
+          "label": "Distanță focală",
+          "description": "Teleobiectivele măresc imaginea, permițându-ți să umpli cadrul cu subiectul de la o distanță la care compresia este vizibilă. Obiectivele largi te obligă să fii aproape, ceea ce extinde adâncimea percepută."
         },
         "2": {
-          "label": "Relative Depth",
-          "description": "Compression is most apparent when the distance between the subject and the background is small compared to the distance between the camera and the subject."
+          "label": "Adâncime relativă",
+          "description": "Compresia este cel mai evidentă când distanța dintre subiect și fundal este mică în comparație cu distanța dintre cameră și subiect."
         }
       },
       "tips": {
         "0": {
-          "text": "To make mountains look massive behind a subject, move as far back as possible and use your longest telephoto lens. This \"pulls\" the background closer to the foreground."
+          "text": "Ca să faci munții să pară impunători în spatele unui subiect, retrage-te cât mai mult posibil și folosește cel mai lung teleobiectiv. Asta \"trage\" fundalul mai aproape de prim-plan."
         },
         "1": {
-          "text": "In portrait photography, an 85mm or 135mm lens is often preferred because the slight compression produces a more flattering representation of facial features compared to wide-angle lenses."
+          "text": "În fotografia de portret, un obiectiv de 85mm sau 135mm este adesea preferat pentru că ușoara compresie produce o reprezentare mai măgulitoare a trăsăturilor feței, comparativ cu obiectivele largi."
         },
         "2": {
-          "text": "Use perspective expansion (wide-angle close up) to emphasize the lead-in lines of a foreground and make a space feel more vast and open."
+          "text": "Folosește expansiunea perspectivei (unghi larg de aproape) ca să accentuezi liniile de ghidaj ale prim-planului și să faci un spațiu să pară mai amplu și mai deschis."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The magnification power of the lens. Longer focal lengths (telephoto) allow you to shoot from farther away, which is what actually causes perspective compression."
+          "term": "Distanță focală",
+          "definition": "Puterea de mărire a obiectivului. Distanțele focale mai lungi (tele) îți permit să fotografiezi de mai departe, ceea ce de fapt cauzează compresia de perspectivă."
         },
         "distance": {
-          "term": "Subject Distance",
-          "definition": "The distance between the camera and the main subject. Increasing this distance is the physical cause of perspective compression."
+          "term": "Distanța față de subiect",
+          "definition": "Distanța dintre cameră și subiectul principal. Creșterea acestei distanțe este cauza fizică a compresiei de perspectivă."
         },
         "maintainSize": {
-          "term": "Maintain Subject Size",
-          "definition": "Automatically adjusts the camera distance when changing focal length to keep the main subject the same size in the frame. This demonstrates the \"Dolly Zoom\" effect."
+          "term": "Menține mărimea subiectului",
+          "definition": "Ajustează automat distanța camerei când schimbi distanța focală, pentru a menține subiectul principal la aceeași mărime în cadru. Asta demonstrează efectul de \"Dolly Zoom\"."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want to take a photo of a friend in front of a mountain, and you want the mountain to look as large as possible behind them. What should you do?",
-          "hint": "Compression is caused by distance, and telephoto lenses let you fill the frame from far away.",
-          "successMessage": "Exactly! By moving far away and using a telephoto lens, you compress the distance between your friend and the mountain, making the mountain appear much larger.",
-          "failureMessage": "Not quite. Getting closer with a wide-angle lens would make the mountain look smaller and farther away. Move back and zoom in!",
+          "scenario": "Vrei să fotografiezi un prieten în fața unui munte și vrei ca muntele să pară cât mai mare în spatele lui. Ce ar trebui să faci?",
+          "hint": "Compresia este cauzată de distanță, iar teleobiectivele îți permit să umpli cadrul de departe.",
+          "successMessage": "Exact! Îndepărtându-te mult și folosind un teleobiectiv, comprimi distanța dintre prietenul tău și munte, făcând muntele să pară mult mai mare.",
+          "failureMessage": "Nu chiar. Apropierea cu un obiectiv larg ar face muntele să pară mai mic și mai îndepărtat. Retrage-te și mărește!",
           "options": {
-            "0": { "label": "Move back and use a 200mm lens" },
-            "1": { "label": "Move closer and use a 24mm lens" },
-            "2": { "label": "Stay put and use a 50mm lens" }
+            "0": { "label": "Retrage-te și folosește un obiectiv de 200mm" },
+            "1": { "label": "Apropie-te și folosește un obiectiv de 24mm" },
+            "2": { "label": "Rămâi pe loc și folosește un obiectiv de 50mm" }
           }
         }
       }

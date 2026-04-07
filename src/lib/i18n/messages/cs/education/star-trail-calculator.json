@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "Hvězdy se na obloze zdánlivě pohybují, protože se Země otáčí. Když necháš závěrku otevřenou dostatečně dlouho, hvězdy se na fotce protáhnou do stop. Kalkulačka hvězdných stop ti pomůže najít maximální expozici pro bodové hvězdy nebo naplánovat dlouhé expozice pro krásné kruhové stopy.",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "Jak se hvězdy pohybují",
+          "text": "Země se otočí o 360° přibližně za 23 hodin a 56 minut (hvězdný den), takže hvězdy se pohybují rychlostí zhruba 15 úhlových vteřin za sekundu na nebeském rovníku. Hvězdy blíž pólům (Polárka na severu) opisují menší kruhy a zdánlivě se pohybují pomaleji."
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "Pravidlo 500 vs. NPF",
+          "text": "Klasické „pravidlo 500\" dělí 500 efektivní ohniskovou vzdáleností a odhaduje maximální expozici před tím, než se stopy hvězd stanou viditelné — bylo ale navržené pro snímače s nižším rozlišením. Pravidlo NPF počítá s roztečí pixelů, ohniskem, clonou a deklinací a dává kratší a přesnější limity pro moderní fotoaparáty s vysokým rozlišením."
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "Stackování pro hvězdné stopy",
+          "text": "Pro záměrné hvězdné stopy fotografové pořizují mnoho kratších expozic (typicky po 30 s) a skládají je v softwaru. Tím se vyhnou narůstajícímu šumu, dostanou plynulé stopy bez mezer, a jediný nepovedený snímek jim nepokazí celou práci."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "Ohnisková vzdálenost",
+          "description": "Delší ohniska zvětšují pohyb hvězd, takže pro bodové hvězdy potřebuješ kratší expozice. 14mm objektiv může exponovat 5–10× déle než 200mm."
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "Rozlišení snímače",
+          "description": "Snímače s vyšším rozlišením odhalí stopy hvězd při kratších expozicích. Pravidlo 500 je pro moderní fotoaparáty s 40+ MP příliš velkorysé."
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "Zeměpisná šířka a deklinace",
+          "description": "Hvězdy blíž nebeským pólům se posouvají méně za sekundu. Namíření k Polárce ti umožní delší expozice, než se objeví stopy."
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "Stackování vs. jedna expozice",
+          "description": "Pro hvězdné stopy dává stackování mnoha krátkých expozic čistší výsledky než jediná extrémně dlouhá expozice a umožňuje pokračovat i po přerušení."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "Pro moderní fotoaparáty používej místo pravidla 500 pravidlo NPF. Počítá s rozlišením snímače a dává přesnější maximální expoziční časy, zejména u těl s vysokým počtem megapixelů."
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "Při stackování hvězdných stop udržuj mezery mezi snímky pod 2–3 sekundy pomocí drátové spouště nebo intervalometru. Delší mezery vytvoří místo plynulých stop přerušované tečky."
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "Zahrň do kompozice Polárku (nebo jižní nebeský pól) pro dramatické soustředné kruhy. Hvězdy blíž pólu opisují těsnější oblouky."
         }
       },
       "tooltips": {
         "mode": {
-          "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "term": "Režim",
+          "definition": "Vyber „Ostré hvězdy\" pro výpočet maximální expozice na bodové hvězdy, nebo „Hvězdné stopy\" pro plánování sérií pro záměrné stopy."
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "Ohnisková vzdálenost",
+          "definition": "Ohnisková vzdálenost objektivu v milimetrech. Delší ohniska zvětšují zdánlivý pohyb hvězd a vyžadují kratší jednotlivé expozice."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "Velikost snímače",
+          "definition": "Fyzické rozměry snímače. Spolu s rozlišením určuje rozteč pixelů, která ovlivňuje, jak rychle se objeví stopy hvězd."
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "Rozlišení",
+          "definition": "Rozlišení snímače v megapixelech. Fotoaparáty s vyšším rozlišením odhalí stopy dřív, protože každý pixel pokrývá menší úhlovou plochu oblohy."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "term": "Clona",
+          "definition": "Otvor objektivu. Pro astrofotografii používej nejširší dostupnou clonu (nejnižší clonové číslo) a zachyť v každém snímku co nejvíc hvězdného světla."
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "Zeměpisná šířka",
+          "definition": "Tvá zeměpisná šířka. Ovlivňuje zdánlivou rychlost pohybu hvězd — ve vyšších šířkách se hvězdy u pólu pohybují rámem pomaleji."
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "Expozice na snímek",
+          "definition": "Expoziční čas pro každý jednotlivý snímek ve stopě hvězd. Obvykle 15–30 sekund, aby se zachytilo dost světla a zároveň se nepřekrmil šum."
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "Počet snímků",
+          "definition": "Kolik jednotlivých expozic pořídit. Víc snímků znamená delší a dramatičtější stopy hvězd. 120 snímků po 30 sekundách dá jednu hodinu stop."
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "Mezera mezi snímky",
+          "definition": "Čas mezi expozicemi na uložení souboru. Drž ji co nejkratší (1–3 sekundy), aby stopy nebyly tečkované."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "Fotíš Mléčnou dráhu 24mm objektivem na full frame 24MP fotoaparát. Jak dlouho můžeš podle pravidla 500 zhruba exponovat, než se začnou objevovat stopy hvězd?",
+          "hint": "Pravidlo 500: maximální sekundy = 500 / ohnisko.",
+          "successMessage": "Správně! 500 / 24 = přibližně 20 sekund. Je to dobrý výchozí bod, i když pravidlo NPF by mohlo pro kritickou ostrost doporučit o něco kratší čas.",
+          "failureMessage": "Použij pravidlo 500: vyděl 500 svým ohniskem (24 mm). Dostaneš zhruba 20 sekund.",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 sekund" },
+            "1": { "label": "10 sekund" },
+            "2": { "label": "20 sekund" },
+            "3": { "label": "60 sekund" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "Chceš fotit mlhovinu v Orionu 200mm objektivem na crop fotoaparátu (crop faktor 1,5×). Jaká je přibližná maximální expozice podle pravidla 500?",
+          "hint": "U crop snímače nejdřív vynásob ohnisko crop faktorem a pak použij pravidlo.",
+          "successMessage": "Správně! Efektivní ohnisko je 200 mm × 1,5 = 300 mm. 500 / 300 = ~1,7 sekundy. Při teleobjektivech na crop snímačích máš před vznikem stop jen velmi málo času.",
+          "failureMessage": "Nezapomeň započítat crop faktor: 200 mm × 1,5 = efektivních 300 mm. Pak 500 / 300 dává asi 1,7 sekundy.",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1,7 sekundy" },
+            "1": { "label": "~2,5 sekundy" },
+            "2": { "label": "~5 sekund" },
+            "3": { "label": "~10 sekund" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "Chceš vytvořit 2hodinovou fotku s hvězdnými stopami. Plánuješ 30sekundové expozice s 2sekundovými mezerami. Kolik snímků budeš potřebovat?",
+          "hint": "Spočítej, kolik 32sekundových intervalů (30 s expozice + 2 s mezera) se vejde do 2 hodin (7200 sekund).",
+          "successMessage": "Správně! 7200 sekund / 32 sekund na snímek = 225 snímků. Dostaneš plynulé, souvislé stopy za 2 hodiny rotace Země.",
+          "failureMessage": "Dvě hodiny = 7200 sekund. Každý cyklus snímku je 30 s + 2 s = 32 s. Vyděl 7200 číslem 32 a získáš počet potřebných snímků.",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 snímků" },
+            "1": { "label": "180 snímků" },
+            "2": { "label": "225 snímků" },
+            "3": { "label": "240 snímků" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "Tvůj kamarád používá 50MP full frame fotoaparát a podle pravidla 500 u 20mm objektivu dostal 25 sekund. Stěžuje si, že hvězdy po přiblížení vypadají jako krátké šmouhy. Proč?",
+          "hint": "Pravidlo 500 bylo navrženo pro starší snímače s nižším rozlišením.",
+          "successMessage": "Přesně! Pravidlo 500 je pro snímače s vysokým rozlišením příliš velkorysé. 50MP full frame snímač má rozteč pixelů kolem 4,4 µm a pravidlo NPF by pro skutečně ostré hvězdy doporučilo zhruba 10–12 sekund.",
+          "failureMessage": "Pravidlo 500 vzniklo v době, kdy měly snímače výrazně méně megapixelů. S 50 MP pokrývá každý pixel mnohem menší díl oblohy a odhaluje pohyb hvězd, který byl na starších fotoaparátech neviditelný.",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "Objektiv byl mimo zaostření" },
+            "1": { "label": "Pravidlo 500 je pro snímače s vysokým rozlišením příliš velkorysé" },
+            "2": { "label": "Fotoaparát se ve větru třásl" },
+            "3": { "label": "20 mm je na astrofotografii moc široké" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "Chceš jednohodinovou fotku hvězdných stop. Proč zkušení astrofotografové stackují mnoho krátkých expozic (například 240 × 15 s) místo jediné 1hodinové expozice?",
+          "hint": "Přemýšlej, co se při extrémně dlouhé expozici děje se šumem snímače, výdrží baterie a možností zachránit snímek.",
+          "successMessage": "Správně! Jediná hodinová expozice nasbírá obrovský tepelný šum, vybije baterii, a když se něco pokazí (vibrace, rosa, projíždějící auto), je celý snímek zničený. Stackování krátkých snímků drží šum nízko, umožňuje vyřadit špatné snímky a mnohem víc odpouští chyby.",
+          "failureMessage": "Dlouhé jednotlivé expozice nasbírají silný tepelný šum a hrozí úplná ztráta při jakémkoli přerušení. Stackování krátkých snímků drží šum v mezích, umožňuje zmetky vyhodit a dává čistší výsledky.",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "Stackování dává delší stopy než jedna expozice" },
+            "1": { "label": "Jednotlivé expozice nedokážou zachytit pohyb hvězd" },
+            "2": { "label": "Stackování snižuje šum, umožňuje zotavení z přerušení a šetří baterii" },
+            "3": { "label": "Není v tom praktický rozdíl — je to čistě věc preference" }
           }
         }
       }

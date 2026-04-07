@@ -1,128 +1,128 @@
 {
   "common": {
-    "skipToContent": "Skip to content",
+    "skipToContent": "মূল বিষয়বস্তুতে যাও",
     "nav": {
-      "tools": "Tools",
-      "glossary": "Glossary",
-      "closeMenu": "Close menu",
-      "comingSoon": "Soon",
+      "tools": "টুলস",
+      "glossary": "শব্দকোষ",
+      "closeMenu": "মেনু বন্ধ করো",
+      "comingSoon": "শীঘ্রই",
       "categories": {
-        "visualizer": "Visualizers",
-        "calculator": "Calculators",
-        "reference": "Reference",
-        "file-tool": "File Tools"
+        "visualizer": "ভিজ্যুয়ালাইজার",
+        "calculator": "ক্যালকুলেটর",
+        "reference": "রেফারেন্স",
+        "file-tool": "ফাইল টুল"
       }
     },
     "footer": {
-      "glossary": "Glossary",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "cookieSettings": "Cookie Settings"
+      "glossary": "শব্দকোষ",
+      "about": "আমাদের সম্পর্কে",
+      "contact": "যোগাযোগ",
+      "privacy": "গোপনীয়তা নীতি",
+      "terms": "সেবার শর্তাবলী",
+      "cookieSettings": "কুকি সেটিংস"
     },
     "theme": {
-      "switchToLight": "Switch to light mode",
-      "switchToDark": "Switch to dark mode"
+      "switchToLight": "হালকা মোডে যাও",
+      "switchToDark": "ডার্ক মোডে যাও"
     },
     "actions": {
-      "copyImage": "Copy image",
-      "reset": "Reset",
-      "copyLink": "Copy link",
-      "share": "Share",
-      "embed": "Embed"
+      "copyImage": "ছবি কপি করো",
+      "reset": "রিসেট",
+      "copyLink": "লিংক কপি করো",
+      "share": "শেয়ার",
+      "embed": "এমবেড"
     },
     "toast": {
-      "linkCopied": "Link copied!",
-      "imageCopied": "Copied image!",
-      "failedToCopy": "Failed to copy",
-      "copied": "Copied!"
+      "linkCopied": "লিংক কপি হয়েছে!",
+      "imageCopied": "ছবি কপি হয়েছে!",
+      "failedToCopy": "কপি করা যায়নি",
+      "copied": "কপি হয়েছে!"
     },
     "learn": {
-      "title": "Learn",
-      "openPanel": "Open learn panel",
-      "collapsePanel": "Collapse learn panel",
-      "whatIsThis": "What is this?",
-      "howItWorks": "How it works",
-      "keyFactors": "Key factors",
-      "proTip": "Pro Tip",
-      "challenge": "Challenge",
-      "hint": "Hint: {hint}",
-      "completed": "Completed",
-      "checkAnswer": "Check Answer",
-      "nextChallenge": "Next Challenge",
-      "tryAgain": "Try Again",
-      "resetAll": "Reset all",
-      "resetAllChallenges": "Reset all challenges",
-      "challengeNumber": "Challenge {number}"
+      "title": "শেখো",
+      "openPanel": "শেখার প্যানেল খোলো",
+      "collapsePanel": "শেখার প্যানেল বন্ধ করো",
+      "whatIsThis": "এটা কী?",
+      "howItWorks": "কীভাবে কাজ করে",
+      "keyFactors": "মূল বিষয়গুলো",
+      "proTip": "প্রো টিপ",
+      "challenge": "চ্যালেঞ্জ",
+      "hint": "ইঙ্গিত: {hint}",
+      "completed": "সম্পন্ন",
+      "checkAnswer": "উত্তর মিলাও",
+      "nextChallenge": "পরবর্তী চ্যালেঞ্জ",
+      "tryAgain": "আবার চেষ্টা করো",
+      "resetAll": "সব রিসেট করো",
+      "resetAllChallenges": "সব চ্যালেঞ্জ রিসেট করো",
+      "challengeNumber": "চ্যালেঞ্জ {number}"
     },
     "share": {
-      "title": "Share & Embed",
-      "closeModal": "Close share modal",
-      "directLink": "Direct Link",
+      "title": "শেয়ার ও এমবেড",
+      "closeModal": "শেয়ার মোডাল বন্ধ করো",
+      "directLink": "সরাসরি লিংক",
       "markdown": "Markdown (Reddit, GitHub)",
-      "bbcode": "BBCode (Forums)",
-      "htmlEmbed": "HTML Embed",
-      "copy": "Copy",
-      "copied": "Copied"
+      "bbcode": "BBCode (ফোরাম)",
+      "htmlEmbed": "HTML এমবেড",
+      "copy": "কপি",
+      "copied": "কপি হয়েছে"
     },
     "draft": {
-      "banner": "Preview — This tool is not yet public"
+      "banner": "প্রিভিউ — এই টুলটি এখনো সর্বসাধারণের জন্য প্রকাশিত হয়নি"
     },
     "fileUpload": {
-      "dropPrompt": "Drop an image here or click to browse",
-      "tapPrompt": "Tap to choose a photo",
-      "privacy": "Your photos never leave your device",
-      "selectedFile": "Selected file: {fileName}. Click to choose a different image",
-      "defaultLabel": "Your Photo"
+      "dropPrompt": "এখানে একটি ছবি ড্রপ করো বা ব্রাউজ করতে ক্লিক করো",
+      "tapPrompt": "ছবি বাছাই করতে ট্যাপ করো",
+      "privacy": "তোমার ছবি কখনোই তোমার ডিভাইস ছেড়ে যায় না",
+      "selectedFile": "নির্বাচিত ফাইল: {fileName}। অন্য ছবি বাছাই করতে ক্লিক করো",
+      "defaultLabel": "তোমার ছবি"
     },
     "scene": {
-      "label": "Scene:",
-      "yourPhoto": "Your photo",
-      "removePhoto": "Remove photo",
-      "uploadPhoto": "Upload photo"
+      "label": "দৃশ্য:",
+      "yourPhoto": "তোমার ছবি",
+      "removePhoto": "ছবি সরাও",
+      "uploadPhoto": "ছবি আপলোড করো"
     },
     "controls": {
-      "focalLength": "Focal length",
-      "aperture": "Aperture",
-      "distance": "Distance",
-      "clickToEnterValue": "Click to enter a value",
-      "decrease": "Decrease",
-      "increase": "Increase"
+      "focalLength": "ফোকাল দৈর্ঘ্য",
+      "aperture": "অ্যাপারচার",
+      "distance": "দূরত্ব",
+      "clickToEnterValue": "মান লিখতে ক্লিক করো",
+      "decrease": "কমাও",
+      "increase": "বাড়াও"
     },
     "dof": {
-      "depthOfField": "Depth of field: {totalDoF} from {nearFocus} to {farFocus}",
-      "infinity": "Infinity"
+      "depthOfField": "ক্ষেত্রের গভীরতা: {totalDoF}, {nearFocus} থেকে {farFocus} পর্যন্ত",
+      "infinity": "অসীম"
     },
     "ad": {
-      "closeAd": "Close advertisement"
+      "closeAd": "বিজ্ঞাপন বন্ধ করো"
     },
     "tooltip": {
-      "infoLabel": "Info: {term}"
+      "infoLabel": "তথ্য: {term}"
     },
     "notFound": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist or has been moved.",
-      "backHome": "Back to Home",
-      "popularTools": "Popular Tools"
+      "title": "পেজ পাওয়া যায়নি",
+      "message": "তুমি যে পেজটি খুঁজছো সেটি নেই বা সরানো হয়েছে।",
+      "backHome": "হোমে ফিরে যাও",
+      "popularTools": "জনপ্রিয় টুলস"
     },
     "breadcrumb": {
-      "home": "Home"
+      "home": "হোম"
     },
     "relatedTools": {
-      "title": "Related Tools"
+      "title": "সম্পর্কিত টুলস"
     },
     "sensors": {
-      "mf_645": "Medium Format (54x40)",
-      "mf": "Medium Format (44x33)",
-      "mf_leica": "Medium Format (45x30)",
-      "ff": "Full Frame",
+      "mf_645": "মিডিয়াম ফরম্যাট (54x40)",
+      "mf": "মিডিয়াম ফরম্যাট (44x33)",
+      "mf_leica": "মিডিয়াম ফরম্যাট (45x30)",
+      "ff": "ফুল ফ্রেম",
       "apsc_n": "APS-C (1.5x)",
       "apsc_c": "APS-C (Canon)",
       "m43": "Micro Four Thirds",
-      "1in": "1\" Sensor",
-      "phone": "Smartphone Flagship (1/1.3\")"
+      "1in": "1\" সেন্সর",
+      "phone": "স্মার্টফোন ফ্ল্যাগশিপ (1/1.3\")"
     },
-    "legalTranslationDisclaimer": "This page is shown in its original language."
+    "legalTranslationDisclaimer": "এই অনুবাদটি শুধুমাত্র পাঠকের সুবিধার জন্য। ইংরেজি সংস্করণটিই আইনগতভাবে কার্যকর। দেখো /en/privacy।"
   }
 }

@@ -1,27 +1,27 @@
 {
   "toolUI": {
     "shutter-speed-visualizer": {
-      "description": "See how shutter speed affects motion blur for different subjects.",
-      "shutterSpeed": "Shutter Speed",
-      "shutterSpeedAriaLabel": "Shutter speed",
-      "sliderSlow": "Slow (2s)",
-      "sliderFast": "Fast (1/4000)",
-      "selectedSpeed": "Selected Speed",
-      "motionBlurAriaLabel": "Motion blur visualization for different subjects",
-      "verdictFrozen": "Frozen",
-      "verdictMostlySharp": "Mostly sharp",
-      "verdictSlightBlur": "Slight blur",
-      "verdictMotionBlur": "Motion blur",
-      "standingPerson": "Standing person",
-      "slowWalk": "Slow walk",
-      "jogging": "Jogging",
-      "running": "Running",
-      "cyclist": "Cyclist",
-      "birdsInFlight": "Birds in flight",
-      "carCity": "Car (city)",
-      "f1Car": "F1 car",
-      "airplaneLanding": "Airplane (landing)",
-      "stationary": "stationary"
+      "description": "Подивися, як витримка впливає на змаз у русі для різних об'єктів.",
+      "shutterSpeed": "Витримка",
+      "shutterSpeedAriaLabel": "Витримка",
+      "sliderSlow": "Повільна (2s)",
+      "sliderFast": "Швидка (1/4000)",
+      "selectedSpeed": "Обрана витримка",
+      "motionBlurAriaLabel": "Візуалізація змазу в русі для різних об'єктів",
+      "verdictFrozen": "Заморожено",
+      "verdictMostlySharp": "Переважно різко",
+      "verdictSlightBlur": "Легкий змаз",
+      "verdictMotionBlur": "Змаз у русі",
+      "standingPerson": "Людина, що стоїть",
+      "slowWalk": "Повільна хода",
+      "jogging": "Біг підтюпцем",
+      "running": "Біг",
+      "cyclist": "Велосипедист",
+      "birdsInFlight": "Птахи в польоті",
+      "carCity": "Авто (місто)",
+      "f1Car": "Болід F1",
+      "airplaneLanding": "Літак (посадка)",
+      "stationary": "нерухомо"
     }
   }
 }

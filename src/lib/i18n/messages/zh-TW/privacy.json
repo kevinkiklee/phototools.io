@@ -1,67 +1,67 @@
 {
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "隱私權政策",
+    "effectiveDate": "生效日期：2026 年 4 月 3 日",
     "sections": {
       "overview": {
-        "title": "Overview",
-        "body": "PhotoTools operates www.phototools.io, a free educational photography resource offering interactive calculators, simulators, and reference tools. This Privacy Policy describes how we collect, use, and handle information when you visit or use our site. By using PhotoTools, you agree to the practices described in this policy."
+        "title": "概述",
+        "body": "PhotoTools 經營 www.phototools.io，提供免費的教育性攝影資源，包含互動式計算機、模擬器與參考工具。本隱私權政策說明我們在您造訪或使用本網站時，如何蒐集、運用與處理您的資訊。使用 PhotoTools 即表示您同意本政策所述之作法。"
       },
       "informationWeCollect": {
-        "title": "Information We Collect",
-        "intro": "We collect minimal information to operate and improve the site:",
-        "analytics": "<strong>Analytics:</strong> We use Google Analytics to understand how visitors use the site (e.g. pages visited, time on page, device type). Analytics data is anonymized — we do not collect personally identifiable information through analytics. IP addresses are anonymized before storage.",
-        "contactForm": "<strong>Contact form:</strong> If you submit the contact form, we collect your name, email address, subject, and message. This information is used solely to respond to your inquiry and is not stored beyond email delivery — it is not saved to a database or retained long-term.",
-        "noAccounts": "<strong>No accounts:</strong> PhotoTools does not require user registration or accounts. We do not collect passwords or payment information."
+        "title": "我們蒐集的資訊",
+        "intro": "為了營運與改善本網站，我們僅蒐集最少量的資訊：",
+        "analytics": "<strong>分析資料：</strong>我們使用 Google Analytics 了解訪客如何使用本網站（例如造訪的頁面、停留時間、裝置類型）。分析資料皆經匿名處理 — 我們不會透過分析工具蒐集可識別個人身分的資訊，IP 位址在儲存前也會進行匿名化。",
+        "contactForm": "<strong>聯絡表單：</strong>若您送出聯絡表單，我們會蒐集您的姓名、電子郵件地址、主旨與訊息內容。這些資訊僅用於回覆您的詢問，不會儲存於資料庫或長期保留。",
+        "noAccounts": "<strong>無須帳號：</strong>PhotoTools 不要求註冊或建立帳號。我們不蒐集密碼或付款資訊。"
       },
       "cookies": {
-        "title": "Cookies",
-        "intro": "PhotoTools uses cookies to support analytics and advertising functionality. Specifically:",
-        "analyticsCookies": "<strong>Google Analytics cookies</strong> track site usage in aggregate and anonymized form. These cookies help us understand which tools are most used and how to improve the site.",
-        "adCookies": "<strong>Third-party advertising cookies</strong> may be set by our ad network partners to serve relevant advertisements and measure ad performance.",
-        "control": "You can control or disable cookies through your browser settings. Note that disabling cookies may affect the functionality of some features."
+        "title": "Cookie",
+        "intro": "PhotoTools 使用 Cookie 來支援分析與廣告功能，具體而言：",
+        "analyticsCookies": "<strong>Google Analytics Cookie</strong> 以彙總且匿名的方式追蹤網站使用狀況，協助我們了解哪些工具最受歡迎，並改善整體使用體驗。",
+        "adCookies": "<strong>第三方廣告 Cookie</strong> 可能由我們的廣告夥伴設置，用以提供相關廣告並衡量廣告成效。",
+        "control": "您可透過瀏覽器設定控制或停用 Cookie。請注意，停用 Cookie 可能影響部分功能的正常運作。"
       },
       "thirdPartyAdvertising": {
-        "title": "Third-Party Advertising",
-        "body": "PhotoTools displays advertisements served by third-party ad networks. These networks may use cookies and similar tracking technologies to serve ads based on your browsing history and interests (interest-based advertising). We do not control the data practices of these third-party ad networks. For more information, please review the privacy policies of those networks or visit the <naiLink>Network Advertising Initiative opt-out page</naiLink>."
+        "title": "第三方廣告",
+        "body": "PhotoTools 會顯示由第三方廣告聯播網提供的廣告。這些聯播網可能會使用 Cookie 及類似追蹤技術，依據您的瀏覽紀錄與興趣提供廣告（即興趣導向廣告）。我們無法控制這些第三方廣告聯播網的資料處理方式。如需更多資訊，請參閱各聯播網的隱私權政策，或造訪 <naiLink>Network Advertising Initiative 拒絕頁面</naiLink>。"
       },
       "googleAdSense": {
         "title": "Google AdSense",
-        "body1": "PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies and web beacons to serve ads based on your prior visits to this site or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your browsing patterns.",
-        "body2": "You may opt out of personalized advertising by visiting <adsSettingsLink>Google Ads Settings</adsSettingsLink>. For more information about how Google uses data, see <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
+        "body1": "PhotoTools 使用 Google AdSense 顯示廣告。Google AdSense 可能會使用 Cookie 與網路信標，依據您對本站或其他網站的造訪紀錄提供廣告。Google 的廣告 Cookie 讓 Google 及其合作夥伴能依您的瀏覽行為提供廣告。",
+        "body2": "您可透過 <adsSettingsLink>Google 廣告設定</adsSettingsLink> 停用個人化廣告。如需進一步了解 Google 如何運用資料，請參閱 <partnerSitesLink>Google 在您使用合作夥伴網站時的資料使用方式</partnerSitesLink>。"
       },
       "cookieConsent": {
-        "title": "Cookie Consent",
-        "body1": "When you first visit PhotoTools, a cookie consent banner is displayed allowing you to accept or reject non-essential cookies. This banner is powered by CookieYes, a Google-certified Consent Management Platform that supports the IAB Transparency and Consent Framework (TCF) v2.3.",
-        "body2": "You can change your consent preferences at any time by clicking the cookie settings link in the footer. If you reject advertising cookies, you will still see ads, but they will not be personalized to your browsing history."
+        "title": "Cookie 同意聲明",
+        "body1": "您首次造訪 PhotoTools 時，畫面會顯示 Cookie 同意橫幅，讓您選擇接受或拒絕非必要的 Cookie。此橫幅由 CookieYes 驅動 — 一個經 Google 認證的同意管理平台，支援 IAB 透明度與同意框架（TCF）v2.3。",
+        "body2": "您可隨時點擊頁尾的 Cookie 設定連結變更同意偏好。即使您拒絕廣告 Cookie 仍會看到廣告，但這些廣告將不會依您的瀏覽紀錄個人化。"
       },
       "ccpa": {
-        "title": "California Residents (CCPA)",
-        "body": "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request its deletion, and opt out of its sale. PhotoTools does not sell personal information. Advertising cookies used by our ad partners may constitute a \"sale\" under the CCPA — you can opt out via the cookie consent banner or by contacting us through our <contactLink>contact page</contactLink>."
+        "title": "加州居民（CCPA）",
+        "body": "依據《加州消費者隱私法》（CCPA），加州居民有權知悉其個人資訊的蒐集內容、要求刪除並拒絕出售。PhotoTools 不會出售個人資訊。我們廣告夥伴使用的廣告 Cookie 在 CCPA 定義下可能構成「出售」 — 您可透過 Cookie 同意橫幅拒絕，或透過我們的<contactLink>聯絡頁面</contactLink>向我們反映。"
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "intro": "We do not sell, trade, or rent your personal information to third parties. We share data only in the following limited circumstances:",
-        "analytics": "With <strong>Google Analytics</strong> to analyze site traffic and usage patterns, subject to Google's privacy policy.",
-        "advertising": "With <strong>advertising partners</strong> as described above under Third-Party Advertising.",
-        "contactForm": "We do not share contact form submissions with any third party."
+        "title": "資料分享",
+        "intro": "我們不會販售、交換或出租您的個人資訊給第三方。僅在以下有限情況下分享資料：",
+        "analytics": "與 <strong>Google Analytics</strong> 分享以分析網站流量與使用模式，依 Google 的隱私權政策處理。",
+        "advertising": "與上述「第三方廣告」所述之<strong>廣告夥伴</strong>分享。",
+        "contactForm": "我們不會將聯絡表單的內容分享給任何第三方。"
       },
       "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "body": "PhotoTools is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can remove it."
+        "title": "兒童隱私",
+        "body": "PhotoTools 並非針對 13 歲以下兒童所設計。我們不會有意識地蒐集 13 歲以下兒童的個人資訊。若您認為有 13 歲以下的兒童向我們提供了個人資訊，請與我們聯繫，我們會儘速移除。"
       },
       "yourRights": {
-        "title": "Your Rights",
-        "body1": "Depending on your location, you may have rights under laws such as the GDPR (European Union) or CCPA (California) regarding your personal data.",
-        "body2": "Because PhotoTools collects minimal personal data — and does not store contact form submissions long-term — most requests can be addressed simply. You can clear cookies at any time through your browser settings. To exercise any data rights or submit a privacy request, please use our <contactLink>contact page</contactLink>."
+        "title": "您的權利",
+        "body1": "依您所在地區的法律，例如歐盟的 GDPR 或加州的 CCPA，您可能享有與個人資料相關的權利。",
+        "body2": "由於 PhotoTools 蒐集的個人資料極少 — 聯絡表單內容亦不會長期保留 — 大多數的請求都可以簡單處理。您可隨時透過瀏覽器設定清除 Cookie。若需行使任何資料權利或提出隱私相關請求，請透過我們的<contactLink>聯絡頁面</contactLink>與我們聯繫。"
       },
       "changesToPolicy": {
-        "title": "Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. When we do, the updated policy will be posted on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of PhotoTools after any changes constitutes your acceptance of the updated policy."
+        "title": "政策變更",
+        "body": "我們可能會不定期更新本隱私權政策。更新後的政策將張貼於本頁面並更新生效日期。建議您定期查閱本政策。任何變更後仍繼續使用 PhotoTools，即視為您接受更新後的內容。"
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about this Privacy Policy or how we handle your data, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "聯絡方式",
+        "body": "如對本隱私權政策或我們處理您資料的方式有任何疑問，請透過<contactLink>聯絡頁面</contactLink>與我們聯繫。"
       }
     }
   }

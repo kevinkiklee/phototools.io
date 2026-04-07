@@ -1,110 +1,110 @@
 {
   "education": {
     "focus-stacking-calculator": {
-      "beginner": "Focus stacking is a technique where you take multiple photos at different focus distances and merge them in software to create an image with front-to-back sharpness. It is essential for macro photography, where depth of field is razor-thin, and useful in landscape photography when you need both near foreground and distant background in sharp focus.",
+      "beginner": "Фокус-стекинг — это техника, при которой ты делаешь несколько снимков с разными точками фокусировки и затем собираешь их в программе, чтобы получить кадр с резкостью от переднего до заднего плана. Без него не обойтись в макро, где глубина резкости крошечная, и очень помогает в пейзаже, когда нужно держать в фокусе и ближайшие травинки, и горы вдали.",
       "deeper": {
         "0": {
-          "heading": "Why Stacking Is Necessary",
-          "text": "At macro magnifications, even f/16 may yield only a few millimeters of depth of field. Stopping down further introduces diffraction softening that degrades the image. Focus stacking lets you shoot at the lens's sharpest aperture (typically f/5.6-f/8) and combine the sharp slices. Each frame shifts focus slightly forward, covering a new slice of the subject."
+          "heading": "Зачем нужен стекинг",
+          "text": "На макроувеличениях даже f/16 может давать всего несколько миллиметров глубины резкости. Сильнее зажимать диафрагму нельзя — начнётся дифракционное смягчение. Фокус-стекинг позволяет снимать на «сладкой» диафрагме объектива (обычно f/5.6–f/8) и потом объединять резкие слои. Каждый кадр чуть сдвигает фокус вперёд и покрывает новый срез объекта."
         },
         "1": {
-          "heading": "Planning the Stack",
-          "text": "The key to a successful stack is ensuring each shot's depth of field overlaps the next by 20-30%. Too little overlap creates gaps where nothing is sharp; too much wastes frames without benefit. The calculator determines the per-shot DoF using the circle of confusion formula, subtracts the overlap margin, and divides the total depth range by the effective step to compute the number of shots."
+          "heading": "Планирование стека",
+          "text": "Главное в успешном стеке — чтобы ГРИП каждого кадра перекрывалась с соседним на 20–30%. Слишком маленькое перекрытие оставляет промежутки, в которых ничего не резко; слишком большое — зря тратит кадры. Калькулятор считает ГРИП одного кадра через кружок нерезкости, вычитает запас на перекрытие и делит весь диапазон глубины на эффективный шаг — получается нужное число кадров."
         },
         "2": {
-          "heading": "Merging & Alignment",
-          "text": "Software like Photoshop, Helicon Focus, or Zerene Stacker aligns the frames (slight magnification shifts occur as focus changes), then selects the sharpest pixels from each layer. Shooting on a sturdy tripod with consistent lighting and using a focus rail for precise increments produces the cleanest results."
+          "heading": "Склейка и выравнивание",
+          "text": "Программы вроде Photoshop, Helicon Focus или Zerene Stacker выравнивают кадры (при изменении фокуса немного меняется увеличение) и берут самые резкие пиксели с каждого слоя. Самая чистая склейка получается, если снимать с крепкого штатива, при постоянном освещении и с фокусировочного рельса для точных шагов."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Determines per-shot depth of field. A moderate aperture (f/5.6-f/8) balances sharpness and DoF per frame. Avoid very small apertures — diffraction reduces the sharpness you are stacking for."
+          "label": "Диафрагма",
+          "description": "Определяет глубину резкости одного кадра. Умеренная диафрагма (f/5.6–f/8) даёт баланс резкости и ГРИП на кадр. Не зажимай слишком сильно — дифракция съест ту резкость, ради которой ты и делаешь стек."
         },
         "1": {
-          "label": "Depth Range",
-          "description": "The distance from the nearest to farthest point you want sharp. Wider ranges require more shots. In macro work this may be just centimeters; in landscapes it can span meters to infinity."
+          "label": "Диапазон глубины",
+          "description": "Расстояние от ближайшей до самой дальней точки, которую нужно сделать резкой. Чем шире диапазон, тем больше кадров. В макро это могут быть сантиметры, в пейзаже — от метров до бесконечности."
         },
         "2": {
-          "label": "Overlap",
-          "description": "The percentage of each shot's DoF that overlaps the adjacent shots. 20-30% is standard. Less risks gaps; more wastes frames."
+          "label": "Перекрытие",
+          "description": "Процент ГРИП каждого кадра, перекрывающийся с соседними. Стандарт — 20–30%. Меньше — риск промежутков, больше — лишние кадры."
         }
       },
       "tips": {
         "0": {
-          "text": "Use a focus rail instead of the lens's focus ring for macro stacking. A rail moves the entire camera forward in precise increments, avoiding the slight magnification changes that occur when refocusing the lens."
+          "text": "В макростекинге используй фокусировочный рельс вместо кольца фокусировки объектива. Рельс двигает всю камеру вперёд точными шагами и обходит лёгкие изменения увеличения, которые возникают при перефокусировке."
         },
         "1": {
-          "text": "Keep your aperture at the lens's sweet spot (typically f/5.6-f/8). The point of stacking is to avoid stopping down to f/16+, so use the sharpest aperture and let the stack handle depth."
+          "text": "Держи диафрагму на «сладкой точке» объектива (обычно f/5.6–f/8). Смысл стека в том, чтобы не зажимать до f/16+ — бери самую резкую диафрагму, а глубину наберёшь сложением кадров."
         },
         "2": {
-          "text": "For landscape stacks, shoot front-to-back: focus on the nearest element first, then step focus toward infinity. This makes alignment easier since the foreground (with the most parallax) is captured first."
+          "text": "Для пейзажных стеков снимай от ближнего к дальнему: сначала самый близкий элемент, потом шагами к бесконечности. Так проще выравнивать — передний план с самым сильным параллаксом фиксируется первым."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths reduce per-shot depth of field, requiring more frames to cover the same depth range."
+          "term": "Фокусное расстояние",
+          "definition": "Фокусное расстояние объектива в миллиметрах. Длинные фокусные уменьшают ГРИП одного кадра, поэтому требуется больше снимков, чтобы покрыть тот же диапазон глубины."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening (f-number). For stacking, use the lens's sharpest aperture rather than stopping down — the stack provides the depth."
+          "term": "Диафрагма",
+          "definition": "f-число объектива. Для стекинга бери самую резкую диафрагму объектива, а не зажимай до упора — глубину наберёт сам стек."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "Larger sensors have a shallower per-shot depth of field at equivalent framing, which may increase the number of required stack frames."
+          "term": "Размер матрицы",
+          "definition": "Большие матрицы при эквивалентном кадре дают меньшую ГРИП на кадр, а значит, стек может потребовать больше снимков."
         },
         "nearLimit": {
-          "term": "Near Limit",
-          "definition": "The closest point in the scene that you want sharp. This is where the first shot in the stack will be focused."
+          "term": "Ближняя граница",
+          "definition": "Ближайшая точка сцены, которую нужно сделать резкой. На ней будет сфокусирован первый кадр стека."
         },
         "farLimit": {
-          "term": "Far Limit",
-          "definition": "The farthest point in the scene that you want sharp. The last shot in the stack will cover this distance."
+          "term": "Дальняя граница",
+          "definition": "Самая дальняя точка сцены, которую нужно держать в резкости. Последний кадр стека покрывает эту дистанцию."
         },
         "overlap": {
-          "term": "Overlap",
-          "definition": "The percentage of depth-of-field overlap between consecutive shots. 20-30% ensures no gaps after software alignment and merging."
+          "term": "Перекрытие",
+          "definition": "Процент перекрытия ГРИП между соседними кадрами. 20–30% гарантируют, что после программной сборки не останется мягких промежутков."
         },
         "shotCount": {
-          "term": "Shot Count",
-          "definition": "The total number of frames needed to cover the depth range with the specified overlap. More shots = more processing but smoother results."
+          "term": "Число кадров",
+          "definition": "Сколько кадров нужно для покрытия всего диапазона глубины с заданным перекрытием. Больше кадров — больше обработки, но плавнее результат."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing a small flower that is 3cm deep from front petal to back stem. Your macro lens at f/8 gives about 4mm of DoF per shot. Roughly how many frames do you need with 25% overlap?",
-          "hint": "Each shot covers 4mm, but 25% overlap means the effective step is 3mm per frame. Divide 30mm by 3mm.",
-          "successMessage": "Correct! With 4mm DoF and 25% overlap, each step advances 3mm. 30mm / 3mm = 10 shots to cover the entire flower.",
-          "failureMessage": "With 25% overlap, each frame's effective step is 75% of the DoF: 4mm × 0.75 = 3mm. You need 30mm / 3mm = 10 shots.",
+          "scenario": "Ты снимаешь маленький цветок глубиной 3 см от переднего лепестка до заднего стебля. Твой макрообъектив на f/8 даёт около 4 мм ГРИП на кадр. Сколько примерно кадров нужно при перекрытии 25%?",
+          "hint": "Каждый кадр покрывает 4 мм, но при 25% перекрытия эффективный шаг — 3 мм. Подели 30 мм на 3 мм.",
+          "successMessage": "Верно! ГРИП 4 мм при перекрытии 25% — шаг 3 мм. 30 мм / 3 мм = 10 кадров на весь цветок.",
+          "failureMessage": "При перекрытии 25% эффективный шаг кадра — 75% от ГРИП: 4 мм × 0.75 = 3 мм. Нужно 30 мм / 3 мм = 10 кадров.",
           "options": {
-            "0": { "label": "5 shots" },
-            "1": { "label": "10 shots" },
-            "2": { "label": "20 shots" },
-            "3": { "label": "30 shots" }
+            "0": { "label": "5 кадров" },
+            "1": { "label": "10 кадров" },
+            "2": { "label": "20 кадров" },
+            "3": { "label": "30 кадров" }
           }
         },
         "1": {
-          "scenario": "You want the sharpest possible result from your focus stack. Should you shoot each frame at f/2.8, f/8, or f/22?",
-          "hint": "Consider the lens's sharpest aperture and how diffraction affects small apertures.",
-          "successMessage": "Right! f/8 is typically the sharpest aperture for most lenses. f/2.8 has too little DoF per shot (wasting frames) and f/22 suffers from diffraction softening.",
-          "failureMessage": "f/8 is the best choice. f/2.8 gives very thin per-shot DoF (requiring many more frames), and f/22 introduces diffraction softening that defeats the purpose of stacking for sharpness.",
+          "scenario": "Ты хочешь получить максимально резкий результат из стека. На какой диафрагме снимать каждый кадр — f/2.8, f/8 или f/22?",
+          "hint": "Подумай про «сладкую точку» объектива и про то, как дифракция влияет на маленькие диафрагмы.",
+          "successMessage": "Точно! f/8 — самая резкая диафрагма большинства объективов. f/2.8 даёт слишком маленькую ГРИП на кадр (нужно больше снимков), а f/22 страдает от дифракции.",
+          "failureMessage": "Лучший выбор — f/8. f/2.8 даёт очень тонкую ГРИП на кадр (больше кадров), а f/22 добавляет дифракционное смягчение, которое сводит на нет смысл стека ради резкости.",
           "options": {
-            "0": { "label": "f/2.8 — widest for fastest shutter" },
-            "1": { "label": "f/8 — lens sweet spot" },
-            "2": { "label": "f/22 — maximum per-shot DoF" }
+            "0": { "label": "f/2.8 — максимально открытая для короткой выдержки" },
+            "1": { "label": "f/8 — сладкая точка объектива" },
+            "2": { "label": "f/22 — максимальная ГРИП на кадр" }
           }
         },
         "2": {
-          "scenario": "After merging your focus stack, you notice a soft band across the middle of the image where nothing is sharp. What most likely went wrong?",
-          "hint": "Think about what connects one frame's sharp zone to the next.",
-          "successMessage": "Exactly! Insufficient overlap between adjacent frames creates a gap where neither shot is sharp. Increase overlap to 25-30% and reshoot.",
-          "failureMessage": "A soft band usually means the gap between focus steps was too large — the DoF of adjacent frames did not overlap enough. Increase the overlap percentage.",
+          "scenario": "После сборки стека ты замечаешь мягкую полосу посреди кадра, где ничего не резко. В чём, скорее всего, дело?",
+          "hint": "Подумай, что связывает резкую зону одного кадра с соседним.",
+          "successMessage": "Именно! Недостаточное перекрытие между соседними кадрами оставляет промежуток, в котором ни один из них не даёт резкости. Подними перекрытие до 25–30% и пересними.",
+          "failureMessage": "Мягкая полоса обычно означает, что шаг между точками фокусировки был слишком большим — ГРИП соседних кадров не пересекалась. Увеличь процент перекрытия.",
           "options": {
-            "0": { "label": "The aperture was too wide" },
-            "1": { "label": "Insufficient overlap between focus steps" },
-            "2": { "label": "The tripod moved during the sequence" },
-            "3": { "label": "The ISO was too high" }
+            "0": { "label": "Диафрагма была слишком открытой" },
+            "1": { "label": "Недостаточное перекрытие между шагами фокуса" },
+            "2": { "label": "Штатив сдвинулся во время съёмки" },
+            "3": { "label": "ISO было слишком высоким" }
           }
         }
       }

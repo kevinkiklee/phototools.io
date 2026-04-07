@@ -1,13 +1,13 @@
 {
   "toolUI": {
     "shutter-speed-visualizer": {
-      "description": "See how shutter speed affects motion blur for different subjects.",
+      "description": "Δες πώς η ταχύτητα κλείστρου επηρεάζει το motion blur σε διαφορετικά θέματα.",
       "shutterSpeed": "Shutter Speed",
       "shutterSpeedAriaLabel": "Shutter speed",
       "sliderSlow": "Slow (2s)",
       "sliderFast": "Fast (1/4000)",
       "selectedSpeed": "Selected Speed",
-      "motionBlurAriaLabel": "Motion blur visualization for different subjects",
+      "motionBlurAriaLabel": "Οπτικοποίηση motion blur για διαφορετικά θέματα",
       "verdictFrozen": "Frozen",
       "verdictMostlySharp": "Mostly sharp",
       "verdictSlightBlur": "Slight blur",

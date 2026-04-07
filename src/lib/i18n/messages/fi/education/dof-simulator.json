@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "Syväterävyys (DoF) on se etäisyysalue kuvassasi, joka näkyy hyväksyttävän terävänä. Matala syväterävyys sumentaa taustan kohteesi takana, kun taas syvä syväterävyys pitää kaiken etualasta horisonttiin terävänä. Syväterävyyden hallinta on yksi valokuvauksen tehokkaimmista luovista välineistä.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Miten syväterävyys toimii",
+          "text": "Syväterävyyttä ohjaa hajapiste (CoC) — suurin epäterävyyspiste kennolla, joka näyttää vielä silmälle terävältä. Kolme fyysistä tekijää määrittävät syväterävyyden: polttoväli, aukko ja kohteen etäisyys. Suurempi aukko (pienempi f-luku) tuottaa matalamman syväterävyyden, koska linssi kokoaa valoa jyrkemmillä kulmilla, jolloin epäterävät pisteet leviävät suuremmiksi ympyröiksi kennolle."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Polttoväli ja etäisyys",
+          "text": "Pidemmät polttovälit suurentavat kuvaa, mikä suurentaa myös epäterävyysympyröitä ja kaventaa syväterävyyttä. Lähempänä kohdetta oltaessa syväterävyys supistuu samasta syystä — kohteen ja taustan välinen suhteellinen ero kasvaa. Hyperfokaalietäisyys on se tarkennusetäisyys, jolla syväterävyys ulottuu puolesta tuosta etäisyydestä äärettömyyteen, maksimoiden terävyyden koko näkymässä."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Bokeh ja diffraktio",
+          "text": "Bokeh viittaa epäterävien alueiden laatuun. Aukon lamellien määrä ja muoto vaikuttavat bokehin luonteeseen — pyöreämmät lamellit tuottavat pehmeämpiä, ympyrämäisempiä valopisteitä. Hyvin pienillä aukoilla (f/16 ja pienemmät) diffraktio aiheuttaa valon leviämistä aukon reunojen ohittaessaan, pehmentäen koko kuvaa myös syväterävyysalueella. On aina sulava kohta — yleensä noin f/5.6–f/8 täyskennolla — jossa terävyys ja syväterävyys ovat optimaalisessa tasapainossa."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "Aukko",
+          "description": "Suuremmat aukot (f/1.4–f/2.8) luovat matalan syväterävyyden kermaisella bokehilla. Pienemmät aukot (f/8–f/16) lisäävät terävyyttä koko näkymässä."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "Polttoväli",
+          "description": "Pidemmät objektiivit pakkaavat perspektiiviä ja kaventavat syväterävyyttä samalla aukolla ja rajauksella. 200 mm f/4:llä on paljon matalampi syväterävyys kuin 35 mm f/4:llä."
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "Kohteen etäisyys",
+          "description": "Mitä lähempänä tarkennat, sitä matalampi syväterävyys on. Makrokuvaajat työskentelevät usein syväterävyyden kanssa, joka mitataan millimetreissä."
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "Kennokoko",
+          "description": "Suuremmat kennot vaativat pidempiä polttovälejä samalla rajauksella, mikä välillisesti kaventaa syväterävyyttä. Täyskennoinen kamera tuottaa matalamman syväterävyyden kuin Micro Four Thirds vastaavalla rajauksella."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "Ryhmämuotokuvissa käytä f/5.6 tai pienempää aukkoa ja pyydä kaikkia seisomaan samalla tarkennustasolla. Yksikin henkilö puoli askelta edellä voi pudota tarkennuksen ulkopuolelle suurilla aukoilla."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "Kun kuvaat maisemia, tarkenna hyperfokaalietäisyydelle äärettömyyden sijaan. Tämä maksimoi terävyysalueen lähietualasta kaukaiseen taustaan."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Jos haluat maksimaalista taustan sumennusta muotokuvaan, kasvata polttoväliä ja mene niin lähelle kohdetta kuin rajaus sallii — molemmat muutokset kertaantuvat ja pienentävät syväterävyyttä voimakkaasti."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "Polttoväli",
+          "definition": "Objektiivin optisen keskipisteen ja kennon välinen etäisyys millimetreinä, kun tarkennus on äärettömyydessä. Pidemmät polttovälit suurentavat kuvaa ja kaventavat syväterävyyttä."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "Aukko",
+          "definition": "Linssin aukon koko ilmaistuna f-lukuna (esim. f/2.8). Pienemmät f-luvut tarkoittavat suurempaa aukkoa, joka päästää läpi enemmän valoa ja tuottaa matalamman syväterävyyden."
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "Kohteen etäisyys",
+          "definition": "Etäisyys kameran kennosta tarkennuspisteeseen. Lähemmät tarkennusetäisyydet johtavat matalampaan syväterävyyteen."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "Kennokoko",
+          "definition": "Kameran kennon fyysiset mitat. Suuremmat kennot (täyskenno, keskiformaatti) tuottavat matalamman syväterävyyden vastaavalla rajauksella verrattuna pienempiin kennoihin (APS-C, Micro Four Thirds)."
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "Suunta",
+          "definition": "Vaihda vaaka- ja pystysuunnan välillä. Tämä vaikuttaa rajausviitteeseen kohteen etäisyyden laskennassa."
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "Lähiraja",
+          "definition": "Lähin etäisyys kamerasta, joka näkyy hyväksyttävän terävänä. Kaikki lähempänä näkyy sumennettuna."
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "Kaukaraja",
+          "definition": "Kaukaisin etäisyys kamerasta, joka näkyy hyväksyttävän terävänä. Kun tämä ulottuu äärettömyyteen, kaikki lähirajan takana on terävää."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Kokonaissyväterävyys",
+          "definition": "Lähi- ja kaukarajan välinen koko etäisyys — koko se alue, joka näkyy kuvassa terävänä."
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "Hyperfokaalietäisyys",
+          "definition": "Tarkennusetäisyys, joka maksimoi syväterävyyden. Kun tarkennat tälle etäisyydelle, kaikki puolesta hyperfokaalietäisyydestä äärettömyyteen näkyy terävänä."
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "Taustan sumennus",
+          "definition": "Mittari sille, kuinka sumeana tausta näkyy kohteesi takana. Korkeammat arvot tarkoittavat voimakkaampaa sumennusta ja parempaa kohteen erottumista."
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "Hajapiste",
+          "definition": "Suurin sumennuspisteen halkaisija kennolla, joka näyttää vielä silmälle pisteeltä. Määrittää hyväksyttävän terävyyden rajan syväterävyyslaskelmissa."
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "Erottumispisteet",
+          "definition": "Yhdistetty arvo (0–100), joka osoittaa kuinka hyvin kohde erottuu taustasta suhteessa taustan sumennukseen ja kohteen kokoon."
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "Bokehin muoto",
+          "definition": "Epäterävien valopisteiden muoto, jonka määrää aukon lamellien määrä ja kaarevuus. Enemmän lamelleja tuottaa pyöreämpää, pehmeämpää bokehia."
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "Diffraktio",
+          "definition": "Hyvin pienillä aukoilla valo taipuu aukon reunojen ympärillä ja pehmentää kuvaa. Täyskennolla tämä alkaa tyypillisesti näkyä f/16:n jälkeen."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Kuvaat muotokuvaa ja haluat kauniisti sumennetun taustan. Minkä aukon valitset?",
+          "hint": "Pienempi f-luku tarkoittaa suurempaa linssin aukkoa ja enemmän taustan sumennusta.",
+          "successMessage": "Oikein! Suuri aukko kuten f/1.8 tai f/2.8 luo matalan syväterävyyden, erottaen kohteen taustasta miellyttävällä bokehilla.",
+          "failureMessage": "Ei aivan. Pienet aukot kuten f/11 tai f/16 pitävät enemmän näkymää tarkennuksessa. Taustan sumennukseen valitse suuri aukko (pieni f-luku).",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Kuvaat häissä 8 hengen ryhmää, joka on asettunut kahteen riviin. Mikä aukko auttaa pitämään kaikki tarkennuksessa?",
+          "hint": "Kun ihmiset ovat hieman eri etäisyyksillä, tarvitset riittävästi syväterävyyttä kattamaan molemmat rivit.",
+          "successMessage": "Hyvä valinta! f/5.6 tarjoaa tarpeeksi syväterävyyttä pitämään molemmat rivit terävinä ja samalla säilyttämään kelvollisen suljinajan sisätiloissa.",
+          "failureMessage": "Tuo aukko voi jättää takarivin tarkennuksen ulkopuolelle tai olla tarpeettoman pieni. Kahteen riviin ihmisiä f/5.6 on luotettava lähtökohta.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Kuvaat maisemaa, jossa kukat ovat 2 metrin päässä ja vuoret taustalla. Käytät 24 mm:n objektiivia täyskennolla. Mikä tekniikka maksimoi terävyyden etualasta taustaan?",
+          "hint": "On olemassa tietty etäisyys, johon voit tarkentaa ja joka maksimoi terävän alueen etualasta äärettömyyteen.",
+          "successMessage": "Juuri niin! Tarkennus hyperfokaalietäisyydelle f/11:llä varmistaa, että kaikki noin 1 metristä äärettömyyteen näkyy hyväksyttävän terävänä — täydellinen tähän näkymään.",
+          "failureMessage": "Äärettömyyteen tarkentaminen jättäisi etualan kukat pehmeiksi. Käytä hyperfokaalietäisyyttä laajentaaksesi terävyyden lähietualasta äärettömyyteen.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Tarkenna kukkiin (2 m)" },
+            "1": { "label": "Tarkenna vuoriin (ääretön)" },
+            "2": { "label": "Tarkenna hyperfokaalietäisyydelle" },
+            "3": { "label": "Tarkenna puoliväliin kukkien ja vuorten välille" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Kuvaat makrokuvaa kukasta ja huomaat, että vain etuterälehdet ovat teräviä. Loppu kukasta vaipuu sumennukseen. Olet f/5.6:ssa. Mitä sinun tulisi tehdä saadaksesi enemmän kukasta tarkennukseen?",
+          "hint": "Lähitarkennusetäisyyksillä syväterävyys muuttuu erittäin ohueksi. Mieti aukkoa.",
+          "successMessage": "Oikein! Sulkeminen f/11:een tai f/16:een kasvattaa veitsenterävää syväterävyyttäsi makrotyössä. Vältä vain diffraktion aiheuttamaa pehmentymistä hyvin pienillä aukoilla.",
+          "failureMessage": "Aukon suurentaminen tekisi syväterävyydestä vielä ohuemman. Makrokuvauksessa sulkeminen (suurempi f-luku) on tärkein tapa saada lisää syvyyttä.",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Avaa f/2.8:aan saadaksesi lisää valoa" },
+            "1": { "label": "Sulje f/11:een" },
+            "2": { "label": "Vaihda laajempaan objektiiviin" },
+            "3": { "label": "Siirry kauemmas kukasta" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Vertaat kahta kameraa muotokuvatyöhön: täyskennoinen kamera 85 mm f/1.8:llä ja Micro Four Thirds 42,5 mm f/1.8:llä. Molemmat tuottavat vastaavan rajauksen. Kumpi kamera tuottaa matalamman syväterävyyden?",
+          "hint": "Ajattele ekvivalentteja polttovälejä ja miten kennokoko vaikuttaa syväterävyyslaskelmaan samalla f-luvulla.",
+          "successMessage": "Oikein! Täyskennoinen kamera tuottaa noin 2 aukkoa matalamman syväterävyyden. Vaikka MFT-objektiivilla on sama f-luku, lyhyempi todellinen polttoväli (42,5 mm vs. 85 mm) johtaa syvempään syväterävyyteen vastaavalla rajauksella.",
+          "failureMessage": "Vaikka molemmat objektiivit ovat f/1.8, täyskennoinen kamera käyttää pidempää todellista polttoväliä samaan rajaukseen, tuottaen huomattavasti matalamman syväterävyyden.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Täyskenno 85 mm f/1.8:llä" },
+            "1": { "label": "Micro Four Thirds 42,5 mm f/1.8:llä" },
+            "2": { "label": "Molemmat tuottavat saman syväterävyyden" }
           }
         }
       }

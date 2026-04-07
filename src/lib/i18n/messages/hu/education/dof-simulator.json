@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "A mélységélesség (DoF) az a távolságtartomány a képeden, ami elfogadhatóan élesnek látszik. A kis mélységélesség elmossa a hátteret a téma mögött, míg a nagy mélységélesség az előtértől a horizontig mindent élesen tart. A mélységélesség szabályozása a fotózás egyik legerősebb kreatív eszköze.",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "Hogyan működik a DoF",
+          "text": "A mélységélességet a szóráskör (CoC) szabja meg — ez a legnagyobb elmosódott folt az érzékelőn, ami a szem számára még pontnak látszik. Három fizikai tényező határozza meg: a gyújtótávolság, a rekesz és a témától mért távolság. A tágabb rekesz (alacsonyabb f-szám) kisebb mélységélességet ad, mert az objektív meredekebb szögben gyűjti össze a fényt, és így az életlen pontok nagyobb körökké terülnek szét az érzékelőn."
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "Gyújtótávolság és távolság",
+          "text": "A hosszabb gyújtótávolság nagyítja a képet, és ezzel az elmosódási köröket is, így szűkül a mélységélesség. Ha közelebb lépsz a témához, ugyanezért csökken a DoF — a téma és a háttér távolságának relatív különbsége nagyobbá válik. A hiperfokális távolság az a fókusztávolság, ahonnan a DoF onnantól a végtelenig ér, maximalizálva a teljes jelenet élességét."
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "Bokeh és diffrakció",
+          "text": "A bokeh az életlen területek minőségét jelenti. A rekeszlamellák száma és alakja befolyásolja a bokeh jellegét — a kerekebb lamellák lágyabb, kerekebb fénypontokat adnak. Nagyon kicsi rekesznyílásnál (f/16 és e fölött) diffrakció lép fel, a fény szétterül a lamellák szélén, és lágyítja a teljes képet, még a DoF-en belül is. Mindig van egy optimális pont — Full Frame-en jellemzően f/5.6 és f/8 között —, ahol az élesség és a mélységélesség egyensúlyban van."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "Rekesz",
+          "description": "A tágabb rekesz (f/1.4–f/2.8) kis mélységélességet ad krémes bokeh-val. A szűkebb rekesz (f/8–f/16) a teljes jelenet élességét növeli."
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "Gyújtótávolság",
+          "description": "A hosszabb objektívek tömörítik a perspektívát és azonos rekesz mellett szűkítik a DoF-et. Egy 200 mm-es objektív f/4-en sokkal kisebb mélységélességet ad, mint egy 35 mm-es ugyanezen rekesszel."
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "Téma távolsága",
+          "description": "Minél közelebbre fókuszálsz, annál kisebb a mélységélesség. A makrófotósok gyakran milliméterekben mérik a DoF-et."
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "Érzékelőméret",
+          "description": "A nagyobb érzékelőkhöz azonos kompozícióhoz hosszabb gyújtótávolság kell, ami közvetve szűkíti a DoF-et. Egy Full Frame kamera kisebb mélységélességet ad, mint egy Micro Four Thirds ugyanazon kompozíción."
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "Csoportképhez használj f/5.6-ot vagy szűkebb rekeszt, és mindenki álljon egy síkba. Tágra nyitott rekesznél már egy féllépéssel előrébb álló ember is kieshet a fókuszból."
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "Tájképnél fókuszálj a hiperfokális távolságra, ne a végtelenre. Így az éles zóna a közeli előtértől a távoli háttérig terjed."
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "Ha maximális háttérelmosódást szeretnél egy portréhoz, növeld a gyújtótávolságot, és menj olyan közel a témához, amennyire a kompozíció engedi — mindkettő összeadódik, és drasztikusan csökkenti a DoF-et."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "Gyújtótávolság",
+          "definition": "Az objektív optikai középpontja és az érzékelő közötti távolság milliméterben, amikor végtelenre van fókuszálva. A hosszabb gyújtótávolság nagyítja a képet és szűkíti a mélységélességet."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "Rekesz",
+          "definition": "Az objektív nyílásának mérete, f-számban kifejezve (pl. f/2.8). Az alacsonyabb f-szám tágabb nyílást jelent, ami több fényt enged be és kisebb mélységélességet ad."
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "Téma távolsága",
+          "definition": "A kamera érzékelője és a fókuszpont közötti távolság. A közelebbi fókuszpont kisebb mélységélességet eredményez."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "Érzékelőméret",
+          "definition": "A kamera érzékelőjének fizikai mérete. A nagyobb érzékelők (Full Frame, közepes formátum) azonos kompozíción kisebb mélységélességet adnak, mint a kisebb érzékelők (APS-C, Micro Four Thirds)."
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "Tájolás",
+          "definition": "Váltás fekvő (vízszintes) és álló (függőleges) tájolás között. Ez a kompozíció referenciáját módosítja a téma távolságának számításához."
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "Közeli éles határ",
+          "definition": "A kamerához legközelebbi távolság, ami még elfogadhatóan élesnek látszik. Minden, ami ennél közelebb van, elmosódott lesz."
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "Távoli éles határ",
+          "definition": "A kamerától legtávolabbi távolság, ami még elfogadhatóan élesnek látszik. Ha ez a végtelenbe nyúlik, a közeli határon túli minden fókuszban van."
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "Teljes mélységélesség",
+          "definition": "A közeli és távoli éles határ közötti teljes távolság — az a zóna, ami élesnek látszik a képen."
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "Hiperfokális távolság",
+          "definition": "Az a fókusztávolság, amelyen a mélységélesség maximális. Ha erre fókuszálsz, a hiperfokális távolság felétől a végtelenig minden élesnek látszik."
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "Háttérelmosódás",
+          "definition": "Annak mértéke, mennyire elmosódott a háttér a téma mögött. A magasabb érték erősebb elmosódást és jobb témaelválasztást jelent."
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "Szóráskör",
+          "definition": "Az a legnagyobb elmosódott folt az érzékelőn, ami a szem számára még pontnak látszik. Ez határozza meg az elfogadható élesség határát a mélységélesség-számításhoz."
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "Elválasztási pontszám",
+          "definition": "Egy összetett értékelés (0–100), ami megmutatja, mennyire jól van a téma elkülönítve a háttértől, a háttérelmosódás mértéke alapján."
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "Bokeh alakja",
+          "definition": "Az életlen fénypontok formája, amit a rekeszlamellák száma és ívük határoz meg. A több lamella kerekebb, lágyabb bokeh-t ad."
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "Diffrakció",
+          "definition": "Nagyon kicsi rekesznél a fény elhajlik a lamellák szélén, és lágyítja a képet. Full Frame érzékelőkön ez tipikusan f/16 felett válik észrevehetővé."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "Portrét fotózol, és gyönyörűen elmosódott hátteret szeretnél. Melyik rekeszt válaszd?",
+          "hint": "Az alacsonyabb f-szám tágabb objektívnyílást és erősebb háttérelmosódást jelent.",
+          "successMessage": "Jó! Egy tágabb rekesz, mint az f/1.8 vagy f/2.8, kis mélységélességet ad, kellemes bokeh-val elválasztva a témát a háttértől.",
+          "failureMessage": "Nem egészen. A szűkebb rekeszek, mint az f/11 vagy f/16, a jelenet nagy részét élesen tartják. A háttérelmosódáshoz tág rekesz (alacsony f-szám) kell.",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "Nyolcfős esküvői csoportképet fotózol két sorba rendezve. Melyik rekesz segít abban, hogy mindenki éles legyen?",
+          "hint": "Ha az emberek kissé eltérő távolságban állnak, elég mélységélesség kell, hogy lefedd mindkét sort.",
+          "successMessage": "Jó választás! Az f/5.6 elég mélységélességet ad mindkét sor élesen tartásához, miközben a záridő beltérben is használható marad.",
+          "failureMessage": "Az a rekesz vagy a hátsó sort hagyja életlenül, vagy feleslegesen szűk. Két sor embernél az f/5.6 megbízható kiindulópont.",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,40 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "Tájképet fotózol 2 méterre lévő vadvirágokkal és hegyekkel a háttérben. 24 mm-es objektívet használsz Full Frame vázon. Melyik módszerrel maximalizálod az élességet elölről hátulig?",
+          "hint": "Van egy olyan fókusztávolság, ami az előtértől a végtelenig maximalizálja az éles zónát.",
+          "successMessage": "Pontosan! Ha f/11-en a hiperfokális távolságra fókuszálsz, körülbelül 1 métertől a végtelenig minden elfogadhatóan éles lesz — ideális ehhez a jelenethez.",
+          "failureMessage": "Ha a végtelenre fókuszálsz, az előtéri virágok lágyak lesznek. Használd a hiperfokális távolságot, hogy az éles zóna a közeli előtértől a végtelenig terjedjen.",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "Fókuszálj a virágokra (2m)" },
+            "1": { "label": "Fókuszálj a hegyekre (végtelen)" },
+            "2": { "label": "Fókuszálj a hiperfokális távolságra" },
+            "3": { "label": "Fókuszálj a virágok és a hegyek közé félúton" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "Makrót fotózol egy virágról, és csak az első szirmok élesek. A többi elmosódik. f/5.6-on vagy. Mit tegyél, hogy több legyen élesen?",
+          "hint": "Közeli fókusznál a DoF nagyon keskeny lesz. Gondold át a rekeszt.",
+          "successMessage": "Jó! Ha leszűkíted f/11-re vagy f/16-ra, nő a borotvavékony DoF a makrónál. Csak figyelj, hogy nagyon kicsi rekesznél már a diffrakció lágyít."
+          ,
+          "failureMessage": "Ha tágabbra nyitod a rekeszt, a DoF még vékonyabb lesz. A makrófotózásban a leszűkítés (magasabb f-szám) a fő módja annak, hogy több mélységet kapj."
+          ,
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "Nyisd f/2.8-ra több fényért" },
+            "1": { "label": "Szűkítsd le f/11-re" },
+            "2": { "label": "Válts szélesebb objektívre" },
+            "3": { "label": "Menj távolabb a virágtól" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "Két kamerát hasonlítasz össze portréhoz: egy Full Frame 85mm f/1.8-as objektívvel és egy Micro Four Thirds 42.5mm f/1.8-as objektívvel. A kompozíció ekvivalens. Melyik adja a kisebb mélységélességet?",
+          "hint": "Gondolj az ekvivalens gyújtótávolságra, és hogy az érzékelőméret hogyan hat a DoF-re azonos f-számon.",
+          "successMessage": "Jó! A Full Frame kamera durván 2 stoppal kisebb DoF-et ad. Bár az MFT objektív f-száma azonos, a rövidebb valós gyújtótávolság (42,5mm vs 85mm) nagyobb mélységélességet eredményez ekvivalens kompozíción.",
+          "failureMessage": "Bár mindkét objektív f/1.8, a Full Frame kamera ugyanahhoz a kompozícióhoz hosszabb valós gyújtótávolságot használ, ami jelentősen kisebb DoF-et ad.",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "Full Frame 85mm f/1.8-cal" },
+            "1": { "label": "Micro Four Thirds 42.5mm f/1.8-cal" },
+            "2": { "label": "Mindkettő azonos DoF-et ad" }
           }
         }
       }

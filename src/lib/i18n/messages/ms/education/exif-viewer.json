@@ -1,123 +1,123 @@
 {
   "education": {
     "exif-viewer": {
-      "beginner": "EXIF data is hidden information embedded in every photo your camera takes. It records what camera and lens you used, the exact settings (aperture, shutter speed, ISO), the date and time, and sometimes even GPS coordinates. This tool reads that data without uploading your photo anywhere — everything happens in your browser.",
-      "deeper": "EXIF (Exchangeable Image File Format) is a standard defined by JEITA/CIPA that stores metadata in JPEG, TIFF, and some RAW files. The data is written into specific segments of the file header as tagged key-value pairs using a TIFF-based IFD (Image File Directory) structure. There are several IFD sections: IFD0 for basic image info, the EXIF sub-IFD for camera settings, the GPS IFD for geolocation, and the Interop IFD for compatibility data. Camera manufacturers also write proprietary \"MakerNote\" data containing lens corrections, focus points, shutter count, and other model-specific details. Social media platforms often strip EXIF data on upload for privacy, but the original file on your memory card always retains it. Understanding EXIF helps you learn from your own shooting patterns and reverse-engineer the settings behind photos you admire.",
+      "beginner": "Data EXIF ialah maklumat tersembunyi yang diselitkan dalam setiap foto yang diambil oleh kamera anda. Ia merekodkan kamera dan lensa yang anda gunakan, tetapan tepat (aperture, kelajuan pengatup, ISO), tarikh dan masa, dan kadangkala juga koordinat GPS. Alat ini membaca data itu tanpa memuat naik foto anda ke mana-mana — semuanya berlaku dalam pelayar anda.",
+      "deeper": "EXIF (Exchangeable Image File Format) ialah standard yang ditakrifkan oleh JEITA/CIPA yang menyimpan metadata dalam fail JPEG, TIFF dan sesetengah fail RAW. Data ditulis ke dalam segmen khusus header fail sebagai pasangan kunci-nilai bertag menggunakan struktur IFD (Image File Directory) berasaskan TIFF. Terdapat beberapa bahagian IFD: IFD0 untuk maklumat imej asas, sub-IFD EXIF untuk tetapan kamera, GPS IFD untuk penentuan geolokasi, dan Interop IFD untuk data keserasian. Pengeluar kamera juga menulis data \"MakerNote\" proprietari yang mengandungi pembetulan lensa, titik fokus, kiraan pengatup dan butiran khusus model yang lain. Platform media sosial sering menanggalkan data EXIF semasa dimuat naik atas sebab privasi, tetapi fail asal pada kad memori anda sentiasa mengekalkannya. Memahami EXIF membantu anda belajar daripada corak penangkapan anda sendiri dan memahami tetapan di sebalik foto yang anda kagumi.",
       "keyFactors": {
         "0": {
-          "label": "Camera & Lens",
-          "description": "Make, model, lens name, and lens manufacturer — useful for identifying gear in photos you find online."
+          "label": "Kamera & Lensa",
+          "description": "Pembuat, model, nama lensa dan pengeluar lensa — berguna untuk mengenal pasti peralatan dalam foto yang anda jumpai dalam talian."
         },
         "1": {
-          "label": "Exposure Settings",
-          "description": "Aperture, shutter speed, ISO, and focal length — the core shooting parameters recorded for every frame."
+          "label": "Tetapan Pendedahan",
+          "description": "Aperture, kelajuan pengatup, ISO dan panjang fokus — parameter penangkapan teras yang direkodkan untuk setiap bingkai."
         },
         "2": {
-          "label": "Date & GPS",
-          "description": "When and where the photo was taken. Be mindful that GPS data reveals your location when sharing files."
+          "label": "Tarikh & GPS",
+          "description": "Bila dan di mana foto diambil. Ambil perhatian bahawa data GPS mendedahkan lokasi anda apabila berkongsi fail."
         },
         "3": {
-          "label": "Software",
-          "description": "Shows which editing software last saved the file. Useful for checking if an image has been processed."
+          "label": "Perisian",
+          "description": "Menunjukkan perisian penyuntingan mana yang terakhir menyimpan fail. Berguna untuk memeriksa sama ada imej telah diproses."
         }
       },
       "tips": {
         "0": {
-          "text": "Check the focal length and 35mm equivalent to understand whether the photographer used a wide, normal, or telephoto perspective — this teaches composition more than any rule of thirds."
+          "text": "Semak panjang fokus dan setara 35mm untuk memahami sama ada jurugambar menggunakan perspektif lebar, normal atau telefoto — ini mengajar komposisi lebih daripada sebarang rule of thirds."
         },
         "1": {
-          "text": "If a photo you admire was shot at high ISO with a wide aperture, that tells you it was a low-light situation. Use EXIF to understand the constraints the photographer faced."
+          "text": "Jika foto yang anda kagumi ditangkap pada ISO tinggi dengan aperture luas, itu memberitahu anda bahawa ia adalah situasi cahaya rendah. Gunakan EXIF untuk memahami kekangan yang dihadapi jurugambar."
         },
         "2": {
-          "text": "Before sharing photos online, be aware that EXIF may contain your GPS location. Strip metadata using your editing software export settings if privacy is a concern."
+          "text": "Sebelum berkongsi foto dalam talian, sedar bahawa EXIF mungkin mengandungi lokasi GPS anda. Tanggalkan metadata menggunakan tetapan eksport perisian penyuntingan anda jika privasi adalah kebimbangan."
         }
       },
       "tooltips": {
         "Make": {
           "term": "Make",
-          "definition": "The camera manufacturer name (e.g., Canon, Nikon, Sony) stored in the EXIF header."
+          "definition": "Nama pengeluar kamera (contoh Canon, Nikon, Sony) yang disimpan dalam header EXIF."
         },
         "Model": {
           "term": "Model",
-          "definition": "The specific camera model (e.g., \"EOS R5\", \"Z 9\") that captured the image."
+          "definition": "Model kamera tertentu (contoh \"EOS R5\", \"Z 9\") yang menangkap imej."
         },
         "Aperture": {
           "term": "Aperture",
-          "definition": "The f-number the lens was set to. Lower numbers mean wider aperture and more light."
+          "definition": "Nombor-f yang ditetapkan pada lensa. Nombor rendah bermakna aperture lebih luas dan lebih banyak cahaya."
         },
         "Shutter Speed": {
-          "term": "Shutter Speed",
-          "definition": "How long the sensor was exposed. Expressed as a fraction (e.g., 1/250s) or whole seconds for long exposures."
+          "term": "Kelajuan Pengatup",
+          "definition": "Berapa lama sensor didedahkan. Dinyatakan sebagai pecahan (contoh 1/250s) atau saat penuh untuk pendedahan panjang."
         },
         "ISO": {
           "term": "ISO",
-          "definition": "The sensor sensitivity setting. Higher ISO brightens the image but adds noise."
+          "definition": "Tetapan kepekaan sensor. ISO lebih tinggi mencerahkan imej tetapi menambah noise."
         },
         "Focal Length": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens in millimeters."
+          "term": "Panjang Fokus",
+          "definition": "Panjang fokus sebenar lensa dalam milimeter."
         },
         "Focal Length (35mm equiv)": {
-          "term": "Focal Length (35mm equiv.)",
-          "definition": "The equivalent focal length as if shot on a full-frame 35mm sensor. Useful for comparing field of view across sensor sizes."
+          "term": "Panjang Fokus (setara 35mm)",
+          "definition": "Panjang fokus setara seolah-olah ditangkap pada sensor full-frame 35mm. Berguna untuk membandingkan medan pandangan merentasi saiz sensor."
         },
         "GPS": {
           "term": "GPS",
-          "definition": "Latitude and longitude coordinates embedded by cameras with GPS modules. Reveals where the photo was taken."
+          "definition": "Koordinat latitud dan longitud yang diselitkan oleh kamera dengan modul GPS. Mendedahkan tempat foto diambil."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You found a stunning photo online and want to know what lens was used. Which EXIF section would tell you?",
-          "hint": "Camera and lens info are in different sections.",
-          "successMessage": "Correct! The Lens section shows the lens model and manufacturer.",
-          "failureMessage": "The Lens section contains the lens model — check there to identify the glass used.",
+          "scenario": "Anda menjumpai foto yang menarik dalam talian dan ingin tahu lensa apa yang digunakan. Bahagian EXIF yang manakah akan memberitahu anda?",
+          "hint": "Maklumat kamera dan lensa berada di bahagian yang berbeza.",
+          "successMessage": "Betul! Bahagian Lens menunjukkan model dan pengeluar lensa.",
+          "failureMessage": "Bahagian Lens mengandungi model lensa — semak di sana untuk mengenal pasti kaca yang digunakan.",
           "options": {
-            "0": { "label": "Camera" },
+            "0": { "label": "Kamera" },
             "1": { "label": "Lens" },
-            "2": { "label": "Settings" }
+            "2": { "label": "Tetapan" }
           }
         },
         "1": {
-          "scenario": "You uploaded a photo and see Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Was this likely shot in bright or dim light?",
-          "hint": "A very fast shutter speed at low ISO suggests lots of available light.",
-          "successMessage": "Right! The fast shutter speed (1/4000s) at base ISO (100) tells you there was plenty of light — likely bright outdoors.",
-          "failureMessage": "A shutter speed of 1/4000s at ISO 100 means the camera needed very little sensitivity and very short exposure. That is a bright outdoor scene.",
+          "scenario": "Anda memuat naik foto dan melihat Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Adakah ini kemungkinan ditangkap dalam cahaya terang atau malap?",
+          "hint": "Kelajuan pengatup yang sangat pantas pada ISO rendah menunjukkan banyak cahaya tersedia.",
+          "successMessage": "Betul! Kelajuan pengatup pantas (1/4000s) pada ISO asas (100) memberitahu anda terdapat banyak cahaya — kemungkinan cerah di luar.",
+          "failureMessage": "Kelajuan pengatup 1/4000s pada ISO 100 bermakna kamera memerlukan kepekaan sangat sedikit dan pendedahan sangat singkat. Itu adalah adegan luar yang cerah.",
           "options": {
-            "0": { "label": "Bright light — fast shutter at low ISO" },
-            "1": { "label": "Dim light — the wide aperture compensates" }
+            "0": { "label": "Cahaya terang — pengatup pantas pada ISO rendah" },
+            "1": { "label": "Cahaya malap — aperture luas mengimbanginya" }
           }
         },
         "2": {
-          "scenario": "A photo shows Focal Length: 50mm and Focal Length (35mm equiv.): 75mm. What sensor was the camera using?",
-          "hint": "The 35mm equivalent is the focal length multiplied by the crop factor.",
-          "successMessage": "Correct! 75 / 50 = 1.5x crop factor, which is an APS-C sensor (Nikon/Sony variant).",
-          "failureMessage": "Divide the 35mm equivalent by the actual focal length: 75 / 50 = 1.5x. That crop factor matches APS-C (Nikon/Sony).",
+          "scenario": "Sebuah foto menunjukkan Panjang Fokus: 50mm dan Panjang Fokus (setara 35mm): 75mm. Apakah sensor yang digunakan oleh kamera itu?",
+          "hint": "Setara 35mm ialah panjang fokus didarab dengan faktor crop.",
+          "successMessage": "Betul! 75 / 50 = faktor crop 1.5x, yang merupakan sensor APS-C (varian Nikon/Sony).",
+          "failureMessage": "Bahagikan setara 35mm dengan panjang fokus sebenar: 75 / 50 = 1.5x. Faktor crop itu sepadan dengan APS-C (Nikon/Sony).",
           "options": {
-            "0": { "label": "Full Frame (1.0x crop)" },
-            "1": { "label": "APS-C (1.5x crop)" },
-            "2": { "label": "Micro Four Thirds (2.0x crop)" }
+            "0": { "label": "Full Frame (crop 1.0x)" },
+            "1": { "label": "APS-C (crop 1.5x)" },
+            "2": { "label": "Micro Four Thirds (crop 2.0x)" }
           }
         },
         "3": {
-          "scenario": "You see two photos of the same scene. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Which photo was taken in brighter light?",
-          "hint": "Higher ISO compensates for less light.",
-          "successMessage": "Exactly! Photo B at ISO 200 had much more ambient light. Photo A needed ISO 3200 (4 stops more sensitivity) to achieve the same exposure, meaning the scene was much darker.",
-          "failureMessage": "Photo B was in brighter light. Same aperture and shutter speed, but ISO 200 vs 3200 means Photo A was in a much darker environment and needed 4 stops more sensor sensitivity.",
+          "scenario": "Anda melihat dua foto adegan yang sama. Foto A: f/2.8, 1/60s, ISO 3200. Foto B: f/2.8, 1/60s, ISO 200. Foto mana diambil dalam cahaya yang lebih terang?",
+          "hint": "ISO lebih tinggi mengimbangi cahaya yang kurang.",
+          "successMessage": "Tepat sekali! Foto B pada ISO 200 mempunyai cahaya sekeliling yang jauh lebih banyak. Foto A memerlukan ISO 3200 (4 stop lebih kepekaan) untuk mencapai pendedahan yang sama, bermakna adegan itu jauh lebih gelap.",
+          "failureMessage": "Foto B berada dalam cahaya yang lebih terang. Aperture dan kelajuan pengatup yang sama, tetapi ISO 200 lawan 3200 bermakna Foto A berada dalam persekitaran yang jauh lebih gelap dan memerlukan 4 stop lebih kepekaan sensor.",
           "options": {
-            "0": { "label": "Photo A (ISO 3200)" },
-            "1": { "label": "Photo B (ISO 200)" }
+            "0": { "label": "Foto A (ISO 3200)" },
+            "1": { "label": "Foto B (ISO 200)" }
           }
         },
         "4": {
-          "scenario": "You are analyzing a wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. The EXIF shows the software field is \"Adobe Lightroom Classic 13.1\". What can you infer about the photographer and the shooting conditions?",
-          "hint": "Consider the long focal length, wide-open aperture, fast shutter, and elevated ISO together.",
-          "successMessage": "Great analysis! The 400mm at f/5.6 (likely wide open for that lens) with a fast 1/2000s shutter suggests a fast-moving subject (birds or wildlife in action). ISO 1600 indicates it was not bright sunlight — probably overcast or in shade. The Lightroom field confirms post-processing was done.",
-          "failureMessage": "The settings reveal a lot: 400mm f/5.6 is a typical wildlife telephoto wide open, 1/2000s freezes fast animal movement, and ISO 1600 means light was limited (not bright sun). The Lightroom entry confirms the file was processed.",
+          "scenario": "Anda menganalisis foto hidupan liar: 400mm, f/5.6, 1/2000s, ISO 1600. EXIF menunjukkan medan perisian adalah \"Adobe Lightroom Classic 13.1\". Apa yang boleh anda simpulkan tentang jurugambar dan keadaan penangkapan?",
+          "hint": "Pertimbangkan panjang fokus panjang, aperture terbuka luas, pengatup pantas dan ISO tinggi bersama-sama.",
+          "successMessage": "Analisis hebat! 400mm pada f/5.6 (kemungkinan terbuka luas untuk lensa itu) dengan pengatup pantas 1/2000s menunjukkan subjek bergerak pantas (burung atau hidupan liar dalam aksi). ISO 1600 menunjukkan ia bukan cahaya matahari terik — kemungkinan mendung atau di bawah bayang. Medan Lightroom mengesahkan pasca-pemprosesan telah dilakukan.",
+          "failureMessage": "Tetapan itu mendedahkan banyak: 400mm f/5.6 adalah telefoto hidupan liar biasa yang terbuka luas, 1/2000s membekukan pergerakan haiwan pantas, dan ISO 1600 bermakna cahaya adalah terhad (bukan matahari terik). Catatan Lightroom mengesahkan fail telah diproses.",
           "options": {
-            "0": { "label": "Fast subject in moderate light, post-processed in Lightroom" },
-            "1": { "label": "Slow subject in bright light, straight from camera" },
-            "2": { "label": "Landscape shot with motion blur, heavily edited" }
+            "0": { "label": "Subjek pantas dalam cahaya sederhana, diproses dalam Lightroom" },
+            "1": { "label": "Subjek perlahan dalam cahaya terang, terus dari kamera" },
+            "2": { "label": "Tangkapan landskap dengan kekaburan pergerakan, disunting berat" }
           }
         }
       }

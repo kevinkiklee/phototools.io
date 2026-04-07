@@ -1,109 +1,109 @@
 {
   "education": {
     "exposure-simulator": {
-      "beginner": "The exposure triangle describes how three camera settings — aperture, shutter speed, and ISO — work together to control how bright your photo is. Changing one setting requires adjusting at least one of the others to maintain the same brightness. Each setting also has its own creative side effect: aperture controls background blur, shutter speed controls motion blur, and ISO controls image noise.",
-      "deeper": "Exposure is measured in Exposure Value (EV), where each whole EV step represents a doubling or halving of light. An increase of 1 EV (one \"stop\") means twice as much light is reaching the sensor. Aperture follows a geometric progression (f/1.4, f/2, f/2.8, f/4...) where each full stop halves the light entering the lens because the area of the opening is inversely proportional to the square of the f-number. Shutter speed is more intuitive: doubling the time doubles the light. ISO amplifies the signal from the sensor — doubling the ISO doubles the effective brightness but also amplifies noise. In practice, you typically set the parameter that matters most for your creative intent first (aperture for DoF control, shutter for motion), then balance the others. Modern cameras meter in 1/3-stop increments for finer control.",
+      "beginner": "Exponeringstriangeln beskriver hur tre kamerainställningar — bländare, slutartid och ISO — samverkar för att styra hur ljus din bild blir. Ändrar du en måste du justera minst en av de andra för att hålla samma ljusstyrka. Varje inställning har också sin egen kreativa sidoeffekt: bländaren styr bakgrundsoskärpa, slutartiden styr rörelseoskärpa och ISO styr brus.",
+      "deeper": "Exponering mäts i exponeringsvärde (EV), där varje helt EV-steg motsvarar en fördubbling eller halvering av ljuset. En ökning med 1 EV (ett \"steg\") betyder att dubbelt så mycket ljus når sensorn. Bländaren följer en geometrisk serie (f/1.4, f/2, f/2.8, f/4 ...) där varje helt steg halverar ljuset eftersom öppningens yta är omvänt proportionell mot kvadraten på f-talet. Slutartiden är mer intuitiv: dubbelt så lång tid, dubbelt så mycket ljus. ISO förstärker signalen från sensorn — dubbel ISO ger dubbelt så ljus bild, men förstärker också bruset. I praktiken sätter du först den parameter som spelar störst roll för din kreativa intention (bländare för skärpedjup, slutartid för rörelse) och balanserar sedan de andra. Moderna kameror mäter i 1/3-steg för finjustering.",
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Controls the size of the lens opening. Each full stop (e.g., f/2.8 to f/4) halves the light. Also affects depth of field — wider apertures blur the background more."
+          "label": "Bländare",
+          "description": "Styr storleken på linsens öppning. Varje helt steg (t.ex. f/2.8 till f/4) halverar ljuset. Påverkar också skärpedjupet — större bländare suddar bakgrunden mer."
         },
         "1": {
-          "label": "Shutter Speed",
-          "description": "Controls how long the sensor is exposed to light. Faster speeds freeze motion; slower speeds introduce motion blur. Doubling the time doubles the light."
+          "label": "Slutartid",
+          "description": "Styr hur länge sensorn exponeras för ljus. Snabbare tider fryser rörelse; långsammare ger rörelseoskärpa. Dubbelt så lång tid betyder dubbelt så mycket ljus."
         },
         "2": {
           "label": "ISO",
-          "description": "Controls the sensor's sensitivity to light. Higher ISO brightens the image but adds grain/noise. Always use the lowest ISO that gives you the exposure you need."
+          "description": "Styr sensorns ljuskänslighet. Högre ISO gör bilden ljusare men lägger till brus/korn. Använd alltid lägsta ISO som ger dig den exponering du behöver."
         },
         "3": {
-          "label": "Exposure Value (EV)",
-          "description": "A single number that represents the overall brightness. EV 0 corresponds to a 1-second exposure at f/1.0. Each +1 EV halves the light."
+          "label": "Exponeringsvärde (EV)",
+          "description": "Ett enda tal som representerar den totala ljusstyrkan. EV 0 motsvarar en exponering på 1 sekund vid f/1.0. Varje +1 EV halverar ljuset."
         }
       },
       "tips": {
         "0": {
-          "text": "Start with Aperture Priority mode: set the aperture for your desired depth of field, and let the camera choose the shutter speed. Only raise ISO when the shutter speed drops too low for sharp handheld shots."
+          "text": "Börja i bländarprioritet: ställ in bländaren för önskat skärpedjup och låt kameran välja slutartid. Höj ISO först när slutartiden blir för låg för skarpa handhållna bilder."
         },
         "1": {
-          "text": "For sports and action, switch to Shutter Priority: pick a fast shutter speed (1/500s or faster) and let the camera adjust aperture and ISO to match."
+          "text": "Vid sport och action: byt till slutarprioritet. Välj en snabb slutartid (1/500s eller snabbare) och låt kameran justera bländare och ISO efter det."
         },
         "2": {
-          "text": "The \"Sunny 16\" rule is a quick mental shortcut: on a bright sunny day, set aperture to f/16, shutter speed to 1/ISO (e.g., 1/100s at ISO 100), and you will get a well-exposed image without metering."
+          "text": "\"Sunny 16\"-regeln är en snabb mental genväg: en solig dag sätter du bländaren till f/16 och slutartiden till 1/ISO (t.ex. 1/100s vid ISO 100) — då får du en korrekt exponerad bild utan att mäta."
         }
       },
       "tooltips": {
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening size expressed as an f-number. Lower numbers (f/1.4) let in more light and blur the background. Higher numbers (f/16) let in less light but keep more of the scene sharp."
+          "term": "Bländare",
+          "definition": "Linsöppningens storlek uttryckt som ett f-tal. Lägre tal (f/1.4) släpper in mer ljus och suddar bakgrunden. Högre tal (f/16) släpper in mindre ljus men håller mer av scenen skarp."
         },
         "shutterSpeed": {
-          "term": "Shutter Speed",
-          "definition": "The duration the sensor is exposed to light, typically measured in fractions of a second (1/250s) or full seconds (2s). Faster speeds freeze motion; slower speeds create motion blur."
+          "term": "Slutartid",
+          "definition": "Den tid sensorn exponeras för ljus, vanligen mätt i bråkdelar av en sekund (1/250s) eller hela sekunder (2s). Snabbare tider fryser rörelse; långsammare ger rörelseoskärpa."
         },
         "iso": {
           "term": "ISO",
-          "definition": "A measure of sensor sensitivity. ISO 100 is the base (cleanest image). Each doubling (200, 400, 800...) brightens the image by one stop but progressively adds noise."
+          "definition": "Ett mått på sensorns känslighet. ISO 100 är basen (renaste bilden). Varje fördubbling (200, 400, 800 ...) gör bilden ljusare med ett steg men ökar gradvis bruset."
         },
         "ev": {
-          "term": "Exposure Value (EV)",
-          "definition": "A single number summarizing the overall exposure. Higher EV means brighter conditions or more light captured. Each +1 EV is double the light."
+          "term": "Exponeringsvärde (EV)",
+          "definition": "Ett tal som sammanfattar den totala exponeringen. Högre EV betyder ljusare förhållanden eller mer fångat ljus. Varje +1 EV är dubbelt så mycket ljus."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing your dog running in the park on a sunny day. The image keeps coming out blurry. Which setting should you prioritize to freeze the motion?",
-          "hint": "Motion blur is caused by the subject moving during the exposure.",
-          "successMessage": "Correct! A fast shutter speed like 1/1000s will freeze your dog mid-stride. On a sunny day, you have plenty of light to support this.",
-          "failureMessage": "That setting won't directly freeze motion. To stop a moving subject, you need a fast shutter speed — the shorter the exposure, the less time the subject has to blur.",
+          "scenario": "Du fotograferar din hund som springer i parken en solig dag. Bilderna blir oskarpa. Vilken inställning bör du prioritera för att frysa rörelsen?",
+          "hint": "Rörelseoskärpa uppstår när motivet rör sig under exponeringen.",
+          "successMessage": "Rätt! En snabb slutartid som 1/1000s fryser din hund mitt i språnget. En solig dag har du gott om ljus för det.",
+          "failureMessage": "Den inställningen fryser inte rörelsen direkt. För att stoppa ett motiv i rörelse behöver du en snabb slutartid — ju kortare exponering, desto mindre tid har motivet att bli suddigt.",
           "options": {
-            "0": { "label": "Widen the aperture to f/2.8" },
-            "1": { "label": "Use a fast shutter speed (1/1000s)" },
-            "2": { "label": "Increase ISO to 3200" },
-            "3": { "label": "Use a longer focal length" }
+            "0": { "label": "Öppna bländaren till f/2.8" },
+            "1": { "label": "Använd en snabb slutartid (1/1000s)" },
+            "2": { "label": "Öka ISO till 3200" },
+            "3": { "label": "Använd en längre brännvidd" }
           }
         },
         "1": {
-          "scenario": "You are taking photos at an indoor birthday party. Your images are too dark at f/3.5, 1/60s, ISO 400. You cannot use a flash. What is the best next step?",
-          "hint": "You need more light reaching the sensor or more amplification of the signal.",
-          "successMessage": "Good thinking! Raising ISO to 1600 gives you two extra stops of brightness while keeping your shutter speed fast enough for handheld shots.",
-          "failureMessage": "That change might cause other issues. Since the aperture is already near its widest and you need a shutter speed fast enough for handheld use, raising ISO is the most practical adjustment.",
+          "scenario": "Du fotograferar på en barnkalas inomhus. Bilderna blir för mörka vid f/3.5, 1/60s, ISO 400. Du får inte använda blixt. Vad är nästa bästa steg?",
+          "hint": "Du behöver mer ljus på sensorn eller mer förstärkning av signalen.",
+          "successMessage": "Bra tänkt! Att höja ISO till 1600 ger dig två extra stegs ljus medan slutartiden håller sig tillräckligt snabb för handhållet.",
+          "failureMessage": "Den ändringen kan ge andra problem. Eftersom bländaren redan är nära maximalt öppen och du behöver en slutartid som duger handhållet är ISO-höjning den mest praktiska justeringen.",
           "options": {
-            "0": { "label": "Raise ISO to 1600" },
-            "1": { "label": "Slow shutter to 1/4s" },
-            "2": { "label": "Close aperture to f/8" },
-            "3": { "label": "Switch to a smaller sensor camera" }
+            "0": { "label": "Höj ISO till 1600" },
+            "1": { "label": "Sänk slutartiden till 1/4s" },
+            "2": { "label": "Nedbländaa till f/8" },
+            "3": { "label": "Byt till en kamera med mindre sensor" }
           }
         },
         "2": {
-          "scenario": "You want to capture a waterfall with a silky smooth water effect on a bright day. Your current settings are f/8, 1/250s, ISO 100. What should you change to get the silky look?",
-          "hint": "Silky water requires a long exposure, but it is very bright outside.",
-          "successMessage": "Exactly! Using a slow shutter speed (1/2s or longer) and compensating by narrowing the aperture to f/22 (and possibly adding an ND filter) will give you that silky water effect.",
-          "failureMessage": "To get silky water, you need a slow shutter speed — around 1/2s to several seconds. On a bright day, you will also need to reduce the light entering the lens to avoid overexposure.",
+          "scenario": "Du vill fånga ett vattenfall med silkeslent vatten en ljus dag. Nuvarande inställningar är f/8, 1/250s, ISO 100. Vad bör du ändra för att få silkeseffekten?",
+          "hint": "Silkeslent vatten kräver lång exponering — men det är mycket ljust ute.",
+          "successMessage": "Precis! En långsam slutartid (1/2s eller längre) i kombination med att du bländar ner till f/22 (och kanske lägger på ett ND-filter) ger dig silkeseffekten.",
+          "failureMessage": "För att få silkeslent vatten behöver du en långsam slutartid — runt 1/2s till flera sekunder. En ljus dag behöver du dessutom minska ljusmängden för att inte överexponera.",
           "options": {
-            "0": { "label": "Use 1/2s shutter and narrow to f/22" },
-            "1": { "label": "Use 1/1000s shutter at f/2.8" },
-            "2": { "label": "Raise ISO to 6400" },
-            "3": { "label": "Keep 1/250s but open to f/1.4" }
+            "0": { "label": "Använd 1/2s och bländaa ner till f/22" },
+            "1": { "label": "Använd 1/1000s vid f/2.8" },
+            "2": { "label": "Höj ISO till 6400" },
+            "3": { "label": "Behåll 1/250s men öppna till f/1.4" }
           }
         },
         "3": {
-          "scenario": "Your properly exposed photo is at f/5.6, 1/125s, ISO 200. You want to switch to f/2.8 for more background blur. How should you adjust the other settings to maintain the same exposure?",
-          "hint": "Going from f/5.6 to f/2.8 is 2 stops more light. You need to remove 2 stops somewhere else.",
-          "successMessage": "Perfect! Opening from f/5.6 to f/2.8 adds 2 stops of light. Changing shutter speed from 1/125s to 1/500s removes exactly 2 stops, keeping the exposure identical.",
-          "failureMessage": "The math needs to balance. f/5.6 to f/2.8 is +2 stops. You need to compensate by removing exactly 2 stops through faster shutter speed, lower ISO, or a combination.",
+          "scenario": "Din korrekt exponerade bild är f/5.6, 1/125s, ISO 200. Du vill byta till f/2.8 för mer bakgrundsoskärpa. Hur ska du justera de andra inställningarna för att behålla samma exponering?",
+          "hint": "Att gå från f/5.6 till f/2.8 är 2 steg mer ljus. Du måste ta bort 2 steg någon annanstans.",
+          "successMessage": "Perfekt! Att öppna från f/5.6 till f/2.8 lägger till 2 steg ljus. Att ändra slutartiden från 1/125s till 1/500s tar bort exakt 2 steg och håller exponeringen identisk.",
+          "failureMessage": "Räknemässigt måste det gå jämnt upp. f/5.6 till f/2.8 är +2 steg. Du måste kompensera genom att ta bort exakt 2 steg via snabbare slutartid, lägre ISO eller en kombination.",
           "options": {
-            "0": { "label": "1/500s at ISO 200" },
-            "1": { "label": "1/250s at ISO 200" },
-            "2": { "label": "1/125s at ISO 100" },
-            "3": { "label": "1/60s at ISO 100" }
+            "0": { "label": "1/500s vid ISO 200" },
+            "1": { "label": "1/250s vid ISO 200" },
+            "2": { "label": "1/125s vid ISO 100" },
+            "3": { "label": "1/60s vid ISO 100" }
           }
         },
         "4": {
-          "scenario": "You are photographing a concert in a dark venue. The performers are moving quickly under colored stage lights. You need at least 1/250s to freeze motion. Your fastest lens is f/2.8. What ISO do you likely need if the scene meters at EV 6?",
-          "hint": "At EV 6, f/2.8, calculate the ISO needed to achieve 1/250s. Each full stop of ISO doubles the brightness.",
-          "successMessage": "Correct! At EV 6 with f/2.8 and 1/250s, you need ISO 3200. Concert photography often demands high ISO — knowing your camera's usable ISO limit is critical for these situations.",
-          "failureMessage": "At EV 6, the combination of f/2.8 and 1/250s requires ISO 3200 to achieve proper exposure. The exposure formula balances aperture, shutter speed, and ISO against the available light.",
+          "scenario": "Du fotograferar en konsert i en mörk lokal. Artisterna rör sig snabbt under färgade scenljus. Du behöver minst 1/250s för att frysa rörelse. Ditt ljusstarkaste objektiv är f/2.8. Vilken ISO behöver du om scenen mäter EV 6?",
+          "hint": "Vid EV 6, f/2.8, räkna ut vilken ISO som krävs för 1/250s. Varje helt ISO-steg dubblar ljusstyrkan.",
+          "successMessage": "Rätt! Vid EV 6 med f/2.8 och 1/250s behöver du ISO 3200. Konsertfoto kräver ofta hög ISO — att känna sin kameras användbara ISO-gräns är avgörande i sådana lägen.",
+          "failureMessage": "Vid EV 6 kräver kombinationen f/2.8 och 1/250s ISO 3200 för rätt exponering. Exponeringsformeln balanserar bländare, slutartid och ISO mot tillgängligt ljus.",
           "options": {
             "0": { "label": "ISO 400" },
             "1": { "label": "ISO 800" },

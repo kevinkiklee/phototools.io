@@ -10,7 +10,7 @@
       "nearLimit": "Near Limit",
       "farLimit": "Far Limit",
       "overlap": "Overlap",
-      "overlapDescription": "Percentage of DoF overlap between adjacent shots to ensure seamless blending",
+      "overlapDescription": "Ποσοστό επικάλυψης του βάθους πεδίου μεταξύ διαδοχικών λήψεων για ομαλή συγχώνευση",
       "results": "Results",
       "shotCount": "Shots Required",
       "totalDepth": "Total Depth",
@@ -33,8 +33,8 @@
       "infinity": "∞",
       "distanceUnit": "m",
       "warning": "Warning",
-      "tooFewShots": "Depth range is within a single shot — no stacking needed",
-      "tooManyShots": "This plan requires many shots. Consider a narrower aperture to reduce the count.",
+      "tooFewShots": "Το εύρος βάθους χωράει σε μία λήψη — δεν χρειάζεται stacking",
+      "tooManyShots": "Αυτό το πλάνο απαιτεί πολλές λήψεις. Δοκίμασε πιο κλειστό διάφραγμα για να μειώσεις τον αριθμό.",
       "macroMode": "Macro",
       "landscapeMode": "Landscape"
     }

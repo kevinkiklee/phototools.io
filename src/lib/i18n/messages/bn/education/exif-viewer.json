@@ -1,77 +1,77 @@
 {
   "education": {
     "exif-viewer": {
-      "beginner": "EXIF data is hidden information embedded in every photo your camera takes. It records what camera and lens you used, the exact settings (aperture, shutter speed, ISO), the date and time, and sometimes even GPS coordinates. This tool reads that data without uploading your photo anywhere — everything happens in your browser.",
-      "deeper": "EXIF (Exchangeable Image File Format) is a standard defined by JEITA/CIPA that stores metadata in JPEG, TIFF, and some RAW files. The data is written into specific segments of the file header as tagged key-value pairs using a TIFF-based IFD (Image File Directory) structure. There are several IFD sections: IFD0 for basic image info, the EXIF sub-IFD for camera settings, the GPS IFD for geolocation, and the Interop IFD for compatibility data. Camera manufacturers also write proprietary \"MakerNote\" data containing lens corrections, focus points, shutter count, and other model-specific details. Social media platforms often strip EXIF data on upload for privacy, but the original file on your memory card always retains it. Understanding EXIF helps you learn from your own shooting patterns and reverse-engineer the settings behind photos you admire.",
+      "beginner": "EXIF ডেটা হলো তোমার ক্যামেরার তোলা প্রতিটি ছবিতে লুকানো তথ্য। এটি রেকর্ড করে তুমি কোন ক্যামেরা ও লেন্স ব্যবহার করেছো, সঠিক সেটিংস (অ্যাপারচার, শাটার স্পিড, ISO), তারিখ ও সময়, এবং কখনো কখনো GPS স্থানাঙ্ক। এই টুলটি সেই ডেটা পড়ে — ছবি কোথাও আপলোড না করেই — সবকিছু তোমার ব্রাউজারে হয়।",
+      "deeper": "EXIF (Exchangeable Image File Format) হলো JEITA/CIPA দ্বারা সংজ্ঞায়িত একটি স্ট্যান্ডার্ড যা JPEG, TIFF এবং কিছু RAW ফাইলে মেটাডেটা সংরক্ষণ করে। ডেটা ফাইল হেডারের নির্দিষ্ট অংশে TIFF-ভিত্তিক IFD (Image File Directory) কাঠামো ব্যবহার করে ট্যাগ করা কী-ভ্যালু জোড়া হিসেবে লেখা হয়। কয়েকটি IFD সেকশন আছে: বেসিক ইমেজ তথ্যের জন্য IFD0, ক্যামেরা সেটিংসের জন্য EXIF সাব-IFD, জিওলোকেশনের জন্য GPS IFD, এবং সামঞ্জস্যের ডেটার জন্য Interop IFD। ক্যামেরা নির্মাতারা লেন্স সংশোধন, ফোকাস পয়েন্ট, শাটার কাউন্ট এবং অন্যান্য মডেল-নির্দিষ্ট বিবরণসহ মালিকানা \"MakerNote\" ডেটাও লেখে। সোশ্যাল মিডিয়া প্ল্যাটফর্মগুলো প্রায়ই আপলোডে গোপনীয়তার জন্য EXIF ডেটা মুছে ফেলে, কিন্তু তোমার মেমরি কার্ডের মূল ফাইল সবসময় তা ধরে রাখে। EXIF বোঝা তোমাকে তোমার নিজের শুটিং প্যাটার্ন থেকে শিখতে এবং প্রশংসিত ছবিগুলোর সেটিংস বিশ্লেষণ করতে সাহায্য করে।",
       "keyFactors": {
         "0": {
-          "label": "Camera & Lens",
-          "description": "Make, model, lens name, and lens manufacturer — useful for identifying gear in photos you find online."
+          "label": "ক্যামেরা ও লেন্স",
+          "description": "মেক, মডেল, লেন্সের নাম ও লেন্স নির্মাতা — অনলাইনে পাওয়া ছবিতে গিয়ার শনাক্ত করতে কাজে আসে।"
         },
         "1": {
-          "label": "Exposure Settings",
-          "description": "Aperture, shutter speed, ISO, and focal length — the core shooting parameters recorded for every frame."
+          "label": "এক্সপোজার সেটিংস",
+          "description": "অ্যাপারচার, শাটার স্পিড, ISO এবং ফোকাল দৈর্ঘ্য — প্রতিটি ফ্রেমের জন্য রেকর্ড করা মূল শুটিং প্যারামিটার।"
         },
         "2": {
-          "label": "Date & GPS",
-          "description": "When and where the photo was taken. Be mindful that GPS data reveals your location when sharing files."
+          "label": "তারিখ ও GPS",
+          "description": "ছবিটি কখন এবং কোথায় তোলা হয়েছে। মনে রেখো ফাইল শেয়ার করার সময় GPS ডেটা তোমার অবস্থান প্রকাশ করে।"
         },
         "3": {
-          "label": "Software",
-          "description": "Shows which editing software last saved the file. Useful for checking if an image has been processed."
+          "label": "সফটওয়্যার",
+          "description": "দেখায় কোন এডিটিং সফটওয়্যার সর্বশেষ ফাইলটি সেভ করেছে। ছবিটি প্রসেস করা হয়েছে কিনা চেক করতে কাজে আসে।"
         }
       },
       "tips": {
         "0": {
-          "text": "Check the focal length and 35mm equivalent to understand whether the photographer used a wide, normal, or telephoto perspective — this teaches composition more than any rule of thirds."
+          "text": "ফোকাল দৈর্ঘ্য ও 35mm সমতুল্য চেক করে বোঝো ফটোগ্রাফার প্রশস্ত, সাধারণ নাকি টেলিফটো পরিপ্রেক্ষিত ব্যবহার করেছে — এটি রুল অফ থার্ডসের চেয়ে বেশি কম্পোজিশন শেখায়।"
         },
         "1": {
-          "text": "If a photo you admire was shot at high ISO with a wide aperture, that tells you it was a low-light situation. Use EXIF to understand the constraints the photographer faced."
+          "text": "তুমি যে ছবি পছন্দ করো সেটি যদি উচ্চ ISO-তে প্রশস্ত অ্যাপারচারে তোলা হয়ে থাকে, তা বোঝায় এটি কম আলোর পরিস্থিতি ছিল। ফটোগ্রাফারের সীমাবদ্ধতা বুঝতে EXIF ব্যবহার করো।"
         },
         "2": {
-          "text": "Before sharing photos online, be aware that EXIF may contain your GPS location. Strip metadata using your editing software export settings if privacy is a concern."
+          "text": "অনলাইনে ছবি শেয়ার করার আগে সচেতন থাকো যে EXIF-এ তোমার GPS অবস্থান থাকতে পারে। গোপনীয়তার বিষয়ে সতর্ক হলে এডিটিং সফটওয়্যারের এক্সপোর্ট সেটিংস দিয়ে মেটাডেটা সরাও।"
         }
       },
       "tooltips": {
         "Make": {
           "term": "Make",
-          "definition": "The camera manufacturer name (e.g., Canon, Nikon, Sony) stored in the EXIF header."
+          "definition": "EXIF হেডারে সংরক্ষিত ক্যামেরা নির্মাতার নাম (যেমন Canon, Nikon, Sony)।"
         },
         "Model": {
           "term": "Model",
-          "definition": "The specific camera model (e.g., \"EOS R5\", \"Z 9\") that captured the image."
+          "definition": "নির্দিষ্ট ক্যামেরা মডেল (যেমন \"EOS R5\", \"Z 9\") যা ছবিটি তুলেছে।"
         },
         "Aperture": {
-          "term": "Aperture",
-          "definition": "The f-number the lens was set to. Lower numbers mean wider aperture and more light."
+          "term": "অ্যাপারচার",
+          "definition": "লেন্স যে f-নম্বরে সেট ছিল। কম নম্বর মানে প্রশস্ত অ্যাপারচার এবং বেশি আলো।"
         },
         "Shutter Speed": {
-          "term": "Shutter Speed",
-          "definition": "How long the sensor was exposed. Expressed as a fraction (e.g., 1/250s) or whole seconds for long exposures."
+          "term": "শাটার স্পিড",
+          "definition": "সেন্সর কতক্ষণ এক্সপোজড ছিল। ভগ্নাংশ (যেমন 1/250s) বা লং এক্সপোজারের জন্য পূর্ণ সেকেন্ডে প্রকাশ করা হয়।"
         },
         "ISO": {
           "term": "ISO",
-          "definition": "The sensor sensitivity setting. Higher ISO brightens the image but adds noise."
+          "definition": "সেন্সরের সংবেদনশীলতা সেটিং। উচ্চ ISO ছবিকে উজ্জ্বল করে কিন্তু নয়েজ যোগ করে।"
         },
         "Focal Length": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens in millimeters."
+          "term": "ফোকাল দৈর্ঘ্য",
+          "definition": "মিলিমিটারে লেন্সের আসল ফোকাল দৈর্ঘ্য।"
         },
         "Focal Length (35mm equiv)": {
-          "term": "Focal Length (35mm equiv.)",
-          "definition": "The equivalent focal length as if shot on a full-frame 35mm sensor. Useful for comparing field of view across sensor sizes."
+          "term": "ফোকাল দৈর্ঘ্য (35mm সমতুল্য)",
+          "definition": "একটি ফুল-ফ্রেম 35mm সেন্সরে শুট করা হলে সমতুল্য ফোকাল দৈর্ঘ্য কত হতো। বিভিন্ন সেন্সর সাইজের মধ্যে দৃষ্টিক্ষেত্র তুলনা করতে কাজে আসে।"
         },
         "GPS": {
           "term": "GPS",
-          "definition": "Latitude and longitude coordinates embedded by cameras with GPS modules. Reveals where the photo was taken."
+          "definition": "GPS মডিউলবিশিষ্ট ক্যামেরা দ্বারা এমবেড করা অক্ষাংশ ও দ্রাঘিমাংশ স্থানাঙ্ক। ছবিটি কোথায় তোলা হয়েছিল তা প্রকাশ করে।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You found a stunning photo online and want to know what lens was used. Which EXIF section would tell you?",
-          "hint": "Camera and lens info are in different sections.",
-          "successMessage": "Correct! The Lens section shows the lens model and manufacturer.",
-          "failureMessage": "The Lens section contains the lens model — check there to identify the glass used.",
+          "scenario": "তুমি একটি দারুণ ছবি অনলাইনে পেলে এবং জানতে চাও কোন লেন্স ব্যবহার করা হয়েছিল। কোন EXIF সেকশন তোমাকে এটা বলবে?",
+          "hint": "ক্যামেরা ও লেন্সের তথ্য ভিন্ন সেকশনে থাকে।",
+          "successMessage": "সঠিক! Lens সেকশন লেন্স মডেল ও নির্মাতা দেখায়।",
+          "failureMessage": "Lens সেকশনে লেন্সের মডেল থাকে — ব্যবহৃত গ্লাস শনাক্ত করতে সেখানে দেখো।",
           "options": {
             "0": { "label": "Camera" },
             "1": { "label": "Lens" },
@@ -79,45 +79,45 @@
           }
         },
         "1": {
-          "scenario": "You uploaded a photo and see Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Was this likely shot in bright or dim light?",
-          "hint": "A very fast shutter speed at low ISO suggests lots of available light.",
-          "successMessage": "Right! The fast shutter speed (1/4000s) at base ISO (100) tells you there was plenty of light — likely bright outdoors.",
-          "failureMessage": "A shutter speed of 1/4000s at ISO 100 means the camera needed very little sensitivity and very short exposure. That is a bright outdoor scene.",
+          "scenario": "তুমি একটি ছবি আপলোড করেছো এবং দেখতে পাচ্ছো অ্যাপারচার: f/1.8, শাটার স্পিড: 1/4000s, ISO: 100। এটি সম্ভবত উজ্জ্বল নাকি কম আলোতে তোলা?",
+          "hint": "কম ISO-তে খুব দ্রুত শাটার স্পিড বেশি আলো থাকার ইঙ্গিত দেয়।",
+          "successMessage": "ঠিক! বেস ISO (100)-এ দ্রুত শাটার স্পিড (1/4000s) তোমাকে বলে প্রচুর আলো ছিল — সম্ভবত উজ্জ্বল আউটডোর।",
+          "failureMessage": "ISO 100-এ 1/4000s শাটার স্পিড মানে ক্যামেরার খুব কম সংবেদনশীলতা ও খুব অল্প এক্সপোজার দরকার ছিল। এটি একটি উজ্জ্বল আউটডোর দৃশ্য।",
           "options": {
-            "0": { "label": "Bright light — fast shutter at low ISO" },
-            "1": { "label": "Dim light — the wide aperture compensates" }
+            "0": { "label": "উজ্জ্বল আলো — কম ISO-তে দ্রুত শাটার" },
+            "1": { "label": "কম আলো — প্রশস্ত অ্যাপারচার ক্ষতিপূরণ দেয়" }
           }
         },
         "2": {
-          "scenario": "A photo shows Focal Length: 50mm and Focal Length (35mm equiv.): 75mm. What sensor was the camera using?",
-          "hint": "The 35mm equivalent is the focal length multiplied by the crop factor.",
-          "successMessage": "Correct! 75 / 50 = 1.5x crop factor, which is an APS-C sensor (Nikon/Sony variant).",
-          "failureMessage": "Divide the 35mm equivalent by the actual focal length: 75 / 50 = 1.5x. That crop factor matches APS-C (Nikon/Sony).",
+          "scenario": "একটি ছবি দেখাচ্ছে ফোকাল দৈর্ঘ্য: 50mm এবং ফোকাল দৈর্ঘ্য (35mm সমতুল্য): 75mm। ক্যামেরা কোন সেন্সর ব্যবহার করছিল?",
+          "hint": "35mm সমতুল্য হলো ফোকাল দৈর্ঘ্য গুণ ক্রপ ফ্যাক্টর।",
+          "successMessage": "সঠিক! 75 / 50 = 1.5x ক্রপ ফ্যাক্টর, যা APS-C সেন্সর (Nikon/Sony ভ্যারিয়েন্ট)।",
+          "failureMessage": "35mm সমতুল্যকে আসল ফোকাল দৈর্ঘ্য দিয়ে ভাগ করো: 75 / 50 = 1.5x। সেই ক্রপ ফ্যাক্টর APS-C-এর (Nikon/Sony) সাথে মেলে।",
           "options": {
-            "0": { "label": "Full Frame (1.0x crop)" },
-            "1": { "label": "APS-C (1.5x crop)" },
-            "2": { "label": "Micro Four Thirds (2.0x crop)" }
+            "0": { "label": "ফুল ফ্রেম (1.0x ক্রপ)" },
+            "1": { "label": "APS-C (1.5x ক্রপ)" },
+            "2": { "label": "Micro Four Thirds (2.0x ক্রপ)" }
           }
         },
         "3": {
-          "scenario": "You see two photos of the same scene. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Which photo was taken in brighter light?",
-          "hint": "Higher ISO compensates for less light.",
-          "successMessage": "Exactly! Photo B at ISO 200 had much more ambient light. Photo A needed ISO 3200 (4 stops more sensitivity) to achieve the same exposure, meaning the scene was much darker.",
-          "failureMessage": "Photo B was in brighter light. Same aperture and shutter speed, but ISO 200 vs 3200 means Photo A was in a much darker environment and needed 4 stops more sensor sensitivity.",
+          "scenario": "তুমি একই দৃশ্যের দুটি ছবি দেখছো। Photo A: f/2.8, 1/60s, ISO 3200। Photo B: f/2.8, 1/60s, ISO 200। কোন ছবি বেশি উজ্জ্বল আলোতে তোলা হয়েছিল?",
+          "hint": "উচ্চ ISO কম আলো ক্ষতিপূরণ দেয়।",
+          "successMessage": "ঠিক! ISO 200-এ Photo B-তে অনেক বেশি পরিবেশগত আলো ছিল। Photo A-কে একই এক্সপোজার অর্জন করতে ISO 3200 (4 স্টপ বেশি সংবেদনশীলতা) দরকার ছিল, মানে দৃশ্যটি অনেক গাঢ় ছিল।",
+          "failureMessage": "Photo B বেশি উজ্জ্বল আলোতে ছিল। একই অ্যাপারচার ও শাটার স্পিড, কিন্তু ISO 200 বনাম 3200 মানে Photo A অনেক গাঢ় পরিবেশে ছিল এবং 4 স্টপ বেশি সেন্সর সংবেদনশীলতা দরকার ছিল।",
           "options": {
             "0": { "label": "Photo A (ISO 3200)" },
             "1": { "label": "Photo B (ISO 200)" }
           }
         },
         "4": {
-          "scenario": "You are analyzing a wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. The EXIF shows the software field is \"Adobe Lightroom Classic 13.1\". What can you infer about the photographer and the shooting conditions?",
-          "hint": "Consider the long focal length, wide-open aperture, fast shutter, and elevated ISO together.",
-          "successMessage": "Great analysis! The 400mm at f/5.6 (likely wide open for that lens) with a fast 1/2000s shutter suggests a fast-moving subject (birds or wildlife in action). ISO 1600 indicates it was not bright sunlight — probably overcast or in shade. The Lightroom field confirms post-processing was done.",
-          "failureMessage": "The settings reveal a lot: 400mm f/5.6 is a typical wildlife telephoto wide open, 1/2000s freezes fast animal movement, and ISO 1600 means light was limited (not bright sun). The Lightroom entry confirms the file was processed.",
+          "scenario": "তুমি একটি বন্যপ্রাণীর ছবি বিশ্লেষণ করছো: 400mm, f/5.6, 1/2000s, ISO 1600। EXIF দেখায় সফটওয়্যার ফিল্ডে \"Adobe Lightroom Classic 13.1\"। ফটোগ্রাফার ও শুটিং পরিস্থিতি সম্পর্কে তুমি কী অনুমান করতে পারো?",
+          "hint": "দীর্ঘ ফোকাল দৈর্ঘ্য, প্রশস্ত-খোলা অ্যাপারচার, দ্রুত শাটার এবং উচ্চ ISO একসাথে বিবেচনা করো।",
+          "successMessage": "দারুণ বিশ্লেষণ! f/5.6-এ 400mm (ঐ লেন্সের জন্য সম্ভবত প্রশস্ত-খোলা) দ্রুত 1/2000s শাটারের সাথে দ্রুতগতির সাবজেক্ট বোঝায় (পাখি বা অ্যাকশনে থাকা বন্যপ্রাণী)। ISO 1600 ইঙ্গিত দেয় এটি উজ্জ্বল সূর্যালোক ছিল না — সম্ভবত মেঘলা বা ছায়ায়। Lightroom ফিল্ড নিশ্চিত করে পোস্ট-প্রসেসিং করা হয়েছে।",
+          "failureMessage": "সেটিংস অনেক কিছু প্রকাশ করে: 400mm f/5.6 একটি সাধারণ বন্যপ্রাণীর টেলিফটো প্রশস্ত-খোলা, 1/2000s দ্রুত প্রাণীর গতি স্থির করে, এবং ISO 1600 মানে আলো সীমিত ছিল (উজ্জ্বল সূর্য নয়)। Lightroom এন্ট্রি নিশ্চিত করে ফাইলটি প্রসেস করা হয়েছিল।",
           "options": {
-            "0": { "label": "Fast subject in moderate light, post-processed in Lightroom" },
-            "1": { "label": "Slow subject in bright light, straight from camera" },
-            "2": { "label": "Landscape shot with motion blur, heavily edited" }
+            "0": { "label": "মাঝারি আলোয় দ্রুত সাবজেক্ট, Lightroom-এ পোস্ট-প্রসেসড" },
+            "1": { "label": "উজ্জ্বল আলোয় ধীর সাবজেক্ট, সরাসরি ক্যামেরা থেকে" },
+            "2": { "label": "মোশন ব্লার সহ ল্যান্ডস্কেপ শট, ভারীভাবে এডিটেড" }
           }
         }
       }

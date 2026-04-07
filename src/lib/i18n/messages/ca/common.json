@@ -1,128 +1,128 @@
 {
   "common": {
-    "skipToContent": "Skip to content",
+    "skipToContent": "Salta al contingut",
     "nav": {
-      "tools": "Tools",
-      "glossary": "Glossary",
-      "closeMenu": "Close menu",
-      "comingSoon": "Soon",
+      "tools": "Eines",
+      "glossary": "Glossari",
+      "closeMenu": "Tanca el menú",
+      "comingSoon": "Aviat",
       "categories": {
-        "visualizer": "Visualizers",
-        "calculator": "Calculators",
-        "reference": "Reference",
-        "file-tool": "File Tools"
+        "visualizer": "Visualitzadors",
+        "calculator": "Calculadores",
+        "reference": "Referència",
+        "file-tool": "Eines de fitxers"
       }
     },
     "footer": {
-      "glossary": "Glossary",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "cookieSettings": "Cookie Settings"
+      "glossary": "Glossari",
+      "about": "Qui som",
+      "contact": "Contacte",
+      "privacy": "Política de privacitat",
+      "terms": "Termes del servei",
+      "cookieSettings": "Configuració de galetes"
     },
     "theme": {
-      "switchToLight": "Switch to light mode",
-      "switchToDark": "Switch to dark mode"
+      "switchToLight": "Canvia al mode clar",
+      "switchToDark": "Canvia al mode fosc"
     },
     "actions": {
-      "copyImage": "Copy image",
-      "reset": "Reset",
-      "copyLink": "Copy link",
-      "share": "Share",
-      "embed": "Embed"
+      "copyImage": "Copia la imatge",
+      "reset": "Restableix",
+      "copyLink": "Copia l'enllaç",
+      "share": "Comparteix",
+      "embed": "Incrusta"
     },
     "toast": {
-      "linkCopied": "Link copied!",
-      "imageCopied": "Copied image!",
-      "failedToCopy": "Failed to copy",
-      "copied": "Copied!"
+      "linkCopied": "Enllaç copiat!",
+      "imageCopied": "Imatge copiada!",
+      "failedToCopy": "No s'ha pogut copiar",
+      "copied": "Copiat!"
     },
     "learn": {
-      "title": "Learn",
-      "openPanel": "Open learn panel",
-      "collapsePanel": "Collapse learn panel",
-      "whatIsThis": "What is this?",
-      "howItWorks": "How it works",
-      "keyFactors": "Key factors",
-      "proTip": "Pro Tip",
-      "challenge": "Challenge",
-      "hint": "Hint: {hint}",
-      "completed": "Completed",
-      "checkAnswer": "Check Answer",
-      "nextChallenge": "Next Challenge",
-      "tryAgain": "Try Again",
-      "resetAll": "Reset all",
-      "resetAllChallenges": "Reset all challenges",
-      "challengeNumber": "Challenge {number}"
+      "title": "Aprèn",
+      "openPanel": "Obre el panell d'aprenentatge",
+      "collapsePanel": "Plega el panell d'aprenentatge",
+      "whatIsThis": "Què és això?",
+      "howItWorks": "Com funciona",
+      "keyFactors": "Factors clau",
+      "proTip": "Consell pro",
+      "challenge": "Repte",
+      "hint": "Pista: {hint}",
+      "completed": "Completat",
+      "checkAnswer": "Comprova la resposta",
+      "nextChallenge": "Repte següent",
+      "tryAgain": "Torna-ho a provar",
+      "resetAll": "Reinicia-ho tot",
+      "resetAllChallenges": "Reinicia tots els reptes",
+      "challengeNumber": "Repte {number}"
     },
     "share": {
-      "title": "Share & Embed",
-      "closeModal": "Close share modal",
-      "directLink": "Direct Link",
+      "title": "Comparteix i incrusta",
+      "closeModal": "Tanca la finestra de compartir",
+      "directLink": "Enllaç directe",
       "markdown": "Markdown (Reddit, GitHub)",
-      "bbcode": "BBCode (Forums)",
-      "htmlEmbed": "HTML Embed",
-      "copy": "Copy",
-      "copied": "Copied"
+      "bbcode": "BBCode (fòrums)",
+      "htmlEmbed": "Incrustació HTML",
+      "copy": "Copia",
+      "copied": "Copiat"
     },
     "draft": {
-      "banner": "Preview — This tool is not yet public"
+      "banner": "Previsualització — aquesta eina encara no és pública"
     },
     "fileUpload": {
-      "dropPrompt": "Drop an image here or click to browse",
-      "tapPrompt": "Tap to choose a photo",
-      "privacy": "Your photos never leave your device",
-      "selectedFile": "Selected file: {fileName}. Click to choose a different image",
-      "defaultLabel": "Your Photo"
+      "dropPrompt": "Arrossega una imatge aquí o fes clic per examinar",
+      "tapPrompt": "Toca per triar una foto",
+      "privacy": "Les teves fotos no surten mai del teu dispositiu",
+      "selectedFile": "Fitxer seleccionat: {fileName}. Fes clic per triar-ne un altre",
+      "defaultLabel": "La teva foto"
     },
     "scene": {
-      "label": "Scene:",
-      "yourPhoto": "Your photo",
-      "removePhoto": "Remove photo",
-      "uploadPhoto": "Upload photo"
+      "label": "Escena:",
+      "yourPhoto": "La teva foto",
+      "removePhoto": "Elimina la foto",
+      "uploadPhoto": "Puja una foto"
     },
     "controls": {
-      "focalLength": "Focal length",
-      "aperture": "Aperture",
-      "distance": "Distance",
-      "clickToEnterValue": "Click to enter a value",
-      "decrease": "Decrease",
-      "increase": "Increase"
+      "focalLength": "Distància focal",
+      "aperture": "Diafragma",
+      "distance": "Distància",
+      "clickToEnterValue": "Fes clic per introduir un valor",
+      "decrease": "Disminueix",
+      "increase": "Augmenta"
     },
     "dof": {
-      "depthOfField": "Depth of field: {totalDoF} from {nearFocus} to {farFocus}",
-      "infinity": "Infinity"
+      "depthOfField": "Profunditat de camp: {totalDoF} des de {nearFocus} fins a {farFocus}",
+      "infinity": "Infinit"
     },
     "ad": {
-      "closeAd": "Close advertisement"
+      "closeAd": "Tanca l'anunci"
     },
     "tooltip": {
-      "infoLabel": "Info: {term}"
+      "infoLabel": "Informació: {term}"
     },
     "notFound": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist or has been moved.",
-      "backHome": "Back to Home",
-      "popularTools": "Popular Tools"
+      "title": "Pàgina no trobada",
+      "message": "La pàgina que cerques no existeix o s'ha mogut.",
+      "backHome": "Torna a l'inici",
+      "popularTools": "Eines populars"
     },
     "breadcrumb": {
-      "home": "Home"
+      "home": "Inici"
     },
     "relatedTools": {
-      "title": "Related Tools"
+      "title": "Eines relacionades"
     },
     "sensors": {
-      "mf_645": "Medium Format (54x40)",
-      "mf": "Medium Format (44x33)",
-      "mf_leica": "Medium Format (45x30)",
+      "mf_645": "Mitjà format (54x40)",
+      "mf": "Mitjà format (44x33)",
+      "mf_leica": "Mitjà format (45x30)",
       "ff": "Full Frame",
       "apsc_n": "APS-C (1.5x)",
       "apsc_c": "APS-C (Canon)",
-      "m43": "Micro Four Thirds",
-      "1in": "1\" Sensor",
-      "phone": "Smartphone Flagship (1/1.3\")"
+      "m43": "Micro Quatre Terços",
+      "1in": "Sensor d'1\"",
+      "phone": "Mòbil de gamma alta (1/1.3\")"
     },
-    "legalTranslationDisclaimer": "This page is shown in its original language."
+    "legalTranslationDisclaimer": "Aquesta és una traducció de cortesia. La versió en anglès és la jurídicament vinculant. Consulta /en/privacy."
   }
 }

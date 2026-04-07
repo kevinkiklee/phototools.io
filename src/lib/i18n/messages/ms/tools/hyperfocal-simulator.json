@@ -1,21 +1,21 @@
 {
   "toolUI": {
     "hyperfocal-simulator": {
-      "settings": "Settings",
-      "focalLength": "Focal Length",
+      "settings": "Tetapan",
+      "focalLength": "Panjang Fokus",
       "aperture": "Aperture",
-      "focusDistance": "Focus Distance:",
+      "focusDistance": "Jarak Fokus:",
       "sensor": "Sensor",
-      "scene": "Scene:",
-      "sceneLandscape": "Landscape",
-      "sceneStreet": "Street",
-      "hyperfocalDistance": "Hyperfocal Distance",
-      "nearLimit": "Near Limit",
-      "farLimit": "Far Limit",
-      "focusDistanceResult": "Focus Distance",
-      "hyperfocalReference": "Hyperfocal Reference",
-      "sharpToInfinity": "Sharp to infinity",
-      "nearLimitBadge": "Near limit:"
+      "scene": "Adegan:",
+      "sceneLandscape": "Landskap",
+      "sceneStreet": "Jalanan",
+      "hyperfocalDistance": "Jarak Hiperfokal",
+      "nearLimit": "Had Dekat",
+      "farLimit": "Had Jauh",
+      "focusDistanceResult": "Jarak Fokus",
+      "hyperfocalReference": "Rujukan Hiperfokal",
+      "sharpToInfinity": "Tajam ke infiniti",
+      "nearLimitBadge": "Had dekat:"
     }
   }
 }

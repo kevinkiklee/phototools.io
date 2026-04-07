@@ -1,123 +1,123 @@
 {
   "education": {
     "exif-viewer": {
-      "beginner": "EXIF data is hidden information embedded in every photo your camera takes. It records what camera and lens you used, the exact settings (aperture, shutter speed, ISO), the date and time, and sometimes even GPS coordinates. This tool reads that data without uploading your photo anywhere — everything happens in your browser.",
-      "deeper": "EXIF (Exchangeable Image File Format) is a standard defined by JEITA/CIPA that stores metadata in JPEG, TIFF, and some RAW files. The data is written into specific segments of the file header as tagged key-value pairs using a TIFF-based IFD (Image File Directory) structure. There are several IFD sections: IFD0 for basic image info, the EXIF sub-IFD for camera settings, the GPS IFD for geolocation, and the Interop IFD for compatibility data. Camera manufacturers also write proprietary \"MakerNote\" data containing lens corrections, focus points, shutter count, and other model-specific details. Social media platforms often strip EXIF data on upload for privacy, but the original file on your memory card always retains it. Understanding EXIF helps you learn from your own shooting patterns and reverse-engineer the settings behind photos you admire.",
+      "beginner": "EXIF data jsou skryté informace vložené do každé fotky, kterou tvůj fotoaparát pořídí. Najdeš v nich, jaký fotoaparát a objektiv jsi použil, přesné nastavení (clona, expoziční čas, ISO), datum a čas a někdy dokonce i GPS souřadnice. Tento nástroj je přečte, aniž by tvoji fotku kamkoli posílal — všechno se děje u tebe v prohlížeči.",
+      "deeper": "EXIF (Exchangeable Image File Format) je standard definovaný organizací JEITA/CIPA, který ukládá metadata do souborů JPEG, TIFF a některých RAWů. Data jsou zapsána v konkrétních segmentech hlavičky souboru jako dvojice klíč-hodnota s tagy ve struktuře IFD (Image File Directory) založené na TIFFu. IFD sekcí je několik: IFD0 pro základní informace o snímku, EXIF sub-IFD pro nastavení fotoaparátu, GPS IFD pro geolokaci a Interop IFD pro kompatibilitu. Výrobci fotoaparátů navíc zapisují proprietární data „MakerNote\", která obsahují korekce objektivu, zaostřovací body, počet expozic závěrky a další detaily specifické pro daný model. Sociální sítě často EXIF při nahrání odstraňují kvůli soukromí, ale originál na paměťové kartě ho vždycky zachovává. Pochopení EXIFu ti pomůže učit se z vlastních fotografických návyků a reverzně odhalit, jak byly udělané snímky, které obdivuješ.",
       "keyFactors": {
         "0": {
-          "label": "Camera & Lens",
-          "description": "Make, model, lens name, and lens manufacturer — useful for identifying gear in photos you find online."
+          "label": "Fotoaparát a objektiv",
+          "description": "Výrobce, model, název objektivu a jeho výrobce — užitečné pro identifikaci techniky na fotkách, které najdeš online."
         },
         "1": {
-          "label": "Exposure Settings",
-          "description": "Aperture, shutter speed, ISO, and focal length — the core shooting parameters recorded for every frame."
+          "label": "Nastavení expozice",
+          "description": "Clona, expoziční čas, ISO a ohnisková vzdálenost — základní parametry snímání zaznamenané u každého snímku."
         },
         "2": {
-          "label": "Date & GPS",
-          "description": "When and where the photo was taken. Be mindful that GPS data reveals your location when sharing files."
+          "label": "Datum a GPS",
+          "description": "Kdy a kde byla fotka pořízena. Pamatuj, že GPS data prozrazují tvoji polohu, když sdílíš soubory."
         },
         "3": {
           "label": "Software",
-          "description": "Shows which editing software last saved the file. Useful for checking if an image has been processed."
+          "description": "Ukazuje, jaký editor soubor naposledy uložil. Užitečné pro ověření, jestli byl snímek zpracovávaný."
         }
       },
       "tips": {
         "0": {
-          "text": "Check the focal length and 35mm equivalent to understand whether the photographer used a wide, normal, or telephoto perspective — this teaches composition more than any rule of thirds."
+          "text": "Zkontroluj ohniskovou vzdálenost a 35mm ekvivalent, abys poznal, jestli fotograf použil širokoúhlý, normální nebo teleobjektiv — tím se o kompozici naučíš víc než z jakéhokoli pravidla třetin."
         },
         "1": {
-          "text": "If a photo you admire was shot at high ISO with a wide aperture, that tells you it was a low-light situation. Use EXIF to understand the constraints the photographer faced."
+          "text": "Pokud byla fotka, která se ti líbí, pořízená s vysokým ISO a širokou clonou, jasně ti říká, že šlo o situaci se slabým světlem. EXIF ti pomůže pochopit, v jakých podmínkách fotograf pracoval."
         },
         "2": {
-          "text": "Before sharing photos online, be aware that EXIF may contain your GPS location. Strip metadata using your editing software export settings if privacy is a concern."
+          "text": "Než budeš sdílet fotky online, ber v úvahu, že EXIF může obsahovat tvou GPS polohu. Pokud ti na soukromí záleží, metadata při exportu v editačním softwaru odstraň."
         }
       },
       "tooltips": {
         "Make": {
-          "term": "Make",
-          "definition": "The camera manufacturer name (e.g., Canon, Nikon, Sony) stored in the EXIF header."
+          "term": "Výrobce",
+          "definition": "Název výrobce fotoaparátu (například Canon, Nikon, Sony) uložený v EXIF hlavičce."
         },
         "Model": {
           "term": "Model",
-          "definition": "The specific camera model (e.g., \"EOS R5\", \"Z 9\") that captured the image."
+          "definition": "Konkrétní model fotoaparátu (například „EOS R5\", „Z 9\"), který snímek pořídil."
         },
         "Aperture": {
-          "term": "Aperture",
-          "definition": "The f-number the lens was set to. Lower numbers mean wider aperture and more light."
+          "term": "Clona",
+          "definition": "Clonové číslo, na které byl objektiv nastavený. Nižší čísla znamenají širší clonu a víc světla."
         },
         "Shutter Speed": {
-          "term": "Shutter Speed",
-          "definition": "How long the sensor was exposed. Expressed as a fraction (e.g., 1/250s) or whole seconds for long exposures."
+          "term": "Expoziční čas",
+          "definition": "Jak dlouho byl snímač exponovaný. Uvádí se jako zlomek (například 1/250 s) nebo celé sekundy u dlouhých expozic."
         },
         "ISO": {
           "term": "ISO",
-          "definition": "The sensor sensitivity setting. Higher ISO brightens the image but adds noise."
+          "definition": "Nastavení citlivosti snímače. Vyšší ISO snímek projasní, ale přidává šum."
         },
         "Focal Length": {
-          "term": "Focal Length",
-          "definition": "The actual focal length of the lens in millimeters."
+          "term": "Ohnisková vzdálenost",
+          "definition": "Skutečná ohnisková vzdálenost objektivu v milimetrech."
         },
         "Focal Length (35mm equiv)": {
-          "term": "Focal Length (35mm equiv.)",
-          "definition": "The equivalent focal length as if shot on a full-frame 35mm sensor. Useful for comparing field of view across sensor sizes."
+          "term": "Ohnisková vzdálenost (ekv. 35 mm)",
+          "definition": "Ekvivalentní ohnisko, jako kdyby byl snímek pořízen na full frame 35mm snímači. Užitečné pro porovnání zorného úhlu napříč velikostmi snímačů."
         },
         "GPS": {
           "term": "GPS",
-          "definition": "Latitude and longitude coordinates embedded by cameras with GPS modules. Reveals where the photo was taken."
+          "definition": "Souřadnice zeměpisné šířky a délky vložené fotoaparáty s GPS modulem. Prozrazuje, kde byla fotka pořízena."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You found a stunning photo online and want to know what lens was used. Which EXIF section would tell you?",
-          "hint": "Camera and lens info are in different sections.",
-          "successMessage": "Correct! The Lens section shows the lens model and manufacturer.",
-          "failureMessage": "The Lens section contains the lens model — check there to identify the glass used.",
+          "scenario": "Našel jsi online parádní fotku a chceš vědět, jaký objektiv ji pořídil. Která EXIF sekce ti to řekne?",
+          "hint": "Informace o fotoaparátu a objektivu jsou v různých sekcích.",
+          "successMessage": "Správně! Sekce Objektiv ukazuje model a výrobce objektivu.",
+          "failureMessage": "Sekce Objektiv obsahuje model objektivu — podívej se tam, když chceš zjistit, jaké sklo bylo použito.",
           "options": {
-            "0": { "label": "Camera" },
-            "1": { "label": "Lens" },
-            "2": { "label": "Settings" }
+            "0": { "label": "Fotoaparát" },
+            "1": { "label": "Objektiv" },
+            "2": { "label": "Nastavení" }
           }
         },
         "1": {
-          "scenario": "You uploaded a photo and see Aperture: f/1.8, Shutter Speed: 1/4000s, ISO: 100. Was this likely shot in bright or dim light?",
-          "hint": "A very fast shutter speed at low ISO suggests lots of available light.",
-          "successMessage": "Right! The fast shutter speed (1/4000s) at base ISO (100) tells you there was plenty of light — likely bright outdoors.",
-          "failureMessage": "A shutter speed of 1/4000s at ISO 100 means the camera needed very little sensitivity and very short exposure. That is a bright outdoor scene.",
+          "scenario": "Nahrál jsi fotku a vidíš Clona: f/1.8, Expoziční čas: 1/4000 s, ISO: 100. Byla pořízena spíš v jasném, nebo ve slabém světle?",
+          "hint": "Velmi rychlý čas při nízkém ISO naznačuje spoustu dostupného světla.",
+          "successMessage": "Správně! Rychlý čas (1/4000 s) při základním ISO (100) ti říká, že bylo dost světla — nejspíš jasné venku.",
+          "failureMessage": "Expoziční čas 1/4000 s při ISO 100 znamená, že fotoaparát potřeboval velmi malou citlivost a velmi krátkou expozici. To odpovídá jasné venkovní scéně.",
           "options": {
-            "0": { "label": "Bright light — fast shutter at low ISO" },
-            "1": { "label": "Dim light — the wide aperture compensates" }
+            "0": { "label": "Jasné světlo — rychlý čas při nízkém ISO" },
+            "1": { "label": "Slabé světlo — kompenzuje to široká clona" }
           }
         },
         "2": {
-          "scenario": "A photo shows Focal Length: 50mm and Focal Length (35mm equiv.): 75mm. What sensor was the camera using?",
-          "hint": "The 35mm equivalent is the focal length multiplied by the crop factor.",
-          "successMessage": "Correct! 75 / 50 = 1.5x crop factor, which is an APS-C sensor (Nikon/Sony variant).",
-          "failureMessage": "Divide the 35mm equivalent by the actual focal length: 75 / 50 = 1.5x. That crop factor matches APS-C (Nikon/Sony).",
+          "scenario": "Fotka ukazuje Ohnisková vzdálenost: 50 mm a Ohnisková vzdálenost (ekv. 35 mm): 75 mm. Jaký snímač fotoaparát použil?",
+          "hint": "35mm ekvivalent je skutečné ohnisko vynásobené crop faktorem.",
+          "successMessage": "Správně! 75 / 50 = 1,5× crop faktor, což je APS-C snímač (varianta Nikon/Sony).",
+          "failureMessage": "Vyděl 35mm ekvivalent skutečnou ohniskovou vzdáleností: 75 / 50 = 1,5×. Tento crop faktor odpovídá APS-C (Nikon/Sony).",
           "options": {
-            "0": { "label": "Full Frame (1.0x crop)" },
-            "1": { "label": "APS-C (1.5x crop)" },
-            "2": { "label": "Micro Four Thirds (2.0x crop)" }
+            "0": { "label": "Full frame (1,0× crop)" },
+            "1": { "label": "APS-C (1,5× crop)" },
+            "2": { "label": "Micro Four Thirds (2,0× crop)" }
           }
         },
         "3": {
-          "scenario": "You see two photos of the same scene. Photo A: f/2.8, 1/60s, ISO 3200. Photo B: f/2.8, 1/60s, ISO 200. Which photo was taken in brighter light?",
-          "hint": "Higher ISO compensates for less light.",
-          "successMessage": "Exactly! Photo B at ISO 200 had much more ambient light. Photo A needed ISO 3200 (4 stops more sensitivity) to achieve the same exposure, meaning the scene was much darker.",
-          "failureMessage": "Photo B was in brighter light. Same aperture and shutter speed, but ISO 200 vs 3200 means Photo A was in a much darker environment and needed 4 stops more sensor sensitivity.",
+          "scenario": "Vidíš dvě fotky stejné scény. Fotka A: f/2.8, 1/60 s, ISO 3200. Fotka B: f/2.8, 1/60 s, ISO 200. Která z nich byla pořízena ve větším světle?",
+          "hint": "Vyšší ISO kompenzuje méně světla.",
+          "successMessage": "Přesně! Fotka B při ISO 200 měla mnohem víc světla. Fotka A potřebovala ISO 3200 (o 4 clony větší citlivost), aby dosáhla stejné expozice, takže scéna byla výrazně tmavší.",
+          "failureMessage": "Fotka B byla při větším světle. Stejná clona i čas, ale ISO 200 oproti 3200 znamená, že fotka A byla v mnohem tmavším prostředí a potřebovala o 4 clony víc citlivosti.",
           "options": {
-            "0": { "label": "Photo A (ISO 3200)" },
-            "1": { "label": "Photo B (ISO 200)" }
+            "0": { "label": "Fotka A (ISO 3200)" },
+            "1": { "label": "Fotka B (ISO 200)" }
           }
         },
         "4": {
-          "scenario": "You are analyzing a wildlife photo: 400mm, f/5.6, 1/2000s, ISO 1600. The EXIF shows the software field is \"Adobe Lightroom Classic 13.1\". What can you infer about the photographer and the shooting conditions?",
-          "hint": "Consider the long focal length, wide-open aperture, fast shutter, and elevated ISO together.",
-          "successMessage": "Great analysis! The 400mm at f/5.6 (likely wide open for that lens) with a fast 1/2000s shutter suggests a fast-moving subject (birds or wildlife in action). ISO 1600 indicates it was not bright sunlight — probably overcast or in shade. The Lightroom field confirms post-processing was done.",
-          "failureMessage": "The settings reveal a lot: 400mm f/5.6 is a typical wildlife telephoto wide open, 1/2000s freezes fast animal movement, and ISO 1600 means light was limited (not bright sun). The Lightroom entry confirms the file was processed.",
+          "scenario": "Analyzuješ wildlife fotku: 400 mm, f/5.6, 1/2000 s, ISO 1600. V EXIFu je pole software „Adobe Lightroom Classic 13.1\". Co z toho můžeš odvodit o fotografovi a podmínkách?",
+          "hint": "Zamysli se nad dlouhým ohniskem, plně otevřenou clonou, rychlým časem a zvýšeným ISO dohromady.",
+          "successMessage": "Výborná analýza! 400 mm při f/5.6 (nejspíš plně otevřená pro tento objektiv) s rychlým časem 1/2000 s naznačuje rychle se pohybující subjekt (ptáci nebo zvěř v akci). ISO 1600 ukazuje, že nebylo jasné slunce — pravděpodobně zataženo nebo stín. Záznam Lightroomu potvrzuje, že snímek prošel postprodukcí.",
+          "failureMessage": "Nastavení toho prozrazuje hodně: 400 mm při f/5.6 je typický wildlife teleobjektiv naplno, 1/2000 s zmrazí rychlý pohyb zvěře a ISO 1600 znamená, že světla bylo málo (ne jasné slunce). Záznam Lightroomu potvrzuje, že soubor prošel úpravami.",
           "options": {
-            "0": { "label": "Fast subject in moderate light, post-processed in Lightroom" },
-            "1": { "label": "Slow subject in bright light, straight from camera" },
-            "2": { "label": "Landscape shot with motion blur, heavily edited" }
+            "0": { "label": "Rychlý subjekt ve středním světle, zpracováno v Lightroomu" },
+            "1": { "label": "Pomalý subjekt v jasném světle, přímo z fotoaparátu" },
+            "2": { "label": "Krajinářský snímek s rozmazáním pohybu, silně upravovaný" }
           }
         }
       }

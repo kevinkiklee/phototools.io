@@ -1,13 +1,13 @@
 {
   "home": {
-    "heroTitle": "PhotoTools — Free Photography Tools",
-    "heroDesc": "Free photography calculators, simulators, and references. No sign-up required — your photos never leave your browser.",
-    "comingSoon": "Coming Soon",
+    "heroTitle": "PhotoTools — ফ্রি ফটোগ্রাফি টুলস",
+    "heroDesc": "ফ্রি ফটোগ্রাফি ক্যালকুলেটর, সিমুলেটর এবং রেফারেন্স। কোনো সাইন-আপ লাগবে না — তোমার ছবি কখনোই ব্রাউজার ছেড়ে যায় না।",
+    "comingSoon": "শীঘ্রই আসছে",
     "categories": {
-      "visualizer": "Visualizers",
-      "calculator": "Calculators",
-      "reference": "Reference",
-      "file-tool": "File Tools"
+      "visualizer": "ভিজ্যুয়ালাইজার",
+      "calculator": "ক্যালকুলেটর",
+      "reference": "রেফারেন্স",
+      "file-tool": "ফাইল টুল"
     }
   }
 }

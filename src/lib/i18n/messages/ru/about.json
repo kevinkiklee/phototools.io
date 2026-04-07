@@ -1,27 +1,27 @@
 {
   "about": {
-    "title": "About PhotoTools",
-    "subtitle": "Free photography education, right in your browser.",
+    "title": "О проекте PhotoTools",
+    "subtitle": "Бесплатное обучение фотографии прямо в браузере.",
     "sections": {
       "whatIs": {
-        "title": "What is PhotoTools?",
-        "body": "PhotoTools is a free collection of interactive photography calculators, simulators, and reference tools. Whether you're learning the exposure triangle for the first time or calculating hyperfocal distance for a landscape shoot, PhotoTools gives you hands-on visual tools to deepen your understanding of photography."
+        "title": "Что такое PhotoTools?",
+        "body": "PhotoTools — это бесплатная подборка интерактивных калькуляторов, симуляторов и справочников по фотографии. Изучаешь экспозиционный треугольник или планируешь пейзажную съёмку по гиперфокальной дистанции? PhotoTools даёт наглядные инструменты, которые помогают глубже понимать фотографию на практике."
       },
       "whoIsItFor": {
-        "title": "Who is it for?",
-        "body": "Photographers of all skill levels — from beginners exploring how aperture affects depth of field to experienced shooters planning a star trail session. Every tool includes a learning panel with explanations, key factors, pro tips, and interactive challenges to test your knowledge."
+        "title": "Для кого это",
+        "body": "Для фотографов любого уровня — от новичков, которые разбираются, как диафрагма влияет на глубину резкости, до опытных, планирующих съёмку звёздных треков. У каждого инструмента есть обучающая панель с объяснениями, ключевыми факторами, советами и интерактивными заданиями для проверки знаний."
       },
       "privacyFirst": {
-        "title": "Privacy first",
-        "body": "All calculations and simulations run entirely in your browser. Your photos never leave your device — the EXIF Viewer, for example, processes images 100% client-side. No sign-up is required, and no personal data is collected beyond anonymous analytics."
+        "title": "Приватность прежде всего",
+        "body": "Все расчёты и симуляции работают полностью в браузере. Твои фото не покидают устройство — например, EXIF Viewer обрабатывает снимки на 100% на стороне клиента. Регистрация не нужна, персональные данные не собираются — только анонимная аналитика."
       },
       "builtBy": {
-        "title": "Built by photographers",
-        "body": "PhotoTools is built and maintained by a photographer and software engineer who wanted better visual tools for understanding the technical side of photography. The tools are grounded in real optics and physics — not approximations — so you can trust the results in the field."
+        "title": "Сделано фотографом",
+        "body": "PhotoTools создаёт и поддерживает фотограф и разработчик, которому не хватало хороших наглядных инструментов для понимания технической стороны фотографии. Все расчёты основаны на реальной оптике и физике, а не на приближениях, — результатам можно доверять в поле."
       },
       "getInTouch": {
-        "title": "Get in touch",
-        "body": "Have a suggestion, bug report, or tool idea? Reach out via the <contactLink>contact page</contactLink>."
+        "title": "Обратная связь",
+        "body": "Есть идея, нашёл баг или хочешь предложить новый инструмент? Напиши через <contactLink>страницу контактов</contactLink>."
       }
     }
   }

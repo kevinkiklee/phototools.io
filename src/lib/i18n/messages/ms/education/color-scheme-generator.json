@@ -1,98 +1,98 @@
 {
   "education": {
     "color-scheme-generator": {
-      "beginner": "Color harmony is about choosing colors that look good together. Just like musical chords, certain color combinations create pleasing visual relationships. Photographers use color harmony to plan wardrobe, set design, and even timing of outdoor shoots to get the right palette from nature.",
+      "beginner": "Harmoni warna adalah tentang memilih warna yang kelihatan cantik bersama. Seperti kord muzik, gabungan warna tertentu mencipta hubungan visual yang menyenangkan. Jurugambar menggunakan harmoni warna untuk merancang pakaian, reka bentuk set, dan juga masa sesi luar bagi mendapatkan palet yang betul daripada alam.",
       "deeper": {
         "0": {
-          "heading": "The Color Wheel",
-          "text": "Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle (0\u2013360\u00b0), saturation is the distance from center, and lightness controls brightness. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary."
+          "heading": "Roda Warna",
+          "text": "Teori harmoni warna berakar pada roda warna, yang menyusun rona dalam bulatan berdasarkan hubungan panjang gelombangnya. Model HSL (Hue, Saturation, Lightness) memetakan terus kepada roda: hue ialah sudut (0–360°), saturation ialah jarak dari pusat, dan lightness mengawal kecerahan. Dalam fotografi, hubungan ini muncul secara semula jadi — golden hour menghasilkan rona hangat analogus, manakala bangsal merah pada latar ladang hijau adalah komplementari."
         },
         "1": {
-          "heading": "Complementary",
-          "text": "Two colors that sit directly opposite each other on the wheel (180\u00b0 apart), such as blue and orange or red and green. This creates maximum contrast and visual energy. Great for making a subject pop against a background — think golden-hour portraits where warm skin tones contrast with a cool blue sky."
+          "heading": "Komplementari",
+          "text": "Dua warna yang duduk terus bertentangan antara satu sama lain pada roda (180° terpisah), seperti biru dan jingga atau merah dan hijau. Ini mencipta kontras maksimum dan tenaga visual. Bagus untuk membuatkan subjek menonjol pada latar belakang — fikirkan potret golden hour di mana rona kulit hangat berkontras dengan langit biru sejuk."
         },
         "2": {
-          "heading": "Analogous",
-          "text": "Three colors that are neighbors on the wheel, typically within a 30\u201360\u00b0 spread. They produce smooth, cohesive palettes with low contrast. Ideal for landscapes and mood-driven work — autumn foliage is a natural analogous palette of reds, oranges, and yellows."
+          "heading": "Analogus",
+          "text": "Tiga warna yang bersebelahan pada roda, biasanya dalam julat 30–60°. Ia menghasilkan palet yang lancar dan padu dengan kontras rendah. Sesuai untuk landskap dan kerja yang menekankan mood — dedaun musim luruh ialah palet analogus semula jadi dari merah, jingga dan kuning."
         },
         "3": {
-          "heading": "Triadic",
-          "text": "Three colors evenly spaced at 120\u00b0 intervals around the wheel, such as red, yellow, and blue. Triadic schemes feel balanced and vibrant without the tension of complementary contrast. Use one dominant color and the other two as accents for the strongest results."
+          "heading": "Triadik",
+          "text": "Tiga warna yang bertabur pada jarak 120° mengelilingi roda, seperti merah, kuning dan biru. Skema triadik terasa seimbang dan rancak tanpa ketegangan kontras komplementari. Gunakan satu warna dominan dan dua yang lain sebagai aksen untuk hasil yang paling kuat."
         },
         "4": {
           "heading": "Split Complementary",
-          "text": "A variation of complementary that uses the two neighbors of the opposite color instead of the opposite itself. This keeps the high contrast of complementary but reduces the visual tension, making it more versatile and forgiving. A popular choice for styled portrait sessions."
+          "text": "Variasi daripada komplementari yang menggunakan dua jiran warna bertentangan dan bukan warna bertentangan itu sendiri. Ini mengekalkan kontras tinggi komplementari tetapi mengurangkan ketegangan visual, menjadikannya lebih serba guna dan memaafkan. Pilihan popular untuk sesi potret bergaya."
         },
         "5": {
-          "heading": "Tetradic (Double Complementary)",
-          "text": "Four colors forming a rectangle on the wheel — essentially two complementary pairs. This offers the richest, most complex palette but requires careful balance. Let one color dominate and use the others as supporting accents to avoid a chaotic look."
+          "heading": "Tetradik (Dwi-Komplementari)",
+          "text": "Empat warna membentuk segi empat tepat pada roda — pada dasarnya dua pasang komplementari. Ini menawarkan palet paling kaya dan paling kompleks tetapi memerlukan keseimbangan yang teliti. Biarkan satu warna dominan dan gunakan yang lain sebagai aksen sokongan untuk mengelakkan rupa yang kacau-bilau."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Harmony Type",
-          "description": "The geometric relationship between colors on the wheel: complementary, analogous, triadic, split-complementary, or tetradic."
+          "label": "Jenis Harmoni",
+          "description": "Hubungan geometri antara warna pada roda: komplementari, analogus, triadik, split-complementary, atau tetradik."
         },
         "1": {
           "label": "Hue",
-          "description": "The base color angle on the wheel (0-360 degrees). This is the starting point for all harmony calculations."
+          "description": "Sudut warna asas pada roda (0-360 darjah). Ini adalah titik permulaan untuk semua pengiraan harmoni."
         },
         "2": {
           "label": "Saturation",
-          "description": "How vivid or muted the colors are. Lower saturation produces pastels and earth tones; higher saturation gives bold, vibrant palettes."
+          "description": "Sejauh mana hidup atau pudar sesuatu warna. Saturation lebih rendah menghasilkan pastel dan rona bumi; saturation lebih tinggi memberikan palet yang rancak dan berani."
         },
         "3": {
           "label": "Lightness",
-          "description": "Controls brightness. Adjusting lightness can make the same hue feel completely different — dark navy vs. sky blue are the same hue at different lightness."
+          "description": "Mengawal kecerahan. Melaraskan lightness boleh membuatkan hue yang sama terasa benar-benar berbeza — biru laut gelap lawan biru langit adalah hue yang sama pada lightness berbeza."
         }
       },
       "tips": {
         "0": {
-          "text": "For portrait sessions, pick a complementary or split-complementary palette, then have your subject wear the key color while the background provides the contrasting hue. Blue/orange (golden hour portraits) is a classic example."
+          "text": "Untuk sesi potret, pilih palet komplementari atau split-complementary, kemudian minta subjek memakai warna utama sementara latar belakang menyediakan rona kontras. Biru/jingga (potret golden hour) adalah contoh klasik."
         },
         "1": {
-          "text": "Use analogous harmony for landscapes — nature already works in analogous palettes. Match your wardrobe advice or prop choices to the dominant natural hues."
+          "text": "Gunakan harmoni analogus untuk landskap — alam sudah bekerja dalam palet analogus. Padankan nasihat pakaian atau pilihan prop anda dengan rona semula jadi yang dominan."
         },
         "2": {
-          "text": "Reduce saturation to 30-50% to preview how colors will look in a more muted, editorial style. High saturation works for commercial and fashion, but lower saturation often feels more sophisticated."
+          "text": "Kurangkan saturation kepada 30-50% untuk pratonton bagaimana warna akan kelihatan dalam gaya editorial yang lebih pudar. Saturation tinggi sesuai untuk komersial dan fesyen, tetapi saturation lebih rendah selalunya terasa lebih canggih."
         }
       },
       "tooltips": {
         "Harmony Type": {
-          "term": "Harmony Type",
-          "definition": "The color relationship pattern: Complementary (opposite), Analogous (neighbors), Triadic (three-way), Split Complementary (offset opposites), or Tetradic (four-way rectangle)."
+          "term": "Jenis Harmoni",
+          "definition": "Corak hubungan warna: Complementary (bertentangan), Analogous (jiran), Triadic (tiga hala), Split Complementary (bertentangan yang diserong), atau Tetradic (segi empat tepat empat hala)."
         },
         "Key Color": {
-          "term": "Key Color",
-          "definition": "The dominant color in your palette. All other harmony colors are calculated relative to this starting hue."
+          "term": "Warna Utama",
+          "definition": "Warna dominan dalam palet anda. Semua warna harmoni lain dikira berbanding hue permulaan ini."
         },
         "Hue": {
           "term": "Hue",
-          "definition": "The color angle on the wheel in degrees: 0\u00b0 is red, 120\u00b0 is green, 240\u00b0 is blue."
+          "definition": "Sudut warna pada roda dalam darjah: 0° ialah merah, 120° ialah hijau, 240° ialah biru."
         },
         "Saturation": {
           "term": "Saturation",
-          "definition": "Color intensity from 0% (gray) to 100% (fully vivid). Controls how bold or muted the entire palette appears."
+          "definition": "Keamatan warna dari 0% (kelabu) hingga 100% (rancak sepenuhnya). Mengawal sejauh mana berani atau pudar keseluruhan palet kelihatan."
         },
         "Lightness": {
           "term": "Lightness",
-          "definition": "Brightness from 0% (black) to 100% (white). At 50% you see the pure color; below is darker, above is lighter."
+          "definition": "Kecerahan dari 0% (hitam) hingga 100% (putih). Pada 50% anda melihat warna tulen; di bawah lebih gelap, di atas lebih cerah."
         },
         "Split Angle": {
-          "term": "Split Angle",
-          "definition": "How far apart the two split-complementary colors are from the direct opposite. Wider angles give more contrast."
+          "term": "Sudut Split",
+          "definition": "Sejauh mana jarak dua warna split-complementary dari bertentangan langsung. Sudut yang lebih luas memberikan lebih banyak kontras."
         },
         "Spread": {
-          "term": "Spread",
-          "definition": "How far apart the analogous colors are from the key hue. Narrow spread gives subtle variation; wide spread increases diversity."
+          "term": "Sebaran",
+          "definition": "Sejauh mana jarak warna analogus dari hue utama. Sebaran sempit memberikan variasi halus; sebaran lebar meningkatkan kepelbagaian."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want maximum contrast between two colors for a bold graphic portrait. Which harmony type gives you the most visual tension?",
-          "hint": "Colors directly across from each other on the wheel create the strongest contrast.",
-          "successMessage": "Correct! Complementary colors sit 180 degrees apart and produce the highest contrast — perfect for bold, eye-catching compositions.",
-          "failureMessage": "Complementary harmony places colors directly opposite on the wheel, creating maximum visual contrast.",
+          "scenario": "Anda mahukan kontras maksimum antara dua warna untuk potret grafik yang berani. Jenis harmoni yang manakah memberi anda ketegangan visual paling banyak?",
+          "hint": "Warna yang terus berlawanan antara satu sama lain pada roda mencipta kontras paling kuat.",
+          "successMessage": "Betul! Warna komplementari duduk 180 darjah terpisah dan menghasilkan kontras paling tinggi — sempurna untuk komposisi yang berani dan menarik perhatian.",
+          "failureMessage": "Harmoni komplementari meletakkan warna terus bertentangan pada roda, mencipta kontras visual maksimum.",
           "options": {
             "0": { "label": "Complementary" },
             "1": { "label": "Analogous" },
@@ -100,10 +100,10 @@
           }
         },
         "1": {
-          "scenario": "You are planning a golden hour shoot and want warm, cohesive tones. Which harmony type keeps colors close together on the wheel?",
-          "hint": "This type uses neighboring hues for a smooth, unified feel.",
-          "successMessage": "Right! Analogous harmony uses adjacent colors, giving you a warm, cohesive palette perfect for golden hour.",
-          "failureMessage": "Analogous harmony keeps all colors as neighbors on the wheel — ideal for unified warm or cool palettes.",
+          "scenario": "Anda sedang merancang sesi golden hour dan mahukan rona hangat yang padu. Jenis harmoni yang manakah mengekalkan warna rapat pada roda?",
+          "hint": "Jenis ini menggunakan hue bersebelahan untuk rasa yang lancar dan bersatu.",
+          "successMessage": "Betul! Harmoni analogus menggunakan warna bersebelahan, memberi anda palet hangat yang padu yang sempurna untuk golden hour.",
+          "failureMessage": "Harmoni analogus mengekalkan semua warna sebagai jiran pada roda — sesuai untuk palet hangat atau sejuk yang bersatu.",
           "options": {
             "0": { "label": "Complementary" },
             "1": { "label": "Analogous" },
@@ -111,10 +111,10 @@
           }
         },
         "2": {
-          "scenario": "A client wants a portrait with contrast but not as intense as pure complementary. Which harmony type softens the opposition while keeping visual interest?",
-          "hint": "This type uses two colors near the complement instead of the direct opposite.",
-          "successMessage": "Excellent! Split complementary keeps the contrast of complementary but splits the opposing color into two flanking hues, producing a less jarring but still dynamic palette.",
-          "failureMessage": "Split Complementary is the answer — it replaces the single opposite color with two neighbors of the opposite, softening the contrast while maintaining visual energy.",
+          "scenario": "Seorang klien mahukan potret dengan kontras tetapi tidak seintens komplementari tulen. Jenis harmoni yang manakah melembutkan pertentangan sambil mengekalkan tarikan visual?",
+          "hint": "Jenis ini menggunakan dua warna berhampiran komplemen bukannya bertentangan langsung.",
+          "successMessage": "Sangat bagus! Split complementary mengekalkan kontras komplementari tetapi membelah warna bertentangan kepada dua hue mengapit, menghasilkan palet yang kurang menjengkelkan tetapi masih dinamik.",
+          "failureMessage": "Split Complementary ialah jawapannya — ia menggantikan satu warna bertentangan dengan dua jiran bertentangan, melembutkan kontras sambil mengekalkan tenaga visual.",
           "options": {
             "0": { "label": "Split Complementary" },
             "1": { "label": "Triadic" },
@@ -122,25 +122,25 @@
           }
         },
         "3": {
-          "scenario": "You set the key color to orange (hue ~30 degrees) with complementary harmony. What color will the complement be?",
-          "hint": "Complementary means 180 degrees opposite on the wheel.",
-          "successMessage": "Correct! 30\u00b0 + 180\u00b0 = 210\u00b0, which falls in the blue range. Orange and blue is one of photography most beloved complementary pairs.",
-          "failureMessage": "Adding 180\u00b0 to orange (30\u00b0) gives 210\u00b0, which is blue. The orange-blue complementary pair is a photography staple.",
+          "scenario": "Anda menetapkan warna utama kepada jingga (hue ~30 darjah) dengan harmoni komplementari. Apakah warna komplemennya?",
+          "hint": "Komplementari bermaksud 180 darjah bertentangan pada roda.",
+          "successMessage": "Betul! 30° + 180° = 210°, yang jatuh dalam julat biru. Jingga dan biru adalah salah satu pasangan komplementari paling digemari dalam fotografi.",
+          "failureMessage": "Menambah 180° kepada jingga (30°) memberi 210°, iaitu biru. Pasangan komplementari jingga-biru adalah staple fotografi.",
           "options": {
-            "0": { "label": "Blue (~210\u00b0)" },
-            "1": { "label": "Green (~150\u00b0)" },
-            "2": { "label": "Red (~0\u00b0)" }
+            "0": { "label": "Biru (~210°)" },
+            "1": { "label": "Hijau (~150°)" },
+            "2": { "label": "Merah (~0°)" }
           }
         },
         "4": {
-          "scenario": "You are art-directing a fashion editorial and need a four-color palette that provides both warm and cool tones with high visual richness. Which harmony type gives you four colors, and what is the main challenge when using it?",
-          "hint": "The four-color harmony forms a rectangle on the wheel.",
-          "successMessage": "Right! Tetradic harmony gives four colors forming a rectangle on the wheel. The main challenge is balance — with four distinct hues, one should dominate while the others accent. Without hierarchy, the image feels chaotic.",
-          "failureMessage": "Tetradic (double-complementary) provides four colors in a rectangular arrangement. The challenge is that four strong hues compete for attention — you need to designate one dominant color and use the others as accents.",
+          "scenario": "Anda sedang mengarahkan seni sebuah editorial fesyen dan memerlukan palet empat warna yang menyediakan rona hangat dan sejuk dengan kekayaan visual tinggi. Jenis harmoni yang manakah memberi anda empat warna, dan apakah cabaran utama apabila menggunakannya?",
+          "hint": "Harmoni empat warna membentuk segi empat tepat pada roda.",
+          "successMessage": "Betul! Harmoni tetradik memberikan empat warna yang membentuk segi empat tepat pada roda. Cabaran utamanya adalah keseimbangan — dengan empat hue berbeza, satu harus mendominasi sementara yang lain menjadi aksen. Tanpa hierarki, imej terasa kacau.",
+          "failureMessage": "Tetradik (double-complementary) menyediakan empat warna dalam susunan segi empat tepat. Cabarannya ialah empat hue kuat bersaing untuk perhatian — anda perlu menetapkan satu warna dominan dan gunakan yang lain sebagai aksen.",
           "options": {
-            "0": { "label": "Tetradic — challenge is maintaining visual hierarchy among four hues" },
-            "1": { "label": "Triadic — challenge is having too few colors" },
-            "2": { "label": "Analogous — challenge is lack of contrast" }
+            "0": { "label": "Tetradic — cabaran ialah mengekalkan hierarki visual antara empat hue" },
+            "1": { "label": "Triadic — cabaran ialah terlalu sedikit warna" },
+            "2": { "label": "Analogous — cabaran ialah kekurangan kontras" }
           }
         }
       }

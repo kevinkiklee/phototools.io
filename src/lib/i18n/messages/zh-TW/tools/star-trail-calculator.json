@@ -1,45 +1,45 @@
 {
   "toolUI": {
     "star-trail-calculator": {
-      "rule500": "500 Rule",
-      "ruleNPF": "NPF Rule",
-      "recommendation": "Recommendation",
-      "recommendationText": "Use the NPF rule ({npf}s) for pixel-level sharpness. The 500 rule ({r500}s) is a quick estimate but may show trailing on high-resolution sensors.",
-      "shootingTime": "Shooting Time",
-      "exposure": "Exposure",
-      "displayMode": "Display Mode",
-      "modeStarTrails": "Star Trails",
-      "modeSingleShot": "Single Shot",
-      "stacking": "Stacking",
-      "exposurePerFrame": "Exposure / frame (sec)",
-      "exposurePerFrameDesc": "Shutter speed for each individual frame",
-      "frames": "Frames",
-      "framesDesc": "Total number of photos to stack",
-      "gapSec": "Gap (sec)",
-      "gapDesc": "Delay between frames for buffer write",
-      "camera": "Camera",
-      "sensor": "Sensor",
-      "resolutionMP": "Resolution (MP)",
-      "apertureLabel": "Aperture",
-      "latitude": "Latitude",
-      "position": "Position",
-      "useMyLocation": "Use My Location",
-      "latitudeLabel": "Latitude:",
-      "equator": "Equator 0\u00b0",
-      "mid45": "Mid 45\u00b0",
-      "arctic70": "Arctic 70\u00b0",
+      "rule500": "500 法則",
+      "ruleNPF": "NPF 法則",
+      "recommendation": "建議",
+      "recommendationText": "追求像素級的銳利度請使用 NPF 法則（{npf}s）。500 法則（{r500}s）是快速估算值，但在高解析度感光元件上可能出現拖尾。",
+      "shootingTime": "拍攝總時間",
+      "exposure": "曝光",
+      "displayMode": "顯示模式",
+      "modeStarTrails": "星軌",
+      "modeSingleShot": "單張",
+      "stacking": "堆疊",
+      "exposurePerFrame": "每張曝光（秒）",
+      "exposurePerFrameDesc": "每張的快門速度",
+      "frames": "張數",
+      "framesDesc": "要堆疊的照片總數",
+      "gapSec": "間隔（秒）",
+      "gapDesc": "每張之間等待相機寫入緩衝的時間",
+      "camera": "相機",
+      "sensor": "感光元件",
+      "resolutionMP": "解析度（MP）",
+      "apertureLabel": "光圈",
+      "latitude": "緯度",
+      "position": "位置",
+      "useMyLocation": "使用目前位置",
+      "latitudeLabel": "緯度：",
+      "equator": "赤道 0°",
+      "mid45": "中緯度 45°",
+      "arctic70": "北極圈 70°",
       "faq": {
         "what-is-500-rule": {
-          "question": "What is the 500 rule in astrophotography?",
-          "answer": "The 500 rule estimates the longest exposure time before stars appear as trails instead of points. Divide 500 by your effective focal length (focal length \u00d7 crop factor) to get the maximum shutter speed in seconds for sharp stars."
+          "question": "天文攝影中的 500 法則是什麼？",
+          "answer": "500 法則估算星星從點狀變成拖尾前的最長曝光時間。以 500 除以有效焦距（焦距 × 裁切係數），即可得到維持銳利星點的最長快門秒數。"
         },
         "star-trails-vs-points": {
-          "question": "How do I choose between star trails and sharp star points?",
-          "answer": "For sharp star points (Milky Way, constellations), use short exposures following the 500 rule. For creative star trails showing Earth's rotation, use very long exposures (minutes to hours) or stack multiple shorter exposures."
+          "question": "該怎麼選擇拍攝星軌還是銳利的星點？",
+          "answer": "若要拍銳利的星點（銀河、星座），請使用短曝光並依循 500 法則。若要刻意拍出呈現地球自轉的星軌，請使用超長曝光（數分鐘到數小時），或堆疊多張較短的曝光。"
         },
         "best-settings-milky-way": {
-          "question": "What are the best camera settings for Milky Way photography?",
-          "answer": "Start with the widest aperture available (f/1.4\u2013f/2.8), ISO 1600\u20136400, and the longest shutter speed the 500 rule allows for your lens. Use a sturdy tripod and manual focus set to infinity. Shoot during new moon in a dark sky location."
+          "question": "拍攝銀河的最佳相機設定是什麼？",
+          "answer": "從最大光圈（f/1.4–f/2.8）開始，ISO 1600–6400，並在 500 法則允許的範圍內使用最長的快門速度。請使用穩固的三腳架並以手動對焦設為無限遠，最好選在新月期間於暗空地點拍攝。"
         }
       }
     }

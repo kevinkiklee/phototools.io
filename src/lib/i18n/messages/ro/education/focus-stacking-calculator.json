@@ -1,110 +1,110 @@
 {
   "education": {
     "focus-stacking-calculator": {
-      "beginner": "Focus stacking is a technique where you take multiple photos at different focus distances and merge them in software to create an image with front-to-back sharpness. It is essential for macro photography, where depth of field is razor-thin, and useful in landscape photography when you need both near foreground and distant background in sharp focus.",
+      "beginner": "Focus stacking este o tehnică prin care faci mai multe fotografii la distanțe de focalizare diferite și le îmbini în software ca să obții o imagine clară din prim-plan până în fundal. Este esențial pentru fotografia macro, unde adâncimea câmpului este extrem de subțire, și util în peisaj când ai nevoie să ai atât prim-planul apropiat, cât și fundalul îndepărtat, în focalizare.",
       "deeper": {
         "0": {
-          "heading": "Why Stacking Is Necessary",
-          "text": "At macro magnifications, even f/16 may yield only a few millimeters of depth of field. Stopping down further introduces diffraction softening that degrades the image. Focus stacking lets you shoot at the lens's sharpest aperture (typically f/5.6-f/8) and combine the sharp slices. Each frame shifts focus slightly forward, covering a new slice of the subject."
+          "heading": "De ce este necesar stacking-ul",
+          "text": "La măriri macro, chiar și f/16 poate oferi doar câțiva milimetri de adâncime a câmpului. Închiderea și mai mult introduce înmuiere prin difracție care degradează imaginea. Focus stacking-ul îți permite să fotografiezi la cea mai clară diafragmă a obiectivului (de obicei f/5.6-f/8) și să combini feliile clare. Fiecare cadru mută focalizarea ușor înainte, acoperind o nouă felie din subiect."
         },
         "1": {
-          "heading": "Planning the Stack",
-          "text": "The key to a successful stack is ensuring each shot's depth of field overlaps the next by 20-30%. Too little overlap creates gaps where nothing is sharp; too much wastes frames without benefit. The calculator determines the per-shot DoF using the circle of confusion formula, subtracts the overlap margin, and divides the total depth range by the effective step to compute the number of shots."
+          "heading": "Planificarea stack-ului",
+          "text": "Cheia unui stack reușit este ca adâncimea câmpului a fiecărui cadru să se suprapună cu a următorului cu 20-30%. Prea puțină suprapunere creează goluri unde nimic nu e clar; prea multă risipește cadre fără beneficiu. Calculatorul determină DoF-ul per cadru folosind formula cercului de confuzie, scade marja de suprapunere și împarte intervalul total de adâncime la pasul efectiv pentru a calcula numărul de cadre."
         },
         "2": {
-          "heading": "Merging & Alignment",
-          "text": "Software like Photoshop, Helicon Focus, or Zerene Stacker aligns the frames (slight magnification shifts occur as focus changes), then selects the sharpest pixels from each layer. Shooting on a sturdy tripod with consistent lighting and using a focus rail for precise increments produces the cleanest results."
+          "heading": "Îmbinare și aliniere",
+          "text": "Programe precum Photoshop, Helicon Focus sau Zerene Stacker aliniază cadrele (schimbări ușoare de mărire apar când se schimbă focalizarea), apoi selectează cei mai clari pixeli din fiecare strat. Fotografierea pe un trepied solid, cu lumină constantă, și folosirea unei șine de focalizare pentru incremente precise oferă cele mai curate rezultate."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Determines per-shot depth of field. A moderate aperture (f/5.6-f/8) balances sharpness and DoF per frame. Avoid very small apertures — diffraction reduces the sharpness you are stacking for."
+          "label": "Diafragmă",
+          "description": "Determină adâncimea câmpului per cadru. O diafragmă moderată (f/5.6-f/8) echilibrează claritatea și DoF-ul per cadru. Evită diafragmele foarte mici — difracția reduce tocmai claritatea pentru care faci stack."
         },
         "1": {
-          "label": "Depth Range",
-          "description": "The distance from the nearest to farthest point you want sharp. Wider ranges require more shots. In macro work this may be just centimeters; in landscapes it can span meters to infinity."
+          "label": "Interval de adâncime",
+          "description": "Distanța de la cel mai apropiat la cel mai îndepărtat punct pe care îl vrei clar. Intervalele mai mari cer mai multe cadre. La macro pot fi doar câțiva centimetri; la peisaje pot ajunge de la câțiva metri la infinit."
         },
         "2": {
-          "label": "Overlap",
-          "description": "The percentage of each shot's DoF that overlaps the adjacent shots. 20-30% is standard. Less risks gaps; more wastes frames."
+          "label": "Suprapunere",
+          "description": "Procentul din DoF-ul fiecărui cadru care se suprapune cu cele adiacente. 20-30% este standard. Mai puțin riscă goluri; mai mult risipește cadre."
         }
       },
       "tips": {
         "0": {
-          "text": "Use a focus rail instead of the lens's focus ring for macro stacking. A rail moves the entire camera forward in precise increments, avoiding the slight magnification changes that occur when refocusing the lens."
+          "text": "Folosește o șină de focalizare în loc să rotești inelul de focalizare al obiectivului la stacking-ul macro. Șina mișcă întreaga cameră înainte în incremente precise, evitând schimbările ușoare de mărire care apar când refocalizezi obiectivul."
         },
         "1": {
-          "text": "Keep your aperture at the lens's sweet spot (typically f/5.6-f/8). The point of stacking is to avoid stopping down to f/16+, so use the sharpest aperture and let the stack handle depth."
+          "text": "Ține diafragma la punctul dulce al obiectivului (de obicei f/5.6-f/8). Sensul stacking-ului este să eviți închiderea la f/16+, așa că folosește cea mai clară diafragmă și lasă stack-ul să se ocupe de adâncime."
         },
         "2": {
-          "text": "For landscape stacks, shoot front-to-back: focus on the nearest element first, then step focus toward infinity. This makes alignment easier since the foreground (with the most parallax) is captured first."
+          "text": "Pentru stack-uri de peisaj, fotografiază din față în spate: focalizează mai întâi pe elementul cel mai apropiat, apoi muta focalizarea spre infinit. Asta face alinierea mai ușoară, pentru că prim-planul (cu cel mai mult paralaxă) este captat primul."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths reduce per-shot depth of field, requiring more frames to cover the same depth range."
+          "term": "Distanță focală",
+          "definition": "Distanța focală a obiectivului, în milimetri. Distanțele mai lungi reduc DoF-ul per cadru, cerând mai multe cadre pentru a acoperi același interval de adâncime."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening (f-number). For stacking, use the lens's sharpest aperture rather than stopping down — the stack provides the depth."
+          "term": "Diafragmă",
+          "definition": "Deschiderea obiectivului (cifra f). Pentru stacking, folosește cea mai clară diafragmă a obiectivului, nu închide — stack-ul oferă adâncimea."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "Larger sensors have a shallower per-shot depth of field at equivalent framing, which may increase the number of required stack frames."
+          "term": "Dimensiunea senzorului",
+          "definition": "Senzorii mai mari au DoF per cadru mai mic la încadrare echivalentă, ceea ce poate crește numărul de cadre necesare."
         },
         "nearLimit": {
-          "term": "Near Limit",
-          "definition": "The closest point in the scene that you want sharp. This is where the first shot in the stack will be focused."
+          "term": "Limita apropiată",
+          "definition": "Cel mai apropiat punct din scenă pe care îl vrei clar. Aici va fi focalizat primul cadru din stack."
         },
         "farLimit": {
-          "term": "Far Limit",
-          "definition": "The farthest point in the scene that you want sharp. The last shot in the stack will cover this distance."
+          "term": "Limita îndepărtată",
+          "definition": "Cel mai îndepărtat punct din scenă pe care îl vrei clar. Ultimul cadru din stack va acoperi această distanță."
         },
         "overlap": {
-          "term": "Overlap",
-          "definition": "The percentage of depth-of-field overlap between consecutive shots. 20-30% ensures no gaps after software alignment and merging."
+          "term": "Suprapunere",
+          "definition": "Procentul de suprapunere a adâncimii câmpului între cadrele succesive. 20-30% asigură că nu apar goluri după alinierea și îmbinarea în software."
         },
         "shotCount": {
-          "term": "Shot Count",
-          "definition": "The total number of frames needed to cover the depth range with the specified overlap. More shots = more processing but smoother results."
+          "term": "Număr de cadre",
+          "definition": "Numărul total de cadre necesare pentru a acoperi intervalul de adâncime cu suprapunerea specificată. Mai multe cadre = mai multă procesare, dar rezultate mai netede."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing a small flower that is 3cm deep from front petal to back stem. Your macro lens at f/8 gives about 4mm of DoF per shot. Roughly how many frames do you need with 25% overlap?",
-          "hint": "Each shot covers 4mm, but 25% overlap means the effective step is 3mm per frame. Divide 30mm by 3mm.",
-          "successMessage": "Correct! With 4mm DoF and 25% overlap, each step advances 3mm. 30mm / 3mm = 10 shots to cover the entire flower.",
-          "failureMessage": "With 25% overlap, each frame's effective step is 75% of the DoF: 4mm × 0.75 = 3mm. You need 30mm / 3mm = 10 shots.",
+          "scenario": "Fotografiezi o floare mică, cu 3cm adâncime de la petala frontală la tulpină. Obiectivul tău macro la f/8 oferă aproximativ 4mm de DoF per cadru. Aproximativ câte cadre îți trebuie cu 25% suprapunere?",
+          "hint": "Fiecare cadru acoperă 4mm, dar cu 25% suprapunere pasul efectiv este 3mm per cadru. Împarte 30mm la 3mm.",
+          "successMessage": "Corect! Cu 4mm DoF și 25% suprapunere, fiecare pas avansează 3mm. 30mm / 3mm = 10 cadre pentru a acoperi toată floarea.",
+          "failureMessage": "Cu 25% suprapunere, pasul efectiv al fiecărui cadru este 75% din DoF: 4mm × 0.75 = 3mm. Ai nevoie de 30mm / 3mm = 10 cadre.",
           "options": {
-            "0": { "label": "5 shots" },
-            "1": { "label": "10 shots" },
-            "2": { "label": "20 shots" },
-            "3": { "label": "30 shots" }
+            "0": { "label": "5 cadre" },
+            "1": { "label": "10 cadre" },
+            "2": { "label": "20 cadre" },
+            "3": { "label": "30 cadre" }
           }
         },
         "1": {
-          "scenario": "You want the sharpest possible result from your focus stack. Should you shoot each frame at f/2.8, f/8, or f/22?",
-          "hint": "Consider the lens's sharpest aperture and how diffraction affects small apertures.",
-          "successMessage": "Right! f/8 is typically the sharpest aperture for most lenses. f/2.8 has too little DoF per shot (wasting frames) and f/22 suffers from diffraction softening.",
-          "failureMessage": "f/8 is the best choice. f/2.8 gives very thin per-shot DoF (requiring many more frames), and f/22 introduces diffraction softening that defeats the purpose of stacking for sharpness.",
+          "scenario": "Vrei cel mai clar rezultat posibil din focus stack-ul tău. Ar trebui să fotografiezi fiecare cadru la f/2.8, f/8 sau f/22?",
+          "hint": "Ia în calcul cea mai clară diafragmă a obiectivului și cum afectează difracția diafragmele mici.",
+          "successMessage": "Exact! f/8 este de obicei cea mai clară diafragmă pentru majoritatea obiectivelor. f/2.8 oferă prea puțin DoF per cadru (risipind cadre), iar f/22 suferă de înmuiere prin difracție.",
+          "failureMessage": "f/8 este cea mai bună alegere. f/2.8 dă un DoF per cadru foarte subțire (cerând multe cadre în plus), iar f/22 introduce înmuiere prin difracție, care învinge scopul stacking-ului pentru claritate.",
           "options": {
-            "0": { "label": "f/2.8 — widest for fastest shutter" },
-            "1": { "label": "f/8 — lens sweet spot" },
-            "2": { "label": "f/22 — maximum per-shot DoF" }
+            "0": { "label": "f/2.8 — cel mai larg pentru timp rapid" },
+            "1": { "label": "f/8 — punctul dulce al obiectivului" },
+            "2": { "label": "f/22 — DoF maxim per cadru" }
           }
         },
         "2": {
-          "scenario": "After merging your focus stack, you notice a soft band across the middle of the image where nothing is sharp. What most likely went wrong?",
-          "hint": "Think about what connects one frame's sharp zone to the next.",
-          "successMessage": "Exactly! Insufficient overlap between adjacent frames creates a gap where neither shot is sharp. Increase overlap to 25-30% and reshoot.",
-          "failureMessage": "A soft band usually means the gap between focus steps was too large — the DoF of adjacent frames did not overlap enough. Increase the overlap percentage.",
+          "scenario": "După ce îți îmbini focus stack-ul, observi o bandă neclară pe mijlocul imaginii, unde nimic nu este clar. Ce a mers cel mai probabil greșit?",
+          "hint": "Gândește-te la ce conectează zona clară a unui cadru cu a următorului.",
+          "successMessage": "Exact! Suprapunerea insuficientă între cadrele adiacente creează un gol unde niciun cadru nu este clar. Crește suprapunerea la 25-30% și refotografiază.",
+          "failureMessage": "O bandă neclară înseamnă de obicei că distanța dintre pașii de focalizare a fost prea mare — DoF-ul cadrelor adiacente nu s-a suprapus suficient. Crește procentul de suprapunere.",
           "options": {
-            "0": { "label": "The aperture was too wide" },
-            "1": { "label": "Insufficient overlap between focus steps" },
-            "2": { "label": "The tripod moved during the sequence" },
-            "3": { "label": "The ISO was too high" }
+            "0": { "label": "Diafragma a fost prea largă" },
+            "1": { "label": "Suprapunere insuficientă între pașii de focalizare" },
+            "2": { "label": "Trepiedul s-a mișcat pe parcursul secvenței" },
+            "3": { "label": "ISO-ul a fost prea mare" }
           }
         }
       }

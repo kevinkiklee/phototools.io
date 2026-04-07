@@ -1,110 +1,110 @@
 {
   "education": {
     "focus-stacking-calculator": {
-      "beginner": "Focus stacking is a technique where you take multiple photos at different focus distances and merge them in software to create an image with front-to-back sharpness. It is essential for macro photography, where depth of field is razor-thin, and useful in landscape photography when you need both near foreground and distant background in sharp focus.",
+      "beginner": "Focus stacking je technika, při které pořídíš víc fotek zaostřených na různé vzdálenosti a v softwaru je spojíš do jediného snímku ostrého od popředí po pozadí. V makrofotografii, kde je hloubka ostrosti minimální, je to nezbytná technika a v krajinářské fotografii se hodí, když potřebuješ mít ostré blízké popředí i vzdálené pozadí.",
       "deeper": {
         "0": {
-          "heading": "Why Stacking Is Necessary",
-          "text": "At macro magnifications, even f/16 may yield only a few millimeters of depth of field. Stopping down further introduces diffraction softening that degrades the image. Focus stacking lets you shoot at the lens's sharpest aperture (typically f/5.6-f/8) and combine the sharp slices. Each frame shifts focus slightly forward, covering a new slice of the subject."
+          "heading": "Proč je stackování nutné",
+          "text": "Při makro zvětšení může i f/16 dát jen pár milimetrů hloubky ostrosti. Další přiclonění zavede difrakční změkčení, které snímek zhorší. Focus stacking ti umožní fotit na nejostřejší cloně objektivu (typicky f/5.6–f/8) a spojit ostré plátky. Každý snímek posune zaostření o kousek dopředu a pokryje novou část subjektu."
         },
         "1": {
-          "heading": "Planning the Stack",
-          "text": "The key to a successful stack is ensuring each shot's depth of field overlaps the next by 20-30%. Too little overlap creates gaps where nothing is sharp; too much wastes frames without benefit. The calculator determines the per-shot DoF using the circle of confusion formula, subtracts the overlap margin, and divides the total depth range by the effective step to compute the number of shots."
+          "heading": "Plánování stacku",
+          "text": "Klíčem k úspěšnému stacku je, aby se hloubka ostrosti každého snímku překrývala s tím dalším o 20–30 %. Moc malý překryv vytvoří mezery, kde nic není ostré; přílišný naopak zbytečně plýtvá snímky. Kalkulačka určí hloubku ostrosti na snímek podle vzorce s rozptylovým kroužkem, odečte překryv a vydělí celkový rozsah hloubky efektivním krokem, aby spočítala počet potřebných snímků."
         },
         "2": {
-          "heading": "Merging & Alignment",
-          "text": "Software like Photoshop, Helicon Focus, or Zerene Stacker aligns the frames (slight magnification shifts occur as focus changes), then selects the sharpest pixels from each layer. Shooting on a sturdy tripod with consistent lighting and using a focus rail for precise increments produces the cleanest results."
+          "heading": "Slučování a zarovnání",
+          "text": "Software jako Photoshop, Helicon Focus nebo Zerene Stacker snímky zarovná (při změně zaostření dochází k drobným posunům zvětšení) a pak vybere z každé vrstvy nejostřejší pixely. Focení na pevném stativu se stálým světlem a s makroposuvem pro přesné kroky dá nejčistší výsledky."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Determines per-shot depth of field. A moderate aperture (f/5.6-f/8) balances sharpness and DoF per frame. Avoid very small apertures — diffraction reduces the sharpness you are stacking for."
+          "label": "Clona",
+          "description": "Určuje hloubku ostrosti na snímek. Střední clona (f/5.6–f/8) vyvažuje ostrost a hloubku ostrosti na jednu expozici. Vyhni se velmi malým clonám — difrakce snižuje ostrost, kvůli které stackuješ."
         },
         "1": {
-          "label": "Depth Range",
-          "description": "The distance from the nearest to farthest point you want sharp. Wider ranges require more shots. In macro work this may be just centimeters; in landscapes it can span meters to infinity."
+          "label": "Rozsah hloubky",
+          "description": "Vzdálenost od nejbližšího k nejvzdálenějšímu bodu, který chceš mít ostrý. Širší rozsah znamená víc snímků. V makru to můžou být jen centimetry, v krajině i metry až nekonečno."
         },
         "2": {
-          "label": "Overlap",
-          "description": "The percentage of each shot's DoF that overlaps the adjacent shots. 20-30% is standard. Less risks gaps; more wastes frames."
+          "label": "Překryv",
+          "description": "Procentuální překryv hloubky ostrosti mezi sousedními snímky. Standard je 20–30 %. Méně riskuje mezery, víc zbytečně plýtvá snímky."
         }
       },
       "tips": {
         "0": {
-          "text": "Use a focus rail instead of the lens's focus ring for macro stacking. A rail moves the entire camera forward in precise increments, avoiding the slight magnification changes that occur when refocusing the lens."
+          "text": "Pro makro stacking používej raději makroposuv než zaostřovací kroužek objektivu. Posuv posouvá celý fotoaparát dopředu v přesných krocích a vyhneš se drobným změnám zvětšení, které vznikají při přeostřování objektivu."
         },
         "1": {
-          "text": "Keep your aperture at the lens's sweet spot (typically f/5.6-f/8). The point of stacking is to avoid stopping down to f/16+, so use the sharpest aperture and let the stack handle depth."
+          "text": "Drž clonu v nejostřejším bodě objektivu (typicky f/5.6–f/8). Smyslem stackování je vyhnout se zacloňování na f/16 a výš — použij nejostřejší clonu a o hloubku se postará stack."
         },
         "2": {
-          "text": "For landscape stacks, shoot front-to-back: focus on the nearest element first, then step focus toward infinity. This makes alignment easier since the foreground (with the most parallax) is captured first."
+          "text": "Krajinné stacky fotíš od předu dozadu: zaostři nejdřív na nejbližší prvek a pak posouvej zaostření k nekonečnu. Zarovnání je tak snazší, protože popředí (s největší paralaxou) máš zachycené jako první."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths reduce per-shot depth of field, requiring more frames to cover the same depth range."
+          "term": "Ohnisková vzdálenost",
+          "definition": "Ohnisková vzdálenost objektivu v milimetrech. Delší ohniska zmenšují hloubku ostrosti na snímek, takže pro stejný rozsah potřebuješ víc snímků."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening (f-number). For stacking, use the lens's sharpest aperture rather than stopping down — the stack provides the depth."
+          "term": "Clona",
+          "definition": "Otvor objektivu (clonové číslo). Pro stackování používej nejostřejší clonu objektivu a nezacloňuj — hloubku ti dodá celý stack."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "Larger sensors have a shallower per-shot depth of field at equivalent framing, which may increase the number of required stack frames."
+          "term": "Velikost snímače",
+          "definition": "Větší snímače mají při srovnatelné kompozici menší hloubku ostrosti na snímek, takže může být potřeba víc snímků ve stacku."
         },
         "nearLimit": {
-          "term": "Near Limit",
-          "definition": "The closest point in the scene that you want sharp. This is where the first shot in the stack will be focused."
+          "term": "Přední hranice",
+          "definition": "Nejbližší bod ve scéně, který chceš mít ostrý. Sem bude zaostřený první snímek stacku."
         },
         "farLimit": {
-          "term": "Far Limit",
-          "definition": "The farthest point in the scene that you want sharp. The last shot in the stack will cover this distance."
+          "term": "Zadní hranice",
+          "definition": "Nejvzdálenější bod ve scéně, který chceš mít ostrý. Poslední snímek stacku pokryje tuto vzdálenost."
         },
         "overlap": {
-          "term": "Overlap",
-          "definition": "The percentage of depth-of-field overlap between consecutive shots. 20-30% ensures no gaps after software alignment and merging."
+          "term": "Překryv",
+          "definition": "Procentuální překryv hloubky ostrosti mezi po sobě jdoucími snímky. 20–30 % zajistí, že po softwarovém zarovnání a sloučení nevzniknou mezery."
         },
         "shotCount": {
-          "term": "Shot Count",
-          "definition": "The total number of frames needed to cover the depth range with the specified overlap. More shots = more processing but smoother results."
+          "term": "Počet snímků",
+          "definition": "Celkový počet snímků potřebných k pokrytí daného rozsahu hloubky při zadaném překryvu. Víc snímků = víc zpracování, ale hladší výsledek."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing a small flower that is 3cm deep from front petal to back stem. Your macro lens at f/8 gives about 4mm of DoF per shot. Roughly how many frames do you need with 25% overlap?",
-          "hint": "Each shot covers 4mm, but 25% overlap means the effective step is 3mm per frame. Divide 30mm by 3mm.",
-          "successMessage": "Correct! With 4mm DoF and 25% overlap, each step advances 3mm. 30mm / 3mm = 10 shots to cover the entire flower.",
-          "failureMessage": "With 25% overlap, each frame's effective step is 75% of the DoF: 4mm × 0.75 = 3mm. You need 30mm / 3mm = 10 shots.",
+          "scenario": "Fotíš malou květinu, která je 3 cm hluboká od předního okvětního lístku k zadnímu stonku. Tvůj makroobjektiv při f/8 dává asi 4 mm hloubky ostrosti na snímek. Kolik snímků zhruba potřebuješ při 25% překryvu?",
+          "hint": "Každý snímek pokryje 4 mm, ale 25% překryv znamená efektivní krok 3 mm na snímek. Vyděl 30 mm třemi mm.",
+          "successMessage": "Správně! Se 4 mm hloubky ostrosti a 25% překryvem posune každý krok zaostření o 3 mm. 30 mm / 3 mm = 10 snímků na celou květinu.",
+          "failureMessage": "Při 25% překryvu je efektivní krok každého snímku 75 % hloubky ostrosti: 4 mm × 0,75 = 3 mm. Potřebuješ 30 mm / 3 mm = 10 snímků.",
           "options": {
-            "0": { "label": "5 shots" },
-            "1": { "label": "10 shots" },
-            "2": { "label": "20 shots" },
-            "3": { "label": "30 shots" }
+            "0": { "label": "5 snímků" },
+            "1": { "label": "10 snímků" },
+            "2": { "label": "20 snímků" },
+            "3": { "label": "30 snímků" }
           }
         },
         "1": {
-          "scenario": "You want the sharpest possible result from your focus stack. Should you shoot each frame at f/2.8, f/8, or f/22?",
-          "hint": "Consider the lens's sharpest aperture and how diffraction affects small apertures.",
-          "successMessage": "Right! f/8 is typically the sharpest aperture for most lenses. f/2.8 has too little DoF per shot (wasting frames) and f/22 suffers from diffraction softening.",
-          "failureMessage": "f/8 is the best choice. f/2.8 gives very thin per-shot DoF (requiring many more frames), and f/22 introduces diffraction softening that defeats the purpose of stacking for sharpness.",
+          "scenario": "Chceš z focus stacku dostat co nejostřejší výsledek. Máš fotit každý snímek při f/2.8, f/8 nebo f/22?",
+          "hint": "Uvaž, kde je nejostřejší clona objektivu a jak malé clony ovlivňuje difrakce.",
+          "successMessage": "Správně! f/8 je u většiny objektivů nejostřejší clona. f/2.8 dává příliš malou hloubku ostrosti na snímek (plýtvá snímky) a f/22 trpí difrakcí.",
+          "failureMessage": "Nejlepší volba je f/8. f/2.8 dává velmi tenkou hloubku ostrosti na snímek (potřebuješ mnohem víc snímků) a f/22 přidá difrakční změkčení, které popírá smysl stackování kvůli ostrosti.",
           "options": {
-            "0": { "label": "f/2.8 — widest for fastest shutter" },
-            "1": { "label": "f/8 — lens sweet spot" },
-            "2": { "label": "f/22 — maximum per-shot DoF" }
+            "0": { "label": "f/2.8 — naplno kvůli nejrychlejšímu času" },
+            "1": { "label": "f/8 — sweet spot objektivu" },
+            "2": { "label": "f/22 — maximální hloubka ostrosti na snímek" }
           }
         },
         "2": {
-          "scenario": "After merging your focus stack, you notice a soft band across the middle of the image where nothing is sharp. What most likely went wrong?",
-          "hint": "Think about what connects one frame's sharp zone to the next.",
-          "successMessage": "Exactly! Insufficient overlap between adjacent frames creates a gap where neither shot is sharp. Increase overlap to 25-30% and reshoot.",
-          "failureMessage": "A soft band usually means the gap between focus steps was too large — the DoF of adjacent frames did not overlap enough. Increase the overlap percentage.",
+          "scenario": "Po sloučení stacku zjišťuješ, že uprostřed snímku je měkký pruh, kde nic není ostré. Co se nejspíš pokazilo?",
+          "hint": "Přemýšlej o tom, co spojuje ostrou zónu jednoho snímku s tou další.",
+          "successMessage": "Přesně! Nedostatečný překryv mezi sousedními snímky vytvořil mezeru, kde není ostrý ani jeden. Zvyš překryv na 25–30 % a přefoť to.",
+          "failureMessage": "Měkký pruh obvykle znamená, že krok mezi zaostřeními byl moc velký — hloubky ostrosti sousedních snímků se dostatečně nepřekryly. Zvyš procentuální překryv.",
           "options": {
-            "0": { "label": "The aperture was too wide" },
-            "1": { "label": "Insufficient overlap between focus steps" },
-            "2": { "label": "The tripod moved during the sequence" },
-            "3": { "label": "The ISO was too high" }
+            "0": { "label": "Clona byla moc široká" },
+            "1": { "label": "Nedostatečný překryv mezi zaostřeními" },
+            "2": { "label": "Stativ se během série pohnul" },
+            "3": { "label": "ISO bylo moc vysoké" }
           }
         }
       }

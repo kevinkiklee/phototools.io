@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "Forgatás",
+      "center": "Középre",
+      "switchToPortrait": "Váltás álló tájolásra",
+      "switchToLandscape": "Váltás fekvő tájolásra",
+      "centerOverlays": "Átfedések középre",
+      "addLens": "+ Objektív hozzáadása",
       "fovSimulator": "FOV Simulator",
-      "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
-      "embed": "Embed",
-      "reset": "Reset",
-      "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
-      "wide": "wide",
-      "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
+      "sensor": "Érzékelő",
+      "copyImage": "Kép másolása",
+      "copyLink": "Link másolása",
+      "embed": "Beágyazás",
+      "reset": "Visszaállítás",
+      "frameInfo": "Képmező infó",
+      "distance": "Távolság",
+      "showFramingGuides": "Kompozíciós segédvonalak megjelenítése",
+      "wide": "széles",
+      "embedTitle": "Beágyazás",
+      "closeEmbedModal": "Beágyazási ablak bezárása",
       "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
-      "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
-      "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "bbcodeLabel": "BBCode (fórumok)",
+      "htmlEmbedLabel": "HTML beágyazás",
+      "copied": "Kimásolva",
+      "copy": "Másolás",
+      "cropView": "Crop nézet:",
+      "collapse": "Összecsukás",
+      "expand": "Kibontás",
+      "fovComparison": "FOV összehasonlítás",
+      "loadingScene": "Jelenet betöltése...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Mi a látószög a fotózásban?",
+          "answer": "A látószög (FOV) a jelenet azon szögterülete, amit az objektív és az érzékelő együtt lát. Meghatározza, mennyit rögzít a kép a jelenetből, és a gyújtótávolság és érzékelőméret együtt befolyásolja."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Hogyan hat a crop faktor a látószögre?",
+          "answer": "Egy kisebb érzékelő (nagyobb crop faktor) szűkebb látószöget rögzít ugyanazon a gyújtótávolságon, mint egy Full Frame érzékelő. Például egy APS-C érzékelő 1,5× crop faktorral úgy fotóz egy 50mm-es objektívvel, mint egy 75mm-es Full Frame-en."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Milyen kapcsolat van a FOV és a gyújtótávolság között?",
+          "answer": "A látószög és a gyújtótávolság fordítottan arányosak. A rövidebb gyújtótávolság (nagylátószögű) szélesebb látószöget ad, míg a hosszabb (teleobjektív) szűkebbet. A pontos FOV az érzékelőmérettől is függ."
         }
       }
     }

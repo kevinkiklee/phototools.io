@@ -1,21 +1,21 @@
 {
   "toolUI": {
     "hyperfocal-simulator": {
-      "settings": "Settings",
-      "focalLength": "Focal Length",
-      "aperture": "Aperture",
-      "focusDistance": "Focus Distance:",
-      "sensor": "Sensor",
-      "scene": "Scene:",
-      "sceneLandscape": "Landscape",
-      "sceneStreet": "Street",
-      "hyperfocalDistance": "Hyperfocal Distance",
-      "nearLimit": "Near Limit",
-      "farLimit": "Far Limit",
-      "focusDistanceResult": "Focus Distance",
-      "hyperfocalReference": "Hyperfocal Reference",
-      "sharpToInfinity": "Sharp to infinity",
-      "nearLimitBadge": "Near limit:"
+      "settings": "Nastavení",
+      "focalLength": "Ohnisková vzdálenost",
+      "aperture": "Clona",
+      "focusDistance": "Vzdálenost zaostření:",
+      "sensor": "Snímač",
+      "scene": "Scéna:",
+      "sceneLandscape": "Krajina",
+      "sceneStreet": "Ulice",
+      "hyperfocalDistance": "Hyperfokální vzdálenost",
+      "nearLimit": "Přední hranice",
+      "farLimit": "Zadní hranice",
+      "focusDistanceResult": "Vzdálenost zaostření",
+      "hyperfocalReference": "Hyperfokální reference",
+      "sharpToInfinity": "Ostré do nekonečna",
+      "nearLimitBadge": "Přední hranice:"
     }
   }
 }

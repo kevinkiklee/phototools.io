@@ -1,27 +1,27 @@
 {
   "about": {
-    "title": "About PhotoTools",
-    "subtitle": "Free photography education, right in your browser.",
+    "title": "Mengenai PhotoTools",
+    "subtitle": "Pendidikan fotografi percuma, terus dalam pelayar anda.",
     "sections": {
       "whatIs": {
-        "title": "What is PhotoTools?",
-        "body": "PhotoTools is a free collection of interactive photography calculators, simulators, and reference tools. Whether you're learning the exposure triangle for the first time or calculating hyperfocal distance for a landscape shoot, PhotoTools gives you hands-on visual tools to deepen your understanding of photography."
+        "title": "Apa itu PhotoTools?",
+        "body": "PhotoTools ialah koleksi kalkulator, simulator dan alat rujukan fotografi interaktif yang percuma. Sama ada anda sedang mempelajari segi tiga pendedahan buat kali pertama atau mengira jarak hiperfokal untuk sesi landskap, PhotoTools memberikan anda alat visual secara langsung untuk mendalami pemahaman tentang fotografi."
       },
       "whoIsItFor": {
-        "title": "Who is it for?",
-        "body": "Photographers of all skill levels — from beginners exploring how aperture affects depth of field to experienced shooters planning a star trail session. Every tool includes a learning panel with explanations, key factors, pro tips, and interactive challenges to test your knowledge."
+        "title": "Untuk siapa?",
+        "body": "Jurugambar dari semua peringkat kemahiran — dari pemula yang meneroka cara aperture mempengaruhi kedalaman medan hingga jurugambar berpengalaman yang merancang sesi jejak bintang. Setiap alat disertakan dengan panel pembelajaran yang memberi penjelasan, faktor utama, tip pro dan cabaran interaktif untuk menguji pengetahuan anda."
       },
       "privacyFirst": {
-        "title": "Privacy first",
-        "body": "All calculations and simulations run entirely in your browser. Your photos never leave your device — the EXIF Viewer, for example, processes images 100% client-side. No sign-up is required, and no personal data is collected beyond anonymous analytics."
+        "title": "Privasi diutamakan",
+        "body": "Semua pengiraan dan simulasi berjalan sepenuhnya dalam pelayar anda. Foto anda tidak pernah meninggalkan peranti anda — EXIF Viewer, contohnya, memproses imej 100% di sebelah klien. Tiada pendaftaran diperlukan, dan tiada data peribadi dikumpul selain daripada analitik tanpa nama."
       },
       "builtBy": {
-        "title": "Built by photographers",
-        "body": "PhotoTools is built and maintained by a photographer and software engineer who wanted better visual tools for understanding the technical side of photography. The tools are grounded in real optics and physics — not approximations — so you can trust the results in the field."
+        "title": "Dibina oleh jurugambar",
+        "body": "PhotoTools dibina dan diselenggara oleh seorang jurugambar merangkap jurutera perisian yang mahukan alat visual yang lebih baik untuk memahami aspek teknikal fotografi. Alat ini berasaskan optik dan fizik sebenar — bukan anggaran — supaya anda boleh mempercayai hasilnya di lapangan."
       },
       "getInTouch": {
-        "title": "Get in touch",
-        "body": "Have a suggestion, bug report, or tool idea? Reach out via the <contactLink>contact page</contactLink>."
+        "title": "Hubungi kami",
+        "body": "Ada cadangan, laporan pepijat atau idea alat? Hubungi melalui <contactLink>halaman hubungi</contactLink>."
       }
     }
   }

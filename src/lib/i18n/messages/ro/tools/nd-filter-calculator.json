@@ -1,12 +1,12 @@
 {
   "toolUI": {
     "nd-filter-calculator": {
-      "baseShutterSpeed": "Base Shutter Speed",
-      "ndFilter": "ND Filter",
-      "resultingShutterSpeed": "Resulting Shutter Speed",
-      "stopsAdded": "Stops Added",
-      "quickReference": "Quick Reference",
-      "tableBase": "Base"
+      "baseShutterSpeed": "Timp de expunere de bază",
+      "ndFilter": "Filtru ND",
+      "resultingShutterSpeed": "Timp de expunere rezultat",
+      "stopsAdded": "Stopuri adăugate",
+      "quickReference": "Referință rapidă",
+      "tableBase": "Bază"
     }
   }
 }

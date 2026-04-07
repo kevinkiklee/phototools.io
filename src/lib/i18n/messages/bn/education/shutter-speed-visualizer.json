@@ -1,65 +1,65 @@
 {
   "education": {
     "shutter-speed-visualizer": {
-      "beginner": "The shutter speed guide helps you find the slowest shutter speed you can use while still getting a sharp handheld photo. If your shutter speed is too slow, camera shake from your hands will blur the image. The minimum safe speed depends on your focal length, whether you have image stabilization, and how steady your hands are.",
-      "deeper": "The classic \"reciprocal rule\" states that for sharp handheld photos, your shutter speed should be at least 1/(focal length) seconds — so a 200mm lens needs at least 1/200s. On crop-sensor cameras, you should use the equivalent focal length (e.g., 200mm on a 1.5x crop = 1/300s). Modern in-body stabilization (IBIS) and optical stabilization (OIS) can buy you 3-7 extra stops of handheld leeway, meaning that stabilized 200mm lens might be sharp at 1/15s or even slower. However, stabilization only compensates for camera shake, not subject motion. A person walking toward you at 1/15s will still be blurred regardless of stabilization. For moving subjects, you must select a shutter speed based on the subject's speed and distance, not just the focal length.",
+      "beginner": "শাটার স্পিড গাইড তোমাকে সবচেয়ে ধীর শাটার স্পিড বের করতে সাহায্য করে যা তুমি এখনো হ্যান্ডহেল্ড শার্প ছবি পেতে ব্যবহার করতে পারো। তোমার শাটার স্পিড খুব ধীর হলে, তোমার হাতের কম্পন ছবিকে ঝাপসা করবে। সর্বনিম্ন নিরাপদ স্পিড নির্ভর করে তোমার ফোকাল দৈর্ঘ্য, তোমার ইমেজ স্টেবিলাইজেশন আছে কিনা এবং তোমার হাত কতটা স্থির তার উপর।",
+      "deeper": "ক্লাসিক \"রেসিপ্রোকাল রুল\" বলে শার্প হ্যান্ডহেল্ড ছবির জন্য তোমার শাটার স্পিড কমপক্ষে 1/(ফোকাল দৈর্ঘ্য) সেকেন্ড হওয়া উচিত — তাই 200mm লেন্সের জন্য কমপক্ষে 1/200s দরকার। ক্রপ-সেন্সর ক্যামেরায় তোমার সমতুল্য ফোকাল দৈর্ঘ্য ব্যবহার করা উচিত (যেমন 1.5x ক্রপে 200mm = 1/300s)। আধুনিক ইন-বডি স্টেবিলাইজেশন (IBIS) এবং অপটিক্যাল স্টেবিলাইজেশন (OIS) তোমাকে 3-7 স্টপ অতিরিক্ত হ্যান্ডহেল্ড লিওয়ে দিতে পারে, মানে স্টেবিলাইজড 200mm লেন্স 1/15s বা আরো ধীরে শার্প হতে পারে। তবে, স্টেবিলাইজেশন শুধু ক্যামেরা শেকের ক্ষতিপূরণ দেয়, সাবজেক্টের গতির নয়। 1/15s-এ তোমার দিকে হাঁটা একজন ব্যক্তি স্টেবিলাইজেশন যাই থাকুক ঝাপসা হবে। চলমান সাবজেক্টের জন্য, শুধু ফোকাল দৈর্ঘ্যের ভিত্তিতে নয়, সাবজেক্টের গতি ও দূরত্বের ভিত্তিতে শাটার স্পিড নির্বাচন করতে হবে।",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify camera shake. The reciprocal rule (1/focal length) is the starting point for determining minimum shutter speed."
+          "label": "ফোকাল দৈর্ঘ্য",
+          "description": "দীর্ঘ ফোকাল দৈর্ঘ্য ক্যামেরা শেক বড় করে। রেসিপ্রোকাল রুল (1/ফোকাল দৈর্ঘ্য) সর্বনিম্ন শাটার স্পিড নির্ধারণের শুরুর বিন্দু।"
         },
         "1": {
-          "label": "Image Stabilization",
-          "description": "OIS (lens-based) typically provides 2-4 stops of benefit. IBIS (body-based) provides 3-5 stops. Combined OIS+IBIS can achieve 5-7 stops on some systems."
+          "label": "ইমেজ স্টেবিলাইজেশন",
+          "description": "OIS (লেন্স-ভিত্তিক) সাধারণত 2-4 স্টপ সুবিধা দেয়। IBIS (বডি-ভিত্তিক) 3-5 স্টপ দেয়। সম্মিলিত OIS+IBIS কিছু সিস্টেমে 5-7 স্টপ অর্জন করতে পারে।"
         },
         "2": {
-          "label": "Subject Motion",
-          "description": "Still subjects require only enough speed to counter camera shake. Moving subjects need faster speeds regardless of stabilization: walking (~1/125s), running (~1/500s), vehicles (~1/1000s+)."
+          "label": "সাবজেক্টের গতি",
+          "description": "স্থির সাবজেক্টের জন্য শুধু ক্যামেরা শেক মোকাবেলা করার যথেষ্ট গতি দরকার। চলমান সাবজেক্টের জন্য স্টেবিলাইজেশন যাই থাকুক দ্রুত গতি দরকার: হাঁটা (~1/125s), দৌড়ানো (~1/500s), যানবাহন (~1/1000s+)।"
         },
         "3": {
-          "label": "Sensor Size (Crop Factor)",
-          "description": "Crop-sensor cameras effectively multiply the focal length for the reciprocal rule. A 50mm lens on a 1.5x crop behaves like 75mm, so you need at least 1/75s."
+          "label": "সেন্সর সাইজ (ক্রপ ফ্যাক্টর)",
+          "description": "ক্রপ-সেন্সর ক্যামেরা কার্যকরভাবে রেসিপ্রোকাল রুলের জন্য ফোকাল দৈর্ঘ্য গুণ করে। 1.5x ক্রপে 50mm লেন্স 75mm-এর মতো আচরণ করে, তাই কমপক্ষে 1/75s দরকার।"
         }
       },
       "tips": {
         "0": {
-          "text": "Brace yourself against a wall, tuck your elbows in, and exhale slowly before pressing the shutter. Good technique can give you 1-2 extra stops of steadiness beyond the reciprocal rule."
+          "text": "একটি দেয়ালের সাথে নিজেকে ঠেকাও, কনুই ভেতরে আনো, এবং শাটার চাপার আগে ধীরে শ্বাস ছাড়ো। ভালো কৌশল রেসিপ্রোকাল রুলের বাইরে তোমাকে 1-2 অতিরিক্ত স্টপ স্থিরতা দিতে পারে।"
         },
         "1": {
-          "text": "When shooting people, the subject's motion usually dictates your minimum speed, not your focal length. Even with a wide-angle lens and stabilization, a child running requires at least 1/500s."
+          "text": "মানুষ শুট করার সময় সাবজেক্টের গতিই সাধারণত তোমার সর্বনিম্ন গতি নির্দেশ করে, তোমার ফোকাল দৈর্ঘ্য নয়। এমনকি ওয়াইড-অ্যাঙ্গেল লেন্স ও স্টেবিলাইজেশন সহ, দৌড়ানো একটি শিশুর জন্য কমপক্ষে 1/500s দরকার।"
         },
         "2": {
-          "text": "If you are consistently shooting in low light, invest in a camera body with IBIS. The ability to shoot handheld at 1/2s with a wide-angle lens opens up possibilities that no amount of high-ISO performance can match."
+          "text": "তুমি যদি নিয়মিত কম আলোয় শুট করো, IBIS-বিশিষ্ট ক্যামেরা বডিতে বিনিয়োগ করো। ওয়াইড-অ্যাঙ্গেল লেন্সে 1/2s-এ হ্যান্ডহেল্ড শুট করার ক্ষমতা এমন সম্ভাবনা খুলে দেয় যা কোনো উচ্চ-ISO পারফরম্যান্স মেলাতে পারে না।"
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Directly affects the minimum safe shutter speed through the reciprocal rule: 1/(focal length) for full-frame, adjusted by crop factor for smaller sensors."
+          "term": "ফোকাল দৈর্ঘ্য",
+          "definition": "মিলিমিটারে লেন্সের ফোকাল দৈর্ঘ্য। রেসিপ্রোকাল রুলের মাধ্যমে সর্বনিম্ন নিরাপদ শাটার স্পিডকে সরাসরি প্রভাবিত করে: ফুল-ফ্রেমের জন্য 1/(ফোকাল দৈর্ঘ্য), ছোট সেন্সরের জন্য ক্রপ ফ্যাক্টর দিয়ে সামঞ্জস্য।"
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The camera sensor size, which determines the crop factor. APS-C (1.5x) and Micro Four Thirds (2x) multiply the effective focal length, requiring faster shutter speeds for the same lens."
+          "term": "সেন্সর সাইজ",
+          "definition": "ক্যামেরা সেন্সর সাইজ, যা ক্রপ ফ্যাক্টর নির্ধারণ করে। APS-C (1.5x) এবং Micro Four Thirds (2x) কার্যকর ফোকাল দৈর্ঘ্য গুণ করে, একই লেন্সের জন্য দ্রুত শাটার স্পিড দরকার হয়।"
         },
         "stabilization": {
-          "term": "Image Stabilization",
-          "definition": "Technology that compensates for camera shake. OIS (Optical Image Stabilization) is in the lens, IBIS (In-Body Image Stabilization) is in the camera body. They can work together for maximum benefit."
+          "term": "ইমেজ স্টেবিলাইজেশন",
+          "definition": "ক্যামেরা শেকের ক্ষতিপূরণ দেয় এমন প্রযুক্তি। OIS (Optical Image Stabilization) লেন্সে থাকে, IBIS (In-Body Image Stabilization) ক্যামেরা বডিতে থাকে। সর্বাধিক সুবিধার জন্য তারা একসাথে কাজ করতে পারে।"
         },
         "subjectMotion": {
-          "term": "Subject Motion",
-          "definition": "How fast your subject is moving. Still subjects only need enough shutter speed to counteract camera shake. Moving subjects need faster speeds based on their velocity and direction relative to the camera."
+          "term": "সাবজেক্টের গতি",
+          "definition": "তোমার সাবজেক্ট কত দ্রুত নড়ছে। স্থির সাবজেক্টের জন্য শুধু ক্যামেরা শেক মোকাবেলার যথেষ্ট শাটার স্পিড দরকার। চলমান সাবজেক্টের জন্য ক্যামেরার সাপেক্ষে তাদের গতি ও দিকের ভিত্তিতে দ্রুত গতি দরকার।"
         },
         "recommendedShutterSpeed": {
-          "term": "Recommended Shutter Speed",
-          "definition": "The minimum shutter speed calculated for your specific combination of focal length, stabilization, sensor, and subject motion. Shooting at this speed or faster should produce sharp results."
+          "term": "প্রস্তাবিত শাটার স্পিড",
+          "definition": "তোমার নির্দিষ্ট ফোকাল দৈর্ঘ্য, স্টেবিলাইজেশন, সেন্সর ও সাবজেক্টের গতির সংমিশ্রণের জন্য হিসাব করা সর্বনিম্ন শাটার স্পিড। এই গতি বা দ্রুততরে শুট করলে শার্প ফলাফল তৈরি হওয়া উচিত।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting with a 100mm lens on a full-frame camera with no image stabilization. Your subject is standing still. What is the minimum recommended shutter speed?",
-          "hint": "The reciprocal rule: minimum shutter speed = 1 / focal length.",
-          "successMessage": "Correct! The reciprocal rule says 1/100s for a 100mm lens on full frame. This is the classic starting point for handheld sharpness.",
-          "failureMessage": "For a 100mm lens on full frame with no stabilization, the reciprocal rule gives you 1/100s as the minimum safe shutter speed for static subjects.",
+          "scenario": "তুমি ফুল-ফ্রেম ক্যামেরায় 100mm লেন্স দিয়ে শুট করছো ইমেজ স্টেবিলাইজেশন ছাড়া। তোমার সাবজেক্ট স্থির দাঁড়িয়ে আছে। সর্বনিম্ন প্রস্তাবিত শাটার স্পিড কী?",
+          "hint": "রেসিপ্রোকাল রুল: সর্বনিম্ন শাটার স্পিড = 1 / ফোকাল দৈর্ঘ্য।",
+          "successMessage": "সঠিক! রেসিপ্রোকাল রুল ফুল ফ্রেমে 100mm লেন্সের জন্য 1/100s বলে। এটি হ্যান্ডহেল্ড শার্পনেসের জন্য ক্লাসিক শুরুর বিন্দু।",
+          "failureMessage": "স্টেবিলাইজেশন ছাড়া ফুল ফ্রেমে 100mm লেন্সের জন্য, রেসিপ্রোকাল রুল স্থির সাবজেক্টের জন্য সর্বনিম্ন নিরাপদ শাটার স্পিড হিসেবে 1/100s দেয়।",
           "options": {
             "0": { "label": "1/50s" },
             "1": { "label": "1/100s" },
@@ -68,51 +68,51 @@
           }
         },
         "1": {
-          "scenario": "You are using a 50mm lens on an APS-C camera (1.5x crop factor) with no stabilization. What minimum shutter speed should you use for a still subject?",
-          "hint": "Multiply the focal length by the crop factor before applying the reciprocal rule.",
-          "successMessage": "Right! 50mm x 1.5 = 75mm equivalent, so you need at least 1/75s. In practice, rounding up to 1/80s is the safe choice.",
-          "failureMessage": "On APS-C, the crop factor (1.5x) means a 50mm lens behaves like a 75mm lens. The reciprocal rule gives 1/75s as the minimum speed.",
+          "scenario": "তুমি স্টেবিলাইজেশন ছাড়া APS-C ক্যামেরায় (1.5x ক্রপ ফ্যাক্টর) 50mm লেন্স ব্যবহার করছো। স্থির সাবজেক্টের জন্য কোন সর্বনিম্ন শাটার স্পিড ব্যবহার করবে?",
+          "hint": "রেসিপ্রোকাল রুল প্রয়োগ করার আগে ফোকাল দৈর্ঘ্যকে ক্রপ ফ্যাক্টর দিয়ে গুণ করো।",
+          "successMessage": "ঠিক! 50mm x 1.5 = 75mm সমতুল্য, তাই তোমার কমপক্ষে 1/75s দরকার। বাস্তবে, 1/80s-এ রাউন্ড আপ করা নিরাপদ পছন্দ।",
+          "failureMessage": "APS-C-তে, ক্রপ ফ্যাক্টর (1.5x) মানে 50mm লেন্স 75mm লেন্সের মতো আচরণ করে। রেসিপ্রোকাল রুল সর্বনিম্ন স্পিড হিসেবে 1/75s দেয়।",
           "options": {
             "0": { "label": "1/50s" },
-            "1": { "label": "1/75s (round to 1/80s)" },
+            "1": { "label": "1/75s (1/80s-এ রাউন্ড)" },
             "2": { "label": "1/100s" },
             "3": { "label": "1/125s" }
           }
         },
         "2": {
-          "scenario": "You have a 200mm lens with OIS (4 stops of stabilization) on a full-frame body with IBIS (5 stops). Together they provide about 6 stops of combined stabilization. For a still subject, what is the approximate minimum shutter speed?",
-          "hint": "Start with the reciprocal rule (1/200s) and then apply 6 stops of stabilization benefit.",
-          "successMessage": "Correct! Starting at 1/200s and gaining 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. About 1/3 second handheld with a 200mm lens — impressive but achievable with modern stabilization!",
-          "failureMessage": "From 1/200s, each stop of stabilization doubles the usable time: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Six stops of stabilization with a 200mm lens gives approximately 1/3s.",
+          "scenario": "তোমার OIS (4 স্টপ স্টেবিলাইজেশন) সহ 200mm লেন্স এবং IBIS (5 স্টপ) সহ ফুল-ফ্রেম বডি আছে। একসাথে তারা প্রায় 6 স্টপ সম্মিলিত স্টেবিলাইজেশন দেয়। স্থির সাবজেক্টের জন্য, আনুমানিক সর্বনিম্ন শাটার স্পিড কী?",
+          "hint": "রেসিপ্রোকাল রুল (1/200s) দিয়ে শুরু করো এবং তারপর 6 স্টপ স্টেবিলাইজেশন সুবিধা প্রয়োগ করো।",
+          "successMessage": "সঠিক! 1/200s থেকে শুরু করে 6 স্টপ লাভ: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s। 200mm লেন্সে প্রায় 1/3 সেকেন্ড হ্যান্ডহেল্ড — প্রভাবশালী কিন্তু আধুনিক স্টেবিলাইজেশনে অর্জনযোগ্য!",
+          "failureMessage": "1/200s থেকে, প্রতিটি স্টপ স্টেবিলাইজেশন ব্যবহারযোগ্য সময় দ্বিগুণ করে: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s। 200mm লেন্সে 6 স্টপ স্টেবিলাইজেশন প্রায় 1/3s দেয়।",
           "options": {
             "0": { "label": "1/30s" },
             "1": { "label": "1/8s" },
             "2": { "label": "~1/3s" },
-            "3": { "label": "1 second" }
+            "3": { "label": "1 সেকেন্ড" }
           }
         },
         "3": {
-          "scenario": "You are photographing a friend jogging in a park using a 35mm lens on a full-frame camera with IBIS. Your IBIS gives you 5 stops of stabilization, so the reciprocal rule alone would let you shoot at about 1 second. Should you use 1 second?",
-          "hint": "Stabilization compensates for camera shake, not subject motion.",
-          "successMessage": "Correct! Stabilization only counters camera shake. A jogging person needs at least 1/250s to freeze their motion, regardless of how good your stabilization is.",
-          "failureMessage": "Stabilization cannot freeze a moving subject. For a person jogging, you need at least 1/250s to prevent motion blur, even if your camera could hold steady at 1 second.",
+          "scenario": "তুমি IBIS সহ ফুল-ফ্রেম ক্যামেরায় 35mm লেন্স দিয়ে পার্কে জগিং করা তোমার বন্ধুর ছবি তুলছো। তোমার IBIS 5 স্টপ স্টেবিলাইজেশন দেয়, তাই শুধু রেসিপ্রোকাল রুল তোমাকে প্রায় 1 সেকেন্ডে শুট করতে দেবে। তুমি কি 1 সেকেন্ড ব্যবহার করবে?",
+          "hint": "স্টেবিলাইজেশন ক্যামেরা শেকের ক্ষতিপূরণ দেয়, সাবজেক্টের গতির নয়।",
+          "successMessage": "সঠিক! স্টেবিলাইজেশন শুধু ক্যামেরা শেক মোকাবেলা করে। একজন জগিং করা ব্যক্তির গতি স্থির করতে কমপক্ষে 1/250s দরকার, তোমার স্টেবিলাইজেশন যত ভালোই হোক না কেন।",
+          "failureMessage": "স্টেবিলাইজেশন চলমান সাবজেক্ট স্থির করতে পারে না। জগিং করা একজন ব্যক্তির জন্য, মোশন ব্লার প্রতিরোধ করতে কমপক্ষে 1/250s দরকার, এমনকি তোমার ক্যামেরা 1 সেকেন্ডে স্থির থাকলেও।",
           "options": {
-            "0": { "label": "Yes — IBIS handles all the motion" },
-            "1": { "label": "No — use at least 1/250s to freeze the jogger" },
-            "2": { "label": "No — use 1/60s as a compromise" },
-            "3": { "label": "It depends on the ISO setting" }
+            "0": { "label": "হ্যাঁ — IBIS সব গতি সামলায়" },
+            "1": { "label": "না — জগার স্থির করতে কমপক্ষে 1/250s ব্যবহার করো" },
+            "2": { "label": "না — আপস হিসেবে 1/60s ব্যবহার করো" },
+            "3": { "label": "এটি ISO সেটিংয়ের উপর নির্ভর করে" }
           }
         },
         "4": {
-          "scenario": "You want to create a panning shot of a cyclist — the rider should be sharp while the background shows motion blur streaks. You are using a 70mm lens on full frame. What shutter speed range should you try?",
-          "hint": "Panning intentionally uses a slow shutter speed while tracking the subject. Too fast freezes everything; too slow blurs even the subject.",
-          "successMessage": "Correct! For panning a cyclist, 1/30s to 1/60s is the sweet spot. This is slow enough to blur the background into streaks while your tracking motion keeps the rider relatively sharp. It takes practice — shoot in burst mode and expect many rejects.",
-          "failureMessage": "Panning requires a shutter speed slow enough to blur the background but fast enough that your tracking keeps the subject sharp. For a cyclist, 1/30s to 1/60s is the typical range.",
+          "scenario": "তুমি একজন সাইক্লিস্টের প্যানিং শট তৈরি করতে চাও — সওয়ারি শার্প থাকবে যখন ব্যাকগ্রাউন্ডে মোশন ব্লার রেখা দেখাবে। তুমি ফুল ফ্রেমে 70mm লেন্স ব্যবহার করছো। কোন শাটার স্পিড পরিসর চেষ্টা করবে?",
+          "hint": "প্যানিং ইচ্ছাকৃতভাবে ধীর শাটার স্পিড ব্যবহার করে সাবজেক্ট ট্র্যাক করার সময়। খুব দ্রুত সবকিছু স্থির করে; খুব ধীর সাবজেক্টকেও ঝাপসা করে।",
+          "successMessage": "সঠিক! একজন সাইক্লিস্ট প্যানিংয়ের জন্য, 1/30s থেকে 1/60s সুইট স্পট। এটি ব্যাকগ্রাউন্ডকে রেখায় ঝাপসা করার জন্য যথেষ্ট ধীর, যখন তোমার ট্র্যাকিং গতি সওয়ারিকে তুলনামূলকভাবে শার্প রাখে। অনুশীলন লাগে — বার্স্ট মোডে শুট করো এবং অনেক বাতিল আশা করো।",
+          "failureMessage": "প্যানিংয়ের জন্য এমন শাটার স্পিড দরকার যা ব্যাকগ্রাউন্ড ঝাপসা করার জন্য যথেষ্ট ধীর কিন্তু তোমার ট্র্যাকিং সাবজেক্টকে শার্প রাখার জন্য যথেষ্ট দ্রুত। একজন সাইক্লিস্টের জন্য, 1/30s থেকে 1/60s সাধারণ পরিসর।",
           "options": {
-            "0": { "label": "1/1000s to 1/2000s" },
-            "1": { "label": "1/250s to 1/500s" },
-            "2": { "label": "1/30s to 1/60s" },
-            "3": { "label": "1s to 2s" }
+            "0": { "label": "1/1000s থেকে 1/2000s" },
+            "1": { "label": "1/250s থেকে 1/500s" },
+            "2": { "label": "1/30s থেকে 1/60s" },
+            "3": { "label": "1s থেকে 2s" }
           }
         }
       }

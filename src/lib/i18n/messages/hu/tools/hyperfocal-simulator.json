@@ -1,21 +1,21 @@
 {
   "toolUI": {
     "hyperfocal-simulator": {
-      "settings": "Settings",
-      "focalLength": "Focal Length",
-      "aperture": "Aperture",
-      "focusDistance": "Focus Distance:",
-      "sensor": "Sensor",
-      "scene": "Scene:",
-      "sceneLandscape": "Landscape",
-      "sceneStreet": "Street",
-      "hyperfocalDistance": "Hyperfocal Distance",
-      "nearLimit": "Near Limit",
-      "farLimit": "Far Limit",
-      "focusDistanceResult": "Focus Distance",
-      "hyperfocalReference": "Hyperfocal Reference",
-      "sharpToInfinity": "Sharp to infinity",
-      "nearLimitBadge": "Near limit:"
+      "settings": "Beállítások",
+      "focalLength": "Gyújtótávolság",
+      "aperture": "Rekesz",
+      "focusDistance": "Fókusztávolság:",
+      "sensor": "Érzékelő",
+      "scene": "Jelenet:",
+      "sceneLandscape": "Tájkép",
+      "sceneStreet": "Utca",
+      "hyperfocalDistance": "Hiperfokális távolság",
+      "nearLimit": "Közeli határ",
+      "farLimit": "Távoli határ",
+      "focusDistanceResult": "Fókusztávolság",
+      "hyperfocalReference": "Hiperfokális referencia",
+      "sharpToInfinity": "Éles a végtelenig",
+      "nearLimitBadge": "Közeli határ:"
     }
   }
 }

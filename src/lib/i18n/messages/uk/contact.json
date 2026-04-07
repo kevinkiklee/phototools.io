@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "Напиши нам",
+    "description": "Маєш запитання, знайшов помилку чи хочеш запропонувати новий інструмент? Будемо раді почути.",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
+      "nameLabel": "Ім'я",
+      "namePlaceholder": "Твоє ім'я",
       "emailLabel": "Email",
       "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "subjectLabel": "Тема",
+      "subjectPlaceholder": "Про що йдеться?",
+      "messageLabel": "Повідомлення",
+      "messagePlaceholder": "Твоє повідомлення...",
+      "submit": "Надіслати",
+      "sending": "Надсилаємо...",
+      "honeypotLabel": "Сайт",
+      "successToast": "Повідомлення надіслано! Ми скоро відповімо.",
+      "errorToast": "Щось пішло не так. Спробуй ще раз.",
+      "networkErrorToast": "Помилка мережі. Перевір з'єднання і спробуй знову.",
+      "sentTitle": "Дякуємо, що написав!",
+      "sentMessage": "Відповімо якомога швидше.",
+      "sendAnother": "Надіслати ще одне повідомлення"
     }
   }
 }

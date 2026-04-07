@@ -1,114 +1,114 @@
 {
   "education": {
     "dof-simulator": {
-      "beginner": "Depth of field (DoF) is the range of distance in your photo that appears acceptably sharp. A shallow DoF blurs the background behind your subject, while a deep DoF keeps everything from foreground to horizon in focus. Controlling DoF is one of the most powerful creative tools in photography.",
+      "beginner": "ক্ষেত্রের গভীরতা (DoF) হলো তোমার ছবিতে যে দূরত্বের পরিসর গ্রহণযোগ্যভাবে তীক্ষ্ণ দেখায়। কম DoF সাবজেক্টের পেছনের ব্যাকগ্রাউন্ডকে ঝাপসা করে, আর গভীর DoF সামনে থেকে দিগন্ত পর্যন্ত সবকিছুকে ফোকাসে রাখে। DoF নিয়ন্ত্রণ করা ফটোগ্রাফির অন্যতম শক্তিশালী সৃজনশীল হাতিয়ার।",
       "deeper": {
         "0": {
-          "heading": "How DoF Works",
-          "text": "Depth of field is governed by the circle of confusion (CoC) — the largest blur spot on the sensor that still looks sharp to the human eye. Three physical factors determine DoF: focal length, aperture, and subject distance. A wider aperture (lower f-number) produces a shallower DoF because the lens converges light at steeper angles, causing out-of-focus points to spread into larger circles on the sensor."
+          "heading": "DoF কীভাবে কাজ করে",
+          "text": "ক্ষেত্রের গভীরতা নিয়ন্ত্রিত হয় সার্কেল অফ কনফিউশন (CoC) দ্বারা — সেন্সরে সবচেয়ে বড় ব্লার স্পট যা এখনো মানুষের চোখে তীক্ষ্ণ দেখায়। তিনটি ভৌত কারণ DoF নির্ধারণ করে: ফোকাল দৈর্ঘ্য, অ্যাপারচার এবং সাবজেক্টের দূরত্ব। প্রশস্ত অ্যাপারচার (কম f-নম্বর) কম DoF তৈরি করে কারণ লেন্স আলোকে খাড়া কোণে একত্র করে, ফলে আউট-অফ-ফোকাস বিন্দুগুলো সেন্সরে বড় বৃত্তে ছড়িয়ে পড়ে।"
         },
         "1": {
-          "heading": "Focal Length & Distance",
-          "text": "Longer focal lengths magnify the image, which also magnifies the blur circles, narrowing the DoF. Moving closer to your subject reduces DoF for the same reason — the relative difference in distance between the subject and background becomes greater. The hyperfocal distance is the focus distance at which DoF extends from half that distance to infinity, maximizing sharpness across the entire scene."
+          "heading": "ফোকাল দৈর্ঘ্য ও দূরত্ব",
+          "text": "দীর্ঘ ফোকাল দৈর্ঘ্য ছবিকে বড় করে, যা ব্লার সার্কেলকেও বড় করে, ফলে DoF সংকীর্ণ হয়। সাবজেক্টের কাছাকাছি যাওয়া একই কারণে DoF কমায় — সাবজেক্ট ও ব্যাকগ্রাউন্ডের মধ্যে আপেক্ষিক দূরত্বের পার্থক্য বেড়ে যায়। হাইপারফোকাল দূরত্ব হলো সেই ফোকাস দূরত্ব যেখানে DoF সেই দূরত্বের অর্ধেক থেকে অসীম পর্যন্ত বিস্তৃত হয়, পুরো দৃশ্য জুড়ে শার্পনেস সর্বোচ্চ করে।"
         },
         "2": {
-          "heading": "Bokeh & Diffraction",
-          "text": "Bokeh refers to the quality of the out-of-focus areas. The number and shape of aperture blades affect bokeh character — more rounded blades produce smoother, more circular highlights. At very small apertures (f/16+), diffraction causes light to spread as it passes the aperture edges, softening the entire image even within the DoF zone. There is always a sweet spot — typically around f/5.6-f/8 on full-frame — where sharpness and depth of field are optimally balanced."
+          "heading": "বোকে ও বিবর্তন",
+          "text": "বোকে মানে আউট-অফ-ফোকাস অঞ্চলের গুণমান। অ্যাপারচার ব্লেডের সংখ্যা ও আকৃতি বোকের চরিত্র প্রভাবিত করে — বেশি গোলাকার ব্লেড মসৃণ, বেশি বৃত্তাকার হাইলাইট দেয়। খুব ছোট অ্যাপারচারে (f/16+) বিবর্তন আলোকে অ্যাপারচারের প্রান্ত দিয়ে ছড়িয়ে দেয়, DoF জোনের ভেতরেও পুরো ছবিটিকে নরম করে দেয়। সবসময় একটি সুইট স্পট থাকে — সাধারণত ফুল-ফ্রেমে f/5.6-f/8 এর আশেপাশে — যেখানে শার্পনেস ও ক্ষেত্রের গভীরতা সবচেয়ে ভালো ভারসাম্য হয়।"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Wider apertures (f/1.4-f/2.8) create shallow DoF with creamy bokeh. Narrower apertures (f/8-f/16) increase sharpness throughout the scene."
+          "label": "অ্যাপারচার",
+          "description": "প্রশস্ত অ্যাপারচার (f/1.4-f/2.8) ক্রিমি বোকে সহ কম DoF তৈরি করে। সংকীর্ণ অ্যাপারচার (f/8-f/16) পুরো দৃশ্যে শার্পনেস বাড়ায়।"
         },
         "1": {
-          "label": "Focal Length",
-          "description": "Longer lenses compress perspective and narrow DoF at the same aperture and framing. A 200mm lens at f/4 has far less DoF than a 35mm lens at f/4."
+          "label": "ফোকাল দৈর্ঘ্য",
+          "description": "দীর্ঘ লেন্স একই অ্যাপারচার ও ফ্রেমিংয়ে পরিপ্রেক্ষিত সংকুচিত করে DoF কমায়। 200mm লেন্স f/4-এ 35mm লেন্স f/4-এর চেয়ে অনেক কম DoF দেয়।"
         },
         "2": {
-          "label": "Subject Distance",
-          "description": "The closer you focus, the shallower the DoF. Macro photographers often work with DoF measured in millimeters."
+          "label": "সাবজেক্টের দূরত্ব",
+          "description": "যত কাছে ফোকাস করবে, তত কম DoF। ম্যাক্রো ফটোগ্রাফাররা প্রায়ই মিলিমিটারে পরিমাপ করা DoF নিয়ে কাজ করে।"
         },
         "3": {
-          "label": "Sensor Size",
-          "description": "Larger sensors require longer focal lengths for the same framing, which indirectly narrows DoF. A full-frame camera produces shallower DoF than a Micro Four Thirds camera at equivalent framing."
+          "label": "সেন্সর সাইজ",
+          "description": "বড় সেন্সরে একই ফ্রেমিংয়ের জন্য দীর্ঘ ফোকাল দৈর্ঘ্য লাগে, যা পরোক্ষভাবে DoF কমায়। ফুল-ফ্রেম ক্যামেরা সমতুল্য ফ্রেমিংয়ে Micro Four Thirds-এর চেয়ে কম DoF দেয়।"
         }
       },
       "tips": {
         "0": {
-          "text": "For group portraits, use f/5.6 or narrower and have everyone stand in the same focal plane. Even one person half a step forward can fall out of focus at wide apertures."
+          "text": "গ্রুপ পোর্ট্রেটের জন্য f/5.6 বা সংকীর্ণ ব্যবহার করো এবং সবাইকে একই ফোকাল প্লেনে দাঁড় করাও। প্রশস্ত অ্যাপারচারে একজন আধা পা সামনে দাঁড়ালেই ফোকাসের বাইরে চলে যেতে পারে।"
         },
         "1": {
-          "text": "When shooting landscapes, focus at the hyperfocal distance rather than at infinity. This maximizes the zone of sharpness from the near foreground to the far background."
+          "text": "ল্যান্ডস্কেপ শুট করার সময় অসীমের বদলে হাইপারফোকাল দূরত্বে ফোকাস করো। এটি কাছের ফোরগ্রাউন্ড থেকে দূরের ব্যাকগ্রাউন্ড পর্যন্ত শার্পনেসের জোন সর্বোচ্চ করে।"
         },
         "2": {
-          "text": "If you want maximum background blur for a portrait, increase your focal length and get as close to your subject as framing allows — both changes stack to reduce DoF dramatically."
+          "text": "পোর্ট্রেটে সর্বোচ্চ ব্যাকগ্রাউন্ড ব্লার চাইলে ফোকাল দৈর্ঘ্য বাড়াও এবং ফ্রেমিং যতদূর অনুমতি দেয় সাবজেক্টের তত কাছে যাও — দুটো পরিবর্তন মিলে DoF নাটকীয়ভাবে কমায়।"
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The distance in millimeters from the optical center of the lens to the sensor when focused at infinity. Longer focal lengths magnify the image and narrow the depth of field."
+          "term": "ফোকাল দৈর্ঘ্য",
+          "definition": "অসীমে ফোকাস করা অবস্থায় লেন্সের অপটিক্যাল কেন্দ্র থেকে সেন্সর পর্যন্ত মিলিমিটারে দূরত্ব। দীর্ঘ ফোকাল দৈর্ঘ্য ছবিকে বড় করে এবং ক্ষেত্রের গভীরতা কমায়।"
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The size of the lens opening, expressed as an f-number (e.g., f/2.8). Lower f-numbers mean a wider opening, letting in more light and producing shallower depth of field."
+          "term": "অ্যাপারচার",
+          "definition": "লেন্সের খোলা অংশের আকার, f-নম্বর হিসেবে প্রকাশ করা হয় (যেমন f/2.8)। কম f-নম্বর মানে প্রশস্ত খোলা, বেশি আলো ঢোকা এবং কম ক্ষেত্রের গভীরতা।"
         },
         "subjectDistance": {
-          "term": "Subject Distance",
-          "definition": "The distance from the camera sensor to the point of focus. Closer focus distances result in shallower depth of field."
+          "term": "সাবজেক্টের দূরত্ব",
+          "definition": "ক্যামেরা সেন্সর থেকে ফোকাস বিন্দু পর্যন্ত দূরত্ব। কাছাকাছি ফোকাস দূরত্ব কম ক্ষেত্রের গভীরতা তৈরি করে।"
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical dimensions of the camera sensor. Larger sensors (full-frame, medium format) produce shallower depth of field at equivalent framing compared to smaller sensors (APS-C, Micro Four Thirds)."
+          "term": "সেন্সর সাইজ",
+          "definition": "ক্যামেরা সেন্সরের দৈহিক পরিমাপ। বড় সেন্সর (ফুল-ফ্রেম, মিডিয়াম ফরম্যাট) সমতুল্য ফ্রেমিংয়ে ছোট সেন্সরের (APS-C, Micro Four Thirds) তুলনায় কম ক্ষেত্রের গভীরতা দেয়।"
         },
         "orientation": {
-          "term": "Orientation",
-          "definition": "Toggle between landscape (horizontal) and portrait (vertical) shooting orientation. This affects the framing reference for subject distance calculations."
+          "term": "অরিয়েন্টেশন",
+          "definition": "ল্যান্ডস্কেপ (অনুভূমিক) এবং পোর্ট্রেট (উলম্ব) শুটিং অরিয়েন্টেশনের মধ্যে পরিবর্তন করো। এটি সাবজেক্ট দূরত্ব হিসাবের জন্য ফ্রেমিং রেফারেন্সকে প্রভাবিত করে।"
         },
         "nearFocus": {
-          "term": "Near Focus Limit",
-          "definition": "The closest distance from the camera that appears acceptably sharp. Everything closer than this will appear blurred."
+          "term": "নিকটতম ফোকাস সীমা",
+          "definition": "ক্যামেরা থেকে সবচেয়ে কাছের দূরত্ব যা গ্রহণযোগ্যভাবে তীক্ষ্ণ দেখায়। এর চেয়ে কাছের সবকিছু ঝাপসা দেখাবে।"
         },
         "farFocus": {
-          "term": "Far Focus Limit",
-          "definition": "The farthest distance from the camera that appears acceptably sharp. When this reaches infinity, everything beyond the near limit is in focus."
+          "term": "দূরতম ফোকাস সীমা",
+          "definition": "ক্যামেরা থেকে সবচেয়ে দূরের দূরত্ব যা গ্রহণযোগ্যভাবে তীক্ষ্ণ দেখায়। এটি অসীমে পৌঁছালে নিকটতম সীমার বাইরের সবকিছু ফোকাসে থাকে।"
         },
         "totalDoF": {
-          "term": "Total Depth of Field",
-          "definition": "The full distance between the near and far focus limits — the entire zone that appears sharp in the image."
+          "term": "মোট ক্ষেত্রের গভীরতা",
+          "definition": "নিকটতম ও দূরতম ফোকাস সীমার মধ্যে সম্পূর্ণ দূরত্ব — ছবিতে যে পুরো জোনটি তীক্ষ্ণ দেখায়।"
         },
         "hyperfocal": {
-          "term": "Hyperfocal Distance",
-          "definition": "The focus distance that maximizes depth of field. When you focus at this distance, everything from half the hyperfocal distance to infinity appears sharp."
+          "term": "হাইপারফোকাল দূরত্ব",
+          "definition": "যে ফোকাস দূরত্ব ক্ষেত্রের গভীরতা সর্বোচ্চ করে। এই দূরত্বে ফোকাস করলে হাইপারফোকাল দূরত্বের অর্ধেক থেকে অসীম পর্যন্ত সবকিছু তীক্ষ্ণ দেখায়।"
         },
         "backgroundBlur": {
-          "term": "Background Blur",
-          "definition": "A measure of how blurred the background appears behind your subject. Higher values mean stronger blur and more subject isolation."
+          "term": "ব্যাকগ্রাউন্ড ব্লার",
+          "definition": "সাবজেক্টের পেছনের ব্যাকগ্রাউন্ড কতটা ঝাপসা দেখায় তার একটি পরিমাপ। বেশি মান মানে বেশি ব্লার এবং বেশি সাবজেক্ট বিচ্ছিন্নতা।"
         },
         "coc": {
-          "term": "Circle of Confusion",
-          "definition": "The maximum diameter of a blur spot on the sensor that still appears as a point to the human eye. Determines the boundary of acceptable sharpness for depth-of-field calculations."
+          "term": "সার্কেল অফ কনফিউশন",
+          "definition": "সেন্সরে একটি ব্লার স্পটের সর্বোচ্চ ব্যাস যা এখনো মানুষের চোখে একটি বিন্দু হিসেবে দেখায়। ক্ষেত্রের গভীরতা হিসাবের জন্য গ্রহণযোগ্য শার্পনেসের সীমা নির্ধারণ করে।"
         },
         "isolationScore": {
-          "term": "Isolation Score",
-          "definition": "A composite rating (0-100) indicating how well the subject is separated from the background, based on the amount of background blur relative to the subject size."
+          "term": "আইসোলেশন স্কোর",
+          "definition": "সাবজেক্টের আকারের সাপেক্ষে ব্যাকগ্রাউন্ড ব্লারের পরিমাণের ভিত্তিতে সাবজেক্ট ব্যাকগ্রাউন্ড থেকে কতটা আলাদা তা নির্দেশ করে একটি যৌগিক রেটিং (0-100)।"
         },
         "bokehShape": {
-          "term": "Bokeh Shape",
-          "definition": "The shape of out-of-focus highlights, determined by the number and curvature of aperture blades. More blades produce rounder, smoother bokeh."
+          "term": "বোকে আকৃতি",
+          "definition": "আউট-অফ-ফোকাস হাইলাইটের আকৃতি, অ্যাপারচার ব্লেডের সংখ্যা ও বক্রতা দ্বারা নির্ধারিত। বেশি ব্লেড বেশি গোলাকার, মসৃণ বোকে দেয়।"
         },
         "diffractionWarning": {
-          "term": "Diffraction",
-          "definition": "At very small apertures, light bends around the aperture edges, softening the image. On full-frame sensors, this typically becomes noticeable beyond f/16."
+          "term": "বিবর্তন",
+          "definition": "খুব ছোট অ্যাপারচারে আলো অ্যাপারচারের প্রান্তের চারপাশে বেঁকে যায়, ছবিকে নরম করে। ফুল-ফ্রেম সেন্সরে এটি সাধারণত f/16 এর বাইরে দৃশ্যমান হয়।"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting a portrait and want a beautifully blurred background. Which aperture should you choose?",
-          "hint": "Lower f-numbers mean a wider lens opening and more background blur.",
-          "successMessage": "Correct! A wide aperture like f/1.8 or f/2.8 creates a shallow depth of field, separating your subject from the background with pleasing bokeh.",
-          "failureMessage": "Not quite. Narrow apertures like f/11 or f/16 keep more of the scene in focus. For background blur, choose a wide aperture (low f-number).",
+          "scenario": "তুমি একটি পোর্ট্রেট শ্যুট করছো এবং একটি সুন্দরভাবে ঝাপসা ব্যাকগ্রাউন্ড চাও। কোন অ্যাপারচার বাছাই করা উচিত?",
+          "hint": "কম f-নম্বর মানে প্রশস্ত লেন্স খোলা এবং বেশি ব্যাকগ্রাউন্ড ব্লার।",
+          "successMessage": "সঠিক! f/1.8 বা f/2.8 এর মতো প্রশস্ত অ্যাপারচার কম ক্ষেত্রের গভীরতা তৈরি করে, সুন্দর বোকে সহ সাবজেক্টকে ব্যাকগ্রাউন্ড থেকে আলাদা করে।",
+          "failureMessage": "ঠিক না। f/11 বা f/16 এর মতো সংকীর্ণ অ্যাপারচার বেশি দৃশ্য ফোকাসে রাখে। ব্যাকগ্রাউন্ড ব্লারের জন্য প্রশস্ত অ্যাপারচার (কম f-নম্বর) বেছে নাও।",
           "options": {
             "0": { "label": "f/1.8" },
             "1": { "label": "f/5.6" },
@@ -117,10 +117,10 @@
           }
         },
         "1": {
-          "scenario": "You are photographing a group of 8 people arranged in two rows at a wedding. What aperture will help ensure everyone is in focus?",
-          "hint": "With people at slightly different distances, you need enough depth of field to cover both rows.",
-          "successMessage": "Great choice! f/5.6 provides enough depth of field to keep both rows sharp while still maintaining decent shutter speeds indoors.",
-          "failureMessage": "That aperture may leave the back row out of focus or be unnecessarily narrow. For two rows of people, f/5.6 is a reliable starting point.",
+          "scenario": "তুমি একটি বিয়েতে দুই সারিতে সাজানো ৮ জনের গ্রুপ ছবি তুলছো। কোন অ্যাপারচার সবাইকে ফোকাসে রাখতে সাহায্য করবে?",
+          "hint": "সামান্য ভিন্ন দূরত্বে লোক থাকায়, দুই সারি কভার করতে তোমার যথেষ্ট ক্ষেত্রের গভীরতা দরকার।",
+          "successMessage": "দারুণ পছন্দ! f/5.6 দুই সারিকে তীক্ষ্ণ রাখার জন্য যথেষ্ট ক্ষেত্রের গভীরতা দেয় এবং ইনডোরে যথেষ্ট শাটার স্পিডও ধরে রাখে।",
+          "failureMessage": "ঐ অ্যাপারচার পেছনের সারিকে ফোকাসের বাইরে রাখতে পারে অথবা অপ্রয়োজনীয়ভাবে সংকীর্ণ হতে পারে। দুই সারি লোকের জন্য f/5.6 একটি নির্ভরযোগ্য শুরুর বিন্দু।",
           "options": {
             "0": { "label": "f/1.4" },
             "1": { "label": "f/2.8" },
@@ -129,38 +129,38 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a landscape with wildflowers 2 meters away and mountains in the background. You are using a 24mm lens on a full-frame camera. What technique will maximize sharpness from front to back?",
-          "hint": "There is a specific distance you can focus at that maximizes the sharp zone from foreground to infinity.",
-          "successMessage": "Exactly! Focusing at the hyperfocal distance at f/11 ensures everything from about 1 meter to infinity is acceptably sharp — perfect for this scene.",
-          "failureMessage": "Focusing at infinity would leave the foreground flowers soft. Use the hyperfocal distance to extend sharpness from the near foreground through to infinity.",
+          "scenario": "তুমি 2 মিটার দূরে বুনো ফুল এবং ব্যাকগ্রাউন্ডে পাহাড়সহ একটি ল্যান্ডস্কেপ শুট করছো। ফুল-ফ্রেম ক্যামেরায় 24mm লেন্স ব্যবহার করছো। কোন কৌশল সামনে থেকে পেছন পর্যন্ত শার্পনেস সর্বোচ্চ করবে?",
+          "hint": "একটি নির্দিষ্ট দূরত্বে ফোকাস করলে তুমি ফোরগ্রাউন্ড থেকে অসীম পর্যন্ত তীক্ষ্ণ জোন সর্বোচ্চ করতে পারো।",
+          "successMessage": "ঠিক! f/11-এ হাইপারফোকাল দূরত্বে ফোকাস করলে প্রায় 1 মিটার থেকে অসীম পর্যন্ত সবকিছু গ্রহণযোগ্যভাবে তীক্ষ্ণ থাকবে — এই দৃশ্যের জন্য উপযুক্ত।",
+          "failureMessage": "অসীমে ফোকাস করলে ফোরগ্রাউন্ডের ফুলগুলো নরম থাকবে। ফোরগ্রাউন্ড থেকে অসীম পর্যন্ত শার্পনেস বাড়াতে হাইপারফোকাল দূরত্ব ব্যবহার করো।",
           "options": {
-            "0": { "label": "Focus on the flowers (2m)" },
-            "1": { "label": "Focus on the mountains (infinity)" },
-            "2": { "label": "Focus at the hyperfocal distance" },
-            "3": { "label": "Focus halfway between flowers and mountains" }
+            "0": { "label": "ফুলের উপর ফোকাস (2m)" },
+            "1": { "label": "পাহাড়ের উপর ফোকাস (অসীম)" },
+            "2": { "label": "হাইপারফোকাল দূরত্বে ফোকাস" },
+            "3": { "label": "ফুল ও পাহাড়ের মাঝামাঝি ফোকাস" }
           }
         },
         "3": {
-          "scenario": "You are doing macro photography of a flower and notice only the front petals are sharp. The rest of the flower fades to blur. You are at f/5.6. What should you do to get more of the flower in focus?",
-          "hint": "At close focus distances, DoF becomes extremely thin. Consider your aperture.",
-          "successMessage": "Right! Stopping down to f/11 or f/16 increases your razor-thin DoF in macro work. Just watch out for diffraction softening at very small apertures.",
-          "failureMessage": "Opening the aperture wider would make DoF even thinner. In macro photography, stopping down (higher f-number) is the primary way to gain more depth.",
+          "scenario": "তুমি একটি ফুলের ম্যাক্রো ফটোগ্রাফি করছো এবং লক্ষ্য করছো শুধু সামনের পাপড়িগুলো তীক্ষ্ণ। বাকি ফুলটি ঝাপসা হয়ে যাচ্ছে। তুমি f/5.6-এ আছো। ফুলটির বেশি অংশ ফোকাসে আনতে কী করবে?",
+          "hint": "কাছের ফোকাস দূরত্বে DoF অত্যন্ত পাতলা হয়ে যায়। তোমার অ্যাপারচার বিবেচনা করো।",
+          "successMessage": "ঠিক! f/11 বা f/16 এ স্টপ ডাউন করলে ম্যাক্রোতে তোমার অতি-পাতলা DoF বাড়বে। শুধু খুব ছোট অ্যাপারচারে বিবর্তনের কারণে নরমতা লক্ষ্য রাখো।",
+          "failureMessage": "অ্যাপারচার আরো প্রশস্ত করলে DoF আরো পাতলা হবে। ম্যাক্রো ফটোগ্রাফিতে, স্টপ ডাউন করা (বেশি f-নম্বর) হলো বেশি গভীরতা পাওয়ার প্রধান উপায়।",
           "options": {
-            "0": { "label": "Open to f/2.8 for more light" },
-            "1": { "label": "Stop down to f/11" },
-            "2": { "label": "Switch to a wider lens" },
-            "3": { "label": "Move farther from the flower" }
+            "0": { "label": "বেশি আলোর জন্য f/2.8 এ খোলো" },
+            "1": { "label": "f/11 এ স্টপ ডাউন করো" },
+            "2": { "label": "প্রশস্ত লেন্সে যাও" },
+            "3": { "label": "ফুল থেকে আরো দূরে সরো" }
           }
         },
         "4": {
-          "scenario": "You are comparing two cameras for portrait work: a full-frame camera with an 85mm f/1.8 lens and a Micro Four Thirds camera with a 42.5mm f/1.8 lens. Both produce equivalent framing. Which camera produces shallower depth of field?",
-          "hint": "Think about equivalent focal lengths and how sensor size affects the DoF calculation at the same f-number.",
-          "successMessage": "Correct! The full-frame camera produces roughly 2 stops shallower DoF. While the MFT lens has the same f-number, the shorter actual focal length (42.5mm vs 85mm) results in deeper depth of field at equivalent framing.",
-          "failureMessage": "Although both lenses are f/1.8, the full-frame camera uses a longer actual focal length for the same framing, producing significantly shallower DoF.",
+          "scenario": "তুমি পোর্ট্রেট কাজের জন্য দুটি ক্যামেরা তুলনা করছো: ফুল-ফ্রেম ক্যামেরায় 85mm f/1.8 লেন্স এবং Micro Four Thirds ক্যামেরায় 42.5mm f/1.8 লেন্স। দুটোই সমতুল্য ফ্রেমিং তৈরি করে। কোন ক্যামেরা কম ক্ষেত্রের গভীরতা দেয়?",
+          "hint": "সমতুল্য ফোকাল দৈর্ঘ্য এবং একই f-নম্বরে সেন্সর সাইজ কীভাবে DoF হিসাবকে প্রভাবিত করে সে সম্পর্কে চিন্তা করো।",
+          "successMessage": "সঠিক! ফুল-ফ্রেম ক্যামেরা প্রায় 2 স্টপ কম DoF তৈরি করে। যদিও MFT লেন্সের একই f-নম্বর আছে, সমতুল্য ফ্রেমিংয়ে ছোট আসল ফোকাল দৈর্ঘ্য (42.5mm বনাম 85mm) বেশি ক্ষেত্রের গভীরতা দেয়।",
+          "failureMessage": "যদিও দুটি লেন্সই f/1.8, ফুল-ফ্রেম ক্যামেরা একই ফ্রেমিংয়ের জন্য দীর্ঘ আসল ফোকাল দৈর্ঘ্য ব্যবহার করে, যা উল্লেখযোগ্যভাবে কম DoF তৈরি করে।",
           "options": {
-            "0": { "label": "Full-frame with 85mm f/1.8" },
-            "1": { "label": "Micro Four Thirds with 42.5mm f/1.8" },
-            "2": { "label": "Both produce identical DoF" }
+            "0": { "label": "ফুল-ফ্রেম 85mm f/1.8 সহ" },
+            "1": { "label": "Micro Four Thirds 42.5mm f/1.8 সহ" },
+            "2": { "label": "দুটোই অভিন্ন DoF দেয়" }
           }
         }
       }

@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "Повернуть",
+      "center": "По центру",
+      "switchToPortrait": "Переключить на портретную",
+      "switchToLandscape": "Переключить на альбомную",
+      "centerOverlays": "Оверлеи по центру",
+      "addLens": "+ Добавить объектив",
       "fovSimulator": "FOV Simulator",
-      "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
-      "embed": "Embed",
-      "reset": "Reset",
-      "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
-      "wide": "wide",
-      "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
+      "sensor": "Матрица",
+      "copyImage": "Копировать изображение",
+      "copyLink": "Копировать ссылку",
+      "embed": "Встроить",
+      "reset": "Сбросить",
+      "frameInfo": "Инфо о кадре",
+      "distance": "Дистанция",
+      "showFramingGuides": "Показывать направляющие кадра",
+      "wide": "широкий",
+      "embedTitle": "Встроить",
+      "closeEmbedModal": "Закрыть окно встраивания",
       "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
-      "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
-      "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "bbcodeLabel": "BBCode (форумы)",
+      "htmlEmbedLabel": "HTML-код для вставки",
+      "copied": "Скопировано",
+      "copy": "Копировать",
+      "cropView": "Вид кропа:",
+      "collapse": "Свернуть",
+      "expand": "Развернуть",
+      "fovComparison": "Сравнение углов обзора",
+      "loadingScene": "Загрузка сцены...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Что такое угол обзора в фотографии?",
+          "answer": "Угол обзора (FOV) — это угловая часть сцены, которую видит объектив вместе с матрицей. Он задаёт, сколько сцены попадёт в кадр, и зависит от фокусного расстояния и размера матрицы."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Как кроп-фактор влияет на угол обзора?",
+          "answer": "Меньшая матрица (больший кроп-фактор) захватывает более узкий угол обзора, чем полный кадр, при том же фокусном. Например, APS-C с кроп-фактором 1.5× превращает 50 мм по углу обзора в аналог 75 мм на полном кадре."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Как связаны угол обзора и фокусное расстояние?",
+          "answer": "Угол обзора и фокусное расстояние обратно пропорциональны. Короткое фокусное (широкоугольник) даёт широкий угол, длинное (телефото) — узкий. Точное значение зависит и от размера матрицы."
         }
       }
     }

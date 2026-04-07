@@ -1,21 +1,21 @@
 {
   "toolUI": {
     "hyperfocal-simulator": {
-      "settings": "Settings",
-      "focalLength": "Focal Length",
-      "aperture": "Aperture",
-      "focusDistance": "Focus Distance:",
+      "settings": "Ajustos",
+      "focalLength": "Distància focal",
+      "aperture": "Diafragma",
+      "focusDistance": "Distància d'enfocament:",
       "sensor": "Sensor",
-      "scene": "Scene:",
-      "sceneLandscape": "Landscape",
-      "sceneStreet": "Street",
-      "hyperfocalDistance": "Hyperfocal Distance",
-      "nearLimit": "Near Limit",
-      "farLimit": "Far Limit",
-      "focusDistanceResult": "Focus Distance",
-      "hyperfocalReference": "Hyperfocal Reference",
-      "sharpToInfinity": "Sharp to infinity",
-      "nearLimitBadge": "Near limit:"
+      "scene": "Escena:",
+      "sceneLandscape": "Paisatge",
+      "sceneStreet": "Carrer",
+      "hyperfocalDistance": "Distància hiperfocal",
+      "nearLimit": "Límit proper",
+      "farLimit": "Límit llunyà",
+      "focusDistanceResult": "Distància d'enfocament",
+      "hyperfocalReference": "Referència hiperfocal",
+      "sharpToInfinity": "Nítid fins a l'infinit",
+      "nearLimitBadge": "Límit proper:"
     }
   }
 }

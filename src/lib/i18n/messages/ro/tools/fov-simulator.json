@@ -1,46 +1,46 @@
 {
   "toolUI": {
     "fov-simulator": {
-      "rotate": "Rotate",
-      "center": "Center",
-      "switchToPortrait": "Switch to portrait",
-      "switchToLandscape": "Switch to landscape",
-      "centerOverlays": "Center overlays",
-      "addLens": "+ Add lens",
+      "rotate": "Rotește",
+      "center": "Centrează",
+      "switchToPortrait": "Comută pe portrait",
+      "switchToLandscape": "Comută pe landscape",
+      "centerOverlays": "Centrează suprapunerile",
+      "addLens": "+ Adaugă obiectiv",
       "fovSimulator": "FOV Simulator",
-      "sensor": "Sensor",
-      "copyImage": "Copy image",
-      "copyLink": "Copy link",
-      "embed": "Embed",
-      "reset": "Reset",
-      "frameInfo": "Frame Info",
-      "distance": "Distance",
-      "showFramingGuides": "Show framing guides",
-      "wide": "wide",
-      "embedTitle": "Embed",
-      "closeEmbedModal": "Close embed modal",
+      "sensor": "Senzor",
+      "copyImage": "Copiază imaginea",
+      "copyLink": "Copiază linkul",
+      "embed": "Încorporează",
+      "reset": "Resetează",
+      "frameInfo": "Informații cadru",
+      "distance": "Distanță",
+      "showFramingGuides": "Afișează ghidajele de încadrare",
+      "wide": "lat",
+      "embedTitle": "Încorporează",
+      "closeEmbedModal": "Închide fereastra de încorporare",
       "markdownLabel": "Markdown (Reddit, GitHub)",
-      "bbcodeLabel": "BBCode (Forums)",
-      "htmlEmbedLabel": "HTML Embed",
-      "copied": "Copied",
-      "copy": "Copy",
-      "cropView": "Crop view:",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "fovComparison": "FOV Comparison",
-      "loadingScene": "Loading scene...",
+      "bbcodeLabel": "BBCode (forumuri)",
+      "htmlEmbedLabel": "Încorporare HTML",
+      "copied": "Copiat",
+      "copy": "Copiază",
+      "cropView": "Vizualizare crop:",
+      "collapse": "Restrânge",
+      "expand": "Extinde",
+      "fovComparison": "Comparație FOV",
+      "loadingScene": "Se încarcă scena...",
       "faq": {
         "what-is-fov": {
-          "question": "What is field of view in photography?",
-          "answer": "Field of view (FOV) is the angular extent of the scene visible through your lens and camera sensor. It determines how much of a scene is captured in a photo and is affected by focal length and sensor size."
+          "question": "Ce este unghiul de vizualizare în fotografie?",
+          "answer": "Unghiul de vizualizare (FOV) este deschiderea unghiulară a scenei vizibile prin obiectiv și senzor. Determină cât din scenă este captat într-o fotografie și este influențat de distanța focală și de dimensiunea senzorului."
         },
         "how-crop-factor-affects-fov": {
-          "question": "How does crop factor affect field of view?",
-          "answer": "A smaller sensor (higher crop factor) captures a narrower field of view than a full-frame sensor at the same focal length. For example, APS-C sensors with a 1.5x crop factor make a 50mm lens behave like a 75mm lens in terms of field of view."
+          "question": "Cum afectează factorul de crop unghiul de vizualizare?",
+          "answer": "Un senzor mai mic (factor de crop mai mare) captează un unghi de vizualizare mai îngust decât un senzor full-frame la aceeași distanță focală. De exemplu, senzorii APS-C cu un factor de crop de 1.5x fac un obiectiv de 50mm să se comporte ca un 75mm în ceea ce privește unghiul de vizualizare."
         },
         "fov-vs-focal-length": {
-          "question": "What is the relationship between FOV and focal length?",
-          "answer": "Field of view and focal length are inversely related. Shorter focal lengths (wide-angle) give a wider field of view, while longer focal lengths (telephoto) give a narrower field of view. The exact FOV also depends on the sensor size."
+          "question": "Care este relația dintre FOV și distanța focală?",
+          "answer": "Unghiul de vizualizare și distanța focală sunt invers proporționale. Distanțele focale mai scurte (unghi larg) dau un unghi mai mare, iar cele mai lungi (tele) dau unul mai îngust. FOV-ul exact depinde și de dimensiunea senzorului."
         }
       }
     }

@@ -1,118 +1,118 @@
 {
   "education": {
     "shutter-speed-visualizer": {
-      "beginner": "The shutter speed guide helps you find the slowest shutter speed you can use while still getting a sharp handheld photo. If your shutter speed is too slow, camera shake from your hands will blur the image. The minimum safe speed depends on your focal length, whether you have image stabilization, and how steady your hands are.",
-      "deeper": "The classic \"reciprocal rule\" states that for sharp handheld photos, your shutter speed should be at least 1/(focal length) seconds — so a 200mm lens needs at least 1/200s. On crop-sensor cameras, you should use the equivalent focal length (e.g., 200mm on a 1.5x crop = 1/300s). Modern in-body stabilization (IBIS) and optical stabilization (OIS) can buy you 3-7 extra stops of handheld leeway, meaning that stabilized 200mm lens might be sharp at 1/15s or even slower. However, stabilization only compensates for camera shake, not subject motion. A person walking toward you at 1/15s will still be blurred regardless of stabilization. For moving subjects, you must select a shutter speed based on the subject's speed and distance, not just the focal length.",
+      "beginner": "Визуализатор выдержки помогает понять, какую минимальную выдержку ещё можно использовать для резкого кадра с рук. Слишком длинная выдержка — и дрожание рук размажет картинку. Минимально безопасная выдержка зависит от фокусного расстояния, наличия стабилизации и того, насколько у тебя твёрдые руки.",
+      "deeper": "Классическое «правило обратной величины» говорит, что для резкой съёмки с рук выдержка должна быть не длиннее 1/(фокусное расстояние) секунды — то есть для 200 мм нужна как минимум 1/200 с. На кропнутых камерах берёшь эквивалентное фокусное (200 мм на кропе 1.5× = 1/300 с). Современная стабилизация в тушке (IBIS) и оптическая в объективе (OIS) дают 3–7 дополнительных ступеней свободы — тот же стабилизированный 200 мм может быть резким на 1/15 с и даже медленнее. Но стабилизация компенсирует только дрожание камеры, а не движение объекта. Идущий навстречу человек на 1/15 с всё равно будет смазан, как ни стабилизируй. Для движущихся объектов выдержка подбирается исходя из их скорости и направления, а не фокусного.",
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify camera shake. The reciprocal rule (1/focal length) is the starting point for determining minimum shutter speed."
+          "label": "Фокусное расстояние",
+          "description": "Длинные фокусные усиливают дрожание камеры. Правило обратной величины (1/фокусное) — отправная точка для минимальной выдержки."
         },
         "1": {
-          "label": "Image Stabilization",
-          "description": "OIS (lens-based) typically provides 2-4 stops of benefit. IBIS (body-based) provides 3-5 stops. Combined OIS+IBIS can achieve 5-7 stops on some systems."
+          "label": "Стабилизация",
+          "description": "OIS (в объективе) обычно даёт 2–4 ступени выигрыша. IBIS (в тушке) — 3–5 ступеней. Совместная работа OIS+IBIS в некоторых системах достигает 5–7 ступеней."
         },
         "2": {
-          "label": "Subject Motion",
-          "description": "Still subjects require only enough speed to counter camera shake. Moving subjects need faster speeds regardless of stabilization: walking (~1/125s), running (~1/500s), vehicles (~1/1000s+)."
+          "label": "Движение объекта",
+          "description": "Статичным объектам нужна только выдержка, компенсирующая дрожание камеры. Движущимся — независимо от стабилизации нужны более короткие выдержки: шаг (~1/125 с), бег (~1/500 с), машины (~1/1000 с и короче)."
         },
         "3": {
-          "label": "Sensor Size (Crop Factor)",
-          "description": "Crop-sensor cameras effectively multiply the focal length for the reciprocal rule. A 50mm lens on a 1.5x crop behaves like 75mm, so you need at least 1/75s."
+          "label": "Размер матрицы (кроп-фактор)",
+          "description": "На кропнутых камерах фокусное для правила обратной величины фактически умножается. 50 мм на кропе 1.5× ведёт себя как 75 мм — нужна не длиннее 1/75 с."
         }
       },
       "tips": {
         "0": {
-          "text": "Brace yourself against a wall, tuck your elbows in, and exhale slowly before pressing the shutter. Good technique can give you 1-2 extra stops of steadiness beyond the reciprocal rule."
+          "text": "Упрись в стену, прижми локти к телу и медленно выдохни перед спуском. Хорошая техника даёт 1–2 дополнительные ступени устойчивости сверх правила обратной величины."
         },
         "1": {
-          "text": "When shooting people, the subject's motion usually dictates your minimum speed, not your focal length. Even with a wide-angle lens and stabilization, a child running requires at least 1/500s."
+          "text": "Снимая людей, минимальную выдержку обычно диктует движение объекта, а не фокусное. Даже с широкоугольником и стабилизацией бегущему ребёнку нужно минимум 1/500 с."
         },
         "2": {
-          "text": "If you are consistently shooting in low light, invest in a camera body with IBIS. The ability to shoot handheld at 1/2s with a wide-angle lens opens up possibilities that no amount of high-ISO performance can match."
+          "text": "Если ты постоянно снимаешь в слабом свете, вложись в тушку с IBIS. Возможность снимать с рук на 1/2 с с широкоугольником открывает то, чего не дашь никаким запасом по ISO."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Directly affects the minimum safe shutter speed through the reciprocal rule: 1/(focal length) for full-frame, adjusted by crop factor for smaller sensors."
+          "term": "Фокусное расстояние",
+          "definition": "Фокусное расстояние объектива в миллиметрах. Напрямую влияет на минимальную безопасную выдержку через правило обратной величины: 1/(фокусное) для полного кадра, с учётом кропа для меньших матриц."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The camera sensor size, which determines the crop factor. APS-C (1.5x) and Micro Four Thirds (2x) multiply the effective focal length, requiring faster shutter speeds for the same lens."
+          "term": "Размер матрицы",
+          "definition": "Размер матрицы задаёт кроп-фактор. APS-C (1.5×) и Micro Four Thirds (2×) умножают эффективное фокусное, поэтому для того же объектива нужны более короткие выдержки."
         },
         "stabilization": {
-          "term": "Image Stabilization",
-          "definition": "Technology that compensates for camera shake. OIS (Optical Image Stabilization) is in the lens, IBIS (In-Body Image Stabilization) is in the camera body. They can work together for maximum benefit."
+          "term": "Стабилизация изображения",
+          "definition": "Система, компенсирующая дрожание камеры. OIS (Optical Image Stabilization) — в объективе, IBIS (In-Body Image Stabilization) — в тушке. Могут работать вместе для максимального эффекта."
         },
         "subjectMotion": {
-          "term": "Subject Motion",
-          "definition": "How fast your subject is moving. Still subjects only need enough shutter speed to counteract camera shake. Moving subjects need faster speeds based on their velocity and direction relative to the camera."
+          "term": "Движение объекта",
+          "definition": "Насколько быстро двигается твой объект. Для статичных объектов хватает выдержки против дрожания камеры. Для движущихся нужно учитывать их скорость и направление относительно камеры."
         },
         "recommendedShutterSpeed": {
-          "term": "Recommended Shutter Speed",
-          "definition": "The minimum shutter speed calculated for your specific combination of focal length, stabilization, sensor, and subject motion. Shooting at this speed or faster should produce sharp results."
+          "term": "Рекомендуемая выдержка",
+          "definition": "Минимальная выдержка, рассчитанная для твоего сочетания фокусного, стабилизации, матрицы и движения объекта. На этой выдержке или быстрее снимок должен получиться резким."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are shooting with a 100mm lens on a full-frame camera with no image stabilization. Your subject is standing still. What is the minimum recommended shutter speed?",
-          "hint": "The reciprocal rule: minimum shutter speed = 1 / focal length.",
-          "successMessage": "Correct! The reciprocal rule says 1/100s for a 100mm lens on full frame. This is the classic starting point for handheld sharpness.",
-          "failureMessage": "For a 100mm lens on full frame with no stabilization, the reciprocal rule gives you 1/100s as the minimum safe shutter speed for static subjects.",
+          "scenario": "Ты снимаешь на 100 мм на полном кадре, без стабилизации. Объект стоит на месте. Какая минимальная рекомендуемая выдержка?",
+          "hint": "Правило обратной величины: минимальная выдержка = 1 / фокусное.",
+          "successMessage": "Верно! Правило обратной величины говорит: 1/100 с для 100 мм на полном кадре. Классическая отправная точка для резкости с рук.",
+          "failureMessage": "Для 100 мм на полном кадре без стабилизации правило обратной величины даёт 1/100 с как минимальную безопасную выдержку для статичного объекта.",
           "options": {
-            "0": { "label": "1/50s" },
-            "1": { "label": "1/100s" },
-            "2": { "label": "1/200s" },
-            "3": { "label": "1/500s" }
+            "0": { "label": "1/50 с" },
+            "1": { "label": "1/100 с" },
+            "2": { "label": "1/200 с" },
+            "3": { "label": "1/500 с" }
           }
         },
         "1": {
-          "scenario": "You are using a 50mm lens on an APS-C camera (1.5x crop factor) with no stabilization. What minimum shutter speed should you use for a still subject?",
-          "hint": "Multiply the focal length by the crop factor before applying the reciprocal rule.",
-          "successMessage": "Right! 50mm x 1.5 = 75mm equivalent, so you need at least 1/75s. In practice, rounding up to 1/80s is the safe choice.",
-          "failureMessage": "On APS-C, the crop factor (1.5x) means a 50mm lens behaves like a 75mm lens. The reciprocal rule gives 1/75s as the minimum speed.",
+          "scenario": "Ты снимаешь на 50 мм на APS-C (кроп 1.5×), без стабилизации. Какая минимальная выдержка нужна для статичного объекта?",
+          "hint": "Сначала умножь фокусное на кроп-фактор, потом применяй правило обратной величины.",
+          "successMessage": "Точно! 50 мм × 1.5 = 75 мм эквивалента, значит нужна минимум 1/75 с. На практике округляют до 1/80 с для запаса.",
+          "failureMessage": "На APS-C кроп-фактор (1.5×) заставляет 50 мм вести себя как 75 мм. Правило обратной величины даёт минимум 1/75 с.",
           "options": {
-            "0": { "label": "1/50s" },
-            "1": { "label": "1/75s (round to 1/80s)" },
-            "2": { "label": "1/100s" },
-            "3": { "label": "1/125s" }
+            "0": { "label": "1/50 с" },
+            "1": { "label": "1/75 с (округлить до 1/80 с)" },
+            "2": { "label": "1/100 с" },
+            "3": { "label": "1/125 с" }
           }
         },
         "2": {
-          "scenario": "You have a 200mm lens with OIS (4 stops of stabilization) on a full-frame body with IBIS (5 stops). Together they provide about 6 stops of combined stabilization. For a still subject, what is the approximate minimum shutter speed?",
-          "hint": "Start with the reciprocal rule (1/200s) and then apply 6 stops of stabilization benefit.",
-          "successMessage": "Correct! Starting at 1/200s and gaining 6 stops: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. About 1/3 second handheld with a 200mm lens — impressive but achievable with modern stabilization!",
-          "failureMessage": "From 1/200s, each stop of stabilization doubles the usable time: 1/200 -> 1/100 -> 1/50 -> 1/25 -> 1/13 -> 1/6 -> 1/3s. Six stops of stabilization with a 200mm lens gives approximately 1/3s.",
+          "scenario": "У тебя 200 мм с OIS (4 ступени стабилизации) на полнокадровой тушке с IBIS (5 ступеней). Вместе получается около 6 ступеней. Какая примерная минимальная выдержка для статичного объекта?",
+          "hint": "Начни с правила обратной величины (1/200 с) и примени 6 ступеней стабилизации.",
+          "successMessage": "Верно! От 1/200 с добавляем 6 ступеней: 1/200 → 1/100 → 1/50 → 1/25 → 1/13 → 1/6 → 1/3 с. Примерно 1/3 секунды с рук на 200 мм — впечатляюще, но реально с современной стабилизацией.",
+          "failureMessage": "От 1/200 с каждая ступень стабилизации удваивает возможное время: 1/200 → 1/100 → 1/50 → 1/25 → 1/13 → 1/6 → 1/3 с. Шесть ступеней стабилизации на 200 мм дают примерно 1/3 с.",
           "options": {
-            "0": { "label": "1/30s" },
-            "1": { "label": "1/8s" },
-            "2": { "label": "~1/3s" },
-            "3": { "label": "1 second" }
+            "0": { "label": "1/30 с" },
+            "1": { "label": "1/8 с" },
+            "2": { "label": "~1/3 с" },
+            "3": { "label": "1 секунда" }
           }
         },
         "3": {
-          "scenario": "You are photographing a friend jogging in a park using a 35mm lens on a full-frame camera with IBIS. Your IBIS gives you 5 stops of stabilization, so the reciprocal rule alone would let you shoot at about 1 second. Should you use 1 second?",
-          "hint": "Stabilization compensates for camera shake, not subject motion.",
-          "successMessage": "Correct! Stabilization only counters camera shake. A jogging person needs at least 1/250s to freeze their motion, regardless of how good your stabilization is.",
-          "failureMessage": "Stabilization cannot freeze a moving subject. For a person jogging, you need at least 1/250s to prevent motion blur, even if your camera could hold steady at 1 second.",
+          "scenario": "Ты снимаешь бегущего по парку друга на 35 мм на полном кадре с IBIS. IBIS даёт 5 ступеней стабилизации, так что правило обратной величины само по себе позволяет снимать примерно на 1 секунде. Стоит ли?",
+          "hint": "Стабилизация компенсирует дрожание камеры, а не движение объекта.",
+          "successMessage": "Верно! Стабилизация борется только с тряской камеры. Бегущему человеку нужна выдержка как минимум 1/250 с, и никакая стабилизация тут не поможет.",
+          "failureMessage": "Стабилизация не замораживает движущийся объект. Для бегущего человека нужно минимум 1/250 с, даже если тушка удержала бы 1 секунду спокойно.",
           "options": {
-            "0": { "label": "Yes — IBIS handles all the motion" },
-            "1": { "label": "No — use at least 1/250s to freeze the jogger" },
-            "2": { "label": "No — use 1/60s as a compromise" },
-            "3": { "label": "It depends on the ISO setting" }
+            "0": { "label": "Да — IBIS справится со всем движением" },
+            "1": { "label": "Нет — нужна минимум 1/250 с, чтобы зафиксировать бегуна" },
+            "2": { "label": "Нет — 1/60 с как компромисс" },
+            "3": { "label": "Зависит от ISO" }
           }
         },
         "4": {
-          "scenario": "You want to create a panning shot of a cyclist — the rider should be sharp while the background shows motion blur streaks. You are using a 70mm lens on full frame. What shutter speed range should you try?",
-          "hint": "Panning intentionally uses a slow shutter speed while tracking the subject. Too fast freezes everything; too slow blurs even the subject.",
-          "successMessage": "Correct! For panning a cyclist, 1/30s to 1/60s is the sweet spot. This is slow enough to blur the background into streaks while your tracking motion keeps the rider relatively sharp. It takes practice — shoot in burst mode and expect many rejects.",
-          "failureMessage": "Panning requires a shutter speed slow enough to blur the background but fast enough that your tracking keeps the subject sharp. For a cyclist, 1/30s to 1/60s is the typical range.",
+          "scenario": "Ты хочешь сделать проводку с велосипедистом: райдер резкий, фон — полосами размытия. Объектив 70 мм на полном кадре. В каком диапазоне выдержек пробовать?",
+          "hint": "Проводка намеренно использует длинноватую выдержку, пока ты отслеживаешь объект. Слишком быстро — всё резкое, слишком медленно — и объект смазывается.",
+          "successMessage": "Верно! Для проводки с велосипедистом 1/30 — 1/60 с — как раз нужный диапазон. Фон уходит в полосы, а твоё движение камерой держит райдера относительно резким. Навык нужен — снимай серией и готовься к большому проценту брака.",
+          "failureMessage": "Проводка требует выдержки, достаточно длинной, чтобы размыть фон, но достаточно короткой, чтобы объект оставался резким при проведении камеры. Для велосипедиста это обычно 1/30 — 1/60 с.",
           "options": {
-            "0": { "label": "1/1000s to 1/2000s" },
-            "1": { "label": "1/250s to 1/500s" },
-            "2": { "label": "1/30s to 1/60s" },
-            "3": { "label": "1s to 2s" }
+            "0": { "label": "1/1000 — 1/2000 с" },
+            "1": { "label": "1/250 — 1/500 с" },
+            "2": { "label": "1/30 — 1/60 с" },
+            "3": { "label": "1–2 с" }
           }
         }
       }

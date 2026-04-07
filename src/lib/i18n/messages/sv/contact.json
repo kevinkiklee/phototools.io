@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "Kontakta oss",
+    "description": "Har du en fråga, hittat en bugg eller vill föreslå ett nytt verktyg? Vi hör gärna från dig.",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email",
-      "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "nameLabel": "Namn",
+      "namePlaceholder": "Ditt namn",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "din@email.se",
+      "subjectLabel": "Ämne",
+      "subjectPlaceholder": "Vad gäller det?",
+      "messageLabel": "Meddelande",
+      "messagePlaceholder": "Ditt meddelande ...",
+      "submit": "Skicka meddelande",
+      "sending": "Skickar ...",
+      "honeypotLabel": "Webbplats",
+      "successToast": "Meddelandet är skickat! Vi hör av oss snart.",
+      "errorToast": "Något gick fel. Försök igen.",
+      "networkErrorToast": "Nätverksfel. Kontrollera din anslutning och försök igen.",
+      "sentTitle": "Tack för att du hörde av dig!",
+      "sentMessage": "Vi återkommer så snart vi kan.",
+      "sendAnother": "Skicka ett nytt meddelande"
     }
   }
 }

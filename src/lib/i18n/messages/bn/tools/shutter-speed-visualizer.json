@@ -1,13 +1,13 @@
 {
   "toolUI": {
     "shutter-speed-visualizer": {
-      "description": "See how shutter speed affects motion blur for different subjects.",
+      "description": "বিভিন্ন সাবজেক্টের জন্য শাটার স্পিড কীভাবে মোশন ব্লারকে প্রভাবিত করে দেখো।",
       "shutterSpeed": "Shutter Speed",
       "shutterSpeedAriaLabel": "Shutter speed",
       "sliderSlow": "Slow (2s)",
       "sliderFast": "Fast (1/4000)",
       "selectedSpeed": "Selected Speed",
-      "motionBlurAriaLabel": "Motion blur visualization for different subjects",
+      "motionBlurAriaLabel": "বিভিন্ন সাবজেক্টের জন্য মোশন ব্লার ভিজ্যুয়ালাইজেশন",
       "verdictFrozen": "Frozen",
       "verdictMostlySharp": "Mostly sharp",
       "verdictSlightBlur": "Slight blur",

@@ -1,27 +1,27 @@
 {
   "about": {
-    "title": "About PhotoTools",
-    "subtitle": "Free photography education, right in your browser.",
+    "title": "Despre PhotoTools",
+    "subtitle": "Educație foto gratuită, direct în browserul tău.",
     "sections": {
       "whatIs": {
-        "title": "What is PhotoTools?",
-        "body": "PhotoTools is a free collection of interactive photography calculators, simulators, and reference tools. Whether you're learning the exposure triangle for the first time or calculating hyperfocal distance for a landscape shoot, PhotoTools gives you hands-on visual tools to deepen your understanding of photography."
+        "title": "Ce este PhotoTools?",
+        "body": "PhotoTools este o colecție gratuită de calculatoare, simulatoare și unelte de referință interactive pentru fotografie. Fie că abia începi să înțelegi triunghiul expunerii, fie că ai nevoie să calculezi distanța hiperfocală pentru o ieșire la peisaj, aici găsești unelte vizuale practice care te ajută să înțelegi mai bine fotografia."
       },
       "whoIsItFor": {
-        "title": "Who is it for?",
-        "body": "Photographers of all skill levels — from beginners exploring how aperture affects depth of field to experienced shooters planning a star trail session. Every tool includes a learning panel with explanations, key factors, pro tips, and interactive challenges to test your knowledge."
+        "title": "Pentru cine este?",
+        "body": "Pentru fotografi de orice nivel — de la începători care explorează cum afectează diafragma adâncimea câmpului, până la pasionați care planifică o sesiune de star trails. Fiecare unealtă are un panou de învățare cu explicații, factori cheie, sfaturi de pro și provocări interactive prin care îți testezi cunoștințele."
       },
       "privacyFirst": {
-        "title": "Privacy first",
-        "body": "All calculations and simulations run entirely in your browser. Your photos never leave your device — the EXIF Viewer, for example, processes images 100% client-side. No sign-up is required, and no personal data is collected beyond anonymous analytics."
+        "title": "Confidențialitate în primul rând",
+        "body": "Toate calculele și simulările rulează complet în browserul tău. Fotografiile tale nu părăsesc niciodată dispozitivul — EXIF Viewer, de exemplu, procesează imaginile 100% local. Nu-ți cere cont și nu colectăm date personale dincolo de statisticile anonime."
       },
       "builtBy": {
-        "title": "Built by photographers",
-        "body": "PhotoTools is built and maintained by a photographer and software engineer who wanted better visual tools for understanding the technical side of photography. The tools are grounded in real optics and physics — not approximations — so you can trust the results in the field."
+        "title": "Construit de fotografi",
+        "body": "PhotoTools este creat și întreținut de un fotograf și inginer software care și-a dorit unelte vizuale mai bune pentru a înțelege partea tehnică a fotografiei. Uneltele se bazează pe optică și fizică reală — nu pe aproximări — așa că te poți baza pe rezultate și pe teren."
       },
       "getInTouch": {
-        "title": "Get in touch",
-        "body": "Have a suggestion, bug report, or tool idea? Reach out via the <contactLink>contact page</contactLink>."
+        "title": "Ia legătura",
+        "body": "Ai o sugestie, un bug de raportat sau o idee de unealtă? Scrie-ne prin <contactLink>pagina de contact</contactLink>."
       }
     }
   }

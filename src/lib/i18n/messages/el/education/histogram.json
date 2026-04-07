@@ -1,80 +1,80 @@
 {
   "education": {
     "histogram": {
-      "beginner": "A histogram is a graph that shows how bright or dark the pixels in your photo are. The left side represents shadows (dark areas), the middle represents midtones, and the right side represents highlights (bright areas). If the graph is bunched up on one side, your photo may be underexposed or overexposed.",
-      "deeper": "A histogram plots pixel count (vertical axis) against brightness level (horizontal axis, 0-255 for 8-bit images). In luminance mode, each pixel brightness is calculated as a weighted average of red, green, and blue channels (typically 0.299R + 0.587G + 0.114B, matching human perception). RGB mode shows three separate distributions, revealing which color channels may be clipping independently — a red channel pushed to 255 while blue is fine indicates highlight clipping in warm tones, such as a sunset sky. \"Clipping\" occurs when pixel values hit the 0 or 255 boundary, meaning shadow or highlight detail has been irrecoverably lost. Black clipping (pixels at 0) loses shadow detail; white clipping (pixels at 255) loses highlight detail. Shooting RAW gives roughly 2-3 extra stops of recoverable highlight headroom beyond what the JPEG histogram shows, which is why many photographers \"expose to the right\" (ETTR) — pushing exposure as bright as possible without clipping the RAW data.",
+      "beginner": "Το ιστόγραμμα είναι ένα γράφημα που δείχνει πόσο φωτεινά ή σκοτεινά είναι τα pixel στη φωτογραφία σου. Η αριστερή πλευρά αντιπροσωπεύει τις σκιές (σκοτεινές περιοχές), το κέντρο τους μεσαίους τόνους και η δεξιά τα φώτα (φωτεινές περιοχές). Αν το γράφημα είναι μαζεμένο στη μία πλευρά, η φωτογραφία σου μπορεί να είναι υποεκτεθειμένη ή υπερεκτεθειμένη.",
+      "deeper": "Το ιστόγραμμα χαρτογραφεί τον αριθμό των pixel (κάθετος άξονας) σε σχέση με το επίπεδο φωτεινότητας (οριζόντιος άξονας, 0-255 για 8-bit εικόνες). Στη λειτουργία luminance, η φωτεινότητα κάθε pixel υπολογίζεται ως σταθμισμένος μέσος όρος των καναλιών κόκκινου, πράσινου και μπλε (τυπικά 0.299R + 0.587G + 0.114B, ταιριάζοντας με την ανθρώπινη αντίληψη). Η λειτουργία RGB δείχνει τρεις ξεχωριστές κατανομές, αποκαλύπτοντας ποια κανάλια χρώματος μπορεί να φτάνουν στο clipping ανεξάρτητα — ένα κόκκινο κανάλι στο 255 ενώ το μπλε είναι εντάξει δείχνει clipping στα φώτα σε ζεστούς τόνους, όπως ένας ουρανός στο ηλιοβασίλεμα. Το «clipping» συμβαίνει όταν οι τιμές pixel χτυπούν το όριο 0 ή 255, δηλαδή η λεπτομέρεια σε σκιές ή φώτα έχει χαθεί οριστικά. Το black clipping (pixel στο 0) χάνει λεπτομέρεια στις σκιές, το white clipping (pixel στο 255) χάνει λεπτομέρεια στα φώτα. Η λήψη σε RAW δίνει περίπου 2-3 επιπλέον stops ανακτήσιμου headroom στα φώτα πέρα από αυτό που δείχνει το ιστόγραμμα του JPEG, γι' αυτό πολλοί φωτογράφοι «εκθέτουν δεξιά» (ETTR) — σπρώχνοντας την έκθεση όσο πιο φωτεινή γίνεται χωρίς να κόβουν τα RAW δεδομένα.",
       "keyFactors": {
         "0": {
-          "label": "Tonal Distribution",
-          "description": "The overall shape tells you whether the image is dark (left-heavy), bright (right-heavy), or balanced (spread across the range)."
+          "label": "Κατανομή τόνων",
+          "description": "Το συνολικό σχήμα σου λέει αν η εικόνα είναι σκοτεινή (αριστερή βαρύτητα), φωτεινή (δεξιά βαρύτητα) ή ισορροπημένη (απλωμένη σε όλο το εύρος)."
         },
         "1": {
           "label": "Clipping",
-          "description": "Spikes at the far left or right edges indicate lost detail in shadows or highlights."
+          "description": "Οι αιχμές στις αριστερές ή δεξιές άκρες δείχνουν χαμένη λεπτομέρεια σε σκιές ή φώτα."
         },
         "2": {
-          "label": "Channel Separation",
-          "description": "RGB mode reveals individual color channel behavior — useful for detecting color-specific clipping in saturated scenes."
+          "label": "Διαχωρισμός καναλιών",
+          "description": "Η λειτουργία RGB αποκαλύπτει τη συμπεριφορά κάθε χρωματικού καναλιού ξεχωριστά — χρήσιμη για να εντοπίσεις clipping ειδικό για χρώμα σε κορεσμένες σκηνές."
         },
         "3": {
-          "label": "Dynamic Range",
-          "description": "A histogram that spans the full width without clipping indicates good use of the available dynamic range."
+          "label": "Δυναμικό εύρος",
+          "description": "Ένα ιστόγραμμα που εκτείνεται σε όλο το εύρος χωρίς clipping δείχνει καλή αξιοποίηση του διαθέσιμου δυναμικού εύρους."
         }
       },
       "tips": {
         "0": {
-          "text": "There is no \"perfect\" histogram shape. A photo of a black cat on a dark couch should be left-heavy. Judge the histogram against your creative intent, not an ideal curve."
+          "text": "Δεν υπάρχει «τέλειο» σχήμα ιστογράμματος. Μια φωτογραφία μαύρης γάτας σε σκούρο καναπέ πρέπει να είναι αριστερά βαρύ. Κρίνε το ιστόγραμμα με βάση τη δημιουργική σου πρόθεση, όχι μια ιδανική καμπύλη."
         },
         "1": {
-          "text": "Check the RGB overlay mode for sunset and neon-light photos. The red channel often clips long before blue does, causing loss of detail in warm highlights even when the luminance histogram looks fine."
+          "text": "Έλεγξε τη λειτουργία RGB overlay για φωτογραφίες ηλιοβασιλέματος και νέον. Το κόκκινο κανάλι συχνά φτάνει σε clipping πολύ πριν το μπλε, προκαλώντας απώλεια λεπτομέρειας στους ζεστούς τόνους ακόμα και όταν το ιστόγραμμα luminance δείχνει εντάξει."
         },
         "2": {
-          "text": "If you see clipping warnings on both ends simultaneously, the scene likely exceeds your camera dynamic range. Consider bracketing for HDR or using graduated ND filters."
+          "text": "Αν βλέπεις προειδοποιήσεις clipping και στις δύο άκρες ταυτόχρονα, η σκηνή πιθανώς ξεπερνά το δυναμικό εύρος της κάμεράς σου. Σκέψου bracketing για HDR ή φίλτρα διαβαθμιζόμενα ND."
         }
       },
       "tooltips": {
         "View Mode": {
-          "term": "View Mode",
-          "definition": "Luminance shows overall brightness. RGB Overlay shows all three color channels overlaid. All Channels shows RGB plus luminance together."
+          "term": "Λειτουργία προβολής",
+          "definition": "Το Luminance δείχνει τη συνολική φωτεινότητα. Το RGB Overlay δείχνει και τα τρία κανάλια χρώματος σε υπέρθεση. Το All Channels δείχνει τα RGB μαζί με το luminance."
         },
         "Shadows": {
-          "term": "Shadows",
-          "definition": "The leftmost region of the histogram (roughly 0-85), representing the darkest tones in the image."
+          "term": "Σκιές",
+          "definition": "Η αριστερή περιοχή του ιστογράμματος (περίπου 0-85), που αντιπροσωπεύει τους πιο σκοτεινούς τόνους της εικόνας."
         },
         "Midtones": {
-          "term": "Midtones",
-          "definition": "The center region (roughly 86-170), representing medium brightness — skin tones and most natural textures fall here."
+          "term": "Μεσαίοι τόνοι",
+          "definition": "Η κεντρική περιοχή (περίπου 86-170), που αντιπροσωπεύει μέτρια φωτεινότητα — οι τόνοι δέρματος και οι περισσότερες φυσικές υφές εμπίπτουν εδώ."
         },
         "Highlights": {
-          "term": "Highlights",
-          "definition": "The rightmost region (roughly 171-255), representing the brightest tones: skies, reflections, and light sources."
+          "term": "Φώτα",
+          "definition": "Η δεξιά περιοχή (περίπου 171-255), που αντιπροσωπεύει τους πιο φωτεινούς τόνους: ουρανούς, αντανακλάσεις και πηγές φωτός."
         },
         "Black Clipping": {
           "term": "Black Clipping",
-          "definition": "The percentage of pixels at brightness 0 (pure black). High values mean shadow detail has been lost and cannot be recovered."
+          "definition": "Το ποσοστό των pixel σε φωτεινότητα 0 (καθαρό μαύρο). Υψηλές τιμές σημαίνουν ότι η λεπτομέρεια στις σκιές έχει χαθεί και δεν μπορεί να ανακτηθεί."
         },
         "White Clipping": {
           "term": "White Clipping",
-          "definition": "The percentage of pixels at brightness 255 (pure white). High values mean highlight detail has been blown out."
+          "definition": "Το ποσοστό των pixel σε φωτεινότητα 255 (καθαρό λευκό). Υψηλές τιμές σημαίνουν ότι η λεπτομέρεια στα φώτα έχει καεί."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You upload a photo and the histogram is pushed heavily to the left with almost nothing on the right side. What does this tell you about the image?",
-          "hint": "Left = dark, right = bright.",
-          "successMessage": "Correct! A left-heavy histogram means the image is mostly dark tones — it may be underexposed, or it could be an intentionally dark/low-key image.",
-          "failureMessage": "A histogram bunched to the left indicates the image is predominantly dark. This often means underexposure.",
+          "scenario": "Ανεβάζεις μια φωτογραφία και το ιστόγραμμα είναι σπρωγμένο βαριά αριστερά με σχεδόν τίποτα στη δεξιά πλευρά. Τι σου λέει αυτό για την εικόνα;",
+          "hint": "Αριστερά = σκοτεινό, δεξιά = φωτεινό.",
+          "successMessage": "Σωστά! Ένα ιστόγραμμα με αριστερή βαρύτητα σημαίνει ότι η εικόνα είναι κυρίως σκοτεινοί τόνοι — μπορεί να είναι υποεκτεθειμένη ή μια σκόπιμα σκοτεινή/low-key εικόνα.",
+          "failureMessage": "Ένα ιστόγραμμα μαζεμένο αριστερά δείχνει ότι η εικόνα είναι κυρίως σκοτεινή. Αυτό συχνά σημαίνει υποέκθεση.",
           "options": {
-            "0": { "label": "The image is underexposed or very dark" },
-            "1": { "label": "The image is overexposed or very bright" },
-            "2": { "label": "The image has perfect exposure" }
+            "0": { "label": "Η εικόνα είναι υποεκτεθειμένη ή πολύ σκοτεινή" },
+            "1": { "label": "Η εικόνα είναι υπερεκτεθειμένη ή πολύ φωτεινή" },
+            "2": { "label": "Η εικόνα έχει τέλεια έκθεση" }
           }
         },
         "1": {
-          "scenario": "Which view mode should you use to see the overall brightness distribution of your photo in a single graph?",
-          "hint": "One mode combines all color information into a single brightness curve.",
-          "successMessage": "Right! Luminance mode shows a single curve representing overall perceived brightness.",
-          "failureMessage": "Luminance mode is the simplest view — it combines R, G, B into one brightness curve.",
+          "scenario": "Ποια λειτουργία προβολής πρέπει να χρησιμοποιήσεις για να δεις τη συνολική κατανομή φωτεινότητας της φωτογραφίας σου σε ένα γράφημα;",
+          "hint": "Μια λειτουργία συνδυάζει όλες τις χρωματικές πληροφορίες σε μία καμπύλη φωτεινότητας.",
+          "successMessage": "Σωστά! Η λειτουργία Luminance δείχνει μια καμπύλη που αντιπροσωπεύει τη συνολική αντιληπτή φωτεινότητα.",
+          "failureMessage": "Η λειτουργία Luminance είναι η απλούστερη προβολή — συνδυάζει R, G, B σε μία καμπύλη φωτεινότητας.",
           "options": {
             "0": { "label": "Luminance" },
             "1": { "label": "RGB Overlay" },
@@ -82,36 +82,36 @@
           }
         },
         "2": {
-          "scenario": "You shot a vivid sunset and the luminance histogram looks fine, but when you switch to RGB Overlay you see the red channel spiking at the far right. What is happening?",
-          "hint": "Individual color channels can clip even when the overall luminance does not.",
-          "successMessage": "Exactly! The red channel is clipping — the sunset highlights have lost detail in the red tones even though overall brightness looks acceptable. You are losing warm color nuances.",
-          "failureMessage": "The red channel is clipping independently. Saturated warm highlights (sunsets, fire) often push red to 255 while green and blue are fine, losing color detail in those tones.",
+          "scenario": "Τράβηξες ένα ζωντανό ηλιοβασίλεμα και το ιστόγραμμα luminance δείχνει καλό, αλλά όταν γυρνάς σε RGB Overlay βλέπεις το κόκκινο κανάλι να φτάνει στην κορυφή δεξιά. Τι συμβαίνει;",
+          "hint": "Τα ξεχωριστά χρωματικά κανάλια μπορεί να φτάσουν σε clipping ακόμα κι όταν το συνολικό luminance δεν έχει πρόβλημα.",
+          "successMessage": "Ακριβώς! Το κόκκινο κανάλι κόβεται — τα φώτα του ηλιοβασιλέματος έχουν χάσει λεπτομέρεια στους κόκκινους τόνους παρόλο που η συνολική φωτεινότητα φαίνεται αποδεκτή. Χάνεις αποχρώσεις στους ζεστούς τόνους.",
+          "failureMessage": "Το κόκκινο κανάλι κόβεται ανεξάρτητα. Τα κορεσμένα ζεστά φώτα (ηλιοβασιλέματα, φωτιά) συχνά σπρώχνουν το κόκκινο στο 255 ενώ το πράσινο και το μπλε είναι εντάξει, χάνοντας χρωματική λεπτομέρεια σε αυτούς τους τόνους.",
           "options": {
-            "0": { "label": "Red channel clipping — warm highlight detail lost" },
-            "1": { "label": "The image is overexposed overall" },
-            "2": { "label": "The white balance is wrong" }
+            "0": { "label": "Clipping του κόκκινου καναλιού — χάθηκε λεπτομέρεια στα ζεστά φώτα" },
+            "1": { "label": "Η εικόνα είναι συνολικά υπερεκτεθειμένη" },
+            "2": { "label": "Η ισορροπία λευκού είναι λάθος" }
           }
         },
         "3": {
-          "scenario": "The tool reports 2.3% black clipping and 0.1% white clipping. Should you adjust your exposure?",
-          "hint": "Small amounts of clipping are normal — pure black shadows and specular highlights are expected.",
-          "successMessage": "Good judgment! 2.3% black clipping is modest and often just deep shadows or dark edges. 0.1% white clipping is likely specular highlights (sun reflections). This exposure is fine for most purposes.",
-          "failureMessage": "These clipping percentages are quite small. A little black clipping in deep shadows and tiny white clipping from specular highlights is normal and expected. No adjustment needed.",
+          "scenario": "Το εργαλείο αναφέρει 2.3% black clipping και 0.1% white clipping. Πρέπει να προσαρμόσεις την έκθεσή σου;",
+          "hint": "Μικρά ποσά clipping είναι φυσιολογικά — οι καθαρά μαύρες σκιές και τα κατοπτρικά φώτα αναμένονται.",
+          "successMessage": "Καλή κρίση! Το 2.3% black clipping είναι μέτριο και συχνά απλώς βαθιές σκιές ή σκούρες άκρες. Το 0.1% white clipping πιθανότατα είναι κατοπτρικά φώτα (αντανακλάσεις ήλιου). Αυτή η έκθεση είναι εντάξει για τους περισσότερους σκοπούς.",
+          "failureMessage": "Αυτά τα ποσοστά clipping είναι αρκετά μικρά. Λίγο black clipping σε βαθιές σκιές και μικροσκοπικό white clipping από κατοπτρικά φώτα είναι φυσιολογικά και αναμενόμενα. Δεν χρειάζεται προσαρμογή.",
           "options": {
-            "0": { "label": "Increase exposure to reduce black clipping" },
-            "1": { "label": "This is fine — small clipping in shadows and specular highlights is normal" },
-            "2": { "label": "Decrease exposure to eliminate white clipping" }
+            "0": { "label": "Αύξησε την έκθεση για να μειωθεί το black clipping" },
+            "1": { "label": "Είναι εντάξει — μικρό clipping σε σκιές και κατοπτρικά φώτα είναι φυσιολογικό" },
+            "2": { "label": "Μείωσε την έκθεση για να εξαλειφθεί το white clipping" }
           }
         },
         "4": {
-          "scenario": "You are shooting a high-contrast scene: a bride in a white dress standing in a dark cathedral. The histogram shows strong peaks at both extremes with a gap in the midtones. How should you handle this?",
-          "hint": "When the scene dynamic range exceeds the camera sensor range, you need a multi-exposure technique.",
-          "successMessage": "Perfect! This bimodal histogram indicates the scene exceeds your sensor dynamic range. Exposure bracketing (HDR) captures both the dark interior and bright dress detail. Alternatively, use fill flash to lift the shadows.",
-          "failureMessage": "A bimodal histogram (peaks at both extremes, empty middle) means the scene has more dynamic range than your sensor can capture in one shot. Bracket exposures for HDR, or use fill flash to reduce the contrast ratio.",
+          "scenario": "Φωτογραφίζεις σε σκηνή υψηλής αντίθεσης: μια νύφη με λευκό νυφικό μέσα σε σκοτεινό καθεδρικό. Το ιστόγραμμα δείχνει έντονες κορυφές και στα δύο άκρα με κενό στους μεσαίους τόνους. Πώς πρέπει να το χειριστείς;",
+          "hint": "Όταν το δυναμικό εύρος της σκηνής ξεπερνά το εύρος του αισθητήρα, χρειάζεσαι τεχνική πολλαπλής έκθεσης.",
+          "successMessage": "Τέλεια! Αυτό το διμορφικό ιστόγραμμα δείχνει ότι η σκηνή ξεπερνά το δυναμικό εύρος του αισθητήρα σου. Το exposure bracketing (HDR) αποτυπώνει και το σκοτεινό εσωτερικό και τις λεπτομέρειες του νυφικού. Εναλλακτικά, χρησιμοποίησε fill flash για να ανεβάσεις τις σκιές.",
+          "failureMessage": "Ένα διμορφικό ιστόγραμμα (κορυφές και στα δύο άκρα, άδεια μέση) σημαίνει ότι η σκηνή έχει περισσότερο δυναμικό εύρος από όσο μπορεί να συλλάβει ο αισθητήρας σε μία λήψη. Κάνε bracket εκθέσεων για HDR ή χρησιμοποίησε fill flash για να μειώσεις τον λόγο αντίθεσης.",
           "options": {
-            "0": { "label": "Bracket exposures for HDR or use fill flash" },
-            "1": { "label": "Expose for the midtones and hope for the best" },
-            "2": { "label": "Switch to black and white to hide the problem" }
+            "0": { "label": "Bracket εκθέσεων για HDR ή χρήση fill flash" },
+            "1": { "label": "Εκθέτεις για τους μεσαίους τόνους και ελπίζεις για το καλύτερο" },
+            "2": { "label": "Γύρνα σε ασπρόμαυρο για να κρύψεις το πρόβλημα" }
           }
         }
       }

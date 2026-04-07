@@ -1,67 +1,67 @@
 {
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Integritetspolicy",
+    "effectiveDate": "Gäller från: 3 april 2026",
     "sections": {
       "overview": {
-        "title": "Overview",
-        "body": "PhotoTools operates www.phototools.io, a free educational photography resource offering interactive calculators, simulators, and reference tools. This Privacy Policy describes how we collect, use, and handle information when you visit or use our site. By using PhotoTools, you agree to the practices described in this policy."
+        "title": "Översikt",
+        "body": "PhotoTools driver www.phototools.io, en gratis utbildningsresurs för fotografi med interaktiva kalkylatorer, simulatorer och referensverktyg. Den här integritetspolicyn beskriver hur vi samlar in, använder och hanterar information när du besöker eller använder sajten. Genom att använda PhotoTools godkänner du de rutiner som beskrivs här."
       },
       "informationWeCollect": {
-        "title": "Information We Collect",
-        "intro": "We collect minimal information to operate and improve the site:",
-        "analytics": "<strong>Analytics:</strong> We use Google Analytics to understand how visitors use the site (e.g. pages visited, time on page, device type). Analytics data is anonymized — we do not collect personally identifiable information through analytics. IP addresses are anonymized before storage.",
-        "contactForm": "<strong>Contact form:</strong> If you submit the contact form, we collect your name, email address, subject, and message. This information is used solely to respond to your inquiry and is not stored beyond email delivery — it is not saved to a database or retained long-term.",
-        "noAccounts": "<strong>No accounts:</strong> PhotoTools does not require user registration or accounts. We do not collect passwords or payment information."
+        "title": "Information vi samlar in",
+        "intro": "Vi samlar in så lite information som möjligt för att driva och förbättra sajten:",
+        "analytics": "<strong>Analys:</strong> Vi använder Google Analytics för att förstå hur besökare använder sajten (t.ex. vilka sidor som besöks, tid på sidan, enhetstyp). Analysdata är anonymiserad — vi samlar inte in personligt identifierbar information via analys. IP-adresser anonymiseras innan de lagras.",
+        "contactForm": "<strong>Kontaktformulär:</strong> Om du skickar in kontaktformuläret samlar vi in ditt namn, din e-postadress, ditt ämne och ditt meddelande. Informationen används enbart för att svara på din förfrågan och lagras inte längre än den tid det tar att leverera e-postmeddelandet — den sparas inte i någon databas.",
+        "noAccounts": "<strong>Inga konton:</strong> PhotoTools kräver ingen registrering och inga användarkonton. Vi samlar inte in lösenord eller betalningsuppgifter."
       },
       "cookies": {
         "title": "Cookies",
-        "intro": "PhotoTools uses cookies to support analytics and advertising functionality. Specifically:",
-        "analyticsCookies": "<strong>Google Analytics cookies</strong> track site usage in aggregate and anonymized form. These cookies help us understand which tools are most used and how to improve the site.",
-        "adCookies": "<strong>Third-party advertising cookies</strong> may be set by our ad network partners to serve relevant advertisements and measure ad performance.",
-        "control": "You can control or disable cookies through your browser settings. Note that disabling cookies may affect the functionality of some features."
+        "intro": "PhotoTools använder cookies för analys och annonsering. Mer specifikt:",
+        "analyticsCookies": "<strong>Google Analytics-cookies</strong> mäter användning av sajten i aggregerad och anonymiserad form. De hjälper oss att förstå vilka verktyg som används mest och hur vi kan förbättra sajten.",
+        "adCookies": "<strong>Tredjepartscookies för annonsering</strong> kan sättas av våra annonsnätverk för att visa relevanta annonser och mäta annonsprestanda.",
+        "control": "Du kan styra eller stänga av cookies via webbläsarens inställningar. Tänk på att vissa funktioner kan sluta fungera om du stänger av cookies."
       },
       "thirdPartyAdvertising": {
-        "title": "Third-Party Advertising",
-        "body": "PhotoTools displays advertisements served by third-party ad networks. These networks may use cookies and similar tracking technologies to serve ads based on your browsing history and interests (interest-based advertising). We do not control the data practices of these third-party ad networks. For more information, please review the privacy policies of those networks or visit the <naiLink>Network Advertising Initiative opt-out page</naiLink>."
+        "title": "Tredjepartsannonsering",
+        "body": "PhotoTools visar annonser via externa annonsnätverk. Dessa nätverk kan använda cookies och liknande tekniker för att visa annonser baserat på din surfhistorik och dina intressen (intressebaserad annonsering). Vi kontrollerar inte hur dessa tredjepartsnätverk hanterar data. För mer information, läs nätverkens integritetspolicyer eller besök <naiLink>Network Advertising Initiatives opt-out-sida</naiLink>."
       },
       "googleAdSense": {
         "title": "Google AdSense",
-        "body1": "PhotoTools uses Google AdSense to display advertisements. Google AdSense may use cookies and web beacons to serve ads based on your prior visits to this site or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your browsing patterns.",
-        "body2": "You may opt out of personalized advertising by visiting <adsSettingsLink>Google Ads Settings</adsSettingsLink>. For more information about how Google uses data, see <partnerSitesLink>How Google uses data when you use our partners' sites</partnerSitesLink>."
+        "body1": "PhotoTools använder Google AdSense för att visa annonser. Google AdSense kan använda cookies och web beacons för att visa annonser baserat på dina tidigare besök på denna sajt eller andra webbplatser. Googles användning av annonscookies gör det möjligt för Google och deras partner att visa annonser utifrån ditt surfbeteende.",
+        "body2": "Du kan välja bort personaliserad annonsering via <adsSettingsLink>Googles annonsinställningar</adsSettingsLink>. Mer information om hur Google använder data finns på <partnerSitesLink>Så använder Google data när du använder våra partners webbplatser</partnerSitesLink>."
       },
       "cookieConsent": {
-        "title": "Cookie Consent",
-        "body1": "When you first visit PhotoTools, a cookie consent banner is displayed allowing you to accept or reject non-essential cookies. This banner is powered by CookieYes, a Google-certified Consent Management Platform that supports the IAB Transparency and Consent Framework (TCF) v2.3.",
-        "body2": "You can change your consent preferences at any time by clicking the cookie settings link in the footer. If you reject advertising cookies, you will still see ads, but they will not be personalized to your browsing history."
+        "title": "Cookie-samtycke",
+        "body1": "När du besöker PhotoTools för första gången visas en samtyckesruta där du kan acceptera eller avvisa icke-nödvändiga cookies. Rutan drivs av CookieYes, en Google-certifierad samtyckeshanteringsplattform som stöder IAB Transparency and Consent Framework (TCF) v2.3.",
+        "body2": "Du kan när som helst ändra dina samtyckesval genom att klicka på cookie-inställningslänken i sidfoten. Om du avvisar annonscookies kommer du fortfarande att se annonser, men de anpassas inte efter din surfhistorik."
       },
       "ccpa": {
-        "title": "California Residents (CCPA)",
-        "body": "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request its deletion, and opt out of its sale. PhotoTools does not sell personal information. Advertising cookies used by our ad partners may constitute a \"sale\" under the CCPA — you can opt out via the cookie consent banner or by contacting us through our <contactLink>contact page</contactLink>."
+        "title": "Boende i Kalifornien (CCPA)",
+        "body": "Enligt California Consumer Privacy Act (CCPA) har boende i Kalifornien rätt att få veta vilken personlig information som samlas in, begära att den raderas och välja bort försäljning av den. PhotoTools säljer inte personlig information. Annonscookies från våra annonspartner kan räknas som en \"försäljning\" enligt CCPA — du kan välja bort dem via samtyckesrutan eller genom att kontakta oss via vår <contactLink>kontaktsida</contactLink>."
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "intro": "We do not sell, trade, or rent your personal information to third parties. We share data only in the following limited circumstances:",
-        "analytics": "With <strong>Google Analytics</strong> to analyze site traffic and usage patterns, subject to Google's privacy policy.",
-        "advertising": "With <strong>advertising partners</strong> as described above under Third-Party Advertising.",
-        "contactForm": "We do not share contact form submissions with any third party."
+        "title": "Delning av data",
+        "intro": "Vi säljer, byter eller hyr inte ut dina personuppgifter till tredje part. Vi delar data endast i följande begränsade fall:",
+        "analytics": "Med <strong>Google Analytics</strong> för att analysera trafik och användningsmönster, i enlighet med Googles integritetspolicy.",
+        "advertising": "Med <strong>annonspartner</strong> på det sätt som beskrivs ovan under Tredjepartsannonsering.",
+        "contactForm": "Vi delar inte inskick från kontaktformuläret med någon tredje part."
       },
       "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "body": "PhotoTools is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can remove it."
+        "title": "Barns integritet",
+        "body": "PhotoTools riktar sig inte till barn under 13 år. Vi samlar inte medvetet in personuppgifter från barn under 13 år. Om du tror att ett barn under 13 har lämnat personuppgifter till oss, kontakta oss så tar vi bort dem."
       },
       "yourRights": {
-        "title": "Your Rights",
-        "body1": "Depending on your location, you may have rights under laws such as the GDPR (European Union) or CCPA (California) regarding your personal data.",
-        "body2": "Because PhotoTools collects minimal personal data — and does not store contact form submissions long-term — most requests can be addressed simply. You can clear cookies at any time through your browser settings. To exercise any data rights or submit a privacy request, please use our <contactLink>contact page</contactLink>."
+        "title": "Dina rättigheter",
+        "body1": "Beroende på var du bor kan du ha rättigheter enligt lagstiftning som GDPR (EU) eller CCPA (Kalifornien) när det gäller dina personuppgifter.",
+        "body2": "Eftersom PhotoTools samlar in minimalt med personuppgifter — och inte lagrar inskick från kontaktformuläret på längre sikt — kan de flesta förfrågningar hanteras enkelt. Du kan när som helst rensa cookies via webbläsarens inställningar. För att utöva dina rättigheter eller lämna in en integritetsförfrågan, använd vår <contactLink>kontaktsida</contactLink>."
       },
       "changesToPolicy": {
-        "title": "Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. When we do, the updated policy will be posted on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of PhotoTools after any changes constitutes your acceptance of the updated policy."
+        "title": "Ändringar av policyn",
+        "body": "Vi kan uppdatera denna integritetspolicy då och då. När vi gör det publiceras den uppdaterade policyn på denna sida med ett nytt ikraftträdandedatum. Vi rekommenderar att du läser policyn regelbundet. Fortsatt användning av PhotoTools efter ändringar innebär att du accepterar den uppdaterade policyn."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about this Privacy Policy or how we handle your data, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Kontakt",
+        "body": "Om du har frågor om denna integritetspolicy eller om hur vi hanterar dina uppgifter, hör av dig via vår <contactLink>kontaktsida</contactLink>."
       }
     }
   }

@@ -1,128 +1,128 @@
 {
   "common": {
-    "skipToContent": "Skip to content",
+    "skipToContent": "Langkau ke kandungan",
     "nav": {
-      "tools": "Tools",
-      "glossary": "Glossary",
-      "closeMenu": "Close menu",
-      "comingSoon": "Soon",
+      "tools": "Alat",
+      "glossary": "Glosari",
+      "closeMenu": "Tutup menu",
+      "comingSoon": "Akan Datang",
       "categories": {
-        "visualizer": "Visualizers",
-        "calculator": "Calculators",
-        "reference": "Reference",
-        "file-tool": "File Tools"
+        "visualizer": "Visualiser",
+        "calculator": "Kalkulator",
+        "reference": "Rujukan",
+        "file-tool": "Alat Fail"
       }
     },
     "footer": {
-      "glossary": "Glossary",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "cookieSettings": "Cookie Settings"
+      "glossary": "Glosari",
+      "about": "Mengenai",
+      "contact": "Hubungi",
+      "privacy": "Dasar Privasi",
+      "terms": "Terma Perkhidmatan",
+      "cookieSettings": "Tetapan Kuki"
     },
     "theme": {
-      "switchToLight": "Switch to light mode",
-      "switchToDark": "Switch to dark mode"
+      "switchToLight": "Tukar ke mod cerah",
+      "switchToDark": "Tukar ke mod gelap"
     },
     "actions": {
-      "copyImage": "Copy image",
-      "reset": "Reset",
-      "copyLink": "Copy link",
-      "share": "Share",
-      "embed": "Embed"
+      "copyImage": "Salin imej",
+      "reset": "Set semula",
+      "copyLink": "Salin pautan",
+      "share": "Kongsi",
+      "embed": "Benamkan"
     },
     "toast": {
-      "linkCopied": "Link copied!",
-      "imageCopied": "Copied image!",
-      "failedToCopy": "Failed to copy",
-      "copied": "Copied!"
+      "linkCopied": "Pautan disalin!",
+      "imageCopied": "Imej disalin!",
+      "failedToCopy": "Gagal menyalin",
+      "copied": "Disalin!"
     },
     "learn": {
-      "title": "Learn",
-      "openPanel": "Open learn panel",
-      "collapsePanel": "Collapse learn panel",
-      "whatIsThis": "What is this?",
-      "howItWorks": "How it works",
-      "keyFactors": "Key factors",
-      "proTip": "Pro Tip",
-      "challenge": "Challenge",
-      "hint": "Hint: {hint}",
-      "completed": "Completed",
-      "checkAnswer": "Check Answer",
-      "nextChallenge": "Next Challenge",
-      "tryAgain": "Try Again",
-      "resetAll": "Reset all",
-      "resetAllChallenges": "Reset all challenges",
-      "challengeNumber": "Challenge {number}"
+      "title": "Belajar",
+      "openPanel": "Buka panel belajar",
+      "collapsePanel": "Runtuhkan panel belajar",
+      "whatIsThis": "Apa ini?",
+      "howItWorks": "Cara ia berfungsi",
+      "keyFactors": "Faktor utama",
+      "proTip": "Tip Pro",
+      "challenge": "Cabaran",
+      "hint": "Petunjuk: {hint}",
+      "completed": "Selesai",
+      "checkAnswer": "Semak Jawapan",
+      "nextChallenge": "Cabaran Seterusnya",
+      "tryAgain": "Cuba Lagi",
+      "resetAll": "Set semula semua",
+      "resetAllChallenges": "Set semula semua cabaran",
+      "challengeNumber": "Cabaran {number}"
     },
     "share": {
-      "title": "Share & Embed",
-      "closeModal": "Close share modal",
-      "directLink": "Direct Link",
+      "title": "Kongsi & Benamkan",
+      "closeModal": "Tutup modal kongsi",
+      "directLink": "Pautan Terus",
       "markdown": "Markdown (Reddit, GitHub)",
-      "bbcode": "BBCode (Forums)",
-      "htmlEmbed": "HTML Embed",
-      "copy": "Copy",
-      "copied": "Copied"
+      "bbcode": "BBCode (Forum)",
+      "htmlEmbed": "Benam HTML",
+      "copy": "Salin",
+      "copied": "Disalin"
     },
     "draft": {
-      "banner": "Preview — This tool is not yet public"
+      "banner": "Pratonton — Alat ini belum dilancarkan kepada umum"
     },
     "fileUpload": {
-      "dropPrompt": "Drop an image here or click to browse",
-      "tapPrompt": "Tap to choose a photo",
-      "privacy": "Your photos never leave your device",
-      "selectedFile": "Selected file: {fileName}. Click to choose a different image",
-      "defaultLabel": "Your Photo"
+      "dropPrompt": "Lepaskan imej di sini atau klik untuk melayari",
+      "tapPrompt": "Ketuk untuk memilih foto",
+      "privacy": "Foto anda tidak pernah meninggalkan peranti anda",
+      "selectedFile": "Fail dipilih: {fileName}. Klik untuk memilih imej lain",
+      "defaultLabel": "Foto Anda"
     },
     "scene": {
-      "label": "Scene:",
-      "yourPhoto": "Your photo",
-      "removePhoto": "Remove photo",
-      "uploadPhoto": "Upload photo"
+      "label": "Adegan:",
+      "yourPhoto": "Foto anda",
+      "removePhoto": "Buang foto",
+      "uploadPhoto": "Muat naik foto"
     },
     "controls": {
-      "focalLength": "Focal length",
+      "focalLength": "Panjang fokus",
       "aperture": "Aperture",
-      "distance": "Distance",
-      "clickToEnterValue": "Click to enter a value",
-      "decrease": "Decrease",
-      "increase": "Increase"
+      "distance": "Jarak",
+      "clickToEnterValue": "Klik untuk masukkan nilai",
+      "decrease": "Kurangkan",
+      "increase": "Tambahkan"
     },
     "dof": {
-      "depthOfField": "Depth of field: {totalDoF} from {nearFocus} to {farFocus}",
-      "infinity": "Infinity"
+      "depthOfField": "Kedalaman medan: {totalDoF} dari {nearFocus} ke {farFocus}",
+      "infinity": "Infiniti"
     },
     "ad": {
-      "closeAd": "Close advertisement"
+      "closeAd": "Tutup iklan"
     },
     "tooltip": {
       "infoLabel": "Info: {term}"
     },
     "notFound": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist or has been moved.",
-      "backHome": "Back to Home",
-      "popularTools": "Popular Tools"
+      "title": "Halaman Tidak Dijumpai",
+      "message": "Halaman yang anda cari tidak wujud atau telah dipindahkan.",
+      "backHome": "Kembali ke Laman Utama",
+      "popularTools": "Alat Popular"
     },
     "breadcrumb": {
-      "home": "Home"
+      "home": "Laman Utama"
     },
     "relatedTools": {
-      "title": "Related Tools"
+      "title": "Alat Berkaitan"
     },
     "sensors": {
-      "mf_645": "Medium Format (54x40)",
-      "mf": "Medium Format (44x33)",
-      "mf_leica": "Medium Format (45x30)",
+      "mf_645": "Format Sederhana (54x40)",
+      "mf": "Format Sederhana (44x33)",
+      "mf_leica": "Format Sederhana (45x30)",
       "ff": "Full Frame",
       "apsc_n": "APS-C (1.5x)",
       "apsc_c": "APS-C (Canon)",
       "m43": "Micro Four Thirds",
-      "1in": "1\" Sensor",
-      "phone": "Smartphone Flagship (1/1.3\")"
+      "1in": "Sensor 1\"",
+      "phone": "Telefon Pintar Unggulan (1/1.3\")"
     },
-    "legalTranslationDisclaimer": "This page is shown in its original language."
+    "legalTranslationDisclaimer": "Ini adalah terjemahan untuk kemudahan rujukan. Versi Bahasa Inggeris adalah versi yang mengikat dari segi undang-undang. Lihat /en/privacy."
   }
 }

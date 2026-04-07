@@ -1,57 +1,57 @@
 {
   "education": {
     "nd-filter-calculator": {
-      "beginner": "An ND (neutral density) filter is like sunglasses for your camera lens. It reduces the amount of light entering the lens without changing the colors, allowing you to use slower shutter speeds or wider apertures in bright conditions. This is how photographers create silky waterfalls, smooth oceans, or blurred clouds during the day.",
-      "deeper": "ND filters are rated by how many stops of light they block. An ND2 filter (1 stop) halves the light, an ND8 (3 stops) reduces it to 1/8th, and an ND1000 (10 stops) reduces light by a factor of 1024. The naming conventions can be confusing: \"ND8\" means the filter factor is 8 (3 stops), while \"ND 0.9\" uses optical density notation (each 0.3 = 1 stop, so 0.9 = 3 stops). The resulting shutter speed is simply the base speed multiplied by the filter factor. For example, if your unfiltered exposure is 1/125s and you add a 10-stop ND (ND1000), the new shutter speed is 1/125 x 1024 = approximately 8 seconds. Stacking multiple ND filters adds their stop values together but can introduce vignetting and color casts, especially with wide-angle lenses.",
+      "beginner": "Ang ND (neutral density) filter ay parang salamin ng araw para sa lens ng camera mo. Binabawasan nito ang dami ng liwanag na pumapasok sa lens nang hindi nababago ang mga kulay, nagpapahintulot sa iyo na gumamit ng mas mabagal na shutter speed o mas malawak na aperture sa maliwanag na kondisyon. Ito ay kung paano gumagawa ng silky waterfall, smooth na dagat, o blurred cloud ang mga photographer sa araw.",
+      "deeper": "Ang mga ND filter ay nire-rate sa kung ilang stops ng liwanag ang hinaharang. Ang ND2 filter (1 stop) ay hinahati ng kalahati ang liwanag, ang ND8 (3 stops) ay ibinababa ito sa 1/8, at ang ND1000 (10 stops) ay binabawasan ang liwanag ng factor na 1024. Nakakalito ang mga naming convention: ang \"ND8\" ay nangangahulugang ang filter factor ay 8 (3 stops), habang ang \"ND 0.9\" ay gumagamit ng optical density notation (bawat 0.3 = 1 stop, kaya 0.9 = 3 stops). Ang resulting shutter speed ay simpleng ang base speed na na-multiply sa filter factor. Halimbawa, kung ang unfiltered exposure mo ay 1/125s at nagdadagdag ka ng 10-stop ND (ND1000), ang bagong shutter speed ay 1/125 x 1024 = humigit-kumulang 8 segundo. Ang pag-stack ng maraming ND filter ay nag-a-add ng kanilang stop values pero pwedeng mag-introduce ng vignetting at color cast, lalo na sa wide-angle lenses.",
       "keyFactors": {
         "0": {
           "label": "Base Shutter Speed",
-          "description": "The correct exposure time without any filter. Meter the scene first, then calculate the filtered exposure from this starting point."
+          "description": "Ang tamang exposure time nang walang filter. I-meter muna ang eksena, tapos kalkulahin ang filtered exposure mula sa panimulang puntong ito."
         },
         "1": {
           "label": "Filter Strength",
-          "description": "Measured in stops. Each stop doubles the exposure time. Common strengths: 3-stop (ND8), 6-stop (ND64), and 10-stop (ND1000)."
+          "description": "Sinusukat sa stops. Bawat stop ay dinodoble ang exposure time. Mga karaniwang lakas: 3-stop (ND8), 6-stop (ND64), at 10-stop (ND1000)."
         },
         "2": {
-          "label": "Stacking Filters",
-          "description": "You can combine filters by adding their stop values. A 3-stop + 6-stop stack gives 9 stops of reduction. Beware of vignetting on wide-angle lenses."
+          "label": "Pag-stack ng Filters",
+          "description": "Pwede mong pagsamahin ang mga filter sa pamamagitan ng pagdagdag ng kanilang stop values. Ang 3-stop + 6-stop stack ay nagbibigay ng 9 stops ng pagbawas. Mag-ingat sa vignetting sa wide-angle lenses."
         }
       },
       "tips": {
         "0": {
-          "text": "Compose and focus before attaching a strong ND filter. With 10 stops of light reduction, your viewfinder and autofocus will struggle in the dark."
+          "text": "I-compose at mag-focus bago mag-attach ng malakas na ND filter. Sa 10 stops na pagbawas ng liwanag, mahihirapan ang viewfinder at autofocus mo sa dilim."
         },
         "1": {
-          "text": "For seascapes, 1-2 second exposures smooth small ripples into texture while retaining wave structure. Exposures of 30 seconds or more create completely flat, misty water."
+          "text": "Para sa mga seascape, ang 1-2 segundo na exposure ay nagpapa-smooth sa maliliit na ripple habang pinapanatili ang wave structure. Ang mga exposure na 30 segundo o higit pa ay gumagawa ng ganap na patag at maulap na tubig."
         },
         "2": {
-          "text": "Cheap ND filters often add a color cast (usually magenta or brown). Invest in quality glass from reputable brands, or learn to correct the cast in post-processing using a gray card reference."
+          "text": "Ang mga murang ND filter ay madalas nagdadagdag ng color cast (karaniwang magenta o brown). Mamuhunan sa quality glass mula sa mga kilalang brand, o matuto na i-correct ang cast sa post-processing gamit ang gray card reference."
         }
       },
       "tooltips": {
         "baseShutterSpeed": {
           "term": "Base Shutter Speed",
-          "definition": "The shutter speed for a correct exposure without any ND filter attached. This is your starting point — the calculator multiplies it by the filter factor."
+          "definition": "Ang shutter speed para sa tamang exposure nang walang ND filter na naka-attach. Ito ang panimulang punto mo — ini-multiply ito ng calculator sa filter factor."
         },
         "ndFilter": {
           "term": "ND Filter",
-          "definition": "A neutral density filter that uniformly reduces light transmission. Rated by filter factor (ND2, ND4, ND8...) or stops of light reduction. ND2 = 1 stop, ND4 = 2 stops, ND8 = 3 stops, and so on."
+          "definition": "Isang neutral density filter na pantay-pantay na binabawasan ang light transmission. Nire-rate sa filter factor (ND2, ND4, ND8...) o stops ng pagbawas ng liwanag. Ang ND2 = 1 stop, ND4 = 2 stops, ND8 = 3 stops, at iba pa."
         },
         "resultingShutterSpeed": {
           "term": "Resulting Shutter Speed",
-          "definition": "The new shutter speed after accounting for the ND filter. Calculated by multiplying the base shutter speed by the filter factor (e.g., 1/125s x 1024 for a 10-stop ND)."
+          "definition": "Ang bagong shutter speed matapos isaalang-alang ang ND filter. Kinakalkula sa pamamagitan ng pag-multiply ng base shutter speed sa filter factor (hal. 1/125s x 1024 para sa 10-stop ND)."
         },
         "stopsAdded": {
           "term": "Stops Added",
-          "definition": "The number of stops of light reduction the ND filter provides. Each stop doubles the required exposure time. 10 stops means the exposure is 1024 times longer."
+          "definition": "Ang bilang ng stops ng pagbawas ng liwanag na ibinibigay ng ND filter. Bawat stop ay dinodoble ang required na exposure time. Ang 10 stops ay nangangahulugang 1024 beses na mas mahaba ang exposure."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are at a waterfall and your camera meters a correct exposure at 1/125s without any filter. You attach a 3-stop ND filter (ND8). What is the new shutter speed?",
-          "hint": "Each stop doubles the exposure time. 3 stops means 2 x 2 x 2 = 8 times longer.",
-          "successMessage": "Correct! 1/125s x 8 = 1/15s. This is a good start for motion blur in the water, though you might want an even stronger filter for silky smooth results.",
-          "failureMessage": "A 3-stop ND filter multiplies the exposure time by 8 (2^3 = 8). So 1/125s becomes 1/15s.",
+          "scenario": "Nasa talon ka at ang camera mo ay nag-meter ng tamang exposure sa 1/125s nang walang filter. Nag-attach ka ng 3-stop ND filter (ND8). Ano ang bagong shutter speed?",
+          "hint": "Bawat stop ay dinodoble ang exposure time. Ang 3 stops ay nangangahulugang 2 x 2 x 2 = 8 beses na mas mahaba.",
+          "successMessage": "Tama! 1/125s x 8 = 1/15s. Magandang simula ito para sa motion blur sa tubig, bagaman maaaring mas gusto mo ng mas malakas na filter para sa silky smooth na resulta.",
+          "failureMessage": "Ang 3-stop ND filter ay nag-mu-multiply sa exposure time ng 8 (2^3 = 8). Kaya ang 1/125s ay nagiging 1/15s.",
           "options": {
             "0": { "label": "1/60s" },
             "1": { "label": "1/30s" },
@@ -60,10 +60,10 @@
           }
         },
         "1": {
-          "scenario": "You want to create a 30-second exposure of clouds moving across the sky. Without a filter, the correct exposure is 1/30s. How many stops of ND filtration do you need?",
-          "hint": "You need to go from 1/30s to 30s — that is 1/30 x factor = 30, so factor = 900. Find the nearest power of 2.",
-          "successMessage": "Correct! Going from 1/30s to 30s is roughly a 1000x increase, which is about 10 stops. An ND1000 (10-stop) filter gets you to approximately 33 seconds.",
-          "failureMessage": "The ratio is 30 / (1/30) = 900. The nearest power of 2 is 1024 (2^10), so you need a 10-stop ND filter.",
+          "scenario": "Gusto mong gumawa ng 30-segundo na exposure ng mga ulap na gumagalaw sa langit. Nang walang filter, ang tamang exposure ay 1/30s. Gaano karaming stops ng ND filtration ang kailangan mo?",
+          "hint": "Kailangan mong pumunta mula 1/30s sa 30s — iyon ay 1/30 x factor = 30, kaya factor = 900. Hanapin ang pinakamalapit na power of 2.",
+          "successMessage": "Tama! Ang paglipat mula 1/30s sa 30s ay halos 1000x na pagtaas, na mga 10 stops. Ang ND1000 (10-stop) filter ay nagdadala sa iyo sa humigit-kumulang 33 segundo.",
+          "failureMessage": "Ang ratio ay 30 / (1/30) = 900. Ang pinakamalapit na power of 2 ay 1024 (2^10), kaya kailangan mo ng 10-stop ND filter.",
           "options": {
             "0": { "label": "6 stops (ND64)" },
             "1": { "label": "8 stops (ND256)" },
@@ -72,10 +72,10 @@
           }
         },
         "2": {
-          "scenario": "You are shooting a seascape at sunset. The light is fading and your base exposure (no filter) is now 1/4s at f/11, ISO 100. You want 2-minute exposures for ultra-smooth water. What ND filter strength do you need?",
-          "hint": "From 1/4s to 120s is a factor of 480. Find the closest stop value.",
-          "successMessage": "A 9-stop ND would give you 1/4 x 512 = 128 seconds, or just over 2 minutes. Perfect for that misty, ethereal seascape look at sunset.",
-          "failureMessage": "From 0.25s to 120s is about a 480x increase. 2^9 = 512, which is close to 480, so a 9-stop filter gets you to approximately 128 seconds.",
+          "scenario": "Kumukuha ka ng seascape sa sunset. Paunti na ang liwanag at ang base exposure mo (walang filter) ay 1/4s sa f/11, ISO 100. Gusto mo ng 2-minutong exposure para sa ultra-smooth na tubig. Anong ND filter strength ang kailangan mo?",
+          "hint": "Mula 1/4s hanggang 120s ay factor na 480. Hanapin ang pinakamalapit na stop value.",
+          "successMessage": "Ang 9-stop ND ay magbibigay sa iyo ng 1/4 x 512 = 128 segundo, o bahagyang higit sa 2 minuto. Perpekto para sa maulap at ethereal na seascape look sa sunset.",
+          "failureMessage": "Mula 0.25s hanggang 120s ay mga 480x na pagtaas. 2^9 = 512, na malapit sa 480, kaya ang 9-stop filter ay nagdadala sa iyo sa humigit-kumulang 128 segundo.",
           "options": {
             "0": { "label": "6 stops" },
             "1": { "label": "9 stops" },
@@ -84,26 +84,26 @@
           }
         },
         "3": {
-          "scenario": "You want to shoot a portrait at f/1.4 in bright sunlight (base exposure: f/1.4, 1/8000s, ISO 100). Your camera's maximum shutter speed is 1/8000s. Can you shoot at f/1.4 without an ND filter?",
-          "hint": "Check if 1/8000s at f/1.4 and ISO 100 is achievable, or if the scene is still overexposed.",
-          "successMessage": "Correct! On a very bright day (EV 15+), f/1.4 at ISO 100 often needs shutter speeds faster than 1/8000s, which most cameras cannot achieve. A 2-3 stop ND filter lets you shoot wide open without overexposure.",
-          "failureMessage": "In bright sunlight, f/1.4 at ISO 100 may require shutter speeds beyond the camera's 1/8000s limit. An ND filter is essential for wide-aperture shooting in bright conditions.",
+          "scenario": "Gusto mong kumuha ng portrait sa f/1.4 sa maliwanag na sikat ng araw (base exposure: f/1.4, 1/8000s, ISO 100). Ang maximum shutter speed ng camera mo ay 1/8000s. Pwede ka bang kumuha sa f/1.4 nang walang ND filter?",
+          "hint": "Suriin kung ang 1/8000s sa f/1.4 at ISO 100 ay pwedeng makamit, o kung ang eksena ay overexposed pa rin.",
+          "successMessage": "Tama! Sa napakaliwanag na araw (EV 15+), ang f/1.4 sa ISO 100 ay madalas nangangailangan ng shutter speed na mas mabilis kaysa 1/8000s, na hindi kaya ng karamihan ng camera. Ang 2-3 stop ND filter ay nagpapahintulot sa iyo na kumuha nang wide open nang walang overexposure.",
+          "failureMessage": "Sa maliwanag na sikat ng araw, ang f/1.4 sa ISO 100 ay maaaring mangailangan ng shutter speed na lampas sa limitasyon ng camera na 1/8000s. Ang ND filter ay mahalaga para sa wide-aperture shooting sa maliwanag na kondisyon.",
           "options": {
-            "0": { "label": "Yes — 1/8000s is fast enough" },
-            "1": { "label": "No — you likely need a 2-3 stop ND filter" },
-            "2": { "label": "Just raise ISO to compensate" }
+            "0": { "label": "Oo — sapat na ang 1/8000s" },
+            "1": { "label": "Hindi — malamang kailangan mo ng 2-3 stop ND filter" },
+            "2": { "label": "Taasan lang ang ISO para mag-compensate" }
           }
         },
         "4": {
-          "scenario": "You own a 6-stop and a 3-stop ND filter. You stack them on your lens with a base exposure of 1/250s. What is the resulting shutter speed, and what should you watch for with this setup?",
-          "hint": "Add the stop values together, then calculate the new exposure. Think about optical side effects of stacking.",
-          "successMessage": "Correct! 6 + 3 = 9 stops. 1/250 x 512 = approximately 2 seconds. Watch for vignetting (dark corners) on wide-angle lenses and potential color casts from cheap glass.",
-          "failureMessage": "Stacking adds the stop values: 6 + 3 = 9 stops total. 2^9 = 512, so 1/250 x 512 = ~2 seconds. Stacking can also cause vignetting and color casts.",
+          "scenario": "May 6-stop at 3-stop ND filter ka. Inistack mo sila sa lens mo na may base exposure na 1/250s. Ano ang resulting shutter speed, at ano ang dapat mong bantayan sa setup na ito?",
+          "hint": "Pagsama-samahin ang stop values, tapos kalkulahin ang bagong exposure. Isipin ang optical side effects ng pag-stack.",
+          "successMessage": "Tama! 6 + 3 = 9 stops. 1/250 x 512 = humigit-kumulang 2 segundo. Bantayan ang vignetting (madidilim na sulok) sa wide-angle lens at potensyal na color cast mula sa murang baso.",
+          "failureMessage": "Ang pag-stack ay nag-a-add ng stop values: 6 + 3 = 9 stops kabuuan. 2^9 = 512, kaya 1/250 x 512 = ~2 segundo. Ang pag-stack ay maaari ring maging sanhi ng vignetting at color cast.",
           "options": {
-            "0": { "label": "~0.5s, watch for lens flare" },
-            "1": { "label": "~2s, watch for vignetting and color casts" },
-            "2": { "label": "~4s, watch for sensor overheating" },
-            "3": { "label": "~8s, no concerns with stacking" }
+            "0": { "label": "~0.5s, bantayan ang lens flare" },
+            "1": { "label": "~2s, bantayan ang vignetting at color cast" },
+            "2": { "label": "~4s, bantayan ang sensor overheating" },
+            "3": { "label": "~8s, walang dapat alalahanin sa pag-stack" }
           }
         }
       }

@@ -1,147 +1,147 @@
 {
   "education": {
     "star-trail-calculator": {
-      "beginner": "Stars appear to move across the sky because the Earth rotates. If your shutter is open long enough, stars will streak into trails in your photo. The star trail calculator helps you find the maximum exposure time for pinpoint stars, or plan long exposures to create beautiful circular star trail arcs.",
+      "beginner": "Stjernene ser ut til å bevege seg over himmelen fordi jorda roterer. Er lukkeren åpen lenge nok, strekker stjernene seg til spor i bildet. Stjernespor-kalkulatoren hjelper deg å finne maks eksponeringstid for skarpe stjerner, eller planlegge lange eksponeringer for vakre sirkulære stjernespor.",
       "deeper": {
         "0": {
-          "heading": "How Stars Move",
-          "text": "The Earth rotates 360\u00b0 in approximately 23 hours and 56 minutes (a sidereal day), so stars move at about 15 arcseconds per second at the celestial equator. Stars near the poles (Polaris in the north) trace smaller circles and appear to move more slowly."
+          "heading": "Hvordan stjernene beveger seg",
+          "text": "Jorda roterer 360° på cirka 23 timer og 56 minutter (et stjernedøgn), så stjernene beveger seg rundt 15 buesekunder per sekund ved himmelekvator. Stjerner nær polene (Polaris i nord) lager mindre sirkler og virker å bevege seg langsommere."
         },
         "1": {
-          "heading": "The 500 Rule vs. NPF Rule",
-          "text": "The classic \"500 Rule\" divides 500 by your effective focal length to estimate maximum exposure before trailing is visible — but it was designed for lower-resolution sensors. The NPF Rule accounts for pixel pitch, focal length, aperture, and declination, producing shorter and more accurate limits for modern high-resolution cameras."
+          "heading": "500-regelen vs. NPF-regelen",
+          "text": "Den klassiske «500-regelen» deler 500 på den effektive brennvidden for å anslå maks eksponering før sporingen blir synlig — men den ble laget for sensorer med lavere oppløsning. NPF-regelen tar hensyn til pikselavstand, brennvidde, blender og deklinasjon, og gir kortere og mer nøyaktige grenser for moderne høyoppløste kameraer."
         },
         "2": {
-          "heading": "Stacking for Star Trails",
-          "text": "For intentional star trails, photographers shoot many shorter exposures (typically 30s each) and stack them in software. This avoids noise buildup, allows for gap-free trails, and means a single bad frame doesn't ruin the entire shot."
+          "heading": "Stabling for stjernespor",
+          "text": "For bevisste stjernespor tar fotografer mange kortere eksponeringer (typisk 30 s hver) og stabler dem i programvare. Det unngår støyoppbygging, gir sammenhengende spor uten hull, og sørger for at ett dårlig bilde ikke ødelegger hele opptaket."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Focal Length",
-          "description": "Longer focal lengths magnify star movement, requiring shorter exposures for pinpoint stars. A 14mm lens can expose 5-10 times longer than a 200mm lens."
+          "label": "Brennvidde",
+          "description": "Lange brennvidder forstørrer stjernenes bevegelse og krever kortere eksponeringer for skarpe stjerner. Et 14 mm-objektiv kan eksponere 5–10 ganger lenger enn et 200 mm."
         },
         "1": {
-          "label": "Sensor Resolution",
-          "description": "Higher-resolution sensors reveal star trailing at shorter exposure times. The 500 Rule is too generous for modern 40MP+ cameras."
+          "label": "Sensoroppløsning",
+          "description": "Høyoppløste sensorer avslører stjernesporing ved kortere eksponeringer. 500-regelen er for sjenerøs for moderne 40 MP+-kameraer."
         },
         "2": {
-          "label": "Latitude & Declination",
-          "description": "Stars near the celestial poles move less per second. Pointing toward Polaris allows longer exposures before trails appear."
+          "label": "Breddegrad og deklinasjon",
+          "description": "Stjerner nær himmelpolen beveger seg mindre per sekund. Å peke mot Polaris gir lengre mulig eksponering før spor oppstår."
         },
         "3": {
-          "label": "Stacking vs Single Exposure",
-          "description": "For star trails, stacking many short exposures produces cleaner results than one extremely long exposure, and allows recovery from interruptions."
+          "label": "Stabling vs. enkelteksponering",
+          "description": "For stjernespor gir stabling av mange korte eksponeringer renere resultater enn én ekstremt lang eksponering, og du kan redde arbeidet hvis noe går galt underveis."
         }
       },
       "tips": {
         "0": {
-          "text": "Use the NPF Rule instead of the 500 Rule for modern cameras. It accounts for sensor resolution and produces more accurate maximum exposure times, especially with high-megapixel bodies."
+          "text": "Bruk NPF-regelen i stedet for 500-regelen på moderne kameraer. Den tar hensyn til sensoroppløsning og gir mer nøyaktige maks eksponeringstider, spesielt med mange megapiksler."
         },
         "1": {
-          "text": "For star trail stacking, keep gaps between frames under 2-3 seconds using a wired remote or intervalometer. Longer gaps create dotted rather than smooth trails."
+          "text": "Til stjernespor-stabling bør du holde pausen mellom bildene under 2–3 sekunder med en fjernutløser eller intervallometer. Lengre pauser gir prikkete i stedet for jevne spor."
         },
         "2": {
-          "text": "Include Polaris (or the South Celestial Pole) in your composition for dramatic concentric circle trails. Stars closer to the pole trace tighter arcs."
+          "text": "Inkluder Polaris (eller den sørlige himmelpolen) i komposisjonen for dramatiske konsentriske sirkelspor. Stjerner nær polen tegner tettere buer."
         }
       },
       "tooltips": {
         "mode": {
-          "term": "Mode",
-          "definition": "Choose \"Sharp Stars\" to calculate maximum exposure time for pinpoint stars, or \"Star Trails\" to plan exposure sequences for intentional trail effects."
+          "term": "Modus",
+          "definition": "Velg «Skarpe stjerner» for å regne ut maks eksponeringstid for skarpe stjerner, eller «Stjernespor» for å planlegge eksponeringssekvenser for bevisste sporeffekter."
         },
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths magnify apparent star movement, requiring shorter individual exposures."
+          "term": "Brennvidde",
+          "definition": "Objektivets brennvidde i millimeter. Lange brennvidder forstørrer stjernenes bevegelse og krever kortere enkelteksponeringer."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "The physical sensor dimensions. Combined with resolution, determines pixel pitch, which affects how quickly star trailing becomes visible."
+          "term": "Sensorstørrelse",
+          "definition": "De fysiske sensormålene. Sammen med oppløsningen bestemmer de pikselavstanden, som avgjør hvor fort stjernesporing blir synlig."
         },
         "resolution": {
-          "term": "Resolution",
-          "definition": "The sensor resolution in megapixels. Higher resolution cameras reveal star trailing sooner because each pixel covers a smaller angular area of sky."
+          "term": "Oppløsning",
+          "definition": "Sensoroppløsning i megapiksler. Høyoppløste kameraer avslører stjernesporing raskere fordi hver piksel dekker en mindre del av himmelen."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening. For astrophotography, use the widest aperture available (lowest f-number) to capture the most starlight in each frame."
+          "term": "Blender",
+          "definition": "Objektivets åpning. For astrofoto bør du bruke størst mulig blenderåpning (lavest f-tall) for å fange mest mulig stjernelys i hvert bilde."
         },
         "latitude": {
-          "term": "Latitude",
-          "definition": "Your geographic latitude. Affects the apparent motion rate of stars — at higher latitudes, stars near the pole move more slowly across the frame."
+          "term": "Breddegrad",
+          "definition": "Din geografiske breddegrad. Påvirker stjernenes tilsynelatende bevegelseshastighet — på høye breddegrader beveger stjerner nær polen seg langsommere gjennom utsnittet."
         },
         "exposurePerFrame": {
-          "term": "Exposure Per Frame",
-          "definition": "The shutter speed for each individual frame in a star trail sequence. Typically 15-30 seconds to capture enough light while avoiding excess noise."
+          "term": "Eksponering per bilde",
+          "definition": "Lukkertiden for hvert enkelt bilde i en stjernespor-sekvens. Vanligvis 15–30 sekunder for å fange nok lys uten å få for mye støy."
         },
         "numberOfFrames": {
-          "term": "Number of Frames",
-          "definition": "How many individual exposures to take. More frames mean longer, more dramatic star trails. 120 frames at 30 seconds each produces one hour of trails."
+          "term": "Antall bilder",
+          "definition": "Hvor mange enkelteksponeringer du skal ta. Flere bilder gir lengre og mer dramatiske stjernespor. 120 bilder à 30 sekunder gir én time med spor."
         },
         "gapBetweenFrames": {
-          "term": "Gap Between Frames",
-          "definition": "The time between exposures for the camera to save the file. Keep this as short as possible (1-3 seconds) to avoid dotted trails."
+          "term": "Pause mellom bilder",
+          "definition": "Tiden mellom eksponeringene som kameraet trenger til å lagre filen. Hold denne så kort som mulig (1–3 sekunder) for å unngå prikkete spor."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing the Milky Way with a 24mm lens on a full-frame 24MP camera. Using the 500 Rule, approximately how long can you expose before stars begin to trail?",
-          "hint": "The 500 Rule: maximum seconds = 500 / focal length.",
-          "successMessage": "Right! 500 / 24 = approximately 20 seconds. This is a good starting point, though the NPF Rule might suggest a slightly shorter time for critical sharpness.",
-          "failureMessage": "Apply the 500 Rule: divide 500 by your focal length (24mm). That gives you approximately 20 seconds.",
+          "scenario": "Du fotograferer Melkeveien med et 24 mm-objektiv på et fullformat-kamera med 24 MP. Hvor lenge kan du omtrent eksponere med 500-regelen før stjernene begynner å lage spor?",
+          "hint": "500-regelen: maks sekunder = 500 / brennvidde.",
+          "successMessage": "Riktig! 500 / 24 = cirka 20 sekunder. Det er et godt utgangspunkt, selv om NPF-regelen kanskje foreslår en litt kortere tid for kritisk skarphet.",
+          "failureMessage": "Bruk 500-regelen: del 500 på brennvidden (24 mm). Det gir cirka 20 sekunder.",
           "options": {
-            "0": { "label": "5 seconds" },
-            "1": { "label": "10 seconds" },
-            "2": { "label": "20 seconds" },
-            "3": { "label": "60 seconds" }
+            "0": { "label": "5 sekunder" },
+            "1": { "label": "10 sekunder" },
+            "2": { "label": "20 sekunder" },
+            "3": { "label": "60 sekunder" }
           }
         },
         "1": {
-          "scenario": "You want to photograph the Orion Nebula with a 200mm lens on a crop-sensor camera (1.5x crop factor). What is the approximate max exposure using the 500 Rule?",
-          "hint": "With a crop sensor, multiply the focal length by the crop factor first, then apply the rule.",
-          "successMessage": "Correct! The effective focal length is 200mm x 1.5 = 300mm. 500 / 300 = ~1.7 seconds. At telephoto lengths on crop sensors, you have very little time before trailing appears.",
-          "failureMessage": "Remember to account for the crop factor: 200mm x 1.5 = 300mm effective. Then 500 / 300 gives about 1.7 seconds.",
+          "scenario": "Du vil fotografere Oriontåken med et 200 mm-objektiv på et cropsensor-kamera (cropfaktor 1,5x). Hva er omtrent maks eksponering med 500-regelen?",
+          "hint": "På cropsensor multipliserer du først brennvidden med cropfaktoren, så bruker du regelen.",
+          "successMessage": "Riktig! Effektiv brennvidde er 200 mm × 1,5 = 300 mm. 500 / 300 = cirka 1,7 sekunder. På telebrennvidder med cropsensor har du veldig lite tid før sporing dukker opp.",
+          "failureMessage": "Husk å regne med cropfaktoren: 200 mm × 1,5 = 300 mm effektivt. Så gir 500 / 300 cirka 1,7 sekunder.",
           "options": {
-            "0": { "label": "~1.7 seconds" },
-            "1": { "label": "~2.5 seconds" },
-            "2": { "label": "~5 seconds" },
-            "3": { "label": "~10 seconds" }
+            "0": { "label": "~1,7 sekunder" },
+            "1": { "label": "~2,5 sekunder" },
+            "2": { "label": "~5 sekunder" },
+            "3": { "label": "~10 sekunder" }
           }
         },
         "2": {
-          "scenario": "You want to create a 2-hour star trail photo. You plan to shoot 30-second exposures with 2-second gaps. How many frames will you need?",
-          "hint": "Calculate how many 32-second intervals (30s exposure + 2s gap) fit into 2 hours (7200 seconds).",
-          "successMessage": "Correct! 7200 seconds / 32 seconds per frame = 225 frames. You will get smooth, continuous trails across 2 hours of Earth rotation.",
-          "failureMessage": "Two hours = 7200 seconds. Each frame cycle is 30s + 2s = 32s. Divide 7200 by 32 to get the number of frames needed.",
+          "scenario": "Du vil lage et 2-timers stjernespor-bilde. Planen er å ta 30-sekunders eksponeringer med 2 sekunders pause. Hvor mange bilder trenger du?",
+          "hint": "Regn ut hvor mange 32-sekunders intervaller (30 s eksponering + 2 s pause) som passer i 2 timer (7200 sekunder).",
+          "successMessage": "Riktig! 7200 sekunder / 32 sekunder per bilde = 225 bilder. Du får jevne, sammenhengende spor over 2 timer med jordrotasjon.",
+          "failureMessage": "To timer = 7200 sekunder. Hvert bildesyklus er 30 s + 2 s = 32 s. Del 7200 på 32 for å finne antall bilder.",
           "options": {
-            "0": { "label": "120 frames" },
-            "1": { "label": "180 frames" },
-            "2": { "label": "225 frames" },
-            "3": { "label": "240 frames" }
+            "0": { "label": "120 bilder" },
+            "1": { "label": "180 bilder" },
+            "2": { "label": "225 bilder" },
+            "3": { "label": "240 bilder" }
           }
         },
         "3": {
-          "scenario": "Your friend uses a 50MP full-frame camera and followed the 500 Rule with a 20mm lens, getting a 25-second exposure. They complain that stars look like short streaks when zoomed in. Why?",
-          "hint": "The 500 Rule was designed for older, lower-resolution sensors.",
-          "successMessage": "Exactly! The 500 Rule is too generous for high-resolution sensors. A 50MP full-frame sensor has a pixel pitch of about 4.4 micrometers, and the NPF Rule would recommend roughly 10-12 seconds for truly sharp stars.",
-          "failureMessage": "The 500 Rule was created when sensors had far fewer megapixels. With 50MP, each pixel covers a much smaller slice of sky, revealing star motion that was invisible on older cameras.",
+          "scenario": "En venn bruker et 50 MP fullformat-kamera og fulgte 500-regelen med et 20 mm-objektiv, og tok en 25-sekunders eksponering. Hen klager på at stjernene ser ut som små striper når hen zoomer inn. Hvorfor?",
+          "hint": "500-regelen ble laget for eldre sensorer med lavere oppløsning.",
+          "successMessage": "Akkurat! 500-regelen er for sjenerøs for høyoppløste sensorer. En 50 MP fullformat-sensor har pikselavstand rundt 4,4 mikrometer, og NPF-regelen ville anbefalt grovt 10–12 sekunder for virkelig skarpe stjerner.",
+          "failureMessage": "500-regelen ble laget da sensorer hadde langt færre megapiksler. Med 50 MP dekker hver piksel en mye mindre del av himmelen, og avslører bevegelse som var usynlig på eldre kameraer.",
           "options": {
-            "0": { "label": "The lens was out of focus" },
-            "1": { "label": "The 500 Rule is too generous for high-resolution sensors" },
-            "2": { "label": "The camera was shaking in the wind" },
-            "3": { "label": "20mm is too wide for astrophotography" }
+            "0": { "label": "Objektivet var ute av fokus" },
+            "1": { "label": "500-regelen er for sjenerøs for høyoppløste sensorer" },
+            "2": { "label": "Kameraet ristet i vinden" },
+            "3": { "label": "20 mm er for bredt til astrofoto" }
           }
         },
         "4": {
-          "scenario": "You want a 1-hour star trail image. Why do experienced astrophotographers stack many short exposures (e.g., 240 x 15s) instead of taking a single 1-hour exposure?",
-          "hint": "Think about what happens to sensor noise, battery life, and recoverability during an extremely long single exposure.",
-          "successMessage": "Correct! A single hour-long exposure accumulates massive thermal noise, drains the battery, and if anything goes wrong (vibration, dew, a car headlight) the entire shot is ruined. Stacking short frames keeps noise low, lets you remove bad frames, and is far more forgiving.",
-          "failureMessage": "Long single exposures build up severe thermal noise and risk total loss from any interruption. Stacking short frames keeps noise manageable, lets you discard ruined frames, and produces cleaner results.",
+          "scenario": "Du vil ha et 1-times stjernespor-bilde. Hvorfor stabler erfarne astrofotografer mange korte eksponeringer (f.eks. 240 × 15 s) i stedet for én enkelt 1-times eksponering?",
+          "hint": "Tenk på hva som skjer med sensorstøy, batterilevetid og redningsmuligheter ved en svært lang enkelteksponering.",
+          "successMessage": "Riktig! En time lang enkelteksponering gir massiv termisk støy, tapper batteriet, og om noe går galt (vibrasjon, dugg, billys) er hele bildet ødelagt. Stabling av korte bilder holder støyen nede, lar deg forkaste dårlige bilder, og er mye mer tilgivende.",
+          "failureMessage": "Lange enkelteksponeringer bygger opp kraftig termisk støy og kan gå fullstendig tapt ved enhver forstyrrelse. Å stable korte bilder holder støyen under kontroll, lar deg forkaste ødelagte bilder, og gir renere resultater.",
           "options": {
-            "0": { "label": "Stacking produces longer trails than a single exposure" },
-            "1": { "label": "Single exposures cannot record star movement" },
-            "2": { "label": "Stacking reduces noise, allows recovery from interruptions, and saves battery" },
-            "3": { "label": "There is no practical difference — it is purely personal preference" }
+            "0": { "label": "Stabling gir lengre spor enn én enkelteksponering" },
+            "1": { "label": "Enkelteksponeringer kan ikke fange stjernebevegelse" },
+            "2": { "label": "Stabling reduserer støy, lar deg redde opptak, og sparer batteri" },
+            "3": { "label": "Det er ingen praktisk forskjell — det er bare en smakssak" }
           }
         }
       }

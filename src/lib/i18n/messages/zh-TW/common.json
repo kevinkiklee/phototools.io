@@ -1,128 +1,128 @@
 {
   "common": {
-    "skipToContent": "Skip to content",
+    "skipToContent": "跳至主要內容",
     "nav": {
-      "tools": "Tools",
-      "glossary": "Glossary",
-      "closeMenu": "Close menu",
-      "comingSoon": "Soon",
+      "tools": "工具",
+      "glossary": "術語表",
+      "closeMenu": "關閉選單",
+      "comingSoon": "即將推出",
       "categories": {
-        "visualizer": "Visualizers",
-        "calculator": "Calculators",
-        "reference": "Reference",
-        "file-tool": "File Tools"
+        "visualizer": "視覺化工具",
+        "calculator": "計算機",
+        "reference": "參考資料",
+        "file-tool": "檔案工具"
       }
     },
     "footer": {
-      "glossary": "Glossary",
-      "about": "About",
-      "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "cookieSettings": "Cookie Settings"
+      "glossary": "術語表",
+      "about": "關於",
+      "contact": "聯絡我們",
+      "privacy": "隱私權政策",
+      "terms": "服務條款",
+      "cookieSettings": "Cookie 設定"
     },
     "theme": {
-      "switchToLight": "Switch to light mode",
-      "switchToDark": "Switch to dark mode"
+      "switchToLight": "切換至淺色模式",
+      "switchToDark": "切換至深色模式"
     },
     "actions": {
-      "copyImage": "Copy image",
-      "reset": "Reset",
-      "copyLink": "Copy link",
-      "share": "Share",
-      "embed": "Embed"
+      "copyImage": "複製圖片",
+      "reset": "重設",
+      "copyLink": "複製連結",
+      "share": "分享",
+      "embed": "嵌入"
     },
     "toast": {
-      "linkCopied": "Link copied!",
-      "imageCopied": "Copied image!",
-      "failedToCopy": "Failed to copy",
-      "copied": "Copied!"
+      "linkCopied": "連結已複製！",
+      "imageCopied": "圖片已複製！",
+      "failedToCopy": "複製失敗",
+      "copied": "已複製！"
     },
     "learn": {
-      "title": "Learn",
-      "openPanel": "Open learn panel",
-      "collapsePanel": "Collapse learn panel",
-      "whatIsThis": "What is this?",
-      "howItWorks": "How it works",
-      "keyFactors": "Key factors",
-      "proTip": "Pro Tip",
-      "challenge": "Challenge",
-      "hint": "Hint: {hint}",
-      "completed": "Completed",
-      "checkAnswer": "Check Answer",
-      "nextChallenge": "Next Challenge",
-      "tryAgain": "Try Again",
-      "resetAll": "Reset all",
-      "resetAllChallenges": "Reset all challenges",
-      "challengeNumber": "Challenge {number}"
+      "title": "學習",
+      "openPanel": "開啟學習面板",
+      "collapsePanel": "收合學習面板",
+      "whatIsThis": "這是什麼？",
+      "howItWorks": "運作原理",
+      "keyFactors": "關鍵因素",
+      "proTip": "專業技巧",
+      "challenge": "挑戰",
+      "hint": "提示：{hint}",
+      "completed": "已完成",
+      "checkAnswer": "檢查答案",
+      "nextChallenge": "下一個挑戰",
+      "tryAgain": "再試一次",
+      "resetAll": "全部重設",
+      "resetAllChallenges": "重設所有挑戰",
+      "challengeNumber": "挑戰 {number}"
     },
     "share": {
-      "title": "Share & Embed",
-      "closeModal": "Close share modal",
-      "directLink": "Direct Link",
-      "markdown": "Markdown (Reddit, GitHub)",
-      "bbcode": "BBCode (Forums)",
-      "htmlEmbed": "HTML Embed",
-      "copy": "Copy",
-      "copied": "Copied"
+      "title": "分享與嵌入",
+      "closeModal": "關閉分享視窗",
+      "directLink": "直接連結",
+      "markdown": "Markdown（Reddit、GitHub）",
+      "bbcode": "BBCode（論壇）",
+      "htmlEmbed": "HTML 嵌入",
+      "copy": "複製",
+      "copied": "已複製"
     },
     "draft": {
-      "banner": "Preview — This tool is not yet public"
+      "banner": "預覽 — 此工具尚未公開"
     },
     "fileUpload": {
-      "dropPrompt": "Drop an image here or click to browse",
-      "tapPrompt": "Tap to choose a photo",
-      "privacy": "Your photos never leave your device",
-      "selectedFile": "Selected file: {fileName}. Click to choose a different image",
-      "defaultLabel": "Your Photo"
+      "dropPrompt": "將圖片拖曳到此處，或點擊瀏覽",
+      "tapPrompt": "點擊選擇照片",
+      "privacy": "您的照片不會離開您的裝置",
+      "selectedFile": "已選擇檔案：{fileName}。點擊選擇其他圖片",
+      "defaultLabel": "您的照片"
     },
     "scene": {
-      "label": "Scene:",
-      "yourPhoto": "Your photo",
-      "removePhoto": "Remove photo",
-      "uploadPhoto": "Upload photo"
+      "label": "場景：",
+      "yourPhoto": "您的照片",
+      "removePhoto": "移除照片",
+      "uploadPhoto": "上傳照片"
     },
     "controls": {
-      "focalLength": "Focal length",
-      "aperture": "Aperture",
-      "distance": "Distance",
-      "clickToEnterValue": "Click to enter a value",
-      "decrease": "Decrease",
-      "increase": "Increase"
+      "focalLength": "焦距",
+      "aperture": "光圈",
+      "distance": "距離",
+      "clickToEnterValue": "點擊輸入數值",
+      "decrease": "減少",
+      "increase": "增加"
     },
     "dof": {
-      "depthOfField": "Depth of field: {totalDoF} from {nearFocus} to {farFocus}",
-      "infinity": "Infinity"
+      "depthOfField": "景深：{totalDoF}，從 {nearFocus} 至 {farFocus}",
+      "infinity": "無限遠"
     },
     "ad": {
-      "closeAd": "Close advertisement"
+      "closeAd": "關閉廣告"
     },
     "tooltip": {
-      "infoLabel": "Info: {term}"
+      "infoLabel": "資訊：{term}"
     },
     "notFound": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist or has been moved.",
-      "backHome": "Back to Home",
-      "popularTools": "Popular Tools"
+      "title": "找不到頁面",
+      "message": "您要找的頁面不存在或已被移動。",
+      "backHome": "返回首頁",
+      "popularTools": "熱門工具"
     },
     "breadcrumb": {
-      "home": "Home"
+      "home": "首頁"
     },
     "relatedTools": {
-      "title": "Related Tools"
+      "title": "相關工具"
     },
     "sensors": {
-      "mf_645": "Medium Format (54x40)",
-      "mf": "Medium Format (44x33)",
-      "mf_leica": "Medium Format (45x30)",
-      "ff": "Full Frame",
+      "mf_645": "中片幅 (54x40)",
+      "mf": "中片幅 (44x33)",
+      "mf_leica": "中片幅 (45x30)",
+      "ff": "全片幅",
       "apsc_n": "APS-C (1.5x)",
       "apsc_c": "APS-C (Canon)",
-      "m43": "Micro Four Thirds",
-      "1in": "1\" Sensor",
-      "phone": "Smartphone Flagship (1/1.3\")"
+      "m43": "M4/3 微型四三",
+      "1in": "1 吋感光元件",
+      "phone": "旗艦智慧型手機 (1/1.3\")"
     },
-    "legalTranslationDisclaimer": "This page is shown in its original language."
+    "legalTranslationDisclaimer": "本頁為方便閱讀之翻譯版本。具法律效力者為英文版本，請參閱 /en/privacy。"
   }
 }

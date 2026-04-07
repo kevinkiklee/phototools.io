@@ -2,63 +2,63 @@
   "tools": {
     "fov-simulator": {
       "name": "FOV Simulator",
-      "description": "Compare field of view across focal lengths and sensor sizes"
+      "description": "বিভিন্ন ফোকাল দৈর্ঘ্য ও সেন্সর সাইজের দৃষ্টিক্ষেত্র তুলনা করো"
     },
     "color-scheme-generator": {
       "name": "Color Scheme Generator",
-      "description": "Build color palettes for photography shoots"
+      "description": "ফটোগ্রাফি শ্যুটের জন্য রঙের প্যালেট তৈরি করো"
     },
     "exposure-simulator": {
-      "name": "Exposure Triangle Simulator",
-      "description": "See how aperture, shutter speed, and ISO interact"
+      "name": "এক্সপোজার ট্রায়াঙ্গেল সিমুলেটর",
+      "description": "অ্যাপারচার, শাটার স্পিড ও ISO কীভাবে একসাথে কাজ করে দেখো"
     },
     "dof-simulator": {
       "name": "Depth-of-Field Simulator",
-      "description": "Visualize how aperture, focal length, and distance affect background blur"
+      "description": "অ্যাপারচার, ফোকাল দৈর্ঘ্য ও দূরত্ব কীভাবে ব্যাকগ্রাউন্ড ঝাপসা করে দেখো"
     },
     "focus-stacking-calculator": {
       "name": "Focus Stacking Calculator",
-      "description": "Calculate optimal focus distances for front-to-back sharpness"
+      "description": "সামনে থেকে পেছন পর্যন্ত শার্পনেসের জন্য সঠিক ফোকাস দূরত্ব বের করো"
     },
     "equivalent-settings-calculator": {
-      "name": "Equivalent Settings Calculator",
-      "description": "Find equivalent aperture and focal length across sensor formats"
+      "name": "সমতুল্য সেটিংস ক্যালকুলেটর",
+      "description": "বিভিন্ন সেন্সর ফরম্যাটের জন্য সমতুল্য অ্যাপারচার ও ফোকাল দৈর্ঘ্য বের করো"
     },
     "hyperfocal-simulator": {
-      "name": "Hyperfocal Distance Simulator",
-      "description": "Learn where to focus for maximum sharpness from foreground to infinity"
+      "name": "হাইপারফোকাল দূরত্ব সিমুলেটর",
+      "description": "সামনে থেকে অসীম পর্যন্ত সর্বোচ্চ শার্পনেসের জন্য কোথায় ফোকাস করবে শেখো"
     },
     "shutter-speed-visualizer": {
       "name": "Shutter Speed Visualizer",
-      "description": "Find the minimum safe shutter speed for sharp handheld shots"
+      "description": "হ্যান্ডহেল্ড শটে শার্প ছবির জন্য সর্বনিম্ন নিরাপদ শাটার স্পিড বের করো"
     },
     "nd-filter-calculator": {
       "name": "ND Filter Calculator",
-      "description": "Calculate exposure time with any ND filter"
+      "description": "যেকোনো ND ফিল্টারের সাথে এক্সপোজার টাইম হিসাব করো"
     },
     "star-trail-calculator": {
       "name": "Star Trail Calculator",
-      "description": "Calculate max exposure for sharp stars or plan star trail shots"
+      "description": "শার্প তারার জন্য সর্বোচ্চ এক্সপোজার হিসাব করো বা স্টার ট্রেইল শট প্ল্যান করো"
     },
     "perspective-compression-simulator": {
-      "name": "Perspective Compression Simulator",
-      "description": "See how focal length affects background compression"
+      "name": "পরিপ্রেক্ষিত সংকোচন সিমুলেটর",
+      "description": "ফোকাল দৈর্ঘ্য কীভাবে ব্যাকগ্রাউন্ড সংকোচন করে দেখো"
     },
     "white-balance-visualizer": {
       "name": "White Balance Visualizer",
-      "description": "See how color temperature affects your photos"
+      "description": "রঙের তাপমাত্রা তোমার ছবিতে কীভাবে প্রভাব ফেলে দেখো"
     },
     "sensor-size-comparison": {
       "name": "Sensor Size Comparison",
-      "description": "Compare camera sensor sizes visually"
+      "description": "ক্যামেরার সেন্সর সাইজ ভিজ্যুয়ালি তুলনা করো"
     },
     "frame-studio": {
       "name": "Frame Studio",
-      "description": "Crop, frame, and compose photos with grid overlays"
+      "description": "গ্রিড ওভারলে দিয়ে ছবি ক্রপ, ফ্রেম এবং কম্পোজ করো"
     },
     "exif-viewer": {
       "name": "EXIF Viewer",
-      "description": "View EXIF metadata and histogram for any photo — 100% client-side"
+      "description": "যেকোনো ছবির EXIF মেটাডেটা ও হিস্টোগ্রাম দেখো — ১০০% ব্রাউজারে"
     }
   }
 }

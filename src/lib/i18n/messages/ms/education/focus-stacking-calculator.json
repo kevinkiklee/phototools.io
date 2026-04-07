@@ -1,110 +1,110 @@
 {
   "education": {
     "focus-stacking-calculator": {
-      "beginner": "Focus stacking is a technique where you take multiple photos at different focus distances and merge them in software to create an image with front-to-back sharpness. It is essential for macro photography, where depth of field is razor-thin, and useful in landscape photography when you need both near foreground and distant background in sharp focus.",
+      "beginner": "Focus stacking ialah teknik di mana anda mengambil beberapa foto pada jarak fokus yang berbeza dan menggabungkannya dalam perisian untuk mencipta imej dengan ketajaman dari depan ke belakang. Ia penting untuk fotografi makro, di mana kedalaman medan sangat nipis, dan berguna dalam fotografi landskap apabila anda memerlukan kedua-dua latar depan dekat dan latar belakang jauh dalam fokus yang tajam.",
       "deeper": {
         "0": {
-          "heading": "Why Stacking Is Necessary",
-          "text": "At macro magnifications, even f/16 may yield only a few millimeters of depth of field. Stopping down further introduces diffraction softening that degrades the image. Focus stacking lets you shoot at the lens's sharpest aperture (typically f/5.6-f/8) and combine the sharp slices. Each frame shifts focus slightly forward, covering a new slice of the subject."
+          "heading": "Mengapa Stacking Diperlukan",
+          "text": "Pada pembesaran makro, walaupun f/16 mungkin hanya menghasilkan beberapa milimeter kedalaman medan. Mengecilkan lagi memperkenalkan pelembutan pembelauan yang merosakkan imej. Focus stacking membolehkan anda menangkap pada aperture paling tajam lensa (biasanya f/5.6-f/8) dan menggabungkan hirisan yang tajam. Setiap bingkai mengalihkan fokus sedikit ke hadapan, meliputi hirisan baharu subjek."
         },
         "1": {
-          "heading": "Planning the Stack",
-          "text": "The key to a successful stack is ensuring each shot's depth of field overlaps the next by 20-30%. Too little overlap creates gaps where nothing is sharp; too much wastes frames without benefit. The calculator determines the per-shot DoF using the circle of confusion formula, subtracts the overlap margin, and divides the total depth range by the effective step to compute the number of shots."
+          "heading": "Merancang Stack",
+          "text": "Kunci kepada stack yang berjaya ialah memastikan kedalaman medan setiap tangkapan bertindih dengan yang seterusnya sebanyak 20-30%. Terlalu sedikit tindihan mencipta jurang di mana tiada apa yang tajam; terlalu banyak membazir bingkai tanpa faedah. Kalkulator menentukan DoF per-tangkapan menggunakan formula bulatan kekeliruan, menolak margin tindihan, dan membahagikan jumlah julat kedalaman dengan langkah berkesan untuk mengira bilangan tangkapan."
         },
         "2": {
-          "heading": "Merging & Alignment",
-          "text": "Software like Photoshop, Helicon Focus, or Zerene Stacker aligns the frames (slight magnification shifts occur as focus changes), then selects the sharpest pixels from each layer. Shooting on a sturdy tripod with consistent lighting and using a focus rail for precise increments produces the cleanest results."
+          "heading": "Menggabung & Penjajaran",
+          "text": "Perisian seperti Photoshop, Helicon Focus atau Zerene Stacker menjajarkan bingkai (perubahan pembesaran sedikit berlaku apabila fokus berubah), kemudian memilih piksel paling tajam dari setiap lapisan. Menangkap pada tripod yang kukuh dengan pencahayaan yang konsisten dan menggunakan rel fokus untuk kenaikan yang tepat menghasilkan hasil yang paling bersih."
         }
       },
       "keyFactors": {
         "0": {
           "label": "Aperture",
-          "description": "Determines per-shot depth of field. A moderate aperture (f/5.6-f/8) balances sharpness and DoF per frame. Avoid very small apertures — diffraction reduces the sharpness you are stacking for."
+          "description": "Menentukan kedalaman medan per-tangkapan. Aperture sederhana (f/5.6-f/8) mengimbangi ketajaman dan DoF per bingkai. Elakkan aperture yang sangat kecil — pembelauan mengurangkan ketajaman yang anda sedang kumpulkan."
         },
         "1": {
-          "label": "Depth Range",
-          "description": "The distance from the nearest to farthest point you want sharp. Wider ranges require more shots. In macro work this may be just centimeters; in landscapes it can span meters to infinity."
+          "label": "Julat Kedalaman",
+          "description": "Jarak dari titik paling dekat hingga paling jauh yang anda mahu tajam. Julat lebih luas memerlukan lebih banyak tangkapan. Dalam kerja makro ini mungkin hanya beberapa sentimeter; dalam landskap ia boleh merentasi meter hingga infiniti."
         },
         "2": {
-          "label": "Overlap",
-          "description": "The percentage of each shot's DoF that overlaps the adjacent shots. 20-30% is standard. Less risks gaps; more wastes frames."
+          "label": "Tindihan",
+          "description": "Peratus DoF setiap tangkapan yang bertindih dengan tangkapan bersebelahan. 20-30% ialah standard. Kurang berisiko menghasilkan jurang; lebih membazir bingkai."
         }
       },
       "tips": {
         "0": {
-          "text": "Use a focus rail instead of the lens's focus ring for macro stacking. A rail moves the entire camera forward in precise increments, avoiding the slight magnification changes that occur when refocusing the lens."
+          "text": "Gunakan rel fokus dan bukan gelang fokus lensa untuk stacking makro. Rel menggerakkan keseluruhan kamera ke hadapan dalam kenaikan yang tepat, mengelakkan perubahan pembesaran kecil yang berlaku apabila memfokus semula lensa."
         },
         "1": {
-          "text": "Keep your aperture at the lens's sweet spot (typically f/5.6-f/8). The point of stacking is to avoid stopping down to f/16+, so use the sharpest aperture and let the stack handle depth."
+          "text": "Kekalkan aperture anda pada sweet spot lensa (biasanya f/5.6-f/8). Tujuan stacking ialah untuk mengelakkan mengecilkan ke f/16+, jadi gunakan aperture paling tajam dan biarkan stack mengendalikan kedalaman."
         },
         "2": {
-          "text": "For landscape stacks, shoot front-to-back: focus on the nearest element first, then step focus toward infinity. This makes alignment easier since the foreground (with the most parallax) is captured first."
+          "text": "Untuk stack landskap, tangkap dari depan ke belakang: fokus pada elemen terdekat dahulu, kemudian alihkan fokus ke arah infiniti. Ini menjadikan penjajaran lebih mudah kerana latar depan (dengan parallax paling banyak) ditangkap dahulu."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths reduce per-shot depth of field, requiring more frames to cover the same depth range."
+          "term": "Panjang Fokus",
+          "definition": "Panjang fokus lensa dalam milimeter. Panjang fokus lebih panjang mengurangkan kedalaman medan per-tangkapan, memerlukan lebih banyak bingkai untuk meliputi julat kedalaman yang sama."
         },
         "aperture": {
           "term": "Aperture",
-          "definition": "The lens opening (f-number). For stacking, use the lens's sharpest aperture rather than stopping down — the stack provides the depth."
+          "definition": "Bukaan lensa (nombor-f). Untuk stacking, gunakan aperture paling tajam lensa dan bukan mengecilkan — stack menyediakan kedalaman."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "Larger sensors have a shallower per-shot depth of field at equivalent framing, which may increase the number of required stack frames."
+          "term": "Saiz Sensor",
+          "definition": "Sensor lebih besar mempunyai kedalaman medan per-tangkapan lebih cetek pada bingkai setara, yang mungkin meningkatkan bilangan bingkai stack yang diperlukan."
         },
         "nearLimit": {
-          "term": "Near Limit",
-          "definition": "The closest point in the scene that you want sharp. This is where the first shot in the stack will be focused."
+          "term": "Had Dekat",
+          "definition": "Titik terdekat dalam adegan yang anda mahu tajam. Di sinilah tangkapan pertama dalam stack akan difokus."
         },
         "farLimit": {
-          "term": "Far Limit",
-          "definition": "The farthest point in the scene that you want sharp. The last shot in the stack will cover this distance."
+          "term": "Had Jauh",
+          "definition": "Titik terjauh dalam adegan yang anda mahu tajam. Tangkapan terakhir dalam stack akan meliputi jarak ini."
         },
         "overlap": {
-          "term": "Overlap",
-          "definition": "The percentage of depth-of-field overlap between consecutive shots. 20-30% ensures no gaps after software alignment and merging."
+          "term": "Tindihan",
+          "definition": "Peratus tindihan kedalaman medan antara tangkapan berturut-turut. 20-30% memastikan tiada jurang selepas penjajaran dan penggabungan perisian."
         },
         "shotCount": {
-          "term": "Shot Count",
-          "definition": "The total number of frames needed to cover the depth range with the specified overlap. More shots = more processing but smoother results."
+          "term": "Kiraan Tangkapan",
+          "definition": "Jumlah bingkai yang diperlukan untuk meliputi julat kedalaman dengan tindihan yang ditentukan. Lebih banyak tangkapan = lebih banyak pemprosesan tetapi hasil lebih lancar."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing a small flower that is 3cm deep from front petal to back stem. Your macro lens at f/8 gives about 4mm of DoF per shot. Roughly how many frames do you need with 25% overlap?",
-          "hint": "Each shot covers 4mm, but 25% overlap means the effective step is 3mm per frame. Divide 30mm by 3mm.",
-          "successMessage": "Correct! With 4mm DoF and 25% overlap, each step advances 3mm. 30mm / 3mm = 10 shots to cover the entire flower.",
-          "failureMessage": "With 25% overlap, each frame's effective step is 75% of the DoF: 4mm × 0.75 = 3mm. You need 30mm / 3mm = 10 shots.",
+          "scenario": "Anda sedang mengambil gambar bunga kecil yang dalamnya 3cm dari kelopak depan hingga batang belakang. Lensa makro anda pada f/8 memberikan kira-kira 4mm DoF per tangkapan. Kira-kira berapa bingkai yang anda perlukan dengan tindihan 25%?",
+          "hint": "Setiap tangkapan meliputi 4mm, tetapi tindihan 25% bermakna langkah berkesan ialah 3mm per bingkai. Bahagikan 30mm dengan 3mm.",
+          "successMessage": "Betul! Dengan DoF 4mm dan tindihan 25%, setiap langkah bergerak 3mm. 30mm / 3mm = 10 tangkapan untuk meliputi keseluruhan bunga.",
+          "failureMessage": "Dengan tindihan 25%, langkah berkesan setiap bingkai ialah 75% daripada DoF: 4mm × 0.75 = 3mm. Anda memerlukan 30mm / 3mm = 10 tangkapan.",
           "options": {
-            "0": { "label": "5 shots" },
-            "1": { "label": "10 shots" },
-            "2": { "label": "20 shots" },
-            "3": { "label": "30 shots" }
+            "0": { "label": "5 tangkapan" },
+            "1": { "label": "10 tangkapan" },
+            "2": { "label": "20 tangkapan" },
+            "3": { "label": "30 tangkapan" }
           }
         },
         "1": {
-          "scenario": "You want the sharpest possible result from your focus stack. Should you shoot each frame at f/2.8, f/8, or f/22?",
-          "hint": "Consider the lens's sharpest aperture and how diffraction affects small apertures.",
-          "successMessage": "Right! f/8 is typically the sharpest aperture for most lenses. f/2.8 has too little DoF per shot (wasting frames) and f/22 suffers from diffraction softening.",
-          "failureMessage": "f/8 is the best choice. f/2.8 gives very thin per-shot DoF (requiring many more frames), and f/22 introduces diffraction softening that defeats the purpose of stacking for sharpness.",
+          "scenario": "Anda mahukan hasil paling tajam yang mungkin dari focus stack anda. Patutkah anda menangkap setiap bingkai pada f/2.8, f/8, atau f/22?",
+          "hint": "Pertimbangkan aperture paling tajam lensa dan bagaimana pembelauan mempengaruhi aperture kecil.",
+          "successMessage": "Betul! f/8 biasanya ialah aperture paling tajam untuk kebanyakan lensa. f/2.8 mempunyai terlalu sedikit DoF per tangkapan (membazir bingkai) dan f/22 mengalami pelembutan pembelauan.",
+          "failureMessage": "f/8 adalah pilihan terbaik. f/2.8 memberikan DoF per-tangkapan yang sangat nipis (memerlukan lebih banyak bingkai), dan f/22 memperkenalkan pelembutan pembelauan yang menghapuskan tujuan stacking untuk ketajaman.",
           "options": {
-            "0": { "label": "f/2.8 — widest for fastest shutter" },
-            "1": { "label": "f/8 — lens sweet spot" },
-            "2": { "label": "f/22 — maximum per-shot DoF" }
+            "0": { "label": "f/2.8 — paling luas untuk pengatup paling pantas" },
+            "1": { "label": "f/8 — sweet spot lensa" },
+            "2": { "label": "f/22 — DoF per tangkapan maksimum" }
           }
         },
         "2": {
-          "scenario": "After merging your focus stack, you notice a soft band across the middle of the image where nothing is sharp. What most likely went wrong?",
-          "hint": "Think about what connects one frame's sharp zone to the next.",
-          "successMessage": "Exactly! Insufficient overlap between adjacent frames creates a gap where neither shot is sharp. Increase overlap to 25-30% and reshoot.",
-          "failureMessage": "A soft band usually means the gap between focus steps was too large — the DoF of adjacent frames did not overlap enough. Increase the overlap percentage.",
+          "scenario": "Selepas menggabungkan focus stack anda, anda perasan jalur lembut melintasi tengah imej di mana tiada apa yang tajam. Apa yang paling mungkin berlaku salah?",
+          "hint": "Fikirkan tentang apa yang menyambungkan zon tajam satu bingkai kepada yang seterusnya.",
+          "successMessage": "Tepat sekali! Tindihan yang tidak mencukupi antara bingkai bersebelahan mencipta jurang di mana tiada tangkapan yang tajam. Tingkatkan tindihan ke 25-30% dan tangkap semula.",
+          "failureMessage": "Jalur lembut biasanya bermakna jurang antara langkah fokus terlalu besar — DoF bingkai bersebelahan tidak bertindih dengan mencukupi. Tingkatkan peratus tindihan.",
           "options": {
-            "0": { "label": "The aperture was too wide" },
-            "1": { "label": "Insufficient overlap between focus steps" },
-            "2": { "label": "The tripod moved during the sequence" },
-            "3": { "label": "The ISO was too high" }
+            "0": { "label": "Aperture terlalu luas" },
+            "1": { "label": "Tindihan tidak mencukupi antara langkah fokus" },
+            "2": { "label": "Tripod bergerak semasa urutan" },
+            "3": { "label": "ISO terlalu tinggi" }
           }
         }
       }

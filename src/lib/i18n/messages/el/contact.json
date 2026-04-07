@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "Επικοινωνία",
+    "description": "Έχεις κάποια ερώτηση, βρήκες bug ή θέλεις να προτείνεις ένα νέο εργαλείο; Θα χαρούμε πολύ να σε ακούσουμε.",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
+      "nameLabel": "Όνομα",
+      "namePlaceholder": "Το όνομά σου",
       "emailLabel": "Email",
       "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
+      "subjectLabel": "Θέμα",
+      "subjectPlaceholder": "Για τι πρόκειται;",
+      "messageLabel": "Μήνυμα",
+      "messagePlaceholder": "Το μήνυμά σου...",
+      "submit": "Αποστολή μηνύματος",
+      "sending": "Αποστολή...",
       "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "successToast": "Το μήνυμα στάλθηκε! Θα επικοινωνήσουμε σύντομα.",
+      "errorToast": "Κάτι πήγε στραβά. Δοκίμασε ξανά.",
+      "networkErrorToast": "Σφάλμα δικτύου. Έλεγξε τη σύνδεσή σου και δοκίμασε ξανά.",
+      "sentTitle": "Ευχαριστούμε για το μήνυμά σου!",
+      "sentMessage": "Θα επικοινωνήσουμε μαζί σου το συντομότερο δυνατό.",
+      "sendAnother": "Στείλε άλλο μήνυμα"
     }
   }
 }

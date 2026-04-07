@@ -1,109 +1,109 @@
 {
   "education": {
     "exposure-simulator": {
-      "beginner": "The exposure triangle describes how three camera settings — aperture, shutter speed, and ISO — work together to control how bright your photo is. Changing one setting requires adjusting at least one of the others to maintain the same brightness. Each setting also has its own creative side effect: aperture controls background blur, shutter speed controls motion blur, and ISO controls image noise.",
-      "deeper": "Exposure is measured in Exposure Value (EV), where each whole EV step represents a doubling or halving of light. An increase of 1 EV (one \"stop\") means twice as much light is reaching the sensor. Aperture follows a geometric progression (f/1.4, f/2, f/2.8, f/4...) where each full stop halves the light entering the lens because the area of the opening is inversely proportional to the square of the f-number. Shutter speed is more intuitive: doubling the time doubles the light. ISO amplifies the signal from the sensor — doubling the ISO doubles the effective brightness but also amplifies noise. In practice, you typically set the parameter that matters most for your creative intent first (aperture for DoF control, shutter for motion), then balance the others. Modern cameras meter in 1/3-stop increments for finer control.",
+      "beginner": "Valotuskolmio kuvaa, miten kamerasi kolme asetusta — aukko, suljinaika ja ISO — toimivat yhdessä kuvasi kirkkauden säätämiseksi. Yhden asetuksen muuttaminen vaatii ainakin yhden muun säätämistä, jotta kirkkaus pysyy samana. Jokaisella asetuksella on myös oma luova sivuvaikutuksensa: aukko säätelee taustan sumennusta, suljinaika liike-epäterävyyttä ja ISO kuvan kohinaa.",
+      "deeper": "Valotus mitataan valotusarvolla (EV), jossa jokainen kokonainen EV-askel tarkoittaa valon kaksinkertaistumista tai puolittumista. 1 EV:n nousu (yksi \"aukko\") tarkoittaa kaksinkertaista valoa kennolle. Aukko noudattaa geometrista etenemistä (f/1.4, f/2, f/2.8, f/4...), jossa jokainen kokonainen aukko puolittaa objektiiviin tulevan valon, koska aukon pinta-ala on kääntäen verrannollinen f-luvun neliöön. Suljinaika on intuitiivisempi: ajan kaksinkertaistaminen kaksinkertaistaa valon. ISO vahvistaa kennon signaalia — ISO:n kaksinkertaistaminen kaksinkertaistaa tehollisen kirkkauden mutta myös kohinan. Käytännössä asetat yleensä ensin sen parametrin, joka on tärkein luovalle tavoitteellesi (aukon syväterävyyden hallintaan, suljinajan liikkeen vuoksi) ja tasapainotat sitten muut. Modernit kamerat mittaavat 1/3 aukon tarkkuudella hienompaa säätöä varten.",
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Controls the size of the lens opening. Each full stop (e.g., f/2.8 to f/4) halves the light. Also affects depth of field — wider apertures blur the background more."
+          "label": "Aukko",
+          "description": "Säätelee objektiivin aukon kokoa. Jokainen kokonainen aukko (esim. f/2.8:sta f/4:ään) puolittaa valon. Vaikuttaa myös syväterävyyteen — suuremmat aukot sumentavat taustaa enemmän."
         },
         "1": {
-          "label": "Shutter Speed",
-          "description": "Controls how long the sensor is exposed to light. Faster speeds freeze motion; slower speeds introduce motion blur. Doubling the time doubles the light."
+          "label": "Suljinaika",
+          "description": "Säätelee, kuinka kauan kenno altistuu valolle. Nopeammat ajat jäädyttävät liikkeen; hitaammat tuovat liike-epäterävyyttä. Ajan kaksinkertaistaminen kaksinkertaistaa valon."
         },
         "2": {
           "label": "ISO",
-          "description": "Controls the sensor's sensitivity to light. Higher ISO brightens the image but adds grain/noise. Always use the lowest ISO that gives you the exposure you need."
+          "description": "Säätelee kennon valoherkkyyttä. Korkeampi ISO kirkastaa kuvaa mutta lisää rakeisuutta/kohinaa. Käytä aina matalinta ISO:a, joka antaa tarvitsemasi valotuksen."
         },
         "3": {
-          "label": "Exposure Value (EV)",
-          "description": "A single number that represents the overall brightness. EV 0 corresponds to a 1-second exposure at f/1.0. Each +1 EV halves the light."
+          "label": "Valotusarvo (EV)",
+          "description": "Yksi luku, joka edustaa kokonaiskirkkautta. EV 0 vastaa 1 sekunnin valotusta f/1.0:lla. Jokainen +1 EV puolittaa valon."
         }
       },
       "tips": {
         "0": {
-          "text": "Start with Aperture Priority mode: set the aperture for your desired depth of field, and let the camera choose the shutter speed. Only raise ISO when the shutter speed drops too low for sharp handheld shots."
+          "text": "Aloita aukon esivalintatilasta (A/Av): aseta aukko haluamaasi syväterävyyteen ja anna kameran valita suljinaika. Nosta ISO:a vain, kun suljinaika putoaa liian hitaaksi teräviin käsivarakuviin."
         },
         "1": {
-          "text": "For sports and action, switch to Shutter Priority: pick a fast shutter speed (1/500s or faster) and let the camera adjust aperture and ISO to match."
+          "text": "Urheiluun ja toimintaan vaihda suljinajan esivalintaan (S/Tv): valitse nopea suljinaika (1/500s tai nopeampi) ja anna kameran säätää aukko ja ISO sopivaksi."
         },
         "2": {
-          "text": "The \"Sunny 16\" rule is a quick mental shortcut: on a bright sunny day, set aperture to f/16, shutter speed to 1/ISO (e.g., 1/100s at ISO 100), and you will get a well-exposed image without metering."
+          "text": "\"Aurinkoinen 16\" -sääntö on nopea mielikeino: kirkkaana aurinkoisena päivänä aseta aukoksi f/16 ja suljinajaksi 1/ISO (esim. 1/100s ISO 100:ssa), niin saat oikein valotetun kuvan ilman mittausta."
         }
       },
       "tooltips": {
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening size expressed as an f-number. Lower numbers (f/1.4) let in more light and blur the background. Higher numbers (f/16) let in less light but keep more of the scene sharp."
+          "term": "Aukko",
+          "definition": "Objektiivin aukon koko ilmaistuna f-lukuna. Pienemmät luvut (f/1.4) päästävät läpi enemmän valoa ja sumentavat taustaa. Suuremmat luvut (f/16) päästävät vähemmän valoa mutta pitävät enemmän näkymää terävänä."
         },
         "shutterSpeed": {
-          "term": "Shutter Speed",
-          "definition": "The duration the sensor is exposed to light, typically measured in fractions of a second (1/250s) or full seconds (2s). Faster speeds freeze motion; slower speeds create motion blur."
+          "term": "Suljinaika",
+          "definition": "Aika, jonka kenno altistuu valolle, tyypillisesti murto-osissa sekuntia (1/250s) tai kokonaisina sekunteina (2s). Nopeammat ajat jäädyttävät liikkeen; hitaammat luovat liike-epäterävyyttä."
         },
         "iso": {
           "term": "ISO",
-          "definition": "A measure of sensor sensitivity. ISO 100 is the base (cleanest image). Each doubling (200, 400, 800...) brightens the image by one stop but progressively adds noise."
+          "definition": "Kennon herkkyyden mittari. ISO 100 on peruslähtö (puhtain kuva). Jokainen kaksinkertaistus (200, 400, 800...) kirkastaa kuvaa yhden aukon mutta lisää asteittain kohinaa."
         },
         "ev": {
-          "term": "Exposure Value (EV)",
-          "definition": "A single number summarizing the overall exposure. Higher EV means brighter conditions or more light captured. Each +1 EV is double the light."
+          "term": "Valotusarvo (EV)",
+          "definition": "Yksittäinen luku, joka kokoaa kokonaisvalotuksen. Korkeampi EV tarkoittaa kirkkaampia olosuhteita tai enemmän tallennettua valoa. Jokainen +1 EV on kaksinkertainen valo."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing your dog running in the park on a sunny day. The image keeps coming out blurry. Which setting should you prioritize to freeze the motion?",
-          "hint": "Motion blur is caused by the subject moving during the exposure.",
-          "successMessage": "Correct! A fast shutter speed like 1/1000s will freeze your dog mid-stride. On a sunny day, you have plenty of light to support this.",
-          "failureMessage": "That setting won't directly freeze motion. To stop a moving subject, you need a fast shutter speed — the shorter the exposure, the less time the subject has to blur.",
+          "scenario": "Kuvaat koiraasi, joka juoksee puistossa aurinkoisena päivänä. Kuva tulee jatkuvasti epäteräväksi. Minkä asetuksen tulisi olla etusijalla liikkeen jäädyttämiseksi?",
+          "hint": "Liike-epäterävyys johtuu kohteen liikkeestä valotuksen aikana.",
+          "successMessage": "Oikein! Nopea suljinaika kuten 1/1000s jäädyttää koirasi kesken loikan. Aurinkoisena päivänä sinulla on runsaasti valoa tukemaan tätä.",
+          "failureMessage": "Tuo asetus ei suoraan jäädytä liikettä. Liikkuvan kohteen pysäyttämiseksi tarvitset nopean suljinajan — mitä lyhyempi valotus, sitä vähemmän kohteella on aikaa sumentua.",
           "options": {
-            "0": { "label": "Widen the aperture to f/2.8" },
-            "1": { "label": "Use a fast shutter speed (1/1000s)" },
-            "2": { "label": "Increase ISO to 3200" },
-            "3": { "label": "Use a longer focal length" }
+            "0": { "label": "Avaa aukko f/2.8:aan" },
+            "1": { "label": "Käytä nopeaa suljinaikaa (1/1000s)" },
+            "2": { "label": "Nosta ISO 3200:aan" },
+            "3": { "label": "Käytä pidempää polttoväliä" }
           }
         },
         "1": {
-          "scenario": "You are taking photos at an indoor birthday party. Your images are too dark at f/3.5, 1/60s, ISO 400. You cannot use a flash. What is the best next step?",
-          "hint": "You need more light reaching the sensor or more amplification of the signal.",
-          "successMessage": "Good thinking! Raising ISO to 1600 gives you two extra stops of brightness while keeping your shutter speed fast enough for handheld shots.",
-          "failureMessage": "That change might cause other issues. Since the aperture is already near its widest and you need a shutter speed fast enough for handheld use, raising ISO is the most practical adjustment.",
+          "scenario": "Otat kuvia sisätiloissa syntymäpäiväjuhlissa. Kuvasi ovat liian tummia asetuksilla f/3.5, 1/60s, ISO 400. Et voi käyttää salamaa. Mikä on paras seuraava askel?",
+          "hint": "Tarvitset joko enemmän valoa kennolle tai enemmän vahvistusta signaalille.",
+          "successMessage": "Hyvä ajatus! ISO:n nostaminen 1600:aan antaa kaksi lisäaukkoa kirkkautta ja pitää samalla suljinajan riittävän nopeana käsivarakuvaukseen.",
+          "failureMessage": "Tuo muutos voi aiheuttaa muita ongelmia. Koska aukko on jo lähes suurin ja suljinajan on oltava riittävän nopea käsivaralle, ISO:n nosto on käytännöllisin säätö.",
           "options": {
-            "0": { "label": "Raise ISO to 1600" },
-            "1": { "label": "Slow shutter to 1/4s" },
-            "2": { "label": "Close aperture to f/8" },
-            "3": { "label": "Switch to a smaller sensor camera" }
+            "0": { "label": "Nosta ISO 1600:aan" },
+            "1": { "label": "Hidasta sulkinta 1/4s:ään" },
+            "2": { "label": "Sulje aukko f/8:aan" },
+            "3": { "label": "Vaihda pienempikennoiseen kameraan" }
           }
         },
         "2": {
-          "scenario": "You want to capture a waterfall with a silky smooth water effect on a bright day. Your current settings are f/8, 1/250s, ISO 100. What should you change to get the silky look?",
-          "hint": "Silky water requires a long exposure, but it is very bright outside.",
-          "successMessage": "Exactly! Using a slow shutter speed (1/2s or longer) and compensating by narrowing the aperture to f/22 (and possibly adding an ND filter) will give you that silky water effect.",
-          "failureMessage": "To get silky water, you need a slow shutter speed — around 1/2s to several seconds. On a bright day, you will also need to reduce the light entering the lens to avoid overexposure.",
+          "scenario": "Haluat kuvata vesiputousta silkinpehmeällä veden vaikutuksella kirkkaana päivänä. Nykyiset asetuksesi ovat f/8, 1/250s, ISO 100. Mitä sinun tulee muuttaa saadaksesi silkinpehmeän ilmeen?",
+          "hint": "Silkinpehmeä vesi vaatii pitkän valotuksen, mutta ulkona on hyvin kirkasta.",
+          "successMessage": "Juuri niin! Hitaan suljinajan (1/2s tai pidempi) käyttö ja kompensointi sulkemalla aukkoa f/22:een (ja mahdollisesti lisäämällä ND-suodin) antaa silkinpehmeän vesivaikutelman.",
+          "failureMessage": "Silkinpehmeän veden saamiseksi tarvitset hitaan suljinajan — noin 1/2s:stä useisiin sekunteihin. Kirkkaana päivänä joudut myös vähentämään objektiiviin tulevaa valoa välttääksesi ylivalotuksen.",
           "options": {
-            "0": { "label": "Use 1/2s shutter and narrow to f/22" },
-            "1": { "label": "Use 1/1000s shutter at f/2.8" },
-            "2": { "label": "Raise ISO to 6400" },
-            "3": { "label": "Keep 1/250s but open to f/1.4" }
+            "0": { "label": "Käytä 1/2s suljinta ja kavenna f/22:een" },
+            "1": { "label": "Käytä 1/1000s suljinta f/2.8:ssa" },
+            "2": { "label": "Nosta ISO 6400:aan" },
+            "3": { "label": "Pidä 1/250s mutta avaa f/1.4:ään" }
           }
         },
         "3": {
-          "scenario": "Your properly exposed photo is at f/5.6, 1/125s, ISO 200. You want to switch to f/2.8 for more background blur. How should you adjust the other settings to maintain the same exposure?",
-          "hint": "Going from f/5.6 to f/2.8 is 2 stops more light. You need to remove 2 stops somewhere else.",
-          "successMessage": "Perfect! Opening from f/5.6 to f/2.8 adds 2 stops of light. Changing shutter speed from 1/125s to 1/500s removes exactly 2 stops, keeping the exposure identical.",
-          "failureMessage": "The math needs to balance. f/5.6 to f/2.8 is +2 stops. You need to compensate by removing exactly 2 stops through faster shutter speed, lower ISO, or a combination.",
+          "scenario": "Oikein valotettu kuvasi on f/5.6, 1/125s, ISO 200. Haluat vaihtaa aukoksi f/2.8:n saadaksesi enemmän taustan sumennusta. Miten säädät muita asetuksia pitääksesi saman valotuksen?",
+          "hint": "f/5.6:sta f/2.8:aan on 2 aukkoa enemmän valoa. Sinun on poistettava 2 aukkoa jostain muualta.",
+          "successMessage": "Täydellistä! Avaaminen f/5.6:sta f/2.8:aan lisää 2 aukkoa valoa. Suljinajan muuttaminen 1/125s:stä 1/500s:ään poistaa tarkalleen 2 aukkoa, pitäen valotuksen identtisenä.",
+          "failureMessage": "Matematiikan on tasapainotuttava. f/5.6:sta f/2.8:aan on +2 aukkoa. Kompensoi poistamalla tarkalleen 2 aukkoa nopeammalla suljinajalla, matalammalla ISO:lla tai yhdistelmällä.",
           "options": {
-            "0": { "label": "1/500s at ISO 200" },
-            "1": { "label": "1/250s at ISO 200" },
-            "2": { "label": "1/125s at ISO 100" },
-            "3": { "label": "1/60s at ISO 100" }
+            "0": { "label": "1/500s ISO 200:ssa" },
+            "1": { "label": "1/250s ISO 200:ssa" },
+            "2": { "label": "1/125s ISO 100:ssa" },
+            "3": { "label": "1/60s ISO 100:ssa" }
           }
         },
         "4": {
-          "scenario": "You are photographing a concert in a dark venue. The performers are moving quickly under colored stage lights. You need at least 1/250s to freeze motion. Your fastest lens is f/2.8. What ISO do you likely need if the scene meters at EV 6?",
-          "hint": "At EV 6, f/2.8, calculate the ISO needed to achieve 1/250s. Each full stop of ISO doubles the brightness.",
-          "successMessage": "Correct! At EV 6 with f/2.8 and 1/250s, you need ISO 3200. Concert photography often demands high ISO — knowing your camera's usable ISO limit is critical for these situations.",
-          "failureMessage": "At EV 6, the combination of f/2.8 and 1/250s requires ISO 3200 to achieve proper exposure. The exposure formula balances aperture, shutter speed, and ISO against the available light.",
+          "scenario": "Kuvaat konserttia hämärässä tilassa. Esiintyjät liikkuvat nopeasti värillisten lavavalojen alla. Tarvitset vähintään 1/250s jäädyttääksesi liikkeen. Valovoimaisin objektiivisi on f/2.8. Mitä ISO:a tarvitset todennäköisesti, jos näkymä mittaa EV 6:n?",
+          "hint": "EV 6:ssa, f/2.8:lla, laske ISO saavuttaaksesi 1/250s. Jokainen ISO:n kokonainen aukko kaksinkertaistaa kirkkauden.",
+          "successMessage": "Oikein! EV 6:ssa f/2.8:lla ja 1/250s:llä tarvitset ISO 3200:n. Konserttikuvaus vaatii usein korkeaa ISO:a — kameran käyttökelpoisen ISO-rajan tunteminen on näissä tilanteissa ratkaisevaa.",
+          "failureMessage": "EV 6:ssa f/2.8:n ja 1/250s:n yhdistelmä vaatii ISO 3200:n oikeaan valotukseen. Valotuskaava tasapainottaa aukon, suljinajan ja ISO:n saatavilla olevan valon kanssa.",
           "options": {
             "0": { "label": "ISO 400" },
             "1": { "label": "ISO 800" },

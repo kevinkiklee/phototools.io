@@ -1,50 +1,50 @@
 {
   "terms": {
-    "title": "Terms of Service",
-    "effectiveDate": "Effective date: April 3, 2026",
+    "title": "Felhasználási feltételek",
+    "effectiveDate": "Hatályos: 2026. április 3.",
     "sections": {
       "acceptance": {
-        "title": "Acceptance of Terms",
-        "body": "By accessing or using www.phototools.io (\"PhotoTools\" or \"the Site\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Site. These terms apply to all visitors and users of PhotoTools."
+        "title": "A feltételek elfogadása",
+        "body": "A www.phototools.io („PhotoTools” vagy „az oldal”) elérésével vagy használatával elfogadod ezeket a felhasználási feltételeket. Ha nem értesz egyet velük, kérjük, ne használd az oldalt. Ezek a feltételek a PhotoTools minden látogatójára és felhasználójára vonatkoznak."
       },
       "descriptionOfService": {
-        "title": "Description of Service",
-        "body": "PhotoTools provides free educational photography tools, including interactive calculators, simulators, and reference materials. The Site is intended for informational and educational purposes only. All tools are provided at no cost to users and are designed to help photographers learn and understand photographic concepts."
+        "title": "A szolgáltatás leírása",
+        "body": "A PhotoTools ingyenes, oktatási célú fotós eszközöket kínál, beleértve interaktív kalkulátorokat, szimulátorokat és referenciaanyagokat. Az oldal kizárólag tájékoztatási és oktatási célokat szolgál. Minden eszköz ingyenes, és célja, hogy segítsen a fotósoknak megérteni a fotográfiai fogalmakat."
       },
       "noWarranty": {
-        "title": "No Warranty",
-        "body": "PhotoTools is provided \"as is\" without any warranty of any kind, express or implied. We make no guarantee that the tools, calculators, or information on this site are accurate, complete, or suitable for any particular purpose. Results from our tools are approximations and should not be relied upon for critical decisions, professional work, or situations where precision is essential. Always verify important calculations with qualified professionals or authoritative sources."
+        "title": "Szavatosság kizárása",
+        "body": "A PhotoTools „adott állapotában” érhető el, mindenféle kifejezett vagy hallgatólagos szavatosság nélkül. Nem garantáljuk, hogy az eszközök, kalkulátorok vagy az oldalon található információk pontosak, teljesek vagy bármely konkrét célra alkalmasak. Az eszközeink eredményei közelítések, és nem szabad rájuk hagyatkozni kritikus döntéseknél, professzionális munkáknál vagy olyan helyzetekben, ahol a pontosság elengedhetetlen. A fontos számításokat mindig ellenőriztesd képzett szakemberekkel vagy hiteles forrásokkal."
       },
       "intellectualProperty": {
-        "title": "Intellectual Property",
-        "body": "All content on PhotoTools — including text, graphics, tool designs, code, and educational materials — is the property of PhotoTools unless otherwise noted. You are welcome to use the tools and reference materials for personal and educational purposes. Reproduction, redistribution, or commercial use of site content without prior written permission is prohibited."
+        "title": "Szellemi tulajdon",
+        "body": "A PhotoTools minden tartalma — beleértve a szövegeket, grafikákat, eszköztervezést, kódot és oktatási anyagokat — a PhotoTools tulajdona, hacsak másként nincs jelezve. Az eszközöket és a referenciaanyagokat szabadon használhatod személyes és oktatási célokra. A tartalom sokszorosítása, újraterjesztése vagy kereskedelmi felhasználása előzetes írásos engedély nélkül tilos."
       },
       "acceptableUse": {
-        "title": "Acceptable Use",
-        "intro": "When using PhotoTools, you agree not to:",
+        "title": "Elfogadható használat",
+        "intro": "A PhotoTools használatakor vállalod, hogy nem teszed a következőket:",
         "items": {
-          "laws": "Violate any applicable local, national, or international laws or regulations",
-          "disrupt": "Disrupt or interfere with the site's operation, servers, or networks",
-          "scrape": "Scrape, crawl, or systematically extract data from the site without prior written permission",
-          "misrepresent": "Misrepresent your identity or affiliation in communications with PhotoTools",
-          "commercial": "Use the site for any commercial purpose beyond personal reference without permission"
+          "laws": "Nem sértesz meg helyi, országos vagy nemzetközi jogszabályokat vagy előírásokat",
+          "disrupt": "Nem zavarod meg az oldal működését, szervereit vagy hálózatait",
+          "scrape": "Nem „kapard le”, nem másold le automatikusan és nem nyered ki szisztematikusan az oldal adatait előzetes írásos engedély nélkül",
+          "misrepresent": "Nem hamisítod meg a személyazonosságodat vagy kapcsolataidat a PhotoTools-szal folytatott kommunikációban",
+          "commercial": "Nem használod az oldalt személyes referencián túli kereskedelmi célra engedély nélkül"
         }
       },
       "thirdPartyContent": {
-        "title": "Third-Party Content",
-        "body": "PhotoTools displays third-party advertisements and may include links to external websites. We are not responsible for the content, accuracy, or practices of third-party advertisers or linked sites. The inclusion of any advertisement or external link does not constitute an endorsement by PhotoTools. Your interactions with third-party services are governed by their own terms and privacy policies."
+        "title": "Harmadik féltől származó tartalom",
+        "body": "A PhotoTools harmadik féltől származó hirdetéseket jelenít meg, és külső weboldalakra mutató linkeket tartalmazhat. Nem vagyunk felelősek a harmadik fél hirdetők vagy linkelt oldalak tartalmáért, pontosságáért vagy gyakorlataiért. Egy hirdetés vagy külső link megjelenítése nem jelenti annak támogatását a PhotoTools részéről. A harmadik fél szolgáltatásokkal való interakcióidat azok saját feltételei és adatvédelmi tájékoztatói szabályozzák."
       },
       "limitationOfLiability": {
-        "title": "Limitation of Liability",
-        "body": "To the fullest extent permitted by law, PhotoTools and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of — or inability to use — the Site or its tools. This includes, without limitation, damages resulting from reliance on information or calculations provided by PhotoTools. Your use of the Site is entirely at your own risk."
+        "title": "Felelősség korlátozása",
+        "body": "A törvény által megengedett legteljesebb mértékben a PhotoTools és üzemeltetői nem vállalnak felelősséget semmilyen közvetlen, közvetett, esetleges, különleges vagy következményes kárért, ami az oldal vagy eszközei használatából — vagy használhatatlanságából — ered. Ez többek között magában foglalja a PhotoTools által nyújtott információkra vagy számításokra való hagyatkozásból eredő károkat is. Az oldal használata teljes mértékben a saját kockázatodra történik."
       },
       "changesToTerms": {
-        "title": "Changes to Terms",
-        "body": "We may modify these Terms of Service at any time. Updated terms will be posted on this page with a revised effective date. Continued use of PhotoTools after changes are posted constitutes your acceptance of the revised terms. We encourage you to review these terms periodically."
+        "title": "A feltételek módosítása",
+        "body": "Ezeket a felhasználási feltételeket bármikor módosíthatjuk. A frissített feltételek ezen az oldalon jelennek meg, új hatálybalépési dátummal. A PhotoTools folyamatos használata a módosítások közzététele után a frissített feltételek elfogadásának minősül. Javasoljuk, hogy időnként nézd át a feltételeket."
       },
       "contact": {
-        "title": "Contact",
-        "body": "If you have questions about these Terms of Service, please reach out via our <contactLink>contact page</contactLink>."
+        "title": "Kapcsolat",
+        "body": "Ha kérdésed van ezekkel a felhasználási feltételekkel kapcsolatban, írj nekünk a <contactLink>kapcsolati oldalon</contactLink>."
       }
     }
   }

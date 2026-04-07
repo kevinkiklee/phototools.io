@@ -1,126 +1,126 @@
 {
   "education": {
     "white-balance-visualizer": {
-      "beginner": "White balance adjusts the colors in your photo so that white objects actually appear white under any lighting. Different light sources have different color temperatures — a candle is warm and orange, while shade is cool and blue. Your camera's white balance setting compensates for these differences so colors look natural.",
+      "beginner": "白平衡會調整照片的色彩，讓白色物體在任何光源下都能呈現真正的白。不同光源具有不同的色溫 — 燭光偏暖偏橘，陰影處則偏冷偏藍。相機的白平衡設定會補償這些差異，讓顏色看起來自然。",
       "deeper": {
         "0": {
-          "heading": "Color temperature",
-          "text": "Color temperature is measured in Kelvin (K) and corresponds to the color of light emitted by an ideal \"black body\" heated to that temperature. Lower values (2000\u20133500K) produce warm, reddish-orange light (incandescent bulbs, candles), while higher values (6500\u201310000K) produce cool, bluish light (shade, overcast sky)."
+          "heading": "色溫",
+          "text": "色溫以 Kelvin（K）為單位，代表一個理想「黑體」加熱到該溫度時所發出的光色。數值較低（2000–3500K）是溫暖的紅橘光（白熾燈、燭光），較高（6500–10000K）則是偏冷的藍光（陰影、陰天天空）。"
         },
         "1": {
-          "heading": "How white balance works",
-          "text": "The camera's white balance system applies the inverse color shift to neutralize the ambient color cast. When you set white balance to \"Tungsten\" (~3200K), the camera adds blue to counteract the orange cast from incandescent lights. In digital photography, white balance is applied as a multiplier to the red and blue channels relative to green."
+          "heading": "白平衡的運作",
+          "text": "相機的白平衡系統會套用相反的色彩位移來中和環境色偏。當您把白平衡設為「鎢絲燈」（約 3200K），相機會加藍來抵銷白熾燈的橘色色偏。在數位攝影中，白平衡是作為紅、藍通道相對綠通道的乘數套用。"
         },
         "2": {
-          "heading": "RAW advantage",
-          "text": "Shooting in RAW format preserves all color data and allows you to change white balance freely in post-processing with zero quality loss — it is simply a metadata tag applied during conversion."
+          "heading": "RAW 的優勢",
+          "text": "以 RAW 格式拍攝能保留所有色彩資料，後製時可自由調整白平衡而不損失畫質 — 它僅是轉檔時套用的一個後設資料標籤。"
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Color Temperature (Kelvin)",
-          "description": "The numerical measure of light color. Low Kelvin = warm/orange light. High Kelvin = cool/blue light. Daylight is approximately 5500K."
+          "label": "色溫（Kelvin）",
+          "description": "光色的數值量測。低 Kelvin = 暖橘光，高 Kelvin = 冷藍光。日光約為 5500K。"
         },
         "1": {
-          "label": "Light Source",
-          "description": "Different sources emit different color temperatures: candles (~1800K), tungsten bulbs (~2800K), fluorescent tubes (~4000K), midday sun (~5500K), cloudy sky (~6500K), shade (~7500K)."
+          "label": "光源類型",
+          "description": "不同光源發出不同色溫：燭光（約 1800K）、鎢絲燈（約 2800K）、螢光燈管（約 4000K）、正午陽光（約 5500K）、陰天（約 6500K）、陰影（約 7500K）。"
         },
         "2": {
           "label": "RAW vs JPEG",
-          "description": "Shooting RAW lets you change white balance in post with no quality loss. JPEG bakes in the white balance permanently, so getting it right in-camera matters more."
+          "description": "以 RAW 拍攝讓您能在後製中無損地調整白平衡。JPEG 會把白平衡寫死在檔案裡，因此相機當下的設定就更重要。"
         },
         "3": {
-          "label": "Mixed Lighting",
-          "description": "Scenes with multiple light sources at different temperatures (e.g., window daylight + tungsten lamps) make it impossible to perfectly neutralize all colors simultaneously."
+          "label": "混合光源",
+          "description": "場景中同時有多種不同色溫的光源（例如窗光加上鎢絲燈），任何一組白平衡都無法同時把所有色彩完美中和。"
         }
       },
       "tips": {
         "0": {
-          "text": "Always shoot RAW if you want full flexibility to adjust white balance later. RAW files store the unprocessed sensor data, so white balance changes are lossless."
+          "text": "若希望在後製中擁有最大彈性來調整白平衡，請一律以 RAW 拍攝。RAW 保留未處理的感光元件資料，白平衡的修改完全無損。"
         },
         "1": {
-          "text": "For creative effect, try intentionally \"mismatching\" white balance. Setting a daylight WB during golden hour makes sunsets even warmer, while a tungsten WB outdoors creates a dramatic cold blue look."
+          "text": "追求創意效果時，可以刻意「選錯」白平衡。黃金時刻設為日光白平衡能讓夕陽更暖，戶外設為鎢絲燈則會帶來戲劇性的冷藍調。"
         },
         "2": {
-          "text": "In mixed lighting situations (e.g., a room lit by both window light and tungsten lamps), use a gray card to set a custom white balance, or gel your flash to match the ambient light source."
+          "text": "在混合光源場合（例如同時有窗光與鎢絲燈的室內），可使用灰卡設定自訂白平衡，或為閃光燈加上色片以匹配主要環境光。"
         }
       },
       "tooltips": {
         "colorTemperature": {
-          "term": "Color Temperature",
-          "definition": "A measure of light color in Kelvin (K). Based on the theoretical color of a heated black body. Lower values are warmer (orange/red), higher values are cooler (blue)."
+          "term": "色溫",
+          "definition": "以 Kelvin（K）量測的光色，根據理論黑體受熱時的顏色定義。數值越低越暖（橘/紅），越高越冷（藍）。"
         },
         "preset": {
-          "term": "White Balance Preset",
-          "definition": "A predefined white balance setting calibrated for a common light source. Presets include Tungsten (~3200K), Fluorescent (~4000K), Daylight (~5500K), Cloudy (~6500K), and Shade (~7500K)."
+          "term": "白平衡預設",
+          "definition": "針對常見光源校正好的白平衡預設值。預設包含鎢絲燈（約 3200K）、螢光燈（約 4000K）、日光（約 5500K）、陰天（約 6500K）與陰影（約 7500K）。"
         },
         "rgbValues": {
-          "term": "RGB Values",
-          "definition": "The red, green, and blue channel values (0-255 each) that represent the color of light at the selected temperature. Used to visualize how the light source tints the scene."
+          "term": "RGB 值",
+          "definition": "所選色溫對應的紅、綠、藍通道值（各 0–255）。用於視覺化光源對場景的染色程度。"
         },
         "hexCode": {
-          "term": "Hex Code",
-          "definition": "A six-character hexadecimal representation of the color (e.g., #FF8C00). Useful for referencing the exact color in design software or web development."
+          "term": "Hex 色碼",
+          "definition": "以六位十六進位表示的顏色（例如 #FF8C00）。方便在設計軟體或網頁開發中參照精確顏色。"
         }
       },
       "challenges": {
         "0": {
-          "scenario": "Your indoor photos under regular household light bulbs look very orange/yellow. Which white balance preset should you use to fix this?",
-          "hint": "Household incandescent bulbs emit warm, orange-toned light around 2800-3200K.",
-          "successMessage": "Correct! The Tungsten preset adds blue to counteract the orange cast of incandescent bulbs, bringing colors back to neutral.",
-          "failureMessage": "Incandescent/tungsten bulbs emit warm orange light. The Tungsten white balance preset is specifically designed to neutralize this cast by adding blue.",
+          "scenario": "您在家中的一般白熾燈下拍攝，照片明顯偏黃偏橘。該選哪個白平衡預設修正？",
+          "hint": "家用白熾燈發出的溫暖橘光大約在 2800–3200K。",
+          "successMessage": "答對了！鎢絲燈預設會加藍以抵銷白熾燈的橘色色偏，讓色彩回到中性。",
+          "failureMessage": "白熾燈/鎢絲燈發出溫暖橘光。鎢絲燈白平衡預設就是為了加藍中和這種色偏。",
           "options": {
-            "0": { "label": "Daylight" },
-            "1": { "label": "Tungsten" },
-            "2": { "label": "Shade" },
-            "3": { "label": "Fluorescent" }
+            "0": { "label": "日光" },
+            "1": { "label": "鎢絲燈" },
+            "2": { "label": "陰影" },
+            "3": { "label": "螢光燈" }
           }
         },
         "1": {
-          "scenario": "You are shooting portraits during golden hour and want to keep the beautiful warm glow of the sunset. Which white balance setting should you use?",
-          "hint": "If you set the \"correct\" WB for golden hour, it would neutralize the warm tones you want to keep.",
-          "successMessage": "Correct! Using the Daylight preset (or even Cloudy/Shade) during golden hour preserves and enhances the warm tones instead of neutralizing them.",
-          "failureMessage": "To preserve the warm glow of golden hour, use a WB that does not compensate for warm light. Daylight or higher presets will keep (and even enhance) the warmth.",
+          "scenario": "您在黃金時刻拍人像，想保留夕陽美麗的暖色光。該用哪一組白平衡？",
+          "hint": "如果您為黃金時刻設定「正確」的白平衡，反而會中和掉想保留的暖色調。",
+          "successMessage": "答對了！黃金時刻使用日光預設（或甚至陰天/陰影）能保留並強化暖色調，而不是把它中和掉。",
+          "failureMessage": "想保留黃金時刻的暖色光，就用不會補償暖光的白平衡。日光或更高的預設會保留（甚至強化）暖度。",
           "options": {
-            "0": { "label": "Auto White Balance" },
-            "1": { "label": "Tungsten (to neutralize the warmth)" },
-            "2": { "label": "Daylight (to preserve the warmth)" },
-            "3": { "label": "Flash" }
+            "0": { "label": "自動白平衡" },
+            "1": { "label": "鎢絲燈（中和暖度）" },
+            "2": { "label": "日光（保留暖度）" },
+            "3": { "label": "閃光燈" }
           }
         },
         "2": {
-          "scenario": "You are manually adjusting white balance in Kelvin. Your photo looks too blue/cold. Should you increase or decrease the Kelvin value to warm it up?",
-          "hint": "The Kelvin WB setting tells the camera what color temperature the light source is. Setting a higher Kelvin value makes the camera add more warmth.",
-          "successMessage": "Right! Increasing the Kelvin value tells the camera the light is cooler than it actually is, so the camera compensates by adding warmth. Set a higher K to warm up a cold-looking image.",
-          "failureMessage": "When you increase the Kelvin value, the camera adds more warmth to compensate. So to fix a cold/blue image, raise the Kelvin number.",
+          "scenario": "您在手動調整 Kelvin 白平衡。照片太藍太冷。應該提高還是降低 Kelvin 值讓畫面變暖？",
+          "hint": "Kelvin 白平衡設定告訴相機光源是什麼色溫。較高的 Kelvin 值會讓相機補入更多暖色。",
+          "successMessage": "沒錯！提高 Kelvin 值等於告訴相機光源比實際更冷，相機會補上暖色來補償。想讓偏冷的畫面變暖，就提高 K 值。",
+          "failureMessage": "提高 Kelvin 值時，相機會補上更多暖色來補償。因此要讓冷/藍的畫面變暖，請提高 Kelvin 數值。",
           "options": {
-            "0": { "label": "Increase Kelvin (e.g., 5500K to 7500K)" },
-            "1": { "label": "Decrease Kelvin (e.g., 5500K to 3200K)" },
-            "2": { "label": "Kelvin direction does not affect warmth" }
+            "0": { "label": "提高 Kelvin（例如 5500K 到 7500K）" },
+            "1": { "label": "降低 Kelvin（例如 5500K 到 3200K）" },
+            "2": { "label": "Kelvin 方向不影響暖度" }
           }
         },
         "3": {
-          "scenario": "You are photographing a restaurant interior that has warm tungsten pendant lights overhead and cool blue daylight streaming through large windows. People near the windows look blue, and people under the lamps look orange. What is the best approach?",
-          "hint": "No single white balance setting can correct two very different color temperatures simultaneously.",
-          "successMessage": "Exactly! Gelling the flash or additional lights to match one dominant source, or choosing a compromise WB and correcting selectively in post, are the best approaches for mixed lighting.",
-          "failureMessage": "Mixed lighting is one of the hardest WB challenges. A single WB cannot correct both sources simultaneously. You need to either match the sources with gels or fix it selectively in post.",
+          "scenario": "您要拍一間餐廳內部 — 頭頂有暖色鎢絲吊燈，大窗戶同時灑進冷藍的日光。靠窗的人看起來偏藍，燈下的人看起來偏橘。該怎麼處理最好？",
+          "hint": "沒有任何單一白平衡能同時校正兩種差異極大的色溫。",
+          "successMessage": "完全正確！為閃光燈或補光燈加上色片以匹配主導光源，或選擇折衷的白平衡再於後製中分區校正，都是處理混合光源的好辦法。",
+          "failureMessage": "混合光源是白平衡中最棘手的挑戰之一。單一白平衡無法同時校正兩種光源。您必須用色片統一光源，或在後製中分區修正。",
           "options": {
-            "0": { "label": "Set WB to Tungsten — it will fix everything" },
-            "1": { "label": "Set WB to Daylight — windows are more important" },
-            "2": { "label": "Use Auto WB and shoot RAW, then correct each zone in post" },
-            "3": { "label": "Raise ISO to make colors more accurate" }
+            "0": { "label": "設為鎢絲燈 — 一切都能修正" },
+            "1": { "label": "設為日光 — 窗邊最重要" },
+            "2": { "label": "使用自動白平衡並以 RAW 拍攝，再於後製中分區校正" },
+            "3": { "label": "提高 ISO 讓色彩更準確" }
           }
         },
         "4": {
-          "scenario": "You are shooting a moody, cinematic night scene in a city and want an intentional cold blue tone. The streetlights are sodium vapor (~2200K). What Kelvin white balance setting would give you the strongest blue shift?",
-          "hint": "Setting WB much lower than the actual light source temperature will shift the image toward blue.",
-          "successMessage": "Correct! Setting WB to 7500K (Shade preset) tells the camera the light source is very cool/blue — so it compensates by adding heavy warmth-correction. But since the actual sodium lights are only 2200K (very warm), this overcorrection swings past neutral into a strong blue cast. The higher you set the WB Kelvin above the actual light temperature, the stronger the blue shift.",
-          "failureMessage": "Setting a WB Kelvin value much higher than the actual light source temperature makes the camera overcorrect toward blue. With 2200K sodium lights, setting WB to 7500K+ creates the strongest cold blue look.",
+          "scenario": "您想在城市中拍一張氛圍濃厚、帶電影感的冷藍色夜景。街燈是鈉氣燈（約 2200K）。哪一個 Kelvin 白平衡設定會帶來最強的藍調偏移？",
+          "hint": "把白平衡設得遠高於實際光源色溫，就會讓影像往藍色偏移。",
+          "successMessage": "答對了！把白平衡設為 7500K（陰影預設）等於告訴相機光源非常冷、非常藍 — 於是相機加重暖色補償。但鈉燈實際只有 2200K（非常暖），這種過度補償會穿越中性值、形成強烈的藍色色偏。白平衡 Kelvin 設得比實際光源高越多，藍調偏移就越強。",
+          "failureMessage": "白平衡 Kelvin 設得遠高於實際光源色溫，會讓相機過度補償往藍色偏移。在 2200K 的鈉燈下把白平衡設為 7500K 以上會產生最強的冷藍風格。",
           "options": {
-            "0": { "label": "2200K (matching the sodium lights)" },
-            "1": { "label": "3200K (Tungsten preset)" },
-            "2": { "label": "7500K or higher (Shade preset)" },
-            "3": { "label": "5500K (Daylight preset)" }
+            "0": { "label": "2200K（匹配鈉燈）" },
+            "1": { "label": "3200K（鎢絲燈預設）" },
+            "2": { "label": "7500K 或更高（陰影預設）" },
+            "3": { "label": "5500K（日光預設）" }
           }
         }
       }

@@ -1,25 +1,25 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "description": "Have a question, found a bug, or want to suggest a new tool? We'd love to hear from you.",
+    "title": "Hubungi Kami",
+    "description": "Ada soalan, jumpa pepijat, atau ingin mencadangkan alat baharu? Kami ingin mendengarnya.",
     "form": {
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email",
-      "emailPlaceholder": "your@email.com",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Your message...",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "honeypotLabel": "Website",
-      "successToast": "Message sent! We'll get back to you soon.",
-      "errorToast": "Something went wrong. Please try again.",
-      "networkErrorToast": "Network error. Please check your connection and try again.",
-      "sentTitle": "Thanks for reaching out!",
-      "sentMessage": "We'll get back to you as soon as possible.",
-      "sendAnother": "Send another message"
+      "nameLabel": "Nama",
+      "namePlaceholder": "Nama anda",
+      "emailLabel": "E-mel",
+      "emailPlaceholder": "[email protected]",
+      "subjectLabel": "Subjek",
+      "subjectPlaceholder": "Mengenai apa?",
+      "messageLabel": "Mesej",
+      "messagePlaceholder": "Mesej anda...",
+      "submit": "Hantar Mesej",
+      "sending": "Menghantar...",
+      "honeypotLabel": "Laman web",
+      "successToast": "Mesej dihantar! Kami akan membalas secepat mungkin.",
+      "errorToast": "Sesuatu tidak kena. Sila cuba lagi.",
+      "networkErrorToast": "Ralat rangkaian. Sila semak sambungan anda dan cuba lagi.",
+      "sentTitle": "Terima kasih kerana menghubungi kami!",
+      "sentMessage": "Kami akan membalas secepat mungkin.",
+      "sendAnother": "Hantar mesej lain"
     }
   }
 }

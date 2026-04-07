@@ -1,110 +1,110 @@
 {
   "education": {
     "focus-stacking-calculator": {
-      "beginner": "Focus stacking is a technique where you take multiple photos at different focus distances and merge them in software to create an image with front-to-back sharpness. It is essential for macro photography, where depth of field is razor-thin, and useful in landscape photography when you need both near foreground and distant background in sharp focus.",
+      "beginner": "Focus stacking er en teknik, hvor du tager flere billeder med forskellig fokusafstand og samler dem i software til ét billede med skarphed fra forgrund til baggrund. Det er uundværligt i makrofotografi, hvor dybdeskarpheden er knivtynd, og nyttigt i landskabsfotografi, når både nær forgrund og fjern baggrund skal stå skarpt.",
       "deeper": {
         "0": {
-          "heading": "Why Stacking Is Necessary",
-          "text": "At macro magnifications, even f/16 may yield only a few millimeters of depth of field. Stopping down further introduces diffraction softening that degrades the image. Focus stacking lets you shoot at the lens's sharpest aperture (typically f/5.6-f/8) and combine the sharp slices. Each frame shifts focus slightly forward, covering a new slice of the subject."
+          "heading": "Hvorfor stacking er nødvendigt",
+          "text": "Ved makroforstørrelser kan selv f/16 kun give få millimeters dybdeskarphed. At lukke blænden yderligere giver diffraktion, der blødgør billedet. Focus stacking lader dig skyde ved linsens skarpeste blænde (typisk f/5.6–f/8) og kombinere de skarpe skiver. Hvert billede rykker fokus lidt frem og dækker en ny skive af motivet."
         },
         "1": {
-          "heading": "Planning the Stack",
-          "text": "The key to a successful stack is ensuring each shot's depth of field overlaps the next by 20-30%. Too little overlap creates gaps where nothing is sharp; too much wastes frames without benefit. The calculator determines the per-shot DoF using the circle of confusion formula, subtracts the overlap margin, and divides the total depth range by the effective step to compute the number of shots."
+          "heading": "At planlægge stacken",
+          "text": "Nøglen til en vellykket stack er, at hver optagelses dybdeskarphed overlapper den næste med 20–30 %. For lidt overlap efterlader huller uden skarphed; for meget spilder billeder uden gevinst. Beregneren finder pr-billede-DoF ud fra uskarphedscirklen, trækker overlapmargenen fra og dividerer den samlede dybde med det effektive skridt for at finde antallet af billeder."
         },
         "2": {
-          "heading": "Merging & Alignment",
-          "text": "Software like Photoshop, Helicon Focus, or Zerene Stacker aligns the frames (slight magnification shifts occur as focus changes), then selects the sharpest pixels from each layer. Shooting on a sturdy tripod with consistent lighting and using a focus rail for precise increments produces the cleanest results."
+          "heading": "Fletning og justering",
+          "text": "Software som Photoshop, Helicon Focus eller Zerene Stacker justerer billederne (der sker små forstørrelsesskift, når fokus ændres), og vælger så de skarpeste pixels fra hvert lag. Skyd på et stabilt stativ med ensartet lys, og brug en fokusskinne til præcise trin for renest muligt resultat."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Aperture",
-          "description": "Determines per-shot depth of field. A moderate aperture (f/5.6-f/8) balances sharpness and DoF per frame. Avoid very small apertures — diffraction reduces the sharpness you are stacking for."
+          "label": "Blænde",
+          "description": "Bestemmer dybdeskarphed pr. billede. En moderat blænde (f/5.6–f/8) balancerer skarphed og DoF pr. billede. Undgå meget små blænder — diffraktion reducerer netop den skarphed, du forsøger at stacke frem."
         },
         "1": {
-          "label": "Depth Range",
-          "description": "The distance from the nearest to farthest point you want sharp. Wider ranges require more shots. In macro work this may be just centimeters; in landscapes it can span meters to infinity."
+          "label": "Dybdeområde",
+          "description": "Afstanden fra det nærmeste til det fjerneste punkt, der skal være skarpt. Større områder kræver flere billeder. I makroarbejde kan det være bare centimeter; i landskaber kan det være meter til uendelig."
         },
         "2": {
           "label": "Overlap",
-          "description": "The percentage of each shot's DoF that overlaps the adjacent shots. 20-30% is standard. Less risks gaps; more wastes frames."
+          "description": "Hvor stor en procentdel af hvert billedes DoF, der overlapper med nabobilledets. 20–30 % er standard. Mindre risikerer huller; mere spilder billeder."
         }
       },
       "tips": {
         "0": {
-          "text": "Use a focus rail instead of the lens's focus ring for macro stacking. A rail moves the entire camera forward in precise increments, avoiding the slight magnification changes that occur when refocusing the lens."
+          "text": "Brug en fokusskinne i stedet for linsens fokusring til makro-stacking. En skinne flytter hele kameraet frem i præcise trin og undgår de små forstørrelsesændringer, der opstår, når linsen refokuseres."
         },
         "1": {
-          "text": "Keep your aperture at the lens's sweet spot (typically f/5.6-f/8). The point of stacking is to avoid stopping down to f/16+, so use the sharpest aperture and let the stack handle depth."
+          "text": "Hold blænden på linsens sweet spot (typisk f/5.6–f/8). Pointen med stacking er at undgå at lukke ned til f/16+ — brug den skarpeste blænde og lad stacken stå for dybden."
         },
         "2": {
-          "text": "For landscape stacks, shoot front-to-back: focus on the nearest element first, then step focus toward infinity. This makes alignment easier since the foreground (with the most parallax) is captured first."
+          "text": "Til landskabsstacks: skyd forfra og bagud — fokusér på det nærmeste element først, og ryk så fokus mod uendelig. Det gør justering lettere, da forgrunden (med mest parallax) er optaget først."
         }
       },
       "tooltips": {
         "focalLength": {
-          "term": "Focal Length",
-          "definition": "The lens focal length in millimeters. Longer focal lengths reduce per-shot depth of field, requiring more frames to cover the same depth range."
+          "term": "Brændvidde",
+          "definition": "Linsens brændvidde i millimeter. Længere brændvidder reducerer dybdeskarphed pr. billede og kræver flere billeder for at dække samme dybde."
         },
         "aperture": {
-          "term": "Aperture",
-          "definition": "The lens opening (f-number). For stacking, use the lens's sharpest aperture rather than stopping down — the stack provides the depth."
+          "term": "Blænde",
+          "definition": "Linseåbningen (f-tal). Til stacking: brug linsens skarpeste blænde i stedet for at lukke ned — stacken står for dybden."
         },
         "sensor": {
-          "term": "Sensor Size",
-          "definition": "Larger sensors have a shallower per-shot depth of field at equivalent framing, which may increase the number of required stack frames."
+          "term": "Sensorstørrelse",
+          "definition": "Større sensorer har mindre dybdeskarphed pr. billede ved samme udsnit, hvilket kan øge antallet af stack-billeder."
         },
         "nearLimit": {
-          "term": "Near Limit",
-          "definition": "The closest point in the scene that you want sharp. This is where the first shot in the stack will be focused."
+          "term": "Nær grænse",
+          "definition": "Det tætteste punkt i motivet, du vil have skarpt. Det er her første billede i stacken er fokuseret."
         },
         "farLimit": {
-          "term": "Far Limit",
-          "definition": "The farthest point in the scene that you want sharp. The last shot in the stack will cover this distance."
+          "term": "Fjern grænse",
+          "definition": "Det fjerneste punkt i motivet, du vil have skarpt. Sidste billede i stacken dækker denne afstand."
         },
         "overlap": {
           "term": "Overlap",
-          "definition": "The percentage of depth-of-field overlap between consecutive shots. 20-30% ensures no gaps after software alignment and merging."
+          "definition": "Procentdelen af overlappende dybdeskarphed mellem på hinanden følgende billeder. 20–30 % sikrer, at der ikke opstår huller efter software-justering og fletning."
         },
         "shotCount": {
-          "term": "Shot Count",
-          "definition": "The total number of frames needed to cover the depth range with the specified overlap. More shots = more processing but smoother results."
+          "term": "Antal billeder",
+          "definition": "Det samlede antal billeder, der skal til for at dække dybdeområdet med det angivne overlap. Flere billeder = mere efterbehandling, men glattere resultater."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You are photographing a small flower that is 3cm deep from front petal to back stem. Your macro lens at f/8 gives about 4mm of DoF per shot. Roughly how many frames do you need with 25% overlap?",
-          "hint": "Each shot covers 4mm, but 25% overlap means the effective step is 3mm per frame. Divide 30mm by 3mm.",
-          "successMessage": "Correct! With 4mm DoF and 25% overlap, each step advances 3mm. 30mm / 3mm = 10 shots to cover the entire flower.",
-          "failureMessage": "With 25% overlap, each frame's effective step is 75% of the DoF: 4mm × 0.75 = 3mm. You need 30mm / 3mm = 10 shots.",
+          "scenario": "Du fotograferer en lille blomst, der er 3 cm dyb fra forreste kronblad til bageste stilk. Din makrolinse ved f/8 giver omkring 4 mm DoF pr. billede. Hvor mange billeder skal du bruge med 25 % overlap?",
+          "hint": "Hvert billede dækker 4 mm, men 25 % overlap betyder, at det effektive skridt er 3 mm pr. billede. Divider 30 mm med 3 mm.",
+          "successMessage": "Rigtigt! Med 4 mm DoF og 25 % overlap rykker hvert skridt 3 mm. 30 mm / 3 mm = 10 billeder for at dække hele blomsten.",
+          "failureMessage": "Med 25 % overlap er det effektive skridt 75 % af DoF: 4 mm × 0,75 = 3 mm. Du skal bruge 30 mm / 3 mm = 10 billeder.",
           "options": {
-            "0": { "label": "5 shots" },
-            "1": { "label": "10 shots" },
-            "2": { "label": "20 shots" },
-            "3": { "label": "30 shots" }
+            "0": { "label": "5 billeder" },
+            "1": { "label": "10 billeder" },
+            "2": { "label": "20 billeder" },
+            "3": { "label": "30 billeder" }
           }
         },
         "1": {
-          "scenario": "You want the sharpest possible result from your focus stack. Should you shoot each frame at f/2.8, f/8, or f/22?",
-          "hint": "Consider the lens's sharpest aperture and how diffraction affects small apertures.",
-          "successMessage": "Right! f/8 is typically the sharpest aperture for most lenses. f/2.8 has too little DoF per shot (wasting frames) and f/22 suffers from diffraction softening.",
-          "failureMessage": "f/8 is the best choice. f/2.8 gives very thin per-shot DoF (requiring many more frames), and f/22 introduces diffraction softening that defeats the purpose of stacking for sharpness.",
+          "scenario": "Du vil have det skarpest mulige resultat fra din focus stack. Skal du skyde hvert billede ved f/2.8, f/8 eller f/22?",
+          "hint": "Tænk på linsens skarpeste blænde, og hvordan diffraktion påvirker små blænder.",
+          "successMessage": "Rigtigt! f/8 er typisk den skarpeste blænde på de fleste linser. f/2.8 har for lidt DoF pr. billede (spild af billeder), og f/22 lider af diffraktionsblødhed.",
+          "failureMessage": "f/8 er bedst. f/2.8 giver meget tynd DoF pr. billede (kræver mange flere billeder), og f/22 introducerer diffraktion, som modvirker formålet med at stacke for skarphed.",
           "options": {
-            "0": { "label": "f/2.8 — widest for fastest shutter" },
-            "1": { "label": "f/8 — lens sweet spot" },
-            "2": { "label": "f/22 — maximum per-shot DoF" }
+            "0": { "label": "f/2.8 — størst blænde for hurtigst lukker" },
+            "1": { "label": "f/8 — linsens sweet spot" },
+            "2": { "label": "f/22 — maks DoF pr. billede" }
           }
         },
         "2": {
-          "scenario": "After merging your focus stack, you notice a soft band across the middle of the image where nothing is sharp. What most likely went wrong?",
-          "hint": "Think about what connects one frame's sharp zone to the next.",
-          "successMessage": "Exactly! Insufficient overlap between adjacent frames creates a gap where neither shot is sharp. Increase overlap to 25-30% and reshoot.",
-          "failureMessage": "A soft band usually means the gap between focus steps was too large — the DoF of adjacent frames did not overlap enough. Increase the overlap percentage.",
+          "scenario": "Efter at have flettet din focus stack ser du et blødt bånd midt i billedet, hvor intet er skarpt. Hvad gik mest sandsynligt galt?",
+          "hint": "Tænk på hvad der forbinder et billedes skarpe zone med det næste.",
+          "successMessage": "Præcis! For lidt overlap mellem nabobilleder skaber et hul, hvor intet billede er skarpt. Øg overlappet til 25–30 % og skyd igen.",
+          "failureMessage": "Et blødt bånd betyder som regel, at afstanden mellem fokustrin var for stor — DoF på nabobilleder overlappede ikke nok. Øg overlap-procenten.",
           "options": {
-            "0": { "label": "The aperture was too wide" },
-            "1": { "label": "Insufficient overlap between focus steps" },
-            "2": { "label": "The tripod moved during the sequence" },
-            "3": { "label": "The ISO was too high" }
+            "0": { "label": "Blænden var for stor" },
+            "1": { "label": "Utilstrækkeligt overlap mellem fokustrin" },
+            "2": { "label": "Stativet bevægede sig under sekvensen" },
+            "3": { "label": "ISO var for høj" }
           }
         }
       }

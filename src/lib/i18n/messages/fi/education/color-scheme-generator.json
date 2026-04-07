@@ -1,146 +1,146 @@
 {
   "education": {
     "color-scheme-generator": {
-      "beginner": "Color harmony is about choosing colors that look good together. Just like musical chords, certain color combinations create pleasing visual relationships. Photographers use color harmony to plan wardrobe, set design, and even timing of outdoor shoots to get the right palette from nature.",
+      "beginner": "Väriharmonia tarkoittaa värien valitsemista niin, että ne näyttävät yhdessä hyvältä. Aivan kuten musiikilliset soinnut, tietyt väriyhdistelmät luovat miellyttäviä visuaalisia suhteita. Valokuvaajat käyttävät väriharmoniaa vaatetuksen, lavasteiden ja jopa ulkokuvausten ajankohdan suunnittelussa saadakseen luonnosta oikean paletin.",
       "deeper": {
         "0": {
-          "heading": "The Color Wheel",
-          "text": "Color harmony theory is rooted in the color wheel, which arranges hues in a circle based on their wavelength relationships. The HSL (Hue, Saturation, Lightness) model maps directly to the wheel: hue is the angle (0\u2013360\u00b0), saturation is the distance from center, and lightness controls brightness. In photography, these relationships appear naturally — golden hour produces analogous warm tones, while a red barn against green fields is complementary."
+          "heading": "Väripyörä",
+          "text": "Väriharmoniateoria pohjautuu väripyörään, joka järjestää sävyt ympyräksi niiden aallonpituussuhteiden mukaan. HSL-malli (Hue, Saturation, Lightness) liittyy suoraan pyörään: sävy on kulma (0–360°), värikylläisyys etäisyys keskipisteestä, ja vaaleus säätelee kirkkautta. Valokuvauksessa nämä suhteet esiintyvät luonnostaan — kultainen hetki tuottaa analogisen lämpimän sävymaailman, kun taas punainen lato vihreällä niityllä on komplementtivärien pari."
         },
         "1": {
-          "heading": "Complementary",
-          "text": "Two colors that sit directly opposite each other on the wheel (180\u00b0 apart), such as blue and orange or red and green. This creates maximum contrast and visual energy. Great for making a subject pop against a background — think golden-hour portraits where warm skin tones contrast with a cool blue sky."
+          "heading": "Komplementtivärit",
+          "text": "Kaksi väriä, jotka sijaitsevat väripyörän vastakkaisilla puolilla (180° erillään), kuten sininen ja oranssi tai punainen ja vihreä. Tämä tuottaa maksimikontrastin ja visuaalista energiaa. Hyvä tapa saada kohde erottumaan taustasta — ajattele kultaisen hetken muotokuvia, joissa lämpimät ihonsävyt kontrastoivat viileää sinistä taivasta vasten."
         },
         "2": {
-          "heading": "Analogous",
-          "text": "Three colors that are neighbors on the wheel, typically within a 30\u201360\u00b0 spread. They produce smooth, cohesive palettes with low contrast. Ideal for landscapes and mood-driven work — autumn foliage is a natural analogous palette of reds, oranges, and yellows."
+          "heading": "Analogiset värit",
+          "text": "Kolme väriä, jotka ovat naapureita pyörällä, tyypillisesti 30–60°:n levyisellä alueella. Ne muodostavat sulavia, yhtenäisiä paletteja matalalla kontrastilla. Ihanteellisia maisemiin ja tunnelmavetoiseen työhön — syksyn lehtien värit muodostavat luonnollisen analogisen paletin punaisista, oransseista ja keltaisista."
         },
         "3": {
-          "heading": "Triadic",
-          "text": "Three colors evenly spaced at 120\u00b0 intervals around the wheel, such as red, yellow, and blue. Triadic schemes feel balanced and vibrant without the tension of complementary contrast. Use one dominant color and the other two as accents for the strongest results."
+          "heading": "Triadiset värit",
+          "text": "Kolme väriä, jotka on sijoitettu tasaisesti 120°:n välein väripyörälle, kuten punainen, keltainen ja sininen. Triadiset mallit tuntuvat tasapainoisilta ja eläväisiltä ilman komplementtikontrastin jännitettä. Käytä yhtä väriä hallitsevana ja kahta muuta korostuksina parhaiden tulosten saamiseksi."
         },
         "4": {
-          "heading": "Split Complementary",
-          "text": "A variation of complementary that uses the two neighbors of the opposite color instead of the opposite itself. This keeps the high contrast of complementary but reduces the visual tension, making it more versatile and forgiving. A popular choice for styled portrait sessions."
+          "heading": "Jaetut komplementtivärit",
+          "text": "Komplementtiharmonian muunnelma, joka käyttää vastaväristä itse sen sijaan sen kahta naapuria. Tämä säilyttää komplementtiharmonian korkean kontrastin mutta pehmentää visuaalista jännitettä, mikä tekee siitä monipuolisemman ja anteeksiantavamman. Suosittu valinta tyyliteltyihin muotokuvauksiin."
         },
         "5": {
-          "heading": "Tetradic (Double Complementary)",
-          "text": "Four colors forming a rectangle on the wheel — essentially two complementary pairs. This offers the richest, most complex palette but requires careful balance. Let one color dominate and use the others as supporting accents to avoid a chaotic look."
+          "heading": "Tetradiset värit (kaksoiskomplementti)",
+          "text": "Neljä väriä, jotka muodostavat suorakulmion pyörällä — käytännössä kaksi komplementtiparia. Tarjoaa rikkaimman ja monimutkaisimman paletin mutta vaatii huolellista tasapainottamista. Anna yhden värin hallita ja käytä muita tukevina korostuksina välttääksesi kaoottisen ilmeen."
         }
       },
       "keyFactors": {
         "0": {
-          "label": "Harmony Type",
-          "description": "The geometric relationship between colors on the wheel: complementary, analogous, triadic, split-complementary, or tetradic."
+          "label": "Harmoniatyyppi",
+          "description": "Värien geometrinen suhde pyörällä: komplementti, analoginen, triadinen, jaettu komplementti tai tetradinen."
         },
         "1": {
-          "label": "Hue",
-          "description": "The base color angle on the wheel (0-360 degrees). This is the starting point for all harmony calculations."
+          "label": "Sävy",
+          "description": "Peruslähtösävyn kulma pyörällä (0–360 astetta). Tämä on kaikkien harmonialaskelmien lähtöpiste."
         },
         "2": {
-          "label": "Saturation",
-          "description": "How vivid or muted the colors are. Lower saturation produces pastels and earth tones; higher saturation gives bold, vibrant palettes."
+          "label": "Värikylläisyys",
+          "description": "Kuinka eloisia tai vaimeita värit ovat. Matala värikylläisyys tuottaa pastelleja ja maavärejä; korkea antaa rohkeat, eläväiset paletit."
         },
         "3": {
-          "label": "Lightness",
-          "description": "Controls brightness. Adjusting lightness can make the same hue feel completely different — dark navy vs. sky blue are the same hue at different lightness."
+          "label": "Vaaleus",
+          "description": "Säätelee kirkkautta. Vaaleuden muuttaminen voi saada saman sävyn tuntumaan täysin erilaiselta — tumma laivastonsininen ja taivaansininen ovat sama sävy eri vaaleuksilla."
         }
       },
       "tips": {
         "0": {
-          "text": "For portrait sessions, pick a complementary or split-complementary palette, then have your subject wear the key color while the background provides the contrasting hue. Blue/orange (golden hour portraits) is a classic example."
+          "text": "Muotokuvauksissa valitse komplementti- tai jaettu komplementtipaletti, ja pue kohteesi avainvärin mukaiseen asuun, kun tausta tarjoaa vastakkaisen sävyn. Sininen/oranssi (kultaisen hetken muotokuvat) on klassikkoesimerkki."
         },
         "1": {
-          "text": "Use analogous harmony for landscapes — nature already works in analogous palettes. Match your wardrobe advice or prop choices to the dominant natural hues."
+          "text": "Käytä analogista harmoniaa maisemissa — luonto toimii jo valmiiksi analogisissa paleteissa. Sovita vaatetus- ja rekvisiittavalinnat hallitseviin luonnon sävyihin."
         },
         "2": {
-          "text": "Reduce saturation to 30-50% to preview how colors will look in a more muted, editorial style. High saturation works for commercial and fashion, but lower saturation often feels more sophisticated."
+          "text": "Laske värikylläisyys 30–50 %:iin nähdäksesi, miltä värit näyttävät hillitymmässä, toimituksellisemmassa tyylissä. Korkea kylläisyys toimii mainos- ja muotikuvauksessa, mutta matalampi tuntuu usein hienostuneemmalta."
         }
       },
       "tooltips": {
         "Harmony Type": {
-          "term": "Harmony Type",
-          "definition": "The color relationship pattern: Complementary (opposite), Analogous (neighbors), Triadic (three-way), Split Complementary (offset opposites), or Tetradic (four-way rectangle)."
+          "term": "Harmoniatyyppi",
+          "definition": "Värien suhdekuvio: komplementti (vastakkainen), analoginen (naapurit), triadinen (kolmikko), jaettu komplementti (siirretyt vastavärit) tai tetradinen (nelikulmio)."
         },
         "Key Color": {
-          "term": "Key Color",
-          "definition": "The dominant color in your palette. All other harmony colors are calculated relative to this starting hue."
+          "term": "Avainväri",
+          "definition": "Palettisi hallitseva väri. Kaikki muut harmonian värit lasketaan suhteessa tähän lähtösävyyn."
         },
         "Hue": {
-          "term": "Hue",
-          "definition": "The color angle on the wheel in degrees: 0\u00b0 is red, 120\u00b0 is green, 240\u00b0 is blue."
+          "term": "Sävy",
+          "definition": "Värin kulma pyörällä asteina: 0° on punainen, 120° vihreä, 240° sininen."
         },
         "Saturation": {
-          "term": "Saturation",
-          "definition": "Color intensity from 0% (gray) to 100% (fully vivid). Controls how bold or muted the entire palette appears."
+          "term": "Värikylläisyys",
+          "definition": "Värin voimakkuus 0 %:sta (harmaa) 100 %:iin (täysin eloisa). Säätelee, kuinka rohkealta tai vaimealta koko paletti näyttää."
         },
         "Lightness": {
-          "term": "Lightness",
-          "definition": "Brightness from 0% (black) to 100% (white). At 50% you see the pure color; below is darker, above is lighter."
+          "term": "Vaaleus",
+          "definition": "Kirkkaus 0 %:sta (musta) 100 %:iin (valkoinen). 50 %:ssa näet puhtaan värin; sen alapuolella tummempi, yläpuolella vaaleampi."
         },
         "Split Angle": {
-          "term": "Split Angle",
-          "definition": "How far apart the two split-complementary colors are from the direct opposite. Wider angles give more contrast."
+          "term": "Jakokulma",
+          "definition": "Kuinka kaukana jaetun komplementtiparin kaksi väriä ovat suorasta vastaväristä. Suuremmat kulmat antavat enemmän kontrastia."
         },
         "Spread": {
-          "term": "Spread",
-          "definition": "How far apart the analogous colors are from the key hue. Narrow spread gives subtle variation; wide spread increases diversity."
+          "term": "Levitys",
+          "definition": "Kuinka kaukana analogiset värit ovat avainsävystä. Kapea levitys antaa hienovaraista vaihtelua; laaja lisää monipuolisuutta."
         }
       },
       "challenges": {
         "0": {
-          "scenario": "You want maximum contrast between two colors for a bold graphic portrait. Which harmony type gives you the most visual tension?",
-          "hint": "Colors directly across from each other on the wheel create the strongest contrast.",
-          "successMessage": "Correct! Complementary colors sit 180 degrees apart and produce the highest contrast — perfect for bold, eye-catching compositions.",
-          "failureMessage": "Complementary harmony places colors directly opposite on the wheel, creating maximum visual contrast.",
+          "scenario": "Haluat maksimikontrastin kahden värin välille rohkeaan graafiseen muotokuvaan. Mikä harmoniatyyppi antaa eniten visuaalista jännitettä?",
+          "hint": "Pyörällä suoraan vastakkaiset värit tuottavat voimakkaimman kontrastin.",
+          "successMessage": "Oikein! Komplementtivärit ovat 180 asteen päässä toisistaan ja tuottavat korkeimman kontrastin — täydellisiä rohkeisiin, huomiota herättäviin sommitelmiin.",
+          "failureMessage": "Komplementtiharmonia asettaa värit pyörän vastakkaisille puolille ja luo maksimivisuaalisen kontrastin.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Triadic" }
+            "0": { "label": "Komplementti" },
+            "1": { "label": "Analoginen" },
+            "2": { "label": "Triadinen" }
           }
         },
         "1": {
-          "scenario": "You are planning a golden hour shoot and want warm, cohesive tones. Which harmony type keeps colors close together on the wheel?",
-          "hint": "This type uses neighboring hues for a smooth, unified feel.",
-          "successMessage": "Right! Analogous harmony uses adjacent colors, giving you a warm, cohesive palette perfect for golden hour.",
-          "failureMessage": "Analogous harmony keeps all colors as neighbors on the wheel — ideal for unified warm or cool palettes.",
+          "scenario": "Suunnittelet kultaisen hetken kuvausta ja haluat lämpimiä, yhtenäisiä sävyjä. Mikä harmoniatyyppi pitää värit lähekkäin pyörällä?",
+          "hint": "Tämä tyyppi käyttää naapurisävyjä sulavaan, yhtenäiseen tuntuun.",
+          "successMessage": "Aivan! Analoginen harmonia käyttää vierekkäisiä värejä ja tarjoaa lämpimän, yhtenäisen paletin — täydellisen kultaiseen hetkeen.",
+          "failureMessage": "Analoginen harmonia pitää kaikki värit naapureina pyörällä — ihanteellinen yhtenäisiin lämpimiin tai kylmiin paletteihin.",
           "options": {
-            "0": { "label": "Complementary" },
-            "1": { "label": "Analogous" },
-            "2": { "label": "Tetradic" }
+            "0": { "label": "Komplementti" },
+            "1": { "label": "Analoginen" },
+            "2": { "label": "Tetradinen" }
           }
         },
         "2": {
-          "scenario": "A client wants a portrait with contrast but not as intense as pure complementary. Which harmony type softens the opposition while keeping visual interest?",
-          "hint": "This type uses two colors near the complement instead of the direct opposite.",
-          "successMessage": "Excellent! Split complementary keeps the contrast of complementary but splits the opposing color into two flanking hues, producing a less jarring but still dynamic palette.",
-          "failureMessage": "Split Complementary is the answer — it replaces the single opposite color with two neighbors of the opposite, softening the contrast while maintaining visual energy.",
+          "scenario": "Asiakas haluaa muotokuvan, jossa on kontrastia mutta ei yhtä voimakasta kuin puhtaalla komplementtiparilla. Mikä harmoniatyyppi pehmentää vastakkainasettelua ja silti säilyttää visuaalisen kiinnostavuuden?",
+          "hint": "Tämä tyyppi käyttää kahta väriä lähellä vastaväriä suoran vastavärin sijaan.",
+          "successMessage": "Erinomaista! Jaettu komplementti säilyttää komplementtiharmonian kontrastin, mutta jakaa vastavärin kahteen reunavärin sävyyn, tuottaen vähemmän iskevän mutta silti dynaamisen paletin.",
+          "failureMessage": "Jaettu komplementti on vastaus — se korvaa yksittäisen vastavärin kahdella vastavärin naapurilla, pehmentäen kontrastia mutta säilyttäen visuaalisen energian.",
           "options": {
-            "0": { "label": "Split Complementary" },
-            "1": { "label": "Triadic" },
-            "2": { "label": "Analogous" }
+            "0": { "label": "Jaettu komplementti" },
+            "1": { "label": "Triadinen" },
+            "2": { "label": "Analoginen" }
           }
         },
         "3": {
-          "scenario": "You set the key color to orange (hue ~30 degrees) with complementary harmony. What color will the complement be?",
-          "hint": "Complementary means 180 degrees opposite on the wheel.",
-          "successMessage": "Correct! 30\u00b0 + 180\u00b0 = 210\u00b0, which falls in the blue range. Orange and blue is one of photography most beloved complementary pairs.",
-          "failureMessage": "Adding 180\u00b0 to orange (30\u00b0) gives 210\u00b0, which is blue. The orange-blue complementary pair is a photography staple.",
+          "scenario": "Asetat avainväriksi oranssin (sävy ~30 astetta) ja käytät komplementtiharmoniaa. Mikä väri on komplementti?",
+          "hint": "Komplementti tarkoittaa 180 astetta vastakkaista pyörällä.",
+          "successMessage": "Oikein! 30° + 180° = 210°, joka osuu sinisen alueelle. Oranssi ja sininen on yksi valokuvauksen rakastetuimmista komplementtipareista.",
+          "failureMessage": "Lisäämällä 180° oranssiin (30°) saadaan 210°, joka on sininen. Oranssin ja sinisen komplementtipari on valokuvauksen perusasia.",
           "options": {
-            "0": { "label": "Blue (~210\u00b0)" },
-            "1": { "label": "Green (~150\u00b0)" },
-            "2": { "label": "Red (~0\u00b0)" }
+            "0": { "label": "Sininen (~210°)" },
+            "1": { "label": "Vihreä (~150°)" },
+            "2": { "label": "Punainen (~0°)" }
           }
         },
         "4": {
-          "scenario": "You are art-directing a fashion editorial and need a four-color palette that provides both warm and cool tones with high visual richness. Which harmony type gives you four colors, and what is the main challenge when using it?",
-          "hint": "The four-color harmony forms a rectangle on the wheel.",
-          "successMessage": "Right! Tetradic harmony gives four colors forming a rectangle on the wheel. The main challenge is balance — with four distinct hues, one should dominate while the others accent. Without hierarchy, the image feels chaotic.",
-          "failureMessage": "Tetradic (double-complementary) provides four colors in a rectangular arrangement. The challenge is that four strong hues compete for attention — you need to designate one dominant color and use the others as accents.",
+          "scenario": "Suunnittelet muotilehden editoriaalikuvausta ja tarvitset nelivärisen paletin, jossa on sekä lämpimiä että kylmiä sävyjä ja paljon visuaalista rikkautta. Mikä harmoniatyyppi antaa sinulle neljä väriä, ja mikä on sen käytön suurin haaste?",
+          "hint": "Neliväriharmonia muodostaa suorakulmion pyörälle.",
+          "successMessage": "Aivan! Tetradinen harmonia antaa neljä väriä, jotka muodostavat suorakulmion pyörällä. Suurin haaste on tasapaino — kun neljä selkeää sävyä kilpailee, yhden on hallittava ja muiden tuotava korostusta. Ilman hierarkiaa kuva tuntuu kaoottiselta.",
+          "failureMessage": "Tetradinen (kaksoiskomplementti) tarjoaa neljä väriä suorakulmaisessa järjestelmässä. Haasteena on, että neljä vahvaa sävyä kilpailevat huomiosta — yhden värin on oltava hallitseva ja muiden korostuksia.",
           "options": {
-            "0": { "label": "Tetradic — challenge is maintaining visual hierarchy among four hues" },
-            "1": { "label": "Triadic — challenge is having too few colors" },
-            "2": { "label": "Analogous — challenge is lack of contrast" }
+            "0": { "label": "Tetradinen — haasteena visuaalisen hierarkian säilyttäminen neljän sävyn välillä" },
+            "1": { "label": "Triadinen — haasteena liian vähän värejä" },
+            "2": { "label": "Analoginen — haasteena kontrastin puute" }
           }
         }
       }
