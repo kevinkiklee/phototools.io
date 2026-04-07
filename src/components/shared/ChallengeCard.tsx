@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import { useTranslations } from 'next-intl'
 import { isChallengeComplete, markChallengeComplete } from '@/lib/data/education'
-import { trackChallengeComplete } from '@/lib/analytics'
+import { trackChallengeComplete, trackChallengeStart } from '@/lib/analytics'
 import type { ChallengeSkeleton } from '@/lib/data/education/types'
 import styles from './LearnPanel.module.css'
 
@@ -37,22 +37,28 @@ export function ChallengeCard({ challenge, challengeIndex, slug, et, onAdvance, 
   const [selected, setSelected] = useState<string | null>(null)
   const [result, setResult] = useState<'success' | 'failure' | null>(null)
   const [completed, setCompleted] = useState(false)
+  const attemptRef = useRef(0)
+  const startedRef = useRef(false)
 
   useEffect(() => {
     setSelected(null)
     setResult(null)
     setCompleted(isChallengeComplete(challenge.id))
+    attemptRef.current = 0
+    startedRef.current = false
   }, [challenge.id])
 
   const check = useCallback(() => {
     if (!selected) return
     const correct = challenge.correctOption === selected
     setResult(correct ? 'success' : 'failure')
+    attemptRef.current++
     trackChallengeComplete({
       tool_slug: slug,
       challenge_id: challenge.id,
       difficulty: challenge.difficulty,
       correct,
+      attempt_number: attemptRef.current,
     })
     if (correct) {
       markChallengeComplete(challenge.id)
@@ -91,7 +97,15 @@ export function ChallengeCard({ challenge, challengeIndex, slug, et, onAdvance, 
             }
             return (
               <button key={value} className={cls}
-                onClick={() => { if (!result) setSelected(value) }}
+                onClick={() => {
+                  if (!result) {
+                    if (!startedRef.current) {
+                      startedRef.current = true
+                      trackChallengeStart({ challenge_id: challenge.id, difficulty: challenge.difficulty })
+                    }
+                    setSelected(value)
+                  }
+                }}
                 disabled={result !== null}>
                 {et(`challenges.${challengeIndex}.options.${optIndex}.label`)}
               </button>

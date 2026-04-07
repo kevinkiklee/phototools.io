@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { getSkeletonBySlug, isChallengeComplete, clearChallengeProgressForTool } from '@/lib/data/education'
-import { trackLearnPanelOpen } from '@/lib/analytics'
+import { trackLearnPanelOpen, trackLearnPanelSectionView } from '@/lib/analytics'
+import { useScrollDepth } from '@/lib/analytics/hooks/useScrollDepth'
 import { ChallengeCard, ChallengeNavDot } from './ChallengeCard'
 import { FaqSection } from './FaqSection'
 import { RelatedTools } from './RelatedTools'
@@ -22,6 +23,11 @@ export function LearnPanel({ slug, closable = false }: LearnPanelProps) {
   const [isMobile, setIsMobile] = useState(false)
   const [challengeIndex, setChallengeIndex] = useState(0)
   const [completedIds, setCompletedIds] = useState<Set<string>>(new Set())
+  const scrollRef = useScrollDepth({ event: 'learn_panel_scroll_depth' })
+
+  useEffect(() => {
+    trackLearnPanelSectionView({ section: 'beginner' })
+  }, [])
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth <= 1023)
@@ -55,7 +61,7 @@ export function LearnPanel({ slug, closable = false }: LearnPanelProps) {
   }
 
   return (
-    <aside className={styles.panel}>
+    <aside className={styles.panel} ref={scrollRef}>
       <header className={styles.header}>
         <h2 className={styles.headerTitle}>{t('title')}</h2>
         <span className={styles.spacer} />
