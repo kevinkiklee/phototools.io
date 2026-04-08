@@ -64,6 +64,14 @@ export const TOOL_FAQS: ToolFaqs[] = [
       { id: 'does-exif-contain-location' },
     ],
   },
+  {
+    slug: 'megapixel-visualizer',
+    questions: [
+      { id: 'how-many-megapixels-for-large-print' },
+      { id: 'why-phone-48mp-shows-12mp' },
+      { id: 'difference-300-dpi-vs-240-dpi' },
+    ],
+  },
 ]
 
 export function getFaqsBySlug(slug: string): ToolFaqs | undefined {
