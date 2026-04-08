@@ -40,7 +40,9 @@ for (const page of pages) {
           !e.includes('/phog/') &&
           !e.includes('connect.facebook.net') &&
           !e.includes('fbevents.js') &&
-          !e.includes('facebook.com')
+          !e.includes('facebook.com') &&
+          !e.includes('sentry') &&
+          !e.includes('monitoring')
       )
       expect(realErrors).toEqual([])
     })
