@@ -1,5 +1,6 @@
 import { type NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
+import { logger } from '@/lib/logger'
 
 function getResend() {
   const key = process.env.RESEND_API_KEY
@@ -62,13 +63,13 @@ export async function POST(request: NextRequest) {
   // Honeypot field — bots fill all fields; real users never see this.
   // Return success (not error) to avoid confirming the trap to spammers.
   if (body.website) {
-    console.info('[contact] honeypot triggered', { ip: getRateLimitKey(request) })
+    logger.info('contact', 'Honeypot triggered', { ip: getRateLimitKey(request) })
     return NextResponse.json({ success: true })
   }
 
   const ip = getRateLimitKey(request)
   if (isRateLimited(ip)) {
-    console.warn('[contact] rate limited', { ip })
+    logger.warn('contact', 'Rate limited', { ip })
     return NextResponse.json(
       { error: 'Too many requests. Please try again later.' },
       { status: 429 }
@@ -111,10 +112,10 @@ export async function POST(request: NextRequest) {
       replyTo: email,
     })
 
-    console.info('[contact] sent', { ip, subject: subject.slice(0, 50) })
+    logger.info('contact', 'Email sent', { ip, subject: subject.slice(0, 50) })
     return NextResponse.json({ success: true })
   } catch (err) {
-    console.error('[contact] send failed', { ip, error: err instanceof Error ? err.message : 'unknown' })
+    logger.error('contact', 'Send failed', { ip, error: err instanceof Error ? err : String(err) })
     return NextResponse.json(
       { error: 'Failed to send message. Please try again later.' },
       { status: 500 }
