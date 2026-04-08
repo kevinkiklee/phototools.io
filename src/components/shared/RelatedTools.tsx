@@ -27,7 +27,7 @@ export function RelatedTools({ currentSlug }: RelatedToolsProps) {
       <h3 className={styles.heading}>{t('title')}</h3>
       <div className={styles.list}>
         {related.map((tool) => (
-          <Link key={tool.slug} href={`/${tool.slug}`} className={styles.card}>
+          <Link key={tool.slug} href={`/${tool.slug}`} prefetch={false} className={styles.card}>
             <ToolIcon slug={tool.slug} width={16} height={16} className={styles.icon} />
             <div>
               <div className={styles.name}>{toolsT(`${tool.slug}.name`)}</div>

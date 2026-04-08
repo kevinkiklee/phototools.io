@@ -50,8 +50,18 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               if (isLive) {
                 return (
                   <AnimatedItem key={tool.slug}>
+                    {/* prefetch={false}: the homepage lists every tool as a
+                        card. Default prefetch causes Next.js to emit
+                        <link rel="preload" as="style"> for each tool's unique
+                        CSS chunk (e.g. StarTrailCalculator, SensorSize,
+                        PhotoUploadPanel), firing "preloaded but not used"
+                        console warnings for anything the user doesn't click.
+                        Tools that share layout chunks aren't affected either
+                        way, so disabling prefetch here loses nothing for
+                        most routes and cleans the console. */}
                     <Link
                       href={`/${tool.slug}`}
+                      prefetch={false}
                       className={styles.card}
                       data-ph-capture-attribute-source="homepage-card"
                       data-ph-capture-attribute-tool-slug={tool.slug}

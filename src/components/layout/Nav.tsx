@@ -143,6 +143,7 @@ export function Nav({ theme, onThemeChange }: NavProps) {
                           <Link
                             key={tool.slug}
                             href={`/${tool.slug}`}
+                            prefetch={false}
                             className={styles.megaItem}
                             data-ph-capture-attribute-source="mega-menu"
                             data-ph-capture-attribute-tool-slug={tool.slug}
