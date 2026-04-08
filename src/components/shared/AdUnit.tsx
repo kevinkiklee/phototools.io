@@ -22,6 +22,7 @@ interface AdUnitProps {
 
 export function AdUnit({ slot, format, className, channel, testId }: AdUnitProps) {
   const insRef = useRef<HTMLModElement>(null)
+  const pushedRef = useRef(false)
   const [loaded, setLoaded] = useState(false)
   const [collapsed, setCollapsed] = useState(false)
   const { width, height } = AD_FORMATS[format]
@@ -29,12 +30,21 @@ export function AdUnit({ slot, format, className, channel, testId }: AdUnitProps
   useEffect(() => {
     if (!isAdsEnabled()) return
 
-    // Tell AdSense to fill this <ins> slot. The push({}) call matches the
-    // next unfilled <ins class="adsbygoogle"> element on the page.
+    // Guard against AdSense's "All 'ins' elements already have ads in them"
+    // TagError. push({}) tells AdSense to fill the next unfilled <ins>, but
+    // the error gets logged asynchronously from AdSense's queue processor
+    // (outside our try/catch) if the effect runs again for an <ins> that's
+    // already filled — e.g. on App Router route transitions where the
+    // component re-mounts but AdSense's DOM state was never cleared.
+    if (pushedRef.current) return
+    pushedRef.current = true
+
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({})
     } catch {
-      // AdSense library not loaded yet (e.g. blocked by adblocker)
+      // AdSense library not loaded yet (e.g. blocked by adblocker). Reset so
+      // a future effect can retry.
+      pushedRef.current = false
     }
 
     const ins = insRef.current
