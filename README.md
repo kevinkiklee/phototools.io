@@ -42,7 +42,9 @@ All image processing happens client-side. Photos you load into the EXIF Viewer, 
 These tools are functional in the dev environment but not yet published to production:
 
 - **Exposure Triangle Simulator** — Adjust aperture, shutter speed, and ISO to see real-time effects on exposure, depth of field blur, motion blur, and noise (WebGL).
-- **Depth of Field Calculator** — Calculate near/far focus, hyperfocal distance, and total DoF with an interactive diagram.
+- **Depth of Field Simulator** — Visualize how aperture, focal length, and distance affect background blur with an interactive diagram.
+- **Focus Stacking Calculator** — Calculate optimal focus distances for front-to-back sharpness.
+- **Equivalent Settings Calculator** — Find equivalent aperture and focal length across sensor formats.
 - **Hyperfocal Distance Simulator** — Learn where to focus for maximum foreground-to-infinity sharpness.
 - **Shutter Speed Visualizer** — Find the minimum safe shutter speed for handheld shooting based on focal length, crop factor, and stabilization.
 - **Perspective Compression Simulator** — See how focal length affects background compression and apparent subject distance.
@@ -56,7 +58,7 @@ These tools are functional in the dev environment but not yet published to produ
 | UI | React 19, TypeScript 6, CSS Modules |
 | Rendering | Canvas API, WebGL2 + GLSL shaders |
 | i18n | next-intl |
-| Unit tests | Vitest + Testing Library (694 tests, 44 files) |
+| Unit tests | Vitest + Testing Library (773 tests, 55 files) |
 | E2E tests | Playwright (Chromium + Firefox) |
 | Deployment | Vercel (auto-deploy from `main`) |
 | Analytics | Vercel Speed Insights, Google Analytics |
@@ -90,11 +92,12 @@ The dev server starts at `http://localhost:3000`. In development, all tools are 
 ```
 src/
   app/                        App Router routes
-    [slug]/                   Each tool at a top-level URL (e.g. /fov-simulator)
-      page.tsx                Route entry point
-      _components/            Tool-specific UI (co-located, private folder)
+    [locale]/                 All locale-prefixed routes
+      [slug]/                 Each tool (e.g. /en/fov-simulator)
+        page.tsx              Route entry point
+        _components/          Tool-specific UI (co-located, private folder)
+      learn/glossary/         Photography glossary page
     api/contact/              Contact form API route (Resend)
-    learn/glossary/           Photography glossary page
   components/
     layout/                   Nav (mega-menu), Footer, ThemeProvider, ThemeToggle
     shared/                   Reusable UI — LearnPanel, ControlPanel, ToolActions,
@@ -106,10 +109,12 @@ src/
     data/                     Tool registry, education content, sensors, focal lengths,
                               scenes, glossary, camera settings, ND filters, white balance
     data/education/           Per-tool education skeletons and challenge definitions
-    i18n/                     Message loader and translation JSON files (next-intl)
-    utils/                    URL query sync, canvas export helpers
+    i18n/                     Message loader and translation JSON files (next-intl,
+                              41 files × 31 locales = 1271 total)
+    utils/                    URL query sync, EXIF parsing, canvas/image export helpers
     types.ts                  Shared TypeScript types
     ads.ts                    Ad configuration and feature flags
+  proxy.ts                    Routing Middleware (locale detection, redirects)
   e2e/                        Playwright e2e test specs
 public/                       Static assets (scene images, sample photos)
 ```
