@@ -12,5 +12,6 @@ export const ASPECT_RATIOS: AspectRatio[] = [
 export const DEFAULT_ASPECT_ID = '3x2'
 
 export function getAspect(id: string): AspectRatio {
-  return ASPECT_RATIOS.find(a => a.id === id) ?? ASPECT_RATIOS[3]
+  return ASPECT_RATIOS.find(a => a.id === id)
+    ?? ASPECT_RATIOS.find(a => a.id === DEFAULT_ASPECT_ID)!
 }
