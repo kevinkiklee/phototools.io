@@ -2,21 +2,18 @@ import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { logger } from './logger'
 
 describe('logger', () => {
-  const originalEnv = process.env.NODE_ENV
-
   beforeEach(() => {
     vi.spyOn(console, 'log').mockImplementation(() => {})
   })
 
   afterEach(() => {
     vi.restoreAllMocks()
-    process.env.NODE_ENV = originalEnv
-    delete process.env.VERCEL_ENV
+    vi.unstubAllEnvs()
   })
 
   describe('production mode (JSON output)', () => {
     beforeEach(() => {
-      process.env.NODE_ENV = 'production'
+      vi.stubEnv('NODE_ENV', 'production')
     })
 
     it('outputs valid JSON for info level', () => {
@@ -56,7 +53,7 @@ describe('logger', () => {
     })
 
     it('includes env from VERCEL_ENV', () => {
-      process.env.VERCEL_ENV = 'production'
+      vi.stubEnv('VERCEL_ENV', 'production')
       logger.info('health', 'OK')
       const output = (console.log as ReturnType<typeof vi.fn>).mock.calls[0][0]
       const parsed = JSON.parse(output)
@@ -74,7 +71,7 @@ describe('logger', () => {
 
   describe('development mode (pretty-print)', () => {
     beforeEach(() => {
-      process.env.NODE_ENV = 'development'
+      vi.stubEnv('NODE_ENV', 'development')
     })
 
     it('outputs human-readable format', () => {

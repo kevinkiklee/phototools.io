@@ -3,12 +3,12 @@ import { getConsentState, onConsentChange } from './consent'
 
 describe('consent', () => {
   beforeEach(() => {
-    delete (window as Record<string, unknown>).__cookieyes_consent
+    delete (window as unknown as Record<string, unknown>).__cookieyes_consent
     vi.restoreAllMocks()
   })
 
   afterEach(() => {
-    delete (window as Record<string, unknown>).__cookieyes_consent
+    delete (window as unknown as Record<string, unknown>).__cookieyes_consent
   })
 
   it('returns all-denied when CookieYes is not loaded', () => {

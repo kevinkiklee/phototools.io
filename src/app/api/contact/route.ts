@@ -10,6 +10,12 @@ function getResend() {
 
 const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000
 const RATE_LIMIT_MAX = 3
+// Cap the size of the in-memory rate limit map to prevent unbounded growth
+// on long-running Fluid Compute instances. When exceeded, we evict the
+// oldest expired entries first; if none are expired, we evict the single
+// oldest entry. This is intentionally simple — real DDOS protection should
+// live at the edge.
+const RATE_LIMIT_MAX_ENTRIES = 10_000
 
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>()
 
@@ -17,8 +23,23 @@ function getRateLimitKey(request: NextRequest): string {
   return request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown'
 }
 
+function pruneRateLimitMap(now: number): void {
+  if (rateLimitMap.size < RATE_LIMIT_MAX_ENTRIES) return
+  // First pass: drop everything that has expired.
+  for (const [key, entry] of rateLimitMap) {
+    if (now > entry.resetAt) rateLimitMap.delete(key)
+  }
+  // Still over the cap? Drop the oldest insertion (Map preserves order).
+  while (rateLimitMap.size >= RATE_LIMIT_MAX_ENTRIES) {
+    const oldest = rateLimitMap.keys().next().value
+    if (oldest === undefined) break
+    rateLimitMap.delete(oldest)
+  }
+}
+
 function isRateLimited(key: string): boolean {
   const now = Date.now()
+  pruneRateLimitMap(now)
   const entry = rateLimitMap.get(key)
 
   if (!entry || now > entry.resetAt) {
@@ -102,11 +123,14 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Message must be under 5000 characters.' }, { status: 400 })
   }
 
+  const contactTo = process.env.CONTACT_FORM_TO || 'kevinkiklee@gmail.com'
+  const contactFrom = process.env.CONTACT_FORM_FROM || 'PhotoTools <hello@phototools.io>'
+
   try {
     const resend = getResend()
     await resend.emails.send({
-      from: 'PhotoTools <hello@phototools.io>',
-      to: 'kevinkiklee@gmail.com',
+      from: contactFrom,
+      to: contactTo,
       subject: `[PhotoTools Contact] [${CATEGORY_LABELS[category as ContactCategory]}] ${subject}`,
       text: `Name: ${name}\nEmail: ${email}\nCategory: ${CATEGORY_LABELS[category as ContactCategory]}\n\n${message}`,
       replyTo: email,

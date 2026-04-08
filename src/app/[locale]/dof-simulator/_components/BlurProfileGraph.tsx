@@ -32,7 +32,6 @@ interface BlurProfileGraphProps {
   aperture: number
   subjectDistance: number
   coc: number
-  sensorWidth: number
 }
 
 /** Sample blur values across the distance range */
@@ -60,7 +59,7 @@ function sampleBlurCurve(
   return points
 }
 
-export function BlurProfileGraph({ focalLength, aperture, subjectDistance, coc, sensorWidth: _sensorWidth }: BlurProfileGraphProps) {
+export function BlurProfileGraph({ focalLength, aperture, subjectDistance, coc }: BlurProfileGraphProps) {
   const samples = useMemo(
     () => sampleBlurCurve(focalLength, aperture, subjectDistance),
     [focalLength, aperture, subjectDistance],

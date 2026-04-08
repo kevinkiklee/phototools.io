@@ -4,7 +4,7 @@ import { trackGA4, updateGA4Consent } from './ga4'
 describe('ga4 provider', () => {
   beforeEach(() => {
     vi.restoreAllMocks()
-    delete (window as Record<string, unknown>).gtag
+    delete (window as unknown as Record<string, unknown>).gtag
   })
 
   it('no-ops when gtag is not defined', () => {

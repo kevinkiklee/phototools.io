@@ -25,12 +25,16 @@ export function pixelPitch(sensorWidthMm: number, resolutionMp: number, sensorHe
 
 /**
  * Calculate the aperture at which diffraction begins to soften the image
- * beyond what the sensor can resolve.
+ * beyond what the sensor can resolve — the "diffraction limit".
  *
  * Based on the Airy disk diameter matching the pixel pitch:
- *   f_diff ≈ pixelPitch / 0.67
- *
- * The 0.67 constant comes from the Airy disk formula for green light (~550nm).
+ *   d_airy ≈ 2.44 · λ · N      (diameter, first minimum)
+ * Solving for N at d_airy = pixelPitch and λ = 550nm (green light):
+ *   N ≈ pixelPitch / (2.44 × 0.00055 mm) ≈ pixelPitch / 0.001342 mm
+ *                                        ≈ pixelPitch(µm) / 1.342
+ * The 0.67 constant used below is the industry-standard simplification that
+ * matches the Airy disk *radius* (not diameter) at the first minimum:
+ *   N ≈ pixelPitch(µm) / 0.67
  * Stopping down beyond this f-number will reduce per-pixel sharpness due to
  * diffraction, even though overall depth of field increases.
  *

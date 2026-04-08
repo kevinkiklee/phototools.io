@@ -196,7 +196,8 @@ export function calcOptimalAperture(
  * score = clamp(sqrt(blur / 0.5) × 100, 0, 100)
  *
  * @param backgroundBlurMm - Background blur disc diameter in mm
- * @param coc - Circle of confusion (included for API consistency)
+ * @param _coc - Circle of confusion (accepted for API symmetry with callers
+ *   that pass it but intentionally unused; scaling is absolute in mm)
  * @returns Isolation score 0-100
  */
 export function calcIsolationScore(backgroundBlurMm: number, _coc: number): number {

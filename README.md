@@ -58,7 +58,7 @@ These tools are functional in the dev environment but not yet published to produ
 | UI | React 19, TypeScript 6, CSS Modules |
 | Rendering | Canvas API, WebGL2 + GLSL shaders |
 | i18n | next-intl |
-| Unit tests | Vitest + Testing Library (773 tests, 55 files) |
+| Unit tests | Vitest + Testing Library (781 tests, 56 files) |
 | E2E tests | Playwright (Chromium + Firefox) |
 | Deployment | Vercel (auto-deploy from `main`) |
 | Analytics | Vercel Speed Insights, Google Analytics |
@@ -83,9 +83,13 @@ The dev server starts at `http://localhost:3000`. In development, all tools are 
 | `npm run build` | Production build |
 | `npm run start` | Serve production build locally |
 | `npm run lint` | Run ESLint |
+| `npm run type-check` | Run TypeScript compiler (no emit) |
 | `npm test` | Run Vitest unit tests |
 | `npm run test:watch` | Run tests in watch mode |
+| `npm run test:coverage` | Run tests with coverage report |
 | `npm run test:e2e` | Run Playwright e2e tests (requires build) |
+| `npm run test:e2e:ui` | Run Playwright tests with interactive UI |
+| `npm run analyze` | Build with bundle analyzer enabled |
 
 ## Project Structure
 

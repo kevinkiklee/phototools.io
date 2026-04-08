@@ -23,7 +23,9 @@ PhotoTools is an educational photography application — free calculators, simul
 - `npm run dev` — start dev server with Turbopack at `http://localhost:3000`
 - `npm run build` — production build via `next build`
 - `npm run start` — serve production build locally
-- `npm test` — run Vitest tests (780 tests across 56 files)
+- `npm test` — run Vitest tests (781 tests across 56 files)
+- `npm run test:coverage` — run tests with coverage report
+- `npm run type-check` — run TypeScript compiler in noEmit mode
 - `npm run test:watch` — run tests in watch mode
 - `npm run test:e2e` — run Playwright e2e tests (requires a build first)
 - `npm run test:e2e:ui` — run Playwright tests with interactive UI
@@ -34,7 +36,7 @@ PhotoTools is an educational photography application — free calculators, simul
 All source code lives under `src/`, with `@/` aliased to `src/` in tsconfig.json and vitest.config.ts.
 
 - **App Router**: All routes under `src/app/[locale]/`. Root layout (`src/app/layout.tsx`) imports globals.css and provides `<html>`/`<body>`. Locale layout (`src/app/[locale]/layout.tsx`) validates the locale, calls `setRequestLocale()`, wraps children in `NextIntlClientProvider`, and renders providers. Homepage at `src/app/[locale]/page.tsx`. Each tool at `src/app/[locale]/[slug]/page.tsx`. Glossary at `src/app/[locale]/learn/glossary/page.tsx`. Additional pages: `/[locale]/about`, `/[locale]/contact`, `/[locale]/privacy`, `/[locale]/terms`. API route (not locale-prefixed): `src/app/api/contact/route.ts`.
-- **Locale Routing**: Middleware (`src/middleware.ts`) handles locale detection (URL prefix → `NEXT_LOCALE` cookie → `Accept-Language` header → fallback `en`). All pages are locale-prefixed: `/en/fov-simulator`, `/es/fov-simulator`, etc. Tool slugs stay in English across all locales.
+- **Locale Routing**: Routing Middleware (`src/proxy.ts` — `proxy.ts` is the Next.js 16 name for middleware.ts) handles locale detection (URL prefix → `NEXT_LOCALE` cookie → `Accept-Language` header → fallback `en`). All pages are locale-prefixed: `/en/fov-simulator`, `/es/fov-simulator`, etc. Tool slugs stay in English across all locales.
 - **Tool Co-location**: Each tool's components live in `src/app/[locale]/[slug]/_components/` alongside its `page.tsx`. The `_` prefix makes it a private folder (not a route segment). Page files import from `./_components/...` using relative paths. When importing types from tool `_components/` in `src/lib/`, use `@/app/[locale]/...` path.
 - **Shared Components**: `src/components/` contains only shared/reusable code: `layout/` (Nav, Footer, ThemeProvider, ThemeToggle) and `shared/` (LearnPanel, ChallengeCard, ControlPanel, FocalLengthField, ApertureField, DistanceField, ToolIcon, InfoTooltip, ShareModal, ToolActions, FileDropZone, PhotoUploadPanel, ScenePicker, DraftBanner, JsonLd, DoFDiagram, DoFCanvas, AnimatedGrid, ModeToggle, AdUnit, AdScripts, MobileAdBanner, LanguageSwitcher, ApertureLogo, Calculator, FaqSection, RelatedTools).
 - **Tool Registry**: `src/lib/data/tools.ts` defines all tools with slug, name, description, `dev`/`prod` status fields (`'live'`/`'draft'`/`'disabled'`), and category. `getLiveTools()` returns live tools. `getVisibleTools()` returns live + draft. `getToolBySlug()` looks up by slug. `getAllTools()` returns all tools regardless of status.
@@ -63,7 +65,7 @@ src/
       about/, contact/, privacy/, terms/  Info pages
   components/
     layout/               Nav (mega-menu), Footer, ThemeProvider, ThemeToggle
-    shared/               LearnPanel, ChallengeCard, ControlPanel, LanguageSwitcher, HtmlLang, etc.
+    shared/               LearnPanel, ChallengeCard, ControlPanel, LanguageSwitcher, ApertureLogo, Calculator, FaqSection, RelatedTools, etc.
   lib/
     i18n/
       routing.ts          Locale list, defineRouting config, locale metadata

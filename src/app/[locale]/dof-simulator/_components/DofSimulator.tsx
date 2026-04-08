@@ -141,7 +141,6 @@ export function DofSimulator() {
             aperture={aperture}
             subjectDistance={subjectDistance}
             coc={coc}
-            sensorWidth={sensorWidth}
           />
         </div>
 

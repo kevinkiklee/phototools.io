@@ -4,7 +4,7 @@ import { initMeta, trackMeta, trackMetaCustom, setMetaEnabled, isMetaReady, rese
 describe('meta provider', () => {
   beforeEach(() => {
     vi.restoreAllMocks()
-    delete (window as Record<string, unknown>).fbq
+    delete (window as unknown as Record<string, unknown>).fbq
     vi.stubEnv('NEXT_PUBLIC_META_PIXEL_ID', '')
     resetMeta()
   })
