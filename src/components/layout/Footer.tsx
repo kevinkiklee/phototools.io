@@ -13,7 +13,11 @@ export function Footer() {
       <div className={styles.infoRow}>
         <Link href="/learn/glossary" className={styles.link} data-ph-capture-attribute-source="footer" onClick={() => trackNavClick({ target: 'glossary', source: 'footer' })}>{t('glossary')}</Link>
         <Link href="/about" className={styles.link} data-ph-capture-attribute-source="footer" onClick={() => trackNavClick({ target: 'about', source: 'footer' })}>{t('about')}</Link>
-        <Link href="/contact" className={styles.link} data-ph-capture-attribute-source="footer" onClick={() => trackNavClick({ target: 'contact', source: 'footer' })}>{t('contact')}</Link>
+        {/* prefetch={false}: /contact owns a unique CSS chunk (ContactForm is
+            a client component with its own module). Default prefetch causes
+            Next.js to emit <link rel="preload" as="style"> for that chunk on
+            every page, triggering a "preloaded but not used" console warning. */}
+        <Link href="/contact" prefetch={false} className={styles.link} data-ph-capture-attribute-source="footer" onClick={() => trackNavClick({ target: 'contact', source: 'footer' })}>{t('contact')}</Link>
         <Link href="/privacy" className={styles.link} data-ph-capture-attribute-source="footer" onClick={() => trackNavClick({ target: 'privacy', source: 'footer' })}>{t('privacy')}</Link>
         <Link href="/terms" className={styles.link} data-ph-capture-attribute-source="footer" onClick={() => trackNavClick({ target: 'terms', source: 'footer' })}>{t('terms')}</Link>
         <button type="button" className={`cky-banner-element ${styles.cookieButton}`}>{t('cookieSettings')}</button>

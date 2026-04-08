@@ -5,6 +5,8 @@ import { useLocale } from 'next-intl'
 import { usePathname } from '@/lib/i18n/navigation'
 import Script from 'next/script'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+
+const GTAG_INIT_SNIPPET = `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});gtag('js',new Date());gtag('config','G-B0QND42GRG');`
 import { Analytics } from '@vercel/analytics/next'
 import { getToolBySlug } from '@/lib/data/tools'
 import { initPostHog, upgradePostHog, downgradePostHog } from '../providers/posthog'
@@ -165,13 +167,18 @@ export function AnalyticsProvider({ children }: AnalyticsProviderProps) {
       {children}
       <SpeedInsights />
       <Analytics />
-      <Script
+      {/* GTM/gtag loaded via native React 19 <script async> rather than
+          next/script. next/script's "afterInteractive" strategy emits
+          <link rel="preload" as="script"> and then defers execution,
+          which fires the browser's "preloaded but not used within a
+          few seconds" warning. The inline init snippet populates
+          window.dataLayer so gtag.js can process queued commands
+          whenever it loads. */}
+      <script
+        async
         src="https://www.googletagmanager.com/gtag/js?id=G-B0QND42GRG"
-        strategy="afterInteractive"
       />
-      <Script id="gtag-init" strategy="afterInteractive">
-        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});gtag('js',new Date());gtag('config','G-B0QND42GRG');`}
-      </Script>
+      <script dangerouslySetInnerHTML={{ __html: GTAG_INIT_SNIPPET }} />
       {marketingConsent && metaPixelId && (
         <Script
           id="meta-pixel"
