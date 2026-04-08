@@ -1,6 +1,7 @@
 import type { NextConfig } from 'next'
 import createNextIntlPlugin from 'next-intl/plugin'
 import bundleAnalyzer from '@next/bundle-analyzer'
+import { withSentryConfig } from '@sentry/nextjs'
 import { staticRedirects } from './src/lib/i18n/redirects'
 
 const withNextIntl = createNextIntlPlugin('./src/lib/i18n/request.ts')
@@ -61,4 +62,20 @@ const nextConfig: NextConfig = {
   },
 }
 
-export default withBundleAnalyzer(withNextIntl(nextConfig))
+export default withSentryConfig(withBundleAnalyzer(withNextIntl(nextConfig)), {
+  org: process.env.SENTRY_ORG,
+  project: process.env.SENTRY_PROJECT,
+  authToken: process.env.SENTRY_AUTH_TOKEN,
+
+  // Route browser Sentry events through our server (bypasses ad blockers)
+  tunnelRoute: '/monitoring',
+
+  // Suppress source map upload logs except in CI
+  silent: !process.env.CI,
+
+  // Don't serve source maps to browsers
+  hideSourceMaps: true,
+
+  // Widen file upload for better stack traces
+  widenClientFileUpload: true,
+})
