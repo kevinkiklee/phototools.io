@@ -1,0 +1,587 @@
+/* ── Sidebar+Canvas Layout ── */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.appBody {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 280px;
+  min-width: 280px;
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: slideInLeft var(--duration-slow) var(--ease-out) both;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0;
+}
+
+.description {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+  padding: 16px;
+  min-width: 0;
+  animation: fadeIn var(--duration-slow) var(--ease-out) both;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mobileControls {
+  display: none;
+}
+
+.desktopOnly {}
+.mobileOnly { display: none; }
+
+/* ── Sensor checkboxes ── */
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.checkLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 6px;
+  transition: background 0.15s;
+}
+
+.checkLabel:hover {
+  background: var(--bg-surface);
+}
+
+.checkLabel input {
+  display: none;
+}
+
+.checkDot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity: 0.35;
+  transition: opacity 0.15s;
+}
+
+.checkLabel input:checked + .checkDot {
+  opacity: 1;
+}
+
+.checkName {
+  color: var(--text-secondary);
+  transition: color 0.15s;
+  flex: 1;
+}
+
+.checkLabel input:checked ~ .checkName {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.checkLabel input:checked ~ .checkOutline {
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  border: 1.5px solid var(--text-secondary);
+  pointer-events: none;
+}
+
+/* ── Resolution field ── */
+.resolutionField {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.resolutionField input {
+  width: 56px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 12px;
+  font-family: inherit;
+  text-align: center;
+}
+
+/* ── Canvas ── */
+.canvas {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  display: block;
+}
+
+/* ── Table ── */
+.tableWrap {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.table th,
+.table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+}
+
+.table th {
+  background: var(--bg-surface);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table td {
+  font-family: var(--font-mono);
+}
+
+.table tr:hover td {
+  background: var(--bg-surface);
+}
+
+.sensorCell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  font-family: inherit;
+}
+
+.tableDot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── Copy image button ── */
+.copyBtn {
+  padding: 6px 12px;
+  background: var(--accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: 6px;
+  font-size: 11px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.copyBtn:hover {
+  background: var(--accent-hover);
+}
+
+/* ── Section label ── */
+.sectionLabel {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ── Mobile ── */
+@media (max-width: 1023px) {
+  .app {
+    height: auto;
+    overflow: visible;
+  }
+
+  .appBody {
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main {
+    padding: 8px;
+  }
+
+  .canvas {
+    min-height: 500px;
+  }
+
+  .mobileControls {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
+  }
+
+  .modeBtn {
+    min-height: 44px;
+  }
+
+  .checkLabel {
+    padding: 6px 8px;
+  }
+
+  .resolutionField input {
+    min-height: 44px;
+  }
+
+  .customInput {
+    min-height: 44px;
+    font-size: 16px;
+  }
+
+  .customAddBtn {
+    min-height: 44px;
+  }
+}
+
+/* ── Custom Sensor Form ── */
+.customForm {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.customRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.customX {
+  font-size: 12px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.customInput {
+  flex: 1;
+  padding: 6px 8px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: inherit;
+  min-width: 0;
+  transition: border-color var(--duration-fast) var(--ease-out);
+}
+
+.customInput:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* Hide native number spinners */
+.customInput[type='number']::-webkit-inner-spin-button,
+.customInput[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.customInput[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.customAddBtn {
+  padding: 6px 10px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-out), opacity var(--duration-fast);
+}
+
+.customAddBtn:hover {
+  background: var(--accent-hover);
+}
+
+.customAddBtn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.customRemoveBtn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+  transition: color var(--duration-fast);
+}
+
+/* Sensor model tooltip */
+.modelTooltip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 9px;
+  font-weight: 600;
+  cursor: help;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.modelTooltip::after {
+  content: attr(data-models);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  right: 0;
+  background: rgba(0, 0, 0, 0.9);
+  color: var(--text-primary);
+  font-size: 11px;
+  font-weight: 400;
+  padding: 6px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity var(--duration-fast) var(--ease-out), transform var(--duration-fast) var(--ease-out);
+  z-index: 10;
+}
+
+.modelTooltip:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.customEditBtn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+  transition: color var(--duration-fast);
+}
+
+.customEditBtn:hover {
+  color: var(--accent);
+}
+
+.customRemoveBtn:hover {
+  color: #ef4444;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+  background: var(--bg-surface);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+}
+
+.editActions {
+  display: flex;
+  gap: 6px;
+}
+
+.editCancelBtn {
+  flex: 1;
+  padding: 6px 10px;
+  background: none;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color var(--duration-fast);
+}
+
+.editCancelBtn:hover {
+  border-color: var(--text-secondary);
+}
+
+.deleteAllBtn {
+  padding: 6px 10px;
+  background: none;
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 6px;
+  font-size: 11px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background var(--duration-fast), border-color var(--duration-fast);
+}
+
+.deleteAllBtn:hover {
+  background: rgba(239, 68, 68, 0.1);
+  border-color: rgba(239, 68, 68, 0.5);
+}
+
+.customWarning {
+  font-size: 11px;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: 4px;
+  padding: 4px 8px;
+  animation: fadeInUp var(--duration-fast) var(--ease-out);
+}
+
+/* CLS + perf enhancements */
+.main {
+  min-height: 600px;
+  contain: layout;
+}
+
+.sidebar {
+  contain: layout paint;
+}
+
+.canvasWrap {
+  contain: strict;
+  position: relative;
+  min-height: 300px;
+}
+
+.skeletonOverlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.15;
+}
+
+.canvas[data-rendered="true"] + .skeletonOverlay,
+.canvas[data-rendered="true"] ~ .skeletonOverlay {
+  display: none;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.learnPanelWrap {
+  content-visibility: auto;
+  contain-intrinsic-size: 800px;
+}
+
+.printTableWrap {
+  min-height: 400px;
+  overflow-x: auto;
+}
+
+.printTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.printTable th,
+.printTable td {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  text-align: center;
+}
+.printTable th:first-child {
+  position: sticky;
+  left: 0;
+  background: var(--bg-surface);
+}
+.printTable .qExcellent { background: rgba(34, 197, 94, 0.2); }
+.printTable .qGood      { background: rgba(59, 130, 246, 0.2); }
+.printTable .qAcceptable{ background: rgba(245, 158, 11, 0.2); }
+.printTable .qSoft      { background: rgba(239, 68, 68, 0.2); }
+
+.controlGroup {
+  border: none;
+  padding: 0;
+  margin: 0 0 12px;
+}
+.legend {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.emptyState {
+  padding: 24px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
