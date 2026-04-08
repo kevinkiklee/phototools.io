@@ -29,6 +29,18 @@ const nextConfig: NextConfig = {
     ]
   },
   async headers() {
+    // Vercel Live toolbar (feedback widget, comments, real-time presence) is
+    // injected on preview/deployment URLs by the Vercel platform. Allowing
+    // vercel.live and its Pusher websocket only on non-production environments
+    // keeps the production CSP locked down while preview URLs stay functional.
+    const isProd = process.env.VERCEL_ENV === 'production'
+    const vercelLiveScript = isProd ? '' : ' https://vercel.live'
+    const vercelLiveStyle = isProd ? '' : ' https://vercel.live'
+    const vercelLiveImg = isProd ? '' : ' https://vercel.live https://vercel.com'
+    const vercelLiveConnect = isProd ? '' : ' https://vercel.live wss://ws-us3.pusher.com'
+    const vercelLiveFrame = isProd ? '' : ' https://vercel.live'
+    const vercelLiveFont = isProd ? '' : ' https://vercel.live https://assets.vercel.com'
+
     return [
       {
         source: '/images/:path*',
@@ -51,12 +63,12 @@ const nextConfig: NextConfig = {
             key: 'Content-Security-Policy',
             value: [
               "default-src 'self'",
-              `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''} https://www.googletagmanager.com https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://cdn-cookieyes.com https://va.vercel-scripts.com https://us-assets.i.posthog.com https://static.cloudflareinsights.com https://connect.facebook.net`,
-              "style-src 'self' 'unsafe-inline'",
-              "img-src 'self' blob: data: https://pagead2.googlesyndication.com https://www.google.com https://googleads.g.doubleclick.net https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://cdn-cookieyes.com https://www.facebook.com",
-              "font-src 'self'",
-              "connect-src 'self' blob: https://www.google.com https://analytics.google.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://cdn-cookieyes.com https://log.cookieyes.com https://us.i.posthog.com https://us-assets.i.posthog.com https://cloudflareinsights.com https://www.facebook.com",
-              "frame-src 'self' https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.google.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://www.facebook.com",
+              `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''} https://www.googletagmanager.com https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://cdn-cookieyes.com https://va.vercel-scripts.com https://us-assets.i.posthog.com https://static.cloudflareinsights.com https://connect.facebook.net${vercelLiveScript}`,
+              `style-src 'self' 'unsafe-inline'${vercelLiveStyle}`,
+              `img-src 'self' blob: data: https://pagead2.googlesyndication.com https://www.google.com https://googleads.g.doubleclick.net https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://cdn-cookieyes.com https://www.facebook.com${vercelLiveImg}`,
+              `font-src 'self'${vercelLiveFont}`,
+              `connect-src 'self' blob: https://www.google.com https://analytics.google.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://cdn-cookieyes.com https://log.cookieyes.com https://us.i.posthog.com https://us-assets.i.posthog.com https://cloudflareinsights.com https://www.facebook.com${vercelLiveConnect}`,
+              `frame-src 'self' https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.google.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://www.facebook.com${vercelLiveFrame}`,
               "frame-ancestors 'self'",
               "base-uri 'self'",
               "form-action 'self'",
