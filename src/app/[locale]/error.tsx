@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import * as Sentry from '@sentry/nextjs'
 
 export default function GlobalError({
   error,
@@ -10,8 +11,7 @@ export default function GlobalError({
   reset: () => void
 }) {
   useEffect(() => {
-    // Log to console for Vercel's runtime logs
-    console.error('[PhotoTools] Unhandled error:', error.message, error.digest ?? '')
+    Sentry.captureException(error)
   }, [error])
 
   return (

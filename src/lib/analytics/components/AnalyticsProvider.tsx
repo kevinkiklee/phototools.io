@@ -11,11 +11,10 @@ import { initPostHog, upgradePostHog, downgradePostHog } from '../providers/post
 import { updateGA4Consent, trackGA4PageView } from '../providers/ga4'
 import { initMeta, setMetaEnabled, getMetaPixelId, trackMeta } from '../providers/meta'
 import { getConsentState, onConsentChange, getDevConsentOverride } from '../consent'
-import { setupGlobalErrorHandlers } from '../error-tracking'
 import { setGlobalProperties, dispatch, trackPageView } from '../index'
 import type { ConsentState } from '../consent'
 import type { GlobalProperties, ViewportType } from '../types'
-import { AnalyticsErrorBoundary } from './AnalyticsErrorBoundary'
+import * as Sentry from '@sentry/nextjs'
 
 function getViewportType(): ViewportType {
   if (typeof window === 'undefined') return 'desktop'
@@ -54,8 +53,6 @@ export function AnalyticsProvider({ children }: AnalyticsProviderProps) {
 
     initPostHog()
 
-    const cleanupErrors = setupGlobalErrorHandlers(dispatch)
-
     const devOverride = getDevConsentOverride()
     if (devOverride) {
       applyConsent(devOverride)
@@ -90,7 +87,6 @@ export function AnalyticsProvider({ children }: AnalyticsProviderProps) {
     }
 
     return () => {
-      cleanupErrors()
       cleanupConsent()
     }
   }, [enabled])
@@ -128,6 +124,12 @@ export function AnalyticsProvider({ children }: AnalyticsProviderProps) {
       tool_category: tool?.category || null,
     }
     setGlobalProperties(props)
+    Sentry.setContext('phototools', {
+      tool_slug: toolSlug,
+      tool_category: tool?.category || null,
+      locale,
+      viewport_type: getViewportType(),
+    })
   }, [locale, pathname, enabled])
 
   useEffect(() => {
@@ -159,7 +161,7 @@ export function AnalyticsProvider({ children }: AnalyticsProviderProps) {
   const metaPixelId = getMetaPixelId()
 
   return (
-    <AnalyticsErrorBoundary>
+    <Sentry.ErrorBoundary fallback={<>{children}</>}>
       {children}
       <SpeedInsights />
       <Analytics />
@@ -179,6 +181,6 @@ export function AnalyticsProvider({ children }: AnalyticsProviderProps) {
           {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');`}
         </Script>
       )}
-    </AnalyticsErrorBoundary>
+    </Sentry.ErrorBoundary>
   )
 }
