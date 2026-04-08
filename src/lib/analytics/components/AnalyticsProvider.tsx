@@ -11,7 +11,7 @@ import { initPostHog, upgradePostHog, downgradePostHog } from '../providers/post
 import { updateGA4Consent, trackGA4PageView } from '../providers/ga4'
 import { initMeta, setMetaEnabled, getMetaPixelId, trackMeta } from '../providers/meta'
 import { getConsentState, onConsentChange, getDevConsentOverride } from '../consent'
-import { setGlobalProperties, dispatch, trackPageView } from '../index'
+import { setGlobalProperties, trackPageView } from '../index'
 import type { ConsentState } from '../consent'
 import type { GlobalProperties, ViewportType } from '../types'
 import * as Sentry from '@sentry/nextjs'

@@ -23,7 +23,7 @@ PhotoTools is an educational photography application — free calculators, simul
 - `npm run dev` — start dev server with Turbopack at `http://localhost:3000`
 - `npm run build` — production build via `next build`
 - `npm run start` — serve production build locally
-- `npm test` — run Vitest tests (724 tests across 44 files)
+- `npm test` — run Vitest tests (780 tests across 56 files)
 - `npm run test:watch` — run tests in watch mode
 - `npm run test:e2e` — run Playwright e2e tests (requires a build first)
 - `npm run test:e2e:ui` — run Playwright tests with interactive UI
@@ -36,11 +36,11 @@ All source code lives under `src/`, with `@/` aliased to `src/` in tsconfig.json
 - **App Router**: All routes under `src/app/[locale]/`. Root layout (`src/app/layout.tsx`) imports globals.css and provides `<html>`/`<body>`. Locale layout (`src/app/[locale]/layout.tsx`) validates the locale, calls `setRequestLocale()`, wraps children in `NextIntlClientProvider`, and renders providers. Homepage at `src/app/[locale]/page.tsx`. Each tool at `src/app/[locale]/[slug]/page.tsx`. Glossary at `src/app/[locale]/learn/glossary/page.tsx`. Additional pages: `/[locale]/about`, `/[locale]/contact`, `/[locale]/privacy`, `/[locale]/terms`. API route (not locale-prefixed): `src/app/api/contact/route.ts`.
 - **Locale Routing**: Middleware (`src/middleware.ts`) handles locale detection (URL prefix → `NEXT_LOCALE` cookie → `Accept-Language` header → fallback `en`). All pages are locale-prefixed: `/en/fov-simulator`, `/es/fov-simulator`, etc. Tool slugs stay in English across all locales.
 - **Tool Co-location**: Each tool's components live in `src/app/[locale]/[slug]/_components/` alongside its `page.tsx`. The `_` prefix makes it a private folder (not a route segment). Page files import from `./_components/...` using relative paths. When importing types from tool `_components/` in `src/lib/`, use `@/app/[locale]/...` path.
-- **Shared Components**: `src/components/` contains only shared/reusable code: `layout/` (Nav, Footer, ThemeProvider, ThemeToggle) and `shared/` (LearnPanel, ChallengeCard, ControlPanel, FocalLengthField, ToolIcon, InfoTooltip, ShareModal, ToolActions, FileDropZone, PhotoUploadPanel, ScenePicker, DraftBanner, JsonLd, DoFDiagram, DoFCanvas, AnimatedGrid, ModeToggle, AdUnit, AdScripts, MobileAdBanner, LanguageSwitcher, HtmlLang).
+- **Shared Components**: `src/components/` contains only shared/reusable code: `layout/` (Nav, Footer, ThemeProvider, ThemeToggle) and `shared/` (LearnPanel, ChallengeCard, ControlPanel, FocalLengthField, ApertureField, DistanceField, ToolIcon, InfoTooltip, ShareModal, ToolActions, FileDropZone, PhotoUploadPanel, ScenePicker, DraftBanner, JsonLd, DoFDiagram, DoFCanvas, AnimatedGrid, ModeToggle, AdUnit, AdScripts, MobileAdBanner, LanguageSwitcher, ApertureLogo, Calculator, FaqSection, RelatedTools).
 - **Tool Registry**: `src/lib/data/tools.ts` defines all tools with slug, name, description, `dev`/`prod` status fields (`'live'`/`'draft'`/`'disabled'`), and category. `getLiveTools()` returns live tools. `getVisibleTools()` returns live + draft. `getToolBySlug()` looks up by slug. `getAllTools()` returns all tools regardless of status.
 - **Education System**: `src/lib/data/education/` contains per-tool education skeletons (non-translatable data: IDs, difficulty levels, correct answers, option values). All translatable education text lives in `src/lib/i18n/messages/en/education/*.json`. `LearnPanel` and `ChallengeCard` render by combining skeleton data with translations.
-- **Pure Math Modules**: `src/lib/math/` contains pure functions for FOV, DOF, exposure (including shader math for CoC, motion blur, noise), diffraction, star trails, color, histogram, compression, frame, and grid calculations. Each has co-located `.test.ts` files. TDD approach — math is tested independently from UI.
-- **Data**: `src/lib/data/` centralizes all pure data. Shared data files (with tests): tool registry, education skeletons, sensors, focal lengths, scenes, glossary, camera settings (apertures/shutter speeds/ISOs), ND filters, white balance presets. Per-tool data files: `frameStudio.ts`, `exposureScenes.ts`, `fovSimulator.ts`, `colorSchemeGenerator.ts`, `exifViewer.ts`, `starTrailCalculator.ts`, `dofSimulator.ts`, `hyperfocalSimulator.ts`, `perspectiveCompression.ts`.
+- **Pure Math Modules**: `src/lib/math/` contains pure functions for FOV, DOF, exposure (including shader math for CoC, motion blur, noise), diffraction, star trails, color (color.ts, color-harmony.ts, color-hsl.ts, color-kelvin.ts), histogram, compression, frame (frame.ts, frame-border.ts, frame-texture.ts), and grid (grid.ts, grid-basic.ts, grid-golden.ts) calculations. Each has co-located `.test.ts` files. TDD approach — math is tested independently from UI.
+- **Data**: `src/lib/data/` centralizes all pure data. Shared data files (with tests): tool registry, education skeletons, sensors, focal lengths, scenes, glossary, camera settings (apertures/shutter speeds/ISOs), ND filters, white balance presets, FAQ. Per-tool data files: `frameStudio.ts`, `exposureScenes.ts`, `fovSimulator.ts`, `colorSchemeGenerator.ts`, `exifViewer.ts`, `starTrailCalculator.ts`, `dofSimulator.ts`, `hyperfocalSimulator.ts`, `perspectiveCompression.ts`, `equivalentSettings.ts`, `focusStacking.ts`.
 
 ## Key Directories
 
@@ -71,19 +71,19 @@ src/
       request.ts          Message loader — merges all JSON files per locale
       redirects.ts        Centralized redirect rules (consumed by next.config.ts)
       metadata.ts         getAlternates() helper for hreflang in page metadata
-      messages/en/        English translations (source of truth, 37 files)
-      messages/es/        Spanish translations (37 files)
-      messages/ja/        Japanese translations (37 files)
-      messages/de/        German translations (37 files)
-      messages/fr/        French translations (37 files)
+      messages/en/        English translations (source of truth, 41 files)
+      messages/es/        Spanish translations (41 files)
+      messages/ja/        Japanese translations (41 files)
+      messages/de/        German translations (41 files)
+      messages/fr/        French translations (41 files)
     math/                 Pure calculation modules
     data/                 All pure data: shared + per-tool
     data/education/       Per-tool education skeletons, types, barrel export
     ads.ts                Ad configuration and feature flags
-    utils/                Query sync, export helpers
+    utils/                Query sync, EXIF parsing, canvas/image export helpers
     types.ts              Shared TypeScript types
     og.tsx + og-layout.tsx  OpenGraph image generation
-  middleware.ts           next-intl locale detection and routing
+  proxy.ts               Routing Middleware — locale detection, zh-TW redirect
   e2e/                    Playwright e2e test specs
 scripts/
   check-translations.mjs  Verify all locales have complete key coverage
@@ -211,6 +211,18 @@ Education skeletons in `src/lib/data/education/content*.ts` define non-translata
 
 GoogleAdSense integration managed via `src/lib/ads.ts` (configuration and feature flags). Components: `AdUnit` (individual ad slots), `MobileAdBanner` (responsive mobile banner), `AdScripts` (script injection in layout). Environment variables: `NEXT_PUBLIC_ADSENSE_CLIENT`, `NEXT_PUBLIC_COOKIEYES_ID`. Ad units are hidden until real slot IDs are configured.
 
+## Observability
+
+Three external services provide production monitoring:
+
+- **Sentry** (`@sentry/nextjs`) — client + server error tracking, performance tracing. Config: `sentry.client.config.ts`, `sentry.server.config.ts`, `src/instrumentation.ts`. Tunnel via `/monitoring` route (bypasses ad blockers). Source maps uploaded at build time via `withSentryConfig()`.
+- **Axiom** — log aggregation via Vercel Marketplace log drain (zero code). Receives structured JSON from `src/lib/logger.ts` (server-only). 10-day retention on free tier.
+- **BetterStack** — uptime monitoring. Pings `/api/health` and homepage every 3 minutes. Critical alerts → email + Discord.
+
+**Structured Logger** (`src/lib/logger.ts`): server-only, `import 'server-only'` enforced. Three levels: `info`, `warn`, `error`. Required `module` param for Axiom filtering. JSON in production, pretty-print in development. See `src/lib/logger.test.ts` for usage patterns.
+
+**Environment variables** (Vercel, Production + Preview only): `NEXT_PUBLIC_SENTRY_DSN`, `SENTRY_AUTH_TOKEN`, `SENTRY_ORG`, `SENTRY_PROJECT`.
+
 ## Security Headers
 
 `next.config.ts` defines CSP, HSTS, and other security headers. `unsafe-eval` is included in CSP `script-src` only in development (React requires it for dev tooling). Never add `unsafe-eval` in production.
@@ -229,7 +241,7 @@ GoogleAdSense integration managed via `src/lib/ads.ts` (configuration and featur
 - **DRY**: Avoid duplicating logic, styles, constants, or markup. Extract shared utilities, components, and data modules. When adding a feature, check if similar patterns already exist in the codebase and reuse them.
 - **200-line file limit**: Keep all `.ts`/`.tsx` files under 200 lines (test files exempt). If a file grows beyond this, break it into smaller focused modules (e.g. extract hooks, sub-components, helpers, constants, or types into separate files).
 - **Test files** co-located next to source files (`*.test.ts`)
-- **44 test files, 724 tests** covering math, data, education, ads, i18n (including all 31 locales), and component integration
+- **56 test files, 780 tests** covering math, data, education, ads, i18n (including all 31 locales), observability, and component integration
 - **After file changes in `src/app/`**, clear `.next` cache (`rm -rf .next`) and restart dev server to avoid stale MIME type and 404 errors
 - **i18n strings required**: Whenever a new user-facing string is added or an existing one is modified, create or update the corresponding translation in the appropriate JSON file under `src/lib/i18n/messages/en/`. Never hardcode user-facing text directly in components — always use `useTranslations` (client) or `getTranslations` (server) to reference translation keys.
 - **Privacy Sandbox is deprecated** — do not discuss, recommend, or implement any Privacy Sandbox APIs (Topics, Attribution Reporting, Protected Audience, etc.)
@@ -248,6 +260,10 @@ src/e2e/
   tools/sensor-size.spec.ts      Sensor Size Comparison interaction tests
   tools/star-trail.spec.ts       Star Trail Calculator interaction tests
   tools/white-balance.spec.ts    White Balance Visualizer interaction tests
+  tools/dof-simulator.spec.ts    Depth of Field Simulator interaction tests
+  tools/exposure-simulator.spec.ts  Exposure Simulator interaction tests
+  tools/hyperfocal.spec.ts       Hyperfocal Distance Simulator interaction tests
+  tools/nd-filter.spec.ts        ND Filter Calculator interaction tests
   fixtures/test-image.jpg        Minimal JPEG fixture for upload tests
 ```
 
