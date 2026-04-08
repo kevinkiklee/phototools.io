@@ -59,6 +59,10 @@
     "exif-viewer": {
       "name": "EXIFビューアー",
       "description": "写真のEXIFメタデータとヒストグラムを表示 — 100%クライアントサイド処理"
+    },
+    "megapixel-visualizer": {
+      "name": "Megapixel Size Visualizer",
+      "description": "Compare megapixels, visualize print sizes, and see file sizes across aspect ratios and DPIs"
     }
   }
 }

@@ -59,6 +59,10 @@
     "exif-viewer": {
       "name": "ตัวดู EXIF",
       "description": "ดูข้อมูล EXIF และฮิสโตแกรมสำหรับรูปภาพใดก็ได้ — ประมวลผลบนเครื่อง 100%"
+    },
+    "megapixel-visualizer": {
+      "name": "Megapixel Size Visualizer",
+      "description": "Compare megapixels, visualize print sizes, and see file sizes across aspect ratios and DPIs"
     }
   }
 }

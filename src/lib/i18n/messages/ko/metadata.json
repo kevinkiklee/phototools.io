@@ -85,6 +85,10 @@
     "glossary": {
       "title": "사진 용어 사전",
       "description": "인터랙티브 도구 링크가 포함된 50개 이상의 사진 용어 정의를 검색할 수 있는 용어 사전."
+    },
+    "megapixel-visualizer": {
+      "title": "Megapixel Size Visualizer",
+      "description": "Visualize how megapixels translate to print sizes at 72-300 DPI, across aspect ratios. Compare cameras, file sizes, pixel binning, and crop reach — with a quality-tiered print table."
     }
   }
 }

@@ -59,6 +59,10 @@
     "exif-viewer": {
       "name": "EXIF ভিউয়ার",
       "description": "যেকোনো ছবির EXIF মেটাডেটা ও হিস্টোগ্রাম দেখো — ১০০% ব্রাউজারে"
+    },
+    "megapixel-visualizer": {
+      "name": "Megapixel Size Visualizer",
+      "description": "Compare megapixels, visualize print sizes, and see file sizes across aspect ratios and DPIs"
     }
   }
 }

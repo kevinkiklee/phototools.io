@@ -59,6 +59,10 @@
     "exif-viewer": {
       "name": "Pemapar EXIF",
       "description": "Lihat metadata EXIF dan histogram mana-mana foto — 100% di sebelah klien"
+    },
+    "megapixel-visualizer": {
+      "name": "Megapixel Size Visualizer",
+      "description": "Compare megapixels, visualize print sizes, and see file sizes across aspect ratios and DPIs"
     }
   }
 }

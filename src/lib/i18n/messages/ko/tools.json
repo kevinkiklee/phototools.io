@@ -59,6 +59,10 @@
     "exif-viewer": {
       "name": "EXIF 뷰어",
       "description": "모든 사진의 EXIF 메타데이터와 히스토그램을 확인합니다 — 100% 클라이언트 처리"
+    },
+    "megapixel-visualizer": {
+      "name": "Megapixel Size Visualizer",
+      "description": "Compare megapixels, visualize print sizes, and see file sizes across aspect ratios and DPIs"
     }
   }
 }

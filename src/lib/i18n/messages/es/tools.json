@@ -59,6 +59,10 @@
     "exif-viewer": {
       "name": "Visor EXIF",
       "description": "Visualiza metadatos EXIF e histograma de cualquier foto — 100% en el navegador"
+    },
+    "megapixel-visualizer": {
+      "name": "Megapixel Size Visualizer",
+      "description": "Compare megapixels, visualize print sizes, and see file sizes across aspect ratios and DPIs"
     }
   }
 }

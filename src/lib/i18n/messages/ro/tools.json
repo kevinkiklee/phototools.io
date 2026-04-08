@@ -59,6 +59,10 @@
     "exif-viewer": {
       "name": "Vizualizator EXIF",
       "description": "Vezi datele EXIF și histograma oricărei fotografii — 100% în browser"
+    },
+    "megapixel-visualizer": {
+      "name": "Megapixel Size Visualizer",
+      "description": "Compare megapixels, visualize print sizes, and see file sizes across aspect ratios and DPIs"
     }
   }
 }
