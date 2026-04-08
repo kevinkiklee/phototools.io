@@ -17,5 +17,9 @@ export default function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: '/((?!api|trpc|monitoring|_next|_vercel|.*\\..*).*)',
+  // Exclude `phog` so next-intl doesn't prepend a locale to the PostHog
+  // reverse-proxy paths defined as rewrites in next.config.ts. Without this,
+  // /phog/ingest/e becomes /en/phog/ingest/e and 404s instead of being
+  // forwarded to eu.i.posthog.com.
+  matcher: '/((?!api|trpc|monitoring|phog|_next|_vercel|.*\\..*).*)',
 }
