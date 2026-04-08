@@ -28,3 +28,37 @@ export interface ToolDef {
   prod: ToolStatus
   category: ToolCategory
 }
+
+export type UnitSystem = 'metric' | 'imperial'
+
+export interface AspectRatio {
+  id: string       // '3x2' (url-safe)
+  label: string    // '3:2'
+  w: number
+  h: number
+}
+
+export interface MegapixelPreset {
+  id: string       // 'mp_24'
+  mp: number
+  name: string     // '24 MP'
+  models?: string
+  tag: 'phone' | 'mf' | 'ff' | 'apsc' | 'm43' | 'extreme'
+  color: string
+}
+
+export interface PrintSizePreset {
+  id: string
+  label: string
+  wMm: number
+  hMm: number
+  system: UnitSystem
+}
+
+export interface CustomMegapixel {
+  id: string
+  name: string
+  mp: number
+  aspectOverride?: string   // aspectId or undefined to follow global
+  color: string
+}
