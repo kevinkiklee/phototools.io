@@ -20,7 +20,7 @@ test.describe('DOF Simulator', () => {
     // Results panel should show key result labels
     await expect(panel.getByText('Near Focus')).toBeVisible()
     await expect(panel.getByText('Far Focus')).toBeVisible()
-    await expect(panel.getByText('Total DoF')).toBeVisible()
+    await expect(panel.getByText('Total Depth of Field')).toBeVisible()
     await expect(panel.getByText('Hyperfocal')).toBeVisible()
 
     // Results should display numeric values (not empty)
@@ -109,12 +109,11 @@ test.describe('DOF Simulator', () => {
     const sensorSelect = panel.locator('select').first()
     await sensorSelect.selectOption('apsc_n')
 
-    // Wait for recalculation
-    await page.waitForTimeout(200)
-
-    // Hyperfocal distance should change
-    const updatedHyper = await hyperfocalCard.locator('[class*="resultValue"]').textContent()
-    expect(updatedHyper).not.toBe(initialHyper)
+    // Wait for recalculation and poll until the hyperfocal value updates
+    await expect(async () => {
+      const updatedHyper = await hyperfocalCard.locator('[class*="resultValue"]').textContent()
+      expect(updatedHyper).not.toBe(initialHyper)
+    }).toPass({ timeout: 5000 })
   })
 
   test('orientation toggle switches between landscape and portrait', async ({ page }) => {

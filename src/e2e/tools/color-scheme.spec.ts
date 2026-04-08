@@ -108,9 +108,12 @@ test.describe('Color Scheme Generator', () => {
     await expect(modal).not.toBeVisible()
   })
 
-  test('copy palette hex button', async ({ page }) => {
-    // Grant clipboard permissions
-    await page.context().grantPermissions(['clipboard-read', 'clipboard-write'])
+  test('copy palette hex button', async ({ page, browserName }) => {
+    // Firefox doesn't support clipboard-read/clipboard-write permissions in
+    // Playwright's permissions API; it grants clipboard writes automatically.
+    if (browserName !== 'firefox') {
+      await page.context().grantPermissions(['clipboard-read', 'clipboard-write'])
+    }
 
     // Click the Hex copy button (scoped to copy group, not swatches)
     const copyGroup = page.locator('[class*="copyGroup"]')

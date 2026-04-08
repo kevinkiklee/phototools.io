@@ -133,8 +133,11 @@ test.describe('Exposure Simulator', () => {
   })
 
   test('canvas renders (WebGL preview)', async ({ page }) => {
+    // The canvas is display:none while the scene texture loads (see
+    // ExposurePreview.tsx). Firefox is slower to load, so allow extra time
+    // for the canvas to become visible.
     const canvas = page.locator('canvas').first()
-    await expect(canvas).toBeVisible()
+    await expect(canvas).toBeVisible({ timeout: 15000 })
     const box = await canvas.boundingBox()
     expect(box!.width).toBeGreaterThan(0)
     expect(box!.height).toBeGreaterThan(0)
@@ -143,8 +146,8 @@ test.describe('Exposure Simulator', () => {
   test('scene selector changes preview', async ({ page }) => {
     const canvas = page.locator('canvas').first()
 
-    // Wait for initial render
-    await page.waitForTimeout(500)
+    // Wait for the canvas to become visible (scene texture loaded)
+    await expect(canvas).toBeVisible({ timeout: 15000 })
     const before = await canvas.screenshot()
 
     // Click a different scene thumbnail (second one)
@@ -152,7 +155,9 @@ test.describe('Exposure Simulator', () => {
     const count = await sceneThumbs.count()
     if (count > 1) {
       await sceneThumbs.nth(1).click()
-      await page.waitForTimeout(1000) // WebGL needs time to load new scene textures
+      // Wait for the new scene to load — canvas briefly goes hidden during load
+      await expect(canvas).toBeVisible({ timeout: 15000 })
+      await page.waitForTimeout(500) // extra time for the WebGL draw
       const after = await canvas.screenshot()
       expect(Buffer.compare(before, after)).not.toBe(0)
     }

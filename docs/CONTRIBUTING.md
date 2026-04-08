@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Dev server runs at `http://localhost:3100`.
+Dev server runs at `http://localhost:3200`.
 
 ## Development Workflow
 
