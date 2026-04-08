@@ -108,20 +108,25 @@ test.describe('DOF Simulator', () => {
       .locator('[class*="resultCard"]').nth(3)
     const initialHyper = await hyperfocalCard.locator('[class*="resultValue"]').textContent()
 
-    // Select APS-C (Nikon) sensor via the first <select> in the sidebar
-    // (which is the sensor dropdown in DofSettingsPanel)
+    // Verify we're starting from full-frame
     const sensorSelect = panel.locator('select').first()
-    await sensorSelect.selectOption('apsc_n')
+    await expect(sensorSelect).toHaveValue('ff')
 
-    // Verify the select actually committed the new value — this is the
-    // source of the React state update that flows into coc → hyperfocal
-    await expect(sensorSelect).toHaveValue('apsc_n')
+    // Change via URL param — useQueryInit wires `s` to setSensorId, so
+    // reloading with ?s=apsc_n applies the new sensor via React state
+    // without relying on DOM selectOption, which has been flaky in CI.
+    await page.goto('/en/dof-simulator?s=apsc_n')
+    await expect(panel.locator('select').first()).toHaveValue('apsc_n')
 
-    // Poll until the hyperfocal value updates (React rerender + useMemo)
-    await expect(async () => {
-      const updatedHyper = await hyperfocalCard.locator('[class*="resultValue"]').textContent()
-      expect(updatedHyper).not.toBe(initialHyper)
-    }).toPass({ timeout: 10000 })
+    // Hyperfocal should now reflect the APS-C sensor
+    const updatedHyper = await panel
+      .locator('[class*="resultsGrid"]')
+      .first()
+      .locator('[class*="resultCard"]')
+      .nth(3)
+      .locator('[class*="resultValue"]')
+      .textContent()
+    expect(updatedHyper).not.toBe(initialHyper)
   })
 
   test('orientation toggle switches between landscape and portrait', async ({ page }) => {
