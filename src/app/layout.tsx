@@ -10,7 +10,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html suppressHydrationWarning>
       <head>
         <meta name="facebook-domain-verification" content="ggwy69tbq5cn3pvypxdvay1xl6ykjs" />
-        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+        {/* suppressHydrationWarning: AdSense / ad-blocker browser extensions
+            rewrite inline <script> tags in <head> before React hydrates
+            (seen in the wild: pagead2.googlesyndication.com replacing the
+            attributes). The `suppressHydrationWarning` on <html> does not
+            cascade to descendant mismatches, so we mark this tag explicitly. */}
+        <script
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: themeInitScript }}
+        />
       </head>
       <body style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
         {children}
