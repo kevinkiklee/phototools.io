@@ -16,8 +16,16 @@ const nextConfig: NextConfig = {
   },
   async rewrites() {
     return [
-      { source: '/phog/ingest/:path*', destination: 'https://eu.i.posthog.com/:path*' },
-      { source: '/phog/assets/:path*', destination: 'https://eu-assets.i.posthog.com/:path*' },
+      // Static JS bundles (recorder.js, feature-flags.js, etc.) and the per-project
+      // config.js wrapper must come from the assets host so they arrive with
+      // content-type: application/javascript. The ingest host serves the same
+      // paths as JSON (or 404s), which the browser refuses to execute.
+      { source: '/phog/ingest/static/:path*', destination: 'https://us-assets.i.posthog.com/static/:path*' },
+      { source: '/phog/ingest/array/:path*', destination: 'https://us-assets.i.posthog.com/array/:path*' },
+      // Ingest endpoints: /e/, /i/v0/e/, /decide, /flags, /capture, etc.
+      // Note: this project lives on the US PostHog instance (phc_o9Zy… is not
+      // registered at eu.i.posthog.com), so EU rewrites would 401/404.
+      { source: '/phog/ingest/:path*', destination: 'https://us.i.posthog.com/:path*' },
     ]
   },
   async headers() {
@@ -43,11 +51,11 @@ const nextConfig: NextConfig = {
             key: 'Content-Security-Policy',
             value: [
               "default-src 'self'",
-              `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''} https://www.googletagmanager.com https://pagead2.googlesyndication.com https://cdn-cookieyes.com https://va.vercel-scripts.com https://eu-assets.i.posthog.com https://connect.facebook.net`,
+              `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''} https://www.googletagmanager.com https://pagead2.googlesyndication.com https://cdn-cookieyes.com https://va.vercel-scripts.com https://us-assets.i.posthog.com https://static.cloudflareinsights.com https://connect.facebook.net`,
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' blob: data: https://pagead2.googlesyndication.com https://www.google.com https://googleads.g.doubleclick.net https://cdn-cookieyes.com https://www.facebook.com",
               "font-src 'self'",
-              "connect-src 'self' blob: https://www.google.com https://analytics.google.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://pagead2.googlesyndication.com https://cdn-cookieyes.com https://log.cookieyes.com https://eu.i.posthog.com https://www.facebook.com",
+              "connect-src 'self' blob: https://www.google.com https://analytics.google.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://cdn-cookieyes.com https://log.cookieyes.com https://us.i.posthog.com https://us-assets.i.posthog.com https://cloudflareinsights.com https://www.facebook.com",
               "frame-src 'self' https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.google.com https://www.facebook.com",
               "frame-ancestors 'self'",
               "base-uri 'self'",

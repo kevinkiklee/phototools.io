@@ -35,8 +35,6 @@ for (const page of pages) {
           !e.includes('adsbygoogle') &&
           !e.includes('_vercel/speed-insights') &&
           !e.includes('posthog') &&
-          !e.includes('eu.i.posthog.com') &&
-          !e.includes('eu-assets.i.posthog.com') &&
           !e.includes('/phog/') &&
           !e.includes('connect.facebook.net') &&
           !e.includes('fbevents.js') &&
