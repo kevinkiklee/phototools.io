@@ -16,6 +16,8 @@ interface ParamDef<T> {
   serialize: (val: T) => string
   /** Default value (omitted from URL when equal) */
   default: T
+  /** Optional custom equality — defaults to `===`. */
+  equals?: (a: T, b: T) => boolean
 }
 
 export type ParamSchema = Record<string, ParamDef<unknown>>
@@ -42,7 +44,8 @@ export function stateToQuery<S extends Record<string, unknown>>(state: S, schema
   for (const key in schema) {
     const def = schema[key]
     const val = state[key]
-    if (val !== def.default) {
+    const isDefault = def.equals ? def.equals(val, def.default) : val === def.default
+    if (!isDefault) {
       parts.push(`${encodeURIComponent(key)}=${encodeURIComponent(def.serialize(val)).replace(/%2B/gi, '+')}`)
     }
   }
@@ -118,5 +121,20 @@ export function sensorParam(defaultVal: string = 'ff'): ParamDef<string> {
     default: defaultVal,
     parse: (raw) => raw || undefined,
     serialize: (v) => v,
+  }
+}
+
+export function idSetParam(defaultIds: readonly string[]): ParamDef<Set<string>> {
+  const defaultSet = new Set(defaultIds)
+  return {
+    default: defaultSet,
+    parse: (raw) => {
+      if (!raw) return undefined
+      const ids = raw.split(/[+, ]+/).filter(Boolean)
+      return ids.length > 0 ? new Set(ids) : undefined
+    },
+    serialize: (v) => Array.from(v).sort().join('+'),
+    equals: (a, b) =>
+      a.size === b.size && [...a].every(x => b.has(x)),
   }
 }

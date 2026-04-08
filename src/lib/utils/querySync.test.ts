@@ -1,5 +1,5 @@
 import { describe, it, expect, afterEach, vi } from 'vitest'
-import { numParam, intParam, strParam, sensorParam, parseQueryState, stateToQuery } from './querySync'
+import { numParam, intParam, strParam, sensorParam, parseQueryState, stateToQuery, idSetParam } from './querySync'
 
 describe('numParam', () => {
   const param = numParam(50, 10, 200)
@@ -279,5 +279,46 @@ describe('stateToQuery', () => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const qs = stateToQuery(state, schema as any)
     expect(qs).toBe('focal=200&iso=800&mode=manual&sensor=apsc')
+  })
+})
+
+describe('idSetParam', () => {
+  const schema = { visible: idSetParam(['a', 'b']) }
+
+  it('parses "a+c" into Set(a, c)', () => {
+    vi.stubGlobal('window', { location: { search: '?visible=a+c' } })
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const s = parseQueryState<{ visible: Set<string> }>(schema as any)
+    expect(s.visible).toEqual(new Set(['a', 'c']))
+    vi.unstubAllGlobals()
+  })
+
+  it('omits from query when Set contents equal default', () => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const qs = stateToQuery({ visible: new Set(['b', 'a']) }, schema as any)
+    expect(qs).toBe('')
+  })
+
+  it('serializes Set(a, c) alphabetically when different from default', () => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const qs = stateToQuery({ visible: new Set(['c', 'a']) }, schema as any)
+    expect(qs).toBe('visible=a+c')
+  })
+})
+
+describe('ParamDef.equals', () => {
+  it('is honored by stateToQuery for custom equality', () => {
+    const schema = {
+      s: {
+        default: new Set(['a']),
+        parse: (raw: string) => new Set(raw.split('+')),
+        serialize: (v: Set<string>) => Array.from(v).join('+'),
+        equals: (a: Set<string>, b: Set<string>) =>
+          a.size === b.size && [...a].every(x => b.has(x)),
+      },
+    }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const qs = stateToQuery({ s: new Set(['a']) }, schema as any)
+    expect(qs).toBe('')
   })
 })
