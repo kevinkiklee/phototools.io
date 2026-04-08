@@ -189,6 +189,24 @@ function EquivalentSettingsCalc(p: IconProps) {
   )
 }
 
+/** Megapixel Size Visualizer — pixel grid with one highlighted cell */
+function MegapixelVisualizerIcon(p: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={s} height={s}
+         fill="none" stroke="currentColor" strokeWidth={1.5}
+         strokeLinecap="round" strokeLinejoin="round" {...p}>
+      <rect x="2" y="2" width="20" height="20" rx="1" />
+      <line x1="7" y1="2" x2="7" y2="22" />
+      <line x1="12" y1="2" x2="12" y2="22" />
+      <line x1="17" y1="2" x2="17" y2="22" />
+      <line x1="2" y1="7" x2="22" y2="7" />
+      <line x1="2" y1="12" x2="22" y2="12" />
+      <line x1="2" y1="17" x2="22" y2="17" />
+      <rect x="7" y="7" width="5" height="5" fill="currentColor" stroke="none" />
+    </svg>
+  )
+}
+
 const ICON_MAP: Record<string, (props: IconProps) => React.JSX.Element> = {
   'fov-simulator': FovSimulator,
   'color-scheme-generator': ColorHarmony,
@@ -206,6 +224,7 @@ const ICON_MAP: Record<string, (props: IconProps) => React.JSX.Element> = {
   'exif-viewer': ExifViewer,
   'perspective-compression-simulator': PerspectiveCompression,
   'frame-studio': FrameStudioIcon,
+  'megapixel-visualizer': MegapixelVisualizerIcon,
 }
 
 interface ToolIconProps extends IconProps {
