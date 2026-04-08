@@ -10,6 +10,7 @@ const TOOL_SLUGS = [
   'shutter-speed-visualizer', 'sensor-size-comparison', 'color-scheme-generator',
   'perspective-compression-simulator', 'exif-viewer', 'nd-filter-calculator',
   'histogram', 'focus-stacking-calculator', 'equivalent-settings-calculator',
+  'megapixel-visualizer',
 ] as const
 
 export default getRequestConfig(async ({ requestLocale }) => {
