@@ -27,6 +27,8 @@
   color: var(--text-primary);
   text-decoration: none;
   letter-spacing: 0.02em;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .logoIcon {
@@ -50,6 +52,8 @@
   padding: var(--space-xs) var(--space-sm);
   border-radius: var(--radius-sm);
   transition: color var(--duration-fast) var(--ease-out), background var(--duration-fast) var(--ease-out);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .navLink:hover {
@@ -68,6 +72,7 @@
   align-self: stretch;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .dropdownButton {
@@ -79,6 +84,7 @@
   padding: var(--space-xs) var(--space-sm);
   border-radius: var(--radius-sm);
   transition: color var(--duration-fast) var(--ease-out), background var(--duration-fast) var(--ease-out);
+  white-space: nowrap;
 }
 
 .dropdownButton:hover {
@@ -247,6 +253,32 @@
     width: 100%;
   }
   .desktopThemeToggle {
+    display: none;
+  }
+}
+
+/* Phone: tighten spacing so Tools / Glossary / Contact / Language
+   all fit inside the viewport. Contact is still reachable from the
+   footer, so hiding it on very narrow screens is the least-lossy
+   way to keep the language switcher from clipping off-screen. */
+@media (max-width: 520px) {
+  .navInner {
+    padding: 0 var(--space-sm);
+  }
+  .navLink,
+  .dropdownWrapper {
+    margin-left: var(--space-sm);
+  }
+  .navLink {
+    padding: var(--space-xs) 6px;
+  }
+  .dropdownButton {
+    padding: var(--space-xs) 6px;
+  }
+}
+
+@media (max-width: 420px) {
+  .contactLink {
     display: none;
   }
 }
